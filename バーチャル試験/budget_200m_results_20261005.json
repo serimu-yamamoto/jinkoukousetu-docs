@@ -1,0 +1,2208 @@
+{
+  "status": "価格確約ではなく設計条件と発注上限",
+  "nominal_force": {
+    "machine_kN": 37.20119871627828,
+    "rope_each_kN": 10.319742552667519,
+    "line_each_service_kN": 28.920341910806656,
+    "line_each_screen_kN": 43.38051286620998,
+    "screen_within_50kN": true,
+    "each_motor_kW_at_service": 23.136273528645326,
+    "each_motor_kW_at_screen": 34.704410292967985
+  },
+  "stress_force": {
+    "machine_kN": 82.72664252804097,
+    "rope_each_kN": 10.319742552667519,
+    "line_each_service_kN": 51.68306381668801,
+    "line_each_screen_kN": 77.524595725032,
+    "screen_within_50kN": false,
+    "each_motor_kW_at_service": 41.34645105335041,
+    "each_motor_kW_at_screen": 62.0196765800256
+  },
+  "nominal_force_limited_payload_m3": 0.8905282764203336,
+  "isolated_groove_example": {
+    "width_m": 4,
+    "length_m": 5,
+    "depth_m": 0.02,
+    "required_m3": 0.4,
+    "nominal_payload_shortfall_m3": 0.10000000000000003
+  },
+  "pressure_kPa_single_row_all_weight": {
+    "0.03": 56.6380614075023,
+    "0.05": 33.98283684450138,
+    "0.1": 16.99141842225069
+  },
+  "nominal_closure_min": 59.03703703703704,
+  "min_speed_for_60_with_10min_cure": 0.5847953216374269,
+  "timing_grid": [
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 140.2051282051282,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 145.2051282051282,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 150.2051282051282,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 160.2051282051282,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 200.2051282051282,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 123.11111111111111,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 128.11111111111111,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 133.11111111111111,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 143.11111111111111,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 183.11111111111111,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 116.16666666666667,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 121.16666666666667,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 126.16666666666667,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 136.16666666666669,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 176.16666666666669,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 104.5925925925926,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 109.5925925925926,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 114.5925925925926,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 124.5925925925926,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.2,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 164.5925925925926,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 97.47008547008546,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 102.47008547008546,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 107.47008547008546,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 117.47008547008546,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 157.47008547008545,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 86.07407407407408,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 91.07407407407408,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 96.07407407407408,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 106.07407407407408,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 146.07407407407408,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 81.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 86.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 91.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 101.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 141.44444444444446,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 73.7283950617284,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 78.7283950617284,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 83.7283950617284,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 93.7283950617284,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.3,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 133.7283950617284,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 76.1025641025641,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 81.1025641025641,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 86.1025641025641,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 96.1025641025641,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 136.1025641025641,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 67.55555555555556,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 72.55555555555556,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 77.55555555555556,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 87.55555555555556,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 127.55555555555556,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 64.08333333333334,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 69.08333333333334,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 74.08333333333334,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 84.08333333333334,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 124.08333333333334,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 58.2962962962963,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 63.2962962962963,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 68.2962962962963,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 78.2962962962963,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.4,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 118.2962962962963,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 63.28205128205128,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 68.28205128205127,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 73.28205128205127,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 83.28205128205127,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 123.28205128205127,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 56.44444444444444,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 61.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 66.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 76.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 116.44444444444444,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 53.666666666666664,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 58.666666666666664,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 63.666666666666664,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 73.66666666666666,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 113.66666666666666,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 49.03703703703704,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 54.03703703703704,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 59.03703703703704,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 69.03703703703704,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.5,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 109.03703703703704,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 54.73504273504273,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 59.73504273504273,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 64.73504273504273,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 74.73504273504273,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 114.73504273504273,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 49.03703703703704,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 54.03703703703704,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 59.03703703703704,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 69.03703703703704,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 109.03703703703704,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 46.72222222222222,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 51.72222222222222,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 56.72222222222222,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 66.72222222222223,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 106.72222222222223,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 42.8641975308642,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 47.8641975308642,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 52.8641975308642,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 62.8641975308642,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.6,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 102.8641975308642,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 48.630036630036635,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 53.630036630036635,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 58.630036630036635,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 68.63003663003664,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 108.63003663003664,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 43.74603174603175,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 48.74603174603175,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 53.74603174603175,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 63.74603174603175,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 103.74603174603175,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 41.76190476190476,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 46.76190476190476,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 51.76190476190476,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 61.76190476190476,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 101.76190476190476,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 38.455026455026456,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 43.455026455026456,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 48.455026455026456,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 58.455026455026456,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.7,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 98.45502645502646,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.65,
+      "cure_min": 0,
+      "closure_min": 44.05128205128205,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.65,
+      "cure_min": 5,
+      "closure_min": 49.05128205128205,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.65,
+      "cure_min": 10,
+      "closure_min": 54.05128205128205,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.65,
+      "cure_min": 20,
+      "closure_min": 64.05128205128204,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.65,
+      "cure_min": 60,
+      "closure_min": 104.05128205128204,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.75,
+      "cure_min": 0,
+      "closure_min": 39.77777777777778,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.75,
+      "cure_min": 5,
+      "closure_min": 44.77777777777778,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.75,
+      "cure_min": 10,
+      "closure_min": 49.77777777777778,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.75,
+      "cure_min": 20,
+      "closure_min": 59.77777777777778,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.75,
+      "cure_min": 60,
+      "closure_min": 99.77777777777777,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.8,
+      "cure_min": 0,
+      "closure_min": 38.04166666666667,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.8,
+      "cure_min": 5,
+      "closure_min": 43.04166666666667,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.8,
+      "cure_min": 10,
+      "closure_min": 48.04166666666667,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.8,
+      "cure_min": 20,
+      "closure_min": 58.04166666666667,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.8,
+      "cure_min": 60,
+      "closure_min": 98.04166666666667,
+      "within_60": false
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.9,
+      "cure_min": 0,
+      "closure_min": 35.14814814814815,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.9,
+      "cure_min": 5,
+      "closure_min": 40.14814814814815,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.9,
+      "cure_min": 10,
+      "closure_min": 45.14814814814815,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.9,
+      "cure_min": 20,
+      "closure_min": 55.14814814814815,
+      "within_60": true
+    },
+    {
+      "speed_m_s": 0.8,
+      "duty": 0.9,
+      "cure_min": 60,
+      "closure_min": 95.14814814814815,
+      "within_60": false
+    }
+  ],
+  "force_grid": [
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 22.483947444869823,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 21.56171627510243,
+      "line_each_screen_kN": 32.34257441265365,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 17.249373020081944,
+      "each_motor_kW_at_screen": 25.874059530122913
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 27.483947444869823,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 24.06171627510243,
+      "line_each_screen_kN": 36.09257441265365,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 19.249373020081944,
+      "each_motor_kW_at_screen": 28.874059530122913
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 37.48394744486983,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 29.06171627510243,
+      "line_each_screen_kN": 43.59257441265365,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 23.24937302008194,
+      "each_motor_kW_at_screen": 34.87405953012291
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 25.473129571271876,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 23.05630733830346,
+      "line_each_screen_kN": 34.58446100745519,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 18.445045870642762,
+      "each_motor_kW_at_screen": 27.66756880596415
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 30.473129571271876,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 25.55630733830346,
+      "line_each_screen_kN": 38.33446100745519,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 20.445045870642762,
+      "each_motor_kW_at_screen": 30.66756880596415
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 40.47312957127187,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 30.556307338303455,
+      "line_each_screen_kN": 45.83446100745518,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 24.44504587064276,
+      "each_motor_kW_at_screen": 36.667568805964144
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 35.935267013679045,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 28.287376059507043,
+      "line_each_screen_kN": 42.43106408926056,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 22.629900847605633,
+      "each_motor_kW_at_screen": 33.944851271408446
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 40.935267013679045,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 30.787376059507043,
+      "line_each_screen_kN": 46.18106408926056,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 24.629900847605633,
+      "each_motor_kW_at_screen": 36.944851271408446
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 50.935267013679045,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 35.78737605950704,
+      "line_each_screen_kN": 53.68106408926056,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 28.629900847605633,
+      "each_motor_kW_at_screen": 42.944851271408446
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 25.032660208207428,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 22.836072656771233,
+      "line_each_screen_kN": 34.254108985156854,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 18.268858125416987,
+      "each_motor_kW_at_screen": 27.403287188125482
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 30.032660208207428,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 25.336072656771233,
+      "line_each_screen_kN": 38.004108985156854,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 20.268858125416987,
+      "each_motor_kW_at_screen": 30.403287188125482
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 40.032660208207425,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 30.33607265677123,
+      "line_each_screen_kN": 45.50410898515685,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 24.268858125416983,
+      "each_motor_kW_at_screen": 36.403287188125475
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 28.021842334609477,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 24.330663719972257,
+      "line_each_screen_kN": 36.49599557995838,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 19.464530975977805,
+      "each_motor_kW_at_screen": 29.196796463966706
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 33.02184233460948,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 26.830663719972257,
+      "line_each_screen_kN": 40.24599557995838,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 21.464530975977805,
+      "each_motor_kW_at_screen": 32.196796463966706
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 43.02184233460948,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 31.830663719972257,
+      "line_each_screen_kN": 47.74599557995838,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.4645309759778,
+      "each_motor_kW_at_screen": 38.196796463966706
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 38.48397977701665,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 29.56173244117584,
+      "line_each_screen_kN": 44.34259866176376,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 23.649385952940673,
+      "each_motor_kW_at_screen": 35.47407892941101
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 43.48397977701665,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 32.06173244117584,
+      "line_each_screen_kN": 48.09259866176376,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.649385952940673,
+      "each_motor_kW_at_screen": 38.47407892941101
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 53.48397977701665,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 37.06173244117585,
+      "line_each_screen_kN": 55.592598661763766,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 29.649385952940676,
+      "each_motor_kW_at_screen": 44.474078929411014
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 28.855729353213828,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 24.747607229274433,
+      "line_each_screen_kN": 37.12141084391165,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 19.798085783419545,
+      "each_motor_kW_at_screen": 29.69712867512932
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 33.85572935321383,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 27.247607229274433,
+      "line_each_screen_kN": 40.87141084391165,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 21.798085783419545,
+      "each_motor_kW_at_screen": 32.69712867512932
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 43.85572935321383,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 32.24760722927443,
+      "line_each_screen_kN": 48.37141084391165,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.798085783419545,
+      "each_motor_kW_at_screen": 38.69712867512931
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 31.84491147961588,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 26.242198292475457,
+      "line_each_screen_kN": 39.36329743871318,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 20.993758633980363,
+      "each_motor_kW_at_screen": 31.490637950970545
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 36.84491147961588,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 28.74219829247546,
+      "line_each_screen_kN": 43.11329743871319,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 22.993758633980367,
+      "each_motor_kW_at_screen": 34.49063795097055
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 46.84491147961588,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.74219829247546,
+      "line_each_screen_kN": 50.61329743871318,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 26.993758633980363,
+      "each_motor_kW_at_screen": 40.490637950970545
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 42.30704892202305,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 31.473267013679045,
+      "line_each_screen_kN": 47.209900520518566,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.178613610943238,
+      "each_motor_kW_at_screen": 37.76792041641485
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 47.30704892202305,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.97326701367904,
+      "line_each_screen_kN": 50.95990052051856,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 27.17861361094323,
+      "each_motor_kW_at_screen": 40.767920416414846
+    },
+    {
+      "mass_kg": 3000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 57.30704892202305,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 38.97326701367904,
+      "line_each_screen_kN": 58.45990052051856,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 31.17861361094323,
+      "each_motor_kW_at_screen": 46.767920416414846
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 27.813732905426093,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 24.226609005380563,
+      "line_each_screen_kN": 36.33991350807084,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 19.381287204304453,
+      "each_motor_kW_at_screen": 29.07193080645667
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 32.81373290542609,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 26.726609005380563,
+      "line_each_screen_kN": 40.08991350807084,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 21.381287204304453,
+      "each_motor_kW_at_screen": 32.07193080645667
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 42.81373290542609,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 31.726609005380563,
+      "line_each_screen_kN": 47.58991350807084,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.38128720430445,
+      "each_motor_kW_at_screen": 38.07193080645667
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 30.802915031828142,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 25.721200068581588,
+      "line_each_screen_kN": 38.58180010287238,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 20.57696005486527,
+      "each_motor_kW_at_screen": 30.865440082297905
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 35.80291503182815,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 28.22120006858159,
+      "line_each_screen_kN": 42.331800102872386,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 22.57696005486527,
+      "each_motor_kW_at_screen": 33.86544008229791
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 45.80291503182815,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.22120006858159,
+      "line_each_screen_kN": 49.83180010287238,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 26.576960054865268,
+      "each_motor_kW_at_screen": 39.8654400822979
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 41.26505247423532,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 30.952268789785176,
+      "line_each_screen_kN": 46.42840318467776,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 24.761815031828142,
+      "each_motor_kW_at_screen": 37.14272254774221
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 46.26505247423532,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.45226878978517,
+      "line_each_screen_kN": 50.178403184677755,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 26.761815031828135,
+      "each_motor_kW_at_screen": 40.1427225477422
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 56.26505247423532,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 38.45226878978517,
+      "line_each_screen_kN": 57.678403184677755,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 30.761815031828135,
+      "each_motor_kW_at_screen": 46.14272254774221
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 31.212016589876228,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 25.92575084760563,
+      "line_each_screen_kN": 38.88862627140844,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 20.740600678084505,
+      "each_motor_kW_at_screen": 31.110901017126753
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 36.21201658987623,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 28.42575084760563,
+      "line_each_screen_kN": 42.63862627140844,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 22.740600678084505,
+      "each_motor_kW_at_screen": 34.11090101712675
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 46.21201658987623,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.425750847605634,
+      "line_each_screen_kN": 50.13862627140844,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 26.740600678084505,
+      "each_motor_kW_at_screen": 40.11090101712675
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 34.20119871627828,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 27.420341910806656,
+      "line_each_screen_kN": 41.13051286620998,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 21.936273528645323,
+      "each_motor_kW_at_screen": 32.90441029296799
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 39.20119871627828,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 29.920341910806656,
+      "line_each_screen_kN": 44.88051286620998,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 23.936273528645323,
+      "each_motor_kW_at_screen": 35.90441029296799
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 49.20119871627828,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 34.92034191080666,
+      "line_each_screen_kN": 52.38051286620999,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 27.936273528645323,
+      "each_motor_kW_at_screen": 41.90441029296799
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 44.66333615868545,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 32.65141063201025,
+      "line_each_screen_kN": 48.97711594801537,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 26.121128505608194,
+      "each_motor_kW_at_screen": 39.18169275841229
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 49.66333615868545,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 35.15141063201025,
+      "line_each_screen_kN": 52.72711594801537,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 28.121128505608194,
+      "each_motor_kW_at_screen": 42.18169275841229
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 59.66333615868545,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 40.15141063201025,
+      "line_each_screen_kN": 60.22711594801537,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 32.1211285056082,
+      "each_motor_kW_at_screen": 48.1816927584123
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 36.30944211655144,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 28.474463610943236,
+      "line_each_screen_kN": 42.711695416414855,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 22.779570888754588,
+      "each_motor_kW_at_screen": 34.16935633313188
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 41.30944211655144,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 30.974463610943236,
+      "line_each_screen_kN": 46.461695416414855,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 24.779570888754588,
+      "each_motor_kW_at_screen": 37.16935633313188
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 51.30944211655144,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 35.97446361094323,
+      "line_each_screen_kN": 53.96169541641485,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 28.779570888754588,
+      "each_motor_kW_at_screen": 43.16935633313188
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 39.29862424295348,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 29.96905467414426,
+      "line_each_screen_kN": 44.95358201121639,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 23.975243739315406,
+      "each_motor_kW_at_screen": 35.96286560897312
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 44.29862424295348,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 32.46905467414426,
+      "line_each_screen_kN": 48.70358201121639,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.975243739315406,
+      "each_motor_kW_at_screen": 38.96286560897312
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 54.29862424295348,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 37.46905467414426,
+      "line_each_screen_kN": 56.20358201121639,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 29.975243739315406,
+      "each_motor_kW_at_screen": 44.96286560897311
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 49.76076168536066,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 35.20012339534785,
+      "line_each_screen_kN": 52.800185093021774,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 28.16009871627828,
+      "each_motor_kW_at_screen": 42.24014807441742
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 54.76076168536066,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 37.70012339534785,
+      "line_each_screen_kN": 56.550185093021774,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 30.16009871627828,
+      "each_motor_kW_at_screen": 45.24014807441743
+    },
+    {
+      "mass_kg": 4000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 64.76076168536066,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 42.70012339534785,
+      "line_each_screen_kN": 64.05018509302178,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 34.16009871627828,
+      "each_motor_kW_at_screen": 51.24014807441743
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 38.473303826538626,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 29.556394465936833,
+      "line_each_screen_kN": 44.33459169890525,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 23.64511557274946,
+      "each_motor_kW_at_screen": 35.4676733591242
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 43.473303826538626,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 32.05639446593683,
+      "line_each_screen_kN": 48.08459169890525,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.64511557274946,
+      "each_motor_kW_at_screen": 38.4676733591242
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 53.473303826538626,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 37.056394465936826,
+      "line_each_screen_kN": 55.58459169890524,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 29.64511557274946,
+      "each_motor_kW_at_screen": 44.46767335912419
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 41.462485952940675,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 31.050985529137854,
+      "line_each_screen_kN": 46.57647829370678,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 24.840788423310283,
+      "each_motor_kW_at_screen": 37.26118263496542
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 46.462485952940675,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.550985529137854,
+      "line_each_screen_kN": 50.32647829370678,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 26.840788423310283,
+      "each_motor_kW_at_screen": 40.26118263496542
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 56.462485952940675,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 38.550985529137854,
+      "line_each_screen_kN": 57.82647829370678,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 30.840788423310283,
+      "each_motor_kW_at_screen": 46.26118263496542
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 51.92462339534785,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 36.282054250341446,
+      "line_each_screen_kN": 54.42308137551217,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 29.025643400273154,
+      "each_motor_kW_at_screen": 43.53846510040973
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 56.92462339534785,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 38.782054250341446,
+      "line_each_screen_kN": 58.17308137551217,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 31.025643400273154,
+      "each_motor_kW_at_screen": 46.53846510040973
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.05,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 66.92462339534785,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 43.782054250341446,
+      "line_each_screen_kN": 65.67308137551218,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 35.025643400273154,
+      "each_motor_kW_at_screen": 52.538465100409745
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 43.570729353213835,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 32.10510722927444,
+      "line_each_screen_kN": 48.15766084391166,
+      "screen_within_50kN": true,
+      "each_motor_kW_at_service": 25.684085783419548,
+      "each_motor_kW_at_screen": 38.52612867512932
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 48.570729353213835,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 34.60510722927444,
+      "line_each_screen_kN": 51.90766084391166,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 27.684085783419548,
+      "each_motor_kW_at_screen": 41.52612867512932
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 58.570729353213835,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 39.60510722927444,
+      "line_each_screen_kN": 59.40766084391166,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 31.684085783419548,
+      "each_motor_kW_at_screen": 47.52612867512932
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 46.559911479615884,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 33.59969829247546,
+      "line_each_screen_kN": 50.399547438713185,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 26.879758633980362,
+      "each_motor_kW_at_screen": 40.319637950970545
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 51.559911479615884,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 36.09969829247546,
+      "line_each_screen_kN": 54.149547438713185,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 28.879758633980362,
+      "each_motor_kW_at_screen": 43.319637950970545
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 61.559911479615884,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 41.09969829247546,
+      "line_each_screen_kN": 61.649547438713185,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 32.87975863398036,
+      "each_motor_kW_at_screen": 49.31963795097055
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 57.02204892202305,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 38.83076701367904,
+      "line_each_screen_kN": 58.24615052051856,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 31.06461361094323,
+      "each_motor_kW_at_screen": 46.59692041641485
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 62.02204892202305,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 41.33076701367904,
+      "line_each_screen_kN": 61.99615052051856,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 33.06461361094323,
+      "each_motor_kW_at_screen": 49.59692041641485
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.15,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 72.02204892202305,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 46.33076701367904,
+      "line_each_screen_kN": 69.49615052051857,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 37.06461361094323,
+      "each_motor_kW_at_screen": 55.596920416414854
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 5.0,
+      "machine_kN": 51.216867643226635,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 35.92817637428084,
+      "line_each_screen_kN": 53.89226456142126,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 28.742541099424674,
+      "each_motor_kW_at_screen": 43.11381164913701
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 10.0,
+      "machine_kN": 56.216867643226635,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 38.42817637428084,
+      "line_each_screen_kN": 57.64226456142126,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 30.742541099424674,
+      "each_motor_kW_at_screen": 46.113811649137
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 0.1,
+      "tool_kN": 20.0,
+      "machine_kN": 66.21686764322664,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 43.42817637428084,
+      "line_each_screen_kN": 65.14226456142126,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 34.74254109942467,
+      "each_motor_kW_at_screen": 52.113811649137
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 5.0,
+      "machine_kN": 54.206049769628684,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 37.42276743748186,
+      "line_each_screen_kN": 56.13415115622279,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 29.938213949985485,
+      "each_motor_kW_at_screen": 44.90732092497823
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 10.0,
+      "machine_kN": 59.206049769628684,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 39.92276743748186,
+      "line_each_screen_kN": 59.88415115622279,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 31.938213949985485,
+      "each_motor_kW_at_screen": 47.90732092497823
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 0.3,
+      "tool_kN": 20.0,
+      "machine_kN": 69.20604976962868,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 44.92276743748186,
+      "line_each_screen_kN": 67.3841511562228,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 35.93821394998549,
+      "each_motor_kW_at_screen": 53.90732092497824
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 5.0,
+      "machine_kN": 64.66818721203586,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 42.65383615868544,
+      "line_each_screen_kN": 63.98075423802817,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 34.123068926948356,
+      "each_motor_kW_at_screen": 51.18460339042253
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 10.0,
+      "machine_kN": 69.66818721203586,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 45.15383615868544,
+      "line_each_screen_kN": 67.73075423802817,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 36.123068926948356,
+      "each_motor_kW_at_screen": 54.18460339042253
+    },
+    {
+      "mass_kg": 6000,
+      "rolling": 0.3,
+      "payload_m3": 1,
+      "tool_kN": 20.0,
+      "machine_kN": 79.66818721203586,
+      "rope_each_kN": 10.319742552667519,
+      "line_each_service_kN": 50.15383615868544,
+      "line_each_screen_kN": 75.23075423802817,
+      "screen_within_50kN": false,
+      "each_motor_kW_at_service": 40.123068926948356,
+      "each_motor_kW_at_screen": 60.18460339042253
+    }
+  ],
+  "budget": {
+    "base_million_yen": 150,
+    "reserve_million_yen": 30,
+    "pretax_million_yen": 180,
+    "tax_million_yen": 18.0,
+    "gross_million_yen": 198.00000000000003,
+    "headroom_to_200_million_yen": 1.9999999999999716
+  },
+  "benchmark": {
+    "active_width_m": 21.336,
+    "overlap_each_m": 0.10276923076923065,
+    "total_usd": 93940,
+    "listed_weight_total_kg": 3175.1465900000003,
+    "fx_scenario_million_yen": {
+      "150": 14.091,
+      "170": 15.9698
+    },
+    "full_drain_200mm_exworks_million_yen": 16.2
+  },
+  "material_sensitivity": [
+    {
+      "volume_m3": 6000,
+      "dry_bulk_kg_m3": 500,
+      "ex_tax_jpy_kg": 10,
+      "mass_t": 3000.0,
+      "material_ex_tax_million_yen": 30.0,
+      "equipment_plus_material_gross_million_yen": 231.00000000000003
+    },
+    {
+      "volume_m3": 6000,
+      "dry_bulk_kg_m3": 500,
+      "ex_tax_jpy_kg": 20,
+      "mass_t": 3000.0,
+      "material_ex_tax_million_yen": 60.0,
+      "equipment_plus_material_gross_million_yen": 264.00000000000006
+    },
+    {
+      "volume_m3": 6000,
+      "dry_bulk_kg_m3": 1500,
+      "ex_tax_jpy_kg": 10,
+      "mass_t": 9000.0,
+      "material_ex_tax_million_yen": 90.0,
+      "equipment_plus_material_gross_million_yen": 297.00000000000006
+    },
+    {
+      "volume_m3": 6000,
+      "dry_bulk_kg_m3": 1500,
+      "ex_tax_jpy_kg": 20,
+      "mass_t": 9000.0,
+      "material_ex_tax_million_yen": 180.0,
+      "equipment_plus_material_gross_million_yen": 396.00000000000006
+    },
+    {
+      "volume_m3": 8000,
+      "dry_bulk_kg_m3": 500,
+      "ex_tax_jpy_kg": 10,
+      "mass_t": 4000.0,
+      "material_ex_tax_million_yen": 40.0,
+      "equipment_plus_material_gross_million_yen": 242.00000000000003
+    },
+    {
+      "volume_m3": 8000,
+      "dry_bulk_kg_m3": 500,
+      "ex_tax_jpy_kg": 20,
+      "mass_t": 4000.0,
+      "material_ex_tax_million_yen": 80.0,
+      "equipment_plus_material_gross_million_yen": 286.0
+    },
+    {
+      "volume_m3": 8000,
+      "dry_bulk_kg_m3": 1500,
+      "ex_tax_jpy_kg": 10,
+      "mass_t": 12000.0,
+      "material_ex_tax_million_yen": 120.0,
+      "equipment_plus_material_gross_million_yen": 330.00000000000006
+    },
+    {
+      "volume_m3": 8000,
+      "dry_bulk_kg_m3": 1500,
+      "ex_tax_jpy_kg": 20,
+      "mass_t": 12000.0,
+      "material_ex_tax_million_yen": 240.0,
+      "equipment_plus_material_gross_million_yen": 462.0000000000001
+    }
+  ],
+  "all_in_material_room_million_yen": 56.81818181818181,
+  "all_in_material_unit_limits": [
+    {
+      "volume_m3": 6000,
+      "dry_bulk_kg_m3": 500,
+      "max_ex_tax_jpy_kg": 18.939393939393938
+    },
+    {
+      "volume_m3": 6000,
+      "dry_bulk_kg_m3": 1500,
+      "max_ex_tax_jpy_kg": 6.313131313131312
+    },
+    {
+      "volume_m3": 8000,
+      "dry_bulk_kg_m3": 500,
+      "max_ex_tax_jpy_kg": 14.204545454545453
+    },
+    {
+      "volume_m3": 8000,
+      "dry_bulk_kg_m3": 1500,
+      "max_ex_tax_jpy_kg": 4.734848484848484
+    }
+  ],
+  "storm": {
+    "captured_m3": 90.0,
+    "reuse_m3": 72.0,
+    "reject_m3": 18.0,
+    "lost_m3": 10.0,
+    "makeup_m3": 28.0,
+    "trips": 240,
+    "trip_min": 32.93518518518518,
+    "haul_hours": 131.74074074074073
+  },
+  "annual_capital_equivalent_million_yen": {
+    "100": 12.950457496545662,
+    "150": 19.425686244818493,
+    "180": 23.31082349378219
+  },
+  "upkeep_sensitivity_million_yen": [
+    3,
+    6,
+    10
+  ],
+  "checks": {
+    "timing_scenarios": 140,
+    "force_scenarios": 81,
+    "passes_are_arithmetic_only": true,
+    "physical_validation": false,
+    "supplier_quotes": 0
+  }
+}

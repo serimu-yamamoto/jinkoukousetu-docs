@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-05",
+  "scope": "設備・必要な限定土木・施工・消費税込み。全面人工フィルン素材購入と土地・リフト・大規模造成は別。ユーザーの範囲回答は未取得。",
+  "status": "価格確約ではなく設計条件と発注上限",
+  "geometry": {
+    "length_m": 1000,
+    "width_m": 20,
+    "slope_deg": 30
+  },
+  "time": {
+    "setup_clear_park_inspect_min": 12,
+    "cure_min": 10,
+    "closure_min": 60,
+    "speed_m_s": 0.6,
+    "duty": 0.75
+  },
+  "force": {
+    "machine_kg": 4000,
+    "rolling_resistance": 0.15,
+    "payload_m3": 0.3,
+    "wet_bulk_kg_m3": 1800,
+    "payload_slide_mu": 0.4,
+    "tool_drag_N": 8000,
+    "rope_linear_kg_m": 2,
+    "deployed_rope_m": 1000,
+    "rope_support_mu": 0.03,
+    "load_multiplier": 1.5,
+    "drive_efficiency": 0.75,
+    "per_side_service_N": 50000,
+    "per_side_motor_kW": 45
+  },
+  "budget_million_yen": [
+    [
+      "調査・材料／機械実証・実施設計",
+      15
+    ],
+    [
+      "20m接地式整地機1台",
+      22
+    ],
+    [
+      "山側牽引2系列・索・夜間帰還補助",
+      24
+    ],
+    [
+      "同期制御・検知・ゲート・非常停止",
+      8
+    ],
+    [
+      "側方誘導ガイド・索カバー・保護柵2km",
+      12
+    ],
+    [
+      "上下端の収納区画・牽引基礎",
+      10
+    ],
+    [
+      "既存床の補修・限定排水・回収・敷均し",
+      42
+    ],
+    [
+      "電源引込・分電・可動部給電",
+      7
+    ],
+    [
+      "搬入・組立・重機・総合試運転",
+      10
+    ]
+  ],
+  "reserve_million_yen": 30,
+  "tax_rate": 0.1,
+  "source_benchmark": {
+    "ginzu_usd_each": 6710,
+    "box_width_m": 1.524,
+    "units": 14,
+    "listed_weight_lb": 500,
+    "fx_jpy_per_usd_scenarios": [
+      150,
+      170
+    ],
+    "quarry_4020_jpy_m3": 4050
+  },
+  "material": {
+    "volume_cases_m3": [
+      6000,
+      8000
+    ],
+    "dry_bulk_cases_kg_m3": [
+      500,
+      1500
+    ],
+    "price_cases_ex_tax_jpy_kg": [
+      10,
+      20
+    ],
+    "retail_reference_incl_tax_jpy_kg": 58
+  },
+  "storm": {
+    "mobilized_m3": 100,
+    "capture_fraction": 0.9,
+    "reusable_fraction": 0.8,
+    "payload_recovery_m3": 0.3,
+    "loaded_speed_m_s": 0.6,
+    "loaded_duty": 0.75,
+    "empty_speed_m_s": 0.8,
+    "average_haul_m": 500,
+    "load_unload_min": 4
+  }
+}
