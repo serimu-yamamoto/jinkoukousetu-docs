@@ -1,0 +1,639 @@
+{
+  "status": "calculations only; all new material properties below are assumptions",
+  "baseline_git_revision": "06c70ed",
+  "additional_VT5_VT6_git_revision": "b8458e2",
+  "additional_VT7_git_revision": "0bdff45",
+  "additional_VT8_git_revision": "71b8210",
+  "source_hash_basis": "UTF-8 text normalized to LF line endings",
+  "units": "SI except explicitly labelled fields",
+  "source_code_sha256": {
+    "vt1.py": "ac13417cd30db67e65778ef2f495dc7e23bb17ed0ea33667572787b8990b6457",
+    "vt2a.py": "08a125f8a758bebb349e3ad75b34defaf075cbdf6def5bc4af8817d30bde90c6",
+    "vt2bcd.py": "abcd318dd82df995430b0a87be9007caf26abf10710ad00a1350fc2cc2779548",
+    "vt3.py": "48a117b28db315f8ab75897dcab8384a4a40e2eb816c2b44b14129bf1960cc7e",
+    "vt4.py": "3b72fabc258fd4127aec0719673ed25858a40c16549e614b01729684d77f54ac",
+    "vt5.py": "aa83d7147a0bec4c9b50b7ff239ed7cb02987262289ee8b7b85950fdc00e5ea3",
+    "vt6.py": "c27c3ddc58d5dfab22a5b5c9ebf9dd0bda9cc4793558d6838a940a933b2a08ea",
+    "vt7.py": "5526a3d30b5affed3b49442aee934ae396ed85157ffabcc027168222560235d2",
+    "vt8.py": "25e00735a3b145a88b1229beb2c4939f2fb7c7e068a6dbda8c00bc39ce2617b7"
+  },
+  "slope": [
+    {
+      "phi_deg_assumed": 30,
+      "porosity": 0.3822878228782288,
+      "cohesion_required_kPa_normal_450mm": 4.4766206485239834,
+      "cohesion_kPa_if_450mm_is_vertical": 3.8768672047277386
+    },
+    {
+      "phi_deg_assumed": 35,
+      "porosity": 0.3822878228782288,
+      "cohesion_required_kPa_normal_450mm": 3.9804908833097787,
+      "cohesion_kPa_if_450mm_is_vertical": 3.4472062244786286
+    },
+    {
+      "phi_deg_assumed": 40,
+      "porosity": 0.3822878228782288,
+      "cohesion_required_kPa_normal_450mm": 3.4196083077509374,
+      "cohesion_kPa_if_450mm_is_vertical": 2.961467665504627
+    }
+  ],
+  "dry_heat_sensitivity": [
+    {
+      "albedo_assumed": 0.35,
+      "h_W_m2K_assumed": 5.7,
+      "air_C_assumed": 35.0,
+      "surface_C": 81.03678389794638,
+      "heat_to_remove_at_50C_W_m2": 437.2293154975339,
+      "evap_at_50C_kg_m2_h": 0.6424594023637232
+    },
+    {
+      "albedo_assumed": 0.35,
+      "h_W_m2K_assumed": 13.3,
+      "air_C_assumed": 35.0,
+      "surface_C": 65.31552825436134,
+      "heat_to_remove_at_50C_W_m2": 323.2293154975339,
+      "evap_at_50C_kg_m2_h": 0.4749491982820906
+    },
+    {
+      "albedo_assumed": 0.55,
+      "h_W_m2K_assumed": 5.7,
+      "air_C_assumed": 35.0,
+      "surface_C": 67.4661054486688,
+      "heat_to_remove_at_50C_W_m2": 237.2293154975339,
+      "evap_at_50C_kg_m2_h": 0.3485818513433151
+    },
+    {
+      "albedo_assumed": 0.55,
+      "h_W_m2K_assumed": 13.3,
+      "air_C_assumed": 35.0,
+      "surface_C": 55.931929012953645,
+      "heat_to_remove_at_50C_W_m2": 123.22931549753389,
+      "evap_at_50C_kg_m2_h": 0.18107164726168246
+    },
+    {
+      "albedo_assumed": 0.85,
+      "h_W_m2K_assumed": 5.7,
+      "air_C_assumed": 35.0,
+      "surface_C": 45.09890243764778,
+      "heat_to_remove_at_50C_W_m2": 0.0,
+      "evap_at_50C_kg_m2_h": 0.0
+    },
+    {
+      "albedo_assumed": 0.85,
+      "h_W_m2K_assumed": 13.3,
+      "air_C_assumed": 35.0,
+      "surface_C": 41.28449372139647,
+      "heat_to_remove_at_50C_W_m2": 0.0,
+      "evap_at_50C_kg_m2_h": 0.0
+    },
+    {
+      "albedo_assumed": 0.95,
+      "h_W_m2K_assumed": 5.7,
+      "air_C_assumed": 35.0,
+      "surface_C": 37.02495633992025,
+      "heat_to_remove_at_50C_W_m2": 0.0,
+      "evap_at_50C_kg_m2_h": 0.0
+    },
+    {
+      "albedo_assumed": 0.95,
+      "h_W_m2K_assumed": 13.3,
+      "air_C_assumed": 35.0,
+      "surface_C": 36.24398576290167,
+      "heat_to_remove_at_50C_W_m2": 0.0,
+      "evap_at_50C_kg_m2_h": 0.0
+    }
+  ],
+  "annualized_material_budget": [
+    {
+      "dry_bulk_density_assumed_kg_m3": 200,
+      "mass_kg": 180000.0,
+      "pmax_yen_kg_at_old_B_I_O_lambda": 268.13893248243545,
+      "max_initial_material_yen_m2": 24132.50392341919
+    },
+    {
+      "dry_bulk_density_assumed_kg_m3": 300,
+      "mass_kg": 270000.0,
+      "pmax_yen_kg_at_old_B_I_O_lambda": 178.75928832162364,
+      "max_initial_material_yen_m2": 24132.503923419194
+    },
+    {
+      "dry_bulk_density_assumed_kg_m3": 500,
+      "mass_kg": 450000.0,
+      "pmax_yen_kg_at_old_B_I_O_lambda": 107.2555729929742,
+      "max_initial_material_yen_m2": 24132.503923419194
+    },
+    {
+      "dry_bulk_density_assumed_kg_m3": 1674,
+      "mass_kg": 1506600.0,
+      "pmax_yen_kg_at_old_B_I_O_lambda": 32.03571475297915,
+      "max_initial_material_yen_m2": 24132.503923419197
+    }
+  ],
+  "thermal_storage": [
+    {
+      "case": "HBG5_dry_assumed",
+      "cooling_delta_K": 10,
+      "stored_sensible_MJ_m2": 6.32772,
+      "melt_equivalent_kg_m2_if_all_heat_enters_snow": 18.945269461077846
+    },
+    {
+      "case": "HBG5_dry_assumed",
+      "cooling_delta_K": 30,
+      "stored_sensible_MJ_m2": 18.98316,
+      "melt_equivalent_kg_m2_if_all_heat_enters_snow": 56.835808383233534
+    },
+    {
+      "case": "porous_candidate_assumed",
+      "cooling_delta_K": 10,
+      "stored_sensible_MJ_m2": 2.025,
+      "melt_equivalent_kg_m2_if_all_heat_enters_snow": 6.062874251497006
+    },
+    {
+      "case": "porous_candidate_assumed",
+      "cooling_delta_K": 30,
+      "stored_sensible_MJ_m2": 6.075,
+      "melt_equivalent_kg_m2_if_all_heat_enters_snow": 18.188622754491018
+    }
+  ],
+  "mechanical_power": [
+    {
+      "mu_assumed": 0.05,
+      "speed_m_s": 2,
+      "normal_force_N": 679.6567368900276,
+      "interface_dissipation_W": 67.96567368900276
+    },
+    {
+      "mu_assumed": 0.05,
+      "speed_m_s": 10,
+      "normal_force_N": 679.6567368900276,
+      "interface_dissipation_W": 339.8283684450138
+    },
+    {
+      "mu_assumed": 0.05,
+      "speed_m_s": 20,
+      "normal_force_N": 679.6567368900276,
+      "interface_dissipation_W": 679.6567368900276
+    },
+    {
+      "mu_assumed": 0.1,
+      "speed_m_s": 2,
+      "normal_force_N": 679.6567368900276,
+      "interface_dissipation_W": 135.9313473780055
+    },
+    {
+      "mu_assumed": 0.1,
+      "speed_m_s": 10,
+      "normal_force_N": 679.6567368900276,
+      "interface_dissipation_W": 679.6567368900276
+    },
+    {
+      "mu_assumed": 0.1,
+      "speed_m_s": 20,
+      "normal_force_N": 679.6567368900276,
+      "interface_dissipation_W": 1359.3134737800551
+    }
+  ],
+  "mossner_geometry_example": [
+    {
+      "HV_N_mm3_assumed": 0.04,
+      "force_N": 490.5,
+      "flat_penetration_mm": 0.9889112903225806,
+      "edged_45deg_penetration_mm": 11.073617295175051
+    },
+    {
+      "HV_N_mm3_assumed": 0.16,
+      "force_N": 490.5,
+      "flat_penetration_mm": 0.24722782258064516,
+      "edged_45deg_penetration_mm": 5.5368086475875256
+    }
+  ],
+  "wind": [
+    {
+      "rho_d_assumed_kg_m3": 200,
+      "normal_weight_Pa": 764.613829001281,
+      "dynamic_pressure_at_80m_s_Pa": 3840.0,
+      "lift_margin_Pa_at_Cp1_no_factor": -3075.386170998719
+    },
+    {
+      "rho_d_assumed_kg_m3": 300,
+      "normal_weight_Pa": 1146.9207435019216,
+      "dynamic_pressure_at_80m_s_Pa": 3840.0,
+      "lift_margin_Pa_at_Cp1_no_factor": -2693.0792564980784
+    },
+    {
+      "rho_d_assumed_kg_m3": 500,
+      "normal_weight_Pa": 1911.5345725032023,
+      "dynamic_pressure_at_80m_s_Pa": 3840.0,
+      "lift_margin_Pa_at_Cp1_no_factor": -1928.4654274967977
+    },
+    {
+      "rho_d_assumed_kg_m3": 1674,
+      "normal_weight_Pa": 6399.817748740723,
+      "dynamic_pressure_at_80m_s_Pa": 3840.0,
+      "lift_margin_Pa_at_Cp1_no_factor": 2559.817748740723
+    }
+  ],
+  "hierarchical_grain_modulus_sensitivity": [
+    {
+      "solid_E_GPa_assumed": 0.5,
+      "relative_density_assumed": 0.15,
+      "geometry_factor_assumed": 0.1,
+      "grain_E_MPa_screening_only": 1.125
+    },
+    {
+      "solid_E_GPa_assumed": 0.5,
+      "relative_density_assumed": 0.15,
+      "geometry_factor_assumed": 1.0,
+      "grain_E_MPa_screening_only": 11.25
+    },
+    {
+      "solid_E_GPa_assumed": 0.5,
+      "relative_density_assumed": 0.3,
+      "geometry_factor_assumed": 0.1,
+      "grain_E_MPa_screening_only": 4.5
+    },
+    {
+      "solid_E_GPa_assumed": 0.5,
+      "relative_density_assumed": 0.3,
+      "geometry_factor_assumed": 1.0,
+      "grain_E_MPa_screening_only": 45.0
+    },
+    {
+      "solid_E_GPa_assumed": 2.0,
+      "relative_density_assumed": 0.15,
+      "geometry_factor_assumed": 0.1,
+      "grain_E_MPa_screening_only": 4.5
+    },
+    {
+      "solid_E_GPa_assumed": 2.0,
+      "relative_density_assumed": 0.15,
+      "geometry_factor_assumed": 1.0,
+      "grain_E_MPa_screening_only": 45.0
+    },
+    {
+      "solid_E_GPa_assumed": 2.0,
+      "relative_density_assumed": 0.3,
+      "geometry_factor_assumed": 0.1,
+      "grain_E_MPa_screening_only": 18.0
+    },
+    {
+      "solid_E_GPa_assumed": 2.0,
+      "relative_density_assumed": 0.3,
+      "geometry_factor_assumed": 1.0,
+      "grain_E_MPa_screening_only": 180.0
+    }
+  ],
+  "VT3_assumption_sensitivity": [
+    {
+      "evaporation_factor_assumed": 1.0,
+      "dt_s": 10.0,
+      "surface_max_C": 31.609882784716206,
+      "water_t_day_at_70pct_efficiency": 13.375762408915563
+    },
+    {
+      "evaporation_factor_assumed": 0.3,
+      "dt_s": 10.0,
+      "surface_max_C": 38.382321931955886,
+      "water_t_day_at_70pct_efficiency": 8.395074336922196
+    },
+    {
+      "evaporation_factor_assumed": 0.1,
+      "dt_s": 10.0,
+      "surface_max_C": 44.16604116287516,
+      "water_t_day_at_70pct_efficiency": 4.434932752759434
+    }
+  ],
+  "VT3_time_step_check": {
+    "evaporation_factor_assumed": 1.0,
+    "dt_s": 5.0,
+    "surface_max_C": 31.61340986123474,
+    "water_t_day_at_70pct_efficiency": 13.361635665283183
+  },
+  "neck_stress_sensitivity": [
+    {
+      "neck_radius_over_grain_d_assumed": 0.03,
+      "packing_assumed": 0.6,
+      "contacts_assumed": 6,
+      "neck_material_strength_MPa_assumed": 1,
+      "network_stress_kPa_estimate": 3.2399999999999993
+    },
+    {
+      "neck_radius_over_grain_d_assumed": 0.06,
+      "packing_assumed": 0.6,
+      "contacts_assumed": 6,
+      "neck_material_strength_MPa_assumed": 1,
+      "network_stress_kPa_estimate": 12.959999999999997
+    },
+    {
+      "neck_radius_over_grain_d_assumed": 0.1,
+      "packing_assumed": 0.6,
+      "contacts_assumed": 6,
+      "neck_material_strength_MPa_assumed": 1,
+      "network_stress_kPa_estimate": 36.0
+    }
+  ],
+  "VT5_VT6_audit": {
+    "VT5_mean_pressure_N_mm2_assumed": 0.008333333333333331,
+    "VT5_distance_m_per_season_assumed": 3000000,
+    "VT5_allowed_specific_wear_mm3_Nm": {
+      "100": 4.0000000000000015e-06,
+      "500": 2.0000000000000005e-05
+    },
+    "VT6_porosity_assumed": 0.382,
+    "VT6_extra_Rumpf_factor": 2.6178010471204187,
+    "VT6_corrected_tensile_estimate_from_report_kPa_not_cohesion": [
+      25.976,
+      38.582
+    ],
+    "VT6_surface_layer_mass_kg": 16740.0,
+    "VT6_CaCO3_deposit_kg_per_day_assumed": 16.740000000000002,
+    "VT6_CaOH2_required_kg": 12.391513637726048,
+    "VT6_CO2_required_kg": 7.360649415526027,
+    "VT6_limewater_m3_min_at_perfect_retention": 7.744696023578779,
+    "VT6_limewater_L_m2": 3.8723480117893896,
+    "VT6_surface_pore_capacity_L_m2": 1.91,
+    "VT6_dose_over_pore_volume": 2.0274073360153873,
+    "VT6_CaCO3_added_kg_after_100days_no_export": 1674.0000000000002,
+    "VT6_added_fraction_of_surface_layer_after_100days": 0.10000000000000002,
+    "VT6_ideal_freezing_depression_K_of_unreacted_feed": 0.12050209205020922,
+    "VT6_ideal_gas_supply_hours_NOT_reaction_completion": [
+      {
+        "hm_m_s_assumed": 0.003,
+        "Deff_m2_s_assumed": 1e-06,
+        "hours": 3.862069137776002
+      },
+      {
+        "hm_m_s_assumed": 0.003,
+        "Deff_m2_s_assumed": 3e-06,
+        "hours": 1.5902637626136478
+      },
+      {
+        "hm_m_s_assumed": 0.01,
+        "Deff_m2_s_assumed": 1e-06,
+        "hours": 3.544016385253273
+      },
+      {
+        "hm_m_s_assumed": 0.01,
+        "Deff_m2_s_assumed": 3e-06,
+        "hours": 1.2722110100909183
+      }
+    ]
+  },
+  "storm_recovery_audit": {
+    "rain_horizontal_mm_h_assumed": 100,
+    "rain_on_slope_m3_h_no_external_catchment": 173.20508075688775,
+    "VT7_rain30mm_on_slope_m3": 51.96152422706632,
+    "VT7_CaCO3_kg_if_50mg_L_is_assumed": 2.598076211353316,
+    "surface_water_shear_cases": [
+      {
+        "flow_depth_normal_mm_assumed": 1,
+        "steady_uniform_water_shear_Pa": 4.904999999999999,
+        "screening_threshold_Pa_at_factor1p5": 7.357499999999999
+      },
+      {
+        "flow_depth_normal_mm_assumed": 3,
+        "steady_uniform_water_shear_Pa": 14.714999999999998,
+        "screening_threshold_Pa_at_factor1p5": 22.072499999999998
+      },
+      {
+        "flow_depth_normal_mm_assumed": 10,
+        "steady_uniform_water_shear_Pa": 49.04999999999999,
+        "screening_threshold_Pa_at_factor1p5": 73.57499999999999
+      }
+    ],
+    "noncohesive_calcite_reference_Pa_NOT_bonded_grain_threshold": [
+      0.503253,
+      1.006506
+    ],
+    "transport_cases": [
+      {
+        "effective_delivery_m3_per_trip_assumed": 0.5,
+        "displaced_fraction_assumed": 0.01,
+        "volume_m3": 9.0,
+        "trips": 18,
+        "transport_only_hours": 1.3680555555555558
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 0.5,
+        "displaced_fraction_assumed": 0.05,
+        "volume_m3": 45.0,
+        "trips": 90,
+        "transport_only_hours": 6.840277777777779
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 0.5,
+        "displaced_fraction_assumed": 0.1,
+        "volume_m3": 90.0,
+        "trips": 180,
+        "transport_only_hours": 13.680555555555557
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 0.5,
+        "displaced_fraction_assumed": 0.3,
+        "volume_m3": 270.0,
+        "trips": 540,
+        "transport_only_hours": 41.04166666666667
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 1.5,
+        "displaced_fraction_assumed": 0.01,
+        "volume_m3": 9.0,
+        "trips": 6,
+        "transport_only_hours": 0.4560185185185186
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 1.5,
+        "displaced_fraction_assumed": 0.05,
+        "volume_m3": 45.0,
+        "trips": 30,
+        "transport_only_hours": 2.2800925925925934
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 1.5,
+        "displaced_fraction_assumed": 0.1,
+        "volume_m3": 90.0,
+        "trips": 60,
+        "transport_only_hours": 4.560185185185187
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 1.5,
+        "displaced_fraction_assumed": 0.3,
+        "volume_m3": 270.0,
+        "trips": 180,
+        "transport_only_hours": 13.680555555555557
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 3.0,
+        "displaced_fraction_assumed": 0.01,
+        "volume_m3": 9.0,
+        "trips": 3,
+        "transport_only_hours": 0.2280092592592593
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 3.0,
+        "displaced_fraction_assumed": 0.05,
+        "volume_m3": 45.0,
+        "trips": 15,
+        "transport_only_hours": 1.1400462962962967
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 3.0,
+        "displaced_fraction_assumed": 0.1,
+        "volume_m3": 90.0,
+        "trips": 30,
+        "transport_only_hours": 2.2800925925925934
+      },
+      {
+        "effective_delivery_m3_per_trip_assumed": 3.0,
+        "displaced_fraction_assumed": 0.3,
+        "volume_m3": 270.0,
+        "trips": 90,
+        "transport_only_hours": 6.840277777777779
+      }
+    ],
+    "recovery_mass_cases": [
+      {
+        "dry_density_kg_m3_assumed": 300,
+        "displaced_kg": 27000.0,
+        "capture_fraction_assumed": 0.99,
+        "reusable_fraction_of_capture_assumed": 0.95,
+        "reusable_kg": 25393.5,
+        "captured_reject_kg": 1336.5000000000011,
+        "uncaptured_kg": 270.0000000000002,
+        "new_material_required_kg": 1606.5000000000014
+      },
+      {
+        "dry_density_kg_m3_assumed": 300,
+        "displaced_kg": 27000.0,
+        "capture_fraction_assumed": 0.9,
+        "reusable_fraction_of_capture_assumed": 0.8,
+        "reusable_kg": 19440.0,
+        "captured_reject_kg": 4859.999999999999,
+        "uncaptured_kg": 2699.9999999999995,
+        "new_material_required_kg": 7559.999999999998
+      },
+      {
+        "dry_density_kg_m3_assumed": 1674,
+        "displaced_kg": 150660.0,
+        "capture_fraction_assumed": 0.99,
+        "reusable_fraction_of_capture_assumed": 0.95,
+        "reusable_kg": 141695.72999999998,
+        "captured_reject_kg": 7457.670000000006,
+        "uncaptured_kg": 1506.6000000000013,
+        "new_material_required_kg": 8964.270000000008
+      },
+      {
+        "dry_density_kg_m3_assumed": 1674,
+        "displaced_kg": 150660.0,
+        "capture_fraction_assumed": 0.9,
+        "reusable_fraction_of_capture_assumed": 0.8,
+        "reusable_kg": 108475.20000000001,
+        "captured_reject_kg": 27118.799999999996,
+        "uncaptured_kg": 15065.999999999996,
+        "new_material_required_kg": 42184.79999999999
+      }
+    ],
+    "uphill_push_cases": [
+      {
+        "dry_density_kg_m3_assumed": 300,
+        "pushed_volume_m3_assumed": 1.5,
+        "material_mass_kg": 450.0,
+        "vehicle_mass_kg_example": 13490.0,
+        "vehicle_grade_force_kN": 66.16844999999998,
+        "rolling_coefficient_assumed": 0.05,
+        "material_slide_coefficient_assumed": 0.5,
+        "material_push_kN_simple_model": 4.118784572503202,
+        "total_tractive_force_kN_excluding_cutting_tiller": 76.01759043540724,
+        "winch_force_kN_ideal_along_slope": 45.0,
+        "track_traction_ratio_required_no_safety_factor": 0.2706427940732469
+      },
+      {
+        "dry_density_kg_m3_assumed": 1674,
+        "pushed_volume_m3_assumed": 1.5,
+        "material_mass_kg": 2511.0,
+        "vehicle_mass_kg_example": 13490.0,
+        "vehicle_grade_force_kN": 66.16844999999998,
+        "rolling_coefficient_assumed": 0.05,
+        "material_slide_coefficient_assumed": 0.5,
+        "material_push_kN_simple_model": 22.982817914567867,
+        "total_tractive_force_kN_excluding_cutting_tiller": 94.88162377747189,
+        "winch_force_kN_ideal_along_slope": 45.0,
+        "track_traction_ratio_required_no_safety_factor": 0.4352401925016988
+      }
+    ],
+    "transport_assumptions": {
+      "mean_distance_m": 50,
+      "uphill_m_s": 0.8,
+      "downhill_m_s": 1.2,
+      "load_dump_turn_s": 60,
+      "utilization": 0.6,
+      "cycle_seconds": 164.16666666666669,
+      "bed_volume_m3": 900.0
+    },
+    "maximum_displaced_fraction_for_2h_transport_budget_at_q1p5": 0.043857868020304565,
+    "one_km_course_sensitivity_NOT_field_prediction": [
+      {
+        "depth_m_assumed": 0.3,
+        "displaced_fraction_assumed": 0.01,
+        "volume_m3": 120.0,
+        "mean_return_distance_m_assumed": 500,
+        "trips": 80,
+        "transport_only_hours": 40.802469135802475
+      },
+      {
+        "depth_m_assumed": 0.3,
+        "displaced_fraction_assumed": 0.1,
+        "volume_m3": 1200.0,
+        "mean_return_distance_m_assumed": 500,
+        "trips": 800,
+        "transport_only_hours": 408.0246913580247
+      },
+      {
+        "depth_m_assumed": 0.45,
+        "displaced_fraction_assumed": 0.01,
+        "volume_m3": 180.0,
+        "mean_return_distance_m_assumed": 500,
+        "trips": 120,
+        "transport_only_hours": 61.20370370370371
+      },
+      {
+        "depth_m_assumed": 0.45,
+        "displaced_fraction_assumed": 0.1,
+        "volume_m3": 1800.0,
+        "mean_return_distance_m_assumed": 500,
+        "trips": 1200,
+        "transport_only_hours": 612.0370370370371
+      }
+    ]
+  },
+  "winter_interface_example": {
+    "snow_density_kg_m3_assumed": 300,
+    "snow_depth_NORMAL_m_assumed": 1,
+    "downslope_shear_kPa": 1.4714999999999998,
+    "normal_stress_kPa": 2.548712763337603,
+    "required_total_interface_resistance_kPa_at_FS1p5": 2.2072499999999997
+  },
+  "water_storage": {
+    "surface_depth_m": 0.005,
+    "volumetric_water": 0.03,
+    "water_kg_m2": 0.15,
+    "minutes_until_all_water_evaporates_at_0p6kg_m2h": 15.0,
+    "VT3_full_evap_assumption_water_fraction": 0.025
+  },
+  "pva_replenishment": {
+    "bed_area_m2": 2000,
+    "coating_loss_um_day_assumed": 0.5,
+    "exposed_surface_area_ratio_assumed": [
+      2,
+      4
+    ],
+    "kg_per_day": [
+      2.54,
+      5.08
+    ],
+    "kg_for_100days": [
+      253.99999999999997,
+      507.99999999999994
+    ]
+  }
+}
