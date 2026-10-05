@@ -1,0 +1,471 @@
+{
+  "metadata": {
+    "date": "2026-10-05",
+    "currency": "JPY",
+    "status": "検討用仮定。実見積り・製作承認値ではない",
+    "cost_basis": "全単価は予算仮置き。low/base/highは確率区間ではない。税別"
+  },
+  "common": {
+    "slope_deg": 30,
+    "material_mu": 0.4,
+    "material_density_kg_m3": 1800,
+    "rolling": 0.02,
+    "efficiency": 0.75,
+    "work_speed_m_s": 0.1,
+    "return_speed_m_s": 0.3,
+    "duty": 0.65,
+    "setup_h": 0.75,
+    "footing_pitch_m": 5,
+    "drain_pitch_m": 50,
+    "bed_depth_m": 0.3,
+    "drain_depth_m": 0.2,
+    "finished_to_loose_ratio": 1.25,
+    "drum_fill": 0.75,
+    "endpoint_efficiency": 0.9,
+    "rope_screen_factor": 5,
+    "cost_overhead": 0.15,
+    "cost_reserve": 0.25,
+    "years": 10,
+    "discount": 0.08,
+    "days": 150,
+    "electric_yen_kwh": 30,
+    "labor_yen_h": 3500
+  },
+  "scenarios": [
+    {
+      "id": "P100",
+      "label": "実証 100m × 6m",
+      "length_m": 100,
+      "width_m": 6,
+      "span_m": 8,
+      "machine_kg": 3000,
+      "hold_m3": 0.6,
+      "tool_kN": 5,
+      "rope_mm": 16,
+      "rope_kg_m": 1.13,
+      "rope_break_kN": 173,
+      "winch_kN_each": 25,
+      "winch_motor_kw_each": 5.5,
+      "rope_extra_m": 10,
+      "rope_loss_kN_each": 0.5,
+      "rail_kg_m": 22,
+      "beam_kg_m": 25,
+      "footing_m3": 0.25,
+      "structural_frame_kg": 1600,
+      "tool_modules": 6,
+      "tool_kw_avg": 2,
+      "tool_kw_peak": 8,
+      "battery_kwh": 15,
+      "drum_core_m": 0.48,
+      "drum_width_m": 0.5,
+      "catch_m3": 10,
+      "supervision_h": 1.5,
+      "allowances": {
+        "survey": [
+          500000,
+          1200000,
+          2500000
+        ],
+        "design": [
+          2000000,
+          4000000,
+          8000000
+        ],
+        "winches_pair": [
+          2000000,
+          3500000,
+          6000000
+        ],
+        "anchor_pair": [
+          500000,
+          1000000,
+          2000000
+        ],
+        "control": [
+          1000000,
+          2000000,
+          4000000
+        ],
+        "battery": [
+          400000,
+          800000,
+          1600000
+        ],
+        "parking": [
+          400000,
+          800000,
+          1600000
+        ],
+        "commission": [
+          500000,
+          1000000,
+          2000000
+        ],
+        "power": [
+          300000,
+          600000,
+          1500000
+        ],
+        "catch": [
+          300000,
+          600000,
+          1500000
+        ],
+        "fold_option": [
+          2500000,
+          5000000,
+          10000000
+        ]
+      },
+      "maintenance_yen_year": 700000,
+      "replacement_year": 6,
+      "replacement_yen": 1500000
+    },
+    {
+      "id": "F1000",
+      "label": "本設比較 1000m × 20m",
+      "length_m": 1000,
+      "width_m": 20,
+      "span_m": 22,
+      "machine_kg": 12000,
+      "hold_m3": 2,
+      "tool_kN": 15,
+      "rope_mm": 34,
+      "rope_kg_m": 5.09,
+      "rope_break_kN": 782,
+      "winch_kN_each": 125,
+      "winch_motor_kw_each": 22,
+      "rope_extra_m": 100,
+      "rope_loss_kN_each": 2,
+      "rail_kg_m": 37,
+      "beam_kg_m": 40,
+      "footing_m3": 0.4,
+      "structural_frame_kg": 6000,
+      "tool_modules": 20,
+      "tool_kw_avg": 6,
+      "tool_kw_peak": 25,
+      "battery_kwh": 80,
+      "drum_core_m": 1.02,
+      "drum_width_m": 1.2,
+      "catch_m3": 100,
+      "supervision_h": 2,
+      "allowances": {
+        "survey": [
+          2000000,
+          5000000,
+          10000000
+        ],
+        "design": [
+          6000000,
+          12000000,
+          25000000
+        ],
+        "winches_pair": [
+          8000000,
+          16000000,
+          30000000
+        ],
+        "anchor_pair": [
+          1500000,
+          3000000,
+          8000000
+        ],
+        "control": [
+          3000000,
+          7000000,
+          14000000
+        ],
+        "battery": [
+          2000000,
+          4000000,
+          8000000
+        ],
+        "parking": [
+          1000000,
+          3000000,
+          8000000
+        ],
+        "commission": [
+          2000000,
+          4000000,
+          8000000
+        ],
+        "power": [
+          1000000,
+          3000000,
+          10000000
+        ],
+        "catch": [
+          1500000,
+          4000000,
+          10000000
+        ],
+        "fold_option": [
+          10000000,
+          20000000,
+          45000000
+        ]
+      },
+      "maintenance_yen_year": 6500000,
+      "replacement_year": 6,
+      "replacement_yen": 15000000
+    }
+  ],
+  "rates": {
+    "rail_yen_kg": [
+      200,
+      320,
+      550
+    ],
+    "beam_fabricated_yen_kg": [
+      400,
+      600,
+      1000
+    ],
+    "concrete_rebar_form_yen_m3": [
+      40000,
+      60000,
+      100000
+    ],
+    "footing_excavate_set_each": [
+      20000,
+      40000,
+      80000
+    ],
+    "rail_fastening_each": [
+      5000,
+      10000,
+      20000
+    ],
+    "side_guard_yen_m": [
+      4000,
+      8000,
+      16000
+    ],
+    "rope_yen_m_p": [
+      500,
+      900,
+      1600
+    ],
+    "rope_yen_m_f": [
+      2500,
+      5000,
+      9000
+    ],
+    "frame_fab_yen_kg": [
+      900,
+      1500,
+      2500
+    ],
+    "bogie_each": [
+      180000,
+      350000,
+      700000
+    ],
+    "tool_module_each": [
+      250000,
+      500000,
+      1000000
+    ],
+    "rough_grade_yen_m2": [
+      200,
+      400,
+      900
+    ],
+    "drain_gravel_yen_m3": [
+      5000,
+      8000,
+      14000
+    ],
+    "filter_yen_m2": [
+      300,
+      600,
+      1200
+    ],
+    "side_drain_yen_m": [
+      5000,
+      10000,
+      22000
+    ],
+    "cross_drain_yen_m": [
+      8000,
+      15000,
+      30000
+    ],
+    "surface_place_yen_m3": [
+      1000,
+      2000,
+      4000
+    ]
+  },
+  "surface_price_yen_kg": [
+    20,
+    50,
+    100
+  ],
+  "surface_dry_bulk_kg_m3": [
+    500,
+    1500
+  ],
+  "storm": {
+    "mobilized_m3": 100,
+    "capture_fraction": 0.9,
+    "reuse_fraction": 0.8,
+    "loading_h": 0.1,
+    "haul_duty": 0.8,
+    "average_up_distance_m": 500,
+    "repair_window_h": 8
+  },
+  "notes": [
+    "面積は斜面実長×幅。集水量はその面積を水平投影面積の代わりに用いる保守的上限",
+    "支持梁kg/m・基礎体積は数量仮定であり断面設計と支持力確認を代替しない",
+    "床材料の購入・敷均しは共通土木と機械設備から別建て",
+    "同じ単価行のlow/base/highを全て同時適用する決定論シナリオ"
+  ],
+  "construction_resources": [
+    {
+      "item": "油圧ショベル",
+      "P100": {
+        "count": 1,
+        "days": 15,
+        "yen_per_machine_day": 80000
+      },
+      "F1000": {
+        "count": 2,
+        "days": 40,
+        "yen_per_machine_day": 120000
+      }
+    },
+    {
+      "item": "ホイールローダ",
+      "P100": {
+        "count": 1,
+        "days": 6,
+        "yen_per_machine_day": 60000
+      },
+      "F1000": {
+        "count": 1,
+        "days": 30,
+        "yen_per_machine_day": 90000
+      }
+    },
+    {
+      "item": "ダンプ",
+      "P100": {
+        "count": 2,
+        "days": 10,
+        "yen_per_machine_day": 60000
+      },
+      "F1000": {
+        "count": 4,
+        "days": 40,
+        "yen_per_machine_day": 90000
+      }
+    },
+    {
+      "item": "移動式クレーン",
+      "P100": {
+        "count": 1,
+        "days": 3,
+        "yen_per_machine_day": 120000
+      },
+      "F1000": {
+        "count": 1,
+        "days": 8,
+        "yen_per_machine_day": 180000
+      }
+    },
+    {
+      "item": "基礎掘削またはアンカー機",
+      "P100": {
+        "count": 1,
+        "days": 3,
+        "yen_per_machine_day": 80000
+      },
+      "F1000": {
+        "count": 1,
+        "days": 10,
+        "yen_per_machine_day": 180000
+      }
+    },
+    {
+      "item": "下地締固め機",
+      "P100": {
+        "count": 1,
+        "days": 3,
+        "yen_per_machine_day": 20000
+      },
+      "F1000": {
+        "count": 1,
+        "days": 10,
+        "yen_per_machine_day": 40000
+      }
+    }
+  ],
+  "construction_resource_note": "台数×日数×仮日額。運転者・燃料込の資源枠。数量表の施工単価と運送揚重費の内数で、総額へ二重加算しない。正式見積りでは置き換える。",
+  "daytime": {
+    "closure_windows_h": [
+      0.5,
+      1,
+      2
+    ],
+    "in_window_setup_h": 0.25,
+    "work_speeds_m_s": [
+      0.1,
+      0.2
+    ],
+    "curing_h": 0,
+    "note": "4〜5時間ごとの保守に対する照会比較。準備15分と養生0は性能未確認の仮定。残りの準備は閉鎖前。中間の機体は側方収納が必要。 依頼者回答：60分程度。1日2回の保守を年間費の比較条件に追加。",
+    "user_selected_closure_h": 1,
+    "cycles_per_day": 2,
+    "systems": [
+      {
+        "id": "D5",
+        "label": "60分案 5台×200m 同じ端へ戻る",
+        "count": 5,
+        "return_required": true,
+        "machine_kg": 12000,
+        "structural_frame_kg": 6000,
+        "tool_modules": 20,
+        "rope_mm": 30,
+        "rope_kg_m": 3.96,
+        "rope_break_kN": 609,
+        "winch_kN_each": 100,
+        "winch_motor_kw_each": 30,
+        "battery_kwh": 15,
+        "tool_kw_avg": 6,
+        "maintenance_total_yen": 9000000,
+        "replacement_total_yen": 20000000,
+        "extra_endpoint_parking_each": 0
+      },
+      {
+        "id": "D3",
+        "label": "比較 3台×約333m 双方向仕上げ",
+        "count": 3,
+        "return_required": false,
+        "machine_kg": 16000,
+        "structural_frame_kg": 8000,
+        "tool_modules": 40,
+        "rope_mm": 34,
+        "rope_kg_m": 5.09,
+        "rope_break_kN": 782,
+        "winch_kN_each": 125,
+        "winch_motor_kw_each": 37,
+        "battery_kwh": 30,
+        "tool_kw_avg": 8,
+        "maintenance_total_yen": 11500000,
+        "replacement_total_yen": 24000000,
+        "extra_endpoint_parking_each": 3000000
+      }
+    ]
+  },
+  "zoned_bed": {
+    "focus_widths_m": [
+      4,
+      8
+    ],
+    "focus_depth_m": 0.8,
+    "other_depth_m": 0.3,
+    "note": "Claude VT11の仮厚さを20m幅へ数量換算。強度や摩耗モデルの追認ではない。"
+  }
+}

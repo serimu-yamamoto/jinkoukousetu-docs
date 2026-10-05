@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-05",
+  "checks": [
+    {
+      "name": "独立式の機体牽引力",
+      "ok": true
+    },
+    {
+      "name": "D5 明細総和と総額",
+      "ok": true
+    },
+    {
+      "name": "D5 分単位の閉鎖計算",
+      "ok": true
+    },
+    {
+      "name": "D3 明細総和と総額",
+      "ok": true
+    },
+    {
+      "name": "D3 分単位の閉鎖計算",
+      "ok": true
+    },
+    {
+      "name": "収支100m3",
+      "ok": true
+    }
+  ],
+  "scope": "数式・収支・ファイルリンク・図の可読性。実験や製作承認ではない",
+  "source": "Python出力を別のJavaScript式で照合",
+  "figures": 4,
+  "local_links_checked": 5,
+  "broken_links": 0
+}
