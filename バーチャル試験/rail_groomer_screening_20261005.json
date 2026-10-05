@@ -1,0 +1,378 @@
+{
+  "evidence": "conditional arithmetic; no field validation or supplier quote",
+  "repository_context_revision": "61b4c57",
+  "traction": [
+    {
+      "width_m": 10,
+      "wet_density_kg_m3_assumed": 500,
+      "sliding_mu_assumed": 0.3,
+      "material_volume_m3": 5.0,
+      "material_mass_t": 2.5,
+      "frame_mass_t_assumed": 2.5,
+      "tool_drag_kN_assumed": 10.0,
+      "force_kN": 41.321567368900276,
+      "force_kN_with_illustrative_1p5_multiplier": 61.982351053350406,
+      "traction_power_kW_at_0p1m_s_eff0p75": 5.509542315853371
+    },
+    {
+      "width_m": 10,
+      "wet_density_kg_m3_assumed": 500,
+      "sliding_mu_assumed": 0.5,
+      "material_volume_m3": 5.0,
+      "material_mass_t": 2.5,
+      "frame_mass_t_assumed": 2.5,
+      "tool_drag_kN_assumed": 10.0,
+      "force_kN": 45.56942197446295,
+      "force_kN_with_illustrative_1p5_multiplier": 68.35413296169442,
+      "traction_power_kW_at_0p1m_s_eff0p75": 6.075922929928393
+    },
+    {
+      "width_m": 10,
+      "wet_density_kg_m3_assumed": 1800,
+      "sliding_mu_assumed": 0.3,
+      "material_volume_m3": 5.0,
+      "material_mass_t": 9.0,
+      "frame_mass_t_assumed": 2.5,
+      "tool_drag_kN_assumed": 10.0,
+      "force_kN": 89.77070033059468,
+      "force_kN_with_illustrative_1p5_multiplier": 134.65605049589203,
+      "traction_power_kW_at_0p1m_s_eff0p75": 11.969426710745958
+    },
+    {
+      "width_m": 10,
+      "wet_density_kg_m3_assumed": 1800,
+      "sliding_mu_assumed": 0.5,
+      "material_volume_m3": 5.0,
+      "material_mass_t": 9.0,
+      "frame_mass_t_assumed": 2.5,
+      "tool_drag_kN_assumed": 10.0,
+      "force_kN": 105.0629769106203,
+      "force_kN_with_illustrative_1p5_multiplier": 157.59446536593046,
+      "traction_power_kW_at_0p1m_s_eff0p75": 14.00839692141604
+    },
+    {
+      "width_m": 20,
+      "wet_density_kg_m3_assumed": 500,
+      "sliding_mu_assumed": 0.3,
+      "material_volume_m3": 10.0,
+      "material_mass_t": 5.0,
+      "frame_mass_t_assumed": 5.0,
+      "tool_drag_kN_assumed": 20.0,
+      "force_kN": 82.64313473780055,
+      "force_kN_with_illustrative_1p5_multiplier": 123.96470210670081,
+      "traction_power_kW_at_0p1m_s_eff0p75": 11.019084631706741
+    },
+    {
+      "width_m": 20,
+      "wet_density_kg_m3_assumed": 500,
+      "sliding_mu_assumed": 0.5,
+      "material_volume_m3": 10.0,
+      "material_mass_t": 5.0,
+      "frame_mass_t_assumed": 5.0,
+      "tool_drag_kN_assumed": 20.0,
+      "force_kN": 91.1388439489259,
+      "force_kN_with_illustrative_1p5_multiplier": 136.70826592338884,
+      "traction_power_kW_at_0p1m_s_eff0p75": 12.151845859856786
+    },
+    {
+      "width_m": 20,
+      "wet_density_kg_m3_assumed": 1800,
+      "sliding_mu_assumed": 0.3,
+      "material_volume_m3": 10.0,
+      "material_mass_t": 18.0,
+      "frame_mass_t_assumed": 5.0,
+      "tool_drag_kN_assumed": 20.0,
+      "force_kN": 179.54140066118936,
+      "force_kN_with_illustrative_1p5_multiplier": 269.31210099178406,
+      "traction_power_kW_at_0p1m_s_eff0p75": 23.938853421491917
+    },
+    {
+      "width_m": 20,
+      "wet_density_kg_m3_assumed": 1800,
+      "sliding_mu_assumed": 0.5,
+      "material_volume_m3": 10.0,
+      "material_mass_t": 18.0,
+      "frame_mass_t_assumed": 5.0,
+      "tool_drag_kN_assumed": 20.0,
+      "force_kN": 210.1259538212406,
+      "force_kN_with_illustrative_1p5_multiplier": 315.1889307318609,
+      "traction_power_kW_at_0p1m_s_eff0p75": 28.01679384283208
+    },
+    {
+      "width_m": 40,
+      "wet_density_kg_m3_assumed": 500,
+      "sliding_mu_assumed": 0.3,
+      "material_volume_m3": 20.0,
+      "material_mass_t": 10.0,
+      "frame_mass_t_assumed": 10.0,
+      "tool_drag_kN_assumed": 40.0,
+      "force_kN": 165.2862694756011,
+      "force_kN_with_illustrative_1p5_multiplier": 247.92940421340163,
+      "traction_power_kW_at_0p1m_s_eff0p75": 22.038169263413483
+    },
+    {
+      "width_m": 40,
+      "wet_density_kg_m3_assumed": 500,
+      "sliding_mu_assumed": 0.5,
+      "material_volume_m3": 20.0,
+      "material_mass_t": 10.0,
+      "frame_mass_t_assumed": 10.0,
+      "tool_drag_kN_assumed": 40.0,
+      "force_kN": 182.2776878978518,
+      "force_kN_with_illustrative_1p5_multiplier": 273.4165318467777,
+      "traction_power_kW_at_0p1m_s_eff0p75": 24.303691719713573
+    },
+    {
+      "width_m": 40,
+      "wet_density_kg_m3_assumed": 1800,
+      "sliding_mu_assumed": 0.3,
+      "material_volume_m3": 20.0,
+      "material_mass_t": 36.0,
+      "frame_mass_t_assumed": 10.0,
+      "tool_drag_kN_assumed": 40.0,
+      "force_kN": 359.0828013223787,
+      "force_kN_with_illustrative_1p5_multiplier": 538.6242019835681,
+      "traction_power_kW_at_0p1m_s_eff0p75": 47.877706842983834
+    },
+    {
+      "width_m": 40,
+      "wet_density_kg_m3_assumed": 1800,
+      "sliding_mu_assumed": 0.5,
+      "material_volume_m3": 20.0,
+      "material_mass_t": 36.0,
+      "frame_mass_t_assumed": 10.0,
+      "tool_drag_kN_assumed": 40.0,
+      "force_kN": 420.2519076424812,
+      "force_kN_with_illustrative_1p5_multiplier": 630.3778614637218,
+      "traction_power_kW_at_0p1m_s_eff0p75": 56.03358768566416
+    }
+  ],
+  "pass_time": [
+    {
+      "length_m": 100,
+      "working_speed_m_s_assumed": 0.05,
+      "work_utilization_assumed": 0.6,
+      "working_h": 0.9259259259259259,
+      "return_h_at_0p3m_s": 0.0925925925925926,
+      "setup_h_assumed": 0.5,
+      "total_h_single_material_sufficient_pass": 1.5185185185185186
+    },
+    {
+      "length_m": 100,
+      "working_speed_m_s_assumed": 0.1,
+      "work_utilization_assumed": 0.6,
+      "working_h": 0.46296296296296297,
+      "return_h_at_0p3m_s": 0.0925925925925926,
+      "setup_h_assumed": 0.5,
+      "total_h_single_material_sufficient_pass": 1.0555555555555556
+    },
+    {
+      "length_m": 100,
+      "working_speed_m_s_assumed": 0.2,
+      "work_utilization_assumed": 0.6,
+      "working_h": 0.23148148148148148,
+      "return_h_at_0p3m_s": 0.0925925925925926,
+      "setup_h_assumed": 0.5,
+      "total_h_single_material_sufficient_pass": 0.8240740740740741
+    },
+    {
+      "length_m": 1000,
+      "working_speed_m_s_assumed": 0.05,
+      "work_utilization_assumed": 0.6,
+      "working_h": 9.25925925925926,
+      "return_h_at_0p3m_s": 0.9259259259259259,
+      "setup_h_assumed": 0.5,
+      "total_h_single_material_sufficient_pass": 10.685185185185185
+    },
+    {
+      "length_m": 1000,
+      "working_speed_m_s_assumed": 0.1,
+      "work_utilization_assumed": 0.6,
+      "working_h": 4.62962962962963,
+      "return_h_at_0p3m_s": 0.9259259259259259,
+      "setup_h_assumed": 0.5,
+      "total_h_single_material_sufficient_pass": 6.055555555555555
+    },
+    {
+      "length_m": 1000,
+      "working_speed_m_s_assumed": 0.2,
+      "work_utilization_assumed": 0.6,
+      "working_h": 2.314814814814815,
+      "return_h_at_0p3m_s": 0.9259259259259259,
+      "setup_h_assumed": 0.5,
+      "total_h_single_material_sufficient_pass": 3.740740740740741
+    }
+  ],
+  "beam_stiffness": [
+    {
+      "span_m": 10,
+      "udl_N_m_assumed": 2000,
+      "deflection_limit_m_assumed": 0.01,
+      "equivalent_I_m4_required": 0.00013020833333333333
+    },
+    {
+      "span_m": 20,
+      "udl_N_m_assumed": 2000,
+      "deflection_limit_m_assumed": 0.01,
+      "equivalent_I_m4_required": 0.0020833333333333333
+    },
+    {
+      "span_m": 40,
+      "udl_N_m_assumed": 2000,
+      "deflection_limit_m_assumed": 0.01,
+      "equivalent_I_m4_required": 0.03333333333333333
+    }
+  ],
+  "roller_reaction": [
+    {
+      "pressure_kPa_assumed": 20,
+      "total_contact_area_m2_assumed": 2,
+      "normal_frame_weight_kN": 42.47854605562672,
+      "roller_reaction_kN": 40.0,
+      "total_rail_hold_down_kN_before_factors": 0.0
+    },
+    {
+      "pressure_kPa_assumed": 50,
+      "total_contact_area_m2_assumed": 2,
+      "normal_frame_weight_kN": 42.47854605562672,
+      "roller_reaction_kN": 100.0,
+      "total_rail_hold_down_kN_before_factors": 57.52145394437328
+    },
+    {
+      "pressure_kPa_assumed": 100,
+      "total_contact_area_m2_assumed": 2,
+      "normal_frame_weight_kN": 42.47854605562672,
+      "roller_reaction_kN": 200.0,
+      "total_rail_hold_down_kN_before_factors": 157.5214539443733
+    }
+  ],
+  "jack_cycle": [
+    {
+      "stroke_m_assumed": 0.5,
+      "complete_cycle_s_assumed": 30,
+      "mean_speed_m_h": 60.0,
+      "hours_for_1km_without_other_stops": 16.666666666666668
+    },
+    {
+      "stroke_m_assumed": 0.5,
+      "complete_cycle_s_assumed": 60,
+      "mean_speed_m_h": 30.0,
+      "hours_for_1km_without_other_stops": 33.333333333333336
+    },
+    {
+      "stroke_m_assumed": 0.5,
+      "complete_cycle_s_assumed": 120,
+      "mean_speed_m_h": 15.0,
+      "hours_for_1km_without_other_stops": 66.66666666666667
+    }
+  ],
+  "capital_budget": [
+    {
+      "years": 10,
+      "discount_rate": 0.08,
+      "NET_annual_saving_yen_assumed": 1000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 6710081.398941448
+    },
+    {
+      "years": 10,
+      "discount_rate": 0.08,
+      "NET_annual_saving_yen_assumed": 3000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 20130244.196824342
+    },
+    {
+      "years": 10,
+      "discount_rate": 0.08,
+      "NET_annual_saving_yen_assumed": 5000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 33550406.994707238
+    },
+    {
+      "years": 10,
+      "discount_rate": 0.08,
+      "NET_annual_saving_yen_assumed": 10000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 67100813.989414476
+    },
+    {
+      "years": 15,
+      "discount_rate": 0.04,
+      "NET_annual_saving_yen_assumed": 1000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 11118387.432168128
+    },
+    {
+      "years": 15,
+      "discount_rate": 0.04,
+      "NET_annual_saving_yen_assumed": 3000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 33355162.296504382
+    },
+    {
+      "years": 15,
+      "discount_rate": 0.04,
+      "NET_annual_saving_yen_assumed": 5000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 55591937.16084064
+    },
+    {
+      "years": 15,
+      "discount_rate": 0.04,
+      "NET_annual_saving_yen_assumed": 10000000.0,
+      "allowed_ADDITIONAL_initial_cost_yen": 111183874.32168128
+    }
+  ],
+  "rail_installation_sensitivity": [
+    {
+      "course_length_m": 100,
+      "installed_cost_per_single_rail_m_yen_assumed": 10000,
+      "two_rails_cost_yen": 2000000
+    },
+    {
+      "course_length_m": 100,
+      "installed_cost_per_single_rail_m_yen_assumed": 30000,
+      "two_rails_cost_yen": 6000000
+    },
+    {
+      "course_length_m": 100,
+      "installed_cost_per_single_rail_m_yen_assumed": 60000,
+      "two_rails_cost_yen": 12000000
+    },
+    {
+      "course_length_m": 1000,
+      "installed_cost_per_single_rail_m_yen_assumed": 10000,
+      "two_rails_cost_yen": 20000000
+    },
+    {
+      "course_length_m": 1000,
+      "installed_cost_per_single_rail_m_yen_assumed": 30000,
+      "two_rails_cost_yen": 60000000
+    },
+    {
+      "course_length_m": 1000,
+      "installed_cost_per_single_rail_m_yen_assumed": 60000,
+      "two_rails_cost_yen": 120000000
+    }
+  ],
+  "installed_rail_only_annual_saving_needed_10y8pct_at_60million": 8941769.32182452,
+  "feed_example": {
+    "final_fill_depth_m_assumed": 0.01,
+    "final_over_loose_density_assumed": 1.25,
+    "width_m_assumed": 20,
+    "speed_m_s_assumed": 0.1,
+    "loose_feed_m3_h": 90.0,
+    "loose_depth_m_required_for_0p04m_final": 0.05
+  },
+  "one_pass_inventory_example": {
+    "course_length_m": 1000,
+    "width_m": 20,
+    "uniform_deficit_m": 0.005,
+    "initial_pile_m3": 10,
+    "refill_along_course_m3": 0,
+    "filled_m3": 10.0,
+    "remaining_deficit_m3": 90.0,
+    "replenishment_loads_at_least": 10
+  },
+  "long_rail_and_rope": {
+    "steel_expansion_coefficient_assumed_per_K": 1.2e-05,
+    "rail_expansion_1km_delta60K_m": 0.72,
+    "rail_expansion_50m_delta60K_m": 0.036000000000000004,
+    "rope_EA_N_assumed": 20000000.0,
+    "tension_difference_N_assumed": 20000,
+    "differential_stretch_at_1km_m": 1.0
+  }
+}
