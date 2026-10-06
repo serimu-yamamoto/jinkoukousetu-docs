@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1530" height="790" viewBox="0 0 1530 790"><g font-family="Yu Gothic,Meiryo,sans-serif">
+<rect x="0" y="0" width="1530" height="790" rx="12" fill="#eef3f6"/>
+<text x="40" y="60" font-size="35" fill="#17354a" font-weight="700">雪と鉱物粒床：見た目の結晶より、接点と空隙を確認する</text>
+<text x="42" y="102" font-size="23" fill="#203d52" font-weight="400">模式図。実粒・顕微鏡・X線CTの観察像ではない。</text>
+<rect x="30" y="135" width="460" height="560" rx="12" fill="white"/>
+<text x="50" y="181" font-size="25" fill="#17354a" font-weight="700">目標：新雪を圧雪した雪</text>
+<rect x="50" y="212" width="420" height="241" rx="12" fill="#dff0f7"/>
+<text x="50" y="497" font-size="21" fill="#203d52" font-weight="400">氷の粒と細い接点の多孔構造</text>
+<text x="50" y="542" font-size="21" fill="#203d52" font-weight="400">局所変形・接点の破壊と解放</text>
+<text x="50" y="587" font-size="21" fill="#203d52" font-weight="400">板の滑りとエッジ支持を両立</text>
+<text x="50" y="632" font-size="21" fill="#203d52" font-weight="400">実際の目標雪を測って基準にする</text>
+<rect x="535" y="135" width="460" height="560" rx="12" fill="white"/>
+<text x="555" y="181" font-size="25" fill="#17354a" font-weight="700">現行：結合した鉱物粒床</text>
+<rect x="555" y="212" width="420" height="241" rx="12" fill="#e6e5df"/>
+<text x="555" y="497" font-size="21" fill="#203d52" font-weight="400">充実した寒水石＋被膜／析出接点</text>
+<text x="555" y="542" font-size="21" fill="#203d52" font-weight="400">乾燥密度は模型で約1,680kg/m³</text>
+<text x="555" y="587" font-size="21" fill="#203d52" font-weight="400">接点・湿潤摩擦・切削感は未実測</text>
+<text x="555" y="632" font-size="21" fill="#203d52" font-weight="400">「雪状構造が完成」とは言えない</text>
+<rect x="1040" y="135" width="460" height="560" rx="12" fill="white"/>
+<text x="1060" y="181" font-size="25" fill="#17354a" font-weight="700">探索案：軽い多孔・分岐粒</text>
+<rect x="1060" y="212" width="420" height="241" rx="12" fill="#e4f1e6"/>
+<text x="1060" y="497" font-size="21" fill="#203d52" font-weight="400">粒の内部と形状から設計し直す</text>
+<text x="1060" y="542" font-size="21" fill="#203d52" font-weight="400">支持・解放・再接続を調整</text>
+<text x="1060" y="587" font-size="21" fill="#203d52" font-weight="400">50℃・摩耗・濡れ・滑りを別検証</text>
+<text x="1060" y="632" font-size="21" fill="#203d52" font-weight="400">未製作。雪の代替として未実証</text>
+<line x1="85" y1="285" x2="175" y2="247" stroke="#87c4df" stroke-width="12"/>
+<line x1="85" y1="285" x2="130" y2="374" stroke="#87c4df" stroke-width="12"/>
+<line x1="175" y1="247" x2="250" y2="320" stroke="#87c4df" stroke-width="12"/>
+<line x1="250" y1="320" x2="130" y2="374" stroke="#87c4df" stroke-width="12"/>
+<line x1="250" y1="320" x2="327" y2="245" stroke="#87c4df" stroke-width="12"/>
+<line x1="250" y1="320" x2="384" y2="359" stroke="#87c4df" stroke-width="12"/>
+<line x1="250" y1="320" x2="275" y2="412" stroke="#87c4df" stroke-width="12"/>
+<line x1="327" y1="245" x2="384" y2="359" stroke="#87c4df" stroke-width="12"/>
+<line x1="384" y1="359" x2="275" y2="412" stroke="#87c4df" stroke-width="12"/>
+<ellipse cx="85" cy="285" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<ellipse cx="175" cy="247" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<ellipse cx="250" cy="320" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<ellipse cx="130" cy="374" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<ellipse cx="327" cy="245" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<ellipse cx="384" cy="359" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<ellipse cx="275" cy="412" rx="26" ry="20" fill="#c8e4f3" stroke="#5f9ebd" stroke-width="3"/>
+<circle cx="589" cy="249" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="648" cy="249" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="707" cy="249" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="766" cy="249" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="825" cy="249" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="884" cy="249" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="609" cy="304" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="668" cy="304" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="727" cy="304" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="786" cy="304" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="845" cy="304" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="904" cy="304" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="589" cy="359" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="648" cy="359" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="707" cy="359" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="766" cy="359" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="825" cy="359" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="884" cy="359" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="609" cy="414" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="668" cy="414" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="727" cy="414" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="786" cy="414" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="845" cy="414" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="904" cy="414" r="26" fill="#b3b0a6" stroke="#777a72" stroke-width="3"/>
+<circle cx="1110" cy="282" r="18" fill="white" stroke="#4f9271" stroke-width="7"/>
+<line x1="1130" y1="282" x2="1152" y2="282" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1100" y1="299.3205080756888" x2="1089" y2="318.3730669589464" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1100" y1="264.6794919243112" x2="1089" y2="245.62693304105358" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<circle cx="1250" cy="270" r="18" fill="white" stroke="#4f9271" stroke-width="7"/>
+<line x1="1270" y1="270" x2="1292" y2="270" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1240" y1="287.3205080756888" x2="1229" y2="306.3730669589464" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1240" y1="252.67949192431124" x2="1229" y2="233.62693304105358" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<circle cx="1380" cy="301" r="18" fill="white" stroke="#4f9271" stroke-width="7"/>
+<line x1="1400" y1="301" x2="1422" y2="301" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1370" y1="318.3205080756888" x2="1359" y2="337.3730669589464" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1370" y1="283.6794919243112" x2="1359" y2="264.6269330410536" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<circle cx="1175" cy="389" r="18" fill="white" stroke="#4f9271" stroke-width="7"/>
+<line x1="1195" y1="389" x2="1217" y2="389" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1165" y1="406.3205080756888" x2="1154" y2="425.3730669589464" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1165" y1="371.6794919243112" x2="1154" y2="352.6269330410536" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<circle cx="1330" cy="402" r="18" fill="white" stroke="#4f9271" stroke-width="7"/>
+<line x1="1350" y1="402" x2="1372" y2="402" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1320" y1="419.3205080756888" x2="1309" y2="438.3730669589464" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<line x1="1320" y1="384.6794919243112" x2="1309" y2="365.6269330410536" stroke="#4f9271" stroke-width="10" stroke-linecap="round"/>
+<text x="41" y="746" font-size="25" fill="#17354a" font-weight="700">判定：平均摩擦だけでなく、沈み・横支持・壊れ方・抜け方・再整地後の回復を雪と比較する。</text>
+</g></svg>

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-06",
+  "reference_commit": "15761fd7cc52a15729ab2da975c73d34e86ba73f",
+  "original_vt13_quantile_reproduction_max_error": 0,
+  "levels": 6,
+  "draws_per_level": 200000,
+  "variants_per_level": 5,
+  "variants_are_sensitivity_not_ground_truth": true,
+  "physical_tests_conducted": 0,
+  "rain_grid_rerun": false,
+  "source_sha256": "c8e10de3f39df4611420901cd2ae013588c3bd296b8a16191c45ca3d48389f9c",
+  "relative_links_checked": 58,
+  "broken_links": 0,
+  "images_visually_reviewed": [
+    "01_摩擦模型の仮定感度.png",
+    "02_構造と検証.png"
+  ],
+  "notes": [
+    "図版1は未校正模型の数値。図版2は模式図で顕微鏡像ではない。",
+    "元VT13コードは未改変。レポートの冒頭に監査注記を加えた。",
+    "設備案は材料成立後の条件付き資料として保持。",
+    "同時更新の材料候補を保持し、密度比3.7を全切削抵抗倍率に置き換えないよう追記。"
+  ],
+  "concurrent_update_preserved": "0d92a45"
+}

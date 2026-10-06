@@ -1,0 +1,387 @@
+{
+  "date": "2026-10-06",
+  "meaning": "Sensitivity audit only. All variants uncalibrated; no experimental success probability.",
+  "source": "vt13_mu.py",
+  "source_sha256_normalized_LF": "c8e10de3f39df4611420901cd2ae013588c3bd296b8a16191c45ca3d48389f9c",
+  "numpy_version": "2.3.5",
+  "draw_count_per_level": 200000,
+  "seed": 20261006,
+  "levels": [
+    0,
+    0.03,
+    0.06,
+    0.1,
+    0.288,
+    0.38
+  ],
+  "original_reproduction_max_error": 0.0,
+  "variant_count_per_level": 5,
+  "rows": [
+    {
+      "theta_volume_fraction": 0,
+      "effective_saturation": 0.0,
+      "geometric_saturation": 0.0,
+      "cases": {
+        "original": {
+          "mu_p05": 0.09772050187767234,
+          "mu_median": 0.15988496803895008,
+          "mu_p95": 0.2626500882554397,
+          "fraction_below_0_1_in_assumed_distribution": 0.058445,
+          "alpha_median": 0.0,
+          "water_film_um_median": 0.0,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "no_assumed_boundary_lubrication": {
+          "mu_p05": 0.09772050187767234,
+          "mu_median": 0.15988496803895008,
+          "mu_p95": 0.2626500882554397,
+          "fraction_below_0_1_in_assumed_distribution": 0.058445,
+          "alpha_median": 0.0,
+          "water_film_um_median": 0.0,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "fluid_load_fraction_capped_at_0_25": {
+          "mu_p05": 0.09772050187767234,
+          "mu_median": 0.15988496803895008,
+          "mu_p95": 0.2626500882554397,
+          "fraction_below_0_1_in_assumed_distribution": 0.058445,
+          "alpha_median": 0.0,
+          "water_film_um_median": 0.0,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "no_fluid_load_support": {
+          "mu_p05": 0.09772050187767234,
+          "mu_median": 0.15988496803895008,
+          "mu_p95": 0.2626500882554397,
+          "fraction_below_0_1_in_assumed_distribution": 0.058445,
+          "alpha_median": 0.0,
+          "water_film_um_median": 0.0,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "no_boundary_lubrication_or_fluid_support": {
+          "mu_p05": 0.09772050187767234,
+          "mu_median": 0.15988496803895008,
+          "mu_p95": 0.2626500882554397,
+          "fraction_below_0_1_in_assumed_distribution": 0.058445,
+          "alpha_median": 0.0,
+          "water_film_um_median": 0.0,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        }
+      }
+    },
+    {
+      "theta_volume_fraction": 0.03,
+      "effective_saturation": 0.027777777777777776,
+      "geometric_saturation": 0.07894736842105263,
+      "cases": {
+        "original": {
+          "mu_p05": 0.043929220302954215,
+          "mu_median": 0.08849694702489938,
+          "mu_p95": 0.16067087412111664,
+          "fraction_below_0_1_in_assumed_distribution": 0.625705,
+          "alpha_median": 0.00983825100670338,
+          "water_film_um_median": 3.627423649850346,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "no_assumed_boundary_lubrication": {
+          "mu_p05": 0.09933016540793145,
+          "mu_median": 0.16087575189989486,
+          "mu_p95": 0.26216118113896564,
+          "fraction_below_0_1_in_assumed_distribution": 0.05222,
+          "alpha_median": 0.00983825100670338,
+          "water_film_um_median": 3.627423649850346,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "fluid_load_fraction_capped_at_0_25": {
+          "mu_p05": 0.043929220302954215,
+          "mu_median": 0.08849694702489938,
+          "mu_p95": 0.16067087412111664,
+          "fraction_below_0_1_in_assumed_distribution": 0.625705,
+          "alpha_median": 0.00983825100670338,
+          "water_film_um_median": 3.627423649850346,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "no_fluid_load_support": {
+          "mu_p05": 0.04159346764994068,
+          "mu_median": 0.08639126054516064,
+          "mu_p95": 0.15965771870958617,
+          "fraction_below_0_1_in_assumed_distribution": 0.644635,
+          "alpha_median": 0.0,
+          "water_film_um_median": 3.627423649850346,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        },
+        "no_boundary_lubrication_or_fluid_support": {
+          "mu_p05": 0.09772050187767234,
+          "mu_median": 0.15988496803895008,
+          "mu_p95": 0.2626500882554397,
+          "fraction_below_0_1_in_assumed_distribution": 0.058445,
+          "alpha_median": 0.0,
+          "water_film_um_median": 3.627423649850346,
+          "capillary_over_normal_median": 0.0,
+          "sink_mm_p95": 0.0
+        }
+      }
+    },
+    {
+      "theta_volume_fraction": 0.06,
+      "effective_saturation": 0.1111111111111111,
+      "geometric_saturation": 0.15789473684210525,
+      "cases": {
+        "original": {
+          "mu_p05": 0.0366939231743545,
+          "mu_median": 0.07553852174770243,
+          "mu_p95": 0.14313656399111616,
+          "fraction_below_0_1_in_assumed_distribution": 0.752795,
+          "alpha_median": 0.027577174920871528,
+          "water_film_um_median": 7.254847299700692,
+          "capillary_over_normal_median": 0.0003322682328400745,
+          "sink_mm_p95": 0.0
+        },
+        "no_assumed_boundary_lubrication": {
+          "mu_p05": 0.0979236983473331,
+          "mu_median": 0.1579103480988761,
+          "mu_p95": 0.2567691461033717,
+          "fraction_below_0_1_in_assumed_distribution": 0.057965,
+          "alpha_median": 0.027577174920871528,
+          "water_film_um_median": 7.254847299700692,
+          "capillary_over_normal_median": 0.0003322682328400745,
+          "sink_mm_p95": 0.0
+        },
+        "fluid_load_fraction_capped_at_0_25": {
+          "mu_p05": 0.0366939231743545,
+          "mu_median": 0.07553852174770243,
+          "mu_p95": 0.14313656399111616,
+          "fraction_below_0_1_in_assumed_distribution": 0.752795,
+          "alpha_median": 0.027577174920871528,
+          "water_film_um_median": 7.254847299700692,
+          "capillary_over_normal_median": 0.0003322682328400745,
+          "sink_mm_p95": 0.0
+        },
+        "no_fluid_load_support": {
+          "mu_p05": 0.03420707829491144,
+          "mu_median": 0.07384156607264677,
+          "mu_p95": 0.14407167952400973,
+          "fraction_below_0_1_in_assumed_distribution": 0.758035,
+          "alpha_median": 0.0,
+          "water_film_um_median": 7.254847299700692,
+          "capillary_over_normal_median": 0.0003322682328400745,
+          "sink_mm_p95": 0.0
+        },
+        "no_boundary_lubrication_or_fluid_support": {
+          "mu_p05": 0.09776381200092385,
+          "mu_median": 0.15995189724278588,
+          "mu_p95": 0.2627447691773679,
+          "fraction_below_0_1_in_assumed_distribution": 0.05831,
+          "alpha_median": 0.0,
+          "water_film_um_median": 7.254847299700692,
+          "capillary_over_normal_median": 0.0003322682328400745,
+          "sink_mm_p95": 0.0
+        }
+      }
+    },
+    {
+      "theta_volume_fraction": 0.1,
+      "effective_saturation": 0.22222222222222224,
+      "geometric_saturation": 0.2631578947368421,
+      "cases": {
+        "original": {
+          "mu_p05": 0.03049800459582171,
+          "mu_median": 0.06446487134486006,
+          "mu_p95": 0.12717748425830183,
+          "fraction_below_0_1_in_assumed_distribution": 0.84664,
+          "alpha_median": 0.1222618303743101,
+          "water_film_um_median": 17.895806072247176,
+          "capillary_over_normal_median": 0.0036549505612408235,
+          "sink_mm_p95": 0.0
+        },
+        "no_assumed_boundary_lubrication": {
+          "mu_p05": 0.07686110491103011,
+          "mu_median": 0.13964224210089046,
+          "mu_p95": 0.23462609988756164,
+          "fraction_below_0_1_in_assumed_distribution": 0.162875,
+          "alpha_median": 0.1222618303743101,
+          "water_film_um_median": 17.895806072247176,
+          "capillary_over_normal_median": 0.0036549505612408235,
+          "sink_mm_p95": 0.0
+        },
+        "fluid_load_fraction_capped_at_0_25": {
+          "mu_p05": 0.031929473097793086,
+          "mu_median": 0.06641876286514145,
+          "mu_p95": 0.1285058055758087,
+          "fraction_below_0_1_in_assumed_distribution": 0.836865,
+          "alpha_median": 0.1222618303743101,
+          "water_film_um_median": 17.895806072247176,
+          "capillary_over_normal_median": 0.0036549505612408235,
+          "sink_mm_p95": 0.0
+        },
+        "no_fluid_load_support": {
+          "mu_p05": 0.03179398449696616,
+          "mu_median": 0.0707396852464188,
+          "mu_p95": 0.14086922814142952,
+          "fraction_below_0_1_in_assumed_distribution": 0.780155,
+          "alpha_median": 0.0,
+          "water_film_um_median": 17.895806072247176,
+          "capillary_over_normal_median": 0.0036549505612408235,
+          "sink_mm_p95": 0.0
+        },
+        "no_boundary_lubrication_or_fluid_support": {
+          "mu_p05": 0.09815703213840847,
+          "mu_median": 0.1605504764719644,
+          "mu_p95": 0.2637165484586505,
+          "fraction_below_0_1_in_assumed_distribution": 0.056665,
+          "alpha_median": 0.0,
+          "water_film_um_median": 17.895806072247176,
+          "capillary_over_normal_median": 0.0036549505612408235,
+          "sink_mm_p95": 0.0
+        }
+      }
+    },
+    {
+      "theta_volume_fraction": 0.288,
+      "effective_saturation": 0.7444444444444444,
+      "geometric_saturation": 0.7578947368421052,
+      "cases": {
+        "original": {
+          "mu_p05": 0.0023860003238798813,
+          "mu_median": 0.009525633203005647,
+          "mu_p95": 0.0302324106902646,
+          "fraction_below_0_1_in_assumed_distribution": 0.99977,
+          "alpha_median": 0.9438333530050613,
+          "water_film_um_median": 158.16846766159532,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 0.38447395706973936
+        },
+        "no_assumed_boundary_lubrication": {
+          "mu_p05": 0.0025905260988926936,
+          "mu_median": 0.01479074179977383,
+          "mu_p95": 0.05617003722573098,
+          "fraction_below_0_1_in_assumed_distribution": 0.99355,
+          "alpha_median": 0.9438333530050613,
+          "water_film_um_median": 158.16846766159532,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 0.38447395706973936
+        },
+        "fluid_load_fraction_capped_at_0_25": {
+          "mu_p05": 0.025153565864840483,
+          "mu_median": 0.05498796277589292,
+          "mu_p95": 0.10851237835814465,
+          "fraction_below_0_1_in_assumed_distribution": 0.923005,
+          "alpha_median": 0.25,
+          "water_film_um_median": 158.16846766159532,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 0.38447395706973936
+        },
+        "no_fluid_load_support": {
+          "mu_p05": 0.031887054683065776,
+          "mu_median": 0.07148237564540372,
+          "mu_p95": 0.14268667684045172,
+          "fraction_below_0_1_in_assumed_distribution": 0.771285,
+          "alpha_median": 0.0,
+          "water_film_um_median": 158.16846766159532,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 0.38447395706973936
+        },
+        "no_boundary_lubrication_or_fluid_support": {
+          "mu_p05": 0.1000813948230122,
+          "mu_median": 0.16361255867262697,
+          "mu_p95": 0.26860088691758505,
+          "fraction_below_0_1_in_assumed_distribution": 0.049755,
+          "alpha_median": 0.0,
+          "water_film_um_median": 158.16846766159532,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 0.38447395706973936
+        }
+      }
+    },
+    {
+      "theta_volume_fraction": 0.38,
+      "effective_saturation": 1.0,
+      "geometric_saturation": 1.0,
+      "cases": {
+        "original": {
+          "mu_p05": 0.0038039571960519275,
+          "mu_median": 0.020517651366122686,
+          "mu_p95": 0.08594088748069523,
+          "fraction_below_0_1_in_assumed_distribution": 0.968235,
+          "alpha_median": 0.9905710278219368,
+          "water_film_um_median": 218.5348093527272,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 5.70120214230034
+        },
+        "no_assumed_boundary_lubrication": {
+          "mu_p05": 0.0041610141735558045,
+          "mu_median": 0.024041345868401707,
+          "mu_p95": 0.09613668956859948,
+          "fraction_below_0_1_in_assumed_distribution": 0.95581,
+          "alpha_median": 0.9905710278219368,
+          "water_film_um_median": 218.5348093527272,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 5.70120214230034
+        },
+        "fluid_load_fraction_capped_at_0_25": {
+          "mu_p05": 0.03354835146300801,
+          "mu_median": 0.07474245151634465,
+          "mu_p95": 0.15237321497030967,
+          "fraction_below_0_1_in_assumed_distribution": 0.7437,
+          "alpha_median": 0.25,
+          "water_film_um_median": 218.5348093527272,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 5.70120214230034
+        },
+        "no_fluid_load_support": {
+          "mu_p05": 0.04201116224586881,
+          "mu_median": 0.09259506909887424,
+          "mu_p95": 0.1819860465196047,
+          "fraction_below_0_1_in_assumed_distribution": 0.568435,
+          "alpha_median": 0.0,
+          "water_film_um_median": 218.5348093527272,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 5.70120214230034
+        },
+        "no_boundary_lubrication_or_fluid_support": {
+          "mu_p05": 0.11309498623259215,
+          "mu_median": 0.18541115779623446,
+          "mu_p95": 0.3024919226687945,
+          "fraction_below_0_1_in_assumed_distribution": 0.02039,
+          "alpha_median": 0.0,
+          "water_film_um_median": 218.5348093527272,
+          "capillary_over_normal_median": 0.017942484573364045,
+          "sink_mm_p95": 5.70120214230034
+        }
+      }
+    }
+  ],
+  "geometry": {
+    "calcite_solid_density_kg_m3": 2710.0,
+    "ice_solid_density_kg_m3": 917.0,
+    "original_model_porosity": 0.38,
+    "dry_bulk_kg_m3": 1680.2,
+    "fully_saturated_bulk_kg_m3": 2060.2,
+    "solid_density_ratio_calcite_to_ice": 2.955288985823337,
+    "calcite_required_porosity_for_bulk_targets": {
+      "300": 0.8892988929889298,
+      "350": 0.8708487084870848,
+      "500": 0.8154981549815499
+    },
+    "dry_loading_kg_m2_at_0_45m": 756.09,
+    "saturated_loading_kg_m2_at_0_45m": 927.0899999999999,
+    "representative_grain_diameter_m": 0.00045,
+    "ideal_bridge_force_N": 0.00010178760197630929,
+    "grain_weight_N": 1.2684532393595533e-06,
+    "ideal_bridge_to_weight_ratio": 80.24545077255053,
+    "ideal_bridge_note": "Perfect-wetting small-gap scale estimate; not total ski drag or a measured contact force.",
+    "acceleration_at_30deg_mu_0_16_m_s2": 3.545686526219945,
+    "model_sink_depth_max_mm": 6.0
+  },
+  "physical_validation": false,
+  "raw_snow_target": "Measured groomed fresh-snow references required; no universal mu threshold adopted."
+}
