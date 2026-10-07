@@ -1,0 +1,84 @@
+{
+  "retrieved_on": "2026-10-07",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Mechanics of the Ski–Snow Contact",
+      "authors": "Theile et al.",
+      "year": 2009,
+      "url": "https://doi.org/10.1007/s11249-009-9476-9",
+      "access": "Publisher full text and PDF read.",
+      "used": "Hard, well-sintered snow impact and delayed elastic response; fitted local K2/cv and dissipation reference.",
+      "limits": "Not a fresh groomed snow acceptance band, not a 50 C polymer law, not ski friction proof for artificial material."
+    },
+    {
+      "id": "S2",
+      "title": "Measurement of mechanical properties of snow for simulation of skiing",
+      "authors": "Mössner et al.",
+      "year": 2013,
+      "url": "https://doi.org/10.3189/2013JoG13J031",
+      "access": "Publisher PDF read, especially equations 2/3/9 and limitations.",
+      "used": "Separate static penetration and initial shear failure; dynamic shearing not measured in this work.",
+      "limits": "Project pair HV .16 and Sf .086 remains illustrative; not a jointly calibrated target condition."
+    },
+    {
+      "id": "S3",
+      "title": "Discrete element model for high strain rate deformations of snow",
+      "authors": "Theile et al.",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2007.01694",
+      "access": "Author preprint PDF read.",
+      "used": "Bonded-to-granular transition; calibrated experimental comparisons; model excludes new bond formation.",
+      "limits": "At -5 C, not a model validation for artificial grains or 60min regeneration."
+    },
+    {
+      "id": "S4",
+      "title": "Granular metamaterials with dynamic bond reconfiguration",
+      "authors": "Meng, Yan, Wang",
+      "year": 2024,
+      "url": "https://doi.org/10.1126/sciadv.adq7933",
+      "repository_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11616718/",
+      "access": "PMC search-indexed sections: design, assembly, discussion and methods. Direct PMC/publisher open failed. Supplementary material not inspected.",
+      "used": "PLA insertion pins, TPU receiving clips; compression assembly and thermal disassembly.",
+      "limits": "No verified miniaturized ski-surface, nonthermal reset, 50 C retention or manufacturing cost."
+    },
+    {
+      "id": "S5",
+      "title": "3D self-locking granular metamaterials",
+      "authors": "Liu et al.",
+      "year": 2026,
+      "url": "https://doi.org/10.1126/sciadv.aec8845",
+      "repository_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13068065/",
+      "access": "PMC search-indexed abstract, geometry caption, shear, discussion and methods. Publisher direct open failed; supplementary material not inspected.",
+      "used": "Large elastic-hook particles, 29mm major body dimension; self-confinement and configuration-dependent sliding-to-locking.",
+      "limits": "Not submillimetre snow or non-grabbing edge-response validation."
+    },
+    {
+      "id": "S6",
+      "title": "Mechanical behaviour of bistable struts",
+      "authors": "Cai, Xu, Feng, Zhang",
+      "year": 2012,
+      "url": "https://doi.org/10.1177/0954406211420618",
+      "repository_url": "https://strathprints.strath.ac.uk/34286/",
+      "access": "Institutional abstract only.",
+      "used": "Prior art for ideal-hinge von Mises truss and distinction of snap-through/bifurcation. Our equations independently derived.",
+      "limits": "Not relying on inaccessible full text for numerical values."
+    },
+    {
+      "id": "S7",
+      "title": "Dynamics of viscoelastic snap-through",
+      "authors": "Gomez, Moulton, Vella",
+      "url": "https://people.maths.ox.ac.uk/moulton/Papers/GMV18_LargeDeSnap_Resub.pdf",
+      "access": "Author manuscript PDF, abstract and introductory mechanism/limitations.",
+      "used": "Pseudo-bistability timing can depend sensitively on parameters and loading history.",
+      "limits": "No specific recovery time or material performance transferred to S1."
+    }
+  ],
+  "original_work": [
+    "Constructed post-peak and unloading counterexamples",
+    "Exact two-bar energy derivative and limit point",
+    "Load-channel, dissipation, exponential-memory and cost constraints"
+  ],
+  "third_party_pdfs_redistributed": false,
+  "physical_test_count": 0
+}

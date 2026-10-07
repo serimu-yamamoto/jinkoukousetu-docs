@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920">
+<style>text{font-family:Meiryo,'Noto Sans CJK JP',sans-serif;fill:#18354b}.h{font-size:28px;font-weight:bold}.t{font-size:22px}.s{font-size:18px}.red{fill:#ab443b}.green{fill:#17785d}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#416d86"/></marker></defs>
+<rect width="1500" height="920" fill="#f2f6f8"/>
+<text x="35" y="48" class="h">S1機能案：通常の支持・エッジの解放・整地の復帰を分ける</text>
+<text x="35" y="88" class="t">配置を確定した製造図ではありません。内側機構と、残すべき荷重経路を示す検討図です。</text>
+<rect x="25" y="120" width="710" height="445" rx="14" fill="white"/><rect x="755" y="120" width="720" height="445" rx="14" fill="white"/>
+<text x="50" y="164" class="h">① 板からの力は外側の支持部へ</text>
+<path d="M110 233H650" stroke="#263e50" stroke-width="8"/><text x="115" y="218" class="s">スキーの底面</text>
+<path d="M175 248V408M585 248V408" stroke="#5d8ba3" stroke-width="28"/>
+<path d="M177 282V374M585 282V374" stroke="#416d86" stroke-width="3" marker-end="url(#a)"/>
+<path d="M300 393L390 354L480 393" fill="none" stroke="#ad735e" stroke-width="10"/>
+<circle cx="300" cy="393" r="8" fill="#263e50"/><circle cx="390" cy="354" r="8" fill="#263e50"/><circle cx="480" cy="393" r="8" fill="#263e50"/>
+<text x="292" y="442" class="s">内側の切替機構（配置は概念）</text>
+<text x="50" y="491" class="t">仮の最大接点荷重72mNに対し、</text>
+<text x="50" y="528" class="t red">内側へ入る力を1.07%未満に抑える条件。</text>
+<text x="780" y="164" class="h">② エッジの過負荷で内側の状態を変える</text>
+<path d="M838 278L1090 278" stroke="#416d86" stroke-width="5" marker-end="url(#a)"/><text x="835" y="244" class="s">横力 → 内部の動きへ変換</text>
+<path d="M894 398L1080 332L1266 398" fill="none" stroke="#ad735e" stroke-width="10"/>
+<path d="M894 398L1080 464L1266 398" fill="none" stroke="#ad735e" stroke-width="5" stroke-dasharray="9 6"/>
+<circle cx="894" cy="398" r="9" fill="#263e50"/><circle cx="1266" cy="398" r="9" fill="#263e50"/>
+<text x="814" y="519" class="t">材料破断に頼らず、位置・接続状態を変える仮説。</text>
+<rect x="25" y="585" width="1450" height="277" rx="14" fill="#e0ebef"/>
+<text x="50" y="632" class="h">③ 準静的に同じ向きへ押すだけでは、二安定の機構は元へ戻らない</text>
+<text x="55" y="682" class="t">逆向きの機械動作・粒の向きの変更・戻し経路が必要。振動ローラーだけで戻るとは未確認。</text>
+<text x="55" y="727" class="t">内側機構の理想寸法：支点間160µm、高さ20µm、棒径24µm、反転移動40µm。</text>
+<text x="55" y="771" class="s">全体の開口、保持、冬の固着、50℃の反復耐久、人体・板の安全、量産費は、組込み後に再検証。</text>
+<text x="55" y="815" class="s">前回W2の356µm開口・保護余裕を、この機能図へ自動的に引き継がない。外枠・ヒンジの費用も未算入。</text>
+<text x="35" y="899" class="s">物理試験0件。機械的な接続・双安定性は先行研究が存在し、発明の新規性・特許性を主張した図ではありません。</text>
+</svg>

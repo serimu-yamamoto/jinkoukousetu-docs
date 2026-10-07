@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "b7deff5cf1d2ae278b5766dfc0bbc79e9e143be2",
+  "scope": "Analytical counterexamples, ideal two-bar component, load-channel and cost budgets. Not a calibrated particle bed, ski trial, reset machine or selected 50 C material.",
+  "ski_reference": {
+    "H_V_N_mm3": 0.16,
+    "S_f_N_mm2": 0.086,
+    "pair_status": "Inherited illustrative project pair. Static groomed-snow literature has broad ranges; this pair is not established as the requested fresh groomed snow target.",
+    "tool_length_mm": 200,
+    "tool_width_mm": 62,
+    "normal_force_N": 300,
+    "edge_angles_deg": [
+      0,
+      30,
+      45,
+      60
+    ]
+  },
+  "post_peak": {
+    "peak_displacement_mm": 0.2,
+    "evaluation_displacement_mm": 5,
+    "models": [
+      {
+        "id": "release",
+        "residual_ratio": 0.1,
+        "decay_length_mm": 0.1
+      },
+      {
+        "id": "persistent_drag",
+        "residual_ratio": 0.7,
+        "decay_length_mm": 2
+      }
+    ],
+    "scope": "Constructed comparison curves with identical peak. Neither curve is measured snow or synthetic grain behavior."
+  },
+  "contact": {
+    "pitch_m": 0.0006,
+    "pressure_Pa": [
+      2500,
+      5400,
+      20000
+    ],
+    "active_fraction": [
+      0.1,
+      0.3,
+      1
+    ],
+    "tip_radius_m": [
+      0.00003,
+      0.00005,
+      0.00015
+    ],
+    "effective_modulus_Pa": [
+      100000000,
+      300000000,
+      1000000000
+    ],
+    "illustrative_friction_budget": 0.1,
+    "reserved_other_resistance_budget": 0.02,
+    "small_contact_radius_ratio_limit": 0.2
+  },
+  "illustrative_lateral_stress_N_mm2": 0.086,
+  "arch": {
+    "a_mm": 0.08,
+    "h_mm": 0.02,
+    "r_mm": 0.012,
+    "E_MPa": 300,
+    "modulus_status": "hypothetical constitutive parameter, not measured at 50 C",
+    "geometry": "Two ideal pinned axial bars with fixed end supports. No real hinge geometry, supporting frame or 3D packing modeled.",
+    "ratios_h_a": [
+      0.1,
+      0.2,
+      0.25,
+      0.35,
+      0.5
+    ],
+    "radii_mm": [
+      0.004,
+      0.008,
+      0.012,
+      0.02
+    ]
+  },
+  "energy": {
+    "normal_force_N": 400,
+    "width_m": 0.07,
+    "illustrative_mu_budget": 0.1,
+    "reserved_other_mu": 0.08,
+    "theile_hard_snow_reference_J_m2": 0.86,
+    "synthetic_dissipation_J_m2": [
+      0.86,
+      50,
+      100,
+      300
+    ]
+  },
+  "cost": {
+    "A_m2": 2000,
+    "h_m": 0.45,
+    "rho_g3_pe_kg_m3": 130.5707765420711,
+    "P_yen_kg": 500,
+    "I_yen": 20000000,
+    "O_yen_year": 4000000,
+    "B_yen_year": 19000000,
+    "lambda_year": 0.02,
+    "r": 0.08,
+    "T_year": 10,
+    "W2_volume_upper_mm3": 0.005330003249836027,
+    "W2_bulk_upper_kg_m3": 138.28180376021143
+  },
+  "recovery": {
+    "ski_length_m": 2,
+    "velocities_m_s": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "illustrative_groove_retention_fraction": 0.9,
+    "available_reset_s": 660,
+    "desired_recovery_fraction": 0.9,
+    "scope": "Exponential toy memory time window; the two 90% values are design fractions, not probability. No passive recovery guarantee."
+  },
+  "integration_status": "S1 concept combines normal load bypass, retained shear-triggered movement and mechanical reverse reset. Its complete geometry is not designed; W2 aperture/protection claims do not automatically transfer."
+}

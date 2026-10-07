@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-07",
+  "scope": "Document consistency and numerical-model checks only; no physical validation",
+  "checks": {
+    "relative_markdown_links": {
+      "checked": 105,
+      "missing": []
+    },
+    "json_parse": {
+      "files": [
+        "inputs.json",
+        "results.json",
+        "validation.json",
+        "出典台帳.json",
+        "探索台帳.json",
+        "文書検証.json"
+      ],
+      "pass": true
+    },
+    "numerical_validation": {
+      "checks": 9,
+      "all_pass": true
+    },
+    "figures": {
+      "response_png": "Visually inspected; legible four-panel comparison",
+      "functional_svg": "Rasterized for inspection; no clipping; schematic only"
+    },
+    "claim_boundaries": [
+      "Constructed responses are not snow or S1 measurements",
+      "Ideal axial-bar mechanism is not integrated manufacturing geometry",
+      "Conditional costs are not vendor quotes",
+      "No measured success probability or Claude acknowledgement"
+    ]
+  },
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "overall_pass": true
+}

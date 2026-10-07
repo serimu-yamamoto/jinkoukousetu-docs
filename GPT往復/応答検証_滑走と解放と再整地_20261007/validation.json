@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "energy_gradient_matches_force": true,
+    "analytic_peak_matches_dense_curve": true,
+    "arch_both_zero_load_states": true,
+    "arch_flat_state_is_energy_barrier": true,
+    "further_compression_does_not_reverse_reset": true,
+    "uncalibrated_post_peak_curves_have_same_peak": true,
+    "normal_loop_energies_are_nonnegative": true,
+    "energy_ceiling_positive": true,
+    "cost_ceiling_decreases_with_added_bars": true
+  },
+  "max_energy_derivative_force_error_N": 5.671649131247514e-13,
+  "analytic_numeric_peak_relative_error": 2.2924752917161857e-10,
+  "physical_validation": false
+}

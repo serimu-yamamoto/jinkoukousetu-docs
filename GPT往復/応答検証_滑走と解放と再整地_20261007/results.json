@@ -1,0 +1,587 @@
+{
+  "scope": "Analytical counterexamples, ideal two-bar component, load-channel and cost budgets. Not a calibrated particle bed, ski trial, reset machine or selected 50 C material.",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "ski_reference": [
+    {
+      "angle_deg": 0,
+      "depth_mm": 0.15120967741935484,
+      "initial_failure_force_N": null,
+      "partial_contact_formula_valid": true
+    },
+    {
+      "angle_deg": 30,
+      "depth_mm": 3.290185032381231,
+      "initial_failure_force_N": 56.59118255695717,
+      "partial_contact_formula_valid": true
+    },
+    {
+      "angle_deg": 45,
+      "depth_mm": 4.330127018922193,
+      "initial_failure_force_N": 74.47818472546172,
+      "partial_contact_formula_valid": true
+    },
+    {
+      "angle_deg": 60,
+      "depth_mm": 5.698767642386943,
+      "initial_failure_force_N": 98.01880344905541,
+      "partial_contact_formula_valid": true
+    }
+  ],
+  "post_peak_counterexamples": [
+    {
+      "id": "release",
+      "residual_ratio": 0.1,
+      "decay_length_mm": 0.1,
+      "identical_peak_N": 74.47818472546172,
+      "force_after_5mm_N": 7.447818472546172,
+      "post_peak_work_J": 0.04394212898802241,
+      "numerical_work_J": 0.04394214295267623
+    },
+    {
+      "id": "persistent_drag",
+      "residual_ratio": 0.7,
+      "decay_length_mm": 2,
+      "identical_peak_N": 74.47818472546172,
+      "force_after_5mm_N": 53.9687918150332,
+      "post_peak_work_J": 0.30169243235997306,
+      "numerical_work_J": 0.30169243257361256
+    }
+  ],
+  "normal_unloading_counterexamples": [
+    {
+      "residual_depth_ratio": 0,
+      "residual_depth_mm": 0.0,
+      "identical_peak_normal_N": 300,
+      "work_in_J": 0.43301270189221924,
+      "work_returned_J": 0.43301270189221924,
+      "dissipated_J": 0.0
+    },
+    {
+      "residual_depth_ratio": 0.3,
+      "residual_depth_mm": 1.2990381056766578,
+      "identical_peak_normal_N": 300,
+      "work_in_J": 0.43301270189221924,
+      "work_returned_J": 0.30310889132455343,
+      "dissipated_J": 0.1299038105676658
+    },
+    {
+      "residual_depth_ratio": 0.7,
+      "residual_depth_mm": 3.0310889132455348,
+      "identical_peak_normal_N": 300,
+      "work_in_J": 0.43301270189221924,
+      "work_returned_J": 0.1299038105676658,
+      "dissipated_J": 0.30310889132455343
+    }
+  ],
+  "ideal_arch": {
+    "a_mm": 0.08,
+    "h_mm": 0.02,
+    "r_mm": 0.012,
+    "E_MPa": 300,
+    "bar_length_mm": 0.08246211251235322,
+    "peak_N": 0.0007680405441305888,
+    "peak_displacement_mm": 0.008569857259519443,
+    "stroke_mm": 0.04,
+    "maximum_axial_strain": 0.029857499854668235,
+    "max_linear_axial_stress_MPa": 8.95724995640047,
+    "ideal_euler_conservative_ratio": 1.7500074381186725,
+    "bar_slenderness": 13.743685418725537,
+    "two_bars_volume_mm3": 7.46099616580715e-05,
+    "energy_barrier_N_mm": 9.976884708168002e-06,
+    "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+  },
+  "arch_geometry_sweep": [
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.008,
+      "r_mm": 0.004,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08039900496896712,
+      "peak_N": 5.746659445414329e-06,
+      "peak_displacement_mm": 0.0033888597213518707,
+      "stroke_mm": 0.016,
+      "maximum_axial_strain": 0.004962809790010847,
+      "max_linear_axial_stress_MPa": 1.488842937003254,
+      "ideal_euler_conservative_ratio": 1.2306392395520955,
+      "bar_slenderness": 40.19950248448356,
+      "two_bars_volume_mm3": 8.082589547725965e-06,
+      "energy_barrier_N_mm": 2.9860497868817186e-08,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.008,
+      "r_mm": 0.008,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08039900496896712,
+      "peak_N": 2.2986637781657317e-05,
+      "peak_displacement_mm": 0.0033888597213518707,
+      "stroke_mm": 0.016,
+      "maximum_axial_strain": 0.004962809790010847,
+      "max_linear_axial_stress_MPa": 1.488842937003254,
+      "ideal_euler_conservative_ratio": 4.922556958208382,
+      "bar_slenderness": 20.09975124224178,
+      "two_bars_volume_mm3": 3.233035819090386e-05,
+      "energy_barrier_N_mm": 1.1944199147526874e-07,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.008,
+      "r_mm": 0.012,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08039900496896712,
+      "peak_N": 5.171993500872897e-05,
+      "peak_displacement_mm": 0.0033888597213518707,
+      "stroke_mm": 0.016,
+      "maximum_axial_strain": 0.004962809790010847,
+      "max_linear_axial_stress_MPa": 1.488842937003254,
+      "ideal_euler_conservative_ratio": 11.075753155968858,
+      "bar_slenderness": 13.399834161494521,
+      "two_bars_volume_mm3": 7.274330592953368e-05,
+      "energy_barrier_N_mm": 2.6874448081935467e-07,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.008,
+      "r_mm": 0.02,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08039900496896712,
+      "peak_N": 0.00014366648613535826,
+      "peak_displacement_mm": 0.0033888597213518707,
+      "stroke_mm": 0.016,
+      "maximum_axial_strain": 0.004962809790010847,
+      "max_linear_axial_stress_MPa": 1.488842937003254,
+      "ideal_euler_conservative_ratio": 30.765980988802387,
+      "bar_slenderness": 8.039900496896712,
+      "two_bars_volume_mm3": 0.00020206473869314914,
+      "energy_barrier_N_mm": 7.465124467204298e-07,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.016,
+      "r_mm": 0.004,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08158431221748456,
+      "peak_N": 4.464355365782718e-05,
+      "peak_displacement_mm": 0.00682284442492459,
+      "stroke_mm": 0.032,
+      "maximum_axial_strain": 0.01941932430907989,
+      "max_linear_axial_stress_MPa": 5.8257972927239665,
+      "ideal_euler_conservative_ratio": 0.3054304336486186,
+      "bar_slenderness": 40.79215610874228,
+      "two_bars_volume_mm3": 8.201749629140017e-06,
+      "energy_barrier_N_mm": 4.6394446308195573e-07,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.016,
+      "r_mm": 0.008,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08158431221748456,
+      "peak_N": 0.0001785742146313087,
+      "peak_displacement_mm": 0.00682284442492459,
+      "stroke_mm": 0.032,
+      "maximum_axial_strain": 0.01941932430907989,
+      "max_linear_axial_stress_MPa": 5.8257972927239665,
+      "ideal_euler_conservative_ratio": 1.2217217345944744,
+      "bar_slenderness": 20.39607805437114,
+      "two_bars_volume_mm3": 3.280699851656007e-05,
+      "energy_barrier_N_mm": 1.855777852327823e-06,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.016,
+      "r_mm": 0.012,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08158431221748456,
+      "peak_N": 0.00040179198292044456,
+      "peak_displacement_mm": 0.00682284442492459,
+      "stroke_mm": 0.032,
+      "maximum_axial_strain": 0.01941932430907989,
+      "max_linear_axial_stress_MPa": 5.8257972927239665,
+      "ideal_euler_conservative_ratio": 2.748873902837567,
+      "bar_slenderness": 13.59738536958076,
+      "two_bars_volume_mm3": 7.381574666226015e-05,
+      "energy_barrier_N_mm": 4.175500167737602e-06,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.016,
+      "r_mm": 0.02,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08158431221748456,
+      "peak_N": 0.0011160888414456795,
+      "peak_displacement_mm": 0.00682284442492459,
+      "stroke_mm": 0.032,
+      "maximum_axial_strain": 0.01941932430907989,
+      "max_linear_axial_stress_MPa": 5.8257972927239665,
+      "ideal_euler_conservative_ratio": 7.635760841215465,
+      "bar_slenderness": 8.158431221748456,
+      "two_bars_volume_mm3": 0.00020504374072850045,
+      "energy_barrier_N_mm": 1.1598611577048896e-05,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.02,
+      "r_mm": 0.004,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08246211251235322,
+      "peak_N": 8.533783823673209e-05,
+      "peak_displacement_mm": 0.008569857259519443,
+      "stroke_mm": 0.04,
+      "maximum_axial_strain": 0.029857499854668235,
+      "max_linear_axial_stress_MPa": 8.95724995640047,
+      "ideal_euler_conservative_ratio": 0.19444527090207475,
+      "bar_slenderness": 41.23105625617661,
+      "two_bars_volume_mm3": 8.289995739785723e-06,
+      "energy_barrier_N_mm": 1.1085427453520002e-06,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.02,
+      "r_mm": 0.008,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08246211251235322,
+      "peak_N": 0.00034135135294692835,
+      "peak_displacement_mm": 0.008569857259519443,
+      "stroke_mm": 0.04,
+      "maximum_axial_strain": 0.029857499854668235,
+      "max_linear_axial_stress_MPa": 8.95724995640047,
+      "ideal_euler_conservative_ratio": 0.777781083608299,
+      "bar_slenderness": 20.615528128088304,
+      "two_bars_volume_mm3": 3.315998295914289e-05,
+      "energy_barrier_N_mm": 4.434170981408001e-06,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.02,
+      "r_mm": 0.012,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08246211251235322,
+      "peak_N": 0.0007680405441305888,
+      "peak_displacement_mm": 0.008569857259519443,
+      "stroke_mm": 0.04,
+      "maximum_axial_strain": 0.029857499854668235,
+      "max_linear_axial_stress_MPa": 8.95724995640047,
+      "ideal_euler_conservative_ratio": 1.7500074381186725,
+      "bar_slenderness": 13.743685418725537,
+      "two_bars_volume_mm3": 7.46099616580715e-05,
+      "energy_barrier_N_mm": 9.976884708168002e-06,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.02,
+      "r_mm": 0.02,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08246211251235322,
+      "peak_N": 0.0021334459559183027,
+      "peak_displacement_mm": 0.008569857259519443,
+      "stroke_mm": 0.04,
+      "maximum_axial_strain": 0.029857499854668235,
+      "max_linear_axial_stress_MPa": 8.95724995640047,
+      "ideal_euler_conservative_ratio": 4.861131772551868,
+      "bar_slenderness": 8.246211251235321,
+      "two_bars_volume_mm3": 0.0002072498934946431,
+      "energy_barrier_N_mm": 2.7713568633800007e-05,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.027999999999999997,
+      "r_mm": 0.004,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08475848040166836,
+      "peak_N": 0.000221531177101498,
+      "peak_displacement_mm": 0.012146482790402709,
+      "stroke_mm": 0.055999999999999994,
+      "maximum_axial_strain": 0.05614164363398255,
+      "max_linear_axial_stress_MPa": 16.842493090194765,
+      "ideal_euler_conservative_ratio": 0.09788322953614484,
+      "bar_slenderness": 42.37924020083418,
+      "two_bars_volume_mm3": 8.520851819498106e-06,
+      "energy_barrier_N_mm": 4.028510669060473e-06,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.027999999999999997,
+      "r_mm": 0.008,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08475848040166836,
+      "peak_N": 0.000886124708405992,
+      "peak_displacement_mm": 0.012146482790402709,
+      "stroke_mm": 0.055999999999999994,
+      "maximum_axial_strain": 0.05614164363398255,
+      "max_linear_axial_stress_MPa": 16.842493090194765,
+      "ideal_euler_conservative_ratio": 0.39153291814457936,
+      "bar_slenderness": 21.18962010041709,
+      "two_bars_volume_mm3": 3.4083407277992424e-05,
+      "energy_barrier_N_mm": 1.6114042676241893e-05,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.027999999999999997,
+      "r_mm": 0.012,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08475848040166836,
+      "peak_N": 0.001993780593913482,
+      "peak_displacement_mm": 0.012146482790402709,
+      "stroke_mm": 0.055999999999999994,
+      "maximum_axial_strain": 0.05614164363398255,
+      "max_linear_axial_stress_MPa": 16.842493090194765,
+      "ideal_euler_conservative_ratio": 0.8809490658253034,
+      "bar_slenderness": 14.12641340027806,
+      "two_bars_volume_mm3": 7.668766637548294e-05,
+      "energy_barrier_N_mm": 3.625659602154426e-05,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.027999999999999997,
+      "r_mm": 0.02,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08475848040166836,
+      "peak_N": 0.005538279427537452,
+      "peak_displacement_mm": 0.012146482790402709,
+      "stroke_mm": 0.055999999999999994,
+      "maximum_axial_strain": 0.05614164363398255,
+      "max_linear_axial_stress_MPa": 16.842493090194765,
+      "ideal_euler_conservative_ratio": 2.4470807384036206,
+      "bar_slenderness": 8.475848040166836,
+      "two_bars_volume_mm3": 0.00021302129548745265,
+      "energy_barrier_N_mm": 0.00010071276672651185,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.04,
+      "r_mm": 0.004,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08944271909999159,
+      "peak_N": 0.0005788131601332236,
+      "peak_displacement_mm": 0.017769592713986752,
+      "stroke_mm": 0.08,
+      "maximum_axial_strain": 0.10557280900008414,
+      "max_linear_axial_stress_MPa": 31.671842700025245,
+      "ideal_euler_conservative_ratio": 0.04674311735459029,
+      "bar_slenderness": 44.721359549995796,
+      "two_bars_volume_mm3": 8.99176285573213e-06,
+      "energy_barrier_N_mm": 1.5032813090713832e-05,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.04,
+      "r_mm": 0.008,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08944271909999159,
+      "peak_N": 0.0023152526405328944,
+      "peak_displacement_mm": 0.017769592713986752,
+      "stroke_mm": 0.08,
+      "maximum_axial_strain": 0.10557280900008414,
+      "max_linear_axial_stress_MPa": 31.671842700025245,
+      "ideal_euler_conservative_ratio": 0.18697246941836115,
+      "bar_slenderness": 22.360679774997898,
+      "two_bars_volume_mm3": 3.596705142292852e-05,
+      "energy_barrier_N_mm": 6.013125236285533e-05,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.04,
+      "r_mm": 0.012,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08944271909999159,
+      "peak_N": 0.0052093184411990115,
+      "peak_displacement_mm": 0.017769592713986752,
+      "stroke_mm": 0.08,
+      "maximum_axial_strain": 0.10557280900008414,
+      "max_linear_axial_stress_MPa": 31.671842700025245,
+      "ideal_euler_conservative_ratio": 0.4206880561913126,
+      "bar_slenderness": 14.907119849998598,
+      "two_bars_volume_mm3": 8.092586570158917e-05,
+      "energy_barrier_N_mm": 0.00013529531781642448,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    },
+    {
+      "a_mm": 0.08,
+      "h_mm": 0.04,
+      "r_mm": 0.02,
+      "E_MPa": 300,
+      "bar_length_mm": 0.08944271909999159,
+      "peak_N": 0.01447032900333059,
+      "peak_displacement_mm": 0.017769592713986752,
+      "stroke_mm": 0.08,
+      "maximum_axial_strain": 0.10557280900008414,
+      "max_linear_axial_stress_MPa": 31.671842700025245,
+      "ideal_euler_conservative_ratio": 1.1685779338647573,
+      "bar_slenderness": 8.94427190999916,
+      "two_bars_volume_mm3": 0.00022479407139330327,
+      "energy_barrier_N_mm": 0.00037582032726784587,
+      "scope": "Ideal hinged axial bars, fixed supports. No actual hinge, 50 C law, finite-body buckling or cyclic-life validation."
+    }
+  ],
+  "contact_force_budget": [
+    {
+      "pressure_Pa": 2500,
+      "active_fraction": 0.1,
+      "force_per_active_contact_N": 0.009,
+      "max_normal_coupling_for_one_arch": 0.08533783823673209
+    },
+    {
+      "pressure_Pa": 2500,
+      "active_fraction": 0.3,
+      "force_per_active_contact_N": 0.003,
+      "max_normal_coupling_for_one_arch": 0.25601351471019623
+    },
+    {
+      "pressure_Pa": 2500,
+      "active_fraction": 1,
+      "force_per_active_contact_N": 0.0009,
+      "max_normal_coupling_for_one_arch": 0.8533783823673209
+    },
+    {
+      "pressure_Pa": 5400,
+      "active_fraction": 0.1,
+      "force_per_active_contact_N": 0.01944,
+      "max_normal_coupling_for_one_arch": 0.03950825844293152
+    },
+    {
+      "pressure_Pa": 5400,
+      "active_fraction": 0.3,
+      "force_per_active_contact_N": 0.0064800000000000005,
+      "max_normal_coupling_for_one_arch": 0.11852477532879456
+    },
+    {
+      "pressure_Pa": 5400,
+      "active_fraction": 1,
+      "force_per_active_contact_N": 0.001944,
+      "max_normal_coupling_for_one_arch": 0.3950825844293152
+    },
+    {
+      "pressure_Pa": 20000,
+      "active_fraction": 0.1,
+      "force_per_active_contact_N": 0.072,
+      "max_normal_coupling_for_one_arch": 0.010667229779591511
+    },
+    {
+      "pressure_Pa": 20000,
+      "active_fraction": 0.3,
+      "force_per_active_contact_N": 0.024,
+      "max_normal_coupling_for_one_arch": 0.03200168933877453
+    },
+    {
+      "pressure_Pa": 20000,
+      "active_fraction": 1,
+      "force_per_active_contact_N": 0.0072,
+      "max_normal_coupling_for_one_arch": 0.10667229779591511
+    }
+  ],
+  "load_channel_constraints": {
+    "upper_illustrative_normal_N": 0.072,
+    "arch_peak_N": 0.0007680405441305888,
+    "alpha_must_be_below": 0.010667229779591511,
+    "hypothetical_shear_force_per_full_active_contact_N": 0.030959999999999994,
+    "beta_must_be_at_least": 0.024807511115329098,
+    "scope": "Necessary load-path inequalities for the chosen reference forces, not actual orientation-dependent transfer coefficients."
+  },
+  "dissipation_cases": [
+    {
+      "dissipation_per_fresh_area_J_m2": 0.86,
+      "additional_drag_N": 0.060200000000000004,
+      "mechanical_mu": 0.0001505,
+      "total_mu_with_assumed_other": 0.0801505
+    },
+    {
+      "dissipation_per_fresh_area_J_m2": 50,
+      "additional_drag_N": 3.5000000000000004,
+      "mechanical_mu": 0.00875,
+      "total_mu_with_assumed_other": 0.08875
+    },
+    {
+      "dissipation_per_fresh_area_J_m2": 100,
+      "additional_drag_N": 7.000000000000001,
+      "mechanical_mu": 0.0175,
+      "total_mu_with_assumed_other": 0.0975
+    },
+    {
+      "dissipation_per_fresh_area_J_m2": 300,
+      "additional_drag_N": 21.000000000000004,
+      "mechanical_mu": 0.05250000000000001,
+      "total_mu_with_assumed_other": 0.1325
+    }
+  ],
+  "dissipation_ceiling_J_m2": 114.2857142857143,
+  "recovery_memory_cases": [
+    {
+      "velocity_m_s": 2,
+      "passage_time_s": 1.0,
+      "minimum_exponential_memory_tau_s": 9.491221581029905
+    },
+    {
+      "velocity_m_s": 5,
+      "passage_time_s": 0.4,
+      "minimum_exponential_memory_tau_s": 3.796488632411962
+    },
+    {
+      "velocity_m_s": 10,
+      "passage_time_s": 0.2,
+      "minimum_exponential_memory_tau_s": 1.898244316205981
+    },
+    {
+      "velocity_m_s": 20,
+      "passage_time_s": 0.1,
+      "minimum_exponential_memory_tau_s": 0.9491221581029905
+    }
+  ],
+  "maximum_exponential_tau_for_660s_reset": 286.6343580561462,
+  "hard_snow_local_kelvin_tau_reference_s": 0.020992366412213744,
+  "material_volume_budget": {
+    "bulk_cap_kg_m3": 158.01858426147132,
+    "extra_volume_above_W2_mm3": 0.0007607443738254475,
+    "ideal_bar_pairs_that_fill_all_remaining_budget": 10.196284208157723
+  },
+  "cost_bars_only": [
+    {
+      "number_bar_pairs": 0,
+      "bulk_for_bars_only_kg_m3": 138.28180376021143,
+      "EAC_yen_year": 17498755.937505536,
+      "finished_price_ceiling_yen_kg_if_no_other_changes": 571.3643442758549,
+      "excludes": "Hinges, frame, normal stops, reverse-reset mechanism and all changed manufacturing costs. Not finished S1 cost."
+    },
+    {
+      "number_bar_pairs": 1,
+      "bulk_for_bars_only_kg_m3": 140.2174873973416,
+      "EAC_yen_year": 17645990.36446407,
+      "finished_price_ceiling_yen_kg_if_no_other_changes": 563.4767360139817,
+      "excludes": "Hinges, frame, normal stops, reverse-reset mechanism and all changed manufacturing costs. Not finished S1 cost."
+    },
+    {
+      "number_bar_pairs": 3,
+      "bulk_for_bars_only_kg_m3": 144.088854671602,
+      "EAC_yen_year": 17940459.218381144,
+      "finished_price_ceiling_yen_kg_if_no_other_changes": 548.3372902838912,
+      "excludes": "Hinges, frame, normal stops, reverse-reset mechanism and all changed manufacturing costs. Not finished S1 cost."
+    },
+    {
+      "number_bar_pairs": 6,
+      "bulk_for_bars_only_kg_m3": 149.89590558299258,
+      "EAC_yen_year": 18382162.49925675,
+      "finished_price_ceiling_yen_kg_if_no_other_changes": 527.0943980987574,
+      "excludes": "Hinges, frame, normal stops, reverse-reset mechanism and all changed manufacturing costs. Not finished S1 cost."
+    }
+  ],
+  "calibration_warning": "Any listed curve or fraction agreement is conditional on chosen model inputs; no physical candidate receives a passing score."
+}
