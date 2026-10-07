@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1100" viewBox="0 0 1280 1100">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8" fill="#267980"/></marker></defs>
+<rect width="1280" height="1100" fill="#f5f8fb"/>
+<g font-family="Meiryo, Noto Sans CJK JP, sans-serif" fill="#17354c">
+<text x="50" y="56" font-size="29" font-weight="bold">開放微細粒による再接続床：研究用の構造案</text>
+<text x="50" y="92" font-size="18">実物・顕微鏡像ではありません。寸法、滑走感、保持力、量産性は未実証です。</text>
+<rect x="40" y="120" width="580" height="430" rx="16" fill="white" stroke="#b6cbd9"/>
+<text x="62" y="158" font-size="23" font-weight="bold">1｜粒の外面と接続部を分ける</text>
+<g transform="translate(248,342)" fill="none" stroke="#258a91" stroke-width="21" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-30,-30 C-102,-110 19,-165 67,-89 C88,-48 45,-14 20,-38"/>
+<path d="M-30,-30 C-102,-110 19,-165 67,-89 C88,-48 45,-14 20,-38" transform="rotate(120)"/>
+<path d="M-30,-30 C-102,-110 19,-165 67,-89 C88,-48 45,-14 20,-38" transform="rotate(240)"/>
+</g>
+<text x="386" y="259" font-size="19">丸い外面</text><path d="M395 270 L329 287" stroke="#267980" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="365" y="389" font-size="19">内側の短い接続腕</text><path d="M382 372 L290 333" stroke="#267980" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="63" y="470" font-size="18">外径候補 0.4〜0.6mm ／ 切断長 0.2〜0.4mm</text>
+<text x="63" y="503" font-size="17">3方向の開口、排水できる孔。上図は断面の概念図。</text>
+<text x="63" y="530" font-size="16" fill="#9b5831">図から体積・断面積・接続確率を求めたものではありません。</text>
+<rect x="640" y="120" width="600" height="430" rx="16" fill="white" stroke="#b6cbd9"/>
+<text x="664" y="158" font-size="23" font-weight="bold">2｜残したい働きと確認する順序</text>
+<g font-size="20">
+<text x="672" y="211">板を寝かせる → 外面で低く安定した抵抗</text>
+<text x="672" y="270">エッジを立てる → 接点で横荷重を支える</text>
+<text x="672" y="329">操作・切削する → 接続が局所的に外れる</text>
+<text x="672" y="388">振動・転圧する → 粒が再配置・再接続</text>
+</g>
+<rect x="660" y="426" width="560" height="102" rx="9" fill="#fff0db"/>
+<text x="675" y="456" font-size="18">「強く絡む」だけでは、エッジが抜けなくなる。</text>
+<text x="675" y="485" font-size="18">繰返しで折れる・粘る・粉になる方式は外す。</text>
+<text x="675" y="513" font-size="17">平均摩擦だけでなく、力の立上がりと解放を測る。</text>
+<rect x="40" y="574" width="1200" height="326" rx="16" fill="white" stroke="#b6cbd9"/>
+<text x="62" y="613" font-size="23" font-weight="bold">3｜全深度を同じ機能の粒床にする（断面の考え方）</text>
+<path d="M86 698 L771 698" stroke="#17354c" stroke-width="11"/>
+<text x="837" y="706" font-size="19">滑走面</text>
+<rect x="86" y="704" width="685" height="115" fill="#d3eeec"/>
+<path d="M86 781 L771 781" stroke="#267980" stroke-width="2" stroke-dasharray="9 7"/>
+<g fill="#46989c"><circle cx="125" cy="728" r="5"/><circle cx="160" cy="750" r="5"/><circle cx="230" cy="730" r="5"/><circle cx="286" cy="756" r="5"/><circle cx="358" cy="731" r="5"/><circle cx="420" cy="759" r="5"/><circle cx="475" cy="736" r="5"/><circle cx="535" cy="754" r="5"/><circle cx="603" cy="731" r="5"/><circle cx="650" cy="757" r="5"/><circle cx="734" cy="731" r="5"/></g>
+<text x="837" y="746" font-size="19">局所削れ代 300mm</text>
+<text x="837" y="796" font-size="19">底付き余裕 150mm（仮配分）</text>
+<path d="M86 822 L360 822 L360 841 L431 841 L431 822 L771 822" fill="none" stroke="#987856" stroke-width="7"/>
+<text x="88" y="872" font-size="18">地形の段・受け溝・排水は作動層より下。寸法と地盤耐力は別設計。</text>
+<text x="837" y="844" font-size="17">45cmを比較基準に保持</text>
+<text x="837" y="871" font-size="17">集中域80cmも費用感度に含む</text>
+<rect x="40" y="920" width="1200" height="139" rx="14" fill="#163d56"/>
+<g fill="white"><text x="62" y="955" font-size="21" font-weight="bold">量産・採算の目標組合わせ：整地後120kg/m³ × 完成粒500円/kg</text>
+<text x="62" y="989" font-size="19">2,000m² × 厚さ45cm → 材料108t、初期材料費5,400万円（税抜・仮価格）</text>
+<text x="62" y="1024" font-size="18">無充填／少量鉱物充填を比較。雪感・50℃・耐風・冬季接続を通過してから採用する。</text></g>
+</g></svg>

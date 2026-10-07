@@ -1,0 +1,2883 @@
+{
+  "status": "Unvalidated design and deterministic sensitivity; not measured properties or quotations",
+  "AF": 6.710081398941448,
+  "material_NPV_allowance_yen": 80651220.98412171,
+  "price_caps": [
+    {
+      "rho": 100,
+      "replacement": 0.02,
+      "mass_kg": 90000.0,
+      "Pmax_yen_kg": 790.0929213073563
+    },
+    {
+      "rho": 100,
+      "replacement": 0.05,
+      "mass_kg": 90000.0,
+      "Pmax_yen_kg": 671.0010832365841
+    },
+    {
+      "rho": 100,
+      "replacement": 0.1,
+      "mass_kg": 90000.0,
+      "Pmax_yen_kg": 536.2778649648709
+    },
+    {
+      "rho": 120,
+      "replacement": 0.02,
+      "mass_kg": 108000.0,
+      "Pmax_yen_kg": 658.4107677561302
+    },
+    {
+      "rho": 120,
+      "replacement": 0.05,
+      "mass_kg": 108000.0,
+      "Pmax_yen_kg": 559.1675693638201
+    },
+    {
+      "rho": 120,
+      "replacement": 0.1,
+      "mass_kg": 108000.0,
+      "Pmax_yen_kg": 446.8982208040591
+    },
+    {
+      "rho": 180,
+      "replacement": 0.02,
+      "mass_kg": 162000.0,
+      "Pmax_yen_kg": 438.9405118374202
+    },
+    {
+      "rho": 180,
+      "replacement": 0.05,
+      "mass_kg": 162000.0,
+      "Pmax_yen_kg": 372.77837957588
+    },
+    {
+      "rho": 180,
+      "replacement": 0.1,
+      "mass_kg": 162000.0,
+      "Pmax_yen_kg": 297.93214720270606
+    },
+    {
+      "rho": 300,
+      "replacement": 0.02,
+      "mass_kg": 270000.0,
+      "Pmax_yen_kg": 263.36430710245213
+    },
+    {
+      "rho": 300,
+      "replacement": 0.05,
+      "mass_kg": 270000.0,
+      "Pmax_yen_kg": 223.66702774552803
+    },
+    {
+      "rho": 300,
+      "replacement": 0.1,
+      "mass_kg": 270000.0,
+      "Pmax_yen_kg": 178.75928832162364
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.02,
+      "mass_kg": 1506600.0,
+      "Pmax_yen_kg": 47.19790449864733
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.05,
+      "mass_kg": 1506600.0,
+      "Pmax_yen_kg": 40.08369672858925
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.1,
+      "mass_kg": 1506600.0,
+      "Pmax_yen_kg": 32.03571475297915
+    }
+  ],
+  "filler_density_screen": [
+    {
+      "target_skeletal_density": 1000,
+      "ideal_calcite_mass_fraction": 0.06194285714285709
+    },
+    {
+      "target_skeletal_density": 1050,
+      "ideal_calcite_mass_fraction": 0.132734693877551
+    },
+    {
+      "target_skeletal_density": 1100,
+      "ideal_calcite_mass_fraction": 0.19709090909090907
+    }
+  ],
+  "cost_cases": [
+    {
+      "rho": 100,
+      "replacement": 0.02,
+      "price": 300,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 27000000.0,
+      "total_initial_yen": 47000000.0,
+      "equivalent_annual_yen": 11544385.968762541,
+      "annual_margin_yen": 7455614.031237459
+    },
+    {
+      "rho": 100,
+      "replacement": 0.02,
+      "price": 500,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 45000000.0,
+      "total_initial_yen": 65000000.0,
+      "equivalent_annual_yen": 14586916.765309898,
+      "annual_margin_yen": 4413083.234690102
+    },
+    {
+      "rho": 100,
+      "replacement": 0.02,
+      "price": 600,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 54000000.0,
+      "total_initial_yen": 74000000.0,
+      "equivalent_annual_yen": 16108182.163583575,
+      "annual_margin_yen": 2891817.836416425
+    },
+    {
+      "rho": 100,
+      "replacement": 0.02,
+      "price": 1000,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 90000000.0,
+      "total_initial_yen": 110000000.0,
+      "equivalent_annual_yen": 22193243.75667829,
+      "annual_margin_yen": -3193243.7566782907
+    },
+    {
+      "rho": 100,
+      "replacement": 0.05,
+      "price": 300,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 27000000.0,
+      "total_initial_yen": 47000000.0,
+      "equivalent_annual_yen": 12354385.968762541,
+      "annual_margin_yen": 6645614.031237459
+    },
+    {
+      "rho": 100,
+      "replacement": 0.05,
+      "price": 500,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 45000000.0,
+      "total_initial_yen": 65000000.0,
+      "equivalent_annual_yen": 15936916.765309898,
+      "annual_margin_yen": 3063083.234690102
+    },
+    {
+      "rho": 100,
+      "replacement": 0.05,
+      "price": 600,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 54000000.0,
+      "total_initial_yen": 74000000.0,
+      "equivalent_annual_yen": 17728182.163583577,
+      "annual_margin_yen": 1271817.8364164233
+    },
+    {
+      "rho": 100,
+      "replacement": 0.05,
+      "price": 1000,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 90000000.0,
+      "total_initial_yen": 110000000.0,
+      "equivalent_annual_yen": 24893243.75667829,
+      "annual_margin_yen": -5893243.756678291
+    },
+    {
+      "rho": 100,
+      "replacement": 0.1,
+      "price": 300,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 27000000.0,
+      "total_initial_yen": 47000000.0,
+      "equivalent_annual_yen": 13704385.968762541,
+      "annual_margin_yen": 5295614.031237459
+    },
+    {
+      "rho": 100,
+      "replacement": 0.1,
+      "price": 500,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 45000000.0,
+      "total_initial_yen": 65000000.0,
+      "equivalent_annual_yen": 18186916.7653099,
+      "annual_margin_yen": 813083.2346901
+    },
+    {
+      "rho": 100,
+      "replacement": 0.1,
+      "price": 600,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 54000000.0,
+      "total_initial_yen": 74000000.0,
+      "equivalent_annual_yen": 20428182.163583577,
+      "annual_margin_yen": -1428182.1635835767
+    },
+    {
+      "rho": 100,
+      "replacement": 0.1,
+      "price": 1000,
+      "mass_kg": 90000.0,
+      "material_initial_yen": 90000000.0,
+      "total_initial_yen": 110000000.0,
+      "equivalent_annual_yen": 29393243.75667829,
+      "annual_margin_yen": -10393243.75667829
+    },
+    {
+      "rho": 120,
+      "replacement": 0.02,
+      "price": 300,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 32400000.0,
+      "total_initial_yen": 52400000.0,
+      "equivalent_annual_yen": 12457145.207726747,
+      "annual_margin_yen": 6542854.792273253
+    },
+    {
+      "rho": 120,
+      "replacement": 0.02,
+      "price": 500,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 54000000.0,
+      "total_initial_yen": 74000000.0,
+      "equivalent_annual_yen": 16108182.163583575,
+      "annual_margin_yen": 2891817.836416425
+    },
+    {
+      "rho": 120,
+      "replacement": 0.02,
+      "price": 600,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 64800000.0,
+      "total_initial_yen": 84800000.0,
+      "equivalent_annual_yen": 17933700.64151199,
+      "annual_margin_yen": 1066299.3584880084
+    },
+    {
+      "rho": 120,
+      "replacement": 0.02,
+      "price": 1000,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 108000000.0,
+      "total_initial_yen": 128000000.0,
+      "equivalent_annual_yen": 25235774.553225644,
+      "annual_margin_yen": -6235774.553225644
+    },
+    {
+      "rho": 120,
+      "replacement": 0.05,
+      "price": 300,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 32400000.0,
+      "total_initial_yen": 52400000.0,
+      "equivalent_annual_yen": 13429145.207726747,
+      "annual_margin_yen": 5570854.792273253
+    },
+    {
+      "rho": 120,
+      "replacement": 0.05,
+      "price": 500,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 54000000.0,
+      "total_initial_yen": 74000000.0,
+      "equivalent_annual_yen": 17728182.163583577,
+      "annual_margin_yen": 1271817.8364164233
+    },
+    {
+      "rho": 120,
+      "replacement": 0.05,
+      "price": 600,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 64800000.0,
+      "total_initial_yen": 84800000.0,
+      "equivalent_annual_yen": 19877700.64151199,
+      "annual_margin_yen": -877700.6415119916
+    },
+    {
+      "rho": 120,
+      "replacement": 0.05,
+      "price": 1000,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 108000000.0,
+      "total_initial_yen": 128000000.0,
+      "equivalent_annual_yen": 28475774.553225644,
+      "annual_margin_yen": -9475774.553225644
+    },
+    {
+      "rho": 120,
+      "replacement": 0.1,
+      "price": 300,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 32400000.0,
+      "total_initial_yen": 52400000.0,
+      "equivalent_annual_yen": 15049145.207726747,
+      "annual_margin_yen": 3950854.792273253
+    },
+    {
+      "rho": 120,
+      "replacement": 0.1,
+      "price": 500,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 54000000.0,
+      "total_initial_yen": 74000000.0,
+      "equivalent_annual_yen": 20428182.163583577,
+      "annual_margin_yen": -1428182.1635835767
+    },
+    {
+      "rho": 120,
+      "replacement": 0.1,
+      "price": 600,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 64800000.0,
+      "total_initial_yen": 84800000.0,
+      "equivalent_annual_yen": 23117700.64151199,
+      "annual_margin_yen": -4117700.6415119916
+    },
+    {
+      "rho": 120,
+      "replacement": 0.1,
+      "price": 1000,
+      "mass_kg": 108000.0,
+      "material_initial_yen": 108000000.0,
+      "total_initial_yen": 128000000.0,
+      "equivalent_annual_yen": 33875774.553225644,
+      "annual_margin_yen": -14875774.553225644
+    },
+    {
+      "rho": 180,
+      "replacement": 0.02,
+      "price": 300,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 48600000.0,
+      "total_initial_yen": 68600000.0,
+      "equivalent_annual_yen": 15195422.92461937,
+      "annual_margin_yen": 3804577.075380631
+    },
+    {
+      "rho": 180,
+      "replacement": 0.02,
+      "price": 500,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 81000000.0,
+      "total_initial_yen": 101000000.0,
+      "equivalent_annual_yen": 20671978.35840461,
+      "annual_margin_yen": -1671978.3584046103
+    },
+    {
+      "rho": 180,
+      "replacement": 0.02,
+      "price": 600,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 97200000.0,
+      "total_initial_yen": 117200000.0,
+      "equivalent_annual_yen": 23410256.07529723,
+      "annual_margin_yen": -4410256.075297229
+    },
+    {
+      "rho": 180,
+      "replacement": 0.02,
+      "price": 1000,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 162000000.0,
+      "total_initial_yen": 182000000.0,
+      "equivalent_annual_yen": 34363366.94286771,
+      "annual_margin_yen": -15363366.942867711
+    },
+    {
+      "rho": 180,
+      "replacement": 0.05,
+      "price": 300,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 48600000.0,
+      "total_initial_yen": 68600000.0,
+      "equivalent_annual_yen": 16653422.92461937,
+      "annual_margin_yen": 2346577.075380631
+    },
+    {
+      "rho": 180,
+      "replacement": 0.05,
+      "price": 500,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 81000000.0,
+      "total_initial_yen": 101000000.0,
+      "equivalent_annual_yen": 23101978.35840461,
+      "annual_margin_yen": -4101978.3584046103
+    },
+    {
+      "rho": 180,
+      "replacement": 0.05,
+      "price": 600,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 97200000.0,
+      "total_initial_yen": 117200000.0,
+      "equivalent_annual_yen": 26326256.07529723,
+      "annual_margin_yen": -7326256.075297229
+    },
+    {
+      "rho": 180,
+      "replacement": 0.05,
+      "price": 1000,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 162000000.0,
+      "total_initial_yen": 182000000.0,
+      "equivalent_annual_yen": 39223366.94286771,
+      "annual_margin_yen": -20223366.94286771
+    },
+    {
+      "rho": 180,
+      "replacement": 0.1,
+      "price": 300,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 48600000.0,
+      "total_initial_yen": 68600000.0,
+      "equivalent_annual_yen": 19083422.92461937,
+      "annual_margin_yen": -83422.92461936921
+    },
+    {
+      "rho": 180,
+      "replacement": 0.1,
+      "price": 500,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 81000000.0,
+      "total_initial_yen": 101000000.0,
+      "equivalent_annual_yen": 27151978.35840461,
+      "annual_margin_yen": -8151978.35840461
+    },
+    {
+      "rho": 180,
+      "replacement": 0.1,
+      "price": 600,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 97200000.0,
+      "total_initial_yen": 117200000.0,
+      "equivalent_annual_yen": 31186256.07529723,
+      "annual_margin_yen": -12186256.075297229
+    },
+    {
+      "rho": 180,
+      "replacement": 0.1,
+      "price": 1000,
+      "mass_kg": 162000.0,
+      "material_initial_yen": 162000000.0,
+      "total_initial_yen": 182000000.0,
+      "equivalent_annual_yen": 47323366.94286771,
+      "annual_margin_yen": -28323366.94286771
+    },
+    {
+      "rho": 300,
+      "replacement": 0.02,
+      "price": 300,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 81000000.0,
+      "total_initial_yen": 101000000.0,
+      "equivalent_annual_yen": 20671978.35840461,
+      "annual_margin_yen": -1671978.3584046103
+    },
+    {
+      "rho": 300,
+      "replacement": 0.02,
+      "price": 500,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 135000000.0,
+      "total_initial_yen": 155000000.0,
+      "equivalent_annual_yen": 29799570.748046678,
+      "annual_margin_yen": -10799570.748046678
+    },
+    {
+      "rho": 300,
+      "replacement": 0.02,
+      "price": 600,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 162000000.0,
+      "total_initial_yen": 182000000.0,
+      "equivalent_annual_yen": 34363366.94286771,
+      "annual_margin_yen": -15363366.942867711
+    },
+    {
+      "rho": 300,
+      "replacement": 0.02,
+      "price": 1000,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 270000000.0,
+      "total_initial_yen": 290000000.0,
+      "equivalent_annual_yen": 52618551.72215185,
+      "annual_margin_yen": -33618551.72215185
+    },
+    {
+      "rho": 300,
+      "replacement": 0.05,
+      "price": 300,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 81000000.0,
+      "total_initial_yen": 101000000.0,
+      "equivalent_annual_yen": 23101978.35840461,
+      "annual_margin_yen": -4101978.3584046103
+    },
+    {
+      "rho": 300,
+      "replacement": 0.05,
+      "price": 500,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 135000000.0,
+      "total_initial_yen": 155000000.0,
+      "equivalent_annual_yen": 33849570.74804668,
+      "annual_margin_yen": -14849570.748046681
+    },
+    {
+      "rho": 300,
+      "replacement": 0.05,
+      "price": 600,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 162000000.0,
+      "total_initial_yen": 182000000.0,
+      "equivalent_annual_yen": 39223366.94286771,
+      "annual_margin_yen": -20223366.94286771
+    },
+    {
+      "rho": 300,
+      "replacement": 0.05,
+      "price": 1000,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 270000000.0,
+      "total_initial_yen": 290000000.0,
+      "equivalent_annual_yen": 60718551.72215185,
+      "annual_margin_yen": -41718551.72215185
+    },
+    {
+      "rho": 300,
+      "replacement": 0.1,
+      "price": 300,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 81000000.0,
+      "total_initial_yen": 101000000.0,
+      "equivalent_annual_yen": 27151978.35840461,
+      "annual_margin_yen": -8151978.35840461
+    },
+    {
+      "rho": 300,
+      "replacement": 0.1,
+      "price": 500,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 135000000.0,
+      "total_initial_yen": 155000000.0,
+      "equivalent_annual_yen": 40599570.74804668,
+      "annual_margin_yen": -21599570.74804668
+    },
+    {
+      "rho": 300,
+      "replacement": 0.1,
+      "price": 600,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 162000000.0,
+      "total_initial_yen": 182000000.0,
+      "equivalent_annual_yen": 47323366.94286771,
+      "annual_margin_yen": -28323366.94286771
+    },
+    {
+      "rho": 300,
+      "replacement": 0.1,
+      "price": 1000,
+      "mass_kg": 270000.0,
+      "material_initial_yen": 270000000.0,
+      "total_initial_yen": 290000000.0,
+      "equivalent_annual_yen": 74218551.72215185,
+      "annual_margin_yen": -55218551.722151846
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.02,
+      "price": 300,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 451980000.0,
+      "total_initial_yen": 471980000.0,
+      "equivalent_annual_yen": 83378538.07524562,
+      "annual_margin_yen": -64378538.07524562
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.02,
+      "price": 500,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 753300000.0,
+      "total_initial_yen": 773300000.0,
+      "equivalent_annual_yen": 134310503.60944837,
+      "annual_margin_yen": -115310503.60944837
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.02,
+      "price": 600,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 903960000.0,
+      "total_initial_yen": 923960000.0,
+      "equivalent_annual_yen": 159776486.37654975,
+      "annual_margin_yen": -140776486.37654975
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.02,
+      "price": 1000,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 1506600000.0,
+      "total_initial_yen": 1526600000.0,
+      "equivalent_annual_yen": 261640417.44495523,
+      "annual_margin_yen": -242640417.44495523
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.05,
+      "price": 300,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 451980000.0,
+      "total_initial_yen": 471980000.0,
+      "equivalent_annual_yen": 96937938.07524562,
+      "annual_margin_yen": -77937938.07524562
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.05,
+      "price": 500,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 753300000.0,
+      "total_initial_yen": 773300000.0,
+      "equivalent_annual_yen": 156909503.60944837,
+      "annual_margin_yen": -137909503.60944837
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.05,
+      "price": 600,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 903960000.0,
+      "total_initial_yen": 923960000.0,
+      "equivalent_annual_yen": 186895286.37654975,
+      "annual_margin_yen": -167895286.37654975
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.05,
+      "price": 1000,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 1506600000.0,
+      "total_initial_yen": 1526600000.0,
+      "equivalent_annual_yen": 306838417.4449552,
+      "annual_margin_yen": -287838417.4449552
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.1,
+      "price": 300,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 451980000.0,
+      "total_initial_yen": 471980000.0,
+      "equivalent_annual_yen": 119536938.07524562,
+      "annual_margin_yen": -100536938.07524562
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.1,
+      "price": 500,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 753300000.0,
+      "total_initial_yen": 773300000.0,
+      "equivalent_annual_yen": 194574503.60944837,
+      "annual_margin_yen": -175574503.60944837
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.1,
+      "price": 600,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 903960000.0,
+      "total_initial_yen": 923960000.0,
+      "equivalent_annual_yen": 232093286.37654975,
+      "annual_margin_yen": -213093286.37654975
+    },
+    {
+      "rho": 1674,
+      "replacement": 0.1,
+      "price": 1000,
+      "mass_kg": 1506600.0,
+      "material_initial_yen": 1506600000.0,
+      "total_initial_yen": 1526600000.0,
+      "equivalent_annual_yen": 382168417.4449552,
+      "annual_margin_yen": -363168417.4449552
+    }
+  ],
+  "beam_baseline": {
+    "E": 300000000,
+    "t": 3e-05,
+    "L": 0.00015,
+    "delta": 1e-05,
+    "F_N": 0.0018000000000000002,
+    "stress_Pa": 6000000.0,
+    "delta_over_L": 0.06666666666666668,
+    "small_deflection_screen": true
+  },
+  "beam_grid": [
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.00017361111111111114,
+      "stress_Pa": 1041666.6666666666,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.0003472222222222223,
+      "stress_Pa": 2083333.3333333333,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0005208333333333334,
+      "stress_Pa": 3125000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 8.888888888888893e-05,
+      "stress_Pa": 666666.6666666667,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.00017777777777777787,
+      "stress_Pa": 1333333.3333333335,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0002666666666666668,
+      "stress_Pa": 2000000.0000000005,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 3.7500000000000003e-05,
+      "stress_Pa": 375000.0,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 7.500000000000001e-05,
+      "stress_Pa": 750000.0,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.00011250000000000001,
+      "stress_Pa": 1124999.9999999998,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0005859375,
+      "stress_Pa": 1562499.9999999998,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.001171875,
+      "stress_Pa": 3124999.9999999995,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0017578125,
+      "stress_Pa": 4687500.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0003000000000000001,
+      "stress_Pa": 1000000.0,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.0006000000000000002,
+      "stress_Pa": 2000000.0,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0009000000000000002,
+      "stress_Pa": 3000000.0,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.00012656249999999997,
+      "stress_Pa": 562499.9999999999,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.00025312499999999993,
+      "stress_Pa": 1124999.9999999998,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0003796874999999999,
+      "stress_Pa": 1687499.9999999998,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0013888888888888892,
+      "stress_Pa": 2083333.3333333333,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.0027777777777777783,
+      "stress_Pa": 4166666.6666666665,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0041666666666666675,
+      "stress_Pa": 6250000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0007111111111111115,
+      "stress_Pa": 1333333.3333333335,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.001422222222222223,
+      "stress_Pa": 2666666.666666667,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0021333333333333343,
+      "stress_Pa": 4000000.000000001,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.00030000000000000003,
+      "stress_Pa": 750000.0,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0006000000000000001,
+      "stress_Pa": 1500000.0,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0009000000000000001,
+      "stress_Pa": 2249999.9999999995,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.002712673611111112,
+      "stress_Pa": 2604166.6666666674,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.005425347222222224,
+      "stress_Pa": 5208333.333333335,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.008138020833333334,
+      "stress_Pa": 7812500.000000001,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0013888888888888896,
+      "stress_Pa": 1666666.666666668,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.002777777777777779,
+      "stress_Pa": 3333333.333333336,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.004166666666666668,
+      "stress_Pa": 5000000.000000002,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.0005859375000000001,
+      "stress_Pa": 937500.0000000002,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0011718750000000002,
+      "stress_Pa": 1875000.0000000005,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 100000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0017578124999999998,
+      "stress_Pa": 2812500.0000000005,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0005208333333333334,
+      "stress_Pa": 3125000.0,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.0010416666666666669,
+      "stress_Pa": 6250000.0,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0015625,
+      "stress_Pa": 9375000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0002666666666666668,
+      "stress_Pa": 2000000.0000000005,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.0005333333333333336,
+      "stress_Pa": 4000000.000000001,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0008000000000000004,
+      "stress_Pa": 6000000.000000002,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.00011250000000000001,
+      "stress_Pa": 1124999.9999999998,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.00022500000000000002,
+      "stress_Pa": 2249999.9999999995,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0003375,
+      "stress_Pa": 3374999.9999999995,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0017578124999999998,
+      "stress_Pa": 4687499.999999999,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.0035156249999999997,
+      "stress_Pa": 9374999.999999998,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0052734374999999995,
+      "stress_Pa": 14062500.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0009000000000000001,
+      "stress_Pa": 3000000.0,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.0018000000000000002,
+      "stress_Pa": 6000000.0,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0027000000000000006,
+      "stress_Pa": 9000000.0,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.0003796874999999999,
+      "stress_Pa": 1687499.9999999998,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0007593749999999999,
+      "stress_Pa": 3374999.9999999995,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0011390624999999997,
+      "stress_Pa": 5062499.999999999,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0041666666666666675,
+      "stress_Pa": 6250000.0,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.008333333333333335,
+      "stress_Pa": 12500000.0,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0125,
+      "stress_Pa": 18750000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0021333333333333343,
+      "stress_Pa": 4000000.000000001,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.004266666666666669,
+      "stress_Pa": 8000000.000000002,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.006400000000000003,
+      "stress_Pa": 12000000.000000004,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.0009000000000000001,
+      "stress_Pa": 2249999.9999999995,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0018000000000000002,
+      "stress_Pa": 4499999.999999999,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0027,
+      "stress_Pa": 6749999.999999999,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.008138020833333334,
+      "stress_Pa": 7812500.000000001,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.016276041666666668,
+      "stress_Pa": 15625000.000000002,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0244140625,
+      "stress_Pa": 23437500.000000004,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.004166666666666668,
+      "stress_Pa": 5000000.000000002,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.008333333333333337,
+      "stress_Pa": 10000000.000000004,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.012500000000000004,
+      "stress_Pa": 15000000.000000004,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.0017578124999999998,
+      "stress_Pa": 2812500.0000000005,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0035156249999999997,
+      "stress_Pa": 5625000.000000001,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 300000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0052734374999999995,
+      "stress_Pa": 8437500.0,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0013888888888888892,
+      "stress_Pa": 8333333.333333333,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.0027777777777777783,
+      "stress_Pa": 16666666.666666666,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0041666666666666675,
+      "stress_Pa": 25000000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0007111111111111115,
+      "stress_Pa": 5333333.333333334,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.001422222222222223,
+      "stress_Pa": 10666666.666666668,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0021333333333333343,
+      "stress_Pa": 16000000.000000004,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.00030000000000000003,
+      "stress_Pa": 3000000.0,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": true,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0006000000000000001,
+      "stress_Pa": 6000000.0,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 2e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0009000000000000001,
+      "stress_Pa": 8999999.999999998,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.0046875,
+      "stress_Pa": 12499999.999999998,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.009375,
+      "stress_Pa": 24999999.999999996,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.0140625,
+      "stress_Pa": 37500000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.0024000000000000007,
+      "stress_Pa": 8000000.0,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.004800000000000001,
+      "stress_Pa": 16000000.0,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.0072000000000000015,
+      "stress_Pa": 24000000.0,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.0010124999999999997,
+      "stress_Pa": 4499999.999999999,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0020249999999999995,
+      "stress_Pa": 8999999.999999998,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 3e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.0030374999999999994,
+      "stress_Pa": 13499999.999999998,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.011111111111111113,
+      "stress_Pa": 16666666.666666666,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.022222222222222227,
+      "stress_Pa": 33333333.333333332,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.03333333333333334,
+      "stress_Pa": 50000000.0,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.005688888888888892,
+      "stress_Pa": 10666666.666666668,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.011377777777777784,
+      "stress_Pa": 21333333.333333336,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.017066666666666674,
+      "stress_Pa": 32000000.000000007,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.0024000000000000002,
+      "stress_Pa": 6000000.0,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.0048000000000000004,
+      "stress_Pa": 12000000.0,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 4e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.007200000000000001,
+      "stress_Pa": 17999999.999999996,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 5e-06,
+      "F_N": 0.021701388888888895,
+      "stress_Pa": 20833333.33333334,
+      "delta_over_L": 0.04166666666666667,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 1e-05,
+      "F_N": 0.04340277777777779,
+      "stress_Pa": 41666666.66666668,
+      "delta_over_L": 0.08333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.00012,
+      "delta": 1.5e-05,
+      "F_N": 0.06510416666666667,
+      "stress_Pa": 62500000.00000001,
+      "delta_over_L": 0.125,
+      "small_deflection_screen": false,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 5e-06,
+      "F_N": 0.011111111111111117,
+      "stress_Pa": 13333333.333333343,
+      "delta_over_L": 0.03333333333333334,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 1e-05,
+      "F_N": 0.022222222222222233,
+      "stress_Pa": 26666666.666666687,
+      "delta_over_L": 0.06666666666666668,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.00015,
+      "delta": 1.5e-05,
+      "F_N": 0.03333333333333335,
+      "stress_Pa": 40000000.000000015,
+      "delta_over_L": 0.1,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 5e-06,
+      "F_N": 0.004687500000000001,
+      "stress_Pa": 7500000.000000002,
+      "delta_over_L": 0.025,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": true,
+        "12000000": true
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 1e-05,
+      "F_N": 0.009375000000000001,
+      "stress_Pa": 15000000.000000004,
+      "delta_over_L": 0.05,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    },
+    {
+      "E": 800000000,
+      "t": 5e-05,
+      "L": 0.0002,
+      "delta": 1.5e-05,
+      "F_N": 0.014062499999999999,
+      "stress_Pa": 22500000.000000004,
+      "delta_over_L": 0.075,
+      "small_deflection_screen": true,
+      "assumed_stress_cap_screens": {
+        "4000000": false,
+        "8000000": false,
+        "12000000": false
+      }
+    }
+  ],
+  "particle_mass_kg": 2.016e-08,
+  "particle_count_at_162t": 8035714285714.286,
+  "wind_dynamic_pressure_Pa": 3920.0000000000005,
+  "isolated_particle_drag_N": 0.0011083538881864789,
+  "local_retention_screen_N": 0.003325061664559437,
+  "wind_layers": [
+    {
+      "rho": 100,
+      "Cnet": 0.2,
+      "net_suction_Pa": 784.0000000000001,
+      "dry_normal_weight_Pa": 382.3069145006405,
+      "unbalanced_uplift_Pa": 401.6930854993596
+    },
+    {
+      "rho": 100,
+      "Cnet": 0.5,
+      "net_suction_Pa": 1960.0000000000002,
+      "dry_normal_weight_Pa": 382.3069145006405,
+      "unbalanced_uplift_Pa": 1577.6930854993598
+    },
+    {
+      "rho": 100,
+      "Cnet": 1,
+      "net_suction_Pa": 3920.0000000000005,
+      "dry_normal_weight_Pa": 382.3069145006405,
+      "unbalanced_uplift_Pa": 3537.6930854993598
+    },
+    {
+      "rho": 180,
+      "Cnet": 0.2,
+      "net_suction_Pa": 784.0000000000001,
+      "dry_normal_weight_Pa": 688.1524461011528,
+      "unbalanced_uplift_Pa": 95.84755389884731
+    },
+    {
+      "rho": 180,
+      "Cnet": 0.5,
+      "net_suction_Pa": 1960.0000000000002,
+      "dry_normal_weight_Pa": 688.1524461011528,
+      "unbalanced_uplift_Pa": 1271.8475538988473
+    },
+    {
+      "rho": 180,
+      "Cnet": 1,
+      "net_suction_Pa": 3920.0000000000005,
+      "dry_normal_weight_Pa": 688.1524461011528,
+      "unbalanced_uplift_Pa": 3231.8475538988478
+    },
+    {
+      "rho": 300,
+      "Cnet": 0.2,
+      "net_suction_Pa": 784.0000000000001,
+      "dry_normal_weight_Pa": 1146.9207435019216,
+      "unbalanced_uplift_Pa": 0
+    },
+    {
+      "rho": 300,
+      "Cnet": 0.5,
+      "net_suction_Pa": 1960.0000000000002,
+      "dry_normal_weight_Pa": 1146.9207435019216,
+      "unbalanced_uplift_Pa": 813.0792564980786
+    },
+    {
+      "rho": 300,
+      "Cnet": 1,
+      "net_suction_Pa": 3920.0000000000005,
+      "dry_normal_weight_Pa": 1146.9207435019216,
+      "unbalanced_uplift_Pa": 2773.079256498079
+    }
+  ],
+  "production": [
+    {
+      "holes": 100,
+      "line_speed_m_s": 0.05,
+      "gross_kg_h": 1.2096000000000002,
+      "good_kg_h": 0.9676800000000002,
+      "cut_frequency_Hz": 166.66666666666669,
+      "hours_for_162t": 167410.71428571426,
+      "processing_yen_kg": 15500.99206349206,
+      "finished_price_scenarios": {
+        "200": 15800.99206349206,
+        "300": 15925.99206349206,
+        "600": 16300.99206349206
+      }
+    },
+    {
+      "holes": 100,
+      "line_speed_m_s": 0.1,
+      "gross_kg_h": 2.4192000000000005,
+      "good_kg_h": 1.9353600000000004,
+      "cut_frequency_Hz": 333.33333333333337,
+      "hours_for_162t": 83705.35714285713,
+      "processing_yen_kg": 7750.49603174603,
+      "finished_price_scenarios": {
+        "200": 8050.49603174603,
+        "300": 8175.49603174603,
+        "600": 8550.49603174603
+      }
+    },
+    {
+      "holes": 100,
+      "line_speed_m_s": 0.5,
+      "gross_kg_h": 12.096,
+      "good_kg_h": 9.6768,
+      "cut_frequency_Hz": 1666.6666666666667,
+      "hours_for_162t": 16741.071428571428,
+      "processing_yen_kg": 1550.0992063492063,
+      "finished_price_scenarios": {
+        "200": 1850.0992063492063,
+        "300": 1975.0992063492063,
+        "600": 2350.0992063492063
+      }
+    },
+    {
+      "holes": 1000,
+      "line_speed_m_s": 0.05,
+      "gross_kg_h": 12.096,
+      "good_kg_h": 9.6768,
+      "cut_frequency_Hz": 166.66666666666669,
+      "hours_for_162t": 16741.071428571428,
+      "processing_yen_kg": 1550.0992063492063,
+      "finished_price_scenarios": {
+        "200": 1850.0992063492063,
+        "300": 1975.0992063492063,
+        "600": 2350.0992063492063
+      }
+    },
+    {
+      "holes": 1000,
+      "line_speed_m_s": 0.1,
+      "gross_kg_h": 24.192,
+      "good_kg_h": 19.3536,
+      "cut_frequency_Hz": 333.33333333333337,
+      "hours_for_162t": 8370.535714285714,
+      "processing_yen_kg": 775.0496031746031,
+      "finished_price_scenarios": {
+        "200": 1075.0496031746031,
+        "300": 1200.0496031746031,
+        "600": 1575.0496031746031
+      }
+    },
+    {
+      "holes": 1000,
+      "line_speed_m_s": 0.5,
+      "gross_kg_h": 120.96000000000002,
+      "good_kg_h": 96.76800000000003,
+      "cut_frequency_Hz": 1666.6666666666667,
+      "hours_for_162t": 1674.1071428571424,
+      "processing_yen_kg": 155.00992063492058,
+      "finished_price_scenarios": {
+        "200": 455.0099206349206,
+        "300": 580.0099206349206,
+        "600": 955.0099206349206
+      }
+    }
+  ],
+  "rain": [
+    {
+      "area": 2000,
+      "displaced_fraction": 0.001,
+      "handling_m3_h": 20,
+      "volume_m3": 0.9,
+      "mass_kg": 162.0,
+      "handling_only_h": 0.045,
+      "unrecovered_kg_if_999_capture": 0.16200000000000014,
+      "ideal_lift_kWh": 0.44145
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.001,
+      "handling_m3_h": 40,
+      "volume_m3": 0.9,
+      "mass_kg": 162.0,
+      "handling_only_h": 0.0225,
+      "unrecovered_kg_if_999_capture": 0.16200000000000014,
+      "ideal_lift_kWh": 0.44145
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.001,
+      "handling_m3_h": 80,
+      "volume_m3": 0.9,
+      "mass_kg": 162.0,
+      "handling_only_h": 0.01125,
+      "unrecovered_kg_if_999_capture": 0.16200000000000014,
+      "ideal_lift_kWh": 0.44145
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.01,
+      "handling_m3_h": 20,
+      "volume_m3": 9.0,
+      "mass_kg": 1620.0,
+      "handling_only_h": 0.45,
+      "unrecovered_kg_if_999_capture": 1.6200000000000014,
+      "ideal_lift_kWh": 4.4145
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.01,
+      "handling_m3_h": 40,
+      "volume_m3": 9.0,
+      "mass_kg": 1620.0,
+      "handling_only_h": 0.225,
+      "unrecovered_kg_if_999_capture": 1.6200000000000014,
+      "ideal_lift_kWh": 4.4145
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.01,
+      "handling_m3_h": 80,
+      "volume_m3": 9.0,
+      "mass_kg": 1620.0,
+      "handling_only_h": 0.1125,
+      "unrecovered_kg_if_999_capture": 1.6200000000000014,
+      "ideal_lift_kWh": 4.4145
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.05,
+      "handling_m3_h": 20,
+      "volume_m3": 45.0,
+      "mass_kg": 8100.0,
+      "handling_only_h": 2.25,
+      "unrecovered_kg_if_999_capture": 8.100000000000007,
+      "ideal_lift_kWh": 22.0725
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.05,
+      "handling_m3_h": 40,
+      "volume_m3": 45.0,
+      "mass_kg": 8100.0,
+      "handling_only_h": 1.125,
+      "unrecovered_kg_if_999_capture": 8.100000000000007,
+      "ideal_lift_kWh": 22.0725
+    },
+    {
+      "area": 2000,
+      "displaced_fraction": 0.05,
+      "handling_m3_h": 80,
+      "volume_m3": 45.0,
+      "mass_kg": 8100.0,
+      "handling_only_h": 0.5625,
+      "unrecovered_kg_if_999_capture": 8.100000000000007,
+      "ideal_lift_kWh": 22.0725
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.001,
+      "handling_m3_h": 20,
+      "volume_m3": 9.0,
+      "mass_kg": 1620.0,
+      "handling_only_h": 0.45,
+      "unrecovered_kg_if_999_capture": 1.6200000000000014,
+      "ideal_lift_kWh": 4.4145
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.001,
+      "handling_m3_h": 40,
+      "volume_m3": 9.0,
+      "mass_kg": 1620.0,
+      "handling_only_h": 0.225,
+      "unrecovered_kg_if_999_capture": 1.6200000000000014,
+      "ideal_lift_kWh": 4.4145
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.001,
+      "handling_m3_h": 80,
+      "volume_m3": 9.0,
+      "mass_kg": 1620.0,
+      "handling_only_h": 0.1125,
+      "unrecovered_kg_if_999_capture": 1.6200000000000014,
+      "ideal_lift_kWh": 4.4145
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.01,
+      "handling_m3_h": 20,
+      "volume_m3": 90.0,
+      "mass_kg": 16200.0,
+      "handling_only_h": 4.5,
+      "unrecovered_kg_if_999_capture": 16.200000000000014,
+      "ideal_lift_kWh": 44.145
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.01,
+      "handling_m3_h": 40,
+      "volume_m3": 90.0,
+      "mass_kg": 16200.0,
+      "handling_only_h": 2.25,
+      "unrecovered_kg_if_999_capture": 16.200000000000014,
+      "ideal_lift_kWh": 44.145
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.01,
+      "handling_m3_h": 80,
+      "volume_m3": 90.0,
+      "mass_kg": 16200.0,
+      "handling_only_h": 1.125,
+      "unrecovered_kg_if_999_capture": 16.200000000000014,
+      "ideal_lift_kWh": 44.145
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.05,
+      "handling_m3_h": 20,
+      "volume_m3": 450.0,
+      "mass_kg": 81000.0,
+      "handling_only_h": 22.5,
+      "unrecovered_kg_if_999_capture": 81.00000000000007,
+      "ideal_lift_kWh": 220.725
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.05,
+      "handling_m3_h": 40,
+      "volume_m3": 450.0,
+      "mass_kg": 81000.0,
+      "handling_only_h": 11.25,
+      "unrecovered_kg_if_999_capture": 81.00000000000007,
+      "ideal_lift_kWh": 220.725
+    },
+    {
+      "area": 20000,
+      "displaced_fraction": 0.05,
+      "handling_m3_h": 80,
+      "volume_m3": 450.0,
+      "mass_kg": 81000.0,
+      "handling_only_h": 5.625,
+      "unrecovered_kg_if_999_capture": 81.00000000000007,
+      "ideal_lift_kWh": 220.725
+    }
+  ],
+  "water_entry": [
+    {
+      "radius_m": 2.5e-05,
+      "assumed_angle_deg": 100,
+      "entry_pressure_Pa": 1000.2135033615185,
+      "water_head_m": 0.10195856303379393
+    },
+    {
+      "radius_m": 2.5e-05,
+      "assumed_angle_deg": 110,
+      "entry_pressure_Pa": 1970.0360255558514,
+      "water_head_m": 0.20081916672332836
+    },
+    {
+      "radius_m": 2.5e-05,
+      "assumed_angle_deg": 120,
+      "entry_pressure_Pa": 2879.9999999999986,
+      "water_head_m": 0.293577981651376
+    },
+    {
+      "radius_m": 5e-05,
+      "assumed_angle_deg": 100,
+      "entry_pressure_Pa": 500.10675168075926,
+      "water_head_m": 0.050979281516896964
+    },
+    {
+      "radius_m": 5e-05,
+      "assumed_angle_deg": 110,
+      "entry_pressure_Pa": 985.0180127779257,
+      "water_head_m": 0.10040958336166418
+    },
+    {
+      "radius_m": 5e-05,
+      "assumed_angle_deg": 120,
+      "entry_pressure_Pa": 1439.9999999999993,
+      "water_head_m": 0.146788990825688
+    },
+    {
+      "radius_m": 0.0001,
+      "assumed_angle_deg": 100,
+      "entry_pressure_Pa": 250.05337584037963,
+      "water_head_m": 0.025489640758448482
+    },
+    {
+      "radius_m": 0.0001,
+      "assumed_angle_deg": 110,
+      "entry_pressure_Pa": 492.50900638896286,
+      "water_head_m": 0.05020479168083209
+    },
+    {
+      "radius_m": 0.0001,
+      "assumed_angle_deg": 120,
+      "entry_pressure_Pa": 719.9999999999997,
+      "water_head_m": 0.073394495412844
+    }
+  ],
+  "large_course": [
+    {
+      "area_m2": 20000,
+      "rho": 100,
+      "mass_kg": 900000.0,
+      "material_yen_at_600": 540000000.0,
+      "material_plus_groomer_yen_before_site_costs": 720000000.0
+    },
+    {
+      "area_m2": 20000,
+      "rho": 180,
+      "mass_kg": 1620000.0,
+      "material_yen_at_600": 972000000.0,
+      "material_plus_groomer_yen_before_site_costs": 1152000000.0
+    },
+    {
+      "area_m2": 20000,
+      "rho": 300,
+      "mass_kg": 2700000.0,
+      "material_yen_at_600": 1620000000.0,
+      "material_plus_groomer_yen_before_site_costs": 1800000000.0
+    }
+  ],
+  "vertical_rain_inflow": [
+    {
+      "slope_area_m2": 2000,
+      "rain_mm_h": 100,
+      "vertical_rain_m3_h": 173.20508075688775,
+      "upstream_runon_included": false
+    },
+    {
+      "slope_area_m2": 20000,
+      "rain_mm_h": 100,
+      "vertical_rain_m3_h": 1732.0508075688774,
+      "upstream_runon_included": false
+    }
+  ],
+  "thickness_sensitivity": [
+    {
+      "thickness_m": 0.45,
+      "mass_kg": 108000.0,
+      "material_yen": 54000000.0,
+      "equivalent_annual_yen": 16108182.163583575
+    },
+    {
+      "thickness_m": 0.6,
+      "mass_kg": 144000.0,
+      "material_yen": 72000000.0,
+      "equivalent_annual_yen": 19150712.96013093
+    },
+    {
+      "thickness_m": 0.8,
+      "mass_kg": 192000.0,
+      "material_yen": 96000000.0,
+      "equivalent_annual_yen": 23207420.68886074
+    }
+  ],
+  "required_throughput": [
+    {
+      "feed_yen_kg": 200,
+      "finished_price_target": 500,
+      "remaining_conversion_yen_kg": 200.0,
+      "required_good_kg_h": 75.0
+    },
+    {
+      "feed_yen_kg": 300,
+      "finished_price_target": 500,
+      "remaining_conversion_yen_kg": 75.0,
+      "required_good_kg_h": 200.0
+    },
+    {
+      "feed_yen_kg": 600,
+      "finished_price_target": 500,
+      "remaining_conversion_yen_kg": -300.0,
+      "required_good_kg_h": null
+    }
+  ],
+  "nonmaterial_sensitivity": [
+    {
+      "nonmaterial_initial_yen": 20000000,
+      "annual_other_yen": 4000000,
+      "algebraic_price_cap_yen_kg": 658.4107677561302,
+      "positive_material_allowance": true
+    },
+    {
+      "nonmaterial_initial_yen": 20000000,
+      "annual_other_yen": 8000000,
+      "algebraic_price_cap_yen_kg": 439.2949358233211,
+      "positive_material_allowance": true
+    },
+    {
+      "nonmaterial_initial_yen": 20000000,
+      "annual_other_yen": 12000000,
+      "algebraic_price_cap_yen_kg": 220.17910389051187,
+      "positive_material_allowance": true
+    },
+    {
+      "nonmaterial_initial_yen": 50000000,
+      "annual_other_yen": 4000000,
+      "algebraic_price_cap_yen_kg": 413.50036476827387,
+      "positive_material_allowance": true
+    },
+    {
+      "nonmaterial_initial_yen": 50000000,
+      "annual_other_yen": 8000000,
+      "algebraic_price_cap_yen_kg": 194.3845328354647,
+      "positive_material_allowance": true
+    },
+    {
+      "nonmaterial_initial_yen": 50000000,
+      "annual_other_yen": 12000000,
+      "algebraic_price_cap_yen_kg": -24.73129909734452,
+      "positive_material_allowance": false
+    },
+    {
+      "nonmaterial_initial_yen": 100000000,
+      "annual_other_yen": 4000000,
+      "algebraic_price_cap_yen_kg": 5.316359788513215,
+      "positive_material_allowance": true
+    },
+    {
+      "nonmaterial_initial_yen": 100000000,
+      "annual_other_yen": 8000000,
+      "algebraic_price_cap_yen_kg": -213.79947214429595,
+      "positive_material_allowance": false
+    },
+    {
+      "nonmaterial_initial_yen": 100000000,
+      "annual_other_yen": 12000000,
+      "algebraic_price_cap_yen_kg": -432.9153040771052,
+      "positive_material_allowance": false
+    }
+  ],
+  "max_nonmaterial_initial_at_target": 39404333.07326496,
+  "validation": {
+    "financial_inverse_cases": 15,
+    "beam_cases": 108,
+    "cost_cases": 60,
+    "rain_cases": 18,
+    "physical_tests": 0,
+    "full_DEM_or_FE_performed": false,
+    "market_quotes_obtained": 0,
+    "checks_passed": true
+  }
+}

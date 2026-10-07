@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "023bcc4ba0ea0e262537c0191f494bd988fd9f89",
+  "physical_tests": 0,
+  "manufacturer_quotes": 0,
+  "finite_element_or_dem_runs": 0,
+  "calculation_checks": {
+    "financial_inverse_cases": 15,
+    "beam_cases": 108,
+    "cost_cases": 60,
+    "rain_cases": 18,
+    "physical_tests": 0,
+    "full_DEM_or_FE_performed": false,
+    "market_quotes_obtained": 0,
+    "checks_passed": true
+  },
+  "reviewed_image": "GPT往復/発明設計_開放微細粒_20261007/構造案.png",
+  "cost_basis": "tax excluded throughout; prior 198m gross machine cap mapped to 180m net",
+  "model_limitations": [
+    "梁・価格上限・幾何生産量・荷重の桁。実性能の確率を示さない。",
+    "かさ密度・年補充率・原料単価・成形速度は探索仮定。",
+    "図は概念図。図形から断面積や接続を計算していない。"
+  ],
+  "hashes_sha256": {
+    "GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md": "c3d1bb6d531716bca6e8126b8269a5c3d35045b82c7c11383be7721b37879b99",
+    "GPT往復/発明設計_開放微細粒_20261007/inputs.json": "4195f5d37ac63fdafa1f6ea92b9dafa8afe55513db73dc1815fc78341c5ca619",
+    "GPT往復/発明設計_開放微細粒_20261007/calculate.py": "079b6d56e7e02375709a08d9145752bd1fd744e62627df3eb48b93276d069c7b",
+    "GPT往復/発明設計_開放微細粒_20261007/results.json": "fa94e738876c84ac9ecf528eff1bfad20e827406c47da0bb701543a91551d7cf",
+    "GPT往復/発明設計_開放微細粒_20261007/構造案.svg": "4bccc7ec07d27a8ca0754e907e6da897c1a086d44c38577dde0563d32ee5c43f",
+    "GPT往復/発明設計_開放微細粒_20261007/構造案.png": "14582853985d79594d822f64fb52ffa791991eb4476656dc363f9083d2b67af2",
+    "README.md": "edd0e463d879b42c0d5ae6f6fbb97febe48512e4e922c450b245bea9855df098",
+    "回覧板.md": "58eb6dc31221900150f5fc00bf7b90883595c86dfc267a6670566a9d49f6fb78"
+  },
+  "hash_encoding": "SHA-256 over raw PNG bytes; text normalized to LF UTF-8",
+  "relative_links_checked": 43,
+  "broken_links": 0,
+  "additional_nonmaterial_cost_cases": 9,
+  "max_nonmaterial_initial_yen_at_target": 39404333.07326496
+}

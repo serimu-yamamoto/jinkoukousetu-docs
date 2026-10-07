@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-07",
+  "reference_commit": "023bcc4ba0ea0e262537c0191f494bd988fd9f89",
+  "status": "Unvalidated design and deterministic sensitivity; not measured properties or quotations",
+  "economic": {
+    "area_m2": 2000,
+    "thickness_m": 0.45,
+    "years": 10,
+    "discount": 0.08,
+    "annual_contribution_yen": 19000000,
+    "nonmaterial_initial_yen": 20000000,
+    "annual_other_yen": 4000000,
+    "bulk_densities_kg_m3": [
+      100,
+      120,
+      180,
+      300,
+      1674
+    ],
+    "finished_prices_yen_kg": [
+      300,
+      500,
+      600,
+      1000
+    ],
+    "replacement_rates": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "reference_mineral_price_yen_kg": 30,
+    "large_area_m2": 20000,
+    "large_groomer_yen_tax_excluded": 180000000,
+    "tax_basis": "All cost scenarios tax excluded; 198m tax included machine ceiling corresponds to 180m tax excluded"
+  },
+  "geometry": {
+    "outer_diameter_m": 0.0006,
+    "cut_length_m": 0.0003,
+    "polymer_cross_section_m2": 7e-8,
+    "solid_density_kg_m3": 960,
+    "beam_width_m": 0.0003,
+    "beam_length_m": 0.00015,
+    "beam_thickness_m": 0.00003,
+    "beam_deflection_m": 0.00001,
+    "illustrative_modulus_at_50C_Pa": 300000000,
+    "modulus_grid_Pa": [
+      100000000,
+      300000000,
+      800000000
+    ],
+    "thickness_grid_m": [
+      0.00002,
+      0.00003,
+      0.00004,
+      0.00005
+    ],
+    "length_grid_m": [
+      0.00012,
+      0.00015,
+      0.0002
+    ],
+    "deflection_grid_m": [
+      0.000005,
+      0.00001,
+      0.000015
+    ],
+    "assumed_reversible_stress_limits_Pa": [
+      4000000,
+      8000000,
+      12000000
+    ]
+  },
+  "wind": {
+    "air_density": 1.225,
+    "speed_m_s": 80,
+    "Cd": 1,
+    "Cnet": [
+      0.2,
+      0.5,
+      1
+    ],
+    "slope_degrees": 30,
+    "screening_load_factor": 3
+  },
+  "production": {
+    "hole_counts": [
+      100,
+      1000
+    ],
+    "line_speed_m_s": [
+      0.05,
+      0.1,
+      0.5
+    ],
+    "good_yield": 0.8,
+    "line_charge_yen_h": 15000,
+    "feed_price_scenarios_yen_kg": [
+      200,
+      300,
+      600
+    ],
+    "delivery_qc_yen_kg": 50
+  },
+  "rain": {
+    "event_displaced_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "assumed_handling_m3_h": [
+      20,
+      40,
+      80
+    ],
+    "captured_fraction": 0.999,
+    "vertical_lift_m": 500,
+    "pump_or_drive_efficiency": 0.5
+  },
+  "water": {
+    "surface_tension_N_m": 0.072,
+    "pore_radii_m": [
+      0.000025,
+      0.00005,
+      0.0001
+    ],
+    "assumed_contact_angles_deg": [
+      100,
+      110,
+      120
+    ]
+  }
+}
