@@ -1,0 +1,133 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "numerical_audit_only": true,
+  "checks": [
+    {
+      "name": "case_counts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "height_brackets",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "independent_sampled_nonpenetration",
+      "passed": true,
+      "details": {
+        "min_sampled_surface_gap_mm": 1.8355421522869841e-06,
+        "scope": "Sample audit of the analytic envelope, not its proof"
+      }
+    },
+    {
+      "name": "symmetric_known_first_touch",
+      "passed": true,
+      "details": {
+        "known_mm": 0.524,
+        "lower": 0.5239999994484928,
+        "upper": 0.5240199971949091
+      }
+    },
+    {
+      "name": "common_prescribed_poses",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "overlap_excluded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "saved_force_and_moment_witnesses",
+      "passed": true,
+      "details": {
+        "feasible_inner_witnesses": 18,
+        "scope": "Count is not a physical success rate"
+      }
+    },
+    {
+      "name": "independent_farkas_witnesses",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "known_wrench_problems",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "contact_resolution_refinement",
+      "passed": true,
+      "details": [
+        {
+          "support": 0,
+          "height_gap_um": 0.001999999377721995,
+          "certificate_reached": true,
+          "contact_location_change_um": 0.0009746859062814914,
+          "normal_change_deg": 0.003662476190004198,
+          "center_change_um": 1.7366452254454393e-07
+        },
+        {
+          "support": 1,
+          "height_gap_um": 0.0019976546659639105,
+          "certificate_reached": true,
+          "contact_location_change_um": 0.00591408478825702,
+          "normal_change_deg": 0.011965182877790609,
+          "center_change_um": 0.00255563564338773
+        },
+        {
+          "support": 2,
+          "height_gap_um": 0.0019999974960605016,
+          "certificate_reached": true,
+          "contact_location_change_um": 0.002290725687231504,
+          "normal_change_deg": 0.005050122792822661,
+          "center_change_um": 2.5466427468041963e-07
+        }
+      ]
+    },
+    {
+      "name": "contact_face_classification",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "known_closed_hoop_width",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "equal_volume_and_cost_units",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "IAPWS_50C_table",
+      "passed": true,
+      "details": {
+        "calculated_N_m": 0.06794390594487329,
+        "table_N_m": 0.06794
+      }
+    },
+    {
+      "name": "finite_numbers_and_syntax",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_physical_probability_claim",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "relative_links",
+      "passed": true,
+      "details": {
+        "count": 41
+      }
+    }
+  ],
+  "checks_passed": 17
+}

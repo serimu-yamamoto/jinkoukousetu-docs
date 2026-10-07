@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "6af4fb724a1331265309447d4b913de1b13e86c4",
+  "geometry": {
+    "R_mm": 0.24,
+    "wire_radius_mm": 0.022,
+    "opening_deg": 150,
+    "models": [
+      "R4",
+      "C3",
+      "S3"
+    ],
+    "description": "R4 two C arcs and one closed hoop; C3 three cyclic C arcs; S3 three closed hoops control only"
+  },
+  "pair": {
+    "seed": 13072026,
+    "random_orientations": 12,
+    "lateral_offset_mm": [
+      0.035,
+      -0.025
+    ],
+    "certificate_gap_mm": 0.00002,
+    "max_nodes": 250000,
+    "initial_arc_span_rad": 0.7853981633974483,
+    "ignore_gravity_for_two_force_comparison": true,
+    "scope": "First contact during constrained vertical approach. No settling, bed, elastic deformation or skiing simulation."
+  },
+  "wet": {
+    "temperatures_C": [
+      20,
+      30,
+      50
+    ],
+    "contact_angles_deg": [
+      0,
+      30,
+      60,
+      80,
+      89
+    ],
+    "contact_radii_um": [
+      11,
+      22
+    ],
+    "density_kg_m3": 960,
+    "g_m_s2": 9.80665,
+    "scope": "Illustrative equal-sphere contact bridge scale F=2*pi*r*gamma*cos(theta), bridge existence assumed; not full crossed-wire liquid bridge."
+  },
+  "physical_tests": 0,
+  "success_probability": null,
+  "cluster": {
+    "poses": [
+      0,
+      3,
+      7
+    ],
+    "polar_deg": 55,
+    "azimuth_deg": [
+      0,
+      120,
+      240
+    ],
+    "seed_base": 13132026,
+    "mu_top": [
+      0,
+      0.1,
+      0.3
+    ],
+    "mu_internal": [
+      0,
+      0.1,
+      0.3,
+      0.6
+    ],
+    "cone_edges": 16,
+    "scope": "Three fixed support grains; representative first-touch sites; no dynamic settling or calibrated material contact"
+  }
+}

@@ -1,0 +1,5737 @@
+{
+  "metadata": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "scope": "First contact during constrained vertical approach. No settling, bed, elastic deformation or skiing simulation."
+  },
+  "cases": [
+    {
+      "found": true,
+      "height_lower_mm": 0.49699365193899897,
+      "height_upper_mm": 0.4970136495501322,
+      "height_gap_um": 0.019997611133248938,
+      "certificate_reached": true,
+      "nodes": 38502,
+      "arc_ids": [
+        0,
+        0
+      ],
+      "arc_parameters": [
+        2.78395462027418,
+        1.7270130952812008
+      ],
+      "bottom_centerline": [
+        0.05480374875346985,
+        -0.07850457629928617,
+        0.22007630636357953
+      ],
+      "top_centerline": [
+        0.04445697134392429,
+        -0.07661643123250597,
+        0.26280076195337154
+      ],
+      "representative_contact": [
+        0.04963036004869707,
+        -0.07756050376589607,
+        0.24143853415847555
+      ],
+      "representative_normal": [
+        -0.23515403203512636,
+        0.04291238788136819,
+        0.971010354313455
+      ],
+      "top_contact_points": [
+        [
+          0.15572614302018972,
+          -0.1395620484249416,
+          0.6919119431986284
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.27278884067789466,
+        "bottom_mu_required": 0.5461154175447208,
+        "top_cosine": 0.9647487418006316,
+        "bottom_cosine": 0.8776516309466484,
+        "line_direction": [
+          0.22721823547852735,
+          -0.13278455731041425,
+          0.9647487418006316
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 0,
+      "rotation_top": [
+        [
+          -0.26301954518467724,
+          -0.5912462923157662,
+          -0.7623965770343576
+        ],
+        [
+          0.46037505251751143,
+          0.6175377898430381,
+          -0.6377318316779194
+        ],
+        [
+          0.847865278137007,
+          -0.5187243005090808,
+          0.10977053425678801
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6558138525959752,
+          0.12787313036977616,
+          -0.7440138797580722
+        ],
+        [
+          -0.7090050461611441,
+          -0.44280297395931906,
+          0.5488509549693952
+        ],
+        [
+          -0.25926826890550797,
+          0.8874536544418627,
+          0.3810590189938094
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4474187228669213,
+      "height_upper_mm": 0.44743872187846556,
+      "height_gap_um": 0.019999011544258316,
+      "certificate_reached": true,
+      "nodes": 41310,
+      "arc_ids": [
+        2,
+        2
+      ],
+      "arc_parameters": [
+        0.6583174425010472,
+        1.2529986507546513
+      ],
+      "bottom_centerline": [
+        0.07707950125713776,
+        -0.12645105430183834,
+        0.18886206964847232
+      ],
+      "top_centerline": [
+        0.06301713371984333,
+        -0.12372247363350869,
+        0.23046501025106034
+      ],
+      "representative_contact": [
+        0.07004831748849055,
+        -0.12508676396767351,
+        0.20966353994976633
+      ],
+      "representative_normal": [
+        -0.31959926221123724,
+        0.06201319700749205,
+        0.9455213773315457
+      ],
+      "top_contact_points": [
+        [
+          0.0741482534050043,
+          0.033101730423730095,
+          0.698965239235839
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.3234029574323183,
+        "bottom_mu_required": 0.4374559108733657,
+        "top_cosine": 0.951479750540562,
+        "bottom_cosine": 0.916172167198917,
+        "line_direction": [
+          0.007972598519009135,
+          0.3076080655381529,
+          0.951479750540562
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 1,
+      "rotation_top": [
+        [
+          -0.534443774077155,
+          -0.4197863275027608,
+          0.7335865944739662
+        ],
+        [
+          -0.7931926813394555,
+          -0.05066211979180432,
+          -0.6068597201064886
+        ],
+        [
+          0.291916465139758,
+          -0.906207917014603,
+          -0.30589538819727685
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6491373909291196,
+          -0.5546617915339638,
+          0.5205486958105542
+        ],
+        [
+          0.4825511041667987,
+          -0.8292744391099771,
+          -0.28186581294338625
+        ],
+        [
+          0.5880179245270832,
+          0.06822170952978497,
+          0.8059657057119087
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.2221919222773266,
+      "height_upper_mm": 0.2222118659661775,
+      "height_gap_um": 0.019943688850915242,
+      "certificate_reached": true,
+      "nodes": 1754,
+      "arc_ids": [
+        0,
+        1
+      ],
+      "arc_parameters": [
+        4.974165997630682,
+        2.615951766067621
+      ],
+      "bottom_centerline": [
+        0.14354342007583096,
+        -0.1819976634066167,
+        0.062226498113467824
+      ],
+      "top_centerline": [
+        0.17290822777672285,
+        -0.17377577239722097,
+        0.0939457127462304
+      ],
+      "representative_contact": [
+        0.1582258239262769,
+        -0.17788671790191884,
+        0.07808610542984912
+      ],
+      "representative_normal": [
+        0.6673819932020885,
+        0.18686115930444808,
+        0.7208912416536949
+      ],
+      "top_contact_points": [
+        [
+          0.05188856490688453,
+          -0.007166987470037186,
+          0.4829318645565609
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.49680379971750066,
+        "bottom_mu_required": 1.482581271055136,
+        "top_cosine": 0.8955692270674026,
+        "bottom_cosine": 0.5591876403324199,
+        "line_direction": [
+          -0.23523125714318482,
+          0.3776533002539924,
+          0.8955692270674026
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 2,
+      "rotation_top": [
+        [
+          -0.28536561647305436,
+          -0.6713410091263498,
+          0.6840085631044163
+        ],
+        [
+          0.1358243679195168,
+          0.6781536488587755,
+          0.7222599044795389
+        ],
+        [
+          -0.9487455960447023,
+          0.2990131736307672,
+          -0.10233726584699865
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.8510452579148057,
+          -0.44723292597992703,
+          -0.2751448325885032
+        ],
+        [
+          0.5109032184359373,
+          -0.5842779722863901,
+          -0.6305530528771595
+        ],
+        [
+          0.12124302195393873,
+          -0.6772015660202935,
+          0.7257397388920765
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.5207337586720898,
+      "height_upper_mm": 0.5207537237402209,
+      "height_gap_um": 0.01996506813106702,
+      "certificate_reached": true,
+      "nodes": 5040,
+      "arc_ids": [
+        2,
+        1
+      ],
+      "arc_parameters": [
+        5.023091995280965,
+        1.3090416801020606
+      ],
+      "bottom_centerline": [
+        0.029853989275739932,
+        -0.02272283153756662,
+        0.23704938778921023
+      ],
+      "top_centerline": [
+        0.03466264724861385,
+        -0.02129652729222769,
+        0.2807625718953771
+      ],
+      "representative_contact": [
+        0.03225831826217689,
+        -0.022009679414897156,
+        0.2589059798422937
+      ],
+      "representative_normal": [
+        0.10928768120167996,
+        0.03241600557588476,
+        0.9934814569583387
+      ],
+      "top_contact_points": [
+        [
+          0.03391367281582231,
+          -0.025479695045898903,
+          0.7827308207080903
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.007339540349713474,
+        "bottom_mu_required": 0.11381503716492639,
+        "top_cosine": 0.9999730666618736,
+        "bottom_cosine": 0.9935853229491246,
+        "line_direction": [
+          0.0031600448094167327,
+          -0.00662420317097265,
+          0.9999730666618736
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 3,
+      "rotation_top": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.5016259827252045,
+          -0.8240848815108975,
+          0.2631643621772195
+        ],
+        [
+          0.7676985981745746,
+          -0.564282315741037,
+          -0.3036845904927109
+        ],
+        [
+          0.3987608754827455,
+          0.049694830788550026,
+          0.9157074794808284
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.44925550728681274,
+      "height_upper_mm": 0.44927549557316737,
+      "height_gap_um": 0.01998828635463301,
+      "certificate_reached": true,
+      "nodes": 6828,
+      "arc_ids": [
+        2,
+        0
+      ],
+      "arc_parameters": [
+        1.9561850313013531,
+        1.3090416801020606
+      ],
+      "bottom_centerline": [
+        -0.0680075140718997,
+        -0.11271208558504194,
+        0.20067626614233816
+      ],
+      "top_centerline": [
+        -0.0594485372404364,
+        -0.09488199979241449,
+        0.23998061648967278
+      ],
+      "representative_contact": [
+        -0.06372802565616806,
+        -0.10379704268872822,
+        0.22032844131600549
+      ],
+      "representative_normal": [
+        0.19452220071507495,
+        0.40522922255971466,
+        0.8932806897121506
+      ],
+      "top_contact_points": [
+        [
+          0.07414939131517692,
+          -0.050284497029587705,
+          0.706687067128759
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.30409217446379627,
+        "bottom_mu_required": 0.3284851976683251,
+        "top_cosine": 0.9567419847142926,
+        "bottom_cosine": 0.9500560412351653,
+        "line_direction": [
+          0.2712260183316474,
+          0.10526738177097995,
+          0.9567419847142926
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 4,
+      "rotation_top": [
+        [
+          0.8240441459987429,
+          -0.22970134401711115,
+          -0.5178692286687201
+        ],
+        [
+          -0.5322060206253343,
+          -0.6272005256300328,
+          -0.5686618083356368
+        ],
+        [
+          -0.19418547076274434,
+          0.7442155556061315,
+          -0.6390893597444007
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.8016633479443147,
+          -0.5081237523079277,
+          -0.31487478289508103
+        ],
+        [
+          -0.5246555585800597,
+          -0.3456388700038766,
+          -0.7779912058587094
+        ],
+        [
+          0.286482846630925,
+          0.7888878398625213,
+          -0.5436759648019094
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.438858663622398,
+      "height_upper_mm": 0.4388786195209214,
+      "height_gap_um": 0.019955898523382753,
+      "certificate_reached": true,
+      "nodes": 1340,
+      "arc_ids": [
+        1,
+        1
+      ],
+      "arc_parameters": [
+        4.974143627077526,
+        1.8141911409327265
+      ],
+      "bottom_centerline": [
+        0.020943262050130494,
+        -0.13083535015436132,
+        0.20010869777369805
+      ],
+      "top_centerline": [
+        0.02540145796981299,
+        -0.15443064276747137,
+        0.23697855884806934
+      ],
+      "representative_contact": [
+        0.02317236000997174,
+        -0.14263299646091634,
+        0.2185436283108837
+      ],
+      "representative_normal": [
+        0.10132263453823853,
+        -0.5362566502979558,
+        0.837951388053893
+      ],
+      "top_contact_points": [
+        [
+          0.0323323075421375,
+          -0.024755522765346354,
+          0.7008437124230097
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.24514371782235983,
+        "bottom_mu_required": 1.053569386120351,
+        "top_cosine": 0.9712421380260262,
+        "bottom_cosine": 0.6884270121140307,
+        "line_direction": [
+          0.018446040791646662,
+          0.237378290712833,
+          0.9712421380260262
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 5,
+      "rotation_top": [
+        [
+          0.06961159848725351,
+          -0.9957649457007152,
+          0.06005329524431291
+        ],
+        [
+          0.6690861792206817,
+          0.09125559416435847,
+          0.7375609136265149
+        ],
+        [
+          -0.7399175022473241,
+          -0.0111619643146319,
+          0.6726050107014663
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.5256073187394263,
+          0.821673251318745,
+          0.22043142823752146
+        ],
+        [
+          -0.5124251499562615,
+          0.5126126503791817,
+          -0.6889475570488176
+        ],
+        [
+          -0.6790857178441128,
+          0.2491612705428221,
+          0.6904789997397696
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.45858845957764277,
+      "height_upper_mm": 0.4586084593250471,
+      "height_gap_um": 0.019999747404353396,
+      "certificate_reached": true,
+      "nodes": 49304,
+      "arc_ids": [
+        0,
+        1
+      ],
+      "arc_parameters": [
+        2.003803949488624,
+        4.646101835588182
+      ],
+      "bottom_centerline": [
+        -0.09072135367170002,
+        -0.04745474286614507,
+        0.21706608064707472
+      ],
+      "top_centerline": [
+        -0.09360553137148794,
+        -0.06029522343024875,
+        0.2590518351106892
+      ],
+      "representative_contact": [
+        -0.09216344252159399,
+        -0.05387498314819691,
+        0.23805895787888195
+      ],
+      "representative_normal": [
+        -0.06554949317699826,
+        -0.29182910372962917,
+        0.9542216923548743
+      ],
+      "top_contact_points": [
+        [
+          0.07690590995007039,
+          -0.1474944849117251,
+          0.682675064471356
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.43466495807077316,
+        "bottom_mu_required": 0.4596217228421806,
+        "top_cosine": 0.917109505907481,
+        "bottom_cosine": 0.9086209026470897,
+        "line_direction": [
+          0.3487393011866442,
+          -0.19310891740669842,
+          0.917109505907481
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 6,
+      "rotation_top": [
+        [
+          -0.2725533629097113,
+          -0.7163323728503782,
+          -0.6423259265926872
+        ],
+        [
+          0.7966963094313501,
+          0.20626958602628687,
+          -0.5680914085065984
+        ],
+        [
+          0.5394345696236699,
+          -0.6665739189970541,
+          0.5144798884386395
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.25573793717421095,
+          0.8964680657762648,
+          0.36186062860339147
+        ],
+        [
+          0.936873742301486,
+          -0.3221488594225826,
+          0.13596949422108529
+        ],
+        [
+          0.23846529826347468,
+          0.3042451633405064,
+          -0.9222630764093401
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.28331548120535865,
+      "height_upper_mm": 0.28332955256853243,
+      "height_gap_um": 0.014071363173773221,
+      "certificate_reached": true,
+      "nodes": 1376,
+      "arc_ids": [
+        1,
+        2
+      ],
+      "arc_parameters": [
+        4.974165997630682,
+        5.364019225388547
+      ],
+      "bottom_centerline": [
+        -0.15177085599905835,
+        0.056869883492005474,
+        0.1770068462543718
+      ],
+      "top_centerline": [
+        -0.17424868252517414,
+        0.06904830399889575,
+        0.21281792538666267
+      ],
+      "representative_contact": [
+        -0.16300976926211624,
+        0.06295909374545061,
+        0.19491238582051723
+      ],
+      "representative_normal": [
+        -0.510859693775359,
+        0.2767822842475063,
+        0.8138881620975198
+      ],
+      "top_contact_points": [
+        [
+          0.026185031583028956,
+          -0.02047948107593814,
+          0.5451109382942388
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.5904560574645069,
+        "bottom_mu_required": 2.248300891094572,
+        "top_cosine": 0.8610973376768474,
+        "bottom_cosine": 0.4063947214232167,
+        "line_direction": [
+          0.4652079175064003,
+          -0.2051657099400481,
+          0.8610973376768474
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 7,
+      "rotation_top": [
+        [
+          -0.050619104794590586,
+          0.45498707424316254,
+          0.8890581918532898
+        ],
+        [
+          -0.18751658465508358,
+          0.8700378134824531,
+          -0.45592952699947514
+        ],
+        [
+          -0.9809562868492596,
+          -0.18979190020208753,
+          0.04127708696836202
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.771005871915661,
+          -0.32377684565120696,
+          0.5483780627374933
+        ],
+        [
+          0.284882300841983,
+          -0.5947843965174184,
+          -0.7517137728726196
+        ],
+        [
+          0.5695542293219756,
+          0.7357989371285915,
+          -0.3663439694902669
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4131063079466735,
+      "height_upper_mm": 0.41312630774835213,
+      "height_gap_um": 0.019999801678605156,
+      "certificate_reached": true,
+      "nodes": 53182,
+      "arc_ids": [
+        2,
+        0
+      ],
+      "arc_parameters": [
+        3.9006974275448894,
+        2.6731980115955283
+      ],
+      "bottom_centerline": [
+        0.08211549747795238,
+        -0.1513771530243814,
+        0.1671586151419705
+      ],
+      "top_centerline": [
+        0.07275860850650676,
+        -0.14704534255293067,
+        0.2099334213579602
+      ],
+      "representative_contact": [
+        0.07743705299222957,
+        -0.14921124778865602,
+        0.18854601824996536
+      ],
+      "representative_normal": [
+        -0.21265656753285514,
+        0.09845023798751662,
+        0.9721546867270386
+      ],
+      "top_contact_points": [
+        [
+          0.13334680651106226,
+          -0.07679344405235447,
+          0.6478158394732869
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.19920535847945314,
+        "bottom_mu_required": 0.35203969745780406,
+        "top_cosine": 0.9807302603230198,
+        "bottom_cosine": 0.9432569020681311,
+        "line_direction": [
+          0.1193903552753975,
+          0.15464184283031635,
+          0.9807302603230198
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 8,
+      "rotation_top": [
+        [
+          0.16578056204620684,
+          -0.784188839065619,
+          0.5979671144239963
+        ],
+        [
+          0.8586640525423591,
+          0.41298586302400564,
+          0.3035436077631192
+        ],
+        [
+          -0.48498747418791843,
+          0.4631312358578659,
+          0.7418197949998295
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6716258630306152,
+          -0.569581193197704,
+          -0.4738100510371865
+        ],
+        [
+          0.30453053356731535,
+          -0.7952238386366771,
+          0.5242901873859118
+        ],
+        [
+          -0.6754108780835467,
+          0.20783722192963472,
+          0.7075477616012817
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4854258248763585,
+      "height_upper_mm": 0.48544580310084334,
+      "height_gap_um": 0.019978224484851204,
+      "certificate_reached": true,
+      "nodes": 2846,
+      "arc_ids": [
+        0,
+        1
+      ],
+      "arc_parameters": [
+        3.041931839276848,
+        1.309019309548904
+      ],
+      "bottom_centerline": [
+        -0.07087600586691968,
+        0.01911049173211868,
+        0.22849809823740103
+      ],
+      "top_centerline": [
+        -0.04265132098054887,
+        0.01642900140064571,
+        0.2621459328284603
+      ],
+      "representative_contact": [
+        -0.056763663423734276,
+        0.017769746566382194,
+        0.24532201553293068
+      ],
+      "representative_normal": [
+        0.6414701110538821,
+        -0.060942962078931115,
+        0.7647235134331659
+      ],
+      "top_contact_points": [
+        [
+          -0.16006609446419023,
+          -0.0943479754364566,
+          0.6288345440581052
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.3975164434844995,
+        "bottom_mu_required": 1.454175766429724,
+        "top_cosine": 0.929270385277092,
+        "bottom_cosine": 0.5666266109981217,
+        "line_direction": [
+          -0.2503070506253966,
+          -0.27166694950652387,
+          0.929270385277092
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 9,
+      "rotation_top": [
+        [
+          0.30080082223299026,
+          -0.24361733882676123,
+          -0.9220463424182779
+        ],
+        [
+          -0.07775531075799041,
+          0.9573392842381954,
+          -0.27830847364611144
+        ],
+        [
+          0.9505119552077634,
+          0.15540941759516044,
+          0.26902590196828197
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.0978334237925042,
+          0.938211831343411,
+          -0.3319445446400334
+        ],
+        [
+          -0.9201577882658826,
+          0.21234185516195175,
+          0.32896896698627937
+        ],
+        [
+          0.3791282973911013,
+          0.2732571976611477,
+          0.8840770543587821
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.5190729310164423,
+      "height_upper_mm": 0.519092930608264,
+      "height_gap_um": 0.01999959182175104,
+      "certificate_reached": true,
+      "nodes": 49460,
+      "arc_ids": [
+        2,
+        1
+      ],
+      "arc_parameters": [
+        5.30762146298394,
+        3.393485082133848
+      ],
+      "bottom_centerline": [
+        0.03420117678859885,
+        -0.02594315576572897,
+        0.23612969354824928
+      ],
+      "top_centerline": [
+        0.04064071502804775,
+        -0.03194722531029266,
+        0.2792398257234899
+      ],
+      "representative_contact": [
+        0.0374209459083233,
+        -0.028945190538010816,
+        0.25768475963586956
+      ],
+      "representative_normal": [
+        0.1463531418056568,
+        -0.13645612601281124,
+        0.9797757312554681
+      ],
+      "top_contact_points": [
+        [
+          0.028627580836831732,
+          -0.018805355407523417,
+          0.7809083300975241
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.025651762331231568,
+        "bottom_mu_required": 0.23095684533496488,
+        "top_cosine": 0.9996711558235403,
+        "bottom_cosine": 0.9743511280120969,
+        "line_direction": [
+          -0.016800606702102983,
+          0.019373172916905792,
+          0.9996711558235403
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 10,
+      "rotation_top": [
+        [
+          0.7165460523235532,
+          0.5904258152642288,
+          0.3714284743649881
+        ],
+        [
+          -0.6965562080319339,
+          0.5773907032811889,
+          0.42594533078392505
+        ],
+        [
+          0.03702977115383099,
+          -0.5639302549376339,
+          0.8249917960890703
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.38243474178366493,
+          -0.13386210359125844,
+          0.9142344368371739
+        ],
+        [
+          0.0673361577052814,
+          0.9827812882084279,
+          0.17206621229303712
+        ],
+        [
+          -0.9215256426938704,
+          0.127365131686448,
+          -0.36683594846762607
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.48000105900503603,
+      "height_upper_mm": 0.4800210208486928,
+      "height_gap_um": 0.01996184365676834,
+      "certificate_reached": true,
+      "nodes": 2538,
+      "arc_ids": [
+        1,
+        0
+      ],
+      "arc_parameters": [
+        1.3538275275217049,
+        4.974143627077526
+      ],
+      "bottom_centerline": [
+        0.10575434468699516,
+        -0.052278335830939666,
+        0.20900477071725346
+      ],
+      "top_centerline": [
+        0.10586873463139244,
+        -0.056173449477566945,
+        0.2528318742562792
+      ],
+      "representative_contact": [
+        0.10581153965919379,
+        -0.05422589265425331,
+        0.2309183224867663
+      ],
+      "representative_normal": [
+        0.00259977146357475,
+        -0.08852531015061996,
+        0.9960705349778574
+      ],
+      "top_contact_points": [
+        [
+          0.000656885547590226,
+          -0.08068718453194774,
+          0.7329111886412507
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.21600493084440706,
+        "bottom_mu_required": 0.2150711994049235,
+        "top_cosine": 0.9774568047088732,
+        "bottom_cosine": 0.9776448073577799,
+        "line_direction": [
+          -0.20475217704899373,
+          -0.05152417803339935,
+          0.9774568047088732
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "R4",
+      "pose_id": 11,
+      "rotation_top": [
+        [
+          -0.5050374221313256,
+          -0.7574858964445327,
+          0.413705594516883
+        ],
+        [
+          -0.8189155983723816,
+          0.571943845342546,
+          0.04751295104690681
+        ],
+        [
+          -0.27260675888420166,
+          -0.3147941461692134,
+          -0.9091700614011915
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6536377508872727,
+          -0.6312922037810533,
+          0.4174060901092464
+        ],
+        [
+          -0.5835254876797091,
+          0.06918057790954607,
+          -0.8091427889243397
+        ],
+        [
+          0.4819291398568724,
+          -0.7724533649906393,
+          -0.41359412842961496
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.49699365193899897,
+      "height_upper_mm": 0.4970136495501322,
+      "height_gap_um": 0.019997611133248938,
+      "certificate_reached": true,
+      "nodes": 38061,
+      "arc_ids": [
+        0,
+        0
+      ],
+      "arc_parameters": [
+        2.78395462027418,
+        1.7270130952812008
+      ],
+      "bottom_centerline": [
+        0.05480374875346985,
+        -0.07850457629928617,
+        0.22007630636357953
+      ],
+      "top_centerline": [
+        0.04445697134392429,
+        -0.07661643123250597,
+        0.26280076195337154
+      ],
+      "representative_contact": [
+        0.04963036004869707,
+        -0.07756050376589607,
+        0.24143853415847555
+      ],
+      "representative_normal": [
+        -0.23515403203512636,
+        0.04291238788136819,
+        0.971010354313455
+      ],
+      "top_contact_points": [
+        [
+          -0.051095376151675656,
+          0.0649238591351976,
+          0.7241796304159276
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.36146089216462723,
+        "bottom_mu_required": 0.2451489932639976,
+        "top_cosine": 0.9404487699342761,
+        "bottom_cosine": 0.9712409531688091,
+        "line_direction": [
+          -0.19622815510168534,
+          0.2775799385303194,
+          0.9404487699342761
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 0,
+      "rotation_top": [
+        [
+          -0.26301954518467724,
+          -0.5912462923157662,
+          -0.7623965770343576
+        ],
+        [
+          0.46037505251751143,
+          0.6175377898430381,
+          -0.6377318316779194
+        ],
+        [
+          0.847865278137007,
+          -0.5187243005090808,
+          0.10977053425678801
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6558138525959752,
+          0.12787313036977616,
+          -0.7440138797580722
+        ],
+        [
+          -0.7090050461611441,
+          -0.44280297395931906,
+          0.5488509549693952
+        ],
+        [
+          -0.25926826890550797,
+          0.8874536544418627,
+          0.3810590189938094
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.2381118146294586,
+      "height_upper_mm": 0.23813180065368109,
+      "height_gap_um": 0.019986024222484744,
+      "certificate_reached": true,
+      "nodes": 2857,
+      "arc_ids": [
+        2,
+        1
+      ],
+      "arc_parameters": [
+        4.974165997630682,
+        2.3794055369890392
+      ],
+      "bottom_centerline": [
+        0.18255448069702732,
+        0.0972497396564211,
+        0.12172242896934393
+      ],
+      "top_centerline": [
+        0.20446075246868306,
+        0.12118787562509148,
+        0.15143910616266096
+      ],
+      "representative_contact": [
+        0.1935076165828552,
+        0.10921880764075628,
+        0.13658076756600246
+      ],
+      "representative_normal": [
+        0.49786981299217603,
+        0.5440485447425086,
+        0.6753790271208415
+      ],
+      "top_contact_points": [
+        [
+          0.0741482534050043,
+          0.033101730423730095,
+          0.4896583309983762
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.400944073285522,
+        "bottom_mu_required": 2.5768100978031994,
+        "top_cosine": 0.9281742234231608,
+        "bottom_cosine": 0.3617884798779937,
+        "line_direction": [
+          -0.3137732206739443,
+          -0.2000974186757859,
+          0.9281742234231608
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 1,
+      "rotation_top": [
+        [
+          -0.534443774077155,
+          -0.4197863275027608,
+          0.7335865944739662
+        ],
+        [
+          -0.7931926813394555,
+          -0.05066211979180432,
+          -0.6068597201064886
+        ],
+        [
+          0.291916465139758,
+          -0.906207917014603,
+          -0.30589538819727685
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6491373909291196,
+          -0.5546617915339638,
+          0.5205486958105542
+        ],
+        [
+          0.4825511041667987,
+          -0.8292744391099771,
+          -0.28186581294338625
+        ],
+        [
+          0.5880179245270832,
+          0.06822170952978497,
+          0.8059657057119087
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.1854753814456564,
+      "height_upper_mm": 0.18549298239361534,
+      "height_gap_um": 0.017600947958940072,
+      "certificate_reached": true,
+      "nodes": 1235,
+      "arc_ids": [
+        0,
+        2
+      ],
+      "arc_parameters": [
+        4.974165997630682,
+        4.974143627077526
+      ],
+      "bottom_centerline": [
+        0.18020534788128564,
+        -0.15760138023033313,
+        0.016965775681613057
+      ],
+      "top_centerline": [
+        0.17290822777672285,
+        -0.17377577239722097,
+        0.0572291719145602
+      ],
+      "representative_contact": [
+        0.17655678782900425,
+        -0.16568857631377704,
+        0.03709747379808663
+      ],
+      "representative_normal": [
+        -0.1658436387400635,
+        -0.3675998219747238,
+        0.915077187112435
+      ],
+      "top_contact_points": [
+        [
+          0.05188856490688453,
+          -0.007166987470037186,
+          0.4462153237248907
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.4929415029715852,
+        "bottom_mu_required": 0.9134207623377132,
+        "top_cosine": 0.8969452847326209,
+        "bottom_cosine": 0.7383467694261451,
+        "line_direction": [
+          -0.2733211829451991,
+          0.3475409143530508,
+          0.8969452847326209
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 2,
+      "rotation_top": [
+        [
+          -0.28536561647305436,
+          -0.6713410091263498,
+          0.6840085631044163
+        ],
+        [
+          0.1358243679195168,
+          0.6781536488587755,
+          0.7222599044795389
+        ],
+        [
+          -0.9487455960447023,
+          0.2990131736307672,
+          -0.10233726584699865
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.8510452579148057,
+          -0.44723292597992703,
+          -0.2751448325885032
+        ],
+        [
+          0.5109032184359373,
+          -0.5842779722863901,
+          -0.6305530528771595
+        ],
+        [
+          0.12124302195393873,
+          -0.6772015660202935,
+          0.7257397388920765
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.30339561954442257,
+      "height_upper_mm": 0.30341561920986293,
+      "height_gap_um": 0.019999665440362246,
+      "certificate_reached": true,
+      "nodes": 101627,
+      "arc_ids": [
+        2,
+        1
+      ],
+      "arc_parameters": [
+        3.949136066715686,
+        2.463250370220222
+      ],
+      "bottom_centerline": [
+        0.1936273211765416,
+        0.05971081802650734,
+        0.12861990011114816
+      ],
+      "top_centerline": [
+        0.17292927418835108,
+        0.09388294819079929,
+        0.14705509392378122
+      ],
+      "representative_contact": [
+        0.18327829768244636,
+        0.07679688310865332,
+        0.13783749701746467
+      ],
+      "representative_normal": [
+        -0.470410158822512,
+        0.7766393219157262,
+        0.41898167755984234
+      ],
+      "top_contact_points": [
+        [
+          0.03391367281582231,
+          -0.025479695045898903,
+          0.5653926815804231
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.4233971814565347,
+        "bottom_mu_required": 2.5420604216617786,
+        "top_cosine": 0.9208613886386207,
+        "bottom_cosine": 0.3660751981091674,
+        "line_direction": [
+          -0.32169909484026477,
+          -0.22028162722638855,
+          0.9208613886386207
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 3,
+      "rotation_top": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.5016259827252045,
+          -0.8240848815108975,
+          0.2631643621772195
+        ],
+        [
+          0.7676985981745746,
+          -0.564282315741037,
+          -0.3036845904927109
+        ],
+        [
+          0.3987608754827455,
+          0.049694830788550026,
+          0.9157074794808284
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.44925550721602475,
+      "height_upper_mm": 0.4492754844020923,
+      "height_gap_um": 0.01997718606755461,
+      "certificate_reached": true,
+      "nodes": 6623,
+      "arc_ids": [
+        1,
+        0
+      ],
+      "arc_parameters": [
+        1.9561770418180828,
+        1.3090416801020606
+      ],
+      "bottom_centerline": [
+        -0.0680075140718997,
+        -0.11271208558504194,
+        0.20067626614233816
+      ],
+      "top_centerline": [
+        -0.05944931866711173,
+        -0.09488352412193193,
+        0.23998147810677833
+      ],
+      "representative_contact": [
+        -0.06372841636950571,
+        -0.10379780485348694,
+        0.22032887212455826
+      ],
+      "representative_normal": [
+        0.19450444101790845,
+        0.4051945787070455,
+        0.8933002719190949
+      ],
+      "top_contact_points": [
+        [
+          0.14078532322261803,
+          0.06786888463142526,
+          0.6656387257766845
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.5996090956113859,
+        "bottom_mu_required": 0.21969025924788405,
+        "top_cosine": 0.8576407971400173,
+        "bottom_cosine": 0.9767079072629916,
+        "line_direction": [
+          0.3938815303801833,
+          0.3306200282898792,
+          0.8576407971400173
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 4,
+      "rotation_top": [
+        [
+          0.8240441459987429,
+          -0.22970134401711115,
+          -0.5178692286687201
+        ],
+        [
+          -0.5322060206253343,
+          -0.6272005256300328,
+          -0.5686618083356368
+        ],
+        [
+          -0.19418547076274434,
+          0.7442155556061315,
+          -0.6390893597444007
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.8016633479443147,
+          -0.5081237523079277,
+          -0.31487478289508103
+        ],
+        [
+          -0.5246555585800597,
+          -0.3456388700038766,
+          -0.7779912058587094
+        ],
+        [
+          0.286482846630925,
+          0.7888878398625213,
+          -0.5436759648019094
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.402341945100773,
+      "height_upper_mm": 0.40236194493200694,
+      "height_gap_um": 0.019999831233963317,
+      "certificate_reached": true,
+      "nodes": 59753,
+      "arc_ids": [
+        2,
+        1
+      ],
+      "arc_parameters": [
+        2.843147103926717,
+        1.591715989789687
+      ],
+      "bottom_centerline": [
+        0.04876687734147755,
+        -0.1678847307438836,
+        0.16442782263782177
+      ],
+      "top_centerline": [
+        0.026136707033375495,
+        -0.14697332265879995,
+        0.1958378274726733
+      ],
+      "representative_contact": [
+        0.03745179218742652,
+        -0.1574290267013418,
+        0.18013282505524753
+      ],
+      "representative_normal": [
+        -0.5143220524568649,
+        0.47525927466099216,
+        0.713863746246626
+      ],
+      "top_contact_points": [
+        [
+          0.0225927909781495,
+          -0.13429427419661819,
+          0.6376511638235524
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.060097210326238736,
+        "bottom_mu_required": 0.8732209302920166,
+        "top_cosine": 0.998199039552341,
+        "bottom_cosine": 0.7532404160944371,
+        "line_direction": [
+          -0.03241889882652048,
+          0.05047467122884216,
+          0.998199039552341
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 5,
+      "rotation_top": [
+        [
+          0.06961159848725351,
+          -0.9957649457007152,
+          0.06005329524431291
+        ],
+        [
+          0.6690861792206817,
+          0.09125559416435847,
+          0.7375609136265149
+        ],
+        [
+          -0.7399175022473241,
+          -0.0111619643146319,
+          0.6726050107014663
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.5256073187394263,
+          0.821673251318745,
+          0.22043142823752146
+        ],
+        [
+          -0.5124251499562615,
+          0.5126126503791817,
+          -0.6889475570488176
+        ],
+        [
+          -0.6790857178441128,
+          0.2491612705428221,
+          0.6904789997397696
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.45858845947093974,
+      "height_upper_mm": 0.4586084592589614,
+      "height_gap_um": 0.019999788021640708,
+      "certificate_reached": true,
+      "nodes": 49123,
+      "arc_ids": [
+        0,
+        2
+      ],
+      "arc_parameters": [
+        2.0037815789354676,
+        3.2078542320398364
+      ],
+      "bottom_centerline": [
+        -0.09071993497278955,
+        -0.04744906215309288,
+        0.2170679154074244
+      ],
+      "top_centerline": [
+        -0.0936084733740761,
+        -0.06029087609574784,
+        0.25905296227611946
+      ],
+      "representative_contact": [
+        -0.09216420417343282,
+        -0.05386996912442036,
+        0.23806043884177192
+      ],
+      "representative_normal": [
+        -0.0656486000292399,
+        -0.29185940778761277,
+        0.9542056106521605
+      ],
+      "top_contact_points": [
+        [
+          0.07690590995007039,
+          -0.1474944849117251,
+          0.6826750643646529
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.43467336770655207,
+        "bottom_mu_required": 0.4597470846299411,
+        "top_cosine": 0.9171066862419216,
+        "bottom_cosine": 0.9085776769381705,
+        "line_direction": [
+          0.34874096173511954,
+          -0.19311930938781224,
+          0.9171066862419216
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 6,
+      "rotation_top": [
+        [
+          -0.2725533629097113,
+          -0.7163323728503782,
+          -0.6423259265926872
+        ],
+        [
+          0.7966963094313501,
+          0.20626958602628687,
+          -0.5680914085065984
+        ],
+        [
+          0.5394345696236699,
+          -0.6665739189970541,
+          0.5144798884386395
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.25573793717421095,
+          0.8964680657762648,
+          0.36186062860339147
+        ],
+        [
+          0.936873742301486,
+          -0.3221488594225826,
+          0.13596949422108529
+        ],
+        [
+          0.23846529826347468,
+          0.3042451633405064,
+          -0.9222630764093401
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.29023231742341277,
+      "height_upper_mm": 0.2902522861278763,
+      "height_gap_um": 0.01996870446352439,
+      "certificate_reached": true,
+      "nodes": 1387,
+      "arc_ids": [
+        0,
+        2
+      ],
+      "arc_parameters": [
+        1.309019309548904,
+        1.9947662460133313
+      ],
+      "bottom_centerline": [
+        0.11451608990033549,
+        0.13653630581338672,
+        0.1607603879964577
+      ],
+      "top_centerline": [
+        0.1373327132718279,
+        0.16504837272292905,
+        0.18530552475446432
+      ],
+      "representative_contact": [
+        0.1259244015860817,
+        0.15079233926815788,
+        0.173032956375461
+      ],
+      "representative_normal": [
+        0.5185596220793728,
+        0.6480015206714167,
+        0.5578440172274233
+      ],
+      "top_contact_points": [
+        [
+          0.026185031583028956,
+          -0.02047948107593814,
+          0.552027774512293
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.522953897459193,
+        "bottom_mu_required": 8.722341338770335,
+        "top_cosine": 0.8861429829572878,
+        "bottom_cosine": 0.11390198494203957,
+        "line_direction": [
+          -0.23320462081060944,
+          -0.4004575115891071,
+          0.8861429829572878
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 7,
+      "rotation_top": [
+        [
+          -0.050619104794590586,
+          0.45498707424316254,
+          0.8890581918532898
+        ],
+        [
+          -0.18751658465508358,
+          0.8700378134824531,
+          -0.45592952699947514
+        ],
+        [
+          -0.9809562868492596,
+          -0.18979190020208753,
+          0.04127708696836202
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.771005871915661,
+          -0.32377684565120696,
+          0.5483780627374933
+        ],
+        [
+          0.284882300841983,
+          -0.5947843965174184,
+          -0.7517137728726196
+        ],
+        [
+          0.5695542293219756,
+          0.7357989371285915,
+          -0.3663439694902669
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.41310630798459635,
+      "height_upper_mm": 0.4131263067245858,
+      "height_gap_um": 0.01999873998942414,
+      "certificate_reached": true,
+      "nodes": 53403,
+      "arc_ids": [
+        1,
+        0
+      ],
+      "arc_parameters": [
+        3.900692633854928,
+        2.6731980115955283
+      ],
+      "bottom_centerline": [
+        0.08211549747795238,
+        -0.1513771530243814,
+        0.1671586151419705
+      ],
+      "top_centerline": [
+        0.07275972854078644,
+        -0.14704541622892842,
+        0.20993367380854955
+      ],
+      "representative_contact": [
+        0.07743761300936941,
+        -0.1492112846266549,
+        0.18854614447526002
+      ],
+      "representative_normal": [
+        -0.21263111220831687,
+        0.09844856353302237,
+        0.9721604242404329
+      ],
+      "top_contact_points": [
+        [
+          0.12491092942080097,
+          0.07102141204449663,
+          0.6358447278241197
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.5036708781203284,
+        "bottom_mu_required": 0.508477192080039,
+        "top_cosine": 0.893111943420325,
+        "bottom_cosine": 0.8913841881614063,
+        "line_direction": [
+          0.09478900103681658,
+          0.43973412626542024,
+          0.893111943420325
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 8,
+      "rotation_top": [
+        [
+          0.16578056204620684,
+          -0.784188839065619,
+          0.5979671144239963
+        ],
+        [
+          0.8586640525423591,
+          0.41298586302400564,
+          0.3035436077631192
+        ],
+        [
+          -0.48498747418791843,
+          0.4631312358578659,
+          0.7418197949998295
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6716258630306152,
+          -0.569581193197704,
+          -0.4738100510371865
+        ],
+        [
+          0.30453053356731535,
+          -0.7952238386366771,
+          0.5242901873859118
+        ],
+        [
+          -0.6754108780835467,
+          0.20783722192963472,
+          0.7075477616012817
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.462889334786753,
+      "height_upper_mm": 0.4629093336210214,
+      "height_gap_um": 0.01999883426839766,
+      "certificate_reached": true,
+      "nodes": 42035,
+      "arc_ids": [
+        0,
+        1
+      ],
+      "arc_parameters": [
+        2.8220516722999816,
+        1.4381197718160208
+      ],
+      "bottom_centerline": [
+        -0.049179209514091826,
+        0.08500031621784217,
+        0.21898938694474643
+      ],
+      "top_centerline": [
+        -0.05190445828561362,
+        0.06489177915872688,
+        0.25803064405149834
+      ],
+      "representative_contact": [
+        -0.05054183389985272,
+        0.07494604768828453,
+        0.2385100154981224
+      ],
+      "representative_normal": [
+        -0.0619374720800407,
+        -0.45701220588898395,
+        0.8873012978807252
+      ],
+      "top_contact_points": [
+        [
+          0.047457950930926814,
+          -0.060312975084472434,
+          0.7219500722556262
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.3455026503504987,
+        "bottom_mu_required": 0.336972232684046,
+        "top_cosine": 0.9451761722137779,
+        "bottom_cosine": 0.947643707519641,
+        "line_direction": [
+          0.19159988960242966,
+          -0.26444561970970004,
+          0.9451761722137779
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 9,
+      "rotation_top": [
+        [
+          0.30080082223299026,
+          -0.24361733882676123,
+          -0.9220463424182779
+        ],
+        [
+          -0.07775531075799041,
+          0.9573392842381954,
+          -0.27830847364611144
+        ],
+        [
+          0.9505119552077634,
+          0.15540941759516044,
+          0.26902590196828197
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.0978334237925042,
+          0.938211831343411,
+          -0.3319445446400334
+        ],
+        [
+          -0.9201577882658826,
+          0.21234185516195175,
+          0.32896896698627937
+        ],
+        [
+          0.3791282973911013,
+          0.2732571976611477,
+          0.8840770543587821
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4411594490530348,
+      "height_upper_mm": 0.4411794465381167,
+      "height_gap_um": 0.019997485081912902,
+      "certificate_reached": true,
+      "nodes": 48299,
+      "arc_ids": [
+        2,
+        2
+      ],
+      "arc_parameters": [
+        3.500103138478517,
+        3.908231510268723
+      ],
+      "bottom_centerline": [
+        -0.09436130341736841,
+        -0.04095417576088,
+        0.21683795771294812
+      ],
+      "top_centerline": [
+        -0.1088163476559845,
+        -0.06206954334966533,
+        0.2526317134204752
+      ],
+      "representative_contact": [
+        -0.10158882553667645,
+        -0.05151185955527267,
+        0.23473483556671165
+      ],
+      "representative_normal": [
+        -0.32852373269582014,
+        -0.47989471792693933,
+        0.8134944478983427
+      ],
+      "top_contact_points": [
+        [
+          0.028627580836831732,
+          -0.018805355407523417,
+          0.7029948481341166
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.2867232739751532,
+        "bottom_mu_required": 1.1323467983068631,
+        "top_cosine": 0.9612673275434628,
+        "bottom_cosine": 0.6619455505855928,
+        "line_direction": [
+          0.26731468329031705,
+          0.0671415303284528,
+          0.9612673275434628
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 10,
+      "rotation_top": [
+        [
+          0.7165460523235532,
+          0.5904258152642288,
+          0.3714284743649881
+        ],
+        [
+          -0.6965562080319339,
+          0.5773907032811889,
+          0.42594533078392505
+        ],
+        [
+          0.03702977115383099,
+          -0.5639302549376339,
+          0.8249917960890703
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.38243474178366493,
+          -0.13386210359125844,
+          0.9142344368371739
+        ],
+        [
+          0.0673361577052814,
+          0.9827812882084279,
+          0.17206621229303712
+        ],
+        [
+          -0.9215256426938704,
+          0.127365131686448,
+          -0.36683594846762607
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.46421621964325704,
+      "height_upper_mm": 0.4642362195195277,
+      "height_gap_um": 0.01999987627065991,
+      "certificate_reached": true,
+      "nodes": 89683,
+      "arc_ids": [
+        1,
+        1
+      ],
+      "arc_parameters": [
+        1.3895756714660568,
+        3.400442324165571
+      ],
+      "bottom_centerline": [
+        0.12082028281643752,
+        0.033657458060792386,
+        0.20462070955072467
+      ],
+      "top_centerline": [
+        0.09989815084990575,
+        0.01095597254256335,
+        0.2359720563996348
+      ],
+      "representative_contact": [
+        0.11035921683317163,
+        0.022306715301677868,
+        0.22029638297517973
+      ],
+      "representative_normal": [
+        -0.4755029992393584,
+        -0.5159428526870236,
+        0.7125306102025032
+      ],
+      "top_contact_points": [
+        [
+          0.000656885547590226,
+          -0.08068718453194774,
+          0.7171263492794717
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.30286767123083275,
+        "bottom_mu_required": 0.5266680158656699,
+        "top_cosine": 0.9570675934592485,
+        "bottom_cosine": 0.8847897444857058,
+        "line_direction": [
+          -0.21132490654973124,
+          -0.19840213058803058,
+          0.9570675934592485
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "C3",
+      "pose_id": 11,
+      "rotation_top": [
+        [
+          -0.5050374221313256,
+          -0.7574858964445327,
+          0.413705594516883
+        ],
+        [
+          -0.8189155983723816,
+          0.571943845342546,
+          0.04751295104690681
+        ],
+        [
+          -0.27260675888420166,
+          -0.3147941461692134,
+          -0.9091700614011915
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6536377508872727,
+          -0.6312922037810533,
+          0.4174060901092464
+        ],
+        [
+          -0.5835254876797091,
+          0.06918057790954607,
+          -0.8091427889243397
+        ],
+        [
+          0.4819291398568724,
+          -0.7724533649906393,
+          -0.41359412842961496
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4969936517776285,
+      "height_upper_mm": 0.4970136487480563,
+      "height_gap_um": 0.019996970427815786,
+      "certificate_reached": true,
+      "nodes": 38776,
+      "arc_ids": [
+        0,
+        0
+      ],
+      "arc_parameters": [
+        2.7839594139641424,
+        1.7270226826611248
+      ],
+      "bottom_centerline": [
+        0.054805193607145926,
+        -0.0785028062420611,
+        0.22007657795822952
+      ],
+      "top_centerline": [
+        0.04445771445311965,
+        -0.07661728215867192,
+        0.26280097934769253
+      ],
+      "representative_contact": [
+        0.04963145403013279,
+        -0.07756004420036651,
+        0.24143877865296104
+      ],
+      "representative_normal": [
+        -0.23516998077332452,
+        0.04285282007702691,
+        0.9710091224877958
+      ],
+      "top_contact_points": [
+        [
+          0.05520739729517862,
+          -0.008096854211194906,
+          0.7575433211485946
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.1350242455116957,
+        "bottom_mu_required": 0.2698122259762622,
+        "top_cosine": 0.9910070085316258,
+        "bottom_cosine": 0.9654746904650853,
+        "line_direction": [
+          0.010706743304592958,
+          0.13338093825208935,
+          0.9910070085316258
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 0,
+      "rotation_top": [
+        [
+          -0.26301954518467724,
+          -0.5912462923157662,
+          -0.7623965770343576
+        ],
+        [
+          0.46037505251751143,
+          0.6175377898430381,
+          -0.6377318316779194
+        ],
+        [
+          0.847865278137007,
+          -0.5187243005090808,
+          0.10977053425678801
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6558138525959752,
+          0.12787313036977616,
+          -0.7440138797580722
+        ],
+        [
+          -0.7090050461611441,
+          -0.44280297395931906,
+          0.5488509549693952
+        ],
+        [
+          -0.25926826890550797,
+          0.8874536544418627,
+          0.3810590189938094
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.510269334826597,
+      "height_upper_mm": 0.5102893339914767,
+      "height_gap_um": 0.01999916487971376,
+      "certificate_reached": true,
+      "nodes": 37212,
+      "arc_ids": [
+        0,
+        2
+      ],
+      "arc_parameters": [
+        1.9204720410833906,
+        0.7329072583119864
+      ],
+      "bottom_centerline": [
+        -0.011377386947939478,
+        0.027204214071474952,
+        0.23818162356275563
+      ],
+      "top_centerline": [
+        -0.015708566986331746,
+        0.02879507521092174,
+        0.2819390233976411
+      ],
+      "representative_contact": [
+        -0.013542976967135613,
+        0.02799964464119835,
+        0.26006032348019836
+      ],
+      "representative_normal": [
+        -0.09843590996346062,
+        0.036155934987427044,
+        0.9944863598837607
+      ],
+      "top_contact_points": [
+        [
+          0.0741482534050043,
+          0.033101730423730095,
+          0.7618158511955146
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.17506440069810336,
+        "bottom_mu_required": 0.279836150380939,
+        "top_cosine": 0.9850196938150343,
+        "bottom_cosine": 0.9630049772922125,
+        "line_direction": [
+          0.17215074696782892,
+          0.0100161427183696,
+          0.9850196938150343
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 1,
+      "rotation_top": [
+        [
+          -0.534443774077155,
+          -0.4197863275027608,
+          0.7335865944739662
+        ],
+        [
+          -0.7931926813394555,
+          -0.05066211979180432,
+          -0.6068597201064886
+        ],
+        [
+          0.291916465139758,
+          -0.906207917014603,
+          -0.30589538819727685
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6491373909291196,
+          -0.5546617915339638,
+          0.5205486958105542
+        ],
+        [
+          0.4825511041667987,
+          -0.8292744391099771,
+          -0.28186581294338625
+        ],
+        [
+          0.5880179245270832,
+          0.06822170952978497,
+          0.8059657057119087
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.5196755151653605,
+      "height_upper_mm": 0.5196955149915641,
+      "height_gap_um": 0.019999826203598303,
+      "certificate_reached": true,
+      "nodes": 37396,
+      "arc_ids": [
+        0,
+        1
+      ],
+      "arc_parameters": [
+        6.011886423772123,
+        2.2311271190800435
+      ],
+      "bottom_centerline": [
+        0.013683944638627512,
+        -0.033508983351609664,
+        0.23725492132697387
+      ],
+      "top_centerline": [
+        0.012195205881558854,
+        -0.037210544554270406,
+        0.2810736627691486
+      ],
+      "representative_contact": [
+        0.012939575260093183,
+        -0.035359763952940035,
+        0.25916429204806124
+      ],
+      "representative_normal": [
+        -0.0338349717515604,
+        -0.08412639096956231,
+        0.9958804873221525
+      ],
+      "top_contact_points": [
+        [
+          0.05188856490688453,
+          -0.007166987470037186,
+          0.7804154574445947
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.09224299429061196,
+        "bottom_mu_required": 0.17742649889546236,
+        "top_cosine": 0.9957725736033801,
+        "bottom_cosine": 0.9846220561058567,
+        "line_direction": [
+          0.0744062329919824,
+          0.05385809271821672,
+          0.9957725736033801
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 2,
+      "rotation_top": [
+        [
+          -0.28536561647305436,
+          -0.6713410091263498,
+          0.6840085631044163
+        ],
+        [
+          0.1358243679195168,
+          0.6781536488587755,
+          0.7222599044795389
+        ],
+        [
+          -0.9487455960447023,
+          0.2990131736307672,
+          -0.10233726584699865
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.8510452579148057,
+          -0.44723292597992703,
+          -0.2751448325885032
+        ],
+        [
+          0.5109032184359373,
+          -0.5842779722863901,
+          -0.6305530528771595
+        ],
+        [
+          0.12124302195393873,
+          -0.6772015660202935,
+          0.7257397388920765
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.5215213898454578,
+      "height_upper_mm": 0.5215413898137855,
+      "height_gap_um": 0.019999968327688578,
+      "certificate_reached": true,
+      "nodes": 66574,
+      "arc_ids": [
+        1,
+        2
+      ],
+      "arc_parameters": [
+        4.975610496205942,
+        0.3190919723300241
+      ],
+      "bottom_centerline": [
+        0.022204241217917982,
+        -0.011405829411729735,
+        0.23869830063778635
+      ],
+      "top_centerline": [
+        0.030061311491913056,
+        -0.010881610323348851,
+        0.2819879257349951
+      ],
+      "representative_contact": [
+        0.026132776354915517,
+        -0.011143719867539294,
+        0.2603431131863907
+      ],
+      "representative_normal": [
+        0.17856977895443352,
+        0.011914070190474628,
+        0.9838551158456532
+      ],
+      "top_contact_points": [
+        [
+          0.03391367281582231,
+          -0.025479695045898903,
+          0.7835184518814584
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.031177737587223912,
+        "bottom_mu_required": 0.17092099501775312,
+        "top_cosine": 0.9995143283841055,
+        "bottom_cosine": 0.9857054556528125,
+        "line_direction": [
+          0.014865221896253035,
+          -0.027388547476013513,
+          0.9995143283841055
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 3,
+      "rotation_top": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.5016259827252045,
+          -0.8240848815108975,
+          0.2631643621772195
+        ],
+        [
+          0.7676985981745746,
+          -0.564282315741037,
+          -0.3036845904927109
+        ],
+        [
+          0.3987608754827455,
+          0.049694830788550026,
+          0.9157074794808284
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.44937265572968227,
+      "height_upper_mm": 0.4493926550984043,
+      "height_gap_um": 0.019999368722045663,
+      "certificate_reached": true,
+      "nodes": 42418,
+      "arc_ids": [
+        1,
+        0
+      ],
+      "arc_parameters": [
+        1.9564726526990817,
+        1.2969328192576883
+      ],
+      "bottom_centerline": [
+        -0.06537008731550065,
+        -0.11391663994296272,
+        0.20087247404378034
+      ],
+      "top_centerline": [
+        -0.059420401865315275,
+        -0.09482712095971921,
+        0.24006675306549774
+      ],
+      "representative_contact": [
+        -0.06239524459040796,
+        -0.10437188045134096,
+        0.22046961355463904
+      ],
+      "representative_normal": [
+        0.13522012386784935,
+        0.43385270416462535,
+        0.8907790686753956
+      ],
+      "top_contact_points": [
+        [
+          0.07414939131517692,
+          -0.050284497029587705,
+          0.7068042155716285
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.3019873290477196,
+        "bottom_mu_required": 0.37840545760130423,
+        "top_cosine": 0.9573010787511211,
+        "bottom_cosine": 0.9352778743326776,
+        "line_direction": [
+          0.26877447483271844,
+          0.10646561088133537,
+          0.9573010787511211
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 4,
+      "rotation_top": [
+        [
+          0.8240441459987429,
+          -0.22970134401711115,
+          -0.5178692286687201
+        ],
+        [
+          -0.5322060206253343,
+          -0.6272005256300328,
+          -0.5686618083356368
+        ],
+        [
+          -0.19418547076274434,
+          0.7442155556061315,
+          -0.6390893597444007
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.8016633479443147,
+          -0.5081237523079277,
+          -0.31487478289508103
+        ],
+        [
+          -0.5246555585800597,
+          -0.3456388700038766,
+          -0.7779912058587094
+        ],
+        [
+          0.286482846630925,
+          0.7888878398625213,
+          -0.5436759648019094
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.47506537202854093,
+      "height_upper_mm": 0.4750853718783972,
+      "height_gap_um": 0.01999984985628922,
+      "certificate_reached": true,
+      "nodes": 61958,
+      "arc_ids": [
+        2,
+        2
+      ],
+      "arc_parameters": [
+        2.621501261147129,
+        5.893410376357769
+      ],
+      "bottom_centerline": [
+        0.0010025972136017947,
+        -0.10621472245736632,
+        0.21521484040867608
+      ],
+      "top_centerline": [
+        0.030795552185081437,
+        -0.09880655504708313,
+        0.24673465782072027
+      ],
+      "representative_contact": [
+        0.015899074699341615,
+        -0.10251063875222473,
+        0.23097474911469817
+      ],
+      "representative_normal": [
+        0.6771126129881737,
+        0.16836744114279978,
+        0.7163594866373678
+      ],
+      "top_contact_points": [
+        [
+          0.0323323075421375,
+          -0.024755522765346424,
+          0.7370504208291526
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.1570371767458193,
+        "bottom_mu_required": 0.8686089623164343,
+        "top_cosine": 0.9878931306509092,
+        "bottom_cosine": 0.7549628817258487,
+        "line_direction": [
+          0.03207875570225971,
+          0.1517831210818266,
+          0.9878931306509092
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 5,
+      "rotation_top": [
+        [
+          0.06961159848725351,
+          -0.9957649457007152,
+          0.06005329524431291
+        ],
+        [
+          0.6690861792206817,
+          0.09125559416435847,
+          0.7375609136265149
+        ],
+        [
+          -0.7399175022473241,
+          -0.0111619643146319,
+          0.6726050107014663
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.5256073187394263,
+          0.821673251318745,
+          0.22043142823752146
+        ],
+        [
+          -0.5124251499562615,
+          0.5126126503791817,
+          -0.6889475570488176
+        ],
+        [
+          -0.6790857178441128,
+          0.2491612705428221,
+          0.6904789997397696
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.46509740357013474,
+      "height_upper_mm": 0.46511740335703616,
+      "height_gap_um": 0.019999786901425676,
+      "certificate_reached": true,
+      "nodes": 50336,
+      "arc_ids": [
+        1,
+        2
+      ],
+      "arc_parameters": [
+        5.802641856924597,
+        2.6687910126236654
+      ],
+      "bottom_centerline": [
+        -0.0493690830743516,
+        0.07333984382506484,
+        0.22312319678624376
+      ],
+      "top_centerline": [
+        -0.04618743980489831,
+        0.08192356862322328,
+        0.26616035299684193
+      ],
+      "representative_contact": [
+        -0.04777826143962496,
+        0.07763170622414406,
+        0.24464177489154285
+      ],
+      "representative_normal": [
+        0.07231007430575662,
+        0.195084654503601,
+        0.978117186604504
+      ],
+      "top_contact_points": [
+        [
+          0.127491054049177,
+          0.05680173179024708,
+          0.6928979905396299
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.393754160949497,
+        "bottom_mu_required": 0.40155465777524524,
+        "top_cosine": 0.9304671563142635,
+        "bottom_cosine": 0.927978379019527,
+        "line_direction": [
+          0.3638150144471042,
+          -0.04323778767815876,
+          0.9304671563142635
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 6,
+      "rotation_top": [
+        [
+          -0.2725533629097113,
+          -0.7163323728503782,
+          -0.6423259265926872
+        ],
+        [
+          0.7966963094313501,
+          0.20626958602628687,
+          -0.5680914085065984
+        ],
+        [
+          0.5394345696236699,
+          -0.6665739189970541,
+          0.5144798884386395
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.25573793717421095,
+          0.8964680657762648,
+          0.36186062860339147
+        ],
+        [
+          0.936873742301486,
+          -0.3221488594225826,
+          0.13596949422108529
+        ],
+        [
+          0.23846529826347468,
+          0.3042451633405064,
+          -0.9222630764093401
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.5010204340556579,
+      "height_upper_mm": 0.5010404331028586,
+      "height_gap_um": 0.019999047200736086,
+      "certificate_reached": true,
+      "nodes": 41128,
+      "arc_ids": [
+        2,
+        0
+      ],
+      "arc_parameters": [
+        1.5063211968040782,
+        0.9685650568509182
+      ],
+      "bottom_centerline": [
+        0.040786905691028295,
+        -0.07890367278081561,
+        0.22295882746787385
+      ],
+      "top_centerline": [
+        0.036624441750054734,
+        -0.07696065169533003,
+        0.26671838143042526
+      ],
+      "representative_contact": [
+        0.03870567372054151,
+        -0.07793216223807282,
+        0.24483860444914957
+      ],
+      "representative_normal": [
+        -0.09460145320394457,
+        0.044159570124672275,
+        0.9945353173307139
+      ],
+      "top_contact_points": [
+        [
+          0.026185031583028956,
+          -0.02047948107593814,
+          0.7628158911445381
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.11352074098444119,
+        "bottom_mu_required": 0.09701229602813899,
+        "top_cosine": 0.9936181369690265,
+        "bottom_cosine": 0.9953272641520412,
+        "line_direction": [
+          -0.024017920155729244,
+          0.11020951591216555,
+          0.9936181369690265
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 7,
+      "rotation_top": [
+        [
+          -0.050619104794590586,
+          0.45498707424316254,
+          0.8890581918532898
+        ],
+        [
+          -0.18751658465508358,
+          0.8700378134824531,
+          -0.45592952699947514
+        ],
+        [
+          -0.9809562868492596,
+          -0.18979190020208753,
+          0.04127708696836202
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.771005871915661,
+          -0.32377684565120696,
+          0.5483780627374933
+        ],
+        [
+          0.284882300841983,
+          -0.5947843965174184,
+          -0.7517137728726196
+        ],
+        [
+          0.5695542293219756,
+          0.7357989371285915,
+          -0.3663439694902669
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4759428269144065,
+      "height_upper_mm": 0.4759628261382108,
+      "height_gap_um": 0.01999922380430119,
+      "certificate_reached": true,
+      "nodes": 39370,
+      "arc_ids": [
+        2,
+        2
+      ],
+      "arc_parameters": [
+        2.3333285890729245,
+        5.779416429058017
+      ],
+      "bottom_centerline": [
+        -0.021776318145511776,
+        0.07491633868318685,
+        0.22696549113539594
+      ],
+      "top_centerline": [
+        -0.03536187354141576,
+        0.07369195783557,
+        0.2687976985374063
+      ],
+      "representative_contact": [
+        -0.028569095843463767,
+        0.07430414825937842,
+        0.24788159483640113
+      ],
+      "representative_normal": [
+        -0.3087626226341815,
+        -0.027826837445837475,
+        0.9507319864093269
+      ],
+      "top_contact_points": [
+        [
+          0.13334680651106223,
+          -0.07679344405235453,
+          0.7106523584410198
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.4785654936657119,
+        "bottom_mu_required": 0.8330329877786805,
+        "top_cosine": 0.9020272413845246,
+        "bottom_cosine": 0.7683347589662254,
+        "line_direction": [
+          0.31560454165147583,
+          -0.2945176210164452,
+          0.9020272413845246
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 8,
+      "rotation_top": [
+        [
+          0.16578056204620684,
+          -0.784188839065619,
+          0.5979671144239963
+        ],
+        [
+          0.8586640525423591,
+          0.41298586302400564,
+          0.3035436077631192
+        ],
+        [
+          -0.48498747418791843,
+          0.4631312358578659,
+          0.7418197949998295
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6716258630306152,
+          -0.569581193197704,
+          -0.4738100510371865
+        ],
+        [
+          0.30453053356731535,
+          -0.7952238386366771,
+          0.5242901873859118
+        ],
+        [
+          -0.6754108780835467,
+          0.20783722192963472,
+          0.7075477616012817
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.49635069419212163,
+      "height_upper_mm": 0.4963706940637044,
+      "height_gap_um": 0.01999987158274319,
+      "certificate_reached": true,
+      "nodes": 40198,
+      "arc_ids": [
+        2,
+        2
+      ],
+      "arc_parameters": [
+        4.771782799015636,
+        0.40149550277925583
+      ],
+      "bottom_centerline": [
+        -0.06415551987967336,
+        -0.013628358914044769,
+        0.23086432617942254
+      ],
+      "top_centerline": [
+        -0.05020049992183383,
+        -0.010336451433843737,
+        0.2724626526255441
+      ],
+      "representative_contact": [
+        -0.05717800990075359,
+        -0.011982405173944253,
+        0.2516634894024833
+      ],
+      "representative_normal": [
+        0.317159544496353,
+        0.07481607909547801,
+        0.9454165101391261
+      ],
+      "top_contact_points": [
+        [
+          0.04419826041022003,
+          -0.061146261508990885,
+          0.7554347294714914
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.22365049389602226,
+        "bottom_mu_required": 0.21438332390116338,
+        "top_cosine": 0.9758909909681994,
+        "bottom_cosine": 0.9777828560519202,
+        "line_direction": [
+          0.19638316169236672,
+          -0.095238792258277,
+          0.9758909909681994
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 9,
+      "rotation_top": [
+        [
+          0.30080082223299026,
+          -0.24361733882676123,
+          -0.9220463424182779
+        ],
+        [
+          -0.07775531075799041,
+          0.9573392842381954,
+          -0.27830847364611144
+        ],
+        [
+          0.9505119552077634,
+          0.15540941759516044,
+          0.26902590196828197
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          0.0978334237925042,
+          0.938211831343411,
+          -0.3319445446400334
+        ],
+        [
+          -0.9201577882658826,
+          0.21234185516195175,
+          0.32896896698627937
+        ],
+        [
+          0.3791282973911013,
+          0.2732571976611477,
+          0.8840770543587821
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.5190729312740445,
+      "height_upper_mm": 0.5190929310586695,
+      "height_gap_um": 0.019999784624968875,
+      "certificate_reached": true,
+      "nodes": 50128,
+      "arc_ids": [
+        1,
+        2
+      ],
+      "arc_parameters": [
+        5.307669399883562,
+        4.460528509773715
+      ],
+      "bottom_centerline": [
+        0.03420869864905305,
+        -0.025942006390055564,
+        0.23612873023246575
+      ],
+      "top_centerline": [
+        0.04064873555959804,
+        -0.03193897726310459,
+        0.2792397759741156
+      ],
+      "representative_contact": [
+        0.03742871710432555,
+        -0.028940491826580074,
+        0.2576842531032907
+      ],
+      "representative_normal": [
+        0.14636447523965887,
+        -0.13629479256929597,
+        0.9797964941284055
+      ],
+      "top_contact_points": [
+        [
+          0.028627580836831732,
+          -0.018805355407523417,
+          0.7809083303551263
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.025654689542566327,
+        "bottom_mu_required": 0.23085069437576758,
+        "top_cosine": 0.9996710808051917,
+        "bottom_cosine": 0.9743738014085661,
+        "line_direction": [
+          -0.016815436803005894,
+          0.01936417534789753,
+          0.9996710808051917
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 10,
+      "rotation_top": [
+        [
+          0.7165460523235532,
+          0.5904258152642288,
+          0.3714284743649881
+        ],
+        [
+          -0.6965562080319339,
+          0.5773907032811889,
+          0.42594533078392505
+        ],
+        [
+          0.03702977115383099,
+          -0.5639302549376339,
+          0.8249917960890703
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.38243474178366493,
+          -0.13386210359125844,
+          0.9142344368371739
+        ],
+        [
+          0.0673361577052814,
+          0.9827812882084279,
+          0.17206621229303712
+        ],
+        [
+          -0.9215256426938704,
+          0.127365131686448,
+          -0.36683594846762607
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    },
+    {
+      "found": true,
+      "height_lower_mm": 0.4852170049587194,
+      "height_upper_mm": 0.48523700494160765,
+      "height_gap_um": 0.019999982888263546,
+      "certificate_reached": true,
+      "nodes": 63946,
+      "arc_ids": [
+        2,
+        0
+      ],
+      "arc_parameters": [
+        0.32419725213970596,
+        5.1100015942946095
+      ],
+      "bottom_centerline": [
+        0.07894640915392351,
+        -0.0695365003024174,
+        0.21571309558622806
+      ],
+      "top_centerline": [
+        0.09050616414190253,
+        -0.07679825085277012,
+        0.25754178243583337
+      ],
+      "representative_contact": [
+        0.08472628664791301,
+        -0.07316737557759376,
+        0.23662743901103073
+      ],
+      "representative_normal": [
+        0.26272170427225056,
+        -0.1650397852352891,
+        0.9506519738546662
+      ],
+      "top_contact_points": [
+        [
+          0.000656885547590226,
+          -0.08068718453194774,
+          0.7381271345949341
+        ]
+      ],
+      "unique_top": true,
+      "two_force_analysis": {
+        "top_mu_required": 0.1683052778992265,
+        "bottom_mu_required": 0.49425827810580714,
+        "top_cosine": 0.986130635495121,
+        "bottom_cosine": 0.8964766396664551,
+        "line_direction": [
+          -0.16531099153755202,
+          -0.014786676937709823,
+          0.986130635495121
+        ],
+        "finite_compressive_two_force_solution": true
+      },
+      "scope": "Two-force analysis assumes one lower point and a unique upper point. Other simultaneous contacts are not excluded by a height bracket; no stability or success-rate claim.",
+      "model": "S3",
+      "pose_id": 11,
+      "rotation_top": [
+        [
+          -0.5050374221313256,
+          -0.7574858964445327,
+          0.413705594516883
+        ],
+        [
+          -0.8189155983723816,
+          0.571943845342546,
+          0.04751295104690681
+        ],
+        [
+          -0.27260675888420166,
+          -0.3147941461692134,
+          -0.9091700614011915
+        ]
+      ],
+      "rotation_bottom": [
+        [
+          -0.6536377508872727,
+          -0.6312922037810533,
+          0.4174060901092464
+        ],
+        [
+          -0.5835254876797091,
+          0.06918057790954607,
+          -0.8091427889243397
+        ],
+        [
+          0.4819291398568724,
+          -0.7724533649906393,
+          -0.41359412842961496
+        ]
+      ],
+      "lateral_offset": [
+        0.035,
+        -0.025,
+        0.0
+      ]
+    }
+  ],
+  "calipers": [
+    {
+      "model": "R4",
+      "width_min_sample_mm": 0.346116570824605,
+      "width_max_sample_mm": 0.524,
+      "width_ratio_sample": 1.513940805410145,
+      "widths_mm": [
+        0.40381410187966404,
+        0.5208036650130742,
+        0.47937759091949045,
+        0.4948121649200654,
+        0.4935452193063099,
+        0.5012850795823067,
+        0.45611545448357316,
+        0.5120601899332711,
+        0.5106198253935215,
+        0.5016268206262562,
+        0.5223086142020998,
+        0.5233179151696639,
+        0.5230704635269897,
+        0.4808927738324543,
+        0.5181439388078488,
+        0.47182522952923045,
+        0.44781516996179593,
+        0.5091500511193238,
+        0.4837185082509753,
+        0.5104519847670568,
+        0.42723320719086144,
+        0.46498289759002875,
+        0.44903852668851296,
+        0.5218039225148053,
+        0.479997654447778,
+        0.44528949700672804,
+        0.5200718581689135,
+        0.514007616767751,
+        0.49099681275609874,
+        0.5234047029316169,
+        0.4687641103444171,
+        0.523040138991187,
+        0.45754592586146847,
+        0.5231265425267573,
+        0.4656073530170763,
+        0.4558369703625697,
+        0.5202698246284627,
+        0.4392272613362296,
+        0.5231468363226093,
+        0.5207777939836142,
+        0.415631557758957,
+        0.42290819030622295,
+        0.5233108843800336,
+        0.487756119689067,
+        0.5150472976295222,
+        0.4526815825978546,
+        0.48600307367012346,
+        0.4761834952247983,
+        0.5212221291318644,
+        0.5194908726866715,
+        0.4247368338890828,
+        0.48904828243627674,
+        0.4513340461289415,
+        0.5178793132688163,
+        0.4532553827331183,
+        0.4984377096557463,
+        0.41919443240470217,
+        0.4427538287514259,
+        0.5192018023008833,
+        0.4729782011670569,
+        0.4799145124029569,
+        0.5230313542366751,
+        0.4092035184886026,
+        0.5199718423383155,
+        0.4201329124198321,
+        0.5239835959919629,
+        0.43663187003275683,
+        0.4926132042536766,
+        0.4660503237159892,
+        0.5238135401022558,
+        0.4347250435698077,
+        0.4626676975825902,
+        0.3868380591358856,
+        0.4485589733668279,
+        0.4388875707031402,
+        0.506194556394471,
+        0.5130889362019713,
+        0.5176642536011103,
+        0.5185401671159221,
+        0.5232356493519753,
+        0.5077910012123196,
+        0.49543965043722893,
+        0.419242256608224,
+        0.5158959667002727,
+        0.5062940888182843,
+        0.4250972463300233,
+        0.47206343409871065,
+        0.5213647479429512,
+        0.4228008770713404,
+        0.5106507257522188,
+        0.5175092133092861,
+        0.4452987684718679,
+        0.44474597527212956,
+        0.46337299686566114,
+        0.4911726461347306,
+        0.4358174001453371,
+        0.46223938566801837,
+        0.4945361419134654,
+        0.5234348658702459,
+        0.5187805315570141,
+        0.4388774787551928,
+        0.44220776469173856,
+        0.4990284370109441,
+        0.49543800381708675,
+        0.4926255465663947,
+        0.4211154372164356,
+        0.45400344647059127,
+        0.4703663508047913,
+        0.5113634772491269,
+        0.4033698205659546,
+        0.4576433935728371,
+        0.37894128321634063,
+        0.45411361133693584,
+        0.5205824432975719,
+        0.5021890499904536,
+        0.47005983514129407,
+        0.5043132032379207,
+        0.5046069431979616,
+        0.43558336459561225,
+        0.47125955660191177,
+        0.4781359453687345,
+        0.3997800816266739,
+        0.5231717369882307,
+        0.48072994491952836,
+        0.4748225448929462,
+        0.517425541847383,
+        0.5238638412497264,
+        0.5192459785654872,
+        0.4796710940945622,
+        0.5003151044005423,
+        0.5195279859847615,
+        0.4349311017167453,
+        0.4940029862240427,
+        0.4158416571580613,
+        0.5017835914987272,
+        0.5163699034555925,
+        0.504801295031569,
+        0.4862114179915073,
+        0.4941769134935793,
+        0.48676235219026126,
+        0.44424098932154255,
+        0.5085658803910422,
+        0.5149429716741679,
+        0.501649973821541,
+        0.5033818823286444,
+        0.45549071728735285,
+        0.43325291912464736,
+        0.43387294295177753,
+        0.5181933684151002,
+        0.43260624224273414,
+        0.5133843548936851,
+        0.5238495833752598,
+        0.4557560207240149,
+        0.510320896947742,
+        0.5042881144249981,
+        0.5226962439469859,
+        0.3983501346428139,
+        0.48738146610942346,
+        0.5173807166441664,
+        0.5120538903124019,
+        0.47921247362196256,
+        0.43949842345252305,
+        0.4903509302067313,
+        0.5229285774163507,
+        0.47771447124255856,
+        0.5166535780667072,
+        0.3907921737384994,
+        0.4168384513322757,
+        0.35535686951237794,
+        0.5097311432660149,
+        0.49641544473503474,
+        0.4440893892648815,
+        0.48039899296123745,
+        0.48978725198853224,
+        0.46679175855543475,
+        0.445875396985114,
+        0.48596366587611983,
+        0.46971580899605536,
+        0.4873464773486477,
+        0.5109073482212454,
+        0.48525798797705516,
+        0.5185058570841833,
+        0.4212940946757092,
+        0.47589386459173866,
+        0.4972647220256513,
+        0.5066999533475975,
+        0.5228162073839261,
+        0.47526217411981,
+        0.4373543700779838,
+        0.40758472708847954,
+        0.43624975741139393,
+        0.4544874672639223,
+        0.5217351889572481,
+        0.4709645839494764,
+        0.41946329959056866,
+        0.5030042154385005,
+        0.5167837876961909,
+        0.4130441648163567,
+        0.5136704767444296,
+        0.514994272238338,
+        0.38830257175089855,
+        0.42117478845707734,
+        0.40515571237298276,
+        0.5099814975534451,
+        0.4229314787204752,
+        0.4717858804011626,
+        0.47760988288004047,
+        0.5221951177628191,
+        0.4892242433545052,
+        0.5209399852452603,
+        0.452069594189646,
+        0.5146186854081656,
+        0.4417550219936513,
+        0.5238733943347362,
+        0.4191163525474009,
+        0.5051850705049625,
+        0.5239684465576135,
+        0.48870287091830533,
+        0.4296297625853781,
+        0.4702350116960129,
+        0.5237807693192067,
+        0.49604919112907997,
+        0.4343499112689685,
+        0.4243964320042001,
+        0.4548923567397435,
+        0.48821576171999115,
+        0.521083113761464,
+        0.44694424420160395,
+        0.4835392837438235,
+        0.4772538557378508,
+        0.4549510248911881,
+        0.5195623947282838,
+        0.48828817203261543,
+        0.5097553705389979,
+        0.47234412975507933,
+        0.4170499171580644,
+        0.3820056110765873,
+        0.4631816029789213,
+        0.4326213797991386,
+        0.46234502944602957,
+        0.47874686063355654,
+        0.5176026601975741,
+        0.5239653082148787,
+        0.5144295768510767,
+        0.46318037622995434,
+        0.5231079381174002,
+        0.5098703656541674,
+        0.5229138780243893,
+        0.3929339143565922,
+        0.4656601271447973,
+        0.43051961087561064,
+        0.5158851188808888,
+        0.5239660147843705,
+        0.4324198551529707,
+        0.46071990499292603,
+        0.4439290950847786,
+        0.346116570824605,
+        0.524,
+        0.524,
+        0.346116570824605,
+        0.524,
+        0.524,
+        0.4359183588453086,
+        0.43591835884530855,
+        0.4359183588453086,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.4359183588453086,
+        0.43591835884530855,
+        0.4359183588453086
+      ],
+      "centerline_length_mm": 3.2672563597333846,
+      "volume_sum_upper_mm3": 0.005057168547533469,
+      "cap_count": 4,
+      "scope": "Volume is union upper bound (sum before intersections). Width range is sampled, not a proven extremum."
+    },
+    {
+      "model": "C3",
+      "width_min_sample_mm": 0.4096648069074257,
+      "width_max_sample_mm": 0.524,
+      "width_ratio_sample": 1.2790944966830196,
+      "widths_mm": [
+        0.5186294657457151,
+        0.4988313968357037,
+        0.4917970238016496,
+        0.4789393991837014,
+        0.4935452193063099,
+        0.47715624987109806,
+        0.45611545448357316,
+        0.5052768620390202,
+        0.49012454971848907,
+        0.4936861503793615,
+        0.4915140586666059,
+        0.5197488404507478,
+        0.5230704635269897,
+        0.487947420611734,
+        0.50786370938053,
+        0.4768667474739413,
+        0.4881261974213381,
+        0.5078959286666233,
+        0.4881869763136861,
+        0.5060814731698435,
+        0.5022373108715639,
+        0.5023692452039634,
+        0.43862134797353836,
+        0.5216838426628205,
+        0.479997654447778,
+        0.4554592278737457,
+        0.5200478519054663,
+        0.514007616767751,
+        0.49099681275609874,
+        0.514427135515181,
+        0.4560453028358479,
+        0.521998617953024,
+        0.46800504863801257,
+        0.5231265425267573,
+        0.48635352195526727,
+        0.44457792834772886,
+        0.5144016428473368,
+        0.5072198399983838,
+        0.5159456360505212,
+        0.5100307993785497,
+        0.4755446167329498,
+        0.4814259942726341,
+        0.5052703019252892,
+        0.487756119689067,
+        0.5150472976295222,
+        0.48533488308555073,
+        0.466549297523542,
+        0.5045479562737322,
+        0.5212221291318644,
+        0.5047212723760601,
+        0.4993416198411457,
+        0.47736294728390427,
+        0.4300191286561628,
+        0.5076799720034868,
+        0.4532553827331183,
+        0.4865381303415759,
+        0.5227822831597833,
+        0.5109283236014444,
+        0.47627125898701983,
+        0.4729782011670569,
+        0.4799145124029569,
+        0.4858497672396202,
+        0.4971013538633496,
+        0.5199718423383155,
+        0.4883833608167274,
+        0.5200792535506852,
+        0.49443745690098023,
+        0.4716326633408646,
+        0.4573219670487802,
+        0.5230695655658184,
+        0.5183895526723531,
+        0.45930245430638716,
+        0.523843606819804,
+        0.5169116565020045,
+        0.4514659881624253,
+        0.506194556394471,
+        0.5111899231892914,
+        0.5176642536011103,
+        0.5185401671159221,
+        0.47938303150816863,
+        0.48390110845820156,
+        0.48339918126356235,
+        0.4975207635155917,
+        0.5040221829326988,
+        0.4964717779683461,
+        0.5107152371700687,
+        0.47206343409871065,
+        0.5135451392554438,
+        0.5004851050257964,
+        0.46760743370778046,
+        0.5175092133092861,
+        0.4452987684718679,
+        0.44474597527212956,
+        0.46337299686566114,
+        0.48498577654574837,
+        0.473554504270046,
+        0.46223938566801837,
+        0.4945361419134654,
+        0.48757063692555713,
+        0.5187805315570141,
+        0.4388774787551928,
+        0.4990777807403868,
+        0.4798334564201724,
+        0.49543800381708675,
+        0.4926255465663947,
+        0.5225963509960547,
+        0.4648466761458627,
+        0.4703663508047913,
+        0.5113634772491269,
+        0.5134434976261785,
+        0.4552225492440211,
+        0.5188558374890435,
+        0.5118768917657612,
+        0.5205824432975719,
+        0.46559386496052524,
+        0.46329550563776495,
+        0.48252090360417443,
+        0.48620802235243965,
+        0.48511119329076824,
+        0.4411199156696072,
+        0.4626187369949682,
+        0.5237458902023199,
+        0.4837837762082078,
+        0.4974253258203344,
+        0.4450220577098446,
+        0.5106478277504095,
+        0.5238638412497264,
+        0.5097761983873585,
+        0.47349390219352294,
+        0.5003151044005423,
+        0.511275383597684,
+        0.4621726128774268,
+        0.47291058906219174,
+        0.5035644067128249,
+        0.5017835914987272,
+        0.47673978489109514,
+        0.504801295031569,
+        0.47163759401282246,
+        0.47451869018631654,
+        0.48676235219026126,
+        0.4509022415655761,
+        0.49621525903631547,
+        0.5026504364921034,
+        0.501649973821541,
+        0.46557836492216637,
+        0.4454358156600403,
+        0.4505615470940746,
+        0.4960586479461129,
+        0.4732985657860947,
+        0.4886419671000489,
+        0.5133843548936851,
+        0.4898457704574111,
+        0.4831764924295626,
+        0.470422676416125,
+        0.4725499616819518,
+        0.4764563455552062,
+        0.5142206460908237,
+        0.4656197608153543,
+        0.4953095163340616,
+        0.4930262646019794,
+        0.500970667082332,
+        0.43949842345252305,
+        0.48541315379257244,
+        0.47643797019830225,
+        0.4632832850005723,
+        0.5135175605858171,
+        0.5148650544950073,
+        0.48064335345025416,
+        0.5238344009970045,
+        0.5058126382033985,
+        0.49641544473503474,
+        0.43928867266657134,
+        0.46793974912528213,
+        0.48978725198853224,
+        0.4668702976969755,
+        0.5085341049126229,
+        0.4514361833999107,
+        0.4907060712289623,
+        0.47178472725570786,
+        0.49573437740966586,
+        0.47037388673185765,
+        0.5045087330964276,
+        0.5014968560051224,
+        0.467438977158782,
+        0.4893537903183078,
+        0.4982263098067242,
+        0.5228162073839261,
+        0.47526217411981,
+        0.5110110919906061,
+        0.5082102893263591,
+        0.48233738082281385,
+        0.48773155198235185,
+        0.5113975127605581,
+        0.45494329420439905,
+        0.508331073655852,
+        0.5030042154385005,
+        0.4771618748289162,
+        0.4724974307148614,
+        0.4777068461550014,
+        0.5147579660244823,
+        0.5158054073310279,
+        0.5063178509880235,
+        0.5138133215740988,
+        0.5099814975534451,
+        0.49737445400618285,
+        0.4853058479577083,
+        0.46001479584183036,
+        0.5221951177628191,
+        0.4923668979288433,
+        0.5125126791010821,
+        0.452069594189646,
+        0.5032558901896006,
+        0.4994868284906884,
+        0.5188647875654944,
+        0.4725731012680501,
+        0.47018045979257284,
+        0.5239684465576135,
+        0.4748392101119223,
+        0.4447579735469248,
+        0.4784006544871805,
+        0.5237039054457865,
+        0.4951877068982816,
+        0.4402359370308423,
+        0.5037389976316212,
+        0.45776816092607786,
+        0.47154543028795326,
+        0.5050885446757611,
+        0.517217606869746,
+        0.4835392837438235,
+        0.4757987814563446,
+        0.4549510248911881,
+        0.5185882217287259,
+        0.48828817203261543,
+        0.4686709948815797,
+        0.49343134460873905,
+        0.49175485364225685,
+        0.5161520029083597,
+        0.4829218215521474,
+        0.44864555317632404,
+        0.504006750213448,
+        0.47874686063355654,
+        0.49101354158480903,
+        0.5034881715442856,
+        0.5144295768510767,
+        0.44752022611375564,
+        0.5096116126434389,
+        0.5098703656541674,
+        0.5192268085122899,
+        0.5119270698174119,
+        0.4681147696872221,
+        0.4619873717816856,
+        0.4961293236358671,
+        0.5201046604897206,
+        0.4611032111336731,
+        0.44883290317055013,
+        0.4963859547847061,
+        0.524,
+        0.524,
+        0.524,
+        0.524,
+        0.524,
+        0.524,
+        0.4096648069074257,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.4096648069074257
+      ],
+      "centerline_length_mm": 2.6389378290154255,
+      "volume_sum_upper_mm3": 0.004146393079608584,
+      "cap_count": 6,
+      "scope": "Volume is union upper bound (sum before intersections). Width range is sampled, not a proven extremum."
+    },
+    {
+      "model": "S3",
+      "width_min_sample_mm": 0.43591835884530855,
+      "width_max_sample_mm": 0.524,
+      "width_ratio_sample": 1.202059948537172,
+      "widths_mm": [
+        0.5186707101565324,
+        0.5208036650130742,
+        0.517594359103607,
+        0.5191655396499719,
+        0.5239728862354562,
+        0.5012850795823067,
+        0.4803654839869799,
+        0.5127834858432804,
+        0.5106198253935215,
+        0.5016268206262562,
+        0.5223086142020998,
+        0.5233179151696639,
+        0.5230704635269897,
+        0.516138701085589,
+        0.5181439388078488,
+        0.5239473449840875,
+        0.5157823714758263,
+        0.5091838279214282,
+        0.5177226483995006,
+        0.5104519847670568,
+        0.517975089083419,
+        0.5179977503071023,
+        0.47021252130608704,
+        0.5218039225148053,
+        0.5205978170089989,
+        0.48281051097119426,
+        0.5200718581689135,
+        0.514007616767751,
+        0.49407528319452715,
+        0.5234047029316169,
+        0.4687641103444171,
+        0.523040138991187,
+        0.4930684479319838,
+        0.5238962629559865,
+        0.5078582259469395,
+        0.4677458397737785,
+        0.5202698246284627,
+        0.5133826941646188,
+        0.5231468363226093,
+        0.5212942353692723,
+        0.4793389044637327,
+        0.4887470818124279,
+        0.5233108843800336,
+        0.523180883029069,
+        0.5150472976295222,
+        0.501695891638549,
+        0.5046861166146421,
+        0.5239746866574024,
+        0.5212221291318644,
+        0.5194908726866715,
+        0.5129198073798293,
+        0.5150084145820644,
+        0.4513340461289415,
+        0.5178793132688163,
+        0.4791010860003143,
+        0.50538177798728,
+        0.5234890692954026,
+        0.5172313396601077,
+        0.5192018023008833,
+        0.5134255450110103,
+        0.5184046708789123,
+        0.5230313542366751,
+        0.5010357080132302,
+        0.5225395119898256,
+        0.4935633769228176,
+        0.5239835959919629,
+        0.5026725216117691,
+        0.5095795493726262,
+        0.48811572874591774,
+        0.5238135401022558,
+        0.5216606756738268,
+        0.4737901118548788,
+        0.523843606819804,
+        0.5234714246092336,
+        0.4739402504892411,
+        0.5232862100765001,
+        0.5130889362019713,
+        0.5201378450407634,
+        0.5239564587249863,
+        0.5232356493519753,
+        0.5077910012123196,
+        0.503551856960671,
+        0.5073744024035767,
+        0.517587972064798,
+        0.5062940888182843,
+        0.5133555481819325,
+        0.5133947270361383,
+        0.5213647479429512,
+        0.5131600965702785,
+        0.5106507257522188,
+        0.5182394386267363,
+        0.4464597179947851,
+        0.4494665164005884,
+        0.4826167518515936,
+        0.4911726461347306,
+        0.49188764966126053,
+        0.4846157999733897,
+        0.5077135050248477,
+        0.5234348658702459,
+        0.5208103964303246,
+        0.44776421293323165,
+        0.5237811842865828,
+        0.5221278835378029,
+        0.5147193845942888,
+        0.5237304078466171,
+        0.5234933746759449,
+        0.4998705675085654,
+        0.5097203556310156,
+        0.5113634772491269,
+        0.5202907444614071,
+        0.47909286738444357,
+        0.5196459809281042,
+        0.5211030826297786,
+        0.5238226397366074,
+        0.5021890499904536,
+        0.47708568215412983,
+        0.5043132032379207,
+        0.5046069431979616,
+        0.5042437395691729,
+        0.47125955660191177,
+        0.49882848842680105,
+        0.5237458902023199,
+        0.5231717369882307,
+        0.521575179410426,
+        0.4748225448929462,
+        0.517425541847383,
+        0.5239381887257571,
+        0.5192459785654872,
+        0.5077169164190419,
+        0.5232526683444062,
+        0.5195279859847615,
+        0.47918643990074417,
+        0.4940029862240427,
+        0.5056254518835873,
+        0.503031911692691,
+        0.5163699034555925,
+        0.5204273605847527,
+        0.5013022401229656,
+        0.5167234632942219,
+        0.518518350409536,
+        0.4835648594204423,
+        0.5085658803910422,
+        0.5170139016997604,
+        0.5078445980344442,
+        0.5033818823286444,
+        0.47205345420651385,
+        0.46201587501493835,
+        0.5147964950627382,
+        0.5181933684151002,
+        0.505818274489834,
+        0.5193659336836823,
+        0.5238495833752598,
+        0.5167791454582481,
+        0.510320896947742,
+        0.5042881144249981,
+        0.5226962439469859,
+        0.5142286743431717,
+        0.5076159756429021,
+        0.5237769464465794,
+        0.5185415270295091,
+        0.5230387186164551,
+        0.44786686163715306,
+        0.4950122711167588,
+        0.5229285774163507,
+        0.47771447124255856,
+        0.5166535780667072,
+        0.5172323354769153,
+        0.4892113705839598,
+        0.5238344009970045,
+        0.5100806281675117,
+        0.5239777519545662,
+        0.46023001811414255,
+        0.4946423652549095,
+        0.5036153000009108,
+        0.5111040735047948,
+        0.51616648850237,
+        0.48596366587611983,
+        0.5124043246668897,
+        0.5113193413519697,
+        0.5109073482212454,
+        0.5094048054182422,
+        0.5204510404742358,
+        0.5135303582403697,
+        0.491475846203168,
+        0.5023119757475377,
+        0.5066999533475975,
+        0.5228162073839261,
+        0.5210292335367254,
+        0.5160105542385376,
+        0.5149252723434972,
+        0.5020894388218797,
+        0.5203522039105517,
+        0.5217351889572481,
+        0.4935641173665891,
+        0.5212450547918219,
+        0.5236503311296086,
+        0.5167837876961909,
+        0.47419497985421755,
+        0.5136704767444296,
+        0.514994272238338,
+        0.5177689221466607,
+        0.5088783354300267,
+        0.5216199889123593,
+        0.5113920709182829,
+        0.5094304964697823,
+        0.5101091647785762,
+        0.47760988288004047,
+        0.5221951177628191,
+        0.5228931926236038,
+        0.5209399852452603,
+        0.47648290153364303,
+        0.5146186854081656,
+        0.5239445614626685,
+        0.5238733943347362,
+        0.4785535189944121,
+        0.5051850705049625,
+        0.523994627221419,
+        0.5018648097329456,
+        0.4674739531218339,
+        0.5239781460875848,
+        0.5237807693192067,
+        0.4977942864188667,
+        0.4679931287808452,
+        0.5072347674405386,
+        0.4955855534455767,
+        0.48821576171999115,
+        0.521083113761464,
+        0.5233118980538953,
+        0.5001730682989447,
+        0.5075845503402716,
+        0.46866081479134314,
+        0.5195623947282838,
+        0.5229699690293476,
+        0.5097553705389979,
+        0.515276021986071,
+        0.49996879340708855,
+        0.5161520029083597,
+        0.522392072511866,
+        0.46842176773134236,
+        0.518131909275647,
+        0.5023902021553868,
+        0.5176026601975741,
+        0.5239653082148787,
+        0.5238236781163954,
+        0.46318037622995434,
+        0.5239994942087405,
+        0.51357092861792,
+        0.5229138780243893,
+        0.5136409936243955,
+        0.5111683371026314,
+        0.48206261114986704,
+        0.5158851188808888,
+        0.5239660147843705,
+        0.477448131357853,
+        0.462581240471327,
+        0.5219227343466267,
+        0.524,
+        0.524,
+        0.524,
+        0.524,
+        0.524,
+        0.524,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855,
+        0.43591835884530855
+      ],
+      "centerline_length_mm": 4.523893421169302,
+      "volume_sum_upper_mm3": 0.006878719483383237,
+      "cap_count": 0,
+      "scope": "Volume is union upper bound (sum before intersections). Width range is sampled, not a proven extremum."
+    }
+  ],
+  "directions": [
+    [
+      -0.9502640682960055,
+      -0.1486004868272648,
+      -0.27370804851195873
+    ],
+    [
+      0.11521163026664588,
+      0.8943999196600946,
+      -0.4321748071826006
+    ],
+    [
+      -0.7333012682211495,
+      0.16282530240297508,
+      0.6601190581422669
+    ],
+    [
+      0.6516554261801963,
+      0.14157027862414412,
+      0.7451865952499339
+    ],
+    [
+      0.6967009842433483,
+      -0.7172829063390537,
+      -0.010628773595782015
+    ],
+    [
+      -0.3039836492156543,
+      -0.6320057614154925,
+      0.7128552858379865
+    ],
+    [
+      0.6114840474246189,
+      -0.6727113343218096,
+      -0.41658939067165013
+    ],
+    [
+      -0.3260438025247479,
+      0.2149172503124656,
+      -0.9206008985186428
+    ],
+    [
+      -0.2344646916319104,
+      -0.6143484503454967,
+      -0.7533938478220008
+    ],
+    [
+      0.3017432931247437,
+      -0.869430129886831,
+      0.39120612763504004
+    ],
+    [
+      -0.08387505123121985,
+      -0.8641044725835817,
+      0.49627455731883985
+    ],
+    [
+      0.17977451194512076,
+      -0.05329165841668925,
+      -0.9822632661349465
+    ],
+    [
+      0.13071714041622653,
+      0.9894663767551829,
+      -0.06220384612204527
+    ],
+    [
+      0.7160003106257522,
+      0.18024201199278972,
+      0.6744304058215479
+    ],
+    [
+      0.1557286481565925,
+      -0.9320453538554888,
+      -0.327169751810459
+    ],
+    [
+      -0.803584654079709,
+      0.5950061511124053,
+      -0.014811612538706387
+    ],
+    [
+      -0.8478575081700506,
+      0.4971826861664401,
+      -0.18424717749804237
+    ],
+    [
+      -0.2667464978464452,
+      -0.24653859147185553,
+      0.9317000744884215
+    ],
+    [
+      0.7109005237946002,
+      -0.1611974019696039,
+      0.6845698232224475
+    ],
+    [
+      0.2359097519267454,
+      -0.4276670785698039,
+      -0.8726095683943829
+    ],
+    [
+      -0.9082430705240354,
+      -0.38748971534256976,
+      -0.15794380440146022
+    ],
+    [
+      0.799672407026672,
+      0.1576483635403019,
+      -0.5793712410132498
+    ],
+    [
+      -0.6003761155414743,
+      0.45995398453565706,
+      0.6542100977492652
+    ],
+    [
+      0.09554784535974517,
+      0.28798701929786374,
+      -0.9528557529673848
+    ],
+    [
+      -0.7486749723908561,
+      0.6521964898045639,
+      -0.11885084939602103
+    ],
+    [
+      -0.6900004333327929,
+      -0.5997000362729429,
+      0.40528911716796623
+    ],
+    [
+      0.12767257281400926,
+      0.27028075346535996,
+      -0.9542788001717573
+    ],
+    [
+      -0.21605229961617817,
+      0.9550496534463606,
+      -0.20298168213547643
+    ],
+    [
+      0.3886609859706591,
+      -0.8533129481976228,
+      0.3475624410413124
+    ],
+    [
+      0.049788214971369704,
+      -0.9600631423902143,
+      -0.27531780958338314
+    ],
+    [
+      -0.4657331183353748,
+      0.6893478931756752,
+      -0.5548802975956761
+    ],
+    [
+      0.0632093507974166,
+      0.3469790251822801,
+      -0.9357404202316603
+    ],
+    [
+      0.6916376832784168,
+      -0.35316973089332965,
+      0.6300067112737748
+    ],
+    [
+      -0.33522318460403006,
+      0.9419093510141497,
+      0.020789203352597978
+    ],
+    [
+      0.7417124133938364,
+      -0.2571507392500858,
+      -0.6194644405618654
+    ],
+    [
+      -0.5529965484458712,
+      -0.46974183620803167,
+      -0.6881405559352388
+    ],
+    [
+      0.12442670875786457,
+      -0.4619347649999121,
+      -0.8781425095234607
+    ],
+    [
+      -0.862137052291065,
+      -0.20916382819666707,
+      0.461486940271324
+    ],
+    [
+      -0.05959605203830659,
+      -0.9663816959289298,
+      0.2501094327588871
+    ],
+    [
+      -0.3199571721373051,
+      0.10602944598994402,
+      0.9414803049352466
+    ],
+    [
+      0.7853097454331832,
+      0.42122526231929536,
+      -0.4537156401444739
+    ],
+    [
+      -0.8044922311150371,
+      -0.3761558184272484,
+      0.4596727644084174
+    ],
+    [
+      0.053565417674240806,
+      0.9218402962090985,
+      -0.38385051037416296
+    ],
+    [
+      0.7247875766826988,
+      -0.6864931852744453,
+      -0.05839584966559963
+    ],
+    [
+      -0.19223696174637497,
+      -0.22391260538870664,
+      -0.9554622418947617
+    ],
+    [
+      0.7635565577941077,
+      0.30128825524443575,
+      0.5711451394360084
+    ],
+    [
+      -0.5939939209746268,
+      -0.2808121743274721,
+      -0.7538671929422758
+    ],
+    [
+      -0.7856831099007837,
+      0.010269833480801405,
+      -0.6185439202974268
+    ],
+    [
+      -0.10742890629715782,
+      -0.24869405283470458,
+      0.9626059932165629
+    ],
+    [
+      -0.13674714969587753,
+      -0.5724584085301172,
+      -0.8084501144493822
+    ],
+    [
+      -0.8952050022065579,
+      0.39111813250973126,
+      -0.21362258880197432
+    ],
+    [
+      0.6585780128484219,
+      0.19265002938828793,
+      -0.7274345105707563
+    ],
+    [
+      0.5290148029470341,
+      0.5617230362717309,
+      0.6360900634222943
+    ],
+    [
+      -0.15918625064775926,
+      0.5212952112420912,
+      -0.838397900963959
+    ],
+    [
+      -0.6206640816802903,
+      0.6606412865630416,
+      0.42229040742158863
+    ],
+    [
+      0.4673789929837513,
+      0.2758104766248788,
+      0.8399318174122541
+    ],
+    [
+      0.9422150546110282,
+      -0.04612748535858413,
+      -0.3318177902988797
+    ],
+    [
+      0.8684334207724558,
+      -0.16734366620627245,
+      0.4667113573356605
+    ],
+    [
+      0.14104100642989667,
+      0.7987700663420514,
+      -0.5848707683079717
+    ],
+    [
+      -0.7396438914769425,
+      -0.6398062289690518,
+      -0.20874602552682614
+    ],
+    [
+      -0.7356181302434798,
+      -0.6600666475958403,
+      -0.15224318437511636
+    ],
+    [
+      0.06349765067617977,
+      -0.7340619770696051,
+      -0.6761072859977688
+    ],
+    [
+      -0.884454457636729,
+      0.3526253616746581,
+      0.3056070461725916
+    ],
+    [
+      -0.3959620937485556,
+      -0.9149524094329695,
+      -0.0779493988884063
+    ],
+    [
+      0.832088502679879,
+      0.35042614266909333,
+      -0.4299188786759858
+    ],
+    [
+      0.008267337271210267,
+      0.983662990078042,
+      -0.1798298448121718
+    ],
+    [
+      -0.8241835879060524,
+      0.29477155348273787,
+      0.4835609006978128
+    ],
+    [
+      0.5838724999463297,
+      -0.24327485033135435,
+      0.7745387343462432
+    ],
+    [
+      0.60406670189682,
+      0.37937963044310846,
+      -0.7008384376333457
+    ],
+    [
+      0.027870510237354457,
+      -0.33389821803075675,
+      0.9421970147771619
+    ],
+    [
+      0.9055714268191549,
+      0.09860746822645577,
+      -0.41257357906037634
+    ],
+    [
+      0.528308203149737,
+      0.7229277682766193,
+      0.4452705743020561
+    ],
+    [
+      0.983246536938066,
+      0.02552512669340201,
+      -0.18048466834217936
+    ],
+    [
+      0.8783964204599425,
+      0.046916786152526146,
+      0.47562437248345235
+    ],
+    [
+      -0.6675360475617869,
+      -0.44464103132924016,
+      0.5972352789848047
+    ],
+    [
+      -0.5977171770246431,
+      0.7998514005506567,
+      0.05451525774353789
+    ],
+    [
+      -0.2120048349826081,
+      -0.9458885381284796,
+      0.2456599751305965
+    ],
+    [
+      0.39183175150828803,
+      0.911284975629922,
+      -0.1266000462129465
+    ],
+    [
+      0.4569967921128525,
+      -0.889366357722071,
+      -0.01346899219463149
+    ],
+    [
+      0.05641151157325633,
+      -0.8137353654224563,
+      -0.578491569880497
+    ],
+    [
+      0.2576764766964238,
+      0.6369044301897783,
+      0.7266055189454252
+    ],
+    [
+      0.48260268251985033,
+      0.28876601359515097,
+      0.8268668817996098
+    ],
+    [
+      0.8867180491999191,
+      -0.3816509874683338,
+      -0.2609092274863722
+    ],
+    [
+      0.3672621137817798,
+      -0.16290591284243744,
+      -0.9157402488377974
+    ],
+    [
+      -0.26909841307357485,
+      0.8820508951693222,
+      -0.3867457335411487
+    ],
+    [
+      0.89602274488498,
+      0.20942805495751504,
+      -0.3915138955969483
+    ],
+    [
+      0.743863990093961,
+      0.6347959402908683,
+      0.20904659392519087
+    ],
+    [
+      -0.10464260897719033,
+      0.49283833546332345,
+      0.8638057070222374
+    ],
+    [
+      0.900131676907959,
+      0.3809287305964853,
+      0.21132029347181924
+    ],
+    [
+      0.23419761949683432,
+      0.7486619464759648,
+      0.6202070339175747
+    ],
+    [
+      -0.3297639506509469,
+      0.9313417342017082,
+      0.15446135757928195
+    ],
+    [
+      -0.5523377002331614,
+      -0.5449666122528094,
+      0.6308204629138456
+    ],
+    [
+      0.5650553665999687,
+      -0.5352054709845098,
+      0.627907267440682
+    ],
+    [
+      -0.5773099774986772,
+      0.7083191602543578,
+      0.40619842084508195
+    ],
+    [
+      0.3634603213006824,
+      0.44466936716251704,
+      -0.8186365180880286
+    ],
+    [
+      0.7775784635661616,
+      -0.5157964529839228,
+      -0.35961889840119887
+    ],
+    [
+      -0.6028018870096103,
+      0.6922870231758751,
+      0.3966970664876896
+    ],
+    [
+      -0.5459336576319211,
+      -0.7970240297895554,
+      0.2582811208792669
+    ],
+    [
+      0.04851122919024768,
+      -0.7274648426672304,
+      0.684427909516841
+    ],
+    [
+      0.3798533375623951,
+      0.9178592393133584,
+      -0.11509065448511496
+    ],
+    [
+      0.5944299655504699,
+      -0.5951715240077102,
+      0.5407623073643415
+    ],
+    [
+      -0.8961048264493277,
+      0.44281442579127356,
+      0.030191461133321204
+    ],
+    [
+      -0.6455210542281731,
+      -0.08823419612930905,
+      -0.7586285620654968
+    ],
+    [
+      -0.6085135684188762,
+      -0.7690356516747232,
+      0.19569211405511333
+    ],
+    [
+      -0.7005620885241258,
+      -0.7128041631014097,
+      0.033510971158919635
+    ],
+    [
+      0.9389515269245721,
+      -0.04593282959411832,
+      -0.3409695078031059
+    ],
+    [
+      -0.7482657590595854,
+      0.584881261099546,
+      -0.3130691045657288
+    ],
+    [
+      -0.7300164118008099,
+      0.6391107405719998,
+      0.24210225068549046
+    ],
+    [
+      0.241982098910392,
+      0.9431254151191697,
+      -0.2279454214570138
+    ],
+    [
+      0.9557214509348964,
+      -0.2668351417197198,
+      -0.12407866604019221
+    ],
+    [
+      -0.5905735539729053,
+      0.4223271586753412,
+      -0.6876500915385851
+    ],
+    [
+      0.9784513820215187,
+      0.1567591388897911,
+      0.13438551035997498
+    ],
+    [
+      0.852110047380581,
+      0.10969988544277143,
+      -0.5117366532572261
+    ],
+    [
+      0.41338570822199383,
+      -0.910150202807749,
+      -0.027182063328850536
+    ],
+    [
+      -0.2980171339107275,
+      0.7075035314616429,
+      0.6407999226474199
+    ],
+    [
+      0.4877426247785431,
+      0.43118856201397926,
+      0.7590675569160187
+    ],
+    [
+      -0.2834539795592425,
+      0.8206085099317891,
+      -0.49624138773338633
+    ],
+    [
+      -0.2813753106474858,
+      -0.5915501422159684,
+      -0.7555768417588633
+    ],
+    [
+      0.8340519226711754,
+      -0.47300495933822223,
+      0.283943125872
+    ],
+    [
+      0.4557182560233831,
+      0.6694030303138265,
+      0.586703037433481
+    ],
+    [
+      0.6043942378896053,
+      0.31957984376755766,
+      -0.72977827363066
+    ],
+    [
+      0.9702245728120471,
+      0.0325347593223707,
+      0.24001201583986495
+    ],
+    [
+      -0.05872068091119659,
+      -0.8320885561009079,
+      -0.5515256262760886
+    ],
+    [
+      0.7510022250588307,
+      -0.10038874117016572,
+      -0.6526237496467281
+    ],
+    [
+      0.4409188579410541,
+      0.6401403794099775,
+      0.6291350056711248
+    ],
+    [
+      0.1649423342849683,
+      0.943757508030088,
+      0.2865585322363726
+    ],
+    [
+      -0.2827449963962335,
+      -0.9590608617911032,
+      0.016047753531270414
+    ],
+    [
+      0.14039348005478813,
+      0.9402143285908371,
+      0.3103009620845334
+    ],
+    [
+      0.6646773251442573,
+      0.2582545362589597,
+      0.7010767774935531
+    ],
+    [
+      -0.6454346567307253,
+      0.7617759815442481,
+      0.05578044310677795
+    ],
+    [
+      -0.1361858689744203,
+      -0.4974357277500038,
+      -0.8567444810732696
+    ],
+    [
+      -0.7163072726666064,
+      -0.4219084993207822,
+      -0.5557851287375486
+    ],
+    [
+      0.3479685115403819,
+      -0.6027042924931623,
+      0.7180984965773761
+    ],
+    [
+      -0.8874652240208264,
+      0.2740350983488371,
+      -0.37055396506663885
+    ],
+    [
+      0.34237791763738024,
+      0.892926971585474,
+      -0.29233334556544543
+    ],
+    [
+      -0.17759331356568134,
+      -0.7390254989516991,
+      -0.649847618196723
+    ],
+    [
+      -0.5815597831399952,
+      0.8043367573979798,
+      0.12178094815144663
+    ],
+    [
+      0.5590850534146048,
+      0.30387158330925007,
+      -0.7714181511382253
+    ],
+    [
+      -0.6360561077612068,
+      0.17346208223084164,
+      -0.7518932994832476
+    ],
+    [
+      0.6988505597747843,
+      -0.6992124907603036,
+      -0.1506976704108025
+    ],
+    [
+      -0.6995274876553909,
+      0.590997375919008,
+      -0.40172552280305
+    ],
+    [
+      -0.2515450759709036,
+      0.8811843866094381,
+      -0.4002988278155964
+    ],
+    [
+      0.37850839806851316,
+      -0.16999092090198004,
+      -0.9098540978654241
+    ],
+    [
+      0.4577199743945727,
+      0.8510646566024826,
+      -0.25725741062665297
+    ],
+    [
+      0.289937479702518,
+      0.7150205002113109,
+      -0.6361461641331486
+    ],
+    [
+      0.5683793447371894,
+      0.45247314387515214,
+      0.6871775422318889
+    ],
+    [
+      0.6602785949493722,
+      0.5678384230048883,
+      -0.4915197884226069
+    ],
+    [
+      -0.8814648482064131,
+      0.430162091786884,
+      0.1948853410751509
+    ],
+    [
+      0.15507403797288544,
+      0.7660136232050213,
+      -0.6238390592220879
+    ],
+    [
+      -0.8489201110053187,
+      -0.45278277733370254,
+      -0.27262135220979217
+    ],
+    [
+      -0.46312743349134894,
+      -0.8753842449450753,
+      -0.13861963803753347
+    ],
+    [
+      0.025032733309282684,
+      -0.8576388286940103,
+      0.5136428737746022
+    ],
+    [
+      -0.8270866382873723,
+      -0.5348524134179684,
+      -0.17280216615386526
+    ],
+    [
+      -0.23703189495676308,
+      -0.770153250005915,
+      0.5921822796053025
+    ],
+    [
+      -0.28363075473355864,
+      -0.7798551472786085,
+      -0.5580139283497603
+    ],
+    [
+      0.0736541877347559,
+      0.7773811842952217,
+      0.6247027732713307
+    ],
+    [
+      0.9441349314904721,
+      -0.2007472350182234,
+      0.2613613949534613
+    ],
+    [
+      -0.6093764729722356,
+      -0.25903992017835353,
+      -0.7493721598390956
+    ],
+    [
+      -0.47326331880127365,
+      -0.030482353330496946,
+      -0.8803934672705369
+    ],
+    [
+      -0.47066014069960593,
+      0.15038058091642276,
+      -0.8694048037823728
+    ],
+    [
+      -0.7668786257259879,
+      0.06325605435672593,
+      0.6386672412076881
+    ],
+    [
+      -0.5912057128501057,
+      0.5404295089363202,
+      -0.5986749961074425
+    ],
+    [
+      0.4217421778576,
+      0.3422500818096488,
+      0.8396418384747253
+    ],
+    [
+      -0.06677782835013998,
+      -0.801279221541653,
+      0.5945522102948083
+    ],
+    [
+      0.4284366639042207,
+      -0.5372204462408677,
+      0.7265233768870656
+    ],
+    [
+      0.17428668040046486,
+      0.40591158424379975,
+      0.8971398658022477
+    ],
+    [
+      0.9615864331593161,
+      0.21760450288457772,
+      -0.16733144321465487
+    ],
+    [
+      0.8231338861161941,
+      -0.4274936241134704,
+      0.37376437346219027
+    ],
+    [
+      0.9988330699650787,
+      0.026265506320029774,
+      -0.04052926747288263
+    ],
+    [
+      0.3022836610729833,
+      0.2390741695316112,
+      -0.9227503073481386
+    ],
+    [
+      -0.678510375110907,
+      -0.7345277209376649,
+      -0.00962798218611724
+    ],
+    [
+      0.6001423058068986,
+      -0.4980542523503749,
+      -0.6259162679596115
+    ],
+    [
+      0.5449368408989569,
+      0.3443584176125888,
+      0.7645005687705009
+    ],
+    [
+      -0.5489076601383077,
+      0.7845812082162926,
+      -0.28832743254042037
+    ],
+    [
+      0.7549597943848403,
+      -0.6140232009854293,
+      0.2302416502590406
+    ],
+    [
+      0.8552309730079548,
+      -0.1799258037588064,
+      -0.4860109957085485
+    ],
+    [
+      -0.390135070790467,
+      -0.6997625718717517,
+      0.5984371057569442
+    ],
+    [
+      -0.7490909714073624,
+      -0.2184759059917974,
+      0.6254046650425927
+    ],
+    [
+      -0.6410486825998569,
+      -0.2283378306883095,
+      0.7327471744152583
+    ],
+    [
+      -0.23196705810530044,
+      -0.8794241663629809,
+      -0.41569750969996044
+    ],
+    [
+      -0.6403494353910824,
+      0.24472177276655888,
+      -0.7280548430773017
+    ],
+    [
+      -0.37708156723672026,
+      -0.12137819023688806,
+      0.9181921512325819
+    ],
+    [
+      0.9045034819595149,
+      0.3724589861841199,
+      0.20772037630866053
+    ],
+    [
+      -0.5546440457696359,
+      0.3618370798158784,
+      -0.7492956093309289
+    ],
+    [
+      0.4341840651134886,
+      -0.29719560821387686,
+      0.8503875399251271
+    ],
+    [
+      0.2660536016975962,
+      -0.8897240479823456,
+      -0.37095363519669877
+    ],
+    [
+      -0.07018822494162225,
+      0.08334410911490969,
+      0.9940459609874113
+    ],
+    [
+      -0.7732925545055791,
+      -0.6242425301663126,
+      -0.11108505154968562
+    ],
+    [
+      0.8776183114969041,
+      0.1816929057817305,
+      0.44359191529367886
+    ],
+    [
+      0.9332602450613663,
+      -0.30260762480118,
+      -0.19353020539488558
+    ],
+    [
+      0.822784106163867,
+      -0.4835451980615313,
+      0.2986810273113463
+    ],
+    [
+      0.8475956453981941,
+      -0.5161784817990098,
+      0.12305038329760631
+    ],
+    [
+      -0.09702808764265085,
+      0.947251609573424,
+      -0.30545038610053726
+    ],
+    [
+      0.6133829742984098,
+      0.35042201972972153,
+      0.7077893294825652
+    ],
+    [
+      -0.9343470911438436,
+      0.3399257513195202,
+      -0.10698596571932995
+    ],
+    [
+      0.6281615169565835,
+      0.7771465020616383,
+      0.03816310978108902
+    ],
+    [
+      0.1727470313958792,
+      0.7394599030412826,
+      -0.650659292516512
+    ],
+    [
+      -0.7706245764750461,
+      0.4575839569249918,
+      0.4435703828002077
+    ],
+    [
+      -0.20634092350509445,
+      -0.7171119062874067,
+      -0.6657131042332776
+    ],
+    [
+      -0.19280004032628834,
+      0.2961574088439998,
+      0.9354779172364193
+    ],
+    [
+      -0.9655713881972203,
+      -0.20464014016937493,
+      -0.16060606254544435
+    ],
+    [
+      -0.8880870253503592,
+      -0.2490270411449067,
+      0.3863767179618402
+    ],
+    [
+      0.9573613784166543,
+      0.2712324898486669,
+      0.09945917537691601
+    ],
+    [
+      -0.3536841485200204,
+      0.9072289762024621,
+      0.22769081629328136
+    ],
+    [
+      0.8863305948354397,
+      0.3932341854329965,
+      0.24450961548680178
+    ],
+    [
+      -0.7253208475377331,
+      -0.23883257833659266,
+      -0.6456536746989361
+    ],
+    [
+      -0.4288958969290725,
+      -0.5591665966347239,
+      -0.7094935001854114
+    ],
+    [
+      -0.08663835043736917,
+      -0.1804257217911216,
+      0.9797654592552466
+    ],
+    [
+      -0.7146746706652212,
+      0.06787032093204226,
+      0.6961564009948759
+    ],
+    [
+      -0.11273606548553122,
+      0.5009744106036396,
+      0.8580881187029558
+    ],
+    [
+      -0.608580200433656,
+      -0.6644110418389781,
+      -0.43380653190399876
+    ],
+    [
+      -0.19674050680244926,
+      0.91213408658957,
+      -0.359589461837422
+    ],
+    [
+      0.8978486615326237,
+      0.4400418166698189,
+      0.015198044808520147
+    ],
+    [
+      0.20449770534444398,
+      -0.02296636747458533,
+      -0.9785975855651187
+    ],
+    [
+      0.7711748597395,
+      0.4742291983199819,
+      -0.4247305065174264
+    ],
+    [
+      0.27723469192513794,
+      -0.7025019232819257,
+      -0.655463174692804
+    ],
+    [
+      -0.2730548010329453,
+      -0.9619868445985774,
+      0.004731432355108039
+    ],
+    [
+      -0.5406021911626547,
+      0.30017223071297705,
+      -0.7859045125324907
+    ],
+    [
+      -0.6892187980163335,
+      -0.5507452065551998,
+      -0.4708048065997106
+    ],
+    [
+      -0.8099920500696312,
+      0.5863632175780531,
+      -0.0095423212851726
+    ],
+    [
+      -0.03022006894671475,
+      0.9987659173741823,
+      -0.039413065404295955
+    ],
+    [
+      0.35584755631554016,
+      0.325898501672415,
+      -0.875878235413995
+    ],
+    [
+      0.6691371368694654,
+      0.57663504935184,
+      0.46877234551660046
+    ],
+    [
+      0.8748863216992093,
+      -0.2619832068468295,
+      0.40735577010014123
+    ],
+    [
+      0.7200379216760556,
+      0.6055213628482162,
+      0.33895319807145263
+    ],
+    [
+      -0.3788709758181488,
+      0.5613248763895103,
+      -0.7357792921990296
+    ],
+    [
+      -0.1100761763473114,
+      -0.9207224304984608,
+      -0.3743707271913267
+    ],
+    [
+      0.8821003590394381,
+      -0.05352603468191103,
+      -0.46801059837756426
+    ],
+    [
+      -0.5721668035122341,
+      0.7588216793015402,
+      -0.31115078013815606
+    ],
+    [
+      0.6786240301763705,
+      0.2592839087519879,
+      -0.6871981376062303
+    ],
+    [
+      0.5613390845178047,
+      -0.6838203498126674,
+      0.4661417824812474
+    ],
+    [
+      -0.13566337655171695,
+      0.9773250821077418,
+      0.16257654242135477
+    ],
+    [
+      0.7204546236169591,
+      -0.6904041892076704,
+      0.06547664341919784
+    ],
+    [
+      -0.2418097171273845,
+      -0.7625366357545666,
+      -0.6000549473463924
+    ],
+    [
+      -0.7535984130294683,
+      -0.18978824892852383,
+      0.6293408078681308
+    ],
+    [
+      0.8642929064796342,
+      0.39417540504048576,
+      0.31244763060416264
+    ],
+    [
+      0.9669284344343073,
+      0.18009071486327832,
+      0.1806010440237077
+    ],
+    [
+      -0.8281624265414693,
+      0.5544894217977459,
+      -0.0817831057086178
+    ],
+    [
+      -0.6780196977189759,
+      0.46708576361526866,
+      -0.5675563222562229
+    ],
+    [
+      0.810338984692771,
+      0.1558875324451251,
+      -0.5648449407715884
+    ],
+    [
+      -0.6297119298331575,
+      0.7179476990601528,
+      0.29667151336121284
+    ],
+    [
+      -0.1627204734825025,
+      0.8606365114052895,
+      -0.48252133916103973
+    ],
+    [
+      -0.012022640353129749,
+      -0.6271125998337959,
+      -0.778835825606807
+    ],
+    [
+      -0.516144799065706,
+      -0.8560724308252566,
+      0.027102390639167355
+    ],
+    [
+      0.48719636281099066,
+      -0.5290726431603275,
+      -0.694781866720114
+    ],
+    [
+      0.3410381955632056,
+      0.0014517101883502748,
+      0.9400483188137309
+    ],
+    [
+      -0.41631355784043544,
+      -0.8852686767748079,
+      -0.20732195127294012
+    ],
+    [
+      -0.0672338320752493,
+      -0.9800710097323254,
+      0.18692358788215407
+    ],
+    [
+      0.9490431959984111,
+      0.23795007142039715,
+      0.20663198116494202
+    ],
+    [
+      -0.7603412266923099,
+      0.607561182500809,
+      -0.2296750498209416
+    ],
+    [
+      -0.7486932087577504,
+      0.5218743133973739,
+      -0.40878561640062977
+    ],
+    [
+      0.1831015886007844,
+      -0.8819723041502532,
+      0.4342794756418526
+    ],
+    [
+      0.17904865001154824,
+      -0.011899582014692586,
+      0.9837682556765683
+    ],
+    [
+      -0.7174214651261428,
+      0.42960494117165804,
+      -0.548403169116623
+    ],
+    [
+      0.5029960898534112,
+      -0.48942703677806987,
+      -0.7123595365142638
+    ],
+    [
+      -0.8843998043089277,
+      -0.4573843471553103,
+      -0.09293301413190308
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    [
+      -0.5773502691896258,
+      -0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      -0.5773502691896258,
+      -0.5773502691896258,
+      0.5773502691896258
+    ],
+    [
+      -0.5773502691896258,
+      0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      -0.5773502691896258,
+      0.5773502691896258,
+      0.5773502691896258
+    ],
+    [
+      0.5773502691896258,
+      -0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      0.5773502691896258,
+      -0.5773502691896258,
+      0.5773502691896258
+    ],
+    [
+      0.5773502691896258,
+      0.5773502691896258,
+      -0.5773502691896258
+    ],
+    [
+      0.5773502691896258,
+      0.5773502691896258,
+      0.5773502691896258
+    ]
+  ]
+}

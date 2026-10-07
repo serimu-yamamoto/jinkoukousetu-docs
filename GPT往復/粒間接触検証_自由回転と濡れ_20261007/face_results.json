@@ -1,0 +1,342 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "cases": [
+    {
+      "model": "R4",
+      "pose_id": 0,
+      "outward_radial_cosine": [
+        0.8695173021209248,
+        0.43553445099621446,
+        0.7324870116370149
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "R4",
+      "pose_id": 3,
+      "outward_radial_cosine": [
+        0.5703158109938709,
+        0.9773888004351524,
+        0.6560098187225426
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "R4",
+      "pose_id": 7,
+      "outward_radial_cosine": [
+        0.3276433099935815,
+        0.9682845568860299,
+        0.6952509073018301
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": false
+    },
+    {
+      "model": "C3",
+      "pose_id": 0,
+      "outward_radial_cosine": [
+        0.6192193603074635,
+        0.9819054377650042,
+        0.7500417600924796
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "C3",
+      "pose_id": 3,
+      "outward_radial_cosine": [
+        0.7092073095108499,
+        0.9773888004351524,
+        0.6561110022666656
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "C3",
+      "pose_id": 7,
+      "outward_radial_cosine": [
+        0.32777184418847216,
+        0.8730721303995954,
+        -0.6841484889131804
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.6
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.6
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.6
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "S3",
+      "pose_id": 0,
+      "outward_radial_cosine": [
+        0.8695173021209248,
+        0.9819509898996317,
+        0.7324706204982859
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "S3",
+      "pose_id": 3,
+      "outward_radial_cosine": [
+        0.7092016256622774,
+        0.9061255131199699,
+        0.6560287934926491
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    },
+    {
+      "model": "S3",
+      "pose_id": 7,
+      "outward_radial_cosine": [
+        0.32773167978294954,
+        0.592281061727318,
+        0.9999892786905769
+      ],
+      "friction_by_face": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "geometry_valid": true,
+      "inner": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": false,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "outer": {
+        "success": false,
+        "status": 2,
+        "edges": 16,
+        "outer_cone": true,
+        "mu_top": 0.1,
+        "mu_internal": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "classification": "infeasible_outer"
+    }
+  ],
+  "scope": "Radial sign classifies the representative patch only. It does not guarantee a patch is protected from a real ski or accessible in a bed. Friction values are assumed, not measured."
+}

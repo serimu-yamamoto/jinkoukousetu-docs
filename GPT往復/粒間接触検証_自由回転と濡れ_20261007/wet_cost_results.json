@@ -1,0 +1,362 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "wet_scope": "Illustrative equal-sphere contact bridge scale F=2*pi*r*gamma*cos(theta), bridge existence assumed; not full crossed-wire liquid bridge.",
+  "capillary": [
+    {
+      "T_C": 20,
+      "r_um": 11,
+      "contact_angle_deg": 0,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 5.027161136777954e-06,
+      "force_over_R4_weight": 112.21356728852469,
+      "force_over_0_9mN": 0.005585734596419949,
+      "equivalent_inertial_acceleration_g": 112.21356728852469
+    },
+    {
+      "T_C": 20,
+      "r_um": 11,
+      "contact_angle_deg": 30,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 4.353649253367566e-06,
+      "force_over_R4_weight": 97.17979992113688,
+      "force_over_0_9mN": 0.004837388059297295,
+      "equivalent_inertial_acceleration_g": 97.17979992113688
+    },
+    {
+      "T_C": 20,
+      "r_um": 11,
+      "contact_angle_deg": 60,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 2.5135805683889776e-06,
+      "force_over_R4_weight": 56.10678364426236,
+      "force_over_0_9mN": 0.002792867298209975,
+      "equivalent_inertial_acceleration_g": 56.10678364426236
+    },
+    {
+      "T_C": 20,
+      "r_um": 11,
+      "contact_angle_deg": 80,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 8.729573702395061e-07,
+      "force_over_R4_weight": 19.485681469157786,
+      "force_over_0_9mN": 0.0009699526335994512,
+      "equivalent_inertial_acceleration_g": 19.485681469157786
+    },
+    {
+      "T_C": 20,
+      "r_um": 11,
+      "contact_angle_deg": 89,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 8.77360593847655e-08,
+      "force_over_R4_weight": 1.9583967840968044,
+      "force_over_0_9mN": 9.748451042751722e-05,
+      "equivalent_inertial_acceleration_g": 1.9583967840968044
+    },
+    {
+      "T_C": 20,
+      "r_um": 22,
+      "contact_angle_deg": 0,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 1.0054322273555909e-05,
+      "force_over_R4_weight": 224.42713457704937,
+      "force_over_0_9mN": 0.011171469192839898,
+      "equivalent_inertial_acceleration_g": 224.42713457704937
+    },
+    {
+      "T_C": 20,
+      "r_um": 22,
+      "contact_angle_deg": 30,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 8.707298506735131e-06,
+      "force_over_R4_weight": 194.35959984227375,
+      "force_over_0_9mN": 0.00967477611859459,
+      "equivalent_inertial_acceleration_g": 194.35959984227375
+    },
+    {
+      "T_C": 20,
+      "r_um": 22,
+      "contact_angle_deg": 60,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 5.027161136777955e-06,
+      "force_over_R4_weight": 112.21356728852471,
+      "force_over_0_9mN": 0.00558573459641995,
+      "equivalent_inertial_acceleration_g": 112.21356728852471
+    },
+    {
+      "T_C": 20,
+      "r_um": 22,
+      "contact_angle_deg": 80,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 1.7459147404790122e-06,
+      "force_over_R4_weight": 38.97136293831557,
+      "force_over_0_9mN": 0.0019399052671989023,
+      "equivalent_inertial_acceleration_g": 38.97136293831557
+    },
+    {
+      "T_C": 20,
+      "r_um": 22,
+      "contact_angle_deg": 89,
+      "surface_tension_N_m": 0.07273614042160757,
+      "bridge_force_N": 1.75472118769531e-07,
+      "force_over_R4_weight": 3.916793568193609,
+      "force_over_0_9mN": 0.00019496902085503444,
+      "equivalent_inertial_acceleration_g": 3.916793568193609
+    },
+    {
+      "T_C": 30,
+      "r_um": 11,
+      "contact_angle_deg": 0,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 4.920586485336026e-06,
+      "force_over_R4_weight": 109.8346656588676,
+      "force_over_0_9mN": 0.005467318317040029,
+      "equivalent_inertial_acceleration_g": 109.8346656588676
+    },
+    {
+      "T_C": 30,
+      "r_um": 11,
+      "contact_angle_deg": 30,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 4.261352897819384e-06,
+      "force_over_R4_weight": 95.11961067674963,
+      "force_over_0_9mN": 0.004734836553132649,
+      "equivalent_inertial_acceleration_g": 95.11961067674963
+    },
+    {
+      "T_C": 30,
+      "r_um": 11,
+      "contact_angle_deg": 60,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 2.4602932426680136e-06,
+      "force_over_R4_weight": 54.91733282943381,
+      "force_over_0_9mN": 0.002733659158520015,
+      "equivalent_inertial_acceleration_g": 54.91733282943381
+    },
+    {
+      "T_C": 30,
+      "r_um": 11,
+      "contact_angle_deg": 80,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 8.54450876231127e-07,
+      "force_over_R4_weight": 19.07258953631894,
+      "force_over_0_9mN": 0.00094938986247903,
+      "equivalent_inertial_acceleration_g": 19.07258953631894
+    },
+    {
+      "T_C": 30,
+      "r_um": 11,
+      "contact_angle_deg": 89,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 8.587607525188914e-08,
+      "force_over_R4_weight": 1.9168792259817127,
+      "force_over_0_9mN": 9.541786139098793e-05,
+      "equivalent_inertial_acceleration_g": 1.9168792259817127
+    },
+    {
+      "T_C": 30,
+      "r_um": 22,
+      "contact_angle_deg": 0,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 9.841172970672053e-06,
+      "force_over_R4_weight": 219.6693313177352,
+      "force_over_0_9mN": 0.010934636634080059,
+      "equivalent_inertial_acceleration_g": 219.6693313177352
+    },
+    {
+      "T_C": 30,
+      "r_um": 22,
+      "contact_angle_deg": 30,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 8.522705795638768e-06,
+      "force_over_R4_weight": 190.23922135349926,
+      "force_over_0_9mN": 0.009469673106265298,
+      "equivalent_inertial_acceleration_g": 190.23922135349926
+    },
+    {
+      "T_C": 30,
+      "r_um": 22,
+      "contact_angle_deg": 60,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 4.920586485336027e-06,
+      "force_over_R4_weight": 109.83466565886762,
+      "force_over_0_9mN": 0.00546731831704003,
+      "equivalent_inertial_acceleration_g": 109.83466565886762
+    },
+    {
+      "T_C": 30,
+      "r_um": 22,
+      "contact_angle_deg": 80,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 1.708901752462254e-06,
+      "force_over_R4_weight": 38.14517907263788,
+      "force_over_0_9mN": 0.00189877972495806,
+      "equivalent_inertial_acceleration_g": 38.14517907263788
+    },
+    {
+      "T_C": 30,
+      "r_um": 22,
+      "contact_angle_deg": 89,
+      "surface_tension_N_m": 0.07119415109567315,
+      "bridge_force_N": 1.7175215050377827e-07,
+      "force_over_R4_weight": 3.8337584519634254,
+      "force_over_0_9mN": 0.00019083572278197586,
+      "equivalent_inertial_acceleration_g": 3.8337584519634254
+    },
+    {
+      "T_C": 50,
+      "r_um": 11,
+      "contact_angle_deg": 0,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 4.695945666997416e-06,
+      "force_over_R4_weight": 104.82035501742568,
+      "force_over_0_9mN": 0.005217717407774906,
+      "equivalent_inertial_acceleration_g": 104.82035501742568
+    },
+    {
+      "T_C": 50,
+      "r_um": 11,
+      "contact_angle_deg": 30,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 4.0668082424112224e-06,
+      "force_over_R4_weight": 90.7770902787943,
+      "force_over_0_9mN": 0.004518675824901359,
+      "equivalent_inertial_acceleration_g": 90.7770902787943
+    },
+    {
+      "T_C": 50,
+      "r_um": 11,
+      "contact_angle_deg": 60,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 2.3479728334987083e-06,
+      "force_over_R4_weight": 52.410177508712856,
+      "force_over_0_9mN": 0.002608858703887454,
+      "equivalent_inertial_acceleration_g": 52.410177508712856
+    },
+    {
+      "T_C": 50,
+      "r_um": 11,
+      "contact_angle_deg": 80,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 8.154424074970193e-07,
+      "force_over_R4_weight": 18.201863631176657,
+      "force_over_0_9mN": 0.0009060471194411325,
+      "equivalent_inertial_acceleration_g": 18.201863631176657
+    },
+    {
+      "T_C": 50,
+      "r_um": 11,
+      "contact_angle_deg": 89,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 8.195555238783972e-08,
+      "force_over_R4_weight": 1.8293674386644723,
+      "force_over_0_9mN": 9.106172487537747e-05,
+      "equivalent_inertial_acceleration_g": 1.8293674386644723
+    },
+    {
+      "T_C": 50,
+      "r_um": 22,
+      "contact_angle_deg": 0,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 9.391891333994831e-06,
+      "force_over_R4_weight": 209.64071003485137,
+      "force_over_0_9mN": 0.010435434815549812,
+      "equivalent_inertial_acceleration_g": 209.64071003485137
+    },
+    {
+      "T_C": 50,
+      "r_um": 22,
+      "contact_angle_deg": 30,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 8.133616484822445e-06,
+      "force_over_R4_weight": 181.5541805575886,
+      "force_over_0_9mN": 0.009037351649802718,
+      "equivalent_inertial_acceleration_g": 181.5541805575886
+    },
+    {
+      "T_C": 50,
+      "r_um": 22,
+      "contact_angle_deg": 60,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 4.6959456669974165e-06,
+      "force_over_R4_weight": 104.82035501742571,
+      "force_over_0_9mN": 0.005217717407774908,
+      "equivalent_inertial_acceleration_g": 104.82035501742571
+    },
+    {
+      "T_C": 50,
+      "r_um": 22,
+      "contact_angle_deg": 80,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 1.6308848149940386e-06,
+      "force_over_R4_weight": 36.403727262353314,
+      "force_over_0_9mN": 0.001812094238882265,
+      "equivalent_inertial_acceleration_g": 36.403727262353314
+    },
+    {
+      "T_C": 50,
+      "r_um": 22,
+      "contact_angle_deg": 89,
+      "surface_tension_N_m": 0.06794390594487329,
+      "bridge_force_N": 1.6391110477567945e-07,
+      "force_over_R4_weight": 3.6587348773289445,
+      "force_over_0_9mN": 0.00018212344975075494,
+      "equivalent_inertial_acceleration_g": 3.6587348773289445
+    }
+  ],
+  "R4_weight_N": 4.479994049072574e-08,
+  "cost": [
+    {
+      "model": "R4",
+      "volume_sum_upper_mm3": 0.005057168547533469,
+      "same_count_volume_ratio": 1.0,
+      "equal_volume_wire_diameter_um": 43.99999999968297,
+      "conditional_bulk_density_kg_m3": 131.20337003430396,
+      "conditional_pilot_mass_kg": 118083.03303087356,
+      "conditional_material_initial_JPY": 59041516.515436776,
+      "conditional_EAC_JPY": 16960347.122445714,
+      "conditional_price_cap_JPY_kg": 602.1895025263312,
+      "conditional_full_course_material_JPY": 590415165.1543678
+    },
+    {
+      "model": "C3",
+      "volume_sum_upper_mm3": 0.004146393079608584,
+      "same_count_volume_ratio": 0.8199040709511061,
+      "equal_volume_wire_diameter_um": 48.51250233974094,
+      "conditional_bulk_density_kg_m3": 107.57417721363018,
+      "conditional_pilot_mass_kg": 96816.75949226716,
+      "conditional_material_initial_JPY": 48408379.74613358,
+      "conditional_EAC_JPY": 15163033.451084323,
+      "conditional_price_cap_JPY_kg": 734.463364510166,
+      "conditional_full_course_material_JPY": 484083797.4613358
+    },
+    {
+      "model": "S3",
+      "volume_sum_upper_mm3": 0.006878719483383237,
+      "same_count_volume_ratio": 1.3601918580977872,
+      "equal_volume_wire_diameter_um": 37.72702770916341,
+      "conditional_bulk_density_kg_m3": 178.46175567565143,
+      "conditional_pilot_mass_kg": 160615.5801080863,
+      "conditional_material_initial_JPY": 80307790.05404314,
+      "conditional_EAC_JPY": 20554974.46516849,
+      "conditional_price_cap_JPY_kg": 442.7239429064709,
+      "conditional_full_course_material_JPY": 803077900.5404315
+    }
+  ],
+  "cost_assumptions": {
+    "same_grain_count_per_volume": true,
+    "base_R4_bulk_density_kg_m3": 131.20337003430396,
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "finished_grain_price_JPY_kg": 500,
+    "replenishment_fraction_per_year": 0.02,
+    "years": 10,
+    "discount": 0.08,
+    "nonmaterial_initial_JPY": 20000000.0,
+    "annual_operating_JPY": 4000000.0,
+    "annual_budget_JPY": 19000000.0,
+    "CRF": 0.14902948869707533,
+    "additional_alignment_cost_included": false
+  },
+  "scope": "Bridge existence, contact angle and contact radius are assumptions. Acceleration ratio is a force scale, not a vibration requirement. Costs preserve grain count, not measured packing."
+}
