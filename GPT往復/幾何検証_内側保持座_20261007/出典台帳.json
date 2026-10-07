@@ -1,0 +1,32 @@
+[
+  {
+    "id": "G1",
+    "title": "CGAL 3D Minkowski Sum of Polyhedra, User Manual",
+    "url": "https://doc.cgal.org/latest/Minkowski_sum_3/index.html",
+    "use": "Minkowski sum terminology for geometry. This work does not run CGAL and the all-direction bound is derived explicitly in the report."
+  },
+  {
+    "id": "G2",
+    "title": "Manifold class reference",
+    "url": "https://manifoldcad.org/docs/html/classmanifold_1_1_manifold.html",
+    "use": "Mesh generation and Boolean operation reference. Python implementation pinned to manifold3d 3.5.4; mesh validity is not physical validation."
+  },
+  {
+    "id": "G3",
+    "title": "第2巡 C形粒",
+    "repository_path": "GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+    "use": "G3 baseline, radius/gap, volume bounds and one collision path. No all-path mechanical proof inherited."
+  },
+  {
+    "id": "G4",
+    "title": "第3巡 材料・接触",
+    "repository_path": "GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+    "use": "Unmeasured 50C response, Hertz limitations, coating/weight budgets and conditional annual cost."
+  },
+  {
+    "id": "G5",
+    "title": "第4巡 冬・雨",
+    "repository_path": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+    "use": "Winter/rain/cost constraints. Corrects its 440um centered-aperture interpretation: 440um is arc-only inner diameter, guards reduce centered axial opening to400um before W1 seats."
+  }
+]

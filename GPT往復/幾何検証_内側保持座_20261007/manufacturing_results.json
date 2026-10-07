@@ -1,0 +1,126 @@
+{
+  "scope": "Flat-sheet two-sided-forming route only, uniform feed thickness with same final density, no mass redistribution between cells or carrier discount. Not demonstrated throughput/yield or a vendor price.",
+  "blank_volume_mm3": 0.04225000000000001,
+  "assumed_resin_density_kg_m3": 960,
+  "physical_process_validated": false,
+  "tooling_quote_obtained": false,
+  "rows": [
+    {
+      "id": "W0_thick",
+      "nominal_mesh_volume_mm3": 0.00505748019259977,
+      "particle_mass_kg": 4.855180984895779e-09,
+      "geometric_part_to_blank_volume_fraction": 0.11970367319762766,
+      "first_pass_good_product_mass_fraction": 0.09576293855810214,
+      "processed_feed_kg_per_kg_good": 10.442453156272675,
+      "total_processed_feed_kg_h_at_target": 783.1839867204507,
+      "good_particles_per_second_at_target": 4290948.864346103,
+      "required_line_speed_m_s_at_target": 2.266157368982786,
+      "recycle": [
+        {
+          "recovery": 0.95,
+          "virgin_kg_per_kg_good": 1.472122657813634,
+          "returned_kg_h": 672.7747873844281,
+          "rejected_unrecovered_kg_h": 35.40919933602257,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 251.2079629654958,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        },
+        {
+          "recovery": 0.99,
+          "virgin_kg_per_kg_good": 1.0944245315627268,
+          "returned_kg_h": 701.1021468532462,
+          "rejected_unrecovered_kg_h": 7.081839867204513,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 337.90263598775977,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        },
+        {
+          "recovery": 1,
+          "virgin_kg_per_kg_good": 1.0,
+          "returned_kg_h": 708.1839867204507,
+          "rejected_unrecovered_kg_h": 0.0,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 369.8089341047146,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        }
+      ],
+      "assumed_line_charge_per_good_kg": 200.0,
+      "conservative_finished_price_cap_yen_kg": 569.8089341047146
+    },
+    {
+      "id": "W1_one",
+      "nominal_mesh_volume_mm3": 0.004948041079496866,
+      "particle_mass_kg": 4.750119436316991e-09,
+      "geometric_part_to_blank_volume_fraction": 0.11711339833128674,
+      "first_pass_good_product_mass_fraction": 0.09369071866502938,
+      "processed_feed_kg_per_kg_good": 10.673415832952255,
+      "total_processed_feed_kg_h_at_target": 800.5061874714191,
+      "good_particles_per_second_at_target": 4385854.632212464,
+      "required_line_speed_m_s_at_target": 2.3162794776372078,
+      "recycle": [
+        {
+          "recovery": 0.95,
+          "virgin_kg_per_kg_good": 1.4836707916476128,
+          "returned_kg_h": 689.2308780978482,
+          "rejected_unrecovered_kg_h": 36.27530937357099,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 260.77373104771414,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        },
+        {
+          "recovery": 0.99,
+          "virgin_kg_per_kg_good": 1.096734158329523,
+          "returned_kg_h": 718.2511255967049,
+          "rejected_unrecovered_kg_h": 7.2550618747141975,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 352.77680105611853,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        },
+        {
+          "recovery": 1,
+          "virgin_kg_per_kg_good": 1.0,
+          "returned_kg_h": 725.5061874714191,
+          "rejected_unrecovered_kg_h": 0.0,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 386.9023679844637,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        }
+      ],
+      "assumed_line_charge_per_good_kg": 200.0,
+      "conservative_finished_price_cap_yen_kg": 586.9023679844637
+    },
+    {
+      "id": "W1_three",
+      "nominal_mesh_volume_mm3": 0.005069830411643699,
+      "particle_mass_kg": 4.8670371951779516e-09,
+      "geometric_part_to_blank_volume_fraction": 0.11999598607440705,
+      "first_pass_good_product_mass_fraction": 0.09599678885952564,
+      "processed_feed_kg_per_kg_good": 10.417015109362913,
+      "total_processed_feed_kg_h_at_target": 781.2761332022185,
+      "good_particles_per_second_at_target": 4280496.017982787,
+      "required_line_speed_m_s_at_target": 2.26063695949716,
+      "recycle": [
+        {
+          "recovery": 0.95,
+          "virgin_kg_per_kg_good": 1.4708507554681456,
+          "returned_kg_h": 670.9623265421076,
+          "rejected_unrecovered_kg_h": 35.313806660110956,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 240.40012149987965,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        },
+        {
+          "recovery": 0.99,
+          "virgin_kg_per_kg_good": 1.0941701510936295,
+          "returned_kg_h": 699.2133718701963,
+          "rejected_unrecovered_kg_h": 7.062761332022191,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 323.1606162618437,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        },
+        {
+          "recovery": 1,
+          "virgin_kg_per_kg_good": 1.0,
+          "returned_kg_h": 706.2761332022185,
+          "rejected_unrecovered_kg_h": 0.0,
+          "virgin_resin_price_upper_yen_kg_before_other_costs": 353.59270032273196,
+          "note": "Recovery in factory only; unrecovered mass must be managed. Not authorized environmental discharge."
+        }
+      ],
+      "assumed_line_charge_per_good_kg": 200.0,
+      "conservative_finished_price_cap_yen_kg": 553.592700322732
+    }
+  ]
+}

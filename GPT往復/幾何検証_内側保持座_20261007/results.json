@@ -1,0 +1,172 @@
+{
+  "scope": "Ideal geometry and cost bounds; rigid infinite-plane contact only. No snow feel, material load/creep, wind, health or environmental validation.",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "G3": {
+    "R": 0.25,
+    "r": 0.03,
+    "re": 0.05,
+    "theta": 0.24236585103896324,
+    "inscribed_convex_hull_disk_radius": 0.24269322199023194
+  },
+  "directions_checked": 200007,
+  "candidates": [
+    {
+      "id": "W0_thick",
+      "c": {
+        "id": "W0_thick",
+        "rho": 0.22,
+        "axes": [
+          0.04,
+          0.035,
+          0.045
+        ],
+        "seat_angles_deg": [
+          180
+        ],
+        "purpose": "counterexample: a thick internal seat can be exposed from an oblique direction"
+      },
+      "analytic_plane_margin_lower_mm": -0.015,
+      "plane_margin_after_outward_envelope_mm": -0.017,
+      "sampled_minimum_plane_margin_mm": -0.013768479460213257,
+      "sampled_worst_direction": [
+        -0.04061112152379505,
+        0.00023703075681288268,
+        -0.9991749999999999
+      ],
+      "explicit_counterexample_margin_mm": -0.013182996787675233,
+      "attached_to_arc_centerline": true,
+      "gross_seat_volume_mm3": 0.00026389378290154266,
+      "outward_envelope_seat_volume_upper_mm3": 0.00031176703872447443,
+      "added_volume_fraction_of_G3_lower_bound_max": 0.07402258459758483,
+      "union_volume_upper_mm3": 0.00534455258518478,
+      "cost_upper_with_outward_envelope": {
+        "bulk_kg_m3": 138.6592722609295,
+        "mass_kg": 124793.34503483654,
+        "EAC_yen_year": 17527467.42595957,
+        "finished_price_cap_yen_kg": 569.8089341047146
+      },
+      "cost_upper_nominal_untextured_seat": {
+        "bulk_kg_m3": 137.41724672046237,
+        "mass_kg": 123675.52204841614,
+        "EAC_yen_year": 17432994.90203533,
+        "finished_price_cap_yen_kg": 574.9590682125829
+      },
+      "centered_axial_open_radius_mm": 0.18,
+      "centered_axial_open_radius_after_envelope_mm": 0.178
+    },
+    {
+      "id": "W1_one",
+      "c": {
+        "id": "W1_one",
+        "rho": 0.22,
+        "axes": [
+          0.04,
+          0.035,
+          0.02
+        ],
+        "seat_angles_deg": [
+          180
+        ],
+        "purpose": "low volume candidate, single inner seat"
+      },
+      "analytic_plane_margin_lower_mm": 0.009999999999999998,
+      "plane_margin_after_outward_envelope_mm": 0.007999999999999998,
+      "sampled_minimum_plane_margin_mm": 0.011174313177868954,
+      "sampled_worst_direction": [
+        -0.04061112152379505,
+        0.00023703075681288268,
+        -0.9991749999999999
+      ],
+      "explicit_counterexample_margin_mm": 0.01169229003590911,
+      "attached_to_arc_centerline": true,
+      "gross_seat_volume_mm3": 0.00011728612573401894,
+      "outward_envelope_seat_volume_upper_mm3": 0.00015610783335197925,
+      "added_volume_fraction_of_G3_lower_bound_max": 0.037064550979857724,
+      "union_volume_upper_mm3": 0.005188893379812285,
+      "cost_upper_with_outward_envelope": {
+        "bulk_kg_m3": 134.62084401204388,
+        "mass_kg": 121158.7596108395,
+        "EAC_yen_year": 17220291.368037537,
+        "finished_price_cap_yen_kg": 586.9023679844637
+      },
+      "cost_upper_nominal_untextured_seat": {
+        "bulk_kg_m3": 133.61365217691167,
+        "mass_kg": 120252.28695922051,
+        "EAC_yen_year": 17143681.063627016,
+        "finished_price_cap_yen_kg": 591.3264912938919
+      },
+      "centered_axial_open_radius_mm": 0.18,
+      "centered_axial_open_radius_after_envelope_mm": 0.178
+    },
+    {
+      "id": "W1_three",
+      "c": {
+        "id": "W1_three",
+        "rho": 0.22,
+        "axes": [
+          0.04,
+          0.035,
+          0.02
+        ],
+        "seat_angles_deg": [
+          60,
+          180,
+          300
+        ],
+        "purpose": "distributed inner seats, higher volume control"
+      },
+      "analytic_plane_margin_lower_mm": 0.009999999999999998,
+      "plane_margin_after_outward_envelope_mm": 0.007999999999999998,
+      "sampled_minimum_plane_margin_mm": 0.011174313177868954,
+      "sampled_worst_direction": [
+        -0.04061112152379505,
+        0.00023703075681288268,
+        -0.9991749999999999
+      ],
+      "explicit_counterexample_margin_mm": 0.01169229003590911,
+      "attached_to_arc_centerline": true,
+      "gross_seat_volume_mm3": 0.00035185837720205684,
+      "outward_envelope_seat_volume_upper_mm3": 0.0004683235000559378,
+      "added_volume_fraction_of_G3_lower_bound_max": 0.11119365293957317,
+      "union_volume_upper_mm3": 0.005501109046516244,
+      "cost_upper_with_outward_envelope": {
+        "bulk_kg_m3": 142.72097895198948,
+        "mass_kg": 128448.88105679053,
+        "EAC_yen_year": 17836414.118311882,
+        "finished_price_cap_yen_kg": 553.592700322732
+      },
+      "cost_upper_nominal_untextured_seat": {
+        "bulk_kg_m3": 139.69940344659278,
+        "mass_kg": 125729.4631019335,
+        "EAC_yen_year": 17606583.205080315,
+        "finished_price_cap_yen_kg": 565.5664246335954
+      },
+      "centered_axial_open_radius_mm": 0.18,
+      "centered_axial_open_radius_after_envelope_mm": 0.178
+    }
+  ],
+  "aperture_comparison": [
+    {
+      "id": "arc_only_incomplete",
+      "radius_mm": 0.22,
+      "ideal_entry_head_mm": 19.310707163159236
+    },
+    {
+      "id": "G3_including_guards",
+      "radius_mm": 0.2,
+      "ideal_entry_head_mm": 21.24177787947516
+    },
+    {
+      "id": "W1_with_envelope",
+      "radius_mm": 0.178,
+      "ideal_entry_head_mm": 23.86716615671366
+    }
+  ],
+  "direct_support_check": {
+    "normals": 128,
+    "arc_points": 20001,
+    "max_error_mm": 2.289234801722273e-09,
+    "chord_sagitta_bound_mm": 2.6267237551724776e-09
+  }
+}

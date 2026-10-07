@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-07",
+  "relative_link_count": 90,
+  "relative_links_all_exist": true,
+  "display_math_pairs": 12,
+  "json_parsed": [
+    "inputs.json",
+    "manufacturing_results.json",
+    "mesh_validation.json",
+    "results.json",
+    "validation.json",
+    "出典台帳.json",
+    "探索台帳.json",
+    "文書検証.json"
+  ],
+  "algebra_and_geometry_checks_passed": 9,
+  "figure_visually_checked": true,
+  "mesh_quality_levels": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "added_volume_last_change_max": 0.004161871483701006,
+  "physical_tests": 0,
+  "physical_validation": false,
+  "remote_base_rechecked_no_new_commits": true,
+  "links": [
+    {
+      "file": "README.md",
+      "target": "回覧板.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "正本/人工フィルン_正本v36_総括_経緯と到達点_2026-10-05.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_レール式整地設備の概念設計と数量費用試算_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_側方レール牽引式自動整地機の成立条件と長期費用_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/GPT回答_50℃対応の雪状結晶素材と圧雪再現の再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "正本/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "旧版/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "GPT往復/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "試験仕様/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "表計算/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "バーチャル試験/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "target": "回覧板.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "正本/人工フィルン_正本v36_総括_経緯と到達点_2026-10-05.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "バーチャル試験/VT第13弾_含水100段階の摩擦と雨の春雪化_2026-10-06.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "施工計画/施工計画素案_下地造成と工事費_2026-10-05.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_下地造成と全天候リスクの監査_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_50℃対応の雪状結晶素材と圧雪再現の再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_側方レール牽引式自動整地機の成立条件と長期費用_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_レール式整地設備の概念設計と数量費用試算_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "施工計画/寒水石0.4〜0.6mm価格調査_2026-10-05.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "施工計画/実験施設_20度10m_費用試算_2026-10-05.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_レール式整地設備の概念設計と数量費用試算_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_側方レール牽引式自動整地機の成立条件と長期費用_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "回覧板.md",
+      "target": "GPT往復/GPT回答_50℃対応の雪状結晶素材と圧雪再現の再設計_20261005.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/README.md",
+      "target": "GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/README.md",
+      "target": "GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/README.md",
+      "target": "GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/README.md",
+      "target": "GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/README.md",
+      "target": "GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/内側保持座_全方向の保護と反例.svg",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/内側保持座.scad",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/W0_thick.stl",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/W1_one.stl",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/W1_three.stl",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/inputs.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/analyze_seats.py",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/results.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/validation.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/build_seats.py",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/mesh_validation.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/manufacturing.py",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/manufacturing_results.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/requirements.txt",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/出典台帳.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/探索台帳.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "target": "幾何検証_内側保持座_20261007/文書検証.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/構造と成立条件.svg",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/inputs.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/calculate.py",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/results.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/validation.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/出典台帳.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/探索台帳.json",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/draw.py",
+      "exists": true
+    },
+    {
+      "file": "GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "target": "冬雨検証_排水と保持_20261007/文書検証.json",
+      "exists": true
+    }
+  ]
+}

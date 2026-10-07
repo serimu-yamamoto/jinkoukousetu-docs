@@ -1,0 +1,14 @@
+{
+  "algebra_and_geometry_checks": {
+    "unit_directions": true,
+    "thick_seat_has_explicit_exposure": true,
+    "W1_positive_analytic_margin_including_envelope": true,
+    "samples_respect_all_direction_lower_bounds": true,
+    "seats_connected_to_backbone": true,
+    "three_seats_have_three_times_gross_volume": true,
+    "guards_reduce_centered_aperture": true,
+    "support_at_z_includes_guard": true,
+    "support_formula_agrees_with_direct_arc_sampling": true
+  },
+  "physical_validation": false
+}

@@ -1,0 +1,193 @@
+{
+  "manifold_version": "3.5.4",
+  "numpy_version": "2.3.5",
+  "shapes": [
+    {
+      "id": "W0_thick",
+      "levels": [
+        {
+          "status": "Error.NoError",
+          "vertices": 1232,
+          "triangles": 2460,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.00486159309949557,
+          "area_mm2": 0.3187642549308583,
+          "quality": 16,
+          "core_volume_mm3": 0.004705352112473644,
+          "net_seat_added_volume_mm3": 0.00015624098702192533
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 4666,
+          "triangles": 9328,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.005009660188311726,
+          "area_mm2": 0.3221257486901008,
+          "quality": 32,
+          "core_volume_mm3": 0.004842831083762266,
+          "net_seat_added_volume_mm3": 0.00016682910454945965
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 18170,
+          "triangles": 36336,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.00504785717897573,
+          "area_mm2": 0.32300584790735476,
+          "quality": 64,
+          "core_volume_mm3": 0.004878232307127644,
+          "net_seat_added_volume_mm3": 0.00016962487184808608
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 71704,
+          "triangles": 143404,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.00505748019259977,
+          "area_mm2": 0.3232263178688225,
+          "quality": 128,
+          "core_volume_mm3": 0.004887146413453544,
+          "net_seat_added_volume_mm3": 0.00017033377914622578
+        }
+      ],
+      "last_relative_volume_change": 0.0019027288803068964,
+      "last_relative_added_volume_change": 0.004161871483701006,
+      "prior_fixed_pose_intersection_volume_mm3": 6.798501068266369e-05,
+      "new_fixed_pose_intersection_volume_mm3": 6.798501068266369e-05,
+      "scope": "Nominal untextured meshes; fixed pose only, not insertion, all paths or retention under force."
+    },
+    {
+      "id": "W1_one",
+      "levels": [
+        {
+          "status": "Error.NoError",
+          "vertices": 1220,
+          "triangles": 2436,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.004761621260291672,
+          "area_mm2": 0.3147828515680464,
+          "quality": 16,
+          "core_volume_mm3": 0.004705352112473644,
+          "net_seat_added_volume_mm3": 5.62691478180272e-05
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 4654,
+          "triangles": 9304,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.004902566634507621,
+          "area_mm2": 0.318001636794497,
+          "quality": 32,
+          "core_volume_mm3": 0.004842831083762266,
+          "net_seat_added_volume_mm3": 5.97355507453547e-05
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 18152,
+          "triangles": 36300,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.004938893168583163,
+          "area_mm2": 0.3188416329329407,
+          "quality": 64,
+          "core_volume_mm3": 0.004878232307127644,
+          "net_seat_added_volume_mm3": 6.0660861455518605e-05
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 71682,
+          "triangles": 143360,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.004948041079496866,
+          "area_mm2": 0.31905267318633856,
+          "quality": 128,
+          "core_volume_mm3": 0.004887146413453544,
+          "net_seat_added_volume_mm3": 6.089466604332176e-05
+        }
+      ],
+      "last_relative_volume_change": 0.001848794455569337,
+      "last_relative_added_volume_change": 0.0038394920769714695,
+      "prior_fixed_pose_intersection_volume_mm3": 6.798501068266369e-05,
+      "new_fixed_pose_intersection_volume_mm3": 6.798501068266369e-05,
+      "scope": "Nominal untextured meshes; fixed pose only, not insertion, all paths or retention under force."
+    },
+    {
+      "id": "W1_three",
+      "levels": [
+        {
+          "status": "Error.NoError",
+          "vertices": 1356,
+          "triangles": 2708,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.00487416112843304,
+          "area_mm2": 0.3232937775283928,
+          "quality": 16,
+          "core_volume_mm3": 0.004705352112473644,
+          "net_seat_added_volume_mm3": 0.00016880901595939593
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 5022,
+          "triangles": 10040,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.005022036869839318,
+          "area_mm2": 0.3267785249264084,
+          "quality": 32,
+          "core_volume_mm3": 0.004842831083762266,
+          "net_seat_added_volume_mm3": 0.0001792057860770524
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 19286,
+          "triangles": 38568,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.00506021504772097,
+          "area_mm2": 0.32768573515093097,
+          "quality": 64,
+          "core_volume_mm3": 0.004878232307127644,
+          "net_seat_added_volume_mm3": 0.00018198274059332605
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 75534,
+          "triangles": 151064,
+          "each_edge_two_faces": true,
+          "connected_components": 1,
+          "euler": 2,
+          "volume_mm3": 0.005069830411643699,
+          "area_mm2": 0.3279136256175547,
+          "quality": 128,
+          "core_volume_mm3": 0.004887146413453544,
+          "net_seat_added_volume_mm3": 0.000182683998190155
+        }
+      ],
+      "last_relative_volume_change": 0.0018965849233626509,
+      "last_relative_added_volume_change": 0.003838637230278928,
+      "prior_fixed_pose_intersection_volume_mm3": 6.798501068266369e-05,
+      "new_fixed_pose_intersection_volume_mm3": 6.798501068266369e-05,
+      "scope": "Nominal untextured meshes; fixed pose only, not insertion, all paths or retention under force."
+    }
+  ],
+  "physical_validation": false
+}
