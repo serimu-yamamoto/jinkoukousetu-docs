@@ -1,0 +1,479 @@
+{
+  "scope": "Analytic geometry, uniform wear and ideal opposed-load compliance budgets. Not a granular mechanical model or material validation.",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "geometry": {
+    "old_bound_mm": 0.009999999999999998,
+    "new_bound_mm": 0.012693221990231936,
+    "new_bound_with_texture_mm": 0.010693221990231936,
+    "branch_crossing_p": 0.2151692630290304,
+    "finite_direction_count": 200006,
+    "sampled_minimum_mm": 0.014169377127413514,
+    "sampled_worst_normal": [
+      -0.16339257203017865,
+      -0.008443446000474142,
+      0.986525
+    ],
+    "centered_axial_aperture_radius_lower_mm": 0.178
+  },
+  "uniform_wear": [
+    {
+      "uniform_radial_loss_mm": 0,
+      "old_margin_lower_mm": 0.007999999999999998,
+      "new_margin_lower_mm": 0.010693221990231936,
+      "backbone_bending_I_ratio": 1.0,
+      "equal_bending_moment_stress_ratio": 1.0,
+      "same_force_hertz_peak_pressure_ratio": 1.0,
+      "scope": "Centers fixed; all protective round radii shrink uniformly; seat unchanged. Not wear rate or service life."
+    },
+    {
+      "uniform_radial_loss_mm": 0.002,
+      "old_margin_lower_mm": 0.005999999999999998,
+      "new_margin_lower_mm": 0.008693221990231936,
+      "backbone_bending_I_ratio": 0.7588345679012343,
+      "equal_bending_moment_stress_ratio": 1.2299562682215743,
+      "same_force_hertz_peak_pressure_ratio": 1.047069434913027,
+      "scope": "Centers fixed; all protective round radii shrink uniformly; seat unchanged. Not wear rate or service life."
+    },
+    {
+      "uniform_radial_loss_mm": 0.005,
+      "old_margin_lower_mm": 0.0029999999999999983,
+      "new_margin_lower_mm": 0.0056932219902319356,
+      "backbone_bending_I_ratio": 0.4822530864197529,
+      "equal_bending_moment_stress_ratio": 1.7279999999999998,
+      "same_force_hertz_peak_pressure_ratio": 1.129243234657234,
+      "scope": "Centers fixed; all protective round radii shrink uniformly; seat unchanged. Not wear rate or service life."
+    },
+    {
+      "uniform_radial_loss_mm": 0.008,
+      "old_margin_lower_mm": -1.734723475976807e-18,
+      "new_margin_lower_mm": 0.0026932219902319355,
+      "backbone_bending_I_ratio": 0.28920493827160487,
+      "equal_bending_moment_stress_ratio": 2.5356874530428257,
+      "same_force_hertz_peak_pressure_ratio": 1.2296996495432913,
+      "scope": "Centers fixed; all protective round radii shrink uniformly; seat unchanged. Not wear rate or service life."
+    }
+  ],
+  "common_affine": [
+    {
+      "name": "common_z_compression_10pct",
+      "A": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.9
+        ]
+      ],
+      "min_singular_value": 0.9,
+      "old_gap_lower_with_texture_mm": 0.007199999999999999,
+      "new_gap_lower_with_texture_mm": 0.009623899791208743,
+      "scope": "Common invertible affine map of all geometry including texture; no pressure or material law attached."
+    },
+    {
+      "name": "common_z_compression_20pct",
+      "A": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.8
+        ]
+      ],
+      "min_singular_value": 0.8,
+      "old_gap_lower_with_texture_mm": 0.0063999999999999994,
+      "new_gap_lower_with_texture_mm": 0.00855457759218555,
+      "scope": "Common invertible affine map of all geometry including texture; no pressure or material law attached."
+    },
+    {
+      "name": "rotation_90deg",
+      "A": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "min_singular_value": 1.0,
+      "old_gap_lower_with_texture_mm": 0.007999999999999998,
+      "new_gap_lower_with_texture_mm": 0.010693221990231936,
+      "scope": "Common invertible affine map of all geometry including texture; no pressure or material law attached."
+    }
+  ],
+  "support_height_comparison": [
+    {
+      "center_offset_z_mm": 0,
+      "certified_lower_with_texture_mm": 0.007999999999999998,
+      "sampled_minimum_with_texture_mm": 0.009174313177868954,
+      "pair_union_volume_mm3": 0.00011309733552923254,
+      "finished_price_cap_yen_kg": 574.3830903020688,
+      "scope": "Analytic ideal lower bound and finite directional screen; no strength, safety or manufacturing validation."
+    },
+    {
+      "center_offset_z_mm": 0.002,
+      "certified_lower_with_texture_mm": 0.00976237730709482,
+      "sampled_minimum_with_texture_mm": 0.009866363351891035,
+      "pair_union_volume_mm3": 0.00012439031392133667,
+      "finished_price_cap_yen_kg": 573.1622829442346,
+      "scope": "Analytic ideal lower bound and finite directional screen; no strength, safety or manufacturing validation."
+    },
+    {
+      "center_offset_z_mm": 0.003364936833775628,
+      "certified_lower_with_texture_mm": 0.010693221990231936,
+      "sampled_minimum_with_texture_mm": 0.01098694193551999,
+      "pair_union_volume_mm3": 0.00013204580752137834,
+      "finished_price_cap_yen_kg": 572.3376465343107,
+      "scope": "Analytic ideal lower bound and finite directional screen; no strength, safety or manufacturing validation."
+    },
+    {
+      "center_offset_z_mm": 0.005,
+      "certified_lower_with_texture_mm": 0.010693221990231936,
+      "sampled_minimum_with_texture_mm": 0.012169377127413514,
+      "pair_union_volume_mm3": 0.00014110987002374152,
+      "finished_price_cap_yen_kg": 571.3643442758549,
+      "scope": "Analytic ideal lower bound and finite directional screen; no strength, safety or manufacturing validation."
+    },
+    {
+      "center_offset_z_mm": 0.01,
+      "certified_lower_with_texture_mm": 0.010693221990231936,
+      "sampled_minimum_with_texture_mm": 0.014698520661781485,
+      "pair_union_volume_mm3": 0.00016755160819145564,
+      "finished_price_cap_yen_kg": 568.5438417926696,
+      "scope": "Analytic ideal lower bound and finite directional screen; no strength, safety or manufacturing validation."
+    },
+    {
+      "center_offset_z_mm": 0.02,
+      "certified_lower_with_texture_mm": 0.010693221990231936,
+      "sampled_minimum_with_texture_mm": 0.01690765873829772,
+      "pair_union_volume_mm3": 0.0002094395102393195,
+      "finished_price_cap_yen_kg": 564.1322745107008,
+      "scope": "Analytic ideal lower bound and finite directional screen; no strength, safety or manufacturing validation."
+    }
+  ],
+  "conservative_bound_plateau_offset_mm": 0.0033649368337756325,
+  "axial_mold_geometry": {
+    "sufficient_max_offset_for_no_z_undercut_mm": 0.010301575072754261,
+    "selected_geometry_no_z_undercut": true,
+    "counterexample": {
+      "offset_mm": 0.02,
+      "line_xy_mm": [
+        -0.22,
+        0.0299
+      ],
+      "middle_union_interval_z_mm": [
+        -0.010828755708497591,
+        0.010828755708497591
+      ],
+      "upper_ball_interval_z_mm": [
+        0.01755255234989592,
+        0.02244744765010408
+      ],
+      "lower_ball_interval_z_mm": [
+        -0.02244744765010408,
+        -0.01755255234989592
+      ],
+      "gap_each_side_mm": 0.006723796641398329
+    },
+    "scope": "Ideal untextured solids; line intersections. No draft, shrinkage, parting, gate, tool life or release-force validation."
+  },
+  "residual_deformation_budgets": [
+    {
+      "uniform_reference_wear_mm": 0,
+      "common_affine_sigma_min": 1,
+      "old_residual_sum_budget_mm": 0.007999999999999998,
+      "new_residual_sum_budget_mm": 0.010693221990231936,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0,
+      "common_affine_sigma_min": 0.9,
+      "old_residual_sum_budget_mm": 0.007199999999999999,
+      "new_residual_sum_budget_mm": 0.009623899791208743,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0,
+      "common_affine_sigma_min": 0.8,
+      "old_residual_sum_budget_mm": 0.0063999999999999994,
+      "new_residual_sum_budget_mm": 0.00855457759218555,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.002,
+      "common_affine_sigma_min": 1,
+      "old_residual_sum_budget_mm": 0.005999999999999998,
+      "new_residual_sum_budget_mm": 0.008693221990231936,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.002,
+      "common_affine_sigma_min": 0.9,
+      "old_residual_sum_budget_mm": 0.0053999999999999986,
+      "new_residual_sum_budget_mm": 0.007823899791208743,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.002,
+      "common_affine_sigma_min": 0.8,
+      "old_residual_sum_budget_mm": 0.004799999999999999,
+      "new_residual_sum_budget_mm": 0.006954577592185549,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.005,
+      "common_affine_sigma_min": 1,
+      "old_residual_sum_budget_mm": 0.0029999999999999983,
+      "new_residual_sum_budget_mm": 0.0056932219902319356,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.005,
+      "common_affine_sigma_min": 0.9,
+      "old_residual_sum_budget_mm": 0.0026999999999999984,
+      "new_residual_sum_budget_mm": 0.005123899791208742,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.005,
+      "common_affine_sigma_min": 0.8,
+      "old_residual_sum_budget_mm": 0.002399999999999999,
+      "new_residual_sum_budget_mm": 0.004554577592185549,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.008,
+      "common_affine_sigma_min": 1,
+      "old_residual_sum_budget_mm": -1.734723475976807e-18,
+      "new_residual_sum_budget_mm": 0.0026932219902319355,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.008,
+      "common_affine_sigma_min": 0.9,
+      "old_residual_sum_budget_mm": -1.5612511283791264e-18,
+      "new_residual_sum_budget_mm": 0.002423899791208742,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    },
+    {
+      "uniform_reference_wear_mm": 0.008,
+      "common_affine_sigma_min": 0.8,
+      "old_residual_sum_budget_mm": -1.3877787807814458e-18,
+      "new_residual_sum_budget_mm": 0.0021545775921855484,
+      "scope": "Sufficient residual displacement budget after common affine alignment; not measured local deformation."
+    }
+  ],
+  "central_body_reference": {
+    "compliance_geometry_factor_per_mm": 3.570081311430126,
+    "numerical_integral_per_mm": 3.5700813121230457,
+    "min_bare_pair_area_mm2": 0.002748893571891069,
+    "E_required_MPa_for_body_only_2um_at_6_48mN": 11.567063449033608,
+    "scope": "Uniaxial variable-area rod between sphere centers; added seat ignored; end contacts separate; not 3D solid elasticity."
+  },
+  "opposed_load_cases": [
+    {
+      "force_N": 0.0009,
+      "assumed_E_MPa": 100,
+      "rigid_counterface_effective_E_MPa": 125.39184952978057,
+      "body_only_1D_shortening_mm": 3.2130731802871135e-05,
+      "one_contact_Hertz_indent_mm": 0.000988513393796151,
+      "two_contacts_plus_body_model_mm": 0.0020091575193951733,
+      "contact_radius_mm": 0.005445677351246999,
+      "contact_radius_over_sphere_radius": 0.18152257837489996,
+      "Hertz_peak_pressure_MPa": 14.490390285216948,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.0009,
+      "assumed_E_MPa": 300,
+      "rigid_counterface_effective_E_MPa": 376.1755485893417,
+      "body_only_1D_shortening_mm": 1.0710243934290379e-05,
+      "one_contact_Hertz_indent_mm": 0.00047522767248187227,
+      "two_contacts_plus_body_model_mm": 0.0009611655888980349,
+      "contact_radius_mm": 0.003775821787963008,
+      "contact_radius_over_sphere_radius": 0.1258607262654336,
+      "Hertz_peak_pressure_MPa": 30.141226421988236,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.0009,
+      "assumed_E_MPa": 600,
+      "rigid_counterface_effective_E_MPa": 752.3510971786834,
+      "body_only_1D_shortening_mm": 5.3551219671451894e-06,
+      "one_contact_Hertz_indent_mm": 0.00029937467402622875,
+      "two_contacts_plus_body_model_mm": 0.0006041044700196027,
+      "contact_radius_mm": 0.0029968717391284636,
+      "contact_radius_over_sphere_radius": 0.09989572463761545,
+      "Hertz_peak_pressure_MPa": 47.846214529875816,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.0009,
+      "assumed_E_MPa": 1000,
+      "rigid_counterface_effective_E_MPa": 1253.9184952978057,
+      "body_only_1D_shortening_mm": 3.2130731802871136e-06,
+      "one_contact_Hertz_indent_mm": 0.00021296875471555764,
+      "two_contacts_plus_body_model_mm": 0.00042915058261140237,
+      "contact_radius_mm": 0.0025276595185006086,
+      "contact_radius_over_sphere_radius": 0.08425531728335363,
+      "Hertz_peak_pressure_MPa": 67.25843374255406,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.001944,
+      "assumed_E_MPa": 100,
+      "rigid_counterface_effective_E_MPa": 125.39184952978057,
+      "body_only_1D_shortening_mm": 6.940238069420165e-05,
+      "one_contact_Hertz_indent_mm": 0.0016517781829875188,
+      "two_contacts_plus_body_model_mm": 0.003372958746669239,
+      "contact_radius_mm": 0.007039413717748486,
+      "contact_radius_over_sphere_radius": 0.23464712392494955,
+      "Hertz_peak_pressure_MPa": 18.73115970154344,
+      "small_contact_screen_pass": false,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.001944,
+      "assumed_E_MPa": 300,
+      "rigid_counterface_effective_E_MPa": 376.1755485893417,
+      "body_only_1D_shortening_mm": 2.3134126898067218e-05,
+      "one_contact_Hertz_indent_mm": 0.0007940921248856335,
+      "two_contacts_plus_body_model_mm": 0.0016113183766693342,
+      "contact_radius_mm": 0.004880856866019429,
+      "contact_radius_over_sphere_radius": 0.1626952288673143,
+      "Hertz_peak_pressure_MPa": 38.96238228218225,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.001944,
+      "assumed_E_MPa": 600,
+      "rigid_counterface_effective_E_MPa": 752.3510971786834,
+      "body_only_1D_shortening_mm": 1.1567063449033609e-05,
+      "one_contact_Hertz_indent_mm": 0.0005002466918495791,
+      "two_contacts_plus_body_model_mm": 0.001012060447148192,
+      "contact_radius_mm": 0.003873938661812726,
+      "contact_radius_over_sphere_radius": 0.12913128872709087,
+      "Hertz_peak_pressure_MPa": 61.84892662192322,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.001944,
+      "assumed_E_MPa": 1000,
+      "rigid_counterface_effective_E_MPa": 1253.9184952978057,
+      "body_only_1D_shortening_mm": 6.940238069420165e-06,
+      "one_contact_Hertz_indent_mm": 0.00035586482176661434,
+      "two_contacts_plus_body_model_mm": 0.0007186698816026489,
+      "contact_radius_mm": 0.0032674064107481994,
+      "contact_radius_over_sphere_radius": 0.10891354702493998,
+      "Hertz_peak_pressure_MPa": 86.9423417113017,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.00648,
+      "assumed_E_MPa": 100,
+      "rigid_counterface_effective_E_MPa": 125.39184952978057,
+      "body_only_1D_shortening_mm": 0.0002313412689806722,
+      "one_contact_Hertz_indent_mm": 0.0036858491397290002,
+      "two_contacts_plus_body_model_mm": 0.007603039548438673,
+      "contact_radius_mm": 0.01051548734923256,
+      "contact_radius_over_sphere_radius": 0.3505162449744187,
+      "Hertz_peak_pressure_MPa": 27.98063599833902,
+      "small_contact_screen_pass": false,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.00648,
+      "assumed_E_MPa": 300,
+      "rigid_counterface_effective_E_MPa": 376.1755485893417,
+      "body_only_1D_shortening_mm": 7.711375632689073e-05,
+      "one_contact_Hertz_indent_mm": 0.001771971445997361,
+      "two_contacts_plus_body_model_mm": 0.0036210566483216126,
+      "contact_radius_mm": 0.007291031708881866,
+      "contact_radius_over_sphere_radius": 0.24303439029606222,
+      "Hertz_peak_pressure_MPa": 58.20206829884875,
+      "small_contact_screen_pass": false,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.00648,
+      "assumed_E_MPa": 600,
+      "rigid_counterface_effective_E_MPa": 752.3510971786834,
+      "body_only_1D_shortening_mm": 3.8556878163445365e-05,
+      "one_contact_Hertz_indent_mm": 0.001116272062312366,
+      "two_contacts_plus_body_model_mm": 0.0022711010027881774,
+      "contact_radius_mm": 0.005786895702306287,
+      "contact_radius_over_sphere_radius": 0.19289652341020957,
+      "Hertz_peak_pressure_MPa": 92.39002444431749,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    },
+    {
+      "force_N": 0.00648,
+      "assumed_E_MPa": 1000,
+      "rigid_counterface_effective_E_MPa": 1253.9184952978057,
+      "body_only_1D_shortening_mm": 2.3134126898067218e-05,
+      "one_contact_Hertz_indent_mm": 0.0007940921248856335,
+      "two_contacts_plus_body_model_mm": 0.0016113183766693342,
+      "contact_radius_mm": 0.004880856866019429,
+      "contact_radius_over_sphere_radius": 0.1626952288673143,
+      "Hertz_peak_pressure_MPa": 129.87460760727413,
+      "small_contact_screen_pass": true,
+      "yield_creep_or_finite_body_validated": false,
+      "predicts_actual_shield_margin_loss": false
+    }
+  ],
+  "cost_upper": {
+    "pair_union_volume_mm3": 0.00014110987002374152,
+    "seat_envelope_volume_mm3": 0.0001561078333519793,
+    "total_volume_upper_mm3": 0.005330003249836027,
+    "bulk_upper_kg_m3": 138.28180376021143,
+    "mass_kg": 124453.62338419029,
+    "EAC_yen_year": 17498755.937505536,
+    "finished_price_cap_yen_kg": 571.3643442758549
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-07",
+  "json_files_parsed": [
+    "inputs.json",
+    "mesh_validation.json",
+    "results.json",
+    "validation.json",
+    "出典台帳.json",
+    "探索台帳.json",
+    "文書検証.json"
+  ],
+  "relative_markdown_links_checked": 84,
+  "broken_relative_links": [],
+  "algebra_geometry_checks_passed": 12,
+  "stl_byte_count": 7312284,
+  "stl_triangle_count": 146244,
+  "stl_binary_records_match": true,
+  "svg_review": {
+    "rasterized": true,
+    "visually_inspected": true,
+    "clipping_or_overlap_found": false,
+    "source": "近傍支点_保護余裕と摩耗.svg"
+  },
+  "remote_base_after_fetch": "7faa72c788148c9d534ea61b02751ba8084c688d",
+  "new_claude_updates": false,
+  "physical_validation": false
+}

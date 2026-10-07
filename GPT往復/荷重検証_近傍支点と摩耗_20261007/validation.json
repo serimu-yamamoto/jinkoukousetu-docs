@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "continuous_branch_bound_checked": true,
+    "sampled_normals_above_analytic_bound": true,
+    "adding_support_cannot_reduce_ideal_margin": true,
+    "rod_integral_matches_analytic": true,
+    "wear_stiffness_monotone": true,
+    "rotation_preserves_margin_bound": true,
+    "overlapping_spheres_volume_bounds": true,
+    "positive_budget_price": true,
+    "lower_bound_plateau_identity": true,
+    "selected_offset_reaches_conservative_plateau": true,
+    "selected_support_has_sufficient_no_undercut_condition": true,
+    "tall_support_has_explicit_vertical_gap": true
+  },
+  "physical_validation": false
+}

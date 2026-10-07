@@ -1,0 +1,50 @@
+{
+  "levels": [
+    {
+      "status": "Error.NoError",
+      "vertices": 4848,
+      "triangles": 9692,
+      "each_edge_two_faces": true,
+      "connected_components": 1,
+      "euler": 2,
+      "volume_mm3": 0.00494058249960695,
+      "area_mm2": 0.3194156773264851,
+      "quality": 32,
+      "W1a_volume_mm3": 0.004902566634507621,
+      "net_support_added_volume_mm3": 3.8015865099329596e-05
+    },
+    {
+      "status": "Error.NoError",
+      "vertices": 18644,
+      "triangles": 37284,
+      "each_edge_two_faces": true,
+      "connected_components": 1,
+      "euler": 2,
+      "volume_mm3": 0.004977472725081805,
+      "area_mm2": 0.32026208123412875,
+      "quality": 64,
+      "W1a_volume_mm3": 0.004938893168583163,
+      "net_support_added_volume_mm3": 3.857955649864183e-05
+    },
+    {
+      "status": "Error.NoError",
+      "vertices": 73124,
+      "triangles": 146244,
+      "each_edge_two_faces": true,
+      "connected_components": 1,
+      "euler": 2,
+      "volume_mm3": 0.004986762353716728,
+      "area_mm2": 0.3204739857866439,
+      "quality": 128,
+      "W1a_volume_mm3": 0.004948041079496866,
+      "net_support_added_volume_mm3": 3.872127421986234e-05
+    }
+  ],
+  "last_relative_volume_change": 0.0018628576972391502,
+  "last_relative_added_volume_change": 0.003659944670617565,
+  "manifold_version": "3.5.4",
+  "numpy_version": "2.3.5",
+  "units": "mm",
+  "no_roughness_or_tolerance_in_mesh": true,
+  "physical_validation": false
+}

@@ -1,0 +1,32 @@
+{
+  "retrieved_on": "2026-10-07",
+  "primary_sources": [
+    {
+      "title": "CompuTiX: Hertz description of contacts",
+      "url": "https://computix.gitlabpages.inria.fr/computix/db/d6e/group__Hertz.html",
+      "used_for": "球・平面の接触半径、荷重、有効弾性率、最大接触圧の式。",
+      "not_evidence_for": "50℃の樹脂グレード、弾性域、実粒群の力、相対変形、人体・ソール安全。"
+    },
+    {
+      "title": "TU Delft: Euler-Bernoulli beam elements",
+      "url": "https://teachbooks.tudelft.nl/computational-modelling/structural_linear/euler_bernouilli.html",
+      "used_for": "EIによる曲げ剛性と、細長い梁・せん断変形無視という適用範囲。",
+      "not_evidence_for": "曲がった粒の全体ばね定数、短い球支点の三次元力学、50℃物性。"
+    }
+  ],
+  "project_sources": [
+    {
+      "commit": "7faa72c788148c9d534ea61b02751ba8084c688d",
+      "path": "GPT往復/幾何検証_内側保持座_20261007/",
+      "used_for": "G3/W1aの寸法、支持関数、既存形状生成、体積上限と費用仮定。"
+    }
+  ],
+  "original_derivations": [
+    "支持関数による近傍球と保持座の全方向余裕下限",
+    "共通の可逆線形変形と残余変位の十分条件",
+    "球中心間だけの一次元可変断面圧縮式",
+    "一定の半径損失による形状余裕・断面性能の比",
+    "縦線区間の連結による型抜き十分条件と反例"
+  ],
+  "physical_test_count": 0
+}
