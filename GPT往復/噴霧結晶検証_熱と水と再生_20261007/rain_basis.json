@@ -1,0 +1,96 @@
+{
+  "scope": "Geometric projection only; no wind, upstream inflow, shielding, or kinetic model. Area is bed-surface area.",
+  "model_rain_mm_definition": "Equivalent supplied-water volume divided by bed area, expressed in mm; not necessarily meteorological vertical rainfall.",
+  "formula": "h_effective=h_vertical*cos(theta); V=A*h_effective/1000; capacity=C*V; h_vertical_equal_inventory=1000*M/(C*A*cos(theta)) for full effective contact.",
+  "area_m2": 2000,
+  "vertical_rain_mm": 100,
+  "concentration_kg_m3": 2.617,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "cases": [
+    {
+      "slope_degrees": 0,
+      "projection_factor": 1,
+      "equivalent_depth_mm": 100,
+      "water_m3": 200,
+      "equilibrium_capacity_kg": 523.4,
+      "inventories": [
+        {
+          "inventory_kg": 10.8,
+          "vertical_rain_equal_inventory_mm": 2.0634314100114635
+        },
+        {
+          "inventory_kg": 108,
+          "vertical_rain_equal_inventory_mm": 20.634314100114636
+        },
+        {
+          "inventory_kg": 540,
+          "vertical_rain_equal_inventory_mm": 103.17157050057318
+        }
+      ]
+    },
+    {
+      "slope_degrees": 20,
+      "projection_factor": 0.9396926207859084,
+      "equivalent_depth_mm": 93.96926207859084,
+      "water_m3": 187.9385241571817,
+      "equilibrium_capacity_kg": 491.83511771934445,
+      "inventories": [
+        {
+          "inventory_kg": 10.8,
+          "vertical_rain_equal_inventory_mm": 2.19585784156283
+        },
+        {
+          "inventory_kg": 108,
+          "vertical_rain_equal_inventory_mm": 21.9585784156283
+        },
+        {
+          "inventory_kg": 540,
+          "vertical_rain_equal_inventory_mm": 109.79289207814149
+        }
+      ]
+    },
+    {
+      "slope_degrees": 30,
+      "projection_factor": 0.8660254037844387,
+      "equivalent_depth_mm": 86.60254037844388,
+      "water_m3": 173.20508075688775,
+      "equilibrium_capacity_kg": 453.27769634077526,
+      "inventories": [
+        {
+          "inventory_kg": 10.8,
+          "vertical_rain_equal_inventory_mm": 2.382645360048895
+        },
+        {
+          "inventory_kg": 108,
+          "vertical_rain_equal_inventory_mm": 23.82645360048895
+        },
+        {
+          "inventory_kg": 540,
+          "vertical_rain_equal_inventory_mm": 119.13226800244475
+        }
+      ]
+    },
+    {
+      "slope_degrees": 45,
+      "projection_factor": 0.7071067811865476,
+      "equivalent_depth_mm": 70.71067811865476,
+      "water_m3": 141.4213562373095,
+      "equilibrium_capacity_kg": 370.09968927303896,
+      "inventories": [
+        {
+          "inventory_kg": 10.8,
+          "vertical_rain_equal_inventory_mm": 2.91813268506485
+        },
+        {
+          "inventory_kg": 108,
+          "vertical_rain_equal_inventory_mm": 29.181326850648503
+        },
+        {
+          "inventory_kg": 540,
+          "vertical_rain_equal_inventory_mm": 145.90663425324252
+        }
+      ]
+    }
+  ]
+}

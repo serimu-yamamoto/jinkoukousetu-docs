@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "cycle": 16,
+  "base_commit": "852334301f6c7f0952b929d3c752bd5d2bd49474",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "normalization": "UTF-8 text CRLF to LF; PNG bytes unchanged; manifest self excluded",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第16巡_噴霧結晶化と骨格接点の分流再生_20261008.md",
+      "bytes": 24208,
+      "sha256": "be79137679a64e9bce79cd21acb2e0777207d4c7825d2b5a4175fd7b7beabc04"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 10492,
+      "sha256": "844ba8ab4c81ebf98304a7bc60c9ed2e39ef12110a105573c4537b7fd4c47766"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/01_thermal_throughput.png",
+      "bytes": 132575,
+      "sha256": "4116ea54beafde6df75997d35991cd41136ff4c824b1583f2c45193aff619b99"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/02_water_rain.png",
+      "bytes": 131852,
+      "sha256": "77a4a1c124145f71aefd20d29e8c1a4edc07c7ef9b0740ce82d5f9d275f1504a"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/03_process_concept.png",
+      "bytes": 128296,
+      "sha256": "6d3d3da10e21b949f681d55c3f22af7c957bad31c6413068179af4a7bb066cae"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/README.md",
+      "bytes": 3901,
+      "sha256": "b182b3a00c3b62eb70e8b9398d856cb661cf8b5c75b8ad787e77d04cf761d175"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/design_limits.json",
+      "bytes": 18680,
+      "sha256": "1b8d99964d74982e3b8d03af932a86372f05022b1ccb9c1d764743897cab88bd"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/design_limits.py",
+      "bytes": 2772,
+      "sha256": "fc874e95ff4181986cb80ccb8ef022d46f76bc44bf2d84448ebd56a8baf01677"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/inputs.json",
+      "bytes": 2613,
+      "sha256": "bb942e4aab191ed83642dfd74e8acb4232a03fefdeeccfbbafbe69454b4b709d"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/plot.py",
+      "bytes": 6441,
+      "sha256": "4f55df0ecb7b1ae73132276270460f123b438729a0f677830699f0623787b664"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/process_model.py",
+      "bytes": 7100,
+      "sha256": "15bb72ed16873dee7ed4deccb017c2824a81c75a44e1561db5f734b6d3ad3c02"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/rain_basis.json",
+      "bytes": 2965,
+      "sha256": "4342f8565e50c47846cd4bb732569a8e9606221e0b1e5741ffad8e232a54e6e4"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/rain_basis.mjs",
+      "bytes": 1369,
+      "sha256": "ed058f5462758d558777bea58be582ad1b158f3b07cc5fa01a3a1dc25cf193de"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/requirements.txt",
+      "bytes": 19,
+      "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/results.json",
+      "bytes": 153712,
+      "sha256": "e38aa674d428bb43dad4b72b1386d712ff7759f07edc9afcc5197810fbd30e8c"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/sources.md",
+      "bytes": 3365,
+      "sha256": "888f5892f9d61a29007269cc07ad6cb9c1ffe1821df742f44a6eaaf1ab024f63"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/verification.json",
+      "bytes": 78044,
+      "sha256": "eee723d2f92e110a968722920c60f8472510c25b9050296ad271b9963da78d60"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/verify.py",
+      "bytes": 3915,
+      "sha256": "b8c4889fe4c710ba4ad8c0e69d48c845ef6d00882b3bb6902fe7f8499cc4349b"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/別結晶接点の比較追記.md",
+      "bytes": 3809,
+      "sha256": "c767b81d9f7b77641c146b941166c1bf598181821107a15e8237310e20011ea1"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/探索台帳.md",
+      "bytes": 3099,
+      "sha256": "85ec52c7bd12bf045ff948136a3ab3d7cb15621839579896c1ecc2632c079191"
+    },
+    {
+      "path": "GPT往復/噴霧結晶検証_熱と水と再生_20261007/検証記録.md",
+      "bytes": 3493,
+      "sha256": "5828e782983b262df14d381750fb8428d3d4b5d767726caaa8ed9ef05863b3d7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16396,
+      "sha256": "f69bfadb678c3847a373e084a47461b0fb9b1a92bce394c19279ed00fc096edf"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 56995,
+      "sha256": "7e214cfc1ae430a6b4ee5f8a5e1c86d827d0912664fb4b1741c9b22060b5bb86"
+    }
+  ]
+}

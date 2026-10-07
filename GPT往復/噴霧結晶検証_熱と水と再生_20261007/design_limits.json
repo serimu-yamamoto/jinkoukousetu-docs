@@ -1,0 +1,563 @@
+{
+  "capacity": [
+    {
+      "rate_kg_h": 500,
+      "mass_per_window_kg": 333.3333333333333,
+      "bed_mass_fraction": 0.0030864197530864196,
+      "equivalent_full_area_depth_mm": 1.3888888888888886,
+      "area_300mm_damage_m2": 9.25925925925926
+    },
+    {
+      "rate_kg_h": 1000,
+      "mass_per_window_kg": 666.6666666666666,
+      "bed_mass_fraction": 0.006172839506172839,
+      "equivalent_full_area_depth_mm": 2.7777777777777772,
+      "area_300mm_damage_m2": 18.51851851851852
+    },
+    {
+      "rate_kg_h": 2000,
+      "mass_per_window_kg": 1333.3333333333333,
+      "bed_mass_fraction": 0.012345679012345678,
+      "equivalent_full_area_depth_mm": 5.5555555555555545,
+      "area_300mm_damage_m2": 37.03703703703704
+    },
+    {
+      "rate_kg_h": 5000,
+      "mass_per_window_kg": 3333.3333333333335,
+      "bed_mass_fraction": 0.0308641975308642,
+      "equivalent_full_area_depth_mm": 13.88888888888889,
+      "area_300mm_damage_m2": 92.5925925925926
+    },
+    {
+      "rate_kg_h": 10000,
+      "mass_per_window_kg": 6666.666666666667,
+      "bed_mass_fraction": 0.0617283950617284,
+      "equivalent_full_area_depth_mm": 27.77777777777778,
+      "area_300mm_damage_m2": 185.1851851851852
+    }
+  ],
+  "renewal_cost": [
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 25920.0,
+      "illustrative_electric_drying_JPY_year": 14179.154968025976,
+      "added_JPY_year": 40099.15496802598,
+      "baseline_plus_added_JPY_year": 16148281.3185516,
+      "max_treated_fraction_for_headroom": 0.7211667773852805
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 259200.0,
+      "illustrative_electric_drying_JPY_year": 141791.54968025975,
+      "added_JPY_year": 400991.5496802598,
+      "baseline_plus_added_JPY_year": 16509173.713263834,
+      "max_treated_fraction_for_headroom": 0.7211667773852805
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 2592000.0,
+      "illustrative_electric_drying_JPY_year": 1417915.4968025975,
+      "added_JPY_year": 4009915.4968025973,
+      "baseline_plus_added_JPY_year": 20118097.66038617,
+      "max_treated_fraction_for_headroom": 0.7211667773852805
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 129600.0,
+      "illustrative_electric_drying_JPY_year": 14179.154968025976,
+      "added_JPY_year": 143779.15496802598,
+      "baseline_plus_added_JPY_year": 16251961.3185516,
+      "max_treated_fraction_for_headroom": 0.20112914400279483
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 1296000.0,
+      "illustrative_electric_drying_JPY_year": 141791.54968025975,
+      "added_JPY_year": 1437791.5496802598,
+      "baseline_plus_added_JPY_year": 17545973.713263836,
+      "max_treated_fraction_for_headroom": 0.20112914400279486
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 12960000.0,
+      "illustrative_electric_drying_JPY_year": 1417915.4968025975,
+      "added_JPY_year": 14377915.496802598,
+      "baseline_plus_added_JPY_year": 30486097.660386175,
+      "max_treated_fraction_for_headroom": 0.20112914400279483
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 259200.0,
+      "illustrative_electric_drying_JPY_year": 14179.154968025976,
+      "added_JPY_year": 273379.154968026,
+      "baseline_plus_added_JPY_year": 16381561.3185516,
+      "max_treated_fraction_for_headroom": 0.10578048047425737
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 2592000.0,
+      "illustrative_electric_drying_JPY_year": 141791.54968025975,
+      "added_JPY_year": 2733791.5496802595,
+      "baseline_plus_added_JPY_year": 18841973.713263836,
+      "max_treated_fraction_for_headroom": 0.10578048047425738
+    },
+    {
+      "slurry_wt": 0.2,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 25920000.0,
+      "illustrative_electric_drying_JPY_year": 1417915.4968025975,
+      "added_JPY_year": 27337915.4968026,
+      "baseline_plus_added_JPY_year": 43446097.660386175,
+      "max_treated_fraction_for_headroom": 0.10578048047425737
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 25920.0,
+      "illustrative_electric_drying_JPY_year": 3025.6619872103906,
+      "added_JPY_year": 28945.66198721039,
+      "baseline_plus_added_JPY_year": 16137127.825570785,
+      "max_treated_fraction_for_headroom": 0.9990505097773102
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 259200.0,
+      "illustrative_electric_drying_JPY_year": 30256.619872103907,
+      "added_JPY_year": 289456.6198721039,
+      "baseline_plus_added_JPY_year": 16397638.78345568,
+      "max_treated_fraction_for_headroom": 0.9990505097773102
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 2592000.0,
+      "illustrative_electric_drying_JPY_year": 302566.19872103905,
+      "added_JPY_year": 2894566.198721039,
+      "baseline_plus_added_JPY_year": 19002748.362304613,
+      "max_treated_fraction_for_headroom": 0.9990505097773102
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 129600.0,
+      "illustrative_electric_drying_JPY_year": 3025.6619872103906,
+      "added_JPY_year": 132625.6619872104,
+      "baseline_plus_added_JPY_year": 16240807.825570785,
+      "max_treated_fraction_for_headroom": 0.21804361185358642
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 1296000.0,
+      "illustrative_electric_drying_JPY_year": 30256.619872103907,
+      "added_JPY_year": 1326256.619872104,
+      "baseline_plus_added_JPY_year": 17434438.783455677,
+      "max_treated_fraction_for_headroom": 0.21804361185358642
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 12960000.0,
+      "illustrative_electric_drying_JPY_year": 302566.19872103905,
+      "added_JPY_year": 13262566.198721038,
+      "baseline_plus_added_JPY_year": 29370748.362304613,
+      "max_treated_fraction_for_headroom": 0.21804361185358642
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 259200.0,
+      "illustrative_electric_drying_JPY_year": 3025.6619872103906,
+      "added_JPY_year": 262225.6619872104,
+      "baseline_plus_added_JPY_year": 16370407.825570785,
+      "max_treated_fraction_for_headroom": 0.11027974205504984
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 2592000.0,
+      "illustrative_electric_drying_JPY_year": 30256.619872103907,
+      "added_JPY_year": 2622256.619872104,
+      "baseline_plus_added_JPY_year": 18730438.783455677,
+      "max_treated_fraction_for_headroom": 0.11027974205504985
+    },
+    {
+      "slurry_wt": 0.5,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 25920000.0,
+      "illustrative_electric_drying_JPY_year": 302566.19872103905,
+      "added_JPY_year": 26222566.19872104,
+      "baseline_plus_added_JPY_year": 42330748.36230461,
+      "max_treated_fraction_for_headroom": 0.11027974205504984
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 25920.0,
+      "illustrative_electric_drying_JPY_year": 237.28874200649392,
+      "added_JPY_year": 26157.288742006494,
+      "baseline_plus_added_JPY_year": 16134339.45232558,
+      "max_treated_fraction_for_headroom": 1
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 259200.0,
+      "illustrative_electric_drying_JPY_year": 2372.8874200649393,
+      "added_JPY_year": 261572.88742006494,
+      "baseline_plus_added_JPY_year": 16369755.05100364,
+      "max_treated_fraction_for_headroom": 1
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 100,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 2592000.0,
+      "illustrative_electric_drying_JPY_year": 23728.874200649392,
+      "added_JPY_year": 2615728.8742006496,
+      "baseline_plus_added_JPY_year": 18723911.037784226,
+      "max_treated_fraction_for_headroom": 1
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 129600.0,
+      "illustrative_electric_drying_JPY_year": 237.28874200649392,
+      "added_JPY_year": 129837.2887420065,
+      "baseline_plus_added_JPY_year": 16238019.45232558,
+      "max_treated_fraction_for_headroom": 0.2227262956917268
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 1296000.0,
+      "illustrative_electric_drying_JPY_year": 2372.8874200649393,
+      "added_JPY_year": 1298372.887420065,
+      "baseline_plus_added_JPY_year": 17406555.05100364,
+      "max_treated_fraction_for_headroom": 0.2227262956917268
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 500,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 12960000.0,
+      "illustrative_electric_drying_JPY_year": 23728.874200649392,
+      "added_JPY_year": 12983728.87420065,
+      "baseline_plus_added_JPY_year": 29091911.037784226,
+      "max_treated_fraction_for_headroom": 0.2227262956917268
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 0.01,
+      "annual_new_solid_kg": 259.2,
+      "annual_addition_fraction_of_bed": 0.0024,
+      "material_JPY_year": 259200.0,
+      "illustrative_electric_drying_JPY_year": 237.28874200649392,
+      "added_JPY_year": 259437.2887420065,
+      "baseline_plus_added_JPY_year": 16367619.45232558,
+      "max_treated_fraction_for_headroom": 0.11146500375634706
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 0.1,
+      "annual_new_solid_kg": 2592.0,
+      "annual_addition_fraction_of_bed": 0.024,
+      "material_JPY_year": 2592000.0,
+      "illustrative_electric_drying_JPY_year": 2372.8874200649393,
+      "added_JPY_year": 2594372.887420065,
+      "baseline_plus_added_JPY_year": 18702555.05100364,
+      "max_treated_fraction_for_headroom": 0.11146500375634708
+    },
+    {
+      "slurry_wt": 0.8,
+      "product_equiv_price_JPY_kg": 1000,
+      "treated_fraction": 1,
+      "annual_new_solid_kg": 25920.0,
+      "annual_addition_fraction_of_bed": 0.24,
+      "material_JPY_year": 25920000.0,
+      "illustrative_electric_drying_JPY_year": 23728.874200649392,
+      "added_JPY_year": 25943728.87420065,
+      "baseline_plus_added_JPY_year": 42051911.037784226,
+      "max_treated_fraction_for_headroom": 0.11146500375634706
+    }
+  ],
+  "enthalpy_sensitivity": [
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 100000,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.09277777777777778,
+      "heat_kWh_per_one_percent": 100.2
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 100000,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.10277777777777777,
+      "heat_kWh_per_one_percent": 111.0
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 100000,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.12277777777777778,
+      "heat_kWh_per_one_percent": 132.6
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 159600,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.10933333333333334,
+      "heat_kWh_per_one_percent": 118.08
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 159600,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.11933333333333333,
+      "heat_kWh_per_one_percent": 128.88
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 159600,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.13933333333333334,
+      "heat_kWh_per_one_percent": 150.48
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 200000,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.12055555555555555,
+      "heat_kWh_per_one_percent": 130.2
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 200000,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.13055555555555556,
+      "heat_kWh_per_one_percent": 141.0
+    },
+    {
+      "cp_J_kgK": 1800,
+      "latent_J_kg": 200000,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.15055555555555555,
+      "heat_kWh_per_one_percent": 162.6
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 100000,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.11083333333333334,
+      "heat_kWh_per_one_percent": 119.7
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 100000,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.12361111111111112,
+      "heat_kWh_per_one_percent": 133.5
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 100000,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.14916666666666667,
+      "heat_kWh_per_one_percent": 161.1
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 159600,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.12738888888888888,
+      "heat_kWh_per_one_percent": 137.58
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 159600,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.14016666666666666,
+      "heat_kWh_per_one_percent": 151.38
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 159600,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.16572222222222222,
+      "heat_kWh_per_one_percent": 178.98
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 200000,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.1386111111111111,
+      "heat_kWh_per_one_percent": 149.7
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 200000,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.15138888888888888,
+      "heat_kWh_per_one_percent": 163.5
+    },
+    {
+      "cp_J_kgK": 2300,
+      "latent_J_kg": 200000,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.17694444444444443,
+      "heat_kWh_per_one_percent": 191.1
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 100000,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.1288888888888889,
+      "heat_kWh_per_one_percent": 139.2
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 100000,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.14444444444444443,
+      "heat_kWh_per_one_percent": 156.0
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 100000,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.17555555555555555,
+      "heat_kWh_per_one_percent": 189.6
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 159600,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.14544444444444443,
+      "heat_kWh_per_one_percent": 157.08
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 159600,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.161,
+      "heat_kWh_per_one_percent": 173.88
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 159600,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.19211111111111112,
+      "heat_kWh_per_one_percent": 207.48
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 200000,
+      "feed_C": 160,
+      "heat_kWh_per_kg": 0.15666666666666668,
+      "heat_kWh_per_one_percent": 169.2
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 200000,
+      "feed_C": 180,
+      "heat_kWh_per_kg": 0.17222222222222222,
+      "heat_kWh_per_one_percent": 186.0
+    },
+    {
+      "cp_J_kgK": 2800,
+      "latent_J_kg": 200000,
+      "feed_C": 220,
+      "heat_kWh_per_kg": 0.20333333333333334,
+      "heat_kWh_per_one_percent": 219.6
+    }
+  ],
+  "scope": "Manufacturing/consumption bounds, not restored ski performance.",
+  "calcite_single_pass_solution": {
+    "C_kg_m3": 0.052,
+    "water_m3_per_kg": 19.23076923076923,
+    "latent_kWh_per_kg": 13087.606837606836,
+    "source": "Bremen PHREEQC 25 C, ambient CO2. Not reactive slurry or recirculation."
+  }
+}

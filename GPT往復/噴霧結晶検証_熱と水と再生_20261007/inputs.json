@@ -1,0 +1,136 @@
+{
+  "provenance": {
+    "base_commit": "852334301f6c7f0952b929d3c752bd5d2bd49474",
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Scenario balances, not calibrated performance or probability"
+  },
+  "bed": {
+    "areas_m2": [
+      2000,
+      20000
+    ],
+    "depths_m": [
+      0.3,
+      0.45
+    ],
+    "bulk_density_kg_m3": 120,
+    "process_minutes": 40,
+    "closure_minutes": 60,
+    "reform_fractions": [
+      0.01,
+      0.05,
+      0.1,
+      1
+    ]
+  },
+  "thermal": {
+    "rho_kg_m3": 950,
+    "cp_J_kgK": 2300,
+    "k_polymer_W_mK": 0.3,
+    "k_air_W_mK": 0.028,
+    "latent_J_kg": 159600,
+    "T_feed_C": 180,
+    "T_cryst_C": 113.5,
+    "T_melt_C": 131.2,
+    "T_start_C": 30,
+    "T_exit_C": 50,
+    "ambient_C": [
+      30,
+      40,
+      50
+    ],
+    "diameters_um": [
+      50,
+      100,
+      250,
+      500,
+      1000
+    ],
+    "Nu": [
+      2,
+      4,
+      8
+    ],
+    "exit_above_ambient_K": 10,
+    "air_cp_J_kgK": 1005,
+    "air_rise_K": 20,
+    "air_density_kg_m3": 1.15,
+    "heat_efficiency": [
+      0.5,
+      0.8
+    ],
+    "electricity_JPY_kWh": [
+      20,
+      40
+    ],
+    "property_status": "Tm,Tc,Hm: one HDPE DSC example, doi:10.1002/app.70796. Hm used as cooling latent heat approximation. Other inputs are unmeasured scenarios."
+  },
+  "aqueous": {
+    "water_latent_J_kg": 2450000,
+    "solution_solids_wt": [
+      0.01,
+      0.05,
+      0.2,
+      0.5,
+      0.8
+    ],
+    "net_evaporation_flux_W_m2": [
+      0,
+      50,
+      200
+    ],
+    "gypsum_C_kg_m3": 2.617,
+    "gypsum_M_g_mol": 172.171,
+    "hemihydrate_M_g_mol": 145.148,
+    "solute_i": [
+      1,
+      2
+    ],
+    "water_Kf": 1.86,
+    "property_status": "Gypsum C=25 C pure-water geochemical table (Bremen); not 50 C runoff measurement. Other chemistry/heat values are nominal constants or scenario inputs."
+  },
+  "bridge": {
+    "product_mass_fractions": [
+      0.0001,
+      0.001,
+      0.005
+    ],
+    "treated_fractions": [
+      0.01,
+      0.1,
+      1
+    ],
+    "hemihydrate_slurry_wt": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "rebuilds_per_day": 2,
+    "days_per_year": 120,
+    "gypsum_product_equiv_price_JPY_kg": [
+      100,
+      500,
+      1000
+    ],
+    "rain_mm": [
+      1,
+      20,
+      100
+    ],
+    "effective_saturation_fraction": [
+      0.01,
+      0.1,
+      1
+    ]
+  },
+  "baseline_cost": {
+    "years": 10,
+    "discount": 0.08,
+    "initial_other_JPY": 20000000,
+    "annual_other_JPY": 4000000,
+    "finished_grain_JPY_kg": 500,
+    "replacement_fraction_year": 0.02,
+    "annual_budget_JPY": 19000000
+  }
+}
