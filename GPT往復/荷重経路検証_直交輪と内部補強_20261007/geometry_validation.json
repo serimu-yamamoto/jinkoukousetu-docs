@@ -1,0 +1,84 @@
+[
+  {
+    "vertices": 25266,
+    "triangles": 50544,
+    "volume_mm3": 0.005139617249369621,
+    "every_edge_two_faces": true,
+    "consistent_orientation": true,
+    "nonzero_face_areas": true,
+    "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+    "opening_deg": 120,
+    "wire_diameter_um": 44,
+    "connected_components": 1,
+    "coarse_fine_volume_change": 0.009066915463173921,
+    "manifold_status": "NoError",
+    "mesh_is_linear_mechanics_model": false,
+    "registered_intersection_samples": [
+      {
+        "s_mm": 0.24,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.28,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.32,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.38,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.46,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.58,
+        "intersection_volume_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "vertices": 25118,
+    "triangles": 50248,
+    "volume_mm3": 0.0047586699947714806,
+    "every_edge_two_faces": true,
+    "consistent_orientation": true,
+    "nonzero_face_areas": true,
+    "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+    "opening_deg": 150,
+    "wire_diameter_um": 44,
+    "connected_components": 1,
+    "coarse_fine_volume_change": 0.009036069924013335,
+    "manifold_status": "NoError",
+    "mesh_is_linear_mechanics_model": false,
+    "registered_intersection_samples": [
+      {
+        "s_mm": 0.24,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.28,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.32,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.38,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.46,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "s_mm": 0.58,
+        "intersection_volume_mm3": 0.0
+      }
+    ]
+  }
+]

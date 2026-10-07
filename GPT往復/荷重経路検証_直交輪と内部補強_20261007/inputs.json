@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "8ff65b6091d47e9eca6e558c1aadec6413d91533",
+  "scope": "Uncalibrated small-strain curved-rod and registered geometry calculations; no physical material validation",
+  "geometry": {
+    "R_mm": 0.24,
+    "wire_radius_mm": 0.022,
+    "opening_deg": 64,
+    "q_mm": 0.06,
+    "s_min_mm": 0.24,
+    "s_max_mm": 0.58,
+    "brace_angles_deg": [
+      45,
+      60,
+      75,
+      85,
+      90,
+      95,
+      105,
+      120,
+      135
+    ],
+    "brace_radii_mm": [
+      0.003,
+      0.006,
+      0.009,
+      0.015,
+      0.022
+    ],
+    "distance_samples": 65537
+  },
+  "mechanics": {
+    "E_MPa": 300,
+    "nu": 0.45,
+    "shear_factor": 0.85,
+    "force_N": 0.001,
+    "force_directions": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "reference_contact_forces_mN": [
+      0.9,
+      6.48,
+      72
+    ],
+    "strain_diagnostic": 0.01,
+    "rotation_diagnostic_rad": 0.05,
+    "displacement_diagnostic_over_R": 0.05,
+    "quadrature_points": 64,
+    "material_is_measured": false,
+    "support": "back crossing point clamped in all six degrees; load at XY opening endpoint. Not a packed bed boundary condition.",
+    "shear_strain_diagnostic": 0.02
+  },
+  "cost": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "initial_other_JPY": 20000000,
+    "annual_other_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "years": 10,
+    "discount": 0.08,
+    "replacement": 0.02,
+    "assumed_price_JPY_kg": 500,
+    "matrix_density_kg_m3": 960,
+    "number_density_m3": 27025038978.723522,
+    "scope": "Hypothetical unquoted pretax pilot; fixed particle count for geometric comparison. 500 JPY/kg is not a raw resin or purchased finished product quote."
+  },
+  "probability": {
+    "physical_tests": 0,
+    "success_probability": null
+  }
+}

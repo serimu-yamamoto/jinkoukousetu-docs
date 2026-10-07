@@ -1,0 +1,93 @@
+{
+  "checks": [
+    {
+      "name": "linear_member_analytic_identities",
+      "passed": true,
+      "scope": "Straight axial, bending/shear, torsion and circular quarter-arc."
+    },
+    {
+      "name": "independent_published_reference",
+      "passed": true,
+      "scope": "Rounded rectangular reference only; not commercial solver execution."
+    },
+    {
+      "name": "quadrature_and_partition_invariance",
+      "passed": true,
+      "scope": "Integration and split of an otherwise unchanged curved rod."
+    },
+    {
+      "name": "rigid_rotation_compatibility",
+      "passed": true,
+      "scope": "No internal deformation under infinitesimal rigid rotation."
+    },
+    {
+      "name": "reciprocity_and_equilibrium",
+      "passed": true,
+      "scope": "Assembled linear equations only."
+    },
+    {
+      "name": "energy_work_identity",
+      "passed": true,
+      "scope": "Linear strain energy is half of final load times displacement."
+    },
+    {
+      "name": "declared_design_counts",
+      "passed": true,
+      "scope": "Enumeration counts are not probability."
+    },
+    {
+      "name": "distance_cover_interval",
+      "passed": true,
+      "scope": "Independent finer angular covering intervals overlap; translation minimum remains analytical."
+    },
+    {
+      "name": "geometry_and_conservative_volume",
+      "passed": true,
+      "scope": "Two connected meshes, oriented closed faces, 12 supplemental static intersection samples, and conservative analytical material volumes."
+    },
+    {
+      "name": "stl_serialization",
+      "passed": true,
+      "scope": "Binary length, finite coordinates, nonzero triangles, unit and consistent normals."
+    },
+    {
+      "name": "files_and_links",
+      "passed": true,
+      "scope": "Finite JSON, Python syntax and relative links in new documents."
+    },
+    {
+      "name": "no_physical_probability",
+      "passed": true,
+      "scope": "No experiments have been performed; geometry and algebra are not physical success."
+    }
+  ],
+  "STLs": [
+    {
+      "path": "R4_open120_wire44um.stl",
+      "triangles": 50544,
+      "bytes": 2527284
+    },
+    {
+      "path": "R4_open150_wire44um.stl",
+      "triangles": 50248,
+      "bytes": 2512484
+    }
+  ],
+  "relative_links": 32,
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "manifold3d": "3.5.4"
+  },
+  "finer_distance_interval_mm": {
+    "upper_mm": 0.05477519746208519,
+    "side": "A_hoop_B_arc",
+    "phi_deg": 144.72976684570312,
+    "s_mm": 0.24,
+    "lower_mm": 0.0547718418791117,
+    "grid_cover_bound_mm": 3.3555829734847956e-06
+  },
+  "physical_tests": 0,
+  "success_probability": null
+}
