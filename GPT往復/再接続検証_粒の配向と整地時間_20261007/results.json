@@ -1,0 +1,705 @@
+{
+  "metadata": {
+    "date": "2026-10-07",
+    "reference_commit": "726df04ba7ade4c35227785578d1a6ec25e1f114",
+    "physical_test_count": 0,
+    "physical_success_probability": null
+  },
+  "geometries": [
+    {
+      "height_um": 0,
+      "centreline_length_mm": 1.256637061435917,
+      "solid_volume_mm3": 0.0036661549199214,
+      "particle_mass_kg": 3.5195087231245437e-09,
+      "bulk_density_fixed_count_kg_m3": 95.11486042839825,
+      "tube_times_max_curvature": 0.12500000000000003,
+      "scope": "Swept circular tube plus hemispherical tips; local curvature check, not deformation or global capture."
+    },
+    {
+      "height_um": 30,
+      "centreline_length_mm": 1.299714270592511,
+      "solid_volume_mm3": 0.0037879528593625558,
+      "particle_mass_kg": 3.636434744988054e-09,
+      "bulk_density_fixed_count_kg_m3": 98.27479072688669,
+      "tube_times_max_curvature": 0.18814991529362968,
+      "scope": "Swept circular tube plus hemispherical tips; local curvature check, not deformation or global capture."
+    },
+    {
+      "height_um": 60,
+      "centreline_length_mm": 1.418083394448724,
+      "solid_volume_mm3": 0.004122633672289242,
+      "particle_mass_kg": 3.9577283253976725e-09,
+      "bulk_density_fixed_count_kg_m3": 106.95776226107027,
+      "tube_times_max_curvature": 0.3077768063061284,
+      "scope": "Swept circular tube plus hemispherical tips; local curvature check, not deformation or global capture."
+    }
+  ],
+  "orientation": [
+    {
+      "cap_deg": 0,
+      "mean_sin_gamma": 0.0,
+      "relative_link_volume": 0.0,
+      "v_link_m3": 0.0,
+      "ideal_mean_links_at_fixed_n": 0.0,
+      "MC_mean": 0.0,
+      "MC_SE": 0.0,
+      "density_multiplier_to_recover_isotropic_mean": null,
+      "R0_density_to_recover_isotropic_mean_kg_m3": null,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 5,
+      "mean_sin_gamma": 0.07885208615463689,
+      "relative_link_volume": 0.10039759427694771,
+      "v_link_m3": 1.1627213216018133e-11,
+      "ideal_mean_links_at_fixed_n": 0.3142258903768193,
+      "MC_mean": 0.07875961892613838,
+      "MC_SE": 6.744386082131286e-05,
+      "density_multiplier_to_recover_isotropic_mean": 9.960398027481522,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 947.3818681951981,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 10,
+      "mean_sin_gamma": 0.156747201469,
+      "relative_link_volume": 0.1995767354369004,
+      "v_link_m3": 2.3113315339812855e-11,
+      "ideal_mean_links_at_fixed_n": 0.6246382479859707,
+      "MC_mean": 0.15665599467049013,
+      "MC_SE": 0.00013297433162493103,
+      "density_multiplier_to_recover_isotropic_mean": 5.010604055682467,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 476.58290541820406,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 20,
+      "mean_sin_gamma": 0.3059756484379573,
+      "relative_link_volume": 0.389580295317191,
+      "v_link_m3": 4.511794521606742e-11,
+      "ideal_mean_links_at_fixed_n": 1.2193142281041345,
+      "MC_mean": 0.3060674884145815,
+      "MC_SE": 0.00025407643869187845,
+      "density_multiplier_to_recover_isotropic_mean": 2.5668649364974003,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 244.14700017349958,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 30,
+      "mean_sin_gamma": 0.4408810762946384,
+      "relative_link_volume": 0.561347220863734,
+      "v_link_m3": 6.501055998610218e-11,
+      "ideal_mean_links_at_fixed_n": 1.7569129176530551,
+      "MC_mean": 0.44087905765553587,
+      "MC_SE": 0.0003518277624819441,
+      "density_multiplier_to_recover_isotropic_mean": 1.781428611085523,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 169.44033370655487,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 45,
+      "mean_sin_gamma": 0.6049553322135118,
+      "relative_link_volume": 0.7702530517726409,
+      "v_link_m3": 8.920429346687557e-11,
+      "ideal_mean_links_at_fixed_n": 2.410749508011804,
+      "MC_mean": 0.6049490880830357,
+      "MC_SE": 0.00043853240357908486,
+      "density_multiplier_to_recover_isotropic_mean": 1.2982746354573023,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 123.48521074925092,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 60,
+      "mean_sin_gamma": 0.7147060370305969,
+      "relative_link_volume": 0.9099919892083095,
+      "v_link_m3": 1.0538769339638365e-10,
+      "ideal_mean_links_at_fixed_n": 2.8481065219150317,
+      "MC_mean": 0.7147284844641211,
+      "MC_SE": 0.0004549310366423404,
+      "density_multiplier_to_recover_isotropic_mean": 1.098910772687128,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 104.52274476739944,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    },
+    {
+      "cap_deg": 90,
+      "mean_sin_gamma": 0.7853981649374245,
+      "relative_link_volume": 1.0000000019607587,
+      "v_link_m3": 1.1581167180901283e-10,
+      "ideal_mean_links_at_fixed_n": 3.129814944829708,
+      "MC_mean": 0.7852611349554014,
+      "MC_SE": 0.0004083124145780362,
+      "density_multiplier_to_recover_isotropic_mean": 0.9999999980392413,
+      "R0_density_to_recover_isotropic_mean_kg_m3": 95.11486024190096,
+      "scope": "Geometry-only independent-centre model; not capture probability, physical packing or success."
+    }
+  ],
+  "link_volume_validation": [
+    {
+      "angle_deg": 15,
+      "analytic_volume_over_R3": 2.7607364810935544,
+      "MC_volume_over_R3": 2.763306666666667,
+      "MC_SE_over_R3": 0.023749790380311584,
+      "criterion_mismatches": 0
+    },
+    {
+      "angle_deg": 30,
+      "analytic_volume_over_R3": 5.333333333333332,
+      "MC_volume_over_R3": 5.303466666666667,
+      "MC_SE_over_R3": 0.032212580771194675,
+      "criterion_mismatches": 0
+    },
+    {
+      "angle_deg": 60,
+      "analytic_volume_over_R3": 9.237604307034012,
+      "MC_volume_over_R3": 9.296853333333333,
+      "MC_SE_over_R3": 0.0411730952375384,
+      "criterion_mismatches": 0
+    },
+    {
+      "angle_deg": 90,
+      "analytic_volume_over_R3": 10.666666666666666,
+      "MC_volume_over_R3": 10.69312,
+      "MC_SE_over_R3": 0.04358963426724294,
+      "criterion_mismatches": 0
+    }
+  ],
+  "vibration": {
+    "scale_ratio": 0.05333333333333333,
+    "gravity_scaled_frequency_Hz": 86.60254037844386,
+    "gravity_scaled_amplitude_um": 82.66666666666666,
+    "Gamma": 2.495068187023609,
+    "time_comparisons": [
+      {
+        "reference_s": 8,
+        "gravity_similarity_only_s": 1.8475208614068024,
+        "active_length_at_0_6m_s_m": 1.1085125168440815
+      },
+      {
+        "reference_s": 60,
+        "gravity_similarity_only_s": 13.856406460551018,
+        "active_length_at_0_6m_s_m": 8.31384387633061
+      },
+      {
+        "reference_s": 120,
+        "gravity_similarity_only_s": 27.712812921102035,
+        "active_length_at_0_6m_s_m": 16.62768775266122
+      }
+    ],
+    "reference_tube_over_D": 0.11111111111111112,
+    "candidate_tube_over_D": 0.125,
+    "candidate_E_over_rho_g_D": 66365103.63574584,
+    "reference_E_over_rho_g_D": 288568433.643328,
+    "routine_total_minutes": 59.037037037037045,
+    "actual_dwell_0_4m_at_nominal_s": 0.6666666666666667
+  },
+  "residence": [
+    {
+      "active_length_m": 0.4,
+      "reference_s": 8,
+      "assumed_dwell_s": 1.8475208614068024,
+      "speed_limited_by_dwell_m_s": 0.21650635094610968,
+      "course_minutes_if_dwell_controls": 124.64004785593347,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 0.4,
+      "reference_s": 60,
+      "assumed_dwell_s": 13.856406460551018,
+      "speed_limited_by_dwell_m_s": 0.02886751345948129,
+      "course_minutes_if_dwell_controls": 791.800358919501,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 0.4,
+      "reference_s": 120,
+      "assumed_dwell_s": 27.712812921102035,
+      "speed_limited_by_dwell_m_s": 0.014433756729740645,
+      "course_minutes_if_dwell_controls": 1561.600717839002,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 1,
+      "reference_s": 8,
+      "assumed_dwell_s": 1.8475208614068024,
+      "speed_limited_by_dwell_m_s": 0.5412658773652742,
+      "course_minutes_if_dwell_controls": 63.05601914237339,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 1,
+      "reference_s": 60,
+      "assumed_dwell_s": 13.856406460551018,
+      "speed_limited_by_dwell_m_s": 0.07216878364870323,
+      "course_minutes_if_dwell_controls": 329.9201435678004,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 1,
+      "reference_s": 120,
+      "assumed_dwell_s": 27.712812921102035,
+      "speed_limited_by_dwell_m_s": 0.036084391824351615,
+      "course_minutes_if_dwell_controls": 637.8402871356008,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 2,
+      "reference_s": 8,
+      "assumed_dwell_s": 1.8475208614068024,
+      "speed_limited_by_dwell_m_s": 1.0825317547305484,
+      "course_minutes_if_dwell_controls": 42.52800957118669,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 2,
+      "reference_s": 60,
+      "assumed_dwell_s": 13.856406460551018,
+      "speed_limited_by_dwell_m_s": 0.14433756729740646,
+      "course_minutes_if_dwell_controls": 175.9600717839002,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 2,
+      "reference_s": 120,
+      "assumed_dwell_s": 27.712812921102035,
+      "speed_limited_by_dwell_m_s": 0.07216878364870323,
+      "course_minutes_if_dwell_controls": 329.9201435678004,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 4,
+      "reference_s": 8,
+      "assumed_dwell_s": 1.8475208614068024,
+      "speed_limited_by_dwell_m_s": 2.165063509461097,
+      "course_minutes_if_dwell_controls": 32.26400478559334,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 4,
+      "reference_s": 60,
+      "assumed_dwell_s": 13.856406460551018,
+      "speed_limited_by_dwell_m_s": 0.2886751345948129,
+      "course_minutes_if_dwell_controls": 98.9800358919501,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    },
+    {
+      "active_length_m": 4,
+      "reference_s": 120,
+      "assumed_dwell_s": 27.712812921102035,
+      "speed_limited_by_dwell_m_s": 0.14433756729740646,
+      "course_minutes_if_dwell_controls": 175.9600717839002,
+      "scope": "Hypothetical dwell constraint; literature time has not been validated for artificial grains."
+    }
+  ],
+  "throughput": [
+    {
+      "area_m2": 2000,
+      "depth_m": 0.03,
+      "volume_m3": 60.0,
+      "net_required_m3_s": 0.02631578947368421,
+      "net_R0_mass_kg_s": 2.5030226428525855
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.15,
+      "volume_m3": 300.0,
+      "net_required_m3_s": 0.13157894736842105,
+      "net_R0_mass_kg_s": 12.515113214262927
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.3,
+      "volume_m3": 600.0,
+      "net_required_m3_s": 0.2631578947368421,
+      "net_R0_mass_kg_s": 25.030226428525854
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.45,
+      "volume_m3": 900.0,
+      "net_required_m3_s": 0.39473684210526316,
+      "net_R0_mass_kg_s": 37.54533964278878
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.03,
+      "volume_m3": 600.0,
+      "net_required_m3_s": 0.2631578947368421,
+      "net_R0_mass_kg_s": 25.030226428525854
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.15,
+      "volume_m3": 3000.0,
+      "net_required_m3_s": 1.3157894736842106,
+      "net_R0_mass_kg_s": 125.15113214262928
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.3,
+      "volume_m3": 6000.0,
+      "net_required_m3_s": 2.6315789473684212,
+      "net_R0_mass_kg_s": 250.30226428525856
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.45,
+      "volume_m3": 9000.0,
+      "net_required_m3_s": 3.9473684210526314,
+      "net_R0_mass_kg_s": 375.4533964278878
+    }
+  ],
+  "selective_reconditioning": [
+    {
+      "damaged_area_fraction_assumed": 0.01,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 2,
+      "net_rate_m3_s": 0.02631578947368421,
+      "one_cell_m3": 0.05263157894736842,
+      "three_cells_m3": 0.15789473684210525,
+      "three_cells_material_kg_R0": 15.018135857115512,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.01,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 15,
+      "net_rate_m3_s": 0.02631578947368421,
+      "one_cell_m3": 0.39473684210526316,
+      "three_cells_m3": 1.1842105263157894,
+      "three_cells_material_kg_R0": 112.63601892836634,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.01,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 30,
+      "net_rate_m3_s": 0.02631578947368421,
+      "one_cell_m3": 0.7894736842105263,
+      "three_cells_m3": 2.3684210526315788,
+      "three_cells_material_kg_R0": 225.27203785673268,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.01,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 2,
+      "net_rate_m3_s": 0.039473684210526314,
+      "one_cell_m3": 0.07894736842105263,
+      "three_cells_m3": 0.23684210526315788,
+      "three_cells_material_kg_R0": 22.52720378567327,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.01,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 15,
+      "net_rate_m3_s": 0.039473684210526314,
+      "one_cell_m3": 0.5921052631578947,
+      "three_cells_m3": 1.776315789473684,
+      "three_cells_material_kg_R0": 168.9540283925495,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.01,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 30,
+      "net_rate_m3_s": 0.039473684210526314,
+      "one_cell_m3": 1.1842105263157894,
+      "three_cells_m3": 3.552631578947368,
+      "three_cells_material_kg_R0": 337.908056785099,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.1,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 2,
+      "net_rate_m3_s": 0.2631578947368421,
+      "one_cell_m3": 0.5263157894736842,
+      "three_cells_m3": 1.5789473684210527,
+      "three_cells_material_kg_R0": 150.18135857115513,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.1,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 15,
+      "net_rate_m3_s": 0.2631578947368421,
+      "one_cell_m3": 3.9473684210526314,
+      "three_cells_m3": 11.842105263157894,
+      "three_cells_material_kg_R0": 1126.3601892836634,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.1,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 30,
+      "net_rate_m3_s": 0.2631578947368421,
+      "one_cell_m3": 7.894736842105263,
+      "three_cells_m3": 23.684210526315788,
+      "three_cells_material_kg_R0": 2252.720378567327,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.1,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 2,
+      "net_rate_m3_s": 0.39473684210526316,
+      "one_cell_m3": 0.7894736842105263,
+      "three_cells_m3": 2.3684210526315788,
+      "three_cells_material_kg_R0": 225.27203785673268,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.1,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 15,
+      "net_rate_m3_s": 0.39473684210526316,
+      "one_cell_m3": 5.921052631578948,
+      "three_cells_m3": 17.763157894736842,
+      "three_cells_material_kg_R0": 1689.5402839254953,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 0.1,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 30,
+      "net_rate_m3_s": 0.39473684210526316,
+      "one_cell_m3": 11.842105263157896,
+      "three_cells_m3": 35.526315789473685,
+      "three_cells_material_kg_R0": 3379.0805678509905,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 1,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 2,
+      "net_rate_m3_s": 2.6315789473684212,
+      "one_cell_m3": 5.2631578947368425,
+      "three_cells_m3": 15.789473684210527,
+      "three_cells_material_kg_R0": 1501.8135857115512,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 1,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 15,
+      "net_rate_m3_s": 2.6315789473684212,
+      "one_cell_m3": 39.473684210526315,
+      "three_cells_m3": 118.42105263157895,
+      "three_cells_material_kg_R0": 11263.601892836634,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 1,
+      "depth_m": 0.3,
+      "conditioning_time_assumed_s": 30,
+      "net_rate_m3_s": 2.6315789473684212,
+      "one_cell_m3": 78.94736842105263,
+      "three_cells_m3": 236.8421052631579,
+      "three_cells_material_kg_R0": 22527.203785673268,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 1,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 2,
+      "net_rate_m3_s": 3.9473684210526314,
+      "one_cell_m3": 7.894736842105263,
+      "three_cells_m3": 23.684210526315788,
+      "three_cells_material_kg_R0": 2252.720378567327,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 1,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 15,
+      "net_rate_m3_s": 3.9473684210526314,
+      "one_cell_m3": 59.21052631578947,
+      "three_cells_m3": 177.6315789473684,
+      "three_cells_material_kg_R0": 16895.40283925495,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    },
+    {
+      "damaged_area_fraction_assumed": 1,
+      "depth_m": 0.45,
+      "conditioning_time_assumed_s": 30,
+      "net_rate_m3_s": 3.9473684210526314,
+      "one_cell_m3": 118.42105263157895,
+      "three_cells_m3": 355.2631578947368,
+      "three_cells_material_kg_R0": 33790.8056785099,
+      "scope": "Three equal cells: fill, condition, discharge in separate phases. Ideal valves/no dead time; peak collection and uneven damage not modelled."
+    }
+  ],
+  "wet_force_scales": [
+    {
+      "wave_height_um": 0,
+      "illustrative_capillary_force_uN": 11.986667345564422,
+      "particle_weight_uN": 0.034526380573851774,
+      "capillary_to_weight": 347.1741649816144,
+      "gravity_scaled_inertial_force_uN": 0.0861456737828875,
+      "capillary_to_scaled_inertia": 139.1441591805801,
+      "scope": "Force scales only, not a wet-bed detachment threshold or PE contact-angle prediction."
+    },
+    {
+      "wave_height_um": 30,
+      "illustrative_capillary_force_uN": 11.986667345564422,
+      "particle_weight_uN": 0.035673424848332816,
+      "capillary_to_weight": 336.01111742217864,
+      "gravity_scaled_inertial_force_uN": 0.08900762746125271,
+      "capillary_to_scaled_inertia": 134.6701140953625,
+      "scope": "Force scales only, not a wet-bed detachment threshold or PE contact-angle prediction."
+    },
+    {
+      "wave_height_um": 60,
+      "illustrative_capillary_force_uN": 11.986667345564422,
+      "particle_weight_uN": 0.03882531487215116,
+      "capillary_to_weight": 308.73329385828845,
+      "gravity_scaled_inertial_force_uN": 0.09687180798867896,
+      "capillary_to_scaled_inertia": 123.73741746376054,
+      "scope": "Force scales only, not a wet-bed detachment threshold or PE contact-angle prediction."
+    }
+  ],
+  "cost": [
+    {
+      "wave_height_um": 0,
+      "pilot_mass_kg": 85603.37438555842,
+      "assumed_purchase_JPY": 42801687.192779206,
+      "annual_equivalent_JPY": 14215337.075509133,
+      "finished_price_ceiling_JPY_kg": 830.6724288389537,
+      "extra_purchase_budget_JPY": 28306675.72488288
+    },
+    {
+      "wave_height_um": 30,
+      "pilot_mass_kg": 88447.31165419803,
+      "assumed_purchase_JPY": 44223655.82709901,
+      "annual_equivalent_JPY": 14455691.706711488,
+      "finished_price_ceiling_JPY_kg": 803.9629649307383,
+      "extra_purchase_budget_JPY": 26884707.090563074
+    },
+    {
+      "wave_height_um": 60,
+      "pilot_mass_kg": 96261.98603496324,
+      "assumed_purchase_JPY": 48130993.01748162,
+      "annual_equivalent_JPY": 15116146.914168928,
+      "finished_price_ceiling_JPY_kg": 738.6961961478218,
+      "extra_purchase_budget_JPY": 22977369.900180466
+    }
+  ],
+  "production": [
+    {
+      "yield_assumption": 0.8,
+      "parallel_lanes": 100,
+      "accepted_particles_s": 1689064.9361702204,
+      "gross_particles_s": 2111331.1702127755,
+      "cut_events_per_lane_s": 21113.311702127754,
+      "feed_m_s_if_60um_pitch": 1.2667987021276652,
+      "scope": "Throughput target for process comparison, not a demonstrated cutter or extrusion rate."
+    },
+    {
+      "yield_assumption": 0.8,
+      "parallel_lanes": 1000,
+      "accepted_particles_s": 1689064.9361702204,
+      "gross_particles_s": 2111331.1702127755,
+      "cut_events_per_lane_s": 2111.3311702127753,
+      "feed_m_s_if_60um_pitch": 0.12667987021276653,
+      "scope": "Throughput target for process comparison, not a demonstrated cutter or extrusion rate."
+    },
+    {
+      "yield_assumption": 0.8,
+      "parallel_lanes": 3000,
+      "accepted_particles_s": 1689064.9361702204,
+      "gross_particles_s": 2111331.1702127755,
+      "cut_events_per_lane_s": 703.7770567375918,
+      "feed_m_s_if_60um_pitch": 0.04222662340425551,
+      "scope": "Throughput target for process comparison, not a demonstrated cutter or extrusion rate."
+    },
+    {
+      "yield_assumption": 0.95,
+      "parallel_lanes": 100,
+      "accepted_particles_s": 1689064.9361702204,
+      "gross_particles_s": 1777963.0907054953,
+      "cut_events_per_lane_s": 17779.630907054954,
+      "feed_m_s_if_60um_pitch": 1.066777854423297,
+      "scope": "Throughput target for process comparison, not a demonstrated cutter or extrusion rate."
+    },
+    {
+      "yield_assumption": 0.95,
+      "parallel_lanes": 1000,
+      "accepted_particles_s": 1689064.9361702204,
+      "gross_particles_s": 1777963.0907054953,
+      "cut_events_per_lane_s": 1777.9630907054952,
+      "feed_m_s_if_60um_pitch": 0.10667778544232971,
+      "scope": "Throughput target for process comparison, not a demonstrated cutter or extrusion rate."
+    },
+    {
+      "yield_assumption": 0.95,
+      "parallel_lanes": 3000,
+      "accepted_particles_s": 1689064.9361702204,
+      "gross_particles_s": 1777963.0907054953,
+      "cut_events_per_lane_s": 592.6543635684984,
+      "feed_m_s_if_60um_pitch": 0.0355592618141099,
+      "scope": "Throughput target for process comparison, not a demonstrated cutter or extrusion rate."
+    }
+  ],
+  "checks": [
+    {
+      "name": "isotropic_hemisphere_equals_full_unoriented_ring_average",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "parallel_ring_link_volume_zero",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "quadrature_matches_independent_MC",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "spatial_MC_matches_analytic_link_volume",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "two_independent_link_criteria_agree",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "flat_tube_volume",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "wavy_lengths_increase",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "local_tube_curvature_regular",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "gravity_similarity_preserves_Gamma",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "gravity_similarity_preserves_cycles",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "production_yield_mass_count_balance",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    },
+    {
+      "name": "no_physical_probability",
+      "passed": true,
+      "scope": "Numerical consistency only"
+    }
+  ]
+}

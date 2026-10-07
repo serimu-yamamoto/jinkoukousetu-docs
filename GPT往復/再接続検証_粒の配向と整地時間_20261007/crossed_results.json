@@ -1,0 +1,2835 @@
+{
+  "models": [
+    {
+      "wire_radius_um": 25,
+      "wire_diameter_um": 50,
+      "opening_deg": 60,
+      "connected_components": 1,
+      "volume_mm3": 0.0049667813399288194,
+      "volume_upper_for_cost_mm3": 0.0050657018944442545,
+      "coarse_volume_mm3": 0.0049204010358960245,
+      "relative_mesh_volume_change": 0.009426122727483888,
+      "mesh": {
+        "vertices": 17454,
+        "triangles": 34904,
+        "volume_mm3": 0.004966781339869434,
+        "every_edge_two_faces": true,
+        "consistent_orientation": true,
+        "nonzero_face_areas": true,
+        "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof."
+      },
+      "continuous_surface_clearance_um": 9.999999999999995,
+      "path": {
+        "x_min_mm": 0.24,
+        "x_max_mm": 0.58,
+        "y_mm": 0.06,
+        "z_mm": 0.06,
+        "critical_x_mm": 0.4402250976807103,
+        "mesh_intersection_checks": [
+          {
+            "x_mm": 0.24,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.3,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.38,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.4402250976807103,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.48,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.58,
+            "intersection_mm3": 0.0
+          }
+        ],
+        "reverse_path_exists": true
+      },
+      "bulk_fixed_count_kg_m3": 131.42475950587158,
+      "pilot_mass_kg": 118282.28355528442,
+      "assumed_purchase_JPY": 59141141.77764221,
+      "annual_equivalent_JPY": 16977186.72957761,
+      "finished_price_ceiling_JPY_kg": 601.1750938544103,
+      "scope": "One registered pairwise path of identical ideal rigid grains; no random capture, retention, wet friction or 50 C mechanics.",
+      "centreline_samples": [
+        {
+          "x_mm": 0.24,
+          "sampled_min_centreline_mm": 0.060008478788223844,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.3,
+          "sampled_min_centreline_mm": 0.060009015603390045,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.38,
+          "sampled_min_centreline_mm": 0.060000374800860685,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.4402250976807103,
+          "sampled_min_centreline_mm": 0.06000756793406759,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.48,
+          "sampled_min_centreline_mm": 0.07140669113265374,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.58,
+          "sampled_min_centreline_mm": 0.149527993759455,
+          "analytic_lower_bound_mm": 0.06
+        }
+      ],
+      "tolerance_corners": [
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -2.5412427706875462
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -2.5412427706875462
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -2.5412427706875462
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -2.5412427706875462
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 2.5062126566575245
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -3.4937873433424755
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -9.493787343342476
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": -2.5412427706875462
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 12.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 6.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 6.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 0.2024050615842583
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 12.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 6.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 6.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 58,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 0.2024050615842583
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 12.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 6.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 6.202405061584258
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 58,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 0.2024050615842583
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 22,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 13.759518727513552
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 22,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 13.759518727513552
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": -1
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 28,
+          "wire_b_um": 28,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 7.7595187275135515
+        }
+      ],
+      "worst_corner_bound": {
+        "radius_a_um": 230,
+        "radius_b_um": 230,
+        "opening_a_deg": 58,
+        "opening_b_deg": 58,
+        "wire_a_um": 28,
+        "wire_b_um": 28,
+        "offset_um": 65,
+        "continuous_clearance_bound_um": -9.493787343342476
+      },
+      "relative_rotation_conservative_sensitivity": [
+        {
+          "angle_deg": 0,
+          "additional_point_displacement_bound_um": 0.0,
+          "remaining_worst_clearance_um": -9.493787343342476
+        },
+        {
+          "angle_deg": 0.5,
+          "additional_point_displacement_bound_um": 2.4259999623190933,
+          "remaining_worst_clearance_um": -11.919787305661568
+        },
+        {
+          "angle_deg": 1,
+          "additional_point_displacement_bound_um": 4.851953737095908,
+          "remaining_worst_clearance_um": -14.345741080438383
+        },
+        {
+          "angle_deg": 2,
+          "additional_point_displacement_bound_um": 9.703537979129633,
+          "remaining_worst_clearance_um": -19.19732532247211
+        },
+        {
+          "angle_deg": 5,
+          "additional_point_displacement_bound_um": 24.252379375126814,
+          "remaining_worst_clearance_um": -33.74616671846929
+        }
+      ],
+      "small_angle_clearance_certificate_limit_deg": 0.0
+    },
+    {
+      "wire_radius_um": 22,
+      "wire_diameter_um": 44,
+      "opening_deg": 64,
+      "connected_components": 1,
+      "volume_mm3": 0.003791141323134213,
+      "volume_upper_for_cost_mm3": 0.0038597618226482396,
+      "coarse_volume_mm3": 0.0037558954998564527,
+      "relative_mesh_volume_change": 0.009384133099312075,
+      "mesh": {
+        "vertices": 17522,
+        "triangles": 35040,
+        "volume_mm3": 0.0037911413226480815,
+        "every_edge_two_faces": true,
+        "consistent_orientation": true,
+        "nonzero_face_areas": true,
+        "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof."
+      },
+      "continuous_surface_clearance_um": 16.0,
+      "path": {
+        "x_min_mm": 0.24,
+        "x_max_mm": 0.58,
+        "y_mm": 0.06,
+        "z_mm": 0.06,
+        "critical_x_mm": 0.43591054384998723,
+        "mesh_intersection_checks": [
+          {
+            "x_mm": 0.24,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.3,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.38,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.43591054384998723,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.48,
+            "intersection_mm3": 0.0
+          },
+          {
+            "x_mm": 0.58,
+            "intersection_mm3": 0.0
+          }
+        ],
+        "reverse_path_exists": true
+      },
+      "bulk_fixed_count_kg_m3": 100.13780515743132,
+      "pilot_mass_kg": 90124.02464168819,
+      "assumed_purchase_JPY": 45062012.32084409,
+      "annual_equivalent_JPY": 14597398.676195092,
+      "finished_price_ceiling_JPY_kg": 789.005630855614,
+      "scope": "One registered pairwise path of identical ideal rigid grains; no random capture, retention, wet friction or 50 C mechanics.",
+      "centreline_samples": [
+        {
+          "x_mm": 0.24,
+          "sampled_min_centreline_mm": 0.06001159115082552,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.3,
+          "sampled_min_centreline_mm": 0.06000343189029374,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.38,
+          "sampled_min_centreline_mm": 0.060027504656126086,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.43591054384998723,
+          "sampled_min_centreline_mm": 0.06003348005471181,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.48,
+          "sampled_min_centreline_mm": 0.07472512481431332,
+          "analytic_lower_bound_mm": 0.06
+        },
+        {
+          "x_mm": 0.58,
+          "sampled_min_centreline_mm": 0.1545440330844012,
+          "analytic_lower_bound_mm": 0.06
+        }
+      ],
+      "tolerance_corners": [
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 22.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 10.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 22.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 10.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 22.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 230,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 10.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 22.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 10.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 9.458757229312454
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 3.4587572293124538
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 22.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 16.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 230,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 10.266978053456228
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 25.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 13.759518727513552
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 25.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 62,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 13.759518727513552
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 25.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 19.75951872751355
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 62,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 13.759518727513552
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 17
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 27
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 19,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 21
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 11
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 19,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 21
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 55,
+          "continuous_clearance_bound_um": 5
+        },
+        {
+          "radius_a_um": 250,
+          "radius_b_um": 250,
+          "opening_a_deg": 66,
+          "opening_b_deg": 66,
+          "wire_a_um": 25,
+          "wire_b_um": 25,
+          "offset_um": 65,
+          "continuous_clearance_bound_um": 15
+        }
+      ],
+      "worst_corner_bound": {
+        "radius_a_um": 230,
+        "radius_b_um": 230,
+        "opening_a_deg": 62,
+        "opening_b_deg": 62,
+        "wire_a_um": 25,
+        "wire_b_um": 25,
+        "offset_um": 65,
+        "continuous_clearance_bound_um": 3.4587572293124538
+      },
+      "relative_rotation_conservative_sensitivity": [
+        {
+          "angle_deg": 0,
+          "additional_point_displacement_bound_um": 0.0,
+          "remaining_worst_clearance_um": 3.4587572293124538
+        },
+        {
+          "angle_deg": 0.5,
+          "additional_point_displacement_bound_um": 2.399820106610614,
+          "remaining_worst_clearance_um": 1.0589371227018396
+        },
+        {
+          "angle_deg": 1,
+          "additional_point_displacement_bound_um": 4.799594524105664,
+          "remaining_worst_clearance_um": -1.34083729479321
+        },
+        {
+          "angle_deg": 2,
+          "additional_point_displacement_bound_um": 9.598823540505931,
+          "remaining_worst_clearance_um": -6.140066311193477
+        },
+        {
+          "angle_deg": 5,
+          "additional_point_displacement_bound_um": 23.9906630509348,
+          "remaining_worst_clearance_um": -20.531905821622345
+        }
+      ],
+      "small_angle_clearance_certificate_limit_deg": 0.7206309011377283
+    }
+  ],
+  "continuous_path_proof": {
+    "q_mm": 0.06,
+    "same_plane_bound_mm": 0.06,
+    "nominal_cross_plane_bound_mm": 0.06,
+    "general_bound": "min(q, Ra*sin(theta_a/2)-q, Rb*sin(theta_b/2)-q) - a_a - a_b",
+    "scope": "Registered path with matched orientation; tolerances allow independent radii, gaps and wire radii. Positive bound certifies clearance only. Reverse route exists."
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-07",
+  "source_commit": "726df04ba7ade4c35227785578d1a6ec25e1f114",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "seed": 1007,
+  "ring": {
+    "center_radius_um": 240,
+    "tube_radius_um": 30,
+    "opening_deg": 60,
+    "wave_heights_um": [
+      0,
+      30,
+      60
+    ],
+    "wave_number": 3,
+    "material_density_kg_m3": 960,
+    "assumed_E_Pa": 300000000,
+    "number_density_m3": 27025038978.723522,
+    "scope": "R0/R1 are geometric comparison candidates, no inheritance of W2 protection or 50C mechanics.",
+    "crossed_variant": {
+      "tube_radius_um": 25,
+      "lean_tube_radius_um": 22,
+      "registered_offset_um": 60,
+      "registered_x_min_um": 240,
+      "registered_x_max_um": 580,
+      "scope": "Two orthogonal C loops sharing the rear junction. Continuous registered path only; reverse path also exists, so no self-locking claim.",
+      "lean_opening_deg": 64,
+      "tolerance": {
+        "radius_um": [
+          230,
+          250
+        ],
+        "opening_delta_deg": [
+          -2,
+          2
+        ],
+        "wire_radius_delta_um": [
+          -3,
+          3
+        ],
+        "path_offset_um": [
+          55,
+          65
+        ]
+      }
+    }
+  },
+  "orientation": {
+    "cap_angles_deg": [
+      0,
+      5,
+      10,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "quadrature_order": 80,
+    "azimuth_count": 256,
+    "MC_pairs": 300000,
+    "geometric_volume_MC_samples": 300000,
+    "fixed_relative_angles_deg": [
+      15,
+      30,
+      60,
+      90
+    ],
+    "scope": "Closed, infinitely thin planar rings, random independent centres and orientations; not physical packing, capture or holding strength."
+  },
+  "reference_vibration": {
+    "D_m": 0.009,
+    "tube_diameter_m": 0.001,
+    "frequency_Hz": 20,
+    "amplitude_m": 0.00155,
+    "reference_durations_s": [
+      8,
+      60,
+      120
+    ],
+    "density_kg_m3": 7850,
+    "assumed_E_Pa": 200000000000,
+    "scope": "Literature geometry and motion; elasticity/density values are comparison assumptions, not a fitted material law."
+  },
+  "grooming": {
+    "g_m_s2": 9.81,
+    "slope_deg": 30,
+    "course_length_m": 1000,
+    "course_width_m": 20,
+    "pilot_area_m2": 2000,
+    "operating_speed_m_s": 0.6,
+    "utilization": 0.75,
+    "other_minutes": 22,
+    "closure_minutes": 60,
+    "active_lengths_m": [
+      0.4,
+      1,
+      2,
+      4
+    ],
+    "depths_m": [
+      0.03,
+      0.15,
+      0.3,
+      0.45
+    ],
+    "scope": "Residence and throughput bookkeeping, not machine power or proven full-depth treatment.",
+    "repair_area_fractions": [
+      0.01,
+      0.1,
+      1
+    ],
+    "unvalidated_conditioning_times_s": [
+      2,
+      15,
+      30
+    ]
+  },
+  "wet": {
+    "T_C": 50,
+    "bridge_radius_um": 30,
+    "bridge_V_R3": 0.001,
+    "contact_angle_deg": 0,
+    "scope": "Illustrative touching equal spheres from cycle9; not PE wetting, saturated-bed strength or a detachment law."
+  },
+  "cost": {
+    "W2_volume_upper_mm3": 0.005330003249836027,
+    "W2_bulk_kg_m3": 138.2818037602,
+    "bulk_cap_kg_m3": 158.0185842615,
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "initial_other_JPY": 20000000,
+    "annual_other_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "years": 10,
+    "discount": 0.08,
+    "replacement": 0.02,
+    "assumed_price_JPY_kg": 500,
+    "scope": "Hypothetical unquoted pretax pilot; fixed particle count for geometric comparison. 500 JPY/kg is not a raw resin or purchased finished product quote.",
+    "matrix_density_kg_m3": 960,
+    "gate_reference_volume_mm3": 0.000105,
+    "number_density_m3": 27025038978.723522,
+    "force_reference_10kPa_N": 0.0049336962451119876,
+    "magnet_price_scenarios_JPY_kg": [
+      500,
+      1000,
+      3000
+    ],
+    "magnetic_grain_fraction": [
+      1,
+      0.5,
+      0.1
+    ],
+    "working_hours": 4000,
+    "process_yield": [
+      0.8,
+      0.95
+    ],
+    "pitch_mm": 0.06,
+    "parallel_strands": [
+      100,
+      1000,
+      3000
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+[
+  {
+    "name": "R0_planar",
+    "height_um": 0,
+    "analytic_volume_mm3": 0.0036661549199214,
+    "coarse": {
+      "vertices": 2186,
+      "triangles": 4368,
+      "volume_mm3": 0.003620006959896522,
+      "every_edge_two_faces": true,
+      "consistent_orientation": true,
+      "nonzero_face_areas": true,
+      "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+      "relative_volume_error": 0.01258756409177264
+    },
+    "final": {
+      "vertices": 8786,
+      "triangles": 17568,
+      "volume_mm3": 0.0036545793920336766,
+      "every_edge_two_faces": true,
+      "consistent_orientation": true,
+      "nonzero_face_areas": true,
+      "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+      "relative_volume_error": 0.0031574028213656735
+    },
+    "gravity_support": {
+      "centre_of_mass_mm": [
+        -0.038038339387141726,
+        -1.5203824282127706e-16,
+        -6.158733693255121e-18
+      ],
+      "minimum_height_found_mm": 0.029999999999999992,
+      "tilt_from_original_plane_normal_deg": 0.0,
+      "vertical_up_height_mm": 0.029999999999999992,
+      "vertical_down_height_mm": 0.03000000000000003,
+      "scope": "42-start local search of gravity support on a rigid plane. Centreline sampled at 4001 points, mesh mass centroid. No certified global optimum or dynamic packing proof."
+    }
+  },
+  {
+    "name": "R1_wave_30um",
+    "height_um": 30,
+    "analytic_volume_mm3": 0.0037879528593625558,
+    "coarse": {
+      "vertices": 2186,
+      "triangles": 4368,
+      "volume_mm3": 0.003738826435793444,
+      "every_edge_two_faces": true,
+      "consistent_orientation": true,
+      "nonzero_face_areas": true,
+      "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+      "relative_volume_error": 0.012969122212724393
+    },
+    "final": {
+      "vertices": 8786,
+      "triangles": 17568,
+      "volume_mm3": 0.003775627628151586,
+      "every_edge_two_faces": true,
+      "consistent_orientation": true,
+      "nonzero_face_areas": true,
+      "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+      "relative_volume_error": 0.003253797412105075
+    },
+    "gravity_support": {
+      "centre_of_mass_mm": [
+        -0.03824648368002469,
+        -2.517416186732118e-06,
+        -0.003662902374293966
+      ],
+      "minimum_height_found_mm": 0.05633709762570603,
+      "tilt_from_original_plane_normal_deg": 0.0,
+      "vertical_up_height_mm": 0.05633709762570603,
+      "vertical_down_height_mm": 0.06366290237429398,
+      "scope": "42-start local search of gravity support on a rigid plane. Centreline sampled at 4001 points, mesh mass centroid. No certified global optimum or dynamic packing proof."
+    }
+  },
+  {
+    "name": "R1_wave_60um",
+    "height_um": 60,
+    "analytic_volume_mm3": 0.004122633672289242,
+    "coarse": {
+      "vertices": 2186,
+      "triangles": 4368,
+      "volume_mm3": 0.004065636003585655,
+      "every_edge_two_faces": true,
+      "consistent_orientation": true,
+      "nonzero_face_areas": true,
+      "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+      "relative_volume_error": 0.013825547752812306
+    },
+    "final": {
+      "vertices": 8786,
+      "triangles": 17568,
+      "volume_mm3": 0.004108327483265293,
+      "every_edge_two_faces": true,
+      "consistent_orientation": true,
+      "nonzero_face_areas": true,
+      "scope": "Closed oriented surface, volume convergence; not global self-intersection, manufacturing or mechanical proof.",
+      "relative_volume_error": 0.003470157710133037
+    },
+    "gravity_support": {
+      "centre_of_mass_mm": [
+        -0.03875899667556217,
+        -4.6415352991990474e-06,
+        -0.007152579888068932
+      ],
+      "minimum_height_found_mm": 0.08247655870033928,
+      "tilt_from_original_plane_normal_deg": 10.61965418865672,
+      "vertical_up_height_mm": 0.08284742011193107,
+      "vertical_down_height_mm": 0.09715257988806894,
+      "scope": "42-start local search of gravity support on a rigid plane. Centreline sampled at 4001 points, mesh mass centroid. No certified global optimum or dynamic packing proof."
+    }
+  }
+]
