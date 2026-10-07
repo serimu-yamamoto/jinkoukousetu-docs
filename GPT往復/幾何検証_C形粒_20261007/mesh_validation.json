@@ -1,0 +1,135 @@
+{
+  "manifold3d_version": "3.5.4",
+  "numpy_version": "2.3.5",
+  "mesh_checks": [
+    {
+      "id": "G1",
+      "quality_levels": [
+        {
+          "status": "Error.NoError",
+          "vertices": 1156,
+          "triangles": 2308,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004494330219204383,
+          "area_mm2": 0.30956725791180073,
+          "quality": 16
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 4626,
+          "triangles": 9248,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004592283537879573,
+          "area_mm2": 0.311478417097609,
+          "quality": 32
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 18038,
+          "triangles": 36072,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004617056590846729,
+          "area_mm2": 0.3119646249026793,
+          "quality": 64
+        }
+      ],
+      "stl_units": "mm",
+      "meshes_are_approximations": true
+    },
+    {
+      "id": "G2",
+      "quality_levels": [
+        {
+          "status": "Error.NoError",
+          "vertices": 1156,
+          "triangles": 2308,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004549980664793185,
+          "area_mm2": 0.3133345856096672,
+          "quality": 16
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 4584,
+          "triangles": 9164,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.0046492082150971096,
+          "area_mm2": 0.31529838730440923,
+          "quality": 32
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 17920,
+          "triangles": 35836,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004674303556409248,
+          "area_mm2": 0.31578595644139745,
+          "quality": 64
+        }
+      ],
+      "stl_units": "mm",
+      "meshes_are_approximations": true
+    },
+    {
+      "id": "G3",
+      "quality_levels": [
+        {
+          "status": "Error.NoError",
+          "vertices": 1154,
+          "triangles": 2304,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004705352112473644,
+          "area_mm2": 0.3105279833150979,
+          "quality": 16
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 4468,
+          "triangles": 8932,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004842831083762266,
+          "area_mm2": 0.3136133943107563,
+          "quality": 32
+        },
+        {
+          "status": "Error.NoError",
+          "vertices": 17576,
+          "triangles": 35148,
+          "each_edge_two_faces": true,
+          "euler": 2,
+          "volume_mm3": 0.004878232307127644,
+          "area_mm2": 0.3144194166781123,
+          "quality": 64
+        }
+      ],
+      "stl_units": "mm",
+      "meshes_are_approximations": true
+    }
+  ],
+  "critical_pose_checks": [
+    {
+      "id": "G1",
+      "critical_pose_intersection_volume_mm3": 0.0,
+      "note": "Single tessellated pose check, not continuous or all-direction proof."
+    },
+    {
+      "id": "G2",
+      "critical_pose_intersection_volume_mm3": 2.042132961798514e-06,
+      "note": "Single tessellated pose check, not continuous or all-direction proof."
+    },
+    {
+      "id": "G3",
+      "critical_pose_intersection_volume_mm3": 6.66253479267178e-05,
+      "note": "Single tessellated pose check, not continuous or all-direction proof."
+    }
+  ],
+  "scope": "Review meshes; no physical, fabrication, or all-pose validation."
+}

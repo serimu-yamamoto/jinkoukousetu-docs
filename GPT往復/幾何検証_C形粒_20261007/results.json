@@ -1,0 +1,1983 @@
+{
+  "scope": "Planar circular centerline with circular tube radius, hemispherical tube tips, optional larger spherical end guards. Equal pair in perpendicular planes. Not an extruded rectangular section, CAD-qualified product, force simulation, or all-path proof.",
+  "physical_test_count": 0,
+  "success_probability": null,
+  "candidates": [
+    {
+      "id": "G1",
+      "description": "round strand C, gap40um",
+      "D_mm": 0.6,
+      "d_mm": 0.06,
+      "end_diameter_mm": 0.06,
+      "gap_mm": 0.04,
+      "R_mm": 0.27,
+      "r_mm": 0.03,
+      "re_mm": 0.03,
+      "theta_rad": 0.18626030357655624,
+      "arc_length_mm": 1.595879469007148,
+      "volume_lower_mm3": 0.004625340229792105,
+      "volume_upper_mm3": 0.004625340229792105,
+      "mass_lower_kg": 4.440326620600421e-09,
+      "mass_upper_kg": 4.440326620600421e-09,
+      "critical_separation_mm": 0.530659966456864,
+      "minimum_clearance_mm": 0.010710678118654754,
+      "checked_path": "CERTIFIED_CLEAR_IN_IDEAL_MODEL",
+      "all_paths_retention": "NOT_PROVEN",
+      "gap_threshold_this_path_mm": 0.024852813742385706,
+      "radial_wear_to_path_tangency_mm": 0,
+      "wear_scope": "uniform whole-strand radial wear",
+      "tip_shift_to_tangency_each_mm": 0,
+      "tip_shift_for_2um_clearance_each_mm": 0,
+      "single_gap_body_pass_shift_each_mm": 0.009999999999999998,
+      "mass_ratio_lower": 1.0,
+      "mass_ratio_upper": 1.0,
+      "assumed_same_count_bulk_upper": 120.0,
+      "assumed_EAC_upper_yen": 16108182.163583575,
+      "price_cap_at_bulk_upper_yen_kg": 658.4107677561302,
+      "speed_for_75kg_hour_lower_m_s": 2.477881720597142,
+      "speed_for_75kg_hour_upper_m_s": 2.477881720597142
+    },
+    {
+      "id": "G2",
+      "description": "round strand C, gap20um",
+      "D_mm": 0.6,
+      "d_mm": 0.06,
+      "end_diameter_mm": 0.06,
+      "gap_mm": 0.02,
+      "R_mm": 0.27,
+      "r_mm": 0.03,
+      "re_mm": 0.03,
+      "theta_rad": 0.1486954942675623,
+      "arc_length_mm": 1.6161644660340047,
+      "volume_lower_mm3": 0.004682694707666002,
+      "volume_upper_mm3": 0.004682694707666002,
+      "mass_lower_kg": 4.495386919359362e-09,
+      "mass_upper_kg": 4.495386919359362e-09,
+      "critical_separation_mm": 0.5340411969127477,
+      "minimum_clearance_mm": -0.003431457505076202,
+      "checked_path": "THIS_PATH_INTERSECTS",
+      "all_paths_retention": "NOT_PROVEN",
+      "gap_threshold_this_path_mm": 0.024852813742385706,
+      "radial_wear_to_path_tangency_mm": 0.001715728752538101,
+      "wear_scope": "uniform whole-strand radial wear",
+      "tip_shift_to_tangency_each_mm": 0.002426406871192853,
+      "tip_shift_for_2um_clearance_each_mm": 0.0038406204335659482,
+      "single_gap_body_pass_shift_each_mm": 0.019999999999999997,
+      "mass_ratio_lower": 1.012400056001172,
+      "mass_ratio_upper": 1.012400056001172,
+      "assumed_same_count_bulk_upper": 121.48800672014065,
+      "assumed_EAC_upper_yen": 16221364.820371008,
+      "price_cap_at_bulk_upper_yen_kg": 650.3464355353295,
+      "speed_for_75kg_hour_lower_m_s": 2.447532184445348,
+      "speed_for_75kg_hour_upper_m_s": 2.447532184445348
+    },
+    {
+      "id": "G3",
+      "description": "C with round enlarged end guards, gap20um",
+      "D_mm": 0.6,
+      "d_mm": 0.06,
+      "end_diameter_mm": 0.1,
+      "gap_mm": 0.02,
+      "R_mm": 0.25,
+      "r_mm": 0.03,
+      "re_mm": 0.05,
+      "theta_rad": 0.24236585103896324,
+      "arc_length_mm": 1.449613401275415,
+      "volume_lower_mm3": 0.004211782666322173,
+      "volume_upper_mm3": 0.0050327855464603055,
+      "mass_lower_kg": 4.043311359669286e-09,
+      "mass_upper_kg": 4.8314741246018934e-09,
+      "critical_separation_mm": 0.4853864439804639,
+      "minimum_clearance_mm": -0.015147186257614298,
+      "checked_path": "THIS_PATH_INTERSECTS",
+      "all_paths_retention": "NOT_PROVEN",
+      "gap_threshold_this_path_mm": 0.04142135623730952,
+      "radial_wear_to_path_tangency_mm": 0.007573593128807149,
+      "wear_scope": "end-guard radial wear while guard diameter remains at least strand diameter",
+      "tip_shift_to_tangency_each_mm": 0.01071067811865476,
+      "tip_shift_for_2um_clearance_each_mm": 0.012124891681027853,
+      "single_gap_body_pass_shift_each_mm": 0.019999999999999997,
+      "mass_ratio_lower": 0.9105887258182258,
+      "mass_ratio_upper": 1.0880898045172591,
+      "assumed_same_count_bulk_upper": 130.5707765420711,
+      "assumed_EAC_upper_yen": 16912229.992900368,
+      "price_cap_at_bulk_upper_yen_kg": 605.1070095709979,
+      "speed_for_75kg_hour_lower_m_s": 2.2772768482069154,
+      "speed_for_75kg_hour_upper_m_s": 2.7211864701823507
+    }
+  ],
+  "path_samples": [
+    {
+      "id": "G1",
+      "center_separation_mm": 0.27,
+      "clearance_mm": 0.21008076220511052
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.27540000000000003,
+      "clearance_mm": 0.20487289494313932
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.2808,
+      "clearance_mm": 0.19967287659250282
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.2862,
+      "clearance_mm": 0.1944811883029688
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.2916,
+      "clearance_mm": 0.18929835050067403
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.29700000000000004,
+      "clearance_mm": 0.18412492688093687
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3024,
+      "clearance_mm": 0.17896152888464842
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3078,
+      "clearance_mm": 0.17380882072572568
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.31320000000000003,
+      "clearance_mm": 0.168667525047656
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3186,
+      "clearance_mm": 0.16353842929949713
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.324,
+      "clearance_mm": 0.15842239293614596
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3294,
+      "clearance_mm": 0.15332035556462492
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.33480000000000004,
+      "clearance_mm": 0.148233346177993
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3402,
+      "clearance_mm": 0.14316249364178849
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3456,
+      "clearance_mm": 0.1381090386252369
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.35100000000000003,
+      "clearance_mm": 0.13307434720148992
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.35640000000000005,
+      "clearance_mm": 0.12805992637866084
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3618,
+      "clearance_mm": 0.12306744186723434
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3672,
+      "clearance_mm": 0.11809873844044794
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.37260000000000004,
+      "clearance_mm": 0.11315586330339769
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.378,
+      "clearance_mm": 0.10824109295475595
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.3834,
+      "clearance_mm": 0.10335696410277923
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.38880000000000003,
+      "clearance_mm": 0.09850630928496998
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.39420000000000005,
+      "clearance_mm": 0.0936922979378226
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.39960000000000007,
+      "clearance_mm": 0.08891848376771197
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.405,
+      "clearance_mm": 0.08418885938220114
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4104,
+      "clearance_mm": 0.07950791924548961
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.41580000000000006,
+      "clearance_mm": 0.07488073210978619
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4212,
+      "clearance_mm": 0.07031302412551779
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4266,
+      "clearance_mm": 0.06581127381520172
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.43200000000000005,
+      "clearance_mm": 0.06138281995929043
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4374,
+      "clearance_mm": 0.05703598311431998
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4428,
+      "clearance_mm": 0.0527802008590216
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.44820000000000004,
+      "clearance_mm": 0.048626175796016705
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4536,
+      "clearance_mm": 0.04458603362941441
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4590000000000001,
+      "clearance_mm": 0.04067348604572536
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.46440000000000003,
+      "clearance_mm": 0.03690398936506553
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4698,
+      "clearance_mm": 0.03329488473185767
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.47520000000000007,
+      "clearance_mm": 0.02986549882683827
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4806,
+      "clearance_mm": 0.02663717586384233
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.48600000000000004,
+      "clearance_mm": 0.023633202760196925
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.49140000000000006,
+      "clearance_mm": 0.020878581628228865
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.4968,
+      "clearance_mm": 0.018399600308036987
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5022,
+      "clearance_mm": 0.016223157181566708
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5076,
+      "clearance_mm": 0.014375816318153378
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.513,
+      "clearance_mm": 0.012882607083292238
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5184000000000001,
+      "clearance_mm": 0.011765637860493006
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5238,
+      "clearance_mm": 0.011042657184182653
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5292000000000001,
+      "clearance_mm": 0.010725748508270794
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5346,
+      "clearance_mm": 0.010820363345022718
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.54,
+      "clearance_mm": 0.01132486401379891
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5454000000000001,
+      "clearance_mm": 0.012230662386916946
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5508,
+      "clearance_mm": 0.013522928064098771
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5562,
+      "clearance_mm": 0.015181735237918756
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5616000000000001,
+      "clearance_mm": 0.017183454675535156
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5670000000000001,
+      "clearance_mm": 0.019502188887578792
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5724,
+      "clearance_mm": 0.022111085732574032
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5778000000000001,
+      "clearance_mm": 0.024983426398610203
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5831999999999999,
+      "clearance_mm": 0.028093445412890133
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5886,
+      "clearance_mm": 0.03141688841226073
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5940000000000001,
+      "clearance_mm": 0.034931342818089364
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.5994,
+      "clearance_mm": 0.03861638916281346
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6048,
+      "clearance_mm": 0.04245362157472686
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6102000000000001,
+      "clearance_mm": 0.04642658002605936
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6156,
+      "clearance_mm": 0.05052062838361479
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.621,
+      "clearance_mm": 0.05472280357703495
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6264000000000001,
+      "clearance_mm": 0.05902165358807962
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6318,
+      "clearance_mm": 0.06340707591182398
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6372,
+      "clearance_mm": 0.06787016363238357
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6426000000000001,
+      "clearance_mm": 0.07240306306743222
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6480000000000001,
+      "clearance_mm": 0.07699884478310143
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6534,
+      "clearance_mm": 0.08165138839478472
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6588,
+      "clearance_mm": 0.08635528072617005
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6642,
+      "clearance_mm": 0.0911057264259098
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6696,
+      "clearance_mm": 0.09589846991220843
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.675,
+      "clearance_mm": 0.10072972744092379
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6804000000000001,
+      "clearance_mm": 0.10559612811143726
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6858000000000001,
+      "clearance_mm": 0.11049466269583161
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6912,
+      "clearance_mm": 0.11542263927449972
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.6966000000000001,
+      "clearance_mm": 0.12037764476868287
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7020000000000001,
+      "clearance_mm": 0.12535751156768102
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7074,
+      "clearance_mm": 0.13036028854997267
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7128000000000001,
+      "clearance_mm": 0.1353842158903701
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7182,
+      "clearance_mm": 0.14042770312848613
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7236,
+      "clearance_mm": 0.14548931004708363
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7290000000000001,
+      "clearance_mm": 0.15056772997278658
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7344,
+      "clearance_mm": 0.15566177516694565
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7398,
+      "clearance_mm": 0.16077036402204004
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7452000000000001,
+      "clearance_mm": 0.16589250981980339
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7506,
+      "clearance_mm": 0.17102731084215092
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.756,
+      "clearance_mm": 0.17617394165576708
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7614000000000001,
+      "clearance_mm": 0.18133164541660834
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7668000000000001,
+      "clearance_mm": 0.18649972706222917
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7722000000000001,
+      "clearance_mm": 0.19167754727829683
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7776000000000001,
+      "clearance_mm": 0.19686451714140119
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.783,
+      "clearance_mm": 0.20206009335370206
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7884000000000001,
+      "clearance_mm": 0.20726377399643398
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7938000000000001,
+      "clearance_mm": 0.2124750947391023
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.7992,
+      "clearance_mm": 0.21769362544961063
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.8046,
+      "clearance_mm": 0.22291896715776144
+    },
+    {
+      "id": "G1",
+      "center_separation_mm": 0.81,
+      "clearance_mm": 0.2281507493307633
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.27,
+      "clearance_mm": 0.21003287515988933
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.27540000000000003,
+      "clearance_mm": 0.2047551108863787
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.2808,
+      "clearance_mm": 0.1994823766921388
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.2862,
+      "clearance_mm": 0.1942149855676163
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.2916,
+      "clearance_mm": 0.18895327666147652
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.29700000000000004,
+      "clearance_mm": 0.1836976180306816
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3024,
+      "clearance_mm": 0.17844840973923548
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3078,
+      "clearance_mm": 0.17320608735732576
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.31320000000000003,
+      "clearance_mm": 0.16797112592136523
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3186,
+      "clearance_mm": 0.16274404442587756
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.324,
+      "clearance_mm": 0.1575254109306304
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3294,
+      "clearance_mm": 0.1523158483813254
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.33480000000000004,
+      "clearance_mm": 0.14711604126002473
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3402,
+      "clearance_mm": 0.14192674320299084
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3456,
+      "clearance_mm": 0.13674878574951593
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.35100000000000003,
+      "clearance_mm": 0.1315830884166221
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.35640000000000005,
+      "clearance_mm": 0.1264306703324149
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3618,
+      "clearance_mm": 0.12129266370688008
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3672,
+      "clearance_mm": 0.11617032947485292
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.37260000000000004,
+      "clearance_mm": 0.1110650755140293
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.378,
+      "clearance_mm": 0.10597847792398535
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.3834,
+      "clearance_mm": 0.10091230595360073
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.38880000000000003,
+      "clearance_mm": 0.09586855128808866
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.39420000000000005,
+      "clearance_mm": 0.09084946255784224
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.39960000000000007,
+      "clearance_mm": 0.08585758611512864
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.405,
+      "clearance_mm": 0.08089581434760404
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4104,
+      "clearance_mm": 0.07596744306640779
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.41580000000000006,
+      "clearance_mm": 0.07107623982766348
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4212,
+      "clearance_mm": 0.06622652542433974
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4266,
+      "clearance_mm": 0.06142327122114534
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.43200000000000005,
+      "clearance_mm": 0.056672215490176286
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4374,
+      "clearance_mm": 0.05198000241439747
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4428,
+      "clearance_mm": 0.04735434790482772
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.44820000000000004,
+      "clearance_mm": 0.04280423671917957
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4536,
+      "clearance_mm": 0.03834015538301454
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4590000000000001,
+      "clearance_mm": 0.033974364770919085
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.46440000000000003,
+      "clearance_mm": 0.029721214366726492
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4698,
+      "clearance_mm": 0.025597496346461093
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.47520000000000007,
+      "clearance_mm": 0.0216228304711662
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4806,
+      "clearance_mm": 0.017820058644716183
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.48600000000000004,
+      "clearance_mm": 0.014215608875824709
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.49140000000000006,
+      "clearance_mm": 0.01083976054555602
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.4968,
+      "clearance_mm": 0.007726706309210435
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5022,
+      "clearance_mm": 0.0049142651567155304
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5076,
+      "clearance_mm": 0.002443069224523975
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.513,
+      "clearance_mm": 0.000355049229712516
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5184000000000001,
+      "clearance_mm": -0.0013088844810107206
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5238,
+      "clearance_mm": -0.002511895889621897
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5292000000000001,
+      "clearance_mm": -0.0032246780057744034
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5346,
+      "clearance_mm": -0.00342869754999163
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.54,
+      "clearance_mm": -0.0031184798530080673
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5454000000000001,
+      "clearance_mm": -0.0023023188717694112
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5508,
+      "clearance_mm": -0.0010012078011990347
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5562,
+      "clearance_mm": 0.0007537040373640572
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5616000000000001,
+      "clearance_mm": 0.0029244596925706995
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5670000000000001,
+      "clearance_mm": 0.005469708269888296
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5724,
+      "clearance_mm": 0.00834762449629542
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5778000000000001,
+      "clearance_mm": 0.011518059590770041
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5831999999999999,
+      "clearance_mm": 0.014943898490612603
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5886,
+      "clearance_mm": 0.018591748894610932
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5940000000000001,
+      "clearance_mm": 0.022432142199847696
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.5994,
+      "clearance_mm": 0.02643941890710645
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6048,
+      "clearance_mm": 0.030591435656691923
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6102000000000001,
+      "clearance_mm": 0.0348691904028009
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6156,
+      "clearance_mm": 0.039256427303350036
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.621,
+      "clearance_mm": 0.04373925695881732
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6264000000000001,
+      "clearance_mm": 0.04830581012905018
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6318,
+      "clearance_mm": 0.05294593211378702
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6372,
+      "clearance_mm": 0.057650918629624404
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6426000000000001,
+      "clearance_mm": 0.0624132906498998
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6480000000000001,
+      "clearance_mm": 0.06722660414032589
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6534,
+      "clearance_mm": 0.07208529015155879
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6588,
+      "clearance_mm": 0.0769845208326978
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6642,
+      "clearance_mm": 0.0819200973122064
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6696,
+      "clearance_mm": 0.08688835588448954
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.675,
+      "clearance_mm": 0.09188608944795043
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6804000000000001,
+      "clearance_mm": 0.09691048161653557
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6858000000000001,
+      "clearance_mm": 0.1019590513508753
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6912,
+      "clearance_mm": 0.10702960632120814
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.6966000000000001,
+      "clearance_mm": 0.1121202035240492
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7020000000000001,
+      "clearance_mm": 0.11722911593330942
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7074,
+      "clearance_mm": 0.12235480418087358
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7128000000000001,
+      "clearance_mm": 0.1274958924381734
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7182,
+      "clearance_mm": 0.1326511478152398
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7236,
+      "clearance_mm": 0.13781946271252413
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7290000000000001,
+      "clearance_mm": 0.14299983965809943
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7344,
+      "clearance_mm": 0.1481913782426073
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7398,
+      "clearance_mm": 0.1533932638297158
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7452000000000001,
+      "clearance_mm": 0.1586047577735696
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7506,
+      "clearance_mm": 0.16382518891890466
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.756,
+      "clearance_mm": 0.16905394619592493
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7614000000000001,
+      "clearance_mm": 0.17429047215213003
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7668000000000001,
+      "clearance_mm": 0.17953425728820166
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7722000000000001,
+      "clearance_mm": 0.1847848350857395
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7776000000000001,
+      "clearance_mm": 0.19004177763184893
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.783,
+      "clearance_mm": 0.1953046917599387
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7884000000000001,
+      "clearance_mm": 0.20057321563809982
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7938000000000001,
+      "clearance_mm": 0.20584701574650405
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.7992,
+      "clearance_mm": 0.21112578419372857
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.8046,
+      "clearance_mm": 0.21640923632904635
+    },
+    {
+      "id": "G2",
+      "center_separation_mm": 0.81,
+      "clearance_mm": 0.2216971086137537
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.25,
+      "clearance_mm": 0.15021346488502182
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.255,
+      "clearance_mm": 0.1455156075893413
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.26,
+      "clearance_mm": 0.14082991743169862
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.265,
+      "clearance_mm": 0.13615711865271846
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.27,
+      "clearance_mm": 0.13149799189312528
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.275,
+      "clearance_mm": 0.1268533795444645
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.28,
+      "clearance_mm": 0.12222419168699933
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.28500000000000003,
+      "clearance_mm": 0.11761141268585978
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.29,
+      "clearance_mm": 0.11301610852546096
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.295,
+      "clearance_mm": 0.10843943497219119
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.3,
+      "clearance_mm": 0.10388264666646271
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.305,
+      "clearance_mm": 0.09934710725745943
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.31,
+      "clearance_mm": 0.09483430070732513
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.315,
+      "clearance_mm": 0.09034584390605369
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.32,
+      "clearance_mm": 0.08588350075384074
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.325,
+      "clearance_mm": 0.08144919788386631
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.33,
+      "clearance_mm": 0.07704504221495115
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.335,
+      "clearance_mm": 0.07267334053955518
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.33999999999999997,
+      "clearance_mm": 0.06833662136708271
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.345,
+      "clearance_mm": 0.06403765925384308
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.35,
+      "clearance_mm": 0.05977950185701322
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.355,
+      "clearance_mm": 0.05556549994735546
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.36,
+      "clearance_mm": 0.05139934059983883
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.365,
+      "clearance_mm": 0.04728508374666246
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.37,
+      "clearance_mm": 0.04322720221541973
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.375,
+      "clearance_mm": 0.03923062527566301
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.38,
+      "clearance_mm": 0.0353007855662614
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.385,
+      "clearance_mm": 0.03144366905653087
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.39,
+      "clearance_mm": 0.027665867385288895
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.395,
+      "clearance_mm": 0.023974631499486754
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.4,
+      "clearance_mm": 0.020377924951499704
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.405,
+      "clearance_mm": 0.01688447448581122
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.41000000000000003,
+      "clearance_mm": 0.013503814632018496
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.41500000000000004,
+      "clearance_mm": 0.010246321916946396
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.42000000000000004,
+      "clearance_mm": 0.007123233037517759
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.425,
+      "clearance_mm": 0.004146639967911134
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.43,
+      "clearance_mm": 0.0013294536489813769
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.435,
+      "clearance_mm": -0.0013146731423742675
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.44,
+      "clearance_mm": -0.0037714735788197395
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.445,
+      "clearance_mm": -0.006026254425040886
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.45,
+      "clearance_mm": -0.008064150531022399
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.45499999999999996,
+      "clearance_mm": -0.009870448920579478
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.45999999999999996,
+      "clearance_mm": -0.011430978677794829
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.46499999999999997,
+      "clearance_mm": -0.012732554190187304
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.47,
+      "clearance_mm": -0.0137634494059279
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.475,
+      "clearance_mm": -0.01451387119210909
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.48,
+      "clearance_mm": -0.014976392814967696
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.485,
+      "clearance_mm": -0.015146306273975091
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.49,
+      "clearance_mm": -0.015021856344437604
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.495,
+      "clearance_mm": -0.0146043299731142
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5,
+      "clearance_mm": -0.013897990618475561
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.505,
+      "clearance_mm": -0.012909865198568654
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.51,
+      "clearance_mm": -0.01164940781224584
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.515,
+      "clearance_mm": -0.010128076129849062
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.52,
+      "clearance_mm": -0.008358861528691336
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.525,
+      "clearance_mm": -0.006355812670978178
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.53,
+      "clearance_mm": -0.0041335857523173425
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5349999999999999,
+      "clearance_mm": -0.0017070453140020647
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.54,
+      "clearance_mm": 0.0009090704599889615
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5449999999999999,
+      "clearance_mm": 0.003700414952373096
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.55,
+      "clearance_mm": 0.0066532307128562285
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5549999999999999,
+      "clearance_mm": 0.009754485929665255
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.56,
+      "clearance_mm": 0.0129919587487555
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.565,
+      "clearance_mm": 0.01635427925983561
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5700000000000001,
+      "clearance_mm": 0.019830938668906326
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.575,
+      "clearance_mm": 0.023412274196963623
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5800000000000001,
+      "clearance_mm": 0.027089436943681183
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.585,
+      "clearance_mm": 0.030854348582144003
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.5900000000000001,
+      "clearance_mm": 0.034699651458541786
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.595,
+      "clearance_mm": 0.03861865553830762
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.6,
+      "clearance_mm": 0.042605284696757784
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.605,
+      "clearance_mm": 0.04665402409630193
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.61,
+      "clearance_mm": 0.050759869805708124
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.615,
+      "clearance_mm": 0.054918281374502165
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.62,
+      "clearance_mm": 0.059125137750843104
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.625,
+      "clearance_mm": 0.06337669669943799
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.63,
+      "clearance_mm": 0.06766955771581051
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.635,
+      "clearance_mm": 0.07200062832679094
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.64,
+      "clearance_mm": 0.07636709360026955
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.645,
+      "clearance_mm": 0.08076638864900079
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.65,
+      "clearance_mm": 0.08519617389513467
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.655,
+      "clearance_mm": 0.08965431285787395
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.6599999999999999,
+      "clearance_mm": 0.09413885223156043
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.665,
+      "clearance_mm": 0.09864800403221538
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.6699999999999999,
+      "clearance_mm": 0.10318012960468939
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.675,
+      "clearance_mm": 0.10773372529845457
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.6799999999999999,
+      "clearance_mm": 0.11230740963652
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.685,
+      "clearance_mm": 0.11689991181824974
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.69,
+      "clearance_mm": 0.12151006141247811
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.6950000000000001,
+      "clearance_mm": 0.12613677911201274
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.7,
+      "clearance_mm": 0.13077906843418566
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.7050000000000001,
+      "clearance_mm": 0.1354360082645515
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.71,
+      "clearance_mm": 0.14010674615208393
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.7150000000000001,
+      "clearance_mm": 0.14479049227438692
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.72,
+      "clearance_mm": 0.14948651400052068
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.725,
+      "clearance_mm": 0.15419413098717952
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.73,
+      "clearance_mm": 0.15891271075117716
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.735,
+      "clearance_mm": 0.16364166466762817
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.74,
+      "clearance_mm": 0.16838044434890084
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.745,
+      "clearance_mm": 0.1731285383644646
+    },
+    {
+      "id": "G3",
+      "center_separation_mm": 0.75,
+      "clearance_mm": 0.17788546926621437
+    }
+  ],
+  "tolerance_boxes": [
+    {
+      "id": "G1",
+      "dimension_tolerance_um": 0,
+      "body_diameter_at_evaluated_corner_mm": 0.06,
+      "max_escape_clearance_um": 10.710678118654753,
+      "radial_wear_to_tangency_um": 0,
+      "result": "CLEAR_PATH_EXISTS_IN_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G1",
+      "dimension_tolerance_um": 2,
+      "body_diameter_at_evaluated_corner_mm": 0.057999999999999996,
+      "max_escape_clearance_um": 12.710678118654755,
+      "radial_wear_to_tangency_um": 0,
+      "result": "CLEAR_PATH_EXISTS_IN_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G1",
+      "dimension_tolerance_um": 5,
+      "body_diameter_at_evaluated_corner_mm": 0.055,
+      "max_escape_clearance_um": 15.710678118654752,
+      "radial_wear_to_tangency_um": 0,
+      "result": "CLEAR_PATH_EXISTS_IN_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G1",
+      "dimension_tolerance_um": 10,
+      "body_diameter_at_evaluated_corner_mm": 0.049999999999999996,
+      "max_escape_clearance_um": 20.710678118654755,
+      "radial_wear_to_tangency_um": 0,
+      "result": "CLEAR_PATH_EXISTS_IN_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G2",
+      "dimension_tolerance_um": 0,
+      "body_diameter_at_evaluated_corner_mm": 0.06,
+      "max_escape_clearance_um": -3.431457505076202,
+      "radial_wear_to_tangency_um": 1.715728752538101,
+      "result": "PATH_INTERSECTS_THROUGHOUT_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G2",
+      "dimension_tolerance_um": 2,
+      "body_diameter_at_evaluated_corner_mm": 0.057999999999999996,
+      "max_escape_clearance_um": -1.431457505076207,
+      "radial_wear_to_tangency_um": 0.7157287525381035,
+      "result": "PATH_INTERSECTS_THROUGHOUT_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G2",
+      "dimension_tolerance_um": 5,
+      "body_diameter_at_evaluated_corner_mm": 0.055,
+      "max_escape_clearance_um": 1.5685424949237956,
+      "radial_wear_to_tangency_um": 0,
+      "result": "CLEAR_PATH_EXISTS_IN_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G2",
+      "dimension_tolerance_um": 10,
+      "body_diameter_at_evaluated_corner_mm": 0.049999999999999996,
+      "max_escape_clearance_um": 6.568542494923793,
+      "radial_wear_to_tangency_um": 0,
+      "result": "CLEAR_PATH_EXISTS_IN_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G3",
+      "dimension_tolerance_um": 0,
+      "body_diameter_at_evaluated_corner_mm": 0.06,
+      "max_escape_clearance_um": -15.147186257614297,
+      "radial_wear_to_tangency_um": 7.573593128807149,
+      "result": "PATH_INTERSECTS_THROUGHOUT_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G3",
+      "dimension_tolerance_um": 2,
+      "body_diameter_at_evaluated_corner_mm": 0.062,
+      "max_escape_clearance_um": -13.14718625761431,
+      "radial_wear_to_tangency_um": 6.573593128807155,
+      "result": "PATH_INTERSECTS_THROUGHOUT_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G3",
+      "dimension_tolerance_um": 5,
+      "body_diameter_at_evaluated_corner_mm": 0.065,
+      "max_escape_clearance_um": -10.147186257614308,
+      "radial_wear_to_tangency_um": 5.073593128807154,
+      "result": "PATH_INTERSECTS_THROUGHOUT_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    },
+    {
+      "id": "G3",
+      "dimension_tolerance_um": 10,
+      "body_diameter_at_evaluated_corner_mm": 0.06999999999999999,
+      "max_escape_clearance_um": -5.147186257614303,
+      "radial_wear_to_tangency_um": 2.5735931288071514,
+      "result": "PATH_INTERSECTS_THROUGHOUT_BOX",
+      "note": "Gap and diameter tolerance box. Uniform G1/G2 link body and end diameters; G3 keeps body no larger than the end guard. Not an empirical distribution or all-path proof."
+    }
+  ],
+  "production_area_rate_budget": [
+    {
+      "id": "G1",
+      "speed_m_s": 0.5,
+      "good_parts_hour": 3408284023.6686397,
+      "kg_hour_lower": 15.133894280862977,
+      "kg_hour_upper": 15.133894280862977,
+      "processing_yen_kg_lower": 991.1526882388567,
+      "processing_yen_kg_upper": 991.1526882388567
+    },
+    {
+      "id": "G1",
+      "speed_m_s": 1,
+      "good_parts_hour": 6816568047.337279,
+      "kg_hour_lower": 30.267788561725954,
+      "kg_hour_upper": 30.267788561725954,
+      "processing_yen_kg_lower": 495.57634411942837,
+      "processing_yen_kg_upper": 495.57634411942837
+    },
+    {
+      "id": "G1",
+      "speed_m_s": 2,
+      "good_parts_hour": 13633136094.674559,
+      "kg_hour_lower": 60.53557712345191,
+      "kg_hour_upper": 60.53557712345191,
+      "processing_yen_kg_lower": 247.78817205971419,
+      "processing_yen_kg_upper": 247.78817205971419
+    },
+    {
+      "id": "G2",
+      "speed_m_s": 0.5,
+      "good_parts_hour": 3408284023.6686397,
+      "kg_hour_lower": 15.321555417461498,
+      "kg_hour_upper": 15.321555417461498,
+      "processing_yen_kg_lower": 979.0128737781392,
+      "processing_yen_kg_upper": 979.0128737781392
+    },
+    {
+      "id": "G2",
+      "speed_m_s": 1,
+      "good_parts_hour": 6816568047.337279,
+      "kg_hour_lower": 30.643110834922997,
+      "kg_hour_upper": 30.643110834922997,
+      "processing_yen_kg_lower": 489.5064368890696,
+      "processing_yen_kg_upper": 489.5064368890696
+    },
+    {
+      "id": "G2",
+      "speed_m_s": 2,
+      "good_parts_hour": 13633136094.674559,
+      "kg_hour_lower": 61.28622166984599,
+      "kg_hour_upper": 61.28622166984599,
+      "processing_yen_kg_lower": 244.7532184445348,
+      "processing_yen_kg_upper": 244.7532184445348
+    },
+    {
+      "id": "G3",
+      "speed_m_s": 0.5,
+      "good_parts_hour": 3408284023.6686397,
+      "kg_hour_lower": 13.780753509878751,
+      "kg_hour_upper": 16.46703606964906,
+      "processing_yen_kg_lower": 910.9107392827661,
+      "processing_yen_kg_upper": 1088.4745880729404
+    },
+    {
+      "id": "G3",
+      "speed_m_s": 1,
+      "good_parts_hour": 6816568047.337279,
+      "kg_hour_lower": 27.561507019757503,
+      "kg_hour_upper": 32.93407213929812,
+      "processing_yen_kg_lower": 455.4553696413831,
+      "processing_yen_kg_upper": 544.2372940364702
+    },
+    {
+      "id": "G3",
+      "speed_m_s": 2,
+      "good_parts_hour": 13633136094.674559,
+      "kg_hour_lower": 55.123014039515006,
+      "kg_hour_upper": 65.86814427859623,
+      "processing_yen_kg_lower": 227.72768482069154,
+      "processing_yen_kg_upper": 272.1186470182351
+    }
+  ],
+  "direct_coordinate_checks": [
+    {
+      "id": "G1",
+      "points": 17,
+      "c_mm": 0.27,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G1",
+      "points": 17,
+      "c_mm": 0.530659966456864,
+      "error_mm": 9.71445146547012e-17
+    },
+    {
+      "id": "G1",
+      "points": 17,
+      "c_mm": 0.81,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G1",
+      "points": 65,
+      "c_mm": 0.27,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G1",
+      "points": 65,
+      "c_mm": 0.530659966456864,
+      "error_mm": 9.71445146547012e-17
+    },
+    {
+      "id": "G1",
+      "points": 65,
+      "c_mm": 0.81,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G1",
+      "points": 257,
+      "c_mm": 0.27,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G1",
+      "points": 257,
+      "c_mm": 0.530659966456864,
+      "error_mm": 9.71445146547012e-17
+    },
+    {
+      "id": "G1",
+      "points": 257,
+      "c_mm": 0.81,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G2",
+      "points": 17,
+      "c_mm": 0.27,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G2",
+      "points": 17,
+      "c_mm": 0.5340411969127477,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G2",
+      "points": 17,
+      "c_mm": 0.81,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G2",
+      "points": 65,
+      "c_mm": 0.27,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G2",
+      "points": 65,
+      "c_mm": 0.5340411969127477,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G2",
+      "points": 65,
+      "c_mm": 0.81,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G2",
+      "points": 257,
+      "c_mm": 0.27,
+      "error_mm": 5.551115123125783e-17
+    },
+    {
+      "id": "G2",
+      "points": 257,
+      "c_mm": 0.5340411969127477,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G2",
+      "points": 257,
+      "c_mm": 0.81,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G3",
+      "points": 17,
+      "c_mm": 0.25,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G3",
+      "points": 17,
+      "c_mm": 0.4853864439804639,
+      "error_mm": 1.3877787807814457e-17
+    },
+    {
+      "id": "G3",
+      "points": 17,
+      "c_mm": 0.75,
+      "error_mm": 1.1102230246251565e-16
+    },
+    {
+      "id": "G3",
+      "points": 65,
+      "c_mm": 0.25,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G3",
+      "points": 65,
+      "c_mm": 0.4853864439804639,
+      "error_mm": 1.3877787807814457e-17
+    },
+    {
+      "id": "G3",
+      "points": 65,
+      "c_mm": 0.75,
+      "error_mm": 1.1102230246251565e-16
+    },
+    {
+      "id": "G3",
+      "points": 257,
+      "c_mm": 0.25,
+      "error_mm": 0.0
+    },
+    {
+      "id": "G3",
+      "points": 257,
+      "c_mm": 0.4853864439804639,
+      "error_mm": 1.3877787807814457e-17
+    },
+    {
+      "id": "G3",
+      "points": 257,
+      "c_mm": 0.75,
+      "error_mm": 1.1102230246251565e-16
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "coordinate_crosscheck": true,
+    "G1_continuous_clear_path": true,
+    "G2_checked_path_intersects": true,
+    "G3_checked_path_intersects": true,
+    "critical_pose_within_proven_interval": true,
+    "outer_envelope_0_6mm": true,
+    "volume_bounds_ordered": true,
+    "G3_mass_upper_increase_under_9percent": true,
+    "G2_5um_tolerance_counterexample": true,
+    "G3_10um_checked_path_still_intersects": true
+  },
+  "max_coordinate_error_mm": 1.1102230246251565e-16,
+  "physical_validation": false
+}

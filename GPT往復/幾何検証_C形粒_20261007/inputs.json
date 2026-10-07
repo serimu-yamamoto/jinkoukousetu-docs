@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-07",
+  "schema": 1,
+  "units": "mm for geometry; explicit SI for mass and cost",
+  "model": "Planar circular centerline with circular tube radius, hemispherical tube tips, optional larger spherical end guards. Equal pair in perpendicular planes. Not an extruded rectangular section, CAD-qualified product, force simulation, or all-path proof.",
+  "candidates": [
+    {
+      "id": "G1",
+      "description": "round strand C, gap40um",
+      "D_mm": 0.6,
+      "d_mm": 0.06,
+      "end_diameter_mm": 0.06,
+      "gap_mm": 0.04
+    },
+    {
+      "id": "G2",
+      "description": "round strand C, gap20um",
+      "D_mm": 0.6,
+      "d_mm": 0.06,
+      "end_diameter_mm": 0.06,
+      "gap_mm": 0.02
+    },
+    {
+      "id": "G3",
+      "description": "C with round enlarged end guards, gap20um",
+      "D_mm": 0.6,
+      "d_mm": 0.06,
+      "end_diameter_mm": 0.1,
+      "gap_mm": 0.02
+    }
+  ],
+  "rho_s_kg_m3": 960,
+  "geometric_tolerances_um": [
+    0,
+    2,
+    5,
+    10
+  ],
+  "surface_clearance_margin_um": 2,
+  "manufacturing": {
+    "pitch_mm": 0.65,
+    "width_m": 1,
+    "velocity_m_s": [
+      0.5,
+      1,
+      2
+    ],
+    "good_part_fraction": 0.8,
+    "line_charge_yen_hour": 15000,
+    "required_good_kg_hour": 75
+  },
+  "cost": {
+    "A_m2": 2000,
+    "h_m": 0.45,
+    "rho_base_kg_m3": 120,
+    "P_yen_kg": 500,
+    "I_yen": 20000000,
+    "O_yen_year": 4000000,
+    "B_yen_year": 19000000,
+    "lambda_year": 0.02,
+    "r": 0.08,
+    "T_year": 10
+  },
+  "mesh_generation_note": "build_models.py uses subdivision levels 16,32,64; arc subdivision is 4 times each level. See mesh_validation.json."
+}
