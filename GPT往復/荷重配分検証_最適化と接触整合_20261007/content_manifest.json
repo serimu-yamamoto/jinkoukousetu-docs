@@ -1,0 +1,125 @@
+{
+  "normalization": "UTF-8 text CRLF to LF; PNG exact bytes",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 15718,
+      "sha256": "ed10a1278a39a50a7962f53d7902e73049d473479b7ae703b9b2b7af16ebc012"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 9842,
+      "sha256": "fca1c87a7c50698eb82bc5b60fd71fad7361ae6741356ec00133d259cd65e44c"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 53197,
+      "sha256": "541e7b44e971ed548bc0174896464efa7b9b875f530730b70c103326dedbf6a2"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第15巡_荷重最適化と接触整合および短い受け_20261007.md",
+      "bytes": 17582,
+      "sha256": "af2d66875f899e25a7b834c653014984ae2a2bfb7aef21cd751730624e8fcce3"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/01_force_allocation.png",
+      "bytes": 78249,
+      "sha256": "5f0e1db0ca21640d0765176a8ce8d6ebe4d8b2e2c7a5132b9e2f792238417d77"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/02_kinematic_consistency.png",
+      "bytes": 76650,
+      "sha256": "7add5e54a1fbb12649d3ad8b09c3fdcfc1df3f40434314ea41ae5ae49948b21c"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/03_bearing_envelope.png",
+      "bytes": 120993,
+      "sha256": "0dc48ffd324dc6cfec231255b766a161c0ecded8848e6323e6bc45f0b8469e74"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/allocation.py",
+      "bytes": 6162,
+      "sha256": "e07e24e6c1c629341c63bff6da6636d148c525c1d4b61c6376f2f38aa6d1c0b2"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/allocation_results.json",
+      "bytes": 863103,
+      "sha256": "f396be8e70dab04061e1ab9393f326c225cb88f00c591e1e7fdeeb75df95a265"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/contact_audit.py",
+      "bytes": 4797,
+      "sha256": "e837a85b007ca2c8e405165e5487a616c6193f6ff2e2e421b1456c336f6eac3f"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/contact_audit_results.json",
+      "bytes": 88220,
+      "sha256": "ee2f99d09c3cd296289e743ea4b58f17026e5e805e7ca26cdd5ae15a7edc3883"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/inputs.json",
+      "bytes": 1137,
+      "sha256": "3d4d20868dfed2e38c0af371605df9511d9e491f9d3c5d69510146167e269dc6"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/minimax.py",
+      "bytes": 5015,
+      "sha256": "6b010aabbd1c14a4b4f516f1a07b72fab5fce3a91b952ee7edcb792d35528cf1"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/minimax_results.json",
+      "bytes": 212940,
+      "sha256": "2a2ff93894a8ebf7563bc1ba39a69b6c859379178bd680416fb8c19145f285f7"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/plots.py",
+      "bytes": 4597,
+      "sha256": "ec1f02e045ff16e3614f677963f1676977b1293a83471d38acc3509c5747c710"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/README.md",
+      "bytes": 2995,
+      "sha256": "8831239f5a478c63a1bb7adddfce81585cfe37bcb66486131aa9a6ef92b50ab5"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/requirements.txt",
+      "bytes": 76,
+      "sha256": "53247e38b3d1a71eca5445802efa9c6668186ad4964622dcdc02c9d24de8f49a"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/seat_requirements.json",
+      "bytes": 7328,
+      "sha256": "90b2db86504337e86508f2ef38b3f63a1df7339ae956d698de8db829783e52dc"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/seat_requirements.py",
+      "bytes": 2329,
+      "sha256": "d0df9e712ac33bd71dc7d135bb15a1a22b2a75a9eae72c98f14d3624f5f06441"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/sources.md",
+      "bytes": 2218,
+      "sha256": "09c7f09eacc2b8e5f2788fada434434a5af646ba9c8faa5c3c38e0b194bd2693"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/verification.json",
+      "bytes": 69971,
+      "sha256": "3c7c6fe68ed532a291fe5ce1e261611ecd554d48f38c80045508081c0606f6cc"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/verify.py",
+      "bytes": 4553,
+      "sha256": "6b704f0b5b67947c65a49d1476512cbc334e3db6cec90b46dc4fcda8ef030b46"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/探索台帳.md",
+      "bytes": 1873,
+      "sha256": "e687c6c20dba33f97e7f326ce30682c399dbf6a71a5c57f5885d23981c967d69"
+    },
+    {
+      "path": "GPT往復/荷重配分検証_最適化と接触整合_20261007/検証記録.md",
+      "bytes": 2393,
+      "sha256": "ab58f06b8f569a9782d53a846158721990b0e4fa1f706111d7919af3ef233c67"
+    }
+  ]
+}

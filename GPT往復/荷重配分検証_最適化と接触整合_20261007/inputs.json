@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "d815801d0a0272033c9428e8b4b7b4b811d105bf",
+  "physical_tests": 0,
+  "success_probability": null,
+  "scope": "Fixed contact geometries; compare static optimization with elastic contact compatibility. No real material or bed validation.",
+  "geometry_source": "cycle13 cluster_results.json; C3-T6-28 clearances from cycle14",
+  "material": {
+    "E_MPa": 300,
+    "nu": 0.45,
+    "assumed": true
+  },
+  "loads": {
+    "comparison_mN": 0.9,
+    "small_load_uN": 9
+  },
+  "friction": {
+    "mu_top": [
+      0,
+      0.1,
+      0.3
+    ],
+    "mu_internal": [
+      0.1,
+      0.3,
+      0.6
+    ]
+  },
+  "contacts": {
+    "kn_N_mm": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "kt_over_kn": [
+      0.2,
+      0.5,
+      1
+    ],
+    "rigid_trial": true,
+    "independent_spring_assumptions": true
+  },
+  "optimization": {
+    "diagnostic_samples_per_member": 33,
+    "postcheck_samples": 257,
+    "refinement_samples": 65
+  },
+  "seat_envelope": {
+    "E_MPa": 300,
+    "strain": 0.01,
+    "width_um": 20,
+    "length_um": 20,
+    "count": 6,
+    "not_a_complete_geometry": true
+  }
+}

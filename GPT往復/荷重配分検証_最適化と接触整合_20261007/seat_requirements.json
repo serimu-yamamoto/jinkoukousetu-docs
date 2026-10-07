@@ -1,0 +1,199 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "assumptions": {
+    "E_MPa": 300.0,
+    "nominal_strain_budget": 0.01,
+    "seat_width_um": 20.0,
+    "load_path_length_um": 20.0,
+    "seats_per_grain": 6,
+    "mu": 0.1
+  },
+  "scope": "Ideal axial bearing area and volume budget, conditional on carrying the missing reaction through compression. Does not prove the requisite interlocking/undercut load path, contact patch, rounded protection, connection to skeleton, assembly, release, joint strength, actual packing, moldability or price. Holding demands extrapolated to 0.9 mN from linear all-stick trials; some exceed the original model diagnostic.",
+  "designs": [
+    {
+      "name": "R4",
+      "sizes": [
+        {
+          "contact": 1,
+          "required_force_mN": 0.7258098855337636,
+          "minimum_nominal_area_um2": 241.93662851125453,
+          "square_width_um": 15.5543122159501,
+          "stress_on_20um_square_MPa": 1.814524713834409,
+          "short_20um_member_displacement_um": 0.12096831425562728
+        },
+        {
+          "contact": 2,
+          "required_force_mN": 0.09657548754875699,
+          "minimum_nominal_area_um2": 32.191829182918994,
+          "square_width_um": 5.673784379311484,
+          "stress_on_20um_square_MPa": 0.24143871887189244,
+          "short_20um_member_displacement_um": 0.016095914591459495
+        },
+        {
+          "contact": 3,
+          "required_force_mN": 0.7850516885590265,
+          "minimum_nominal_area_um2": 261.68389618634217,
+          "square_width_um": 16.17664662982851,
+          "stress_on_20um_square_MPa": 1.9626292213975662,
+          "short_20um_member_displacement_um": 0.13084194809317112
+        }
+      ],
+      "ideal_additional_volume_mm3": 4.7999999999999994e-05,
+      "economics": [
+        {
+          "density_kg_m3": 960,
+          "added_mass_kg": 1120.782416525617,
+          "added_material_JPY": 560391.2082628085,
+          "conditional_EAC_JPY": 17055069.76184871,
+          "conditional_price_cap_JPY_kg": 596.5275746483127
+        },
+        {
+          "density_kg_m3": 1410,
+          "added_mass_kg": 1646.1491742720245,
+          "added_material_JPY": 823074.5871360123,
+          "conditional_EAC_JPY": 21777482.256180216,
+          "conditional_price_cap_JPY_kg": 406.14643380310645
+        }
+      ]
+    },
+    {
+      "name": "C3",
+      "sizes": [
+        {
+          "contact": 1,
+          "required_force_mN": 0.5542302219640495,
+          "minimum_nominal_area_um2": 184.74340732134985,
+          "square_width_um": 13.592034701300237,
+          "stress_on_20um_square_MPa": 1.3855755549101239,
+          "short_20um_member_displacement_um": 0.09237170366067493
+        },
+        {
+          "contact": 2,
+          "required_force_mN": 0.16213447013152824,
+          "minimum_nominal_area_um2": 54.04482337717609,
+          "square_width_um": 7.351518440239138,
+          "stress_on_20um_square_MPa": 0.4053361753288206,
+          "short_20um_member_displacement_um": 0.027022411688588044
+        },
+        {
+          "contact": 3,
+          "required_force_mN": 0.5273781019525366,
+          "minimum_nominal_area_um2": 175.79270065084555,
+          "square_width_um": 13.258683971301434,
+          "stress_on_20um_square_MPa": 1.3184452548813417,
+          "short_20um_member_displacement_um": 0.0878963503254228
+        }
+      ],
+      "ideal_additional_volume_mm3": 4.7999999999999994e-05,
+      "economics": [
+        {
+          "density_kg_m3": 960,
+          "added_mass_kg": 1120.782416525617,
+          "added_material_JPY": 560391.2082628085,
+          "conditional_EAC_JPY": 15257756.09048732,
+          "conditional_price_cap_JPY_kg": 726.058276854486
+        },
+        {
+          "density_kg_m3": 1410,
+          "added_mass_kg": 1646.1491742719954,
+          "added_material_JPY": 823074.5871359977,
+          "conditional_EAC_JPY": 19137677.80136817,
+          "conditional_price_cap_JPY_kg": 494.33755019879914
+        }
+      ]
+    },
+    {
+      "name": "C3-T6-28",
+      "sizes": [
+        {
+          "contact": 1,
+          "required_force_mN": 0.6912819072585866,
+          "minimum_nominal_area_um2": 230.42730241952884,
+          "square_width_um": 15.179832094576305,
+          "stress_on_20um_square_MPa": 1.7282047681464663,
+          "short_20um_member_displacement_um": 0.11521365120976444
+        },
+        {
+          "contact": 2,
+          "required_force_mN": 0.2912301481280969,
+          "minimum_nominal_area_um2": 97.07671604269896,
+          "square_width_um": 9.852751699027992,
+          "stress_on_20um_square_MPa": 0.7280753703202422,
+          "short_20um_member_displacement_um": 0.04853835802134948
+        },
+        {
+          "contact": 3,
+          "required_force_mN": 0.7060001232298692,
+          "minimum_nominal_area_um2": 235.33337440995638,
+          "square_width_um": 15.340579337494278,
+          "stress_on_20um_square_MPa": 1.7650003080746728,
+          "short_20um_member_displacement_um": 0.1176666872049782
+        }
+      ],
+      "ideal_additional_volume_mm3": 4.7999999999999994e-05,
+      "economics": [
+        {
+          "density_kg_m3": 960,
+          "added_mass_kg": 1120.782416525617,
+          "added_material_JPY": 560391.2082628085,
+          "conditional_EAC_JPY": 18170221.218807913,
+          "conditional_price_cap_JPY_kg": 537.0780210805234
+        },
+        {
+          "density_kg_m3": 1410,
+          "added_mass_kg": 1646.1491742720245,
+          "added_material_JPY": 823074.5871360123,
+          "conditional_EAC_JPY": 23415360.95858904,
+          "conditional_price_cap_JPY_kg": 365.6701420122712
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "sizes": [
+        {
+          "contact": 1,
+          "required_force_mN": 0.4785906030466426,
+          "minimum_nominal_area_um2": 159.53020101554753,
+          "square_width_um": 12.630526553376448,
+          "stress_on_20um_square_MPa": 1.1964765076166064,
+          "short_20um_member_displacement_um": 0.07976510050777379
+        },
+        {
+          "contact": 2,
+          "required_force_mN": 0.0596752564739206,
+          "minimum_nominal_area_um2": 19.89175215797353,
+          "square_width_um": 4.460017058036161,
+          "stress_on_20um_square_MPa": 0.1491881411848015,
+          "short_20um_member_displacement_um": 0.009945876078986768
+        },
+        {
+          "contact": 3,
+          "required_force_mN": 0.3928276870588775,
+          "minimum_nominal_area_um2": 130.94256235295916,
+          "square_width_um": 11.443013691897741,
+          "stress_on_20um_square_MPa": 0.9820692176471937,
+          "short_20um_member_displacement_um": 0.0654712811764796
+        }
+      ],
+      "ideal_additional_volume_mm3": 4.7999999999999994e-05,
+      "economics": [
+        {
+          "density_kg_m3": 960,
+          "added_mass_kg": 1120.782416525617,
+          "added_material_JPY": 560391.2082628085,
+          "conditional_EAC_JPY": 20649697.104571488,
+          "conditional_price_cap_JPY_kg": 439.6560044241215
+        },
+        {
+          "density_kg_m3": 1410,
+          "added_mass_kg": 1646.1491742719954,
+          "added_material_JPY": 823074.5871359977,
+          "conditional_EAC_JPY": 27057091.165804293,
+          "conditional_price_cap_JPY_kg": 299.3402583313168
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2686 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "R40_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_None_None",
+      "value": 1.379259431969144e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_0.01_0.2",
+      "value": 4.533705695286448e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_0.01_0.5",
+      "value": 5.861004007043233e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_0.01_1.0",
+      "value": 2.7061269221189733e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_0.1_0.2",
+      "value": 1.5544177469982136e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_0.1_0.5",
+      "value": 1.499438669324742e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_0.1_1.0",
+      "value": 1.4296269454892987e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_1.0_0.2",
+      "value": 1.369055123188075e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_1.0_0.5",
+      "value": 1.4016110335388572e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_1.0_1.0",
+      "value": 1.2263756033460226e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_10.0_0.2",
+      "value": 1.3662961818709867e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_10.0_0.5",
+      "value": 1.256760473043858e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R40_stick_compatibility_10.0_1.0",
+      "value": 1.3705645987890204e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "R4_independent_displacement_reactions",
+      "value": 4.101059566251441e-12,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "R4_surface_constraints_mm",
+      "value": 1.277195365050437e-19,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_5_equilibrium",
+      "value": 4.277984256228593e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_5_stationarity",
+      "value": 1.2531866806948898e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_5_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_5_complementarity",
+      "value": 4.053542001163741e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_8_equilibrium",
+      "value": 1.4946834900704541e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_8_stationarity",
+      "value": 1.0291433081067266e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_energy_8_complementarity",
+      "value": 6.190684811257792e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_None_None",
+      "value": 1.4318106694962876e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_0.01_0.2",
+      "value": 1.6130361850874884e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_0.01_0.5",
+      "value": 1.6197788852457237e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_0.01_1.0",
+      "value": 1.6142823522975092e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_0.1_0.2",
+      "value": 1.6111928381211833e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_0.1_0.5",
+      "value": 1.5975027785543935e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_0.1_1.0",
+      "value": 1.5806059797860647e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_1.0_0.2",
+      "value": 1.5366371963156682e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_1.0_0.5",
+      "value": 1.5012968441903423e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_1.0_1.0",
+      "value": 1.480990414241078e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_10.0_0.2",
+      "value": 1.4517278751451634e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_10.0_0.5",
+      "value": 1.441152834766731e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_stick_compatibility_10.0_1.0",
+      "value": 1.4375024446739362e-14,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_None_None",
+      "value": 1.5806825248390157e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_0.01_0.2",
+      "value": 1.6458552583652254e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_0.01_0.5",
+      "value": 1.6315960099130652e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_0.01_1.0",
+      "value": 1.6243591494346462e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_0.1_0.2",
+      "value": 1.6297790722686028e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_0.1_0.5",
+      "value": 1.6217467584649956e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_0.1_1.0",
+      "value": 1.6145292833291322e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_1.0_0.2",
+      "value": 1.613772258495827e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_1.0_0.5",
+      "value": 1.6024645605026353e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_1.0_1.0",
+      "value": 1.5932723619702804e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_10.0_0.2",
+      "value": 1.591244862627709e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_10.0_0.5",
+      "value": 1.585172863592104e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C30_stick_compatibility_10.0_1.0",
+      "value": 1.5826635014812396e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "C3_independent_displacement_reactions",
+      "value": 1.0465577112782844e-12,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C3_surface_constraints_mm",
+      "value": 4.886433157332423e-20,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_2_equilibrium",
+      "value": 1.5700943847248072e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_2_stationarity",
+      "value": 1.374635653047369e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_2_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_2_complementarity",
+      "value": 1.987835753998862e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_5_equilibrium",
+      "value": 5.575197053717357e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_5_stationarity",
+      "value": 1.143941217571136e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_5_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_5_complementarity",
+      "value": 2.155627705415636e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_8_equilibrium",
+      "value": 1.6184142622847344e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_8_stationarity",
+      "value": 1.8866117061309326e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_energy_8_complementarity",
+      "value": 4.582409535433265e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_None_None",
+      "value": 1.265944690579331e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_0.01_0.2",
+      "value": 3.198112724860004e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_0.01_0.5",
+      "value": 1.54131132641421e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_0.01_1.0",
+      "value": 1.2047738841180856e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_0.1_0.2",
+      "value": 1.2244402374073883e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_0.1_0.5",
+      "value": 1.4100872530834939e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_0.1_1.0",
+      "value": 1.3159529538762825e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_1.0_0.2",
+      "value": 1.2641294506151277e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_1.0_0.5",
+      "value": 1.2635728503380263e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_1.0_1.0",
+      "value": 1.321457365202481e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_10.0_0.2",
+      "value": 1.2160549042718924e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_10.0_0.5",
+      "value": 1.3230473237893365e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C33_stick_compatibility_10.0_1.0",
+      "value": 1.2847604442098664e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-28_independent_displacement_reactions",
+      "value": 9.830952217037361e-13,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-28_surface_constraints_mm",
+      "value": 1.7941109609880856e-19,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_2_equilibrium",
+      "value": 1.0115999090276964e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_2_stationarity",
+      "value": 7.234593206406306e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_2_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_2_complementarity",
+      "value": 1.1844729323705727e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_5_equilibrium",
+      "value": 4.818371124519079e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_5_stationarity",
+      "value": 2.1560072096424806e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_5_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_5_complementarity",
+      "value": 6.168725616038581e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_8_equilibrium",
+      "value": 8.326672684688674e-17,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_8_stationarity",
+      "value": 2.24437307305051e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_energy_8_complementarity",
+      "value": 7.943449671973405e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_None_None",
+      "value": 3.3061278975763183e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_0.01_0.2",
+      "value": 5.4774970563022974e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_0.01_0.5",
+      "value": 4.131509093072839e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_0.01_1.0",
+      "value": 3.68079963667103e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_0.1_0.2",
+      "value": 3.609652384557172e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_0.1_0.5",
+      "value": 3.5578959906728254e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_0.1_1.0",
+      "value": 3.4621017367779356e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_1.0_0.2",
+      "value": 3.542297957716483e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_1.0_0.5",
+      "value": 3.415083580169016e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_1.0_1.0",
+      "value": 3.364324344221497e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_10.0_0.2",
+      "value": 3.37201442878755e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_10.0_0.5",
+      "value": 3.332600631236457e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_stick_compatibility_10.0_1.0",
+      "value": 3.3180571850904372e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "C37_energy_8_equilibrium",
+      "value": 1.2118257228641695e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C37_energy_8_stationarity",
+      "value": 6.955205262704756e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C37_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C37_energy_8_complementarity",
+      "value": 4.8038405528862474e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_None_None",
+      "value": 2.8707032911576315e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_0.01_0.2",
+      "value": 2.872770053946733e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_0.01_0.5",
+      "value": 2.877486297903691e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_0.01_1.0",
+      "value": 2.8827918276291454e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_0.1_0.2",
+      "value": 2.8915673565637914e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_0.1_0.5",
+      "value": 2.9017344553441734e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_0.1_1.0",
+      "value": 2.911762651211625e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_1.0_0.2",
+      "value": 2.912433779374883e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_1.0_0.5",
+      "value": 2.9128079279708344e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_1.0_1.0",
+      "value": 2.914686222688156e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_10.0_0.2",
+      "value": 2.8987922310423106e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_10.0_0.5",
+      "value": 2.885755731369106e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "C37_stick_compatibility_10.0_1.0",
+      "value": 2.88155863153796e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_2_equilibrium",
+      "value": 9.184497721272508e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_2_stationarity",
+      "value": 3.93422321924177e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_2_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_2_complementarity",
+      "value": 1.3641312384551832e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_4_equilibrium",
+      "value": 8.620999742135679e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_4_stationarity",
+      "value": 2.230611040191443e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_4_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_4_complementarity",
+      "value": 1.6202948297511494e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_5_equilibrium",
+      "value": 1.1857187100668868e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_5_stationarity",
+      "value": 5.942164993998009e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_5_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_5_complementarity",
+      "value": 1.3849760278629075e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_7_equilibrium",
+      "value": 4.038984649752663e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_7_stationarity",
+      "value": 5.383814386979968e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_7_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_7_complementarity",
+      "value": 1.2883994244058262e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_8_equilibrium",
+      "value": 1.6888902853312011e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_8_stationarity",
+      "value": 6.199819182234318e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_energy_8_complementarity",
+      "value": 5.235507513716586e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_None_None",
+      "value": 2.0888836804026048e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_0.01_0.2",
+      "value": 1.6603578407855463e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_0.01_0.5",
+      "value": 7.179743635237933e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_0.01_1.0",
+      "value": 1.018032932337349e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_0.1_0.2",
+      "value": 6.206941440966717e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_0.1_0.5",
+      "value": 5.75996115938365e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_0.1_1.0",
+      "value": 1.4770638155225948e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_1.0_0.2",
+      "value": 1.1829236979699286e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_1.0_0.5",
+      "value": 1.83226959423237e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_1.0_1.0",
+      "value": 2.0304417714388973e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_10.0_0.2",
+      "value": 3.853236827183887e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_10.0_0.5",
+      "value": 2.9147097234995523e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S30_stick_compatibility_10.0_1.0",
+      "value": 1.777562605088864e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "S3_independent_displacement_reactions",
+      "value": 6.5561982166590146e-15,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S3_surface_constraints_mm",
+      "value": 1.3578971136640535e-20,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_5_equilibrium",
+      "value": 1.2003067071742924e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_5_stationarity",
+      "value": 1.8877811207023888e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_5_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_5_complementarity",
+      "value": 5.017406835058219e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_8_equilibrium",
+      "value": 1.163276538474371e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_8_stationarity",
+      "value": 2.675378001009618e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_energy_8_complementarity",
+      "value": 8.164197430972269e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_None_None",
+      "value": 9.034728978840464e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_0.01_0.2",
+      "value": 8.569340831919841e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_0.01_0.5",
+      "value": 7.17030694730183e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_0.01_1.0",
+      "value": 3.982373611748899e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_0.1_0.2",
+      "value": 1.3444106938820255e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_0.1_0.5",
+      "value": 8.651906163404875e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_0.1_1.0",
+      "value": 1.1813824286535253e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_1.0_0.2",
+      "value": 4.84869951806108e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_1.0_0.5",
+      "value": 3.4083460684034504e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_1.0_1.0",
+      "value": 5.9984899832099596e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_10.0_0.2",
+      "value": 7.291007699904101e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_10.0_0.5",
+      "value": 4.272637039144576e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S33_stick_compatibility_10.0_1.0",
+      "value": 1.9212111444560128e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_compliance_PSD_relative",
+      "value": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_2_equilibrium",
+      "value": 4.8483866732281384e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_2_stationarity",
+      "value": 8.338767405594268e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_2_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_2_complementarity",
+      "value": 1.6864684452563835e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_4_equilibrium",
+      "value": 3.199900095898353e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_4_stationarity",
+      "value": 3.4429417895426875e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_4_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_4_complementarity",
+      "value": 6.947034472440753e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_5_equilibrium",
+      "value": 7.967651209224978e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_5_stationarity",
+      "value": 5.950951378004838e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_5_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_5_complementarity",
+      "value": 1.128073306937003e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_7_equilibrium",
+      "value": 2.063081476116683e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_7_stationarity",
+      "value": 1.0621414984348103e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_7_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_7_complementarity",
+      "value": 9.735093603005097e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_8_equilibrium",
+      "value": 1.2566871346510768e-16,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_8_stationarity",
+      "value": 1.0172717093824966e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_8_cone",
+      "value": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_energy_8_complementarity",
+      "value": 3.678398457250541e-11,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_None_None",
+      "value": 3.638140512715109e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_0.01_0.2",
+      "value": 1.9444385364611536e-16,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_0.01_0.5",
+      "value": 6.308864281398224e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_0.01_1.0",
+      "value": 3.0663568307288234e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_0.1_0.2",
+      "value": 2.1865699561412367e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_0.1_0.5",
+      "value": 1.0145259255336923e-17,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_0.1_1.0",
+      "value": 4.365176219447421e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_1.0_0.2",
+      "value": 5.852071617321608e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_1.0_0.5",
+      "value": 6.36507246502814e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_1.0_1.0",
+      "value": 4.7853280595991976e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_10.0_0.2",
+      "value": 4.4912674224666756e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_10.0_0.5",
+      "value": 5.192652150486828e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "S37_stick_compatibility_10.0_1.0",
+      "value": 5.002389277689554e-18,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_0_primal_violation",
+      "value": 2.9701391422322005e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_0_relative_gap",
+      "value": 8.973846616759469e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_0_stationarity_force",
+      "value": 6.633269839253057e-07,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_0_bound_gradient",
+      "value": 5.985814066633566e-10,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_0_dense_evaluation_relative",
+      "value": 6.859946691706309e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_1_primal_violation",
+      "value": 4.22173407343962e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_1_relative_gap",
+      "value": 3.3358611075823578e-15,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_1_stationarity_force",
+      "value": 2.5511595085236316e-07,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_1_bound_gradient",
+      "value": 4.910938322666425e-11,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "R43_minimax_1_dense_evaluation_relative",
+      "value": 2.444422442238192e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_0_primal_violation",
+      "value": 1.3352412508993439e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_0_relative_gap",
+      "value": 9.39699507455295e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_0_stationarity_force",
+      "value": 7.536677295932586e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_0_bound_gradient",
+      "value": 4.815934762092411e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_0_dense_evaluation_relative",
+      "value": 0.0003162091376243126,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_1_primal_violation",
+      "value": 7.073737151586101e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_1_relative_gap",
+      "value": 6.603218087695903e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_1_stationarity_force",
+      "value": 4.899169266166846e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_1_bound_gradient",
+      "value": 3.3318154901706976e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_1_dense_evaluation_relative",
+      "value": 9.837403102097575e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_2_primal_violation",
+      "value": 1.120064041515434e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_2_relative_gap",
+      "value": 1.267932186886589e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_2_stationarity_force",
+      "value": 9.056761765169001e-05,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_2_bound_gradient",
+      "value": 6.412138819911206e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C33_minimax_2_dense_evaluation_relative",
+      "value": 9.83736999673468e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_0_primal_violation",
+      "value": 2.0823254232027466e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_0_relative_gap",
+      "value": 1.8114164144593747e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_0_stationarity_force",
+      "value": 2.858452620533852e-05,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_0_bound_gradient",
+      "value": 1.0561036933864898e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_0_dense_evaluation_relative",
+      "value": 0.0005290512024271887,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_1_primal_violation",
+      "value": 2.5880524390231585e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_1_relative_gap",
+      "value": 4.280999931955067e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_1_stationarity_force",
+      "value": 7.464859980940639e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_1_bound_gradient",
+      "value": 2.3142896488081988e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_1_dense_evaluation_relative",
+      "value": 0.00031926847614927034,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_2_primal_violation",
+      "value": 6.428695797922046e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_2_relative_gap",
+      "value": 5.989647507660012e-12,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_2_stationarity_force",
+      "value": 2.4496040984626856e-05,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_2_bound_gradient",
+      "value": 3.3466836857343196e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-283_minimax_2_dense_evaluation_relative",
+      "value": 0.0003192690832141132,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C37_minimax_0_primal_violation",
+      "value": 7.216188753634295e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "C37_minimax_0_relative_gap",
+      "value": 5.390474055427395e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "C37_minimax_0_stationarity_force",
+      "value": 2.3251928721106538e-05,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "C37_minimax_0_bound_gradient",
+      "value": 1.3620153893612041e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "C37_minimax_0_dense_evaluation_relative",
+      "value": 0.00013114743488062963,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_0_primal_violation",
+      "value": 1.051592146694702e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_0_relative_gap",
+      "value": 7.198785735428447e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_0_stationarity_force",
+      "value": 2.6239371768481587e-08,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_0_bound_gradient",
+      "value": 2.955759059730667e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_0_dense_evaluation_relative",
+      "value": 6.571121424769899e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_1_primal_violation",
+      "value": 4.881339776829918e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_1_relative_gap",
+      "value": 1.5710758831412894e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_1_stationarity_force",
+      "value": 2.5876456610752033e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_1_bound_gradient",
+      "value": 1.1248428410937095e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_1_dense_evaluation_relative",
+      "value": 2.956013211985464e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_2_primal_violation",
+      "value": 3.294409189891212e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_2_relative_gap",
+      "value": 2.5277798580280774e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_2_stationarity_force",
+      "value": 3.5059113329629263e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_2_bound_gradient",
+      "value": 7.760180276150663e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_2_dense_evaluation_relative",
+      "value": 2.069988624953112e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_3_primal_violation",
+      "value": 6.70534738844708e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_3_relative_gap",
+      "value": 1.9345337367281178e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_3_stationarity_force",
+      "value": 1.6135566540301798e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_3_bound_gradient",
+      "value": 1.2666600435196074e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_3_dense_evaluation_relative",
+      "value": 4.0605740991850325e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_4_primal_violation",
+      "value": 4.780309481589029e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_4_relative_gap",
+      "value": 5.5182719612523666e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_4_stationarity_force",
+      "value": 2.3159014981734675e-07,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_4_bound_gradient",
+      "value": 1.3140589949500736e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S30_minimax_4_dense_evaluation_relative",
+      "value": 3.0036417797418835e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_0_primal_violation",
+      "value": 9.089418107066649e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_0_relative_gap",
+      "value": 3.621025904056296e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_0_stationarity_force",
+      "value": 1.046551734543037e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_0_bound_gradient",
+      "value": 4.1113845661300275e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_0_dense_evaluation_relative",
+      "value": 6.897415971707233e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_1_primal_violation",
+      "value": 3.9571257381965097e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_1_relative_gap",
+      "value": 5.594389228199858e-14,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_1_stationarity_force",
+      "value": 6.079375145530502e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_1_bound_gradient",
+      "value": 1.7032177890285993e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S33_minimax_1_dense_evaluation_relative",
+      "value": 3.002671444818361e-10,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_0_primal_violation",
+      "value": 6.155642662264427e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_0_relative_gap",
+      "value": 5.883186795491303e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_0_stationarity_force",
+      "value": 5.149148798336621e-07,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_0_bound_gradient",
+      "value": 1.513768266292459e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_0_dense_evaluation_relative",
+      "value": 5.982117023961564e-10,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_1_primal_violation",
+      "value": 6.4752146433948805e-12,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_1_relative_gap",
+      "value": 7.898368659851189e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_1_stationarity_force",
+      "value": 2.436695983838902e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_1_bound_gradient",
+      "value": 3.3112490527287264e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_1_dense_evaluation_relative",
+      "value": 6.632827620478565e-11,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_2_primal_violation",
+      "value": 5.443214767808513e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_2_relative_gap",
+      "value": 1.893027585963896e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_2_stationarity_force",
+      "value": 2.2102279768737852e-08,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_2_bound_gradient",
+      "value": 3.7276437492295145e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_2_dense_evaluation_relative",
+      "value": 5.32516475360012e-10,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_3_primal_violation",
+      "value": 2.9445734739397267e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_3_relative_gap",
+      "value": 6.251458646971914e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_3_stationarity_force",
+      "value": 7.370149676494156e-07,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_3_bound_gradient",
+      "value": 2.044386127053599e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_3_dense_evaluation_relative",
+      "value": 2.741693538865775e-10,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_4_primal_violation",
+      "value": 2.701874279864569e-10,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_4_relative_gap",
+      "value": 7.671518997046892e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_4_stationarity_force",
+      "value": 2.481433322184042e-07,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_4_bound_gradient",
+      "value": 1.5085058757691172e-08,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "S37_minimax_4_dense_evaluation_relative",
+      "value": 2.6436253186545855e-10,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C3_reoptimized_33_65",
+      "value": 8.093414988130654e-05,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "C3-T6-28_reoptimized_33_65",
+      "value": 0.00020574104841974972,
+      "tolerance": 0.002,
+      "passed": true
+    },
+    {
+      "name": "cone_projection_0",
+      "value": 3.412855818410085e-12,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "cone_projection_1",
+      "value": 1.3244172618935504e-13,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "cone_projection_2",
+      "value": 5.525660822118444e-13,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "cone_projection_3",
+      "value": 1.3722632111434023e-06,
+      "tolerance": 2e-05,
+      "passed": true
+    }
+  ],
+  "all_pass": true,
+  "details": [
+    {
+      "name": "C3",
+      "refinement_65": {
+        "mu_top": 0,
+        "mu_internal": 0.6,
+        "status": "optimal",
+        "sampled_optimum": 21.68968331498186,
+        "dual_objective": 21.689683315006224,
+        "duality_gap": -2.4364510409213835e-11,
+        "stationarity_force_residual": 6.614332391416412e-07,
+        "stationarity_bound_residual": 7.366974585920616e-09,
+        "maximum_constraint_violation": 2.406348897920907e-09,
+        "dual_multiplier_negativity": 0.0,
+        "forces_normalized": [
+          [
+            -5.03147717440845e-16,
+            1.0018892521023119e-15,
+            -0.9999999999999978
+          ],
+          [
+            0.7880996618294265,
+            -0.3357023680900791,
+            0.9048935048644489
+          ],
+          [
+            -0.46997298766093176,
+            0.7804455347206635,
+            0.003618860286490139
+          ],
+          [
+            -0.3181266741684877,
+            -0.4447431666305829,
+            0.09148763484906537
+          ]
+        ],
+        "force_audit": {
+          "normal_components_normalized": [
+            0.9999999999999978,
+            1.068475209629044,
+            0.7812052046461784,
+            0.5053945270527904
+          ],
+          "friction_ratios": [
+            1.1211332209171521e-15,
+            0.5999999999838833,
+            0.6000000004697296,
+            0.4509739700753554
+          ],
+          "all_compressive": true
+        },
+        "sampled_response": {
+          "peak_nominal_normal_stress_MPa": 25.033842986730548,
+          "peak_nominal_shear_stress_upper_MPa": 3.829913533863669,
+          "peak_nominal_normal_strain": 0.08344614328910183,
+          "peak_nominal_shear_strain_upper": 0.03702249749401547,
+          "max_rigid_removed_displacement_mm": 0.2602761998086593,
+          "max_rigid_removed_rotation_rad": 0.826434327310006,
+          "linear_diagnostic_ratio": 21.689683317388273,
+          "inside_linear_diagnostic": false,
+          "required_uniform_E_for_diagnostic_MPa": 6506.904995216481,
+          "energy_N_mm": 0.000188190211309087,
+          "work_N_mm": 0.00037638042261819543,
+          "nodal_equilibrium_relative": 2.9175426836407113e-12,
+          "gauge_reaction_force_N": [
+            -1.1250432571172704e-16,
+            -2.5055539040828927e-16,
+            6.322011085532643e-17
+          ],
+          "gauge_reaction_moment_N_mm": [
+            -6.47913267508313e-17,
+            -5.590636985819351e-18,
+            6.840539442624059e-17
+          ],
+          "total_applied_force_N": [
+            5.854691731421724e-18,
+            2.222614453595284e-18,
+            5.922454367202068e-18
+          ],
+          "total_applied_moment_N_mm": [
+            -8.470329472543003e-19,
+            5.116079001415974e-19,
+            -6.572975670693371e-19
+          ],
+          "endpoint_integration_error_mm": 2.3054991190805336e-05,
+          "contact_displacements_mm": [
+            [
+              0.09015636838728594,
+              -0.2543490586741525,
+              -0.18962893700325567
+            ],
+            [
+              0.015207124094665146,
+              -0.4045280400570789,
+              0.04096579606853416
+            ],
+            [
+              1.7691242278553277e-15,
+              -1.1039220833652455e-14,
+              7.447339952564447e-16
+            ],
+            [
+              -0.08859746409763852,
+              -0.041293989616727075,
+              -0.030980545913857523
+            ]
+          ],
+          "worst_stress_location": {
+            "element": 7,
+            "arc": 1,
+            "point_mm": [
+              -0.09220707607016462,
+              0.2078742372154637,
+              0.076721291860083
+            ]
+          },
+          "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+        },
+        "compatibility": {
+          "rigid_motion": [
+            0.020034209858200272,
+            0.16155771491805077,
+            -0.006230252824938426,
+            0.2650425700107113,
+            -0.06114331576625118,
+            -0.6774210881034355
+          ],
+          "maximum_stick_mismatch_mm": 0.14222553218877496,
+          "normal_mismatch_mm": [
+            0.12672542022260774,
+            0.08792923798095041,
+            -0.021997917888678848
+          ],
+          "tangential_mismatch_mm": [
+            [
+              -0.0034958937388087363,
+              -0.010040414638188055,
+              -0.012072626171344122
+            ],
+            [
+              -0.05849443007731053,
+              0.021953703069986757,
+              -0.09269836938110149
+            ],
+            [
+              0.026614421087667164,
+              -0.005810997005449691,
+              0.011738276248667957
+            ]
+          ],
+          "contact_displacements_with_rigid_mm": [
+            [
+              0.09384625361163802,
+              -0.161495817470237,
+              -0.1960527510820282
+            ],
+            [
+              0.07504190684183307,
+              -0.09649550393119594,
+              0.03708694609988177
+            ],
+            [
+              -0.10650415791163609,
+              0.0808526115296569,
+              -0.048454324499965236
+            ],
+            [
+              0.03146225106980291,
+              0.015642892401538454,
+              0.011367378400083367
+            ]
+          ],
+          "scope": "Least-squares mismatch at three fixed support contact points. For springs add the specified elastic contact displacement. Nonzero mismatch is not a valid all-stick solution."
+        },
+        "equality_dual": [
+          1.9795606437643258,
+          1.9128230450731594,
+          5.367854769365356,
+          -5.016654173614917,
+          5.680744397605883,
+          -1.4493632989086687,
+          -10.690321756865684,
+          18.10166775050968,
+          21.689683315006224
+        ],
+        "cone_duals": [
+          {
+            "contact": 1,
+            "dual": [
+              0.15759417461009384,
+              -0.0309528531056048,
+              -0.09666709543490551,
+              -0.12055420926403265
+            ]
+          },
+          {
+            "contact": 2,
+            "dual": [
+              5.156122714179329,
+              0.4777768498237495,
+              -2.8288404689390836,
+              4.284272671296807
+            ]
+          },
+          {
+            "contact": 3,
+            "dual": [
+              1.9739795759662016e-10,
+              8.257878837425139e-11,
+              -2.0232416020403712e-11,
+              -9.095790039637702e-11
+            ]
+          }
+        ],
+        "active_family_weight": {
+          "normal": 2.3060310551291245e-09,
+          "shear": 1.8668791666941548e-09,
+          "displacement": 0.9999999998591166,
+          "rotation": 3.334947859952272e-09
+        }
+      }
+    },
+    {
+      "name": "C3-T6-28",
+      "refinement_65": {
+        "mu_top": 0,
+        "mu_internal": 0.6,
+        "status": "optimal",
+        "sampled_optimum": 9.991165450476196,
+        "dual_objective": 9.991165450497645,
+        "duality_gap": -2.1449508835758024e-11,
+        "stationarity_force_residual": 1.853262413092752e-05,
+        "stationarity_bound_residual": 1.8976958893190954e-08,
+        "maximum_constraint_violation": 2.4311823665357224e-09,
+        "dual_multiplier_negativity": 0.0,
+        "forces_normalized": [
+          [
+            5.113218746007704e-14,
+            -1.0894278665858655e-13,
+            -1.0
+          ],
+          [
+            0.4219516040760264,
+            -0.41139069785586774,
+            0.7646752458203964
+          ],
+          [
+            -0.43070084946079434,
+            0.8061962964049353,
+            0.01734395748388822
+          ],
+          [
+            0.008749245384168934,
+            -0.3948055985484235,
+            0.2179807966963199
+          ]
+        ],
+        "force_audit": {
+          "normal_components_normalized": [
+            1.0,
+            0.8387983900724018,
+            0.7839176232980881,
+            0.38678885183626943
+          ],
+          "friction_ratios": [
+            1.2034546671724183e-13,
+            0.56979664705401,
+            0.6000000004948632,
+            0.6000000002104382
+          ],
+          "all_compressive": true
+        },
+        "sampled_response": {
+          "peak_nominal_normal_stress_MPa": 21.59384265737235,
+          "peak_nominal_shear_stress_upper_MPa": 2.684032216324357,
+          "peak_nominal_normal_strain": 0.0719794755245745,
+          "peak_nominal_shear_strain_upper": 0.025945644757802117,
+          "max_rigid_removed_displacement_mm": 0.1198939854348887,
+          "max_rigid_removed_rotation_rad": 0.3808283152404561,
+          "linear_diagnostic_ratio": 9.991165452907392,
+          "inside_linear_diagnostic": false,
+          "required_uniform_E_for_diagnostic_MPa": 2997.3496358722177,
+          "energy_N_mm": 9.190060271837378e-05,
+          "work_N_mm": 0.00018380120543668037,
+          "nodal_equilibrium_relative": 2.726460611179894e-12,
+          "gauge_reaction_force_N": [
+            4.318919354096007e-16,
+            -2.41289193486649e-16,
+            -7.334898747407559e-16
+          ],
+          "gauge_reaction_moment_N_mm": [
+            1.4541776935167103e-16,
+            -1.9372490536653103e-17,
+            -1.38123121609917e-16
+          ],
+          "total_applied_force_N": [
+            -4.930934539805129e-16,
+            4.816026050180611e-16,
+            5.440526501532261e-16
+          ],
+          "total_applied_moment_N_mm": [
+            -2.3365912069778227e-16,
+            -1.6473096758201633e-17,
+            2.2497195079074217e-17
+          ],
+          "endpoint_integration_error_mm": 1.3741277416115112e-05,
+          "contact_displacements_mm": [
+            [
+              0.05285021991593693,
+              -0.08677814787595974,
+              -0.11873129325303461
+            ],
+            [
+              0.04323788668763694,
+              -0.17275587140311915,
+              -0.009580942817040668
+            ],
+            [
+              -0.00012129760804253866,
+              -0.001284181999355624,
+              -0.00045424948765827573
+            ],
+            [
+              0.0031021268666188567,
+              -0.031393178975662704,
+              -0.036362293950704526
+            ]
+          ],
+          "worst_stress_location": {
+            "element": 7,
+            "arc": 1,
+            "point_mm": [
+              -0.09220707607016462,
+              0.2078742372154637,
+              0.076721291860083
+            ]
+          },
+          "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+        },
+        "compatibility": {
+          "rigid_motion": [
+            -0.012466076874500614,
+            0.0560620755532885,
+            0.01754776609017859,
+            0.19924019985971134,
+            0.014252782382442958,
+            -0.19637507319864597
+          ],
+          "maximum_stick_mismatch_mm": 0.07087130312370382,
+          "normal_mismatch_mm": [
+            0.06138905497967483,
+            0.04442615544244832,
+            -0.00934977579536897
+          ],
+          "tangential_mismatch_mm": [
+            [
+              -0.0026461412097357195,
+              -0.0059010600453687015,
+              -0.006150471790908541
+            ],
+            [
+              -0.027744075147653816,
+              0.012081300693128402,
+              -0.046188383678354504
+            ],
+            [
+              0.014540875882163382,
+              -0.0031763295663898104,
+              0.00632807884852855
+            ]
+          ],
+          "contact_displacements_with_rigid_mm": [
+            [
+              0.04402413000172357,
+              -0.08270309174507058,
+              -0.1012636185147204
+            ],
+            [
+              0.035399590651784114,
+              -0.047782130319652324,
+              0.01766369019517419
+            ],
+            [
+              -0.05200093987767079,
+              0.04183991253492248,
+              -0.023834126318386727
+            ],
+            [
+              0.016601349225886686,
+              0.005942217784730766,
+              0.006170436123212469
+            ]
+          ],
+          "scope": "Least-squares mismatch at three fixed support contact points. For springs add the specified elastic contact displacement. Nonzero mismatch is not a valid all-stick solution."
+        },
+        "equality_dual": [
+          -0.7170890916408605,
+          0.7694822477766279,
+          3.0603729187927815,
+          -4.909351784902383,
+          2.575415974298182,
+          0.0661048088396135,
+          -1.970112757269424,
+          7.390195620241864,
+          9.991165450497645
+        ],
+        "cone_duals": [
+          {
+            "contact": 1,
+            "dual": [
+              4.657844357966886e-09,
+              8.238079315646909e-10,
+              -1.664133199784035e-09,
+              -4.242771810095781e-09
+            ]
+          },
+          {
+            "contact": 2,
+            "dual": [
+              4.893286702275945,
+              0.02785802614454427,
+              -2.924357029517394,
+              3.923214834707496
+            ]
+          },
+          {
+            "contact": 3,
+            "dual": [
+              0.2290956760576399,
+              -0.09278196517440673,
+              0.017356646825968818,
+              -0.2087464550929576
+            ]
+          }
+        ],
+        "active_family_weight": {
+          "normal": 8.647720044185254e-09,
+          "shear": 6.5043169332316916e-09,
+          "displacement": 0.9999999953495264,
+          "rotation": 8.475395574758577e-09
+        }
+      }
+    },
+    {
+      "name": "C3_pose3_refined_contact_geometry",
+      "energy": {
+        "status": "optimal",
+        "mu_top": 0,
+        "mu_internal": 0.6,
+        "scope": "Minimum complementary energy within static friction cones; no Coulomb displacement law or automatic physical realizability.",
+        "forces_normalized": [
+          [
+            -3.535917897745801e-15,
+            -2.5664412941253632e-15,
+            -1.0
+          ],
+          [
+            0.49570007492944,
+            -0.3544011832616163,
+            0.7897983485774988
+          ],
+          [
+            -0.4186887764252711,
+            0.6254091914968171,
+            0.03561815922422253
+          ],
+          [
+            -0.07701129850415837,
+            -0.2710080082351927,
+            0.17458349219827887
+          ]
+        ],
+        "energy_scaled": 0.021660162510436617,
+        "energy_scale_compliance": 9201.130036943638,
+        "force_audit": {
+          "normal_components_normalized": [
+            1.0,
+            0.8553895720073686,
+            0.665382217189704,
+            0.2842113398451658
+          ],
+          "friction_ratios": [
+            4.369134501911214e-15,
+            0.5999999992431446,
+            0.5312945433073067,
+            0.599999998201765
+          ],
+          "all_compressive": true
+        },
+        "response": {
+          "peak_nominal_normal_stress_MPa": 25.03384298673045,
+          "peak_nominal_shear_stress_upper_MPa": 3.6786155088249406,
+          "peak_nominal_normal_strain": 0.0834461432891015,
+          "peak_nominal_shear_strain_upper": 0.035559949918641094,
+          "max_rigid_removed_displacement_mm": 0.2682473459900443,
+          "max_rigid_removed_rotation_rad": 0.791153862058802,
+          "linear_diagnostic_ratio": 22.353945499170358,
+          "inside_linear_diagnostic": false,
+          "required_uniform_E_for_diagnostic_MPa": 6706.183649751108,
+          "energy_N_mm": 0.0001614313572226985,
+          "work_N_mm": 0.0003228627144453711,
+          "nodal_equilibrium_relative": 5.040800283023974e-12,
+          "gauge_reaction_force_N": [
+            8.068779684585411e-16,
+            1.5223799292396226e-15,
+            4.69556032641373e-16
+          ],
+          "gauge_reaction_moment_N_mm": [
+            -5.249585758557781e-17,
+            5.945706407552283e-17,
+            -1.8482533779922484e-16
+          ],
+          "total_applied_force_N": [
+            6.3019251275719945e-18,
+            4.851804721872632e-18,
+            8.131516293641283e-20
+          ],
+          "total_applied_moment_N_mm": [
+            5.996993266560446e-19,
+            -6.776263578034403e-19,
+            -1.429791614965259e-18
+          ],
+          "endpoint_integration_error_mm": 1.2995535850155173e-06,
+          "contact_displacements_mm": [
+            [
+              0.07768023454323238,
+              -0.2544960231984663,
+              -0.19999857923682895
+            ],
+            [
+              0.015581676154723795,
+              -0.3349942240910601,
+              0.027432036731007275
+            ],
+            [
+              -4.279365053368134e-15,
+              2.7583557826915512e-14,
+              1.1250066460292456e-14
+            ],
+            [
+              -0.07397601264523905,
+              -0.03243583589483179,
+              -0.022118670139543807
+            ]
+          ],
+          "worst_stress_location": {
+            "element": 7,
+            "arc": 1,
+            "point_mm": [
+              -0.09220707607016462,
+              0.2078742372154637,
+              0.076721291860083
+            ]
+          },
+          "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+        },
+        "compatibility": {
+          "rigid_motion": [
+            0.01961840487749926,
+            0.13442323873110873,
+            -0.0021756265182598803,
+            0.2126556836504383,
+            -0.021882448727407078,
+            -0.5655078303710612
+          ],
+          "maximum_stick_mismatch_mm": 0.11767195684328327,
+          "normal_mismatch_mm": [
+            0.105100478773238,
+            0.07249928873680178,
+            -0.019146916563688374
+          ],
+          "tangential_mismatch_mm": [
+            [
+              -0.0030072836458843316,
+              -0.008449188326245693,
+              -0.010054226149554903
+            ],
+            [
+              -0.04892340520674431,
+              0.017758914257749517,
+              -0.07669200706297866
+            ],
+            [
+              0.02216164252156556,
+              -0.004837136563100964,
+              0.009799408675795969
+            ]
+          ],
+          "contact_displacements_with_rigid_mm": [
+            [
+              0.09129423083935162,
+              -0.17517362228003214,
+              -0.20229998713192715
+            ],
+            [
+              0.062124017337828685,
+              -0.08015256986731939,
+              0.030721371284548125
+            ],
+            [
+              -0.0885038326256075,
+              0.06631598636363321,
+              -0.040198892901725396
+            ],
+            [
+              0.026379815287778774,
+              0.013836583503685801,
+              0.009477521617177312
+            ]
+          ],
+          "scope": "Least-squares mismatch at three fixed support contact points. For springs add the specified elastic contact displacement. Nonzero mismatch is not a valid all-stick solution."
+        },
+        "numerical_kkt": {
+          "equality_residual": 1.2649734910361838e-14,
+          "stationarity_residual": 1.3371918171224603e-10,
+          "cone_primal_violation": 0.0,
+          "cone_dual_violation": 0.0,
+          "complementarity": 1.927922868026445e-10
+        },
+        "equality_dual": [
+          -0.003291544948754002,
+          0.0058002196032038095,
+          -0.019082790664650184,
+          -0.006409385015273337,
+          -0.021848371696863798,
+          -0.005535279089196084,
+          0.017772961490266966,
+          0.01791035201304069,
+          0.043320324962739666
+        ],
+        "cone_duals": [
+          {
+            "contact": 1,
+            "dual": [
+              0.0436808895097123,
+              0.002925088988130234,
+              -0.019506335572134156,
+              -0.03897392492758911
+            ]
+          },
+          {
+            "contact": 2,
+            "dual": [
+              6.741469001800336e-10,
+              1.577022285488301e-10,
+              -2.603045886474404e-10,
+              5.174003568969779e-10
+            ]
+          },
+          {
+            "contact": 3,
+            "dual": [
+              0.008150442064114112,
+              0.0006888347876458717,
+              -0.00029549701451275215,
+              -0.00811590375556086
+            ]
+          }
+        ]
+      },
+      "kinematic_check_at_9uN": {
+        "solver_success": true,
+        "normalized_solver_optimality": 5.670464098272987e-14,
+        "displacement_scale_mm": 0.0034674227447947614,
+        "independent_elimination_residual_agreement_mm": 1.1384122811097797e-18,
+        "allowed_slip_contacts": [
+          1,
+          3
+        ],
+        "rigid_motion": [
+          0.009440578893996807,
+          0.045247406030305,
+          -0.08545148048645924,
+          -0.4523673341497341,
+          0.01674506460109319,
+          -0.04113229579380071
+        ],
+        "slip_distances_mm": [
+          0.11290440397185272,
+          0.1524578409948255
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            2.725901349566657e-05,
+            -2.0688606704866944e-05,
+            1.2400814148678246e-05
+          ],
+          [
+            9.720971084870593e-06,
+            0.0003247533637286814,
+            -2.0330375264317115e-05
+          ],
+          [
+            -3.6979984580540496e-05,
+            -0.00030406475702400473,
+            7.929561115589158e-06
+          ]
+        ],
+        "L2_mismatch_mm": 0.00044853449678830683,
+        "max_mismatch_mm": 0.0003255342818971822,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      }
+    }
+  ]
+}

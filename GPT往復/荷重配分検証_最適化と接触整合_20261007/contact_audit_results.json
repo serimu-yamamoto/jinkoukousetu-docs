@@ -1,0 +1,2638 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "kinematic_checks": [
+    {
+      "name": "C3",
+      "pose_id": 3,
+      "method": "energy",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 7.50502091029226e-14,
+        "displacement_scale_mm": 0.003467854124800972,
+        "independent_elimination_residual_agreement_mm": 2.5478751053409354e-18,
+        "allowed_slip_contacts": [
+          1,
+          3
+        ],
+        "rigid_motion": [
+          0.009503606049921669,
+          0.0454710445275678,
+          -0.08586454777623778,
+          -0.4546226758218453,
+          0.01692167781288432,
+          -0.04137410480655863
+        ],
+        "slip_distances_mm": [
+          0.1134373593889468,
+          0.15322313358732173
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            2.6020082293364043e-05,
+            -1.975206736665614e-05,
+            1.183781943597112e-05
+          ],
+          [
+            1.0512770233461552e-05,
+            0.00032055569525736246,
+            -1.9706899810538556e-05
+          ],
+          [
+            -3.653285252683616e-05,
+            -0.00030080362789070263,
+            7.869080374266896e-06
+          ]
+        ],
+        "L2_mismatch_mm": 0.0004431044471778147,
+        "max_mismatch_mm": 0.00032133290214364166,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.25033842986730215,
+        "peak_nominal_shear_stress_upper_MPa": 0.036785195288007846,
+        "peak_nominal_normal_strain": 0.0008344614328910072,
+        "peak_nominal_shear_strain_upper": 0.0003555902211174092,
+        "max_rigid_removed_displacement_mm": 0.0026824289777707335,
+        "max_rigid_removed_rotation_rad": 0.00791141456268766,
+        "linear_diagnostic_ratio": 0.2235357481475611,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 67.06072444426833,
+        "energy_N_mm": 1.6144595373470422e-08,
+        "work_N_mm": 3.228919074695249e-08,
+        "nodal_equilibrium_relative": 2.969316332144363e-12,
+        "gauge_reaction_force_N": [
+          -1.0009993998030961e-18,
+          -1.9541292961771035e-18,
+          5.03442428677061e-19
+        ],
+        "gauge_reaction_moment_N_mm": [
+          -6.197134029577725e-19,
+          -8.83861170311058e-20,
+          5.39134994767646e-19
+        ],
+        "total_applied_force_N": [
+          1.164670302474663e-21,
+          0.0,
+          -2.117582368135751e-22
+        ],
+        "total_applied_moment_N_mm": [
+          1.5881867761018131e-22,
+          -2.6469779601696886e-22,
+          2.117582368135751e-22
+        ],
+        "endpoint_integration_error_mm": 1.2996511109332416e-08,
+        "contact_displacements_mm": [
+          [
+            0.0007769358965525852,
+            -0.0025450471152459976,
+            -0.001999882676087644
+          ],
+          [
+            0.00015579200976347708,
+            -0.003350355561486346,
+            0.00027445509519804666
+          ],
+          [
+            1.2644649396832886e-17,
+            -8.657061848882998e-17,
+            1.2548097040430898e-18
+          ],
+          [
+            -0.0007398566700078594,
+            -0.00032437743522565016,
+            -0.0002211887888018164
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 7,
+          "arc": 1,
+          "point_mm": [
+            -0.09220707607016462,
+            0.2078742372154637,
+            0.076721291860083
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "C3",
+      "pose_id": 3,
+      "method": "minimax",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 5.551115123125783e-17,
+        "displacement_scale_mm": 0.004196454516010898,
+        "independent_elimination_residual_agreement_mm": 2.168404344971009e-19,
+        "allowed_slip_contacts": [
+          1,
+          2
+        ],
+        "rigid_motion": [
+          -6.465617373722204e-05,
+          0.0014573971360348258,
+          -0.00038226264197978375,
+          0.0021305154142021395,
+          -0.0021811275205855163,
+          -0.005901716083232733
+        ],
+        "slip_distances_mm": [
+          0.0008080050263586655,
+          1.1993356387614092e-26
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            0.0009492609494610891,
+            -0.0008550919671022669,
+            0.00044189151387498925
+          ],
+          [
+            -0.0010262361233183395,
+            0.000739038388817447,
+            -0.00046390480581235815
+          ],
+          [
+            7.697517385725039e-05,
+            0.00011605357828482039,
+            2.2013291937368845e-05
+          ]
+        ],
+        "L2_mismatch_mm": 0.0019136276852249631,
+        "max_mismatch_mm": 0.0013518678679550462,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.2503384298673188,
+        "peak_nominal_shear_stress_upper_MPa": 0.03830563954557937,
+        "peak_nominal_normal_strain": 0.0008344614328910627,
+        "peak_nominal_shear_strain_upper": 0.00037028784894060056,
+        "max_rigid_removed_displacement_mm": 0.0026033743130377393,
+        "max_rigid_removed_rotation_rad": 0.008266295410941165,
+        "linear_diagnostic_ratio": 0.2169478594198116,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 65.08435782594348,
+        "energy_N_mm": 1.8821126997078412e-08,
+        "work_N_mm": 3.764225399417319e-08,
+        "nodal_equilibrium_relative": 4.005636881487233e-12,
+        "gauge_reaction_force_N": [
+          4.530402888745907e-18,
+          -4.964968671003568e-18,
+          -2.5726527124378254e-18
+        ],
+        "gauge_reaction_moment_N_mm": [
+          2.3292024610718224e-19,
+          4.741229358514603e-19,
+          -9.931622626918427e-19
+        ],
+        "total_applied_force_N": [
+          -5.591688001299264e-18,
+          2.4851946672441172e-18,
+          3.2484772318386486e-18
+        ],
+        "total_applied_moment_N_mm": [
+          -1.4259799667026146e-18,
+          -2.0696720670566795e-19,
+          4.73914933988781e-19
+        ],
+        "endpoint_integration_error_mm": 1.441041486020588e-08,
+        "contact_displacements_mm": [
+          [
+            0.0009016588357558308,
+            -0.0025435624259147896,
+            -0.00189623549284796
+          ],
+          [
+            0.0001521409151159532,
+            -0.004045692980173949,
+            0.0004097337261075039
+          ],
+          [
+            -1.8000961084798052e-17,
+            7.573935861153224e-17,
+            5.0535758667829724e-17
+          ],
+          [
+            -0.0008860290102367177,
+            -0.0004129612914223996,
+            -0.00030981574453683086
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 7,
+          "arc": 1,
+          "point_mm": [
+            -0.09220707607016462,
+            0.2078742372154637,
+            0.076721291860083
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "C3-T6-28",
+      "pose_id": 3,
+      "method": "energy",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 6.708522626297508e-14,
+        "displacement_scale_mm": 0.0015764743036154256,
+        "independent_elimination_residual_agreement_mm": 2.507217523872729e-18,
+        "allowed_slip_contacts": [
+          1,
+          3
+        ],
+        "rigid_motion": [
+          0.008457028349593524,
+          0.029561935850662444,
+          -0.0520319001090734,
+          -0.2890286411679118,
+          0.02741351770257418,
+          -0.03136912046220824
+        ],
+        "slip_distances_mm": [
+          0.06720416227327129,
+          0.0983869215348745
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            -3.810553994711358e-06,
+            2.906231575382787e-06,
+            -1.7346233699977454e-06
+          ],
+          [
+            1.2513221387328942e-05,
+            7.32706400019271e-05,
+            -4.769108379417319e-07
+          ],
+          [
+            -8.702667392608055e-06,
+            -7.617687157740618e-05,
+            2.2115342078977626e-06
+          ]
+        ],
+        "L2_mismatch_mm": 0.00010693415417115084,
+        "max_mismatch_mm": 7.67042571609927e-05,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.21593842657370682,
+        "peak_nominal_shear_stress_upper_MPa": 0.023330087049576453,
+        "peak_nominal_normal_strain": 0.0007197947552456894,
+        "peak_nominal_shear_strain_upper": 0.00022552417481257238,
+        "max_rigid_removed_displacement_mm": 0.0012490432442481972,
+        "max_rigid_removed_rotation_rad": 0.0038942106919813094,
+        "linear_diagnostic_ratio": 0.1040869370206831,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 31.22608110620493,
+        "energy_N_mm": 8.435273464060574e-09,
+        "work_N_mm": 1.687054692812151e-08,
+        "nodal_equilibrium_relative": 2.973856934409078e-12,
+        "gauge_reaction_force_N": [
+          -6.945670167485263e-19,
+          1.48908392127306e-18,
+          -1.6517142471458857e-18
+        ],
+        "gauge_reaction_moment_N_mm": [
+          -1.1041206816357813e-19,
+          -4.9667563572379015e-19,
+          -1.5828266457324695e-19
+        ],
+        "total_applied_force_N": [
+          5.2727800966580196e-20,
+          4.0234064994579266e-20,
+          4.446922973085077e-21
+        ],
+        "total_applied_moment_N_mm": [
+          5.849821291975012e-21,
+          -4.552802091491864e-21,
+          -1.1752582143153417e-20
+        ],
+        "endpoint_integration_error_mm": 8.588298383704224e-09,
+        "contact_displacements_mm": [
+          [
+            0.0004577790477668549,
+            -0.0009759004111899039,
+            -0.0012190947895413659
+          ],
+          [
+            0.0004313315970779808,
+            -0.0014648480978145576,
+            -0.0001095049003011899
+          ],
+          [
+            -1.123812222500714e-06,
+            -1.1247271502381642e-05,
+            -3.896133491779137e-06
+          ],
+          [
+            4.544348702780207e-05,
+            -0.0002493089623132966,
+            -0.00027765085508903484
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 7,
+          "arc": 1,
+          "point_mm": [
+            -0.09220707607016462,
+            0.2078742372154637,
+            0.076721291860083
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "C3-T6-28",
+      "pose_id": 3,
+      "method": "minimax",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 2.7755575615628914e-17,
+        "displacement_scale_mm": 0.0018474978974287312,
+        "independent_elimination_residual_agreement_mm": 1.0842021724855044e-19,
+        "allowed_slip_contacts": [
+          2,
+          3
+        ],
+        "rigid_motion": [
+          -0.00012466604392997728,
+          0.0005606829431922472,
+          0.00017550085397803928,
+          0.001992592188386846,
+          0.00014260940641414637,
+          -0.0019639896039422623
+        ],
+        "slip_distances_mm": [
+          1.0217397009363939e-25,
+          6.213445322113525e-25
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            0.00035403590192990066,
+            -0.00047787465841055057,
+            0.0001766568118796227
+          ],
+          [
+            -0.0005200682344476354,
+            0.0004184404524603841,
+            -0.00023836778179584908
+          ],
+          [
+            0.0001660323325177347,
+            5.943420595016624e-05,
+            6.171096991622641e-05
+          ]
+        ],
+        "L2_mismatch_mm": 0.0009603141269454511,
+        "max_mismatch_mm": 0.0007087895175120786,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.2159384265737,
+        "peak_nominal_shear_stress_upper_MPa": 0.02684310714227497,
+        "peak_nominal_normal_strain": 0.0007197947552456666,
+        "peak_nominal_shear_strain_upper": 0.0002594833690419914,
+        "max_rigid_removed_displacement_mm": 0.0011993274037511233,
+        "max_rigid_removed_rotation_rad": 0.0038100086923671846,
+        "linear_diagnostic_ratio": 0.09994395031259361,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 29.983185093778083,
+        "energy_N_mm": 9.190908143741329e-09,
+        "work_N_mm": 1.838181628748101e-08,
+        "nodal_equilibrium_relative": 1.4138817935217978e-12,
+        "gauge_reaction_force_N": [
+          -5.751353711856699e-19,
+          2.3784685158900754e-18,
+          -1.9439406139486193e-18
+        ],
+        "gauge_reaction_moment_N_mm": [
+          -9.317362419797304e-21,
+          -5.544161512024417e-19,
+          -2.0517387913765298e-19
+        ],
+        "total_applied_force_N": [
+          -3.3523975865549106e-20,
+          1.4823076576950256e-20,
+          5.505714157152952e-20
+        ],
+        "total_applied_moment_N_mm": [
+          -1.44524996625265e-20,
+          4.7645603283054394e-21,
+          6.352747104407253e-22
+        ],
+        "endpoint_integration_error_mm": 8.58829838441807e-09,
+        "contact_displacements_mm": [
+          [
+            0.0005285196062932495,
+            -0.0008677838797203977,
+            -0.0011873212197632257
+          ],
+          [
+            0.000432432390728252,
+            -0.0017277468089002004,
+            -9.583091896007527e-05
+          ],
+          [
+            -1.21310515306122e-06,
+            -1.2842486038060026e-05,
+            -4.542767403428286e-06
+          ],
+          [
+            3.101988873393875e-05,
+            -0.00031395422579222175,
+            -0.0003636503548214684
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 7,
+          "arc": 1,
+          "point_mm": [
+            -0.09220707607016462,
+            0.2078742372154637,
+            0.076721291860083
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "S3",
+      "pose_id": 0,
+      "method": "energy",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 3.219646771412954e-15,
+        "displacement_scale_mm": 0.00024580129659135914,
+        "independent_elimination_residual_agreement_mm": 1.1434944787933055e-20,
+        "allowed_slip_contacts": [
+          2,
+          3
+        ],
+        "rigid_motion": [
+          -5.222672657933862e-05,
+          7.445747935525914e-05,
+          -6.9198956329736e-05,
+          0.00019946416307826484,
+          0.00015669984200576174,
+          2.8681681432285282e-05
+        ],
+        "slip_distances_mm": [
+          3.4474415737866168e-06,
+          7.000994510766883e-06
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            -1.7499941682545014e-07,
+            2.0290992698190262e-07,
+            2.016588806015137e-08
+          ],
+          [
+            2.515269830271298e-07,
+            1.3782450494493866e-07,
+            4.636404747080443e-08
+          ],
+          [
+            -7.652756620169323e-08,
+            -3.407344319260688e-07,
+            -6.652993553063393e-08
+          ]
+        ],
+        "L2_mismatch_mm": 5.319751812450195e-07,
+        "max_mismatch_mm": 3.5550338087062637e-07,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.04962711886488813,
+        "peak_nominal_shear_stress_upper_MPa": 0.007329518618953841,
+        "peak_nominal_normal_strain": 0.0001654237295496271,
+        "peak_nominal_shear_strain_upper": 7.085201331655378e-05,
+        "max_rigid_removed_displacement_mm": 6.316957454872602e-05,
+        "max_rigid_removed_rotation_rad": 0.0003858558225408473,
+        "linear_diagnostic_ratio": 0.01654237295496271,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 4.962711886488813,
+        "energy_N_mm": 3.342263955410857e-10,
+        "work_N_mm": 6.684527910821814e-10,
+        "nodal_equilibrium_relative": 6.031259898701925e-14,
+        "gauge_reaction_force_N": [
+          6.606856988583543e-20,
+          -1.7448878713438587e-19,
+          1.2705494208814505e-19
+        ],
+        "gauge_reaction_moment_N_mm": [
+          -6.650532124926343e-20,
+          -4.706326813181706e-20,
+          -9.899697571034635e-21
+        ],
+        "total_applied_force_N": [
+          2.3822801641527197e-21,
+          4.129285617864714e-21,
+          -4.235164736271502e-22
+        ],
+        "total_applied_moment_N_mm": [
+          1.0058516248644817e-21,
+          -2.117582368135751e-22,
+          1.1911400820763599e-21
+        ],
+        "endpoint_integration_error_mm": 3.2491748183607185e-09,
+        "contact_displacements_mm": [
+          [
+            8.133488159098049e-07,
+            3.5931807367109403e-06,
+            -7.108832418942712e-06
+          ],
+          [
+            7.44594580266782e-05,
+            -9.35160171551236e-05,
+            1.8619806025998284e-05
+          ],
+          [
+            6.955398946111472e-05,
+            -0.00010493812451852867,
+            0.00012152652259711688
+          ],
+          [
+            6.414827286674516e-05,
+            -9.241310019180669e-05,
+            5.008471577782526e-05
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 5,
+          "arc": 0,
+          "point_mm": [
+            0.020207397295178623,
+            0.016903145788805102,
+            0.23854966937096606
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "S3",
+      "pose_id": 0,
+      "method": "minimax",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 1.1102230246251565e-16,
+        "displacement_scale_mm": 0.00021577152614749904,
+        "independent_elimination_residual_agreement_mm": 6.776263578034403e-21,
+        "allowed_slip_contacts": [
+          1,
+          3
+        ],
+        "rigid_motion": [
+          -4.049902857697285e-05,
+          6.021154309886434e-05,
+          -5.795988517402299e-05,
+          0.00018079664834754145,
+          0.00014427219406642187,
+          4.637133846375213e-05
+        ],
+        "slip_distances_mm": [
+          3.61054622493969e-28,
+          8.247553894556442e-22
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            2.4264233603280732e-05,
+            -1.653049725721306e-05,
+            -7.602517465294382e-07
+          ],
+          [
+            -2.0998894290503316e-05,
+            2.2226852125387803e-05,
+            2.047641051936824e-06
+          ],
+          [
+            -3.2653393127774163e-06,
+            -5.696354868174757e-06,
+            -1.2873893054074061e-06
+          ]
+        ],
+        "L2_mismatch_mm": 4.2971339008506575e-05,
+        "max_mismatch_mm": 3.06460331968946e-05,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.04800632308230417,
+        "peak_nominal_shear_stress_upper_MPa": 0.0076085907631090795,
+        "peak_nominal_normal_strain": 0.00016002107694101388,
+        "peak_nominal_shear_strain_upper": 7.354971071005443e-05,
+        "max_rigid_removed_displacement_mm": 5.366514726874665e-05,
+        "max_rigid_removed_rotation_rad": 0.0003573525802199073,
+        "linear_diagnostic_ratio": 0.01600210769410139,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 4.8006323082304165,
+        "energy_N_mm": 4.866689807117484e-10,
+        "work_N_mm": 9.733379614235237e-10,
+        "nodal_equilibrium_relative": 8.494749654812078e-14,
+        "gauge_reaction_force_N": [
+          -1.6855955650360577e-19,
+          2.354751593366955e-19,
+          -1.9142944607947188e-19
+        ],
+        "gauge_reaction_moment_N_mm": [
+          1.5236005138736727e-19,
+          1.0159101411131265e-19,
+          -1.257314531080602e-20
+        ],
+        "total_applied_force_N": [
+          2.498747194400186e-19,
+          -4.1504614415460717e-19,
+          3.2356658585114273e-19
+        ],
+        "total_applied_moment_N_mm": [
+          -9.100310227063389e-20,
+          -7.099194889175105e-20,
+          -8.867376166568457e-22
+        ],
+        "endpoint_integration_error_mm": 3.4367506740892265e-09,
+        "contact_displacements_mm": [
+          [
+            4.788313892480172e-07,
+            3.7661802649503176e-06,
+            -6.052477740738613e-06
+          ],
+          [
+            8.720328205615072e-05,
+            -8.997244417317484e-05,
+            1.0871425821057805e-05
+          ],
+          [
+            3.2035162284128966e-05,
+            -6.986610119932846e-05,
+            0.00011032546035502954
+          ],
+          [
+            5.7314466106094273e-05,
+            -8.670839828085014e-05,
+            4.309507170671446e-05
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 4,
+          "arc": 0,
+          "point_mm": [
+            0.020207397295178623,
+            0.016903145788805102,
+            0.23854966937096606
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "S3",
+      "pose_id": 7,
+      "method": "energy",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 1.8041124150158794e-15,
+        "displacement_scale_mm": 7.170038784264745e-05,
+        "independent_elimination_residual_agreement_mm": 3.3881317890172014e-21,
+        "allowed_slip_contacts": [
+          2
+        ],
+        "rigid_motion": [
+          -2.838020049214231e-05,
+          -2.8717158405620384e-05,
+          -5.536728960251735e-05,
+          0.00029466245843173263,
+          2.3991564647059304e-05,
+          2.9797554796476388e-05
+        ],
+        "slip_distances_mm": [
+          9.881195681964965e-05
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            3.449224550320328e-06,
+            -5.156799161830932e-06,
+            -2.8960767507570703e-06
+          ],
+          [
+            -6.727698182688477e-06,
+            9.483939155591568e-06,
+            5.51809171106599e-06
+          ],
+          [
+            3.27847363236818e-06,
+            -4.327139993760488e-06,
+            -2.6220149603088804e-06
+          ]
+        ],
+        "L2_mismatch_mm": 1.577595769999827e-05,
+        "max_mismatch_mm": 1.2870756033584348e-05,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.03127898364989256,
+        "peak_nominal_shear_stress_upper_MPa": 0.006328093879846154,
+        "peak_nominal_normal_strain": 0.0001042632788329752,
+        "peak_nominal_shear_strain_upper": 6.117157417184615e-05,
+        "max_rigid_removed_displacement_mm": 3.7007542092255714e-05,
+        "max_rigid_removed_rotation_rad": 0.00025879476368146547,
+        "linear_diagnostic_ratio": 0.01042632788329752,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 3.1278983649892558,
+        "energy_N_mm": 2.857417144737644e-10,
+        "work_N_mm": 5.71483428947526e-10,
+        "nodal_equilibrium_relative": 7.256683707325736e-14,
+        "gauge_reaction_force_N": [
+          4.743384504624082e-20,
+          -5.336307567702092e-20,
+          -6.776263578034403e-21
+        ],
+        "gauge_reaction_moment_N_mm": [
+          1.9746455582865877e-20,
+          1.545835128739098e-20,
+          4.274869405674047e-21
+        ],
+        "total_applied_force_N": [
+          -8.258571235729428e-21,
+          1.6940658945086007e-21,
+          1.2705494208814505e-21
+        ],
+        "total_applied_moment_N_mm": [
+          3.705769144237564e-22,
+          -6.617444900424221e-22,
+          -2.0117032497289633e-21
+        ],
+        "endpoint_integration_error_mm": 2.908164957869497e-09,
+        "contact_displacements_mm": [
+          [
+            6.304573748877024e-05,
+            5.6561242805267485e-06,
+            -3.760094687261671e-05
+          ],
+          [
+            3.4180923655187106e-05,
+            2.4579427476346164e-05,
+            2.8397176961735802e-05
+          ],
+          [
+            5.118874386458705e-06,
+            1.0699236286016537e-05,
+            5.339768382954283e-06
+          ],
+          [
+            4.091279896350507e-05,
+            -2.6709034328264696e-05,
+            2.3754721961503084e-06
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 3,
+          "arc": 0,
+          "point_mm": [
+            -0.008814968416971046,
+            0.00452051892406186,
+            0.2397954570888802
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    },
+    {
+      "name": "S3",
+      "pose_id": 7,
+      "method": "minimax",
+      "load_uN": 9.0,
+      "kinematics": {
+        "solver_success": true,
+        "normalized_solver_optimality": 1.075856798924035e-15,
+        "displacement_scale_mm": 8.543003942584502e-05,
+        "independent_elimination_residual_agreement_mm": 2.574980159653073e-19,
+        "allowed_slip_contacts": [
+          2,
+          3
+        ],
+        "rigid_motion": [
+          -4.216529048478746e-05,
+          1.3632895292519783e-05,
+          -1.1683687744585572e-05,
+          -4.697906572814111e-05,
+          -0.00010235896529171039,
+          0.00010506645888769646
+        ],
+        "slip_distances_mm": [
+          1.7755412536956563e-17,
+          7.887558191157402e-29
+        ],
+        "relative_displacement_residual_mm": [
+          [
+            -1.5510204040138727e-06,
+            -6.208925606502418e-06,
+            -6.381353989766203e-07
+          ],
+          [
+            -4.941296452906181e-06,
+            2.1589830194631708e-05,
+            7.380467073097862e-06
+          ],
+          [
+            6.492316856920047e-06,
+            -1.5380904588129275e-05,
+            -6.742331674121237e-06
+          ]
+        ],
+        "L2_mismatch_mm": 3.0175379889529717e-05,
+        "max_mismatch_mm": 2.3345416524140575e-05,
+        "force_friction_tolerance": 1e-06,
+        "scope": "Bottom contacts only; top frictionless. Strictly interior friction contacts must stick; near-boundary contacts may slide opposite friction, with nonnegative distance. Local fixed normals and first-order geometry. Giving near-boundary contacts permission to slide is favorable, not exact boundary certification."
+      },
+      "small_load_response": {
+        "peak_nominal_normal_stress_MPa": 0.030870672881946015,
+        "peak_nominal_shear_stress_upper_MPa": 0.006723531191834262,
+        "peak_nominal_normal_strain": 0.00010290224293982005,
+        "peak_nominal_shear_strain_upper": 6.499413485439787e-05,
+        "max_rigid_removed_displacement_mm": 3.651428535905672e-05,
+        "max_rigid_removed_rotation_rad": 0.00026293536104184594,
+        "linear_diagnostic_ratio": 0.010290224293982004,
+        "inside_linear_diagnostic": true,
+        "required_uniform_E_for_diagnostic_MPa": 3.0870672881946013,
+        "energy_N_mm": 3.063883347049144e-10,
+        "work_N_mm": 6.127766694098309e-10,
+        "nodal_equilibrium_relative": 4.730815229564527e-14,
+        "gauge_reaction_force_N": [
+          9.147955830346444e-20,
+          -1.1011428314305904e-19,
+          1.1858461261560205e-20
+        ],
+        "gauge_reaction_moment_N_mm": [
+          5.1563130664105533e-20,
+          3.647535629113831e-20,
+          -4.0763460586613204e-21
+        ],
+        "total_applied_force_N": [
+          -1.122318655111948e-20,
+          -1.1858461261560205e-20,
+          -2.964615315390051e-21
+        ],
+        "total_applied_moment_N_mm": [
+          1.1117307432712692e-21,
+          -3.546950466627383e-21,
+          -1.1117307432712692e-21
+        ],
+        "endpoint_integration_error_mm": 3.0396693495935523e-09,
+        "contact_displacements_mm": [
+          [
+            8.609526449613686e-05,
+            -1.7474412445866417e-05,
+            -3.6051904501969814e-05
+          ],
+          [
+            4.5028971261346e-05,
+            6.270147382382861e-06,
+            3.8458607115308354e-05
+          ],
+          [
+            3.7419437288400703e-06,
+            1.015249426105289e-05,
+            6.232083841299448e-06
+          ],
+          [
+            5.0748512291828244e-05,
+            -3.17954914241733e-05,
+            3.1662671501060885e-06
+          ]
+        ],
+        "worst_stress_location": {
+          "element": 3,
+          "arc": 0,
+          "point_mm": [
+            -0.008814968416971046,
+            0.00452051892406186,
+            0.2397954570888802
+          ]
+        },
+        "scope": "Prescribed statically admissible contact forces; not the force distribution selected by friction and displacement compatibility."
+      }
+    }
+  ],
+  "holding_budgets": [
+    {
+      "name": "R4",
+      "load_mN": 0.9,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 2.053263789974541,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0005822599883679538,
+            -0.0003046976538808566,
+            0.0003081114012882144
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -0.0005822599883679538,
+            -0.0003046976538808566,
+            0.0003081114012882144
+          ],
+          "minimum_extra_force_mN": 0.7258098855337636,
+          "optimistic_clips": 42
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -7.564623467640374e-05,
+            0.0002975202373238649,
+            0.00016361994461665542
+          ],
+          "compressive_friction_part_N": [
+            -0.00017631858116110352,
+            0.00021630974471223326,
+            0.0001624888865271302
+          ],
+          "minimum_extra_vector_N": [
+            0.00010067234648469978,
+            8.121049261163162e-05,
+            1.1310580895252146e-06
+          ],
+          "minimum_extra_force_mN": 0.12934969945601418,
+          "optimistic_clips": 8
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0006579062230443576,
+            7.177416556991856e-06,
+            0.0004282686540951301
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            0.0006579062230443576,
+            7.177416556991856e-06,
+            0.0004282686540951301
+          ],
+          "minimum_extra_force_mN": 0.7850516885590265,
+          "optimistic_clips": 46
+        }
+      ],
+      "minimum_ideal_clip_count": 96,
+      "thin_clip_volume_mm3": 0.01008,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "R4",
+      "load_mN": 0.9,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 2.053263789974541,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0005822599883679538,
+            -0.0003046976538808566,
+            0.0003081114012882144
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -0.0005822599883679538,
+            -0.0003046976538808566,
+            0.0003081114012882144
+          ],
+          "minimum_extra_force_mN": 0.7258098855337636,
+          "optimistic_clips": 42
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -7.564623467640374e-05,
+            0.0002975202373238649,
+            0.00016361994461665542
+          ],
+          "compressive_friction_part_N": [
+            -0.00015568441116715055,
+            0.00024362446237939135,
+            0.00016761500937843824
+          ],
+          "minimum_extra_vector_N": [
+            8.00381764907468e-05,
+            5.389577494447354e-05,
+            -3.995064761782815e-06
+          ],
+          "minimum_extra_force_mN": 0.09657548754875699,
+          "optimistic_clips": 6
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0006579062230443576,
+            7.177416556991856e-06,
+            0.0004282686540951301
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            0.0006579062230443576,
+            7.177416556991856e-06,
+            0.0004282686540951301
+          ],
+          "minimum_extra_force_mN": 0.7850516885590265,
+          "optimistic_clips": 46
+        }
+      ],
+      "minimum_ideal_clip_count": 94,
+      "thin_clip_volume_mm3": 0.00987,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "R4",
+      "load_mN": 0.9,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 2.053263789974541,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0005822599883679538,
+            -0.0003046976538808566,
+            0.0003081114012882144
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -0.0005822599883679538,
+            -0.0003046976538808566,
+            0.0003081114012882144
+          ],
+          "minimum_extra_force_mN": 0.7258098855337636,
+          "optimistic_clips": 42
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -7.564623467640374e-05,
+            0.0002975202373238649,
+            0.00016361994461665542
+          ],
+          "compressive_friction_part_N": [
+            -0.0001037121676377772,
+            0.00028480299187319926,
+            0.00016785648518144862
+          ],
+          "minimum_extra_vector_N": [
+            2.806593296137345e-05,
+            1.2717245450665632e-05,
+            -4.236540564793196e-06
+          ],
+          "minimum_extra_force_mN": 0.03110262369643312,
+          "optimistic_clips": 2
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0006579062230443576,
+            7.177416556991856e-06,
+            0.0004282686540951301
+          ],
+          "compressive_friction_part_N": [
+            1.8377829970627148e-06,
+            -8.172862744296037e-05,
+            1.465236671871127e-05
+          ],
+          "minimum_extra_vector_N": [
+            0.0006560684400472949,
+            8.890604399995222e-05,
+            0.00041361628737641884
+          ],
+          "minimum_extra_force_mN": 0.7806462168414477,
+          "optimistic_clips": 46
+        }
+      ],
+      "minimum_ideal_clip_count": 90,
+      "thin_clip_volume_mm3": 0.00945,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "R4",
+      "load_mN": 0.009000000000000001,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 0.020532637899745413,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -5.822599883679538e-06,
+            -3.0469765388085662e-06,
+            3.0811140128821438e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -5.822599883679538e-06,
+            -3.0469765388085662e-06,
+            3.0811140128821438e-06
+          ],
+          "minimum_extra_force_mN": 0.007258098855337637,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -7.564623467640375e-07,
+            2.975202373238649e-06,
+            1.6361994461665542e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.7631858116110354e-06,
+            2.163097447122333e-06,
+            1.6248888652713022e-06
+          ],
+          "minimum_extra_vector_N": [
+            1.0067234648469978e-06,
+            8.121049261163159e-07,
+            1.1310580895252044e-08
+          ],
+          "minimum_extra_force_mN": 0.0012934969945601418,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            6.579062230443576e-06,
+            7.177416556991856e-08,
+            4.282686540951301e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            6.579062230443576e-06,
+            7.177416556991856e-08,
+            4.282686540951301e-06
+          ],
+          "minimum_extra_force_mN": 0.007850516885590266,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "R4",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 0.020532637899745413,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -5.822599883679538e-06,
+            -3.0469765388085662e-06,
+            3.0811140128821438e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -5.822599883679538e-06,
+            -3.0469765388085662e-06,
+            3.0811140128821438e-06
+          ],
+          "minimum_extra_force_mN": 0.007258098855337637,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -7.564623467640375e-07,
+            2.975202373238649e-06,
+            1.6361994461665542e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.5568441116715058e-06,
+            2.436244623793914e-06,
+            1.6761500937843826e-06
+          ],
+          "minimum_extra_vector_N": [
+            8.003817649074683e-07,
+            5.389577494447349e-07,
+            -3.995064761782843e-08
+          ],
+          "minimum_extra_force_mN": 0.0009657548754875698,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            6.579062230443576e-06,
+            7.177416556991856e-08,
+            4.282686540951301e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            6.579062230443576e-06,
+            7.177416556991856e-08,
+            4.282686540951301e-06
+          ],
+          "minimum_extra_force_mN": 0.007850516885590266,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "R4",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 0.020532637899745413,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -5.822599883679538e-06,
+            -3.0469765388085662e-06,
+            3.0811140128821438e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -5.822599883679538e-06,
+            -3.0469765388085662e-06,
+            3.0811140128821438e-06
+          ],
+          "minimum_extra_force_mN": 0.007258098855337637,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -7.564623467640375e-07,
+            2.975202373238649e-06,
+            1.6361994461665542e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.0371216763777719e-06,
+            2.848029918731993e-06,
+            1.6785648518144863e-06
+          ],
+          "minimum_extra_vector_N": [
+            2.806593296137344e-07,
+            1.2717245450665578e-07,
+            -4.236540564793212e-08
+          ],
+          "minimum_extra_force_mN": 0.00031102623696433086,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            6.579062230443576e-06,
+            7.177416556991856e-08,
+            4.282686540951301e-06
+          ],
+          "compressive_friction_part_N": [
+            1.8377829970627173e-08,
+            -8.172862744296037e-07,
+            1.465236671871127e-07
+          ],
+          "minimum_extra_vector_N": [
+            6.560684400472948e-06,
+            8.890604399995223e-07,
+            4.136162873764189e-06
+          ],
+          "minimum_extra_force_mN": 0.007806462168414479,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3",
+      "load_mN": 0.9,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 25.265261933499673,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0003857423721159647,
+            -0.00016817623312792064,
+            0.00036819747861888146
+          ],
+          "compressive_friction_part_N": [
+            1.1467016855039846e-05,
+            -1.2622991206749615e-05,
+            7.1776092487066976e-06
+          ],
+          "minimum_extra_vector_N": [
+            -0.00039720938897100453,
+            -0.00015555324192117104,
+            0.0003610198693701748
+          ],
+          "minimum_extra_force_mN": 0.5588447511062112,
+          "optimistic_clips": 33
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -1.0918749418773784e-05,
+            0.0003130034618543195,
+            0.0001964320307915405
+          ],
+          "compressive_friction_part_N": [
+            -0.0001716994907208062,
+            0.00021064298930072902,
+            0.0001582320982892176
+          ],
+          "minimum_extra_vector_N": [
+            0.00016078074130203242,
+            0.00010236047255359049,
+            3.819993250232291e-05
+          ],
+          "minimum_extra_force_mN": 0.19438968068857837,
+          "optimistic_clips": 12
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0003966611215347384,
+            -0.0001448272287263989,
+            0.00033537049058957795
+          ],
+          "compressive_friction_part_N": [
+            -1.3109149119419198e-05,
+            -5.8014046792918346e-05,
+            1.002954976367592e-06
+          ],
+          "minimum_extra_vector_N": [
+            0.0004097702706541576,
+            -8.681318193348055e-05,
+            0.0003343675356132104
+          ],
+          "minimum_extra_force_mN": 0.5359569498956503,
+          "optimistic_clips": 31
+        }
+      ],
+      "minimum_ideal_clip_count": 76,
+      "thin_clip_volume_mm3": 0.007980000000000001,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3",
+      "load_mN": 0.9,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 25.265261933499673,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0003857423721159647,
+            -0.00016817623312792064,
+            0.00036819747861888146
+          ],
+          "compressive_friction_part_N": [
+            4.04099885060185e-05,
+            -5.229629503421663e-05,
+            3.3328632020649815e-05
+          ],
+          "minimum_extra_vector_N": [
+            -0.0004261523606219832,
+            -0.000115879938093704,
+            0.00033486884659823167
+          ],
+          "minimum_extra_force_mN": 0.5542302219640495,
+          "optimistic_clips": 33
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -1.0918749418773784e-05,
+            0.0003130034618543195,
+            0.0001964320307915405
+          ],
+          "compressive_friction_part_N": [
+            -0.00015316418531987664,
+            0.0002388580232234566,
+            0.00017284652040118427
+          ],
+          "minimum_extra_vector_N": [
+            0.00014224543590110286,
+            7.41454386308629e-05,
+            2.358551039035624e-05
+          ],
+          "minimum_extra_force_mN": 0.16213447013152824,
+          "optimistic_clips": 10
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0003966611215347384,
+            -0.0001448272287263989,
+            0.00033537049058957795
+          ],
+          "compressive_friction_part_N": [
+            -1.6113569339396306e-05,
+            -0.0001110058729584816,
+            8.872660754764704e-06
+          ],
+          "minimum_extra_vector_N": [
+            0.00041277469087413473,
+            -3.3821355767917296e-05,
+            0.00032649782983481325
+          ],
+          "minimum_extra_force_mN": 0.5273781019525366,
+          "optimistic_clips": 31
+        }
+      ],
+      "minimum_ideal_clip_count": 74,
+      "thin_clip_volume_mm3": 0.00777,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3",
+      "load_mN": 0.9,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 25.265261933499673,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0003857423721159647,
+            -0.00016817623312792064,
+            0.00036819747861888146
+          ],
+          "compressive_friction_part_N": [
+            6.942721846320743e-05,
+            -0.00013077521656463064,
+            9.935020980492295e-05
+          ],
+          "minimum_extra_vector_N": [
+            -0.0004551695905791721,
+            -3.7401016563289995e-05,
+            0.0002688472688139585
+          ],
+          "minimum_extra_force_mN": 0.5299594759759501,
+          "optimistic_clips": 31
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -1.0918749418773784e-05,
+            0.0003130034618543195,
+            0.0001964320307915405
+          ],
+          "compressive_friction_part_N": [
+            -0.00010187307853164395,
+            0.0002831151010264504,
+            0.00019225023503421343
+          ],
+          "minimum_extra_vector_N": [
+            9.095432911287016e-05,
+            2.98883608278691e-05,
+            4.181795757327077e-06
+          ],
+          "minimum_extra_force_mN": 0.09583053538984951,
+          "optimistic_clips": 6
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0003966611215347384,
+            -0.0001448272287263989,
+            0.00033537049058957795
+          ],
+          "compressive_friction_part_N": [
+            1.8168801648780106e-06,
+            -0.00020690687375630396,
+            4.12296369458665e-05
+          ],
+          "minimum_extra_vector_N": [
+            0.0003948442413698604,
+            6.207964502990507e-05,
+            0.00029414085364371146
+          ],
+          "minimum_extra_force_mN": 0.49626071681348194,
+          "optimistic_clips": 29
+        }
+      ],
+      "minimum_ideal_clip_count": 66,
+      "thin_clip_volume_mm3": 0.00693,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3",
+      "load_mN": 0.009000000000000001,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 0.2526526193349967,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -3.857423721159647e-06,
+            -1.6817623312792064e-06,
+            3.6819747861888145e-06
+          ],
+          "compressive_friction_part_N": [
+            1.1467016855039868e-07,
+            -1.2622991206749641e-07,
+            7.177609248706712e-08
+          ],
+          "minimum_extra_vector_N": [
+            -3.9720938897100455e-06,
+            -1.55553241921171e-06,
+            3.6101986937017473e-06
+          ],
+          "minimum_extra_force_mN": 0.005588447511062112,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -1.0918749418773784e-07,
+            3.130034618543195e-06,
+            1.964320307915405e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.7169949072080619e-06,
+            2.10642989300729e-06,
+            1.5823209828921757e-06
+          ],
+          "minimum_extra_vector_N": [
+            1.6078074130203241e-06,
+            1.023604725535905e-06,
+            3.8199932502322934e-07
+          ],
+          "minimum_extra_force_mN": 0.0019438968068857835,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            3.966611215347384e-06,
+            -1.448272287263989e-06,
+            3.3537049058957798e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.3109149119419202e-07,
+            -5.801404679291836e-07,
+            1.0029549763675923e-08
+          ],
+          "minimum_extra_vector_N": [
+            4.097702706541576e-06,
+            -8.681318193348053e-07,
+            3.343675356132104e-06
+          ],
+          "minimum_extra_force_mN": 0.0053595694989565035,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 0.2526526193349967,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -3.857423721159647e-06,
+            -1.6817623312792064e-06,
+            3.6819747861888145e-06
+          ],
+          "compressive_friction_part_N": [
+            4.0409988506018516e-07,
+            -5.229629503421664e-07,
+            3.3328632020649825e-07
+          ],
+          "minimum_extra_vector_N": [
+            -4.261523606219832e-06,
+            -1.15879938093704e-06,
+            3.348688465982316e-06
+          ],
+          "minimum_extra_force_mN": 0.005542302219640494,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -1.0918749418773784e-07,
+            3.130034618543195e-06,
+            1.964320307915405e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.5316418531987664e-06,
+            2.3885802322345665e-06,
+            1.728465204011843e-06
+          ],
+          "minimum_extra_vector_N": [
+            1.4224543590110287e-06,
+            7.414543863086287e-07,
+            2.3585510390356204e-07
+          ],
+          "minimum_extra_force_mN": 0.0016213447013152821,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            3.966611215347384e-06,
+            -1.448272287263989e-06,
+            3.3537049058957798e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.6113569339396314e-07,
+            -1.1100587295848164e-06,
+            8.872660754764706e-08
+          ],
+          "minimum_extra_vector_N": [
+            4.127746908741348e-06,
+            -3.3821355767917256e-07,
+            3.2649782983481326e-06
+          ],
+          "minimum_extra_force_mN": 0.005273781019525367,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 0.2526526193349967,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -3.857423721159647e-06,
+            -1.6817623312792064e-06,
+            3.6819747861888145e-06
+          ],
+          "compressive_friction_part_N": [
+            6.942721846320742e-07,
+            -1.3077521656463063e-06,
+            9.935020980492294e-07
+          ],
+          "minimum_extra_vector_N": [
+            -4.551695905791721e-06,
+            -3.740101656329001e-07,
+            2.688472688139585e-06
+          ],
+          "minimum_extra_force_mN": 0.0052995947597595,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -1.0918749418773784e-07,
+            3.130034618543195e-06,
+            1.964320307915405e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.0187307853164395e-06,
+            2.8311510102645043e-06,
+            1.9225023503421345e-06
+          ],
+          "minimum_extra_vector_N": [
+            9.095432911287016e-07,
+            2.9888360827869083e-07,
+            4.1817957573270615e-08
+          ],
+          "minimum_extra_force_mN": 0.0009583053538984952,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            3.966611215347384e-06,
+            -1.448272287263989e-06,
+            3.3537049058957798e-06
+          ],
+          "compressive_friction_part_N": [
+            1.8168801648780176e-08,
+            -2.0690687375630395e-06,
+            4.122963694586651e-07
+          ],
+          "minimum_extra_vector_N": [
+            3.948442413698604e-06,
+            6.207964502990506e-07,
+            2.9414085364371147e-06
+          ],
+          "minimum_extra_force_mN": 0.004962607168134819,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3-T6-28",
+      "load_mN": 0.9,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 11.711925831989271,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0005982818788596246,
+            -0.0001958714525322373,
+            0.0002855938423954166
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -0.0005982818788596246,
+            -0.0001958714525322373,
+            0.0002855938423954166
+          ],
+          "minimum_extra_force_mN": 0.6912819072585866,
+          "optimistic_clips": 40
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            4.434486144706003e-05,
+            0.00047123503632212404,
+            0.00020665219245137606
+          ],
+          "compressive_friction_part_N": [
+            -0.00021590340385898495,
+            0.00026487287876124225,
+            0.00019896884071684529
+          ],
+          "minimum_extra_vector_N": [
+            0.00026024826530604496,
+            0.0002063621575608818,
+            7.68335173453077e-06
+          ],
+          "minimum_extra_force_mN": 0.33222512482030053,
+          "optimistic_clips": 20
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0005539370174125642,
+            -0.0002753635837898867,
+            0.0004077539651532074
+          ],
+          "compressive_friction_part_N": [
+            -3.379559592105479e-05,
+            -0.00014956113972754156,
+            2.5856339568309023e-06
+          ],
+          "minimum_extra_vector_N": [
+            0.000587732613333619,
+            -0.00012580244406234514,
+            0.0004051683311963765
+          ],
+          "minimum_extra_force_mN": 0.7248567143322061,
+          "optimistic_clips": 42
+        }
+      ],
+      "minimum_ideal_clip_count": 102,
+      "thin_clip_volume_mm3": 0.01071,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3-T6-28",
+      "load_mN": 0.9,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 11.711925831989271,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0005982818788596246,
+            -0.0001958714525322373,
+            0.0002855938423954166
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -0.0005982818788596246,
+            -0.0001958714525322373,
+            0.0002855938423954166
+          ],
+          "minimum_extra_force_mN": 0.6912819072585866,
+          "optimistic_clips": 40
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            4.434486144706003e-05,
+            0.00047123503632212404,
+            0.00020665219245137606
+          ],
+          "compressive_friction_part_N": [
+            -0.00019848020569472336,
+            0.000310645810245538,
+            0.00021453168573614838
+          ],
+          "minimum_extra_vector_N": [
+            0.0002428250671417834,
+            0.00016058922607658604,
+            -7.87949328477232e-06
+          ],
+          "minimum_extra_force_mN": 0.2912301481280969,
+          "optimistic_clips": 17
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0005539370174125642,
+            -0.0002753635837898867,
+            0.0004077539651532074
+          ],
+          "compressive_friction_part_N": [
+            -3.114664428938175e-05,
+            -0.00022195418636383342,
+            1.626869202455044e-05
+          ],
+          "minimum_extra_vector_N": [
+            0.000585083661701946,
+            -5.340939742605328e-05,
+            0.00039148527312865696
+          ],
+          "minimum_extra_force_mN": 0.7060001232298692,
+          "optimistic_clips": 41
+        }
+      ],
+      "minimum_ideal_clip_count": 98,
+      "thin_clip_volume_mm3": 0.01029,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3-T6-28",
+      "load_mN": 0.9,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 11.711925831989271,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.0005982818788596246,
+            -0.0001958714525322373,
+            0.0002855938423954166
+          ],
+          "compressive_friction_part_N": [
+            2.7753582269184715e-05,
+            -5.737652565652123e-05,
+            3.809452507010449e-05
+          ],
+          "minimum_extra_vector_N": [
+            -0.0006260354611288093,
+            -0.00013849492687571606,
+            0.0002474993173253121
+          ],
+          "minimum_extra_force_mN": 0.6872824422590516,
+          "optimistic_clips": 40
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            4.434486144706003e-05,
+            0.00047123503632212404,
+            0.00020665219245137606
+          ],
+          "compressive_friction_part_N": [
+            -0.0001412599262556691,
+            0.00038889245594050335,
+            0.00023170121784487236
+          ],
+          "minimum_extra_vector_N": [
+            0.00018560478770272913,
+            8.23425803816207e-05,
+            -2.5049025393496303e-05
+          ],
+          "minimum_extra_force_mN": 0.2045895682463865,
+          "optimistic_clips": 12
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0005539370174125642,
+            -0.0002753635837898867,
+            0.0004077539651532074
+          ],
+          "compressive_friction_part_N": [
+            7.780565546146803e-06,
+            -0.0003494927081385989,
+            6.278254017661341e-05
+          ],
+          "minimum_extra_vector_N": [
+            0.0005461564518664174,
+            7.412912434871219e-05,
+            0.000344971424976594
+          ],
+          "minimum_extra_force_mN": 0.650220947864957,
+          "optimistic_clips": 38
+        }
+      ],
+      "minimum_ideal_clip_count": 90,
+      "thin_clip_volume_mm3": 0.00945,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3-T6-28",
+      "load_mN": 0.009000000000000001,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 0.11711925831989271,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -5.9828187885962465e-06,
+            -1.9587145253223727e-06,
+            2.8559384239541663e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -5.9828187885962465e-06,
+            -1.9587145253223727e-06,
+            2.8559384239541663e-06
+          ],
+          "minimum_extra_force_mN": 0.006912819072585865,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            4.434486144706003e-07,
+            4.71235036322124e-06,
+            2.0665219245137606e-06
+          ],
+          "compressive_friction_part_N": [
+            -2.159034038589849e-06,
+            2.6487287876124227e-06,
+            1.989688407168453e-06
+          ],
+          "minimum_extra_vector_N": [
+            2.6024826530604495e-06,
+            2.0636215756088177e-06,
+            7.683351734530757e-08
+          ],
+          "minimum_extra_force_mN": 0.003322251248203005,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            5.539370174125642e-06,
+            -2.753635837898867e-06,
+            4.077539651532074e-06
+          ],
+          "compressive_friction_part_N": [
+            -3.3795595921054793e-07,
+            -1.4956113972754158e-06,
+            2.5856339568309026e-08
+          ],
+          "minimum_extra_vector_N": [
+            5.87732613333619e-06,
+            -1.2580244406234514e-06,
+            4.051683311963765e-06
+          ],
+          "minimum_extra_force_mN": 0.007248567143322062,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3-T6-28",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 0.11711925831989271,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -5.9828187885962465e-06,
+            -1.9587145253223727e-06,
+            2.8559384239541663e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            -5.9828187885962465e-06,
+            -1.9587145253223727e-06,
+            2.8559384239541663e-06
+          ],
+          "minimum_extra_force_mN": 0.006912819072585865,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            4.434486144706003e-07,
+            4.71235036322124e-06,
+            2.0665219245137606e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.984802056947234e-06,
+            3.106458102455381e-06,
+            2.145316857361484e-06
+          ],
+          "minimum_extra_vector_N": [
+            2.428250671417834e-06,
+            1.6058922607658593e-06,
+            -7.879493284772352e-08
+          ],
+          "minimum_extra_force_mN": 0.002912301481280968,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            5.539370174125642e-06,
+            -2.753635837898867e-06,
+            4.077539651532074e-06
+          ],
+          "compressive_friction_part_N": [
+            -3.114664428938176e-07,
+            -2.219541863638334e-06,
+            1.626869202455044e-07
+          ],
+          "minimum_extra_vector_N": [
+            5.85083661701946e-06,
+            -5.34093974260533e-07,
+            3.91485273128657e-06
+          ],
+          "minimum_extra_force_mN": 0.007060001232298692,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "C3-T6-28",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 0.11711925831989271,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -5.9828187885962465e-06,
+            -1.9587145253223727e-06,
+            2.8559384239541663e-06
+          ],
+          "compressive_friction_part_N": [
+            2.775358226918472e-07,
+            -5.737652565652125e-07,
+            3.809452507010451e-07
+          ],
+          "minimum_extra_vector_N": [
+            -6.260354611288094e-06,
+            -1.3849492687571603e-06,
+            2.474993173253121e-06
+          ],
+          "minimum_extra_force_mN": 0.006872824422590515,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            4.434486144706003e-07,
+            4.71235036322124e-06,
+            2.0665219245137606e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.412599262556691e-06,
+            3.888924559405033e-06,
+            2.3170121784487233e-06
+          ],
+          "minimum_extra_vector_N": [
+            1.8560478770272912e-06,
+            8.23425803816207e-07,
+            -2.504902539349627e-07
+          ],
+          "minimum_extra_force_mN": 0.0020458956824638648,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            5.539370174125642e-06,
+            -2.753635837898867e-06,
+            4.077539651532074e-06
+          ],
+          "compressive_friction_part_N": [
+            7.780565546146789e-08,
+            -3.4949270813859888e-06,
+            6.27825401766134e-07
+          ],
+          "minimum_extra_vector_N": [
+            5.461564518664174e-06,
+            7.412912434871216e-07,
+            3.4497142497659402e-06
+          ],
+          "minimum_extra_force_mN": 0.006502209478649569,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "S3",
+      "load_mN": 0.9,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 1.3004511259363924,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.00023475473862985863,
+            -0.00013689714651787918,
+            0.00042579411927179324
+          ],
+          "compressive_friction_part_N": [
+            7.010456480409803e-05,
+            -7.719439796419069e-05,
+            4.389455391689266e-05
+          ],
+          "minimum_extra_vector_N": [
+            -0.00030485930343395666,
+            -5.9702748553688495e-05,
+            0.0003818995653549006
+          ],
+          "minimum_extra_force_mN": 0.49229146965325754,
+          "optimistic_clips": 29
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -4.524071565612861e-05,
+            0.00015729603789501755,
+            0.00019942640701682747
+          ],
+          "compressive_friction_part_N": [
+            -0.00011886336109122855,
+            0.00013335049546992872,
+            0.00016593131139249956
+          ],
+          "minimum_extra_vector_N": [
+            7.362264543509995e-05,
+            2.394554242508883e-05,
+            3.3495095624327904e-05
+          ],
+          "minimum_extra_force_mN": 0.0843540417157177,
+          "optimistic_clips": 5
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0002799954542859873,
+            -2.0398891377138378e-05,
+            0.0002747794737113793
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            0.0002799954542859873,
+            -2.0398891377138378e-05,
+            0.0002747794737113793
+          ],
+          "minimum_extra_force_mN": 0.3928324431145362,
+          "optimistic_clips": 23
+        }
+      ],
+      "minimum_ideal_clip_count": 57,
+      "thin_clip_volume_mm3": 0.005985,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "S3",
+      "load_mN": 0.9,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 1.3004511259363924,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.00023475473862985863,
+            -0.00013689714651787918,
+            0.00042579411927179324
+          ],
+          "compressive_friction_part_N": [
+            8.965716342960268e-05,
+            -0.00011163615383476722,
+            7.48414652351337e-05
+          ],
+          "minimum_extra_vector_N": [
+            -0.00032441190205946134,
+            -2.5260992683111966e-05,
+            0.00035095265403665954
+          ],
+          "minimum_extra_force_mN": 0.4785906030466426,
+          "optimistic_clips": 28
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -4.524071565612861e-05,
+            0.00015729603789501755,
+            0.00019942640701682747
+          ],
+          "compressive_friction_part_N": [
+            -9.996055300554278e-05,
+            0.0001436878066459735,
+            0.0001798894758874407
+          ],
+          "minimum_extra_vector_N": [
+            5.471983734941417e-05,
+            1.3608231249044052e-05,
+            1.9536931129386767e-05
+          ],
+          "minimum_extra_force_mN": 0.0596752564739206,
+          "optimistic_clips": 4
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0002799954542859873,
+            -2.0398891377138378e-05,
+            0.0002747794737113793
+          ],
+          "compressive_friction_part_N": [
+            -2.900155165145642e-07,
+            -1.9037808574827006e-06,
+            1.6778782659410965e-07
+          ],
+          "minimum_extra_vector_N": [
+            0.0002802854698025019,
+            -1.8495110519655678e-05,
+            0.00027461168588478524
+          ],
+          "minimum_extra_force_mN": 0.3928276870588775,
+          "optimistic_clips": 23
+        }
+      ],
+      "minimum_ideal_clip_count": 55,
+      "thin_clip_volume_mm3": 0.005775000000000001,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "S3",
+      "load_mN": 0.9,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 1.3004511259363924,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -0.00023475473862985863,
+            -0.00013689714651787918,
+            0.00042579411927179324
+          ],
+          "compressive_friction_part_N": [
+            0.00010381698841969052,
+            -0.00017197331660934363,
+            0.00014852706949537963
+          ],
+          "minimum_extra_vector_N": [
+            -0.00033857172704954917,
+            3.5076170091464447e-05,
+            0.0002772670497764136
+          ],
+          "minimum_extra_force_mN": 0.439019554185592,
+          "optimistic_clips": 26
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -4.524071565612861e-05,
+            0.00015729603789501755,
+            0.00019942640701682747
+          ],
+          "compressive_friction_part_N": [
+            -5.5721463025900543e-05,
+            0.0001560640327916951,
+            0.00019744238063431734
+          ],
+          "minimum_extra_vector_N": [
+            1.0480747369771933e-05,
+            1.2320051033224593e-06,
+            1.9840263825101224e-06
+          ],
+          "minimum_extra_force_mN": 0.010737795988474082,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            0.0002799954542859873,
+            -2.0398891377138378e-05,
+            0.0002747794737113793
+          ],
+          "compressive_friction_part_N": [
+            -8.65658257921691e-07,
+            -7.491680514342078e-05,
+            1.6772565070663368e-05
+          ],
+          "minimum_extra_vector_N": [
+            0.000280861112543909,
+            5.45179137662824e-05,
+            0.00025800690864071597
+          ],
+          "minimum_extra_force_mN": 0.38525670969779213,
+          "optimistic_clips": 23
+        }
+      ],
+      "minimum_ideal_clip_count": 50,
+      "thin_clip_volume_mm3": 0.00525,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "S3",
+      "load_mN": 0.009000000000000001,
+      "mu": 0,
+      "nominal_diagnostic_ratio": 0.013004511259363924,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -2.3475473862985864e-06,
+            -1.3689714651787918e-06,
+            4.257941192717932e-06
+          ],
+          "compressive_friction_part_N": [
+            7.010456480409803e-07,
+            -7.719439796419069e-07,
+            4.389455391689266e-07
+          ],
+          "minimum_extra_vector_N": [
+            -3.048593034339567e-06,
+            -5.970274855368849e-07,
+            3.818995653549006e-06
+          ],
+          "minimum_extra_force_mN": 0.004922914696532575,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -4.5240715656128614e-07,
+            1.5729603789501756e-06,
+            1.9942640701682745e-06
+          ],
+          "compressive_friction_part_N": [
+            -1.1886336109122855e-06,
+            1.3335049546992873e-06,
+            1.6593131139249957e-06
+          ],
+          "minimum_extra_vector_N": [
+            7.362264543509993e-07,
+            2.3945542425088827e-07,
+            3.349509562432788e-07
+          ],
+          "minimum_extra_force_mN": 0.0008435404171571768,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            2.799954542859873e-06,
+            -2.039889137713838e-07,
+            2.7477947371137934e-06
+          ],
+          "compressive_friction_part_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "minimum_extra_vector_N": [
+            2.799954542859873e-06,
+            -2.039889137713838e-07,
+            2.7477947371137934e-06
+          ],
+          "minimum_extra_force_mN": 0.003928324431145362,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "S3",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.1,
+      "nominal_diagnostic_ratio": 0.013004511259363924,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -2.3475473862985864e-06,
+            -1.3689714651787918e-06,
+            4.257941192717932e-06
+          ],
+          "compressive_friction_part_N": [
+            8.965716342960269e-07,
+            -1.1163615383476723e-06,
+            7.48414652351337e-07
+          ],
+          "minimum_extra_vector_N": [
+            -3.2441190205946133e-06,
+            -2.5260992683111945e-07,
+            3.509526540366595e-06
+          ],
+          "minimum_extra_force_mN": 0.004785906030466426,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -4.5240715656128614e-07,
+            1.5729603789501756e-06,
+            1.9942640701682745e-06
+          ],
+          "compressive_friction_part_N": [
+            -9.996055300554282e-07,
+            1.4368780664597352e-06,
+            1.7988947588744072e-06
+          ],
+          "minimum_extra_vector_N": [
+            5.47198373494142e-07,
+            1.360823124904404e-07,
+            1.953693112938673e-07
+          ],
+          "minimum_extra_force_mN": 0.0005967525647392062,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            2.799954542859873e-06,
+            -2.039889137713838e-07,
+            2.7477947371137934e-06
+          ],
+          "compressive_friction_part_N": [
+            -2.900155165145654e-09,
+            -1.9037808574827087e-08,
+            1.6778782659411039e-09
+          ],
+          "minimum_extra_vector_N": [
+            2.802854698025019e-06,
+            -1.849511051965567e-07,
+            2.7461168588478523e-06
+          ],
+          "minimum_extra_force_mN": 0.003928276870588775,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    },
+    {
+      "name": "S3",
+      "load_mN": 0.009000000000000001,
+      "mu": 0.3,
+      "nominal_diagnostic_ratio": 0.013004511259363924,
+      "contacts": [
+        {
+          "contact": 1,
+          "ideal_stick_force_N": [
+            -2.3475473862985864e-06,
+            -1.3689714651787918e-06,
+            4.257941192717932e-06
+          ],
+          "compressive_friction_part_N": [
+            1.0381698841969052e-06,
+            -1.7197331660934363e-06,
+            1.4852706949537964e-06
+          ],
+          "minimum_extra_vector_N": [
+            -3.3857172704954916e-06,
+            3.5076170091464447e-07,
+            2.772670497764136e-06
+          ],
+          "minimum_extra_force_mN": 0.004390195541855921,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 2,
+          "ideal_stick_force_N": [
+            -4.5240715656128614e-07,
+            1.5729603789501756e-06,
+            1.9942640701682745e-06
+          ],
+          "compressive_friction_part_N": [
+            -5.572146302590054e-07,
+            1.560640327916951e-06,
+            1.974423806343173e-06
+          ],
+          "minimum_extra_vector_N": [
+            1.0480747369771924e-07,
+            1.2320051033224517e-08,
+            1.984026382510141e-08
+          ],
+          "minimum_extra_force_mN": 0.00010737795988474076,
+          "optimistic_clips": 1
+        },
+        {
+          "contact": 3,
+          "ideal_stick_force_N": [
+            2.799954542859873e-06,
+            -2.039889137713838e-07,
+            2.7477947371137934e-06
+          ],
+          "compressive_friction_part_N": [
+            -8.656582579216947e-09,
+            -7.491680514342077e-07,
+            1.6772565070663364e-07
+          ],
+          "minimum_extra_vector_N": [
+            2.80861112543909e-06,
+            5.451791376628239e-07,
+            2.58006908640716e-06
+          ],
+          "minimum_extra_force_mN": 0.0038525670969779217,
+          "optimistic_clips": 1
+        }
+      ],
+      "minimum_ideal_clip_count": 3,
+      "thin_clip_volume_mm3": 0.000315,
+      "scope": "Distance to compressive friction cone for ideal all-stick trial tractions. Only a favorable force-vector yardstick. The old clip has another geometry and a one-axis limit; this is neither a design nor guaranteed holding. Grain response at 0.9 mN may be outside linear range."
+    }
+  ]
+}
