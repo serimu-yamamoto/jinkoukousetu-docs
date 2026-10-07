@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-07",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "mu0_H_m": 0.0000012566370614359173,
+  "magnetic": {
+    "core_radius_um": 35,
+    "inner_cover_um": 5,
+    "effective_polarization_T": 0.25,
+    "gate_width_um": 20,
+    "gate_thickness_um": 5,
+    "gate_E_MPa": 300,
+    "core_density_kg_m3": 3800,
+    "scope": "Fixed dipoles and spherical volume; ideal registered path. Effective polarization is assumed at 50 C, not measured remanence or field in the gap.",
+    "radius_sweep_um": [
+      25,
+      30,
+      35,
+      38,
+      40
+    ],
+    "width_sweep_um": [
+      100,
+      60,
+      30,
+      20,
+      15
+    ],
+    "polarization_sweep_T": [
+      0.1,
+      0.2,
+      0.25,
+      0.28
+    ],
+    "cover_sweep_um": [
+      3,
+      5,
+      7
+    ],
+    "distance_sweep_um": [
+      80,
+      100,
+      150,
+      300,
+      450
+    ],
+    "outer_core_centre_to_steel_um": [
+      40,
+      50,
+      70,
+      100,
+      200
+    ],
+    "tolerance_corners": {
+      "radius_um": [
+        34,
+        36
+      ],
+      "cover_um": [
+        3,
+        7
+      ],
+      "width_um": [
+        18,
+        22
+      ],
+      "thickness_um": [
+        4,
+        6
+      ],
+      "E_MPa": [
+        200,
+        400
+      ],
+      "polarization_T": [
+        0.2,
+        0.28
+      ]
+    },
+    "lean_variant": {
+      "core_radius_um": 30,
+      "gate_width_um": 15,
+      "tolerance_corners": {
+        "radius_um": [
+          29,
+          31
+        ],
+        "cover_um": [
+          3,
+          7
+        ],
+        "width_um": [
+          13,
+          17
+        ],
+        "thickness_um": [
+          4,
+          6
+        ],
+        "E_MPa": [
+          200,
+          400
+        ],
+        "polarization_T": [
+          0.2,
+          0.28
+        ]
+      }
+    }
+  },
+  "published_grade": {
+    "name": "Arnold Plastiform 2039",
+    "Br23_min_T": 0.277,
+    "Br23_max_T": 0.307,
+    "Br_reversible_coefficient_per_C": -0.002,
+    "reference_T_C": 23,
+    "comparison_T_C": 50,
+    "density_kg_m3": 3800,
+    "scope": "2010 revision official datasheet; typical material values, not a purchased or approved 70 um insert. Br is not gap flux or guaranteed effective moment."
+  },
+  "orientation": {
+    "angles_deg": [
+      0,
+      30,
+      60,
+      90,
+      120,
+      150,
+      180
+    ],
+    "assumed_sliding_friction": 0.1,
+    "grain_radius_m": 0.0003,
+    "contact_normal_N": [
+      0.0009,
+      0.001944,
+      0.00648,
+      0.072
+    ]
+  },
+  "capillary": {
+    "temperature_C": [
+      20,
+      30,
+      50
+    ],
+    "asperity_radius_um": [
+      30,
+      60,
+      300
+    ],
+    "volume_ratio_V_R3": [
+      0.000001,
+      0.001,
+      0.1
+    ],
+    "scope": "Bagheri et al. eq24: touching identical spheres, theta=0, separate pendular water-air bridge. No saturated-bed, approach or evaporation model.",
+    "pure_water_density_kg_m3": 988
+  },
+  "cost": {
+    "W2_volume_upper_mm3": 0.005330003249836027,
+    "W2_bulk_kg_m3": 138.2818037602,
+    "bulk_cap_kg_m3": 158.0185842615,
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "initial_other_JPY": 20000000,
+    "annual_other_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "years": 10,
+    "discount": 0.08,
+    "replacement": 0.02,
+    "assumed_price_JPY_kg": 500,
+    "scope": "Unquoted pretax pilot budget; body matrix replacement is an optimistic allocation, not integrated geometry. Added core processing, protection and magnetization must fit premium ceiling.",
+    "matrix_density_kg_m3": 960,
+    "gate_reference_volume_mm3": 0.000105,
+    "number_density_m3": 27025038978.723522,
+    "force_reference_10kPa_N": 0.0049336962451119876,
+    "magnet_price_scenarios_JPY_kg": [
+      500,
+      1000,
+      3000
+    ],
+    "magnetic_grain_fraction": [
+      1,
+      0.5,
+      0.1
+    ]
+  },
+  "external_field_alternative": {
+    "gap_m": 0.45,
+    "field_T": [
+      0.03,
+      0.05,
+      0.1
+    ],
+    "width_m": 20,
+    "length_m": 0.4,
+    "scope": "Ideal air-gap ampere-turn and stored-energy scales only; not coil power, machine cost, field uniformity or design."
+  }
+}
