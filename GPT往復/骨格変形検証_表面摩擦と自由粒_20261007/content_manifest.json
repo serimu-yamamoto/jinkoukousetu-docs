@@ -1,0 +1,130 @@
+{
+  "normalization": "UTF-8 text CRLF to LF; PNG exact bytes",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 14960,
+      "sha256": "39be7d78ed3bd38120f7dfa3b72b09f0c8c8a661e2eac596d84505c369a1f0c6"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 9086,
+      "sha256": "b7a3cfd55a43895387760c45afa93e99d4cf1507234d8da03ab69752888f2285"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 52286,
+      "sha256": "071b73459d4f1f77d5b782e32401e0ff5c1fb3f9a2047aedf7f41a508fafa9e5"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第14巡_骨格変形と内部補強の費用条件_20261007.md",
+      "bytes": 16790,
+      "sha256": "32afea15561babf1fec0bcd0b63b02ff77712af902f44de7b1933514d1a33d67"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/01_structures.png",
+      "bytes": 173419,
+      "sha256": "2ffc6547f27499608f2663b1ccc26ea0b1ada596ac0f50941ec763171667fdb7"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/02_stiffness_clearance.png",
+      "bytes": 117453,
+      "sha256": "06b16ad72771b0c34daf9a5c1ede997f2e1086ab0eb373ec03374accb1653ff5"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/03_cost.png",
+      "bytes": 69724,
+      "sha256": "b38b1178f83e1374ad6174890ef1fd32f13ffc989fd8d1070e3e5cda2054db91"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/brace_results.json",
+      "bytes": 2886261,
+      "sha256": "a2b950d41fedb80b59c2a2ebd45645441ae83b5dabc56c0e56af5ad997df6e5b"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/brace_scan.py",
+      "bytes": 3938,
+      "sha256": "03b0467af2a00040bfdb8ae58d82e3e514290f01e1c978f2d0dd7f03e2466f86"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/C3_T6_concept.scad",
+      "bytes": 1170,
+      "sha256": "872083fbaa35fa7dbcf426edb8938253fe5ff35bc045f434a463dd4254ed3660"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/C3_Y3_concept.scad",
+      "bytes": 876,
+      "sha256": "ec4069f8036d9303801bbee683707d9c5769f29cdb2314007b9affd44a07ca47"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/calculate.py",
+      "bytes": 1660,
+      "sha256": "382e1c1812e0042741b7e996b86348a70c2968fa9ed4a8f1e778fdbb9a6a8b81"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/economics.py",
+      "bytes": 1999,
+      "sha256": "6737e45c012d628552a07e8b98dc0556410ec857c28233d5c039607c248f3fd8"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/economics_results.json",
+      "bytes": 9952,
+      "sha256": "7495fa3c90df0abc3ad84c3e3cdc45329462d69bc08f3e1b174b7c8580c578ae"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/elastic_free.py",
+      "bytes": 8226,
+      "sha256": "2bf408e3f90df31d5e6a93fc3cafe1c6372a54afaa5d07c7a4469957b2cae5fb"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/elastic_results.json",
+      "bytes": 6328758,
+      "sha256": "ba08b452fffe96346bd303db87895f6e1c1a43b6ee487db51abf95feb91fb8f1"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/inputs.json",
+      "bytes": 758,
+      "sha256": "a69ad3a4eaf3e44ca119c079056195ccbc6dd8a8b47ef41023cb7e478969e65a"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/plots.py",
+      "bytes": 3001,
+      "sha256": "c936c6a1f9329e6d620c3307a93aa90eb7b0d33cb43a610a31986909e4e1e561"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/README.md",
+      "bytes": 2853,
+      "sha256": "207f292d61d57ab9335adae990eb433583f8b55f28586b1b7f48921da1b44dce"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/sources.md",
+      "bytes": 2368,
+      "sha256": "a21005a4f08f337fc13acc0d92251110481499c1cb7af778e360329a3cd67e86"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/verification.json",
+      "bytes": 7607,
+      "sha256": "c3b870c2174c337fdc6b078d67c2509a516836dd5fbd5615ae4e4d3c66ce4e55"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/verify.py",
+      "bytes": 4854,
+      "sha256": "cdb5358140d7dbf5642a59761061f5a1eb727db18d6431e393ff018b3c404645"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/探索台帳.md",
+      "bytes": 1587,
+      "sha256": "66797277790a2e849ae756842e13d58ec23280e19be5515fe59de0ec2cd006e4"
+    },
+    {
+      "path": "GPT往復/骨格変形検証_表面摩擦と自由粒_20261007/検証記録.md",
+      "bytes": 2201,
+      "sha256": "4278f4b1313a981ac0ca1ba4bceab6057411f506beee164860e9850634349a3a"
+    }
+  ]
+}

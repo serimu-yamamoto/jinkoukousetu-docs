@@ -1,0 +1,336 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "straight_bar_axial",
+      "value": 1.1102230246251565e-16,
+      "limit": 1e-11,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "straight_bar_bending_shear",
+      "value": 9.992007221626409e-16,
+      "limit": 1e-11,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "straight_bar_coupled_rotation",
+      "value": 0.0,
+      "limit": 1e-11,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "straight_bar_torsion",
+      "value": 2.220446049250313e-16,
+      "limit": 1e-11,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_gauge_peak_nominal_normal_stress_MPa",
+      "value": 2.0415114043714766e-11,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_gauge_energy_N_mm",
+      "value": 1.8894663611490614e-11,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_gauge_max_rigid_removed_displacement_mm",
+      "value": 6.641553962349889e-08,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_gauge_max_rigid_removed_rotation_rad",
+      "value": 8.958277664117276e-08,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_quadrature_and_interior_peak_stress",
+      "value": 2.64133159788571e-11,
+      "limit": 0.0002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_interior_displacement",
+      "value": 7.612912968246732e-06,
+      "limit": 0.002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_endpoint_refined_mm",
+      "value": 3.163669098981303e-08,
+      "limit": 1.5e-07,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_uniform_E_inverse_deformation",
+      "value": 0.0,
+      "limit": 2e-08,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_uniform_E_stress_invariance",
+      "value": 0.0,
+      "limit": 2e-08,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "R4_load_linear_stress",
+      "value": 0.0,
+      "limit": 1e-10,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_gauge_peak_nominal_normal_stress_MPa",
+      "value": 1.8673951274195133e-13,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_gauge_energy_N_mm",
+      "value": 1.0680345496894006e-13,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_gauge_max_rigid_removed_displacement_mm",
+      "value": 3.549465799057572e-08,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_gauge_max_rigid_removed_rotation_rad",
+      "value": 8.860815825517676e-08,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_quadrature_and_interior_peak_stress",
+      "value": 4.902744876744691e-13,
+      "limit": 0.0002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_interior_displacement",
+      "value": 9.61114118580575e-06,
+      "limit": 0.002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_endpoint_refined_mm",
+      "value": 8.156526507248974e-08,
+      "limit": 1.5e-07,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_uniform_E_inverse_deformation",
+      "value": 0.0,
+      "limit": 2e-08,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_uniform_E_stress_invariance",
+      "value": 0.0,
+      "limit": 2e-08,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "C3_load_linear_stress",
+      "value": 0.0,
+      "limit": 1e-10,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_gauge_peak_nominal_normal_stress_MPa",
+      "value": 9.381384558082573e-14,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_gauge_energy_N_mm",
+      "value": 3.2318592246838307e-13,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_gauge_max_rigid_removed_displacement_mm",
+      "value": 5.261026805314373e-07,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_gauge_max_rigid_removed_rotation_rad",
+      "value": 6.766414073489102e-08,
+      "limit": 2e-06,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_quadrature_and_interior_peak_stress",
+      "value": 2.9976021664879227e-15,
+      "limit": 0.0002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_interior_displacement",
+      "value": 7.115742227004063e-06,
+      "limit": 0.002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_endpoint_refined_mm",
+      "value": 2.419162358847317e-08,
+      "limit": 1.5e-07,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_uniform_E_inverse_deformation",
+      "value": 0.0,
+      "limit": 2e-08,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_uniform_E_stress_invariance",
+      "value": 0.0,
+      "limit": 2e-08,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "S3_load_linear_stress",
+      "value": 0.0,
+      "limit": 1e-10,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "T6_gauge_and_refinement_stress",
+      "value": 7.027711745877241e-14,
+      "limit": 0.0002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "T6_gauge_and_refinement_displacement",
+      "value": 3.071458356274093e-05,
+      "limit": 0.002,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "maximum_nodal_equilibrium_relative",
+      "value": 1.2985833835455219e-08,
+      "limit": 2e-07,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "maximum_gauge_reaction_N",
+      "value": 2.0701319629827844e-12,
+      "limit": 1e-10,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "maximum_gauge_reaction_Nmm",
+      "value": 2.120704291300772e-13,
+      "limit": 1e-10,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "energy_work_relative",
+      "value": 2.162503953684336e-09,
+      "limit": 2e-07,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "total_applied_force_N",
+      "value": 1.3241392303452203e-15,
+      "limit": 1e-12,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "total_applied_moment_Nmm",
+      "value": 1.9760543323861666e-16,
+      "limit": 1e-12,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "crossing_segments",
+      "value": 0.0,
+      "limit": 1e-14,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "parallel_segments",
+      "value": 0.0,
+      "limit": 1e-14,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "segment_arc_brackets_exact_radius_low",
+      "value": 0.23990796115329077,
+      "limit": 0.24,
+      "relation": "<=",
+      "pass_": true
+    },
+    {
+      "name": "segment_arc_exact_radius_upper_with_roundoff",
+      "value": 0.24000000000000996,
+      "limit": 0.24,
+      "relation": ">=",
+      "pass_": true
+    },
+    {
+      "name": "segment_arc_bracket_gap",
+      "value": 9.203884670919149e-05,
+      "limit": 0.000101,
+      "relation": "<=",
+      "pass_": true
+    }
+  ],
+  "all_pass": true
+}
