@@ -1,0 +1,24 @@
+{
+  "status": "ALL_ARITHMETIC_CHECKS_PASSED",
+  "checks": {
+    "mass_dimensional_0_02016mg": true,
+    "stress_double_count_and_isotropic_factor": true,
+    "stress_zero_links_is_zero": true,
+    "contact_grid_108": true,
+    "backstop_grid_432": true,
+    "ramp_grid_35": true,
+    "dry_wedge_75deg_mu04_invalid": true,
+    "wet_wedge_75deg_mu01_finite": true,
+    "single_ramp_counterexample_bound": true,
+    "near_support_54mN": true,
+    "eccentric_10_8mN": true,
+    "similarity_stress_invariant": true,
+    "29_all_pass_bound_exact": true,
+    "28_insufficient_29_sufficient": true,
+    "qualification_minimal_n": true,
+    "price_cap_reconstructs_annual_budget": true,
+    "fully_saturated_PE_buoyant_POM_heavier": true,
+    "all_numbers_finite": true
+  },
+  "limitation": "Checks verify equations, limiting cases, and bookkeeping only; no physical model validation."
+}

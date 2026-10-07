@@ -1,0 +1,5237 @@
+{
+  "evidence": "DETERMINISTIC_CONDITIONAL_CALCULATION_NOT_PHYSICAL_VALIDATION",
+  "summary": {
+    "particle_mass_kg": 2.016e-08,
+    "particle_count": 5357142857142.857,
+    "baseline_contact_stress_scale_Pa": 3214.285714285715,
+    "baseline_quarter_active_stress_scale_Pa": 803.5714285714288,
+    "inverse_force_for_10kPa_at_quarter_active_mN": 22.399999999999995,
+    "single_ramp_wet_hold_upper_mN_under_dry_no_lock": 6.240000000000001,
+    "dry_no_lock_return_angle_supremum_deg": 68.19859051364818,
+    "same_packing_mass_increase_max_fraction": 0.31682153551226055,
+    "backstop_5um_force_mN": 53.99999999999999,
+    "backstop_50um_force_mN": 10.799999999999997,
+    "favorable_stop_stress_scale_Pa": 16071.428571428572,
+    "eccentric_stop_stress_scale_Pa": 3214.285714285714,
+    "specific_surface_m2_kg": 36.70634920634921,
+    "bed_particle_surface_m2": 3964285.7142857146,
+    "annuity_factor": 6.710081398941448,
+    "max_bulk_density_at_price_500_kg_m3": 158.01858426147126,
+    "travel_minutes": 37.03703703703704,
+    "recovery_minutes_available": 10.962962962962962,
+    "independent_ten_gates_each_90_percent": 0.3486784401000001,
+    "baseline_28_all_success_bound": 0.8985342644272752,
+    "baseline_29_all_success_bound": 0.9018553723227043
+  },
+  "contact_grid": [
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 89.28571428571428
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 223.2142857142857
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 446.4285714285714
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 892.8571428571428
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 133.92857142857147
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 334.8214285714286
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 669.6428571428572
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 1339.2857142857144
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 178.57142857142856
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 446.4285714285714
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 892.8571428571428
+    },
+    {
+      "rho_bulk": 100,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 1785.7142857142856
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 178.57142857142856
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 446.4285714285714
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 892.8571428571428
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 1785.7142857142856
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 267.85714285714295
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 669.6428571428572
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1339.2857142857144
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 2678.571428571429
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 357.1428571428571
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 892.8571428571428
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1785.7142857142856
+    },
+    {
+      "rho_bulk": 100,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 3571.428571428571
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 267.8571428571429
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 669.6428571428571
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1339.2857142857142
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 2678.5714285714284
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 401.7857142857144
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1004.4642857142859
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 2008.9285714285718
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 4017.8571428571436
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 535.7142857142858
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1339.2857142857142
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 2678.5714285714284
+    },
+    {
+      "rho_bulk": 100,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 5357.142857142857
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 107.14285714285717
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 267.8571428571429
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 535.7142857142858
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 1071.4285714285716
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 160.71428571428575
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 401.7857142857144
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 803.5714285714288
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 214.28571428571433
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 535.7142857142858
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1071.4285714285716
+    },
+    {
+      "rho_bulk": 120,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 214.28571428571433
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 535.7142857142858
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1071.4285714285716
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 321.4285714285715
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 803.5714285714288
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 428.57142857142867
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1071.4285714285716
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "rho_bulk": 120,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 4285.714285714286
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 321.42857142857144
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 803.5714285714286
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1607.142857142857
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 482.1428571428573
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1205.3571428571433
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 2410.7142857142867
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 4821.428571428573
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 642.8571428571429
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1607.142857142857
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "rho_bulk": 120,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 6428.571428571428
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 160.71428571428572
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 401.7857142857143
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 803.5714285714286
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 1607.142857142857
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 241.07142857142864
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 602.6785714285716
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1205.3571428571431
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 2410.7142857142862
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 321.42857142857144
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 803.5714285714286
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1607.142857142857
+    },
+    {
+      "rho_bulk": 180,
+      "z": 2,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 321.42857142857144
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 803.5714285714286
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 1607.142857142857
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 482.1428571428573
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1205.3571428571431
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 2410.7142857142862
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 4821.4285714285725
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 642.8571428571429
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1607.142857142857
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "rho_bulk": 180,
+      "z": 4,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 6428.571428571428
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 482.14285714285717
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1205.357142857143
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 2410.714285714286
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.3,
+      "active_fraction": 1,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 723.2142857142858
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 1808.0357142857147
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 3616.0714285714294
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.45,
+      "active_fraction": 1,
+      "stress_scale_Pa": 7232.142857142859
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.1,
+      "stress_scale_Pa": 964.2857142857143
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.25,
+      "stress_scale_Pa": 2410.714285714286
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 0.5,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "rho_bulk": 180,
+      "z": 6,
+      "ell_mm": 0.6,
+      "active_fraction": 1,
+      "stress_scale_Pa": 9642.857142857143
+    }
+  ],
+  "backstop_grid": [
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 5357.142857142858
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 3571.4285714285725
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 1071.4285714285716
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 2678.571428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 5357.142857142858
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 714.2857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 1785.7142857142862
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 3571.4285714285725
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 476.1904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 1190.4761904761908
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 2380.9523809523816
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 4761.904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 357.14285714285717
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 892.8571428571431
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 1785.7142857142862
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 4.0,
+      "stress_scale_Pa": 3571.4285714285725
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 285.7142857142857
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 714.2857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 1428.5714285714287
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 2857.1428571428573
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 190.47619047619048
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 476.1904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 952.3809523809526
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 142.85714285714286
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 357.14285714285717
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 714.2857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 1.5999999999999999,
+      "stress_scale_Pa": 1428.5714285714287
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 95.23809523809526
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 238.09523809523816
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 476.1904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 952.3809523809526
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 63.492063492063515
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 158.73015873015876
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 317.4603174603175
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 634.920634920635
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 47.61904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 119.04761904761908
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 238.09523809523816
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 0.5333333333333333,
+      "stress_scale_Pa": 476.1904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 8035.714285714289
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 16071.428571428578
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 2142.8571428571436
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 5357.14285714286
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 10714.28571428572
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 21428.57142857144
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 4017.8571428571445
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 8035.714285714289
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 18.0,
+      "stress_scale_Pa": 16071.428571428578
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 1607.1428571428578
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 4017.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 8035.71428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 16071.42857142858
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 1071.428571428572
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 2678.57142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 5357.14285714286
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 10714.28571428572
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 803.5714285714289
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 2008.9285714285725
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 4017.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 9.000000000000002,
+      "stress_scale_Pa": 8035.71428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 642.857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 428.57142857142867
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 1071.4285714285718
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 2142.8571428571436
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 4285.714285714287
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 321.4285714285715
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 803.5714285714288
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 214.28571428571433
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 535.7142857142859
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 1071.4285714285718
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 2142.8571428571436
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 142.85714285714292
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 357.1428571428573
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 714.2857142857146
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 107.14285714285717
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 267.85714285714295
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 535.7142857142859
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 1.2000000000000002,
+      "stress_scale_Pa": 1071.4285714285718
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 4285.714285714286
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 42857.14285714286
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 28571.42857142858
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 5357.142857142858
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 2857.1428571428573
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 28571.42857142858
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 4761.904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 9523.809523809527
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 19047.619047619053
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 1428.5714285714287
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 3571.4285714285725
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 16.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 1142.857142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 2857.1428571428573
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 5714.285714285715
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 11428.57142857143
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 761.9047619047619
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 3809.5238095238105
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 7619.047619047621
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 571.4285714285714
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 1428.5714285714287
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 2857.1428571428573
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 6.3999999999999995,
+      "stress_scale_Pa": 5714.285714285715
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 380.952380952381
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 952.3809523809526
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 3809.5238095238105
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 253.96825396825406
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 634.920634920635
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 1269.84126984127
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 2539.68253968254
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 190.4761904761905
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 476.1904761904763
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 952.3809523809526
+    },
+    {
+      "design_stress_MPa": 1,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 2.1333333333333333,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 16071.428571428578
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 4285.714285714287
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 10714.28571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 21428.57142857144
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 42857.14285714288
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 8035.714285714289
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 16071.428571428578
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 36.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 5357.142857142858
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 3571.4285714285725
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 1071.4285714285716
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 2678.571428571429
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 5357.142857142858
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 12.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 857.142857142857
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 2142.8571428571427
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 4285.714285714285
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 8571.42857142857
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 571.4285714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 1428.5714285714284
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 2857.142857142857
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 5714.285714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 428.5714285714285
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 1071.4285714285713
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 2142.8571428571427
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 4.799999999999999,
+      "stress_scale_Pa": 4285.714285714285
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 285.7142857142858
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 714.2857142857146
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 190.4761904761905
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 476.1904761904763
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 952.3809523809526
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 142.8571428571429
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 357.1428571428573
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 714.2857142857146
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 1.6,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 96428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 6428.571428571428
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 16071.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 32142.857142857145
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 64285.71428571429
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 12053.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 12053.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 8035.714285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 16071.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 32142.857142857145
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 2410.714285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 6026.785714285715
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 12053.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 26.999999999999996,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 1928.5714285714284
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 19285.714285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 1285.7142857142856
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 3214.285714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 6428.571428571428
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 12857.142857142857
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 964.2857142857142
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 2410.714285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 10.799999999999997,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 642.857142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 428.57142857142867
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 1071.4285714285718
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 2142.8571428571436
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 4285.714285714287
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 321.4285714285715
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 803.5714285714288
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 3.5999999999999996,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 12857.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 128571.42857142862
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 8571.428571428574
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 21428.57142857144
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 42857.14285714288
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 85714.28571428575
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 16071.428571428578
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 8571.428571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 42857.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 85714.28571428572
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 5714.2857142857165
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 28571.42857142858
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 57142.85714285716
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 4285.714285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 48.0,
+      "stress_scale_Pa": 42857.14285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 3428.571428571428
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 8571.42857142857
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 17142.85714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 34285.71428571428
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 2285.714285714286
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 5714.285714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 11428.571428571428
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 22857.142857142855
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 1714.285714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 4285.714285714285
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 8571.42857142857
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 19.199999999999996,
+      "stress_scale_Pa": 17142.85714285714
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 1142.8571428571431
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 5714.2857142857165
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 11428.571428571433
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 761.904761904762
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 3809.5238095238105
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 7619.047619047621
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 571.4285714285716
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 3,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 6.4,
+      "stress_scale_Pa": 5714.2857142857165
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 12857.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 128571.42857142862
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 8571.428571428574
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 21428.57142857144
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 42857.14285714288
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 85714.28571428575
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 16071.428571428578
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 72.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 4285.714285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 42857.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 7142.857142857145
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 14285.71428571429
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 28571.42857142858
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 2142.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 5357.142857142858
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 10714.285714285716
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 24.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 1714.285714285714
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 4285.714285714285
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 8571.42857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 17142.85714285714
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 1142.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 2857.142857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 5714.285714285714
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 11428.571428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 857.142857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 2142.8571428571427
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 4285.714285714285
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 9.599999999999998,
+      "stress_scale_Pa": 8571.42857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 571.4285714285716
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 5714.2857142857165
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 380.952380952381
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 952.3809523809526
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 1904.7619047619053
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 3809.5238095238105
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 285.7142857142858
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 714.2857142857146
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 1428.5714285714291
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.04,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 3.2,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 19285.714285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 96428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 192857.14285714287
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 12857.142857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 32142.857142857145
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 64285.71428571429
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 128571.42857142858
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 107.99999999999999,
+      "stress_scale_Pa": 96428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 96428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 6428.571428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 16071.428571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 32142.857142857145
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 64285.71428571429
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 12053.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 24107.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 53.99999999999999,
+      "stress_scale_Pa": 48214.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 3857.142857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 19285.714285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 38571.42857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 2571.428571428571
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 6428.571428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 12857.142857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 25714.285714285714
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 1928.5714285714284
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 4821.428571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 9642.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 21.599999999999994,
+      "stress_scale_Pa": 19285.714285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 1285.714285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 12857.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 857.1428571428573
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 2142.8571428571436
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 4285.714285714287
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 8571.428571428574
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 642.857142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 1607.1428571428576
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 3214.285714285715
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.06,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 7.199999999999999,
+      "stress_scale_Pa": 6428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 25714.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 128571.42857142862
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 257142.85714285725
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 17142.85714285715
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 42857.14285714288
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 85714.28571428575
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 171428.5714285715
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 12857.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 32142.857142857156
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 64285.71428571431
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.005,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 144.0,
+      "stress_scale_Pa": 128571.42857142862
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 17142.857142857145
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 42857.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 85714.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 171428.57142857145
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 11428.571428571433
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 28571.42857142858
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 57142.85714285716
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 114285.71428571432
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 8571.428571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 21428.57142857143
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 42857.14285714286
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.02,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 96.0,
+      "stress_scale_Pa": 85714.28571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 6857.142857142856
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 17142.85714285714
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 34285.71428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 68571.42857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 4571.428571428572
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 11428.571428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 22857.142857142855
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 45714.28571428571
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 3428.571428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 8571.42857142857
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 17142.85714285714
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.05,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 38.39999999999999,
+      "stress_scale_Pa": 34285.71428571428
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.1,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 2285.7142857142862
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.25,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 5714.2857142857165
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 0.5,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 11428.571428571433
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1,
+      "active_fraction": 1,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 22857.142857142866
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.1,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 1523.809523809524
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.25,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 3809.5238095238105
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 0.5,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 7619.047619047621
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 1.5,
+      "active_fraction": 1,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 15238.095238095242
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.1,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 1142.8571428571431
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.25,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 2857.1428571428582
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 0.5,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 5714.2857142857165
+    },
+    {
+      "design_stress_MPa": 6,
+      "thickness_mm": 0.08,
+      "eccentricity_mm": 0.15,
+      "mass_multiplier": 2,
+      "active_fraction": 1,
+      "force_mN": 12.8,
+      "stress_scale_Pa": 11428.571428571433
+    }
+  ],
+  "ramp_grid": [
+    {
+      "return_angle_deg": 20,
+      "mu": 0.05,
+      "factor": 0.4216435187815904,
+      "extraction_force_mN": 0.7589583338068627,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 20,
+      "mu": 0.1,
+      "factor": 0.48149522733533223,
+      "extraction_force_mN": 0.866691409203598,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 20,
+      "mu": 0.2,
+      "factor": 0.6082469944807788,
+      "extraction_force_mN": 1.0948445900654018,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 20,
+      "mu": 0.3,
+      "factor": 0.7453565092514266,
+      "extraction_force_mN": 1.3416417166525678,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 20,
+      "mu": 0.4,
+      "factor": 0.894147458197701,
+      "extraction_force_mN": 1.609465424755862,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 30,
+      "mu": 0.05,
+      "factor": 0.6459986437323768,
+      "extraction_force_mN": 1.1627975587182784,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 30,
+      "mu": 0.1,
+      "factor": 0.7188532828242695,
+      "extraction_force_mN": 1.2939359090836853,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 30,
+      "mu": 0.2,
+      "factor": 0.8788286621187946,
+      "extraction_force_mN": 1.5818915918138303,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 30,
+      "mu": 0.3,
+      "factor": 1.0611461787800949,
+      "extraction_force_mN": 1.9100631218041708,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 30,
+      "mu": 0.4,
+      "factor": 1.2708376537957384,
+      "extraction_force_mN": 2.2875077768323293,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 45,
+      "mu": 0.05,
+      "factor": 1.1052631578947367,
+      "extraction_force_mN": 1.989473684210526,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 45,
+      "mu": 0.1,
+      "factor": 1.222222222222222,
+      "extraction_force_mN": 2.1999999999999997,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 45,
+      "mu": 0.2,
+      "factor": 1.4999999999999998,
+      "extraction_force_mN": 2.6999999999999997,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 45,
+      "mu": 0.3,
+      "factor": 1.8571428571428568,
+      "extraction_force_mN": 3.342857142857142,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 45,
+      "mu": 0.4,
+      "factor": 2.333333333333333,
+      "extraction_force_mN": 4.199999999999999,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 60,
+      "mu": 0.05,
+      "factor": 1.9510135361086134,
+      "extraction_force_mN": 3.5118243649955043,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 60,
+      "mu": 0.1,
+      "factor": 2.2158467171593457,
+      "extraction_force_mN": 3.9885240908868225,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 60,
+      "mu": 0.2,
+      "factor": 2.956060045308672,
+      "extraction_force_mN": 5.32090808155561,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 60,
+      "mu": 0.3,
+      "factor": 4.230048466095992,
+      "extraction_force_mN": 7.614087238972786,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 60,
+      "mu": 0.4,
+      "factor": 6.9407287245767195,
+      "extraction_force_mN": 12.493311704238096,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 70,
+      "mu": 0.05,
+      "factor": 3.2429778386253694,
+      "extraction_force_mN": 5.837360109525665,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 70,
+      "mu": 0.1,
+      "factor": 3.926188974706365,
+      "extraction_force_mN": 7.067140154471457,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 70,
+      "mu": 0.2,
+      "factor": 6.5426145888867895,
+      "extraction_force_mN": 11.776706259996221,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 70,
+      "mu": 0.3,
+      "factor": 17.33917474280506,
+      "extraction_force_mN": 31.210514537049107,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 70,
+      "mu": 0.4,
+      "factor": null,
+      "extraction_force_mN": null,
+      "status": "ideal_wedge_lock_or_formula_invalid"
+    },
+    {
+      "return_angle_deg": 75,
+      "mu": 0.05,
+      "factor": 4.649695868645233,
+      "extraction_force_mN": 8.36945256356142,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 75,
+      "mu": 0.1,
+      "factor": 6.113723468269782,
+      "extraction_force_mN": 11.004702242885608,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 75,
+      "mu": 0.2,
+      "factor": 15.505553499465146,
+      "extraction_force_mN": 27.909996299037264,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 75,
+      "mu": 0.3,
+      "factor": null,
+      "extraction_force_mN": null,
+      "status": "ideal_wedge_lock_or_formula_invalid"
+    },
+    {
+      "return_angle_deg": 75,
+      "mu": 0.4,
+      "factor": null,
+      "extraction_force_mN": null,
+      "status": "ideal_wedge_lock_or_formula_invalid"
+    },
+    {
+      "return_angle_deg": 80,
+      "mu": 0.05,
+      "factor": 7.985755247040614,
+      "extraction_force_mN": 14.374359444673106,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 80,
+      "mu": 0.1,
+      "factor": 13.332542288784467,
+      "extraction_force_mN": 23.99857611981204,
+      "status": "ideal_ramp_finite"
+    },
+    {
+      "return_angle_deg": 80,
+      "mu": 0.2,
+      "factor": null,
+      "extraction_force_mN": null,
+      "status": "ideal_wedge_lock_or_formula_invalid"
+    },
+    {
+      "return_angle_deg": 80,
+      "mu": 0.3,
+      "factor": null,
+      "extraction_force_mN": null,
+      "status": "ideal_wedge_lock_or_formula_invalid"
+    },
+    {
+      "return_angle_deg": 80,
+      "mu": 0.4,
+      "factor": null,
+      "extraction_force_mN": null,
+      "status": "ideal_wedge_lock_or_formula_invalid"
+    }
+  ],
+  "cost_grid": [
+    {
+      "rho_bulk_kg_m3": 100,
+      "mass_kg": 90000.0,
+      "material_yen": 45000000.0,
+      "initial_including_nonmaterial_yen": 65000000.0,
+      "annual_equivalent_yen": 14586916.765309898,
+      "price_cap_yen_kg": 790.0929213073563
+    },
+    {
+      "rho_bulk_kg_m3": 120,
+      "mass_kg": 108000.0,
+      "material_yen": 54000000.0,
+      "initial_including_nonmaterial_yen": 74000000.0,
+      "annual_equivalent_yen": 16108182.163583575,
+      "price_cap_yen_kg": 658.4107677561302
+    },
+    {
+      "rho_bulk_kg_m3": 176.25,
+      "mass_kg": 158625.0,
+      "material_yen": 79312500.0,
+      "initial_including_nonmaterial_yen": 99312500.0,
+      "annual_equivalent_yen": 20386741.096228294,
+      "price_cap_yen_kg": 448.2796716637483
+    },
+    {
+      "rho_bulk_kg_m3": 180,
+      "mass_kg": 162000.0,
+      "material_yen": 81000000.0,
+      "initial_including_nonmaterial_yen": 101000000.0,
+      "annual_equivalent_yen": 20671978.35840461,
+      "price_cap_yen_kg": 438.9405118374202
+    },
+    {
+      "rho_bulk_kg_m3": 220,
+      "mass_kg": 198000.0,
+      "material_yen": 99000000.0,
+      "initial_including_nonmaterial_yen": 119000000.0,
+      "annual_equivalent_yen": 23714509.154951967,
+      "price_cap_yen_kg": 359.1331460487983
+    },
+    {
+      "rho_bulk_kg_m3": 300,
+      "mass_kg": 270000.0,
+      "material_yen": 135000000.0,
+      "initial_including_nonmaterial_yen": 155000000.0,
+      "annual_equivalent_yen": 29799570.748046678,
+      "price_cap_yen_kg": 263.36430710245213
+    }
+  ],
+  "surface_grid": [
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 0.1,
+      "treatment_yen_m2": 1,
+      "coating_mass_per_core_mass": 0.000880952380952381,
+      "coating_added_mass_kg": 95.14285714285715,
+      "coating_operation_yen_per_core_kg": 7.341269841269842,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 0.1,
+      "treatment_yen_m2": 5,
+      "coating_mass_per_core_mass": 0.000880952380952381,
+      "coating_added_mass_kg": 95.14285714285715,
+      "coating_operation_yen_per_core_kg": 36.70634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 0.1,
+      "treatment_yen_m2": 10,
+      "coating_mass_per_core_mass": 0.000880952380952381,
+      "coating_added_mass_kg": 95.14285714285715,
+      "coating_operation_yen_per_core_kg": 73.41269841269842,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 1,
+      "treatment_yen_m2": 1,
+      "coating_mass_per_core_mass": 0.00880952380952381,
+      "coating_added_mass_kg": 951.4285714285716,
+      "coating_operation_yen_per_core_kg": 7.341269841269842,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 1,
+      "treatment_yen_m2": 5,
+      "coating_mass_per_core_mass": 0.00880952380952381,
+      "coating_added_mass_kg": 951.4285714285716,
+      "coating_operation_yen_per_core_kg": 36.70634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 1,
+      "treatment_yen_m2": 10,
+      "coating_mass_per_core_mass": 0.00880952380952381,
+      "coating_added_mass_kg": 951.4285714285716,
+      "coating_operation_yen_per_core_kg": 73.41269841269842,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 5,
+      "treatment_yen_m2": 1,
+      "coating_mass_per_core_mass": 0.044047619047619044,
+      "coating_added_mass_kg": 4757.142857142857,
+      "coating_operation_yen_per_core_kg": 7.341269841269842,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 5,
+      "treatment_yen_m2": 5,
+      "coating_mass_per_core_mass": 0.044047619047619044,
+      "coating_added_mass_kg": 4757.142857142857,
+      "coating_operation_yen_per_core_kg": 36.70634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 0.2,
+      "thickness_um": 5,
+      "treatment_yen_m2": 10,
+      "coating_mass_per_core_mass": 0.044047619047619044,
+      "coating_added_mass_kg": 4757.142857142857,
+      "coating_operation_yen_per_core_kg": 73.41269841269842,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 0.1,
+      "treatment_yen_m2": 1,
+      "coating_mass_per_core_mass": 0.004404761904761905,
+      "coating_added_mass_kg": 475.7142857142858,
+      "coating_operation_yen_per_core_kg": 36.70634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 0.1,
+      "treatment_yen_m2": 5,
+      "coating_mass_per_core_mass": 0.004404761904761905,
+      "coating_added_mass_kg": 475.7142857142858,
+      "coating_operation_yen_per_core_kg": 183.53174603174605,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 0.1,
+      "treatment_yen_m2": 10,
+      "coating_mass_per_core_mass": 0.004404761904761905,
+      "coating_added_mass_kg": 475.7142857142858,
+      "coating_operation_yen_per_core_kg": 367.0634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 1,
+      "treatment_yen_m2": 1,
+      "coating_mass_per_core_mass": 0.044047619047619044,
+      "coating_added_mass_kg": 4757.142857142857,
+      "coating_operation_yen_per_core_kg": 36.70634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 1,
+      "treatment_yen_m2": 5,
+      "coating_mass_per_core_mass": 0.044047619047619044,
+      "coating_added_mass_kg": 4757.142857142857,
+      "coating_operation_yen_per_core_kg": 183.53174603174605,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 1,
+      "treatment_yen_m2": 10,
+      "coating_mass_per_core_mass": 0.044047619047619044,
+      "coating_added_mass_kg": 4757.142857142857,
+      "coating_operation_yen_per_core_kg": 367.0634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 5,
+      "treatment_yen_m2": 1,
+      "coating_mass_per_core_mass": 0.22023809523809526,
+      "coating_added_mass_kg": 23785.71428571429,
+      "coating_operation_yen_per_core_kg": 36.70634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 5,
+      "treatment_yen_m2": 5,
+      "coating_mass_per_core_mass": 0.22023809523809526,
+      "coating_added_mass_kg": 23785.71428571429,
+      "coating_operation_yen_per_core_kg": 183.53174603174605,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    },
+    {
+      "treated_fraction": 1,
+      "thickness_um": 5,
+      "treatment_yen_m2": 10,
+      "coating_mass_per_core_mass": 0.22023809523809526,
+      "coating_added_mass_kg": 23785.71428571429,
+      "coating_operation_yen_per_core_kg": 367.0634920634921,
+      "note": "First-order thin layer; operation price excludes coating purchase unless quote specifies otherwise."
+    }
+  ],
+  "maintenance_grid": [
+    {
+      "recovery_min": 0,
+      "total_at_nominal_min": 49.03703703703704,
+      "required_speed_m_s": 0.46296296296296297
+    },
+    {
+      "recovery_min": 5,
+      "total_at_nominal_min": 54.03703703703704,
+      "required_speed_m_s": 0.5167958656330749
+    },
+    {
+      "recovery_min": 10,
+      "total_at_nominal_min": 59.03703703703704,
+      "required_speed_m_s": 0.5847953216374269
+    },
+    {
+      "recovery_min": 30,
+      "total_at_nominal_min": 79.03703703703704,
+      "required_speed_m_s": 1.2345679012345678
+    },
+    {
+      "recovery_min": 60,
+      "total_at_nominal_min": 109.03703703703704,
+      "required_speed_m_s": null
+    }
+  ],
+  "qualification_examples": [
+    {
+      "failures": 0,
+      "min_n": 29,
+      "lower_bound": 0.9018553723227043,
+      "previous_n_lower": 0.8985342644272754
+    },
+    {
+      "failures": 1,
+      "min_n": 46,
+      "lower_bound": 0.9009756831801019,
+      "previous_n_lower": 0.8988662164060863
+    },
+    {
+      "failures": 2,
+      "min_n": 61,
+      "lower_bound": 0.9003651198057676,
+      "previous_n_lower": 0.8987641050758384
+    },
+    {
+      "failures": 3,
+      "min_n": 76,
+      "lower_bound": 0.9011299231601468,
+      "previous_n_lower": 0.8998537133134266
+    }
+  ],
+  "submerged_grid": [
+    {
+      "skeletal_density": 960,
+      "solid_fraction": 0.125,
+      "dry_bulk_density": 120.0,
+      "fully_saturated_density": 995.0,
+      "effective_submerged_bulk_density": -5.0,
+      "submerged_normal_weight_Pa": -19.115345725032025
+    },
+    {
+      "skeletal_density": 1050,
+      "solid_fraction": 0.125,
+      "dry_bulk_density": 131.25,
+      "fully_saturated_density": 1006.25,
+      "effective_submerged_bulk_density": 6.25,
+      "submerged_normal_weight_Pa": 23.89418215629003
+    },
+    {
+      "skeletal_density": 1410,
+      "solid_fraction": 0.125,
+      "dry_bulk_density": 176.25,
+      "fully_saturated_density": 1051.25,
+      "effective_submerged_bulk_density": 51.25,
+      "submerged_normal_weight_Pa": 195.93229368157824
+    }
+  ],
+  "geometric_similarity": [
+    {
+      "size_ratio": 0.5,
+      "force_mN": 0.45,
+      "stress_scale_Pa": 3214.285714285714,
+      "area_per_mass_multiplier": 2.0,
+      "grain_count_multiplier": 8.0
+    },
+    {
+      "size_ratio": 1,
+      "force_mN": 1.8,
+      "stress_scale_Pa": 3214.285714285714,
+      "area_per_mass_multiplier": 1.0,
+      "grain_count_multiplier": 1.0
+    },
+    {
+      "size_ratio": 2,
+      "force_mN": 7.2,
+      "stress_scale_Pa": 3214.285714285714,
+      "area_per_mass_multiplier": 0.5,
+      "grain_count_multiplier": 0.125
+    }
+  ]
+}
