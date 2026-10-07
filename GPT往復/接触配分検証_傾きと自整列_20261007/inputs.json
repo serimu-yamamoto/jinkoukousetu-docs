@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "f44df333080a93c174df462ef36c02890bb289f2",
+  "geometry": {
+    "R_mm": 0.24,
+    "wire_radius_mm": 0.022,
+    "opening_deg": 150,
+    "openings_deg": [
+      120,
+      150
+    ]
+  },
+  "mechanics": {
+    "E_MPa": 300,
+    "nu": 0.45,
+    "shear_factor": 0.85,
+    "quadrature_points": 64,
+    "interior_points": 257,
+    "assumed_not_measured_at_50C": true,
+    "strain_diagnostic": 0.01,
+    "shear_strain_diagnostic": 0.02,
+    "rotation_diagnostic_rad": 0.05,
+    "displacement_diagnostic_over_R": 0.05
+  },
+  "contacts": {
+    "tilt_deg": [
+      0,
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2,
+      5,
+      10
+    ],
+    "azimuth_deg": [
+      0,
+      22.5,
+      45
+    ],
+    "total_force_mN": [
+      0.1,
+      0.3,
+      0.9,
+      1,
+      3,
+      6.48,
+      72
+    ],
+    "height_offset_um": [
+      -2,
+      2
+    ],
+    "height_case_force_mN": 0.9,
+    "plane_E_MPa": [
+      100,
+      300,
+      1000
+    ],
+    "plane_nu": 0.45,
+    "hertz_case_tilt_deg": [
+      0,
+      0.5,
+      1,
+      2
+    ],
+    "hertz_case_azimuth_deg": [
+      0,
+      45
+    ],
+    "hertz_case_force_mN": [
+      0.3,
+      0.9
+    ],
+    "plane_model": "frictionless, body back junction clamped; no grain-grain contact or rolling solution"
+  },
+  "gravity": {
+    "density_kg_m3": 960,
+    "g_m_s2": 9.80665,
+    "azimuth_deg": [
+      0,
+      22.5,
+      45
+    ],
+    "tilt_step_deg": 0.1,
+    "mesh_files": [
+      "../荷重経路検証_直交輪と内部補強_20261007/R4_open120_wire44um.stl",
+      "../荷重経路検証_直交輪と内部補強_20261007/R4_open150_wire44um.stl"
+    ],
+    "scope": "Homogeneous dry grain resting on a smooth flat horizontal support, gravity only. Not packing, water, wind, or vibration probability."
+  },
+  "physical_tests": 0,
+  "success_probability": null
+}

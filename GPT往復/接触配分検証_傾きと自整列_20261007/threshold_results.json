@@ -1,0 +1,73 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "load_mN": 0.9,
+  "opening_deg": 150,
+  "angle_boundaries": [
+    {
+      "azimuth_deg": 0,
+      "first_contact_loss_deg": 2.6545783151798945,
+      "chosen_linear_diagnostic_boundary_deg": 0.31168463713679107
+    },
+    {
+      "azimuth_deg": 22.5,
+      "first_contact_loss_deg": 2.856568912768683,
+      "chosen_linear_diagnostic_boundary_deg": 0.3370843550782429
+    },
+    {
+      "azimuth_deg": 45,
+      "first_contact_loss_deg": 3.6335972399445318,
+      "chosen_linear_diagnostic_boundary_deg": 0.43866733242166833
+    }
+  ],
+  "specific_height_pattern": {
+    "pattern": "[-a,-a,-a,+a] um, initial contact height only",
+    "a_um": 0.7775094822268994,
+    "total_height_spread_um": 1.5550189644537988
+  },
+  "interior_refinement": {
+    "nominal_normal_strain": {
+      "coarse": 0.009539716342552086,
+      "fine": 0.009539716342552086,
+      "relative": 0.0
+    },
+    "nominal_shear_strain_upper": {
+      "coarse": 0.002478992269184321,
+      "fine": 0.002478992269184321,
+      "relative": 0.0
+    },
+    "max_interior_rotation_rad": {
+      "coarse": 0.0221130813648145,
+      "fine": 0.022114210132643877,
+      "relative": 5.104264735689146e-05
+    },
+    "max_interior_displacement_mm": {
+      "coarse": 0.004130116731359126,
+      "fine": 0.0041301353731271135,
+      "relative": 4.513597328781316e-06
+    }
+  },
+  "endpoint_error_coarse_mm": 3.062755864919217e-07,
+  "endpoint_error_fine_mm": 1.914222957466875e-08,
+  "hertz_at_1deg": [
+    {
+      "plane_E_MPa": 100,
+      "maximum_force_mN": 0.31109062863919557,
+      "strain": 0.013764607188150105,
+      "patch_over_radius": 0.17242123554983027
+    },
+    {
+      "plane_E_MPa": 300,
+      "maximum_force_mN": 0.3119516572656765,
+      "strain": 0.013829340071836749,
+      "patch_over_radius": 0.13697696643763405
+    },
+    {
+      "plane_E_MPa": 1000,
+      "maximum_force_mN": 0.31232101003342977,
+      "strain": 0.013857225342985587,
+      "patch_over_radius": 0.11870161573990726
+    }
+  ],
+  "scope": "Boundaries refer to specified contact and linear-diagnostic models; not allowable manufacturing tolerance or material strength."
+}

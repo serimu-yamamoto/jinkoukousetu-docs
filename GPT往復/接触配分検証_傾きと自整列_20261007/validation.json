@@ -1,0 +1,182 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "numerical_audit_only": true,
+  "checks": [
+    {
+      "name": "case_counts",
+      "passed": true,
+      "details": {
+        "tilt_cases": 336,
+        "height_cases": 32,
+        "hertz_cases": 96,
+        "ideal_rotation_cases": 24
+      }
+    },
+    {
+      "name": "unilateral_contact",
+      "passed": true,
+      "details": {
+        "max_relative_force_sum": 1.1102230246251565e-15,
+        "min_gap_um": -2.220446049250313e-13,
+        "min_force_mN": 0.0,
+        "max_complementarity_N_mm": 5.01575271583828e-18
+      }
+    },
+    {
+      "name": "equilibrium_and_energy",
+      "passed": true,
+      "details": {
+        "max_equilibrium_relative": 1.6556066118006605e-13,
+        "max_energy_work_relative": 6.705747068735946e-14
+      }
+    },
+    {
+      "name": "positive_tip_compliance",
+      "passed": true,
+      "details": {
+        "max_reciprocity": 0.0,
+        "minimum_eigenvalues": [
+          10.0669722964947,
+          6.844239620450158
+        ]
+      }
+    },
+    {
+      "name": "independent_convex_QP",
+      "passed": true,
+      "details": [
+        {
+          "success": true,
+          "max_force_fraction_difference": 3.3306690738754696e-16
+        },
+        {
+          "success": true,
+          "max_force_fraction_difference": 1.304512053934559e-15
+        },
+        {
+          "success": true,
+          "max_force_fraction_difference": 6.106226635438361e-16
+        },
+        {
+          "success": true,
+          "max_force_fraction_difference": 9.43689570931383e-16
+        }
+      ]
+    },
+    {
+      "name": "cycle11_balanced_limit",
+      "passed": true,
+      "details": [
+        {
+          "opening_deg": 120,
+          "balanced_compliance_relative": 2.220446049250313e-16,
+          "max_force_imbalance_mN": 1.4155343563970746e-15
+        },
+        {
+          "opening_deg": 150,
+          "balanced_compliance_relative": 1.7763568394002505e-14,
+          "max_force_imbalance_mN": 3.4416913763379853e-15
+        }
+      ]
+    },
+    {
+      "name": "sampled_plane_gap_inside_linear_diagnostic",
+      "passed": true,
+      "details": {
+        "min_gap_um": -2.2850984993105783e-07,
+        "scope": "Only sampled centreline points, rigid plane, zero height offset. Not continuous global contact validation."
+      }
+    },
+    {
+      "name": "interior_resolution",
+      "passed": true,
+      "details": {
+        "nominal_normal_strain": {
+          "coarse": 0.009539716342552086,
+          "fine": 0.009539716342552086,
+          "relative": 0.0
+        },
+        "nominal_shear_strain_upper": {
+          "coarse": 0.002478992269184321,
+          "fine": 0.002478992269184321,
+          "relative": 0.0
+        },
+        "max_interior_rotation_rad": {
+          "coarse": 0.0221130813648145,
+          "fine": 0.022114210132643877,
+          "relative": 5.104264735689146e-05
+        },
+        "max_interior_displacement_mm": {
+          "coarse": 0.004130116731359126,
+          "fine": 0.0041301353731271135,
+          "relative": 4.513597328781316e-06
+        }
+      }
+    },
+    {
+      "name": "direct_support_120",
+      "passed": true,
+      "details": {
+        "max_difference_mm": 1.6520791068508345e-08,
+        "arc_cover_bound_mm": 9.203884727313846e-05,
+        "directions": 192,
+        "points_per_circle": 8193
+      }
+    },
+    {
+      "name": "gravity_sample_audit_120",
+      "passed": true,
+      "details": {
+        "min_sample_margin_above_analytic_mm": 0.0032137017085602237,
+        "scope": "Sampling audit of analytic result; not dynamic settling"
+      }
+    },
+    {
+      "name": "direct_support_150",
+      "passed": true,
+      "details": {
+        "max_difference_mm": 1.6520791068508345e-08,
+        "arc_cover_bound_mm": 9.203884727313846e-05,
+        "directions": 192,
+        "points_per_circle": 8193
+      }
+    },
+    {
+      "name": "gravity_sample_audit_150",
+      "passed": true,
+      "details": {
+        "min_sample_margin_above_analytic_mm": 0.019566618217827292,
+        "scope": "Sampling audit of analytic result; not dynamic settling"
+      }
+    },
+    {
+      "name": "dimensions_and_scales",
+      "passed": true,
+      "details": {
+        "units": "N mm MPa; mass uses mm3 to m3 factor 1e-9"
+      }
+    },
+    {
+      "name": "finite_data_and_python_syntax",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_physical_or_probability_claim",
+      "passed": true,
+      "details": {
+        "physical_tests": 0,
+        "success_probability": null
+      }
+    },
+    {
+      "name": "delivery_relative_links",
+      "passed": true,
+      "details": {
+        "links": 36
+      }
+    }
+  ],
+  "checks_passed": 16
+}
