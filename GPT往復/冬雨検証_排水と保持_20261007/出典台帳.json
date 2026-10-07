@@ -1,0 +1,51 @@
+[
+  {
+    "id": "W1",
+    "title": "Lombardo et al. 2025, Capillary suction across the soil–snow interface",
+    "url": "https://doi.org/10.1017/jog.2025.2",
+    "read": "出版社本文・研究所PDF",
+    "use": "実土壌の保水特性を伴う評価。旧2012単純模型からの一般化を訂正。約90%は対象土壌の飽和条件であり発明成功率ではない。"
+  },
+  {
+    "id": "W2",
+    "title": "Lombardo et al. 2025, Quantification of capillary rise dynamics in snow using neutron radiography",
+    "url": "https://tc.copernicus.org/articles/19/4437/2025/",
+    "read": "出版社本文の方法・結果・限界",
+    "use": "乾いた粗い境界の流量抑制、履歴依存。雪・砂・砂利の実験であり樹脂粒の試験ではない。"
+  },
+  {
+    "id": "W3",
+    "title": "Myronyuk et al. 2026, Lubricant-Infused Microtextured Polyethylene Films",
+    "url": "https://doi.org/10.3390/surfaces9040087",
+    "read": "出版社検索本文、出版社PDFを取得。方法2.9、PDF14ページFig10を描画して確認。",
+    "use": "油なしLDPEの平面と凹凸面だけを機構の参考とする。-30℃の氷柱試験を0℃の雪床強度へ転用しない。"
+  },
+  {
+    "id": "W4",
+    "title": "SLF SNOWPACK Water Transport",
+    "url": "https://snowpack.slf.ch/doc-dev/html/water_transport.html",
+    "read": "公式技術文書",
+    "use": "毛管障壁、選択流と再凍結、bucket法の限界。パラメータの借用はしていない。"
+  },
+  {
+    "id": "W5",
+    "title": "IAPWS surface tension release",
+    "url": "https://iapws.org/relguide/Surf-H2O-2014.pdf",
+    "read": "公式資料の表1と公開説明",
+    "use": "水の表面張力を0℃付近で0.0756N/mに丸める。"
+  },
+  {
+    "id": "W6",
+    "title": "US Bureau of Reclamation DS13 Chapter 5 Protective Filters",
+    "url": "https://www.usbr.gov/tsc/techreferences/designstandards-datacollectionguides/finalds-pdfs/DS13-5.pdf",
+    "read": "公式資料の検索抜粋・公式版一覧",
+    "use": "粒子保持と排水の両方を扱う原則。異形弾性粒に土の粒度基準を適用していない。"
+  },
+  {
+    "id": "W7",
+    "title": "SLF Glide-snow avalanches research project",
+    "url": "https://www.slf.ch/en/projects/glide-snow-avalanches/",
+    "read": "公式研究概要",
+    "use": "界面水と滑動の関連。個別斜面の安全認証ではない。"
+  }
+]

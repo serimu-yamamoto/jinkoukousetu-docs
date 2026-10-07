@@ -1,0 +1,1059 @@
+{
+  "scope": "First-principles bounds, prescribed conditions; no calibrated hydrology, glacier stability, particle retention, wear or snow-feel model.",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "constants": {
+    "solid_fraction": 0.1360112255646574,
+    "porosity": 0.8639887744353426,
+    "CRF": 0.14902948869707533
+  },
+  "materials": [
+    {
+      "id": "PE_ref",
+      "rho_kg_m3": 960,
+      "bulk_kg_m3": 130.5707765420711,
+      "EAC_yen_year": 16912229.992900368,
+      "neutral_air_pore_fraction": -0.006296897811134051,
+      "no_air_submerged_force_vertical_N_m2": -24.016862210207204
+    },
+    {
+      "id": "POM_ref",
+      "rho_kg_m3": 1410,
+      "bulk_kg_m3": 191.7758280461669,
+      "EAC_yen_year": 21567686.345537335,
+      "neutral_air_pore_fraction": 0.06454320256412395,
+      "no_air_submerged_force_vertical_N_m2": 246.1728376546238
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "rho_kg_m3": 1221.8202825192907,
+      "bulk_kg_m3": 166.18127404520467,
+      "EAC_yen_year": 19620880.87624178,
+      "neutral_air_pore_fraction": 0.03491949128652144,
+      "no_air_submerged_force_vertical_N_m2": 133.18567901737595
+    }
+  ],
+  "buoyancy": [
+    {
+      "id": "PE_ref",
+      "alpha": 0,
+      "net_downward_vertical_N_m2": -24.016862210207204
+    },
+    {
+      "id": "PE_ref",
+      "alpha": 0.01,
+      "net_downward_vertical_N_m2": -62.15764665765541
+    },
+    {
+      "id": "PE_ref",
+      "alpha": 0.02,
+      "net_downward_vertical_N_m2": -100.29843110510362
+    },
+    {
+      "id": "PE_ref",
+      "alpha": 0.03,
+      "net_downward_vertical_N_m2": -138.43921555255181
+    },
+    {
+      "id": "PE_ref",
+      "alpha": 0.05,
+      "net_downward_vertical_N_m2": -214.72078444744824
+    },
+    {
+      "id": "POM_ref",
+      "alpha": 0,
+      "net_downward_vertical_N_m2": 246.17283765462383
+    },
+    {
+      "id": "POM_ref",
+      "alpha": 0.01,
+      "net_downward_vertical_N_m2": 208.0320532071756
+    },
+    {
+      "id": "POM_ref",
+      "alpha": 0.02,
+      "net_downward_vertical_N_m2": 169.8912687597274
+    },
+    {
+      "id": "POM_ref",
+      "alpha": 0.03,
+      "net_downward_vertical_N_m2": 131.7504843122792
+    },
+    {
+      "id": "POM_ref",
+      "alpha": 0.05,
+      "net_downward_vertical_N_m2": 55.46891541738278
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "alpha": 0,
+      "net_downward_vertical_N_m2": 133.18567901737595
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "alpha": 0.01,
+      "net_downward_vertical_N_m2": 95.04489456992773
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "alpha": 0.02,
+      "net_downward_vertical_N_m2": 56.90411012247954
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "alpha": 0.03,
+      "net_downward_vertical_N_m2": 18.763325675031343
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "alpha": 0.05,
+      "net_downward_vertical_N_m2": -57.5182432198651
+    }
+  ],
+  "air_budget": [
+    {
+      "alpha": 0,
+      "neutral_solid_density_kg_m3": 1000.0,
+      "neutral_bulk_density_kg_m3": 136.0112255646574,
+      "EAC_yen_year": 17326048.335356984,
+      "density_window_exists_at_assumed_cost": true
+    },
+    {
+      "alpha": 0.01,
+      "neutral_solid_density_kg_m3": 1063.5233430805765,
+      "neutral_bulk_density_kg_m3": 144.6511133090108,
+      "EAC_yen_year": 17983226.448879667,
+      "density_window_exists_at_assumed_cost": true
+    },
+    {
+      "alpha": 0.02,
+      "neutral_solid_density_kg_m3": 1127.0466861611533,
+      "neutral_bulk_density_kg_m3": 153.29100105336425,
+      "EAC_yen_year": 18640404.562402356,
+      "density_window_exists_at_assumed_cost": true
+    },
+    {
+      "alpha": 0.03,
+      "neutral_solid_density_kg_m3": 1190.5700292417298,
+      "neutral_bulk_density_kg_m3": 161.93088879771764,
+      "EAC_yen_year": 19297582.67592504,
+      "density_window_exists_at_assumed_cost": false
+    },
+    {
+      "alpha": 0.05,
+      "neutral_solid_density_kg_m3": 1317.6167154028833,
+      "neutral_bulk_density_kg_m3": 179.21066428642453,
+      "EAC_yen_year": 20611938.902970403,
+      "density_window_exists_at_assumed_cost": false
+    }
+  ],
+  "cost_bound": {
+    "max_bulk_density_kg_m3": 158.01858426147132,
+    "max_solid_density_kg_m3": 1161.8054583763162,
+    "max_neutral_air_pore_fraction": 0.025471810916984163
+  },
+  "capillary": [
+    {
+      "theta_deg": 80,
+      "radius_um": 20,
+      "signed_suction_Pa": 1312.780223161994,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 80,
+      "radius_um": 50,
+      "signed_suction_Pa": 525.1120892647976,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 80,
+      "radius_um": 100,
+      "signed_suction_Pa": 262.5560446323988,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 80,
+      "radius_um": 200,
+      "signed_suction_Pa": 131.2780223161994,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 80,
+      "radius_um": 250,
+      "signed_suction_Pa": 105.0224178529595,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "radius_um": 20,
+      "signed_suction_Pa": 4.629164900776996e-13,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "radius_um": 50,
+      "signed_suction_Pa": 1.8516659603107982e-13,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "radius_um": 100,
+      "signed_suction_Pa": 9.258329801553991e-14,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "radius_um": 200,
+      "signed_suction_Pa": 4.6291649007769955e-14,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 90,
+      "radius_um": 250,
+      "signed_suction_Pa": 3.703331920621596e-14,
+      "positive_entry_head_mm": 0.0
+    },
+    {
+      "theta_deg": 95,
+      "radius_um": 20,
+      "signed_suction_Pa": -658.8974151722963,
+      "positive_entry_head_mm": 67.16589349360818
+    },
+    {
+      "theta_deg": 95,
+      "radius_um": 50,
+      "signed_suction_Pa": -263.5589660689185,
+      "positive_entry_head_mm": 26.866357397443274
+    },
+    {
+      "theta_deg": 95,
+      "radius_um": 100,
+      "signed_suction_Pa": -131.77948303445925,
+      "positive_entry_head_mm": 13.433178698721637
+    },
+    {
+      "theta_deg": 95,
+      "radius_um": 200,
+      "signed_suction_Pa": -65.88974151722962,
+      "positive_entry_head_mm": 6.716589349360818
+    },
+    {
+      "theta_deg": 95,
+      "radius_um": 250,
+      "signed_suction_Pa": -52.7117932137837,
+      "positive_entry_head_mm": 5.373271479488654
+    },
+    {
+      "theta_deg": 100,
+      "radius_um": 20,
+      "signed_suction_Pa": -1312.7802231619933,
+      "positive_entry_head_mm": 133.82061398185456
+    },
+    {
+      "theta_deg": 100,
+      "radius_um": 50,
+      "signed_suction_Pa": -525.1120892647973,
+      "positive_entry_head_mm": 53.528245592741825
+    },
+    {
+      "theta_deg": 100,
+      "radius_um": 100,
+      "signed_suction_Pa": -262.55604463239865,
+      "positive_entry_head_mm": 26.764122796370913
+    },
+    {
+      "theta_deg": 100,
+      "radius_um": 200,
+      "signed_suction_Pa": -131.27802231619933,
+      "positive_entry_head_mm": 13.382061398185456
+    },
+    {
+      "theta_deg": 100,
+      "radius_um": 250,
+      "signed_suction_Pa": -105.02241785295945,
+      "positive_entry_head_mm": 10.705649118548363
+    },
+    {
+      "theta_deg": 106,
+      "radius_um": 20,
+      "signed_suction_Pa": -2083.818409976513,
+      "positive_entry_head_mm": 212.4177787947516
+    },
+    {
+      "theta_deg": 106,
+      "radius_um": 50,
+      "signed_suction_Pa": -833.5273639906053,
+      "positive_entry_head_mm": 84.96711151790063
+    },
+    {
+      "theta_deg": 106,
+      "radius_um": 100,
+      "signed_suction_Pa": -416.76368199530265,
+      "positive_entry_head_mm": 42.48355575895032
+    },
+    {
+      "theta_deg": 106,
+      "radius_um": 200,
+      "signed_suction_Pa": -208.38184099765132,
+      "positive_entry_head_mm": 21.24177787947516
+    },
+    {
+      "theta_deg": 106,
+      "radius_um": 250,
+      "signed_suction_Pa": -166.70547279812104,
+      "positive_entry_head_mm": 16.99342230358013
+    },
+    {
+      "theta_deg": 110,
+      "radius_um": 20,
+      "signed_suction_Pa": -2585.6722835420555,
+      "positive_entry_head_mm": 263.57515632436855
+    },
+    {
+      "theta_deg": 110,
+      "radius_um": 50,
+      "signed_suction_Pa": -1034.2689134168222,
+      "positive_entry_head_mm": 105.43006252974742
+    },
+    {
+      "theta_deg": 110,
+      "radius_um": 100,
+      "signed_suction_Pa": -517.1344567084111,
+      "positive_entry_head_mm": 52.71503126487371
+    },
+    {
+      "theta_deg": 110,
+      "radius_um": 200,
+      "signed_suction_Pa": -258.56722835420555,
+      "positive_entry_head_mm": 26.357515632436854
+    },
+    {
+      "theta_deg": 110,
+      "radius_um": 250,
+      "signed_suction_Pa": -206.85378268336444,
+      "positive_entry_head_mm": 21.086012505949483
+    }
+  ],
+  "rain": [
+    {
+      "horizontal_rain_mm_h": 50,
+      "normal_capacity_mm_h": 25,
+      "inflow_m3_h": 86.60254037844388,
+      "inflow_L_s": 24.05626121623441,
+      "end_stored_water_mm": 40.801270189221945,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.0906694893093821,
+      "ideal_postrain_drain_to_residual_min": 76.32304845413266,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 50,
+      "normal_capacity_mm_h": 100,
+      "inflow_m3_h": 86.60254037844388,
+      "inflow_L_s": 24.05626121623441,
+      "end_stored_water_mm": 9.000000000000002,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.02,
+      "ideal_postrain_drain_to_residual_min": 0.0,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 50,
+      "normal_capacity_mm_h": 250,
+      "inflow_m3_h": 86.60254037844388,
+      "inflow_L_s": 24.05626121623441,
+      "end_stored_water_mm": 9.000000000000002,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.02,
+      "ideal_postrain_drain_to_residual_min": 0.0,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 100,
+      "normal_capacity_mm_h": 25,
+      "inflow_m3_h": 173.20508075688775,
+      "inflow_L_s": 48.11252243246882,
+      "end_stored_water_mm": 84.10254037844388,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.18689453417431973,
+      "ideal_postrain_drain_to_residual_min": 180.24609690826532,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 100,
+      "normal_capacity_mm_h": 100,
+      "inflow_m3_h": 173.20508075688775,
+      "inflow_L_s": 48.11252243246882,
+      "end_stored_water_mm": 9.102540378443877,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.02022786750765306,
+      "ideal_postrain_drain_to_residual_min": 0.06152422706632507,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 100,
+      "normal_capacity_mm_h": 250,
+      "inflow_m3_h": 173.20508075688775,
+      "inflow_L_s": 48.11252243246882,
+      "end_stored_water_mm": 9.000000000000002,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.02,
+      "ideal_postrain_drain_to_residual_min": 0.0,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 200,
+      "normal_capacity_mm_h": 25,
+      "inflow_m3_h": 346.4101615137755,
+      "inflow_L_s": 96.22504486493764,
+      "end_stored_water_mm": 170.70508075688775,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.379344623904195,
+      "ideal_postrain_drain_to_residual_min": 388.0921938165306,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 200,
+      "normal_capacity_mm_h": 100,
+      "inflow_m3_h": 346.4101615137755,
+      "inflow_L_s": 96.22504486493764,
+      "end_stored_water_mm": 95.70508075688775,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.21267795723752836,
+      "ideal_postrain_drain_to_residual_min": 52.023048454132656,
+      "balance_error_m": 0.0
+    },
+    {
+      "horizontal_rain_mm_h": 200,
+      "normal_capacity_mm_h": 250,
+      "inflow_m3_h": 346.4101615137755,
+      "inflow_L_s": 96.22504486493764,
+      "end_stored_water_mm": 9.000000000000002,
+      "overflow_mm": 0,
+      "end_water_volume_fraction": 0.02,
+      "ideal_postrain_drain_to_residual_min": 0.0,
+      "balance_error_m": 0.0
+    }
+  ],
+  "winter_shear_demand": [
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 735.7499999999999,
+      "total_normal_Pa": 1274.3563816688015,
+      "effective_normal_Pa": 1274.3563816688015,
+      "extra_interface_shear_needed_Pa": 848.7537236662395,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 735.7499999999999,
+      "total_normal_Pa": 1274.3563816688015,
+      "effective_normal_Pa": 274.35638166880153,
+      "extra_interface_shear_needed_Pa": 1048.7537236662395,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 735.7499999999999,
+      "total_normal_Pa": 1274.3563816688015,
+      "effective_normal_Pa": -725.6436183311985,
+      "extra_interface_shear_needed_Pa": null,
+      "compressive_contact_assumption_valid": false
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 735.7499999999999,
+      "total_normal_Pa": 1274.3563816688015,
+      "effective_normal_Pa": 1274.3563816688015,
+      "extra_interface_shear_needed_Pa": 593.8824473324792,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 735.7499999999999,
+      "total_normal_Pa": 1274.3563816688015,
+      "effective_normal_Pa": 274.35638166880153,
+      "extra_interface_shear_needed_Pa": 993.8824473324792,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 735.7499999999999,
+      "total_normal_Pa": 1274.3563816688015,
+      "effective_normal_Pa": -725.6436183311985,
+      "extra_interface_shear_needed_Pa": null,
+      "compressive_contact_assumption_valid": false
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 1103.6249999999998,
+      "total_normal_Pa": 1911.5345725032023,
+      "effective_normal_Pa": 1911.5345725032023,
+      "extra_interface_shear_needed_Pa": 1273.130585499359,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 1103.6249999999998,
+      "total_normal_Pa": 1911.5345725032023,
+      "effective_normal_Pa": 911.5345725032023,
+      "extra_interface_shear_needed_Pa": 1473.130585499359,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 1103.6249999999998,
+      "total_normal_Pa": 1911.5345725032023,
+      "effective_normal_Pa": -88.4654274967977,
+      "extra_interface_shear_needed_Pa": null,
+      "compressive_contact_assumption_valid": false
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 1103.6249999999998,
+      "total_normal_Pa": 1911.5345725032023,
+      "effective_normal_Pa": 1911.5345725032023,
+      "extra_interface_shear_needed_Pa": 890.8236709987186,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 1103.6249999999998,
+      "total_normal_Pa": 1911.5345725032023,
+      "effective_normal_Pa": 911.5345725032023,
+      "extra_interface_shear_needed_Pa": 1290.8236709987186,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 1103.6249999999998,
+      "total_normal_Pa": 1911.5345725032023,
+      "effective_normal_Pa": -88.4654274967977,
+      "extra_interface_shear_needed_Pa": null,
+      "compressive_contact_assumption_valid": false
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 1226.2499999999998,
+      "total_normal_Pa": 2123.927302781336,
+      "effective_normal_Pa": 2123.927302781336,
+      "extra_interface_shear_needed_Pa": 1414.5895394437323,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 1226.2499999999998,
+      "total_normal_Pa": 2123.927302781336,
+      "effective_normal_Pa": 1123.927302781336,
+      "extra_interface_shear_needed_Pa": 1614.5895394437323,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 1226.2499999999998,
+      "total_normal_Pa": 2123.927302781336,
+      "effective_normal_Pa": 123.92730278133604,
+      "extra_interface_shear_needed_Pa": 1814.5895394437323,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 1226.2499999999998,
+      "total_normal_Pa": 2123.927302781336,
+      "effective_normal_Pa": 2123.927302781336,
+      "extra_interface_shear_needed_Pa": 989.804078887465,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 1226.2499999999998,
+      "total_normal_Pa": 2123.927302781336,
+      "effective_normal_Pa": 1123.927302781336,
+      "extra_interface_shear_needed_Pa": 1389.804078887465,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 0.5,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 1226.2499999999998,
+      "total_normal_Pa": 2123.927302781336,
+      "effective_normal_Pa": 123.92730278133604,
+      "extra_interface_shear_needed_Pa": 1789.804078887465,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 1471.4999999999998,
+      "total_normal_Pa": 2548.712763337603,
+      "effective_normal_Pa": 2548.712763337603,
+      "extra_interface_shear_needed_Pa": 1697.507447332479,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 1471.4999999999998,
+      "total_normal_Pa": 2548.712763337603,
+      "effective_normal_Pa": 1548.712763337603,
+      "extra_interface_shear_needed_Pa": 1897.507447332479,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 1471.4999999999998,
+      "total_normal_Pa": 2548.712763337603,
+      "effective_normal_Pa": 548.7127633376031,
+      "extra_interface_shear_needed_Pa": 2097.507447332479,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 1471.4999999999998,
+      "total_normal_Pa": 2548.712763337603,
+      "effective_normal_Pa": 2548.712763337603,
+      "extra_interface_shear_needed_Pa": 1187.7648946649583,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 1471.4999999999998,
+      "total_normal_Pa": 2548.712763337603,
+      "effective_normal_Pa": 1548.712763337603,
+      "extra_interface_shear_needed_Pa": 1587.7648946649583,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 1471.4999999999998,
+      "total_normal_Pa": 2548.712763337603,
+      "effective_normal_Pa": 548.7127633376031,
+      "extra_interface_shear_needed_Pa": 1987.7648946649583,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 2207.2499999999995,
+      "total_normal_Pa": 3823.0691450064046,
+      "effective_normal_Pa": 3823.0691450064046,
+      "extra_interface_shear_needed_Pa": 2546.261170998718,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 2207.2499999999995,
+      "total_normal_Pa": 3823.0691450064046,
+      "effective_normal_Pa": 2823.0691450064046,
+      "extra_interface_shear_needed_Pa": 2746.261170998718,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 2207.2499999999995,
+      "total_normal_Pa": 3823.0691450064046,
+      "effective_normal_Pa": 1823.0691450064046,
+      "extra_interface_shear_needed_Pa": 2946.261170998718,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 2207.2499999999995,
+      "total_normal_Pa": 3823.0691450064046,
+      "effective_normal_Pa": 3823.0691450064046,
+      "extra_interface_shear_needed_Pa": 1781.6473419974373,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 2207.2499999999995,
+      "total_normal_Pa": 3823.0691450064046,
+      "effective_normal_Pa": 2823.0691450064046,
+      "extra_interface_shear_needed_Pa": 2181.6473419974373,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 2207.2499999999995,
+      "total_normal_Pa": 3823.0691450064046,
+      "effective_normal_Pa": 1823.0691450064046,
+      "extra_interface_shear_needed_Pa": 2581.6473419974373,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 2452.4999999999995,
+      "total_normal_Pa": 4247.854605562672,
+      "effective_normal_Pa": 4247.854605562672,
+      "extra_interface_shear_needed_Pa": 2829.1790788874646,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 2452.4999999999995,
+      "total_normal_Pa": 4247.854605562672,
+      "effective_normal_Pa": 3247.854605562672,
+      "extra_interface_shear_needed_Pa": 3029.1790788874646,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 2452.4999999999995,
+      "total_normal_Pa": 4247.854605562672,
+      "effective_normal_Pa": 2247.854605562672,
+      "extra_interface_shear_needed_Pa": 3229.1790788874646,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 2452.4999999999995,
+      "total_normal_Pa": 4247.854605562672,
+      "effective_normal_Pa": 4247.854605562672,
+      "extra_interface_shear_needed_Pa": 1979.60815777493,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 2452.4999999999995,
+      "total_normal_Pa": 4247.854605562672,
+      "effective_normal_Pa": 3247.854605562672,
+      "extra_interface_shear_needed_Pa": 2379.60815777493,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 1,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 2452.4999999999995,
+      "total_normal_Pa": 4247.854605562672,
+      "effective_normal_Pa": 2247.854605562672,
+      "extra_interface_shear_needed_Pa": 2779.60815777493,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 2942.9999999999995,
+      "total_normal_Pa": 5097.425526675206,
+      "effective_normal_Pa": 5097.425526675206,
+      "extra_interface_shear_needed_Pa": 3395.014894664958,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 2942.9999999999995,
+      "total_normal_Pa": 5097.425526675206,
+      "effective_normal_Pa": 4097.425526675206,
+      "extra_interface_shear_needed_Pa": 3595.014894664958,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 2942.9999999999995,
+      "total_normal_Pa": 5097.425526675206,
+      "effective_normal_Pa": 3097.425526675206,
+      "extra_interface_shear_needed_Pa": 3795.014894664958,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 2942.9999999999995,
+      "total_normal_Pa": 5097.425526675206,
+      "effective_normal_Pa": 5097.425526675206,
+      "extra_interface_shear_needed_Pa": 2375.5297893299166,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 2942.9999999999995,
+      "total_normal_Pa": 5097.425526675206,
+      "effective_normal_Pa": 4097.425526675206,
+      "extra_interface_shear_needed_Pa": 2775.5297893299166,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 300,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 2942.9999999999995,
+      "total_normal_Pa": 5097.425526675206,
+      "effective_normal_Pa": 3097.425526675206,
+      "extra_interface_shear_needed_Pa": 3175.5297893299166,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 4414.499999999999,
+      "total_normal_Pa": 7646.138290012809,
+      "effective_normal_Pa": 7646.138290012809,
+      "extra_interface_shear_needed_Pa": 5092.522341997436,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 4414.499999999999,
+      "total_normal_Pa": 7646.138290012809,
+      "effective_normal_Pa": 6646.138290012809,
+      "extra_interface_shear_needed_Pa": 5292.522341997436,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 4414.499999999999,
+      "total_normal_Pa": 7646.138290012809,
+      "effective_normal_Pa": 5646.138290012809,
+      "extra_interface_shear_needed_Pa": 5492.522341997436,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 4414.499999999999,
+      "total_normal_Pa": 7646.138290012809,
+      "effective_normal_Pa": 7646.138290012809,
+      "extra_interface_shear_needed_Pa": 3563.2946839948745,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 4414.499999999999,
+      "total_normal_Pa": 7646.138290012809,
+      "effective_normal_Pa": 6646.138290012809,
+      "extra_interface_shear_needed_Pa": 3963.2946839948745,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 450,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 4414.499999999999,
+      "total_normal_Pa": 7646.138290012809,
+      "effective_normal_Pa": 5646.138290012809,
+      "extra_interface_shear_needed_Pa": 4363.2946839948745,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 4904.999999999999,
+      "total_normal_Pa": 8495.709211125344,
+      "effective_normal_Pa": 8495.709211125344,
+      "extra_interface_shear_needed_Pa": 5658.358157774929,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 4904.999999999999,
+      "total_normal_Pa": 8495.709211125344,
+      "effective_normal_Pa": 7495.709211125344,
+      "extra_interface_shear_needed_Pa": 5858.358157774929,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.2,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 4904.999999999999,
+      "total_normal_Pa": 8495.709211125344,
+      "effective_normal_Pa": 6495.709211125344,
+      "extra_interface_shear_needed_Pa": 6058.358157774929,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 0,
+      "driving_Pa": 4904.999999999999,
+      "total_normal_Pa": 8495.709211125344,
+      "effective_normal_Pa": 8495.709211125344,
+      "extra_interface_shear_needed_Pa": 3959.21631554986,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 1000,
+      "driving_Pa": 4904.999999999999,
+      "total_normal_Pa": 8495.709211125344,
+      "effective_normal_Pa": 7495.709211125344,
+      "extra_interface_shear_needed_Pa": 4359.21631554986,
+      "compressive_contact_assumption_valid": true
+    },
+    {
+      "normal_snow_depth_m": 2,
+      "snow_density_kg_m3": 500,
+      "assumed_mu": 0.4,
+      "pore_pressure_Pa": 2000,
+      "driving_Pa": 4904.999999999999,
+      "total_normal_Pa": 8495.709211125344,
+      "effective_normal_Pa": 6495.709211125344,
+      "extra_interface_shear_needed_Pa": 4759.21631554986,
+      "compressive_contact_assumption_valid": true
+    }
+  ],
+  "local_filter_apertures": [
+    {
+      "aggregate_D_mm": 5,
+      "local_inscribed_opening_D_mm": 0.7735026918962584,
+      "bounding_sphere_fits": true
+    },
+    {
+      "aggregate_D_mm": 6,
+      "local_inscribed_opening_D_mm": 0.9282032302755101,
+      "bounding_sphere_fits": true
+    },
+    {
+      "aggregate_D_mm": 7,
+      "local_inscribed_opening_D_mm": 1.0829037686547618,
+      "bounding_sphere_fits": true
+    }
+  ],
+  "additional_budgets": {
+    "postrain_11min_capacity_required_mm_h_at_200mm_h_rain": 157.7789414846939,
+    "G3_hole_ideal_radius_um_not_packed_pore": 220,
+    "illustrative_106deg_220um_entry_head_mm": 19.310707163159233,
+    "max_angle_for_5mm_head_at_220um_deg": 94.09262456879551,
+    "end_guard_2um_uniform_radial_removal_worst_path_remaining_overlap_um": 1.1471862576143081,
+    "strand_2um_uniform_radial_removal_EI_ratio": 0.7588345679012346
+  }
+}

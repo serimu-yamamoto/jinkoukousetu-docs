@@ -1,0 +1,13 @@
+{
+  "algebra_checks": {
+    "solid_and_void_conserve_volume": true,
+    "PE_net_buoyancy_without_air": true,
+    "neutral_density_balance": true,
+    "cost_limit_reproduces_budget": true,
+    "rain_mass_conservation": true,
+    "entry_head_inverse_radius": true,
+    "invalid_snow_contact_not_reported_as_stable": true,
+    "cost_increases_with_air_density_compensation": true
+  },
+  "physical_validation": false
+}

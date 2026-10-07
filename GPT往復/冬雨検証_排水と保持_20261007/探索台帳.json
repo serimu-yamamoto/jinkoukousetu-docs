@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "cycle": 4,
+  "base_commit": "715c7363986d25fc9339ff5b6711dc7417040811",
+  "physical_trials": 0,
+  "physical_success_probability": null,
+  "decisions": [
+    {
+      "route": "W1 rounded exterior, sheltered inner seat, vented through spaces",
+      "status": "candidate only",
+      "new_constraint": "Preserve arms and endguards; texture only on thick internal seat. Random orientation, water connectivity and processing unverified."
+    },
+    {
+      "route": "Blanket microtexture",
+      "status": "deprioritized",
+      "reason": "Consumes beam stiffness and G3 path margin; may retain water/air or abrade ski base."
+    },
+    {
+      "route": "Denser material alone",
+      "status": "insufficient",
+      "reason": "At fixed shape/packing/cost, neutral buoyancy compensation consumes annual budget by 2.547% trapped pore air, before current/drag."
+    },
+    {
+      "route": "Existing 5–7mm gravel filter assumed adequate",
+      "status": "assumption rejected",
+      "reason": "Local equal-sphere pore can pass a 0.6mm bounding sphere. Not a full migration proof."
+    },
+    {
+      "route": "Untextured open grain and non-polymer alternatives",
+      "status": "controls retained",
+      "reason": "Need alternate mechanisms if hydraulic or retention constraints dominate."
+    }
+  ],
+  "next_independent_progress": [
+    "Validate W1 sheltered seat geometry under arbitrary orientation and loading without using unmeasured material constants to claim success.",
+    "Explore alternatives to bulk-density buoyancy compensation and to granular-filtration assumptions while preserving banned-structure constraints."
+  ],
+  "claude": {
+    "repository_publication_is_handoff": true,
+    "receipt_confirmed": false,
+    "response_since_base_commit": "none observed at initial clone; recheck before publication"
+  }
+}
