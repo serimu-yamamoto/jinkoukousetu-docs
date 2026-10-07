@@ -1,0 +1,17 @@
+{
+  "scale": 100,
+  "units": "mm",
+  "centreline_radius_mm": 5.0,
+  "thickness_mm": 0.5,
+  "width_mm": 10.0,
+  "half_angle_rad": 2.1,
+  "vertices": 1028,
+  "triangles": 2052,
+  "mesh_volume_mm3": 104.99528967520959,
+  "analytic_volume_mm3": 105.0,
+  "relative_volume_error": 4.486023609913337e-05,
+  "closed_two_faces_per_edge": true,
+  "oriented_edge_pairs": true,
+  "positive_volume": true,
+  "scope": "Finite free shape only. STL contains no mating pin, protective grain body, manufacturing tolerance, surface finish or safety validation."
+}

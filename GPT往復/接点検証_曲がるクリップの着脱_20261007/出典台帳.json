@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-07",
+  "sources": [
+    {
+      "id": "S1",
+      "authors": "Keisuke Yoshida; Hirofumi Wada",
+      "title": "Mechanics of a snap-fit",
+      "year": 2020,
+      "doi": "10.1103/PhysRevLett.125.194301",
+      "url": "https://arxiv.org/abs/2003.13566",
+      "read": "Author manuscript v2, 5 pages; publisher DOI metadata",
+      "use": "Prior experimental precedent and model limitations. No raw measurements digitized or fitted.",
+      "excluded_transfer": "millimetre shells and coated acrylic cylinder are not 50 C ski grains"
+    },
+    {
+      "id": "S2",
+      "authors": "Grace K. Curtis; Ian M. Griffiths; Dominic Vella",
+      "title": "Beyond Snap-Fit: Optimizing the Lifting Capabilities of a Partial Cylindrical Shell",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2606.06710v1",
+      "status": "preprint, posted 2026-06-04",
+      "read": "Full HTML, including governing equations, boundary conditions and regime definitions",
+      "use": "Continuum model independently reduced to four states plus H,V; additional sampled contact and slip-direction screens",
+      "excluded_transfer": "No proof of our physical performance, contact stability or microscopic manufacturability"
+    },
+    {
+      "id": "S3",
+      "title": "Snap-Fit Joints for Plastics — A Design Guide",
+      "owner": "Covestro",
+      "url": "https://solutions.covestro.com/-/media/covestro/solution-center/brands/downloads/imported/1557220896.pdf",
+      "read": "Official PDF; repeated assembly strain example and design provisions",
+      "use": "Design scope only; no grade or allowable strain copied to proposed material"
+    },
+    {
+      "id": "S4",
+      "title": "scipy.integrate.solve_bvp official documentation",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_bvp.html",
+      "read": "API for unknown parameters and residual tolerance",
+      "installed_version": "1.16.3",
+      "documentation_displayed_version": "1.18.0",
+      "use": "API semantics; implemented with pinned SciPy 1.16.3"
+    }
+  ],
+  "no_redistributed_third_party_figures_or_pdfs": true
+}

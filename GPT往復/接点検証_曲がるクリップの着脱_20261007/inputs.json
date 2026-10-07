@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "69d4f3cbd6d62dbc4881e1a65ad8a5bd5f6f03a8",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "model": "symmetric inextensible elastica with two endpoint sliding-limit contacts; necessary screens only",
+  "grid": {
+    "alpha": [
+      1.05,
+      1.14,
+      1.3
+    ],
+    "phi_rad": [
+      1.9,
+      2.1,
+      2.3
+    ],
+    "mu": [
+      0,
+      0.1,
+      0.2,
+      0.4
+    ]
+  },
+  "reference": {
+    "alpha": 1.14,
+    "phi_rad": 2.1,
+    "mu": 0.2
+  },
+  "numerics": {
+    "steps": 81,
+    "tolerance": 2e-7,
+    "initial_nodes": 81,
+    "refinement_steps": 161,
+    "refinement_tolerance": 2e-9,
+    "refinement_nodes": 161,
+    "centreline_samples": 2001,
+    "end_gap_dimensionless": 0.00001
+  },
+  "dimensional": {
+    "shell_radius_mm": 0.05,
+    "cylinder_radius_mm": 0.057,
+    "strip_width_mm": 0.1,
+    "strip_thickness_mm": 0.005,
+    "assumed_E_MPa": 300,
+    "scope": "comparison dimensions and assumed modulus, not a selected 50 C polymer grade"
+  },
+  "tolerance": {
+    "shell_radius_mm": [
+      0.049,
+      0.051
+    ],
+    "cylinder_radius_mm": [
+      0.056,
+      0.058
+    ],
+    "phi_rad": [
+      2.07,
+      2.13
+    ],
+    "mu": [
+      0,
+      0.2,
+      0.4
+    ],
+    "scope": "bounded scenario corners; neither manufacturing capability nor probability"
+  },
+  "scaling": {
+    "thickness_mm": [
+      0.005,
+      0.008,
+      0.012
+    ],
+    "width_mm": [
+      0.06,
+      0.1
+    ],
+    "E_MPa": [
+      100,
+      300,
+      1000
+    ],
+    "thinness_screen_t_over_R": 0.1,
+    "illustrative_strain_screen": 0.01,
+    "scope": "screens are comparison conventions, not physical allowables"
+  },
+  "cost": {
+    "W2_volume_upper_mm3": 0.005330003249836027,
+    "W2_bulk_kg_m3": 138.2818037602,
+    "bulk_cap_kg_m3": 158.0185842615,
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "initial_other_JPY": 20000000,
+    "annual_other_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "years": 10,
+    "discount": 0.08,
+    "replacement": 0.02,
+    "assumed_price_JPY_kg": 500,
+    "clip_counts": [
+      1,
+      3,
+      6
+    ],
+    "scope": "unquoted pretax pilot assumptions; full clip frame, pin and finishing excluded"
+  },
+  "granular_comparison": {
+    "material_density_kg_m3": 960,
+    "branch_length_m": 0.00045,
+    "z": 4,
+    "eta": 0.25,
+    "target_pressure_scale_Pa": 10000,
+    "scope": "isotropic central-force illustrative scale; not Sf, c, safety or snow acceptance"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "retained_solutions_follow_assumed_slip_direction": true,
+    "every_rejected_grid_case_has_a_screen_failure": true,
+    "zero_friction_path_reversible": true,
+    "zero_friction_energy_gradient_matches_force": true,
+    "refined_peaks_and_curvature_agree": true,
+    "retained_branches_have_nonnegative_normal_and_no_sampled_penetration": true,
+    "all_bvp_boundary_residuals_small": true,
+    "high_friction_reference_penetration_detected": true,
+    "added_strip_cost_monotone": true
+  },
+  "refinement_relative_differences": {
+    "assembly_peak": 7.631922728031782e-05,
+    "disassembly_peak": 6.135048643399878e-10,
+    "max_curvature_change": 5.234176524004132e-09
+  },
+  "frictionless_force_reversal_max_difference": 2.3440814206354688e-08,
+  "energy_force_derivative_error": 2.1649719031402448e-09,
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "stability_proven": false
+}

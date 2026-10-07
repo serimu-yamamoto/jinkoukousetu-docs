@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-07",
+  "scope": "Document, numerical model and free mesh only. No physical performance verification.",
+  "physical_test_count": 0,
+  "physical_success_probability": null,
+  "relative_markdown_links": {
+    "checked": 92,
+    "missing": []
+  },
+  "json_parse": {
+    "files": [
+      "inputs.json",
+      "results.json",
+      "validation.json",
+      "出典台帳.json",
+      "形状検証.json",
+      "探索台帳.json",
+      "文書検証.json"
+    ],
+    "pass": true
+  },
+  "numerical_checks": {
+    "count": 9,
+    "all_pass": true
+  },
+  "mesh": {
+    "closed": true,
+    "oriented": true,
+    "positive_volume": true,
+    "relative_volume_error": 0.00004486023609913337
+  },
+  "figures_visually_inspected": [
+    "曲線接点の応答と限界.png",
+    "拡大自由形状.png"
+  ],
+  "claim_boundaries": [
+    "Sliding-limit equilibrium branches do not prove full stick-slip histories or stability",
+    "Selected thin-strip force limit is not an impossibility theorem",
+    "10kPa comparison is not a snow acceptance target",
+    "Finite-thickness enlarged free CAD is not the centreline contact solution",
+    "No physical success probability, vendor quote or Claude acknowledgement"
+  ],
+  "overall_pass": true
+}
