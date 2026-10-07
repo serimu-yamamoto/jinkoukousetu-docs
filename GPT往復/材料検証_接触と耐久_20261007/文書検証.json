@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-07",
+  "relative_links_checked": 59,
+  "broken_relative_links": [],
+  "analytical_validation": {
+    "checks": {
+      "contact_force_conserved": true,
+      "surface_force_from_contact_count": true,
+      "hertz_pressure_radius_scaling": true,
+      "fixed_outer_equal_modulus_unchanged": true,
+      "equal_beam_stiffness": true,
+      "same_volume_blend_between_densities": true,
+      "POM_heavier_at_same_geometry": true,
+      "price_cap_reconstitutes_budget": true
+    },
+    "contact_cases": 81,
+    "coating_cases": 16,
+    "beam_cases": 18,
+    "material_validation": false
+  },
+  "plot_visual_check": "Re-rendered after moving note; inspected labels, data and clipping.",
+  "sources": "Primary source citations with test-condition boundaries; temporary PDFs not republished.",
+  "physical_experiments": 0,
+  "source_experiments_attributed_to_original_authors": true,
+  "claude_receipt_confirmed": false
+}

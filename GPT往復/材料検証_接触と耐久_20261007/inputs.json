@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-07",
+  "base_commit": "636b7c76c2b3450093d476f95650687dc8c9b9d0",
+  "scope": "Analytic screening budgets, not a calibrated granular or tribology simulation. No material-specific 50C modulus or friction has been inferred.",
+  "contact": {
+    "pitch_m": 0.0006,
+    "pressure_Pa": [
+      2500,
+      5400,
+      20000
+    ],
+    "active_fraction": [
+      0.1,
+      0.3,
+      1
+    ],
+    "tip_radius_m": [
+      0.00003,
+      0.00005,
+      0.00015
+    ],
+    "effective_modulus_Pa": [
+      100000000,
+      300000000,
+      1000000000
+    ],
+    "illustrative_friction_budget": 0.1,
+    "reserved_other_resistance_budget": 0.02,
+    "small_contact_radius_ratio_limit": 0.2
+  },
+  "coating": {
+    "strand_radius_m": 0.00003,
+    "thickness_m": [
+      0.000001,
+      0.000002,
+      0.000005,
+      0.00001
+    ],
+    "coating_core_modulus_ratio": [
+      0.1,
+      0.2,
+      0.5,
+      1
+    ],
+    "note": "Exact concentric straight circular strand formulas; not G3 total volume or curved-coating mechanics."
+  },
+  "materials": [
+    {
+      "id": "PE_ref",
+      "rho_kg_m3": 960,
+      "rho_status": "prior calculation assumption; no grade selected"
+    },
+    {
+      "id": "POM_ref",
+      "rho_kg_m3": 1410,
+      "rho_status": "2001 study Table II, not new product certificate"
+    },
+    {
+      "id": "POM_HDPE_31_3wt",
+      "component_densities_kg_m3": [
+        1410,
+        945
+      ],
+      "mass_fractions": [
+        0.687,
+        0.313
+      ],
+      "rho_status": "additive-volume estimate from Table II densities; not measured blend density"
+    }
+  ],
+  "beam": {
+    "modulus_ratios": [
+      1,
+      1.5,
+      2,
+      3,
+      5,
+      10
+    ],
+    "note": "Small-deflection equal-length circular cantilever, equal bending stiffness; allowable stress, creep, fatigue and latch geometry independent."
+  },
+  "cost": {
+    "A_m2": 2000,
+    "h_m": 0.45,
+    "rho_g3_pe_kg_m3": 130.5707765420711,
+    "P_yen_kg": 500,
+    "I_yen": 20000000,
+    "O_yen_year": 4000000,
+    "B_yen_year": 19000000,
+    "lambda_year": 0.02,
+    "r": 0.08,
+    "T_year": 10
+  },
+  "thermal": {
+    "normal_load_N": 700,
+    "velocity_m_s": [
+      5,
+      10,
+      20
+    ],
+    "friction_coefficients": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "scope": "Mechanical loss power mu*N*v only, not a flash-temperature or burn prediction."
+  }
+}

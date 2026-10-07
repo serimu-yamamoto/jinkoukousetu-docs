@@ -1,0 +1,77 @@
+{
+  "checked_date": "2026-10-07",
+  "sources": [
+    {
+      "id": "MAT01",
+      "title": "Tribological Properties of Polyacetal/Polyethylene (LDPE, HDPE, HMWHDPE) Blends",
+      "authors": "Ikjin Um; Atsushi Saito",
+      "year": 2001,
+      "doi": "10.2472/jsms.50.309",
+      "url": "https://www.jstage.jst.go.jp/article/jsms1963/50/3/50_3_309/_pdf/-char/en",
+      "evidence": "Publisher PDF read; printed pp310–311 visually inspected",
+      "conditions": "23±1C; dry vs S45C;0.1MPa;0.24–2.45m/s;6.3 or31.3wt% PE",
+      "limited_claim": "HDPE blend improves wear in this setup; high molecular weight substitution is not universally beneficial.",
+      "not_evidence_for": "50C ski-base friction, fatigue, human or environmental safety."
+    },
+    {
+      "id": "MAT02",
+      "title": "High-Tribological-Performance Polymer Nanocomposites: An Approach Based on the Superlubricity State of the Graphene Oxide Agglomerates",
+      "year": 2021,
+      "doi": "10.3390/polym13142237",
+      "url": "https://www.mdpi.com/2073-4360/13/14/2237",
+      "pdf": "https://mdpi-res.com/d_attachment/polymers/polymers-13-02237/article_deploy/polymers-13-02237.pdf",
+      "evidence": "Publisher PDF methods and results; unfilled80/20 blend distinguished from mGO composites.",
+      "conditions": "SS316L ball4mm;15N;0.02m/s;300s;n3; abrasive experiment is separate.",
+      "limited_claim": "Wear and friction can move in different directions; processing used die-less mixing and hot pressing.",
+      "not_evidence_for": "Continuous fine-profile production, high-speed skis, 50C or mGO safety."
+    },
+    {
+      "id": "MAT03",
+      "title": "Mechanical and tribological performance of UHMWPE influenced by temperature change",
+      "authors": "Juan-Carlos Baena; Zhongxiao Peng",
+      "year": 2017,
+      "doi": "10.1016/j.polymertesting.2017.06.017",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S014294181730644X",
+      "evidence": "Publisher indexed abstract and experiment excerpts; full text not obtained.",
+      "limited_claim": "Reported wear-rate increase94.8% at20→50C in its steel-counterface setup.",
+      "not_evidence_for": "A universal wear multiplier or our particle lifetime."
+    },
+    {
+      "id": "MAT04",
+      "title": "Delrin Design Guide Module III",
+      "url": "https://www.delrin.com/wp-content/uploads/2023/10/Delrin-Design-Guide-Mod-3.pdf",
+      "evidence": "Manufacturer PDF p26(printed23) Fig12 visually inspected, notes included.",
+      "limited_claim": "At45C and10MPa, total strain roughly0.5% at1h and1% at1000h; visual approximations only.",
+      "not_evidence_for": "50C selected-grade values, mixed POM, micrograin or outdoor service validation."
+    },
+    {
+      "id": "SNOW01",
+      "title": "Mechanics of the Ski–Snow Contact",
+      "year": 2009,
+      "doi": "10.1007/s11249-009-9476-9",
+      "url": "https://link.springer.com/article/10.1007/s11249-009-9476-9",
+      "evidence": "Original paper abstract and methods description.",
+      "limited_claim": "Hard sintered snow includes delayed elasticity; reported contact fraction0.4%.",
+      "not_evidence_for": "A universal target for all snow or polymer beds."
+    },
+    {
+      "id": "SNOW02",
+      "title": "Snow Temperature Behind Sliding Skis as an Indicator for Frictional Meltwater",
+      "year": 2021,
+      "doi": "10.3389/fmech.2021.738266",
+      "url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2021.738266/full",
+      "evidence": "Original methods, abstract and limitations read.",
+      "limited_claim": "At−4C,5–25m/s,2.5/5.4kPa; heat-based contact fraction21–98% depends on assumptions.",
+      "not_evidence_for": "Directly measured polymer contact fraction or guaranteed meltwater mechanism in summer."
+    },
+    {
+      "id": "MODEL01",
+      "title": "CompuTiX Hertz description of contacts",
+      "url": "https://computix.gitlabpages.inria.fr/computix/db/d6e/group__Hertz.html",
+      "evidence": "Original software model documentation and equations.",
+      "limited_claim": "Elastic sphere-plane equations only.",
+      "not_evidence_for": "Thin shell, yield, viscoelasticity, layered polymer or full-bed friction."
+    }
+  ],
+  "republication": "Original source PDFs and page images are temporary reference copies, not included in this repository."
+}
