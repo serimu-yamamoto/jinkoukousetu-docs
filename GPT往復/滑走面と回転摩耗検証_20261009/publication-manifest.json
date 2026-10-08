@@ -1,0 +1,140 @@
+{
+  "cycle": 54,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "b037f286fe94975cb59bafac7bca6d25c4cd42d2",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第54巡_雪に接する面の微細構造と回転摩耗_20261009.md",
+      "bytes": 14886,
+      "sha256": "49b858ba0d57ba0492a8e2305a6ada64a81cc62a41afe87bc51df3693f45a3e3"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 36738,
+      "sha256": "a8e64ecae223f2fb622064b3f4641566f467c6fada71fbec74dc1bb237b7448c"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/README.md",
+      "bytes": 1363,
+      "sha256": "629320cc9153e2a2096fb1b0ad2ad68680899c2a27d78a4e9290347874ea20f4"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/calculate.py",
+      "bytes": 6989,
+      "sha256": "a3d0b4396219ef2ef2e0c1c73e515dd3f99bc613389f2e797fc22111704dcaee"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/cap_cost.csv",
+      "bytes": 840,
+      "sha256": "1c7ed9ae7680ddfaefd764c958534996f83cb4500f1f01daa737e0f4f9dec136"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/document-audit.json",
+      "bytes": 1156,
+      "sha256": "66b7be90265cc870d0ae178bd8ec23af0135778f48c1c2674f5388dd3242f111"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/draw.py",
+      "bytes": 3973,
+      "sha256": "6e8970b97b5b43bbcdc769b72317196667d0f57618c057faca27da0e45278e85"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/figure1_rotation.png",
+      "bytes": 95159,
+      "sha256": "c68b2b662302693d23bfd1a9f60776c9d2529aec4d774fb7a7ef0f1746cc7801"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/figure1_rotation.svg",
+      "bytes": 93671,
+      "sha256": "3c235df77fa91be3e4361368d579e68569853c313afe2fe3b552e109f30736f3"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/figure2_texture.png",
+      "bytes": 159462,
+      "sha256": "963b1e61d13028885d942361a59531447beaf7ac56bbb45289cff0ba6e342acb"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/figure2_texture.svg",
+      "bytes": 130840,
+      "sha256": "f4fa0a55be5105bcf2f4d388e470d4a7c2f0bd587a272f8fca4fe4fc16700013"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/figure3_cost.png",
+      "bytes": 57285,
+      "sha256": "d6d56bbec72c92420834a94a7976f6ce9f108124851f3a6f8cdb9645306f600a"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/figure3_cost.svg",
+      "bytes": 67642,
+      "sha256": "5c672e526a745d818b648f4558042e907664dbb3d9413ee7bf1b64a1e84d93a7"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/inputs.json",
+      "bytes": 1011,
+      "sha256": "6209d6eefab6025dbb8753257599a22daec0782211b48931962956a42e277e17"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/life_cost.csv",
+      "bytes": 291,
+      "sha256": "77e691d62ae47e8bf50699382a98c1e532d1c939b5584e0dfb67de306b56f73a"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/model.md",
+      "bytes": 4236,
+      "sha256": "abc01b4306a64511642145385bfa6d21616ede866e5651c5b6bfc03d4bc7fd7f"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/paths.csv",
+      "bytes": 276,
+      "sha256": "def28bc3fa1e2288ff58ad7f75b6c12b4e09f52624d0df1921b928768cc395ca"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/results.json",
+      "bytes": 2745,
+      "sha256": "4f974bd2f0f9f163bbe49c5f43a9c06f9b721fb008af9e3f1b6ea65ecd21b85d"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/rotation.csv",
+      "bytes": 1171,
+      "sha256": "c8c8311ac27ed082df6bf15d7e6d01871309ff1b5102e318798aa8b8a1d9f1f2"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/same_Sa.csv",
+      "bytes": 171,
+      "sha256": "392cec294fba7008aceb7aa356d33541ba96ac5e0547cc5556cb897c9c3d74a3"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/sources.md",
+      "bytes": 3432,
+      "sha256": "145e11815f5c6f0edd65ee65b8fc09825998825347be339dc6e6e1f616b71f7f"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/test_plan.json",
+      "bytes": 4316,
+      "sha256": "02673d6a42e9c12a67ce11e7fbce7320637ae8b1f3563c6f630a82ac0e21beb1"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/texture_wear.csv",
+      "bytes": 747,
+      "sha256": "96f3e0cbc1fb86dcd386b952e4bfaf5955da766917ec195ad302aab9f309d039"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/validation.json",
+      "bytes": 1483,
+      "sha256": "6520365a2172366b07b3264176617d39153b2664e00ac274b919ef35ac54671a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 44049,
+      "sha256": "ac6b766332ab102310d5e4aba947028666ef353a4cf6651da90536ef35b78ba1"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 117718,
+      "sha256": "c581c5b8de345c16b3c9d2189dc576965309326482cf15a7e92ffe8d41f45ac4"
+    }
+  ]
+}

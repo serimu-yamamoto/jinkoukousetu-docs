@@ -1,0 +1,77 @@
+{
+  "passed": 18,
+  "checks": [
+    {
+      "name": "zero_rotation_zero_CS",
+      "passed": true
+    },
+    {
+      "name": "central_30deg_analytic",
+      "passed": true
+    },
+    {
+      "name": "integration_max_error_40000",
+      "passed": true
+    },
+    {
+      "name": "integration_converges_30deg",
+      "passed": true
+    },
+    {
+      "name": "published_central_value_agrees_within_0_001_not_exact",
+      "passed": true
+    },
+    {
+      "name": "constant_azimuth_offset_does_not_create_CS",
+      "passed": true
+    },
+    {
+      "name": "equal_orthogonal_directions_half",
+      "passed": true
+    },
+    {
+      "name": "discrete_pm30_quarter_not_sinusoidal",
+      "passed": true
+    },
+    {
+      "name": "uniform_azimuth_half",
+      "passed": true
+    },
+    {
+      "name": "cross_groove_union_no_double_count",
+      "passed": true
+    },
+    {
+      "name": "selected_Sa",
+      "passed": true
+    },
+    {
+      "name": "partial_wear_channel_area_ratio",
+      "passed": true
+    },
+    {
+      "name": "groove_disappears",
+      "passed": true
+    },
+    {
+      "name": "Sa_does_not_define_depth",
+      "passed": true
+    },
+    {
+      "name": "mass_cost_monotone_thickness",
+      "passed": true
+    },
+    {
+      "name": "fixed_added_mass_removed_volume",
+      "passed": true
+    },
+    {
+      "name": "half_life_doubles_material_cost",
+      "passed": true
+    },
+    {
+      "name": "no_physical_probability",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "cycle": 54,
+  "base_commit": "b037f286fe94975cb59bafac7bca6d25c4cd42d2",
+  "physical_tests": 0,
+  "success_probability": null,
+  "rotation_amplitudes_deg": [
+    0,
+    10,
+    20,
+    30,
+    45,
+    55
+  ],
+  "integration_steps": [
+    400,
+    4000,
+    40000
+  ],
+  "published_central_CS": 0.086,
+  "published_CS_location": "S2 Table 1 element 5; not a wear measurement",
+  "groove_pitch_um": 50,
+  "groove_width_um": 5,
+  "groove_depth_um": 1.5,
+  "cap_thickness_um": 5,
+  "wear_land_loss_um": [
+    0,
+    0.25,
+    0.5,
+    1,
+    1.5
+  ],
+  "candidate_particle_count": 3904797229692.482,
+  "candidate_body_mass_kg": 140025.26867296622,
+  "cap_count_per_particle": 6,
+  "cap_side_um": 100,
+  "cap_density_kg_m3": 950,
+  "cap_thicknesses_um": [
+    3,
+    5,
+    10
+  ],
+  "body_price_yen_kg": 1000,
+  "cap_price_yen_kg": [
+    1000,
+    3000,
+    10000
+  ],
+  "functional_life_multiplier": [
+    0.2,
+    0.5,
+    1,
+    2
+  ],
+  "body_life_years": 1,
+  "mechanical_durability_not_inferred": true
+}

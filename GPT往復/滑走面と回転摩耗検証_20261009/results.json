@@ -1,0 +1,74 @@
+{
+  "cycle": 54,
+  "base_commit": "b037f286fe94975cb59bafac7bca6d25c4cd42d2",
+  "physical_tests": 0,
+  "success_probability": null,
+  "central_CS_30": 0.08650332843365593,
+  "source_table_CS": 0.086,
+  "source_table_difference": 0.0005033284336559418,
+  "CS_if_friction_weight_varies": 0.09623487877822776,
+  "texture_selected": {
+    "land_loss_um": 0,
+    "remaining_depth_um": 1.5,
+    "groove_area_fraction": 0.18999999999999995,
+    "ideal_unfiltered_Sa_um": 0.4616999999999999,
+    "ideal_unfiltered_Sq_um": 0.5884513573779908,
+    "land_area_fraction": 0.81,
+    "pressure_multiplier_if_all_load_on_lands": 1.2345679012345678,
+    "open_channel_cross_section_ratio": 1.0,
+    "mass_remaining_fraction_vs_flat_cap": 0.943
+  },
+  "texture_after_0_5um_wear": {
+    "land_loss_um": 0.5,
+    "remaining_depth_um": 1.0,
+    "groove_area_fraction": 0.18999999999999995,
+    "ideal_unfiltered_Sa_um": 0.3077999999999999,
+    "ideal_unfiltered_Sq_um": 0.39230090491866054,
+    "land_area_fraction": 0.81,
+    "pressure_multiplier_if_all_load_on_lands": 1.2345679012345678,
+    "open_channel_cross_section_ratio": 0.6666666666666666,
+    "mass_remaining_fraction_vs_flat_cap": 0.8620000000000001
+  },
+  "coating_selected": {
+    "thickness_um": 5,
+    "flat_cap_mass_kg": 1112.8672104623574,
+    "grooved_cap_mass_kg": 1049.433779466003,
+    "cap_price_yen_kg": 3000,
+    "net_material_yen": 3148301.338398009,
+    "minimum_life_gain_vs_body_only": 1.0224838085885126
+  },
+  "body_only_material_yen": 140025268.6729662,
+  "life_sensitivity": [
+    {
+      "assumed_life_multiplier": 0.2,
+      "assumed_life_years": 0.2,
+      "annual_whole_batch_replacement_yen": 715867850.0568211,
+      "ratio_to_body_only_annual_material_cost": 5.1124190429425616
+    },
+    {
+      "assumed_life_multiplier": 0.5,
+      "assumed_life_years": 0.5,
+      "annual_whole_batch_replacement_yen": 286347140.02272844,
+      "ratio_to_body_only_annual_material_cost": 2.044967617177025
+    },
+    {
+      "assumed_life_multiplier": 1,
+      "assumed_life_years": 1,
+      "annual_whole_batch_replacement_yen": 143173570.01136422,
+      "ratio_to_body_only_annual_material_cost": 1.0224838085885124
+    },
+    {
+      "assumed_life_multiplier": 2,
+      "assumed_life_years": 2,
+      "annual_whole_batch_replacement_yen": 71586785.00568211,
+      "ratio_to_body_only_annual_material_cost": 0.5112419042942562
+    }
+  ],
+  "limitations": [
+    "Kinematic CS is not wear or success probability.",
+    "No friction coefficient or life is predicted.",
+    "Areal unfiltered Sa is not the 2010 paper profile Ra.",
+    "Cap count, manufacture, attachment and load share unproved.",
+    "Remaining channel area is not a prediction of water flow or drainage recovery."
+  ]
+}

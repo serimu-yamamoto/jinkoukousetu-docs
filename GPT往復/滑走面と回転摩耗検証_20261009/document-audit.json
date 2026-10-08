@@ -1,0 +1,55 @@
+{
+  "checks": 12,
+  "all_passed": true,
+  "visual_review": "3 PNG figures inspected in view_image; no clipping observed",
+  "items": [
+    {
+      "name": "18_numeric_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "physical_tests_zero_and_probability_null",
+      "passed": true
+    },
+    {
+      "name": "test_plan_is_unexecuted",
+      "passed": true
+    },
+    {
+      "name": "planned_cells_product",
+      "passed": true
+    },
+    {
+      "name": "report_does_not_claim_probability_achieved",
+      "passed": true
+    },
+    {
+      "name": "Sa_and_Ra_not_confused",
+      "passed": true
+    },
+    {
+      "name": "cost_scope_and_process_exclusions",
+      "passed": true
+    },
+    {
+      "name": "local_report_links_exist",
+      "passed": true
+    },
+    {
+      "name": "all_three_figures_exist",
+      "passed": true
+    },
+    {
+      "name": "README.md_latest54_and_previous53_preserved",
+      "passed": true
+    },
+    {
+      "name": "GPT往復/README.md_latest54_and_previous53_preserved",
+      "passed": true
+    },
+    {
+      "name": "回覧板.md_latest54_and_previous53_preserved",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+path,work_fraction_transverse_to_prescribed_x,minimum_transverse_work_fraction,not_material_orientation_solution
+straight_reverse,0.0,0,True
+two_directions_0_90,0.5,0.49999999999999994,True
+rotation_pm30,0.2499999999999999,0.2499999999999999,True
+uniform_azimuth,0.5,0.5,True
