@@ -1,0 +1,46 @@
+{
+  "candidate": "H48",
+  "relationship": "H47 retained crystal face + W1 snow seat revised for access, force transfer and frozen bottlenecks",
+  "branches": [
+    {
+      "route": "Full outer roughening",
+      "decision": "Reject as default",
+      "reason": "Cannot choose a universal roughness; risks summer resistance and arm damage."
+    },
+    {
+      "route": "Strong hydrophobic coating everywhere",
+      "decision": "Reject as winter guarantee",
+      "reason": "Snow-repellent analogues; LL actual wetting unmeasured."
+    },
+    {
+      "route": "Frozen ice bond as sole retention",
+      "decision": "Reject as sole load path",
+      "reason": "Warm thaw phase must carry load; face adhesion cannot prevent grain withdrawal."
+    },
+    {
+      "route": "Temperature-responsive chemistry",
+      "decision": "Keep independent alternative, not chosen now",
+      "reason": "Prior H22 salt/temperature/history response and wet durability not qualified."
+    },
+    {
+      "route": "Open root seats and shallow seasonal interpenetration",
+      "decision": "Advance conditional H48",
+      "reason": "Access and low-eccentricity load can be budgeted; same material remains throughout depth."
+    },
+    {
+      "route": "Buried retention with segmented drains",
+      "decision": "Required system comparison",
+      "reason": "R39 permits below gouge plus margin; capacity with blocked branch needs measurement; cannot cure weak upper bed alone."
+    }
+  ],
+  "next_falsifiers": [
+    "Snow grains do not access seats without melt",
+    "Winter load is carried at thin arm tips",
+    "Thawing snow removes grains from bed",
+    "Blocked zone makes connected water layer",
+    "Seasonal preparation breaks retained platelets or produces excess fines",
+    "50C ski friction or edge release fails",
+    "Full quote exceeds equipment cap or same-boundary annual cost"
+  ],
+  "experimental_success_probability": null
+}

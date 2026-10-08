@@ -1,0 +1,89 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "fe660810c5e30ea98a1626e344d227a4de34f53a",
+  "date_JST": "2026-10-09",
+  "cycle": 48,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第48巡_夏の結晶面と冬の雪保持を両立する接続_20261009.md",
+      "bytes": 34627,
+      "sha256": "e85aed5e953d8aa97eb3c75fd68c225adb1915cfa0391bccf69baf9d2d18acc0"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 32254,
+      "sha256": "e6124920fd82312dcd9ebcd2363a7227e4d5cd81799ccfb03f3451365167383c"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/01_mechanism.png",
+      "bytes": 184001,
+      "sha256": "05604febd2e97a7890a232676d2638085088ff0ca1eb0a9f34d97fb2f95dbc1f"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/01_mechanism.svg",
+      "bytes": 146394,
+      "sha256": "ea23fbe6a4452413d218fdf0fccbafdaab489ffc4459627d72a955c9cd4541cb"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/02_boundaries.png",
+      "bytes": 283691,
+      "sha256": "45a5ec5d0b6dc9125253cc4d620a1e4f82c8f88cdad3fdc936ea526a7e6c1964"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/02_boundaries.svg",
+      "bytes": 128361,
+      "sha256": "5b3fe2f704b410aa840644a59b868d61b11d783fba8620731d6954a2c0472ce9"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/calculate.py",
+      "bytes": 8305,
+      "sha256": "5f61f2fb4644d28e22eb0d12ccf1cde8bc31245d1465748c601ef8533be8cc90"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/document-checks.json",
+      "bytes": 1124,
+      "sha256": "e724951ae4c4c1acee5ab5e33ae6a123a6b632961edcd76d3c5eb38d7b159c08"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/draw.py",
+      "bytes": 5902,
+      "sha256": "4034291881f0fdf85dcf9dda84bd3ff5b9d7fa53e4e2724b2427b9315d492467"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/exploration.json",
+      "bytes": 1927,
+      "sha256": "919449905203cc91002e32bafb8e7635ce9ccbc2dee1f2f515416d6f520b3b77"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/inputs.json",
+      "bytes": 2250,
+      "sha256": "abe4dd0b59c4cb16eb436c9ad2d45fada021e971f17a34209a75b002d1c76706"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/results.json",
+      "bytes": 29253,
+      "sha256": "979c897ed75818cf2ee4e58939ad2c1902ca3b51764d6c5ee45349dc0da60479"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/sources.json",
+      "bytes": 4450,
+      "sha256": "d02d2e02dd3f39bd7d100c0d31178ccc24c1944de51dc6d8dfdbb1ee987c1342"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/validation.json",
+      "bytes": 2317,
+      "sha256": "143013cd931fd0eea1c6133ea94b2fe125302d7dc5570f3f41f81433c26f87b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 39433,
+      "sha256": "419c38e119bb6b8a0eb7886fc144073e43fc4161baf4fdb18bf7302e67570bbf"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 110630,
+      "sha256": "f043f1028eb251193456f1604e1a9a0c5a31f0f0d9e155f0fb0ccf7aee3e4889"
+    }
+  ],
+  "note": "Manifest excludes itself. All files including this manifest must be read back at the published commit and compared byte-for-byte and SHA256 before cleanup."
+}

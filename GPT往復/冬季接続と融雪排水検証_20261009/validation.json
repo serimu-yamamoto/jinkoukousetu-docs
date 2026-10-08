@@ -1,0 +1,115 @@
+{
+  "checks": [
+    {
+      "name": "driving_equals_half_weight_at30deg",
+      "passed": true
+    },
+    {
+      "name": "load_budget_closes",
+      "passed": true
+    },
+    {
+      "name": "pore_pressure_weakens_friction",
+      "passed": true
+    },
+    {
+      "name": "contact_loss_not_certified",
+      "passed": true
+    },
+    {
+      "name": "engagement_area_force_closes",
+      "passed": true
+    },
+    {
+      "name": "axial_eccentric_section_reconstructs_stress",
+      "passed": true
+    },
+    {
+      "name": "eccentricity_bound_reconstructs_required_force",
+      "passed": true
+    },
+    {
+      "name": "fullengagement_force_tenth_of_pointone",
+      "passed": true
+    },
+    {
+      "name": "zeroeccentricity_area_scaling",
+      "passed": true
+    },
+    {
+      "name": "larger_offset_reduces_section_limit",
+      "passed": true
+    },
+    {
+      "name": "spherefit_uses_strictclearance",
+      "passed": true
+    },
+    {
+      "name": "entry_equal_is_not_clearance",
+      "passed": true
+    },
+    {
+      "name": "unobstructed_layer_reduces_to_bulkK",
+      "passed": true
+    },
+    {
+      "name": "sealed_layer_has_zero_capacity",
+      "passed": true
+    },
+    {
+      "name": "series_conductivity_bounded",
+      "passed": true
+    },
+    {
+      "name": "series_darcy_head_closes",
+      "passed": true
+    },
+    {
+      "name": "clogged10mm_example",
+      "passed": true
+    },
+    {
+      "name": "dry_bed_mass_is54kgm2",
+      "passed": true
+    },
+    {
+      "name": "sensible_energy_latent_conversion_closes",
+      "passed": true
+    },
+    {
+      "name": "20percent_water_is90kgm2",
+      "passed": true
+    },
+    {
+      "name": "sensible_energy_proportional_to_deltaT",
+      "passed": true
+    },
+    {
+      "name": "mix_volume_conserved",
+      "passed": true
+    },
+    {
+      "name": "mix_mass_conserved",
+      "passed": true
+    },
+    {
+      "name": "capital_recovery_discounted_sum",
+      "passed": true
+    },
+    {
+      "name": "legacy_budget_headroom_is2M",
+      "passed": true
+    },
+    {
+      "name": "cost_grid_excesses",
+      "passed": true
+    },
+    {
+      "name": "no_invented_probability",
+      "passed": true
+    }
+  ],
+  "count": 27,
+  "all_passed": true,
+  "scope": "Algebra and bookkeeping only; no material or snow validation"
+}

@@ -1,0 +1,978 @@
+{
+  "status": "uncalibrated_design_sensitivity",
+  "physical_tests": 0,
+  "success_probability": null,
+  "loads": [
+    {
+      "u_Pa": 0,
+      "driving_Pa": 2207.2499999999995,
+      "normal_Pa": 3823.0691450064046,
+      "additional_resistance_budget_Pa": 2546.261170998718,
+      "contact_model_valid": true
+    },
+    {
+      "u_Pa": 1000,
+      "driving_Pa": 2207.2499999999995,
+      "normal_Pa": 3823.0691450064046,
+      "additional_resistance_budget_Pa": 2746.261170998718,
+      "contact_model_valid": true
+    },
+    {
+      "u_Pa": 2000,
+      "driving_Pa": 2207.2499999999995,
+      "normal_Pa": 3823.0691450064046,
+      "additional_resistance_budget_Pa": 2946.261170998718,
+      "contact_model_valid": true
+    },
+    {
+      "u_Pa": 4000,
+      "driving_Pa": 2207.2499999999995,
+      "normal_Pa": 3823.0691450064046,
+      "additional_resistance_budget_Pa": null,
+      "contact_model_valid": false
+    }
+  ],
+  "engagement": [
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.012566370614359175,
+      "force_ratio": 0.523643587122825,
+      "max_eccentricity_m": null
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.0017951958020513106,
+      "force_ratio": 0.07480622673183214,
+      "max_eccentricity_m": null
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.00040536679401158635,
+      "force_ratio": 0.016891728616865324,
+      "max_eccentricity_m": null
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.028274333882308142,
+      "force_ratio": 1.1781980710263562,
+      "max_eccentricity_m": 1.3364855326976717e-06
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.005654866776461628,
+      "force_ratio": 0.23563961420527124,
+      "max_eccentricity_m": 1.3364855326976717e-06
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.001346396851538483,
+      "force_ratio": 0.05610467004887411,
+      "max_eccentricity_m": 1.3364855326976717e-06
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.0502654824574367,
+      "force_ratio": 2.0945743484913,
+      "max_eccentricity_m": 1.0945743484913001e-05
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.012566370614359175,
+      "force_ratio": 0.523643587122825,
+      "max_eccentricity_m": 1.0945743484913001e-05
+    },
+    {
+      "active_fraction": 0.1,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 106103.2953945969,
+      "required_force_N": 0.02399794616679155,
+      "section_force_limit_N": 0.003141592653589794,
+      "force_ratio": 0.13091089678070628,
+      "max_eccentricity_m": 1.0945743484913001e-05
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.012566370614359175,
+      "force_ratio": 1.570930761368475,
+      "max_eccentricity_m": 2.854653806842376e-06
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.0017951958020513106,
+      "force_ratio": 0.22441868019549643,
+      "max_eccentricity_m": 2.854653806842376e-06
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.00040536679401158635,
+      "force_ratio": 0.05067518585059598,
+      "max_eccentricity_m": 2.854653806842376e-06
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.028274333882308142,
+      "force_ratio": 3.534594213079069,
+      "max_eccentricity_m": 1.9009456598093018e-05
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.005654866776461628,
+      "force_ratio": 0.7069188426158137,
+      "max_eccentricity_m": 1.9009456598093018e-05
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.001346396851538483,
+      "force_ratio": 0.16831401014662234,
+      "max_eccentricity_m": 1.9009456598093018e-05
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.0502654824574367,
+      "force_ratio": 6.2837230454739,
+      "max_eccentricity_m": 5.283723045473901e-05
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.012566370614359175,
+      "force_ratio": 1.570930761368475,
+      "max_eccentricity_m": 5.283723045473901e-05
+    },
+    {
+      "active_fraction": 0.3,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 318309.88618379075,
+      "required_force_N": 0.007999315388930516,
+      "section_force_limit_N": 0.003141592653589794,
+      "force_ratio": 0.39273269034211883,
+      "max_eccentricity_m": 5.283723045473901e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.012566370614359175,
+      "force_ratio": 5.23643587122825,
+      "max_eccentricity_m": 2.118217935614125e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.0017951958020513106,
+      "force_ratio": 0.7480622673183214,
+      "max_eccentricity_m": 2.118217935614125e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 2e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.00040536679401158635,
+      "force_ratio": 0.16891728616865326,
+      "max_eccentricity_m": 2.118217935614125e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.028274333882308142,
+      "force_ratio": 11.78198071026356,
+      "max_eccentricity_m": 8.08648553269767e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.005654866776461628,
+      "force_ratio": 2.3563961420527124,
+      "max_eccentricity_m": 8.08648553269767e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 3e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.001346396851538483,
+      "force_ratio": 0.5610467004887411,
+      "max_eccentricity_m": 8.08648553269767e-05
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 0,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.0502654824574367,
+      "force_ratio": 20.945743484913,
+      "max_eccentricity_m": 0.00019945743484913
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 3e-05,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.012566370614359175,
+      "force_ratio": 5.23643587122825,
+      "max_eccentricity_m": 0.00019945743484913
+    },
+    {
+      "active_fraction": 1,
+      "neck_radius_m": 4e-05,
+      "eccentricity_m": 0.00015,
+      "engaged_count_m2": 1061032.953945969,
+      "required_force_N": 0.002399794616679155,
+      "section_force_limit_N": 0.003141592653589794,
+      "force_ratio": 1.3091089678070627,
+      "max_eccentricity_m": 0.00019945743484913
+    }
+  ],
+  "entry": [
+    {
+      "opening_m": 0.00015,
+      "sphere_m": 0.0001,
+      "ratio": 1.4999999999999998,
+      "rigid_sphere_has_clearance": true,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00015,
+      "sphere_m": 0.0003,
+      "ratio": 0.5,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00015,
+      "sphere_m": 0.0006,
+      "ratio": 0.25,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00015,
+      "sphere_m": 0.001,
+      "ratio": 0.15,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00015,
+      "sphere_m": 0.002,
+      "ratio": 0.075,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00035,
+      "sphere_m": 0.0001,
+      "ratio": 3.5,
+      "rigid_sphere_has_clearance": true,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00035,
+      "sphere_m": 0.0003,
+      "ratio": 1.1666666666666667,
+      "rigid_sphere_has_clearance": true,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00035,
+      "sphere_m": 0.0006,
+      "ratio": 0.5833333333333334,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00035,
+      "sphere_m": 0.001,
+      "ratio": 0.35,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.00035,
+      "sphere_m": 0.002,
+      "ratio": 0.175,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.0006,
+      "sphere_m": 0.0001,
+      "ratio": 5.999999999999999,
+      "rigid_sphere_has_clearance": true,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.0006,
+      "sphere_m": 0.0003,
+      "ratio": 2.0,
+      "rigid_sphere_has_clearance": true,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.0006,
+      "sphere_m": 0.0006,
+      "ratio": 1.0,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": true
+    },
+    {
+      "opening_m": 0.0006,
+      "sphere_m": 0.001,
+      "ratio": 0.6,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    },
+    {
+      "opening_m": 0.0006,
+      "sphere_m": 0.002,
+      "ratio": 0.3,
+      "rigid_sphere_has_clearance": false,
+      "boundary_contact": false
+    }
+  ],
+  "drainage": [
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.28846153846153844,
+      "zero_head_capacity_m_h": 0.24981502032243422,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.9615384615384615
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.28846153846153844,
+      "zero_head_capacity_m_h": 0.24981502032243422,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.9615384615384615
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.28846153846153844,
+      "zero_head_capacity_m_h": 0.24981502032243422,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.9615384615384615
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.20833333333333331,
+      "zero_head_capacity_m_h": 0.18042195912175804,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.6944444444444444
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.20833333333333331,
+      "zero_head_capacity_m_h": 0.18042195912175804,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.6944444444444444
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.20833333333333331,
+      "zero_head_capacity_m_h": 0.18042195912175804,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.6944444444444444
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.05514705882352941,
+      "zero_head_capacity_m_h": 0.04775875388517125,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.18382352941176472
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.05514705882352941,
+      "zero_head_capacity_m_h": 0.04775875388517125,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.18382352941176472
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.05514705882352941,
+      "zero_head_capacity_m_h": 0.04775875388517125,
+      "head_demand_m": 0.01828856829700261,
+      "unblocked_fraction_of_K": 0.18382352941176472
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.002,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.24999999999999997,
+      "zero_head_capacity_m_h": 0.21650635094610965,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.8333333333333333
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.24999999999999997,
+      "zero_head_capacity_m_h": 0.21650635094610965,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.8333333333333333
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.24999999999999997,
+      "zero_head_capacity_m_h": 0.21650635094610965,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.8333333333333333
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.09374999999999999,
+      "zero_head_capacity_m_h": 0.08118988160479111,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.31249999999999994
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.09374999999999999,
+      "zero_head_capacity_m_h": 0.08118988160479111,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.31249999999999994
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.09374999999999999,
+      "zero_head_capacity_m_h": 0.08118988160479111,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.31249999999999994
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.012931034482758619,
+      "zero_head_capacity_m_h": 0.011198604359281532,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.043103448275862065
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.012931034482758619,
+      "zero_head_capacity_m_h": 0.011198604359281532,
+      "head_demand_m": 0.3062885682970027,
+      "unblocked_fraction_of_K": 0.043103448275862065
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.012931034482758619,
+      "zero_head_capacity_m_h": 0.011198604359281532,
+      "head_demand_m": 1.350288568297003,
+      "unblocked_fraction_of_K": 0.043103448275862065
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.01,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 1,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.3,
+      "zero_head_capacity_m_h": 0.2598076211353316,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 1.0
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.18749999999999997,
+      "zero_head_capacity_m_h": 0.16237976320958222,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.6249999999999999
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.18749999999999997,
+      "zero_head_capacity_m_h": 0.16237976320958222,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.6249999999999999
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.1,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.18749999999999997,
+      "zero_head_capacity_m_h": 0.16237976320958222,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.6249999999999999
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.039473684210526314,
+      "zero_head_capacity_m_h": 0.03418521330728047,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.13157894736842105
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.039473684210526314,
+      "zero_head_capacity_m_h": 0.03418521330728047,
+      "head_demand_m": 0,
+      "unblocked_fraction_of_K": 0.13157894736842105
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.01,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.039473684210526314,
+      "zero_head_capacity_m_h": 0.03418521330728047,
+      "head_demand_m": 0.18028856829700265,
+      "unblocked_fraction_of_K": 0.13157894736842105
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0.004437869822485207,
+      "zero_head_capacity_m_h": 0.003843308004960527,
+      "head_demand_m": 0.1172885682970026,
+      "unblocked_fraction_of_K": 0.014792899408284025
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0.004437869822485207,
+      "zero_head_capacity_m_h": 0.003843308004960527,
+      "head_demand_m": 1.6382885682970025,
+      "unblocked_fraction_of_K": 0.014792899408284025
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0.001,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0.004437869822485207,
+      "zero_head_capacity_m_h": 0.003843308004960527,
+      "head_demand_m": 4.680288568297003,
+      "unblocked_fraction_of_K": 0.014792899408284025
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.005,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.02,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    },
+    {
+      "skin_depth_m": 0.03,
+      "skin_K_ratio": 0,
+      "inflow_normal_m_h": 0.05,
+      "effective_K_m_h": 0,
+      "zero_head_capacity_m_h": 0.0,
+      "head_demand_m": null,
+      "unblocked_fraction_of_K": 0.0
+    }
+  ],
+  "heat": [
+    {
+      "water_volume_fraction": 0,
+      "initial_temperature_above_zero_K": 2,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 0.0,
+      "sensible_J_m2": 194400.0,
+      "potential_melt_kg_m2": 0.5820359281437125,
+      "potential_water_equivalent_mm": 0.5820359281437125
+    },
+    {
+      "water_volume_fraction": 0,
+      "initial_temperature_above_zero_K": 5,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 0.0,
+      "sensible_J_m2": 486000.0,
+      "potential_melt_kg_m2": 1.4550898203592815,
+      "potential_water_equivalent_mm": 1.4550898203592815
+    },
+    {
+      "water_volume_fraction": 0,
+      "initial_temperature_above_zero_K": 10,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 0.0,
+      "sensible_J_m2": 972000.0,
+      "potential_melt_kg_m2": 2.910179640718563,
+      "potential_water_equivalent_mm": 2.910179640718563
+    },
+    {
+      "water_volume_fraction": 0.02,
+      "initial_temperature_above_zero_K": 2,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 9.0,
+      "sensible_J_m2": 270000.0,
+      "potential_melt_kg_m2": 0.8083832335329342,
+      "potential_water_equivalent_mm": 0.8083832335329342
+    },
+    {
+      "water_volume_fraction": 0.02,
+      "initial_temperature_above_zero_K": 5,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 9.0,
+      "sensible_J_m2": 675000.0,
+      "potential_melt_kg_m2": 2.0209580838323356,
+      "potential_water_equivalent_mm": 2.0209580838323356
+    },
+    {
+      "water_volume_fraction": 0.02,
+      "initial_temperature_above_zero_K": 10,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 9.0,
+      "sensible_J_m2": 1350000.0,
+      "potential_melt_kg_m2": 4.041916167664671,
+      "potential_water_equivalent_mm": 4.041916167664671
+    },
+    {
+      "water_volume_fraction": 0.1,
+      "initial_temperature_above_zero_K": 2,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 45.0,
+      "sensible_J_m2": 572400.0,
+      "potential_melt_kg_m2": 1.7137724550898203,
+      "potential_water_equivalent_mm": 1.7137724550898203
+    },
+    {
+      "water_volume_fraction": 0.1,
+      "initial_temperature_above_zero_K": 5,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 45.0,
+      "sensible_J_m2": 1431000.0,
+      "potential_melt_kg_m2": 4.2844311377245505,
+      "potential_water_equivalent_mm": 4.2844311377245505
+    },
+    {
+      "water_volume_fraction": 0.1,
+      "initial_temperature_above_zero_K": 10,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 45.0,
+      "sensible_J_m2": 2862000.0,
+      "potential_melt_kg_m2": 8.568862275449101,
+      "potential_water_equivalent_mm": 8.568862275449101
+    },
+    {
+      "water_volume_fraction": 0.2,
+      "initial_temperature_above_zero_K": 2,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 90.0,
+      "sensible_J_m2": 950400.0,
+      "potential_melt_kg_m2": 2.8455089820359283,
+      "potential_water_equivalent_mm": 2.8455089820359283
+    },
+    {
+      "water_volume_fraction": 0.2,
+      "initial_temperature_above_zero_K": 5,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 90.0,
+      "sensible_J_m2": 2376000.0,
+      "potential_melt_kg_m2": 7.11377245508982,
+      "potential_water_equivalent_mm": 7.11377245508982
+    },
+    {
+      "water_volume_fraction": 0.2,
+      "initial_temperature_above_zero_K": 10,
+      "solid_kg_m2": 54.0,
+      "water_kg_m2": 90.0,
+      "sensible_J_m2": 4752000.0,
+      "potential_melt_kg_m2": 14.22754491017964,
+      "potential_water_equivalent_mm": 14.22754491017964
+    }
+  ],
+  "mixing": [
+    {
+      "depth_m": 0.005,
+      "volume_m3": 10.0,
+      "dry_material_in_mixed_zone_kg": 1200.0
+    },
+    {
+      "depth_m": 0.015,
+      "volume_m3": 30.0,
+      "dry_material_in_mixed_zone_kg": 3600.0
+    },
+    {
+      "depth_m": 0.03,
+      "volume_m3": 60.0,
+      "dry_material_in_mixed_zone_kg": 7200.0
+    }
+  ],
+  "cost": [
+    {
+      "additional_capital_including_tax_JPY": 1000000,
+      "capital_plus_legacy_cap_JPY": 199000000,
+      "excess_above_ceiling_JPY": 0,
+      "additional_annual_cash_equivalent_JPY": 449029.48869707534
+    },
+    {
+      "additional_capital_including_tax_JPY": 3000000,
+      "capital_plus_legacy_cap_JPY": 201000000,
+      "excess_above_ceiling_JPY": 1000000,
+      "additional_annual_cash_equivalent_JPY": 747088.466091226
+    },
+    {
+      "additional_capital_including_tax_JPY": 6000000,
+      "capital_plus_legacy_cap_JPY": 204000000,
+      "excess_above_ceiling_JPY": 4000000,
+      "additional_annual_cash_equivalent_JPY": 1194176.932182452
+    }
+  ],
+  "capital_recovery_factor": 0.14902948869707533,
+  "counts": {
+    "loads": 4,
+    "engagement": 27,
+    "entry": 15,
+    "drainage": 45,
+    "heat": 12,
+    "mixing": 3,
+    "cost": 3
+  }
+}

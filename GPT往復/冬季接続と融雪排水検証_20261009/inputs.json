@@ -1,0 +1,115 @@
+{
+  "status": "uncalibrated_design_sensitivity",
+  "physical_tests": 0,
+  "success_probability": null,
+  "base_commit": "fe660810c5e30ea98a1626e344d227a4de34f53a",
+  "gravity_m_s2": 9.81,
+  "slope_deg": 30,
+  "load": {
+    "snow_density_kg_m3": 450,
+    "snow_depth_normal_m": 1,
+    "load_factor": 1.5,
+    "friction_hypothesis": 0.2,
+    "pore_pressure_Pa": [
+      0,
+      1000,
+      2000,
+      4000
+    ]
+  },
+  "engagement": {
+    "particle_diameter_m": 0.0006,
+    "projected_coverage": 0.3,
+    "active_fractions": [
+      0.1,
+      0.3,
+      1
+    ],
+    "neck_radii_m": [
+      0.00002,
+      0.00003,
+      0.00004
+    ],
+    "eccentricities_m": [
+      0,
+      0.00003,
+      0.00015
+    ],
+    "allowable_normal_stress_hypothesis_Pa": 10000000
+  },
+  "entry": {
+    "opening_m": [
+      0.00015,
+      0.00035,
+      0.0006
+    ],
+    "snow_sphere_m": [
+      0.0001,
+      0.0003,
+      0.0006,
+      0.001,
+      0.002
+    ]
+  },
+  "drainage": {
+    "bed_depth_normal_m": 0.45,
+    "bulk_conductivity_m_h": 0.3,
+    "skin_depths_m": [
+      0.002,
+      0.01,
+      0.03
+    ],
+    "skin_to_bulk_K": [
+      1,
+      0.1,
+      0.01,
+      0.001,
+      0
+    ],
+    "normal_inflow_m_h": [
+      0.005,
+      0.02,
+      0.05
+    ]
+  },
+  "heat": {
+    "area_slope_m2": 2000,
+    "dry_bulk_density_kg_m3": 120,
+    "bed_depth_normal_m": 0.45,
+    "solid_heat_capacity_hypothesis_J_kgK": 1800,
+    "water_density_kg_m3": 1000,
+    "water_heat_capacity_J_kgK": 4200,
+    "water_volume_fractions": [
+      0,
+      0.02,
+      0.1,
+      0.2
+    ],
+    "initial_above_zero_K": [
+      2,
+      5,
+      10
+    ],
+    "latent_heat_J_kg": 334000
+  },
+  "preparation": {
+    "area_slope_m2": 2000,
+    "mix_depths_m": [
+      0.005,
+      0.015,
+      0.03
+    ],
+    "dry_bulk_density_kg_m3": 120,
+    "added_tool_cost_including_tax_JPY": [
+      1000000,
+      3000000,
+      6000000
+    ],
+    "added_annual_operating_hypothesis_JPY": 300000,
+    "existing_equipment_budget_including_tax_JPY": 198000000,
+    "ceiling_including_tax_JPY": 200000000,
+    "years": 10,
+    "discount_rate": 0.08
+  },
+  "scope": "2000m2 material comparison; legacy198M equipment cap refers1000mx20m and not area-scaled; all prices hypotheses, no quote"
+}

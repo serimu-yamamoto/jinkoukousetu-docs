@@ -1,0 +1,52 @@
+{
+  "checked_date_JST": "2026-10-09",
+  "checks": [
+    {
+      "name": "all_existing_report_relative_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "appendix_inputs_exact",
+      "passed": true
+    },
+    {
+      "name": "appendix_calculation_exact",
+      "passed": true
+    },
+    {
+      "name": "27_algebra_checks_passed",
+      "passed": true
+    },
+    {
+      "name": "physical_success_not_invented",
+      "passed": true
+    },
+    {
+      "name": "README.md_new_link_present",
+      "passed": true
+    },
+    {
+      "name": "GPT往復/README.md_new_link_present",
+      "passed": true
+    },
+    {
+      "name": "回覧板.md_new_link_present",
+      "passed": true
+    },
+    {
+      "name": "figures_visually_inspected_after_correction",
+      "passed": true
+    },
+    {
+      "name": "protected_AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "protected_.claude/settings.local.json",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "report_local_links": 15,
+  "publication_note": "Final manifest and fixed-commit readback are verified separately before local deletion."
+}

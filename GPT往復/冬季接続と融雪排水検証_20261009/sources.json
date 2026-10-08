@@ -1,0 +1,73 @@
+{
+  "checked_date_JST": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Towards an improved understanding of glide-snow avalanche release: interface shear cold laboratory tests",
+      "authors": "Bobillier et al.",
+      "year": 2024,
+      "type": "Primary ISSW proceedings; preliminary cold-laboratory experiments",
+      "url": "https://arc.lib.montana.edu/snow-science/item/3220",
+      "fulltext": "https://arc.lib.montana.edu/snow-science/objects/ISSW2024_P6.1.pdf",
+      "access": "Full 5-page PDF; page746 methods visually inspected",
+      "sha256": "bb3ea14eae3a6524fa51f299eeed8dfd05263122e0f736544f440f44e1d0450d",
+      "locator": "pp746-748, Figures1-3",
+      "transfer_limit": "Impermeable glass/sandpaper, 434Pa added normal stress; not LL grain bed. LWC denominator not equated to other papers. 8mm stopping description and >10mm residual discussion are not resolved into a fabricated common stroke.",
+      "design_use": "Separate snow cohesive failure, interface shear peak and residual resistance."
+    },
+    {
+      "id": "S2",
+      "title": "Relationships between Surface Properties and Snow Adhesion and Its Shedding Mechanisms",
+      "authors": "Heil et al.",
+      "year": 2020,
+      "doi": "10.3390/app10165407",
+      "url": "https://www.mdpi.com/2076-3417/10/16/5407",
+      "fulltext_copy": "https://pdfs.semanticscholar.org/1b7d/aee8de70dd631098f5d1530d85669b2533c4.pdf",
+      "access": "Publisher search/fulltext indexing and full original12page PDF copy; page3 visually inspected; raw supplement not obtained",
+      "sha256": "d07f29cfa1356d9215aabfb2be26282d2086f3dc5ed3f2e1c3cd0db44e4d5bda",
+      "locator": "Section2 p3; Figures4-7",
+      "transfer_limit": "43.53±24.99um airborne generated particles before impact/agglomeration; neither natural snow size nor packed snow aggregate size. RMS roughness not interchangeable with Ra.",
+      "design_use": "Entry aperture and snow size must be matched; no universal roughness target."
+    },
+    {
+      "id": "S3",
+      "title": "Shear and tensile adhesion of dry and wet snow on metallic surfaces",
+      "authors": "Fasani et al.",
+      "year": 2026,
+      "doi": "10.1016/j.coldregions.2026.104971",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0165232X26001539",
+      "access": "Publisher abstract/highlights search index; direct403, fulltext and linked dataset not obtained",
+      "sha256": null,
+      "locator": "Abstract and highlights",
+      "transfer_limit": "Aluminum surface finishes, not artificial firn. No imported strength values, LWC basis or full methods.",
+      "design_use": "Shear and tensile trends can oppose each other; do not substitute pull adhesion for slope shear."
+    },
+    {
+      "id": "S4",
+      "title": "Thermal Insulation and Superhydrophobicity Synergies for Passive Snow Repellency",
+      "authors": "Zhao et al.",
+      "year": 2022,
+      "doi": "10.1021/acsami.2c02236",
+      "url": "https://pubs.acs.org/doi/10.1021/acsami.2c02236",
+      "access": "Publisher abstract and SI descriptions through search index; direct403; fulltext not obtained",
+      "sha256": null,
+      "locator": "Abstract; supporting information descriptions",
+      "transfer_limit": "Snow-repellent sheets, not open granular substrate. Does not show LL is superhydrophobic or quantify our winter adhesion.",
+      "design_use": "Low heat transfer and low-wetting outer surface alone do not prove snow anchoring."
+    },
+    {
+      "id": "S5",
+      "title": "Characteristics of snow gliding on rock",
+      "authors": "McClung, Walker and Gollen",
+      "year": 1994,
+      "doi": "10.3189/1994AoG19-1-97-103",
+      "url": "https://www.cambridge.org/core/journals/annals-of-glaciology/article/characteristics-of-snow-gliding-on-rock/0260E810D0730D3E30043C7931454D6A",
+      "access": "Primary fulltext and PDF; abstract/site used only",
+      "sha256": "202c6c40f42fad2ea556e9b380d3ec9e6fcb9a6594ffbd64e1df14a9e9bbca66",
+      "locator": "Abstract and measurement site",
+      "transfer_limit": "Two winters at31degree rock slope, no transfer of glide speed or avalanche threshold.",
+      "design_use": "Winter verification includes time history and spatial weak zones, not a single cold adhesion peak."
+    }
+  ],
+  "notes": "Source PDFs are referenced, not republished. Hashes identify temporarily inspected bytes. All design calculations are our own uncalibrated scenarios."
+}
