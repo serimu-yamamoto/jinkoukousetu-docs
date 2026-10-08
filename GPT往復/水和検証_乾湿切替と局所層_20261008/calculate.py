@@ -144,6 +144,6 @@ validation=dict(physical_tests=0,physical_success_probability=None,checks=checks
    check_count=len(checks),counts=dict(inventory=len(inv),switch=len(windows),friction=len(friction),cost=len(cost)),
    scope='Mass/force conservation, limiting requirements and constructed counterexamples; no wet/dry/ice qualification.')
 for fn,obj in [('results.json',result),('validation.json',validation)]:
-    (P/fn).write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+    (P/fn).write_bytes((json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n').encode('utf-8'))
 assert validation['all_checks_ok'],[x for x in checks if not x['ok']]
 print(json.dumps(dict(counts=validation['counts'],checks=len(checks),all_checks_ok=True,physical_tests=0),ensure_ascii=False))
