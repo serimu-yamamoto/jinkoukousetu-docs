@@ -1,0 +1,75 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "81d0d2658db019c0556ba85d4d36f63a5cdcdc1c",
+  "cycle": 23,
+  "date": "2026-10-08",
+  "normalization": "UTF-8 LF text; binary PNG; this manifest excluded from its own hash list",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第23巡_乾式異材接点と慣らし摩耗の成立条件_20261008.md",
+      "bytes": 20931,
+      "sha256": "56a9873b25d2492319d7a8d5e2419515af1c69c93ce8e106f5366d712db573d8"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 14763,
+      "sha256": "3c6c3493d146ec297bb17889fb126bd026454ab348b1d92acb0217bec9875c81"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/README.md",
+      "bytes": 1602,
+      "sha256": "e7d1a83005b20b3fec9af3e9bc74a7ab1fc98c46743801174fbed0f0e880a0eb"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/calculate.py",
+      "bytes": 10581,
+      "sha256": "7dec1438c602683643eb76eedfafc43d7dea0c686a113cb23bf0ddbae3dd7581"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/contact_and_cost.png",
+      "bytes": 144859,
+      "sha256": "6ee3ddea8e32a7aa1320c0a1144d027f2856574fa23e4a4a68c9822b2a8d0a47"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/inputs.json",
+      "bytes": 4575,
+      "sha256": "75702ba808177a6a96d9d27e4cdf565d326ff1c6a0ba98d17c05a9f5b5f1768e"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/plot.py",
+      "bytes": 4391,
+      "sha256": "4ecc051b8f1433de70521476d754a86d03b983e59bd22a8573ee2d4243e3db13"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/results.json",
+      "bytes": 225628,
+      "sha256": "dbb3e02821e7bfcd91519e1b1e328db18316d9b1cfeb195a1cef707ee3367f4e"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/runin_and_wear_limits.png",
+      "bytes": 235925,
+      "sha256": "c9a44e27368a50d7a1f412c4b6a3f61677f134db38539eaaeae20956c4ee5b47"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/sources.json",
+      "bytes": 4322,
+      "sha256": "5791a7126048f6bb655a57c597c27815c1d93ca340017740da623c1d3d7754ce"
+    },
+    {
+      "path": "GPT往復/乾式接点検証_移着と摩耗予算_20261008/validation.json",
+      "bytes": 2571,
+      "sha256": "59679d419a3b509dc78c62fd06bcf2ce63949a65d154c9daa560e22972f0483b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20782,
+      "sha256": "4c1572982b030b94af162bbcbf56f57b40a5c7860ed9c62119c13edd60460a85"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 68640,
+      "sha256": "dc14592c7e3ce7bfd908bcaadabc26582c6406379600cd9baff8bba98a4580e6"
+    }
+  ]
+}

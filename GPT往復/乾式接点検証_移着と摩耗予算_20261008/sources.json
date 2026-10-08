@@ -1,0 +1,67 @@
+{
+  "accessed": "2026-10-08",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Tribological performances of UHMWPE and PEEK under dry sliding conditions against steel and various polyetherimide polymer counterfaces",
+      "doi": "10.1108/ILT-08-2025-0377",
+      "url": "https://www.sciencedirect.com/org/science/article/abs/pii/S0036879225001271",
+      "access": "Indexed publication abstract; direct publisher DOI and direct page access failed. Full methods unavailable.",
+      "evidence": "Abstract gives UHMWPE against GP-PEI60N,COF0.0728,SWR7.96e-15m2/N; transfer film attributed. Loads20/40/60N; speed constant but numeric speed not available in accessed text.",
+      "limit": "Exact resin grade, roughness, test temperature, speed, run-in path and dispersion not established. Pin wear is not PEI counterface wear; not50C ski evidence."
+    },
+    {
+      "id": "S2",
+      "title": "SABIC ULTEM Resin1000 material data",
+      "url": "https://materialfinder.sabic-specialties.com/material/ultem-resin-1000",
+      "access": "Manufacturer HTML table read",
+      "evidence": "Typical density1270kg/m3; tensile modulus3200MPa; injection melt350-410C; amorphous unfilled PEI.",
+      "limit": "Catalog identity not proven same asS1 GP-PEI. Mechanical data not50C transient ski-contact or environmental safety qualification."
+    },
+    {
+      "id": "S3",
+      "title": "Semi-analytical calculation model for friction of polymers on the example of POM|PE-UHMW and steel|PE-UHMW",
+      "doi": "10.1007/s40544-024-0887-2",
+      "url": "https://link.springer.com/article/10.1007/s40544-024-0887-2",
+      "access": "Publisher abstract and references read; full PDF not read",
+      "evidence": "Dry tests and silicone-oil separation tests; adhesion contribution and continuous/discontinuous motion matter.",
+      "limit": "Do not adopt silicone oil. Proportions not universal; no exact micron-grain50C coefficients imported."
+    },
+    {
+      "id": "S4",
+      "title": "Sliding wear behaviour of oriented ultrahigh molecular weight polyethylene",
+      "doi": "10.1002/pi.4404",
+      "url": "https://scijournals.onlinelibrary.wiley.com/doi/10.1002/pi.4404",
+      "access": "Publisher abstract read; online2012/volume2013",
+      "evidence": "Tensile orientation reduced dry dissipated energy and wear under described study conditions; direction dependence.",
+      "limit": "No general crystallinity-to-glide rule or50C particle value."
+    },
+    {
+      "id": "S5",
+      "title": "Wear and friction resistance of UHMWPE with anisotropic microstructure shaped by mechanical compression",
+      "doi": "10.1016/j.jmbbm.2025.106980",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1751616125000967",
+      "access": "Indexed publisher abstract read; direct publisher returned403",
+      "evidence": "Compressed UHMWPE showed greater debris despite crystalline alignment under severe wear above elastic limit.",
+      "limit": "Different preparation and loading thanS4, not a same-condition replication; do not conclude every orientation process worsens wear."
+    },
+    {
+      "id": "S6",
+      "title": "Tribological behavior of polyoxymethylene sliding against polyethylene and duplex steel in artificial seawater lubrication",
+      "doi": "10.1016/j.wear.2026.206735",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0043164826002255",
+      "access": "Indexed publisher abstract/highlights read; direct page error",
+      "evidence": "POM-PE lubricated pairing and transfer-film behavior",
+      "limit": "Artificial seawater is not dry summer or rainwater. No salt lubrication adopted, no coefficients used."
+    },
+    {
+      "id": "S7",
+      "title": "Friction and wear properties of Uhmwpe and Peek polymers",
+      "doi": "10.1515/mt-2024-0512",
+      "url": "https://avesis.uludag.edu.tr/yayin/9d1cfe31-62bf-48ad-bc2e-1dfe8a346773/friction-and-wear-properties-of-uhmwpe-and-peek-polymers",
+      "access": "Author university abstract read; direct DOI inaccessible",
+      "evidence": "Reports unreinforced Pei counterface comparison and different10N/20N optimums",
+      "limit": "Abstract expands PEI as Polyethylenimine, unlike polyetherimide inS1. Do not merge grades or count independent replication before chemistry/methods verified."
+    }
+  ]
+}

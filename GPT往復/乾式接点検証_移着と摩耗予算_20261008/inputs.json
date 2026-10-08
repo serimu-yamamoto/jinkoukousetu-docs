@@ -1,0 +1,173 @@
+{
+  "cycle": 23,
+  "base_commit": "81d0d2658db019c0556ba85d4d36f63a5cdcdc1c",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Conditional dry-contact design requirements; no measured artificial-firn performance"
+  },
+  "bed": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "grain_diameter_um": 500,
+    "grain_apparent_density_kg_m3": 300,
+    "contact_regions_per_grain": 4
+  },
+  "contact_material": {
+    "identity": "Unfilled polyetherimide candidate; literature GP-PEI exact grade not confirmed to equal ULTEM1000",
+    "density_kg_m3": 1270,
+    "density_source": "S2 manufacturer typical value, not a50C certificate",
+    "radii_um": [
+      20,
+      30,
+      50
+    ],
+    "depths_um": [
+      10,
+      30,
+      60
+    ],
+    "shape_volume_factors": [
+      1,
+      1.2
+    ],
+    "prices_JPY_kg": [
+      3000,
+      10000,
+      30000
+    ],
+    "note": "Cylindrical volume proxy; shape factor is allowance, not a manufactured geometry. Prices hypothetical; added material, no displacement credit."
+  },
+  "run_in": {
+    "fresh_mu": [
+      0.15,
+      0.2,
+      0.3
+    ],
+    "conditioned_mu": [
+      0.04,
+      0.06,
+      0.08
+    ],
+    "characteristic_slip_m": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "fresh_fraction_between_passes": [
+      0,
+      0.01,
+      0.1,
+      0.5,
+      1
+    ],
+    "ski_loaded_length_m": 1.6,
+    "other_drag_mu": 0.02,
+    "total_mu_diagnostic": 0.1,
+    "initial_state": 0,
+    "note": "Uncalibrated phenomenological coverage state, load-weighted, not an area or probability. Renewal fraction resets conditioned load paths, not particle mass replacement. Neither paper COF nor wear factor assigned to a candidate."
+  },
+  "conditioning": {
+    "nominal_pressure_Pa": 5400,
+    "available_minutes": 40,
+    "travel_speed_m_s": 0.6,
+    "course_length_m": 100,
+    "contact_length_m": 0.2,
+    "relative_slip_speed_m_s": 10,
+    "assumed_fresh_mu": 0.2,
+    "assumed_conditioned_mu": 0.06,
+    "turn_and_setup_minutes": 0,
+    "note": "Lower-bound time/energy diagnostic with20m width over2000m2. Does not include maneuvers, shear of bed, coverage gaps, new exposures or capital cost. No conditioning equipment adopted."
+  },
+  "wear": {
+    "specific_wear_coefficients_m2_N": [
+      1e-16,
+      1e-15,
+      1e-14,
+      1e-13
+    ],
+    "mean_contact_pressures_MPa": [
+      1,
+      5,
+      10
+    ],
+    "loaded_passes": [
+      100,
+      1000,
+      10000
+    ],
+    "usable_depth_um": [
+      10,
+      20,
+      40
+    ],
+    "reference_pass_length_m": 1.6,
+    "report_reference_k_pin_m2_N": 7.96e-15,
+    "note": "Constant-pressure local-depth screen h=k p n L; cap k unknown; reported UHMWPE pin k belongs to ski-side material, never assigned to PEI counterface. Geometry change, peeling, fatigue, edge scratches not predicted."
+  },
+  "contact": {
+    "effective_moduli_MPa": [
+      100,
+      300,
+      800
+    ],
+    "radii_um": [
+      150,
+      300
+    ],
+    "group_forces_mN": [
+      6.48,
+      19.44
+    ],
+    "count": 4,
+    "homogeneous_thickness_to_radius_diagnostic": 3,
+    "cap_radius_to_contact_radius_diagnostic": 3,
+    "note": "Effective Hertz modulus is assumed pairing value. Ratios3 are conservative screening choices, not validated layered-contact accuracy or strength criteria."
+  },
+  "manufacturing": {
+    "production_hours": [
+      1000,
+      4000
+    ],
+    "yield_fractions": [
+      0.5,
+      0.8,
+      1
+    ],
+    "note": "Equivalent placement count; no demonstrated individual micro-insert process. A continuous multi-material process would need separate proof."
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "extra_existing_contact_replacement_fraction_per_year": [
+      0,
+      0.1,
+      1
+    ],
+    "note": "Inherited pretax hypothetical allowance, not quote. Cap replacement rates are additional to2percent purchase replacement. No environmental emission allowance. Equipment capJPY200M tax-inclusive remains separate."
+  },
+  "rocking": {
+    "radii_um": [
+      150,
+      300
+    ],
+    "available_angles_deg": [
+      30,
+      90,
+      180
+    ],
+    "loaded_lengths_m": [
+      0.2,
+      1.6
+    ],
+    "note": "Travel bound for one finite rotation of a centre-fixed contact. Not a free rolling or bearing solution."
+  },
+  "accessed_date": "2026-10-08"
+}

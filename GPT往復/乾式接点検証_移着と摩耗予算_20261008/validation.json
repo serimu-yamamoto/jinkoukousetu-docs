@@ -1,0 +1,105 @@
+{
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Conditional dry-contact design requirements; no measured artificial-firn performance"
+  },
+  "checks": [
+    {
+      "name": "Bed mass and counted particle mass agree",
+      "ok": true
+    },
+    {
+      "name": "Cap mass from total area equals count times individual volume",
+      "ok": true
+    },
+    {
+      "name": "Added material increases bulk density if volume fixed",
+      "ok": true
+    },
+    {
+      "name": "No renewal converges to conditioned state",
+      "ok": true
+    },
+    {
+      "name": "Complete renewal resets every first contact",
+      "ok": true
+    },
+    {
+      "name": "Steady coverage satisfies renewal recurrence",
+      "ok": true
+    },
+    {
+      "name": "Conditioned states are bounded and loading increases them",
+      "ok": true
+    },
+    {
+      "name": "Numerical pass integration agrees with analytic average",
+      "ok": true
+    },
+    {
+      "name": "Required slip reaches diagnostic target at a point, not whole-bed proof",
+      "ok": true
+    },
+    {
+      "name": "Fresh first point fails target in every listed material scenario",
+      "ok": true
+    },
+    {
+      "name": "Ten percent renewal atLr10 raises peak beyond target",
+      "ok": true
+    },
+    {
+      "name": "One percent renewal atLr10 meets steady diagnostic but not fresh startup",
+      "ok": true
+    },
+    {
+      "name": "Reset fraction boundary meets steady peak target",
+      "ok": true
+    },
+    {
+      "name": "Wear budget maximum coefficient exactly consumes available depth",
+      "ok": true
+    },
+    {
+      "name": "Wear depth scales linearly with assumed k",
+      "ok": true
+    },
+    {
+      "name": "All added material cost debited from shared margin",
+      "ok": true
+    },
+    {
+      "name": "Price bound consumes the same shared annual margin",
+      "ok": true
+    },
+    {
+      "name": "Hertz pressure integrates specified force",
+      "ok": true
+    },
+    {
+      "name": "Manufacturing yield closes equivalent operation count",
+      "ok": true
+    },
+    {
+      "name": "Conditioner rounded pass count covers required local slip",
+      "ok": true
+    },
+    {
+      "name": "Finite rocking travel stays below0.5percent in listed cases",
+      "ok": true
+    }
+  ],
+  "count": 21,
+  "all_checks_ok": true,
+  "counts": {
+    "inventory": 18,
+    "cost_cases": 162,
+    "run_in_cases": 180,
+    "conditioning": 4,
+    "wear_cases": 108,
+    "contact_cases": 12,
+    "production": 6,
+    "rocking": 12
+  }
+}
