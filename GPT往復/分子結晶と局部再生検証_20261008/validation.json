@@ -1,0 +1,175 @@
+{
+  "check_count": 28,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "packing_volume_from_count",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "name": "contacts_half_count",
+      "actual": 6.0,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "base_radius_um",
+      "actual": 4.5,
+      "expected": 4.5,
+      "passed": true
+    },
+    {
+      "name": "virial_normal_target",
+      "actual": 3000.0,
+      "expected": 3000,
+      "passed": true
+    },
+    {
+      "name": "independent_neck_mass_formula",
+      "actual": 5.219999999999999,
+      "expected": 5.22,
+      "passed": true
+    },
+    {
+      "name": "base_bridge_mass_kg",
+      "actual": 5.219999999999999,
+      "expected": 5.22,
+      "passed": true
+    },
+    {
+      "name": "host_mass_108t",
+      "actual": 108000.0,
+      "expected": 108000,
+      "passed": true
+    },
+    {
+      "name": "random_double_seed_half_coverage",
+      "actual": 0.25,
+      "expected": 0.25,
+      "passed": true
+    },
+    {
+      "name": "half_seed_doubles_radius",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "fixed_target_mass_independent_p",
+      "actual": 5.219999999999999,
+      "expected": 5.219999999999999,
+      "passed": true
+    },
+    {
+      "name": "p09_radius_15um",
+      "actual": 14.999999999999998,
+      "expected": 15,
+      "passed": true
+    },
+    {
+      "name": "tenfold_bed_mass",
+      "actual": 10.000000000000002,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "required_pair_probability_20um",
+      "actual": 0.050624999999999996,
+      "expected": 0.050625,
+      "passed": true
+    },
+    {
+      "name": "feed_mass_conservation",
+      "actual": 1.16,
+      "expected": 1.1600000000000001,
+      "passed": true
+    },
+    {
+      "name": "1percent_total_bridge_renewal",
+      "actual": 0.052199999999999996,
+      "expected": 0.0522,
+      "passed": true
+    },
+    {
+      "name": "mg_ml_equals_kg_m3",
+      "actual": 5.0,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "name": "cystine_molar_conversion",
+      "actual": 0.16821,
+      "expected": 0.16821,
+      "passed": true
+    },
+    {
+      "name": "relative_S_is_ratio_minus_one",
+      "actual": 3.2857142857142856,
+      "expected": 3.2857142857142856,
+      "passed": true
+    },
+    {
+      "name": "50mm_rain_volume",
+      "actual": 100.0,
+      "expected": 100,
+      "passed": true
+    },
+    {
+      "name": "capacity_full_contact_tyr_50mm",
+      "actual": 50.0,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "name": "normal_step_conversion",
+      "actual": 0.6384,
+      "expected": 0.6384,
+      "passed": true
+    },
+    {
+      "name": "20min_two_front_closure_um",
+      "actual": 1.5321599999999997,
+      "expected": 1.53216,
+      "passed": true
+    },
+    {
+      "name": "gap_time_backcheck",
+      "actual": 0.2,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "name": "terrace10x_slows10x",
+      "actual": 10.0,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "water_sensible_per_m3_kWh",
+      "actual": 81.27777777777777,
+      "expected": 81.27777777777777,
+      "passed": true
+    },
+    {
+      "name": "1m3_5percent_remains_kg",
+      "actual": 50.00000000000004,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "name": "remaining_50kg_latent_kWh",
+      "actual": 33.333333333333336,
+      "expected": 33.333333333333336,
+      "passed": true
+    },
+    {
+      "name": "200sessions_scale",
+      "actual": 200.0,
+      "expected": 200,
+      "passed": true
+    }
+  ],
+  "scope": "geometry, arithmetic and mass/energy conservation only"
+}

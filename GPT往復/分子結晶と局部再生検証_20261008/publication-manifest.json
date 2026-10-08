@@ -1,0 +1,82 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "6d071e6b81b3a08843cbeeeb724c508e909d4516",
+  "cycle": 35,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 28,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 29446,
+      "sha256": "3b356d2bbcde8ed9615c19e2442ff263e95ff6887d6be20ff188d09773855b7f"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 22595,
+      "sha256": "ee5a010f0d8ccf22e168136b3b9caa09a4db6a57c63fe8dcd9d5e847d5d471a8"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 90234,
+      "sha256": "5dc66453e21ede6218e756f74d61c443a574b29d17f0bf209f8173238b96def8"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第35巡_分子結晶の再評価と少量接点の再成長_20261008.md",
+      "bytes": 19638,
+      "sha256": "19c0518213e5f3635687bc1e7f8d4cc8cd93ad1fc07f61e2182c93d4b6cb9898"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/calculate.py",
+      "bytes": 7447,
+      "sha256": "0ed0f9c6daceda7a7de8fcd8f16a512fb04373a8f68ec07a8f6e27fdd15ae58b"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/figure1_contacts_and_growth.png",
+      "bytes": 145693,
+      "sha256": "b7b1bdca0a0e0cdefaaf2129dab88096bc67afd393910181e1585a59f0d5226d"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/figure2_regrowth_and_rain.png",
+      "bytes": 176039,
+      "sha256": "fc76de0c4fcb7bf916438ad13d1676861412776abcc4cca6afc3c742bc1b9367"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/inputs.json",
+      "bytes": 2592,
+      "sha256": "22fe45ef3f75cc676893db6897318a949f943eb87a7ed4e8d20b672d91f6a7c4"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/model.md",
+      "bytes": 6021,
+      "sha256": "1dddd7dfc8ded4802fcdcb04c26b347dbe4fd064205e30bc14fb1c632e3943cb"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/plot.py",
+      "bytes": 2964,
+      "sha256": "cbddf1fa524ac77a2b6dc7846759efd82f9f508c40f8a1412d3aa4549ccdb0f1"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/README.md",
+      "bytes": 2095,
+      "sha256": "719f1fd8ec380703ed6bf5cfd9cc6f1d61c1ea3eceb6b52a0572e9cad75b4aa3"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/results.json",
+      "bytes": 70202,
+      "sha256": "bf2b21b7935d4957aa2e91a5e8c88cec2ab319d0de835190ae093cee0514f791"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/sources.md",
+      "bytes": 7313,
+      "sha256": "e3fa90e0a2b7518a59abc407d7c801a823a833db20c358b42cbfd682fb54f951"
+    },
+    {
+      "path": "GPT往復/分子結晶と局部再生検証_20261008/validation.json",
+      "bytes": 3742,
+      "sha256": "a1633ee19ee8be224a4fc11350bff904826cbecd40870df55ea5ef7c180d8fff"
+    }
+  ]
+}

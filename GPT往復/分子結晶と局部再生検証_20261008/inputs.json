@@ -1,0 +1,124 @@
+{
+  "schema": "h35-conditional-inputs-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "geometry": {
+    "D_um": 450,
+    "host_envelope_density_kg_m3": 240,
+    "packing_fraction": 0.5,
+    "coordination": 6,
+    "neck_length_um": 2,
+    "neck_material_density_kg_m3": 1450,
+    "neck_effective_strength_Pa": 10000000,
+    "target_isotropic_normal_budget_Pa": 3000,
+    "local_available_radius_um": 20,
+    "seeded_surface_fraction": [
+      1,
+      0.5,
+      0.3,
+      0.2,
+      0.1
+    ]
+  },
+  "bed": {
+    "areas_m2": [
+      2000,
+      20000
+    ],
+    "depth_m": 0.45
+  },
+  "solutions": [
+    {
+      "name": "tyrosine_reported_feed",
+      "feed_kg_m3": 5,
+      "equilibrium_kg_m3": 0.5,
+      "evidence": "S1 feed, room-temperature solubility; not measured 50C curve; not approved material"
+    },
+    {
+      "name": "cystine_reported_feed",
+      "feed_kg_m3": 0.7,
+      "equilibrium_kg_m3": 0.16821,
+      "evidence": "S2 feed 70mg/100mL; 0.7mM *240.3g/mol; room-temperature only; not approved material"
+    }
+  ],
+  "regrowth": {
+    "repaired_bond_fraction": [
+      0.1,
+      1
+    ],
+    "new_crystal_fraction_of_repaired_bridge": [
+      0.1,
+      1
+    ],
+    "useful_precipitate_fraction": [
+      0.05,
+      0.2,
+      0.8
+    ],
+    "base_repair_fraction": 0.1,
+    "base_new_crystal_fraction": 0.1,
+    "base_useful_fraction": 0.2
+  },
+  "growth": {
+    "reported_step_velocity_nm_s": 11.4,
+    "reported_step_height_nm": 5.6,
+    "terrace_spacing_nm": [
+      50,
+      100,
+      500,
+      1000
+    ],
+    "two_fronts": 2,
+    "net_growth_time_min": [
+      20,
+      40,
+      60
+    ],
+    "gaps_um": [
+      0.2,
+      2,
+      20
+    ],
+    "temperature_basis": "S2 ambient AFM, 2mM; 50C and confined contact unmeasured"
+  },
+  "rain": {
+    "rainfall_mm": [
+      5,
+      50,
+      200
+    ],
+    "fraction_reaching_bonds": [
+      0.001,
+      0.01,
+      0.1,
+      1
+    ]
+  },
+  "thermal_cost": {
+    "water_density_kg_m3": 1000,
+    "water_cp_kJ_kg_K": 4.18,
+    "deltaT_K": 70,
+    "heat_recovery_fraction": [
+      0,
+      0.8,
+      0.95
+    ],
+    "heater_efficiency": 0.8,
+    "electricity_jpy_kWh": 30,
+    "water_and_treatment_jpy_m3": 500,
+    "raw_solute_jpy_kg": [
+      1000,
+      5000
+    ],
+    "sessions_per_year": 200,
+    "post_precipitation_drain_fraction": 0.95,
+    "latent_kJ_kg": 2400,
+    "drying_time_min": 20
+  },
+  "literature_audit": {
+    "cystine_concentration_mM": 3,
+    "cystine_equilibrium_mM": 0.7,
+    "reported_relative_supersaturation": 4.3,
+    "cystine_molar_mass_g_mol": 240.3
+  }
+}
