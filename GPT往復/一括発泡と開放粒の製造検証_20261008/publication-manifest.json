@@ -1,0 +1,87 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "a33ff8d93fb33bc1f29cab97bc9035fa7e86038a",
+  "cycle": 37,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 30,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第37巡_一括発泡による開放粒と雨後重量の設計_20261008.md",
+      "bytes": 17600,
+      "sha256": "cc60f823868c959177ad1725c44e2781c68b995f575d114e5c7333ccb5ebb8ab"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 23981,
+      "sha256": "f6aefd5abe41e44c9a2f7abe33a54001d28f71f78220881676833310b2fad311"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/README.md",
+      "bytes": 909,
+      "sha256": "61fd8aab2e3bc373e3c259d37e737f4fc4f02d3a8a99eb1d9abfe59c5c5172a3"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/calculate.py",
+      "bytes": 7703,
+      "sha256": "4a5b1c9681766a75c9fbe2e713b239485aa864959622be312e1393022d138c93"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/figure1_water_and_buoyancy.png",
+      "bytes": 205008,
+      "sha256": "312b72643426e78bb17d222d33424e6b91c699edaaa4bb2eaf894b2c3c9750c4"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/figure2_process_and_cost.png",
+      "bytes": 137914,
+      "sha256": "4d5cc9cf496737c4fc8e103336e436c56e50a52b263bd5e00f98c617b37e6ca4"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/inputs.json",
+      "bytes": 2414,
+      "sha256": "e0614f096dde271c04d6dac8ee5c57da79da174f6a9413ee82f020780c6c18b0"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/model.md",
+      "bytes": 3930,
+      "sha256": "785b1873645199284b3624060208b2868eb40e23baf09e656b0bbf48fe251a92"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/plot.py",
+      "bytes": 2927,
+      "sha256": "e5cd59cfd9bd38400fb318c2531a923cef7f50cdd6e57153487b11b41cb288f1"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/results.json",
+      "bytes": 11591,
+      "sha256": "0867403734c253f467d521a747bc9a499a387bfd7a124c055117b46702451a82"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/sources.md",
+      "bytes": 4713,
+      "sha256": "7d5bdf79dfc7f5ba98863fe7833f46598aa3e9c6fe8a00d01a51a95067f19e90"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/validation.json",
+      "bytes": 3555,
+      "sha256": "6e11044e34c8cdb056850be777b7d08bb6dd4fccb34e1ea5983023943610db9f"
+    },
+    {
+      "path": "GPT往復/一括発泡と開放粒の製造検証_20261008/water_and_mass.csv",
+      "bytes": 1309,
+      "sha256": "48e07a21036a70ed65734cc4901008b1742dd3884b9d857d7b3876e946995941"
+    },
+    {
+      "path": "README.md",
+      "bytes": 30876,
+      "sha256": "55a59389b0712cf2a1a5b220ef9dd96ff343656fccbf77ddc5693d39c1c62bd2"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 93260,
+      "sha256": "da2a745bf952fda6f56b5c6ef226c9043678558a7f12041fa13d7ed02984f72a"
+    }
+  ]
+}

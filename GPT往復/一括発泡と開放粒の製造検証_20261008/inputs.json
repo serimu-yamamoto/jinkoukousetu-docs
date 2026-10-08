@@ -1,0 +1,96 @@
+{
+  "cycle": 37,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "geometry": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "particle_envelope_packing": 0.5,
+    "reference_envelope_density_kg_m3": 240,
+    "solid_density_kg_m3": 1250,
+    "water_density_kg_m3": 1000,
+    "envelope_densities_kg_m3": [
+      50,
+      120,
+      240,
+      400
+    ],
+    "retained_pore_water_fractions": [
+      0,
+      0.1,
+      0.5,
+      1
+    ]
+  },
+  "literature_S1": {
+    "polymer_kg": 0.00075,
+    "solvent_L": 0.015,
+    "inner_aqueous_L": 0.005,
+    "outer_aqueous_L": 0.1,
+    "wash_total_L_bracket": [
+      0.5,
+      2
+    ],
+    "emulsion_hold_h_lower_bound": 6,
+    "WUR_reported_mean": 22.98,
+    "WUR_reported_SD": 6.49,
+    "particle_diameter_um_range": [
+      330,
+      400
+    ],
+    "cavity_diameter_um_range": [
+      10,
+      60
+    ],
+    "small_pore_diameter_um_range": [
+      1,
+      3
+    ],
+    "water_protocol": "75% ethanol prewet, water washes x3, PBS 12 h, wiped; WUR formula and prose differ"
+  },
+  "design": {
+    "good_yield": 0.9,
+    "good_yield_sensitivity": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "repair_fraction": 0.01,
+    "factory_h": 8,
+    "closure_h": 1,
+    "other_maintenance_min": 20,
+    "solvent_recovery_fractions": [
+      0.99,
+      0.999
+    ],
+    "water_reuse_fraction_sensitivity": 0.99,
+    "pressure_hold_h_sensitivity": [
+      0.5,
+      1,
+      2
+    ],
+    "dense_feed_chamber_fill_fraction": 0.5,
+    "raw_price_JPY_kg_sensitivity": [
+      300,
+      600,
+      1500
+    ],
+    "material_raw_budget_JPY_example": 50000000,
+    "annual_replacement_budget_JPY_example": 10000000,
+    "annual_service_days_example": 100,
+    "passes_per_day_example": 2,
+    "replacement_fraction_sensitivity": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "branch_diameter_um_example": 40,
+    "clearance_each_side_um_example": 5
+  },
+  "notes": [
+    "All geometry, yield, price and recovery assumptions are design sensitivities, not measured PHA product data.",
+    "Pressurized route volume is a feed-volume comparison only; no final expanded volume, heat, filling, venting or safety space included.",
+    "S1 wash bracket reflects ambiguous wording, not measured minimum/maximum wash performance.",
+    "Model does not predict ski friction, edge response, drainage time, service life, material safety or physical success probability."
+  ]
+}

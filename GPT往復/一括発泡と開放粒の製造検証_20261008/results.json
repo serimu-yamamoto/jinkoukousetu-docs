@@ -1,0 +1,398 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "reference": {
+    "bed_volume_m3": 900.0,
+    "particle_envelopes_m3": 450.0,
+    "dry_material_kg": 108000.0,
+    "repair_good_kg": 1080.0,
+    "repair_feed_kg": 1200.0,
+    "solid_m3": 86.4,
+    "internal_pore_m3": 363.6,
+    "q_internal_max_kg_kg": 3.3666666666666667,
+    "minimum_free_immersed_pore_saturation_to_sink": 0.9405940594059405,
+    "maximum_trapped_fraction_of_pores_for_sinking": 0.05940594059405946,
+    "material_raw_budget_JPY_example": 50000000,
+    "raw_feed_price_ceiling_JPY_kg_at_yield90": 416.6666666666667,
+    "hypothetical_minimum_clear_opening_um": 50
+  },
+  "water_sensitivity": [
+    {
+      "rho_envelope_kg_m3": 50,
+      "retained_fraction": 0,
+      "dry_kg": 22500.0,
+      "pore_water_kg": 0.0,
+      "lifted_wet_kg": 22500.0,
+      "q_water_kg_kg": 0.0,
+      "q_internal_max_kg_kg": 19.2,
+      "neutral_saturation_free_immersed": 0.9895833333333334
+    },
+    {
+      "rho_envelope_kg_m3": 50,
+      "retained_fraction": 0.1,
+      "dry_kg": 22500.0,
+      "pore_water_kg": 43200.0,
+      "lifted_wet_kg": 65700.0,
+      "q_water_kg_kg": 1.92,
+      "q_internal_max_kg_kg": 19.2,
+      "neutral_saturation_free_immersed": 0.9895833333333334
+    },
+    {
+      "rho_envelope_kg_m3": 50,
+      "retained_fraction": 0.5,
+      "dry_kg": 22500.0,
+      "pore_water_kg": 216000.0,
+      "lifted_wet_kg": 238500.0,
+      "q_water_kg_kg": 9.6,
+      "q_internal_max_kg_kg": 19.2,
+      "neutral_saturation_free_immersed": 0.9895833333333334
+    },
+    {
+      "rho_envelope_kg_m3": 50,
+      "retained_fraction": 1,
+      "dry_kg": 22500.0,
+      "pore_water_kg": 432000.0,
+      "lifted_wet_kg": 454500.0,
+      "q_water_kg_kg": 19.2,
+      "q_internal_max_kg_kg": 19.2,
+      "neutral_saturation_free_immersed": 0.9895833333333334
+    },
+    {
+      "rho_envelope_kg_m3": 120,
+      "retained_fraction": 0,
+      "dry_kg": 54000.0,
+      "pore_water_kg": 0.0,
+      "lifted_wet_kg": 54000.0,
+      "q_water_kg_kg": 0.0,
+      "q_internal_max_kg_kg": 7.533333333333333,
+      "neutral_saturation_free_immersed": 0.9734513274336283
+    },
+    {
+      "rho_envelope_kg_m3": 120,
+      "retained_fraction": 0.1,
+      "dry_kg": 54000.0,
+      "pore_water_kg": 40680.00000000001,
+      "lifted_wet_kg": 94680.0,
+      "q_water_kg_kg": 0.7533333333333335,
+      "q_internal_max_kg_kg": 7.533333333333333,
+      "neutral_saturation_free_immersed": 0.9734513274336283
+    },
+    {
+      "rho_envelope_kg_m3": 120,
+      "retained_fraction": 0.5,
+      "dry_kg": 54000.0,
+      "pore_water_kg": 203400.0,
+      "lifted_wet_kg": 257400.0,
+      "q_water_kg_kg": 3.7666666666666666,
+      "q_internal_max_kg_kg": 7.533333333333333,
+      "neutral_saturation_free_immersed": 0.9734513274336283
+    },
+    {
+      "rho_envelope_kg_m3": 120,
+      "retained_fraction": 1,
+      "dry_kg": 54000.0,
+      "pore_water_kg": 406800.0,
+      "lifted_wet_kg": 460800.0,
+      "q_water_kg_kg": 7.533333333333333,
+      "q_internal_max_kg_kg": 7.533333333333333,
+      "neutral_saturation_free_immersed": 0.9734513274336283
+    },
+    {
+      "rho_envelope_kg_m3": 240,
+      "retained_fraction": 0,
+      "dry_kg": 108000.0,
+      "pore_water_kg": 0.0,
+      "lifted_wet_kg": 108000.0,
+      "q_water_kg_kg": 0.0,
+      "q_internal_max_kg_kg": 3.3666666666666667,
+      "neutral_saturation_free_immersed": 0.9405940594059405
+    },
+    {
+      "rho_envelope_kg_m3": 240,
+      "retained_fraction": 0.1,
+      "dry_kg": 108000.0,
+      "pore_water_kg": 36360.00000000001,
+      "lifted_wet_kg": 144360.0,
+      "q_water_kg_kg": 0.3366666666666667,
+      "q_internal_max_kg_kg": 3.3666666666666667,
+      "neutral_saturation_free_immersed": 0.9405940594059405
+    },
+    {
+      "rho_envelope_kg_m3": 240,
+      "retained_fraction": 0.5,
+      "dry_kg": 108000.0,
+      "pore_water_kg": 181800.0,
+      "lifted_wet_kg": 289800.0,
+      "q_water_kg_kg": 1.6833333333333333,
+      "q_internal_max_kg_kg": 3.3666666666666667,
+      "neutral_saturation_free_immersed": 0.9405940594059405
+    },
+    {
+      "rho_envelope_kg_m3": 240,
+      "retained_fraction": 1,
+      "dry_kg": 108000.0,
+      "pore_water_kg": 363600.0,
+      "lifted_wet_kg": 471600.0,
+      "q_water_kg_kg": 3.3666666666666667,
+      "q_internal_max_kg_kg": 3.3666666666666667,
+      "neutral_saturation_free_immersed": 0.9405940594059405
+    },
+    {
+      "rho_envelope_kg_m3": 400,
+      "retained_fraction": 0,
+      "dry_kg": 180000.0,
+      "pore_water_kg": 0.0,
+      "lifted_wet_kg": 180000.0,
+      "q_water_kg_kg": 0.0,
+      "q_internal_max_kg_kg": 1.7,
+      "neutral_saturation_free_immersed": 0.8823529411764706
+    },
+    {
+      "rho_envelope_kg_m3": 400,
+      "retained_fraction": 0.1,
+      "dry_kg": 180000.0,
+      "pore_water_kg": 30600.0,
+      "lifted_wet_kg": 210600.0,
+      "q_water_kg_kg": 0.17,
+      "q_internal_max_kg_kg": 1.7,
+      "neutral_saturation_free_immersed": 0.8823529411764706
+    },
+    {
+      "rho_envelope_kg_m3": 400,
+      "retained_fraction": 0.5,
+      "dry_kg": 180000.0,
+      "pore_water_kg": 153000.0,
+      "lifted_wet_kg": 333000.0,
+      "q_water_kg_kg": 0.85,
+      "q_internal_max_kg_kg": 1.7,
+      "neutral_saturation_free_immersed": 0.8823529411764706
+    },
+    {
+      "rho_envelope_kg_m3": 400,
+      "retained_fraction": 1,
+      "dry_kg": 180000.0,
+      "pore_water_kg": 306000.0,
+      "lifted_wet_kg": 486000.0,
+      "q_water_kg_kg": 1.7,
+      "q_internal_max_kg_kg": 1.7,
+      "neutral_saturation_free_immersed": 0.8823529411764706
+    }
+  ],
+  "literature_WUR_interpretations": [
+    {
+      "interpretation": "Methods_formula",
+      "water_kg_kg": 22.98,
+      "density_if_all_water_in_fixed_internal_pores_kg_m3": 42.05214465937763,
+      "ratio_to_reference_max_internal_water": 6.825742574257426,
+      "is_density_measurement": false
+    },
+    {
+      "interpretation": "Results_prose",
+      "water_kg_kg": 21.98,
+      "density_if_all_water_in_fixed_internal_pores_kg_m3": 43.89815627743635,
+      "ratio_to_reference_max_internal_water": 6.528712871287129,
+      "is_density_measurement": false
+    }
+  ],
+  "recipe_ratios": {
+    "solvent_L_kg_feed": 20.0,
+    "aqueous_L_kg_feed": 140.0,
+    "wash_L_kg_feed_bracket": [
+      666.6666666666666,
+      2666.6666666666665
+    ],
+    "emulsion_L_kg_feed": 160.0
+  },
+  "process_balances": [
+    {
+      "case": "initial",
+      "good_kg": 108000.0,
+      "feed_kg": 120000.0,
+      "solvent_circulation_m3": 2400.0,
+      "aqueous_pre_wash_m3": 16800.0,
+      "wash_circulation_m3_bracket": [
+        80000.0,
+        320000.0
+      ],
+      "total_aqueous_m3_bracket": [
+        96800.0,
+        336800.0
+      ],
+      "solvent_makeup_m3_by_recovery": {
+        "0.99": 24.00000000000002,
+        "0.999": 2.400000000000002
+      },
+      "water_makeup_m3_if_reuse_feasible_bracket": [
+        968.0000000000008,
+        3368.0000000000027
+      ],
+      "required_steady_feed_kg_h": null,
+      "emulsion_steady_hold_m3_lower_bound": null,
+      "empty_line_first_output_within_window": null
+    },
+    {
+      "case": "one_percent_factory",
+      "good_kg": 1080.0,
+      "feed_kg": 1200.0,
+      "solvent_circulation_m3": 24.0,
+      "aqueous_pre_wash_m3": 168.0,
+      "wash_circulation_m3_bracket": [
+        800.0,
+        3200.0
+      ],
+      "total_aqueous_m3_bracket": [
+        968.0,
+        3368.0
+      ],
+      "solvent_makeup_m3_by_recovery": {
+        "0.99": 0.24000000000000024,
+        "0.999": 0.02400000000000002
+      },
+      "water_makeup_m3_if_reuse_feasible_bracket": [
+        9.680000000000009,
+        33.68000000000003
+      ],
+      "required_steady_feed_kg_h": 150.0,
+      "emulsion_steady_hold_m3_lower_bound": 144.0,
+      "empty_line_first_output_within_window": true
+    },
+    {
+      "case": "one_percent_40min",
+      "good_kg": 1080.0,
+      "feed_kg": 1200.0,
+      "solvent_circulation_m3": 24.0,
+      "aqueous_pre_wash_m3": 168.0,
+      "wash_circulation_m3_bracket": [
+        800.0,
+        3200.0
+      ],
+      "total_aqueous_m3_bracket": [
+        968.0,
+        3368.0
+      ],
+      "solvent_makeup_m3_by_recovery": {
+        "0.99": 0.24000000000000024,
+        "0.999": 0.02400000000000002
+      },
+      "water_makeup_m3_if_reuse_feasible_bracket": [
+        9.680000000000009,
+        33.68000000000003
+      ],
+      "required_steady_feed_kg_h": 1799.9999999999998,
+      "emulsion_steady_hold_m3_lower_bound": 1727.9999999999995,
+      "empty_line_first_output_within_window": false
+    }
+  ],
+  "pressure_feed_volume_sensitivity": [
+    {
+      "hold_h": 0.5,
+      "feed_kg_in_hold": 75.0,
+      "solid_feed_m3": 0.06,
+      "feed_loading_chamber_m3": 0.12,
+      "is_full_equipment_volume": false
+    },
+    {
+      "hold_h": 1,
+      "feed_kg_in_hold": 150.0,
+      "solid_feed_m3": 0.12,
+      "feed_loading_chamber_m3": 0.24,
+      "is_full_equipment_volume": false
+    },
+    {
+      "hold_h": 2,
+      "feed_kg_in_hold": 300.0,
+      "solid_feed_m3": 0.24,
+      "feed_loading_chamber_m3": 0.48,
+      "is_full_equipment_volume": false
+    }
+  ],
+  "material_raw_cost_sensitivity": [
+    {
+      "yield": 0.5,
+      "price_JPY_kg_feed": 300,
+      "raw_purchase_JPY": 64800000.0,
+      "raw_only_JPY_good_kg": 600.0,
+      "raw_only_JPY_m2": 32400.0
+    },
+    {
+      "yield": 0.5,
+      "price_JPY_kg_feed": 600,
+      "raw_purchase_JPY": 129600000.0,
+      "raw_only_JPY_good_kg": 1200.0,
+      "raw_only_JPY_m2": 64800.0
+    },
+    {
+      "yield": 0.5,
+      "price_JPY_kg_feed": 1500,
+      "raw_purchase_JPY": 324000000.0,
+      "raw_only_JPY_good_kg": 3000.0,
+      "raw_only_JPY_m2": 162000.0
+    },
+    {
+      "yield": 0.7,
+      "price_JPY_kg_feed": 300,
+      "raw_purchase_JPY": 46285714.28571428,
+      "raw_only_JPY_good_kg": 428.5714285714286,
+      "raw_only_JPY_m2": 23142.85714285714
+    },
+    {
+      "yield": 0.7,
+      "price_JPY_kg_feed": 600,
+      "raw_purchase_JPY": 92571428.57142857,
+      "raw_only_JPY_good_kg": 857.1428571428572,
+      "raw_only_JPY_m2": 46285.71428571428
+    },
+    {
+      "yield": 0.7,
+      "price_JPY_kg_feed": 1500,
+      "raw_purchase_JPY": 231428571.42857143,
+      "raw_only_JPY_good_kg": 2142.857142857143,
+      "raw_only_JPY_m2": 115714.28571428571
+    },
+    {
+      "yield": 0.9,
+      "price_JPY_kg_feed": 300,
+      "raw_purchase_JPY": 36000000.0,
+      "raw_only_JPY_good_kg": 333.3333333333333,
+      "raw_only_JPY_m2": 18000.0
+    },
+    {
+      "yield": 0.9,
+      "price_JPY_kg_feed": 600,
+      "raw_purchase_JPY": 72000000.0,
+      "raw_only_JPY_good_kg": 666.6666666666666,
+      "raw_only_JPY_m2": 36000.0
+    },
+    {
+      "yield": 0.9,
+      "price_JPY_kg_feed": 1500,
+      "raw_purchase_JPY": 180000000.0,
+      "raw_only_JPY_good_kg": 1666.6666666666665,
+      "raw_only_JPY_m2": 90000.0
+    }
+  ],
+  "annual_replacement_sensitivity": [
+    {
+      "fraction_per_pass": 0.001,
+      "passes_year": 200,
+      "replacement_good_kg_year": 21600.0,
+      "finished_replacement_cost_ceiling_JPY_kg": 462.962962962963,
+      "raw_600_yield90_JPY_year": 14400000.0
+    },
+    {
+      "fraction_per_pass": 0.01,
+      "passes_year": 200,
+      "replacement_good_kg_year": 216000.0,
+      "finished_replacement_cost_ceiling_JPY_kg": 46.2962962962963,
+      "raw_600_yield90_JPY_year": 144000000.0
+    },
+    {
+      "fraction_per_pass": 0.1,
+      "passes_year": 200,
+      "replacement_good_kg_year": 2160000.0,
+      "finished_replacement_cost_ceiling_JPY_kg": 4.62962962962963,
+      "raw_600_yield90_JPY_year": 1440000000.0
+    }
+  ],
+  "numerical_checks": 30
+}

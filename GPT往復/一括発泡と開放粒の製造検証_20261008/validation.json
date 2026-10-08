@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "count": 30,
+  "physical_tests": 0,
+  "checks": [
+    {
+      "name": "bed_volume",
+      "actual": 900.0,
+      "expected": 900,
+      "passed": true
+    },
+    {
+      "name": "envelope_volume",
+      "actual": 450.0,
+      "expected": 450,
+      "passed": true
+    },
+    {
+      "name": "dry_mass",
+      "actual": 108000.0,
+      "expected": 108000,
+      "passed": true
+    },
+    {
+      "name": "repair_mass",
+      "actual": 1080.0,
+      "expected": 1080,
+      "passed": true
+    },
+    {
+      "name": "feed_mass",
+      "actual": 1200.0,
+      "expected": 1200,
+      "passed": true
+    },
+    {
+      "name": "reference_internal_water_limit",
+      "actual": 3.3666666666666667,
+      "expected": 3.3666666666666667,
+      "passed": true
+    },
+    {
+      "name": "solid_volume",
+      "actual": 86.4,
+      "expected": 86.4,
+      "passed": true
+    },
+    {
+      "name": "pore_volume",
+      "actual": 363.6,
+      "expected": 363.6,
+      "passed": true
+    },
+    {
+      "name": "wet10_percent",
+      "actual": 144360.0,
+      "expected": 144360,
+      "passed": true
+    },
+    {
+      "name": "wet50_percent",
+      "actual": 289800.0,
+      "expected": 289800,
+      "passed": true
+    },
+    {
+      "name": "wet100_percent",
+      "actual": 471600.0,
+      "expected": 471600,
+      "passed": true
+    },
+    {
+      "name": "neutral_saturation",
+      "actual": 0.9405940594059405,
+      "expected": 0.9405940594059405,
+      "passed": true
+    },
+    {
+      "name": "neutral_density",
+      "actual": 1000.0,
+      "expected": 1000,
+      "passed": true
+    },
+    {
+      "name": "S1_solvent_ratio",
+      "actual": 20.0,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "name": "S1_aqueous_ratio",
+      "actual": 140.0,
+      "expected": 140,
+      "passed": true
+    },
+    {
+      "name": "S1_emulsion_ratio",
+      "actual": 160.0,
+      "expected": 160,
+      "passed": true
+    },
+    {
+      "name": "initial_solvent",
+      "actual": 2400.0,
+      "expected": 2400,
+      "passed": true
+    },
+    {
+      "name": "initial_water_low",
+      "actual": 96800.0,
+      "expected": 96800,
+      "passed": true
+    },
+    {
+      "name": "initial_water_high",
+      "actual": 336800.0,
+      "expected": 336800,
+      "passed": true
+    },
+    {
+      "name": "factory_hold_lower_bound",
+      "actual": 144.0,
+      "expected": 144,
+      "passed": true
+    },
+    {
+      "name": "40min_hold_lower_bound",
+      "actual": 1727.9999999999995,
+      "expected": 1728,
+      "passed": true
+    },
+    {
+      "name": "empty_line_no_40min_output",
+      "passed": true
+    },
+    {
+      "name": "two_hour_feed_chamber",
+      "actual": 0.48,
+      "expected": 0.48,
+      "passed": true
+    },
+    {
+      "name": "raw_price_ceiling",
+      "actual": 416.6666666666667,
+      "expected": 416.6666666666667,
+      "passed": true
+    },
+    {
+      "name": "annual_1_percent_mass",
+      "actual": 216000.0,
+      "expected": 216000,
+      "passed": true
+    },
+    {
+      "name": "annual_cost_ceiling",
+      "actual": 46.2962962962963,
+      "expected": 46.2962962962963,
+      "passed": true
+    },
+    {
+      "name": "required_clear_opening",
+      "actual": 50,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "name": "WUR_exceeds_internal_capacity_in_both_definitions",
+      "passed": true
+    },
+    {
+      "name": "physical_probability_unassigned",
+      "passed": true
+    },
+    {
+      "name": "all_water_rows_conserve_mass",
+      "passed": true
+    }
+  ]
+}
