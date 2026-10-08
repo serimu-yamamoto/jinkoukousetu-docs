@@ -1,0 +1,181 @@
+{
+  "scope": "energy, force and bookkeeping only",
+  "physical_tests": 0,
+  "checks": [
+    {
+      "name": "zero_friction_conserves_energy",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "water_surface_tension_50C_near_table_value",
+      "passed": true,
+      "observed": 0.06794390594487329
+    },
+    {
+      "name": "beam_pair_stiffness",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "preload_adds_work_not_free_energy",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "45deg_analytic_return_ratio",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "high_friction_locks_some_angles",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "high_angle_forward_jamming",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "mu_above_one_no_angle_satisfies_both",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loading_energy_balance_35_0.3",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "unloading_energy_balance_35_0.3",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loop_area_is_friction_loss_35_0.3",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loading_energy_balance_45_0.6",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "unloading_energy_balance_45_0.6",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loop_area_is_friction_loss_45_0.6",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loading_energy_balance_45_0.8",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "unloading_energy_balance_45_0.8",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loop_area_is_friction_loss_45_0.8",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "residual_offsets_satisfy_force_balance",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "high_loss_can_fail_wet_return",
+      "passed": true,
+      "observed": 2.7663389020130253
+    },
+    {
+      "name": "preload_improves_ideal_return_with_force_penalty",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "equal_area_subdivision_preserves_area",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "equal_area_subdivision_increases_force",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "shrinking_loaded_patch_raises_pressure",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "additional_mass_conservation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "H57_energy_positive_but_zero_modeled_dissipation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "no_physical_probability_assertion",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "component_loss_not_whole_grain_loss",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "whole_grain_energy_conservation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "series_force_capacity_not_assumed_100kPa",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "energy_loss_cannot_exceed_component_limit",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "energy_scaling_inverse_is_consistent",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "candidate_bound_meets_only_assumed_mu_range",
+      "passed": true,
+      "observed": 0.9827684981016174
+    },
+    {
+      "name": "candidate_still_fails_higher_mu",
+      "passed": true,
+      "observed": 2.21122912072864
+    },
+    {
+      "name": "width_increase_doubles_material_only",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "shorter_stroke_reduces_bending_strain",
+      "passed": true,
+      "observed": null
+    }
+  ]
+}

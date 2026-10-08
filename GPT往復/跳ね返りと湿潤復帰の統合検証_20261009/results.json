@@ -1,0 +1,233 @@
+{
+  "cycle": 58,
+  "physical_tests": 0,
+  "success_probability": null,
+  "kz_N_m": 13.888888888888886,
+  "water_surface_tension_N_m": 0.06794390594487329,
+  "nominal_cam_mu03": {
+    "angle_deg": 45,
+    "mu": 0.3,
+    "preload_uN": 0.0,
+    "status": "SELF_RETURN_IDEAL",
+    "ratio_load": 1.8571428571428568,
+    "ratio_return": 0.5384615384615385,
+    "load_work_J": 5.158730158730155e-09,
+    "return_work_J": 1.4957264957264951e-09,
+    "dissipated_fraction": 0.7100591715976331,
+    "peak_force_N": 0.0005158730158730155,
+    "peak_contact_pressure_MPa": 0.9353264301409353
+  },
+  "nominal_cam_mu06": {
+    "angle_deg": 45,
+    "mu": 0.6,
+    "preload_uN": 0.0,
+    "status": "SELF_RETURN_IDEAL",
+    "ratio_load": 3.9999999999999982,
+    "ratio_return": 0.24999999999999997,
+    "load_work_J": 1.11111111111111e-08,
+    "return_work_J": 6.94444444444444e-10,
+    "dissipated_fraction": 0.9374999999999999,
+    "peak_force_N": 0.00111111111111111,
+    "peak_contact_pressure_MPa": 1.6368212527466366
+  },
+  "nominal_cam_mu08": {
+    "angle_deg": 45,
+    "mu": 0.8,
+    "preload_uN": 0.0,
+    "status": "SELF_RETURN_IDEAL",
+    "ratio_load": 8.999999999999996,
+    "ratio_return": 0.11111111111111104,
+    "load_work_J": 2.4999999999999976e-08,
+    "return_work_J": 3.086419753086416e-10,
+    "dissipated_fraction": 0.9876543209876544,
+    "peak_force_N": 0.0024999999999999974,
+    "peak_contact_pressure_MPa": 3.273642505493275
+  },
+  "wet_high_friction_no_preload": {
+    "angle_deg": 45,
+    "mu": 0.8,
+    "preload_uN": 0,
+    "bridge_radius_um": 10,
+    "adhesion_force_uN": 4.269041515452195,
+    "residual_offset_um": 2.7663389020130253,
+    "within_assumed_1um": false,
+    "status": "RESIDUAL_OFFSET",
+    "max_bridge_radius_for_tolerance_um": 3.6148860838139316,
+    "peak_projected_shear_kPa": 39.999999999999964
+  },
+  "wet_high_friction_with_preload": {
+    "angle_deg": 45,
+    "mu": 0.8,
+    "preload_uN": 50,
+    "bridge_radius_um": 10,
+    "adhesion_force_uN": 4.269041515452195,
+    "residual_offset_um": 0.0,
+    "within_assumed_1um": true,
+    "status": "RETURNS_WITHIN_ASSUMED_TOLERANCE",
+    "max_bridge_radius_for_tolerance_um": 16.628475985544092,
+    "peak_projected_shear_kPa": 47.19999999999996
+  },
+  "pressure_tradeoff": [
+    {
+      "mu": 0.3,
+      "maximum_single_bridge_radius_um": 17.51829409848292,
+      "nominal_contact_pressure_MPa": 0.9353264301409353,
+      "pressure_if_contact_radius_equals_bridge_radius_MPa": 0.582077695912285
+    },
+    {
+      "mu": 0.6,
+      "maximum_single_bridge_radius_um": 8.133493688581352,
+      "nominal_contact_pressure_MPa": 1.6368212527466366,
+      "pressure_if_contact_radius_equals_bridge_radius_MPa": 4.725506501725771
+    },
+    {
+      "mu": 0.8,
+      "maximum_single_bridge_radius_um": 3.614886083813932,
+      "nominal_contact_pressure_MPa": 3.273642505493275,
+      "pressure_if_contact_radius_equals_bridge_radius_MPa": 47.84575332997352
+    }
+  ],
+  "additional_flexures_mass_kg": 4424.827243236183,
+  "grain_count": 3429460598986.378,
+  "maximum_H57_stored_normal_energy_J": 5.347182054537057e-07,
+  "algebra_checks": 35,
+  "note": "No experimentally measured damping, shear release, return speed, friction law, temperature durability, or safety. Friction loss fraction is NOT probability.",
+  "whole_grain_energy": [
+    {
+      "mu": 0.3,
+      "normal_elastic_energy_J": 5.347182054537057e-07,
+      "cam_input_work_J": 2.063492063492062e-08,
+      "cam_loss_J": 1.4652014652014641e-08,
+      "cam_only_loss_fraction": 0.7100591715976331,
+      "combined_input_work_J": 5.553531260886263e-07,
+      "combined_loss_fraction": 0.02638323971489879,
+      "series_peak_projected_pressure_kPa": 1.9061723173244773
+    },
+    {
+      "mu": 0.6,
+      "normal_elastic_energy_J": 5.347182054537057e-07,
+      "cam_input_work_J": 4.44444444444444e-08,
+      "cam_loss_J": 4.166666666666662e-08,
+      "cam_only_loss_fraction": 0.9374999999999999,
+      "combined_input_work_J": 5.791626498981501e-07,
+      "combined_loss_fraction": 0.07194294499825567,
+      "series_peak_projected_pressure_kPa": 4.105601914237335
+    },
+    {
+      "mu": 0.8,
+      "normal_elastic_energy_J": 5.347182054537057e-07,
+      "cam_input_work_J": 9.99999999999999e-08,
+      "cam_loss_J": 9.876543209876534e-08,
+      "cam_only_loss_fraction": 0.9876543209876544,
+      "combined_input_work_J": 6.347182054537056e-07,
+      "combined_loss_fraction": 0.15560516659226184,
+      "series_peak_projected_pressure_kPa": 9.237604307034003
+    }
+  ],
+  "energy_scale_examples": [
+    {
+      "mu": 0.3,
+      "example_total_loss_target": 0.5,
+      "cam_work_scale_required": 61.68087468543455,
+      "extra_flexure_mass_if_parallel_replication_kg": 272927.2146947478,
+      "status": "IDEAL_ENERGY_SCALING_NOT_A_BUILDABLE_DESIGN"
+    },
+    {
+      "mu": 0.3,
+      "example_total_loss_target": 0.8,
+      "cam_work_scale_required": null,
+      "extra_flexure_mass_if_parallel_replication_kg": null,
+      "status": "UNATTAINABLE_WITH_THIS_COMPONENT_LOSS"
+    },
+    {
+      "mu": 0.6,
+      "example_total_loss_target": 0.5,
+      "cam_work_scale_required": 13.749896711666734,
+      "extra_flexure_mass_if_parallel_replication_kg": 60840.91756146657,
+      "status": "IDEAL_ENERGY_SCALING_NOT_A_BUILDABLE_DESIGN"
+    },
+    {
+      "mu": 0.6,
+      "example_total_loss_target": 0.8,
+      "cam_work_scale_required": 69.99947416848526,
+      "extra_flexure_mass_if_parallel_replication_kg": 309735.580312921,
+      "status": "IDEAL_ENERGY_SCALING_NOT_A_BUILDABLE_DESIGN"
+    },
+    {
+      "mu": 0.8,
+      "example_total_loss_target": 0.5,
+      "cam_work_scale_required": 5.482553752120278,
+      "extra_flexure_mass_if_parallel_replication_kg": 24259.35320488856,
+      "status": "IDEAL_ENERGY_SCALING_NOT_A_BUILDABLE_DESIGN"
+    },
+    {
+      "mu": 0.8,
+      "example_total_loss_target": 0.8,
+      "cam_work_scale_required": 22.795881390394843,
+      "extra_flexure_mass_if_parallel_replication_kg": 100867.83700979981,
+      "status": "IDEAL_ENERGY_SCALING_NOT_A_BUILDABLE_DESIGN"
+    }
+  ],
+  "candidate": {
+    "specification": {
+      "name": "H58-C no-preload wide restoring flexures",
+      "beam_width_um": 120,
+      "stroke_um": 10,
+      "E_MPa_cases": [
+        80,
+        100
+      ],
+      "width_um_cases": [
+        115,
+        120,
+        125
+      ],
+      "thickness_um_cases": [
+        19,
+        20,
+        21
+      ],
+      "length_um_cases": [
+        118,
+        120,
+        122
+      ],
+      "mu_cases": [
+        0.3,
+        0.6,
+        0.8
+      ],
+      "assumed_bridge_radius_um": 10,
+      "notes": "Conditional geometry specification. E >= 80 MPa and mu <= 0.6 at 50 C are requirements, not measured properties."
+    },
+    "worst_in_required_mu_range": {
+      "E_MPa": 80,
+      "width_um": 115,
+      "thickness_um": 19,
+      "length_um": 122,
+      "mu": 0.6,
+      "kz_N_m": 17.375573285869734,
+      "residual_offset_um": 0.9827684981016174,
+      "peak_projected_shear_kPa": 11.12036690295663,
+      "linear_beam_strain": 0.019148078473528618,
+      "within_assumed_1um": true
+    },
+    "higher_mu_counterexample": {
+      "E_MPa": 80,
+      "width_um": 115,
+      "thickness_um": 19,
+      "length_um": 122,
+      "mu": 0.8,
+      "kz_N_m": 17.375573285869734,
+      "residual_offset_um": 2.21122912072864,
+      "peak_projected_shear_kPa": 25.020825531652424,
+      "linear_beam_strain": 0.019148078473528618,
+      "within_assumed_1um": false
+    },
+    "additional_flexure_mass_kg": 8849.654486472366,
+    "maximum_computed_beam_strain": 0.022622809537489224,
+    "nominal_material_cost_yen_at_1000_per_kg": 8849654.486472366,
+    "number_of_sensitivity_cases": 162,
+    "warning": "Bounds are not independent trials or an observed manufacturing yield. No 3D fit, wet friction, measured E, fatigue or ski feel validation."
+  }
+}

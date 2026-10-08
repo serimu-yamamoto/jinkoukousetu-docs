@@ -1,0 +1,175 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "d710157c0968dd39c1064ccda203efd66ca1c572",
+  "cycle": 58,
+  "physical_tests": 0,
+  "success_probability": null,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第58巡_内部摩擦で雪の切れと復帰を両立する条件_20261009.md",
+      "bytes": 12385,
+      "sha256": "ba59e7403e93e33e5dae2041dcd0b2fa3ea6b0f7165a8d7c1a8f60aa05d781a5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 39845,
+      "sha256": "66e00f5cf8020fb4cd83b40255ba4c6c93529a9c9a730f72e9ff1a2203f33cd4"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/README.md",
+      "bytes": 2251,
+      "sha256": "3e2224c6583a9f0f5889ff596718ae3b8b2b5344ddc78f1972d2b88742744319"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/additional_flexure_cost.csv",
+      "bytes": 265,
+      "sha256": "45ff24494cf0bf677cb047fab4e38490d9cd22682a334a20b901f83302d96056"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/audit.py",
+      "bytes": 4123,
+      "sha256": "b26d8866d7f4bd98c5ca0ea7513044519adb093be50bd0cead90b38313efe915"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/bridge_splitting.csv",
+      "bytes": 225,
+      "sha256": "474d4714b4ff6f194d780972faa3808997740e02f75e9a7b81902ea91c481724"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/calculate.py",
+      "bytes": 14271,
+      "sha256": "db6306bb61cd46ab9c75348936c1fe2456eaa414ccf477cc10b0c4486d4d654b"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/cam_regimes.csv",
+      "bytes": 3914,
+      "sha256": "5e07b0c0ba61c8b74b5882c326269ccdccc05e260be14b625f18451975bb1597"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/candidate_tolerance.csv",
+      "bytes": 16130,
+      "sha256": "f545d96a8bc8c91e6e49cb1775eb61de8f99c52c017c417c99faceb3087ef2f5"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/contact_pressure_tradeoff.csv",
+      "bytes": 292,
+      "sha256": "c058bfca87c79bc2d8393301070fad4698d12952002a528f82988ef396e8068b"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/damping_scale_cost.csv",
+      "bytes": 596,
+      "sha256": "d1db1387f60cac5b0c713a6e40c7a0e144dea819c794021735c30cd9789f6c78"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/document-audit.json",
+      "bytes": 2491,
+      "sha256": "ed34d327690d8e0f96d75eede2df3ced60d05a2a5fb806f8a9cba54ac083c3ad"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/draw.py",
+      "bytes": 4452,
+      "sha256": "3e02ae4491578a415341455180f989b662172c94650b4c7975459fa4e7587300"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/figure1_force_return.png",
+      "bytes": 151874,
+      "sha256": "bc211f3a202e102f5e0880d4c6ca9e9685cac6ada6f7580071220ac9a6a7f272"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/figure1_force_return.svg",
+      "bytes": 66731,
+      "sha256": "2162457abbfecba03fd9fb10115711239af2afa322c81caecf8ce874a2d8e30a"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/figure2_wet_tolerance.png",
+      "bytes": 97439,
+      "sha256": "724d00035104bddb557c65d78563abd55da2f39dd1a64834801f312672fd2aed"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/figure2_wet_tolerance.svg",
+      "bytes": 26797,
+      "sha256": "8380b6f7bd0db31f1ab44866576b229e76da4f97a2109079a1f09a8b1258cef7"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/figure3_energy_cost.png",
+      "bytes": 78336,
+      "sha256": "8b112067c91a1fbde1c031e17c25a1af0f5a6bb82c18b81ebe96e1b3b7a9d9d5"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/figure3_energy_cost.svg",
+      "bytes": 20205,
+      "sha256": "dcb935cbb769b1afee2cc45734dddc5cfc60fe0394bd91782a5abf789d577b9d"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/flexure_strain.csv",
+      "bytes": 452,
+      "sha256": "e0ea4dc28b265f55652c807fb5fe7cc94b20bb0ddfe7e3795376e477d7081452"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/force_branches.csv",
+      "bytes": 20494,
+      "sha256": "5ca9676ee284056f54b8a96cbcbb048745238b7a3449b357ace6e566170e23b3"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/inputs.json",
+      "bytes": 3244,
+      "sha256": "cfa6673448df1744b2c687a0843ab40afa80ff2c3a35d14a72a79672015fd4a6"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/model.md",
+      "bytes": 5653,
+      "sha256": "832d63ed73fcceaac650f7d254cac8e36f83a7552321f6d17f0afffc75c2d96d"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/prior_elastic_energy.csv",
+      "bytes": 254,
+      "sha256": "788701e31928a895ac055d069ee180971f99bd18f9fc0e1a5ee08ec1c0881a73"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/provenance.json",
+      "bytes": 1491,
+      "sha256": "20bdf37b772d2a3c37ba69054910700dc1bef2c35dff6ccc902086bb86452ae5"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/results.json",
+      "bytes": 7855,
+      "sha256": "b9a84824d729913631c2cb3b1fcf2861ced1650402b80fa4487e9ffedebbc40e"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/sources.md",
+      "bytes": 3405,
+      "sha256": "83759b8c62ef56f3d43a6a04f20d6638b8aa4cac80f0ab791ee653da6b4c10c2"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/test_plan.json",
+      "bytes": 2706,
+      "sha256": "1952fb8ef0abb73b841172638cabc6069ce5a1918642fd17e66ea58bef2acefa"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/validation.json",
+      "bytes": 3998,
+      "sha256": "1a466acd19f7b84ddff1c83b33056deb91bb5e25af4685b9c1dd791bbec27691"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/wet_return.csv",
+      "bytes": 3937,
+      "sha256": "3fa6449a223789f31ff0df7477e9d7d878aaab13d2d78e029aeb4f0f8b5d3a39"
+    },
+    {
+      "path": "GPT往復/跳ね返りと湿潤復帰の統合検証_20261009/whole_grain_energy.csv",
+      "bytes": 605,
+      "sha256": "4a5edeb0078e3537a82307fc72272584c63cdca23c92362e54a2d5493549498b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 47244,
+      "sha256": "eaf2f5202f440ae7b089bf0bebf7037e47c365eb2b856379cb8a566e777f1440"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 120982,
+      "sha256": "85df66fd42f4f47e4267c05f5243f12732fb8512ebb9a98d76b1158b880184ab"
+    }
+  ]
+}

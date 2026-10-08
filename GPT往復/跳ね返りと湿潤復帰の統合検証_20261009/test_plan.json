@@ -1,0 +1,53 @@
+{
+  "cycle": 58,
+  "status": "NOT_EXECUTED",
+  "physical_tests": 0,
+  "success_probability": null,
+  "materials_status": "Specific final formulation not selected or measured",
+  "comparison": [
+    "natural groomed fresh snow with recorded density, temperature and history",
+    "H57 support only",
+    "H58 60 um beam internal cam",
+    "H58-C 120 um beam / 10 um travel",
+    "viscoelastic same-size alternative",
+    "bistable shell with explicit reset work"
+  ],
+  "priority_measurements": [
+    {
+      "item": "Finished-material static and dynamic friction at internal contacts",
+      "conditions": "23 and 50 C; dry, wetted, after drying, after wear; stop/restart and load dependence",
+      "reason": "Restoration must use static friction, not just kinetic friction."
+    },
+    {
+      "item": "Beam modulus and force-displacement cycle",
+      "conditions": "True-size geometry, 50 C exposure, at least three independently made lots; record actual dimensions and flaws",
+      "reason": "Assumed E >= 80 MPa and specified tolerances are not observations."
+    },
+    {
+      "item": "Liquid bridge force and drainage",
+      "conditions": "Measure actual bridge volume, wetting history, mud contamination and contact shape",
+      "reason": "The 2 pi R gamma model is a scale estimate, not a calibrated law."
+    },
+    {
+      "item": "Snow and candidate blade force traces",
+      "conditions": "Same blade, edge angle, speed, depth and instrument bandwidth; include post-peak force, release and re-engagement",
+      "reason": "Do not digitize the conceptual Fig.1 from S1 as experimental data."
+    },
+    {
+      "item": "Combined normal and shear work",
+      "conditions": "Measure both components at synchronized strokes and rates",
+      "reason": "A component loss percentage does not establish whole-grain or whole-bed behavior."
+    }
+  ],
+  "retained_gates": [
+    "50 C for 4-5 h operating interval and repeated loading",
+    "ski glide friction, edge penetration, release, vibration and stop/restart relative to groomed snow",
+    "finished particle and wear/extractables safety",
+    "winter snow bonding, drainage, frozen blockage and excess melting",
+    "rain/typhoon containment and functional recovery within ~60 min closure",
+    "full-depth performance after 300 mm gouging",
+    "manufacturing yield and lifetime cost including excluded components"
+  ],
+  "acceptance": "Prespecify equivalence limits using independent measured snow references. No physical acceptance limits are inferred solely from model sweeps. Sensitivity cases are not reliability trials.",
+  "procurement_or_execution": "No supplier contact, purchase, manufacture or physical test was performed."
+}

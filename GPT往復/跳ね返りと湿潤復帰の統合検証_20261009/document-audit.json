@@ -1,0 +1,116 @@
+{
+  "cycle": 58,
+  "scope": "document checks only",
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "35_algebra_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "physical_tests_zero",
+      "passed": true
+    },
+    {
+      "name": "probability_not_fabricated",
+      "passed": true
+    },
+    {
+      "name": "test_plan_not_executed",
+      "passed": true
+    },
+    {
+      "name": "component_loss_not_success_rate",
+      "passed": true
+    },
+    {
+      "name": "candidate_small_margin_disclosed",
+      "passed": true
+    },
+    {
+      "name": "no_snow_waveform_fabrication",
+      "passed": true
+    },
+    {
+      "name": "budget_scope_retained",
+      "passed": true
+    },
+    {
+      "name": "spray_objective_retained",
+      "passed": true
+    },
+    {
+      "name": "source_experiment_scope_disclosed",
+      "passed": true
+    },
+    {
+      "name": "rounded_candidate_offset_matches",
+      "passed": true
+    },
+    {
+      "name": "rounded_mass_matches",
+      "passed": true
+    },
+    {
+      "name": "rounded_combined_loss_matches",
+      "passed": true
+    },
+    {
+      "name": "new_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "11_tables_present",
+      "passed": true
+    },
+    {
+      "name": "162_candidate_cases",
+      "passed": true
+    },
+    {
+      "name": "figure_figure1_force_return",
+      "passed": true
+    },
+    {
+      "name": "figure_figure2_wet_tolerance",
+      "passed": true
+    },
+    {
+      "name": "figure_figure3_energy_cost",
+      "passed": true
+    },
+    {
+      "name": "history_retained_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "history_retained_README.md",
+      "passed": true
+    },
+    {
+      "name": "history_retained_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "board_latest_pointer_is_cycle58",
+      "passed": true
+    }
+  ],
+  "history_check": "VERIFIED_WITH_TWO_DOCUMENTED_NAVIGATION_REPLACEMENTS",
+  "csv_rows": {
+    "additional_flexure_cost.csv": 3,
+    "bridge_splitting.csv": 3,
+    "cam_regimes.csv": 25,
+    "candidate_tolerance.csv": 162,
+    "contact_pressure_tradeoff.csv": 3,
+    "damping_scale_cost.csv": 6,
+    "flexure_strain.csv": 4,
+    "force_branches.csv": 404,
+    "prior_elastic_energy.csv": 4,
+    "wet_return.csv": 36,
+    "whole_grain_energy.csv": 3
+  },
+  "total_csv_rows": 653,
+  "visual_review": "All three generated PNGs reviewed; labels readable and plots not clipped."
+}

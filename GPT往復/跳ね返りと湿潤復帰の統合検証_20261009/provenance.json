@@ -1,0 +1,45 @@
+{
+  "date_jst": "2026-10-09",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "d710157c0968dd39c1064ccda203efd66ca1c572",
+  "claude_updates_after_base": 0,
+  "claude_acknowledgement": null,
+  "physical_tests": 0,
+  "success_probability": null,
+  "source_access": [
+    {
+      "id": "S1",
+      "doi": "10.3189/002214311796405924",
+      "read": "publisher full text; figures assessed through captions; author PDF direct fetch 404",
+      "waveform_data_reanalysed": false
+    },
+    {
+      "id": "S2",
+      "doi": "10.1016/j.ijmecsci.2025.110023",
+      "read": "author repository search-provided text and conclusion; direct PDF fetch 403",
+      "experimental_validation": "still needed per conclusion"
+    },
+    {
+      "id": "S3",
+      "doi": "10.1016/j.euromechsol.2026.106211",
+      "read": "publisher search-provided abstract and highlights only"
+    },
+    {
+      "id": "S4",
+      "doi": "10.1016/j.tws.2026.115185",
+      "read": "publisher search-provided abstract and publication metadata only"
+    },
+    {
+      "id": "S5",
+      "source": "IAPWS R1-76(2014)",
+      "read": "official equation and coefficients",
+      "only_surface_tension_calibrated": true
+    }
+  ],
+  "physical_limitations": [
+    "No measured force traces for proposed material",
+    "No measured 50 C modulus or wet internal friction",
+    "No CAD/FEA/DEM for the combined grain",
+    "No wear, exposure or safety evidence for the finished particle"
+  ]
+}

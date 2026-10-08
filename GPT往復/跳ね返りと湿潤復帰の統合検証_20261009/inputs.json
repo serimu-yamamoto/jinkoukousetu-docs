@@ -1,0 +1,132 @@
+{
+  "cycle": 58,
+  "base_commit": "d710157c0968dd39c1064ccda203efd66ca1c572",
+  "physical_tests": 0,
+  "success_probability": null,
+  "temperature_C": 50,
+  "cam": {
+    "angles_deg": [
+      20,
+      30,
+      35,
+      45,
+      55
+    ],
+    "friction_coefficients": [
+      0.1,
+      0.3,
+      0.6,
+      0.8,
+      1.1
+    ],
+    "nominal_angle_deg": 45,
+    "stroke_um": 20,
+    "preloads_uN": [
+      0,
+      50
+    ],
+    "beams_per_cam": 2,
+    "cams_per_grain": 4,
+    "beam_E_MPa": 100,
+    "beam_width_um": 60,
+    "beam_thickness_um": 20,
+    "beam_length_um": 120,
+    "solid_density_kg_m3": 1120,
+    "contact_area_um2": 600
+  },
+  "wet": {
+    "bridge_radius_um": [
+      5,
+      10,
+      20
+    ],
+    "bridge_cos_contact_angle": 1,
+    "return_tolerance_um": 1,
+    "equal_area_bridge_counts": [
+      1,
+      4,
+      16
+    ]
+  },
+  "cost": {
+    "course_area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "packing_fraction": 0.55,
+    "material_prices_yen_kg": [
+      1000,
+      3000,
+      10000
+    ]
+  },
+  "prior_normal_model": {
+    "cell": {
+      "W0_um": 500,
+      "theta0_deg": -30,
+      "a": 1.5,
+      "hinges": 4,
+      "b_um": 40,
+      "t_um": 20,
+      "l_um": 40,
+      "E_MPa": 20
+    },
+    "geometry": {
+      "W0_um": 500.00000000000006,
+      "H0_um": 577.3502691896257,
+      "L_um": 288.67513459481285,
+      "footprint_m2": 2.5e-7
+    },
+    "progressive_core": {
+      "transition_cell_strain": 0.08340500003104334,
+      "required_pair_gap_um": 10,
+      "soft_stiffness_N_m": 25.723856061788467,
+      "added_stiffness_N_m": 591.69539186867,
+      "transition_shortening_um": 48.15389921968361,
+      "transition_core_strain": 0.12038474804920904,
+      "high_to_low_tangent_ratio": 24.00181553058853,
+      "soft_equivalent_modulus_kPa": 152.21216604608566,
+      "high_equivalent_tangent_modulus_kPa": 3653.3683309494586,
+      "warning": "Both design points are inverse specifications, NOT successful physical predictions; kink, hysteresis, buckling, joints and 3D fit are unmodeled."
+    }
+  },
+  "notes": "All cam geometry, E at 50 C, friction, bridge geometry, pretension, prices and packing are unmeasured scenarios. Water surface tension only is from IAPWS; capillary force is an ideal reference, not a calibrated bridge/contact law. No physical tests or success probability.",
+  "energy_audit": {
+    "normal_strain": 0.15,
+    "total_loss_examples": [
+      0.5,
+      0.8
+    ],
+    "cam_lever_ratio": 0.2309401076758503,
+    "notes": "Energy fractions are bookkeeping examples, never reliability or snow-equivalence targets. Combined energies assume independent full prescribed strokes."
+  },
+  "candidate": {
+    "name": "H58-C no-preload wide restoring flexures",
+    "beam_width_um": 120,
+    "stroke_um": 10,
+    "E_MPa_cases": [
+      80,
+      100
+    ],
+    "width_um_cases": [
+      115,
+      120,
+      125
+    ],
+    "thickness_um_cases": [
+      19,
+      20,
+      21
+    ],
+    "length_um_cases": [
+      118,
+      120,
+      122
+    ],
+    "mu_cases": [
+      0.3,
+      0.6,
+      0.8
+    ],
+    "assumed_bridge_radius_um": 10,
+    "notes": "Conditional geometry specification. E >= 80 MPa and mu <= 0.6 at 50 C are requirements, not measured properties."
+  }
+}
