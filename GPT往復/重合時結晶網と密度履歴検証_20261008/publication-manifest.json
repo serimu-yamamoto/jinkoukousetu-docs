@@ -1,0 +1,76 @@
+{
+  "cycle": 29,
+  "date": "2026-10-08",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "2ebf16ed4c576b29c0c04e68a501ad3dde7f9b8e",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第29巡_重合時の結晶網と密度履歴の設計_20261008.md",
+      "bytes": 21106,
+      "sha256": "4e993f1ea84bf3f32cb666d39502bb2a3cb87a0b742fd61ddaacb14829c597a8"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 18357,
+      "sha256": "9f6c7c7b67ee7c908d527f055a3a35a5fa74c95719b6e50714324d098915a620"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/README.md",
+      "bytes": 3010,
+      "sha256": "b1006aca39c3e04ee111fddf7202db9134ee9ffc7b270846cc991259902240af"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/calculate.py",
+      "bytes": 7524,
+      "sha256": "c1ad14e06d80f8c471cd591dcd4176ef3019cfda6fcbbdc2213c0db82f6e2346"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/figure1_density_inventory.png",
+      "bytes": 133000,
+      "sha256": "450fcce5d802cea97af639673a56cf3f09996699ee9ff93f81d6dcf691b49c5d"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/figure2_structure_retention.png",
+      "bytes": 187760,
+      "sha256": "27d0cecc93f4d10bdb77efe6e3ed828a39dc295b25abe272f46869753bf67231"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/inputs.json",
+      "bytes": 3490,
+      "sha256": "20c721cf4e8e861e87603e5aafceaa3f70cc05c3822ad62cee969b44d1fd0d2a"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/plot.py",
+      "bytes": 3152,
+      "sha256": "e1cd8d83fdbcf9d47d3b5b32be8b17d5405a08e2fb98a8c65b0f579270a87921"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/results.json",
+      "bytes": 33882,
+      "sha256": "e76f3eead12723819b279ddc2c5dafd138c0c121aac585a9c43654d2160774df"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/sources.md",
+      "bytes": 4756,
+      "sha256": "22bbc7f4a7fe8084e678ae0cbb5000020a5b18040467f04bb60364bafa6fa10a"
+    },
+    {
+      "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/validation.json",
+      "bytes": 2772,
+      "sha256": "6e93b152d70d4574cd2d46e9dd24232037f6ed30b61754be898471640678f97c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 25076,
+      "sha256": "16eca4c4d4a03990091d3a633455f5f79b2cbf31ed605c7490493f503db10fd4"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 81489,
+      "sha256": "9c84df190b4f15b451da744491b750761343e000af5d311dbb5d99d3377b3b80"
+    }
+  ]
+}

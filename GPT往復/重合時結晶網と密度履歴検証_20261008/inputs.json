@@ -1,0 +1,146 @@
+{
+  "cycle": 29,
+  "date": "2026-10-08",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "comparison": {
+    "finished_depth_m": 0.45,
+    "finished_density_kg_m3": 120,
+    "areas_m2": [
+      2000,
+      20000
+    ],
+    "hypothetical_delivered_price_jpy_kg": 500,
+    "annual_grooming_cycles": 200,
+    "hypothetical_annual_material_budget_jpy": 10000000,
+    "hypothetical_truck_mass_kg": 10000,
+    "hypothetical_truck_volume_m3": 50,
+    "hypothetical_trip_jpy": 100000
+  },
+  "scenario": {
+    "bed_densities_kg_m3": [
+      60,
+      90,
+      120,
+      180,
+      250,
+      350,
+      450,
+      500
+    ],
+    "incoming_densities_kg_m3": [
+      50,
+      60,
+      70,
+      90,
+      120,
+      250,
+      350,
+      450
+    ],
+    "finished_densities_kg_m3": [
+      120,
+      180,
+      250
+    ],
+    "damaged_density_kg_m3": [
+      180,
+      250,
+      450
+    ],
+    "damage_fraction_per_full_bed_cycle": [
+      0,
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "cycles": [
+      0,
+      10,
+      100,
+      200,
+      500
+    ],
+    "processed_depths_m": [
+      0.02,
+      0.1,
+      0.45
+    ],
+    "damage_fraction_in_processed_mass": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "prices_jpy_kg": [
+      300,
+      500,
+      1000
+    ],
+    "annual_contamination_rejection_fraction": [
+      0,
+      0.001,
+      0.01,
+      0.05
+    ]
+  },
+  "source_observations": [
+    {
+      "id": "S1",
+      "material": "PE-120 / PE-140",
+      "bulk_density_kg_m3": [
+        450,
+        500
+      ],
+      "particle_size_um": [
+        178.9,
+        115.9
+      ],
+      "scope": "Different 2020 research specimens, not new H29 specimens"
+    },
+    {
+      "id": "S2",
+      "material": "selected low-density nascent reactor powders",
+      "bulk_density_kg_m3": [
+        50,
+        90
+      ],
+      "scope": "Range discussed in paper; Table 1 also has higher-density counterexamples. Lab-produced dried powder, not aged ski bed"
+    },
+    {
+      "id": "S3",
+      "material": "e-UHm / d-UHm / d-UHh",
+      "bulk_density_kg_m3": [
+        450,
+        350,
+        352
+      ],
+      "scope": "ASTM D1895/A, not S2 materials"
+    },
+    {
+      "id": "S4",
+      "material": "GUR2122 / GUR4120",
+      "bulk_density_kg_m3": [
+        250,
+        450
+      ],
+      "solid_density_kg_m3": [
+        930,
+        930
+      ],
+      "HDT_A_at_1_8MPa_C": [
+        41,
+        41
+      ],
+      "scope": "2016 brochure typical molded-specimen HDT, not universal 50C operating limit"
+    }
+  ],
+  "assumptions_and_limits": [
+    "120 kg/m3 is a comparison target, not a demonstrated finished density or snow-feel optimum.",
+    "500 JPY/kg and all transport/annual budget values are hypothetical, ex-tax; not supplier quotes.",
+    "Damage fraction is an unknown morphological conversion fraction, not dust emission or measured attrition.",
+    "Mixture model adds separately measured apparent bulk volumes; nonconvex particles may interpenetrate. It is a reference, not a proven upper/lower bound.",
+    "Renewal assumes rejected morphology cannot be restored onsite, replacement material equal in mass; no disposal/salvage/energy cost included.",
+    "Vehicle numbers are volume/mass bookkeeping only; no road, bag compression, packing efficiency or commercial availability validation.",
+    "Annual contamination fractions are hypothetical non-overlapping replacements, not measured mold growth or antimicrobial performance."
+  ]
+}

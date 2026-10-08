@@ -1,0 +1,102 @@
+{
+  "check_count": 19,
+  "checks": [
+    {
+      "name": "2000m2 reference mass",
+      "passed": true,
+      "detail": "108 t"
+    },
+    {
+      "name": "20000m2 reference mass",
+      "passed": true,
+      "detail": "1080 t"
+    },
+    {
+      "name": "450 density equal-cost ceiling",
+      "passed": true,
+      "detail": "not a market quote"
+    },
+    {
+      "name": "60 to 120 loose depth",
+      "passed": true,
+      "detail": "mass per area conserved"
+    },
+    {
+      "name": "450 to 120 requires expansion",
+      "passed": true,
+      "detail": "roller compaction alone does not specify expansion"
+    },
+    {
+      "name": "decay recurrence q=0, n=200",
+      "passed": true,
+      "detail": "independent Decimal recurrence"
+    },
+    {
+      "name": "decay recurrence q=0.0001, n=500",
+      "passed": true,
+      "detail": "independent Decimal recurrence"
+    },
+    {
+      "name": "decay recurrence q=0.001, n=200",
+      "passed": true,
+      "detail": "independent Decimal recurrence"
+    },
+    {
+      "name": "decay recurrence q=0.01, n=100",
+      "passed": true,
+      "detail": "independent Decimal recurrence"
+    },
+    {
+      "name": "no damage retains original thickness",
+      "passed": true,
+      "detail": "q=0"
+    },
+    {
+      "name": "all damaged reference limit",
+      "passed": true,
+      "detail": "same dry mass, additive bulk-volume reference"
+    },
+    {
+      "name": "no density contrast",
+      "passed": true,
+      "detail": "conversion with equal density cannot alter reference depth"
+    },
+    {
+      "name": "bed mass and cost conservation",
+      "passed": true,
+      "detail": "all density rows"
+    },
+    {
+      "name": "monotone ideal depth under damage",
+      "passed": true,
+      "detail": "rd >= rho0"
+    },
+    {
+      "name": "new powder renewal includes only processed mass",
+      "passed": true,
+      "detail": "200 annual cycles is an assumption"
+    },
+    {
+      "name": "budget inversion",
+      "passed": true,
+      "detail": "material purchases only"
+    },
+    {
+      "name": "truck capacity and integer minimality",
+      "passed": true,
+      "detail": "10 t, 50 m3 purely hypothetical, no route survey"
+    },
+    {
+      "name": "contamination 1% reference",
+      "passed": true,
+      "detail": "annual replacement, nonoverlapping with damage"
+    },
+    {
+      "name": "over-budget contamination not zero-feasible",
+      "passed": true,
+      "detail": "negative remaining budget is infeasible, not an allowed zero-damage design"
+    }
+  ],
+  "physical_tests": 0,
+  "limits": "Arithmetic/conservation checks do not validate the assumed material or mixture model."
+}

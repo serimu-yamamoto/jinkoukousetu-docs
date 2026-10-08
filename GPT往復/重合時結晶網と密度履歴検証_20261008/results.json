@@ -1,0 +1,1264 @@
+{
+  "cycle": 29,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "model": "Accounting scenarios; not DEM, constitutive model, performance or probability",
+  "density": [
+    {
+      "rho_kg_m3": 60,
+      "area_m2": 2000,
+      "mass_kg": 54000.0,
+      "material_cost_jpy": 27000000.0,
+      "good_rate_kg_h": 112.5,
+      "gravity_shear_pa": 132.38977499999996,
+      "equal_cost_price_jpy_kg": 1000.0
+    },
+    {
+      "rho_kg_m3": 60,
+      "area_m2": 20000,
+      "mass_kg": 540000.0,
+      "material_cost_jpy": 270000000.0,
+      "good_rate_kg_h": 1125.0,
+      "gravity_shear_pa": 132.38977499999996,
+      "equal_cost_price_jpy_kg": 1000.0
+    },
+    {
+      "rho_kg_m3": 90,
+      "area_m2": 2000,
+      "mass_kg": 81000.0,
+      "material_cost_jpy": 40500000.0,
+      "good_rate_kg_h": 168.75,
+      "gravity_shear_pa": 198.58466249999995,
+      "equal_cost_price_jpy_kg": 666.6666666666666
+    },
+    {
+      "rho_kg_m3": 90,
+      "area_m2": 20000,
+      "mass_kg": 810000.0,
+      "material_cost_jpy": 405000000.0,
+      "good_rate_kg_h": 1687.5,
+      "gravity_shear_pa": 198.58466249999995,
+      "equal_cost_price_jpy_kg": 666.6666666666666
+    },
+    {
+      "rho_kg_m3": 120,
+      "area_m2": 2000,
+      "mass_kg": 108000.0,
+      "material_cost_jpy": 54000000.0,
+      "good_rate_kg_h": 225.0,
+      "gravity_shear_pa": 264.7795499999999,
+      "equal_cost_price_jpy_kg": 500.0
+    },
+    {
+      "rho_kg_m3": 120,
+      "area_m2": 20000,
+      "mass_kg": 1080000.0,
+      "material_cost_jpy": 540000000.0,
+      "good_rate_kg_h": 2250.0,
+      "gravity_shear_pa": 264.7795499999999,
+      "equal_cost_price_jpy_kg": 500.0
+    },
+    {
+      "rho_kg_m3": 180,
+      "area_m2": 2000,
+      "mass_kg": 162000.0,
+      "material_cost_jpy": 81000000.0,
+      "good_rate_kg_h": 337.5,
+      "gravity_shear_pa": 397.1693249999999,
+      "equal_cost_price_jpy_kg": 333.3333333333333
+    },
+    {
+      "rho_kg_m3": 180,
+      "area_m2": 20000,
+      "mass_kg": 1620000.0,
+      "material_cost_jpy": 810000000.0,
+      "good_rate_kg_h": 3375.0,
+      "gravity_shear_pa": 397.1693249999999,
+      "equal_cost_price_jpy_kg": 333.3333333333333
+    },
+    {
+      "rho_kg_m3": 250,
+      "area_m2": 2000,
+      "mass_kg": 225000.0,
+      "material_cost_jpy": 112500000.0,
+      "good_rate_kg_h": 468.75,
+      "gravity_shear_pa": 551.6240624999998,
+      "equal_cost_price_jpy_kg": 240.0
+    },
+    {
+      "rho_kg_m3": 250,
+      "area_m2": 20000,
+      "mass_kg": 2250000.0,
+      "material_cost_jpy": 1125000000.0,
+      "good_rate_kg_h": 4687.5,
+      "gravity_shear_pa": 551.6240624999998,
+      "equal_cost_price_jpy_kg": 240.0
+    },
+    {
+      "rho_kg_m3": 350,
+      "area_m2": 2000,
+      "mass_kg": 315000.0,
+      "material_cost_jpy": 157500000.0,
+      "good_rate_kg_h": 656.25,
+      "gravity_shear_pa": 772.2736874999998,
+      "equal_cost_price_jpy_kg": 171.42857142857142
+    },
+    {
+      "rho_kg_m3": 350,
+      "area_m2": 20000,
+      "mass_kg": 3150000.0,
+      "material_cost_jpy": 1575000000.0,
+      "good_rate_kg_h": 6562.5,
+      "gravity_shear_pa": 772.2736874999998,
+      "equal_cost_price_jpy_kg": 171.42857142857142
+    },
+    {
+      "rho_kg_m3": 450,
+      "area_m2": 2000,
+      "mass_kg": 405000.0,
+      "material_cost_jpy": 202500000.0,
+      "good_rate_kg_h": 843.75,
+      "gravity_shear_pa": 992.9233124999998,
+      "equal_cost_price_jpy_kg": 133.33333333333334
+    },
+    {
+      "rho_kg_m3": 450,
+      "area_m2": 20000,
+      "mass_kg": 4050000.0,
+      "material_cost_jpy": 2025000000.0,
+      "good_rate_kg_h": 8437.5,
+      "gravity_shear_pa": 992.9233124999998,
+      "equal_cost_price_jpy_kg": 133.33333333333334
+    },
+    {
+      "rho_kg_m3": 500,
+      "area_m2": 2000,
+      "mass_kg": 450000.0,
+      "material_cost_jpy": 225000000.0,
+      "good_rate_kg_h": 937.5,
+      "gravity_shear_pa": 1103.2481249999996,
+      "equal_cost_price_jpy_kg": 120.0
+    },
+    {
+      "rho_kg_m3": 500,
+      "area_m2": 20000,
+      "mass_kg": 4500000.0,
+      "material_cost_jpy": 2250000000.0,
+      "good_rate_kg_h": 9375.0,
+      "gravity_shear_pa": 1103.2481249999996,
+      "equal_cost_price_jpy_kg": 120.0
+    }
+  ],
+  "spreading": [
+    {
+      "incoming_rho": 50,
+      "finished_rho": 120,
+      "loose_depth_m": 1.08,
+      "volume_ratio": 2.4,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 50,
+      "finished_rho": 180,
+      "loose_depth_m": 1.62,
+      "volume_ratio": 3.6,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 50,
+      "finished_rho": 250,
+      "loose_depth_m": 2.25,
+      "volume_ratio": 5.0,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 60,
+      "finished_rho": 120,
+      "loose_depth_m": 0.9,
+      "volume_ratio": 2.0,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 60,
+      "finished_rho": 180,
+      "loose_depth_m": 1.35,
+      "volume_ratio": 3.0,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 60,
+      "finished_rho": 250,
+      "loose_depth_m": 1.875,
+      "volume_ratio": 4.166666666666667,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 70,
+      "finished_rho": 120,
+      "loose_depth_m": 0.7714285714285715,
+      "volume_ratio": 1.7142857142857142,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 70,
+      "finished_rho": 180,
+      "loose_depth_m": 1.1571428571428573,
+      "volume_ratio": 2.5714285714285716,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 70,
+      "finished_rho": 250,
+      "loose_depth_m": 1.6071428571428572,
+      "volume_ratio": 3.5714285714285716,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 90,
+      "finished_rho": 120,
+      "loose_depth_m": 0.6,
+      "volume_ratio": 1.3333333333333333,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 90,
+      "finished_rho": 180,
+      "loose_depth_m": 0.9,
+      "volume_ratio": 2.0,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 90,
+      "finished_rho": 250,
+      "loose_depth_m": 1.25,
+      "volume_ratio": 2.7777777777777777,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 120,
+      "finished_rho": 120,
+      "loose_depth_m": 0.45,
+      "volume_ratio": 1.0,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 120,
+      "finished_rho": 180,
+      "loose_depth_m": 0.675,
+      "volume_ratio": 1.5,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 120,
+      "finished_rho": 250,
+      "loose_depth_m": 0.9375,
+      "volume_ratio": 2.0833333333333335,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 250,
+      "finished_rho": 120,
+      "loose_depth_m": 0.216,
+      "volume_ratio": 0.48,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 250,
+      "finished_rho": 180,
+      "loose_depth_m": 0.324,
+      "volume_ratio": 0.72,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 250,
+      "finished_rho": 250,
+      "loose_depth_m": 0.45,
+      "volume_ratio": 1.0,
+      "needs_expansion_not_compaction": false
+    },
+    {
+      "incoming_rho": 350,
+      "finished_rho": 120,
+      "loose_depth_m": 0.15428571428571428,
+      "volume_ratio": 0.34285714285714286,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 350,
+      "finished_rho": 180,
+      "loose_depth_m": 0.23142857142857143,
+      "volume_ratio": 0.5142857142857142,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 350,
+      "finished_rho": 250,
+      "loose_depth_m": 0.32142857142857145,
+      "volume_ratio": 0.7142857142857143,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 450,
+      "finished_rho": 120,
+      "loose_depth_m": 0.12,
+      "volume_ratio": 0.26666666666666666,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 450,
+      "finished_rho": 180,
+      "loose_depth_m": 0.18,
+      "volume_ratio": 0.4,
+      "needs_expansion_not_compaction": true
+    },
+    {
+      "incoming_rho": 450,
+      "finished_rho": 250,
+      "loose_depth_m": 0.25,
+      "volume_ratio": 0.5555555555555556,
+      "needs_expansion_not_compaction": true
+    }
+  ],
+  "retention": [
+    {
+      "damaged_rho": 180,
+      "q": 0,
+      "cycles": 0,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0,
+      "cycles": 10,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0,
+      "cycles": 100,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0,
+      "cycles": 200,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0,
+      "cycles": 500,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.0001,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.0001,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9990004498800211,
+      "ideal_depth_m": 0.4498500674820032,
+      "ideal_effective_rho": 120.03999533057831
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.0001,
+      "cycles": 100,
+      "intact_mass_fraction": 0.9900493386913719,
+      "ideal_depth_m": 0.44850740080370577,
+      "ideal_effective_rho": 120.399351054708
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.0001,
+      "cycles": 200,
+      "intact_mass_fraction": 0.9801976930432228,
+      "ideal_depth_m": 0.4470296539564834,
+      "ideal_effective_rho": 120.79735543731219
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.0001,
+      "cycles": 500,
+      "intact_mass_fraction": 0.9512270462715808,
+      "ideal_depth_m": 0.4426840569407371,
+      "ideal_effective_rho": 121.98315966736764
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.001,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.001,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9900448802097482,
+      "ideal_depth_m": 0.44850673203146224,
+      "ideal_effective_rho": 120.39953058321532
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.001,
+      "cycles": 100,
+      "intact_mass_fraction": 0.9047921471137089,
+      "ideal_depth_m": 0.43571882206705637,
+      "ideal_effective_rho": 123.93313592427158
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.001,
+      "cycles": 200,
+      "intact_mass_fraction": 0.8186488294786356,
+      "ideal_depth_m": 0.42279732442179535,
+      "ideal_effective_rho": 127.72077040423268
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.001,
+      "cycles": 500,
+      "intact_mass_fraction": 0.6063789448611847,
+      "ideal_depth_m": 0.3909568417291777,
+      "ideal_effective_rho": 138.12266275009122
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.01,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.01,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9043820750088044,
+      "ideal_depth_m": 0.4356573112513207,
+      "ideal_effective_rho": 123.95063414613199
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.01,
+      "cycles": 100,
+      "intact_mass_fraction": 0.3660323412732292,
+      "ideal_depth_m": 0.3549048511909844,
+      "ideal_effective_rho": 152.15345695835828
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.01,
+      "cycles": 200,
+      "intact_mass_fraction": 0.13397967485796172,
+      "ideal_depth_m": 0.32009695122869425,
+      "ideal_effective_rho": 168.69888886076748
+    },
+    {
+      "damaged_rho": 180,
+      "q": 0.01,
+      "cycles": 500,
+      "intact_mass_fraction": 0.006570483042414603,
+      "ideal_depth_m": 0.3009855724563622,
+      "ideal_effective_rho": 179.4105928709559
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0,
+      "cycles": 0,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0,
+      "cycles": 10,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0,
+      "cycles": 100,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0,
+      "cycles": 200,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0,
+      "cycles": 500,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.0001,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.0001,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9990004498800211,
+      "ideal_depth_m": 0.44976610527192495,
+      "ideal_effective_rho": 120.06240436315679
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.0001,
+      "cycles": 100,
+      "intact_mass_fraction": 0.9900493386913719,
+      "ideal_depth_m": 0.447671545253781,
+      "ideal_effective_rho": 120.62415083672089
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.0001,
+      "cycles": 200,
+      "intact_mass_fraction": 0.9801976930432228,
+      "ideal_depth_m": 0.4453662601721141,
+      "ideal_effective_rho": 121.24852021599351
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.0001,
+      "cycles": 500,
+      "intact_mass_fraction": 0.9512270462715808,
+      "ideal_depth_m": 0.4385871288275499,
+      "ideal_effective_rho": 123.12262820925716
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.001,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.001,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9900448802097482,
+      "ideal_depth_m": 0.4476705019690811,
+      "ideal_effective_rho": 120.62443194823138
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.001,
+      "cycles": 100,
+      "intact_mass_fraction": 0.9047921471137089,
+      "ideal_depth_m": 0.4277213624246079,
+      "ideal_effective_rho": 126.25041614450174
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.001,
+      "cycles": 200,
+      "intact_mass_fraction": 0.8186488294786356,
+      "ideal_depth_m": 0.40756382609800074,
+      "ideal_effective_rho": 132.49458500032688
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.001,
+      "cycles": 500,
+      "intact_mass_fraction": 0.6063789448611847,
+      "ideal_depth_m": 0.3578926730975172,
+      "ideal_effective_rho": 150.88322298592095
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.01,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.01,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9043820750088044,
+      "ideal_depth_m": 0.42762540555206024,
+      "ideal_effective_rho": 126.27874606815404
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.01,
+      "cycles": 100,
+      "intact_mass_fraction": 0.3660323412732292,
+      "ideal_depth_m": 0.3016515678579356,
+      "ideal_effective_rho": 179.0144847694993
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.01,
+      "cycles": 200,
+      "intact_mass_fraction": 0.13397967485796172,
+      "ideal_depth_m": 0.24735124391676303,
+      "ideal_effective_rho": 218.31303188502145
+    },
+    {
+      "damaged_rho": 250,
+      "q": 0.01,
+      "cycles": 500,
+      "intact_mass_fraction": 0.006570483042414603,
+      "ideal_depth_m": 0.21753749303192504,
+      "ideal_effective_rho": 248.23307121625763
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0,
+      "cycles": 0,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0,
+      "cycles": 10,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0,
+      "cycles": 100,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0,
+      "cycles": 200,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0,
+      "cycles": 500,
+      "intact_mass_fraction": 1,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.0001,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.0001,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9990004498800211,
+      "ideal_depth_m": 0.449670148460407,
+      "ideal_effective_rho": 120.08802493313529
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.0001,
+      "cycles": 100,
+      "intact_mass_fraction": 0.9900493386913719,
+      "ideal_depth_m": 0.44671628176815276,
+      "ideal_effective_rho": 120.88209497594758
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.0001,
+      "cycles": 200,
+      "intact_mass_fraction": 0.9801976930432228,
+      "ideal_depth_m": 0.4434652387042635,
+      "ideal_effective_rho": 121.7682814503784
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.0001,
+      "cycles": 500,
+      "intact_mass_fraction": 0.9512270462715808,
+      "ideal_depth_m": 0.4339049252696217,
+      "ideal_effective_rho": 124.45122619072657
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.001,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.001,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9900448802097482,
+      "ideal_depth_m": 0.4467148104692169,
+      "ideal_effective_rho": 120.88249311295475
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.001,
+      "cycles": 100,
+      "intact_mass_fraction": 0.9047921471137089,
+      "ideal_depth_m": 0.41858140854752396,
+      "ideal_effective_rho": 129.0071629969898
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.001,
+      "cycles": 200,
+      "intact_mass_fraction": 0.8186488294786356,
+      "ideal_depth_m": 0.3901541137279497,
+      "ideal_effective_rho": 138.40684514133721
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.001,
+      "cycles": 500,
+      "intact_mass_fraction": 0.6063789448611847,
+      "ideal_depth_m": 0.32010505180419097,
+      "ideal_effective_rho": 168.69461976823763
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.01,
+      "cycles": 0,
+      "intact_mass_fraction": 1.0,
+      "ideal_depth_m": 0.45,
+      "ideal_effective_rho": 120.0
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.01,
+      "cycles": 10,
+      "intact_mass_fraction": 0.9043820750088044,
+      "ideal_depth_m": 0.41844608475290546,
+      "ideal_effective_rho": 129.04888339889064
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.01,
+      "cycles": 100,
+      "intact_mass_fraction": 0.3660323412732292,
+      "ideal_depth_m": 0.24079067262016565,
+      "ideal_effective_rho": 224.26117844349434
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.01,
+      "cycles": 200,
+      "intact_mass_fraction": 0.13397967485796172,
+      "ideal_depth_m": 0.1642132927031274,
+      "ideal_effective_rho": 328.8406140032998
+    },
+    {
+      "damaged_rho": 450,
+      "q": 0.01,
+      "cycles": 500,
+      "intact_mass_fraction": 0.006570483042414603,
+      "ideal_depth_m": 0.12216825940399682,
+      "ideal_effective_rho": 442.0133368801467
+    }
+  ],
+  "renewal": [
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.02,
+      "q_processed": 0.0001,
+      "new_mass_kg_year": 96.00000000000001,
+      "material_purchase_jpy_year": 48000.00000000001
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.02,
+      "q_processed": 0.001,
+      "new_mass_kg_year": 960.0,
+      "material_purchase_jpy_year": 480000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.02,
+      "q_processed": 0.01,
+      "new_mass_kg_year": 9600.0,
+      "material_purchase_jpy_year": 4800000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.1,
+      "q_processed": 0.0001,
+      "new_mass_kg_year": 480.0,
+      "material_purchase_jpy_year": 240000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.1,
+      "q_processed": 0.001,
+      "new_mass_kg_year": 4800.0,
+      "material_purchase_jpy_year": 2400000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.1,
+      "q_processed": 0.01,
+      "new_mass_kg_year": 48000.0,
+      "material_purchase_jpy_year": 24000000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.45,
+      "q_processed": 0.0001,
+      "new_mass_kg_year": 2160.0,
+      "material_purchase_jpy_year": 1080000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.45,
+      "q_processed": 0.001,
+      "new_mass_kg_year": 21600.0,
+      "material_purchase_jpy_year": 10800000.0
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.45,
+      "q_processed": 0.01,
+      "new_mass_kg_year": 216000.0,
+      "material_purchase_jpy_year": 108000000.0
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.02,
+      "q_processed": 0.0001,
+      "new_mass_kg_year": 960.0,
+      "material_purchase_jpy_year": 480000.0
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.02,
+      "q_processed": 0.001,
+      "new_mass_kg_year": 9600.0,
+      "material_purchase_jpy_year": 4800000.0
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.02,
+      "q_processed": 0.01,
+      "new_mass_kg_year": 96000.0,
+      "material_purchase_jpy_year": 48000000.0
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.1,
+      "q_processed": 0.0001,
+      "new_mass_kg_year": 4800.000000000001,
+      "material_purchase_jpy_year": 2400000.0000000005
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.1,
+      "q_processed": 0.001,
+      "new_mass_kg_year": 48000.00000000001,
+      "material_purchase_jpy_year": 24000000.000000004
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.1,
+      "q_processed": 0.01,
+      "new_mass_kg_year": 480000.0000000001,
+      "material_purchase_jpy_year": 240000000.00000006
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.45,
+      "q_processed": 0.0001,
+      "new_mass_kg_year": 21600.0,
+      "material_purchase_jpy_year": 10800000.0
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.45,
+      "q_processed": 0.001,
+      "new_mass_kg_year": 216000.0,
+      "material_purchase_jpy_year": 108000000.0
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.45,
+      "q_processed": 0.01,
+      "new_mass_kg_year": 2160000.0,
+      "material_purchase_jpy_year": 1080000000.0
+    }
+  ],
+  "budget_limits": [
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.02,
+      "price": 300,
+      "q_processed_max": 0.034722222222222224,
+      "whole_bed_fraction_max": 0.0015432098765432098
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.02,
+      "price": 500,
+      "q_processed_max": 0.020833333333333332,
+      "whole_bed_fraction_max": 0.0009259259259259259
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.02,
+      "price": 1000,
+      "q_processed_max": 0.010416666666666666,
+      "whole_bed_fraction_max": 0.0004629629629629629
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.1,
+      "price": 300,
+      "q_processed_max": 0.006944444444444444,
+      "whole_bed_fraction_max": 0.0015432098765432098
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.1,
+      "price": 500,
+      "q_processed_max": 0.004166666666666667,
+      "whole_bed_fraction_max": 0.000925925925925926
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.1,
+      "price": 1000,
+      "q_processed_max": 0.0020833333333333333,
+      "whole_bed_fraction_max": 0.000462962962962963
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.45,
+      "price": 300,
+      "q_processed_max": 0.0015432098765432098,
+      "whole_bed_fraction_max": 0.0015432098765432098
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.45,
+      "price": 500,
+      "q_processed_max": 0.000925925925925926,
+      "whole_bed_fraction_max": 0.000925925925925926
+    },
+    {
+      "area_m2": 2000,
+      "processed_depth_m": 0.45,
+      "price": 1000,
+      "q_processed_max": 0.000462962962962963,
+      "whole_bed_fraction_max": 0.000462962962962963
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.02,
+      "price": 300,
+      "q_processed_max": 0.003472222222222222,
+      "whole_bed_fraction_max": 0.00015432098765432098
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.02,
+      "price": 500,
+      "q_processed_max": 0.0020833333333333333,
+      "whole_bed_fraction_max": 9.259259259259259e-05
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.02,
+      "price": 1000,
+      "q_processed_max": 0.0010416666666666667,
+      "whole_bed_fraction_max": 4.6296296296296294e-05
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.1,
+      "price": 300,
+      "q_processed_max": 0.0006944444444444445,
+      "whole_bed_fraction_max": 0.00015432098765432098
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.1,
+      "price": 500,
+      "q_processed_max": 0.0004166666666666667,
+      "whole_bed_fraction_max": 9.25925925925926e-05
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.1,
+      "price": 1000,
+      "q_processed_max": 0.00020833333333333335,
+      "whole_bed_fraction_max": 4.62962962962963e-05
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.45,
+      "price": 300,
+      "q_processed_max": 0.00015432098765432098,
+      "whole_bed_fraction_max": 0.00015432098765432098
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.45,
+      "price": 500,
+      "q_processed_max": 9.259259259259259e-05,
+      "whole_bed_fraction_max": 9.259259259259259e-05
+    },
+    {
+      "area_m2": 20000,
+      "processed_depth_m": 0.45,
+      "price": 1000,
+      "q_processed_max": 4.6296296296296294e-05,
+      "whole_bed_fraction_max": 4.6296296296296294e-05
+    }
+  ],
+  "transport": [
+    {
+      "area_m2": 2000,
+      "shipping_rho": 50,
+      "mass_kg": 108000.0,
+      "minimum_trips": 44,
+      "hypothetical_freight_jpy": 4400000,
+      "freight_jpy_kg": 40.74074074074074
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 60,
+      "mass_kg": 108000.0,
+      "minimum_trips": 36,
+      "hypothetical_freight_jpy": 3600000,
+      "freight_jpy_kg": 33.333333333333336
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 70,
+      "mass_kg": 108000.0,
+      "minimum_trips": 31,
+      "hypothetical_freight_jpy": 3100000,
+      "freight_jpy_kg": 28.703703703703702
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 90,
+      "mass_kg": 108000.0,
+      "minimum_trips": 24,
+      "hypothetical_freight_jpy": 2400000,
+      "freight_jpy_kg": 22.22222222222222
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 120,
+      "mass_kg": 108000.0,
+      "minimum_trips": 18,
+      "hypothetical_freight_jpy": 1800000,
+      "freight_jpy_kg": 16.666666666666668
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 250,
+      "mass_kg": 108000.0,
+      "minimum_trips": 11,
+      "hypothetical_freight_jpy": 1100000,
+      "freight_jpy_kg": 10.185185185185185
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 350,
+      "mass_kg": 108000.0,
+      "minimum_trips": 11,
+      "hypothetical_freight_jpy": 1100000,
+      "freight_jpy_kg": 10.185185185185185
+    },
+    {
+      "area_m2": 2000,
+      "shipping_rho": 450,
+      "mass_kg": 108000.0,
+      "minimum_trips": 11,
+      "hypothetical_freight_jpy": 1100000,
+      "freight_jpy_kg": 10.185185185185185
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 50,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 432,
+      "hypothetical_freight_jpy": 43200000,
+      "freight_jpy_kg": 40.0
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 60,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 360,
+      "hypothetical_freight_jpy": 36000000,
+      "freight_jpy_kg": 33.333333333333336
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 70,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 309,
+      "hypothetical_freight_jpy": 30900000,
+      "freight_jpy_kg": 28.61111111111111
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 90,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 240,
+      "hypothetical_freight_jpy": 24000000,
+      "freight_jpy_kg": 22.22222222222222
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 120,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 180,
+      "hypothetical_freight_jpy": 18000000,
+      "freight_jpy_kg": 16.666666666666668
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 250,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 108,
+      "hypothetical_freight_jpy": 10800000,
+      "freight_jpy_kg": 10.0
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 350,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 108,
+      "hypothetical_freight_jpy": 10800000,
+      "freight_jpy_kg": 10.0
+    },
+    {
+      "area_m2": 20000,
+      "shipping_rho": 450,
+      "mass_kg": 1080000.0,
+      "minimum_trips": 108,
+      "hypothetical_freight_jpy": 10800000,
+      "freight_jpy_kg": 10.0
+    }
+  ],
+  "contamination": [
+    {
+      "area_m2": 2000,
+      "gamma_annual": 0,
+      "replacement_kg": 0.0,
+      "purchase_jpy": 0.0,
+      "remaining_material_budget_jpy": 10000000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 0.000925925925925926
+    },
+    {
+      "area_m2": 2000,
+      "gamma_annual": 0.001,
+      "replacement_kg": 108.0,
+      "purchase_jpy": 54000.0,
+      "remaining_material_budget_jpy": 9946000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 0.000920925925925926
+    },
+    {
+      "area_m2": 2000,
+      "gamma_annual": 0.01,
+      "replacement_kg": 1080.0,
+      "purchase_jpy": 540000.0,
+      "remaining_material_budget_jpy": 9460000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 0.0008759259259259259
+    },
+    {
+      "area_m2": 2000,
+      "gamma_annual": 0.05,
+      "replacement_kg": 5400.0,
+      "purchase_jpy": 2700000.0,
+      "remaining_material_budget_jpy": 7300000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 0.000675925925925926
+    },
+    {
+      "area_m2": 20000,
+      "gamma_annual": 0,
+      "replacement_kg": 0.0,
+      "purchase_jpy": 0.0,
+      "remaining_material_budget_jpy": 10000000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 9.259259259259259e-05
+    },
+    {
+      "area_m2": 20000,
+      "gamma_annual": 0.001,
+      "replacement_kg": 1080.0,
+      "purchase_jpy": 540000.0,
+      "remaining_material_budget_jpy": 9460000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 8.759259259259259e-05
+    },
+    {
+      "area_m2": 20000,
+      "gamma_annual": 0.01,
+      "replacement_kg": 10800.0,
+      "purchase_jpy": 5400000.0,
+      "remaining_material_budget_jpy": 4600000.0,
+      "budget_exceeded": false,
+      "whole_bed_q_max": 4.259259259259259e-05
+    },
+    {
+      "area_m2": 20000,
+      "gamma_annual": 0.05,
+      "replacement_kg": 54000.0,
+      "purchase_jpy": 27000000.0,
+      "remaining_material_budget_jpy": -17000000.0,
+      "budget_exceeded": true,
+      "whole_bed_q_max": null
+    }
+  ]
+}
