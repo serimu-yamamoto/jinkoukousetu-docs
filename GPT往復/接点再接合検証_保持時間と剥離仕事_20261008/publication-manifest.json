@@ -1,0 +1,77 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "cycle": 26,
+  "research_base_commit": "6f57458fd9661a6b36001ea7f5a2407a769245f1",
+  "publish_base_commit": "a061c984c343a199b81cfef98b4d2fd660343180",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "description": "H26 contact retention, short cohesive release, economics and response to Claude v2. Hashes exclude this manifest itself.",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第26巡_自己修復接点の保持時間と雪らしい解放_20261008.md",
+      "bytes": 28639,
+      "sha256": "a9db33e624e053ebfbc8c23798a6bd32771970b08961fd23f4f1905ac865d2aa"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 16474,
+      "sha256": "43b92578bcedeed90a12b5d8e58545bb4b2f0e029baf021f29e05e2deb9fd22b"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/01_retention_and_roller.png",
+      "bytes": 176355,
+      "sha256": "9bff6f7bc81f0793b10d1bded5a4f89dff291cd5e95b34199da1506b9ef3e962"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/02_release_and_cost.png",
+      "bytes": 179689,
+      "sha256": "855bb65dd6a9910a8823a636ace7784ebe966c48a7ef544060f688f1f3a426d0"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/README.md",
+      "bytes": 3356,
+      "sha256": "a267633eceedf8188c792928f1a6e34f2d97f889e404bda0e4ab12e2debcecdf"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/calculate.py",
+      "bytes": 13628,
+      "sha256": "57aaacd28d1f64e1f387c903f0dc0f12f7cd0c30de05ff8c99aed0eaec03e76f"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/inputs.json",
+      "bytes": 4148,
+      "sha256": "0c0f7241ef12b19a0f9470f6a7b5aaf538accbb1a9d8dd57649f5af7381be38f"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/plot.py",
+      "bytes": 3924,
+      "sha256": "bcf07e5b8f48e8d588f9a5207bef1ef44c25dd934df601008668acafcfa1201b"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/results.json",
+      "bytes": 69394,
+      "sha256": "6c5c09262b124f6e2d966b07325461dc211cef0271cdaac11978f41cc9a40597"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/sources.md",
+      "bytes": 8385,
+      "sha256": "19627f70204e28945f52fdbe837e95999ab257f189d30c37f2c988d95da60783"
+    },
+    {
+      "path": "GPT往復/接点再接合検証_保持時間と剥離仕事_20261008/validation.json",
+      "bytes": 2552,
+      "sha256": "3a07942e0344eaa66b5c6d272c8a5bb395015ed245db4c69e88eb51c13e30efc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 23127,
+      "sha256": "5b2a891108afd4d19dfd99ac9bb614d2cb294b1a66f1faffdf5c4260d63372f6"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 75136,
+      "sha256": "664ad57a61a3ad3ce4a4e30da9e7a60a65b56b268a1175b2b97f423827236de4"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "cycle": 26,
+  "base_commit": "6f57458fd9661a6b36001ea7f5a2407a769245f1",
+  "date": "2026-10-08",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Uncalibrated contact-population, pressure-time and cohesive-opening diagnostics; not material tests, DEM, ski response or success probability."
+  },
+  "machine": {
+    "length_m": 1000,
+    "width_m": 20,
+    "mass_kg": 4000,
+    "slope_deg": 30,
+    "g_m_s2": 9.81,
+    "velocity_m_s": 0.6,
+    "uptime_fraction": 0.75,
+    "overhead_s": 720,
+    "closure_s": 3600,
+    "patch_lengths_m": [
+      0.03,
+      0.05,
+      0.1,
+      0.3,
+      1,
+      6
+    ],
+    "normal_load_fractions": [
+      0.5,
+      1
+    ],
+    "reference_patch_length_m": 0.05,
+    "note": "Inherited hypothetical 1km machine; 20,000m2 course differs from the 2,000m2 material-cost comparison. Nominal pressure assumes uniform load on the stated patch; not actual granular contacts."
+  },
+  "kinetics": {
+    "t90_s": [
+      10,
+      60,
+      600,
+      3600
+    ],
+    "separation_time_s": [
+      0.1,
+      10,
+      600,
+      null
+    ],
+    "eligible_fractions": [
+      0.1,
+      0.5,
+      1
+    ],
+    "rest_s": 600,
+    "note": "t90 is an assumed 90% conversion time of eligible contacts, not published tensile-strength recovery or project success rate. Null separation time denotes no contact loss. Bonded contacts are assumed stable during rest; no force, wetting, fatigue, aging or fracture feedback."
+  },
+  "time_scales": {
+    "use_s": 18000,
+    "healing_fraction": 0.9,
+    "allowed_extra_creep_over_elastic": [
+      0.1,
+      1
+    ],
+    "healing_windows_s": [
+      10,
+      60,
+      600,
+      3600
+    ],
+    "note": "Maxwell comparison only. Healing time and bulk relaxation need not be equal."
+  },
+  "patch_coverage": {
+    "fractions": [
+      0.01,
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "coordination_numbers": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "conditional_bond_fractions": [
+      0.5,
+      0.9,
+      1
+    ],
+    "note": "Independent random coating contacts: eligible=f^2. Locally tree-like connectivity factor (z-1)*f^2*h; not a rigidity or real-grain percolation proof."
+  },
+  "cohesive": {
+    "strength_MPa": [
+      0.1,
+      1,
+      10
+    ],
+    "Gc_J_m2": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "pad_radius_um": [
+      5,
+      10,
+      30
+    ],
+    "peak_opening_fraction": 0.1,
+    "illustrative_opening_limit_um": 20,
+    "note": "Triangular normal traction-opening law. Gc and strength are independent hypothetical inputs, not from any candidate or snow. Normal separation is not ski shear friction."
+  },
+  "cost": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "base_bulk_density_kg_m3": 120,
+    "host_density_kg_m3": 950,
+    "contact_phase_density_kg_m3": 1100,
+    "mass_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "host_JPY_kg": 500,
+    "contact_phase_JPY_kg": [
+      1000,
+      3000,
+      10000
+    ],
+    "localization_JPY_per_finished_kg": [
+      0,
+      100,
+      300
+    ],
+    "years": 10,
+    "discount": 0.08,
+    "annual_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "note": "Hypothetical pretax costs, fixed polymer occupied volume. No procurement quote. Processing per kg of complete product; extra regeneration/civil cost excluded. 2% purchased replacement is not environmental discharge permission. Equipment cap JPY200M tax-inclusive separate."
+  },
+  "claude_review": {
+    "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+    "read_commit": "a061c984c343a199b81cfef98b4d2fd660343180",
+    "source_path": "バーチャル試験/自律ループv2_噴霧結晶化素材_第1〜4ラウンド_20261008.md",
+    "source_sha256": "b94b1d1f605a22e4d8347d665025682605449942a02b3422171f50b461a1787a",
+    "normalization": "UTF-8 with LF",
+    "scope": "Chapters 1-5 and 7 reviewed; chapter 6 candidate sweep not independently recalculated. Scores are uncalibrated assessments, not measured probabilities."
+  }
+}

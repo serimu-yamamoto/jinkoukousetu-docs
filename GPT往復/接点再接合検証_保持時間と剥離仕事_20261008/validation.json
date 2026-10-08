@@ -1,0 +1,127 @@
+{
+  "numerical_checks": 28,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "machine normal load",
+      "passed": true
+    },
+    {
+      "name": "60minute conservative window positive",
+      "passed": true
+    },
+    {
+      "name": "pressure times dwell invariant",
+      "passed": true
+    },
+    {
+      "name": "kinetic conservation",
+      "passed": true
+    },
+    {
+      "name": "all states nonnegative",
+      "passed": true
+    },
+    {
+      "name": "bonded never exceeds eligibility",
+      "passed": true
+    },
+    {
+      "name": "bonded below plateau",
+      "passed": true
+    },
+    {
+      "name": "no loss recovers ordinary kinetics",
+      "passed": true
+    },
+    {
+      "name": "zero rest preserves roller bond count",
+      "passed": true
+    },
+    {
+      "name": "lost contact limit",
+      "passed": true
+    },
+    {
+      "name": "retention boundary solves target",
+      "passed": true
+    },
+    {
+      "name": "RK4 accuracy",
+      "passed": true
+    },
+    {
+      "name": "RK4 convergence",
+      "passed": true
+    },
+    {
+      "name": "RK4 conservation",
+      "passed": true
+    },
+    {
+      "name": "Maxwell separation boundary",
+      "passed": true
+    },
+    {
+      "name": "coverage bound",
+      "passed": true
+    },
+    {
+      "name": "two-neighbor network not supercritical",
+      "passed": true
+    },
+    {
+      "name": "cohesive energy identity",
+      "passed": true
+    },
+    {
+      "name": "cohesive quadrature accuracy",
+      "passed": true
+    },
+    {
+      "name": "cohesive quadrature convergence",
+      "passed": true
+    },
+    {
+      "name": "pad area cancels opening scale",
+      "passed": true
+    },
+    {
+      "name": "base cost inherited",
+      "passed": true
+    },
+    {
+      "name": "density conserves occupied volume",
+      "passed": true
+    },
+    {
+      "name": "area scaling keeps scope separate",
+      "passed": true
+    },
+    {
+      "name": "no success probability invention",
+      "passed": true
+    },
+    {
+      "name": "Claude source exact normalized hash",
+      "passed": true
+    },
+    {
+      "name": "Claude displayed product rounding",
+      "passed": true
+    },
+    {
+      "name": "conditional marginal bounds include independent product",
+      "passed": true
+    }
+  ],
+  "not_validated": [
+    "material kinetics",
+    "50C wet creep",
+    "actual particle registration and contact retention",
+    "shear and ski friction",
+    "manufacturing and exposure safety",
+    "winter/rain recovery",
+    "commercial cost"
+  ]
+}
