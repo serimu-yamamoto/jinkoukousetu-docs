@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "bed mass 108 tonnes",
+      "passed": true
+    },
+    {
+      "name": "cylinder lateral area 6 million m2",
+      "passed": true
+    },
+    {
+      "name": "cylinder area independently from volume over radius",
+      "passed": true
+    },
+    {
+      "name": "0.5 m travel spans 25000 twenty-micron plates",
+      "passed": true
+    },
+    {
+      "name": "shorter dwell lowers travel ratio proportionally",
+      "passed": true
+    },
+    {
+      "name": "required force fraction 16/17",
+      "passed": true
+    },
+    {
+      "name": "inverse friction balance at target",
+      "passed": true
+    },
+    {
+      "name": "too high patch friction cannot satisfy target",
+      "passed": true
+    },
+    {
+      "name": "base alone already meets loose target",
+      "passed": true
+    },
+    {
+      "name": "all-patch limiting equality",
+      "passed": true
+    },
+    {
+      "name": "force conserved after area pressure split",
+      "passed": true
+    },
+    {
+      "name": "5 percent area pressure ratio 304",
+      "passed": true
+    },
+    {
+      "name": "equal load/area fractions imply equal pressure",
+      "passed": true
+    },
+    {
+      "name": "representative deposit 720kg",
+      "passed": true
+    },
+    {
+      "name": "representative bought mass 900kg",
+      "passed": true
+    },
+    {
+      "name": "representative initial phase 9 million JPY",
+      "passed": true
+    },
+    {
+      "name": "discounted annuity returns investment",
+      "passed": true
+    },
+    {
+      "name": "cost threshold exactly closes annual phase budget",
+      "passed": true
+    },
+    {
+      "name": "replacement mass equals area times mean thickness",
+      "passed": true
+    },
+    {
+      "name": "1 percent exposed, 0.01nm per contact loses 1.728kg/year",
+      "passed": true
+    },
+    {
+      "name": "exposure tenfold raises mass loss tenfold",
+      "passed": true
+    },
+    {
+      "name": "greater unit price lowers fixed-budget permitted loss",
+      "passed": true
+    },
+    {
+      "name": "clipped solvent recovery is not treated as synthesis",
+      "passed": true
+    },
+    {
+      "name": "all required load fractions are in physical bounds",
+      "passed": true
+    },
+    {
+      "name": "29 independent all-success trials lower bound exceeds .9 but 28 does not",
+      "passed": true
+    },
+    {
+      "name": "physical probability remains unknown",
+      "passed": true
+    }
+  ],
+  "warning": "Algebra and implementation checks only. No physical or human trials."
+}

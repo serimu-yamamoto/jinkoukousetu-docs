@@ -1,0 +1,1180 @@
+{
+  "cycle": 46,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "bed_mass_kg": 108000.0,
+  "estimated_skeleton_lateral_area_m2": 5999999.999999999,
+  "capital_recovery_factor": 0.14902948869707533,
+  "kinematic": [
+    {
+      "diameter_m": 1e-05,
+      "speed_m_s": 1,
+      "dwell_s": 0.02,
+      "travel_m": 0.02,
+      "travel_over_diameter": 1999.9999999999998
+    },
+    {
+      "diameter_m": 1e-05,
+      "speed_m_s": 1,
+      "dwell_s": 0.1,
+      "travel_m": 0.1,
+      "travel_over_diameter": 10000.0
+    },
+    {
+      "diameter_m": 1e-05,
+      "speed_m_s": 5,
+      "dwell_s": 0.02,
+      "travel_m": 0.1,
+      "travel_over_diameter": 10000.0
+    },
+    {
+      "diameter_m": 1e-05,
+      "speed_m_s": 5,
+      "dwell_s": 0.1,
+      "travel_m": 0.5,
+      "travel_over_diameter": 49999.99999999999
+    },
+    {
+      "diameter_m": 1e-05,
+      "speed_m_s": 10,
+      "dwell_s": 0.02,
+      "travel_m": 0.2,
+      "travel_over_diameter": 20000.0
+    },
+    {
+      "diameter_m": 1e-05,
+      "speed_m_s": 10,
+      "dwell_s": 0.1,
+      "travel_m": 1.0,
+      "travel_over_diameter": 99999.99999999999
+    },
+    {
+      "diameter_m": 2e-05,
+      "speed_m_s": 1,
+      "dwell_s": 0.02,
+      "travel_m": 0.02,
+      "travel_over_diameter": 999.9999999999999
+    },
+    {
+      "diameter_m": 2e-05,
+      "speed_m_s": 1,
+      "dwell_s": 0.1,
+      "travel_m": 0.1,
+      "travel_over_diameter": 5000.0
+    },
+    {
+      "diameter_m": 2e-05,
+      "speed_m_s": 5,
+      "dwell_s": 0.02,
+      "travel_m": 0.1,
+      "travel_over_diameter": 5000.0
+    },
+    {
+      "diameter_m": 2e-05,
+      "speed_m_s": 5,
+      "dwell_s": 0.1,
+      "travel_m": 0.5,
+      "travel_over_diameter": 24999.999999999996
+    },
+    {
+      "diameter_m": 2e-05,
+      "speed_m_s": 10,
+      "dwell_s": 0.02,
+      "travel_m": 0.2,
+      "travel_over_diameter": 10000.0
+    },
+    {
+      "diameter_m": 2e-05,
+      "speed_m_s": 10,
+      "dwell_s": 0.1,
+      "travel_m": 1.0,
+      "travel_over_diameter": 49999.99999999999
+    }
+  ],
+  "load_conditions": [
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.01,
+      "required_load_fraction": 0.8333333333333334,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.02,
+      "required_load_fraction": 0.8888888888888888,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.04,
+      "required_load_fraction": 1.0,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.01,
+      "required_load_fraction": 0.8823529411764707,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.02,
+      "required_load_fraction": 0.9411764705882353,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.04,
+      "required_load_fraction": null,
+      "interpretation": "no solution for assumed coefficients"
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.01,
+      "required_load_fraction": 0.9375000000000001,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.02,
+      "required_load_fraction": 1.0,
+      "interpretation": "algebraic necessary condition only"
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.04,
+      "required_load_fraction": null,
+      "interpretation": "no solution for assumed coefficients"
+    },
+    {
+      "patch_mu": 0.08,
+      "structural_drag": 0.01,
+      "required_load_fraction": null,
+      "interpretation": "no solution for assumed coefficients"
+    },
+    {
+      "patch_mu": 0.08,
+      "structural_drag": 0.02,
+      "required_load_fraction": null,
+      "interpretation": "no solution for assumed coefficients"
+    },
+    {
+      "patch_mu": 0.08,
+      "structural_drag": 0.04,
+      "required_load_fraction": null,
+      "interpretation": "no solution for assumed coefficients"
+    }
+  ],
+  "pressure_partitions": [
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8333333333333334,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 8333333.333333333,
+      "base_pressure_Pa": 87719.29824561402,
+      "pressure_ratio": 95.00000000000001
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8333333333333334,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2083333.3333333333,
+      "base_pressure_Pa": 104166.66666666664,
+      "pressure_ratio": 20.000000000000004
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8333333333333334,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 833333.3333333334,
+      "base_pressure_Pa": 166666.66666666663,
+      "pressure_ratio": 5.000000000000002
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8333333333333334,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 520833.3333333333,
+      "base_pressure_Pa": 416666.6666666667,
+      "pressure_ratio": 1.25
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.02,
+      "load_fraction": 0.8888888888888888,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 8888888.888888888,
+      "base_pressure_Pa": 58479.532163742726,
+      "pressure_ratio": 151.9999999999999
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.02,
+      "load_fraction": 0.8888888888888888,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2222222.222222222,
+      "base_pressure_Pa": 69444.44444444448,
+      "pressure_ratio": 31.99999999999998
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.02,
+      "load_fraction": 0.8888888888888888,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 888888.8888888889,
+      "base_pressure_Pa": 111111.11111111117,
+      "pressure_ratio": 7.999999999999996
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.02,
+      "load_fraction": 0.8888888888888888,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 555555.5555555555,
+      "base_pressure_Pa": 277777.777777778,
+      "pressure_ratio": 1.9999999999999982
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.04,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 10000000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.04,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2500000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.04,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 1000000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.02,
+      "structural_drag": 0.04,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 625000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8823529411764707,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 8823529.411764707,
+      "base_pressure_Pa": 61919.504643962806,
+      "pressure_ratio": 142.5000000000001
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8823529411764707,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2205882.352941177,
+      "base_pressure_Pa": 73529.41176470583,
+      "pressure_ratio": 30.000000000000025
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8823529411764707,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 882352.9411764707,
+      "base_pressure_Pa": 117647.05882352933,
+      "pressure_ratio": 7.500000000000006
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.01,
+      "load_fraction": 0.8823529411764707,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 551470.5882352942,
+      "base_pressure_Pa": 294117.6470588234,
+      "pressure_ratio": 1.8750000000000013
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.02,
+      "load_fraction": 0.9411764705882353,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 9411764.705882352,
+      "base_pressure_Pa": 30959.752321981432,
+      "pressure_ratio": 303.9999999999999
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.02,
+      "load_fraction": 0.9411764705882353,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2352941.176470588,
+      "base_pressure_Pa": 36764.70588235295,
+      "pressure_ratio": 63.99999999999997
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.02,
+      "load_fraction": 0.9411764705882353,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 941176.4705882353,
+      "base_pressure_Pa": 58823.52941176472,
+      "pressure_ratio": 15.999999999999996
+    },
+    {
+      "patch_mu": 0.03,
+      "structural_drag": 0.02,
+      "load_fraction": 0.9411764705882353,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 588235.294117647,
+      "base_pressure_Pa": 147058.82352941183,
+      "pressure_ratio": 3.999999999999998
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.01,
+      "load_fraction": 0.9375000000000001,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 9375000.0,
+      "base_pressure_Pa": 32894.73684210521,
+      "pressure_ratio": 285.00000000000045
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.01,
+      "load_fraction": 0.9375000000000001,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2343750.0,
+      "base_pressure_Pa": 39062.49999999993,
+      "pressure_ratio": 60.000000000000114
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.01,
+      "load_fraction": 0.9375000000000001,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 937500.0000000001,
+      "base_pressure_Pa": 62499.99999999989,
+      "pressure_ratio": 15.000000000000028
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.01,
+      "load_fraction": 0.9375000000000001,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 585937.5,
+      "base_pressure_Pa": 156249.99999999977,
+      "pressure_ratio": 3.7500000000000058
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.02,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.05,
+      "patch_pressure_Pa": 10000000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.02,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.2,
+      "patch_pressure_Pa": 2500000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.02,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.5,
+      "patch_pressure_Pa": 1000000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    },
+    {
+      "patch_mu": 0.04,
+      "structural_drag": 0.02,
+      "load_fraction": 1.0,
+      "contact_area_fraction": 0.8,
+      "patch_pressure_Pa": 625000.0,
+      "base_pressure_Pa": 0.0,
+      "pressure_ratio": null
+    }
+  ],
+  "cost_conditions": [
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 7.199999999999998,
+      "purchase_kg": 8.999999999999998,
+      "initial_phase_JPY": 8999.999999999996,
+      "annualized_initial_JPY": 1341.2653982736774,
+      "annual_budget_remaining_JPY": 3998658.7346017268,
+      "max_annual_replacement_kg": 3198.9269876813814,
+      "allowable_mean_loss_m": 4.442954149557475e-05,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 7.199999999999998,
+      "purchase_kg": 8.999999999999998,
+      "initial_phase_JPY": 44999.999999999985,
+      "annualized_initial_JPY": 6706.326991368388,
+      "annual_budget_remaining_JPY": 3993293.673008632,
+      "max_annual_replacement_kg": 638.9269876813811,
+      "allowable_mean_loss_m": 8.873985940019183e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 7.199999999999998,
+      "purchase_kg": 8.999999999999998,
+      "initial_phase_JPY": 89999.99999999997,
+      "annualized_initial_JPY": 13412.653982736776,
+      "annual_budget_remaining_JPY": 3986587.346017263,
+      "max_annual_replacement_kg": 318.92698768138104,
+      "allowable_mean_loss_m": 4.429541495574737e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 7.199999999999998,
+      "purchase_kg": 8.999999999999998,
+      "initial_phase_JPY": 179999.99999999994,
+      "annualized_initial_JPY": 26825.307965473552,
+      "annual_budget_remaining_JPY": 3973174.6920345267,
+      "max_annual_replacement_kg": 158.9269876813811,
+      "allowable_mean_loss_m": 2.2073192733525156e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 35.99999999999999,
+      "purchase_kg": 44.999999999999986,
+      "initial_phase_JPY": 44999.999999999985,
+      "annualized_initial_JPY": 6706.326991368388,
+      "annual_budget_remaining_JPY": 3993293.673008632,
+      "max_annual_replacement_kg": 3194.634938406906,
+      "allowable_mean_loss_m": 4.436992970009592e-05,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 35.99999999999999,
+      "purchase_kg": 44.999999999999986,
+      "initial_phase_JPY": 224999.99999999994,
+      "annualized_initial_JPY": 33531.63495684194,
+      "annual_budget_remaining_JPY": 3966468.3650431577,
+      "max_annual_replacement_kg": 634.6349384069052,
+      "allowable_mean_loss_m": 8.814374144540352e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 35.99999999999999,
+      "purchase_kg": 44.999999999999986,
+      "initial_phase_JPY": 449999.9999999999,
+      "annualized_initial_JPY": 67063.26991368388,
+      "annual_budget_remaining_JPY": 3932936.7300863164,
+      "max_annual_replacement_kg": 314.63493840690535,
+      "allowable_mean_loss_m": 4.369929700095909e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 35.99999999999999,
+      "purchase_kg": 44.999999999999986,
+      "initial_phase_JPY": 899999.9999999998,
+      "annualized_initial_JPY": 134126.53982736776,
+      "annual_budget_remaining_JPY": 3865873.4601726327,
+      "max_annual_replacement_kg": 154.63493840690532,
+      "allowable_mean_loss_m": 2.1477074778736854e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 71.99999999999999,
+      "purchase_kg": 89.99999999999997,
+      "initial_phase_JPY": 89999.99999999997,
+      "annualized_initial_JPY": 13412.653982736776,
+      "annual_budget_remaining_JPY": 3986587.346017263,
+      "max_annual_replacement_kg": 3189.2698768138102,
+      "allowable_mean_loss_m": 4.429541495574737e-05,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 71.99999999999999,
+      "purchase_kg": 89.99999999999997,
+      "initial_phase_JPY": 449999.9999999999,
+      "annualized_initial_JPY": 67063.26991368388,
+      "annual_budget_remaining_JPY": 3932936.7300863164,
+      "max_annual_replacement_kg": 629.2698768138107,
+      "allowable_mean_loss_m": 8.739859400191817e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 71.99999999999999,
+      "purchase_kg": 89.99999999999997,
+      "initial_phase_JPY": 899999.9999999998,
+      "annualized_initial_JPY": 134126.53982736776,
+      "annual_budget_remaining_JPY": 3865873.4601726327,
+      "max_annual_replacement_kg": 309.26987681381064,
+      "allowable_mean_loss_m": 4.295414955747371e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.01,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 71.99999999999999,
+      "purchase_kg": 89.99999999999997,
+      "initial_phase_JPY": 1799999.9999999995,
+      "annualized_initial_JPY": 268253.0796547355,
+      "annual_budget_remaining_JPY": 3731746.9203452645,
+      "max_annual_replacement_kg": 149.2698768138106,
+      "allowable_mean_loss_m": 2.073192733525148e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 36.0,
+      "purchase_kg": 45.0,
+      "initial_phase_JPY": 45000.0,
+      "annualized_initial_JPY": 6706.32699136839,
+      "annual_budget_remaining_JPY": 3993293.673008632,
+      "max_annual_replacement_kg": 3194.634938406906,
+      "allowable_mean_loss_m": 8.873985940019183e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 36.0,
+      "purchase_kg": 45.0,
+      "initial_phase_JPY": 225000.0,
+      "annualized_initial_JPY": 33531.63495684195,
+      "annual_budget_remaining_JPY": 3966468.3650431577,
+      "max_annual_replacement_kg": 634.6349384069052,
+      "allowable_mean_loss_m": 1.7628748289080702e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 36.0,
+      "purchase_kg": 45.0,
+      "initial_phase_JPY": 450000.0,
+      "annualized_initial_JPY": 67063.2699136839,
+      "annual_budget_remaining_JPY": 3932936.7300863164,
+      "max_annual_replacement_kg": 314.63493840690535,
+      "allowable_mean_loss_m": 8.739859400191815e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 36.0,
+      "purchase_kg": 45.0,
+      "initial_phase_JPY": 900000.0,
+      "annualized_initial_JPY": 134126.5398273678,
+      "annual_budget_remaining_JPY": 3865873.460172632,
+      "max_annual_replacement_kg": 154.63493840690526,
+      "allowable_mean_loss_m": 4.2954149557473683e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 180.0,
+      "purchase_kg": 225.0,
+      "initial_phase_JPY": 225000.0,
+      "annualized_initial_JPY": 33531.63495684195,
+      "annual_budget_remaining_JPY": 3966468.3650431577,
+      "max_annual_replacement_kg": 3173.1746920345263,
+      "allowable_mean_loss_m": 8.81437414454035e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 180.0,
+      "purchase_kg": 225.0,
+      "initial_phase_JPY": 1125000.0,
+      "annualized_initial_JPY": 167658.17478420975,
+      "annual_budget_remaining_JPY": 3832341.8252157904,
+      "max_annual_replacement_kg": 613.1746920345265,
+      "allowable_mean_loss_m": 1.7032630334292404e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 180.0,
+      "purchase_kg": 225.0,
+      "initial_phase_JPY": 2250000.0,
+      "annualized_initial_JPY": 335316.3495684195,
+      "annual_budget_remaining_JPY": 3664683.650431581,
+      "max_annual_replacement_kg": 293.1746920345265,
+      "allowable_mean_loss_m": 8.143741445403514e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 180.0,
+      "purchase_kg": 225.0,
+      "initial_phase_JPY": 4500000.0,
+      "annualized_initial_JPY": 670632.699136839,
+      "annual_budget_remaining_JPY": 3329367.3008631608,
+      "max_annual_replacement_kg": 133.17469203452646,
+      "allowable_mean_loss_m": 3.6992970009590684e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 360.0,
+      "purchase_kg": 450.0,
+      "initial_phase_JPY": 450000.0,
+      "annualized_initial_JPY": 67063.2699136839,
+      "annual_budget_remaining_JPY": 3932936.7300863164,
+      "max_annual_replacement_kg": 3146.3493840690535,
+      "allowable_mean_loss_m": 8.739859400191816e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 360.0,
+      "purchase_kg": 450.0,
+      "initial_phase_JPY": 2250000.0,
+      "annualized_initial_JPY": 335316.3495684195,
+      "annual_budget_remaining_JPY": 3664683.650431581,
+      "max_annual_replacement_kg": 586.349384069053,
+      "allowable_mean_loss_m": 1.6287482890807029e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 360.0,
+      "purchase_kg": 450.0,
+      "initial_phase_JPY": 4500000.0,
+      "annualized_initial_JPY": 670632.699136839,
+      "annual_budget_remaining_JPY": 3329367.3008631608,
+      "max_annual_replacement_kg": 266.3493840690529,
+      "allowable_mean_loss_m": 7.398594001918137e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.05,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 360.0,
+      "purchase_kg": 450.0,
+      "initial_phase_JPY": 9000000.0,
+      "annualized_initial_JPY": 1341265.398273678,
+      "annual_budget_remaining_JPY": 2658734.601726322,
+      "max_annual_replacement_kg": 106.34938406905287,
+      "allowable_mean_loss_m": 2.954149557473691e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 144.0,
+      "purchase_kg": 180.0,
+      "initial_phase_JPY": 180000.0,
+      "annualized_initial_JPY": 26825.30796547356,
+      "annual_budget_remaining_JPY": 3973174.6920345267,
+      "max_annual_replacement_kg": 3178.5397536276214,
+      "allowable_mean_loss_m": 2.2073192733525147e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 144.0,
+      "purchase_kg": 180.0,
+      "initial_phase_JPY": 900000.0,
+      "annualized_initial_JPY": 134126.5398273678,
+      "annual_budget_remaining_JPY": 3865873.460172632,
+      "max_annual_replacement_kg": 618.539753627621,
+      "allowable_mean_loss_m": 4.2954149557473683e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 144.0,
+      "purchase_kg": 180.0,
+      "initial_phase_JPY": 1800000.0,
+      "annualized_initial_JPY": 268253.0796547356,
+      "annual_budget_remaining_JPY": 3731746.9203452645,
+      "max_annual_replacement_kg": 298.5397536276212,
+      "allowable_mean_loss_m": 2.0731927335251475e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 144.0,
+      "purchase_kg": 180.0,
+      "initial_phase_JPY": 3600000.0,
+      "annualized_initial_JPY": 536506.1593094711,
+      "annual_budget_remaining_JPY": 3463493.840690529,
+      "max_annual_replacement_kg": 138.53975362762117,
+      "allowable_mean_loss_m": 9.620816224140358e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 720.0,
+      "purchase_kg": 900.0,
+      "initial_phase_JPY": 900000.0,
+      "annualized_initial_JPY": 134126.5398273678,
+      "annual_budget_remaining_JPY": 3865873.460172632,
+      "max_annual_replacement_kg": 3092.6987681381056,
+      "allowable_mean_loss_m": 2.1477074778736845e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 720.0,
+      "purchase_kg": 900.0,
+      "initial_phase_JPY": 4500000.0,
+      "annualized_initial_JPY": 670632.699136839,
+      "annual_budget_remaining_JPY": 3329367.3008631608,
+      "max_annual_replacement_kg": 532.6987681381058,
+      "allowable_mean_loss_m": 3.6992970009590684e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 720.0,
+      "purchase_kg": 900.0,
+      "initial_phase_JPY": 9000000.0,
+      "annualized_initial_JPY": 1341265.398273678,
+      "annual_budget_remaining_JPY": 2658734.601726322,
+      "max_annual_replacement_kg": 212.69876813810575,
+      "allowable_mean_loss_m": 1.4770747787368454e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 720.0,
+      "purchase_kg": 900.0,
+      "initial_phase_JPY": 18000000.0,
+      "annualized_initial_JPY": 2682530.796547356,
+      "annual_budget_remaining_JPY": 1317469.203452644,
+      "max_annual_replacement_kg": 52.69876813810576,
+      "allowable_mean_loss_m": 3.659636676257345e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 1440.0,
+      "purchase_kg": 1800.0,
+      "initial_phase_JPY": 1800000.0,
+      "annualized_initial_JPY": 268253.0796547356,
+      "annual_budget_remaining_JPY": 3731746.9203452645,
+      "max_annual_replacement_kg": 2985.397536276212,
+      "allowable_mean_loss_m": 2.0731927335251474e-06,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 1440.0,
+      "purchase_kg": 1800.0,
+      "initial_phase_JPY": 9000000.0,
+      "annualized_initial_JPY": 1341265.398273678,
+      "annual_budget_remaining_JPY": 2658734.601726322,
+      "max_annual_replacement_kg": 425.3975362762115,
+      "allowable_mean_loss_m": 2.954149557473691e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 1440.0,
+      "purchase_kg": 1800.0,
+      "initial_phase_JPY": 18000000.0,
+      "annualized_initial_JPY": 2682530.796547356,
+      "annual_budget_remaining_JPY": 1317469.203452644,
+      "max_annual_replacement_kg": 105.39753627621153,
+      "allowable_mean_loss_m": 7.31927335251469e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.2,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 1440.0,
+      "purchase_kg": 1800.0,
+      "initial_phase_JPY": 36000000.0,
+      "annualized_initial_JPY": 5365061.593094712,
+      "annual_budget_remaining_JPY": -1365061.5930947121,
+      "max_annual_replacement_kg": 0.0,
+      "allowable_mean_loss_m": 0.0,
+      "initial_and_process_fit_budget": false
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 576.0,
+      "purchase_kg": 720.0,
+      "initial_phase_JPY": 720000.0,
+      "annualized_initial_JPY": 107301.23186189424,
+      "annual_budget_remaining_JPY": 3892698.768138106,
+      "max_annual_replacement_kg": 3114.1590145104847,
+      "allowable_mean_loss_m": 5.406526066858481e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 576.0,
+      "purchase_kg": 720.0,
+      "initial_phase_JPY": 3600000.0,
+      "annualized_initial_JPY": 536506.1593094711,
+      "annual_budget_remaining_JPY": 3463493.840690529,
+      "max_annual_replacement_kg": 554.1590145104847,
+      "allowable_mean_loss_m": 9.620816224140358e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 576.0,
+      "purchase_kg": 720.0,
+      "initial_phase_JPY": 7200000.0,
+      "annualized_initial_JPY": 1073012.3186189423,
+      "annual_budget_remaining_JPY": 2926987.681381058,
+      "max_annual_replacement_kg": 234.15901451048464,
+      "allowable_mean_loss_m": 4.065260668584803e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 576.0,
+      "purchase_kg": 720.0,
+      "initial_phase_JPY": 14400000.0,
+      "annualized_initial_JPY": 2146024.6372378846,
+      "annual_budget_remaining_JPY": 1853975.3627621154,
+      "max_annual_replacement_kg": 74.15901451048462,
+      "allowable_mean_loss_m": 1.2874828908070247e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 2880.0,
+      "purchase_kg": 3600.0,
+      "initial_phase_JPY": 3600000.0,
+      "annualized_initial_JPY": 536506.1593094711,
+      "annual_budget_remaining_JPY": 3463493.840690529,
+      "max_annual_replacement_kg": 2770.7950725524233,
+      "allowable_mean_loss_m": 4.81040811207018e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 2880.0,
+      "purchase_kg": 3600.0,
+      "initial_phase_JPY": 18000000.0,
+      "annualized_initial_JPY": 2682530.796547356,
+      "annual_budget_remaining_JPY": 1317469.203452644,
+      "max_annual_replacement_kg": 210.79507255242305,
+      "allowable_mean_loss_m": 3.659636676257345e-08,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 2880.0,
+      "purchase_kg": 3600.0,
+      "initial_phase_JPY": 36000000.0,
+      "annualized_initial_JPY": 5365061.593094712,
+      "annual_budget_remaining_JPY": -1365061.5930947121,
+      "max_annual_replacement_kg": 0.0,
+      "allowable_mean_loss_m": 0.0,
+      "initial_and_process_fit_budget": false
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 5e-07,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 2880.0,
+      "purchase_kg": 3600.0,
+      "initial_phase_JPY": 72000000.0,
+      "annualized_initial_JPY": 10730123.186189424,
+      "annual_budget_remaining_JPY": -6730123.186189424,
+      "max_annual_replacement_kg": 0.0,
+      "allowable_mean_loss_m": 0.0,
+      "initial_and_process_fit_budget": false
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 1000,
+      "deposited_kg": 5760.0,
+      "purchase_kg": 7200.0,
+      "initial_phase_JPY": 7200000.0,
+      "annualized_initial_JPY": 1073012.3186189423,
+      "annual_budget_remaining_JPY": 2926987.681381058,
+      "max_annual_replacement_kg": 2341.5901451048467,
+      "allowable_mean_loss_m": 4.0652606685848033e-07,
+      "initial_and_process_fit_budget": true
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 5000,
+      "deposited_kg": 5760.0,
+      "purchase_kg": 7200.0,
+      "initial_phase_JPY": 36000000.0,
+      "annualized_initial_JPY": 5365061.593094712,
+      "annual_budget_remaining_JPY": -1365061.5930947121,
+      "max_annual_replacement_kg": 0.0,
+      "allowable_mean_loss_m": 0.0,
+      "initial_and_process_fit_budget": false
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 10000,
+      "deposited_kg": 5760.0,
+      "purchase_kg": 7200.0,
+      "initial_phase_JPY": 72000000.0,
+      "annualized_initial_JPY": 10730123.186189424,
+      "annual_budget_remaining_JPY": -6730123.186189424,
+      "max_annual_replacement_kg": 0.0,
+      "allowable_mean_loss_m": 0.0,
+      "initial_and_process_fit_budget": false
+    },
+    {
+      "coated_area_fraction": 0.8,
+      "eq_thickness_m": 1e-06,
+      "price_JPY_kg": 20000,
+      "deposited_kg": 5760.0,
+      "purchase_kg": 7200.0,
+      "initial_phase_JPY": 144000000.0,
+      "annualized_initial_JPY": 21460246.37237885,
+      "annual_budget_remaining_JPY": -17460246.37237885,
+      "max_annual_replacement_kg": 0.0,
+      "allowable_mean_loss_m": 0.0,
+      "initial_and_process_fit_budget": false
+    }
+  ],
+  "representative_cost": {
+    "coated_area_fraction": 0.2,
+    "eq_thickness_m": 5e-07,
+    "price_JPY_kg": 10000,
+    "deposited_kg": 720.0,
+    "purchase_kg": 900.0,
+    "initial_phase_JPY": 9000000.0,
+    "annualized_initial_JPY": 1341265.398273678,
+    "annual_budget_remaining_JPY": 2658734.601726322,
+    "max_annual_replacement_kg": 212.69876813810575,
+    "allowable_mean_loss_m": 1.4770747787368454e-07,
+    "initial_and_process_fit_budget": true
+  },
+  "wear_conditions": [
+    {
+      "exposed_fraction": 0.01,
+      "loss_per_local_contact_m": 1e-11,
+      "equivalent_contacts_averaged_all_coated_area": 120.0,
+      "annual_mean_loss_m": 1.2e-09,
+      "annual_lost_kg": 1.728,
+      "annual_replenishment_JPY": 21600.0,
+      "inventory_turnovers": 0.0024,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 0.01,
+      "loss_per_local_contact_m": 1e-10,
+      "equivalent_contacts_averaged_all_coated_area": 120.0,
+      "annual_mean_loss_m": 1.2e-08,
+      "annual_lost_kg": 17.28,
+      "annual_replenishment_JPY": 216000.0,
+      "inventory_turnovers": 0.024,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 0.01,
+      "loss_per_local_contact_m": 1e-09,
+      "equivalent_contacts_averaged_all_coated_area": 120.0,
+      "annual_mean_loss_m": 1.2000000000000002e-07,
+      "annual_lost_kg": 172.8,
+      "annual_replenishment_JPY": 2160000.0,
+      "inventory_turnovers": 0.24000000000000002,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 0.1,
+      "loss_per_local_contact_m": 1e-11,
+      "equivalent_contacts_averaged_all_coated_area": 1200.0,
+      "annual_mean_loss_m": 1.2e-08,
+      "annual_lost_kg": 17.28,
+      "annual_replenishment_JPY": 216000.0,
+      "inventory_turnovers": 0.024,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 0.1,
+      "loss_per_local_contact_m": 1e-10,
+      "equivalent_contacts_averaged_all_coated_area": 1200.0,
+      "annual_mean_loss_m": 1.2000000000000002e-07,
+      "annual_lost_kg": 172.8,
+      "annual_replenishment_JPY": 2160000.0,
+      "inventory_turnovers": 0.24000000000000002,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 0.1,
+      "loss_per_local_contact_m": 1e-09,
+      "equivalent_contacts_averaged_all_coated_area": 1200.0,
+      "annual_mean_loss_m": 1.2000000000000002e-06,
+      "annual_lost_kg": 1728.0000000000002,
+      "annual_replenishment_JPY": 21600000.000000004,
+      "inventory_turnovers": 2.4000000000000004,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 1,
+      "loss_per_local_contact_m": 1e-11,
+      "equivalent_contacts_averaged_all_coated_area": 12000,
+      "annual_mean_loss_m": 1.2e-07,
+      "annual_lost_kg": 172.79999999999998,
+      "annual_replenishment_JPY": 2159999.9999999995,
+      "inventory_turnovers": 0.23999999999999996,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 1,
+      "loss_per_local_contact_m": 1e-10,
+      "equivalent_contacts_averaged_all_coated_area": 12000,
+      "annual_mean_loss_m": 1.2e-06,
+      "annual_lost_kg": 1728.0,
+      "annual_replenishment_JPY": 21600000.0,
+      "inventory_turnovers": 2.4,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    },
+    {
+      "exposed_fraction": 1,
+      "loss_per_local_contact_m": 1e-09,
+      "equivalent_contacts_averaged_all_coated_area": 12000,
+      "annual_mean_loss_m": 1.2e-05,
+      "annual_lost_kg": 17280.0,
+      "annual_replenishment_JPY": 216000000.0,
+      "inventory_turnovers": 24.0,
+      "interpretation": "demand with replenishment; without replenishment loss stops at depletion"
+    }
+  ],
+  "wear_thresholds": [
+    {
+      "exposed_fraction": 0.01,
+      "max_loss_per_local_contact_m": 1.2308956489473711e-09
+    },
+    {
+      "exposed_fraction": 0.1,
+      "max_loss_per_local_contact_m": 1.2308956489473712e-10
+    },
+    {
+      "exposed_fraction": 1,
+      "max_loss_per_local_contact_m": 1.2308956489473712e-11
+    }
+  ],
+  "manufacturing_example": {
+    "methanol_feed_kg_per_kg_isolated": 2.735955056179775,
+    "recrystallization_mass_recovery": 0.9780219780219781,
+    "interpretation": "laboratory example feed, not net solvent use or a scaled plant cost"
+  },
+  "numerical_checks": 26,
+  "counts": {
+    "kinematic": 12,
+    "load": 12,
+    "pressure": 28,
+    "cost": 48,
+    "wear": 9
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "S1",
+    "type": "manufacturer technical brochure",
+    "title": "AMIHOPE LL, Ajinomoto, E-200729",
+    "url": "https://ajiaminoscience.eu/personalcare/wp-content/uploads/2021/04/Ajinomoto-Brochure-AMIHOPE-LL-E-200729.pdf",
+    "accessed": "2026-10-09",
+    "read": "2-page PDF text; page 1 rendered and visually checked",
+    "sha256_of_download": "68a61e34bf81979f7fa9b52ba78162e70e1b0e5c220e195dc55ddf3b1da4fe6f",
+    "observed": "N-epsilon-lauroyl-L-lysine, CAS52315-75-0; flat hexagonal morphology 10–20 um; specific gravity 1.2; insoluble in water/oil; no melting or decomposition below 200 C claimed.",
+    "limit": "Manufacturer data, not ski testing. Friction chart lacks counterface, speed and temperature conditions. Plate thickness and 50 C shear durability unknown. Do not infer ice lattice or environmental safety."
+  },
+  {
+    "id": "S2",
+    "type": "primary technical patent disclosure",
+    "title": "US6555708B1, N-epsilon-long chain acyllysine crystals",
+    "url": "https://patents.google.com/patent/US6555708B1/en",
+    "accessed": "2026-10-09",
+    "read": "Full public HTML; Table 1, Preparation Example 1, Experimental Example 2 checked",
+    "sha256_of_download": "71e2b1ba91e0089f2de41ec17eb7e3f08ff1cd1957bc89bc18165f22e76c9855",
+    "observed": "Powders held on adhesive tape and tested with 50g silicone rubber probe; categorical friction below .25 vs above .35 for mechanically pulverized comparisons. Laboratory recrystallization includes heated dissolution, solvent and neutralization.",
+    "limit": "No PE ski, 50C or speed equivalence; interval outcomes, not exact coefficients. Shape and preparation co-vary. Prior technical disclosure, no patentability or legal-status assessment."
+  },
+  {
+    "id": "S3",
+    "type": "primary experimental article",
+    "title": "Okubo et al. Tribological properties of 100% cellulose nanofiber (CNF) molding under dry- and boundary lubrication-conditions at CNF/steel contacts (2023)",
+    "url": "https://doi.org/10.1007/s10570-023-05309-2",
+    "accessed": "2026-10-09",
+    "read": "Full publisher HTML; dry friction results, counterface and Raman discussion; Table 1 standalone not retrieved",
+    "observed": "CNF/steel final dry coefficients about .13 at25C, .24 at50C, .7–.8 at80C; crystalline structure is not enough for low friction.",
+    "limit": "SUJ2 steel rather than PE. Do not substitute load/speed from a related study whose table was accessible. Raman ratio decrease is not direct absolute bulk crystallinity."
+  },
+  {
+    "id": "S4",
+    "type": "primary experimental article",
+    "title": "Okubo et al. Novel Environmentally Superior Tribomaterial with Superlow Friction: 100% Cellulose Nanofiber Molding (2023)",
+    "url": "https://doi.org/10.1007/s11249-023-01754-z",
+    "accessed": "2026-10-09",
+    "read": "Full publisher HTML, methods and friction results",
+    "observed": "Low coefficients near .01–.02 used PAO oil with 1 wt% glycerin monooleate at50C; speed dependence studied.",
+    "limit": "Oil-lubricated results excluded as proof of dry, oil-free project performance."
+  },
+  {
+    "id": "S5",
+    "type": "expert safety assessment, not independent raw trial data",
+    "title": "CIR Safety Assessment of Amino Acid Alkyl Amides as Used in Cosmetics, final2013",
+    "url": "https://www.cir-safety.org/sites/default/files/aaaamd122013final.pdf",
+    "accessed": "2026-10-09",
+    "read": "PDF pp4–5 and Table9 p40; conclusions and inhalation discussion",
+    "observed": "Lauroyl lysine cosmetic formulations supported non-irritating cosmetic use; assessment identifies no inhalation data and reasons from cosmetic exposure scenarios.",
+    "limit": "Does not validate ski abrasion dust, outdoor release, eye impact, chronic occupational exposure, winter water quality, or our carrier/binder. Underlying lauroyl lysine human formulation data include unpublished industry submissions."
+  }
+]

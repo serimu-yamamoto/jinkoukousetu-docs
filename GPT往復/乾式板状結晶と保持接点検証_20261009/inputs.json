@@ -1,0 +1,103 @@
+{
+  "cycle": 46,
+  "date": "2026-10-09",
+  "base_commit": "66f1111a250ccec56e9d37ae4482494f96932aee",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "note": "All proposed geometry, friction and price inputs are scenarios, not candidate measurements. Film thickness is deposited volume divided by substrate area, not measured plate thickness.",
+  "candidate": {
+    "name": "N-epsilon-lauroyl-L-lysine",
+    "CAS": "52315-75-0",
+    "density_kg_m3": 1200,
+    "source": "S1 manufacturer specific gravity 1.2"
+  },
+  "kinematic": {
+    "plate_diameters_m": [
+      0.00001,
+      0.00002
+    ],
+    "speeds_m_s": [
+      1,
+      5,
+      10
+    ],
+    "contact_dwell_s": [
+      0.02,
+      0.1
+    ]
+  },
+  "load": {
+    "base_mu": 0.2,
+    "patch_mu": [
+      0.02,
+      0.03,
+      0.04,
+      0.08
+    ],
+    "structural_drag_over_normal": [
+      0.01,
+      0.02,
+      0.04
+    ],
+    "illustrative_total_mu": 0.06,
+    "patch_contact_area_fraction": [
+      0.05,
+      0.2,
+      0.5,
+      0.8
+    ],
+    "mean_contact_pressure_Pa": 500000,
+    "note": "Patch contact area fraction is independent of total skeleton coating fraction; equality is not assumed."
+  },
+  "cost": {
+    "bed_area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "skeleton_density_kg_m3": 1200,
+    "skeleton_radius_m": 0.00003,
+    "coated_skeleton_area_fraction": [
+      0.01,
+      0.05,
+      0.2,
+      0.8
+    ],
+    "equivalent_deposit_thickness_m": [
+      1e-7,
+      5e-7,
+      0.000001
+    ],
+    "candidate_price_JPY_kg": [
+      1000,
+      5000,
+      10000,
+      20000
+    ],
+    "yield_fraction": 0.8,
+    "discount_rate": 0.08,
+    "years": 10,
+    "annual_phase_budget_JPY": 5000000,
+    "annual_coating_process_allowance_JPY": 1000000,
+    "representative_coated_fraction": 0.2,
+    "representative_thickness_m": 5e-7,
+    "representative_price_JPY_kg": 10000,
+    "exposed_coating_fraction": [
+      0.01,
+      0.1,
+      1
+    ],
+    "local_contacts_per_day": 100,
+    "days": 120,
+    "wear_per_local_contact_m": [
+      1e-11,
+      1e-10,
+      1e-9
+    ],
+    "note": "All costs are unquoted same-basis scenarios. Manufacturing equipment, skeleton, cleaning, disposal, full civil works and tax reconciliation are excluded."
+  },
+  "manufacturing_example": {
+    "methanol_feed_g": 97.4,
+    "isolated_product_g": 35.6,
+    "starting_crystals_g": 36.4,
+    "source": "S2 Preparation Example 1; recovery of existing lauroyl lysine, not chemical synthesis yield."
+  }
+}
