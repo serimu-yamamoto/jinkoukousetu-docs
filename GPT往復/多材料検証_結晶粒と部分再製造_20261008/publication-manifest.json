@@ -1,0 +1,65 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "b3c54645da8e1ee573fadae2fa83503fd11908f8",
+  "cycle": 19,
+  "hash_normalization": "UTF-8 text CRLF to LF; bytes recorded after normalization; this manifest excluded from its own list",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第19巡_結晶性多材料と少量接合材の部分再製造_20261008.md",
+      "bytes": 16578,
+      "sha256": "e1557a8db8768f32c89a67495c9d1bf7abbdc685df00d044ed9c7d1fa527099a"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 12421,
+      "sha256": "0360f56555d783fdca92d43f53f0f7434d5a261d4569e5a28fe0024f378d741b"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/README.md",
+      "bytes": 1461,
+      "sha256": "99a7b77909ace4d826434226359ce57e8c7c54ab9fc298aedd46f55b4f02a7a2"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/calculate.py",
+      "bytes": 7794,
+      "sha256": "9f68e3d0246e2750a84ce7d0feb44da9bec6b25ef22338d381d573c97e532b8f"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/inputs.json",
+      "bytes": 2530,
+      "sha256": "f293ff352dc494edf5c9274e5b4fc314d60e85828a2ef4f4d5452fd7598f0611"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/results.json",
+      "bytes": 43027,
+      "sha256": "bbea97dcfc0893d69eaea7aed8194cc2a73b03092bab151eea569a3d025fd0b6"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/sources.json",
+      "bytes": 5101,
+      "sha256": "9d31b5da099248dbe23eea57ab634f0bedded914b85917b32ba6a1b7f81266f2"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/validation.json",
+      "bytes": 4591,
+      "sha256": "79513246380719ddc49d8ed77aadf181fbe939bf3f0d92de0f403ac76fac5055"
+    },
+    {
+      "path": "GPT往復/多材料検証_結晶粒と部分再製造_20261008/試験仕様.md",
+      "bytes": 6282,
+      "sha256": "815a67fc9a48fe6c859015b1a6561a8eb3d4b05936871e80879477835f1fa049"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18352,
+      "sha256": "d790b6e695378f7e3851e5fab0338a3481ce613ba4d3fb511a92223b816289c5"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 62340,
+      "sha256": "a1b06099a432e9cb91e5fbfb885b41417c599bc853e54ffc891ff5fc81f84f0e"
+    }
+  ]
+}

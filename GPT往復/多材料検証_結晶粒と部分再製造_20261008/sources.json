@@ -1,0 +1,91 @@
+{
+  "accessed": "2026-10-08",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Mechanical Properties of Microspheres Assembled from Carboxylated Cellulose Nanocrystal Rods",
+      "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/62ddab7cb464fa8e7a71895e/original/mechanical-properties-of-microspheres-assembled-from-carboxylated-cellulose-nanocrystal-rods.pdf",
+      "kind": "primary preprint; later journal publication not established",
+      "read": "public PDF methods/results",
+      "locations": "Methods: spray drying and AFM; Table 2; Equation 4 and Peclet discussion",
+      "use": "Feed concentration, dry apparent AFM modulus, equation definition audit",
+      "limits": "No wet-50C, ski friction or full-grain/bed validation; source particle/droplet radius and diffusivity wording unresolved"
+    },
+    {
+      "id": "S2",
+      "title": "Development of mechanical properties of regenerated cellulose beads during drying as investigated by atomic force microscopy",
+      "url": "https://pubs.rsc.org/en/content/articlepdf/2020/sm/d0sm00866d",
+      "doi": "10.1039/d0sm00866d",
+      "kind": "peer-reviewed primary experiment, Soft Matter 2020",
+      "read": "public PDF full methods/results; HTML returned 403",
+      "locations": "pp6458–6460, Figs2–4",
+      "use": "Wet-to-drying apparent modulus and diameter, interactions between cellulose entities",
+      "limits": "Regenerated LiCl/DMAc-derived gel beads differ from native cCNC; no rewetting or 50C cycle proof"
+    },
+    {
+      "id": "S3",
+      "title": "ChromaPur CV2/CV7 presentation",
+      "url": "https://pub-mediabox-storage.rxweb-prd.com/exhibitor/products/exh-7148ff06-b394-4e64-8c60-559022c438e4/product-documents/pro-26bdae54-4134-481a-a63d-674129b1adb1/4e1503a5-53c5-4411-bd6c-846a3ddcb69c.pdf",
+      "kind": "manufacturer presentation, public exhibitor copy",
+      "read": "public PDF text/table, p2",
+      "use": "D50 2/7um and bulk density 0.30/0.56g/cm3; cellulose I manufacturer statement",
+      "limits": "Bulk powder density not skeletal or grain apparent density; cosmetic feel is not ski feel; no figure pixel review"
+    },
+    {
+      "id": "S4",
+      "title": "Croda latest innovation ChromaPur CV2 and CV7",
+      "url": "https://www.crodabeauty.com/en-gb/resources/blog/crodas-latest-innovation-chromapur-cv2-and-cv7",
+      "kind": "manufacturer announcement 2024-02-14",
+      "read": "public HTML; login downloads not accessed",
+      "use": "Confirms commercial cosmetic cellulose powder family",
+      "limits": "Manufacturer claims, not independent ski evidence"
+    },
+    {
+      "id": "S5",
+      "title": "Functionalized porous microparticles of nanofibrillated cellulose for biomimetic hierarchically structured superhydrophobic surfaces",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2012/ra/c2ra00020b",
+      "doi": "10.1039/C2RA00020B",
+      "kind": "peer-reviewed primary experiment RSC Advances 2012",
+      "read": "full HTML",
+      "use": "5–20um NFC particles, water absorption without treatment, FOTS hydrophobic treatment",
+      "limits": "FOTS violates this project route constraints; coated glass is not loose outdoor ski bed"
+    },
+    {
+      "id": "S6",
+      "title": "Dispersibility in water of dried nanocrystalline cellulose",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22482888/",
+      "doi": "10.1021/bm300191k",
+      "kind": "primary author abstract indexed by PubMed",
+      "read": "search-indexed abstract; direct view sometimes empty",
+      "use": "Counterion/drying dependence of redispersion",
+      "limits": "Only abstract consulted; redispersion is not molecular dissolution and not universal to all cellulose"
+    },
+    {
+      "id": "S7",
+      "title": "Spray-dried chitinosans. Part I: preparation and characterization",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12550779/",
+      "kind": "primary author abstract indexed by PubMed",
+      "read": "abstract",
+      "use": "Spherical spray-dried chitinosans across particle sizes",
+      "limits": "Chitinosan/chitosan is not unchanged native chitin; no wet50C or skiing proof; no recipe imported"
+    },
+    {
+      "id": "S8",
+      "title": "Green Planet製屋内型スポーツ用人工芝葉・充填材をミズノと共同開発",
+      "url": "https://www.kaneka.co.jp/topics/news/2025/nr2506101.html",
+      "kind": "manufacturer announcement 2025-06-10",
+      "read": "full public HTML",
+      "use": "PHBH sports infill is an industrial comparison route",
+      "limits": "Indoor turf performance claim is not outdoor ski performance; turf backing not adopted"
+    },
+    {
+      "id": "S9",
+      "title": "BELLOCEA BS7 launch",
+      "url": "https://www.daicel.com/en/news/2025/20250311_1085/",
+      "kind": "manufacturer announcement 2025-03-11",
+      "read": "public HTML",
+      "use": "Cellulose acetate spherical cosmetic particles and reported OECD301F result",
+      "limits": "Smooth cosmetic feel and biodegradation assay do not establish skiing, field lifetime or harmless discharge"
+    }
+  ]
+}
