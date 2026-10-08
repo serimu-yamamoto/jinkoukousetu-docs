@@ -1,0 +1,102 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "2d3b858c7b6991bd09e937edacf6620c99b446e5",
+  "cycle": 41,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 25,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第41巡_滑走接点の発熱と摩耗を両立させる設計_20261009.md",
+      "bytes": 21712,
+      "sha256": "ab99c9a75ff17ead7b76a44894e924ce11eda46c957cc839ac7ede1fa4befabe"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 27008,
+      "sha256": "4ee8ce2232e9cd4a3545f8efac11ebb9dc8f74cb427e46621fcddf73a7333f7e"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/README.md",
+      "bytes": 1715,
+      "sha256": "4cc08ae072752203b865c60332974871bd3dd9fe56263c360fed659ab50ad541"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/coefficient_convergence.csv",
+      "bytes": 342,
+      "sha256": "b64d6cd22354e03e2fd758e71fea0229b41326791379d7d8141cf5f2ac9bde9e"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/contact_cases.csv",
+      "bytes": 21165,
+      "sha256": "c9564424f3003706d2339fa00309e78b3858c8fc9750c094f994a0809c86e9a2"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/contact_heat_profiles.png",
+      "bytes": 116213,
+      "sha256": "69959596bb0014dd82098b4244e8e774b4d7ed79c681a1f1c46b8ae9959da45b"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/cost_caps.csv",
+      "bytes": 91,
+      "sha256": "dbaf8a21451c49521f63971c86a84f7dd51cff06d30f8e024c2570ce6aaa24ed"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/environment.json",
+      "bytes": 177,
+      "sha256": "1f19c6c961f71a9dfe9350e33dba81048770a7f44c2eccc5258e161e165058d0"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/inputs.json",
+      "bytes": 2074,
+      "sha256": "c5e0f9b96e9035cd169aa4dcb70f581608401614229232c33680cec0b4e0696a"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/mean_heating.csv",
+      "bytes": 3913,
+      "sha256": "824628bec39c4752ba43dd5f9c1c27c0ad2ab2174fe211d0efc3b6d57484a8e7"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/model.md",
+      "bytes": 3968,
+      "sha256": "3dd5aec93999803491a64247b9d82d2c6be57ebd9377136bf8cbcdcb3cd3b01b"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/reproduce.py",
+      "bytes": 12217,
+      "sha256": "40d87c909e99e1dd67ab6540d92b239f48e7867f277f3bd373b5a7b3b4c0f1f5"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/results.json",
+      "bytes": 4686,
+      "sha256": "a68f4070c0c0d552648f338215e73ba38f7fd055273e20076e5bc0cce292dfe9"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/sources.json",
+      "bytes": 3912,
+      "sha256": "da90d31ead342af67df19f1e7454b074be05d92a07134cfc62a544a4b05eae93"
+    },
+    {
+      "path": "GPT往復/接触発熱と微細接触寿命検証_20261009/splitting_tradeoff.png",
+      "bytes": 197230,
+      "sha256": "97beac7181915f3b4e4fa777ff26bc617552956e2a23d9e5e301fc1ed5a87157"
+    },
+    {
+      "path": "README.md",
+      "bytes": 33991,
+      "sha256": "a1751bd85d6cf7e90f3b7c146f81a774831166146b315bd56bb658664d4cb479"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 99795,
+      "sha256": "519e3ad678b57184c48c1d49a8cf0d3b417d020958c5103f9c68e96e3d9f8007"
+    }
+  ]
+}

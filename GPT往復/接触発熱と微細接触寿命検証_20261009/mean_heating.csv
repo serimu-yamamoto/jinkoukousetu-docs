@@ -1,0 +1,19 @@
+interface,policy,split_count,interface_mu,moving_ski_power_W,run_time_s,heat_J,mean_flux_W_m2,uniform_halfspace_rise_K,status
+POM_UHMWPE_initial_counterfactual,fixed_pressure_and_total_area,1,0.27,1080.0,5.0,5400.0,9642.857142857141,30.41275807792157,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_initial_counterfactual,fixed_pressure_and_total_area,4,0.27,1080.0,5.0,5400.0,9642.857142857141,30.41275807792157,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_initial_counterfactual,fixed_pressure_and_total_area,16,0.27,1080.0,5.0,5400.0,9642.857142857141,30.41275807792157,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_initial_counterfactual,fixed_crown_curvature,1,0.27,1080.0,5.0,5400.0,9642.857142857141,30.41275807792157,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_initial_counterfactual,fixed_crown_curvature,4,0.38748021039363995,1549.92084157456,5.0,7749.6042078728,13838.578942629998,43.64571073586639,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_initial_counterfactual,fixed_crown_curvature,16,0.5739684199579491,2295.873679831797,5.0,11479.368399158984,20498.872141355325,64.65171370573333,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_late_counterfactual,fixed_pressure_and_total_area,1,0.14,560.0000000000001,5.0,2800.0000000000005,5000.0,15.769578262626002,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_late_counterfactual,fixed_pressure_and_total_area,4,0.14,560.0000000000001,5.0,2800.0000000000005,5000.0,15.769578262626002,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_late_counterfactual,fixed_pressure_and_total_area,16,0.14,560.0000000000001,5.0,2800.0000000000005,5000.0,15.769578262626002,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_late_counterfactual,fixed_crown_curvature,1,0.14,560.0000000000001,5.0,2800.0000000000005,5000.0,15.769578262626002,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_late_counterfactual,fixed_crown_curvature,4,0.181118073637774,724.472294551096,5.0,3622.3614727554796,6468.502629920498,20.401111692906685,separate mean-heating scenario; do not add as an exact result to local peak
+POM_UHMWPE_late_counterfactual,fixed_crown_curvature,16,0.24638894698528221,985.5557879411289,5.0,4927.778939705644,8799.605249474364,27.753212732360115,separate mean-heating scenario; do not add as an exact result to local peak
+hypothetical_low_shear_target,fixed_pressure_and_total_area,1,0.05,200.0,5.0,1000.0,1785.7142857142856,5.631992236652143,separate mean-heating scenario; do not add as an exact result to local peak
+hypothetical_low_shear_target,fixed_pressure_and_total_area,4,0.05,200.0,5.0,1000.0,1785.7142857142856,5.631992236652143,separate mean-heating scenario; do not add as an exact result to local peak
+hypothetical_low_shear_target,fixed_pressure_and_total_area,16,0.05,200.0,5.0,1000.0,1785.7142857142856,5.631992236652143,separate mean-heating scenario; do not add as an exact result to local peak
+hypothetical_low_shear_target,fixed_crown_curvature,1,0.05,200.0,5.0,1000.0,1785.7142857142856,5.631992236652143,separate mean-heating scenario; do not add as an exact result to local peak
+hypothetical_low_shear_target,fixed_crown_curvature,4,0.06174802103936399,246.99208415745596,5.0,1234.9604207872799,2205.286465691571,6.955287502446623,separate mean-heating scenario; do not add as an exact result to local peak
+hypothetical_low_shear_target,fixed_crown_curvature,16,0.08039684199579492,321.58736798317966,5.0,1607.9368399158984,2871.315785564104,9.055887799433318,separate mean-heating scenario; do not add as an exact result to local peak

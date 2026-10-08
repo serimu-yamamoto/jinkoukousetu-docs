@@ -1,0 +1,80 @@
+{
+  "accessed": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Flash temperature in sliding contacts: Comparing theory with experiments",
+      "author": "B. N. J. Persson",
+      "year": 2026,
+      "doi": "10.1063/5.0339886",
+      "publisher_url": "https://pubs.aip.org/aip/jcp/article/165/6/064703/3400844/Flash-temperature-in-sliding-contacts-Comparing",
+      "preprint": "https://arxiv.org/abs/2604.15969",
+      "html": "https://arxiv.org/html/2604.15969v1",
+      "pdf_sha256": "ce50e518dd07be952654d3eae2566456469907fbe1d4437fcc1630b2b0461de9",
+      "access": "publisher full HTML and arXiv v1 PDF; equations 19-23 and Appendix checked",
+      "limitations": [
+        "comparison experiment is steel on steel, not artificial firn",
+        "single-scale Hertz limit is not valid for arbitrary multiscale roughness",
+        "published pressure-weighted coefficient 0.352 differs from independently integrated 0.3551658 by about 0.9%; unresolved; not used to evaluate peaks"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Semi-analytical calculation model for friction of polymers on the example of POM / PE-UHMW and steel / PE-UHMW",
+      "authors": "Bergmann et al.",
+      "year": 2024,
+      "doi": "10.1007/s40544-024-0887-2",
+      "url": "https://link.springer.com/article/10.1007/s40544-024-0887-2",
+      "access": "publisher page and verified cycle33 source/parameter record rechecked; full PDF had been inspected in cycle33",
+      "limitations": [
+        "parameters from 0.1 m/s, initial and late run states",
+        "not a 50 C high speed calibration",
+        "constant and pressure-dependent shear generate different heat profiles"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Tribological Performance of Biodegradable Polymers: Comparative Study of PLA, PBS, PHBV and CAB",
+      "authors": "Arold, Herzog, Rösel, Drummer",
+      "year": 2026,
+      "doi": "10.2139/ssrn.6845211",
+      "url": "https://ssrn.com/abstract=6845211",
+      "institution_url": "https://cris.fau.de/publications/366935461/",
+      "access": "SSRN indexed abstract and author university metadata; PDF request 403, full text not obtained",
+      "status": "preprint / in review; page year 2026, autoformatted citation says 2027; no final publication assumed",
+      "limitations": [
+        "counterface and full methods not verified",
+        "0.1-0.5 m/s abstract test range is not skiing",
+        "no coefficient or wear-rate number from this paper used in the model"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "How to glide well on wet snow? Can roughness and hydrophobicity lower friction of polymers on snow?",
+      "authors": "Wolfsperger, Szabo, Rhyner",
+      "year": 2020,
+      "url": "https://snowstorm-gliding.de/pdf/Gliding22020.pdf",
+      "institution_url": "https://www.wsl.ch/en/staff/wolfsperg/",
+      "pdf_sha256": "59754b226ea2bc9d04e4753571f6f2c9ccd318ee88ad3c439444a345c3d6b9b6",
+      "access": "original journal PDF; methods and results text read",
+      "limitations": [
+        "0.1 m/s, 53.3 N on snow in cold chamber",
+        "not wet warm polymer-grain bed or winter anchoring test",
+        "no friction coefficient transferred into this cycle model"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Scalable Preparation of Liquid Infused Coatings for Lubrication of 10^3 m2 Dry Ski Slopes",
+      "year": 2024,
+      "doi": "10.1021/acs.langmuir.4c00015",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.4c00015",
+      "access": "publisher indexed abstract and supporting-information description",
+      "limitations": [
+        "uses silica and silicone oil; not permitted operating formulation for this project",
+        "fixed dry-ski mat is not the allowed sliding layer",
+        "low mean friction does not establish snow-like edge response or environmental harmlessness"
+      ]
+    }
+  ]
+}

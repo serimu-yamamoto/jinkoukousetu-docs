@@ -1,0 +1,72 @@
+{
+  "schema": "flash-wear-contact-audit-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "base": {
+    "contact_radius_m": 0.00001,
+    "mean_contact_pressure_Pa": 10000000,
+    "effective_modulus_Pa": 500000000,
+    "thermal_effusivity_J_m2_K_sqrt_s": 800,
+    "thermal_diffusivity_m2_s": 2e-7,
+    "speed_m_s": [
+      2,
+      5,
+      10
+    ],
+    "split_counts": [
+      1,
+      4,
+      16
+    ],
+    "background_C": 50,
+    "ski_length_m": 1.6,
+    "ski_width_m": 0.07,
+    "ski_load_N": 400,
+    "slope_length_m": 50,
+    "local_loaded_passes": 100,
+    "wear_allowance_fraction_of_hertz_indentation": 0.1
+  },
+  "interfaces": [
+    {
+      "id": "POM_UHMWPE_initial_counterfactual",
+      "tau0_Pa": 2000000,
+      "beta": 0.07,
+      "source": "10.1007/s40544-024-0887-2; model fit at 0.1 m/s, not measured at present conditions"
+    },
+    {
+      "id": "POM_UHMWPE_late_counterfactual",
+      "tau0_Pa": 700000,
+      "beta": 0.07,
+      "source": "same source; 21-23 h average; no 50 C high speed validation"
+    },
+    {
+      "id": "hypothetical_low_shear_target",
+      "tau0_Pa": 200000,
+      "beta": 0.03,
+      "source": "design assumption only; no matching material established"
+    }
+  ],
+  "literature_constants": {
+    "source": "10.1063/5.0339886; equations 19-23",
+    "high_speed_Hertz_maximum": 0.59,
+    "high_speed_Hertz_area_average": 0.323,
+    "high_speed_Hertz_pressure_weighted": 0.352
+  },
+  "model_scope": [
+    "semi-infinite moving solid; all generated heat assigned to that solid",
+    "high Peclet number, constant properties, independent smooth patches",
+    "local shear tau=tau0+beta*p(x,y), mixed uniform and Hertz heat sources",
+    "not a calibrated ski/particle model; no wet cooling, bulk plastic loss or shape evolution"
+  ],
+  "cost": {
+    "bed_mass_kg": 108000,
+    "material_budget_JPY_year": 10000000,
+    "discount_rate": 0.08,
+    "years": 10,
+    "annual_new_fraction": [
+      0.1,
+      0.2
+    ],
+    "status": "illustrative inherited comparison, not approved budget or vendor quote"
+  }
+}
