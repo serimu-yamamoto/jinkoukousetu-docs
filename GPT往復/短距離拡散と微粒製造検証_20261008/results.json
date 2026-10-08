@@ -1,0 +1,828 @@
+{
+  "cycle": 31,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "Fo95_sphere": 0.25311764200496667,
+  "Fo95_slab_half_thickness": 1.1290073767296462,
+  "diffusion": [
+    {
+      "precursor_diameter_mm": 0.1,
+      "D_m2_s": 1e-10,
+      "t95_s": 6.327941050124167
+    },
+    {
+      "precursor_diameter_mm": 0.1,
+      "D_m2_s": 1e-09,
+      "t95_s": 0.6327941050124167
+    },
+    {
+      "precursor_diameter_mm": 0.1,
+      "D_m2_s": 1e-08,
+      "t95_s": 0.06327941050124167
+    },
+    {
+      "precursor_diameter_mm": 0.3,
+      "D_m2_s": 1e-10,
+      "t95_s": 56.95146945111748
+    },
+    {
+      "precursor_diameter_mm": 0.3,
+      "D_m2_s": 1e-09,
+      "t95_s": 5.695146945111748
+    },
+    {
+      "precursor_diameter_mm": 0.3,
+      "D_m2_s": 1e-08,
+      "t95_s": 0.5695146945111749
+    },
+    {
+      "precursor_diameter_mm": 0.6,
+      "D_m2_s": 1e-10,
+      "t95_s": 227.80587780446993
+    },
+    {
+      "precursor_diameter_mm": 0.6,
+      "D_m2_s": 1e-09,
+      "t95_s": 22.780587780446993
+    },
+    {
+      "precursor_diameter_mm": 0.6,
+      "D_m2_s": 1e-08,
+      "t95_s": 2.2780587780446995
+    },
+    {
+      "precursor_diameter_mm": 3,
+      "D_m2_s": 1e-10,
+      "t95_s": 5695.14694511175
+    },
+    {
+      "precursor_diameter_mm": 3,
+      "D_m2_s": 1e-09,
+      "t95_s": 569.514694511175
+    },
+    {
+      "precursor_diameter_mm": 3,
+      "D_m2_s": 1e-08,
+      "t95_s": 56.951469451117504
+    },
+    {
+      "precursor_diameter_mm": 12,
+      "D_m2_s": 1e-10,
+      "t95_s": 91122.351121788
+    },
+    {
+      "precursor_diameter_mm": 12,
+      "D_m2_s": 1e-09,
+      "t95_s": 9112.2351121788
+    },
+    {
+      "precursor_diameter_mm": 12,
+      "D_m2_s": 1e-08,
+      "t95_s": 911.2235112178801
+    }
+  ],
+  "reference_particle": {
+    "finished_diameter_mm": 0.45,
+    "envelope_density_kg_m3": 200,
+    "assumed_solid_density_kg_m3": 900,
+    "precursor_diameter_mm": 0.27256808892482093,
+    "t95_s": 4.7012402211308695,
+    "Dref_m2_s": 1e-09
+  },
+  "retention": [
+    {
+      "delay_s": 0.1,
+      "Ddes_to_Ds": 0.1,
+      "remaining_fraction": 0.9230679111776076
+    },
+    {
+      "delay_s": 1,
+      "Ddes_to_Ds": 0.1,
+      "remaining_fraction": 0.7677637884528836
+    },
+    {
+      "delay_s": 5,
+      "Ddes_to_Ds": 0.1,
+      "remaining_fraction": 0.5253475801016115
+    },
+    {
+      "delay_s": 30,
+      "Ddes_to_Ds": 0.1,
+      "remaining_fraction": 0.12371621592996933
+    },
+    {
+      "delay_s": 0.1,
+      "Ddes_to_Ds": 1,
+      "remaining_fraction": 0.7677637884528836
+    },
+    {
+      "delay_s": 1,
+      "Ddes_to_Ds": 1,
+      "remaining_fraction": 0.3760487588655972
+    },
+    {
+      "delay_s": 5,
+      "Ddes_to_Ds": 1,
+      "remaining_fraction": 0.04265795224380974
+    },
+    {
+      "delay_s": 30,
+      "Ddes_to_Ds": 1,
+      "remaining_fraction": 7.252996924159346e-08
+    },
+    {
+      "delay_s": 0.1,
+      "Ddes_to_Ds": 10,
+      "remaining_fraction": 0.3760487588655972
+    },
+    {
+      "delay_s": 1,
+      "Ddes_to_Ds": 10,
+      "remaining_fraction": 0.002992771187136469
+    },
+    {
+      "delay_s": 5,
+      "Ddes_to_Ds": 10,
+      "remaining_fraction": 1.7577677230067415e-12
+    },
+    {
+      "delay_s": 30,
+      "Ddes_to_Ds": 10,
+      "remaining_fraction": 3.552314331077197e-70
+    }
+  ],
+  "finite_difference": [
+    {
+      "N": 40,
+      "steps": 2000,
+      "Fo": 0.2,
+      "remaining_fd": 0.08450394879634263,
+      "remaining_analytic": 0.0845044338923179,
+      "error": 4.850959752777939e-07,
+      "min_transformed_deficit": 0.006923086382228982,
+      "max_transformed_deficit": 0.0884778262113019
+    },
+    {
+      "N": 80,
+      "steps": 2000,
+      "Fo": 0.2,
+      "remaining_fd": 0.08450432620932223,
+      "remaining_analytic": 0.0845044338923179,
+      "error": 1.0768299567309736e-07,
+      "min_transformed_deficit": 0.0034629890116432086,
+      "max_transformed_deficit": 0.08844464393835719
+    },
+    {
+      "N": 160,
+      "steps": 2000,
+      "Fo": 0.2,
+      "remaining_fd": 0.08450441251342163,
+      "remaining_analytic": 0.0845044338923179,
+      "error": 2.137889627829015e-08,
+      "min_transformed_deficit": 0.0017316750660369322,
+      "max_transformed_deficit": 0.08843634419276408
+    }
+  ],
+  "fd_time_refined_value": 0.08450440750818411,
+  "particle_manufacture": [
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.3,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 1.4137166941154067e-09,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 55262133.01801923,
+      "cuts_per_hole_s": 55262.13301801923,
+      "required_holes_at_assumed_frequency": 276311
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.3,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 2.8274333882308133e-09,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 27631066.509009615,
+      "cuts_per_hole_s": 27631.066509009615,
+      "required_holes_at_assumed_frequency": 138156
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.3,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 5.654866776461627e-09,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 13815533.254504807,
+      "cuts_per_hole_s": 13815.533254504808,
+      "required_holes_at_assumed_frequency": 69078
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.45,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 4.7712938426395e-09,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 16373965.338672355,
+      "cuts_per_hole_s": 16373.965338672355,
+      "required_holes_at_assumed_frequency": 81870
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.45,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 9.542587685279e-09,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 8186982.669336177,
+      "cuts_per_hole_s": 8186.982669336177,
+      "required_holes_at_assumed_frequency": 40935
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.45,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 1.9085175370558e-08,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 4093491.3346680887,
+      "cuts_per_hole_s": 4093.4913346680887,
+      "required_holes_at_assumed_frequency": 20468
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.6,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 1.1309733552923253e-08,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 6907766.627252404,
+      "cuts_per_hole_s": 6907.766627252404,
+      "required_holes_at_assumed_frequency": 34539
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.6,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 2.2619467105846507e-08,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 3453883.313626202,
+      "cuts_per_hole_s": 3453.883313626202,
+      "required_holes_at_assumed_frequency": 17270
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 0.6,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 4.523893421169301e-08,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 1726941.656813101,
+      "cuts_per_hole_s": 1726.941656813101,
+      "required_holes_at_assumed_frequency": 8635
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 3,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 1.413716694115407e-06,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 55262.13301801921,
+      "cuts_per_hole_s": 55.262133018019206,
+      "required_holes_at_assumed_frequency": 277
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 3,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 2.827433388230814e-06,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 27631.066509009604,
+      "cuts_per_hole_s": 27.631066509009603,
+      "required_holes_at_assumed_frequency": 139
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 3,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 5.654866776461628e-06,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 13815.533254504802,
+      "cuts_per_hole_s": 13.815533254504802,
+      "required_holes_at_assumed_frequency": 70
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 4,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 3.351032163829113e-06,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 23313.71236697685,
+      "cuts_per_hole_s": 23.31371236697685,
+      "required_holes_at_assumed_frequency": 117
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 4,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 6.702064327658226e-06,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 11656.856183488426,
+      "cuts_per_hole_s": 11.656856183488426,
+      "required_holes_at_assumed_frequency": 59
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 4,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 1.3404128655316453e-05,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 5828.428091744213,
+      "cuts_per_hole_s": 5.828428091744213,
+      "required_holes_at_assumed_frequency": 30
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 5,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 6.544984694978737e-06,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 11936.620731892148,
+      "cuts_per_hole_s": 11.936620731892148,
+      "required_holes_at_assumed_frequency": 60
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 5,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 1.3089969389957474e-05,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 5968.310365946074,
+      "cuts_per_hole_s": 5.968310365946074,
+      "required_holes_at_assumed_frequency": 30
+    },
+    {
+      "area_m2": 2000,
+      "finished_diameter_mm": 5,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 2.6179938779914948e-05,
+      "feed_kg_h": 281.25,
+      "particles_per_s": 2984.155182973037,
+      "cuts_per_hole_s": 2.984155182973037,
+      "required_holes_at_assumed_frequency": 15
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.3,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 1.4137166941154067e-09,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 552621330.1801922,
+      "cuts_per_hole_s": 552621.3301801922,
+      "required_holes_at_assumed_frequency": 2763107
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.3,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 2.8274333882308133e-09,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 276310665.0900961,
+      "cuts_per_hole_s": 276310.6650900961,
+      "required_holes_at_assumed_frequency": 1381554
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.3,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 5.654866776461627e-09,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 138155332.54504806,
+      "cuts_per_hole_s": 138155.33254504806,
+      "required_holes_at_assumed_frequency": 690777
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.45,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 4.7712938426395e-09,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 163739653.38672355,
+      "cuts_per_hole_s": 163739.65338672354,
+      "required_holes_at_assumed_frequency": 818699
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.45,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 9.542587685279e-09,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 81869826.69336177,
+      "cuts_per_hole_s": 81869.82669336177,
+      "required_holes_at_assumed_frequency": 409350
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.45,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 1.9085175370558e-08,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 40934913.34668089,
+      "cuts_per_hole_s": 40934.913346680885,
+      "required_holes_at_assumed_frequency": 204675
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.6,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 1.1309733552923253e-08,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 69077666.27252403,
+      "cuts_per_hole_s": 69077.66627252403,
+      "required_holes_at_assumed_frequency": 345389
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.6,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 2.2619467105846507e-08,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 34538833.136262015,
+      "cuts_per_hole_s": 34538.833136262016,
+      "required_holes_at_assumed_frequency": 172695
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 0.6,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 4.523893421169301e-08,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 17269416.568131007,
+      "cuts_per_hole_s": 17269.416568131008,
+      "required_holes_at_assumed_frequency": 86348
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 3,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 1.413716694115407e-06,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 552621.3301801921,
+      "cuts_per_hole_s": 552.6213301801921,
+      "required_holes_at_assumed_frequency": 2764
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 3,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 2.827433388230814e-06,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 276310.66509009607,
+      "cuts_per_hole_s": 276.31066509009605,
+      "required_holes_at_assumed_frequency": 1382
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 3,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 5.654866776461628e-06,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 138155.33254504803,
+      "cuts_per_hole_s": 138.15533254504803,
+      "required_holes_at_assumed_frequency": 691
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 4,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 3.351032163829113e-06,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 233137.12366976854,
+      "cuts_per_hole_s": 233.13712366976853,
+      "required_holes_at_assumed_frequency": 1166
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 4,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 6.702064327658226e-06,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 116568.56183488427,
+      "cuts_per_hole_s": 116.56856183488426,
+      "required_holes_at_assumed_frequency": 583
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 4,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 1.3404128655316453e-05,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 58284.280917442135,
+      "cuts_per_hole_s": 58.28428091744213,
+      "required_holes_at_assumed_frequency": 292
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 5,
+      "envelope_density_kg_m3": 100,
+      "particle_mass_kg": 6.544984694978737e-06,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 119366.20731892149,
+      "cuts_per_hole_s": 119.36620731892148,
+      "required_holes_at_assumed_frequency": 597
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 5,
+      "envelope_density_kg_m3": 200,
+      "particle_mass_kg": 1.3089969389957474e-05,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 59683.10365946074,
+      "cuts_per_hole_s": 59.68310365946074,
+      "required_holes_at_assumed_frequency": 299
+    },
+    {
+      "area_m2": 20000,
+      "finished_diameter_mm": 5,
+      "envelope_density_kg_m3": 400,
+      "particle_mass_kg": 2.6179938779914948e-05,
+      "feed_kg_h": 2812.5,
+      "particles_per_s": 29841.55182973037,
+      "cuts_per_hole_s": 29.84155182973037,
+      "required_holes_at_assumed_frequency": 150
+    }
+  ],
+  "production": [
+    {
+      "area_m2": 2000,
+      "good_initial_kg": 108000.0,
+      "required_good_kg_h": 225.0,
+      "capacity_at_brochure_size_kg_h": 80,
+      "assumed_good_rate_kg_h": 64.0,
+      "initial_operating_hours": 1687.5,
+      "equivalent_lines_for_30day_target": 4,
+      "annual_replenishment_kg": 2160.0,
+      "annual_replenishment_hours": 33.75,
+      "allowable_annual_fixed_processing_yen": 108000.0
+    },
+    {
+      "area_m2": 2000,
+      "good_initial_kg": 108000.0,
+      "required_good_kg_h": 225.0,
+      "capacity_at_brochure_size_kg_h": 150,
+      "assumed_good_rate_kg_h": 120.0,
+      "initial_operating_hours": 900.0,
+      "equivalent_lines_for_30day_target": 2,
+      "annual_replenishment_kg": 2160.0,
+      "annual_replenishment_hours": 18.0,
+      "allowable_annual_fixed_processing_yen": 108000.0
+    },
+    {
+      "area_m2": 20000,
+      "good_initial_kg": 1080000.0,
+      "required_good_kg_h": 2250.0,
+      "capacity_at_brochure_size_kg_h": 80,
+      "assumed_good_rate_kg_h": 64.0,
+      "initial_operating_hours": 16875.0,
+      "equivalent_lines_for_30day_target": 36,
+      "annual_replenishment_kg": 21600.0,
+      "annual_replenishment_hours": 337.5,
+      "allowable_annual_fixed_processing_yen": 1080000.0
+    },
+    {
+      "area_m2": 20000,
+      "good_initial_kg": 1080000.0,
+      "required_good_kg_h": 2250.0,
+      "capacity_at_brochure_size_kg_h": 150,
+      "assumed_good_rate_kg_h": 120.0,
+      "initial_operating_hours": 9000.0,
+      "equivalent_lines_for_30day_target": 19,
+      "annual_replenishment_kg": 21600.0,
+      "annual_replenishment_hours": 180.0,
+      "allowable_annual_fixed_processing_yen": 1080000.0
+    }
+  ],
+  "skin": [
+    {
+      "diameter_mm": 0.3,
+      "shell_um": 0,
+      "shell_volume_fraction": 0.0,
+      "envelope_density_kg_m3": 60.0,
+      "bed_density_kg_m3": 36.0
+    },
+    {
+      "diameter_mm": 0.3,
+      "shell_um": 2,
+      "shell_volume_fraction": 0.03946903703703697,
+      "envelope_density_kg_m3": 93.15399111111105,
+      "bed_density_kg_m3": 55.89239466666663
+    },
+    {
+      "diameter_mm": 0.3,
+      "shell_um": 5,
+      "shell_volume_fraction": 0.09670370370370374,
+      "envelope_density_kg_m3": 141.23111111111115,
+      "bed_density_kg_m3": 84.73866666666669
+    },
+    {
+      "diameter_mm": 0.3,
+      "shell_um": 10,
+      "shell_volume_fraction": 0.1869629629629629,
+      "envelope_density_kg_m3": 217.04888888888883,
+      "bed_density_kg_m3": 130.2293333333333
+    },
+    {
+      "diameter_mm": 0.3,
+      "shell_um": 15,
+      "shell_volume_fraction": 0.2709999999999999,
+      "envelope_density_kg_m3": 287.63999999999993,
+      "bed_density_kg_m3": 172.58399999999995
+    },
+    {
+      "diameter_mm": 0.45,
+      "shell_um": 0,
+      "shell_volume_fraction": 0.0,
+      "envelope_density_kg_m3": 60.0,
+      "bed_density_kg_m3": 36.0
+    },
+    {
+      "diameter_mm": 0.45,
+      "shell_um": 2,
+      "shell_volume_fraction": 0.026430331961591058,
+      "envelope_density_kg_m3": 82.2014788477365,
+      "bed_density_kg_m3": 49.32088730864189
+    },
+    {
+      "diameter_mm": 0.45,
+      "shell_um": 5,
+      "shell_volume_fraction": 0.0651961591220851,
+      "envelope_density_kg_m3": 114.76477366255148,
+      "bed_density_kg_m3": 68.85886419753088
+    },
+    {
+      "diameter_mm": 0.45,
+      "shell_um": 10,
+      "shell_volume_fraction": 0.1274951989026062,
+      "envelope_density_kg_m3": 167.0959670781892,
+      "bed_density_kg_m3": 100.25758024691352
+    },
+    {
+      "diameter_mm": 0.45,
+      "shell_um": 15,
+      "shell_volume_fraction": 0.1869629629629629,
+      "envelope_density_kg_m3": 217.04888888888883,
+      "bed_density_kg_m3": 130.2293333333333
+    },
+    {
+      "diameter_mm": 0.6,
+      "shell_um": 0,
+      "shell_volume_fraction": 0.0,
+      "envelope_density_kg_m3": 60.0,
+      "bed_density_kg_m3": 36.0
+    },
+    {
+      "diameter_mm": 0.6,
+      "shell_um": 2,
+      "shell_volume_fraction": 0.019866962962963086,
+      "envelope_density_kg_m3": 76.68824888888899,
+      "bed_density_kg_m3": 46.012949333333395
+    },
+    {
+      "diameter_mm": 0.6,
+      "shell_um": 5,
+      "shell_volume_fraction": 0.04917129629629646,
+      "envelope_density_kg_m3": 101.30388888888903,
+      "bed_density_kg_m3": 60.78233333333342
+    },
+    {
+      "diameter_mm": 0.6,
+      "shell_um": 10,
+      "shell_volume_fraction": 0.09670370370370374,
+      "envelope_density_kg_m3": 141.23111111111115,
+      "bed_density_kg_m3": 84.73866666666669
+    },
+    {
+      "diameter_mm": 0.6,
+      "shell_um": 15,
+      "shell_volume_fraction": 0.1426250000000001,
+      "envelope_density_kg_m3": 179.8050000000001,
+      "bed_density_kg_m3": 107.88300000000005
+    },
+    {
+      "diameter_mm": 3,
+      "shell_um": 0,
+      "shell_volume_fraction": 0.0,
+      "envelope_density_kg_m3": 60.0,
+      "bed_density_kg_m3": 36.0
+    },
+    {
+      "diameter_mm": 3,
+      "shell_um": 2,
+      "shell_volume_fraction": 0.003994669037036935,
+      "envelope_density_kg_m3": 63.35552199111103,
+      "bed_density_kg_m3": 38.013313194666615
+    },
+    {
+      "diameter_mm": 3,
+      "shell_um": 5,
+      "shell_volume_fraction": 0.009966703703703561,
+      "envelope_density_kg_m3": 68.372031111111,
+      "bed_density_kg_m3": 41.0232186666666
+    },
+    {
+      "diameter_mm": 3,
+      "shell_um": 10,
+      "shell_volume_fraction": 0.019866962962963086,
+      "envelope_density_kg_m3": 76.68824888888899,
+      "bed_density_kg_m3": 46.012949333333395
+    },
+    {
+      "diameter_mm": 3,
+      "shell_um": 15,
+      "shell_volume_fraction": 0.029700999999999977,
+      "envelope_density_kg_m3": 84.94883999999998,
+      "bed_density_kg_m3": 50.96930399999999
+    },
+    {
+      "diameter_mm": 4,
+      "shell_um": 0,
+      "shell_volume_fraction": 0.0,
+      "envelope_density_kg_m3": 60.0,
+      "bed_density_kg_m3": 36.0
+    },
+    {
+      "diameter_mm": 4,
+      "shell_um": 2,
+      "shell_volume_fraction": 0.002997000999999999,
+      "envelope_density_kg_m3": 62.517480840000005,
+      "bed_density_kg_m3": 37.510488504
+    },
+    {
+      "diameter_mm": 4,
+      "shell_um": 5,
+      "shell_volume_fraction": 0.007481265624999844,
+      "envelope_density_kg_m3": 66.28426312499987,
+      "bed_density_kg_m3": 39.770557874999916
+    },
+    {
+      "diameter_mm": 4,
+      "shell_um": 10,
+      "shell_volume_fraction": 0.014925124999999984,
+      "envelope_density_kg_m3": 72.53710499999998,
+      "bed_density_kg_m3": 43.52226299999999
+    },
+    {
+      "diameter_mm": 4,
+      "shell_um": 15,
+      "shell_volume_fraction": 0.022331671874999848,
+      "envelope_density_kg_m3": 78.75860437499986,
+      "bed_density_kg_m3": 47.25516262499992
+    },
+    {
+      "diameter_mm": 5,
+      "shell_um": 0,
+      "shell_volume_fraction": 0.0,
+      "envelope_density_kg_m3": 60.0,
+      "bed_density_kg_m3": 36.0
+    },
+    {
+      "diameter_mm": 5,
+      "shell_um": 2,
+      "shell_volume_fraction": 0.002398080512000078,
+      "envelope_density_kg_m3": 62.014387630080066,
+      "bed_density_kg_m3": 37.20863257804804
+    },
+    {
+      "diameter_mm": 5,
+      "shell_um": 5,
+      "shell_volume_fraction": 0.005988007999999989,
+      "envelope_density_kg_m3": 65.02992671999999,
+      "bed_density_kg_m3": 39.017956031999994
+    },
+    {
+      "diameter_mm": 5,
+      "shell_um": 10,
+      "shell_volume_fraction": 0.01195206400000004,
+      "envelope_density_kg_m3": 70.03973376000003,
+      "bed_density_kg_m3": 42.02384025600002
+    },
+    {
+      "diameter_mm": 5,
+      "shell_um": 15,
+      "shell_volume_fraction": 0.017892216000000016,
+      "envelope_density_kg_m3": 75.02946144,
+      "bed_density_kg_m3": 45.017676864
+    }
+  ],
+  "fixed_event_capacity": [
+    {
+      "diameter_mm": 0.3,
+      "capacity_ratio_to_4mm": 0.00042187499999999994,
+      "feed_kg_h_if_150_at_4mm": 0.06328125
+    },
+    {
+      "diameter_mm": 0.45,
+      "capacity_ratio_to_4mm": 0.0014238281250000002,
+      "feed_kg_h_if_150_at_4mm": 0.21357421875000002
+    },
+    {
+      "diameter_mm": 0.6,
+      "capacity_ratio_to_4mm": 0.0033749999999999995,
+      "feed_kg_h_if_150_at_4mm": 0.50625
+    }
+  ]
+}

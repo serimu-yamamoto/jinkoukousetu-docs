@@ -1,0 +1,132 @@
+{
+  "check_count": 25,
+  "checks": [
+    {
+      "name": "zero-time deficit",
+      "passed": true,
+      "detail": "initial state"
+    },
+    {
+      "name": "long-time equilibrium",
+      "passed": true,
+      "detail": "boundary held fixed"
+    },
+    {
+      "name": "monotone uptake",
+      "passed": true,
+      "detail": "constant-D sphere"
+    },
+    {
+      "name": "sphere uptake inverse",
+      "passed": true,
+      "detail": "bisection and series"
+    },
+    {
+      "name": "slab uptake inverse",
+      "passed": true,
+      "detail": "L defined as half thickness"
+    },
+    {
+      "name": "radius squared scaling",
+      "passed": true,
+      "detail": "constant D"
+    },
+    {
+      "name": "D inverse scaling",
+      "passed": true,
+      "detail": "constant geometry"
+    },
+    {
+      "name": "source exponent mismatch",
+      "passed": true,
+      "detail": "published equations, not a correction of fitted D"
+    },
+    {
+      "name": "sphere leading mode",
+      "passed": true,
+      "detail": "independent long-time form"
+    },
+    {
+      "name": "uptake desorption complement",
+      "passed": true,
+      "detail": "linear reversible constant-D idealization"
+    },
+    {
+      "name": "precursor mass conserved",
+      "passed": true,
+      "detail": "assumed expansion, gas mass neglected"
+    },
+    {
+      "name": "retention domain",
+      "passed": true,
+      "detail": "fraction"
+    },
+    {
+      "name": "FD grid improves",
+      "passed": true,
+      "detail": "same Fo and time steps"
+    },
+    {
+      "name": "FD analytic accuracy",
+      "passed": true,
+      "detail": "independent transformed PDE"
+    },
+    {
+      "name": "FD time-step refinement",
+      "passed": true,
+      "detail": "steps doubled"
+    },
+    {
+      "name": "FD admissible deficit",
+      "passed": true,
+      "detail": "final nonnegative state"
+    },
+    {
+      "name": "particle mass flow conservation",
+      "passed": true,
+      "detail": "one particle mass times count"
+    },
+    {
+      "name": "size cubed event scaling",
+      "passed": true,
+      "detail": "equal envelope density"
+    },
+    {
+      "name": "area mass scales tenfold",
+      "passed": true,
+      "detail": "same bed"
+    },
+    {
+      "name": "good yield applied once",
+      "passed": true,
+      "detail": "scenario yield only"
+    },
+    {
+      "name": "annual replenishment conservation",
+      "passed": true,
+      "detail": "hypothetical 2 percent"
+    },
+    {
+      "name": "zero shell recovers core",
+      "passed": true,
+      "detail": "geometry limit"
+    },
+    {
+      "name": "shell mass bounds",
+      "passed": true,
+      "detail": "mixture by volume"
+    },
+    {
+      "name": "skin scale invariance",
+      "passed": true,
+      "detail": "same t/diameter"
+    },
+    {
+      "name": "density definitions separated",
+      "passed": true,
+      "detail": "packing fraction explicitly specified"
+    }
+  ],
+  "physical_tests": 0,
+  "scope": "Mathematics, discretization and specified balances. No observed material success."
+}

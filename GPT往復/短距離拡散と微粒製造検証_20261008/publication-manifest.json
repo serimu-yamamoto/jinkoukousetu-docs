@@ -1,0 +1,77 @@
+{
+  "cycle": 31,
+  "date": "2026-10-08",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "064de51d29cd17ce28dd61b49712473621db3931",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第31巡_短距離拡散と微粒製造を両立する設計_20261008.md",
+      "bytes": 17994,
+      "sha256": "9955490800f4fd1368dc469523b4817f16e8cf0561fa2cb5c8bdd3c73f1589de"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 19730,
+      "sha256": "b30b249a1a9e55633add9e49707fc35024fd76e247c690ea5207e6c814819178"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/README.md",
+      "bytes": 2731,
+      "sha256": "3abb1bec228f4181e96189d4f03ca094d534f0e3a6adf69d7946c3a5b5d84ff6"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/calculate.py",
+      "bytes": 9034,
+      "sha256": "3f66875f943934787ddceb6c4981fc9a0ba92e5467d52a81e46c6b791b08e113"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/figure1_diffusion_and_release.png",
+      "bytes": 181821,
+      "sha256": "acadfd64b25c0a45a052fd52e41e059a95ff731e81b756c168e5e44335acc1e8"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/figure2_particle_count_and_skin.png",
+      "bytes": 212986,
+      "sha256": "de2b561280b4fc8d0acd7dd0d68e1139725551bb9dbd7042c6afdf7b03bd3122"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/inputs.json",
+      "bytes": 3392,
+      "sha256": "7718ee04dcd247d039bb1581bf85c81eb8931341ecaaa12745aab22bd9a7ddba"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/plot.py",
+      "bytes": 3725,
+      "sha256": "dda786072e8e2e82a2917558b1b26f6d136b3baae4a962815cbfb1dad13b5bf4"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/results.json",
+      "bytes": 24085,
+      "sha256": "3df81cfd770e554e633f7d355ad0119e0ab5867e9ee3471f976c3d2b3ded6479"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/sources.md",
+      "bytes": 4646,
+      "sha256": "9090d83f03bdb1df2b1df8de2e0a7e55c87d304f68291737c916a2be447c1b30"
+    },
+    {
+      "path": "GPT往復/短距離拡散と微粒製造検証_20261008/validation.json",
+      "bytes": 3062,
+      "sha256": "d4a500d4d63c57cd127e84b425e2b1e6fe5b59b288ab9a708b70fe8245737f9e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 26493,
+      "sha256": "12ea62ca82f95208eafd01527b4dcbf9305cbc1e7062c58a4aac84dc4e0279a8"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 84474,
+      "sha256": "bef36a06657573893f81ba428885143bac5496d608e86b5d8e27450765fd0663"
+    }
+  ]
+}

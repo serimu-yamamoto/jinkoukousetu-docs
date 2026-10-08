@@ -1,0 +1,140 @@
+{
+  "cycle": 31,
+  "date": "2026-10-08",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "diffusion": {
+    "diffusivity_m2_s": [
+      1e-10,
+      1e-9,
+      1e-8
+    ],
+    "meaning": "Assumed constant coefficients, not calibrated from S3; pressure, temperature and material must be identified",
+    "precursor_diameters_mm": [
+      0.1,
+      0.3,
+      0.6,
+      3,
+      12
+    ],
+    "uptake_target": 0.95,
+    "desorption_delay_s": [
+      0.1,
+      1,
+      5,
+      30
+    ],
+    "desorption_to_sorption_D_ratios": [
+      0.1,
+      1,
+      10
+    ],
+    "fd_grids": [
+      40,
+      80,
+      160
+    ],
+    "fd_Fo": 0.2,
+    "fd_time_steps": 2000
+  },
+  "manufacture": {
+    "finished_diameters_mm": [
+      0.3,
+      0.45,
+      0.6,
+      3,
+      4,
+      5
+    ],
+    "envelope_densities_kg_m3": [
+      100,
+      200,
+      400
+    ],
+    "solid_density_assumed_kg_m3": 900,
+    "bed_density_assumed_kg_m3": 120,
+    "bed_depth_m": 0.45,
+    "areas_m2": [
+      2000,
+      20000
+    ],
+    "production_days": 30,
+    "production_h_per_day": 16,
+    "good_yield": 0.8,
+    "reference_envelope_density_kg_m3": 200,
+    "illustrative_holes": 1000,
+    "illustrative_cuts_per_hole_s": 200,
+    "brochure_capacity_kg_h": [
+      80,
+      150
+    ],
+    "brochure_diameter_mm": [
+      3,
+      5
+    ],
+    "reference_size_mm": 4,
+    "replenishment_fraction_per_year": 0.02,
+    "allowable_fixed_processing_yen_per_kg": 50,
+    "area_basis": "Actual slope surface area and normal bed depth, both hypothetical comparison inputs"
+  },
+  "skin": {
+    "diameters_mm": [
+      0.3,
+      0.45,
+      0.6,
+      3,
+      4,
+      5
+    ],
+    "shell_thickness_um": [
+      0,
+      2,
+      5,
+      10,
+      15
+    ],
+    "core_density_assumed_kg_m3": 60,
+    "shell_density_assumed_kg_m3": 900,
+    "packing_fraction_assumed": 0.6
+  },
+  "source_observations": {
+    "S1_CO2": [
+      {
+        "sample": "Sulzer 4",
+        "bulk_density_kg_m3": 35,
+        "bulk_density_error": 1,
+        "open_cell_percent": 34,
+        "open_cell_error": 1
+      },
+      {
+        "sample": "Sulzer 5",
+        "bulk_density_kg_m3": 58,
+        "bulk_density_error": 1,
+        "open_cell_percent": 26,
+        "open_cell_error": 1
+      }
+    ],
+    "S1_demo_capacity_kg_h": 20,
+    "S2_CO2_published_bulk_density_kg_m3": [
+      35,
+      120
+    ],
+    "S2_published_particle_diameter_mm": [
+      3,
+      5
+    ],
+    "S2_published_capacity_kg_h": [
+      80,
+      150
+    ],
+    "S3_equation2_first_exponent_denominator_factor": 4,
+    "S3_equation3_exponent_denominator_factor": 1
+  },
+  "limits": [
+    "Diffusion model uses a non-swelling sphere, constant D and instantaneous surface concentration change. No nucleation, expansion, heating, pressure ramp, crystallization or fusion.",
+    "D in S3 is not adopted: its displayed equations (2) and (3) differ by a factor of four in their exponential denominator with the same L.",
+    "Particle count uses envelope density, not loose bulk density. One cut per hole per event is a stated model, not a universal breakup rule.",
+    "S2 capacity applies to 3-5 mm beads. It is not a quotation or capacity rating for 0.3-0.6 mm particles.",
+    "Shell thicknesses, core densities, packing fraction, yields and budgets are assumed. No patent novelty, skiing performance or harmlessness is demonstrated."
+  ]
+}
