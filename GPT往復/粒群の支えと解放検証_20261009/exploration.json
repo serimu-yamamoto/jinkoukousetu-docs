@@ -1,0 +1,39 @@
+{
+  "candidate": "H49",
+  "status": "concept with uncalibrated force and activation hypotheses",
+  "basis": "Public snow data reanalysis plus chain ensemble counterexample",
+  "routes": [
+    {
+      "route": "Long strongly interlocked chains",
+      "decision": "not main ski-feel route",
+      "reason": "Increasing tensile constraints can keep raising resistance after edge penetration."
+    },
+    {
+      "route": "Uniform low-force clip release",
+      "decision": "counterexample",
+      "reason": "May satisfy low postpeak resistance but fail H48 winter grain-withdrawal load."
+    },
+    {
+      "route": "Short root bearing plus rotational release",
+      "decision": "advance conditional H49",
+      "reason": "Separate compression/static force paths from progressive tensile-chain activation; full3D and wet50C still required."
+    },
+    {
+      "route": "Brittle expendable bridges",
+      "decision": "economic comparison only",
+      "reason": "Fracture can release but repeated replacement and dust must close."
+    },
+    {
+      "route": "Local deconfinement during grooming",
+      "decision": "combine with H39",
+      "reason": "Reset orientation and relieve chain tension; not equivalent to automatic healing or guaranteed60min recovery."
+    }
+  ],
+  "next_evidence": [
+    "Whole-bed force-displacement after peak under actual edge loading",
+    "Distribution of activation thresholds and load paths",
+    "Winter vector-balanced withdrawal test",
+    "Post-groom response and wear mass balance"
+  ],
+  "success_probability": null
+}

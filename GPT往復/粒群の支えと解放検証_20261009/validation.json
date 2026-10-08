@@ -1,0 +1,76 @@
+{
+  "checks": [
+    {
+      "name": "CSV source SHA256 matches",
+      "passed": true
+    },
+    {
+      "name": "Unique parent IDs",
+      "passed": true
+    },
+    {
+      "name": "Strength means recomputed from listed values",
+      "passed": true
+    },
+    {
+      "name": "299 listed measurements differ from paper278",
+      "passed": true
+    },
+    {
+      "name": "62 complete modulus parent rows; not299 independent rows",
+      "passed": true
+    },
+    {
+      "name": "No fabricated zeros for missing modulus",
+      "passed": true
+    },
+    {
+      "name": "Mean force matches direct link quadrature",
+      "passed": true
+    },
+    {
+      "name": "All links initially unloaded",
+      "passed": true
+    },
+    {
+      "name": "Post-release residual exact",
+      "passed": true
+    },
+    {
+      "name": "Zero residual gives zero post-release stress",
+      "passed": true
+    },
+    {
+      "name": "Peak bounded by link force cap",
+      "passed": true
+    },
+    {
+      "name": "Peak before full release",
+      "passed": true
+    },
+    {
+      "name": "Analytic peak is not below nearby points",
+      "passed": true
+    },
+    {
+      "name": "Winter one-direction projected force budget closes; not full vector equilibrium",
+      "passed": true
+    },
+    {
+      "name": "Bed mass108t",
+      "passed": true
+    },
+    {
+      "name": "Replacement not confused with one-time damage probability",
+      "passed": true
+    },
+    {
+      "name": "Our experiments and success probability remain unmeasured",
+      "passed": true
+    }
+  ],
+  "count": 17,
+  "all_passed": true,
+  "maximum_force_quadrature_error_N": 1.0842021724855044e-19,
+  "scope": "data parsing, algebra and integration only; no material validation"
+}

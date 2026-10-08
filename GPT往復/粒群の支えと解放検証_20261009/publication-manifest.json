@@ -1,0 +1,110 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "5ff205a2c170115cbd8c2cf9abafb04a9e56b545",
+  "cycle": 49,
+  "date": "2026-10-09",
+  "note": "Manifest excludes itself; fixed-commit readback also verifies manifest bytes before local clone deletion.",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+      "bytes": 33287,
+      "sha256": "4da36785136a55b44c6265c1f18b01799fa2ff73469c11ca13f434f128301313"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 33006,
+      "sha256": "80245683304f9e5b0b0dcd3d90b167c823e88d2f469a81e02de215287c421f69"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/.gitattributes",
+      "bytes": 29,
+      "sha256": "43840d9e2877cbc8d7d360349dbfb3ad09c069535eacbea626a1c78f9f1f202e"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/01_public_snow_data.png",
+      "bytes": 200872,
+      "sha256": "2bf59a28f9e5a033ca783dccb3213a2fadb9b02edd21143914d1e1e6f788dea3"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/01_public_snow_data.svg",
+      "bytes": 118265,
+      "sha256": "e856df2b7167036c977cdeb8d747e2aa1dbd34ae8f18dec62a80beddfdff12b8"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/02_release_winter_cost.png",
+      "bytes": 350226,
+      "sha256": "3c3b48a40e62df8de9329a94b609b45c356d5164092f55c7d6a41827e1c7ce03"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/02_release_winter_cost.svg",
+      "bytes": 142644,
+      "sha256": "f5216420aa3c65332e8b603d1f34a3a269392cfc925d18a058ab7d9618de5f91"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/calculate.py",
+      "bytes": 9805,
+      "sha256": "56ed188fffe8a20cc5c67a471f13b1cc70bf0ffd8f4a05abc070c80a240f0092"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/derived_snow_rows.csv",
+      "bytes": 4876,
+      "sha256": "e0234f2cba46bf636e64d24fa54cd6fce03b9a0e0c5c0318f07af433042aa893"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/document-checks.json",
+      "bytes": 1793,
+      "sha256": "c113e734753ece21695d8057c804f3b834a329ed5ac59a3cde09216b5501c465"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/draw.py",
+      "bytes": 4976,
+      "sha256": "a676e3ea2b1e37a8f408b59bcdaa4bb0c245248add30bfa4e1dcb763e807323f"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/exploration.json",
+      "bytes": 1558,
+      "sha256": "85257d9d49e10f24cd1c43d947a50aeab991b2109def37e0259408304c14d776"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/inputs.json",
+      "bytes": 2488,
+      "sha256": "bc20127867285fb6fe7b2d902b7bd15784bc2ab1c282434bf8734c0cd6b07508"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/link_curves.csv",
+      "bytes": 70363,
+      "sha256": "ae18a673040c17ddcc5430661ec3c82996032527ac648e44f29a780ffc800bdf"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/results.json",
+      "bytes": 49079,
+      "sha256": "09277f71f74e718d4fd7fb32604d0153e245a45d536968bb3712bb98337103d3"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/source_dataset_v1.csv",
+      "bytes": 64099,
+      "sha256": "8289e84c527853a379a11f78164e1fb8cba991958480807ead8620617811f484"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/sources.json",
+      "bytes": 4287,
+      "sha256": "9e109a23e5f3abce19aec6bc3aa601cf3cdbae5f714cbdbb485717a7564f13f2"
+    },
+    {
+      "path": "GPT往復/粒群の支えと解放検証_20261009/validation.json",
+      "bytes": 1749,
+      "sha256": "a5d7c563b028ab2a935caa86b664ab92c128d857965630b7bb36e6d7acee548d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 40207,
+      "sha256": "f45c362c3543d68219d0b43c4eb111693362bac02ecc8a71757d3cac217c6033"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 112292,
+      "sha256": "b0130afd0ffe646d0ac59de93e7d20bc4f6bb76884be86b998adf2d3c8b45c0f"
+    }
+  ]
+}

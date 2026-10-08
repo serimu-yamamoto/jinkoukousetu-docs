@@ -1,0 +1,92 @@
+{
+  "status": "uncalibrated_link_ensemble_and_independent_public_data_reanalysis",
+  "physical_tests_our_material": 0,
+  "success_probability": null,
+  "base_commit": "5ff205a2c170115cbd8c2cf9abafb04a9e56b545",
+  "dataset": {
+    "doi": "10.16904/envidat.648",
+    "stable_url": "https://www.envidat.ch/dataset/e3ac64e4-3204-4edb-8b10-b458373d9e1f/resource/5b516f93-a87b-4315-9a02-325e2400ee81/download/dataset_v1.csv",
+    "sha256": "8289e84c527853a379a11f78164e1fb8cba991958480807ead8620617811f484",
+    "delimiter": ";",
+    "encoding": "utf-8-sig",
+    "unit_of_analysis": "one CSV parent/scan row, equal weight",
+    "E_primary": "Mean Youngs Modulus ROI 01 [MPa]",
+    "E_sensitivity": "Mean Youngs Modulus all ROIs [MPa]",
+    "strength": "Mean Peak Stress [kPa]",
+    "solid_fraction": "Voxel-based Bulk Volume Fraction []",
+    "near_fraction_ratio": 1.02
+  },
+  "links": {
+    "arms_per_particle": 6,
+    "arm_radius_m": 0.00003,
+    "arm_length_m": 0.00015,
+    "solid_fraction": 0.1,
+    "coordination": 2,
+    "link_length_m": 0.0006,
+    "strain_transfer": 0.1,
+    "link_stiffness_N_m": 500,
+    "release_forces_N": [
+      0.001,
+      0.003,
+      0.01
+    ],
+    "activation_widths_strain": [
+      0.002,
+      0.02,
+      0.1
+    ],
+    "residual_fractions": [
+      0,
+      0.05,
+      0.2
+    ],
+    "strain_plot_max": 0.5,
+    "active_band_thickness_m": [
+      0.001,
+      0.005,
+      0.02
+    ]
+  },
+  "winter": {
+    "load_per_grain_N": 0.007999315388930516,
+    "load_sharing_links": [
+      2,
+      3,
+      6
+    ],
+    "projection_factors": [
+      0.3,
+      0.5,
+      1
+    ]
+  },
+  "economic": {
+    "bed_volume_m3": 900,
+    "dry_bulk_density_kg_m3": 120,
+    "price_hypothesis_JPY_kg": 500,
+    "annual_reset_fraction": [
+      0.01,
+      0.05,
+      0.2
+    ],
+    "reset_hypothesis_JPY_kg": [
+      20,
+      100,
+      500
+    ],
+    "cap_break_fraction": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "events_per_year": 120,
+    "yearly_loss_budget_fraction": 0.02,
+    "exposure_fractions": [
+      0.01,
+      0.1,
+      1
+    ],
+    "note": "cap_break_fraction is assumed fraction of exposed material needing replacement per event, not link failure probability; 120 events/year is a comparison input, not an operating schedule"
+  },
+  "note": "All link geometry, activation, residual, density and costs are hypotheses. Compressive weak-snow data are not ski-snow shear targets. Winter load per grain is inherited from H48 assumptions."
+}

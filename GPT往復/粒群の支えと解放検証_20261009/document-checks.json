@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-09",
+  "scope": "Document and reproducibility checks, not material experiments",
+  "checks": [
+    {
+      "name": "Report input appendix matches inputs.json",
+      "passed": true
+    },
+    {
+      "name": "Report code appendix matches calculate.py",
+      "passed": true
+    },
+    {
+      "name": "17 data/algebra/integration checks pass",
+      "passed": true
+    },
+    {
+      "name": "No physical trials or success probability fabricated",
+      "passed": true
+    },
+    {
+      "name": "Original licensed CSV preserved byte for byte",
+      "passed": true
+    },
+    {
+      "name": "Original CSV line endings exempted from Git conversion",
+      "passed": true
+    },
+    {
+      "name": "Data authors, license and changes attributed",
+      "passed": true
+    },
+    {
+      "name": "Latest report linked in README.md",
+      "passed": true
+    },
+    {
+      "name": "Latest report linked in GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "Latest report linked in 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "Report relative links resolve except checks and manifest being generated",
+      "passed": true
+    },
+    {
+      "name": "Protected file unchanged: AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "Protected file unchanged: .claude/settings.local.json",
+      "passed": true
+    },
+    {
+      "name": "No signed redirect URLs persisted in report or supporting files",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "visual_review": {
+    "completed": true,
+    "evidence": "Two generated figures and original paper method/count pages viewed during this research cycle; figures readable",
+    "figures": [
+      "01_public_snow_data.png",
+      "02_release_winter_cost.png"
+    ]
+  }
+}

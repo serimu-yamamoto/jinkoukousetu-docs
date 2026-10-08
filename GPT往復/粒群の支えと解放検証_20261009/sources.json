@@ -1,0 +1,67 @@
+{
+  "checked_date_JST": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The influence of snow microstructure on the compressive mechanical properties of weak snowpack layers",
+      "authors": "Jakob Schöttner et al.",
+      "doi": "10.1016/j.actamat.2025.121657",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1359645425009437",
+      "fulltext": "https://www.wsl.ch/fileadmin/user_upload/WSL/Mitarbeitende/schweizj/Schoettner_etal_Microstructure_mechanical_properties_Acta_Mater_2025.pdf",
+      "year_issue": 2026,
+      "available_online": "2025-10-26 (PDF)",
+      "access": "Full 26-page published PDF; page4 Figure3 and method counts visually inspected",
+      "sha256": "13ac112a671a908cdf00400fc288be94caa68da910012d024c7c880eb5ce265e",
+      "limit": "Weak snow layers in compressive tests, not groomed fresh-snow skiing. Apparent effective modulus from DIC segments. Not applied as artificial-firn constitutive law.",
+      "unresolved": "Paper says278 tests and70CT scans while category totals114+132+53=299. RetrievedCSV has65parent rows and299listed strength entries. Cause of mismatch unresolved; no invented exclusions."
+    },
+    {
+      "id": "D1",
+      "title": "The influence of snow microstructure on the compressive mechanical properties of weak snowpack layers",
+      "authors": [
+        "Schoettner, Jakob",
+        "Zeller-Plumhoff, Berit",
+        "Hagenmuller, Pascal",
+        "Weißgraeber, Philipp",
+        "Rosendahl, Philipp",
+        "Löwe, Henning",
+        "Schweizer, Jürg",
+        "van Herwijnen, Alec"
+      ],
+      "doi": "10.16904/envidat.648",
+      "url": "https://envidat.ch/#/metadata/paper-2",
+      "download": "https://www.envidat.ch/dataset/e3ac64e4-3204-4edb-8b10-b458373d9e1f/resource/5b516f93-a87b-4315-9a02-325e2400ee81/download/dataset_v1.csv",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "8289e84c527853a379a11f78164e1fb8cba991958480807ead8620617811f484",
+      "bytes": 64099,
+      "access": "Full source CSV retrieved; original bytes redistributed with attribution",
+      "changes": "source_dataset_v1.csv unchanged; derived_snow_rows.csv selects columns, calculates strength/E and counts; figures and equal-parent-row log-OLS are Codex analyses, not author outputs.",
+      "unit": "65 parent/scan rows,62 with modulus; individual strength299not299independent complete E samples",
+      "limits": "Raw stress-strain histories and dataset-version reconciliation were not available in this CSV."
+    },
+    {
+      "id": "S2",
+      "title": "Strain stiffening due to stretching of entangled particles in random packings of granular materials",
+      "authors": "Eric Brown, Kevin A. Mitchell, Alice Nasto, Athanasios Athanassiadis, Heinrich M. Jaeger",
+      "doi": "10.1103/PhysRevE.111.025408",
+      "year": 2025,
+      "url": "https://doi.org/10.1103/PhysRevE.111.025408",
+      "fulltext": "https://par.nsf.gov/servlets/purl/10590192",
+      "sha256": "d8e262de8447b95cc594e7906ca4c7863b8ef23561d243c4337e10139124d096",
+      "access": "Full20pagePDF; methods page3 visually inspected",
+      "limit": "Millimeter metal chains/staples, quasistatic confined tests. Topological constraints and material deformation matter; not micron polymer at50C, ski friction or wear-life evidence."
+    },
+    {
+      "id": "S3",
+      "title": "Strain hardening in granular chain ensembles is governed by internal confinement",
+      "authors": "Mohd I. Bhat, Catherine O’Sullivan, Tejas G. Murthy",
+      "doi": "10.1016/j.jmps.2026.106819",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022509626003200",
+      "access": "Publisher abstract and highlights in search index; fulltext403; no methods or original data imported",
+      "issue": "Crossref lists2026-12, future issue at research date; record created2026-08-19 and abstract publicly accessible now. Exact first-online date not confirmed.",
+      "limit": "Internal tensile self-confinement proposed for tested chains; does not disprove every entanglement model or validate H49."
+    }
+  ],
+  "note": "No expiring signed download URLs saved. Original PDFs are cited and hashed, not republished."
+}
