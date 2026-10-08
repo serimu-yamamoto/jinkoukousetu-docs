@@ -1,0 +1,82 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "9fa0bb0f6f983795466f14b521b5b43431473fd0",
+  "cycle": 32,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 23,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008.md",
+      "bytes": 17460,
+      "sha256": "6d008230d0cb418d7fdd7474a9a55ddb63b1270f2ae66fb1ede0a588e4e0787a"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 20404,
+      "sha256": "48e264e5d6db9d1b2a52244212f4268b124343883e7f64e24fabb7c3c7ef47a6"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/README.md",
+      "bytes": 1854,
+      "sha256": "b707227400245fc588fc698c520a3f9f4eb7d8b74f060e0bb21cb657813f0eb9"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/calculate.py",
+      "bytes": 8153,
+      "sha256": "ad76420aa03d5e86454763495abaa6b6a0f1873842886505dc86560b52949e44"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/figure1_normal_loss_and_sinkage.png",
+      "bytes": 162969,
+      "sha256": "104df77dcf54a6c08349ab8d27a312bab1fd68371a0440065b1b0330c956c6c2"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/figure2_release_and_repetition.png",
+      "bytes": 166197,
+      "sha256": "2813f173d05aab7890b91957bc91e1d758f1088405251237d9a6f6f066b7e199"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/inputs.json",
+      "bytes": 2164,
+      "sha256": "5c2a954158f13c4bd17f8bcf5993c6302d78a8c82c03fec974b823a10dbb118f"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/model.md",
+      "bytes": 4236,
+      "sha256": "6a4c7a4e66ce9d8018af01e2857943bc0276500435d5542009388dd30ec3256d"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/plot.py",
+      "bytes": 2948,
+      "sha256": "8c27f14c73133abd6161c36e564ee081b6a76ccc13a078f82d5ee36496a8ad6d"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/results.json",
+      "bytes": 35000,
+      "sha256": "930801cb1eb2c698ee4e217783f70cdc5bf679c2fdc860cc9fc1247d6842c09c"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/sources.md",
+      "bytes": 3223,
+      "sha256": "a94651ccc985984ae348604e859ed09da0dc5b89c07099d643c7d7b37e15fe60"
+    },
+    {
+      "path": "GPT往復/法線損失とエッジ解放検証_20261008/validation.json",
+      "bytes": 4063,
+      "sha256": "3e7221fb351d11177fa881d2d00f99f9c6e59ef1bbd0a38447bfa495c902e391"
+    },
+    {
+      "path": "README.md",
+      "bytes": 27189,
+      "sha256": "b9d1f41c671a6f5bfaa866273d0b9c681e9404ef9d7e7401c3dd6f9c97e60172"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 86020,
+      "sha256": "ab965ff6c72c4ed80e646fc1dc8aba014b3e50c2ec342425e5cb820c9c18706a"
+    }
+  ]
+}

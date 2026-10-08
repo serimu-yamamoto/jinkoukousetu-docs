@@ -1,0 +1,155 @@
+{
+  "scope": "numerical verification only; NOT physical experiments",
+  "check_count": 23,
+  "passed_count": 23,
+  "checks": [
+    {
+      "name": "source_energy_conversion",
+      "passed": true,
+      "detail": {
+        "U_A_J_m2": 0.86,
+        "drag_N": 0.060200000000000004,
+        "power_W": 1.2040000000000002,
+        "delta_mu": 0.0001505,
+        "friction_power_W": 800.0,
+        "ratio": 0.0015050000000000003,
+        "calibration": false
+      }
+    },
+    {
+      "name": "source_power_arithmetic",
+      "passed": true,
+      "detail": 1.2040000000000002
+    },
+    {
+      "name": "quadrature_all_48",
+      "passed": true,
+      "detail": {
+        "max_relative_error": 1.6876209093581635e-06
+      }
+    },
+    {
+      "name": "energy_balance_all_48",
+      "passed": true,
+      "detail": {
+        "max_relative_error": 4.876541671354659e-08
+      }
+    },
+    {
+      "name": "normal_load_integral",
+      "passed": true,
+      "detail": "integral b*v*p(t) dt = N"
+    },
+    {
+      "name": "positive_dissipation_all_48",
+      "passed": true,
+      "detail": "no negative fresh-pulse energy"
+    },
+    {
+      "name": "stored_energy_is_not_returned_to_departed_ski",
+      "passed": true,
+      "detail": "post-passage recovery is unloaded; total eventual heat equals pulse work"
+    },
+    {
+      "name": "inverse_stiffness_scaling_v2",
+      "passed": true,
+      "detail": "linear model only"
+    },
+    {
+      "name": "inverse_stiffness_scaling_v5",
+      "passed": true,
+      "detail": "linear model only"
+    },
+    {
+      "name": "inverse_stiffness_scaling_v10",
+      "passed": true,
+      "detail": "linear model only"
+    },
+    {
+      "name": "inverse_stiffness_scaling_v20",
+      "passed": true,
+      "detail": "linear model only"
+    },
+    {
+      "name": "independent_RK4_(300000.0, 0.005, 2)",
+      "passed": true,
+      "detail": {
+        "K1": 300000.0,
+        "tau_s": 0.005,
+        "v_m_s": 2,
+        "relative_error_4000": 1.0056078014725107e-11,
+        "relative_error_8000": 7.377571752963252e-13,
+        "x_error_m": 3.9763114675905875e-16
+      }
+    },
+    {
+      "name": "independent_RK4_(300000.0, 0.05, 20)",
+      "passed": true,
+      "detail": {
+        "K1": 300000.0,
+        "tau_s": 0.05,
+        "v_m_s": 20,
+        "relative_error_4000": 1.2351975594849218e-15,
+        "relative_error_8000": 1.2351975594849218e-15,
+        "x_error_m": 1.214306433183765e-17
+      }
+    },
+    {
+      "name": "independent_RK4_(5000000.0, 5, 20)",
+      "passed": true,
+      "detail": {
+        "K1": 5000000.0,
+        "tau_s": 5,
+        "v_m_s": 20,
+        "relative_error_4000": 2.7738989887369396e-16,
+        "relative_error_8000": 2.7738989887369396e-16,
+        "x_error_m": 8.470329472543003e-21
+      }
+    },
+    {
+      "name": "relaxation_limits_not_global_material_optimum",
+      "passed": true,
+      "detail": "both extremes give low model loss, not guaranteed snow feel"
+    },
+    {
+      "name": "budget_roundtrip",
+      "passed": true,
+      "detail": 57.14285714285714
+    },
+    {
+      "name": "same_peak_different_work",
+      "passed": true,
+      "detail": "same 250 N peak across 9 hypothetical laws"
+    },
+    {
+      "name": "zero_residual_triangle",
+      "passed": true,
+      "detail": "triangle exact"
+    },
+    {
+      "name": "release_work_100x",
+      "passed": true,
+      "detail": "10 um versus 1 mm, same peak"
+    },
+    {
+      "name": "residual_worsens_work",
+      "passed": true,
+      "detail": "short drop alone does not remove residual plough/grain force"
+    },
+    {
+      "name": "repeated_pulse_fixed_point",
+      "passed": true,
+      "detail": "2000 recurrence iterations versus analytic fixed point; not physical cycles"
+    },
+    {
+      "name": "long_tau_accumulation_counterexample",
+      "passed": true,
+      "detail": "low first-pass loss is not zero remaining sink"
+    },
+    {
+      "name": "no_success_probability",
+      "passed": true,
+      "detail": "numerical checks do not count as material validation"
+    }
+  ]
+}

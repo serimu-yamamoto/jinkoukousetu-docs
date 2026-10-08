@@ -1,0 +1,89 @@
+{
+  "schema": "h32-normal-shear-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "source_reference": {
+    "description": "S1 published hard well-sintered snow repeated-impact loop; source arithmetic only, not material calibration",
+    "loop_energy_J": 0.00086,
+    "area_m2": 0.001,
+    "width_m": 0.07,
+    "velocity_m_s": 20,
+    "load_N": 400,
+    "friction_coefficient": 0.1
+  },
+  "normal_model": {
+    "provenance": "ALL CONSTITUTIVE VALUES HYPOTHETICAL; linear series spring + Kelvin element; prescribed moving pressure, no contact solution",
+    "load_N": 400,
+    "width_m": 0.07,
+    "length_m": 1.6,
+    "instantaneous_stiffness_Pa_m": 50000000,
+    "delayed_stiffness_Pa_m": [
+      300000,
+      1000000,
+      5000000
+    ],
+    "relaxation_s": [
+      0.005,
+      0.05,
+      0.5,
+      5
+    ],
+    "speed_m_s": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "additional_mu_budget": 0.01,
+    "budget_status": "illustrative component allocation, not snow target or acceptance limit"
+  },
+  "shear_model": {
+    "provenance": "hypothetical triangular traction law on one representative plane; NOT measured fracture toughness or snow Sf calibration",
+    "peak_traction_Pa": 50000,
+    "release_distance_m": [
+      0.00001,
+      0.0001,
+      0.001
+    ],
+    "engagement_depth_m": 0.005,
+    "edge_length_m": 1,
+    "post_release_travel_m": 0.005,
+    "residual_traction_Pa": [
+      0,
+      5000,
+      15000
+    ]
+  },
+  "repeat_model": {
+    "provenance": "same point; fixed loading profile, no plasticity, thermal or grooming change; illustrative headways",
+    "K1_Pa_m": 300000,
+    "tau_s": [
+      0.05,
+      0.5,
+      5,
+      50
+    ],
+    "speed_m_s": 20,
+    "pass_period_s": [
+      2,
+      10,
+      60
+    ],
+    "load_count": 2000
+  },
+  "protocol": {
+    "temperatures_C": [
+      23,
+      35,
+      50
+    ],
+    "conditions": [
+      "dry fresh",
+      "wet",
+      "after drainage",
+      "regroomed"
+    ],
+    "ski_base": "same UHMWPE sole grade, roughness and wear history as actual ski reference",
+    "remarks": "No purchased equipment, laboratory access or supplier prices assumed."
+  }
+}
