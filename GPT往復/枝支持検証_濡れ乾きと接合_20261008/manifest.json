@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "7b9c981fadd3efbcc1e35123677f4f39e95c1a09",
+  "cycle": 18,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "normalization": "Text CRLF to LF; PNG raw. Self excluded.",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第18巡_濡れ乾きに耐える枝支持と粒内接合_20261008.md",
+      "bytes": 16052,
+      "sha256": "7be592b7bf88ea4d3d421a0fdef74f65d93a37c13d42a415311f765cab28a4db"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 11814,
+      "sha256": "dce71e78372b87171933e5896af8ad7bc602b1c79f89971dd22add9f7f53cac2"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/README.md",
+      "bytes": 1717,
+      "sha256": "fa099b6f8ff2986969ca5096cfe6c9a56d60bb313f5c3909234541043d057811"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/inputs.json",
+      "bytes": 2680,
+      "sha256": "58ab32735a1c46133f6b709cf0b479139c1c62d4b5764d290c11ad45f02068d2"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/model.py",
+      "bytes": 9034,
+      "sha256": "077d7ca8a83da87f6951f80f8cf3f68ee21cf13f3263d25ed77892e12fe88344"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/overview.png",
+      "bytes": 337724,
+      "sha256": "7ee90766192f552a391de627164c613ae538da6f2d112881384e5dcac0478250"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/plot.py",
+      "bytes": 3904,
+      "sha256": "92f06b4eceb5d3dc4f81cabea81a02396ee729204ed5b2e74b3108b5867f1f5b"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/requirements.txt",
+      "bytes": 19,
+      "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/results.json",
+      "bytes": 391849,
+      "sha256": "aa81955f2565c429ddf04e85dee27ef955f987b4ce85e114474f1b4935cf61c9"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/sources.md",
+      "bytes": 4490,
+      "sha256": "a223d8e1b7166293a98621c3301b3a1bb3637bdb29b9e5ba9f1a4db6f002f9f7"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/verification.json",
+      "bytes": 4371,
+      "sha256": "012f456d870a68c93e9fdc2d5b4d5936ed110c691e0b1a5bace4c7d7ad7b59a4"
+    },
+    {
+      "path": "GPT往復/枝支持検証_濡れ乾きと接合_20261008/検証記録.md",
+      "bytes": 1168,
+      "sha256": "f21416ecd054e6f98227ba7404fb12034922d9a0b3b963c480dde3c02db3573c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 17723,
+      "sha256": "42dc25a76d9c3287dba623834c33f0b379a06c098a804cf90365cc2d12fbaf27"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 60603,
+      "sha256": "2d4709605a4e49bc3040d10d6368248138129ffccce2f782ba851bd0f959783d"
+    }
+  ]
+}

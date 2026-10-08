@@ -1,0 +1,164 @@
+{
+  "scope": "Internal numerical and formula checks only",
+  "physical_tests": 0,
+  "checks": [
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "cantilever_tip",
+      "elements": 4,
+      "deflection": 0.33333333333333354,
+      "relative_error": 6.661338147750939e-16
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "cantilever_tip",
+      "elements": 8,
+      "deflection": 0.33333333333339316,
+      "relative_error": 1.794120407794253e-13
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "cantilever_tip",
+      "elements": 16,
+      "deflection": 0.3333333333336169,
+      "relative_error": 8.5087492607272e-13
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "pin_pin_mid",
+      "elements": 4,
+      "deflection": 0.020833333333333343,
+      "relative_error": 4.440892098500626e-16
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "pin_pin_mid",
+      "elements": 8,
+      "deflection": 0.020833333333333398,
+      "relative_error": 3.1086244689504383e-15
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "pin_pin_mid",
+      "elements": 16,
+      "deflection": 0.020833333333332954,
+      "relative_error": 1.8207657603852567e-14
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "spring_spring_mid",
+      "elements": 4,
+      "deflection": 0.01302083333333333,
+      "relative_error": 2.220446049250313e-16
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "spring_spring_mid",
+      "elements": 8,
+      "deflection": 0.013020833333333096,
+      "relative_error": 1.8207657603852567e-14
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "spring_spring_mid",
+      "elements": 16,
+      "deflection": 0.013020833333338007,
+      "relative_error": 3.588240815588506e-13
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "fixed_fixed_mid",
+      "elements": 4,
+      "deflection": 0.0052083333333333304,
+      "relative_error": 5.551115123125783e-16
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "fixed_fixed_mid",
+      "elements": 8,
+      "deflection": 0.0052083333333333166,
+      "relative_error": 3.219646771412954e-15
+    },
+    {
+      "check": "FE compliance and vertical reaction",
+      "support": "fixed_fixed_mid",
+      "elements": 16,
+      "deflection": 0.0052083333333339185,
+      "relative_error": 1.1235457009206584e-13
+    },
+    {
+      "check": "finite rotational restraint",
+      "alpha": 0,
+      "compliance": 0.020833333333333398
+    },
+    {
+      "check": "finite rotational restraint",
+      "alpha": 0.1,
+      "compliance": 0.019412878787878958
+    },
+    {
+      "check": "finite rotational restraint",
+      "alpha": 1,
+      "compliance": 0.013020833333333096
+    },
+    {
+      "check": "finite rotational restraint",
+      "alpha": 10,
+      "compliance": 0.006628787878787863
+    },
+    {
+      "check": "finite rotational restraint",
+      "alpha": 100,
+      "compliance": 0.005363036303630339
+    },
+    {
+      "check": "moving supports FE",
+      "ks_over_beam_k": 0.1,
+      "compliance": 0.12500000000001188
+    },
+    {
+      "check": "moving supports FE",
+      "ks_over_beam_k": 1,
+      "compliance": 0.03125000000000042
+    },
+    {
+      "check": "moving supports FE",
+      "ks_over_beam_k": 5,
+      "compliance": 0.022916666666666002
+    },
+    {
+      "check": "moving supports FE",
+      "ks_over_beam_k": 10,
+      "compliance": 0.021875000000000325
+    },
+    {
+      "check": "IAPWS table rounded",
+      "T_C": 0.01,
+      "calculated_mN_m": 75.64627110368258
+    },
+    {
+      "check": "IAPWS table rounded",
+      "T_C": 20,
+      "calculated_mN_m": 72.73614042160757
+    },
+    {
+      "check": "IAPWS table rounded",
+      "T_C": 50,
+      "calculated_mN_m": 67.9439059448733
+    },
+    {
+      "check": "IAPWS table rounded",
+      "T_C": 100,
+      "calculated_mN_m": 58.911868587664074
+    },
+    {
+      "check": "L cubed and d inverse cubed scaling"
+    },
+    {
+      "check": "solid plus water plus gas volume conservation"
+    },
+    {
+      "check": "capital recovery from discounted annual sum"
+    }
+  ]
+}

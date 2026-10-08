@@ -1,0 +1,113 @@
+{
+  "cycle": 18,
+  "base_commit": "7b9c981fadd3efbcc1e35123677f4f39e95c1a09",
+  "evidence_status": "Uncalibrated diagnostics; physical tests zero; no probability assigned",
+  "water_temperature_C": 50,
+  "diameters_um": [
+    2,
+    5,
+    10,
+    30
+  ],
+  "spans_um": [
+    20,
+    50,
+    100,
+    250
+  ],
+  "moduli_MPa": [
+    30,
+    100,
+    300
+  ],
+  "force_multipliers": [
+    0.3,
+    1,
+    3
+  ],
+  "support_cases": [
+    "cantilever_tip",
+    "pin_pin_mid",
+    "spring_spring_mid",
+    "fixed_fixed_mid"
+  ],
+  "gap_um": 10,
+  "solid_density_kg_m3": 950,
+  "water_density_kg_m3": 1000,
+  "pore_water_saturations": [
+    0,
+    0.01,
+    0.05,
+    0.1,
+    0.2,
+    1
+  ],
+  "pore_radii_um": [
+    1,
+    10,
+    100,
+    500
+  ],
+  "contact_angles_deg": [
+    0,
+    60,
+    80
+  ],
+  "creep": {
+    "a": [
+      0,
+      2,
+      9
+    ],
+    "tau_s": [
+      60,
+      1800,
+      18000
+    ],
+    "t_s": [
+      0,
+      1,
+      60,
+      3600,
+      18000
+    ]
+  },
+  "added_mass_fractions": [
+    0,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "operation": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "closure_minutes": 60,
+    "processing_minutes": 40,
+    "closures_per_year": 240,
+    "reform_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ]
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_material_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "note": "Inherited pretax hypothetical envelope, not a quote; 2% is a purchased replacement assumption, never an environmental release allowance. Equipment tax-inclusive JPY200M requirement is separate and unproven."
+  },
+  "input_notes": {
+    "diameter": "SWP description spans approximately branch 2 um to trunk 30 um; ideal circular section here is not measured SWP geometry.",
+    "modulus": "Sensitivity only, NOT measured PE or SWP values at 50 C.",
+    "force": "F=m*pi*gamma*d is a prescribed force SCALE. It is not a bound or solution for a meniscus; pressure and contact-line geometry unknown.",
+    "supports": "Both-end translation restraint and rotational restraint must exist within a grain. Free grains are not substrate-clamped arrays.",
+    "creep": "Invented linear compliance histories for identifiability, not material fit or temperature law.",
+    "water": "All porosity accessible; saturation specified, not predicted from rain. Water density 1000 is a rounded assumption.",
+    "budget": "Inherited pretax hypothetical scenario; no quote or revenue evidence. 2% replacement is not allowed discharge."
+  }
+}
