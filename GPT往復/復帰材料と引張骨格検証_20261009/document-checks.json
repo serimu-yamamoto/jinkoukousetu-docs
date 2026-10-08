@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "name": "probability remains unknown and physical experiments remain zero",
+      "passed": true
+    },
+    {
+      "name": "standard-library rerun reproduces all seven numerical files byte for byte",
+      "passed": true
+    },
+    {
+      "name": "all 14 numerical consistency checks pass",
+      "passed": true
+    },
+    {
+      "name": "all substantive report file links exist",
+      "passed": true
+    },
+    {
+      "name": "report carries limitations of geometry and cross-material source transfer",
+      "passed": true
+    },
+    {
+      "name": "report numerical headline matches conditional model results",
+      "passed": true
+    },
+    {
+      "name": "humidity comparison is independent of optimized member geometry",
+      "passed": true
+    },
+    {
+      "name": "prior history preserved exactly: README.md",
+      "passed": true
+    },
+    {
+      "name": "prior history preserved exactly: GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "board prior entries and instructions preserved exactly",
+      "passed": true
+    },
+    {
+      "name": "all three original figures exist in PNG and SVG",
+      "passed": true
+    },
+    {
+      "name": "new text is UTF-8, LF-only and has no trailing spaces",
+      "passed": true
+    }
+  ],
+  "count": 12,
+  "all_passed": true
+}

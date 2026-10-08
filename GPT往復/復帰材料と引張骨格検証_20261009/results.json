@@ -1,0 +1,60 @@
+{
+  "cycle": 52,
+  "base_commit": "a6da338c378c3d5ae41f85daa9f7053db2d1dc49",
+  "physical_tests": 0,
+  "success_probability": null,
+  "bridge": {
+    "R_m": 1.5e-05,
+    "gap_m": 2e-05,
+    "water_volume_m3": 3.375e-17,
+    "gamma_N_m": 0.06794390594,
+    "rupture_m": 3.231652035047828e-06,
+    "F0_N": 6.403562272718997e-06,
+    "required_k_slack3_N_m": 0.914794610388428,
+    "minimum_E_retention_slack3": 0.83163146398948
+  },
+  "mechanics": {
+    "k_N_m": 1.1,
+    "stroke_m": 1e-05,
+    "strain_budget_assumed": 0.05,
+    "active_return_force_N": 1.1000000000000001e-05,
+    "Euler_safety_factor_assumed": 2,
+    "selected_reference_E_MPa": 2.66,
+    "two_panel_volume_ratio": 0.48726638262353644,
+    "unbraced_volume_ratio": 1.1411994319137395,
+    "two_panel_extra_volume_allowance_per_port_m3": 1.0177569547923761e-13,
+    "complete_three_dimensional_design": false
+  },
+  "humidity": {
+    "reference_wet_span_m": 0.00025,
+    "stroke_m": 1e-05,
+    "fixed_dry_spun_max_strain": 0.0858823529411763,
+    "matched_dry_spun_max_strain": 0.04176470588235315,
+    "allowable_positive_frame_factor_difference": 0.007887323943661984,
+    "allowable_negative_frame_factor_difference": 0.012,
+    "patent_error_bars_not_probability_distribution": true
+  },
+  "cost": {
+    "reference_grain_count": 35367765131532.3,
+    "reference_port_count": 212206590789193.78,
+    "gross_volume_saving_m3": 21.597473362848177,
+    "selected_material_mass_unknown": true,
+    "whole_course_cost_not_estimated_here": true
+  },
+  "counts": {
+    "mechanics_rows": 16,
+    "bridge_rows": 8,
+    "humidity_rows": 16,
+    "cost_rows": 3,
+    "source_value_rows": 8,
+    "numerical_checks": 14
+  },
+  "limitations": [
+    "linear elastic members; no joint/slip/creep/contact friction calculation",
+    "compression panel restraints require reactions in two transverse directions; braces not free",
+    "Euler member buckling is not global frame or wet local buckling",
+    "capillary reference does not represent flooded or contaminated particle beds",
+    "source recipes and temperatures remain separate; no synthetic material property assigned",
+    "not a ski-snow-equivalence or safety validation"
+  ]
+}

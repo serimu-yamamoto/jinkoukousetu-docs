@@ -1,0 +1,58 @@
+[
+  {
+    "name": "capillary extrema versus 20001-point independent path sampling",
+    "passed": true
+  },
+  {
+    "name": "9 um slack prevents full water-bridge release",
+    "passed": true
+  },
+  {
+    "name": "zero-slack contact end point reproduces 2F0/gap",
+    "passed": true
+  },
+  {
+    "name": "all optimized members reproduce k and obey assumed strain budget",
+    "passed": true
+  },
+  {
+    "name": "round cantilever reconstruction by independent k and surface-strain equations",
+    "passed": true
+  },
+  {
+    "name": "Euler capacity meets twice the active return force in panel scenarios",
+    "passed": true
+  },
+  {
+    "name": "analytical q optimum versus 40001-point constrained grid",
+    "passed": true
+  },
+  {
+    "name": "unbraced E2.66 case loses material advantage",
+    "passed": true
+  },
+  {
+    "name": "ideal ties plus rails equal one sixth of optimized cantilever volume",
+    "passed": true
+  },
+  {
+    "name": "source Y values treated as remaining lengths, not contraction amounts",
+    "passed": true
+  },
+  {
+    "name": "matched shrinkage removes preload but not stroke strain",
+    "passed": true
+  },
+  {
+    "name": "fixed dry-spun frame exceeds illustrative 5 percent budget while matched frame fits",
+    "passed": true
+  },
+  {
+    "name": "positive mismatch limit substitutes back into maximum strain equation",
+    "passed": true
+  },
+  {
+    "name": "gross cost difference recomputes from both member-volume costs",
+    "passed": true
+  }
+]

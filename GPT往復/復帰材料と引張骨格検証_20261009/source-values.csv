@@ -1,0 +1,9 @@
+source,quantity,value,denominator,scope
+WO2024261265A1,dry_spun_Y_after_first_swelling,0.71,initial dry length,Example 3; room-temperature water; not 50 C
+WO2024261265A1,dry_spun_Y_after_redrying,0.68,initial dry length,Example 3; 72 h room-temperature drying
+WO2024261265A1,wet_spun_Y_after_first_swelling,0.37,initial dry length,Example 3; room-temperature water
+WO2024261265A1,wet_spun_Y_after_redrying,0.3,initial dry length,Example 3; 72 h room-temperature drying
+10.1002/advs.202414339,PVA15_AQ_E_MPa,1.0,engineering tensile strain,reported specimen; wet 50 C modulus not established
+10.1002/advs.202414339,PVA15_TPU5_AQ_E_MPa,1.47,engineering tensile strain,different material from patent
+10.1002/advs.202414339,PVA15_TPU8_AQ_E_MPa,2.66,engineering tensile strain,illustrative scale only; not H52 calibration
+10.1016/j.mechmat.2021.103984,incompletely_recovered_sample_mass_ratio,0.7,initial fully hydrated specimen total mass,not 70 wt% water; still incomplete after 4 h rest

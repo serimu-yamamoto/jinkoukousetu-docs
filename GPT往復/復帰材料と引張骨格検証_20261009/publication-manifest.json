@@ -1,0 +1,119 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "a6da338c378c3d5ae41f85daa9f7053db2d1dc49",
+  "cycle": 52,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第52巡_乾湿で戻る骨格と疲労を逃がす接続_20261009.md",
+      "bytes": 23267,
+      "sha256": "02c1b3d94694c16e1508816974bbb6448e5dd0b22527283783bf6b01d5e0f5d7"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 35255,
+      "sha256": "7ad4027fcd98e8f57fd78e662928d45b9d7ae4362529cae3df2ee8401584861a"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/01-member-volume.png",
+      "bytes": 182103,
+      "sha256": "9287860c5f1ab0d9a0a00bd6572bdcfd568aa5089a928909f6fb5ebea723032c"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/01-member-volume.svg",
+      "bytes": 126654,
+      "sha256": "7981eb0866655fcdb964b171ecb9be248db2c3f0ab67f539e54766dddd456161"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/02-humidity.png",
+      "bytes": 141195,
+      "sha256": "29d08f22cf21993473a8f64e1f00310c89be226b95b9c0b11adf28a1c69ce37e"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/02-humidity.svg",
+      "bytes": 118301,
+      "sha256": "229b24149ff18171c2c29e92db8bd52ed456f37575b53fd2ce1f5b134ec61344"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/03-concept.png",
+      "bytes": 149078,
+      "sha256": "c74fac41dc31a312fb613f69b375c00cea53c1b6817fa16fdd98a6a3c55ba82b"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/03-concept.svg",
+      "bytes": 117077,
+      "sha256": "64c674aaecabcb4548616aa05525ec4dc6d47c81f6f83edc17bfba997fcb2757"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/bridge.csv",
+      "bytes": 574,
+      "sha256": "a8658ead5f0a0936171027415c0a1c2348b821f011d51577787c51ba4c0b1b69"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/cost.csv",
+      "bytes": 448,
+      "sha256": "cdb9e187184e214f93c7ddd7cbd8b4f30304a1d2d086d67eec60547773b3980e"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/document-checks.json",
+      "bytes": 1341,
+      "sha256": "57c97b8e9f8786d0e42a853a103d2956fd3ad1a6198cc4775607a8cc589adc97"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/draw.py",
+      "bytes": 6296,
+      "sha256": "52e390e64ed904cde46ca39f0701b5783bdd5d7a7b860e486144094f136efb64"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/humidity.csv",
+      "bytes": 2421,
+      "sha256": "97a2385b6b9698e31833af78e097255c599d0225a0b76ff23876005182e1fd5f"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/members.csv",
+      "bytes": 4464,
+      "sha256": "64c08dbf49b2b9d574db4421e84f3785ae9eeabf036dfb82af6463df81739cb4"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/model.py",
+      "bytes": 12113,
+      "sha256": "a4b004e5f9abb7548bf3476e987c3c56bf473b6a01a780bd213c68c3401ca696"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/numerical-checks.json",
+      "bytes": 1489,
+      "sha256": "ff2ff4b4596143fb83547bad0b241c6003e153b2f577e8a361f2bca68bfc0b4c"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/results.json",
+      "bytes": 2191,
+      "sha256": "a1717518432408df9d385a25d8dd97ab4915bc480dea2cc7e68ad80f0710a4fe"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/source-values.csv",
+      "bytes": 984,
+      "sha256": "904b2a4f977a9fd53c459a87f34568f2fec0d43333e1bdc22e920104002a40bd"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/sources.md",
+      "bytes": 3374,
+      "sha256": "7e6a1e050c71428dd88f21236fef2112f7ef5d9ced2cf51a76d038730055cfb1"
+    },
+    {
+      "path": "GPT往復/復帰材料と引張骨格検証_20261009/verify.py",
+      "bytes": 4848,
+      "sha256": "37b5cc316517bbb3108055a06082774e8a2c60f3a18752c706aceb6f52cf1810"
+    },
+    {
+      "path": "README.md",
+      "bytes": 42522,
+      "sha256": "e16760035cd6c9968100439b416a548bd9dac1a282eb00a7f4bc2069da0c14cb"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 115407,
+      "sha256": "3406056ebd1947d530044d20647603c7602bc22887f0e78dd223c4824b4f8c7f"
+    }
+  ],
+  "self_excluded": true
+}
