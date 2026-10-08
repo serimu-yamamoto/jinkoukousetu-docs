@@ -1,0 +1,346 @@
+{
+  "passed": true,
+  "count": 45,
+  "physical_tests": 0,
+  "checks": [
+    {
+      "name": "beam_analytic_peak_a0",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0.0
+      }
+    },
+    {
+      "name": "zero_midpoint_bending_a0",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "constant_strut_volume_a0",
+      "passed": true,
+      "details": {
+        "actual": 1.8666666666666667e-10,
+        "expected": 1.8666666666666667e-10
+      }
+    },
+    {
+      "name": "beam_analytic_peak_a1",
+      "passed": true,
+      "details": {
+        "actual": 0.2765,
+        "expected": 0.27639320225002106
+      }
+    },
+    {
+      "name": "zero_midpoint_bending_a1",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "constant_strut_volume_a1",
+      "passed": true,
+      "details": {
+        "actual": 1.8666666666666667e-10,
+        "expected": 1.8666666666666667e-10
+      }
+    },
+    {
+      "name": "beam_analytic_peak_a5",
+      "passed": true,
+      "details": {
+        "actual": 0.4,
+        "expected": 0.4
+      }
+    },
+    {
+      "name": "zero_midpoint_bending_a5",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "constant_strut_volume_a5",
+      "passed": true,
+      "details": {
+        "actual": 1.8666666666666664e-10,
+        "expected": 1.8666666666666667e-10
+      }
+    },
+    {
+      "name": "fourfold_connectivity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "node_count",
+      "passed": true,
+      "details": {
+        "actual": 1728,
+        "expected": 1728
+      }
+    },
+    {
+      "name": "edge_count",
+      "passed": true,
+      "details": {
+        "actual": 3456,
+        "expected": 3456
+      }
+    },
+    {
+      "name": "unique_edges",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "volume_start_a0",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "volume_end_a0",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "volume_symmetry_a0",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "volume_start_a1",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "volume_end_a1",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "volume_symmetry_a1",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "volume_start_a5",
+      "passed": true,
+      "details": {
+        "actual": 0.0,
+        "expected": 0
+      }
+    },
+    {
+      "name": "volume_end_a5",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "volume_symmetry_a5",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "uncut_component_uniform",
+      "passed": true,
+      "details": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "allcut_components_uniform",
+      "passed": true,
+      "details": {
+        "actual": 1728,
+        "expected": 1728
+      }
+    },
+    {
+      "name": "uncut_component_central_band",
+      "passed": true,
+      "details": {
+        "actual": 1,
+        "expected": 1
+      }
+    },
+    {
+      "name": "allcut_components_central_band",
+      "passed": true,
+      "details": {
+        "actual": 1728,
+        "expected": 1728
+      }
+    },
+    {
+      "name": "ideal_center_band_all_nodes_pass",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1
+      }
+    },
+    {
+      "name": "independent_cut_p90_isolation",
+      "passed": true,
+      "details": {
+        "actual": 0.6561,
+        "expected": 0.6561
+      }
+    },
+    {
+      "name": "uniform_arm_gate",
+      "passed": true,
+      "details": {
+        "actual": 0.3024,
+        "expected": 0.3024
+      }
+    },
+    {
+      "name": "mass_balance_all_runs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "seed_reproducibility",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "probability_unassigned",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "profile_volume_quadrature_a0",
+      "passed": true,
+      "details": {
+        "actual": 1.0,
+        "expected": 1.0
+      }
+    },
+    {
+      "name": "profile_volume_quadrature_a1",
+      "passed": true,
+      "details": {
+        "actual": 1.8666666733333337,
+        "expected": 1.8666666666666665
+      }
+    },
+    {
+      "name": "profile_volume_quadrature_a5",
+      "passed": true,
+      "details": {
+        "actual": 9.333333433333335,
+        "expected": 9.333333333333334
+      }
+    },
+    {
+      "name": "one_pass_gross_a1_0.9_uniform",
+      "passed": true,
+      "details": {
+        "actual": 5.252339038663316,
+        "expected": 5.252339038663316
+      }
+    },
+    {
+      "name": "one_pass_gross_a1_0.9_central_band",
+      "passed": true,
+      "details": {
+        "actual": 1.550772618309193,
+        "expected": 1.550772618309193
+      }
+    },
+    {
+      "name": "one_pass_gross_a1_1_uniform",
+      "passed": true,
+      "details": {
+        "actual": 3.5022973912536437,
+        "expected": 3.5022973912536437
+      }
+    },
+    {
+      "name": "one_pass_gross_a1_1_central_band",
+      "passed": true,
+      "details": {
+        "actual": 1.0283434101616997,
+        "expected": 1.0283434101616997
+      }
+    },
+    {
+      "name": "one_pass_gross_a5_0.9_uniform",
+      "passed": true,
+      "details": {
+        "actual": 5.126352898947846,
+        "expected": 5.126352898947846
+      }
+    },
+    {
+      "name": "one_pass_gross_a5_0.9_central_band",
+      "passed": true,
+      "details": {
+        "actual": 1.5173630568360075,
+        "expected": 1.5173630568360075
+      }
+    },
+    {
+      "name": "one_pass_gross_a5_1_uniform",
+      "passed": true,
+      "details": {
+        "actual": 3.4196735271166765,
+        "expected": 3.4196735271166765
+      }
+    },
+    {
+      "name": "one_pass_gross_a5_1_central_band",
+      "passed": true,
+      "details": {
+        "actual": 1.0062141914978242,
+        "expected": 1.0062141914978242
+      }
+    },
+    {
+      "name": "reprocessing_gross_invariant",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mass_bounds",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

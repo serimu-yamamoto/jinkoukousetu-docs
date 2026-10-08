@@ -1,0 +1,92 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "9d462178d70b29e83fd5acfa49aabd0fb0145b15",
+  "cycle": 38,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 45,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 31635,
+      "sha256": "e5ca189f87edb60d44f5a0307c9cd27cd40ffb56a3a438a5d3babdd5a134c720"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 24718,
+      "sha256": "fea7fcfb24a6b3d8a016505eeb1623a6ac138ea44f2233061fd7e1f5c330d6be"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 94857,
+      "sha256": "a8b1b61a9823356dc4643b224dd1c9705df83e1abc3ae4bf7022820ae9a0c38a"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第38巡_枝を残す分断位置と開放骨格の製造条件_20261008.md",
+      "bytes": 17665,
+      "sha256": "fd04b0b26078d902a3d03a3c0db2bc10ec8d2e1ec3700068723e024ff77de46a"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/beam_profiles.csv",
+      "bytes": 100152,
+      "sha256": "41621f16c4f1719811388accbc90cb0650a47c731acd43bc58d71ce38e039e4c"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/calculate.py",
+      "bytes": 10570,
+      "sha256": "b0c4f24d9b1408fc86d0fee74379418c848aa16fb0438455c84b32a074a59763"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/figure1_cut_location_and_node.png",
+      "bytes": 245536,
+      "sha256": "d2ff9bf256f5843d6647f0188592e88bbc9bb406535a0b6c08bb7d92c7298303"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/figure2_fragment_mass_and_reprocessing.png",
+      "bytes": 163434,
+      "sha256": "b093062b0d4a645629214602eec8b7aef752bb03b002d9ce94249304cd8c5342"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/fragment_ledger.csv",
+      "bytes": 63834,
+      "sha256": "40097d9ce57ba9a1ca4f47a6a19e8c209b21637f4f37fe642dd23f6fcec96cc9"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/inputs.json",
+      "bytes": 2043,
+      "sha256": "e122734ffbb753b420545bda5a6917cf5fa0fda868ea8eeb61664185e1fcf395"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/model.md",
+      "bytes": 5965,
+      "sha256": "f8270822e44a734046c8e26f7bac25b08870115d505578345db4227319560ad0"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/plot.py",
+      "bytes": 3750,
+      "sha256": "74796c8c7f8dff6ab771cad47ab20a7a717d3a309d7b4f848a934dadbf4cecff"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/README.md",
+      "bytes": 951,
+      "sha256": "706e2790f5279db77781e7bd09b8d9905c6c4fad39aa6ce7b59ae14d27181ae1"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/results.json",
+      "bytes": 389697,
+      "sha256": "d677559871c55206ef741e84a28082f25600fb84c30d6c79319cbd57f79e3601"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/sources.md",
+      "bytes": 4923,
+      "sha256": "75ef75af1f8a6a352115037c8141d87da37d17939bf294b64d58170a9ec0db5f"
+    },
+    {
+      "path": "GPT往復/骨格分断と枝保持検証_20261008/validation.json",
+      "bytes": 6850,
+      "sha256": "3516d1ba9946244026f8692a2d566e3055033783442f53f0fef7982d0707aa13"
+    }
+  ]
+}
