@@ -1,0 +1,95 @@
+{
+  "cycle": 17,
+  "base_commit": "4e63303a54be66cbbe00f6afc134ca28d6ae15e0",
+  "evidence_status": {
+    "physical_tests": 0,
+    "physical_success_probability": null
+  },
+  "thermal": {
+    "rho_kg_m3": 950,
+    "cp_J_kgK": 2300,
+    "latent_J_kg": 159600,
+    "k_air_W_mK": 0.028,
+    "k_solid_W_mK": 0.3,
+    "Tin_C": 180,
+    "Tc_C": 113.5,
+    "ambient_C": [
+      30,
+      50
+    ],
+    "Nu": [
+      2,
+      4
+    ],
+    "radius_um": [
+      25,
+      50,
+      125,
+      250,
+      500
+    ],
+    "surface_tension_N_m": [
+      0.02,
+      0.03,
+      0.04
+    ],
+    "viscosity_Pa_s": [
+      1,
+      10,
+      100,
+      1000
+    ],
+    "note": "Inherited uncalibrated HDPE-like thermal case; gamma and viscosity are sensitivity inputs, not a matched grade. Sphere heat transfer and capillary scales do not predict dendrite formation or crystal kinetics."
+  },
+  "shape": {
+    "outer_radius_mm": 0.3,
+    "lobes": 6,
+    "amplitude": 0.45,
+    "lengths_mm": [
+      0.15,
+      0.3,
+      0.6
+    ],
+    "mesh_length_mm": 0.3,
+    "polygon_segments": 720,
+    "solid_density_kg_m3": 950,
+    "solid_strand_speed_m_s": [
+      0.05,
+      0.1,
+      0.5,
+      1
+    ],
+    "strand_count": [
+      16,
+      64,
+      256,
+      1024
+    ],
+    "usable_yield": 0.8,
+    "blades": 24,
+    "note": "Prescribed FINAL cooled profile, not nozzle die shape or demonstrated product; die swell, end finishing, wear and selection yield require measurement."
+  },
+  "operation": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "closure_minutes": 60,
+    "processing_minutes": 40,
+    "closures_per_year": 240,
+    "reform_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ]
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_material_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "note": "Inherited pretax hypothetical envelope, not a quote; 2% is a purchased replacement assumption, never an environmental release allowance. Equipment tax-inclusive JPY200M requirement is separate and unproven."
+  }
+}

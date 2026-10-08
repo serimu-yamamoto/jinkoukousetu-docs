@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "4e63303a54be66cbbe00f6afc134ca28d6ae15e0",
+  "cycle": 17,
+  "generated_at": "2026-10-08T04:54:36.469Z",
+  "normalization": "UTF-8 text CRLF to LF; PNG unchanged; manifest excludes itself",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第17巡_枝形状の形成と量産再生の成立条件_20261008.md",
+      "bytes": 16730,
+      "sha256": "f109963acbc7010fe837cc8ffbbcd43d332894e5936c9c8de48587728e4f74b5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 11178,
+      "sha256": "77b732c07d449f40ec849804ef77a830c542a0f74e3c03cbbdb16f84c451f3d6"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/README.md",
+      "bytes": 1942,
+      "sha256": "a80302b469679d1388b94d4e3dab24c696306f69c6c4afcb7d8bbf338fc0c523"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/X17_reference_mm.scad",
+      "bytes": 414,
+      "sha256": "42141b7ae9d4eb0c13010caedebe892ebfdf45f9ba2ac77424b7363b1d59f98e"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/X17_reference_mm.stl",
+      "bytes": 558753,
+      "sha256": "390fc5a9a03d058acfe875e724990fed2c2ac2a10b6df16a55827e45a71f7381"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/formation_model.py",
+      "bytes": 10148,
+      "sha256": "33193ef6895fdbc22a34316485da541d433ebbdd91913ca510c774f3242340d3"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/inputs.json",
+      "bytes": 2185,
+      "sha256": "d5af114f164cee0f6428f387bd89791b359d32dbbd39772d553e9c9505e5ab15"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/overview.png",
+      "bytes": 199943,
+      "sha256": "78265834c25ed78647b46c636bc2448f4bc743ba3db4f638aac0520e91ad640f"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/plot.py",
+      "bytes": 3004,
+      "sha256": "7d8b2a9c1d2c50ffc4f9e8621e51e75f604119739829f2a133aa3250a83c2e39"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/pulp_scale.json",
+      "bytes": 15949,
+      "sha256": "2825f20e5aca436753ffea3b99a652243658c6aa6a6fa6dfd4ab0dc6a9e360f2"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/pulp_scale.py",
+      "bytes": 4755,
+      "sha256": "57822804f0834e62a8d40d4b0b1ccb3376e6f737a93fbab6922beaba4a96a609"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/requirements.txt",
+      "bytes": 19,
+      "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/results.json",
+      "bytes": 170940,
+      "sha256": "a8b7731f61f3c0f94974e54cf9ba5c1cbef54b565135ce66e0efce89188caf26"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/sources.md",
+      "bytes": 3765,
+      "sha256": "bdbba48153b3ff9ff87d042eae2f26e72168e4cac2513c4d09439bca644b91d3"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/verification.json",
+      "bytes": 2505,
+      "sha256": "c0c00c66b023e044f6c6cd22878207fd15e2623c2a697b7389b0adbfd94e547f"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/探索台帳.md",
+      "bytes": 2327,
+      "sha256": "9b21a183d07d9ef7f6c898dc5bd607d279cbd44705d068e214ce4ad10f550079"
+    },
+    {
+      "path": "GPT往復/粒形成検証_形態と量産再生_20261008/検証記録.md",
+      "bytes": 1709,
+      "sha256": "092f0ff9bad0358a27bbb63ab16196f6608c7dd544d4d57ac602af3f4dc1b807"
+    },
+    {
+      "path": "README.md",
+      "bytes": 17065,
+      "sha256": "9b908f8cea734937ad0eab630da69dca2c42613766d15d111e12d81dcc137d93"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 58857,
+      "sha256": "0796177fa37fde2e89ee3dd17d82afa1ded20a44daf8f6097a2366c64c6adf7a"
+    }
+  ]
+}
