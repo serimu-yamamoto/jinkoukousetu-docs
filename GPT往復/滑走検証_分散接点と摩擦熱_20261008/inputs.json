@@ -1,0 +1,139 @@
+{
+  "cycle": 21,
+  "base_commit": "cddbff6a0ba04057ee46be6e860b47fbf094730e",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "model": "Uncalibrated dry contact thermal/geometry screening; no material qualification"
+  },
+  "contact": {
+    "nominal_pressure_Pa": 5400,
+    "pitch_um": 600,
+    "support_fractions": [
+      0.1,
+      0.3,
+      1
+    ],
+    "equivalent_E_MPa": 300,
+    "radii_um": [
+      50,
+      150,
+      300
+    ],
+    "equal_contact_counts": [
+      1,
+      2,
+      4
+    ],
+    "speeds_m_s": [
+      2,
+      5,
+      10,
+      20
+    ],
+    "friction_coefficients": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "reference_support_fraction": 0.3,
+    "reference_speed_m_s": 10,
+    "reference_mu": 0.1,
+    "hertz_geometry_diagnostic_limit_a_over_R": 0.1,
+    "notes": "E and mu are unmeasured scenario inputs, not temperature-specific properties; equal load allocation is imposed, not predicted."
+  },
+  "thermal": {
+    "initial_C": 50,
+    "base_k_W_mK": 0.4,
+    "base_Cvol_J_m3K": 1860000,
+    "grain_k_W_mK": 0.4,
+    "grain_k_sensitivity": [
+      0.2,
+      0.4,
+      1,
+      2,
+      5
+    ],
+    "ski_length_m": 2,
+    "notes": "k=.4 is indicative TIVAR1000 at23C; use at50C is an assumption. Cvol=930*2000: density930 reference, cp2000 assumed. Grain conductivity equal-base is hypothetical. No phase change, water, roughness spectrum, finite-grain solution or nonlinear softening."
+  },
+  "layout": {
+    "land_radius_um": 30,
+    "small_curvature_radius_um": 150,
+    "centre_spacing_um": [
+      80,
+      120
+    ],
+    "inline_counts": [
+      1,
+      2,
+      4
+    ],
+    "notes": "Four possible caps in square, not a manufactured or stable-load-bearing full grain. Uniform heat flux; all heat to moving base; no transverse spreading for pulse comparison."
+  },
+  "load_shares": [
+    [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    [
+      0.7,
+      0.2,
+      0.1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "operation": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "closure_minutes": 60,
+    "processing_minutes": 40,
+    "closures_per_year": 240,
+    "reform_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ]
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_material_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "note": "Inherited pretax hypothetical envelope, not a quote; 2% is a purchased replacement assumption, never an environmental release allowance. Equipment tax-inclusive JPY200M requirement is separate and unproven."
+  },
+  "cost": {
+    "finished_material_premiums_JPY_kg": [
+      0,
+      50,
+      100,
+      150,
+      200
+    ],
+    "annual_replacement_fractions": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "notes": "Hypothetical processing/material premiums, fixed mass. Any extra mass, density, yield loss, equipment and reprocessing must be added. Not supplier prices."
+  },
+  "sources_accessed": "2026-10-08"
+}

@@ -1,0 +1,106 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "check_count": 18,
+  "all_checks_ok": true,
+  "checks": [
+    {
+      "name": "Hertz force reconstructed from radius",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Heat conservation into two surfaces",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Interface equality from both thermal paths",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Finite grain endmember increases interface temperature",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Equal total area for four R150 versus one R300",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Equal peak pressure for matched-area pair",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Matched-area centreline pulse scales with sqrt(contact length)",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Four in-line contacts can erase split-contact heat benefit",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Two aligned square contacts retain benefit in this pulse model",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "One pulse wake factor equals one",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Large gap pulse returns to isolated limit",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Zero speed thermal resistance is stationary",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "High speed resistance approaches moving asymptote",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Load share vectors conserve total force",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Costs preserve inventory",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Budget premium boundary closes annual budget",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "One-contact Hertz geometric diagnostic intentionally fails R50 reference",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Illustrative four contact footprint fits apertures",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "counts": {
+    "contact_thermal": 324,
+    "conductivity": 45,
+    "unequal_load": 16,
+    "wake": 24,
+    "cost": 15
+  },
+  "scope": "Arithmetic, conservation, limiting behaviour and constructed counterexamples only; no experimental validation."
+}

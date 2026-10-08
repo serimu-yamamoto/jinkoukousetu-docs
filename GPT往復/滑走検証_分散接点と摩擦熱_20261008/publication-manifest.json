@@ -1,0 +1,76 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "cddbff6a0ba04057ee46be6e860b47fbf094730e",
+  "created": "2026-10-08",
+  "cycle": 21,
+  "hash_algorithm": "SHA-256",
+  "normalization": "UTF-8 text uses LF; PNG bytes unchanged; manifest itself excluded",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 19581,
+      "sha256": "871f8eaadd6034e41df2a758bd8992197fad83259bf5902d59039b25e66272ae"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 13606,
+      "sha256": "87022d97a61a042c3b29bf9608cf3d2955ec1ac2200cf0fc5ac49efe32e7e7c1"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 65613,
+      "sha256": "f645b43426536ec032947c6fa94a1a07c474ced428353dc312ea9409a155dcc8"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第21巡_分散接点の摩擦熱と乾湿滑走の再設計_20261008.md",
+      "bytes": 18802,
+      "sha256": "c7f8e995f39190242ef6d86d177f48a5b464bf0610d11904a0964c85afbac1bb"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/calculate.py",
+      "bytes": 10087,
+      "sha256": "08bb92292a1bacfee7856d4a4e3d4b8ecf9e037715952f343c77ff98de143be6"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/contact_layout.png",
+      "bytes": 116864,
+      "sha256": "6216e0e1be7d5eb3799c95e1b96125c4415e2662e5bbef75ce2015baa0e9fdbe"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/inputs.json",
+      "bytes": 3213,
+      "sha256": "b3fbe4439dee4d9c170470d19967b8f9f8f98e40b4cc159d88cc5cbccd3f6a15"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/plot.py",
+      "bytes": 3377,
+      "sha256": "13a48335490d564a7725d074e16f6aa0e47b41957031e87eba2fe5cf503c01f0"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/README.md",
+      "bytes": 1396,
+      "sha256": "9f1311c92c9b07f938c19c3bfd02bf9920496f0ae5135523ffc54067a48c828e"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/results.json",
+      "bytes": 396997,
+      "sha256": "bf91cd615668abd3fed4336fa43a03ad534e83f03c8a05cd9d2dc7567da65421"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/sources.json",
+      "bytes": 3133,
+      "sha256": "5e8f650f955268fd8133df5762eb7889382966d77019270e522027dd2798d286"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/thermal_comparison.png",
+      "bytes": 166589,
+      "sha256": "585fe131c675b3d8586b958026dd1c8a21ac385f7638f3c014261e51d8b59f03"
+    },
+    {
+      "path": "GPT往復/滑走検証_分散接点と摩擦熱_20261008/validation.json",
+      "bytes": 2472,
+      "sha256": "005c242d91a59c0d6aa3e5b9ba51f346feec21644b147b20b014315e7c974ce5"
+    }
+  ]
+}

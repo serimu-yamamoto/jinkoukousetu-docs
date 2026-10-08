@@ -1,0 +1,71 @@
+{
+  "accessed": "2026-10-08",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Tribological performance of a UHMWPE-based multiscale composite under different lubrication and loads",
+      "year": 2022,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ls.1603",
+      "access": "Publisher full HTML; methods 2.2 and results. No figure values digitized."
+    },
+    {
+      "id": "S2",
+      "title": "Effect of multi-scale fillers on the tribological behavior of UHMWPE composites in water-lubricated contacts",
+      "year": 2024,
+      "doi": "10.1016/j.triboint.2024.109669",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301679X24004213",
+      "access": "Publisher indexed abstract; direct open returned403; no full methods claimed."
+    },
+    {
+      "id": "S3",
+      "title": "TIVAR 1000 Virgin UHMW-PE product datasheet",
+      "year": 2024,
+      "url": "https://www.mcam.com/mam/37208/PE-TIVAR%C2%AE%201000%20UHMW-PE%20natural_en_US.pdf",
+      "access": "Manufacturer PDF pp1-2, property table and notes18-21."
+    },
+    {
+      "id": "S4",
+      "title": "Thermal Resistance Models for Non-Circular Moving Heat Sources on a Half Space",
+      "authors": "Y. S. Muzychka; M. M. Yovanovich",
+      "year": 2001,
+      "doi": "10.1115/1.1370516",
+      "url": "https://www.mhtlab.uwaterloo.ca/paperlib/papers/constrict/half-space/movingheatsources.pdf",
+      "access": "Author institution PDF, equations6,15,24,36,42-44. Used circular uniform-flux special case; not full real-roughness model."
+    },
+    {
+      "id": "S5",
+      "title": "Flash temperature in sliding contacts",
+      "authors": "M. H. Müser; B. N. J. Persson",
+      "year": 2026,
+      "doi": "10.1103/2clt-t25r",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/2clt-t25r",
+      "preprint": "https://arxiv.org/abs/2603.29547",
+      "access": "Publisher and author abstract, multiscale roughness limitation only; no numerical data imported."
+    },
+    {
+      "id": "S6",
+      "title": "Bioinspired polymer-incorporating self-lubricating and antifouling hydrogels",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2404.05234",
+      "access": "Author abstract; PDF and HTML unavailable this cycle. PE-counterface result confirmed; temperature range not verified."
+    },
+    {
+      "id": "S7",
+      "title": "Formation mechanisms and functionality of boundary films derived from water lubricated polyoxymethylene/hexagonal boron nitride nanocomposites",
+      "year": 2016,
+      "doi": "10.1016/j.matdes.2016.11.016",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0264127516314034",
+      "access": "Publisher indexed abstract only; used to flag reactive boundary film, not to assign friction or safety."
+    }
+  ],
+  "unused_reads": [
+    {
+      "url": "https://www.diva-portal.org/smash/get/diva2:1925188/FULLTEXT01.pdf",
+      "status": "Timed out; no full-text claims or data used"
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.4c00015",
+      "status": "Full text inaccessible; indexed oil-infused route not selected"
+    }
+  ]
+}
