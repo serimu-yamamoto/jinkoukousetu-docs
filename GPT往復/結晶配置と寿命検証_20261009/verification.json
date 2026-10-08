@@ -1,0 +1,39 @@
+{
+  "cycle": 51,
+  "numerical_checks": 28,
+  "document_checks": 25,
+  "checks": [
+    "28 numerical checks completed",
+    "No physical probability assigned",
+    "Exact self-contained appendix model.py",
+    "Exact self-contained appendix draw.py",
+    "Original Table 2 has two groups",
+    "Original XML values crystallinity",
+    "Original XML values Young_modulus",
+    "Original XML values yield_strength",
+    "Original XML values engineering_tensile_strength",
+    "Original XML values engineering_break_strain",
+    "Original XML values DSC_melting_temperature",
+    "Previous history retained README.md",
+    "Latest pointer README.md",
+    "Previous history retained GPT往復/README.md",
+    "Latest pointer GPT往復/README.md",
+    "Previous history retained 回覧板.md",
+    "Latest pointer 回覧板.md",
+    "Relative report link 結晶配置と寿命検証_20261009/evidence.png",
+    "Relative report link 結晶配置と寿命検証_20261009/concept.png",
+    "Relative report link 結晶配置と寿命検証_20261009/tradeoffs.png",
+    "Relative report link 結晶配置と寿命検証_20261009/verify.py",
+    "Relative report link 結晶配置と寿命検証_20261009/verification.json",
+    "Relative report link 結晶配置と寿命検証_20261009/source_audit.json",
+    "Six source scopes recorded",
+    "Mixture assumptions explicit"
+  ],
+  "manual_visual_checks_at_original_publication": [
+    "Original S1 PDF page 6 table and figure",
+    "Original S4 PDF pages 7 and 8",
+    "All three generated PNG figures"
+  ],
+  "physical_tests": 0,
+  "physical_success_probability": null
+}

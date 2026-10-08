@@ -1,0 +1,7 @@
+property,unit,PP_mean,PP_SD,PP_ER_1p5wtpct_mean,PP_ER_SD,difference,ratio,source
+crystallinity,percent,29.6,2.4,45.4,4.0,15.799999999999997,1.5337837837837838,10.1021/acsnano.4c00114 Table 2
+Young_modulus,GPa,1.5,0.3,1.2,0.2,-0.30000000000000004,0.7999999999999999,10.1021/acsnano.4c00114 Table 2
+yield_strength,MPa,201,22,80,6,-121,0.39800995024875624,10.1021/acsnano.4c00114 Table 2
+engineering_tensile_strength,MPa,344,25,192,6,-152,0.5581395348837209,10.1021/acsnano.4c00114 Table 2
+engineering_break_strain,percent,71,6,162,6,91,2.2816901408450705,10.1021/acsnano.4c00114 Table 2
+DSC_melting_temperature,degC,149.1,0.2,160.7,0.1,11.599999999999994,,10.1021/acsnano.4c00114 Table 2

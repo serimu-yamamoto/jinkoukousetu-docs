@@ -1,0 +1,69 @@
+{
+  "cycle": 51,
+  "base_commit": "e214635f5766f214a148964b60ee7ac30bcca5b0",
+  "sources": [
+    {
+      "id": "S1",
+      "doi": "10.1021/acsnano.4c00114",
+      "url": "https://doi.org/10.1021/acsnano.4c00114",
+      "scope": "Full original paper PDF and XML; Table 2 p6 visually verified; SI retrieval failed/time-out, no test temperature asserted",
+      "data": "Six Table 2 properties with SD; means ratios are descriptive, not wet 50 C calibration",
+      "inspected_original": {
+        "bytes": 6762789,
+        "sha256": "c4c0a6b5bc28edc1558a9a500211a66980e7f54d600e652af732e69f5dd341ca"
+      }
+    },
+    {
+      "id": "S2",
+      "url": "https://imisrise.tappi.org/TAPPI/Products/plc/PLC991079.aspx",
+      "scope": "Official 1999 proceedings abstract; no complete curves, concentration or exact 50 C coefficients",
+      "data": "Temperature sensitivity counterexample; no coefficient entered"
+    },
+    {
+      "id": "S3",
+      "doi": "10.1021/ma951392a",
+      "url": "https://doi.org/10.1021/ma951392a",
+      "scope": "Publisher original abstract only",
+      "data": "10^-9 to 10^-11 cm2/s across reported temperatures, not all at 50 C; abstract warns simple Fick mismatch"
+    },
+    {
+      "id": "S4",
+      "doi": "10.1016/j.jhazmat.2026.141579",
+      "url": "https://doi.org/10.1016/j.jhazmat.2026.141579",
+      "scope": "Original full PDF; pp7-8 visually verified; supplementary Table S8 not obtained",
+      "data": "PLA 35% pellet / 11% film / 25% milled film in body; PP increase/decrease conflict retained; not a toxicity test",
+      "inspected_original": {
+        "bytes": 5563676,
+        "sha256": "34a602f6c49198a331fbca6fc8576b05354ad4214aa03202c2e3b17882dd3cab"
+      }
+    },
+    {
+      "id": "S5",
+      "url": "https://chemicalsafety.ilo.org/dyn/icsc/showcard.display?p_card_id=1112&p_lang=en&p_version=2",
+      "scope": "ICSC 1112 official safety card, August 1997",
+      "data": "Melting 135-146 C, irritation entries; does not establish harmless outdoor use"
+    },
+    {
+      "id": "S6",
+      "doi": "10.1016/j.jmps.2018.02.015",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022509617309742",
+      "scope": "Publisher abstract and accessible text",
+      "data": "Wear volume vs load/distance/hardness relation and system-dependent coefficient; no H51 wear constant borrowed"
+    }
+  ],
+  "excluded_from_numeric_model": [
+    {
+      "doi": "10.1016/j.jcis.2021.01.087",
+      "reason": "Silica spin-coated erucamide orientation/wettability; not sliding ski friction"
+    },
+    {
+      "url": "https://research-information.bris.ac.uk/files/279795152/DG_MS3_R2_DG_final_clean.pdf",
+      "reason": "Author PDF returned 403; no fulltext acquisition claimed"
+    },
+    {
+      "doi": "10.1063/1.1721448",
+      "reason": "Original abstract/fulltext access unavailable; used S6 for model scope instead"
+    }
+  ],
+  "archive_policy": "Original third-party PDFs/XML were inspected in temporary clone and are not republished; derived transcription and hashes archived. Delete temporary clone after fixed-commit byte verification."
+}

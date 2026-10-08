@@ -1,0 +1,119 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "e214635f5766f214a148964b60ee7ac30bcca5b0",
+  "cycle": 51,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第51巡_結晶の配置と寿命から滑走素材を再設計_20261009.md",
+      "bytes": 38607,
+      "sha256": "8ce170bab109f597fb4bb97107c0348d136e712464977dc73f19cb53b46df553"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 34496,
+      "sha256": "48dd04ee58874b66d624c44840ef63a73a4d0774a7241ba4a743372ec226655f"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/annual_cost.csv",
+      "bytes": 473,
+      "sha256": "56e2bf846612fa4cc7fbc4752ce71034bcff15b20479639bf0feff8b6e221e05"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/concept.png",
+      "bytes": 129453,
+      "sha256": "4382497e862b58451437abf98edae8eca2ee8709c71f7dbf47afd6561ad3539a"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/concept.svg",
+      "bytes": 12504,
+      "sha256": "0e3c2f9312806dc1e13bcbe665cc06a044d60eab03f2bdd2c121abbb0d08c932"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/diffusion_scale.csv",
+      "bytes": 278,
+      "sha256": "813788d5555381be2864f76c48534358083fc3cfa64eda9cddf224ec9ad0e8ba"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/draw.py",
+      "bytes": 5352,
+      "sha256": "0f988a2ed7c8a873af8f33eb60201c1daf03b2bbd6db80a9f2514b20a674da10"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/evidence.png",
+      "bytes": 130251,
+      "sha256": "efef4dc0b32bf719c332522ac746fb1a6f16b348972cbf120b30e6c444044985"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/evidence.svg",
+      "bytes": 36382,
+      "sha256": "e7c2b788e71d45763987321f720b9335413011fee2b4325bf4bde7f5f5003e98"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/model.py",
+      "bytes": 9822,
+      "sha256": "ad29def37c817eaddef2084a937f6e23b89099bc24a841bc09e3f7c4d7f88eb7"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/patch_cost.csv",
+      "bytes": 1967,
+      "sha256": "648d42aa3cd4ccff19a56479ff8ddbf5f784b2b1771942a887bc75688e13e067"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/placement.csv",
+      "bytes": 625,
+      "sha256": "91be0eb267fad6e0525caad3042c8cc03e6ce331e78c5c80663c5d4ba7c783a4"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/results.json",
+      "bytes": 2682,
+      "sha256": "3b397488a968b4b950d7baf9d367925a08aba233b86c025400f003ebeb637762"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/skin.csv",
+      "bytes": 524,
+      "sha256": "b73f9d33dc728a3c8d028ca697754dd3c0bbe1a25335ed848a061e14a6ca54fd"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/source_audit.json",
+      "bytes": 3104,
+      "sha256": "a92ada16821a965858b90dfd9459a370b4a41f30815b6717a55657e8f8326f2b"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/source_table.csv",
+      "bytes": 686,
+      "sha256": "219446bc56aefc7cc32daacf59dc822215a25d2060e3ecc86d543336fc3afe04"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/tradeoffs.png",
+      "bytes": 167215,
+      "sha256": "7e2d16709c69580ee174c7aeb48a224a260bffbe40e51545580894ddc9a520e6"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/tradeoffs.svg",
+      "bytes": 40225,
+      "sha256": "d31a102929784cec728f0e7b9be585da1aad15bebdd6794f0ad335a16e73eedb"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/verification.json",
+      "bytes": 1615,
+      "sha256": "b49e06e5c119b0138695eb04766c39ec288121cef5e3d79c5dffbc54846abc83"
+    },
+    {
+      "path": "GPT往復/結晶配置と寿命検証_20261009/verify.py",
+      "bytes": 4121,
+      "sha256": "98fdc966bcc0940e13dca4bc1f22f1c52776c1c8c060595349729a926d08f963"
+    },
+    {
+      "path": "README.md",
+      "bytes": 41741,
+      "sha256": "a8ec37a18a79dcbc727845704479ffa473b432731e831d4e8457cf39b20085fc"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 114626,
+      "sha256": "e23d6afd1f6d796d0458eada77e58b5a4055d67e49c052dbddb8586e62e2a10b"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "source_scope": "Other materials/systems; not measurements of H51",
+  "hypothesis": "H51: broad load seats; protected unmodified roots; localized retained crystals",
+  "checks_passed": 28,
+  "checks": [
+    "Table 2 modulus ratio 0.8",
+    "Crystallinity up but yield down",
+    "Temperature difference not Celsius ratio",
+    "No shell change at zero thickness",
+    "Matched modulus replacement unchanged",
+    "Added shell increases EI if core retained",
+    "Modified skin never exceeds parent for eta<=1",
+    "End zone is less costly than root zone",
+    "Full length softening equals eta",
+    "Compliance integral root",
+    "Compliance integral tip",
+    "cm2 to m2 conversion",
+    "Diffusion length at 8 h lower scenario",
+    "100x D gives 10x length",
+    "Load share 0.75",
+    "Friction force balance",
+    "20pct area uniform pressure fails target",
+    "Area/load pressure balance",
+    "20pct area pressure 7.5 MPa",
+    "20pct area equal life needs 1.875 um",
+    "50pct area equal life needs .75 um",
+    "Equal life material cancels area under stated assumptions",
+    "20pct initial cost versus equal life cost",
+    "More area lowers pressure",
+    "Annualization positive and finite",
+    "No free recurring cost after capitalization",
+    "Cost proportional to wear coefficient scenario",
+    "10pct replacement at 5000 fits coating-only budget before other costs"
+  ],
+  "row_counts": {
+    "evidence": 6,
+    "skin": 16,
+    "placement": 18,
+    "diffusion": 9,
+    "patch": 12,
+    "annual": 8
+  },
+  "illustrative": {
+    "lambda_required": 0.7499999999999999,
+    "min_projected_fraction": 0.29999999999999993,
+    "root20pct_eta01_k_ratio": 0.18545994065281904,
+    "tip20pct_eta01_k_ratio": 0.9328358208955223
+  },
+  "cost": {
+    "full_coat_reference_stock_kg": 3600.0,
+    "full_coat_reference_purchase_JPY": 45000000.0,
+    "equal_life_patch_stock_kg": 2699.9999999999995,
+    "equal_life_patch_purchase_JPY": 33749999.99999999,
+    "capital_recovery_factor": 0.14902948869707536,
+    "annualized_initial_JPY": 5029745.243526292,
+    "coating_only_budget_JPY_y": 5000000,
+    "budget_before_replacement_JPY_y": -29745.243526292033,
+    "price_ceiling_without_replacement_JPY_kg": 9940.861331765109
+  },
+  "limitations": [
+    "No validated wet-50C material constants",
+    "No calibrated wear coefficient or lifetime",
+    "No mapping from total geometric coverage to load share in random grain bed",
+    "Diffusion RMS is a scale, not a front or ER-specific 50C prediction",
+    "No additive adoption or permission exception",
+    "No claim of safety or winter acceptance"
+  ]
+}
