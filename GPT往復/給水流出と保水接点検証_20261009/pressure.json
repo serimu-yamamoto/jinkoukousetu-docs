@@ -1,0 +1,542 @@
+[
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 800000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 8.608031026039482e-17,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 200000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 4000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 2.3708749674166076e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 1000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 2.288799763326581e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 8000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 5.226868288861873e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 2000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 9.428783066939746e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 200000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 50000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 1000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 2.288799763326581e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 250000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 2000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 9.428783066939746e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 500000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 40000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 10000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 200000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 50000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 400000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 10000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 100000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 2400000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.2284776388385011e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 600000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 12000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 8.08286161030714e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 3000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.6568766370552911e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 24000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.6650841574642934e-14,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 6000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 3.79887162813924e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 600000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 150000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 3000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.6568766370552911e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 750000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 5.0380393742329e-17,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 6000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 3.79887162813924e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 1500000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 5.858791415133164e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 120000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 30000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 600000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 150000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 1200000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 3.716796424049214e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 30000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 300000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 8000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 5.226868288861873e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 2000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 9.428783066939746e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 40000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 2.8074814860423998e-14,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 10000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 6.654864949584506e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 80000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 5.6634748074876656e-14,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.005,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 20000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.379484825319767e-14,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 2000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 9.428783066939746e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 500000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 10000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 6.654864949584506e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 2500000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.2998774718746329e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 20000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 1.379484825319767e-14,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.02,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 5000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 3.0848732977779238e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 400000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 100000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 2000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 9.428783066939746e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 0.5,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 500000.0,
+    "entry_exceeded": false,
+    "unloaded_outlet_flow_m3_s": 0.0,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 0.25,
+    "ideal_source_Pa": 4000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 2.3708749674166076e-15,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  },
+  {
+    "nominal_Pa": 100000,
+    "real_area_fraction": 0.1,
+    "liquid_force_fraction": 1,
+    "actuator_to_contact_area_ratio": 1,
+    "ideal_source_Pa": 1000000.0,
+    "entry_exceeded": true,
+    "unloaded_outlet_flow_m3_s": 2.288799763326581e-16,
+    "warnings": "Force-area balance only: actual beta, cavity compliance, fatigue and edge loads unknown."
+  }
+]

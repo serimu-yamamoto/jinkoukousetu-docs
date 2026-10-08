@@ -1,0 +1,133 @@
+{
+  "cycle": 45,
+  "date": "2026-10-09",
+  "base_commit": "43650b8432d4c8a9316aec6ae5382465f97e0f5a",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "assumptions": "All proposed particle geometry, load partition, water recycling and cost inputs are hypotheses, not measured candidate properties.",
+  "water": {
+    "viscosity_Pa_s": 0.00055,
+    "density_kg_m3": 1000,
+    "surface_tension_N_m": 0.06794390594487329
+  },
+  "pore": {
+    "radius_m": 1e-7,
+    "length_m": 0.0001,
+    "contact_angle_deg": 120,
+    "source_pressure_Pa": 2000000,
+    "previous_evaporation_kg_s": 3.5500773186381626e-16,
+    "pocket_radii_m": [
+      0.000015,
+      0.00002
+    ]
+  },
+  "contact": {
+    "radii_m": [
+      0.000005,
+      0.00001,
+      0.00003
+    ],
+    "film_m": [
+      2e-8,
+      5e-8,
+      1e-7
+    ],
+    "speeds_m_s": [
+      2,
+      5,
+      10
+    ],
+    "effective_loaded_length_m": 0.5,
+    "nominal_pressure_Pa": [
+      10000,
+      30000,
+      100000
+    ],
+    "real_area_fraction": [
+      0.005,
+      0.02,
+      0.1
+    ],
+    "liquid_force_fraction": [
+      0.1,
+      0.5,
+      1
+    ],
+    "actuator_to_contact_area_ratio": [
+      0.25,
+      1
+    ]
+  },
+  "hydrostatic": {
+    "gap_m": [
+      2e-8,
+      5e-8,
+      1e-7
+    ],
+    "source_Pa": [
+      500000,
+      2000000,
+      5000000
+    ],
+    "pore_radii_m": [
+      8e-8,
+      1e-7,
+      1.2e-7
+    ],
+    "patch_radius_m": 0.00001
+  },
+  "retention": {
+    "path_m": [
+      0.00001,
+      0.00003,
+      0.00005,
+      0.0001
+    ],
+    "diffusivity_m2_s": [
+      1.22e-10,
+      1.22e-9,
+      1.22e-8
+    ],
+    "loaded_s": [
+      0.1,
+      0.5
+    ],
+    "rest_s": [
+      0.1,
+      1,
+      10
+    ],
+    "hold_fraction": 0.9,
+    "refill_fraction": 0.95,
+    "source_K_m4_N_s": 1e-14,
+    "source_M_Pa": 122000,
+    "source_note": "Sakai2018 Table1: room-temperature PVA value for dimensional scale only. tau=ell^2/(K*M) has unspecified geometry factor; not a 50C measured particle diffusion coefficient."
+  },
+  "cost": {
+    "bed_area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "skeleton_radius_m": 0.00003,
+    "skeleton_density_kg_m3": 1200,
+    "patch_area_fraction": [
+      0.01,
+      0.05,
+      0.2
+    ],
+    "hydrated_thickness_m": [
+      0.000001,
+      0.000005,
+      0.00001
+    ],
+    "hydrated_density_kg_m3": 1000,
+    "dry_mass_fraction": 0.12,
+    "yield_fraction": 0.8,
+    "dry_price_JPY_kg": 5000,
+    "annual_replacement_fraction": 0.1,
+    "discount_rate": 0.08,
+    "years": 10,
+    "water_JPY_m3": 500,
+    "water_scenario_only": true
+  },
+  "plots": "Analytical sensitivity diagrams only; no physical success map."
+}

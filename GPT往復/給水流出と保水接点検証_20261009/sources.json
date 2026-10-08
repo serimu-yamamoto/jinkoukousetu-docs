@@ -1,0 +1,61 @@
+[
+  {
+    "id": "S1",
+    "title": "Friction Behavior and Microscopic Mechanism of Hydrogels in an Open-Air Environment",
+    "authors": "W. Zhu et al.",
+    "year": 2025,
+    "doi": "10.1002/adma.202417177",
+    "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202417177",
+    "access": "Publisher abstract and bibliographic page; full experimental conditions not retrieved",
+    "finding": "Evaporation and internal water transport compete in open air.",
+    "not_evidence_for": "No numerical coefficient, 50C or ski-speed claim imported."
+  },
+  {
+    "id": "S2",
+    "title": "Pore-size dependence and slow relaxation of hydrogel friction on smooth surfaces",
+    "authors": "Nicholas L. Cuccia et al.",
+    "year": 2020,
+    "doi": "10.1073/pnas.1922364117",
+    "url": "https://arxiv.org/html/2001.00620v2",
+    "metadata_url": "https://arxiv.org/abs/2001.00620",
+    "access": "Full author manuscript HTML including methods, equations and figure captions; no figure digitization",
+    "conditions": "22±2C; PMMA/glass/hydrogel; approximately3mm solvent layer;5–400mN; fixed-speed runs30–1800s; Figure13example0.033–24.8cm/s.",
+    "finding": "Relaxation, geometry and hydrodynamic transport change friction; short contacts not equivalent to long running-in.",
+    "not_evidence_for": "No 50C dry air/real ski coefficient; PAA,PAAm,agarose not adopted as safe recipe; HTML automatic date not used as publication year."
+  },
+  {
+    "id": "S3",
+    "title": "Transitional behaviour between biphasic lubrication and soft elastohydrodynamic lubrication of poly(vinyl alcohol) hydrogel using microelectromechanical system pressure sensor",
+    "authors": "Sakai et al.",
+    "year": 2018,
+    "doi": "10.1049/bsbt.2018.0001",
+    "url": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/bsbt.2018.0001",
+    "access": "Full publisher HTML; methods, Table1 and discussion",
+    "conditions": "23C, acrylic counterface,1.8N,1.56–400mm/s;4mL3.3wt%PVA solution,20mPa.s;>1800s purewater reswell between tests;2mm gel;PE cover50um changes chemistry and permeability.",
+    "finding": "Interstitial support and external film support differ. Table1 M=.122MPa,K=1e-14m4/N/s gives dimensional KM=1.22e-9m2/s.",
+    "not_evidence_for": "Not candidate 50C diffusivity. Other apparent compression modulus .52MPa in text uses different rate/strain context; not substituted. Fluid fraction .5 is an assumption, not universal limit. No attribution of all PE-control friction difference solely to permeability."
+  },
+  {
+    "id": "S4",
+    "title": "Mechanics of the Ski–Snow Contact",
+    "authors": "T. Theile et al.",
+    "year": 2009,
+    "doi": "10.1007/s11249-009-9476-9",
+    "url": "https://link.springer.com/article/10.1007/s11249-009-9476-9",
+    "access": "Full publisher HTML, Sections2–3",
+    "conditions": "Snow compacted500kg/m3,250–500um grains;vertical UHMWPE impact100ms at−6C.",
+    "finding": "Macroscopic loaded time and true contact area need separate treatment.",
+    "not_evidence_for": "Reported contact fraction .4% is not a universal artificial-grain value or water-pore pressure. Not fresh groomed snow target certification."
+  },
+  {
+    "id": "S5",
+    "title": "Friction of poroelastic contacts with thin hydrogel films",
+    "authors": "J. Delavoipiere et al.",
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1807.07502",
+    "access": "Author abstract; full HTML unavailable in this retrieval",
+    "conditions": "Glass sphere, PDMA grafted layer, fully immersed water.",
+    "finding": "Drainage/contact-time ratio relates to friction/contact asymmetry.",
+    "not_evidence_for": "No numerical properties imported; stationarity of which body and spatial drainage modes must be resolved."
+  }
+]

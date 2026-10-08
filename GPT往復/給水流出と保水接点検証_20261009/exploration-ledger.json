@@ -1,0 +1,32 @@
+[
+  {
+    "route": "H44 isolated free-film supply",
+    "new_evidence": "Sliding transport and outlet pressure included",
+    "decision": "Do not promote from one-fill time; requires demonstrated upstream recovery or much larger flux."
+  },
+  {
+    "route": "Many parallel nanothroats",
+    "new_evidence": "Rate rises but dry-gas evaporation rises too; ideal pocket inventory~15/36s at2652pores",
+    "decision": "Not priority; equations do not prove feasible hole packing or regeneration."
+  },
+  {
+    "route": "Confined water-retaining contact islands H45",
+    "new_evidence": "Separate fluid retention during load from redistribution after unloading; use geometry to change drainage path",
+    "decision": "Conditional development route; 50C dry-stop-restart and actual PE mandatory."
+  },
+  {
+    "route": "Dry contact skeleton H42/H40",
+    "new_evidence": "H44 film supply cannot establish dry-state friction",
+    "decision": "Keep as comparator and fallback, not proven dry ski performance."
+  },
+  {
+    "route": "Continuous wet surface",
+    "new_evidence": "Published low-friction experiments often use mm-scale liquid reservoirs",
+    "decision": "Not adopted: conflicts with operational goal; retain only laboratory positive control."
+  },
+  {
+    "route": "Spray-grown snow-like crystals",
+    "new_evidence": "No new primary reproducible 50C-safe crystal recipe established this cycle",
+    "decision": "Remain open separate material-search route; microstructure calculations do not count as crystallization."
+  }
+]

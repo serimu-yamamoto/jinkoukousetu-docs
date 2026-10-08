@@ -1,0 +1,110 @@
+[
+  {
+    "name": "cylindrical shell exact volume correction",
+    "passed": true
+  },
+  {
+    "name": "44 baseline pore flow reproduced",
+    "passed": true
+  },
+  {
+    "name": "Poiseuille radius resistance ratio",
+    "passed": true
+  },
+  {
+    "name": "channel closes below entry",
+    "passed": true
+  },
+  {
+    "name": "film volume = rate x turnover",
+    "passed": true
+  },
+  {
+    "name": "circular Couette quadrature converges",
+    "passed": true
+  },
+  {
+    "name": "circular Couette quadrature matches",
+    "passed": true
+  },
+  {
+    "name": "faster travel same integrated water over fixed loaded length",
+    "passed": true
+  },
+  {
+    "name": "reuse plus source balances transport",
+    "passed": true
+  },
+  {
+    "name": "piston volume conserved",
+    "passed": true
+  },
+  {
+    "name": "hydrostatic series resistance",
+    "passed": true
+  },
+  {
+    "name": "hydrostatic load-flow identity",
+    "passed": true
+  },
+  {
+    "name": "radial pressure integration matches analytic load",
+    "passed": true
+  },
+  {
+    "name": "removing capillary hold increases hydrostatic flow",
+    "passed": true
+  },
+  {
+    "name": "pressure force-area reconstruction",
+    "passed": true
+  },
+  {
+    "name": "Sakai dimensional scale K*M",
+    "passed": true
+  },
+  {
+    "name": "diffusion path doubling quadruples tau",
+    "passed": true
+  },
+  {
+    "name": "hold-window lower bound",
+    "passed": true
+  },
+  {
+    "name": "refill-window upper bound",
+    "passed": true
+  },
+  {
+    "name": "single-path time-window threshold",
+    "passed": true
+  },
+  {
+    "name": "cycle recurrence matches steady solution",
+    "passed": true
+  },
+  {
+    "name": "all retained capacities physical",
+    "passed": true
+  },
+  {
+    "name": "no rest cannot restore capacity",
+    "passed": true
+  },
+  {
+    "name": "bed mass remains108t",
+    "passed": true
+  },
+  {
+    "name": "cost dry plus water balances mass",
+    "passed": true
+  },
+  {
+    "name": "cost replacement counted once",
+    "passed": true
+  },
+  {
+    "name": "physical evidence not numerical acceptance",
+    "passed": true
+  }
+]

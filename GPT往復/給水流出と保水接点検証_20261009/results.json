@@ -1,0 +1,85 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "status": "diagnostic hypotheses; no achieved ski friction or snow feel",
+  "counts": {
+    "transport": 27,
+    "pressure": 54,
+    "hydrostatic": 54,
+    "retention": 72,
+    "cost": 9,
+    "numeric_checks": 27
+  },
+  "baseline_transport": {
+    "patch_radius_m": 1e-05,
+    "film_m": 5e-08,
+    "speed_m_s": 5,
+    "loaded_s": 0.1,
+    "free_pore_flow_m3_s": 9.428783066939746e-16,
+    "outward_Couette_m3_s": 2.5e-12,
+    "fluid_volume_m3": 1.5707963267948967e-17,
+    "film_turnover_s": 6.2831853071795875e-06,
+    "flow_ratio": 2651.4556356331705,
+    "parallel_pores_for_rate": 2652,
+    "minimum_reuse_if_pore_only": 0.9996228486773224,
+    "outward_volume_per_load_m3": 2.5e-13,
+    "piston_stroke_if_full_supply_m": 0.0007957747154594765,
+    "shear_Pa": 55000.00000000001,
+    "fluid_shear_mu_at_2MPa": 0.027500000000000004,
+    "reservoir20_load_equivalents": 7.460387957432592,
+    "warnings": "Couette component only, not total Reynolds solution; upstream reuse/rain/inlet supply can reduce new-water demand. Film assumed, not proven."
+  },
+  "baseline_hydrostatic": {
+    "pore_radius_m": 1e-07,
+    "gap_m": 5e-08,
+    "source_Pa": 2000000.0,
+    "capillary_head_retained": true,
+    "pipe_R_Pa_s_m3": 1.4005634992086794e+21,
+    "gap_R_Pa_s_m3": 3.86989996208338e+19,
+    "flow_m3_s": 9.175261230145436e-16,
+    "feed_pressure_Pa": 35507.34308664493,
+    "supported_N": 1.21101336893096e-06,
+    "mean_patch_pressure_Pa": 3854.7752763146273,
+    "warning": "Parallel rigid faces, central feed, ambient edge, no sliding or wedge. Not total ski load support."
+  },
+  "baseline_retention": {
+    "path_m": 5e-05,
+    "D_m2_s": 1.22e-09,
+    "tau_s": 2.0491803278688527,
+    "loaded_s": 0.1,
+    "rest_s": 10,
+    "single_load_retention": 0.9523715849693368,
+    "rest_refill_of_deficit": 0.9924029859724224,
+    "steady_preload_capacity": 0.9996355292513234,
+    "steady_endload_capacity": 0.9520244733847447,
+    "warning": "Single-mode hypothesis, geometry factor=1. No friction prediction; refill assumes an available internal/external water source."
+  },
+  "minimum_rest_over_loaded_for_single_mode": 28.43315880574341,
+  "ideal_parallel_pore_evaporation_inventory_seconds": {
+    "1.5e-05": 15.015889195297786,
+    "2e-05": 35.593218833298465
+  },
+  "baseline_cost": {
+    "area_fraction": 0.05,
+    "hydrated_thickness_m": 5e-06,
+    "wet_phase_kg": 1499.9999999999998,
+    "dry_phase_kg": 179.99999999999997,
+    "water_inventory_kg": 1319.9999999999998,
+    "cylindrical_shell_volume_factor": 1.0833333333333333,
+    "cylindrical_shell_wet_kg": 1624.9999999999995,
+    "cylindrical_shell_water_kg": 1429.9999999999995,
+    "cylindrical_shell_initial_JPY": 1218749.9999999998,
+    "cylindrical_shell_annual_JPY": 303504.68934956053,
+    "initial_material_only_JPY": 1124999.9999999998,
+    "annual_material_and_replacement_JPY": 280158.1747842097,
+    "one_full_water_refill_cost_JPY": 659.9999999999999,
+    "warning": "Planar thin-layer approximation, excludes forming/washing/refill/recovery/equipment; no commercial quote."
+  },
+  "paired_diffusion_window_at_ell50um_tc01_tr10": {
+    "tau_min_s": 0.9491221581029905,
+    "tau_max_s": 3.3380820069533406,
+    "D_min_m2_s": 7.489330683884977e-10,
+    "D_max_m2_s": 2.634012891445657e-09
+  },
+  "conclusion": "H44 single-throat film replenishment cannot be inferred from one-fill time; prioritize low-leakage contact phase plus dry supporting phase, conditional on 50C real-sole evidence."
+}
