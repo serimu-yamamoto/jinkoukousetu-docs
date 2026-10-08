@@ -1,0 +1,80 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "af5f065da2f1a0150105ec82e5ae48e7ce62399e",
+  "date": "2026-10-08",
+  "cycle": 25,
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null
+  },
+  "hash_algorithm": "SHA256",
+  "note": "Hashes cover the exact UTF-8 LF or PNG bytes of these files. This manifest excludes itself to avoid a recursive hash. Publication must read back every listed file plus this manifest at the immutable commit before deleting the local clone.",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第25巡_粒内フィブリル補強と再生後の荷重移行_20261008.md",
+      "bytes": 20953,
+      "sha256": "71a85a8650c6950ddd4c9f4f8ff0c75773913bdbcfbb23bca11c5755ae00dc87"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 15845,
+      "sha256": "372b978a1130b5a7937494d708b9669c0dc0915bd159b636c8d4c9023cc36ea1"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/01_load_transfer.png",
+      "bytes": 120450,
+      "sha256": "120c72bcc0e9f15506cd803bce23ed237c8a9f7fac38146f3bbb8008c53c6902"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/02_cost_and_history.png",
+      "bytes": 112605,
+      "sha256": "24542cba30b8c15406ca44858a2960ddb66f46dd3cdffdbf2f7c53d13e8f11ec"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/README.md",
+      "bytes": 3376,
+      "sha256": "61f6300317cec115a9cf5fa1e1bf3851d8efcf95f6cb7a5a6d0d598c85bddfcb"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/calculate.py",
+      "bytes": 11036,
+      "sha256": "5d7a6e51fa3a3583d19eaef012dd51bb93cc616a0467e70c8cfdd8cb7ff5ff97"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/inputs.json",
+      "bytes": 3514,
+      "sha256": "7de18a6accaa0e500e3d0e3dff044e2d7a1cfa18d497826300f2a7e7be8aa694"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/plot.py",
+      "bytes": 3192,
+      "sha256": "80bb8d2f0450223912c22664a2a862daa68ad599c22939d5b97f729ead79b3ec"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/results.json",
+      "bytes": 223439,
+      "sha256": "735bb4435ea5fac10a013f58a30447beba9301a6e2983191b256e8be9dfb65ad"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/sources.md",
+      "bytes": 5848,
+      "sha256": "5ae260ef1bdce634a71895cdd7b78ee83ca2735b04bbf228f6f91f5911710a6d"
+    },
+    {
+      "path": "GPT往復/粒内補強検証_配向と荷重移行_20261008/validation.json",
+      "bytes": 2172,
+      "sha256": "403e1ea509deb5991c1caba54517ff51611e45f69d285b59a58f5fa9307946ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 21908,
+      "sha256": "823d52109949e2893d0f50ef8cf86ea7f4e6f53323a7195a5de4f2b894fb935c"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 71698,
+      "sha256": "5a54f5a84ec1736dd32fece21130cf5725b051911e89c509ef12287bef1b8578"
+    }
+  ]
+}

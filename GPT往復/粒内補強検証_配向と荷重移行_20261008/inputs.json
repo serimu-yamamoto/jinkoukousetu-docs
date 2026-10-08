@@ -1,0 +1,133 @@
+{
+  "cycle": 25,
+  "base_commit": "af5f065da2f1a0150105ec82e5ae48e7ce62399e",
+  "accessed_date": "2026-10-08",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Conditional axial load-transfer and mass-cost diagnostics; not a50C creep model, complete branch bending or snow simulation."
+  },
+  "bed": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "reference_bulk_density_kg_m3": 120,
+    "reference_host_density_kg_m3": 950,
+    "note": "Preserve original polymer occupied volume when changing density; not automatically preserve bed mechanics."
+  },
+  "composite": {
+    "fiber_mass_fractions": [
+      0.05,
+      0.15,
+      0.3
+    ],
+    "host_density_kg_m3": 950,
+    "fiber_density_kg_m3": 1390,
+    "density_note": "Host assumed HDPE-like;PET density anchored toS1 stock grade only,not certified fibril-grade value. SourceS3table0.838g/cm3PET not adopted because solid-vs-bulk basis unresolved.",
+    "branch_radius_um": 30,
+    "skin_thickness_um": [
+      0,
+      3,
+      5,
+      8
+    ],
+    "fiber_diameter_um": [
+      0.3,
+      1,
+      3,
+      10
+    ],
+    "fiber_length_um": [
+      20,
+      50,
+      150
+    ],
+    "host_E_MPa": [
+      50,
+      300,
+      800
+    ],
+    "fiber_E_MPa": [
+      1000,
+      3000,
+      8000
+    ],
+    "host_nu": 0.45,
+    "transfer_factors": [
+      0.01,
+      0.1,
+      1
+    ],
+    "orientation_factors": [
+      1,
+      0.375,
+      0.2
+    ],
+    "note": "All moduli are trial inputs at the desired final service/history state, not literature50C values. Transfer factor scales an approximate annular shear spring; not adhesion strength or measurable fraction. Orientation factors are axial-projection proxies for aligned/planar-random/3D-random embedded fibrils,not free networks. Outer skin fiber-free for comparison, but real processing cannot yet guarantee this."
+  },
+  "reference": {
+    "fiber_mass_fraction": 0.15,
+    "skin_um": 5,
+    "host_E_MPa": 300,
+    "fiber_E_MPa": 3000,
+    "length_um": 50,
+    "diameter_um": [
+      1,
+      3,
+      10
+    ],
+    "transfer_factors": [
+      0.01,
+      0.1,
+      1
+    ]
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "host_JPY_kg": 500,
+    "fiber_JPY_kg": [
+      500,
+      1000,
+      3000
+    ],
+    "forming_JPY_kg": [
+      0,
+      100,
+      300
+    ],
+    "note": "Hypothetical pretax comparisons,not quotes;no existing grade priced.2percent purchased replacement isnot environmentalrelease.EquipmentJPY200Mtax-inclusive separate."
+  },
+  "throughput": {
+    "campaign_hours": 1000,
+    "yield_fraction": 0.8,
+    "reference_laboratory_kg_h": [
+      3,
+      0.84
+    ],
+    "note": "3kg/h fromS3PP/PET filament;0.84kg/h fromS4spunbond. Neither is a snow-grain production line or scale-up guarantee; integer line equivalents only."
+  },
+  "regeneration": {
+    "modulus_before_GPa": 8,
+    "modulus_after_GPa": 3,
+    "source": "S3:22wtpercentPET/PP filament,188C6min,not50C wet data;no geometric extrapolation treated as empirical result",
+    "comparison_radii_um": [
+      20,
+      30,
+      50
+    ]
+  },
+  "numerics": {
+    "fe_elements": [
+      20,
+      80,
+      240
+    ],
+    "fe_relative_error_limit": 0.005,
+    "note": "Independent finite-element energy discretization verifies only the stated two-rod spring model."
+  }
+}

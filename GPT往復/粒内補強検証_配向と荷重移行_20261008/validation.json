@@ -1,0 +1,112 @@
+{
+  "numerical_checks": 24,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "108t reference",
+      "passed": true
+    },
+    {
+      "name": "inherited baseline",
+      "passed": true
+    },
+    {
+      "name": "mass-volume conversion",
+      "passed": true
+    },
+    {
+      "name": "skin preserves global fiber volume",
+      "passed": true
+    },
+    {
+      "name": "core fiber volume fraction below unity",
+      "passed": true
+    },
+    {
+      "name": "positive all stiffness",
+      "passed": true
+    },
+    {
+      "name": "upper aligned Voigt bound",
+      "passed": true
+    },
+    {
+      "name": "matrix area lower bound",
+      "passed": true
+    },
+    {
+      "name": "zero transfer uncouples fiber",
+      "passed": true
+    },
+    {
+      "name": "long-fiber limit",
+      "passed": true
+    },
+    {
+      "name": "monotonic transfer",
+      "passed": true
+    },
+    {
+      "name": "monotonic fiber length",
+      "passed": true
+    },
+    {
+      "name": "orientation proxies ordered",
+      "passed": true
+    },
+    {
+      "name": "same aspect scaling",
+      "passed": true
+    },
+    {
+      "name": "geometric stiffness scaling invariant",
+      "passed": true
+    },
+    {
+      "name": "price threshold algebra",
+      "passed": true
+    },
+    {
+      "name": "fixed shape volume conserved",
+      "passed": true
+    },
+    {
+      "name": "source modulus retention",
+      "passed": true
+    },
+    {
+      "name": "source stiffness resize arithmetic",
+      "passed": true
+    },
+    {
+      "name": "FE final stiffness accuracy",
+      "passed": true
+    },
+    {
+      "name": "FE convergence",
+      "passed": true
+    },
+    {
+      "name": "FE energy balance",
+      "passed": true
+    },
+    {
+      "name": "FE free-node equilibrium",
+      "passed": true
+    },
+    {
+      "name": "no probability invention",
+      "passed": true
+    }
+  ],
+  "numpy_version": "2.5.3",
+  "not_validated": [
+    "50C creep",
+    "actual modulus or adhesion",
+    "3D branch mechanics",
+    "skin closure and exposed fiber abrasion",
+    "snowlike morphology and friction",
+    "rain/winter/weather safety",
+    "commercial costs"
+  ]
+}
