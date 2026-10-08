@@ -1,0 +1,175 @@
+{
+  "cycle": 24,
+  "base_commit": "2c39fa3b7da39f567b1f9d58caebb9a4527a1457",
+  "accessed_date": "2026-10-08",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Recipe mass balances and conditional thermal/composition bounds; no snowlike grain, friction or lifecycle performance predicted"
+  },
+  "bed": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120
+  },
+  "routes": [
+    {
+      "id": "POM_reference",
+      "source": "S1",
+      "reported_kg_per_L": 0.0002,
+      "collection_yield": 1,
+      "concentration_basis": "0.02 g polymer per100mL solvent; w/v",
+      "yield_basis": "Unmeasured; perfect-collection lower bound"
+    },
+    {
+      "id": "PLA_spray_2014",
+      "source": "S2",
+      "reported_kg_per_L": 0.0025,
+      "collection_yield": 0.66,
+      "concentration_basis": "0.25g polymer per100mL chloroform; w/v",
+      "yield_basis": "PLA50 laboratory particle production yield; scale-up and recycle not established"
+    },
+    {
+      "id": "DBE25_reference",
+      "source": "S6",
+      "reported_kg_per_L": 0.025,
+      "collection_yield": 1,
+      "concentration_basis": "Reported solution concentration25mg/mL; wash volume excluded",
+      "yield_basis": "Unmeasured; perfect-collection lower bound"
+    },
+    {
+      "id": "DBE50_reference",
+      "source": "S6",
+      "reported_kg_per_L": 0.05,
+      "collection_yield": 1,
+      "concentration_basis": "Reported solution concentration50mg/mL; wash volume excluded",
+      "yield_basis": "Unmeasured; perfect-collection lower bound"
+    },
+    {
+      "id": "DBE100_reference",
+      "source": "S6",
+      "reported_kg_per_L": 0.1,
+      "collection_yield": 1,
+      "concentration_basis": "Reported solution concentration100mg/mL; wash volume excluded",
+      "yield_basis": "Unmeasured; perfect-collection lower bound"
+    }
+  ],
+  "manufacturing": {
+    "product_fractions": [
+      0.001,
+      0.01,
+      0.05,
+      1
+    ],
+    "campaign_hours": 1000,
+    "reject_recovery_fractions": [
+      0,
+      0.9,
+      0.99,
+      1
+    ],
+    "liquid_recovery_fractions": [
+      0.99,
+      0.999,
+      0.9999
+    ],
+    "raw_polymer_prices_JPY_kg": [
+      500,
+      1000,
+      3000
+    ],
+    "liquid_processing_prices_JPY_L": [
+      0.01,
+      0.1,
+      1
+    ],
+    "note": "All prices and recovery fractions hypothetical. Recipe volume is integrated processed liquid, not simultaneous tank stock, not environmental discharge. DBE washing/separation extra. Recoverable reject assumed reusable with unchanged per-pass yield only for mass-balance sensitivity."
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "closures_per_year": 240,
+    "note": "Inherited hypothetical pretax economics. EquipmentJPY200M tax-inclusive is a separate scope.2percent purchase replenishment is not environmental release."
+  },
+  "minority_phase": {
+    "fractions": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "prices_JPY_kg": [
+      1000,
+      3000,
+      10000
+    ],
+    "base_JPY_kg": 500,
+    "note": "Replaces equal host mass in108t total, unlike added caps incycle23; neither material prices nor50C stiffness established. No conversion/shape processing cost included."
+  },
+  "thermal": {
+    "initial_C": 30,
+    "process_C": 190,
+    "heat_capacity_kJ_kgK": 1.8,
+    "available_h": 1,
+    "low_melting_fraction": 0.1,
+    "latent_heat_of_low_phase_kJ_kg": 100,
+    "thermal_efficiency": 0.6,
+    "sensible_heat_recovery_fractions": [
+      0,
+      0.5,
+      0.8
+    ],
+    "processed_mass_fractions_per_closure": [
+      0.001,
+      0.01,
+      0.05,
+      1
+    ],
+    "electricity_JPY_kWh": 30,
+    "thermal_diffusivities_mm2_s": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "heat_path_um": [
+      10,
+      30,
+      100,
+      250
+    ],
+    "heating_times_s": [
+      0.01,
+      0.1,
+      1,
+      60,
+      300
+    ],
+    "note": "All thermo coefficients and190C process scenario assumed, not an SCPLA recipe. Whole processed grain heated; only chosen low phase latent heat included. Heater losses lumped efficiency; cooling equipment/drying/kinetics excluded. Heat diffusion time d^2/alpha order-of-magnitude, not exact transient solution. Reference thermal table isH24-A with10percent low-melting phase. Joint material-cost cases recompute H24-B low-melting host as1 minus high-price phase fraction; they never reuseH24-A latent heat."
+  },
+  "phase_drift": {
+    "initial_low_fraction": 0.1,
+    "minimum_low_fraction": 0.05,
+    "conversion_fraction_per_heating": [
+      0,
+      0.01,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "cycles": [
+      0,
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      240
+    ],
+    "note": "Conserved two-state proxy: eligible mixed low-melting material converts to high-melting phase; not measured kinetics or universal stereochemistry. No loss or replenishment. High phase mass rises exactly as low phase falls. In actual grain opposite enantiomer supply and interface diffusion limit conversion."
+  }
+}

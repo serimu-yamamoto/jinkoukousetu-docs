@@ -1,0 +1,83 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "2c39fa3b7da39f567b1f9d58caebb9a4527a1457",
+  "cycle": 24,
+  "created_date": "2026-10-08",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Recipe mass balances and conditional thermal/composition bounds; no snowlike grain, friction or lifecycle performance predicted"
+  },
+  "numerical_checks": 23,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 21365,
+      "sha256": "f60cd7293c98e489487eec57548de93c5dcb0f6373036fa0c54251cc16757758"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 15324,
+      "sha256": "f1422375b32e040a6e8a713b19d6db74927557d17048548df70f3fec50325738"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 70202,
+      "sha256": "5516a88a12ad66a451309181aa360203074debcff0cfbd79ebebd1e2548006d7"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第24巡_枝状結晶と結晶相を使い分ける粒の製造再生_20261008.md",
+      "bytes": 20034,
+      "sha256": "65ce823bf934c41fa372bc73df6a4e353392a839e373923b28a40a846b2b471d"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/README.md",
+      "bytes": 2457,
+      "sha256": "707b7483667a53e89f51e94283505afd7d8753cfa4f4ec209b15044e5750dd11"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/inputs.json",
+      "bytes": 5221,
+      "sha256": "261bd7e9ba05b0e44953cdf1de83b23169d44eece60e7af3b49496a7e82aef71"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/calculate.py",
+      "bytes": 10901,
+      "sha256": "c1146c294ae74ec259ad5785110e973029df326202fb9283bd8cf01f0f9728bd"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/results.json",
+      "bytes": 154374,
+      "sha256": "0ecdb7259f4d59e655935f5c0137890973085e49918e28dd937eccbbafe06d51"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/validation.json",
+      "bytes": 2178,
+      "sha256": "88079c02677125fd249fc6ffdc4c98ea108d2dc50e54267e1d6d2b8c075624c3"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/plot.py",
+      "bytes": 3481,
+      "sha256": "0e565ae05e69ad08f5d163fb509948c2949bb94b6e551080f0744ed62032052f"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/sources.md",
+      "bytes": 5374,
+      "sha256": "d636fb315dc75dfba1a7cfc15a9cfa7115f15b6cc9c59444c5f155db8950b890"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/01_recipe_and_heat.png",
+      "bytes": 119418,
+      "sha256": "f62dc76aa2cd78d751edee318d5b2b77edea50942d84a9c61b2c0839fcdc0a32"
+    },
+    {
+      "path": "GPT往復/結晶形成検証_相分率と製造再生_20261008/02_phase_and_cost.png",
+      "bytes": 155107,
+      "sha256": "c1db2d880852a732594c636db96ab23c4a7e5a1a1a15cd6e54aa63355c59f1e1"
+    }
+  ],
+  "self_excluded": true,
+  "note": "Validate raw bytes at published immutable commit; preserve connection instructions and user settings; remove local research clone after successful readback."
+}

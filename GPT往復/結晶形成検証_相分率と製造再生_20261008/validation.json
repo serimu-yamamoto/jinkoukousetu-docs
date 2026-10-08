@@ -1,0 +1,107 @@
+{
+  "numerical_checks": 23,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "reference108t",
+      "passed": true
+    },
+    {
+      "name": "baseline inherited",
+      "passed": true
+    },
+    {
+      "name": "finished-price boundary closes budget",
+      "passed": true
+    },
+    {
+      "name": "POM w-v not wt",
+      "passed": true
+    },
+    {
+      "name": "PLA w-v conversion",
+      "passed": true
+    },
+    {
+      "name": "recipe mass closure",
+      "passed": true
+    },
+    {
+      "name": "all collection closures",
+      "passed": true
+    },
+    {
+      "name": "fresh product purge conservation",
+      "passed": true
+    },
+    {
+      "name": "full reject recovery zero purge",
+      "passed": true
+    },
+    {
+      "name": "zero reject recovery gross virgin",
+      "passed": true
+    },
+    {
+      "name": "liquid recovery ordering",
+      "passed": true
+    },
+    {
+      "name": "phase replacement keeps mass",
+      "passed": true
+    },
+    {
+      "name": "phase-drift conserved mass",
+      "passed": true
+    },
+    {
+      "name": "no conversion no drift",
+      "passed": true
+    },
+    {
+      "name": "half reserve at analytical limit",
+      "passed": true
+    },
+    {
+      "name": "heat includes entire sensible mass",
+      "passed": true
+    },
+    {
+      "name": "no recovery first-law equality",
+      "passed": true
+    },
+    {
+      "name": "1percent no recovery149kWh",
+      "passed": true
+    },
+    {
+      "name": "diffusion independent dimensional form",
+      "passed": true
+    },
+    {
+      "name": "whole energy exceeds phase-only lower fiction",
+      "passed": true
+    },
+    {
+      "name": "H24B phase mass complements host",
+      "passed": true
+    },
+    {
+      "name": "H24B5percent energy recomputed not H24A",
+      "passed": true
+    },
+    {
+      "name": "no invented success probability",
+      "passed": true
+    }
+  ],
+  "not_validated": [
+    "Actual open grain formation",
+    "50C creep and dry/wet ski contact",
+    "Branch survival and repeated phase conversion",
+    "Rain and winter bonding",
+    "Human/environment safety",
+    "Commercial costs",
+    "Success probability"
+  ]
+}

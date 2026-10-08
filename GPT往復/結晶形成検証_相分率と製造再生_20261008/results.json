@@ -1,0 +1,4523 @@
+{
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Recipe mass balances and conditional thermal/composition bounds; no snowlike grain, friction or lifecycle performance predicted"
+  },
+  "references": {
+    "mass_kg": 108000.0,
+    "crf": 0.14902948869707533,
+    "baseline_annual_JPY": 16108182.163583573,
+    "annual_margin_JPY": 2891817.836416427,
+    "maximum_finished_material_JPY_kg": 658.4107677561304,
+    "sensible_kJ_per_kg": 288.0,
+    "latent_kJ_per_kg": 10.0,
+    "false_phase_only_heat_kJ_per_kg_total": 38.800000000000004,
+    "whole_to_false_phase_only_energy_ratio": 7.68041237113402
+  },
+  "route_balances": [
+    {
+      "route": "POM_reference",
+      "product_fraction": 0.001,
+      "product_kg": 108.0,
+      "gross_polymer_processed_kg": 108.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 540000.0,
+      "recipe_liquid_L_per_kg_product": 5000.0,
+      "average_recipe_flow_L_h": 540.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 5400.000000000005
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 540.0000000000005
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 53.99999999999405
+        }
+      ]
+    },
+    {
+      "route": "POM_reference",
+      "product_fraction": 0.01,
+      "product_kg": 1080.0,
+      "gross_polymer_processed_kg": 1080.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 5400000.0,
+      "recipe_liquid_L_per_kg_product": 5000.0,
+      "average_recipe_flow_L_h": 5400.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 54000.00000000005
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 5400.000000000005
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 539.9999999999405
+        }
+      ]
+    },
+    {
+      "route": "POM_reference",
+      "product_fraction": 0.05,
+      "product_kg": 5400.0,
+      "gross_polymer_processed_kg": 5400.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 27000000.0,
+      "recipe_liquid_L_per_kg_product": 5000.0,
+      "average_recipe_flow_L_h": 27000.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 270000.00000000023
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 27000.000000000025
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 2699.9999999997026
+        }
+      ]
+    },
+    {
+      "route": "POM_reference",
+      "product_fraction": 1,
+      "product_kg": 108000.0,
+      "gross_polymer_processed_kg": 108000.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 540000000.0,
+      "recipe_liquid_L_per_kg_product": 5000.0,
+      "average_recipe_flow_L_h": 540000.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 5400000.000000005
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 540000.0000000005
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 53999.999999994056
+        }
+      ]
+    },
+    {
+      "route": "PLA_spray_2014",
+      "product_fraction": 0.001,
+      "product_kg": 108.0,
+      "gross_polymer_processed_kg": 163.63636363636363,
+      "integrated_reject_kg": 55.636363636363626,
+      "recipe_liquid_L": 65454.54545454545,
+      "recipe_liquid_L_per_kg_product": 606.060606060606,
+      "average_recipe_flow_L_h": 65.45454545454545,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 654.5454545454551
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 65.45454545454551
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 6.545454545453824
+        }
+      ]
+    },
+    {
+      "route": "PLA_spray_2014",
+      "product_fraction": 0.01,
+      "product_kg": 1080.0,
+      "gross_polymer_processed_kg": 1636.3636363636363,
+      "integrated_reject_kg": 556.3636363636363,
+      "recipe_liquid_L": 654545.4545454545,
+      "recipe_liquid_L_per_kg_product": 606.060606060606,
+      "average_recipe_flow_L_h": 654.5454545454545,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 6545.4545454545505
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 654.5454545454551
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 65.45454545453823
+        }
+      ]
+    },
+    {
+      "route": "PLA_spray_2014",
+      "product_fraction": 0.05,
+      "product_kg": 5400.0,
+      "gross_polymer_processed_kg": 8181.818181818181,
+      "integrated_reject_kg": 2781.818181818181,
+      "recipe_liquid_L": 3272727.2727272725,
+      "recipe_liquid_L_per_kg_product": 606.060606060606,
+      "average_recipe_flow_L_h": 3272.7272727272725,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 32727.272727272753
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 3272.7272727272752
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 327.2727272726912
+        }
+      ]
+    },
+    {
+      "route": "PLA_spray_2014",
+      "product_fraction": 1,
+      "product_kg": 108000.0,
+      "gross_polymer_processed_kg": 163636.36363636362,
+      "integrated_reject_kg": 55636.36363636362,
+      "recipe_liquid_L": 65454545.454545446,
+      "recipe_liquid_L_per_kg_product": 606.060606060606,
+      "average_recipe_flow_L_h": 65454.54545454545,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 654545.454545455
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 65454.54545454551
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 6545.454545453824
+        }
+      ]
+    },
+    {
+      "route": "DBE25_reference",
+      "product_fraction": 0.001,
+      "product_kg": 108.0,
+      "gross_polymer_processed_kg": 108.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 4320.0,
+      "recipe_liquid_L_per_kg_product": 40.0,
+      "average_recipe_flow_L_h": 4.32,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 43.20000000000004
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 4.320000000000004
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 0.4319999999999524
+        }
+      ]
+    },
+    {
+      "route": "DBE25_reference",
+      "product_fraction": 0.01,
+      "product_kg": 1080.0,
+      "gross_polymer_processed_kg": 1080.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 43200.0,
+      "recipe_liquid_L_per_kg_product": 40.0,
+      "average_recipe_flow_L_h": 43.2,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 432.0000000000004
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 43.20000000000004
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 4.319999999999524
+        }
+      ]
+    },
+    {
+      "route": "DBE25_reference",
+      "product_fraction": 0.05,
+      "product_kg": 5400.0,
+      "gross_polymer_processed_kg": 5400.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 216000.0,
+      "recipe_liquid_L_per_kg_product": 40.0,
+      "average_recipe_flow_L_h": 216.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 2160.000000000002
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 216.0000000000002
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 21.59999999999762
+        }
+      ]
+    },
+    {
+      "route": "DBE25_reference",
+      "product_fraction": 1,
+      "product_kg": 108000.0,
+      "gross_polymer_processed_kg": 108000.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 4320000.0,
+      "recipe_liquid_L_per_kg_product": 40.0,
+      "average_recipe_flow_L_h": 4320.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 43200.00000000004
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 4320.000000000004
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 431.9999999999524
+        }
+      ]
+    },
+    {
+      "route": "DBE50_reference",
+      "product_fraction": 0.001,
+      "product_kg": 108.0,
+      "gross_polymer_processed_kg": 108.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 2160.0,
+      "recipe_liquid_L_per_kg_product": 20.0,
+      "average_recipe_flow_L_h": 2.16,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 21.60000000000002
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 2.160000000000002
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 0.2159999999999762
+        }
+      ]
+    },
+    {
+      "route": "DBE50_reference",
+      "product_fraction": 0.01,
+      "product_kg": 1080.0,
+      "gross_polymer_processed_kg": 1080.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 21600.0,
+      "recipe_liquid_L_per_kg_product": 20.0,
+      "average_recipe_flow_L_h": 21.6,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 216.0000000000002
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 21.60000000000002
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 2.159999999999762
+        }
+      ]
+    },
+    {
+      "route": "DBE50_reference",
+      "product_fraction": 0.05,
+      "product_kg": 5400.0,
+      "gross_polymer_processed_kg": 5400.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 108000.0,
+      "recipe_liquid_L_per_kg_product": 20.0,
+      "average_recipe_flow_L_h": 108.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 1080.000000000001
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 108.0000000000001
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 10.79999999999881
+        }
+      ]
+    },
+    {
+      "route": "DBE50_reference",
+      "product_fraction": 1,
+      "product_kg": 108000.0,
+      "gross_polymer_processed_kg": 108000.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 2160000.0,
+      "recipe_liquid_L_per_kg_product": 20.0,
+      "average_recipe_flow_L_h": 2160.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 21600.00000000002
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 2160.000000000002
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 215.9999999999762
+        }
+      ]
+    },
+    {
+      "route": "DBE100_reference",
+      "product_fraction": 0.001,
+      "product_kg": 108.0,
+      "gross_polymer_processed_kg": 108.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 1080.0,
+      "recipe_liquid_L_per_kg_product": 10.0,
+      "average_recipe_flow_L_h": 1.08,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 10.80000000000001
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 1.080000000000001
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 0.1079999999999881
+        }
+      ]
+    },
+    {
+      "route": "DBE100_reference",
+      "product_fraction": 0.01,
+      "product_kg": 1080.0,
+      "gross_polymer_processed_kg": 1080.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 10800.0,
+      "recipe_liquid_L_per_kg_product": 10.0,
+      "average_recipe_flow_L_h": 10.8,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 108.0000000000001
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 10.80000000000001
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 1.079999999999881
+        }
+      ]
+    },
+    {
+      "route": "DBE100_reference",
+      "product_fraction": 0.05,
+      "product_kg": 5400.0,
+      "gross_polymer_processed_kg": 5400.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 54000.0,
+      "recipe_liquid_L_per_kg_product": 10.0,
+      "average_recipe_flow_L_h": 54.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 540.0000000000005
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 54.00000000000005
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 5.399999999999405
+        }
+      ]
+    },
+    {
+      "route": "DBE100_reference",
+      "product_fraction": 1,
+      "product_kg": 108000.0,
+      "gross_polymer_processed_kg": 108000.0,
+      "integrated_reject_kg": 0.0,
+      "recipe_liquid_L": 1080000.0,
+      "recipe_liquid_L_per_kg_product": 10.0,
+      "average_recipe_flow_L_h": 1080.0,
+      "makeup_equivalent_L": [
+        {
+          "recovery_fraction": 0.99,
+          "nonreturned_recipe_liquid_L": 10800.00000000001
+        },
+        {
+          "recovery_fraction": 0.999,
+          "nonreturned_recipe_liquid_L": 1080.000000000001
+        },
+        {
+          "recovery_fraction": 0.9999,
+          "nonreturned_recipe_liquid_L": 107.9999999999881
+        }
+      ]
+    }
+  ],
+  "reject_recycle_balances": [
+    {
+      "reject_recovery_fraction": 0,
+      "gross_kg": 163636.36363636362,
+      "reject_kg": 55636.36363636362,
+      "recycled_kg": 0.0,
+      "virgin_kg": 163636.36363636362,
+      "contained_purge_kg": 55636.36363636362
+    },
+    {
+      "reject_recovery_fraction": 0.9,
+      "gross_kg": 163636.36363636362,
+      "reject_kg": 55636.36363636362,
+      "recycled_kg": 50072.72727272726,
+      "virgin_kg": 113563.63636363635,
+      "contained_purge_kg": 5563.63636363636
+    },
+    {
+      "reject_recovery_fraction": 0.99,
+      "gross_kg": 163636.36363636362,
+      "reject_kg": 55636.36363636362,
+      "recycled_kg": 55079.99999999998,
+      "virgin_kg": 108556.36363636365,
+      "contained_purge_kg": 556.3636363636367
+    },
+    {
+      "reject_recovery_fraction": 1,
+      "gross_kg": 163636.36363636362,
+      "reject_kg": 55636.36363636362,
+      "recycled_kg": 55636.36363636362,
+      "virgin_kg": 108000.0,
+      "contained_purge_kg": 0.0
+    }
+  ],
+  "manufacturing_cost_cases": [
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 550.0,
+      "annual_margin_JPY": 1979058.5974522196,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1000.0,
+      "annual_margin_JPY": -6235774.55322564,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 5500.0,
+      "annual_margin_JPY": -88384106.06000425,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 1050.0,
+      "annual_margin_JPY": -7148533.792189848,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1500.0,
+      "annual_margin_JPY": -15363366.942867711,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 6000.0,
+      "annual_margin_JPY": -97511698.44964631,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 3050.0,
+      "annual_margin_JPY": -43658903.35075812,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 3500.0,
+      "annual_margin_JPY": -51873736.50143598,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 8000.0,
+      "annual_margin_JPY": -134022068.0082146,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 550.0,
+      "annual_margin_JPY": 1979058.5974522196,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1000.0,
+      "annual_margin_JPY": -6235774.55322564,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 5500.0,
+      "annual_margin_JPY": -88384106.06000425,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 1050.0,
+      "annual_margin_JPY": -7148533.792189848,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1500.0,
+      "annual_margin_JPY": -15363366.942867711,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 6000.0,
+      "annual_margin_JPY": -97511698.44964631,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 3050.0,
+      "annual_margin_JPY": -43658903.35075812,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 3500.0,
+      "annual_margin_JPY": -51873736.50143598,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 8000.0,
+      "annual_margin_JPY": -134022068.0082146,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 550.0,
+      "annual_margin_JPY": 1979058.5974522196,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1000.0,
+      "annual_margin_JPY": -6235774.55322564,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 5500.0,
+      "annual_margin_JPY": -88384106.06000425,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 1050.0,
+      "annual_margin_JPY": -7148533.792189848,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1500.0,
+      "annual_margin_JPY": -15363366.942867711,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 6000.0,
+      "annual_margin_JPY": -97511698.44964631,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 3050.0,
+      "annual_margin_JPY": -43658903.35075812,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 3500.0,
+      "annual_margin_JPY": -51873736.50143598,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 8000.0,
+      "annual_margin_JPY": -134022068.0082146,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 550.0,
+      "annual_margin_JPY": 1979058.5974522196,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1000.0,
+      "annual_margin_JPY": -6235774.55322564,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 5500.0,
+      "annual_margin_JPY": -88384106.06000425,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.03168215355122609
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 1050.0,
+      "annual_margin_JPY": -7148533.792189848,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 1500.0,
+      "annual_margin_JPY": -15363366.942867711,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 6000.0,
+      "annual_margin_JPY": -97511698.44964631,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.06831784644877391
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 50.0,
+      "partial_product_price_JPY_kg": 3050.0,
+      "annual_margin_JPY": -43658903.35075812,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 500.0,
+      "partial_product_price_JPY_kg": 3500.0,
+      "annual_margin_JPY": -51873736.50143598,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "POM_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 5000.0,
+      "partial_product_price_JPY_kg": 8000.0,
+      "annual_margin_JPY": -134022068.0082146,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.4683178464487739
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 757.5757575757576,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 763.6363636363636,
+      "annual_margin_JPY": -1920912.6963039339,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.16362223320238486
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 757.5757575757576,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 818.1818181818182,
+      "annual_margin_JPY": -2916650.047901254,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.16362223320238486
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 757.5757575757576,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1363.6363636363635,
+      "annual_margin_JPY": -12874023.563874412,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.16362223320238486
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1515.1515151515152,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 1521.2121212121212,
+      "annual_margin_JPY": -15750598.135155559,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -1.413622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1515.1515151515152,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 1575.7575757575758,
+      "annual_margin_JPY": -16746335.486752875,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -1.413622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1515.1515151515152,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 2121.212121212121,
+      "annual_margin_JPY": -26703709.002726033,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -1.413622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 4545.454545454545,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 4551.515151515151,
+      "annual_margin_JPY": -71069339.89056201,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -6.413622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 4545.454545454545,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 4606.060606060606,
+      "annual_margin_JPY": -72065077.24215934,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -6.413622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 4545.454545454545,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 5151.515151515151,
+      "annual_margin_JPY": -82022450.75813247,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -6.413622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 525.7575757575756,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 531.8181818181816,
+      "annual_margin_JPY": 2310971.0479846597,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.21887776679761545
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 525.7575757575756,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 586.3636363636363,
+      "annual_margin_JPY": 1315233.696387343,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.21887776679761545
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 525.7575757575756,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1131.8181818181815,
+      "annual_margin_JPY": -8642139.819585819,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.21887776679761545
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1051.5151515151513,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 1057.5757575757573,
+      "annual_margin_JPY": -7286830.646578357,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.6486222332023844
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1051.5151515151513,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 1112.1212121212118,
+      "annual_margin_JPY": -8282567.998175673,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.6486222332023844
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1051.5151515151513,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1657.5757575757573,
+      "annual_margin_JPY": -18239941.51414884,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.6486222332023844
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3154.545454545454,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 3160.60606060606,
+      "annual_margin_JPY": -45678037.42483045,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -4.118622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3154.545454545454,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 3215.1515151515146,
+      "annual_margin_JPY": -46673774.77642776,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -4.118622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3154.545454545454,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 3760.60606060606,
+      "annual_margin_JPY": -56631148.29240093,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -4.118622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 502.57575757575756,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 508.6363636363636,
+      "annual_margin_JPY": 2734159.422413517,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.2571277667976153
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 502.57575757575756,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 563.1818181818181,
+      "annual_margin_JPY": 1738422.0708162002,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.2571277667976153
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 502.57575757575756,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1108.6363636363635,
+      "annual_margin_JPY": -8218951.445156962,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.2571277667976153
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1005.1515151515151,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 1011.2121212121211,
+      "annual_margin_JPY": -6440453.897720642,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.5721222332023848
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1005.1515151515151,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 1065.7575757575758,
+      "annual_margin_JPY": -7436191.249317963,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.5721222332023848
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1005.1515151515151,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1611.212121212121,
+      "annual_margin_JPY": -17393564.765291125,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.5721222332023848
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3015.4545454545455,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 3021.5151515151515,
+      "annual_margin_JPY": -43138907.1782573,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -3.889122233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3015.4545454545455,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 3076.060606060606,
+      "annual_margin_JPY": -44134644.52985461,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -3.889122233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3015.4545454545455,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 3621.5151515151515,
+      "annual_margin_JPY": -54092018.045827776,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -3.889122233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 506.06060606060606,
+      "annual_margin_JPY": 2781180.3529056124,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.2613777667976152
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 560.6060606060606,
+      "annual_margin_JPY": 1785443.0013082959,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.2613777667976152
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1106.060606060606,
+      "annual_margin_JPY": -8171930.514664866,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 0.2613777667976152
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 1006.060606060606,
+      "annual_margin_JPY": -6346412.036736451,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.5636222332023848
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 1060.6060606060605,
+      "annual_margin_JPY": -7342149.388333768,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.5636222332023848
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 1606.060606060606,
+      "annual_margin_JPY": -17299522.904306933,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -0.5636222332023848
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 6.06060606060606,
+      "partial_product_price_JPY_kg": 3006.060606060606,
+      "annual_margin_JPY": -42856781.59530472,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -3.863622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 60.6060606060606,
+      "partial_product_price_JPY_kg": 3060.6060606060605,
+      "annual_margin_JPY": -43852518.946902044,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -3.863622233202385
+    },
+    {
+      "route": "PLA_spray_2014",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 606.060606060606,
+      "partial_product_price_JPY_kg": 3606.060606060606,
+      "annual_margin_JPY": -53809892.4628752,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -3.863622233202385
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 500.4,
+      "annual_margin_JPY": 2884515.7625047117,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 504.0,
+      "annual_margin_JPY": 2818797.097299289,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 540.0,
+      "annual_margin_JPY": 2161610.445245061,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 1000.4,
+      "annual_margin_JPY": -6243076.6271373555,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 1004.0,
+      "annual_margin_JPY": -6308795.292342778,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 1040.0,
+      "annual_margin_JPY": -6965981.944397006,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 3000.4,
+      "annual_margin_JPY": -42753446.185705625,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 3004.0,
+      "annual_margin_JPY": -42819164.85091105,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 3040.0,
+      "annual_margin_JPY": -43476351.50296528,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 500.4,
+      "annual_margin_JPY": 2884515.7625047117,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 504.0,
+      "annual_margin_JPY": 2818797.097299289,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 540.0,
+      "annual_margin_JPY": 2161610.445245061,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 1000.4,
+      "annual_margin_JPY": -6243076.6271373555,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 1004.0,
+      "annual_margin_JPY": -6308795.292342778,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 1040.0,
+      "annual_margin_JPY": -6965981.944397006,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 3000.4,
+      "annual_margin_JPY": -42753446.185705625,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 3004.0,
+      "annual_margin_JPY": -42819164.85091105,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 3040.0,
+      "annual_margin_JPY": -43476351.50296528,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 500.4,
+      "annual_margin_JPY": 2884515.7625047117,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 504.0,
+      "annual_margin_JPY": 2818797.097299289,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 540.0,
+      "annual_margin_JPY": 2161610.445245061,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 1000.4,
+      "annual_margin_JPY": -6243076.6271373555,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 1004.0,
+      "annual_margin_JPY": -6308795.292342778,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 1040.0,
+      "annual_margin_JPY": -6965981.944397006,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 3000.4,
+      "annual_margin_JPY": -42753446.185705625,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 3004.0,
+      "annual_margin_JPY": -42819164.85091105,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 3040.0,
+      "annual_margin_JPY": -43476351.50296528,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 500.4,
+      "annual_margin_JPY": 2884515.7625047117,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 504.0,
+      "annual_margin_JPY": 2818797.097299289,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 540.0,
+      "annual_margin_JPY": 2161610.445245061,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 3.9602691939032613
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 1000.4,
+      "annual_margin_JPY": -6243076.6271373555,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 1004.0,
+      "annual_margin_JPY": -6308795.292342778,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 1040.0,
+      "annual_margin_JPY": -6965981.944397006,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -8.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.39999999999999997,
+      "partial_product_price_JPY_kg": 3000.4,
+      "annual_margin_JPY": -42753446.185705625,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 4.0,
+      "partial_product_price_JPY_kg": 3004.0,
+      "annual_margin_JPY": -42819164.85091105,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE25_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 40.0,
+      "partial_product_price_JPY_kg": 3040.0,
+      "annual_margin_JPY": -43476351.50296528,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -58.53973080609674
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 500.2,
+      "annual_margin_JPY": 2888166.7994605675,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 502.0,
+      "annual_margin_JPY": 2855307.466857858,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 520.0,
+      "annual_margin_JPY": 2526714.140830744,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 1000.2,
+      "annual_margin_JPY": -6239425.590181496,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 1002.0,
+      "annual_margin_JPY": -6272284.922784209,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 1020.0,
+      "annual_margin_JPY": -6600878.248811323,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 3000.2,
+      "annual_margin_JPY": -42749795.14874977,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 3002.0,
+      "annual_margin_JPY": -42782654.48135248,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 3020.0,
+      "annual_margin_JPY": -43111247.807379596,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 500.2,
+      "annual_margin_JPY": 2888166.7994605675,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 502.0,
+      "annual_margin_JPY": 2855307.466857858,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 520.0,
+      "annual_margin_JPY": 2526714.140830744,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 1000.2,
+      "annual_margin_JPY": -6239425.590181496,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 1002.0,
+      "annual_margin_JPY": -6272284.922784209,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 1020.0,
+      "annual_margin_JPY": -6600878.248811323,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 3000.2,
+      "annual_margin_JPY": -42749795.14874977,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 3002.0,
+      "annual_margin_JPY": -42782654.48135248,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 3020.0,
+      "annual_margin_JPY": -43111247.807379596,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 500.2,
+      "annual_margin_JPY": 2888166.7994605675,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 502.0,
+      "annual_margin_JPY": 2855307.466857858,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 520.0,
+      "annual_margin_JPY": 2526714.140830744,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 1000.2,
+      "annual_margin_JPY": -6239425.590181496,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 1002.0,
+      "annual_margin_JPY": -6272284.922784209,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 1020.0,
+      "annual_margin_JPY": -6600878.248811323,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 3000.2,
+      "annual_margin_JPY": -42749795.14874977,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 3002.0,
+      "annual_margin_JPY": -42782654.48135248,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 3020.0,
+      "annual_margin_JPY": -43111247.807379596,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 500.2,
+      "annual_margin_JPY": 2888166.7994605675,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 502.0,
+      "annual_margin_JPY": 2855307.466857858,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 520.0,
+      "annual_margin_JPY": 2526714.140830744,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 7.9205383878065225
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 1000.2,
+      "annual_margin_JPY": -6239425.590181496,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 1002.0,
+      "annual_margin_JPY": -6272284.922784209,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 1020.0,
+      "annual_margin_JPY": -6600878.248811323,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -17.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.19999999999999998,
+      "partial_product_price_JPY_kg": 3000.2,
+      "annual_margin_JPY": -42749795.14874977,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 2.0,
+      "partial_product_price_JPY_kg": 3002.0,
+      "annual_margin_JPY": -42782654.48135248,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE50_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 20.0,
+      "partial_product_price_JPY_kg": 3020.0,
+      "annual_margin_JPY": -43111247.807379596,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -117.07946161219348
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 500.1,
+      "annual_margin_JPY": 2889992.317938499,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 501.0,
+      "annual_margin_JPY": 2873562.6516371407,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 510.0,
+      "annual_margin_JPY": 2709265.9886235856,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 1000.1,
+      "annual_margin_JPY": -6237600.071703568,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 1001.0,
+      "annual_margin_JPY": -6254029.738004923,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 1010.0,
+      "annual_margin_JPY": -6418326.401018482,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 3000.1,
+      "annual_margin_JPY": -42747969.630271845,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 3001.0,
+      "annual_margin_JPY": -42764399.2965732,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 3010.0,
+      "annual_margin_JPY": -42928695.959586754,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 500.1,
+      "annual_margin_JPY": 2889992.317938499,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 501.0,
+      "annual_margin_JPY": 2873562.6516371407,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 510.0,
+      "annual_margin_JPY": 2709265.9886235856,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 1000.1,
+      "annual_margin_JPY": -6237600.071703568,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 1001.0,
+      "annual_margin_JPY": -6254029.738004923,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 1010.0,
+      "annual_margin_JPY": -6418326.401018482,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 3000.1,
+      "annual_margin_JPY": -42747969.630271845,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 3001.0,
+      "annual_margin_JPY": -42764399.2965732,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.9,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 3010.0,
+      "annual_margin_JPY": -42928695.959586754,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 500.1,
+      "annual_margin_JPY": 2889992.317938499,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 501.0,
+      "annual_margin_JPY": 2873562.6516371407,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 510.0,
+      "annual_margin_JPY": 2709265.9886235856,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 1000.1,
+      "annual_margin_JPY": -6237600.071703568,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 1001.0,
+      "annual_margin_JPY": -6254029.738004923,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 1010.0,
+      "annual_margin_JPY": -6418326.401018482,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 3000.1,
+      "annual_margin_JPY": -42747969.630271845,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 3001.0,
+      "annual_margin_JPY": -42764399.2965732,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 0.99,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 3010.0,
+      "annual_margin_JPY": -42928695.959586754,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 500.1,
+      "annual_margin_JPY": 2889992.317938499,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 501.0,
+      "annual_margin_JPY": 2873562.6516371407,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 500,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 500.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 510.0,
+      "annual_margin_JPY": 2709265.9886235856,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": 15.841076775613045
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 1000.1,
+      "annual_margin_JPY": -6237600.071703568,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 1001.0,
+      "annual_margin_JPY": -6254029.738004923,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 1000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 1000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 1010.0,
+      "annual_margin_JPY": -6418326.401018482,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -34.15892322438696
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.01,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 0.09999999999999999,
+      "partial_product_price_JPY_kg": 3000.1,
+      "annual_margin_JPY": -42747969.630271845,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 0.1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 1.0,
+      "partial_product_price_JPY_kg": 3001.0,
+      "annual_margin_JPY": -42764399.2965732,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    },
+    {
+      "route": "DBE100_reference",
+      "reject_recovery_fraction": 1,
+      "raw_polymer_JPY_kg": 3000,
+      "liquid_processing_JPY_L": 1,
+      "virgin_feed_cost_JPY_kg_product": 3000.0,
+      "liquid_processing_cost_JPY_kg_product": 10.0,
+      "partial_product_price_JPY_kg": 3010.0,
+      "annual_margin_JPY": -42928695.959586754,
+      "maximum_liquid_processing_JPY_L_excluding_all_other_cost": -234.15892322438697
+    }
+  ],
+  "minority_material_costs": [
+    {
+      "fraction": 0.01,
+      "phase_mass_kg": 1080.0,
+      "phase_JPY_kg": 1000,
+      "composite_JPY_kg": 505.0,
+      "annual_added_material_JPY": 91275.92389642067,
+      "remaining_annual_JPY": 2800541.9125200063
+    },
+    {
+      "fraction": 0.01,
+      "phase_mass_kg": 1080.0,
+      "phase_JPY_kg": 3000,
+      "composite_JPY_kg": 525.0,
+      "annual_added_material_JPY": 456379.6194821034,
+      "remaining_annual_JPY": 2435438.216934324
+    },
+    {
+      "fraction": 0.01,
+      "phase_mass_kg": 1080.0,
+      "phase_JPY_kg": 10000,
+      "composite_JPY_kg": 595.0,
+      "annual_added_material_JPY": 1734242.5540319928,
+      "remaining_annual_JPY": 1157575.2823844342
+    },
+    {
+      "fraction": 0.05,
+      "phase_mass_kg": 5400.0,
+      "phase_JPY_kg": 1000,
+      "composite_JPY_kg": 525.0,
+      "annual_added_material_JPY": 456379.6194821034,
+      "remaining_annual_JPY": 2435438.216934324
+    },
+    {
+      "fraction": 0.05,
+      "phase_mass_kg": 5400.0,
+      "phase_JPY_kg": 3000,
+      "composite_JPY_kg": 625.0,
+      "annual_added_material_JPY": 2281898.097410517,
+      "remaining_annual_JPY": 609919.7390059102
+    },
+    {
+      "fraction": 0.05,
+      "phase_mass_kg": 5400.0,
+      "phase_JPY_kg": 10000,
+      "composite_JPY_kg": 975.0,
+      "annual_added_material_JPY": 8671212.770159964,
+      "remaining_annual_JPY": -5779394.9337435365
+    },
+    {
+      "fraction": 0.1,
+      "phase_mass_kg": 10800.0,
+      "phase_JPY_kg": 1000,
+      "composite_JPY_kg": 550.0,
+      "annual_added_material_JPY": 912759.2389642068,
+      "remaining_annual_JPY": 1979058.5974522203
+    },
+    {
+      "fraction": 0.1,
+      "phase_mass_kg": 10800.0,
+      "phase_JPY_kg": 3000,
+      "composite_JPY_kg": 750.0,
+      "annual_added_material_JPY": 4563796.194821034,
+      "remaining_annual_JPY": -1671978.3584046066
+    },
+    {
+      "fraction": 0.1,
+      "phase_mass_kg": 10800.0,
+      "phase_JPY_kg": 10000,
+      "composite_JPY_kg": 1450.0,
+      "annual_added_material_JPY": 17342425.540319927,
+      "remaining_annual_JPY": -14450607.7039035
+    }
+  ],
+  "minority_fraction_ceilings": [
+    {
+      "phase_JPY_kg": 1000,
+      "maximum_fraction_excluding_processing": 0.3168215355122609
+    },
+    {
+      "phase_JPY_kg": 3000,
+      "maximum_fraction_excluding_processing": 0.06336430710245218
+    },
+    {
+      "phase_JPY_kg": 10000,
+      "maximum_fraction_excluding_processing": 0.016674817658540047
+    }
+  ],
+  "thermal_regeneration_cases": [
+    {
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "processed_kg": 108.0,
+      "full_sensible_plus_latent_kWh": 8.94,
+      "input_energy_kWh": 14.9,
+      "minimum_average_input_kW": 14.9,
+      "electricity_JPY_per_closure": 447.0,
+      "annual_electricity_JPY": 107280.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": 2784537.836416427,
+      "maximum_processed_fraction_for_energy_only": 0.02695579638717773
+    },
+    {
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "processed_kg": 108.0,
+      "full_sensible_plus_latent_kWh": 8.94,
+      "input_energy_kWh": 7.7,
+      "minimum_average_input_kW": 7.7,
+      "electricity_JPY_per_closure": 231.0,
+      "annual_electricity_JPY": 55440.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": 2836377.836416427,
+      "maximum_processed_fraction_for_energy_only": 0.05216121638557769
+    },
+    {
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "processed_kg": 108.0,
+      "full_sensible_plus_latent_kWh": 8.94,
+      "input_energy_kWh": 3.3799999999999994,
+      "minimum_average_input_kW": 3.3799999999999994,
+      "electricity_JPY_per_closure": 101.39999999999998,
+      "annual_electricity_JPY": 24335.999999999993,
+      "annual_remaining_before_extra_material_and_capital_JPY": 2867481.836416427,
+      "maximum_processed_fraction_for_energy_only": 0.11882880655886044
+    },
+    {
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "processed_kg": 1080.0,
+      "full_sensible_plus_latent_kWh": 89.4,
+      "input_energy_kWh": 149.0,
+      "minimum_average_input_kW": 149.0,
+      "electricity_JPY_per_closure": 4470.0,
+      "annual_electricity_JPY": 1072800.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": 1819017.836416427,
+      "maximum_processed_fraction_for_energy_only": 0.02695579638717773
+    },
+    {
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "processed_kg": 1080.0,
+      "full_sensible_plus_latent_kWh": 89.4,
+      "input_energy_kWh": 77.0,
+      "minimum_average_input_kW": 77.0,
+      "electricity_JPY_per_closure": 2310.0,
+      "annual_electricity_JPY": 554400.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": 2337417.836416427,
+      "maximum_processed_fraction_for_energy_only": 0.05216121638557769
+    },
+    {
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "processed_kg": 1080.0,
+      "full_sensible_plus_latent_kWh": 89.4,
+      "input_energy_kWh": 33.8,
+      "minimum_average_input_kW": 33.8,
+      "electricity_JPY_per_closure": 1013.9999999999999,
+      "annual_electricity_JPY": 243359.99999999997,
+      "annual_remaining_before_extra_material_and_capital_JPY": 2648457.836416427,
+      "maximum_processed_fraction_for_energy_only": 0.11882880655886044
+    },
+    {
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "processed_kg": 5400.0,
+      "full_sensible_plus_latent_kWh": 447.0,
+      "input_energy_kWh": 745.0,
+      "minimum_average_input_kW": 745.0,
+      "electricity_JPY_per_closure": 22350.0,
+      "annual_electricity_JPY": 5364000.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": -2472182.163583573,
+      "maximum_processed_fraction_for_energy_only": 0.02695579638717773
+    },
+    {
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "processed_kg": 5400.0,
+      "full_sensible_plus_latent_kWh": 447.0,
+      "input_energy_kWh": 385.0,
+      "minimum_average_input_kW": 385.0,
+      "electricity_JPY_per_closure": 11550.0,
+      "annual_electricity_JPY": 2772000.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": 119817.83641642705,
+      "maximum_processed_fraction_for_energy_only": 0.05216121638557769
+    },
+    {
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "processed_kg": 5400.0,
+      "full_sensible_plus_latent_kWh": 447.0,
+      "input_energy_kWh": 168.99999999999997,
+      "minimum_average_input_kW": 168.99999999999997,
+      "electricity_JPY_per_closure": 5069.999999999999,
+      "annual_electricity_JPY": 1216799.9999999998,
+      "annual_remaining_before_extra_material_and_capital_JPY": 1675017.8364164273,
+      "maximum_processed_fraction_for_energy_only": 0.11882880655886044
+    },
+    {
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "processed_kg": 108000.0,
+      "full_sensible_plus_latent_kWh": 8940.0,
+      "input_energy_kWh": 14900.0,
+      "minimum_average_input_kW": 14900.0,
+      "electricity_JPY_per_closure": 447000.0,
+      "annual_electricity_JPY": 107280000.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": -104388182.16358358,
+      "maximum_processed_fraction_for_energy_only": 0.02695579638717773
+    },
+    {
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "processed_kg": 108000.0,
+      "full_sensible_plus_latent_kWh": 8940.0,
+      "input_energy_kWh": 7700.0,
+      "minimum_average_input_kW": 7700.0,
+      "electricity_JPY_per_closure": 231000.0,
+      "annual_electricity_JPY": 55440000.0,
+      "annual_remaining_before_extra_material_and_capital_JPY": -52548182.16358358,
+      "maximum_processed_fraction_for_energy_only": 0.05216121638557769
+    },
+    {
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "processed_kg": 108000.0,
+      "full_sensible_plus_latent_kWh": 8940.0,
+      "input_energy_kWh": 3379.9999999999995,
+      "minimum_average_input_kW": 3379.9999999999995,
+      "electricity_JPY_per_closure": 101399.99999999999,
+      "annual_electricity_JPY": 24335999.999999996,
+      "annual_remaining_before_extra_material_and_capital_JPY": -21444182.16358357,
+      "maximum_processed_fraction_for_energy_only": 0.11882880655886044
+    }
+  ],
+  "diffusion_diagnostics": [
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.002,
+      "Fourier_number": 5.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.002,
+      "Fourier_number": 50.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.05,
+      "time_s": 1,
+      "diffusion_time_s": 0.002,
+      "Fourier_number": 500.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.05,
+      "time_s": 60,
+      "diffusion_time_s": 0.002,
+      "Fourier_number": 30000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.05,
+      "time_s": 300,
+      "diffusion_time_s": 0.002,
+      "Fourier_number": 150000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.001,
+      "Fourier_number": 10.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.001,
+      "Fourier_number": 100.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.1,
+      "time_s": 1,
+      "diffusion_time_s": 0.001,
+      "Fourier_number": 1000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.1,
+      "time_s": 60,
+      "diffusion_time_s": 0.001,
+      "Fourier_number": 60000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.1,
+      "time_s": 300,
+      "diffusion_time_s": 0.001,
+      "Fourier_number": 300000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.0005,
+      "Fourier_number": 20.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.0005,
+      "Fourier_number": 200.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.2,
+      "time_s": 1,
+      "diffusion_time_s": 0.0005,
+      "Fourier_number": 2000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.2,
+      "time_s": 60,
+      "diffusion_time_s": 0.0005,
+      "Fourier_number": 120000.0
+    },
+    {
+      "path_um": 10,
+      "alpha_mm2_s": 0.2,
+      "time_s": 300,
+      "diffusion_time_s": 0.0005,
+      "Fourier_number": 600000.0
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.018,
+      "Fourier_number": 0.5555555555555556
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.018,
+      "Fourier_number": 5.555555555555556
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.05,
+      "time_s": 1,
+      "diffusion_time_s": 0.018,
+      "Fourier_number": 55.55555555555556
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.05,
+      "time_s": 60,
+      "diffusion_time_s": 0.018,
+      "Fourier_number": 3333.3333333333335
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.05,
+      "time_s": 300,
+      "diffusion_time_s": 0.018,
+      "Fourier_number": 16666.666666666668
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.009,
+      "Fourier_number": 1.1111111111111112
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.009,
+      "Fourier_number": 11.111111111111112
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.1,
+      "time_s": 1,
+      "diffusion_time_s": 0.009,
+      "Fourier_number": 111.11111111111111
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.1,
+      "time_s": 60,
+      "diffusion_time_s": 0.009,
+      "Fourier_number": 6666.666666666667
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.1,
+      "time_s": 300,
+      "diffusion_time_s": 0.009,
+      "Fourier_number": 33333.333333333336
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.0045,
+      "Fourier_number": 2.2222222222222223
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.0045,
+      "Fourier_number": 22.222222222222225
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.2,
+      "time_s": 1,
+      "diffusion_time_s": 0.0045,
+      "Fourier_number": 222.22222222222223
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.2,
+      "time_s": 60,
+      "diffusion_time_s": 0.0045,
+      "Fourier_number": 13333.333333333334
+    },
+    {
+      "path_um": 30,
+      "alpha_mm2_s": 0.2,
+      "time_s": 300,
+      "diffusion_time_s": 0.0045,
+      "Fourier_number": 66666.66666666667
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.20000000000000004,
+      "Fourier_number": 0.04999999999999999
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.20000000000000004,
+      "Fourier_number": 0.49999999999999994
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.05,
+      "time_s": 1,
+      "diffusion_time_s": 0.20000000000000004,
+      "Fourier_number": 4.999999999999999
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.05,
+      "time_s": 60,
+      "diffusion_time_s": 0.20000000000000004,
+      "Fourier_number": 299.99999999999994
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.05,
+      "time_s": 300,
+      "diffusion_time_s": 0.20000000000000004,
+      "Fourier_number": 1499.9999999999998
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.10000000000000002,
+      "Fourier_number": 0.09999999999999998
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.10000000000000002,
+      "Fourier_number": 0.9999999999999999
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.1,
+      "time_s": 1,
+      "diffusion_time_s": 0.10000000000000002,
+      "Fourier_number": 9.999999999999998
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.1,
+      "time_s": 60,
+      "diffusion_time_s": 0.10000000000000002,
+      "Fourier_number": 599.9999999999999
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.1,
+      "time_s": 300,
+      "diffusion_time_s": 0.10000000000000002,
+      "Fourier_number": 2999.9999999999995
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.05000000000000001,
+      "Fourier_number": 0.19999999999999996
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.05000000000000001,
+      "Fourier_number": 1.9999999999999998
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.2,
+      "time_s": 1,
+      "diffusion_time_s": 0.05000000000000001,
+      "Fourier_number": 19.999999999999996
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.2,
+      "time_s": 60,
+      "diffusion_time_s": 0.05000000000000001,
+      "Fourier_number": 1199.9999999999998
+    },
+    {
+      "path_um": 100,
+      "alpha_mm2_s": 0.2,
+      "time_s": 300,
+      "diffusion_time_s": 0.05000000000000001,
+      "Fourier_number": 5999.999999999999
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.01,
+      "diffusion_time_s": 1.25,
+      "Fourier_number": 0.008
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.05,
+      "time_s": 0.1,
+      "diffusion_time_s": 1.25,
+      "Fourier_number": 0.08
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.05,
+      "time_s": 1,
+      "diffusion_time_s": 1.25,
+      "Fourier_number": 0.8
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.05,
+      "time_s": 60,
+      "diffusion_time_s": 1.25,
+      "Fourier_number": 48.0
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.05,
+      "time_s": 300,
+      "diffusion_time_s": 1.25,
+      "Fourier_number": 240.0
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.625,
+      "Fourier_number": 0.016
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.1,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.625,
+      "Fourier_number": 0.16
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.1,
+      "time_s": 1,
+      "diffusion_time_s": 0.625,
+      "Fourier_number": 1.6
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.1,
+      "time_s": 60,
+      "diffusion_time_s": 0.625,
+      "Fourier_number": 96.0
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.1,
+      "time_s": 300,
+      "diffusion_time_s": 0.625,
+      "Fourier_number": 480.0
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.01,
+      "diffusion_time_s": 0.3125,
+      "Fourier_number": 0.032
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.2,
+      "time_s": 0.1,
+      "diffusion_time_s": 0.3125,
+      "Fourier_number": 0.32
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.2,
+      "time_s": 1,
+      "diffusion_time_s": 0.3125,
+      "Fourier_number": 3.2
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.2,
+      "time_s": 60,
+      "diffusion_time_s": 0.3125,
+      "Fourier_number": 192.0
+    },
+    {
+      "path_um": 250,
+      "alpha_mm2_s": 0.2,
+      "time_s": 300,
+      "diffusion_time_s": 0.3125,
+      "Fourier_number": 960.0
+    }
+  ],
+  "phase_drift_cases": [
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 0,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 1,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 5,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 10,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 20,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 50,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 100,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0,
+      "heatings": 240,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 0,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 1,
+      "low_fraction": 0.099,
+      "high_fraction": 0.901
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 5,
+      "low_fraction": 0.09509900499,
+      "high_fraction": 0.90490099501
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 10,
+      "low_fraction": 0.09043820750088044,
+      "high_fraction": 0.9095617924991195
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 20,
+      "low_fraction": 0.08179069375972309,
+      "high_fraction": 0.918209306240277
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 50,
+      "low_fraction": 0.06050060671375364,
+      "high_fraction": 0.9394993932862463
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 100,
+      "low_fraction": 0.03660323412732292,
+      "high_fraction": 0.9633967658726771
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "heatings": 240,
+      "low_fraction": 0.008962861870232463,
+      "high_fraction": 0.9910371381297676
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 0,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 1,
+      "low_fraction": 0.095,
+      "high_fraction": 0.905
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 5,
+      "low_fraction": 0.07737809374999999,
+      "high_fraction": 0.9226219062500001
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 10,
+      "low_fraction": 0.05987369392383787,
+      "high_fraction": 0.9401263060761621
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 20,
+      "low_fraction": 0.03584859224085419,
+      "high_fraction": 0.9641514077591458
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 50,
+      "low_fraction": 0.007694497527671315,
+      "high_fraction": 0.9923055024723287
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 100,
+      "low_fraction": 0.0005920529220333997,
+      "high_fraction": 0.9994079470779667
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "heatings": 240,
+      "low_fraction": 4.50469373299378e-07,
+      "high_fraction": 0.9999995495306268
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 0,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 1,
+      "low_fraction": 0.09000000000000001,
+      "high_fraction": 0.91
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 5,
+      "low_fraction": 0.05904900000000001,
+      "high_fraction": 0.940951
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 10,
+      "low_fraction": 0.03486784401000001,
+      "high_fraction": 0.96513215599
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 20,
+      "low_fraction": 0.012157665459056936,
+      "high_fraction": 0.9878423345409431
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 50,
+      "low_fraction": 0.000515377520732012,
+      "high_fraction": 0.999484622479268
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 100,
+      "low_fraction": 2.6561398887587545e-06,
+      "high_fraction": 0.9999973438601112
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "heatings": 240,
+      "low_fraction": 1.042802984475958e-12,
+      "high_fraction": 0.9999999999989572
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 0,
+      "low_fraction": 0.1,
+      "high_fraction": 0.9
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 1,
+      "low_fraction": 0.08000000000000002,
+      "high_fraction": 0.9199999999999999
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 5,
+      "low_fraction": 0.03276800000000001,
+      "high_fraction": 0.967232
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 10,
+      "low_fraction": 0.010737418240000006,
+      "high_fraction": 0.98926258176
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 20,
+      "low_fraction": 0.0011529215046068484,
+      "high_fraction": 0.9988470784953931
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 50,
+      "low_fraction": 1.427247692705964e-06,
+      "high_fraction": 0.9999985727523073
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 100,
+      "low_fraction": 2.0370359763344975e-11,
+      "high_fraction": 0.9999999999796296
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "heatings": 240,
+      "low_fraction": 5.515652263102061e-25,
+      "high_fraction": 1.0
+    }
+  ],
+  "phase_drift_limits": [
+    {
+      "conversion_fraction_per_heating": 0,
+      "last_heating_at_or_above_minimum": null,
+      "first_below_minimum": null
+    },
+    {
+      "conversion_fraction_per_heating": 0.01,
+      "last_heating_at_or_above_minimum": 68,
+      "first_below_minimum": 69
+    },
+    {
+      "conversion_fraction_per_heating": 0.05,
+      "last_heating_at_or_above_minimum": 13,
+      "first_below_minimum": 14
+    },
+    {
+      "conversion_fraction_per_heating": 0.1,
+      "last_heating_at_or_above_minimum": 6,
+      "first_below_minimum": 7
+    },
+    {
+      "conversion_fraction_per_heating": 0.2,
+      "last_heating_at_or_above_minimum": 3,
+      "first_below_minimum": 4
+    }
+  ],
+  "joint_material_energy_cases": [
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19.35,
+      "annual_electricity_JPY": 139320.0,
+      "annual_remaining_JPY": 2661221.9125200063
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 12.15,
+      "annual_electricity_JPY": 87480.0,
+      "annual_remaining_JPY": 2713061.9125200063
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.83,
+      "annual_electricity_JPY": 56376.0,
+      "annual_remaining_JPY": 2744165.9125200063
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 193.5,
+      "annual_electricity_JPY": 1393200.0,
+      "annual_remaining_JPY": 1407341.9125200063
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 121.5,
+      "annual_electricity_JPY": 874800.0,
+      "annual_remaining_JPY": 1925741.9125200063
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 78.3,
+      "annual_electricity_JPY": 563760.0,
+      "annual_remaining_JPY": 2236781.9125200063
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 967.5,
+      "annual_electricity_JPY": 6966000.0,
+      "annual_remaining_JPY": -4165458.0874799937
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 607.5,
+      "annual_electricity_JPY": 4374000.0,
+      "annual_remaining_JPY": -1573458.0874799937
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 391.5,
+      "annual_electricity_JPY": 2818800.0,
+      "annual_remaining_JPY": -18258.0874799937
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19350.0,
+      "annual_electricity_JPY": 139320000.0,
+      "annual_remaining_JPY": -136519458.08748
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 12150.0,
+      "annual_electricity_JPY": 87480000.0,
+      "annual_remaining_JPY": -84679458.08748
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7830.0,
+      "annual_electricity_JPY": 56376000.0,
+      "annual_remaining_JPY": -53575458.08747999
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19.35,
+      "annual_electricity_JPY": 139320.0,
+      "annual_remaining_JPY": 2296118.216934324
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 12.15,
+      "annual_electricity_JPY": 87480.0,
+      "annual_remaining_JPY": 2347958.216934324
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.83,
+      "annual_electricity_JPY": 56376.0,
+      "annual_remaining_JPY": 2379062.216934324
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 193.5,
+      "annual_electricity_JPY": 1393200.0,
+      "annual_remaining_JPY": 1042238.2169343238
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 121.5,
+      "annual_electricity_JPY": 874800.0,
+      "annual_remaining_JPY": 1560638.2169343238
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 78.3,
+      "annual_electricity_JPY": 563760.0,
+      "annual_remaining_JPY": 1871678.2169343238
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 967.5,
+      "annual_electricity_JPY": 6966000.0,
+      "annual_remaining_JPY": -4530561.783065677
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 607.5,
+      "annual_electricity_JPY": 4374000.0,
+      "annual_remaining_JPY": -1938561.7830656762
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 391.5,
+      "annual_electricity_JPY": 2818800.0,
+      "annual_remaining_JPY": -383361.7830656762
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19350.0,
+      "annual_electricity_JPY": 139320000.0,
+      "annual_remaining_JPY": -136884561.78306568
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 12150.0,
+      "annual_electricity_JPY": 87480000.0,
+      "annual_remaining_JPY": -85044561.78306568
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7830.0,
+      "annual_electricity_JPY": 56376000.0,
+      "annual_remaining_JPY": -53940561.78306568
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19.35,
+      "annual_electricity_JPY": 139320.0,
+      "annual_remaining_JPY": 1018255.2823844342
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 12.15,
+      "annual_electricity_JPY": 87480.0,
+      "annual_remaining_JPY": 1070095.2823844342
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.83,
+      "annual_electricity_JPY": 56376.0,
+      "annual_remaining_JPY": 1101199.2823844342
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 193.5,
+      "annual_electricity_JPY": 1393200.0,
+      "annual_remaining_JPY": -235624.71761556575
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 121.5,
+      "annual_electricity_JPY": 874800.0,
+      "annual_remaining_JPY": 282775.28238443425
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 78.3,
+      "annual_electricity_JPY": 563760.0,
+      "annual_remaining_JPY": 593815.2823844342
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 967.5,
+      "annual_electricity_JPY": 6966000.0,
+      "annual_remaining_JPY": -5808424.717615565
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 607.5,
+      "annual_electricity_JPY": 4374000.0,
+      "annual_remaining_JPY": -3216424.7176155658
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 391.5,
+      "annual_electricity_JPY": 2818800.0,
+      "annual_remaining_JPY": -1661224.7176155658
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19350.0,
+      "annual_electricity_JPY": 139320000.0,
+      "annual_remaining_JPY": -138162424.71761557
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 12150.0,
+      "annual_electricity_JPY": 87480000.0,
+      "annual_remaining_JPY": -86322424.71761556
+    },
+    {
+      "phase_fraction": 0.01,
+      "low_melting_host_fraction": 0.99,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7830.0,
+      "annual_electricity_JPY": 56376000.0,
+      "annual_remaining_JPY": -55218424.71761557
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19.15,
+      "annual_electricity_JPY": 137880.0,
+      "annual_remaining_JPY": 2297558.216934324
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11.95,
+      "annual_electricity_JPY": 86040.0,
+      "annual_remaining_JPY": 2349398.216934324
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.63,
+      "annual_electricity_JPY": 54936.0,
+      "annual_remaining_JPY": 2380502.216934324
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 191.5,
+      "annual_electricity_JPY": 1378800.0,
+      "annual_remaining_JPY": 1056638.2169343238
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 119.5,
+      "annual_electricity_JPY": 860400.0,
+      "annual_remaining_JPY": 1575038.2169343238
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 76.3,
+      "annual_electricity_JPY": 549360.0,
+      "annual_remaining_JPY": 1886078.2169343238
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 957.5,
+      "annual_electricity_JPY": 6894000.0,
+      "annual_remaining_JPY": -4458561.783065677
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 597.5,
+      "annual_electricity_JPY": 4302000.0,
+      "annual_remaining_JPY": -1866561.7830656762
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 381.5,
+      "annual_electricity_JPY": 2746800.0,
+      "annual_remaining_JPY": -311361.7830656762
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19150.0,
+      "annual_electricity_JPY": 137880000.0,
+      "annual_remaining_JPY": -135444561.78306568
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11950.0,
+      "annual_electricity_JPY": 86040000.0,
+      "annual_remaining_JPY": -83604561.78306568
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7630.0,
+      "annual_electricity_JPY": 54936000.0,
+      "annual_remaining_JPY": -52500561.78306568
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19.15,
+      "annual_electricity_JPY": 137880.0,
+      "annual_remaining_JPY": 472039.73900591023
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11.95,
+      "annual_electricity_JPY": 86040.0,
+      "annual_remaining_JPY": 523879.73900591023
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.63,
+      "annual_electricity_JPY": 54936.0,
+      "annual_remaining_JPY": 554983.7390059102
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 191.5,
+      "annual_electricity_JPY": 1378800.0,
+      "annual_remaining_JPY": -768880.2609940898
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 119.5,
+      "annual_electricity_JPY": 860400.0,
+      "annual_remaining_JPY": -250480.26099408977
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 76.3,
+      "annual_electricity_JPY": 549360.0,
+      "annual_remaining_JPY": 60559.73900591023
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 957.5,
+      "annual_electricity_JPY": 6894000.0,
+      "annual_remaining_JPY": -6284080.26099409
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 597.5,
+      "annual_electricity_JPY": 4302000.0,
+      "annual_remaining_JPY": -3692080.26099409
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 381.5,
+      "annual_electricity_JPY": 2746800.0,
+      "annual_remaining_JPY": -2136880.26099409
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19150.0,
+      "annual_electricity_JPY": 137880000.0,
+      "annual_remaining_JPY": -137270080.26099408
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11950.0,
+      "annual_electricity_JPY": 86040000.0,
+      "annual_remaining_JPY": -85430080.26099409
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7630.0,
+      "annual_electricity_JPY": 54936000.0,
+      "annual_remaining_JPY": -54326080.26099409
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19.15,
+      "annual_electricity_JPY": 137880.0,
+      "annual_remaining_JPY": -5917274.9337435365
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11.95,
+      "annual_electricity_JPY": 86040.0,
+      "annual_remaining_JPY": -5865434.9337435365
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.63,
+      "annual_electricity_JPY": 54936.0,
+      "annual_remaining_JPY": -5834330.9337435365
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 191.5,
+      "annual_electricity_JPY": 1378800.0,
+      "annual_remaining_JPY": -7158194.9337435365
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 119.5,
+      "annual_electricity_JPY": 860400.0,
+      "annual_remaining_JPY": -6639794.9337435365
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 76.3,
+      "annual_electricity_JPY": 549360.0,
+      "annual_remaining_JPY": -6328754.9337435365
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 957.5,
+      "annual_electricity_JPY": 6894000.0,
+      "annual_remaining_JPY": -12673394.933743536
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 597.5,
+      "annual_electricity_JPY": 4302000.0,
+      "annual_remaining_JPY": -10081394.933743536
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 381.5,
+      "annual_electricity_JPY": 2746800.0,
+      "annual_remaining_JPY": -8526194.933743536
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 19150.0,
+      "annual_electricity_JPY": 137880000.0,
+      "annual_remaining_JPY": -143659394.93374354
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11950.0,
+      "annual_electricity_JPY": 86040000.0,
+      "annual_remaining_JPY": -91819394.93374354
+    },
+    {
+      "phase_fraction": 0.05,
+      "low_melting_host_fraction": 0.95,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7630.0,
+      "annual_electricity_JPY": 54936000.0,
+      "annual_remaining_JPY": -60715394.93374354
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 18.9,
+      "annual_electricity_JPY": 136080.0,
+      "annual_remaining_JPY": 1842978.5974522203
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11.7,
+      "annual_electricity_JPY": 84240.0,
+      "annual_remaining_JPY": 1894818.5974522203
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.38,
+      "annual_electricity_JPY": 53136.0,
+      "annual_remaining_JPY": 1925922.5974522203
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 189.0,
+      "annual_electricity_JPY": 1360800.0,
+      "annual_remaining_JPY": 618258.5974522203
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 117.0,
+      "annual_electricity_JPY": 842400.0,
+      "annual_remaining_JPY": 1136658.5974522203
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 73.8,
+      "annual_electricity_JPY": 531360.0,
+      "annual_remaining_JPY": 1447698.5974522203
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 945.0,
+      "annual_electricity_JPY": 6804000.0,
+      "annual_remaining_JPY": -4824941.4025477795
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 585.0,
+      "annual_electricity_JPY": 4212000.0,
+      "annual_remaining_JPY": -2232941.4025477795
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 369.0,
+      "annual_electricity_JPY": 2656800.0,
+      "annual_remaining_JPY": -677741.4025477797
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 18900.0,
+      "annual_electricity_JPY": 136080000.0,
+      "annual_remaining_JPY": -134100941.40254778
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11700.0,
+      "annual_electricity_JPY": 84240000.0,
+      "annual_remaining_JPY": -82260941.40254778
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 1000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7380.0,
+      "annual_electricity_JPY": 53136000.0,
+      "annual_remaining_JPY": -51156941.40254778
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 18.9,
+      "annual_electricity_JPY": 136080.0,
+      "annual_remaining_JPY": -1808058.3584046066
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11.7,
+      "annual_electricity_JPY": 84240.0,
+      "annual_remaining_JPY": -1756218.3584046066
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.38,
+      "annual_electricity_JPY": 53136.0,
+      "annual_remaining_JPY": -1725114.3584046066
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 189.0,
+      "annual_electricity_JPY": 1360800.0,
+      "annual_remaining_JPY": -3032778.3584046066
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 117.0,
+      "annual_electricity_JPY": 842400.0,
+      "annual_remaining_JPY": -2514378.3584046066
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 73.8,
+      "annual_electricity_JPY": 531360.0,
+      "annual_remaining_JPY": -2203338.3584046066
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 945.0,
+      "annual_electricity_JPY": 6804000.0,
+      "annual_remaining_JPY": -8475978.358404607
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 585.0,
+      "annual_electricity_JPY": 4212000.0,
+      "annual_remaining_JPY": -5883978.358404607
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 369.0,
+      "annual_electricity_JPY": 2656800.0,
+      "annual_remaining_JPY": -4328778.358404607
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 18900.0,
+      "annual_electricity_JPY": 136080000.0,
+      "annual_remaining_JPY": -137751978.3584046
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11700.0,
+      "annual_electricity_JPY": 84240000.0,
+      "annual_remaining_JPY": -85911978.3584046
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 3000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7380.0,
+      "annual_electricity_JPY": 53136000.0,
+      "annual_remaining_JPY": -54807978.35840461
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 18.9,
+      "annual_electricity_JPY": 136080.0,
+      "annual_remaining_JPY": -14586687.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11.7,
+      "annual_electricity_JPY": 84240.0,
+      "annual_remaining_JPY": -14534847.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.001,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7.38,
+      "annual_electricity_JPY": 53136.0,
+      "annual_remaining_JPY": -14503743.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 189.0,
+      "annual_electricity_JPY": 1360800.0,
+      "annual_remaining_JPY": -15811407.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 117.0,
+      "annual_electricity_JPY": 842400.0,
+      "annual_remaining_JPY": -15293007.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.01,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 73.8,
+      "annual_electricity_JPY": 531360.0,
+      "annual_remaining_JPY": -14981967.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 945.0,
+      "annual_electricity_JPY": 6804000.0,
+      "annual_remaining_JPY": -21254607.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 585.0,
+      "annual_electricity_JPY": 4212000.0,
+      "annual_remaining_JPY": -18662607.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 0.05,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 369.0,
+      "annual_electricity_JPY": 2656800.0,
+      "annual_remaining_JPY": -17107407.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0,
+      "input_energy_kWh": 18900.0,
+      "annual_electricity_JPY": 136080000.0,
+      "annual_remaining_JPY": -150530607.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.5,
+      "input_energy_kWh": 11700.0,
+      "annual_electricity_JPY": 84240000.0,
+      "annual_remaining_JPY": -98690607.7039035
+    },
+    {
+      "phase_fraction": 0.1,
+      "low_melting_host_fraction": 0.9,
+      "phase_JPY_kg": 10000,
+      "processed_fraction": 1,
+      "sensible_recovery_fraction": 0.8,
+      "input_energy_kWh": 7380.0,
+      "annual_electricity_JPY": 53136000.0,
+      "annual_remaining_JPY": -67586607.7039035
+    }
+  ]
+}
