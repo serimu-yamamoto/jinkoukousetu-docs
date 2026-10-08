@@ -1,0 +1,27 @@
+{
+  "date_jst": "2026-10-09",
+  "github_repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "1edec66819a4de455d6865b3e3c2f3a61460b01d",
+  "claude_updates_after_base": 0,
+  "claude_acknowledgement": null,
+  "source_access": [
+    {
+      "id": "S1",
+      "doi": "10.3390/sym17010134",
+      "access": "full text supplied by web PDF extraction; direct PDF bytes and page screenshots unavailable",
+      "experiment_force_validation_in_paper": false
+    },
+    {
+      "id": "S2",
+      "doi": "10.3390/jmmp10090327",
+      "access": "author university abstract and publication metadata; PDF fetch 403"
+    },
+    {
+      "id": "S3",
+      "doi": "10.1007/s12221-021-0113-z",
+      "access": "publisher abstract; subscription full text not purchased"
+    }
+  ],
+  "physical_tests": 0,
+  "success_probability": null
+}

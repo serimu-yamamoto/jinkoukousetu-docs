@@ -1,0 +1,171 @@
+{
+  "scope": "algebra and bookkeeping only",
+  "physical_tests": 0,
+  "checks": [
+    {
+      "name": "origin_has_zero_energy_and_force",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "ten_percent_geometry_retained_from_H56",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "kinematic_height_consistency",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "force_is_energy_derivative",
+      "passed": true,
+      "observed": 1.3845128869417706e-05
+    },
+    {
+      "name": "integrated_force_returns_energy",
+      "passed": true,
+      "observed": 3.833751909235602e-10
+    },
+    {
+      "name": "average_work_force_not_endpoint_force",
+      "passed": true,
+      "observed": 0.4796093327799422
+    },
+    {
+      "name": "modulus_linear_scaling",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "thickness_cubic_scaling",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "hinge_strain_independent_of_modulus",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "core_plus_hinge_meets_defined_design_point",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "core_stiffness_positive",
+      "passed": true,
+      "observed": 86.36273571205389
+    },
+    {
+      "name": "core_modulus_recovers_required_stiffness",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "loaded_equilibrium_inverse",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "high_load_exceeds_assumed_travel",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "stiffness_loss_can_exceed_travel",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "narrow_core_keeps_assumed_clearance_at_limit",
+      "passed": true,
+      "observed": 19.505611286159876
+    },
+    {
+      "name": "wide_core_fails_clearance_at_design_point",
+      "passed": true,
+      "observed": 9.781686998228935
+    },
+    {
+      "name": "gas_equilibrated_unloaded_has_zero_gauge_pressure",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "gas_temperature_preload_is_positive",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "envelope_volume_conservation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "core_mass_conservation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "core_width_cost_square_scaling",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "fixed_center_release_threshold",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "lower_pressure_may_not_open_contacts",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "no_physical_or_probability_claim",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "progressive_core_soft_stiffness_positive",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "progressive_core_added_stiffness_positive",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "progressive_core_force_continuity",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "progressive_core_low_design_point_by_construction",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "progressive_core_high_design_point_by_construction",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "dense_packing_still_cannot_open",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "softening_still_breaks_high_design_load",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "progressive_target_has_positive_pair_gap",
+      "passed": true,
+      "observed": null
+    }
+  ]
+}

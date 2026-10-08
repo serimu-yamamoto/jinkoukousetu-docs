@@ -1,0 +1,79 @@
+{
+  "cycle": 57,
+  "status": "NOT_EXECUTED",
+  "physical_tests": 0,
+  "success_probability": null,
+  "preregister_before_testing": true,
+  "objective": "Match groomed fresh snow across glide, edge support and release, stoppage/restart, 50 C wet durability, winter bonding, recovery and total cost",
+  "controls": [
+    "same-batch natural groomed snow measured at recorded snow temperature and density",
+    "ordinary solid grain",
+    "H56 hinge-only",
+    "H57-A linear core",
+    "H57-B delayed progressive support",
+    "distributed bending alternative"
+  ],
+  "stages": [
+    {
+      "id": "A",
+      "purpose": "Disprove prescribed force and kinematics with matched force/displacement boundaries",
+      "conditions": {
+        "temperature_C": [
+          23,
+          50
+        ],
+        "water": [
+          "dry",
+          "rain wetted",
+          "after drainage"
+        ],
+        "loading": [
+          "force controlled",
+          "displacement controlled"
+        ],
+        "lots": 3
+      },
+      "measure": [
+        "actual dimensions and tolerances",
+        "force displacement and lateral motion simultaneously",
+        "core bulging and drain clearance",
+        "unloading energy, permanent set and recovery time",
+        "rate dependence using measured ski load pulse durations"
+      ],
+      "note": "Exploratory repetitions and independent lots must be assigned before testing; a scaled model does not validate a 500 um grain."
+    },
+    {
+      "id": "B",
+      "purpose": "True-size 3D random grains, fixed pressure vs fixed depth, including dense packing",
+      "measure": [
+        "shear peak and post-peak tail",
+        "edge penetration and extraction",
+        "normal support and bed thickness loss",
+        "contact re-engagement after grooming",
+        "glide friction and vibration spectrum against snow",
+        "wet static friction and stop/restart"
+      ]
+    },
+    {
+      "id": "C",
+      "purpose": "Whole-objective retained requirements",
+      "measure": [
+        "50 C exposure and repeated mechanical loading for 4-5 h operating interval",
+        "rain and silt plus functional restoration within 60 min closure",
+        "typhoon material retention, contamination and replacement fraction",
+        "winter snow interlock, drain path, freezing blockage and basal shear",
+        "wear fragments, extractables and exposure endpoints for finished material",
+        "process throughput, reject yield, repair and qualified recovery cost"
+      ]
+    }
+  ],
+  "acceptance": "Numerical equivalence bounds must be based on independent snow reference and agreed before data review. Physical safety and performance gates are joint requirements. Do not score simulation cells as trials or treat repetitions from one batch as independent reliability trials.",
+  "critical_refutations": [
+    "Progressive core may switch before contacts separate due to dimensional scatter",
+    "Thermal softening reduces high-pressure capacity",
+    "Dense packing q=1.5 remains caged within travel in the 2D model",
+    "Core interferes with contraction or blocks drainage",
+    "Gradual stiffening in a real structure may add hysteresis and destroy sharp edge release"
+  ],
+  "manufacturing": "No procurement, supplier contact, physical manufacturing or physical test was performed."
+}

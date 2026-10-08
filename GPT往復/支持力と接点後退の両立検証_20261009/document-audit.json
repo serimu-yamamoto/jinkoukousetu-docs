@@ -1,0 +1,111 @@
+{
+  "cycle": 57,
+  "scope": "document consistency only",
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "all_33_algebraic_checks_pass",
+      "passed": true
+    },
+    {
+      "name": "physical_tests_zero_everywhere",
+      "passed": true
+    },
+    {
+      "name": "success_probability_not_assigned",
+      "passed": true
+    },
+    {
+      "name": "test_plan_not_executed",
+      "passed": true
+    },
+    {
+      "name": "report_discloses_inverse_specification",
+      "passed": true
+    },
+    {
+      "name": "report_preserves_spray_objective",
+      "passed": true
+    },
+    {
+      "name": "report_preserves_budget_boundary",
+      "passed": true
+    },
+    {
+      "name": "report_discloses_beam_limit",
+      "passed": true
+    },
+    {
+      "name": "report_discloses_no_physical_quote",
+      "passed": true
+    },
+    {
+      "name": "reported_progressive_stiffness_rounded",
+      "passed": true
+    },
+    {
+      "name": "reported_core_mass_rounded",
+      "passed": true
+    },
+    {
+      "name": "reported_core_gap_rounded",
+      "passed": true
+    },
+    {
+      "name": "new_document_relative_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "history_retained_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "history_retained_README.md",
+      "passed": true
+    },
+    {
+      "name": "history_retained_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "figure_exists_figure1_force_window",
+      "passed": true
+    },
+    {
+      "name": "figure_exists_figure2_clearance_gas",
+      "passed": true
+    },
+    {
+      "name": "figure_exists_figure3_component_cost",
+      "passed": true
+    },
+    {
+      "name": "figure_exists_figure4_progressive_support",
+      "passed": true
+    },
+    {
+      "name": "all_nine_model_tables_present",
+      "passed": true
+    },
+    {
+      "name": "source_access_limits_explicit",
+      "passed": true
+    }
+  ],
+  "history_check": "BASE_SNAPSHOT_VERIFIED",
+  "csv_rows": {
+    "architecture_comparison.csv": 2,
+    "core_clearance.csv": 108,
+    "core_cost.csv": 12,
+    "gas_core.csv": 18,
+    "hinge_force.csv": 36,
+    "load_control.csv": 12,
+    "packing_counterexamples.csv": 4,
+    "progressive_core.csv": 12,
+    "required_modulus.csv": 3
+  },
+  "total_csv_rows": 207,
+  "visual_review": "four PNGs inspected; readable labels and no clipped text",
+  "original_computation_disclaimer": "No physical trial, 3D FEA, DEM, or calibrated constitutive fit was performed."
+}
