@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "bed mass 108t",
+      "passed": true
+    },
+    {
+      "name": "branch lateral area 6million m2",
+      "passed": true
+    },
+    {
+      "name": "rim depth 1um representative",
+      "passed": true
+    },
+    {
+      "name": "rim shear capacity equals applied tangential force",
+      "passed": true
+    },
+    {
+      "name": "rim dimensionless depth independent diameter",
+      "passed": true
+    },
+    {
+      "name": "backside half area needs 0.4MPa at 2MPa",
+      "passed": true
+    },
+    {
+      "name": "backside full area halves required stress",
+      "passed": true
+    },
+    {
+      "name": "beam delta stress relation",
+      "passed": true
+    },
+    {
+      "name": "beam energy independent formula",
+      "passed": true
+    },
+    {
+      "name": "reference delta 2.5um",
+      "passed": true
+    },
+    {
+      "name": "grain mass six branches",
+      "passed": true
+    },
+    {
+      "name": "impact ratio 1.3824",
+      "passed": true
+    },
+    {
+      "name": "impact ratio alternate analytical cancellation",
+      "passed": true
+    },
+    {
+      "name": "thickening changes mass and energy together",
+      "passed": true
+    },
+    {
+      "name": "doubling limit stress quadruples elastic budget",
+      "passed": true
+    },
+    {
+      "name": "100um stroke at5m/s lasts20us",
+      "passed": true
+    },
+    {
+      "name": "100um stroke accounts for .02percent of .5m travel",
+      "passed": true
+    },
+    {
+      "name": "5 parts per100 gives 5400kg",
+      "passed": true
+    },
+    {
+      "name": "5 parts is4.7619 percent total not5percent",
+      "passed": true
+    },
+    {
+      "name": "5parts price is67.5million JPY",
+      "passed": true
+    },
+    {
+      "name": "5parts uses7.5times720kg",
+      "passed": true
+    },
+    {
+      "name": "holding phase144kg and180000JPY",
+      "passed": true
+    },
+    {
+      "name": "source speed equation gives63mm/s",
+      "passed": true
+    },
+    {
+      "name": "shear correction increases displacement by8.6667percent",
+      "passed": true
+    },
+    {
+      "name": "shear energy correction lowers impact budget ratio",
+      "passed": true
+    },
+    {
+      "name": "physical probability not estimated",
+      "passed": true
+    }
+  ],
+  "scope": "Equations and implementation only. No material validation."
+}

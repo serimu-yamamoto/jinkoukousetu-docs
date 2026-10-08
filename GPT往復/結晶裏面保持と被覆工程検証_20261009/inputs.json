@@ -1,0 +1,110 @@
+{
+  "cycle": 47,
+  "date": "2026-10-09",
+  "base_commit": "a835ce4c172ecc47e0e43fb4a891b09f6b399a90",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "note": "Hypothesis-level necessary conditions; no fitted material property and no candidate success probabilities.",
+  "retention": {
+    "mu": 0.1,
+    "plate_diameters_m": [
+      2e-7,
+      0.000002,
+      0.00002
+    ],
+    "contact_pressures_Pa": [
+      500000,
+      2000000,
+      10000000
+    ],
+    "anchor_shear_strength_Pa": [
+      100000,
+      1000000,
+      5000000
+    ],
+    "back_bonded_area_fraction": [
+      0.25,
+      0.5,
+      1
+    ],
+    "note": "Circular platelet projection; uniform pressure and interface strength; peel, bending, defects and roughness excluded. Rim area=pi*D*e; backside area=beta*pi*D^2/4."
+  },
+  "impact": {
+    "branch_count": 6,
+    "branch_radius_m": 0.00003,
+    "branch_length_m": 0.00015,
+    "density_kg_m3": 1200,
+    "E_Pa": 1000000000,
+    "elastic_limit_Pa": [
+      5000000,
+      10000000,
+      20000000
+    ],
+    "mixer_tip_speed_m_s": 40,
+    "collision_speed_fraction": [
+      0.01,
+      0.1,
+      1
+    ],
+    "energy_coupling_fraction": [
+      0.01,
+      0.1,
+      1
+    ],
+    "simultaneous_supports": 1,
+    "note": "Tip speed cited from S1 Table5-3; collision speed, coupling, branch model and elastic limit are assumptions. Energy comparison is neither fracture prediction nor fatigue life.",
+    "poisson_ratio": 0.3,
+    "shear_correction_factor": 0.9
+  },
+  "finite_motion": {
+    "available_stroke_m": [
+      0.00001,
+      0.00003,
+      0.0001
+    ],
+    "speeds_m_s": [
+      2,
+      5,
+      10
+    ],
+    "loaded_time_s": 0.1,
+    "note": "Single forward stroke with no reset. Optimistic fraction of travel with zero friction; not whole-cycle energy proof."
+  },
+  "cost": {
+    "bed_area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "skeleton_density_kg_m3": 1200,
+    "skeleton_radius_m": 0.00003,
+    "LL_density_kg_m3": 1200,
+    "LL_price_JPY_kg": 10000,
+    "yield_fraction": 0.8,
+    "discount_rate": 0.08,
+    "years": 10,
+    "patent_LL_parts_per_100_base": [
+      3,
+      5,
+      20
+    ],
+    "target_LL_deposit_kg": 720,
+    "patch_area_fraction": 0.2,
+    "bonded_back_fraction": 0.5,
+    "holding_layer_eq_thickness_m": [
+      5e-8,
+      2e-7,
+      0.000001
+    ],
+    "holding_layer_density_kg_m3": 1200,
+    "holding_layer_price_JPY_kg": [
+      1000,
+      5000
+    ],
+    "note": "Unquoted marginal material costs. Holding phase chemistry, fabrication equipment and extra processing remain unchosen/unpriced. Patent ratios are not recommended ski composition."
+  },
+  "source_kinematics": {
+    "D_reported_m": 0.03,
+    "omega_rad_s": 2.1,
+    "reported_max_speed_m_s": 0.03,
+    "note": "S3 eq2.1 gives |D|*omega but supplied D=30mm would give63mm/s. Half-stroke interpretation gives31.5mm/s. Retain discrepancy, do not silently correct source."
+  }
+}

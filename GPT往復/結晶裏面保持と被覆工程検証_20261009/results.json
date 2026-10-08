@@ -1,0 +1,729 @@
+{
+  "cycle": 47,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "rim_conditions": [
+    {
+      "D_m": 2e-07,
+      "p_Pa": 500000,
+      "tau_Pa": 100000,
+      "friction_force_N": 1.5707963267948964e-09,
+      "minimum_engaged_edge_depth_m": 2.5e-08,
+      "e_over_D": 0.125
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 500000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 1.5707963267948964e-09,
+      "minimum_engaged_edge_depth_m": 2.4999999999999996e-09,
+      "e_over_D": 0.012499999999999999
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 500000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 1.5707963267948964e-09,
+      "minimum_engaged_edge_depth_m": 4.999999999999999e-10,
+      "e_over_D": 0.0024999999999999996
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 2000000,
+      "tau_Pa": 100000,
+      "friction_force_N": 6.2831853071795855e-09,
+      "minimum_engaged_edge_depth_m": 1e-07,
+      "e_over_D": 0.5
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 2000000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 6.2831853071795855e-09,
+      "minimum_engaged_edge_depth_m": 9.999999999999999e-09,
+      "e_over_D": 0.049999999999999996
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 2000000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 6.2831853071795855e-09,
+      "minimum_engaged_edge_depth_m": 1.9999999999999997e-09,
+      "e_over_D": 0.009999999999999998
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 10000000,
+      "tau_Pa": 100000,
+      "friction_force_N": 3.141592653589793e-08,
+      "minimum_engaged_edge_depth_m": 5.000000000000001e-07,
+      "e_over_D": 2.5000000000000004
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 10000000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 3.141592653589793e-08,
+      "minimum_engaged_edge_depth_m": 5e-08,
+      "e_over_D": 0.25
+    },
+    {
+      "D_m": 2e-07,
+      "p_Pa": 10000000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 3.141592653589793e-08,
+      "minimum_engaged_edge_depth_m": 1e-08,
+      "e_over_D": 0.05
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 500000,
+      "tau_Pa": 100000,
+      "friction_force_N": 1.5707963267948963e-07,
+      "minimum_engaged_edge_depth_m": 2.5e-07,
+      "e_over_D": 0.125
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 500000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 1.5707963267948963e-07,
+      "minimum_engaged_edge_depth_m": 2.5e-08,
+      "e_over_D": 0.0125
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 500000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 1.5707963267948963e-07,
+      "minimum_engaged_edge_depth_m": 4.999999999999999e-09,
+      "e_over_D": 0.0024999999999999996
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 2000000,
+      "tau_Pa": 100000,
+      "friction_force_N": 6.283185307179585e-07,
+      "minimum_engaged_edge_depth_m": 1e-06,
+      "e_over_D": 0.5
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 2000000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 6.283185307179585e-07,
+      "minimum_engaged_edge_depth_m": 1e-07,
+      "e_over_D": 0.05
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 2000000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 6.283185307179585e-07,
+      "minimum_engaged_edge_depth_m": 1.9999999999999997e-08,
+      "e_over_D": 0.009999999999999998
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 10000000,
+      "tau_Pa": 100000,
+      "friction_force_N": 3.1415926535897925e-06,
+      "minimum_engaged_edge_depth_m": 4.9999999999999996e-06,
+      "e_over_D": 2.5
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 10000000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 3.1415926535897925e-06,
+      "minimum_engaged_edge_depth_m": 5e-07,
+      "e_over_D": 0.25
+    },
+    {
+      "D_m": 2e-06,
+      "p_Pa": 10000000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 3.1415926535897925e-06,
+      "minimum_engaged_edge_depth_m": 9.999999999999998e-08,
+      "e_over_D": 0.049999999999999996
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 500000,
+      "tau_Pa": 100000,
+      "friction_force_N": 1.570796326794897e-05,
+      "minimum_engaged_edge_depth_m": 2.500000000000001e-06,
+      "e_over_D": 0.12500000000000006
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 500000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 1.570796326794897e-05,
+      "minimum_engaged_edge_depth_m": 2.500000000000001e-07,
+      "e_over_D": 0.012500000000000004
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 500000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 1.570796326794897e-05,
+      "minimum_engaged_edge_depth_m": 5.0000000000000004e-08,
+      "e_over_D": 0.0025
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 2000000,
+      "tau_Pa": 100000,
+      "friction_force_N": 6.283185307179588e-05,
+      "minimum_engaged_edge_depth_m": 1.0000000000000004e-05,
+      "e_over_D": 0.5000000000000002
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 2000000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 6.283185307179588e-05,
+      "minimum_engaged_edge_depth_m": 1.0000000000000004e-06,
+      "e_over_D": 0.05000000000000002
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 2000000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 6.283185307179588e-05,
+      "minimum_engaged_edge_depth_m": 2.0000000000000002e-07,
+      "e_over_D": 0.01
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 10000000,
+      "tau_Pa": 100000,
+      "friction_force_N": 0.00031415926535897936,
+      "minimum_engaged_edge_depth_m": 5.000000000000001e-05,
+      "e_over_D": 2.5000000000000004
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 10000000,
+      "tau_Pa": 1000000,
+      "friction_force_N": 0.00031415926535897936,
+      "minimum_engaged_edge_depth_m": 5e-06,
+      "e_over_D": 0.25
+    },
+    {
+      "D_m": 2e-05,
+      "p_Pa": 10000000,
+      "tau_Pa": 5000000,
+      "friction_force_N": 0.00031415926535897936,
+      "minimum_engaged_edge_depth_m": 1e-06,
+      "e_over_D": 0.049999999999999996
+    }
+  ],
+  "back_conditions": [
+    {
+      "p_Pa": 500000,
+      "bonded_fraction": 0.25,
+      "required_uniform_shear_Pa": 200000.0
+    },
+    {
+      "p_Pa": 500000,
+      "bonded_fraction": 0.5,
+      "required_uniform_shear_Pa": 100000.0
+    },
+    {
+      "p_Pa": 500000,
+      "bonded_fraction": 1,
+      "required_uniform_shear_Pa": 50000.0
+    },
+    {
+      "p_Pa": 2000000,
+      "bonded_fraction": 0.25,
+      "required_uniform_shear_Pa": 800000.0
+    },
+    {
+      "p_Pa": 2000000,
+      "bonded_fraction": 0.5,
+      "required_uniform_shear_Pa": 400000.0
+    },
+    {
+      "p_Pa": 2000000,
+      "bonded_fraction": 1,
+      "required_uniform_shear_Pa": 200000.0
+    },
+    {
+      "p_Pa": 10000000,
+      "bonded_fraction": 0.25,
+      "required_uniform_shear_Pa": 4000000.0
+    },
+    {
+      "p_Pa": 10000000,
+      "bonded_fraction": 0.5,
+      "required_uniform_shear_Pa": 2000000.0
+    },
+    {
+      "p_Pa": 10000000,
+      "bonded_fraction": 1,
+      "required_uniform_shear_Pa": 1000000.0
+    }
+  ],
+  "impact_conditions": [
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.442902447431423e-12,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 0.005529600000000001,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.4429024474314235e-11,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 0.05529600000000002,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 1,
+      "coupled_energy_J": 2.442902447431423e-10,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 0.5529600000000001,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.4429024474314227e-10,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 0.55296,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.442902447431423e-09,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 5.5296,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 1,
+      "coupled_energy_J": 2.4429024474314228e-08,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 55.296,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.4429024474314228e-08,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 55.296,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.442902447431423e-07,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 552.96,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 5000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 1,
+      "coupled_energy_J": 2.4429024474314227e-06,
+      "elastic_budget_J": 4.417864669110646e-10,
+      "budget_ratio": 5529.6,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.442902447431423e-12,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 0.0013824000000000002,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.4429024474314235e-11,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 0.013824000000000005,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 1,
+      "coupled_energy_J": 2.442902447431423e-10,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 0.13824000000000003,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.4429024474314227e-10,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 0.13824,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.442902447431423e-09,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 1.3824,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 1,
+      "coupled_energy_J": 2.4429024474314228e-08,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 13.824,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.4429024474314228e-08,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 13.824,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.442902447431423e-07,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 138.24,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 10000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 1,
+      "coupled_energy_J": 2.4429024474314227e-06,
+      "elastic_budget_J": 1.7671458676442583e-09,
+      "budget_ratio": 1382.4,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.442902447431423e-12,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 0.00034560000000000005,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.4429024474314235e-11,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 0.003456000000000001,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 0.01,
+      "collision_speed_m_s": 0.4,
+      "coupling": 1,
+      "coupled_energy_J": 2.442902447431423e-10,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 0.03456000000000001,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.4429024474314227e-10,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 0.03456,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.442902447431423e-09,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 0.3456,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 0.1,
+      "collision_speed_m_s": 4.0,
+      "coupling": 1,
+      "coupled_energy_J": 2.4429024474314228e-08,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 3.456,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 0.01,
+      "coupled_energy_J": 2.4429024474314228e-08,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 3.456,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 0.1,
+      "coupled_energy_J": 2.442902447431423e-07,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 34.56,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    },
+    {
+      "sigma_Pa": 20000000,
+      "collision_speed_fraction": 1,
+      "collision_speed_m_s": 40,
+      "coupling": 1,
+      "coupled_energy_J": 2.4429024474314227e-06,
+      "elastic_budget_J": 7.068583470577033e-09,
+      "budget_ratio": 345.6,
+      "meaning": "single ideal impact budget only, not fracture outcome"
+    }
+  ],
+  "beam_reference": {
+    "inertia_m4": 6.361725123519332e-19,
+    "stiffness_N_m": 565.486677646163,
+    "force_N": 0.001413716694115407,
+    "delta_m": 2.4999999999999994e-06,
+    "elastic_energy_J": 1.7671458676442583e-09,
+    "grain_mass_kg": 3.0536280592892785e-09
+  },
+  "impact_reference": {
+    "sigma_Pa": 10000000,
+    "collision_speed_fraction": 0.1,
+    "collision_speed_m_s": 4.0,
+    "coupling": 0.1,
+    "coupled_energy_J": 2.442902447431423e-09,
+    "elastic_budget_J": 1.7671458676442583e-09,
+    "budget_ratio": 1.3824,
+    "meaning": "single ideal impact budget only, not fracture outcome"
+  },
+  "shear_sensitivity": {
+    "extra_deflection_m": 2.166666666666667e-07,
+    "capacity_factor": 1.0866666666666667,
+    "corrected_reference_ratio": 1.2721472392638038,
+    "note": "Timoshenko shear compliance added at same bending-stress limit; still not impact/fracture simulation"
+  },
+  "finite_motion": [
+    {
+      "stroke_m": 1e-05,
+      "speed_m_s": 2,
+      "loaded_travel_m": 0.2,
+      "one_stroke_time_s": 5e-06,
+      "optimistic_zero_friction_distance_fraction": 5e-05
+    },
+    {
+      "stroke_m": 1e-05,
+      "speed_m_s": 5,
+      "loaded_travel_m": 0.5,
+      "one_stroke_time_s": 2.0000000000000003e-06,
+      "optimistic_zero_friction_distance_fraction": 2e-05
+    },
+    {
+      "stroke_m": 1e-05,
+      "speed_m_s": 10,
+      "loaded_travel_m": 1.0,
+      "one_stroke_time_s": 1.0000000000000002e-06,
+      "optimistic_zero_friction_distance_fraction": 1e-05
+    },
+    {
+      "stroke_m": 3e-05,
+      "speed_m_s": 2,
+      "loaded_travel_m": 0.2,
+      "one_stroke_time_s": 1.5e-05,
+      "optimistic_zero_friction_distance_fraction": 0.00015
+    },
+    {
+      "stroke_m": 3e-05,
+      "speed_m_s": 5,
+      "loaded_travel_m": 0.5,
+      "one_stroke_time_s": 6e-06,
+      "optimistic_zero_friction_distance_fraction": 6e-05
+    },
+    {
+      "stroke_m": 3e-05,
+      "speed_m_s": 10,
+      "loaded_travel_m": 1.0,
+      "one_stroke_time_s": 3e-06,
+      "optimistic_zero_friction_distance_fraction": 3e-05
+    },
+    {
+      "stroke_m": 0.0001,
+      "speed_m_s": 2,
+      "loaded_travel_m": 0.2,
+      "one_stroke_time_s": 5e-05,
+      "optimistic_zero_friction_distance_fraction": 0.0005
+    },
+    {
+      "stroke_m": 0.0001,
+      "speed_m_s": 5,
+      "loaded_travel_m": 0.5,
+      "one_stroke_time_s": 2e-05,
+      "optimistic_zero_friction_distance_fraction": 0.0002
+    },
+    {
+      "stroke_m": 0.0001,
+      "speed_m_s": 10,
+      "loaded_travel_m": 1.0,
+      "one_stroke_time_s": 1e-05,
+      "optimistic_zero_friction_distance_fraction": 0.0001
+    }
+  ],
+  "coating_cost": [
+    {
+      "LL_parts_per_100_base": 3,
+      "LL_fraction_of_total": 0.02912621359223301,
+      "deposit_kg": 3240.0,
+      "purchase_kg": 4050.0,
+      "initial_JPY": 40500000.0,
+      "annualized_JPY": 6035694.29223155,
+      "equivalent_full_skeleton_thickness_m": 4.500000000000001e-07,
+      "ratio_to_previous_target": 4.5
+    },
+    {
+      "LL_parts_per_100_base": 5,
+      "LL_fraction_of_total": 0.047619047619047616,
+      "deposit_kg": 5400.0,
+      "purchase_kg": 6750.0,
+      "initial_JPY": 67500000.0,
+      "annualized_JPY": 10059490.487052584,
+      "equivalent_full_skeleton_thickness_m": 7.500000000000001e-07,
+      "ratio_to_previous_target": 7.5
+    },
+    {
+      "LL_parts_per_100_base": 20,
+      "LL_fraction_of_total": 0.16666666666666666,
+      "deposit_kg": 21600.0,
+      "purchase_kg": 27000.0,
+      "initial_JPY": 270000000.0,
+      "annualized_JPY": 40237961.948210336,
+      "equivalent_full_skeleton_thickness_m": 3.0000000000000005e-06,
+      "ratio_to_previous_target": 30.0
+    }
+  ],
+  "holding_phase_cost": [
+    {
+      "h_m": 5e-08,
+      "price_JPY_kg": 1000,
+      "deposit_kg": 35.99999999999999,
+      "purchase_kg": 44.999999999999986,
+      "initial_JPY": 44999.999999999985,
+      "annualized_JPY": 6706.326991368388
+    },
+    {
+      "h_m": 5e-08,
+      "price_JPY_kg": 5000,
+      "deposit_kg": 35.99999999999999,
+      "purchase_kg": 44.999999999999986,
+      "initial_JPY": 224999.99999999994,
+      "annualized_JPY": 33531.63495684194
+    },
+    {
+      "h_m": 2e-07,
+      "price_JPY_kg": 1000,
+      "deposit_kg": 143.99999999999997,
+      "purchase_kg": 179.99999999999994,
+      "initial_JPY": 179999.99999999994,
+      "annualized_JPY": 26825.307965473552
+    },
+    {
+      "h_m": 2e-07,
+      "price_JPY_kg": 5000,
+      "deposit_kg": 143.99999999999997,
+      "purchase_kg": 179.99999999999994,
+      "initial_JPY": 899999.9999999998,
+      "annualized_JPY": 134126.53982736776
+    },
+    {
+      "h_m": 1e-06,
+      "price_JPY_kg": 1000,
+      "deposit_kg": 719.9999999999999,
+      "purchase_kg": 899.9999999999998,
+      "initial_JPY": 899999.9999999998,
+      "annualized_JPY": 134126.53982736776
+    },
+    {
+      "h_m": 1e-06,
+      "price_JPY_kg": 5000,
+      "deposit_kg": 719.9999999999999,
+      "purchase_kg": 899.9999999999998,
+      "initial_JPY": 4499999.999999999,
+      "annualized_JPY": 670632.6991368389
+    }
+  ],
+  "capital_recovery_factor": 0.14902948869707533,
+  "source_speed_diagnostic": {
+    "literal_equation_m_s": 0.063,
+    "half_stroke_m_s": 0.0315,
+    "stated_max_m_s": 0.03,
+    "interpretation": "documented ambiguity, not a measured correction"
+  },
+  "counts": {
+    "rim": 27,
+    "back": 9,
+    "impact": 27,
+    "finite": 9,
+    "coating_cost": 3,
+    "holding_cost": 6
+  },
+  "numerical_checks": 26
+}

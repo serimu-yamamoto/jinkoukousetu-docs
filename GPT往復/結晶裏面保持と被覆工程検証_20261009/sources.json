@@ -1,0 +1,47 @@
+[
+  {
+    "id": "S1",
+    "kind": "primary technical patent disclosure",
+    "title": "US20250136541A1: N-epsilon-long chain acyl lysine crystal production method and composition containing said crystals",
+    "url": "https://patents.google.com/patent/US20250136541A1/en",
+    "accessed": "2026-10-09",
+    "sha256": "74d52d489a36c3c0ede152f8af087cb6bb4d84a5ed6f0b06371d9a5780047a41",
+    "read_scope": "Full HTML; examples2-1/2-2, Table2-1, Table5-3, treatment and coverage paragraphs",
+    "facts": "Examples include submicrometre number-based D90; Table2-1 volume-weighted diameters differ. Powder coating examples use 40m/s blade speed for10min, temperature below80C. Starch example3-19:5 parts LL per100 base; reported projected image coverage67% on20 particles.",
+    "limits": "No UHMWPE ski friction or retention under abrasion. Coverage is not load share. NumberD90 .20um does not mean90% of mass below.20um. Comparative2-2 temperature differs between narrative25C and table10C; not silently resolved. Crystal grinding after drying is reported; not identical to aggressive fine grinding of initial crystals."
+  },
+  {
+    "id": "S2",
+    "kind": "primary technical patent disclosure",
+    "title": "EP3928837A1: Powder and cosmetic preparation",
+    "url": "https://patents.google.com/patent/EP3928837A1/en",
+    "accessed": "2026-10-09",
+    "sha256": "c6b213642ec4a93b1996cb3f2dc9cb55c70cb9645692b355f224d2486778adc5",
+    "read_scope": "Full HTML, background and Example1",
+    "facts": "Example1 mixes4gLL with16g corn starch using ball milling100rpm15h; surface association observed microscopically; corn-starch compression modulus reported2.9e8Pa with n5.",
+    "limits": "Dry rounded cosmetic powder, not retained branched snow. Recipe totals20wt% LL, or25parts per100starch; do not confuse with S1 20parts per100. Modulus is particle compression result, not wet50C beam modulus. Do not interpret coating presence as chemical bonding or abrasion lifetime."
+  },
+  {
+    "id": "S3",
+    "kind": "primary experimental article",
+    "title": "Kikegawa et al.(2019) Physical origin of a complicated tactile sensation: shittori feel",
+    "url": "https://doi.org/10.1098/rsos.190039",
+    "public_copy": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Physical_origin_of_a_complicated_tactile_sensation_-_%E2%80%98shittori_feel%27.pdf",
+    "accessed": "2026-10-09",
+    "sha256": "72bc798667a44887baaa12f6a655616d68bd4c63816cef17227c626d52e66d60",
+    "read_scope": "Original13-page paper downloaded from public copy; Table1 visually verified; methods and section3.3 extracted. Supplement TableS4 not obtained.",
+    "facts": "PowderB LL, reported particle size23um. Dried powder5mg on artificial skin, urethane finger probe,25+-1C/RH51+-2%,0.98N,stated maximum30mm/s. LL static-minus-kinetic difference .15. Absolute .73 in main text refers to powderA, not LL.",
+    "limits": "Not a PE ski contact,50C test or environmental safety evaluation. Speed formula wording has full-stroke/amplitude ambiguity; retain stated30mm/s and record diagnostic63/31.5mm/s rather than altering coefficients."
+  },
+  {
+    "id": "S4",
+    "kind": "primary technical patent disclosure",
+    "title": "EP2825180A1: Treated platy substrates",
+    "url": "https://patents.google.com/patent/EP2825180A1/en",
+    "accessed": "2026-10-09",
+    "sha256": "2100594c9e71418f63fb81f0fb2e873d9e9ddd8de2aa5c8bab0ced9b3a98025c",
+    "read_scope": "Full public HTML; coating vs physical mixing discussion and Example7",
+    "facts": "Reports LL deposited on platy substrate compared with simple physical blend; static friction comparison claimed.",
+    "limits": "Table18 image is unavailable in retrieved HTML. No numerical friction values inferred. Synthetic mica example is not adopted as ski substrate. Patent status and patentability not evaluated."
+  }
+]

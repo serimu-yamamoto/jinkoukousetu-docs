@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "cycle": 47,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "a835ce4c172ecc47e0e43fb4a891b09f6b399a90",
+  "date": "2026-10-09",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第47巡_結晶の裏面保持と枝を壊さない被覆工程_20261009.md",
+      "bytes": 32916,
+      "sha256": "16896a3df9b024b58edbd97c72142739af377bb67f6ab302f7b145e69d73367a"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 31502,
+      "sha256": "1325d5b377218658533c278e46650242aa7ffc37057ebb42a34ace46fc9ff66f"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/README.md",
+      "bytes": 1032,
+      "sha256": "9203cea6759821d9bc9402ac00aab194c044dd9b327b78db6ebd917efa9dc2ad"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/calculate.py",
+      "bytes": 10726,
+      "sha256": "fbc7846e76cfed9be8b72ffa7d541ba47e77972bea5604ecc2937bdda593d535"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/concept.png",
+      "bytes": 50489,
+      "sha256": "111621add0027a6a65ed473648e761d3e3d501a1d97ed40f039ab4b922acff7a"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/concept.svg",
+      "bytes": 6913,
+      "sha256": "393d9d566ff538791b20148c4b791a191fbd2eafa1188ff99d6e5cc75494a9f7"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/constraints.png",
+      "bytes": 130375,
+      "sha256": "4fe12e0c605a784b130cc1a97e2c34ee29a807693154d6c5994e44ba7e0f7d6d"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/constraints.svg",
+      "bytes": 59995,
+      "sha256": "94cc0f41b7654534d7f371dd34832ee81659156e28607d36c9930a67b6e9a312"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/inputs.json",
+      "bytes": 2965,
+      "sha256": "a2c8903d2a8ab8ce75106d80a2880df0c12b1904f9a1b415394789c147ce45cb"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/numerical-validation.json",
+      "bytes": 2375,
+      "sha256": "1f278b9bab85c0afbe5b0b48c72d5f05fc3f040030f48cc1cfefd7cde9530624"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/results.json",
+      "bytes": 21673,
+      "sha256": "eb255adefcd6f8707d5476421fd9d3e8b8eca0135f14c661d33e7e9322f202a9"
+    },
+    {
+      "path": "GPT往復/結晶裏面保持と被覆工程検証_20261009/sources.json",
+      "bytes": 3846,
+      "sha256": "513b750c5050e53c7c8bf9fcafa9f787449884b934aedd61cfaae2c48210f638"
+    },
+    {
+      "path": "README.md",
+      "bytes": 38659,
+      "sha256": "476ad7228477d7f87d19220d7eadcd37513f0f3141bf28ed582602d6a48c48d8"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 109405,
+      "sha256": "9ff73616c694a2715e0f6e8480085170f426958215b7cc0f5a60ea56a44727c6"
+    }
+  ]
+}

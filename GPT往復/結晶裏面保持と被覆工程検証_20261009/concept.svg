@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="324pt" viewBox="0 0 864 324" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T04:02:58.537967</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324
+L 864 324
+L 864 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 60.696 119.190825
+L 376.704 119.190825
+L 376.704 101.903822
+L 60.696 101.903822
+z
+" clip-path="url(#p6818406a00)" style="fill: #c9dbe8"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 110.592 148.825687
+L 326.808 148.825687
+L 326.808 126.599541
+L 110.592 126.599541
+z
+" clip-path="url(#p6818406a00)" style="fill: #e5b655; stroke: #876521; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 60.696 213.034556
+L 376.704 213.034556
+L 376.704 180.930122
+L 60.696 180.930122
+z
+" clip-path="url(#p6818406a00)" style="fill: #a7ccb8; stroke: #37644b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 137.542357 111.782109
+Q 218.702024 111.782109 298.743657 111.782109
+" clip-path="url(#p6818406a00)" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 292.743657 108.782109
+L 298.743657 111.782109
+L 292.743657 114.782109
+" clip-path="url(#p6818406a00)" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 93.96 183.399694
+L 118.908 183.399694
+L 118.908 136.477828
+L 93.96 136.477828
+z
+" clip-path="url(#p6818406a00)" style="fill: #c796aa"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 318.492 183.399694
+L 343.44 183.399694
+L 343.44 136.477828
+L 318.492 136.477828
+z
+" clip-path="url(#p6818406a00)" style="fill: #c796aa"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="218.7" y="87.086391" transform="rotate(-0 218.7 87.086391)">Ski base / tangential sliding</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="218.7" y="242.669419" transform="rotate(-0 218.7 242.669419)">Rim-only: load carried at thin edges</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="218.7" y="267.365138" transform="rotate(-0 218.7 267.365138)">Plate bending and peel are not included</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 487.296 119.190825
+L 803.304 119.190825
+L 803.304 101.903822
+L 487.296 101.903822
+z
+" clip-path="url(#pb42f566e9c)" style="fill: #c9dbe8"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 537.192 148.825687
+L 753.408 148.825687
+L 753.408 126.599541
+L 537.192 126.599541
+z
+" clip-path="url(#pb42f566e9c)" style="fill: #e5b655; stroke: #876521; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 487.296 213.034556
+L 803.304 213.034556
+L 803.304 180.930122
+L 487.296 180.930122
+z
+" clip-path="url(#pb42f566e9c)" style="fill: #a7ccb8; stroke: #37644b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 564.142357 111.782109
+Q 645.302024 111.782109 725.343657 111.782109
+" clip-path="url(#pb42f566e9c)" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 719.343657 108.782109
+L 725.343657 111.782109
+L 719.343657 114.782109
+" clip-path="url(#pb42f566e9c)" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 545.508 180.930122
+L 745.092 180.930122
+L 745.092 148.825687
+L 545.508 148.825687
+z
+" clip-path="url(#pb42f566e9c)" style="fill: #c796aa"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="645.3" y="87.086391" transform="rotate(-0 645.3 87.086391)">Ski base / tangential sliding</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="645.3" y="242.669419" transform="rotate(-0 645.3 242.669419)">Back support: keep the sliding face exposed</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="645.3" y="267.365138" transform="rotate(-0 645.3 267.365138)">Bond chemistry and 50 C durability unverified</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="432" y="15.598125" transform="rotate(-0 432 15.598125)">H47 concept: underside anchoring + low-impact coating before node separation</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="432" y="317.52" transform="rotate(-0 432 317.52)">Not to scale. Purple = unspecified holding phase; green = open-branch precursor.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6818406a00">
+   <rect x="10.8" y="50.042812" width="415.8" height="246.957188"/>
+  </clipPath>
+  <clipPath id="pb42f566e9c">
+   <rect x="437.4" y="50.042812" width="415.8" height="246.957188"/>
+  </clipPath>
+ </defs>
+</svg>
