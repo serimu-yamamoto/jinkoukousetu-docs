@@ -1,0 +1,181 @@
+{
+  "check_count": 29,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "listed_source_inputs_round_8.64_not_reported_9.12",
+      "actual": 8.64,
+      "expected": 8.64,
+      "passed": true
+    },
+    {
+      "name": "zero_coverage",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "powder_independent_mass_formula",
+      "actual": 0.13252629172382263,
+      "expected": 0.13252629172382255,
+      "passed": true
+    },
+    {
+      "name": "density_halved_doubles_ratio",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "external_area_doubles_ratio",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "film_planar_area_volume",
+      "actual": 0.03888888888888888,
+      "expected": 0.03888888888888889,
+      "passed": true
+    },
+    {
+      "name": "film_zero_thickness",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "film_tenfold_thickness",
+      "actual": 10.0,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "expansion_no_change",
+      "actual": 0.7,
+      "expected": 0.7,
+      "passed": true
+    },
+    {
+      "name": "8x_volume_quarters_fixed_coverage",
+      "actual": 0.17500000000000002,
+      "expected": 0.175,
+      "passed": true
+    },
+    {
+      "name": "affine_patch_volume_conserved",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "oblate_volume_conserved",
+      "actual": 15.625,
+      "expected": 15.625,
+      "passed": true
+    },
+    {
+      "name": "oblate_curvature_target",
+      "actual": 500.00000000000006,
+      "expected": 500,
+      "passed": true
+    },
+    {
+      "name": "oblate_aspect_vs_area",
+      "actual": 53.18295896944989,
+      "expected": 53.18295896944989,
+      "passed": true
+    },
+    {
+      "name": "sphere_unflattened",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "hertz_force_inverse",
+      "actual": 0.004000000000000006,
+      "expected": 0.004,
+      "passed": true
+    },
+    {
+      "name": "minimum_guest_radius_footprint",
+      "actual": 21.633743554611137,
+      "expected": 21.63374355461114,
+      "passed": true
+    },
+    {
+      "name": "host_bed_mass_108t",
+      "actual": 108000.0,
+      "expected": 108000,
+      "passed": true
+    },
+    {
+      "name": "host_bed_mass_scale10",
+      "actual": 10.0,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "mass_to_bulk_consistency",
+      "actual": 135.9031550068587,
+      "expected": 135.9031550068587,
+      "passed": true
+    },
+    {
+      "name": "100L_batch_mass",
+      "actual": 3.5999999999999996,
+      "expected": 3.6,
+      "passed": true
+    },
+    {
+      "name": "100L_rate_with_handling",
+      "actual": 14.399999999999999,
+      "expected": 14.4,
+      "passed": true
+    },
+    {
+      "name": "1000L_volume_scale",
+      "actual": 10.000000000000002,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "loss_conservation",
+      "actual": 7.154634522718641,
+      "expected": 7.154634522718641,
+      "passed": true
+    },
+    {
+      "name": "zero_loss_boundary",
+      "actual": -0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "wear_reserve_half",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "cost_zero_processing_guest_only",
+      "actual": 419999.99999999994,
+      "expected": 420000,
+      "passed": true
+    },
+    {
+      "name": "yield_host_loss_increment",
+      "actual": 3600000.0,
+      "expected": 3600000,
+      "passed": true
+    },
+    {
+      "name": "source_sac_not_success_probability",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    }
+  ],
+  "scope": "algebra and conservation only; not physical validation"
+}

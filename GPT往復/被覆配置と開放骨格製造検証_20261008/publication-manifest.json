@@ -1,0 +1,82 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "280e55f6b78a500e3adf45384125189c2d64b492",
+  "cycle": 34,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 29,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第34巡_接触面の被覆配置と開放骨格の製造順序_20261008.md",
+      "bytes": 19019,
+      "sha256": "f1732058d751d24ea7f9db5766f7236548dd4c6e611fe7ce27ee1d63f401c96a"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 21846,
+      "sha256": "0648c3660d146023878276f70b68648a8787def5529115b5914548f716e534c9"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/README.md",
+      "bytes": 2203,
+      "sha256": "14149dccad313678ce5f5385b2be556ee906e1fc4022c246b38b5a20e56914d5"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/calculate.py",
+      "bytes": 8431,
+      "sha256": "abff74b2792178fd42ee5c1cc83fe2bcccdd0935750d13c939de470e4f935192"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/figure1_mass_and_expansion.png",
+      "bytes": 140568,
+      "sha256": "80c2c96cb05c4013094227ecc3ebf5f2f96393ea1d78c1ba3b3bf708f21c112c"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/figure2_footprint_and_wear.png",
+      "bytes": 86319,
+      "sha256": "4ad23644f1b3257ad34b35df92367aa417a64c6e752b45b3b1ea7c2c9a9cd151"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/inputs.json",
+      "bytes": 1893,
+      "sha256": "7741b1e164bd13d60c68f66bebe0edaf254fda2b8ade228f39b0e3f574276e0c"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/model.md",
+      "bytes": 5190,
+      "sha256": "f3f63f4881c8184d576a448d9cefec603dd2825814c2a67285ecfe837f4f2adb"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/plot.py",
+      "bytes": 2641,
+      "sha256": "fa4f36652d15b4d792964ed8c2ddbfa7613945d58ea31bfececd24db8f575d23"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/results.json",
+      "bytes": 232114,
+      "sha256": "60f81876ad102f49e17a86ccb2c98bbad71f5c056a4b786bc9d4fd1a9c5dff4f"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/sources.md",
+      "bytes": 6083,
+      "sha256": "ccbe0c68896c8805c65c2492e570609640049cd6a446ce3d0a335c9bfd070f71"
+    },
+    {
+      "path": "GPT往復/被覆配置と開放骨格製造検証_20261008/validation.json",
+      "bytes": 3906,
+      "sha256": "6cc2edbfe2f0c8f47d720c145d0e723d3ea607cadfdab9426e507acfc1f8c72a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 28675,
+      "sha256": "f1ff94718c7a327b9cb095b0b0bd2cca15f9fcb6a3519170303072bbfeac35bd"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 88635,
+      "sha256": "eef295714479bd6c0126a0776f039dbb8883d365e595d984acb6a7d5617eadfd"
+    }
+  ]
+}
