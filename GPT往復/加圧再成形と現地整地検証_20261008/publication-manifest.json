@@ -1,0 +1,82 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "85be6996c742c25d69f61c5d408258fdf5eda1e0",
+  "cycle": 36,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 30,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 30150,
+      "sha256": "2fd2c66a02cb8acd0a156b2cb6f058dda414325597949f57c07c026871a722c3"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 23277,
+      "sha256": "9d12c3fc5798177bf963ef69aaf9ab3a02525bf86ed6eb5630f1ed089783080e"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 91745,
+      "sha256": "18d0ea1e21ba59d9c9607a14c8fd6e752833a7154bf75128d0ffe532f9829214"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第36巡_加圧で戻る材料と現地整地の分離_20261008.md",
+      "bytes": 16481,
+      "sha256": "4883ddd5fc27087ae2ae9e5e0eec516880a5c06e8de09db312427e6e284c6952"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/calculate.py",
+      "bytes": 9058,
+      "sha256": "14ce5b3a3f08a1524ead7b051f965c32b9b7a2167a5e9f5c4fb20aded994cc19"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/figure1_pressure_and_time.png",
+      "bytes": 97294,
+      "sha256": "ffb7150ea8c0600a196ceeab9e290dd76261c9efeb36444973d1b8deae0823ef"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/figure2_inventory_and_allowance.png",
+      "bytes": 160750,
+      "sha256": "f0c8c823e9c4440423ca473074f907fd91e59cf2cd9c10c140c916f2be7f7d18"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/inputs.json",
+      "bytes": 3452,
+      "sha256": "9548276ff1e4836cdc6afc773a1c62eb35993e988e98c1b647dfe17883c178a5"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/model.md",
+      "bytes": 5385,
+      "sha256": "bb295bb0cc97aaf1b790510ee254ad536ed34431776a42bac39921485354e9fe"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/plot.py",
+      "bytes": 3076,
+      "sha256": "9033b80f43035e2d747c85689e76e76ec0dffe252e54810c2a9c2c400a9b22e7"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/README.md",
+      "bytes": 1821,
+      "sha256": "8a480e1e7e8df1132ec2fdd4930d17cfb428fc6fa42980315240bf0b7bddbf03"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/results.json",
+      "bytes": 203217,
+      "sha256": "3fb977503c19fff85e8a10addadab2dbfb6bb8c7b621568d3e9f573aa9c68211"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/sources.md",
+      "bytes": 4392,
+      "sha256": "bf73d804cec4845ac8656b0d326bdd0642bae53fce26bbddb9d09c9cafeb036b"
+    },
+    {
+      "path": "GPT往復/加圧再成形と現地整地検証_20261008/validation.json",
+      "bytes": 4084,
+      "sha256": "357ffa460dd3c680d79121800daa78491a64501613da7dd6aa7f3c967fb5aed2"
+    }
+  ]
+}

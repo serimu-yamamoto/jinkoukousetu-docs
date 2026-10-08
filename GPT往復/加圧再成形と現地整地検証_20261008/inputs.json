@@ -1,0 +1,132 @@
+{
+  "schema": "pressure-reforming-design-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "evidence": {
+    "S1": {
+      "doi": "10.1021/ma301230y",
+      "pressure_MPa": 34.5,
+      "temperature_C": 25,
+      "dwell_s": 300,
+      "scope": "selected PDXO/PmCL-PLLA fresh compression molding, not porous ski bed"
+    },
+    "S2": {
+      "doi": "10.1021/acsmacrolett.5c00483",
+      "pressure_MPa": 50,
+      "nominal_blend_additive_fraction": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "reported_flow_temperature_C": [
+        136,
+        131,
+        82,
+        74,
+        62
+      ],
+      "scope": "capillary flow during 5 C/min heating after prior processing; not a 50 C service limit"
+    },
+    "S3": {
+      "doi": "10.1002/smll.202514939",
+      "standard_pressure_MPa": 10,
+      "standard_temperature_C": 37,
+      "fresh_film_s": 300,
+      "figure4_repress_s": 3600,
+      "initial_characterized_film_s": 50400,
+      "lower_conditions_reported": {
+        "temperature_C": 22,
+        "pressure_MPa": 5,
+        "dwell_s": null
+      },
+      "PEG_melting_near_C": 50,
+      "scope": "films, not ski particles; Methods/figure recycling dwell differs"
+    },
+    "S4": {
+      "doi": "10.1038/s41467-025-59426-6",
+      "LJ_time_s": 2e-12,
+      "LJ_length_m": 5e-10,
+      "omega_reduced": 0.1,
+      "strain_amplitude": 1,
+      "cycles": 72,
+      "scope": "generic optional unit mapping of coarse-grained unentangled MD, not experimental Hz calibration"
+    }
+  },
+  "machine": {
+    "mass_kg": 4000,
+    "g_m_s2": 9.80665,
+    "slope_deg": 30,
+    "width_m": 20,
+    "contact_length_m": 0.05,
+    "speed_m_s": 0.6,
+    "comparison_pressures_MPa": [
+      5,
+      10,
+      34.5,
+      50
+    ]
+  },
+  "material": {
+    "area_m2": [
+      2000,
+      20000
+    ],
+    "depth_m": 0.45,
+    "host_bulk_density_kg_m3": 120,
+    "host_solid_density_kg_m3": 950,
+    "added_phase_density_kg_m3": 1250,
+    "final_added_phase_mass_fraction": [
+      0.005,
+      0.02,
+      0.1
+    ],
+    "added_phase_prices_JPY_kg": [
+      1000,
+      5000,
+      20000
+    ],
+    "host_price_JPY_kg": 300,
+    "usable_yield": 0.9,
+    "assumed_particle_envelope_diameter_m": 0.00045,
+    "assumed_host_envelope_density_kg_m3": 240
+  },
+  "processing": {
+    "repair_stock_fraction": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "pressure_MPa": 10,
+    "assumed_dwell_s": [
+      300,
+      3600,
+      50400
+    ],
+    "handling_s": 60,
+    "available_s": [
+      2400,
+      28800
+    ],
+    "effective_chamber_depth_m": 0.1,
+    "annual_events": 200,
+    "illustrative_additional_annual_allowance_JPY": 1000000,
+    "hydraulic_efficiency": 0.7,
+    "assumed_press_volume_reduction_fraction": 0.1,
+    "cp_kJ_kg_K": 2,
+    "temperature_rise_K": 12,
+    "heater_efficiency": 0.8,
+    "electricity_JPY_kWh": 30,
+    "idle_power_kW": [
+      0.5,
+      5
+    ]
+  },
+  "notes": [
+    "All machine, geometry, phase fraction, density, yield and cost inputs are assumptions; not measured candidate properties.",
+    "Processing geometry uses dense feed for a separate closed press; does not preserve or re-form an open snowlike particle by itself.",
+    "Phase-only processing is an optimistic comparator requiring separation; attached particles must be counted at whole particle mass.",
+    "5 min film formation is not 5 min recovery; 1 h and 14 h are treated as separate schedules."
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "check_count": 30,
+  "all_passed": true,
+  "scope": "arithmetic, units, mass, schedule and geometry only; no physical performance",
+  "checks": [
+    {
+      "name": "1MPa_on_1m2_is_1MN",
+      "actual": 1000000.0,
+      "expected": 1000000.0,
+      "passed": true
+    },
+    {
+      "name": "reference_force",
+      "actual": 33971.23210409066,
+      "expected": 33971.232104,
+      "passed": true
+    },
+    {
+      "name": "10MPa_force",
+      "actual": 10000000.0,
+      "expected": 10000000.0,
+      "passed": true
+    },
+    {
+      "name": "force_budget_area_fraction",
+      "actual": 33971.23210409066,
+      "expected": 33971.23210409066,
+      "passed": true
+    },
+    {
+      "name": "roller_residence",
+      "actual": 0.08333333333333334,
+      "expected": 0.08333333333333333,
+      "passed": true
+    },
+    {
+      "name": "pressure_time_invariant",
+      "actual": 2830.936008674222,
+      "expected": 2830.9360086742217,
+      "passed": true
+    },
+    {
+      "name": "host_reference_108t",
+      "actual": 108000.0,
+      "expected": 108000,
+      "passed": true
+    },
+    {
+      "name": "phase_is_2percent_final_mass",
+      "actual": 0.02,
+      "expected": 0.02,
+      "passed": true
+    },
+    {
+      "name": "phase_to_host_2_over_98",
+      "actual": 0.02040816326530612,
+      "expected": 0.02040816326530612,
+      "passed": true
+    },
+    {
+      "name": "volume_conservation",
+      "actual": 900.0,
+      "expected": 900,
+      "passed": true
+    },
+    {
+      "name": "tenfold_area_mass",
+      "actual": 10.0,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "attached_mass_factor",
+      "actual": 50.0,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "name": "five_minute_40minute_batches",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "name": "one_hour_cannot_complete_in_40min",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "one_hour_8hour_batches",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "name": "14hour_cannot_complete_8hour",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "batch_chamber_mass_conservation",
+      "actual": 1102.0408163265306,
+      "expected": 1102.0408163265306,
+      "passed": true
+    },
+    {
+      "name": "force_area_backcheck",
+      "actual": 10000000.0,
+      "expected": 10000000.0,
+      "passed": true
+    },
+    {
+      "name": "annual_processing_mass",
+      "actual": 220408.16326530612,
+      "expected": 220408.16326530612,
+      "passed": true
+    },
+    {
+      "name": "same_allowance_for_both_scopes",
+      "actual": 1000000.0,
+      "expected": 1000000.0,
+      "passed": true
+    },
+    {
+      "name": "nominal_50percent_blend_PLLA",
+      "actual": 0.7,
+      "expected": 0.7,
+      "passed": true
+    },
+    {
+      "name": "10percent_blend_PLLA",
+      "actual": 0.94,
+      "expected": 0.94,
+      "passed": true
+    },
+    {
+      "name": "angular_to_cycles",
+      "actual": 0.09999999999999999,
+      "expected": 0.1,
+      "passed": true
+    },
+    {
+      "name": "72cycle_time_backcheck",
+      "actual": 72.0,
+      "expected": 72,
+      "passed": true
+    },
+    {
+      "name": "MD_length_ratio",
+      "actual": 899999.9999999999,
+      "expected": 900000,
+      "passed": true
+    },
+    {
+      "name": "heating_kWh",
+      "actual": 9.183673469387754,
+      "expected": 9.183673469387754,
+      "passed": true
+    },
+    {
+      "name": "press_work_unit",
+      "actual": 0.3968253968253968,
+      "expected": 0.3968253968253968,
+      "passed": true
+    },
+    {
+      "name": "scope_cost_ceiling_factor",
+      "actual": 50.0,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "name": "localized_handling_mass_conservation",
+      "actual": 1080.0,
+      "expected": 1080,
+      "passed": true
+    },
+    {
+      "name": "localized_handling_rate_conservation",
+      "actual": 94314040350.7528,
+      "expected": 94314040350.7528,
+      "passed": true
+    }
+  ]
+}
