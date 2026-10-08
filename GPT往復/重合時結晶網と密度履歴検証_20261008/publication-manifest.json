@@ -24,8 +24,8 @@
     },
     {
       "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/calculate.py",
-      "bytes": 7524,
-      "sha256": "c1ad14e06d80f8c471cd591dcd4176ef3019cfda6fcbbdc2213c0db82f6e2346"
+      "bytes": 7552,
+      "sha256": "db1c56e4228ce9604854713641a08a82e862145cdb717a5ee71edf716ba87dd7"
     },
     {
       "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/figure1_density_inventory.png",
@@ -49,8 +49,8 @@
     },
     {
       "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/results.json",
-      "bytes": 33882,
-      "sha256": "e76f3eead12723819b279ddc2c5dafd138c0c121aac585a9c43654d2160774df"
+      "bytes": 32618,
+      "sha256": "92be9028eb78c6653067e553eaa749a790c48ed9929a4674bd5225a959c553cf"
     },
     {
       "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/sources.md",
@@ -59,8 +59,8 @@
     },
     {
       "path": "GPT往復/重合時結晶網と密度履歴検証_20261008/validation.json",
-      "bytes": 2772,
-      "sha256": "6e93b152d70d4574cd2d46e9dd24232037f6ed30b61754be898471640678f97c"
+      "bytes": 2670,
+      "sha256": "7c0386235af4c5b1ec001de7ca171aa8f837bd80acb39cc890c5101850939ab8"
     },
     {
       "path": "README.md",
@@ -72,5 +72,6 @@
       "bytes": 81489,
       "sha256": "9c84df190b4f15b451da744491b750761343e000af5d311dbb5d99d3377b3b80"
     }
-  ]
+  ],
+  "verification_correction_parent": "28b585cd7ce6fa04c59e613d9b3c6b10d6929ae1"
 }

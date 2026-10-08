@@ -108,8 +108,8 @@ R=dict(cycle=29,physical_tests=0,physical_success_probability=None,
  model="Accounting scenarios; not DEM, constitutive model, performance or probability",
  density=density,spreading=spreading,retention=retention,renewal=renewal,
  budget_limits=limits,transport=transport,contamination=contamination)
-(P/"results.json").write_text(json.dumps(R,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(P/"results.json").write_text(json.dumps(R,ensure_ascii=False,indent=2)+"\n",encoding="utf-8", newline="\n")
 (P/"validation.json").write_text(json.dumps(dict(check_count=len(checks),checks=checks,
- physical_tests=0,limits="Arithmetic/conservation checks do not validate the assumed material or mixture model."),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ physical_tests=0,limits="Arithmetic/conservation checks do not validate the assumed material or mixture model."),ensure_ascii=False,indent=2)+"\n",encoding="utf-8", newline="\n")
 print(json.dumps(dict(checks=len(checks),density_rows=len(density),spreading_rows=len(spreading),
  retention_rows=len(retention),renewal_rows=len(renewal),limit_rows=len(limits),transport_rows=len(transport),contamination_rows=len(contamination))))
