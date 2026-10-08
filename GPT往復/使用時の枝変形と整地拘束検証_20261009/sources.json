@@ -1,0 +1,38 @@
+[
+  {
+    "id": "S1",
+    "title": "Yielding, Rigidity, and Tensile Stress in Sheared Columns of Hexapod Granules",
+    "authors": "Yuchen Zhao, Jonathan Barés, Joshua E. S. Socolar",
+    "year": 2020,
+    "doi": "10.1103/PhysRevE.101.062903",
+    "url": "https://arxiv.org/pdf/2002.09800",
+    "evidence": "Physical experiments and numerical models of millimetre polypropylene hexapods; not artificial firn."
+  },
+  {
+    "id": "S2",
+    "title": "Contact networks and force transmission in aggregates of hexapod-shaped particles",
+    "authors": "Trieu-Duy Tran et al.",
+    "year": 2024,
+    "doi": "10.1039/D3SM01762A",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2024/sm/d3sm01762a",
+    "evidence": "Publisher-indexed primary text; direct access returned 403. Do not claim full independent reproduction."
+  },
+  {
+    "id": "S3",
+    "title": "Combined effects of particle geometry and applied vibrations on the mechanics and strength of entangled materials",
+    "authors": "Saeed Pezeshki, Francois Barthelat",
+    "year": 2026,
+    "doi": "10.1063/5.0308921",
+    "url": "https://www.colorado.edu/lab/barthelat/sites/default/files/2026-04/JAP2026.pdf",
+    "evidence": "Author-university PDF, J. Appl. Phys. 139, 145104. Metal-staple bundles; confinement and drive both differed between assembly/disassembly demonstrations."
+  },
+  {
+    "id": "S4",
+    "title": "Effect of interlocking on the compressive strength of agglomerates composed of cohesive nonconvex particles",
+    "authors": "Trieu-Duy Tran et al.",
+    "year": 2025,
+    "doi": "10.1016/j.apt.2025.104780",
+    "url": "https://research.vinuni.edu.vn/research-output/effect-of-interlocking-on-the-compressive-strength-of-agglomerates-composed-of-cohesive-nonconvex-particles/",
+    "evidence": "Author-institution abstract and indexed publisher text; not independent physical validation, numerical agglomerate compression."
+  }
+]

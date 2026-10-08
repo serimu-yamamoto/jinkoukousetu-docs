@@ -1,0 +1,263 @@
+{
+  "passed": true,
+  "count": 35,
+  "physical_tests": 0,
+  "checks": [
+    {
+      "name": "volume_uniform",
+      "passed": true,
+      "details": {
+        "actual": 1.7592918860102839e-13,
+        "expected": 1.759291886010284e-13
+      }
+    },
+    {
+      "name": "volume_quadratic_a1",
+      "passed": true,
+      "details": {
+        "actual": 1.7592918860102844e-13,
+        "expected": 1.759291886010284e-13
+      }
+    },
+    {
+      "name": "volume_quadratic_a5",
+      "passed": true,
+      "details": {
+        "actual": 1.7592918860102844e-13,
+        "expected": 1.759291886010284e-13
+      }
+    },
+    {
+      "name": "volume_volume_optimal_clipped",
+      "passed": true,
+      "details": {
+        "actual": 1.759291886010284e-13,
+        "expected": 1.759291886010284e-13
+      }
+    },
+    {
+      "name": "uniform_linear_compliance",
+      "passed": true,
+      "details": {
+        "actual": 1.0962202712962177,
+        "expected": 1.0962202712962172
+      }
+    },
+    {
+      "name": "clipped_compliance_below_feasible_controls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "clipped_min_tip",
+      "passed": true,
+      "details": {
+        "actual": 1e-05,
+        "expected": 1e-05
+      }
+    },
+    {
+      "name": "clipped_volume_closed_form",
+      "passed": true,
+      "details": {
+        "actual": 1.866666666666667,
+        "expected": 1.8666666666666667
+      }
+    },
+    {
+      "name": "all_bvp_boundary_conditions",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_bvp_equilibrium_integral",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_bvp_residuals",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_unloaded_connected_branch",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "small_load_limit_uniform",
+      "passed": true,
+      "details": {
+        "actual": 0.00109622027128132,
+        "expected": 0.0010962202712962179
+      }
+    },
+    {
+      "name": "mesh_refinement_uniform",
+      "passed": true,
+      "details": {
+        "actual": 97.52692992187369,
+        "expected": 97.52693003227785
+      }
+    },
+    {
+      "name": "small_load_limit_quadratic_a1",
+      "passed": true,
+      "details": {
+        "actual": 0.0008012324146426399,
+        "expected": 0.0008012324146378426
+      }
+    },
+    {
+      "name": "mesh_refinement_quadratic_a1",
+      "passed": true,
+      "details": {
+        "actual": 72.22739290251519,
+        "expected": 72.22739288234858
+      }
+    },
+    {
+      "name": "small_load_limit_quadratic_a5",
+      "passed": true,
+      "details": {
+        "actual": 0.002461041040402957,
+        "expected": 0.0024610410413181518
+      }
+    },
+    {
+      "name": "mesh_refinement_quadratic_a5",
+      "passed": true,
+      "details": {
+        "actual": 105.94611727050736,
+        "expected": 105.94611727475106
+      }
+    },
+    {
+      "name": "small_load_limit_volume_optimal_clipped",
+      "passed": true,
+      "details": {
+        "actual": 0.0007509981776705245,
+        "expected": 0.0007509981777044738
+      }
+    },
+    {
+      "name": "mesh_refinement_volume_optimal_clipped",
+      "passed": true,
+      "details": {
+        "actual": 69.24304894457354,
+        "expected": 69.2430489482336
+      }
+    },
+    {
+      "name": "ivp_contact_y",
+      "passed": true,
+      "details": {
+        "actual": 0.32508976656782196,
+        "expected": 0.32508976640624565
+      }
+    },
+    {
+      "name": "ivp_free_end_moment",
+      "passed": true,
+      "details": {
+        "actual": -4.851168980413156e-10,
+        "expected": 0.0
+      }
+    },
+    {
+      "name": "uniform_elastica_first_integral",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "stress_similarity_0.25",
+      "passed": true,
+      "details": {
+        "actual": 9.074407030303828,
+        "expected": 9.074407030303828
+      }
+    },
+    {
+      "name": "deformation_similarity_0.25",
+      "passed": true,
+      "details": {
+        "actual": 0.24075797634171733,
+        "expected": 0.24075797634171733
+      }
+    },
+    {
+      "name": "stress_similarity_0.5",
+      "passed": true,
+      "details": {
+        "actual": 9.074407030303828,
+        "expected": 9.074407030303828
+      }
+    },
+    {
+      "name": "deformation_similarity_0.5",
+      "passed": true,
+      "details": {
+        "actual": 0.24075797634171733,
+        "expected": 0.24075797634171733
+      }
+    },
+    {
+      "name": "stress_similarity_1",
+      "passed": true,
+      "details": {
+        "actual": 9.074407030303828,
+        "expected": 9.074407030303828
+      }
+    },
+    {
+      "name": "deformation_similarity_1",
+      "passed": true,
+      "details": {
+        "actual": 0.24075797634171733,
+        "expected": 0.24075797634171733
+      }
+    },
+    {
+      "name": "stress_similarity_2",
+      "passed": true,
+      "details": {
+        "actual": 9.074407030303828,
+        "expected": 9.074407030303828
+      }
+    },
+    {
+      "name": "deformation_similarity_2",
+      "passed": true,
+      "details": {
+        "actual": 0.24075797634171733,
+        "expected": 0.24075797634171733
+      }
+    },
+    {
+      "name": "dwell_example",
+      "passed": true,
+      "details": {
+        "actual": 576.0000000000001,
+        "expected": 576.0
+      }
+    },
+    {
+      "name": "10000cycle_head_length",
+      "passed": true,
+      "details": {
+        "actual": 6.944444444444444,
+        "expected": 6.944444444444445
+      }
+    },
+    {
+      "name": "roughness_vanishes_as_pitch_reduces",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "physical_probability_not_assigned",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

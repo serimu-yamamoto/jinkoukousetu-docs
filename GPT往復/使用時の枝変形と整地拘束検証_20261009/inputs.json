@@ -1,0 +1,85 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "assumption_notice": "No material or ski acceptance probability. Moduli/loads below are sensitivity inputs, not 50 C measurements.",
+  "beam": {
+    "length_m": 0.0003,
+    "minimum_radius_m": 0.00001,
+    "reference_area_factor": 1.8666666666666667,
+    "profiles": [
+      "uniform",
+      "quadratic_a1",
+      "quadratic_a5",
+      "volume_optimal_clipped"
+    ],
+    "E_Pa": [
+      100000000,
+      300000000,
+      1000000000
+    ],
+    "F_N": [
+      0.000001,
+      0.00001,
+      0.00003,
+      0.0001
+    ],
+    "contact_fractions": [
+      0.5,
+      1
+    ],
+    "strain_diagnostic_level": 0.02,
+    "bvp_tolerance": 1e-7
+  },
+  "scale": {
+    "factors": [
+      0.25,
+      0.5,
+      1,
+      2
+    ],
+    "reference_mass_kg": 108000,
+    "solid_density_kg_m3": 1250,
+    "arms_per_particle": 4,
+    "number_only_handling_JPY_per_million": 1,
+    "processing_budget_JPY_kg": 100,
+    "production_time_hours": 1000
+  },
+  "grooming": {
+    "course_length_m": 50,
+    "closure_s": 3600,
+    "reserved_deploy_and_QA_s": 1200,
+    "working_lengths_m": [
+      0.4,
+      1,
+      2
+    ],
+    "frequencies_Hz": [
+      20,
+      30,
+      50
+    ],
+    "reference_cycles": [
+      100,
+      1000,
+      10000
+    ],
+    "amplitude_m": 0.0025,
+    "g_m_s2": 9.80665,
+    "course_width_m": 40,
+    "head_widths_m": [
+      10,
+      20,
+      40
+    ]
+  },
+  "roughness": {
+    "sphere_pitch_over_diameter": [
+      0.5,
+      0.25,
+      0.1,
+      0.05,
+      0.025
+    ],
+    "sphere_radius_m": 0.00001
+  }
+}

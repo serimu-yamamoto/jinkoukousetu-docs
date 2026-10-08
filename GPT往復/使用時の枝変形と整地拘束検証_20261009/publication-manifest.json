@@ -1,0 +1,107 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "a2497f3384170053dc3343e005cf594212be48bd",
+  "cycle": 39,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 35,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 32398,
+      "sha256": "134f8e774a2551ea425f6651abc8a8803bbe6ea9a564398b13dfad724d87e43d"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 25459,
+      "sha256": "55e0f97117c64cfe031931e0dd555e6816dccb636882a58f30fccb074a0dc331"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 96485,
+      "sha256": "3ceec9315cebff54c22cb77c766184c0f9095489c307da379e069b40532cbe38"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009.md",
+      "bytes": 17469,
+      "sha256": "c3c46fcdbad87975d5d30760de1ad10cb3dd99e003394ae7e3cc92edddd2b8af"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/beam_cases.csv",
+      "bytes": 34481,
+      "sha256": "13a3c46f81653bc9f182d392eb94a4ca42ba75c38ec88427af56501dff0f568f"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/beam_shapes.csv",
+      "bytes": 91144,
+      "sha256": "83823e0b2e6275650f8cb4a1cb8f57475b990855c9415fe3757379d14582a1c4"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/calculate.py",
+      "bytes": 11428,
+      "sha256": "64953f6690bdfd29e0b75bf7c7fae067a75be4cb32a537bb815f7df6295ec9b8"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/figure1_service_arm_profiles.png",
+      "bytes": 258736,
+      "sha256": "af7e805d6d3f5f2530a24a3b30947c63ecafeb013a7d16608e38c2c750bdd41a"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/figure2_residence_and_scaling.png",
+      "bytes": 168909,
+      "sha256": "473dcd77be3f9efff99fbe791b37ae5c883a2e37dc7180d0ee21b5eeb261bbad"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/grooming_residence.csv",
+      "bytes": 1931,
+      "sha256": "e7b1b4805d5dd12175accae97544b656353fe1f8c1c77cc028300fe6c2cc7a4a"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/inputs.json",
+      "bytes": 1589,
+      "sha256": "da8c0f5193d6dedfcd7462117ae4a61d7b4fd26b012777c14f204bc18ac8b10b"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/model.md",
+      "bytes": 6468,
+      "sha256": "93d3e0baa77bc79be748ca7c8a6ed1c071f7fe7c1db2b2de1693f1d2cdf29a17"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/plot.py",
+      "bytes": 5109,
+      "sha256": "9c2dd25a94356b5ad9325fdf3d82a79563e2cfdd9df83861a5d546512d703314"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/README.md",
+      "bytes": 1332,
+      "sha256": "542b22b07f1f803b6affb68cd210a1e8c43e9d2af34d434f3cee90f37f1eb8f6"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/results.json",
+      "bytes": 111161,
+      "sha256": "061b45b0cb3ce2828f7ac6a1f222f74e23bba4bb5b6fc02fb130a709d63d44e4"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/sources.json",
+      "bytes": 1916,
+      "sha256": "3734e6d24be563bea7dbf76cfd33efa7f7a3271ad9e659ab0c94f61667f31919"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/sources.md",
+      "bytes": 3225,
+      "sha256": "f892deaf618baa46ae23041c99b4cc22eb88141ee64ebe170f2aee6ebc58ac9d"
+    },
+    {
+      "path": "GPT往復/使用時の枝変形と整地拘束検証_20261009/validation.json",
+      "bytes": 5781,
+      "sha256": "7fbd1863f5c85e5a4abb8950088e3fed67aa87768a4a54c68ea2544c0a752f60"
+    }
+  ]
+}
