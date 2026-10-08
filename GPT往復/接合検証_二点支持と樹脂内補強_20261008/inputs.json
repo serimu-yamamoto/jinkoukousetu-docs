@@ -1,0 +1,96 @@
+{
+  "cycle": 20,
+  "base_commit": "2ee267763fa5f80814a0af98e6d37c4f47b0c7b3",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "type": "Uncalibrated local support and material-budget calculations"
+  },
+  "branch": {
+    "diameter_um": 2,
+    "span_um": 20,
+    "modulus_MPa": 300,
+    "force_gamma_N_m": 0.06794390594182892,
+    "force_multiplier": 1,
+    "notes": "Inherited ideal circular branch, assumed E, prescribed F=m*pi*gamma*d. Not measured meniscus force or ski load.",
+    "force_temperature_C": 50
+  },
+  "joints": {
+    "equal_area_disk_radii_um": [
+      2,
+      5,
+      10
+    ],
+    "layer_thicknesses_um": [
+      1,
+      3
+    ],
+    "wet_moduli_MPa": [
+      0.3,
+      3,
+      30
+    ],
+    "half_separations_um": [
+      0,
+      5,
+      10,
+      20
+    ],
+    "carrier_thicknesses_um": [
+      2,
+      5,
+      10
+    ],
+    "carrier_width_um": 20,
+    "carrier_modulus_MPa": 300,
+    "carrier_density_kg_m3": 1000,
+    "pad_density_kg_m3": 1000,
+    "notes": "All joint/carrier inputs hypothetical. Two equal disks have radius a/sqrt(2); overlapping disks excluded. Normal spring pads include rotation; Timoshenko arms include bending and shear. Outer anchors rigid within a hypothetical parent grain; no global-grain support proof or adhesion failure model.",
+    "carrier_poisson_ratio": 0.35,
+    "shear_correction_factor": 0.8333333333333334
+  },
+  "grain": {
+    "equivalent_diameter_um": 500,
+    "apparent_density_kg_m3": 300,
+    "support_units": [
+      100,
+      1000
+    ],
+    "total_added_fraction_cap": 0.01,
+    "notes": "Unmeasured parent grain and node counts. Volumes do not prove collision-free 3D packing. Cap applies all added support mass relative to final grain."
+  },
+  "operation": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "closure_minutes": 60,
+    "processing_minutes": 40,
+    "closures_per_year": 240,
+    "reform_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ]
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_material_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "note": "Inherited pretax hypothetical envelope, not a quote; 2% is a purchased replacement assumption, never an environmental release allowance. Equipment tax-inclusive JPY200M requirement is separate and unproven."
+  },
+  "criteria": {
+    "relative_fixed_deflection_margin": 0.1,
+    "normal_strain_diagnostic_limit": 0.1,
+    "rotation_diagnostic_limit_rad": 0.1,
+    "slenderness_diagnostic_min": 10
+  },
+  "cost": {
+    "initial_and_replacement_unit_JPY_kg": 500,
+    "notes": "Hypothetical equal price for added pad/carrier; excludes joining equipment/process and stock. Density rises if mass is added; not free reinforcement."
+  },
+  "sources_accessed": "2026-10-08"
+}

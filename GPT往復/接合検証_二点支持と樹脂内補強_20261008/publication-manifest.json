@@ -1,0 +1,75 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "2ee267763fa5f80814a0af98e6d37c4f47b0c7b3",
+  "cycle": 20,
+  "normalization": "UTF-8 text CRLF to LF; PNG raw bytes; manifest excludes itself",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第20巡_濡れた接合部の二点支持と樹脂内補強_20261008.md",
+      "bytes": 14567,
+      "sha256": "aa5e2b3deb2644e4177314b4e7e8f363c07789ebfdcd40c1f34a1b15cb58abcd"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 13024,
+      "sha256": "d6f06a736149bf59754d23f4955508780fe4b8db6254905ff44eee11885214fa"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/README.md",
+      "bytes": 1704,
+      "sha256": "fd9f877697450c016ca2ee99c44d2d2318ad857079c66bf3e7fbb61acbb90a96"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/calculate.py",
+      "bytes": 9818,
+      "sha256": "41af3027f4359892206b39b045f5797e8bc54f81cbde5c1a08a0084ec59c2e22"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/inputs.json",
+      "bytes": 2932,
+      "sha256": "0f0db518527840caa8aa5a30b57e54928bd07c9f50971a88f0b2ba506ff95fdd"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/joint_topology.png",
+      "bytes": 69988,
+      "sha256": "73592db7f323aa01ea97c75e5a2e33bdf5b890e7dc8da2a764e302352cd47c1f"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/plot.py",
+      "bytes": 3413,
+      "sha256": "0d3967b666981871d3ab4bc06bc3300186b5dfa01bb6fc4abf576969cfaa0734"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/results.json",
+      "bytes": 360779,
+      "sha256": "08d4880e1b18c450e1a04c9170eb53be8ba30804cb1b6ea4cfe33234e368ce8b"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/sources.json",
+      "bytes": 3892,
+      "sha256": "700e23ccab712be1e8d55c9026d34d5c7b61dcf627cb0abcb8347bc024643d5c"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/support_comparison.png",
+      "bytes": 151700,
+      "sha256": "dbb30b52cafc10cd2b3321afc4e444abf9ef84ffaf86c15ba4f211440e28681f"
+    },
+    {
+      "path": "GPT往復/接合検証_二点支持と樹脂内補強_20261008/validation.json",
+      "bytes": 20699,
+      "sha256": "b6fe8377aa35ce0141fe12d8d95ed0b43d9fc92dad26dcb0a1da50974871c22e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18977,
+      "sha256": "c1e031decd34033534f572fc76e7554170e5e393bfa4055195ded5fab9ce48c0"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 64044,
+      "sha256": "8e52ef8000149678c9316866f6722f4fc8014a3b21065aad5d90fcefe8bde0c3"
+    }
+  ]
+}

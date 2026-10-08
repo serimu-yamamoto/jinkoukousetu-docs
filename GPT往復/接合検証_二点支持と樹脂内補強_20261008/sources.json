@@ -1,0 +1,62 @@
+{
+  "accessed": "2026-10-08",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Green Bionanocomposites Based on Polyhydroxybutyrate and Filled with Cellulose Nanocrystals: Melting Processing and Characterization",
+      "url": "https://link.springer.com/article/10.1007/s10924-023-02835-9",
+      "kind": "Primary peer-reviewed experimental article",
+      "read": "Full HTML methods/results; table links returned main text, no separate numeric tables used",
+      "use": "Melt processing, low CNC loading, uptake below 1 wt% after 1056 h immersion, DMA versus wet creep distinction",
+      "limits": "PHB P338, not PHBH. Immersion temperature not established from accessible method text. Thick specimens and dry dynamic tests do not validate wet microscale joints."
+    },
+    {
+      "id": "S2",
+      "title": "Effects of Cellulose Nanocrystals and Cellulose Nanofibers on the Structure and Properties of Polyhydroxybutyrate Nanocomposites",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6960622/",
+      "doi": "10.3390/polym11122063",
+      "kind": "Primary peer-reviewed experiment 2019",
+      "read": "Full PMC text",
+      "use": "Solution-cast PHB comparison; arithmetic audit of textual 31.2 to 27.1 MPa versus claimed 3.5% decrease",
+      "limits": "Do not infer corrected experimental data from arithmetic. Preparation uses sulfuric acid/chloroform; no field recipe adopted. No wet 50C joint test."
+    },
+    {
+      "id": "S3",
+      "title": "セルロースナノファイバー補強によるバイオマスプラスチック用途拡大の推進：1G-2101終了研究成果報告書",
+      "url": "https://www.erca.go.jp/suishinhi/seika/db/pdf/end_houkoku/1G-2101.pdf",
+      "kind": "Primary project final report, FY2021–2023, Kyoto University and collaborators",
+      "read": "PDF extracted text, printed pp10–11,14,17 and relevant methods; raster tables not read",
+      "use": "PHBH/CNF recycling and thermal trends; internal biodegradation and porous processing are distinct evidence",
+      "limits": "Summary outcomes not joint constants. No numeric HDT table import; 5 recycling cycles do not validate 240 maintenance operations/year. Do not extrapolate marine film lifetime to slope."
+    },
+    {
+      "id": "S4",
+      "title": "The effect of different liquids on paper strength demonstrates the central role of hydrogen bonding",
+      "url": "https://www.nature.com/articles/s41598-026-69766-y",
+      "doi": "10.1038/s41598-026-69766-y",
+      "kind": "Primary experimental article, published 2026-09-09",
+      "read": "Search-indexed publisher body; direct open redirected to inaccessible identity endpoint",
+      "use": "Water weakening of additive-free paper; contact interactions require wet-state evidence",
+      "limits": "No paper-strength number used as grain or polymer-joint property; wetting and chemistry not interchangeable."
+    },
+    {
+      "id": "S5",
+      "title": "SWP synthetic pulp [polyethylene]",
+      "url": "https://www.mitsuichemicals.cn/content/dam/mitsuichemicals/sites/mci/documents/cn/sites/default/files/media/document/2018/swp.pdf.coredownload.inline.pdf",
+      "kind": "Manufacturer product document",
+      "read": "Search-indexed manufacturer description; current SWP entry also inspected in earlier cycles",
+      "use": "Thermal adhesion as a manufacturing route, not proof of retained branched geometry",
+      "limits": "No 50C wet-joint strength, price or full grain qualification extracted."
+    }
+  ],
+  "not_adopted": [
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acs.biomac.1c00249",
+      "reason": "Direct article access 403; external abstract on reactive paper binders not used to select a ski material"
+    },
+    {
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2025/su/d4su00295d",
+      "reason": "Direct HTML 403; not used for numerical inputs"
+    }
+  ]
+}
