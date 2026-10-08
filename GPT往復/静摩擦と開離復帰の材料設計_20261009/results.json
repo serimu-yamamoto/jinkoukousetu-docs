@@ -1,0 +1,116 @@
+{
+  "cycle": 59,
+  "physical_tests": 0,
+  "success_probability": null,
+  "published_static_rows": 13,
+  "published_static_values": 52,
+  "published_mu_min": 0.211,
+  "published_mu_max": 0.768,
+  "cam": {
+    "k_N_m": 17.375573285869734,
+    "Fa_uN": 4.269041514902965,
+    "mu_max_for_1um": 0.6055331495434545,
+    "at_mu_06": {
+      "E_MPa": 80,
+      "mu_static": 0.6,
+      "stiffness_N_m": 17.375573285869734,
+      "forward_finite": true,
+      "return_direction": true,
+      "residual_um": 0.9827684979751803,
+      "E_required_MPa": 78.62147983801441,
+      "pressure_to_start_at_full_stroke_kPa": 11.120366902956622
+    },
+    "at_published_max": {
+      "E_MPa": 80,
+      "mu_static": 0.768,
+      "stiffness_N_m": 17.375573285869734,
+      "forward_finite": true,
+      "return_direction": true,
+      "residual_um": 1.8723434314871974,
+      "E_required_MPa": 149.78747451897576,
+      "pressure_to_start_at_full_stroke_kPa": 21.186216254770805
+    },
+    "at_mu_08": {
+      "E_MPa": 80,
+      "mu_static": 0.8,
+      "stiffness_N_m": 17.375573285869734,
+      "forward_finite": true,
+      "return_direction": true,
+      "residual_um": 2.2112291204441568,
+      "E_required_MPa": 176.89832963553252,
+      "pressure_to_start_at_full_stroke_kPa": 25.020825531652406
+    }
+  },
+  "opening": {
+    "k_N_m": 20.0,
+    "baseline": {
+      "E50_MPa": 100,
+      "residual_pressure_kPa": 1,
+      "load_fraction": 1,
+      "adhesion_multiplier": 1,
+      "required_separation_um": 10,
+      "stroke_available": true,
+      "end_force_margin_uN": 33.23095848509703,
+      "available_work_nJ": 1.9999999999999998,
+      "required_work_nJ": 0.6676904151490296,
+      "necessary_force_condition": true,
+      "energy_only_condition": true
+    },
+    "half_E_counterexample": {
+      "E50_MPa": 50,
+      "residual_pressure_kPa": 1,
+      "load_fraction": 1,
+      "adhesion_multiplier": 1,
+      "required_separation_um": 10,
+      "stroke_available": true,
+      "end_force_margin_uN": -16.76904151490297,
+      "available_work_nJ": 0.9999999999999999,
+      "required_work_nJ": 0.6676904151490296,
+      "necessary_force_condition": false,
+      "energy_only_condition": true
+    },
+    "energy_only_counterexample": {
+      "E50_MPa": 100,
+      "residual_pressure_kPa": 3,
+      "load_fraction": 1,
+      "adhesion_multiplier": 1,
+      "required_separation_um": 10,
+      "stroke_available": true,
+      "end_force_margin_uN": -91.76904151490298,
+      "available_work_nJ": 1.9999999999999998,
+      "required_work_nJ": 1.9176904151490295,
+      "necessary_force_condition": false,
+      "energy_only_condition": true
+    },
+    "complete_pressure_kPa": 1.5316953357615521,
+    "start_pressure_kPa": 4.731695335761553,
+    "closure_pressure_no_adhesion_kPa": 4.8,
+    "E_required_for_baseline_MPa": 66.76904151490298,
+    "root_strain_proxy_at_preload": 0.03125,
+    "energy_per_grain_nJ": 7.999999999999999
+  },
+  "material_dimensions": {
+    "thermal_one_sided_120um_23to50_um": 0.5508000000000001,
+    "ideal_volume_addition_water_one_sided_120um_um": 0.4828544902331977,
+    "sum_only_if_same_gap_closing_sign_um": 1.0336544902331979,
+    "measured_gap_change": null
+  },
+  "cost": {
+    "grain_count": 3429460598986.378,
+    "added_beam_volume_m3": 5.6890635984465225,
+    "additional_mass_1120_kg": 6371.751230260105,
+    "additional_mass_1010_kg": 5745.9542344309875
+  },
+  "rows": {
+    "cam": 30,
+    "source_counterexamples": 52,
+    "static_kinetic": 17,
+    "opening": 360,
+    "cost": 6,
+    "overburden": 9
+  },
+  "overburden": {
+    "critical_mean_density_kg_m3_at_045m_30deg": 400.7823328131314,
+    "force_chains_water_pressure_not_included": true
+  }
+}

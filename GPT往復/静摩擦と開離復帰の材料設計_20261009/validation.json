@@ -1,0 +1,32 @@
+{
+  "kind": "algebra and transcription checks, not physical validation",
+  "count": 25,
+  "checks": [
+    "overburden doubles with bulk density",
+    "600 kg m3 deepest bed defeats baseline opener",
+    "source table 13 rows 52 coefficients",
+    "source min and max verified against table",
+    "published maximum is not universally assigned",
+    "H58 stiffness independent reproduction",
+    "zero friction dry cam reversible",
+    "static threshold satisfies return force",
+    "mu .6 below threshold but .768 above",
+    "mu 1 has no reciprocal cam interval",
+    "doubling E halves unsaturated residual",
+    "opening nominal k20",
+    "opening baseline endpoint force",
+    "full-path baseline passes necessary conditions",
+    "energy alone gives false pass at 3kPa",
+    "20um bridge exceeds 15um free travel",
+    "halved modulus fails baseline",
+    "higher background pressure narrows release",
+    "required modulus equality",
+    "force integral equals spring energy",
+    "four modules work sum",
+    "mass-volume relation",
+    "thermal one-side expansion",
+    "water volume proxy inversion",
+    "no probability manufactured"
+  ],
+  "passed": true
+}

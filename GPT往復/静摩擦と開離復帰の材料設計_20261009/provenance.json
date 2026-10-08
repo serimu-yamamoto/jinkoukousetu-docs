@@ -1,0 +1,41 @@
+{
+  "cycle": 59,
+  "base_commit": "a7a18bcc262908403ce0d0ddfd528f97acd54113",
+  "checked_at": "2026-10-09",
+  "physical_tests": 0,
+  "success_probability": null,
+  "source_pdfs": [
+    {
+      "temporary_name": "static.pdf",
+      "bytes": 2907402,
+      "sha256": "bba5cdaf5e7fc84db5e19376c8656d35a2c98d76223006ee92b2a02857132558",
+      "republished": false
+    },
+    {
+      "temporary_name": "tpu50.pdf",
+      "bytes": 6000949,
+      "sha256": "9db79b01742315ab588489d3a050e8bbdec621b9f4345cda923d19726950d3df",
+      "republished": false
+    }
+  ],
+  "source_transcription": {
+    "file": "published_static_water.csv",
+    "doi": "10.5604/01.3001.0014.0835",
+    "table": 3,
+    "printed_page": 25,
+    "rows": 13,
+    "friction_values": 52,
+    "visually_checked": true
+  },
+  "figures": {
+    "generated": 3,
+    "physical_experiment": false,
+    "schematic_is_fitted_CAD": false
+  },
+  "claude": {
+    "new_remote_commits_at_start": false,
+    "receipt_confirmed": false,
+    "reply_confirmed": false
+  },
+  "local_policy": "Delete verified temporary clone including git history; retain protected root connection guide and user settings."
+}

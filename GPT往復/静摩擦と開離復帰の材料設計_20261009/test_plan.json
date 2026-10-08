@@ -1,0 +1,76 @@
+{
+  "status": "planned_not_executed",
+  "physical_tests": 0,
+  "success_probability": null,
+  "comparators": [
+    "H58-C same material geometry",
+    "H59 open-first",
+    "separate PEBA restoring skeleton plus local friction faces",
+    "viscoelastic-core variant",
+    "measured groomed fresh snow"
+  ],
+  "stages": [
+    {
+      "id": "material_pair",
+      "measure": [
+        "50 C dry, immersion, drained and contaminated static friction after dwell 1 min, 9 min and operating idle durations",
+        "kinetic friction separately at actual proposed contact speeds",
+        "matching-state flexural relaxation and fatigue, not tensile strength or catalog room-temperature E",
+        "prestrain retention under 4-5 h hold and weather ageing",
+        "Several normal loads to distinguish apparent static friction from an additive adhesion term; avoid counting wet adhesion twice"
+      ],
+      "gate": "actual combined properties satisfy mechanism bounds with measurement uncertainty and margin; no unmeasured product substitution"
+    },
+    {
+      "id": "open_then_return",
+      "measure": [
+        "3D path and load mapping lambda",
+        "normal separation before tangential return",
+        "adhesion force curve and liquid bridge rupture distance",
+        "residual pressure including force chains",
+        "total force-displacement loop and rebound energy"
+      ],
+      "gate": "entire path reaches recovered position after unload; bridge breaks before tangential reset; repeat at degraded state"
+    },
+    {
+      "id": "full_grain_bed",
+      "measure": [
+        "450 mm entire bed after 300 mm gouging",
+        "30 degree downslope retention and wet bed density",
+        "same ski, edge, speed and loads vs groomed fresh snow; penetration, peak, release length, glide, vibration, stop/restart",
+        "winter snow interface shear, drainage and additional melting vs natural ground"
+      ],
+      "gate": "predeclared snow-reference acceptance ranges; no exposed mat substitute"
+    },
+    {
+      "id": "weather_recovery",
+      "measure": [
+        "rain and sediment segregation",
+        "washed first pass without transfer film",
+        "grooming plus collection and grading throughput within 60 minute closure",
+        "ultraviolet and repeated wear; mass loss and airborne/waterborne fragments"
+      ],
+      "gate": "functional recovery plus safety and cost, not redistribution alone"
+    }
+  ],
+  "stop_or_branch": [
+    {
+      "condition": "H58 static friction exceeds derived limit at measured E",
+      "action": "change path or material pair, do not count kinetic friction as substitute"
+    },
+    {
+      "condition": "H59 needs >15 um separation or local residual pressure exceeds computed limit",
+      "action": "redesign opening stroke/loading route or compare non-sliding damping; do not increase preload without force, strain and cost audit"
+    },
+    {
+      "condition": "dispersion blend needs continually renewed transfer film",
+      "action": "test mechanically retained surface part and capture of wear; reject uncontrolled outdoor release"
+    },
+    {
+      "condition": "material meets mean but loses margin under swelling/ageing",
+      "action": "include conditioned tolerances and failure range before sample scaling"
+    }
+  ],
+  "probability_definition": "Independent lots and prespecified realistic operating scenarios; all required functional/safety gates jointly satisfied. No estimate from parameter grids or literature rows.",
+  "authorization": "No purchase, laboratory operation, supplier contact or communication outside GitHub performed."
+}

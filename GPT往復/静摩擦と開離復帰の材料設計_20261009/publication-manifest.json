@@ -1,0 +1,154 @@
+{
+  "cycle": 59,
+  "base_commit": "a7a18bcc262908403ce0d0ddfd528f97acd54113",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第59巡_濡れた静摩擦を越える開離復帰と材料分担_20261009.md",
+      "bytes": 15003,
+      "sha256": "06f3155a3782a239efb38eef9b65a37e41d6fbf0930fe4ea562e747a3a85f4b1"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 40577,
+      "sha256": "459c170f47dc11338a2f6c1bf09b0cc340723a230187962aa32c3fe4bdb9fdb5"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/additional_opening_cost.csv",
+      "bytes": 614,
+      "sha256": "745d3e2a88ee02d27577bc3c78337243bd5043e600b3bdc3dd360d115c540e93"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/audit.py",
+      "bytes": 4171,
+      "sha256": "7d572a016d14a892b56d3731debf6b6799c60d13af73efb592b4ebc19d3b7bc0"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/bed_overburden.csv",
+      "bytes": 624,
+      "sha256": "b65fe92bb739980f3cf0fb05d663539fe09281e7127d766a66fbd02bdd8b363a"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/calculate.py",
+      "bytes": 9288,
+      "sha256": "11ae1861a9d8efe0f948234dcf8fb2df54ac67264d76d2423d6ee94ccaeb88ee"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/cam_material_bounds.csv",
+      "bytes": 2395,
+      "sha256": "1769a1cf2aa3c82863b32c714fba787610beb311af449fa87d555b11328b47a0"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/document-audit.json",
+      "bytes": 2962,
+      "sha256": "00d7a2c2fafda757013ef5b63d73dfc83c50117b50fc5994b6ea42b3aa766616"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/draw.py",
+      "bytes": 5178,
+      "sha256": "003e98c53d8249df233e229ea0da7ed89da068109497e5cb5f900f3df112008c"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/figure1_material_bounds.png",
+      "bytes": 93041,
+      "sha256": "c4d71e4533be74e4edb4faa5800ee04fe1a261e34153a610c9c0fa5b6a997db8"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/figure1_material_bounds.svg",
+      "bytes": 79231,
+      "sha256": "d97c195322f98046d794b6646efefae90f12592f96db19da9cf2438bed0f99e7"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/figure2_opening_force_energy.png",
+      "bytes": 97661,
+      "sha256": "86f732cc6f24e711868eb0196990c7a908a82a4a8780501c82e59047aeaf40ff"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/figure2_opening_force_energy.svg",
+      "bytes": 77400,
+      "sha256": "525ac0aaac450814b240aa51f6ab1dcc3f148c4a2c71c40c1b556ed6d7b35887"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/figure3_concept_cost.png",
+      "bytes": 106288,
+      "sha256": "bb82b218b3effaede381bfa9de65568cd61f005f73ff1d867d717f2b2643053f"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/figure3_concept_cost.svg",
+      "bytes": 86115,
+      "sha256": "7686fe91e9e8040ddd1734cd6443b2b849c7cc0f890d46d3629458921e27c7be"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/inputs.json",
+      "bytes": 2098,
+      "sha256": "f7bbc2e177c3ac7e2d5cd98892616ca6792934de32d5d5e7b1353a3d3d74955c"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/model.md",
+      "bytes": 3302,
+      "sha256": "84839e6cbb4afe56641be074da2211005bb06d50bf3f63df3a1ce21a38a82b0e"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/opening_force_path.csv",
+      "bytes": 27760,
+      "sha256": "44d4a74746227f4fa4a436ccd55e295b3445021ec953722e55f7d3ad3b476291"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/provenance.json",
+      "bytes": 1151,
+      "sha256": "86673b11bf29ccda84bcd9e1f130a20a649a4e2c29dc209329f03530b50cf5be"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/published_counterexamples.csv",
+      "bytes": 2953,
+      "sha256": "753bd41beee9669c86d7648a94e6813aeadd62f9ea92010265045050d9b9d63e"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/published_static_water.csv",
+      "bytes": 502,
+      "sha256": "2a55eb6ffb44e019a74d4e587bd61847f6319a7b7bc87f9c5b2eac7835651c0c"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/README.md",
+      "bytes": 1692,
+      "sha256": "922184fe3d07aa95d4e8767a623daf369c7ee3366e5d1102587a208834d30beb"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/results.json",
+      "bytes": 3682,
+      "sha256": "ec5ca62722050806e730cb70bdec430fcc4ccdaa5a38051c3e289485842de9ba"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/sources.md",
+      "bytes": 2854,
+      "sha256": "f814ba9ae30be30be6dd4acc9eb35d9902695b8b3314f02330a915e3248afb99"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/static_kinetic_separation.csv",
+      "bytes": 809,
+      "sha256": "ccc3916e5933f239cb4af20935b35d62771892adb15216f6201297b0b926818d"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/test_plan.json",
+      "bytes": 3626,
+      "sha256": "340e9047f0fa61d35f7826d1ba1ad7e8f4d69f3539e4d78628c786bd3415d81c"
+    },
+    {
+      "path": "GPT往復/静摩擦と開離復帰の材料設計_20261009/validation.json",
+      "bytes": 1168,
+      "sha256": "0114a005f55d4f25928cf3f637ae355d53bc0760337b96c1671fd55bc3f8a168"
+    },
+    {
+      "path": "README.md",
+      "bytes": 47998,
+      "sha256": "49eb1b52ad2d62b8bcc6c209bba853b7854e4fab93a5904cb695c3bd96e07bb7"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 121736,
+      "sha256": "3eb2bc62df6fbb10ca44f40cdf19cdeaabd50951718816cf6e5fbcd25a1500a6"
+    }
+  ]
+}
