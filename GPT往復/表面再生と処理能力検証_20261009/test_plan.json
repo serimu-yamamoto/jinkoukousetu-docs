@@ -1,0 +1,57 @@
+{
+  "status": "NOT_EXECUTED",
+  "physical_tests": 0,
+  "success_probability": null,
+  "stage_A": {
+    "protocols": [
+      "H55-A renewed contact layer",
+      "H55-B bound photoactive comparison",
+      "untreated sham-processing control"
+    ],
+    "states": [
+      "new",
+      "known wear",
+      "renewal or sham after wear"
+    ],
+    "water": [
+      "dry",
+      "sprinkled",
+      "after drainage"
+    ],
+    "independent_lots": 3,
+    "temperature_surface_C": 50,
+    "condition_cells": 81,
+    "replicates": "Determine after measurement variability is known; repeated strokes are not independent specimens",
+    "primary_outcomes": [
+      "mass balance",
+      "surface geometry",
+      "friction against UHMWPE including restart",
+      "interfacial detachment",
+      "extractables"
+    ],
+    "reference": "Fresh groomed snow measured in its own stable snow temperature range; do not heat real snow to 50 C",
+    "loads_speeds": "Initially one matched protocol; then broaden to actual use range; no prescribed coefficient success threshold"
+  },
+  "stage_B": [
+    "actual grain geometry",
+    "branch recovery",
+    "cross-shear wear",
+    "wet adhesion and sand/mud transition",
+    "edge peak and release",
+    "fragments"
+  ],
+  "stage_C": [
+    "100g then 1kg",
+    "uniform exposure",
+    "kg per hour including handling",
+    "qualified functional body mass yield",
+    "water energy costs and queue"
+  ],
+  "stage_D": [
+    "full usable depth",
+    "summer rain and recovery",
+    "winter shear and meltwater drainage",
+    "comparison with natural-ground snow control"
+  ],
+  "decision": "All use objectives conjunctive; preregister tolerances against snow variability. No success probability estimated from cell pass rate."
+}

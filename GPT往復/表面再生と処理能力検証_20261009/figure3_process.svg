@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="782.64pt" height="396.962344pt" viewBox="0 0 782.64 396.962344" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T07:21:37.597975</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396.962344
+L 782.64 396.962344
+L 782.64 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 41.043172 141.2064
+L 257.639471 141.2064
+Q 263.054379 141.2064 263.054379 135.792
+L 263.054379 51.192
+Q 263.054379 45.7776 257.639471 45.7776
+L 41.043172 45.7776
+Q 35.628264 45.7776 35.628264 51.192
+L 35.628264 135.792
+Q 35.628264 141.2064 41.043172 141.2064
+z
+" clip-path="url(#pc43803c7e7)" style="fill: #e8f2f1; stroke: #315c68; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 294.86696 141.2064
+L 511.46326 141.2064
+Q 516.878167 141.2064 516.878167 135.792
+L 516.878167 51.192
+Q 516.878167 45.7776 511.46326 45.7776
+L 294.86696 45.7776
+Q 289.452053 45.7776 289.452053 51.192
+L 289.452053 135.792
+Q 289.452053 141.2064 294.86696 141.2064
+z
+" clip-path="url(#pc43803c7e7)" style="fill: #e8f2f1; stroke: #315c68; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 548.690749 141.2064
+L 765.287048 141.2064
+Q 770.701956 141.2064 770.701956 135.792
+L 770.701956 51.192
+Q 770.701956 45.7776 765.287048 45.7776
+L 548.690749 45.7776
+Q 543.275841 45.7776 543.275841 51.192
+L 543.275841 135.792
+Q 543.275841 141.2064 548.690749 141.2064
+z
+" clip-path="url(#pc43803c7e7)" style="fill: #e8f2f1; stroke: #315c68; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 548.690749 310.4064
+L 765.287048 310.4064
+Q 770.701956 310.4064 770.701956 304.992
+L 770.701956 220.392
+Q 770.701956 214.9776 765.287048 214.9776
+L 548.690749 214.9776
+Q 543.275841 214.9776 543.275841 220.392
+L 543.275841 304.992
+Q 543.275841 310.4064 548.690749 310.4064
+z
+" clip-path="url(#pc43803c7e7)" style="fill: #e8f2f1; stroke: #315c68; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 294.86696 310.4064
+L 511.46326 310.4064
+Q 516.878167 310.4064 516.878167 304.992
+L 516.878167 220.392
+Q 516.878167 214.9776 511.46326 214.9776
+L 294.86696 214.9776
+Q 289.452053 214.9776 289.452053 220.392
+L 289.452053 304.992
+Q 289.452053 310.4064 294.86696 310.4064
+z
+" clip-path="url(#pc43803c7e7)" style="fill: #e8f2f1; stroke: #315c68; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 41.043172 310.4064
+L 257.639471 310.4064
+Q 263.054379 310.4064 263.054379 304.992
+L 263.054379 220.392
+Q 263.054379 214.9776 257.639471 214.9776
+L 41.043172 214.9776
+Q 35.628264 214.9776 35.628264 220.392
+L 35.628264 304.992
+Q 35.628264 310.4064 41.043172 310.4064
+z
+" clip-path="url(#pc43803c7e7)" style="fill: #fff1d6; stroke: #315c68; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(116.295775 83.170906)">1 | On slope</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(93.79304 96.373914)">Redistribute + drain</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(72.028509 109.576922)">Add qualified reserve grains</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(351.227923 83.170906)">2 | Removed batch</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(328.725188 96.373914)">Check shape + wet friction</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(319.447376 109.576922)">Do not assume perfect sorting</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(602.287102 83.170906)">3 | Off-slope factory</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(591.628274 96.373914)">Renew contact material</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(591.562961 109.576922)">Reject broken skeletons</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(605.399758 252.370906)">4 | Re-qualification</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(583.356789 265.573914)">50°C + rain + repeat wear</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(577.767414 278.776922)">Edge force and short release</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(347.31347 252.370906)">5 | Qualified reserve</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(328.854095 265.573914)">Return within usable depth</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(328.630657 278.776922)">Track mass and actual cost</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(113.710775 252.346414)">Concept H55</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(80.061087 265.549422)">Mass loss needs material</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(55.717572 278.75243)">Light alone does not refill grooves</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 263.022073 95.184
+Q 272.868443 95.184 280.925959 95.184
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 276.525959 92.984
+L 280.925959 95.184
+L 276.525959 97.384
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 516.845861 95.184
+Q 526.692231 95.184 534.749747 95.184
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 530.349747 92.984
+L 534.749747 95.184
+L 530.349747 97.384
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 656.988899 144.563467
+Q 656.988899 176.401593 656.988899 206.450865
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 659.188899 202.050865
+L 656.988899 206.450865
+L 654.788899 202.050865
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 536.539513 264.384
+Q 526.693143 264.384 518.635627 264.384
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 523.035627 266.584
+L 518.635627 264.384
+L 523.035627 262.184
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 401.172326 311.918702
+Q 211.951802 326.987951 24.514487 341.915188
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 29.075252 343.758941
+L 24.514487 341.915188
+L 28.725948 339.372828
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 20.737269 340.214444
+Q 20.737269 218.699369 20.737269 98.973149
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 18.537269 103.373149
+L 20.737269 98.973149
+L 22.937269 103.373149
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 22.734644 95.184
+Q 26.488683 95.184 28.453867 95.184
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 24.053867 92.984
+L 28.453867 95.184
+L 24.053867 97.384
+" style="fill: none; stroke: #315c68; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle" x="403.16511" y="24.12" transform="rotate(-0 403.16511 24.12)">H55: recover structure, renew lost surface, verify function</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start" x="11.16" y="387.36" transform="rotate(-0 11.16 387.36)">Concept only. Shape recovery, wear resistance and ski glide are separate acceptance tests.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc43803c7e7">
+   <rect x="7.2" y="7.2" width="768.24" height="372.24"/>
+  </clipPath>
+ </defs>
+</svg>

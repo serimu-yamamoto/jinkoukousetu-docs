@@ -1,0 +1,91 @@
+{
+  "kind": "calculation checks only; not physical validation",
+  "count": 21,
+  "passed": true,
+  "checks": [
+    {
+      "name": "mass matches particle count",
+      "passed": true
+    },
+    {
+      "name": "patch area independent area sum",
+      "passed": true
+    },
+    {
+      "name": "reference dose 0.75 J per cm2",
+      "passed": true
+    },
+    {
+      "name": "energy dimensional conversion",
+      "passed": true
+    },
+    {
+      "name": "batch geometry mass",
+      "passed": true
+    },
+    {
+      "name": "count based independent throughput",
+      "passed": true
+    },
+    {
+      "name": "capacity steady state boundary",
+      "passed": true
+    },
+    {
+      "name": "all daily capacity balances",
+      "passed": true
+    },
+    {
+      "name": "1 percent has growing queue",
+      "passed": true
+    },
+    {
+      "name": "0.01 percent queue stable",
+      "passed": true
+    },
+    {
+      "name": "tray dose covers more than patches",
+      "passed": true
+    },
+    {
+      "name": "classification TP FN equals damaged",
+      "passed": true
+    },
+    {
+      "name": "classification partition conservation",
+      "passed": true
+    },
+    {
+      "name": "perfect classifier special case",
+      "passed": true
+    },
+    {
+      "name": "false positives dominate rare damage case",
+      "passed": true
+    },
+    {
+      "name": "cost independent simplification",
+      "passed": true
+    },
+    {
+      "name": "cost break even identity",
+      "passed": true
+    },
+    {
+      "name": "zero return offers no recovered body credit",
+      "passed": true
+    },
+    {
+      "name": "published schedule 140 minutes",
+      "passed": true
+    },
+    {
+      "name": "reported ideal NCO OH below unity",
+      "passed": true
+    },
+    {
+      "name": "physical proof not manufactured",
+      "passed": true
+    }
+  ]
+}

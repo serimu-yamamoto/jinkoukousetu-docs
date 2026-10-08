@@ -1,0 +1,64 @@
+{
+  "kind": "document and arithmetic audit; not physical evidence",
+  "count": 14,
+  "passed": true,
+  "checks": [
+    {
+      "name": "21 numerical checks pass",
+      "passed": true
+    },
+    {
+      "name": "physical tests zero and probability null",
+      "passed": true
+    },
+    {
+      "name": "81 independent condition cells arithmetic",
+      "passed": true
+    },
+    {
+      "name": "test plan not executed",
+      "passed": true
+    },
+    {
+      "name": "reported capacity rounds correctly",
+      "passed": true
+    },
+    {
+      "name": "report states reference schedule scope",
+      "passed": true
+    },
+    {
+      "name": "report distinguishes selected fraction from success",
+      "passed": true
+    },
+    {
+      "name": "report warns on inventory instability",
+      "passed": true
+    },
+    {
+      "name": "report states functional and exposure constraints",
+      "passed": true
+    },
+    {
+      "name": "report notes chemical identity and stoichiometry discrepancy",
+      "passed": true
+    },
+    {
+      "name": "new source DOIs present",
+      "passed": true
+    },
+    {
+      "name": "figures exist in two formats",
+      "passed": true
+    },
+    {
+      "name": "all report and asset local links resolve",
+      "passed": true
+    },
+    {
+      "name": "all prior shared history retained",
+      "passed": true
+    }
+  ],
+  "missing_links": []
+}

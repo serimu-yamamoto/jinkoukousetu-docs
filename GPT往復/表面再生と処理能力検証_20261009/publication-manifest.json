@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "cycle": 55,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "ec7cff739ccb6a05fdebc795b93366490ccd6cc3",
+  "physical_tests": 0,
+  "success_probability": null,
+  "note": "Self excluded. Verify this manifest itself alongside all listed files at a fixed published commit.",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第55巡_摩耗面の再生と材料交換を両立する設計_20261009.md",
+      "bytes": 19774,
+      "sha256": "c59d96e09c6cdc3868fcfcd3c52bd7b413e8c96a8cf3c52613372ffd469ef115"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 37517,
+      "sha256": "e5334bf77fe5a13280d40ab06741a1124c3d6660d8914b9933d2cbb0389802f7"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/README.md",
+      "bytes": 1510,
+      "sha256": "f1f995e941fc7ebc8bc435d91bd0d27af32214ddbc367f1dc681b3ca3698d399"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/audit.py",
+      "bytes": 4009,
+      "sha256": "e3050e37357000acf133f4bb1a7aac3370f43ec80bd0f39134fa95158fc31011"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/calculate.py",
+      "bytes": 7574,
+      "sha256": "21e5b9d452e96eb481aa539e95a544bcbd40bbddc6eb3ecf70c6a9fe564ba58c"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/capacity.csv",
+      "bytes": 658,
+      "sha256": "2e5f58b765ec2bf5beebbb71770281dc91c3f4bb70846c121c00939a24f9bebb"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/classification.csv",
+      "bytes": 1959,
+      "sha256": "3e5f6af9ec5bb4c2ce4cc24834b81ad86463e0ae2cf89bcf17957478c0a2bc4c"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/document-audit.json",
+      "bytes": 1391,
+      "sha256": "a1f56030bac4a268f6c02c32a75ee5be31a194dd2631e7d14fa0ca02a74a6c9e"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/draw.py",
+      "bytes": 4044,
+      "sha256": "5d2c5ab5b1287c841480a00ae832b0ad980fa16e1d6c6f57b21f2c21d2ef36d7"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/figure1_capacity.png",
+      "bytes": 79782,
+      "sha256": "b8cc33a253ed19bf20277593d64537712edd6d49371a9b28177f491493acfc57"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/figure1_capacity.svg",
+      "bytes": 10555,
+      "sha256": "e5529da17382f5d560e3dea64257d7d4bf2f09a5787cfb8fa9d44bcfb0fed756"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/figure2_sorting.png",
+      "bytes": 95762,
+      "sha256": "bd65518a1a8ffe6dc362f7b384892a37000092738cd816fed186346b103c58d1"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/figure2_sorting.svg",
+      "bytes": 11553,
+      "sha256": "eccd6640a051171a5384c7f8d1d5519bb3eb8a205b179f9efc9b28beec92e7a8"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/figure3_process.png",
+      "bytes": 135366,
+      "sha256": "7002cb8e0cfde436b0943f66c393cc2c10d2e5e9e906166bfad41685a118ceaa"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/figure3_process.svg",
+      "bytes": 9247,
+      "sha256": "0cb9384a7d27aaf09e7bb490b36f67bbae5cc38dc5ef46a9553db80faa4619fc"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/inputs.json",
+      "bytes": 1478,
+      "sha256": "4cf53ba2d93dfc55150d67aa406aef80448f35601c73d36c60aa082582fa81e8"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/model.md",
+      "bytes": 2401,
+      "sha256": "90f8018449d153c375f84efbd1621d6898e60ce9e708e325fbd21dd4c30ae20c"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/renewal_cost.csv",
+      "bytes": 876,
+      "sha256": "02dd040d96c3188b0a7b51e4e1b2c44759e19c4b8b1a2728180134761aaa75b3"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/results.json",
+      "bytes": 11963,
+      "sha256": "82531a9d8bb9c009e3c3a5800c67734551f9c339434ad63c9c463a1cb6412bf7"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/sources.md",
+      "bytes": 3243,
+      "sha256": "b563c7364b4f53148595f10cdd560426f88a9bcc5703b71387051b218be1e522"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/test_plan.json",
+      "bytes": 1753,
+      "sha256": "74ffa28130eec7583d800cbbb4d825d5fe1036315488704c2bff6e2fc352c7e0"
+    },
+    {
+      "path": "GPT往復/表面再生と処理能力検証_20261009/validation.json",
+      "bytes": 1856,
+      "sha256": "166c83f379deabd9b0c7c03bf9e619e288469c5b3556ef30b46d7f6eab0b5555"
+    },
+    {
+      "path": "README.md",
+      "bytes": 44850,
+      "sha256": "e1c77b566476d93c53bf53a42530e71fbe34537111897992caa42efd1b55d846"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 118564,
+      "sha256": "7e3f91854ba6f8d0017b8683fb4d68ed76fc78fac605ccdee1d532c69b257dc2"
+    }
+  ]
+}

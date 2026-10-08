@@ -1,0 +1,53 @@
+{
+  "cycle": 55,
+  "base_commit": "ec7cff739ccb6a05fdebc795b93366490ccd6cc3",
+  "physical_tests": 0,
+  "success_probability": null,
+  "course_area_m2": 2000,
+  "bed_depth_m": 0.45,
+  "body_mass_kg": 140025.26867296622,
+  "particle_count": 3904797229692.482,
+  "particle_pitch_m": 0.0008,
+  "contacts_per_particle": 6,
+  "contact_side_m": 0.0001,
+  "cap_mass_kg": 1049.433779466003,
+  "source_S1_irradiance_W_m2": 250,
+  "source_S1_exposure_s": 30,
+  "assumed_electrical_to_useful_light_efficiency": 0.1,
+  "assumed_active_tray_area_m2": 20,
+  "assumed_faces_sequential": 6,
+  "operating_h_day": 16,
+  "availability": 0.75,
+  "daily_damage_fractions": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "damage_classification_sensitivity": 0.9,
+  "damage_classification_specificities": [
+    0.99,
+    0.999,
+    0.9999
+  ],
+  "new_body_yen_kg": 1000,
+  "new_cap_yen_kg": 3000,
+  "processing_yen_per_input_body_kg": [
+    200,
+    500,
+    1000
+  ],
+  "functional_return_mass_yields": [
+    0.5,
+    0.8,
+    0.95
+  ],
+  "source_S2_hold_min": 60,
+  "source_S2_start_C": 100,
+  "source_S2_end_C": 20,
+  "source_S2_cooling_C_min": 1,
+  "source_S1_reported_MDI_PTMEG_mole_ratio": [
+    1,
+    2.32
+  ],
+  "assumptions": "All throughput, damage, classifier, return yield and prices are hypothetical; the S1 exposure is only a reference schedule, not validated for other chemistry or grains. Bodies have equal mass; caps treated separately. No commercial price or physical success inferred."
+}
