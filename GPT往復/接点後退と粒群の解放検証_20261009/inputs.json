@@ -1,0 +1,60 @@
+{
+  "cycle": 56,
+  "base_commit": "239286d2d565da76ea010b5c3ced640439cf4297",
+  "physical_tests": 0,
+  "success_probability": null,
+  "cell_initial_width_um": 500,
+  "initial_angle_deg": -30,
+  "vertical_to_inclined_bar_ratio": 1.5,
+  "compression_strains": [
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "hinge_lengths_um": [
+    20,
+    40,
+    80
+  ],
+  "hinge_thickness_um": [
+    10,
+    20,
+    30
+  ],
+  "hinge_nominal_thickness_um": 20,
+  "hinge_tolerance_um": 5,
+  "ring_reference_diameters_um": [
+    500,
+    1000
+  ],
+  "ring_density_ratios": [
+    1.01,
+    1.04,
+    1.09,
+    1.25
+  ],
+  "ring_friction_coefficients": [
+    0.1,
+    0.3,
+    0.6
+  ],
+  "base_body_mass_kg": 140025.26867296622,
+  "base_body_price_yen_kg": 1000,
+  "auxetic_mass_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    1
+  ],
+  "auxetic_body_price_yen_kg": [
+    1500,
+    3000,
+    10000
+  ],
+  "same_initial_mass_life_comparison": true,
+  "publication_grain_small_diameter_um": 20000,
+  "publication_print_layer_um": 200,
+  "notes": "All cell kinematics, dimensions, friction scenarios, mix fractions and prices are design assumptions. Ring formula is a published 2D pair model, not a 3D ski prediction. Only documentary source checks were performed."
+}

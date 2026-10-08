@@ -1,0 +1,954 @@
+{
+  "cycle": 56,
+  "physical_tests": 0,
+  "success_probability": null,
+  "base_commit": "239286d2d565da76ea010b5c3ced640439cf4297",
+  "bar_length_um": 288.67513459481285,
+  "initial_cell_height_um": 577.3502691896257,
+  "selected_fold": {
+    "axial_compression": 0.1,
+    "angle_deg": -36.86989764584402,
+    "cell_width_um": 461.8802153517006,
+    "cell_height_um": 519.6152422706631,
+    "width_ratio": 0.9237604307034012,
+    "one_side_retreat_um": 19.0598923241497,
+    "apparent_secant_Poisson": -0.7623956929659881,
+    "cell_area_ratio": 0.8313843876330609,
+    "hypothetical_3D_envelope_volume_ratio": 0.768,
+    "hinge_rotation_rad": 0.11990233319498556
+  },
+  "selected_hinge": {
+    "axial_compression": 0.1,
+    "hinge_length_um": 40,
+    "hinge_thickness_um": 20,
+    "approx_bending_surface_strain": 0.02997558329874639,
+    "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+  },
+  "fold": [
+    {
+      "axial_compression": 0,
+      "angle_deg": -29.999999999999996,
+      "cell_width_um": 500.0,
+      "cell_height_um": 577.3502691896257,
+      "width_ratio": 1.0,
+      "one_side_retreat_um": 0.0,
+      "apparent_secant_Poisson": null,
+      "cell_area_ratio": 1.0,
+      "hypothetical_3D_envelope_volume_ratio": 1.0,
+      "hinge_rotation_rad": 0.0
+    },
+    {
+      "axial_compression": 0.05,
+      "angle_deg": -33.367012969231745,
+      "cell_width_um": 482.18253804964775,
+      "cell_height_um": 548.4827557301444,
+      "width_ratio": 0.9643650760992954,
+      "one_side_retreat_um": 8.908730975176127,
+      "apparent_secant_Poisson": -0.712698478014091,
+      "cell_area_ratio": 0.9161468222943305,
+      "hypothetical_3D_envelope_volume_ratio": 0.8835,
+      "hinge_rotation_rad": 0.058765462270444546
+    },
+    {
+      "axial_compression": 0.1,
+      "angle_deg": -36.86989764584402,
+      "cell_width_um": 461.8802153517006,
+      "cell_height_um": 519.6152422706631,
+      "width_ratio": 0.9237604307034012,
+      "one_side_retreat_um": 19.0598923241497,
+      "apparent_secant_Poisson": -0.7623956929659881,
+      "cell_area_ratio": 0.8313843876330609,
+      "hypothetical_3D_envelope_volume_ratio": 0.768,
+      "hinge_rotation_rad": 0.11990233319498556
+    },
+    {
+      "axial_compression": 0.15,
+      "angle_deg": -40.54160187350451,
+      "cell_width_um": 438.7482193696061,
+      "cell_height_um": 490.7477288111819,
+      "width_ratio": 0.8774964387392121,
+      "one_side_retreat_um": 30.625890315196955,
+      "apparent_secant_Poisson": -0.8166904084052525,
+      "cell_area_ratio": 0.7458719729283304,
+      "hypothetical_3D_envelope_volume_ratio": 0.6544999999999999,
+      "hinge_rotation_rad": 0.1839856611270566
+    },
+    {
+      "axial_compression": 0.2,
+      "angle_deg": -44.4270040008057,
+      "cell_width_um": 412.31056256176606,
+      "cell_height_um": 461.8802153517006,
+      "width_ratio": 0.8246211251235321,
+      "one_side_retreat_um": 43.84471871911697,
+      "apparent_secant_Poisson": -0.8768943743823393,
+      "cell_area_ratio": 0.6596969000988256,
+      "hypothetical_3D_envelope_volume_ratio": 0.544,
+      "hinge_rotation_rad": 0.25179872101245415
+    }
+  ],
+  "hinges": [
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.0,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.014691365567611137,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.029382731135222273,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.04407409670283341,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.007345682783805568,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.014691365567611137,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.022037048351416705,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.003672841391902784,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.007345682783805568,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.05,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.011018524175708352,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.02997558329874639,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.05995116659749278,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.08992674989623917,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.014987791649373194,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.02997558329874639,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.04496337494811958,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.007493895824686597,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.014987791649373194,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.1,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.02248168747405979,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.04599641528176415,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.0919928305635283,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.13798924584529246,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.022998207640882076,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.04599641528176415,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.06899462292264623,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.011499103820441038,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.022998207640882076,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.15,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.034497311461323114,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.06294968025311354,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.12589936050622708,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 20,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.18884904075934061,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.03147484012655677,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.06294968025311354,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 40,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.09442452037967031,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 10,
+      "approx_bending_surface_strain": 0.015737420063278384,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 20,
+      "approx_bending_surface_strain": 0.03147484012655677,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    },
+    {
+      "axial_compression": 0.2,
+      "hinge_length_um": 80,
+      "hinge_thickness_um": 30,
+      "approx_bending_surface_strain": 0.047212260189835153,
+      "scope": "constant-curvature estimate; no stress concentration, fatigue or contact"
+    }
+  ],
+  "ring": [
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.01,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 497.51859510499463,
+      "normal_overlap_um": 2.481404895005368,
+      "contact_extent_um": 49.751859510498925,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 49.751859510499465,
+      "limiting_branch": "coincident"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.01,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 497.51859510499463,
+      "normal_overlap_um": 2.481404895005368,
+      "contact_extent_um": 49.751859510498925,
+      "release_shear_strain": 0.10000000000000005,
+      "release_distance_um": 49.751859510499486,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.01,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 497.51859510499463,
+      "normal_overlap_um": 2.481404895005368,
+      "contact_extent_um": 49.751859510498925,
+      "release_shear_strain": 0.10000000000000005,
+      "release_distance_um": 49.751859510499486,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.04,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 490.29033784546004,
+      "normal_overlap_um": 9.709662154539945,
+      "contact_extent_um": 98.05806756909212,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 49.02903378454601,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.04,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 490.29033784546004,
+      "normal_overlap_um": 9.709662154539945,
+      "contact_extent_um": 98.05806756909212,
+      "release_shear_strain": 0.2000000000000001,
+      "release_distance_um": 98.05806756909206,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.04,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 490.29033784546004,
+      "normal_overlap_um": 9.709662154539945,
+      "contact_extent_um": 98.05806756909212,
+      "release_shear_strain": 0.2000000000000001,
+      "release_distance_um": 98.05806756909206,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.09,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 478.9131426105757,
+      "normal_overlap_um": 21.086857389424342,
+      "contact_extent_um": 143.67394278317286,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 47.89131426105757,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.09,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 478.9131426105757,
+      "normal_overlap_um": 21.086857389424342,
+      "contact_extent_um": 143.67394278317286,
+      "release_shear_strain": 0.3,
+      "release_distance_um": 143.6739427831727,
+      "limiting_branch": "coincident"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.09,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 478.9131426105757,
+      "normal_overlap_um": 21.086857389424342,
+      "contact_extent_um": 143.67394278317286,
+      "release_shear_strain": 0.30000000000000016,
+      "release_distance_um": 143.67394278317278,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.25,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 447.21359549995793,
+      "normal_overlap_um": 52.786404500042075,
+      "contact_extent_um": 223.60679774997902,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 44.721359549995796,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.25,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 447.21359549995793,
+      "normal_overlap_um": 52.786404500042075,
+      "contact_extent_um": 223.60679774997902,
+      "release_shear_strain": 0.3,
+      "release_distance_um": 134.16407864998737,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 500,
+      "density_ratio_phi_over_hexagonal": 1.25,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 447.21359549995793,
+      "normal_overlap_um": 52.786404500042075,
+      "contact_extent_um": 223.60679774997902,
+      "release_shear_strain": 0.5,
+      "release_distance_um": 223.60679774997897,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.01,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 995.0371902099893,
+      "normal_overlap_um": 4.962809790010736,
+      "contact_extent_um": 99.50371902099785,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 99.50371902099893,
+      "limiting_branch": "coincident"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.01,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 995.0371902099893,
+      "normal_overlap_um": 4.962809790010736,
+      "contact_extent_um": 99.50371902099785,
+      "release_shear_strain": 0.10000000000000005,
+      "release_distance_um": 99.50371902099897,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.01,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 995.0371902099893,
+      "normal_overlap_um": 4.962809790010736,
+      "contact_extent_um": 99.50371902099785,
+      "release_shear_strain": 0.10000000000000005,
+      "release_distance_um": 99.50371902099897,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.04,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 980.5806756909201,
+      "normal_overlap_um": 19.41932430907989,
+      "contact_extent_um": 196.11613513818423,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 98.05806756909202,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.04,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 980.5806756909201,
+      "normal_overlap_um": 19.41932430907989,
+      "contact_extent_um": 196.11613513818423,
+      "release_shear_strain": 0.2000000000000001,
+      "release_distance_um": 196.11613513818412,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.04,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 980.5806756909201,
+      "normal_overlap_um": 19.41932430907989,
+      "contact_extent_um": 196.11613513818423,
+      "release_shear_strain": 0.2000000000000001,
+      "release_distance_um": 196.11613513818412,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.09,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 957.8262852211514,
+      "normal_overlap_um": 42.173714778848684,
+      "contact_extent_um": 287.3478855663457,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 95.78262852211515,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.09,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 957.8262852211514,
+      "normal_overlap_um": 42.173714778848684,
+      "contact_extent_um": 287.3478855663457,
+      "release_shear_strain": 0.3,
+      "release_distance_um": 287.3478855663454,
+      "limiting_branch": "coincident"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.09,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 957.8262852211514,
+      "normal_overlap_um": 42.173714778848684,
+      "contact_extent_um": 287.3478855663457,
+      "release_shear_strain": 0.30000000000000016,
+      "release_distance_um": 287.34788556634555,
+      "limiting_branch": "contact_extent"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.25,
+      "friction_coefficient": 0.1,
+      "normal_spacing_um": 894.4271909999159,
+      "normal_overlap_um": 105.57280900008415,
+      "contact_extent_um": 447.21359549995805,
+      "release_shear_strain": 0.1,
+      "release_distance_um": 89.44271909999159,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.25,
+      "friction_coefficient": 0.3,
+      "normal_spacing_um": 894.4271909999159,
+      "normal_overlap_um": 105.57280900008415,
+      "contact_extent_um": 447.21359549995805,
+      "release_shear_strain": 0.3,
+      "release_distance_um": 268.32815729997475,
+      "limiting_branch": "friction"
+    },
+    {
+      "reference_diameter_um": 1000,
+      "density_ratio_phi_over_hexagonal": 1.25,
+      "friction_coefficient": 0.6,
+      "normal_spacing_um": 894.4271909999159,
+      "normal_overlap_um": 105.57280900008415,
+      "contact_extent_um": 447.21359549995805,
+      "release_shear_strain": 0.5,
+      "release_distance_um": 447.21359549995793,
+      "limiting_branch": "contact_extent"
+    }
+  ],
+  "tolerance": [
+    {
+      "actual_thickness_um": 15,
+      "ideal_bending_stiffness_ratio": 0.421875
+    },
+    {
+      "actual_thickness_um": 20,
+      "ideal_bending_stiffness_ratio": 1.0
+    },
+    {
+      "actual_thickness_um": 25,
+      "ideal_bending_stiffness_ratio": 1.953125
+    }
+  ],
+  "clearance": [
+    {
+      "axial_compression": 0,
+      "geometry_spacing_ratio": 1.01,
+      "fixed_center_spacing_um": 497.51859510499463,
+      "initial_overlap_um": 2.481404895005369,
+      "post_retreat_gap_um": -2.481404895005369,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0,
+      "geometry_spacing_ratio": 1.04,
+      "fixed_center_spacing_um": 490.29033784546004,
+      "initial_overlap_um": 9.709662154539956,
+      "post_retreat_gap_um": -9.709662154539956,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0,
+      "geometry_spacing_ratio": 1.09,
+      "fixed_center_spacing_um": 478.9131426105757,
+      "initial_overlap_um": 21.086857389424324,
+      "post_retreat_gap_um": -21.086857389424324,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0,
+      "geometry_spacing_ratio": 1.25,
+      "fixed_center_spacing_um": 447.21359549995793,
+      "initial_overlap_um": 52.78640450004207,
+      "post_retreat_gap_um": -52.78640450004207,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0.05,
+      "geometry_spacing_ratio": 1.01,
+      "fixed_center_spacing_um": 497.51859510499463,
+      "initial_overlap_um": 2.481404895005369,
+      "post_retreat_gap_um": 15.336057055346885,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.05,
+      "geometry_spacing_ratio": 1.04,
+      "fixed_center_spacing_um": 490.29033784546004,
+      "initial_overlap_um": 9.709662154539956,
+      "post_retreat_gap_um": 8.107799795812298,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.05,
+      "geometry_spacing_ratio": 1.09,
+      "fixed_center_spacing_um": 478.9131426105757,
+      "initial_overlap_um": 21.086857389424324,
+      "post_retreat_gap_um": -3.2693954390720705,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0.05,
+      "geometry_spacing_ratio": 1.25,
+      "fixed_center_spacing_um": 447.21359549995793,
+      "initial_overlap_um": 52.78640450004207,
+      "post_retreat_gap_um": -34.968942549689814,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0.1,
+      "geometry_spacing_ratio": 1.01,
+      "fixed_center_spacing_um": 497.51859510499463,
+      "initial_overlap_um": 2.481404895005369,
+      "post_retreat_gap_um": 35.63837975329403,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.1,
+      "geometry_spacing_ratio": 1.04,
+      "fixed_center_spacing_um": 490.29033784546004,
+      "initial_overlap_um": 9.709662154539956,
+      "post_retreat_gap_um": 28.410122493759445,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.1,
+      "geometry_spacing_ratio": 1.09,
+      "fixed_center_spacing_um": 478.9131426105757,
+      "initial_overlap_um": 21.086857389424324,
+      "post_retreat_gap_um": 17.032927258875077,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.1,
+      "geometry_spacing_ratio": 1.25,
+      "fixed_center_spacing_um": 447.21359549995793,
+      "initial_overlap_um": 52.78640450004207,
+      "post_retreat_gap_um": -14.666619851742666,
+      "lateral_contact_opens_at_fixed_centers": false
+    },
+    {
+      "axial_compression": 0.15,
+      "geometry_spacing_ratio": 1.01,
+      "fixed_center_spacing_um": 497.51859510499463,
+      "initial_overlap_um": 2.481404895005369,
+      "post_retreat_gap_um": 58.77037573538854,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.15,
+      "geometry_spacing_ratio": 1.04,
+      "fixed_center_spacing_um": 490.29033784546004,
+      "initial_overlap_um": 9.709662154539956,
+      "post_retreat_gap_um": 51.542118475853954,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.15,
+      "geometry_spacing_ratio": 1.09,
+      "fixed_center_spacing_um": 478.9131426105757,
+      "initial_overlap_um": 21.086857389424324,
+      "post_retreat_gap_um": 40.164923240969586,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.15,
+      "geometry_spacing_ratio": 1.25,
+      "fixed_center_spacing_um": 447.21359549995793,
+      "initial_overlap_um": 52.78640450004207,
+      "post_retreat_gap_um": 8.465376130351842,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.2,
+      "geometry_spacing_ratio": 1.01,
+      "fixed_center_spacing_um": 497.51859510499463,
+      "initial_overlap_um": 2.481404895005369,
+      "post_retreat_gap_um": 85.20803254322857,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.2,
+      "geometry_spacing_ratio": 1.04,
+      "fixed_center_spacing_um": 490.29033784546004,
+      "initial_overlap_um": 9.709662154539956,
+      "post_retreat_gap_um": 77.97977528369398,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.2,
+      "geometry_spacing_ratio": 1.09,
+      "fixed_center_spacing_um": 478.9131426105757,
+      "initial_overlap_um": 21.086857389424324,
+      "post_retreat_gap_um": 66.60258004880961,
+      "lateral_contact_opens_at_fixed_centers": true
+    },
+    {
+      "axial_compression": 0.2,
+      "geometry_spacing_ratio": 1.25,
+      "fixed_center_spacing_um": 447.21359549995793,
+      "initial_overlap_um": 52.78640450004207,
+      "post_retreat_gap_um": 34.90303293819187,
+      "lateral_contact_opens_at_fixed_centers": true
+    }
+  ],
+  "cost": [
+    {
+      "auxetic_body_mass_fraction": 0.1,
+      "assumed_auxetic_yen_kg": 1500,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 147026532.10661453,
+      "extra_initial_yen": 7001263.4336483115,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.05
+    },
+    {
+      "auxetic_body_mass_fraction": 0.1,
+      "assumed_auxetic_yen_kg": 3000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 168030322.40755945,
+      "extra_initial_yen": 28005053.734593246,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.2
+    },
+    {
+      "auxetic_body_mass_fraction": 0.1,
+      "assumed_auxetic_yen_kg": 10000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 266048010.47863582,
+      "extra_initial_yen": 126022741.8056696,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.9
+    },
+    {
+      "auxetic_body_mass_fraction": 0.25,
+      "assumed_auxetic_yen_kg": 1500,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 157528427.257087,
+      "extra_initial_yen": 17503158.584120777,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.125
+    },
+    {
+      "auxetic_body_mass_fraction": 0.25,
+      "assumed_auxetic_yen_kg": 3000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 210037903.00944933,
+      "extra_initial_yen": 70012634.3364831,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.5
+    },
+    {
+      "auxetic_body_mass_fraction": 0.25,
+      "assumed_auxetic_yen_kg": 10000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 455082123.1871402,
+      "extra_initial_yen": 315056854.514174,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 3.25
+    },
+    {
+      "auxetic_body_mass_fraction": 0.5,
+      "assumed_auxetic_yen_kg": 1500,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 175031585.84120777,
+      "extra_initial_yen": 35006317.16824155,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.25
+    },
+    {
+      "auxetic_body_mass_fraction": 0.5,
+      "assumed_auxetic_yen_kg": 3000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 280050537.3459324,
+      "extra_initial_yen": 140025268.6729662,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 2.0
+    },
+    {
+      "auxetic_body_mass_fraction": 0.5,
+      "assumed_auxetic_yen_kg": 10000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 770138977.7013142,
+      "extra_initial_yen": 630113709.028348,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 5.5
+    },
+    {
+      "auxetic_body_mass_fraction": 1,
+      "assumed_auxetic_yen_kg": 1500,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 210037903.00944933,
+      "extra_initial_yen": 70012634.3364831,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 1.5
+    },
+    {
+      "auxetic_body_mass_fraction": 1,
+      "assumed_auxetic_yen_kg": 3000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 420075806.01889867,
+      "extra_initial_yen": 280050537.3459324,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 3.0
+    },
+    {
+      "auxetic_body_mass_fraction": 1,
+      "assumed_auxetic_yen_kg": 10000,
+      "assumed_same_total_body_mass_kg": 140025.26867296622,
+      "mixture_material_yen": 1400252686.7296622,
+      "extra_initial_yen": 1260227418.056696,
+      "required_whole_bed_life_ratio_for_equal_annual_material_cost": 10.0
+    }
+  ],
+  "source_geometric_scale": 0.025,
+  "scaled_print_layer_um": 5.0,
+  "limitations": [
+    "No force law for the proposed folding grain.",
+    "No 3D pack, ski friction, winter, water or 50 C durability simulation.",
+    "Ring pair model neglects collective caging; not a macroscopic avalanche or slope stability model.",
+    "Auxetic mass mixing is a costing assumption, not a yield-stress interpolation."
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "algebra checks; not physical validation",
+  "count": 22,
+  "passed": true,
+  "checks": [
+    {
+      "name": "initial dimensions reconstructed",
+      "passed": true
+    },
+    {
+      "name": "exact axial compression identity",
+      "passed": true
+    },
+    {
+      "name": "all nonzero compression retracts sides",
+      "passed": true
+    },
+    {
+      "name": "re-entrant Poisson negative",
+      "passed": true
+    },
+    {
+      "name": "zero compression no hinge strain",
+      "passed": true
+    },
+    {
+      "name": "10percent transverse exact independent",
+      "passed": true
+    },
+    {
+      "name": "10percent retreat independent",
+      "passed": true
+    },
+    {
+      "name": "3D envelope value explicitly hypothetical",
+      "passed": true
+    },
+    {
+      "name": "contact circle overlap identity",
+      "passed": true
+    },
+    {
+      "name": "release from two independent local branches",
+      "passed": true
+    },
+    {
+      "name": "dimensionless release unchanged by scale",
+      "passed": true
+    },
+    {
+      "name": "release distance doubles with scale",
+      "passed": true
+    },
+    {
+      "name": "zero friction limit of pair approximation",
+      "passed": true
+    },
+    {
+      "name": "no overlap limit of pair approximation",
+      "passed": true
+    },
+    {
+      "name": "nominal stiffness one",
+      "passed": true
+    },
+    {
+      "name": "tolerance stiffness span",
+      "passed": true
+    },
+    {
+      "name": "cost mass weighted independently",
+      "passed": true
+    },
+    {
+      "name": "same annual whole material break even",
+      "passed": true
+    },
+    {
+      "name": "source printer scaling arithmetic",
+      "passed": true
+    },
+    {
+      "name": "gap matches two retreat minus initial overlap",
+      "passed": true
+    },
+    {
+      "name": "10 percent retreat loses ability at deep overlap",
+      "passed": true
+    },
+    {
+      "name": "no fabricated physical success",
+      "passed": true
+    }
+  ]
+}

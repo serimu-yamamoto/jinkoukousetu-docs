@@ -1,0 +1,68 @@
+{
+  "kind": "document audit only",
+  "count": 15,
+  "passed": true,
+  "checks": [
+    {
+      "name": "22 algebra checks pass",
+      "passed": true
+    },
+    {
+      "name": "zero physical tests and null probability",
+      "passed": true
+    },
+    {
+      "name": "test plan not executed",
+      "passed": true
+    },
+    {
+      "name": "54 condition cells arithmetic",
+      "passed": true
+    },
+    {
+      "name": "record counts match report",
+      "passed": true
+    },
+    {
+      "name": "retreat rounding matches",
+      "passed": true
+    },
+    {
+      "name": "hinge rounding matches",
+      "passed": true
+    },
+    {
+      "name": "fixed pressure caveat present",
+      "passed": true
+    },
+    {
+      "name": "source speed discrepancy retained",
+      "passed": true
+    },
+    {
+      "name": "raw data retrieval limitation stated",
+      "passed": true
+    },
+    {
+      "name": "no claimed force law",
+      "passed": true
+    },
+    {
+      "name": "human environment winter and gouge requirements retained",
+      "passed": true
+    },
+    {
+      "name": "3 PNG and SVG figures exist",
+      "passed": true
+    },
+    {
+      "name": "all report asset links exist",
+      "passed": true
+    },
+    {
+      "name": "previous shared history retained",
+      "passed": true
+    }
+  ],
+  "missing_links": []
+}

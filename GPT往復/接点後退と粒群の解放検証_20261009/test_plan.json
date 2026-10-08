@@ -1,0 +1,63 @@
+{
+  "status": "NOT_EXECUTED",
+  "physical_tests": 0,
+  "success_probability": null,
+  "stage_A": {
+    "name": "mechanism and temperature screening",
+    "geometry": "one ideal cell, then actual multi-contact grain; no assumption of orientation independence",
+    "temperatures_C": [
+      23,
+      50
+    ],
+    "measurements": [
+      "normal and lateral reaction forces",
+      "retreat and residual displacement",
+      "hinge strain field",
+      "repeat stability",
+      "loss of contact under fixed displacement AND fixed force"
+    ]
+  },
+  "stage_B": {
+    "mass_mixtures": [
+      0,
+      0.25,
+      1
+    ],
+    "boundary_conditions": [
+      "fixed normal load",
+      "fixed imposed depth"
+    ],
+    "water_states": [
+      "dry",
+      "sprinkled",
+      "after drainage"
+    ],
+    "independent_lots": 3,
+    "condition_cells": 54,
+    "replicates": "set after variance is measured",
+    "primary_outcomes": [
+      "edge peak support",
+      "postpeak release distance and residual drag",
+      "ski base friction and restart",
+      "force fluctuation spectrum",
+      "particle rotation migration and settlement"
+    ],
+    "reference": "fresh groomed snow at its stable snow temperature; synthetic bed surface 50C"
+  },
+  "stage_C": {
+    "scope": [
+      "full 450mm candidate bed with 300mm gouge requirement",
+      "rain and winter freeze-thaw interface",
+      "60min maintenance and particle mass recovery",
+      "material wear extractables and human environment assessment",
+      "manufacturing kg/h and functional service cost"
+    ],
+    "note": "Requirements, not completed tests or certified operating limits"
+  },
+  "stop_or_switch": [
+    "fixed-load mean drag stays high: revise contact phase rather than claim auxetic success",
+    "support disappears before useful edge load: reduce/retime retracting contacts or revise skeleton",
+    "hinge fails: change geometry or manufacturing route, not extrapolate 50 source cycles to seasons",
+    "wet friction changes release window: retest both support and release"
+  ]
+}
