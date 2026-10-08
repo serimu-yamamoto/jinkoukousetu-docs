@@ -1,0 +1,118 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "hypothesis": "H43 reduce breakage; capture before offsite decomposition",
+  "counts": {
+    "erosion_scenarios": 12,
+    "rain_scenarios": 36,
+    "settling_sizes": 3,
+    "numeric_checks": 22
+  },
+  "area_horizontal_m2": 1732.0508075688774,
+  "bed_mass_kg": 108000.0,
+  "representative_erosion": {
+    "branch_radius_um": 30,
+    "debris_diameter_um": 10,
+    "branch_allowed_recession_um_day": 0.007798876072410976,
+    "debris_90pct_mass_loss_days_same_rate": 343.5373967117483,
+    "required_offsite_to_use_rate_ratio": 11.451246557058276
+  },
+  "representative_rain": {
+    "rain_mm_h": 100,
+    "damage_fraction_per_day": 1e-05,
+    "mobilized_fraction": 1,
+    "filter_particle_mass_capture": 0.999,
+    "rain_m3_h": 173.20508075688772,
+    "rain_volume_m3": 173.20508075688772,
+    "input_particle_kg": 10.8,
+    "input_mg_L": 62.353829072479584,
+    "captured_no_storage_kg": 6.22914752434071,
+    "outflow_no_storage_kg": 4.570852475659291,
+    "outflow_no_storage_mg_L": 26.38982907247959,
+    "system_capture_no_storage": 0.576772918920436,
+    "minimum_ideal_storage_m3": 73.20508075688772,
+    "drawdown_after_rain_h": 0.7320508075688772,
+    "outflow_with_adequate_storage_kg": 0.010800000000000011,
+    "outflow_with_adequate_storage_mg_L": 0.06235382907247964
+  },
+  "oxygen": {
+    "PHB_ThOD_kg_O2_kg": 1.6726681379951214,
+    "cellulose_ThOD_kg_O2_kg": 1.184161835450845,
+    "example_PHB_mass_kg": 10.8,
+    "example_rain_DO_kg": 1.3856406460551018,
+    "example_PHB_ThOD_kg": 18.06481589034731,
+    "ThOD_to_initial_DO_ratio": 13.037157896441311
+  },
+  "particle_bins": [
+    {
+      "mass_fraction": 0.2,
+      "mass_capture": 0.5
+    },
+    {
+      "mass_fraction": 0.5,
+      "mass_capture": 0.99
+    },
+    {
+      "mass_fraction": 0.3,
+      "mass_capture": 0.999
+    }
+  ],
+  "particle_mass_weighted_capture": 0.8946999999999999,
+  "dissolved_fraction_0_1_total_carbon_capture_at_filter_0_999": 0.8991,
+  "biorecycling": {
+    "reported_PHB_per_3HB_g_g": 0.26,
+    "conditional_PHB_per_original_PHB_g_g": 0.31440701591357884
+  },
+  "capital_recovery_factor": 0.14902948869707533,
+  "annual_fines_value": [
+    {
+      "annual_fines_fraction": 0.001,
+      "annual_fines_kg": 108.0,
+      "maximum_avoided_virgin_purchase_JPY_year": 54000.0
+    },
+    {
+      "annual_fines_fraction": 0.01,
+      "annual_fines_kg": 1080.0,
+      "maximum_avoided_virgin_purchase_JPY_year": 540000.0
+    },
+    {
+      "annual_fines_fraction": 0.05,
+      "annual_fines_kg": 5400.0,
+      "maximum_avoided_virgin_purchase_JPY_year": 2700000.0
+    }
+  ],
+  "capital_budget_inverse": [
+    {
+      "net_annual_budget_JPY": 1000000,
+      "annual_opex_JPY": 500000,
+      "capital_limit_JPY": 3355040.699470724
+    },
+    {
+      "net_annual_budget_JPY": 3000000,
+      "annual_opex_JPY": 500000,
+      "capital_limit_JPY": 16775203.49735362
+    },
+    {
+      "net_annual_budget_JPY": 5000000,
+      "annual_opex_JPY": 500000,
+      "capital_limit_JPY": 30195366.295236517
+    }
+  ],
+  "bulk_processing": [
+    {
+      "active_depth_m": 0.01,
+      "processed_mass_t": 2.4,
+      "required_bulk_throughput_t_h": 3.6
+    },
+    {
+      "active_depth_m": 0.05,
+      "processed_mass_t": 12.0,
+      "required_bulk_throughput_t_h": 18.0
+    },
+    {
+      "active_depth_m": 0.45,
+      "processed_mass_t": 108.0,
+      "required_bulk_throughput_t_h": 162.0
+    }
+  ]
+}

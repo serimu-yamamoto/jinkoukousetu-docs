@@ -1,0 +1,94 @@
+{
+  "status": "hypothetical_diagnostic_not_material_validation",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "geometry": {
+    "slope_area_m2": 2000,
+    "slope_deg": 30,
+    "bed_depth_m": 0.45,
+    "bulk_density_kg_m3": 120
+  },
+  "erosion": {
+    "branch_radii_um": [
+      20,
+      30,
+      60
+    ],
+    "stiffness_retention": 0.9,
+    "equivalent_wet_days": 100,
+    "debris_diameters_um": [
+      1,
+      10,
+      50,
+      100
+    ],
+    "target_mass_removal": 0.9,
+    "diagnostic_debris_days": 30
+  },
+  "rain": {
+    "vertical_rain_mm_h": [
+      30,
+      100,
+      300
+    ],
+    "duration_h": 1,
+    "runoff_coefficient": 1,
+    "damage_fraction_per_operating_day": [
+      0.000001,
+      0.00001,
+      0.0001
+    ],
+    "accumulation_operating_days": 10,
+    "mobilized_fractions": [
+      0.1,
+      1
+    ],
+    "treatment_m3_h": 100,
+    "particle_mass_capture": [
+      0.99,
+      0.999
+    ]
+  },
+  "settling": {
+    "solid_density_kg_m3": 1250,
+    "water_density_kg_m3": 1000,
+    "dynamic_viscosity_Pa_s": 0.001,
+    "diameters_um": [
+      1,
+      10,
+      50
+    ]
+  },
+  "chemistry": {
+    "PHB_repeat_g_mol": 86.09,
+    "PHB_O2_g_mol": 144,
+    "cellulose_repeat_g_mol": 162.14,
+    "cellulose_O2_g_mol": 192,
+    "PHB_monomer_g_mol": 104.105,
+    "PHB_fermentation_yield_g_g": 0.26,
+    "illustrative_DO_mg_L": 8
+  },
+  "economics": {
+    "annual_fines_mass_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "replacement_JPY_kg": 500,
+    "net_additional_annual_budget_JPY": [
+      1000000,
+      3000000,
+      5000000
+    ],
+    "annual_extra_opex_JPY": 500000,
+    "life_years": 10,
+    "discount_rate": 0.08,
+    "processed_bulk_depth_m": [
+      0.01,
+      0.05,
+      0.45
+    ],
+    "processing_minutes": 40,
+    "equipment_budget_JPY": 200000000
+  }
+}

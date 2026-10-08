@@ -1,0 +1,45 @@
+[
+  {
+    "id": "S1",
+    "title": "Assessing the ecological consequences of biodegradable plastics: Acute, chronic and multigenerational impacts of poly-3-hydroxybutyrate microplastics on freshwater invertebrate Daphnia magna",
+    "doi": "10.1016/j.heliyon.2024.e36302",
+    "url": "https://doi.org/10.1016/j.heliyon.2024.e36302",
+    "author_copy": "https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=264171",
+    "access": "Author university thesis appended manuscript, PDF pages 114–135; text on pages 118–124 checked. Publisher abstract indexed; no challenge bypass.",
+    "pdf_sha256": "cf5251877c0f14378233d6370581281933ac28841cf7299423a6bbe5e9c29673",
+    "use": "P3HB sieve fractions <63 and <125 um; chronic 21 days at 21 C. Acute and chronic outcomes differ.",
+    "limits": "Overlapping sieve fractions, aggregation; not human safety, not a site discharge threshold, not our candidate blend.",
+    "model_parameter": false
+  },
+  {
+    "id": "S2",
+    "title": "Coastal and deep-sea biodegradation of polyhydroxyalkanoate microbeads",
+    "doi": "10.1038/s41598-024-60949-z",
+    "url": "https://www.nature.com/articles/s41598-024-60949-z",
+    "access": "Publisher full HTML: BOD results, deep sea recovery and methods.",
+    "use": "Day 25 BOD: P3HB85, PHB4HB83, cellulose77, PHBV74, PHBH68 percent in text. Prepared seawater/soil inoculum, 25 C, stirring, nutrients. Mesh escape confounds deep-sea mass loss.",
+    "limits": "Abstract approx85 percent is not identical for every polymer. BOD not freshwater field validation. Silicone-oil melt process not adopted.",
+    "model_parameter": false
+  },
+  {
+    "id": "S3",
+    "title": "Aerobic microbial degradation of PLA, PHB, and PBAT microplastics in freshwater: Different structural changes and byproduct formation",
+    "doi": "10.1016/j.jece.2026.121387",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2213343726003611",
+    "access": "Publisher indexed abstract/highlights; direct fulltext unavailable.",
+    "use": "450–550 um; natural lake water and sludge-inoculated mineral medium differ; natural freshwater slow.",
+    "limits": "No rate constants or material lifetime extracted; no complete-safety inference.",
+    "model_parameter": false
+  },
+  {
+    "id": "S4",
+    "title": "Circular PHB production via Paraburkholderia sacchari cultures using degradation monomers from PHB-based post-consumer bioplastics as carbon sources",
+    "doi": "10.1016/j.bej.2023.108808",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1369703X23000037",
+    "access": "Publisher indexed abstract/highlights.",
+    "use": "Sequential 3HB feed shake-flask PHB yield 0.26 g/g; input monomer basis.",
+    "limits": "Not whole waste-to-polymer yield, no reproduced process, no factory cost claim.",
+    "model_parameter": true,
+    "parameter": "0.26 g PHB/g 3HB only; upstream100% hydrolysis is separate hypothetical bound"
+  }
+]

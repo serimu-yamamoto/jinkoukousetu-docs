@@ -1,0 +1,64 @@
+[
+  {
+    "route": "onslope rapid biodegradation",
+    "finding": "S1 chronic effect; S2 controlled seawater differs from S3 natural freshwater",
+    "decision": "Do not rely on runoff disappearance",
+    "next": "actual formulation and debris fate/exposure"
+  },
+  {
+    "route": "size-only durability split",
+    "finding": {
+      "branch_radius_um": 30,
+      "debris_diameter_um": 10,
+      "branch_allowed_recession_um_day": 0.007798876072410976,
+      "debris_90pct_mass_loss_days_same_rate": 343.5373967117483,
+      "required_offsite_to_use_rate_ratio": 11.451246557058276
+    },
+    "decision": "Separate use environment from contained postcollection process",
+    "next": "measure branch rigidity and debris carbon balance from same batch"
+  },
+  {
+    "route": "filter-only containment",
+    "finding": {
+      "rain_mm_h": 100,
+      "damage_fraction_per_day": 0.00001,
+      "mobilized_fraction": 1,
+      "filter_particle_mass_capture": 0.999,
+      "rain_m3_h": 173.20508075688772,
+      "rain_volume_m3": 173.20508075688772,
+      "input_particle_kg": 10.8,
+      "input_mg_L": 62.353829072479584,
+      "captured_no_storage_kg": 6.22914752434071,
+      "outflow_no_storage_kg": 4.570852475659291,
+      "outflow_no_storage_mg_L": 26.38982907247959,
+      "system_capture_no_storage": 0.576772918920436,
+      "minimum_ideal_storage_m3": 73.20508075688772,
+      "drawdown_after_rain_h": 0.7320508075688772,
+      "outflow_with_adequate_storage_kg": 0.010800000000000011,
+      "outflow_with_adequate_storage_mg_L": 0.06235382907247964
+    },
+    "decision": "Include capacity and storage, keep serviceable filters off sliding bed",
+    "next": "size-resolved capture, bypass and groundwater loss"
+  },
+  {
+    "route": "settlement-only separation",
+    "finding": "10 um ideal sphere needs about3531 m2 at173m3/h",
+    "decision": "Use coarse separation followed by a verified fine stage",
+    "next": "actual buoyancy and shape distribution"
+  },
+  {
+    "route": "complete biocircular recovery",
+    "finding": {
+      "reported_PHB_per_3HB_g_g": 0.26,
+      "conditional_PHB_per_original_PHB_g_g": 0.31440701591357884
+    },
+    "decision": "Prioritize functionally qualified direct reuse; do not assume 100% yield",
+    "next": "same-boundary direct remolding vs biological process costs"
+  },
+  {
+    "route": "H43 integration",
+    "finding": "Combine H32 short contact release, H40 inner stop, H42 durable contacting phase with off-course recovery",
+    "decision": "design hypothesis retained, not experimentally validated",
+    "next": "snow feel and damage mass jointly; 50C wet/dry and winter drainage"
+  }
+]
