@@ -1,0 +1,102 @@
+[
+  {
+    "name": "same-temperature RH preserved",
+    "passed": true
+  },
+  {
+    "name": "warming decreases RH at fixed vapor pressure",
+    "passed": true
+  },
+  {
+    "name": "vapor pressure conservation",
+    "passed": true
+  },
+  {
+    "name": "NIST two fits consistent within2percent",
+    "passed": true
+  },
+  {
+    "name": "IAPWS surface tension50C magnitude",
+    "passed": true
+  },
+  {
+    "name": "closed gate no liquid flow",
+    "passed": true
+  },
+  {
+    "name": "equivalent diffusion less than both limits",
+    "passed": true
+  },
+  {
+    "name": "entry pressure inverse radius",
+    "passed": true
+  },
+  {
+    "name": "Poiseuille flow inverse length",
+    "passed": true
+  },
+  {
+    "name": "dry-throat evaporation inverse length",
+    "passed": true
+  },
+  {
+    "name": "pocket capacity cubed radius",
+    "passed": true
+  },
+  {
+    "name": "post-opening zero capillary head increases water requirement",
+    "passed": true
+  },
+  {
+    "name": "water accounting",
+    "passed": true
+  },
+  {
+    "name": "velocity profile integral convergence",
+    "passed": true
+  },
+  {
+    "name": "no pressure gives no flow",
+    "passed": true
+  },
+  {
+    "name": "bed material mass",
+    "passed": true
+  },
+  {
+    "name": "film water unit conversion100nm",
+    "passed": true
+  },
+  {
+    "name": "macro water mass conservation",
+    "passed": true
+  },
+  {
+    "name": "load weighted friction reconstruction",
+    "passed": true
+  },
+  {
+    "name": "area-weighted pressures give desired loads",
+    "passed": true
+  },
+  {
+    "name": "thin cylinder surface-volume dimensional check",
+    "passed": true
+  },
+  {
+    "name": "retained and purchased mass yield",
+    "passed": true
+  },
+  {
+    "name": "annual cost bookkeeping",
+    "passed": true
+  },
+  {
+    "name": "thin layer geometric approximation error",
+    "passed": true
+  },
+  {
+    "name": "reference microchannel creeping flow",
+    "passed": true
+  }
+]

@@ -1,0 +1,121 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "08290b6e85111cadaa8ef50be22465f0cc5d2c53",
+  "cycle": 44,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numeric_checks": 25,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第44巡_乾燥と濡れをまたぐ滑走接点と荷重給水_20261009.md",
+      "bytes": 22709,
+      "sha256": "469321a8a821b8826038af31de5d58a1db6b9c35a43a45859f6d5adb6f02d0e3"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 29246,
+      "sha256": "6508bcbd8534021b3cc0676d48b3d041b74c6373650e5b669a560ea852e59554"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/README.md",
+      "bytes": 2566,
+      "sha256": "6ad4eb3738b87f113c4552b3f6930e6927957dcdbd11cc8105c87334f816ba6c"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/calculate.py",
+      "bytes": 14428,
+      "sha256": "00bdebede27fea2d2f946333627c2691d0eae98902d49b98107b9683d241381b"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/checks.json",
+      "bytes": 1940,
+      "sha256": "e4a966fb086fc247930b0a655d1667905cff108ec6c48bd4a52c8b51d7ec9fdd"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/coating_cost.csv",
+      "bytes": 635,
+      "sha256": "95b11ab0a32a02e63a78da644a7179bbc6a5368d9e4df24a62e174817d8916c1"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/environment.json",
+      "bytes": 72,
+      "sha256": "600e3397c1ae8073b77a5ad13cc93113f87d9117c15a6a95bd6ea753bcee92a1"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/exploration-ledger.json",
+      "bytes": 1810,
+      "sha256": "40dde8cd057bf8b9e02de01bda4ef7a33d0f67c655fa4bbd57ea4e473d9683ba"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/humidity.csv",
+      "bytes": 3018,
+      "sha256": "a0ea9b3e714483fb27d35b37b73dd62a2a8b635a1faaa939ac34feb4e60cff61"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/humidity_and_delivery.png",
+      "bytes": 181739,
+      "sha256": "b1aeb1477f389cc0f9eb343f04746a5d2881ecfbd208a467f05ed94309467503"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/humidity_and_delivery.svg",
+      "bytes": 88467,
+      "sha256": "81c3ca021a04dfc4bb28e1dbed3d7402bc5ab8ab73ff2d98f877241814b3563a"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/inputs.json",
+      "bytes": 2238,
+      "sha256": "f0ee2e59a754690dded356b8757884b6fddd4f686e777457db038d3cc6eea90b"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/inventory_and_cost.png",
+      "bytes": 157054,
+      "sha256": "cd04b9cb0bd90f755f8baeb1318056604bcc18f70f47fe63e5e9f6f11a80c13c"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/inventory_and_cost.svg",
+      "bytes": 79611,
+      "sha256": "ebc7ab42aeabda0cbe4e026178abef2c75635c26b097a0114afed90830c85b7a"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/load_share.csv",
+      "bytes": 573,
+      "sha256": "a91c07d487904fdc4bc27e49a735378562d4d0d28b6fe41f07b7d4c0ab8e4fe9"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/macro_water.csv",
+      "bytes": 1617,
+      "sha256": "6133bd7960dee766b10b580ac6a57170d88937bd461cf6a02fd9467637ff41e8"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/pore_sensitivity.csv",
+      "bytes": 5953,
+      "sha256": "3f220493e8fc6770013c9cac72ac3979aed5b6ccb28acbc748de7aba941219a6"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/pores.csv",
+      "bytes": 13566,
+      "sha256": "e21e21934854274291e72d98bb10325e4e405f7365043cbe07e85db47e161d5d"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/results.json",
+      "bytes": 7904,
+      "sha256": "b0c881dde901d8bdb229db844baed9af5037d86e1cdcbf1f5671732c84c63a8e"
+    },
+    {
+      "path": "GPT往復/温湿度と荷重給水接点検証_20261009/sources.json",
+      "bytes": 4064,
+      "sha256": "9f11e6d11f13eed09682e5122e81fd8e5b5d6fa97d300cf47ca5bda0d03916cb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 36295,
+      "sha256": "811296c6951a1bb5a814a8f41f19dd138d7925d73b30cf684918ed9af07bad5b"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 104664,
+      "sha256": "e56e09d2e1224bce368f55c972e544ade6cbe69985e68cf2e42b748b58a09b59"
+    }
+  ]
+}

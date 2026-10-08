@@ -1,0 +1,38 @@
+[
+  {
+    "route": "passive vapor hydration",
+    "evidence": "Room-temperature primary humidity-switch experiment; local RH at50C with air30C RH60% is20.9% from vapor balance",
+    "change": "Do not equate ambient RH or total absorbed water to low-friction contact",
+    "next": "T/RH/real-sole friction and dynamic wet-dry transition"
+  },
+  {
+    "route": "distributed hydrated inclusions",
+    "evidence": "UHMWPE hard-soft microparticle experiment under added water, copper-alloy counterbody",
+    "change": "Borrow spatial separation, not UF/PAAm formulation or50C prediction",
+    "next": "safe actual formulation and leakage"
+  },
+  {
+    "route": "H44 pressure-fed pore",
+    "evidence": "Ideal0.1um radius100um neck needs~20ms but15um water pocket exceeds initial inventory at4h plus100pulses",
+    "change": "Combine supply rate, waiting loss and overdelivery",
+    "next": "pressure transmission and nonwetting reset"
+  },
+  {
+    "route": "larger water pocket",
+    "evidence": "20um pocket2.37times water;0.12um throat still fails if post-opening capillary head vanishes",
+    "change": "Do not declare larger reservoir solved",
+    "next": "pore spread and dynamic capillary pressure, stiffness and freeze cracking"
+  },
+  {
+    "route": "small wet patches",
+    "evidence": "5%contact area must carry37.5%load in mu0.10/0.02 ->0.07 example",
+    "change": "Separate wetted area, load fraction and film-spreading route",
+    "next": "real local pressure and total ski resistance"
+  },
+  {
+    "route": "cost and manufacturing",
+    "evidence": "Thin coating raw mass can be low while equivalent reservoir count is trillions",
+    "change": "No individual valves; require batch process and include all processing costs",
+    "next": "published manufacture and control of pore distribution"
+  }
+]

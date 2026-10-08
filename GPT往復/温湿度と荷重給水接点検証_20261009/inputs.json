@@ -1,0 +1,129 @@
+{
+  "status": "ideal_diagnostic_not_validated_material",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "vapor": {
+    "NIST_A": 6.20963,
+    "NIST_B": 2354.731,
+    "NIST_C": 7.559,
+    "valid_K": [
+      293,
+      343
+    ],
+    "air_C": [
+      30,
+      35,
+      40
+    ],
+    "surface_C": [
+      40,
+      50,
+      60
+    ],
+    "air_RH": [
+      0.4,
+      0.6,
+      0.8,
+      1
+    ],
+    "R_water_J_kg_K": 461.5,
+    "reference_humidity_thresholds": [
+      0.55,
+      0.75
+    ]
+  },
+  "surface_tension": {
+    "Tc_K": 647.096,
+    "B_N_m": 0.2358,
+    "b": -0.625,
+    "mu": 1.256
+  },
+  "channel": {
+    "radii_um": [
+      0.05,
+      0.1,
+      0.3,
+      1
+    ],
+    "lengths_um": [
+      10,
+      30,
+      100
+    ],
+    "water_pocket_radius_um": 15,
+    "contact_patch_radius_um": 10,
+    "target_water_film_nm": 50,
+    "liquid_pressure_MPa": [
+      0.1,
+      0.5,
+      2
+    ],
+    "nonwetting_contact_angle_deg": 120,
+    "viscosity_Pa_s": 0.00055,
+    "water_density_kg_m3": 1000,
+    "vapor_diffusivity_m2_s": 0.00003,
+    "air_C": 30,
+    "air_RH": 0.6,
+    "surface_C": 50,
+    "contact_duration_s": 0.1,
+    "closed_interval_h": 4
+  },
+  "bed": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "active_depths_m": [
+      0.01,
+      0.05,
+      0.45
+    ],
+    "water_mass_per_dry_mass": 0.01,
+    "operating_interval_h": 4,
+    "open_surface_flux_kg_m2_h": [
+      0.005,
+      0.05,
+      0.5
+    ],
+    "local_passes": 100,
+    "film_nm": [
+      10,
+      100,
+      1000
+    ],
+    "lost_film_fraction": 1
+  },
+  "load": {
+    "dry_mu": [
+      0.08,
+      0.1,
+      0.15
+    ],
+    "wet_mu": 0.02,
+    "target_mu": 0.07,
+    "patch_area_fraction": [
+      0.01,
+      0.05,
+      0.2
+    ]
+  },
+  "cost": {
+    "solid_density_kg_m3": 1200,
+    "branch_radius_um": 30,
+    "patch_fraction": [
+      0.01,
+      0.05,
+      0.2
+    ],
+    "dry_layer_thickness_nm": 100,
+    "dry_layer_density_kg_m3": 1000,
+    "added_material_price_JPY_kg": [
+      5000,
+      20000
+    ],
+    "manufacturing_yield": 0.8,
+    "annual_material_replacement": 0.1,
+    "annual_cost_budget_JPY": 1000000,
+    "capital_life_years": 10,
+    "discount_rate": 0.08
+  }
+}

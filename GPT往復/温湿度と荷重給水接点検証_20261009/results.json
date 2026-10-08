@@ -1,0 +1,225 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "status": "hypothetical diagnostic only",
+  "counts": {
+    "humidity": 36,
+    "pores": 36,
+    "pore_sensitivity": 13,
+    "macro_water": 27,
+    "load_share": 9,
+    "coating_cost": 6,
+    "numeric_checks": 25
+  },
+  "sat30_Pa": 4276.184937709451,
+  "sat50_Pa": 12285.116124123751,
+  "surface50_RH_for_air30_RH60": 0.20884710707678986,
+  "surface50_RH_for_saturated_air30": 0.34807851179464977,
+  "surface_tension50_N_m": 0.06794390594487329,
+  "base_pore": {
+    "throat_radius_um": 0.1,
+    "throat_length_um": 100,
+    "liquid_pressure_MPa": 2,
+    "pocket_radius_um": 15,
+    "contact_angle_deg": 120,
+    "entry_pressure_MPa": 0.6794390594487326,
+    "Knudsen_D_m2_s": 4.108444858964858e-05,
+    "effective_D_m2_s": 1.733900286410804e-05,
+    "evaporation_kg_s": 3.5500773186381626e-16,
+    "pocket_water_kg": 1.4137166941154065e-11,
+    "steady_evaporation_inventory_hours": 11.061705040536031,
+    "liquid_flow_m3_s": 9.428783066939748e-16,
+    "liquid_Re": 0.010913726781415433,
+    "channel_length_over_diameter": 500.0,
+    "priming_m3": 3.1415926535897924e-18,
+    "film_demand_m3": 1.5707963267948964e-17,
+    "conservative_priming_plus_film_s": 0.01999150451093861,
+    "pulse_water_kg": 9.428783066939748e-14,
+    "four_hour_evaporation_kg": 5.112111338838954e-12,
+    "hundred_pulses_water_kg": 9.428783066939748e-12,
+    "four_hour_total_loss_fraction": 1.0285578762919863,
+    "flow_if_capillary_hold_vanishes_m3_s": 1.4279966607226332e-15,
+    "loss_fraction_if_capillary_hold_vanishes": 1.371708916417609,
+    "supply_within_dwell": true,
+    "water_inventory_covers_retained_capillary_head": false,
+    "water_inventory_covers_zero_postopening_head": false
+  },
+  "larger_pocket_20um": {
+    "throat_radius_um": 0.1,
+    "throat_length_um": 100,
+    "liquid_pressure_MPa": 2,
+    "pocket_radius_um": 20,
+    "contact_angle_deg": 120,
+    "entry_pressure_MPa": 0.6794390594487326,
+    "Knudsen_D_m2_s": 4.108444858964858e-05,
+    "effective_D_m2_s": 1.733900286410804e-05,
+    "evaporation_kg_s": 3.5500773186381626e-16,
+    "pocket_water_kg": 3.3510321638291115e-11,
+    "steady_evaporation_inventory_hours": 26.220337873863183,
+    "liquid_flow_m3_s": 9.428783066939748e-16,
+    "liquid_Re": 0.010913726781415433,
+    "channel_length_over_diameter": 500.0,
+    "priming_m3": 3.1415926535897924e-18,
+    "film_demand_m3": 1.5707963267948964e-17,
+    "conservative_priming_plus_film_s": 0.01999150451093861,
+    "pulse_water_kg": 9.428783066939748e-14,
+    "four_hour_evaporation_kg": 5.112111338838954e-12,
+    "hundred_pulses_water_kg": 9.428783066939748e-12,
+    "four_hour_total_loss_fraction": 0.43392285406068176,
+    "flow_if_capillary_hold_vanishes_m3_s": 1.4279966607226332e-15,
+    "loss_fraction_if_capillary_hold_vanishes": 0.5786896991136788,
+    "supply_within_dwell": true,
+    "water_inventory_covers_retained_capillary_head": true,
+    "water_inventory_covers_zero_postopening_head": true
+  },
+  "macro_50mm_100nm_flux005": {
+    "active_depth_m": 0.05,
+    "available_water_kg": 120.0,
+    "open_surface_flux_kg_m2_h": 0.05,
+    "film_nm": 100,
+    "evaporation_kg": 400.0,
+    "film_replacement_kg": 20.0,
+    "total_required_water_kg": 420.0,
+    "required_water_per_active_dry_mass": 0.035,
+    "water_deficit_kg": 300.0
+  },
+  "coating_area_per_kg_m2": 55.55555555555556,
+  "coating_costs": [
+    {
+      "patch_area_fraction": 0.01,
+      "retained_layer_kg": 6.0,
+      "purchased_layer_equivalent_kg": 7.5,
+      "assumed_price_JPY_kg": 5000,
+      "initial_material_only_JPY": 37500.0,
+      "annualized_material_and_replacement_JPY": 9338.605826140325,
+      "annual_remaining_for_processing_JPY": 990661.3941738596
+    },
+    {
+      "patch_area_fraction": 0.01,
+      "retained_layer_kg": 6.0,
+      "purchased_layer_equivalent_kg": 7.5,
+      "assumed_price_JPY_kg": 20000,
+      "initial_material_only_JPY": 150000.0,
+      "annualized_material_and_replacement_JPY": 37354.4233045613,
+      "annual_remaining_for_processing_JPY": 962645.5766954387
+    },
+    {
+      "patch_area_fraction": 0.05,
+      "retained_layer_kg": 30.000000000000004,
+      "purchased_layer_equivalent_kg": 37.5,
+      "assumed_price_JPY_kg": 5000,
+      "initial_material_only_JPY": 187500.0,
+      "annualized_material_and_replacement_JPY": 46693.02913070162,
+      "annual_remaining_for_processing_JPY": 953306.9708692983
+    },
+    {
+      "patch_area_fraction": 0.05,
+      "retained_layer_kg": 30.000000000000004,
+      "purchased_layer_equivalent_kg": 37.5,
+      "assumed_price_JPY_kg": 20000,
+      "initial_material_only_JPY": 750000.0,
+      "annualized_material_and_replacement_JPY": 186772.1165228065,
+      "annual_remaining_for_processing_JPY": 813227.8834771935
+    },
+    {
+      "patch_area_fraction": 0.2,
+      "retained_layer_kg": 120.00000000000001,
+      "purchased_layer_equivalent_kg": 150.0,
+      "assumed_price_JPY_kg": 5000,
+      "initial_material_only_JPY": 750000.0,
+      "annualized_material_and_replacement_JPY": 186772.1165228065,
+      "annual_remaining_for_processing_JPY": 813227.8834771935
+    },
+    {
+      "patch_area_fraction": 0.2,
+      "retained_layer_kg": 120.00000000000001,
+      "purchased_layer_equivalent_kg": 150.0,
+      "assumed_price_JPY_kg": 20000,
+      "initial_material_only_JPY": 3000000.0,
+      "annualized_material_and_replacement_JPY": 747088.466091226,
+      "annual_remaining_for_processing_JPY": 252911.53390877403
+    }
+  ],
+  "load_shares": [
+    {
+      "dry_mu": 0.08,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.1666666666666666,
+      "wet_area_fraction": 0.01,
+      "wet_to_dry_mean_pressure_ratio": 19.79999999999999
+    },
+    {
+      "dry_mu": 0.08,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.1666666666666666,
+      "wet_area_fraction": 0.05,
+      "wet_to_dry_mean_pressure_ratio": 3.799999999999998
+    },
+    {
+      "dry_mu": 0.08,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.1666666666666666,
+      "wet_area_fraction": 0.2,
+      "wet_to_dry_mean_pressure_ratio": 0.7999999999999996
+    },
+    {
+      "dry_mu": 0.1,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.375,
+      "wet_area_fraction": 0.01,
+      "wet_to_dry_mean_pressure_ratio": 59.39999999999999
+    },
+    {
+      "dry_mu": 0.1,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.375,
+      "wet_area_fraction": 0.05,
+      "wet_to_dry_mean_pressure_ratio": 11.399999999999999
+    },
+    {
+      "dry_mu": 0.1,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.375,
+      "wet_area_fraction": 0.2,
+      "wet_to_dry_mean_pressure_ratio": 2.4000000000000004
+    },
+    {
+      "dry_mu": 0.15,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.6153846153846153,
+      "wet_area_fraction": 0.01,
+      "wet_to_dry_mean_pressure_ratio": 158.39999999999995
+    },
+    {
+      "dry_mu": 0.15,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.6153846153846153,
+      "wet_area_fraction": 0.05,
+      "wet_to_dry_mean_pressure_ratio": 30.399999999999988
+    },
+    {
+      "dry_mu": 0.15,
+      "wet_mu": 0.02,
+      "target_mu": 0.07,
+      "required_wet_load_fraction": 0.6153846153846153,
+      "wet_area_fraction": 0.2,
+      "wet_to_dry_mean_pressure_ratio": 6.399999999999998
+    }
+  ],
+  "conditional_pocket_count_for_120kg_water": 8488263631567.754,
+  "limitations": [
+    "no achieved water film/friction prediction",
+    "dry nonwetting throat must return after load",
+    "actual liquid pressure is not nominal ski pressure",
+    "gas/liquid transition, elasticity, clogging and 50C wear not solved",
+    "safety and winter anchoring unverified"
+  ]
+}

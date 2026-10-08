@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S1",
+    "title": "Switchable Slippery Surfaces Controlled by a Humidity-Induced Glass Transition of Polyelectrolyte-Grafted Brushes",
+    "doi": "10.1002/admi.202400025",
+    "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/admi.202400025",
+    "author_pdf": "https://par.nsf.gov/servlets/purl/10532209",
+    "sha256": "de24bc5ab806161ed4bb1d1a87fbb7a7812390387f39e84e3a40a447dafb22de",
+    "verified": "Full publisher HTML and author PDF pages2,3,11; Fig1 visually checked.",
+    "use": "Room-temperature PMETA/PSPMA-PDMS humidity switching; approximately55–75%RH transition,30mN and60kPa contact, micron/s speeds. 0.0084 is a force-versus-load slope, not every force ratio.",
+    "cautions": "Printed speed unit6um^-1s conflicts with Figure1 axisum/s; Fig1 humidity95/99% text differs. No 50C or ski-speed prediction; salts/silicone experimental system not adopted."
+  },
+  {
+    "id": "S2",
+    "title": "Designing soft/hard double network hydrogel microsphere/UHMWPE composites to promote water lubrication performance",
+    "doi": "10.1007/s40544-020-0404-1",
+    "url": "https://www.sciopen.com/article/10.1007/s40544-020-0404-1",
+    "author_pdf": "https://eprints.whiterose.ac.uk/id/eprint/178998/1/Wang2021_Article_DesigningSoftHardDoubleNetwork.pdf",
+    "sha256": "fc8ba23cfceea3ffc608a818e384832ea0331f3418cd65cdbf09344aee95e463",
+    "verified": "Full PDF pages3,4,9; Fig6 visually checked.",
+    "use": "Embedded hard/soft microparticles1/3/5wt%, copper-alloy counterbody, water added,30–120mm/s.",
+    "cautions": "UF/PAAm and synthesis constituents not accepted as outdoor-safe recipe. Not a dry50C ski test. No numerical friction coefficients digitized."
+  },
+  {
+    "id": "S3",
+    "title": "Bioinspired polymer-incorporating self-lubricating and antifouling hydrogels",
+    "url": "https://arxiv.org/abs/2404.05234",
+    "pdf": "https://arxiv.org/pdf/2404.05234",
+    "sha256": "41aff5e5cca9fd6bb897de60211dfc45d0ae28276ee049802704b8d8c6b6b14b",
+    "verified": "Author preprint methods and pages13–15,including PE counterbody and fluorescent material transfer.",
+    "use": "PMPC-co-PNIPAM-containing gels lower friction against PE; prior exclusion of hydration route for PE is not justified.",
+    "cautions": "Methods same paragraph mentions PBS37C and high-purity water unless otherwise stated; figure4 says immersed3mL water. Pairing each test condition remains unresolved. Transfer to counterface matters for replenishment and environment; not proof of permanent bound coating."
+  },
+  {
+    "id": "S4",
+    "title": "NIST Chemistry WebBook: Water Antoine equation parameters",
+    "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185&Mask=4&Type=ANTOINE&Plot=on",
+    "verified": "Official coefficient table and unit definition.",
+    "use": "Gubkov etal fit293–343K A6.20963 B2354.731 C7.559,pressurebar. Also compare Bridgeman fit304–333K.",
+    "cautions": "Approximate equilibrium vapor-pressure fit; no chemical sorption or wind/moisture transport model."
+  },
+  {
+    "id": "S5",
+    "title": "IAPWS R1-76(2014): Revised Release on Surface Tension of Ordinary Water Substance",
+    "url": "https://iapws.org/public/documents/CH-L9/Surf-H2O-2014.pdf",
+    "verified": "Official interpolation equation.",
+    "use": "gamma=.2358*tau^1.256*(1-.625tau),tau=1-T/647.096; 50C gamma0.0679439N/m.",
+    "cautions": "Pure water free surface property; contact angle and pore surface must be measured separately."
+  },
+  {
+    "id": "S6",
+    "title": "The Role of the Morphological Characterization of Multilayer Hydrophobized Ceramic Membranes on the Prediction of Sweeping Gas Membrane Distillation Performances",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9611222/",
+    "verified": "Indexed primary fulltext equations3–5 for molecular/Knudsen diffusion.",
+    "use": "Equivalent diffusivity1/Deq=1/Dm+1/DK and DK=d/3 sqrt(8RT/piM).",
+    "cautions": "Adapted as a single ideal dry tube; real artificial-firn pore geometry, dynamic wetting and airflow not calibrated."
+  }
+]
