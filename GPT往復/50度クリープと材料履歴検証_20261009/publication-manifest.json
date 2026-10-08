@@ -1,0 +1,107 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "8f556770dafd2292dcc78eba1b7ee352e24637d4",
+  "cycle": 40,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 18,
+  "files": [
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/ATTRIBUTION.md",
+      "bytes": 1321,
+      "sha256": "d87fa335b6719d4203a7ea381ce3a902fa1a2e17fc28db31a62d0a571dda4472"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/README.md",
+      "bytes": 1822,
+      "sha256": "24138c919e7390fc93765552ea1eb56a3f6b2cb87ffc542adf042edf2b242d5b"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/composition.csv",
+      "bytes": 206,
+      "sha256": "ca5306b52e2c7e75a715a91a4e250ce485ec01ae9e81f355a6c761864838fd4d"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/conditioning_cost.png",
+      "bytes": 127796,
+      "sha256": "baab4fb82c18dd03da16500669030b7c33252e3992c7b1bc91dc499e96ca7c87"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/cost_sensitivity.csv",
+      "bytes": 867,
+      "sha256": "7451b6cf610ff5a42ea7defc8717f176d13077099eaa9f2a880ffffe5efffd26"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/creep_readings.csv",
+      "bytes": 1650,
+      "sha256": "4675a83cb72eb02f984571f10176f505572c5e237e81de37e1467df5112fbbcd"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/environment.json",
+      "bytes": 178,
+      "sha256": "a68ca314ef738ee2974ef59e4ed6c6cc8e31dc9326de9e013cb9985c38279fdc"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/fiber_aging.csv",
+      "bytes": 762,
+      "sha256": "511c939b6f35d94c3e060b63f09c193cd62227636e0ae85252326a4b535a1f8d"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/inputs.json",
+      "bytes": 3068,
+      "sha256": "7cce37d0fd64510958851559e22fb80c147cd797783eabc4c0ee5703b4ba8f2d"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/literature_comparison.png",
+      "bytes": 121442,
+      "sha256": "36f6a84859c69a7c993f91674b98ae027131bc352ab0bb4fd50a2956109bc5e0"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/reproduce.py",
+      "bytes": 9132,
+      "sha256": "5c7f96cfb7e2fd58658cd5e59764cef53c35f3287e3111dda580ac32466d4403"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/requirements.txt",
+      "bytes": 47,
+      "sha256": "eaa05e600e3771ed3cbeb570f4b61938e8e192f94e10f8746e01d12237a8511f"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/results.json",
+      "bytes": 2631,
+      "sha256": "5dfa27b5b0a96ecde80589f38de6d82b44589092e5621516cafaee0fea406f66"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/source_figure10c_crop.png",
+      "bytes": 577955,
+      "sha256": "51a2f3761406638a7002830cfd0eb0cb0a5b5adf5362389848953ad3828bcdb2"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/sources.json",
+      "bytes": 3159,
+      "sha256": "5bdbe847b536c8fc79817d0f4afbcbb249bd32b63c0fb2e0e1903a19ac489edb"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第40巡_50度クリープと経時変化を踏まえた枝の再設計_20261009.md",
+      "bytes": 21986,
+      "sha256": "df7d0313f96d038d70ed7d75136ff326e820a993641037ffc0f68f39c9668aa3"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 26272,
+      "sha256": "ed5abacd2164e4e7364c0b59fa075733c70f7ebe530a9dae73d13b0d5a6634e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 33233,
+      "sha256": "3fafb30946b4428affe5504759adc2318c9f1239b1e68127588a4e60190e018e"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 98153,
+      "sha256": "a67a05a27ada17bbb0e2a7a2472356f32b8845851c29cc1055b71472a15bdb4a"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "accessed": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "In Service Performance of Toughened PHBV/TPU Blends Obtained by Reactive Extrusion for Injected Parts",
+      "authors": "Samaniego-Aguilar et al.",
+      "year": 2022,
+      "doi": "10.3390/polym14122337",
+      "url": "https://www.mdpi.com/2073-4360/14/12/2337",
+      "pdf": "https://mdpi-res.com/d_attachment/polymers/polymers-14-02337/article_deploy/polymers-14-02337.pdf",
+      "access": "publisher PDF fetched; methods, composition, Figure 10c, conclusions read; Figure 10c visually checked",
+      "license": "CC BY 4.0; author copyright 2022",
+      "sha256": "2d379d30727c87c5639b54cfd881c94ca3c10f6525e852cc933dcdd2803dd607",
+      "limitations": [
+        "15 MPa nominal tensile constant load; not branch bending",
+        "200000 s is maximum protocol; not each curve endpoint",
+        "creep sample count and humidity not established",
+        "no unloading curve; no wet skiing or repeated grooming"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Structure–Property Relationship in Melt-Spun Poly(hydroxybutyrate-co-3-hexanoate) Monofilaments",
+      "authors": "Selli et al.",
+      "year": 2022,
+      "doi": "10.3390/polym14010200",
+      "url": "https://www.mdpi.com/2073-4360/14/1/200",
+      "pdf": "https://mdpi-res.com/d_attachment/polymers/polymers-14-00200/article_deploy/polymers-14-00200.pdf",
+      "access": "publisher PDF fetched; methods, Table 1, Table 6 and conclusions read",
+      "license": "CC BY 4.0",
+      "sha256": "5c52e247e31ad7ded37604471996a27f7a9c73e8f623422dc15f8c7698c986b6",
+      "limitations": [
+        "all three grades contain slipping and nucleating agents, identities not established here",
+        "33 month room-temperature storage is not 50 C creep",
+        "means extracted; no independent replicate raw-data reanalysis",
+        "strength and elongation at break are not recoverable service strain"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Unveiling the role of localized secondary crystallization in poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) aging and its effective reversal via annealing",
+      "authors": "Xu et al.",
+      "year": 2026,
+      "doi": "10.1016/j.polymdegradstab.2026.111950",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0141391026000315",
+      "author_lab_url": "https://mapiming.jiangnan.edu.cn/info/1022/1584.htm",
+      "access": "publisher indexed abstract and author university laboratory article; publisher direct full text 403",
+      "limitations": [
+        "exact annealing temperature and duration not confirmed",
+        "different specimen and material history from S1/S2",
+        "do not prescribe a production annealing recipe from abstract"
+      ]
+    },
+    {
+      "id": "D1",
+      "title": "PHBH data: DSC, TGA, SEM, tensile tests, rheology",
+      "author": "Edith Perret",
+      "year": 2021,
+      "doi": "10.17632/fjr7py9vxv.1",
+      "url": "https://data.mendeley.com/datasets/fjr7py9vxv/1",
+      "license": "CC BY 4.0",
+      "access": "landing metadata read; raw files not acquired or reanalysed"
+    }
+  ]
+}

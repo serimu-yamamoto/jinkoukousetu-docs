@@ -1,0 +1,161 @@
+{
+  "schema": "material-history-audit-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "creep": {
+    "source": "https://doi.org/10.3390/polym14122337",
+    "source_pdf_sha256": "2d379d30727c87c5639b54cfd881c94ca3c10f6525e852cc933dcdd2803dd607",
+    "page": 15,
+    "figure": "10c",
+    "image": "source_figure10c_crop.png",
+    "image_width": 1000,
+    "image_height": 740,
+    "render_dpi": 300,
+    "pdf_crop_pixels": {
+      "x": 880,
+      "y": 1600,
+      "width": 1000,
+      "height": 740
+    },
+    "axis": {
+      "x0": 195,
+      "x_end": 937,
+      "t_end_s": 200000,
+      "y_zero": 588,
+      "y_top": 70,
+      "strain_top_percent": 5.5
+    },
+    "nominal_tensile_stress_MPa": 15,
+    "temperature_C": 50,
+    "time_s": [
+      3600,
+      14400,
+      18000,
+      28800
+    ],
+    "reading_window_px": 2,
+    "reading_y_allowance_px": 5,
+    "replicates_creep": "not established; do not borrow n=5 tensile/flexural",
+    "unloading": "not reported"
+  },
+  "fibers": {
+    "source": "https://doi.org/10.3390/polym14010200",
+    "source_pdf_sha256": "5c52e247e31ad7ded37604471996a27f7a9c73e8f623422dc15f8c7698c986b6",
+    "table": 6,
+    "n_per_condition": 20,
+    "age_months": 33,
+    "storage": "room temperature",
+    "service_50C_creep": "not measured in this table",
+    "columns": [
+      "id",
+      "draw_ratio",
+      "fineness_tex",
+      "uts_initial_MPa",
+      "uts_aged_MPa",
+      "break_strain_initial_percent",
+      "break_strain_aged_percent"
+    ],
+    "rows": [
+      [
+        "1780-I",
+        6.5,
+        15,
+        28.6,
+        28.1,
+        263.1,
+        78.2
+      ],
+      [
+        "1781-I",
+        10,
+        10,
+        30.6,
+        30.1,
+        112.4,
+        62.8
+      ],
+      [
+        "1782-I",
+        10,
+        12,
+        37.9,
+        46.5,
+        50.8,
+        35.9
+      ],
+      [
+        "1848-II",
+        8,
+        5,
+        79.3,
+        85.3,
+        93.7,
+        57.7
+      ],
+      [
+        "1783-II",
+        8,
+        8,
+        111.7,
+        123.2,
+        46.3,
+        32.5
+      ],
+      [
+        "1784-II",
+        8.1,
+        8,
+        205.9,
+        187.4,
+        41.8,
+        22.1
+      ],
+      [
+        "1845-III",
+        6,
+        10,
+        null,
+        169.8,
+        null,
+        34.8
+      ],
+      [
+        "1846-III",
+        8,
+        6,
+        290.9,
+        226.9,
+        37.3,
+        19.5
+      ],
+      [
+        "1847-III",
+        8,
+        5.4,
+        139.1,
+        172.8,
+        15.9,
+        15.8
+      ]
+    ]
+  },
+  "cost": {
+    "status": "illustrative assumptions; not quotations or measured lifetime",
+    "mass_kg": 108000,
+    "discount_rate": 0.08,
+    "years": 10,
+    "base_finished_price_JPY_kg": 1000,
+    "lambda_old": 0.2,
+    "lambda_after_candidates": [
+      0.2,
+      0.15,
+      0.1
+    ],
+    "conditioning_surcharge_JPY_kg": [
+      50,
+      100,
+      300
+    ],
+    "boundary": "initial and annual new purchases; no salvage credit; equipment and operating costs unchanged/excluded"
+  }
+}

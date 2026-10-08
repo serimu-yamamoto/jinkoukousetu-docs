@@ -1,0 +1,76 @@
+{
+  "schema": "cycle40-results-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "literature_graph_points": 11,
+  "literature_fiber_rows": 9,
+  "cost_assumption_cases": 9,
+  "five_hour_readings": {
+    "PHBV": {
+      "material": "PHBV",
+      "time_s": 18000,
+      "image_x": 262,
+      "pixel_y_min": 381,
+      "pixel_y_max": 384,
+      "strain_percent": 2.181949806949807,
+      "reading_low_percent": 2.1,
+      "reading_high_percent": 2.3,
+      "apparent_secant_MPa": 687.4585268745852,
+      "status": "figure digitization; allowance is not a confidence interval"
+    },
+    "PHBV_TPU": {
+      "material": "PHBV_TPU",
+      "time_s": 18000,
+      "image_x": 262,
+      "pixel_y_min": 153,
+      "pixel_y_max": 160,
+      "strain_percent": 4.581563706563706,
+      "reading_low_percent": 4.4,
+      "reading_high_percent": 4.7,
+      "apparent_secant_MPa": 327.3991362056252,
+      "status": "figure digitization; allowance is not a confidence interval"
+    },
+    "PHBV_TPU_HMDI": {
+      "material": "PHBV_TPU_HMDI",
+      "time_s": 18000,
+      "image_x": 262,
+      "pixel_y_min": 236,
+      "pixel_y_max": 241,
+      "strain_percent": 3.7109073359073363,
+      "reading_low_percent": 3.6,
+      "reading_high_percent": 3.8,
+      "apparent_secant_MPa": 404.2138119391338,
+      "status": "figure digitization; allowance is not a confidence interval"
+    }
+  },
+  "annual_factor": 6.710081398941448,
+  "baseline_material_annual_JPY": 37695184.77928414,
+  "conditioning_ceiling_JPY_kg_if_lambda_20_to_10_percent": 401.5588696872846,
+  "material_budget_example_JPY_year": 10000000,
+  "finished_price_ceiling_JPY_kg_for_10M_material_budget": {
+    "0.1": 371.8137682289672,
+    "0.2": 265.28587294512016
+  },
+  "checks_passed": 18,
+  "checks": [
+    "source crop dimensions",
+    "time axis monotone",
+    "strain axis monotone",
+    "11 readings and one absent curve",
+    "TPU curve absent at 8 hours",
+    "5-hour order read from graph",
+    "source reading intervals contain central readings",
+    "phr conversion conserves mass",
+    "TPU phr is not 30 weight percent",
+    "missing original sample remains missing",
+    "largest initial UTS loses strength",
+    "maximum retained elongation differs from maximum initial UTS",
+    "annuity formula matches annual discount sum",
+    "break-even reconstructed q=50",
+    "break-even reconstructed q=100",
+    "break-even reconstructed q=300",
+    "no lifetime benefit means extra cost",
+    "price ceiling reconstruction"
+  ],
+  "scope": "External literature readings and arithmetic. No ski, wet, full-depth or 50 C branch experiment performed."
+}
