@@ -1,0 +1,82 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "8682a9757b843582ac6074a0dd62a098fb089ffd",
+  "cycle": 33,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 25,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第33巡_局部圧力を抑える接点と接触材料の選び直し_20261008.md",
+      "bytes": 15687,
+      "sha256": "d3ac537ea04635ba12d815fe1c6db38b99f85562ddaee2fbcf8b981b2b7b6341"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 21115,
+      "sha256": "93b7788749ad9bfe0e398db88010be761bda986072c48b06eef67704630ecff4"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/README.md",
+      "bytes": 1739,
+      "sha256": "e2693c0e4092b6bf88c2b5ef274ad1efcb788d132e2856ea95130d98d8de85b9"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/calculate.py",
+      "bytes": 10301,
+      "sha256": "ee95fbdf7f286524a3c0811889fc640cf8670620ec7999a62afff14a4686e441"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/figure1_pressure_bound.png",
+      "bytes": 198420,
+      "sha256": "083aa1018fb5f1b60905b1447f068ef7bf52a0140e6fb14446028af1253f5e78"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/figure2_contact_sharing.png",
+      "bytes": 142341,
+      "sha256": "3ff54b5116b3a957c23761cf46ecf22f955d6aa6dce607a3c80cf6372e732171"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/inputs.json",
+      "bytes": 2953,
+      "sha256": "9418d610577ce6848b1b2ce39cfac3767c53d454ae283160573111c303a2ffc6"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/model.md",
+      "bytes": 5188,
+      "sha256": "04f90bc5b282fd5f4bbd0c62b8c75dfc06f94aa5b93de7fbac5c57c3a2e65ca4"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/plot.py",
+      "bytes": 3081,
+      "sha256": "ba1deec8dd40f510805f3016067fc1a95011f838363973ea98e41cfd4cf04b18"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/results.json",
+      "bytes": 64581,
+      "sha256": "bc6030b5e07dc539e3094b627aa7674b71f116aa7c1c437e0e4285f8570dbea2"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/sources.md",
+      "bytes": 4000,
+      "sha256": "9f789d91f2b0bcc2fb4fe6425c05634cc157acd6e26b633924468e9a7fec5b7c"
+    },
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/validation.json",
+      "bytes": 5045,
+      "sha256": "a38e4841692eb26e679ec2ff7bfd6e0c122dc4813e028e428cfee217007e8ea0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 27922,
+      "sha256": "5c025a91074a5abf4b899d7a65089b8e55cd632f7615baae4f4a6a1b76823010"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 87607,
+      "sha256": "a28f888705ecd2a7851ab766c4f211eb215d84728c6671268e6f2960ca56db2d"
+    }
+  ]
+}

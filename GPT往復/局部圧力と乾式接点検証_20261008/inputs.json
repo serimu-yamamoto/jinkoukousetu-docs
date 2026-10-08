@@ -1,0 +1,107 @@
+{
+  "schema": "h33-contact-pressure-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "source_fits": {
+    "source": "Bergmann et al. 2024 DOI 10.1007/s40544-024-0887-2 Eq 6 and Sec 6.2; source-condition fit, NOT 50 C or granular calibration",
+    "velocity_m_s": 0.1,
+    "test_duration_h": 24,
+    "pom_pe_parameters": [
+      {
+        "label": "rotating_initial_peak_0_to_3h",
+        "tau0_Pa": 2000000,
+        "beta": 0.07
+      },
+      {
+        "label": "rotating_late_mean_21_to_23h",
+        "tau0_Pa": 700000,
+        "beta": 0.07
+      },
+      {
+        "label": "oscillating",
+        "tau0_Pa": 1681000,
+        "beta": 0.062
+      }
+    ]
+  },
+  "pressure_bound": {
+    "local_pressure_caps_Pa": [
+      5000000,
+      10000000,
+      20000000,
+      40000000
+    ],
+    "cap_status": "HYPOTHETICAL upper local pressure; not yield strength, wear limit or safety approval",
+    "mu_total_budget": 0.1,
+    "other_resistance_mu": 0.02,
+    "other_status": "HYPOTHETICAL combined non-adhesive contribution; not the paper measured deformative component",
+    "inverse_beta": [
+      0.01,
+      0.03,
+      0.05,
+      0.07
+    ]
+  },
+  "geometry": {
+    "status": "HYPOTHETICAL linear roots + independent frictionless elastic Hertz contacts; NOT calibrated to material or snow",
+    "load_N": 400,
+    "nominal_width_m": 0.07,
+    "nominal_length_m": 1.6,
+    "grain_pitch_m": 0.00045,
+    "site_occupancy": 0.5,
+    "combined_modulus_Pa": 500000000,
+    "cap_radius_m": [
+      0.000025,
+      0.00005,
+      0.0001,
+      0.0005
+    ],
+    "height_half_range_m": [
+      0.000005,
+      0.000025,
+      0.00005
+    ],
+    "root_stiffness_N_m": [
+      100,
+      1000,
+      100000,
+      null
+    ],
+    "height_distribution": "uniform height bins, midpoint quadrature; weights are contact counts, not success probabilities",
+    "quadrature_bins": 101,
+    "small_contact_ratio_screen": 0.1,
+    "small_contact_status": "a/R <= 0.1 is illustrative Hertz small-contact screen only; no material linearity/yield check implied",
+    "radius_definition": "local crown curvature radius, not complete particle radius; shallow crowns may have curvature radius larger than grain"
+  },
+  "cost": {
+    "nominal_area_m2": [
+      2000,
+      20000
+    ],
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "local_contact_phase_mass_fraction": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "phase_premium_JPY_kg": [
+      500,
+      2000
+    ],
+    "status": "ALL cost inputs are sensitivity assumptions, NOT vendor quotes, phase coverage or load fraction"
+  },
+  "load_sharing": {
+    "status": "HYPOTHETICAL load-weighted friction illustration; NOT measured coefficients, phase mass fraction or coverage",
+    "low_phase_mu": [
+      0.04,
+      0.05,
+      0.06
+    ],
+    "other_phase_mu": 0.15,
+    "total_mu_budget": 0.1,
+    "noninterface_mu": 0.02,
+    "load_N": 400,
+    "local_pressure_cap_Pa": 10000000
+  }
+}

@@ -1,0 +1,2027 @@
+{
+  "schema": "h33-results-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "pressure_bounds": [
+    {
+      "label": "rotating_initial_peak_0_to_3h",
+      "local_pressure_cap_Pa": 5000000,
+      "adhesion_lower_bound": 0.47000000000000003,
+      "total_lower_bound": 0.49000000000000005
+    },
+    {
+      "label": "rotating_initial_peak_0_to_3h",
+      "local_pressure_cap_Pa": 10000000,
+      "adhesion_lower_bound": 0.27,
+      "total_lower_bound": 0.29000000000000004
+    },
+    {
+      "label": "rotating_initial_peak_0_to_3h",
+      "local_pressure_cap_Pa": 20000000,
+      "adhesion_lower_bound": 0.17,
+      "total_lower_bound": 0.19
+    },
+    {
+      "label": "rotating_initial_peak_0_to_3h",
+      "local_pressure_cap_Pa": 40000000,
+      "adhesion_lower_bound": 0.12000000000000001,
+      "total_lower_bound": 0.14
+    },
+    {
+      "label": "rotating_late_mean_21_to_23h",
+      "local_pressure_cap_Pa": 5000000,
+      "adhesion_lower_bound": 0.21000000000000002,
+      "total_lower_bound": 0.23
+    },
+    {
+      "label": "rotating_late_mean_21_to_23h",
+      "local_pressure_cap_Pa": 10000000,
+      "adhesion_lower_bound": 0.14,
+      "total_lower_bound": 0.16
+    },
+    {
+      "label": "rotating_late_mean_21_to_23h",
+      "local_pressure_cap_Pa": 20000000,
+      "adhesion_lower_bound": 0.10500000000000001,
+      "total_lower_bound": 0.125
+    },
+    {
+      "label": "rotating_late_mean_21_to_23h",
+      "local_pressure_cap_Pa": 40000000,
+      "adhesion_lower_bound": 0.08750000000000001,
+      "total_lower_bound": 0.10750000000000001
+    },
+    {
+      "label": "oscillating",
+      "local_pressure_cap_Pa": 5000000,
+      "adhesion_lower_bound": 0.3982,
+      "total_lower_bound": 0.4182
+    },
+    {
+      "label": "oscillating",
+      "local_pressure_cap_Pa": 10000000,
+      "adhesion_lower_bound": 0.2301,
+      "total_lower_bound": 0.2501
+    },
+    {
+      "label": "oscillating",
+      "local_pressure_cap_Pa": 20000000,
+      "adhesion_lower_bound": 0.14605,
+      "total_lower_bound": 0.16605
+    },
+    {
+      "label": "oscillating",
+      "local_pressure_cap_Pa": 40000000,
+      "adhesion_lower_bound": 0.104025,
+      "total_lower_bound": 0.12402500000000001
+    }
+  ],
+  "necessary_pressure_caps": [
+    {
+      "label": "rotating_initial_peak_0_to_3h",
+      "minimum_pressure_cap_Pa": 200000000.0000001,
+      "finite_necessary_condition": true,
+      "not_sufficient": true
+    },
+    {
+      "label": "rotating_late_mean_21_to_23h",
+      "minimum_pressure_cap_Pa": 70000000.00000003,
+      "finite_necessary_condition": true,
+      "not_sufficient": true
+    },
+    {
+      "label": "oscillating",
+      "minimum_pressure_cap_Pa": 93388888.88888888,
+      "finite_necessary_condition": true,
+      "not_sufficient": true
+    }
+  ],
+  "inverse_tau0_limits": [
+    {
+      "local_pressure_cap_Pa": 5000000,
+      "beta": 0.01,
+      "maximum_tau0_Pa": 350000.00000000006,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 5000000,
+      "beta": 0.03,
+      "maximum_tau0_Pa": 250000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 5000000,
+      "beta": 0.05,
+      "maximum_tau0_Pa": 150000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 5000000,
+      "beta": 0.07,
+      "maximum_tau0_Pa": 49999.99999999998,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 10000000,
+      "beta": 0.01,
+      "maximum_tau0_Pa": 700000.0000000001,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 10000000,
+      "beta": 0.03,
+      "maximum_tau0_Pa": 500000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 10000000,
+      "beta": 0.05,
+      "maximum_tau0_Pa": 300000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 10000000,
+      "beta": 0.07,
+      "maximum_tau0_Pa": 99999.99999999996,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 20000000,
+      "beta": 0.01,
+      "maximum_tau0_Pa": 1400000.0000000002,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 20000000,
+      "beta": 0.03,
+      "maximum_tau0_Pa": 1000000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 20000000,
+      "beta": 0.05,
+      "maximum_tau0_Pa": 600000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 20000000,
+      "beta": 0.07,
+      "maximum_tau0_Pa": 199999.9999999999,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 40000000,
+      "beta": 0.01,
+      "maximum_tau0_Pa": 2800000.0000000005,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 40000000,
+      "beta": 0.03,
+      "maximum_tau0_Pa": 2000000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 40000000,
+      "beta": 0.05,
+      "maximum_tau0_Pa": 1200000.0,
+      "necessary_only": true
+    },
+    {
+      "local_pressure_cap_Pa": 40000000,
+      "beta": 0.07,
+      "maximum_tau0_Pa": 399999.9999999998,
+      "necessary_only": true
+    }
+  ],
+  "geometry_cases": [
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.5034998998481888e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 276543.20987654326,
+      "load_N": 399.9999999999999,
+      "real_area_m2": 1.2395694447489374e-05,
+      "real_area_fraction": 0.0001106758432811551,
+      "area_mean_pressure_Pa": 32269269.1155368,
+      "max_local_peak_pressure_Pa": 53052476.81316375,
+      "max_root_deflection_m": 1.9291027896033105e-05,
+      "max_a_over_R": 0.16666927141097806,
+      "max_contact_diameter_m": 8.333463570548904e-06,
+      "active_force_CV": 0.194405950452176,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1319784722374469
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09169246528310641
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.11409290591557411
+        }
+      ],
+      "direct_adhesive_force_N": 36.676986113242556
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": 1.1776590192155418e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 169759.19814203648,
+      "load_N": 400.0000000000001,
+      "real_area_m2": 1.0027285016414367e-05,
+      "real_area_fraction": 8.952933050369969e-05,
+      "area_mean_pressure_Pa": 39891156.9128844,
+      "max_local_peak_pressure_Pa": 72113840.83446589,
+      "max_root_deflection_m": 4.845005310426982e-06,
+      "max_a_over_R": 0.22655231258770167,
+      "max_contact_diameter_m": 1.1327615629385084e-05,
+      "active_force_CV": 0.6062828070980104,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12013642508207183
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08754774877872515
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10413966528148136
+        }
+      ],
+      "direct_adhesive_force_N": 35.01909951149007
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -2.3364153378882346e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 73927.39273927394,
+      "load_N": 400.0000000000002,
+      "real_area_m2": 7.390441807987752e-06,
+      "real_area_fraction": 6.59860875713192e-05,
+      "area_mean_pressure_Pa": 54123963.13947989,
+      "max_local_peak_pressure_Pa": 100327956.25873102,
+      "max_root_deflection_m": 1.3046808048251412e-07,
+      "max_a_over_R": 0.3151895703321075,
+      "max_contact_diameter_m": 1.5759478516605374e-05,
+      "active_force_CV": 0.7447868617096456,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.10695220903993874
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08293327316397857
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.09305833169806851
+        }
+      ],
+      "direct_adhesive_force_N": 33.17330926559144
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -2.4047454132727564e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 71189.34115633788,
+      "load_N": 400.0,
+      "real_area_m2": 7.313990481558165e-06,
+      "real_area_fraction": 6.53034864424836e-05,
+      "area_mean_pressure_Pa": 54689707.48712055,
+      "max_local_peak_pressure_Pa": 101575265.96570578,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.3191081093442907,
+      "max_contact_diameter_m": 1.5955405467214534e-05,
+      "active_force_CV": 0.7412047831673884,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.10656995240779082
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.0827994833427268
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.09273704499874819
+        }
+      ],
+      "direct_adhesive_force_N": 33.11979333709072
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.368466765137609e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 213568.02346901363,
+      "load_N": 400.0000000000002,
+      "real_area_m2": 1.0875014217430032e-05,
+      "real_area_fraction": 9.709834122705384e-05,
+      "area_mean_pressure_Pa": 36781561.10903253,
+      "max_local_peak_pressure_Pa": 66127554.52062703,
+      "max_root_deflection_m": 3.735818454372718e-05,
+      "max_a_over_R": 0.20774583948186043,
+      "max_contact_diameter_m": 1.0387291974093022e-05,
+      "active_force_CV": 0.5800529574020351,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12437507108715012
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08903127488050255
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10770224724874969
+        }
+      ],
+      "direct_adhesive_force_N": 35.61250995220104
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -1.1596448664992012e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 73927.39273927394,
+      "load_N": 400.0000000000003,
+      "real_area_m2": 7.604256020622825e-06,
+      "real_area_fraction": 6.789514304127522e-05,
+      "area_mean_pressure_Pa": 52602121.616525784,
+      "max_local_peak_pressure_Pa": 94626847.04452977,
+      "max_root_deflection_m": 1.0946656375608135e-05,
+      "max_a_over_R": 0.29727900750745967,
+      "max_contact_diameter_m": 1.4863950375372985e-05,
+      "active_force_CV": 0.6027673933899805,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.10802128010311411
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08330744803608994
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.0939568859266674
+        }
+      ],
+      "direct_adhesive_force_N": 33.322979214435996
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -1.9879015930198198e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 27380.51582936072,
+      "load_N": 400.000000000001,
+      "real_area_m2": 5.375393156364686e-06,
+      "real_area_fraction": 4.799458175325612e-05,
+      "area_mean_pressure_Pa": 74413161.67290659,
+      "max_local_peak_pressure_Pa": 135794873.3532246,
+      "max_root_deflection_m": 3.2351058838394233e-07,
+      "max_a_over_R": 0.42661217652164685,
+      "max_contact_diameter_m": 2.1330608826082343e-05,
+      "active_force_CV": 0.7006039506909855,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.09687696578182337
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.07940693802363818
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.08459008973962254
+        }
+      ],
+      "direct_adhesive_force_N": 31.762775209455356
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -2.0057085928272393e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 27380.51582936072,
+      "load_N": 400.00000000000006,
+      "real_area_m2": 5.306619891788741e-06,
+      "real_area_fraction": 4.7380534748113754e-05,
+      "area_mean_pressure_Pa": 75377548.82706873,
+      "max_local_peak_pressure_Pa": 137948164.6834404,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.43337694074569133,
+      "max_contact_diameter_m": 2.1668847037284568e-05,
+      "active_force_CV": 0.749378087184347,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.09653309945894371
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.0792865848106303
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.08430107009524218
+        }
+      ],
+      "direct_adhesive_force_N": 31.714633924252123
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 4.608150747642066e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 150592.83706148397,
+      "load_N": 399.99999999999983,
+      "real_area_m2": 9.683670996532151e-06,
+      "real_area_fraction": 8.646134818332276e-05,
+      "area_mean_pressure_Pa": 41306649.11511812,
+      "max_local_peak_pressure_Pa": 74189394.29982154,
+      "max_root_deflection_m": 5.2755027359167705e-05,
+      "max_a_over_R": 0.23307285610659592,
+      "max_contact_diameter_m": 1.1653642805329796e-05,
+      "active_force_CV": 0.5783809066207583,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.11841835498266079
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08694642424393129
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10269562736292638
+        }
+      ],
+      "direct_adhesive_force_N": 34.77856969757249
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -3.125168754243304e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 52022.980075785366,
+      "load_N": 399.9999999999992,
+      "real_area_m2": 6.755839910743305e-06,
+      "real_area_fraction": 6.0319999203065215e-05,
+      "area_mean_pressure_Pa": 59208034.12820799,
+      "max_local_peak_pressure_Pa": 106192005.82852913,
+      "max_root_deflection_m": 1.5470838365466522e-05,
+      "max_a_over_R": 0.3336120253808717,
+      "max_contact_diameter_m": 1.6680601269043587e-05,
+      "active_force_CV": 0.6067158743423833,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.10377919955371659
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08182271984380081
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.0903914172248988
+        }
+      ],
+      "direct_adhesive_force_N": 32.72908793752026
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -4.320385304875064e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 19166.361080552502,
+      "load_N": 400.0000000000016,
+      "real_area_m2": 4.699769475385205e-06,
+      "real_area_fraction": 4.196222745879647e-05,
+      "area_mean_pressure_Pa": 85110557.4635055,
+      "max_local_peak_pressure_Pa": 153736363.7550734,
+      "max_root_deflection_m": 4.6942713538796346e-07,
+      "max_a_over_R": 0.4829770309625468,
+      "max_contact_diameter_m": 2.414885154812734e-05,
+      "active_force_CV": 0.7531378265223886,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.09349884737692593
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.07822459658192409
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.08175078122030624
+        }
+      ],
+      "direct_adhesive_force_N": 31.289838632769754
+    },
+    {
+      "radius_m": 2.5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -4.347035938338784e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 19166.361080552502,
+      "load_N": 400.0,
+      "real_area_m2": 4.612750764353367e-06,
+      "real_area_fraction": 4.118527468172648e-05,
+      "area_mean_pressure_Pa": 86716152.77615666,
+      "max_local_peak_pressure_Pa": 156388223.8828859,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.4913080952584303,
+      "max_contact_diameter_m": 2.4565404762921516e-05,
+      "active_force_CV": 0.8084507090725559,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.09306375382176685
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.0780723138376184
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.08138508508719502
+        }
+      ],
+      "direct_adhesive_force_N": 31.22892553504736
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.4917239759372474e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 276543.20987654326,
+      "load_N": 399.9999999999999,
+      "real_area_m2": 1.9676009284574794e-05,
+      "real_area_fraction": 0.00017567865432656062,
+      "area_mean_pressure_Pa": 20329325.637876373,
+      "max_local_peak_pressure_Pa": 33435415.583483424,
+      "max_root_deflection_m": 1.931605994539588e-05,
+      "max_a_over_R": 0.1050404559667932,
+      "max_contact_diameter_m": 1.0504045596679322e-05,
+      "active_force_CV": 0.19544863813487637,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.16838004642287402
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.10443301624800591
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.1446884290184256
+        }
+      ],
+      "direct_adhesive_force_N": 41.77320649920235
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": 1.0169105814862275e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 167021.1465591004,
+      "load_N": 400.00000000000006,
+      "real_area_m2": 1.579915034311984e-05,
+      "real_area_fraction": 0.00014106384234928427,
+      "area_mean_pressure_Pa": 25317817.180858128,
+      "max_local_peak_pressure_Pa": 45712211.29892661,
+      "max_root_deflection_m": 4.936226273230045e-06,
+      "max_a_over_R": 0.14360914719605214,
+      "max_contact_diameter_m": 1.4360914719605214e-05,
+      "active_force_CV": 0.6113481253823334,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1489957517155992
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09764851310045972
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.12839592931696112
+        }
+      ],
+      "direct_adhesive_force_N": 39.05940524018389
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -2.662584676855841e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 65713.23799046573,
+      "load_N": 400.00000000000006,
+      "real_area_m2": 1.1234962888493314e-05,
+      "real_area_fraction": 0.00010031216864726172,
+      "area_mean_pressure_Pa": 35603143.861709975,
+      "max_local_peak_pressure_Pa": 65857129.83770805,
+      "max_root_deflection_m": 1.4760693631875664e-07,
+      "max_a_over_R": 0.20689627528465276,
+      "max_contact_diameter_m": 2.068962752846528e-05,
+      "active_force_CV": 0.7556080647179311,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12617481444246656
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.0896611850548633
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10921493153889314
+        }
+      ],
+      "direct_adhesive_force_N": 35.86447402194532
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -2.740614269003801e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 62975.186407529654,
+      "load_N": 400.0000000000003,
+      "real_area_m2": 1.1086808872825276e-05,
+      "real_area_fraction": 9.898936493593994e-05,
+      "area_mean_pressure_Pa": 36078911.8481545,
+      "max_local_peak_pressure_Pa": 66919016.18954507,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.21023228964653118,
+      "max_contact_diameter_m": 2.102322896465312e-05,
+      "active_force_CV": 0.7578182646503757,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12543404436412636
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08940191552744423
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10859231428804819
+        }
+      ],
+      "direct_adhesive_force_N": 35.76076621097772
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.3550440651648441e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 213568.02346901363,
+      "load_N": 400.0,
+      "real_area_m2": 1.724709023794788e-05,
+      "real_area_fraction": 0.00015399187712453462,
+      "area_mean_pressure_Pa": 23192317.920381762,
+      "max_local_peak_pressure_Pa": 41690073.3948994,
+      "max_root_deflection_m": 3.744521657468891e-05,
+      "max_a_over_R": 0.1309732283050352,
+      "max_contact_diameter_m": 1.309732283050352e-05,
+      "active_force_CV": 0.5830719281507217,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.15623545118973942
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.1001824079164088
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.13448089672497598
+        }
+      ],
+      "direct_adhesive_force_N": 40.07296316656351
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -1.1873565945191637e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 73927.39273927394,
+      "load_N": 400.0000000000003,
+      "real_area_m2": 1.199049103536723e-05,
+      "real_area_fraction": 0.00010705795567292169,
+      "area_mean_pressure_Pa": 33359768.071228914,
+      "max_local_peak_pressure_Pa": 59902853.52910604,
+      "max_root_deflection_m": 1.1108128637071719e-05,
+      "max_a_over_R": 0.18819036457610488,
+      "max_contact_diameter_m": 1.881903645761049e-05,
+      "active_force_CV": 0.6214942694937238,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12995245517683612
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09098335931189265
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.11239003857613075
+        }
+      ],
+      "direct_adhesive_force_N": 36.39334372475708
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -2.049357825219709e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 24642.46424642465,
+      "load_N": 399.99999999999943,
+      "real_area_m2": 8.192136074999834e-06,
+      "real_area_fraction": 7.314407209821279e-05,
+      "area_mean_pressure_Pa": 48827313.94326938,
+      "max_local_peak_pressure_Pa": 88857366.42952777,
+      "max_root_deflection_m": 3.625589912906777e-07,
+      "max_a_over_R": 0.27915364959234074,
+      "max_contact_diameter_m": 2.7915364959234078e-05,
+      "active_force_CV": 0.7201657087890797,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.11096068037499923
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08433623813124974
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.09642745185518685
+        }
+      ],
+      "direct_adhesive_force_N": 33.734495252499855
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -2.0695447933605163e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 24642.46424642465,
+      "load_N": 399.9999999999987,
+      "real_area_m2": 8.03905154184726e-06,
+      "real_area_fraction": 7.177724590935051e-05,
+      "area_mean_pressure_Pa": 49757113.49999435,
+      "max_local_peak_pressure_Pa": 90671143.09587449,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.2848517970425881,
+      "max_contact_diameter_m": 2.8485179704258814e-05,
+      "active_force_CV": 0.7836153196942102,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.11019525770923644
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08406834019823275
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.09578411410461321
+        }
+      ],
+      "direct_adhesive_force_N": 33.62733607929299
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 4.4387316871987205e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 150592.83706148397,
+      "load_N": 399.9999999999999,
+      "real_area_m2": 1.535972273192883e-05,
+      "real_area_fraction": 0.00013714038153507882,
+      "area_mean_pressure_Pa": 26042136.7612649,
+      "max_local_peak_pressure_Pa": 46768633.39312648,
+      "max_root_deflection_m": 5.286429039235051e-05,
+      "max_a_over_R": 0.14692799508628046,
+      "max_contact_diameter_m": 1.4692799508628047e-05,
+      "active_force_CV": 0.5810676857327869,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.14679861365964417
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09687951478087546
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.1265492347809309
+        }
+      ],
+      "direct_adhesive_force_N": 38.75180591235018
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -3.16008588137708e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 52022.980075785366,
+      "load_N": 400.0,
+      "real_area_m2": 1.0658339273182745e-05,
+      "real_area_fraction": 9.51637435105602e-05,
+      "area_mean_pressure_Pa": 37529298.86614069,
+      "max_local_peak_pressure_Pa": 67191443.47496192,
+      "max_root_deflection_m": 1.5676181428078636e-05,
+      "max_a_over_R": 0.21108814520503416,
+      "max_contact_diameter_m": 2.110881452050342e-05,
+      "active_force_CV": 0.623841082947424,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12329169636591372
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08865209372806981
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10679167079555049
+        }
+      ],
+      "direct_adhesive_force_N": 35.46083749122792
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -4.401085487622674e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 16428.309497616432,
+      "load_N": 400.00000000000074,
+      "real_area_m2": 7.161978435889016e-06,
+      "real_area_fraction": 6.394623603472334e-05,
+      "area_mean_pressure_Pa": 55850489.29993724,
+      "max_local_peak_pressure_Pa": 100371566.40136445,
+      "max_root_deflection_m": 5.225531537171647e-07,
+      "max_a_over_R": 0.31532657563582644,
+      "max_contact_diameter_m": 3.153265756358265e-05,
+      "active_force_CV": 0.7179898270226369,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.10580989217944502
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08253346226280577
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.09209821437682353
+        }
+      ],
+      "direct_adhesive_force_N": 33.013384905122365
+    },
+    {
+      "radius_m": 5e-05,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -4.43134273012796e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 16428.309497616432,
+      "load_N": 400.00000000000074,
+      "real_area_m2": 7.009492841466113e-06,
+      "real_area_fraction": 6.258475751309028e-05,
+      "area_mean_pressure_Pa": 57065469.50639817,
+      "max_local_peak_pressure_Pa": 102568150.5048635,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.32222734811837156,
+      "max_contact_diameter_m": 3.2222734811837155e-05,
+      "active_force_CV": 0.7903109689300374,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.10504746420733051
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08226661247256568
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.09145739366626128
+        }
+      ],
+      "direct_adhesive_force_N": 32.90664498902633
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.4823781899841521e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 276543.20987654326,
+      "load_N": 400.0000000000001,
+      "real_area_m2": 3.123252948185194e-05,
+      "real_area_fraction": 0.000278861870373678,
+      "area_mean_pressure_Pa": 12807159.927037777,
+      "max_local_peak_pressure_Pa": 21070276.99460769,
+      "max_root_deflection_m": 1.933610937334892e-05,
+      "max_a_over_R": 0.06619422741536156,
+      "max_contact_diameter_m": 1.3238845483072311e-05,
+      "active_force_CV": 0.19628431609904265,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.22616264740925965
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.12465692659324089
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.19325470514748275
+        }
+      ],
+      "direct_adhesive_force_N": 49.86277063729637
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": 8.879158331154135e-07,
+      "site_count": 276543.20987654326,
+      "active_site_count": 161545.04339322826,
+      "load_N": 400.0000000000003,
+      "real_area_m2": 2.4920412159059397e-05,
+      "real_area_fraction": 0.00022250367999160172,
+      "area_mean_pressure_Pa": 16051098.892222255,
+      "max_local_peak_pressure_Pa": 28942811.872693818,
+      "max_root_deflection_m": 5.011647585309276e-06,
+      "max_a_over_R": 0.09092652515348633,
+      "max_contact_diameter_m": 1.8185305030697267e-05,
+      "active_force_CV": 0.5928011706640869,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1946020607952969
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.11361072127835392
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.16672803209844705
+        }
+      ],
+      "direct_adhesive_force_N": 45.444288511341604
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -2.9440909596332586e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 57499.083241657514,
+      "load_N": 400.00000000000034,
+      "real_area_m2": 1.7101765529421952e-05,
+      "real_area_fraction": 0.00015269433508412455,
+      "area_mean_pressure_Pa": 23389397.972498138,
+      "max_local_peak_pressure_Pa": 43177766.599366635,
+      "max_root_deflection_m": 1.6639446749497112e-07,
+      "max_a_over_R": 0.13564695434698498,
+      "max_contact_diameter_m": 2.7129390869396996e-05,
+      "active_force_CV": 0.7468543539614239,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1555088276471097
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09992808967648839
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.13387016963739568
+        }
+      ],
+      "direct_adhesive_force_N": 39.97123587059539
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -3.033020449257307e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 54761.03165872144,
+      "load_N": 400.0,
+      "real_area_m2": 1.680594557246446e-05,
+      "real_area_fraction": 0.00015005308546843266,
+      "area_mean_pressure_Pa": 23801100.52571967,
+      "max_local_peak_pressure_Pa": 44077295.30055237,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.1384729071063233,
+      "max_contact_diameter_m": 2.769458142126466e-05,
+      "active_force_CV": 0.756470617862667,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1540297278623223
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09941040475181281
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.1326269862682819
+        }
+      ],
+      "direct_adhesive_force_N": 39.76416190072512
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.3444048243882205e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 213568.02346901363,
+      "load_N": 400.0,
+      "real_area_m2": 2.7355848452845373e-05,
+      "real_area_fraction": 0.00024424864690040507,
+      "area_mean_pressure_Pa": 14622101.766995082,
+      "max_local_peak_pressure_Pa": 26279387.065274462,
+      "max_root_deflection_m": 3.7514922523422643e-05,
+      "max_a_over_R": 0.08255912934510891,
+      "max_contact_diameter_m": 1.6511825869021782e-05,
+      "active_force_CV": 0.5854967594418629,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.20677924226422686
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.11787273479247941
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.1769629531230827
+        }
+      ],
+      "direct_adhesive_force_N": 47.14909391699176
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -1.2097976270929532e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 71189.34115633788,
+      "load_N": 399.9999999999999,
+      "real_area_m2": 1.8955535535868585e-05,
+      "real_area_fraction": 0.00016924585299882663,
+      "area_mean_pressure_Pa": 21102015.252647463,
+      "max_local_peak_pressure_Pa": 37883028.95947764,
+      "max_root_deflection_m": 1.123808847776679e-05,
+      "max_a_over_R": 0.11901304547482434,
+      "max_contact_diameter_m": 2.380260909496487e-05,
+      "active_force_CV": 0.5935220470234276,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.16477767767934295
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.10317218718777005
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.14166063808948776
+        }
+      ],
+      "direct_adhesive_force_N": 41.268874875108004
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -2.1022101495237802e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 21904.412663488576,
+      "load_N": 399.99999999999983,
+      "real_area_m2": 1.249048726614411e-05,
+      "real_area_fraction": 0.00011152220773342953,
+      "area_mean_pressure_Pa": 32024371.14556879,
+      "max_local_peak_pressure_Pa": 58051143.545304745,
+      "max_root_deflection_m": 4.0438095810792084e-07,
+      "max_a_over_R": 0.18237304609441593,
+      "max_contact_diameter_m": 3.647460921888319e-05,
+      "active_force_CV": 0.7226345128490504,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.13245243633072057
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09185835271575221
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.11449127273597065
+        }
+      ],
+      "direct_adhesive_force_N": 36.743341086300866
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -2.1251302682994158e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 21904.412663488576,
+      "load_N": 400.0000000000003,
+      "real_area_m2": 1.2169882269593048e-05,
+      "real_area_fraction": 0.00010865966312136648,
+      "area_mean_pressure_Pa": 32868025.43681271,
+      "max_local_peak_pressure_Pa": 59560301.23952692,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.18711420481969285,
+      "max_contact_diameter_m": 3.742284096393857e-05,
+      "active_force_CV": 0.8043493754188332,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1308494113479652
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09129729397178782
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.11314393023796475
+        }
+      ],
+      "direct_adhesive_force_N": 36.518917588715155
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 4.304432435137268e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 150592.83706148397,
+      "load_N": 400.0000000000001,
+      "real_area_m2": 2.4365729692827677e-05,
+      "real_area_fraction": 0.00021755115797167566,
+      "area_mean_pressure_Pa": 16416499.938343506,
+      "max_local_peak_pressure_Pa": 29478626.895683963,
+      "max_root_deflection_m": 5.295172469772988e-05,
+      "max_a_over_R": 0.09260983769339524,
+      "max_contact_diameter_m": 1.852196753867905e-05,
+      "active_force_CV": 0.5832234106170877,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.19182864846413836
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.11264002696244843
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.16439697903410827
+        }
+      ],
+      "direct_adhesive_force_N": 45.05601078497938
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -3.188520387264965e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 49284.9284928493,
+      "load_N": 399.99999999999943,
+      "real_area_m2": 1.684327254444416e-05,
+      "real_area_fraction": 0.0001503863620039657,
+      "area_mean_pressure_Pa": 23748354.06507398,
+      "max_local_peak_pressure_Pa": 42474188.444510296,
+      "max_root_deflection_m": 1.583921404222266e-05,
+      "max_a_over_R": 0.13343659838446204,
+      "max_contact_diameter_m": 2.6687319676892407e-05,
+      "active_force_CV": 0.5756001571007672,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.15421636272222095
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.09947572695277733
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.13278385286802669
+        }
+      ],
+      "direct_adhesive_force_N": 39.790290781110876
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -4.470201205720481e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 13690.25791468036,
+      "load_N": 399.999999999999,
+      "real_area_m2": 1.0883747521818016e-05,
+      "real_area_fraction": 9.717631715908942e-05,
+      "area_mean_pressure_Pa": 36752046.9579198,
+      "max_local_peak_pressure_Pa": 65421411.9423383,
+      "max_root_deflection_m": 5.787861069612138e-07,
+      "max_a_over_R": 0.2055274271455216,
+      "max_contact_diameter_m": 4.110548542910432e-05,
+      "active_force_CV": 0.6485212300574847,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.12441873760909022
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08904655816318158
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10773894896044034
+        }
+      ],
+      "direct_adhesive_force_N": 35.61862326527254
+    },
+    {
+      "radius_m": 0.0001,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -4.5049016480927105e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 13690.25791468036,
+      "load_N": 400.00000000000136,
+      "real_area_m2": 1.0647945842101255e-05,
+      "real_area_fraction": 9.50709450187612e-05,
+      "area_mean_pressure_Pa": 37565931.113063,
+      "max_local_peak_pressure_Pa": 67192299.3015595,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.21109083386358593,
+      "max_contact_diameter_m": 4.2218166772717186e-05,
+      "active_force_CV": 0.7403543091783911,
+      "small_contact_screen": false,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.1232397292105061
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.08863390522367715
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.10674799240143037
+        }
+      ],
+      "direct_adhesive_force_N": 35.45356208947098
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.4674507357031813e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 276543.20987654326,
+      "load_N": 400.0000000000001,
+      "real_area_m2": 9.131882215782565e-05,
+      "real_area_fraction": 0.0008153466264091574,
+      "area_mean_pressure_Pa": 4380257.985683204,
+      "max_local_peak_pressure_Pa": 7209951.616242697,
+      "max_root_deflection_m": 1.936847461054895e-05,
+      "max_a_over_R": 0.022650731030325923,
+      "max_contact_diameter_m": 2.2650731030325922e-05,
+      "active_force_CV": 0.19763434331817478,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.5265941107891281
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.22980793877619485
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.4457673501182622
+        }
+      ],
+      "direct_adhesive_force_N": 91.92317551047796
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": 6.78975568628647e-07,
+      "site_count": 276543.20987654326,
+      "active_site_count": 156068.9402273561,
+      "load_N": 399.9999999999999,
+      "real_area_m2": 7.212962346459894e-05,
+      "real_area_fraction": 0.0006440144952196334,
+      "area_mean_pressure_Pa": 5545571.719174702,
+      "max_local_peak_pressure_Pa": 9980726.758693902,
+      "max_root_deflection_m": 5.137890758051473e-06,
+      "max_a_over_R": 0.03135537786259982,
+      "max_contact_diameter_m": 3.1355377862599826e-05,
+      "active_force_CV": 0.5852407235757399,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.43064811732299485
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.1962268410630482
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.3651247426099772
+        }
+      ],
+      "direct_adhesive_force_N": 78.49073642521925
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -3.454735951645716e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 43808.82532697715,
+      "load_N": 400.00000000000045,
+      "real_area_m2": 4.554703509391548e-05,
+      "real_area_fraction": 0.0004066699561956739,
+      "area_mean_pressure_Pa": 8782130.366449155,
+      "max_local_peak_pressure_Pa": 16104750.081332034,
+      "max_root_deflection_m": 2.1585411717960147e-07,
+      "max_a_over_R": 0.050594564543412344,
+      "max_contact_diameter_m": 5.059456454341235e-05,
+      "active_force_CV": 0.7501693856094092,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.2977351754695772
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.149707311414352
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.25341141498217956
+        }
+      ],
+      "direct_adhesive_force_N": 59.882924565740865
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-06,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -3.5741687496009204e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 38332.722161105004,
+      "load_N": 399.99999999999955,
+      "real_area_m2": 4.412172101526669e-05,
+      "real_area_fraction": 0.0003939439376363097,
+      "area_mean_pressure_Pa": 9065829.500657836,
+      "max_local_peak_pressure_Pa": 16700359.863449376,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.05246572785931842,
+      "max_contact_diameter_m": 5.246572785931842e-05,
+      "active_force_CV": 0.7194626626320179,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.2906086050763337
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.1472130117767168
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.24742153256665847
+        }
+      ],
+      "direct_adhesive_force_N": 58.88520471068665
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 1.3273256213128882e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 210829.97188607755,
+      "load_N": 399.9999999999999,
+      "real_area_m2": 7.988365250586991e-05,
+      "real_area_fraction": 0.0007132468973738384,
+      "area_mean_pressure_Pa": 5007282.309363703,
+      "max_local_peak_pressure_Pa": 8996312.560807277,
+      "max_root_deflection_m": 3.762633996317887e-05,
+      "max_a_over_R": 0.02826274945042972,
+      "max_contact_diameter_m": 2.8262749450429723e-05,
+      "active_force_CV": 0.5744819318981839,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.4694182625293497
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.2097963918852724
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.3977110496559184
+        }
+      ],
+      "direct_adhesive_force_N": 83.91855675410895
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -1.2457208150979535e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 68451.2895734018,
+      "load_N": 400.0000000000003,
+      "real_area_m2": 5.495519576200249e-05,
+      "real_area_fraction": 0.0004906713907321651,
+      "area_mean_pressure_Pa": 7278656.630253897,
+      "max_local_peak_pressure_Pa": 13039116.158097245,
+      "max_root_deflection_m": 1.1456259181904261e-05,
+      "max_a_over_R": 0.040963591531582265,
+      "max_contact_diameter_m": 4.096359153158226e-05,
+      "active_force_CV": 0.5735908653797306,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.34477597881001226
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.16617159258350428
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.2929492101898153
+        }
+      ],
+      "direct_adhesive_force_N": 66.46863703340176
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -2.1975426684018967e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 16428.309497616432,
+      "load_N": 400.0000000000007,
+      "real_area_m2": 3.344248483200151e-05,
+      "real_area_fraction": 0.00029859361457144196,
+      "area_mean_pressure_Pa": 11960833.712249635,
+      "max_local_peak_pressure_Pa": 21437706.91538673,
+      "max_root_deflection_m": 5.091354713280487e-07,
+      "max_a_over_R": 0.06734854255519006,
+      "max_contact_diameter_m": 6.734854255519006e-05,
+      "active_force_CV": 0.6917711246797773,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.23721242416000726
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.12852434845600255
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.20254204250648608
+        }
+      ],
+      "direct_adhesive_force_N": 51.40973938240111
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 2.5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -2.2279969953191233e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 13690.25791468036,
+      "load_N": 400.0000000000025,
+      "real_area_m2": 3.1878564331656325e-05,
+      "real_area_fraction": 0.00028463003867550287,
+      "area_mean_pressure_Pa": 12547616.506142063,
+      "max_local_peak_pressure_Pa": 22383796.058033552,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.07032076925537037,
+      "max_contact_diameter_m": 7.032076925537037e-05,
+      "active_force_CV": 0.6445276769039168,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.22939282165828062
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.12578748758039823
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.19596966660378487
+        }
+      ],
+      "direct_adhesive_force_N": 50.3149950321596
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100,
+      "bins": 101,
+      "approach_m": 4.09023852362066e-06,
+      "site_count": 276543.20987654326,
+      "active_site_count": 150592.83706148397,
+      "load_N": 399.99999999999983,
+      "real_area_m2": 7.116093387487244e-05,
+      "real_area_fraction": 0.0006353654810256468,
+      "area_mean_pressure_Pa": 5621061.700839249,
+      "max_local_peak_pressure_Pa": 10090489.84903994,
+      "max_root_deflection_m": 5.3092737349265744e-05,
+      "max_a_over_R": 0.031700208780866254,
+      "max_contact_diameter_m": 3.170020878086626e-05,
+      "active_force_CV": 0.5867115899438283,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.42580466937436234
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.19453163428102682
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.36105382460915153
+        }
+      ],
+      "direct_adhesive_force_N": 77.81265371241071
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 1000,
+      "bins": 101,
+      "approach_m": -3.234073978977202e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 49284.9284928493,
+      "load_N": 400.0000000000007,
+      "real_area_m2": 4.895032785474028e-05,
+      "real_area_fraction": 0.0004370564987030382,
+      "area_mean_pressure_Pa": 8171548.946250116,
+      "max_local_peak_pressure_Pa": 14608602.018211091,
+      "max_root_deflection_m": 1.611106838274685e-05,
+      "max_a_over_R": 0.045894276779628984,
+      "max_contact_diameter_m": 4.5894276779628986e-05,
+      "active_force_CV": 0.5977020551119405,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.314751639273701
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.15566307374579536
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.2677137528095457
+        }
+      ],
+      "direct_adhesive_force_N": 62.26522949831824
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": 100000,
+      "bins": 101,
+      "approach_m": -4.5948203835248445e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 10952.206331744288,
+      "load_N": 399.9999999999992,
+      "real_area_m2": 2.9355937611727864e-05,
+      "real_area_fraction": 0.00026210658581899874,
+      "area_mean_pressure_Pa": 13625863.540471517,
+      "max_local_peak_pressure_Pa": 23999742.39399929,
+      "max_root_deflection_m": 7.143616112405742e-07,
+      "max_a_over_R": 0.07539741439303571,
+      "max_contact_diameter_m": 7.539741439303571e-05,
+      "active_force_CV": 0.6744810922767953,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.21677968805863962
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.12137289082052388
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.1853683278132866
+        }
+      ],
+      "direct_adhesive_force_N": 48.54915632820945
+    },
+    {
+      "radius_m": 0.0005,
+      "height_half_range_m": 5e-05,
+      "root_stiffness_N_m": null,
+      "bins": 101,
+      "approach_m": -4.639842361497418e-05,
+      "site_count": 276543.20987654326,
+      "active_site_count": 10952.206331744288,
+      "load_N": 400.0,
+      "real_area_m2": 2.7893683433232355e-05,
+      "real_area_fraction": 0.00024905074493957455,
+      "area_mean_pressure_Pa": 14340164.179372689,
+      "max_local_peak_pressure_Pa": 25090116.799487848,
+      "max_root_deflection_m": 0,
+      "max_a_over_R": 0.07882292661498086,
+      "max_contact_diameter_m": 7.882292661498086e-05,
+      "active_force_CV": 0.8385071634576409,
+      "small_contact_screen": true,
+      "conditional_adhesion_fit_replay": [
+        {
+          "label": "rotating_initial_peak_0_to_3h",
+          "mu": 0.20946841716616177
+        },
+        {
+          "label": "rotating_late_mean_21_to_23h",
+          "mu": 0.11881394600815662
+        },
+        {
+          "label": "oscillating",
+          "mu": 0.17922320462815897
+        }
+      ],
+      "direct_adhesive_force_N": 47.52557840326264
+    }
+  ],
+  "quadrature_convergence": [
+    {
+      "k": 100,
+      "bins": [
+        101,
+        202,
+        404
+      ],
+      "area_error_101_to_404": 8.324754256874103e-05,
+      "area_error_202_to_404": 3.067983039577363e-05,
+      "area_values_m2": [
+        1.724709023794788e-05,
+        1.7246183673341707e-05,
+        1.724565457958414e-05
+      ]
+    },
+    {
+      "k": 1000,
+      "bins": [
+        101,
+        202,
+        404
+      ],
+      "area_error_101_to_404": 0.0005068153340620803,
+      "area_error_202_to_404": 6.296477841199869e-05,
+      "area_values_m2": [
+        1.199049103536723e-05,
+        1.1997326442987378e-05,
+        1.1996571081547525e-05
+      ]
+    },
+    {
+      "k": null,
+      "bins": [
+        101,
+        202,
+        404
+      ],
+      "area_error_101_to_404": 0.0005687503655233314,
+      "area_error_202_to_404": 0.00012243251257549207,
+      "area_values_m2": [
+        8.03905154184726e-06,
+        8.033498245504705e-06,
+        8.034481927314309e-06
+      ]
+    }
+  ],
+  "equal_height_analytic_case": {
+    "radius_m": 5e-05,
+    "height_half_range_m": 0,
+    "root_stiffness_N_m": null,
+    "bins": 101,
+    "approach_m": 4.5492049095909417e-07,
+    "site_count": 276543.20987654326,
+    "active_site_count": 276543.20987654326,
+    "load_N": 400.0,
+    "real_area_m2": 1.976143033392962e-05,
+    "real_area_fraction": 0.00017644134226722872,
+    "area_mean_pressure_Pa": 20241449.795929767,
+    "max_local_peak_pressure_Pa": 30362174.693894647,
+    "max_root_deflection_m": 0,
+    "max_a_over_R": 0.09538558496534937,
+    "max_contact_diameter_m": 9.538558496534938e-06,
+    "active_force_CV": 0.0,
+    "small_contact_screen": true,
+    "conditional_adhesion_fit_replay": [
+      {
+        "label": "rotating_initial_peak_0_to_3h",
+        "mu": 0.1688071516696481
+      },
+      {
+        "label": "rotating_late_mean_21_to_23h",
+        "mu": 0.10458250308437683
+      },
+      {
+        "label": "oscillating",
+        "mu": 0.14504741097833923
+      }
+    ],
+    "direct_adhesive_force_N": 41.83300123375073
+  },
+  "cost_sensitivity": [
+    {
+      "area_m2": 2000,
+      "bed_mass_kg": 108000.0,
+      "phase_mass_fraction": 0.01,
+      "phase_mass_kg": 1080.0,
+      "premium_JPY_kg": 500,
+      "increment_JPY": 540000.0
+    },
+    {
+      "area_m2": 2000,
+      "bed_mass_kg": 108000.0,
+      "phase_mass_fraction": 0.01,
+      "phase_mass_kg": 1080.0,
+      "premium_JPY_kg": 2000,
+      "increment_JPY": 2160000.0
+    },
+    {
+      "area_m2": 2000,
+      "bed_mass_kg": 108000.0,
+      "phase_mass_fraction": 0.05,
+      "phase_mass_kg": 5400.0,
+      "premium_JPY_kg": 500,
+      "increment_JPY": 2700000.0
+    },
+    {
+      "area_m2": 2000,
+      "bed_mass_kg": 108000.0,
+      "phase_mass_fraction": 0.05,
+      "phase_mass_kg": 5400.0,
+      "premium_JPY_kg": 2000,
+      "increment_JPY": 10800000.0
+    },
+    {
+      "area_m2": 2000,
+      "bed_mass_kg": 108000.0,
+      "phase_mass_fraction": 0.1,
+      "phase_mass_kg": 10800.0,
+      "premium_JPY_kg": 500,
+      "increment_JPY": 5400000.0
+    },
+    {
+      "area_m2": 2000,
+      "bed_mass_kg": 108000.0,
+      "phase_mass_fraction": 0.1,
+      "phase_mass_kg": 10800.0,
+      "premium_JPY_kg": 2000,
+      "increment_JPY": 21600000.0
+    },
+    {
+      "area_m2": 20000,
+      "bed_mass_kg": 1080000.0,
+      "phase_mass_fraction": 0.01,
+      "phase_mass_kg": 10800.0,
+      "premium_JPY_kg": 500,
+      "increment_JPY": 5400000.0
+    },
+    {
+      "area_m2": 20000,
+      "bed_mass_kg": 1080000.0,
+      "phase_mass_fraction": 0.01,
+      "phase_mass_kg": 10800.0,
+      "premium_JPY_kg": 2000,
+      "increment_JPY": 21600000.0
+    },
+    {
+      "area_m2": 20000,
+      "bed_mass_kg": 1080000.0,
+      "phase_mass_fraction": 0.05,
+      "phase_mass_kg": 54000.0,
+      "premium_JPY_kg": 500,
+      "increment_JPY": 27000000.0
+    },
+    {
+      "area_m2": 20000,
+      "bed_mass_kg": 1080000.0,
+      "phase_mass_fraction": 0.05,
+      "phase_mass_kg": 54000.0,
+      "premium_JPY_kg": 2000,
+      "increment_JPY": 108000000.0
+    },
+    {
+      "area_m2": 20000,
+      "bed_mass_kg": 1080000.0,
+      "phase_mass_fraction": 0.1,
+      "phase_mass_kg": 108000.0,
+      "premium_JPY_kg": 500,
+      "increment_JPY": 54000000.0
+    },
+    {
+      "area_m2": 20000,
+      "bed_mass_kg": 1080000.0,
+      "phase_mass_fraction": 0.1,
+      "phase_mass_kg": 108000.0,
+      "premium_JPY_kg": 2000,
+      "increment_JPY": 216000000.0
+    }
+  ],
+  "load_sharing": [
+    {
+      "low_phase_mu": 0.04,
+      "required_low_phase_load_fraction": 0.6363636363636364,
+      "required_low_phase_real_area_lower_bound_m2": 2.5454545454545454e-05
+    },
+    {
+      "low_phase_mu": 0.05,
+      "required_low_phase_load_fraction": 0.7,
+      "required_low_phase_real_area_lower_bound_m2": 2.8e-05
+    },
+    {
+      "low_phase_mu": 0.06,
+      "required_low_phase_load_fraction": 0.7777777777777777,
+      "required_low_phase_real_area_lower_bound_m2": 3.111111111111111e-05
+    }
+  ]
+}

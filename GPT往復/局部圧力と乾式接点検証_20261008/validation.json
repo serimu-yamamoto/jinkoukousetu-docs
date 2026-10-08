@@ -1,0 +1,194 @@
+{
+  "scope": "numerical verification, NOT empirical material performance",
+  "check_count": 25,
+  "passed_count": 25,
+  "checks": [
+    {
+      "name": "area_pressure_bound",
+      "passed": true,
+      "detail": "N <= p_cap*A; mu_adh >= beta+tau0/p_cap"
+    },
+    {
+      "name": "source_initial_threshold",
+      "passed": true,
+      "detail": {
+        "label": "rotating_initial_peak_0_to_3h",
+        "minimum_pressure_cap_Pa": 200000000.0000001,
+        "finite_necessary_condition": true,
+        "not_sufficient": true
+      }
+    },
+    {
+      "name": "source_late_threshold",
+      "passed": true,
+      "detail": {
+        "label": "rotating_late_mean_21_to_23h",
+        "minimum_pressure_cap_Pa": 70000000.00000003,
+        "finite_necessary_condition": true,
+        "not_sufficient": true
+      }
+    },
+    {
+      "name": "source_osc_threshold",
+      "passed": true,
+      "detail": {
+        "label": "oscillating",
+        "minimum_pressure_cap_Pa": 93388888.88888888,
+        "finite_necessary_condition": true,
+        "not_sufficient": true
+      }
+    },
+    {
+      "name": "units_Pa_MPa",
+      "passed": true,
+      "detail": "same dimensionless ratio"
+    },
+    {
+      "name": "impossible_beta_floor",
+      "passed": true,
+      "detail": "if beta=0.09 in this allocation, pressure increase cannot satisfy budget"
+    },
+    {
+      "name": "inverse_limit_example",
+      "passed": true,
+      "detail": ".5 MPa at assumed 10 MPa cap and beta .03"
+    },
+    {
+      "name": "global_load_balance_all_48",
+      "passed": true,
+      "detail": "sum weighted contact loads = 400 N"
+    },
+    {
+      "name": "real_area_positive",
+      "passed": true,
+      "detail": "independent small contact footprints do not cover nominal area"
+    },
+    {
+      "name": "site_counts",
+      "passed": true,
+      "detail": "fractional quadrature counts, not probabilities"
+    },
+    {
+      "name": "peak_exceeds_area_mean",
+      "passed": true,
+      "detail": "Hertz peak is not mean or nominal pressure"
+    },
+    {
+      "name": "adhesion_sum_identity",
+      "passed": true,
+      "detail": "integrated local traction equals beta*N+tau0*A"
+    },
+    {
+      "name": "conditional_bound_on_each_bed",
+      "passed": true,
+      "detail": "uses hypothetical max local pressure, not material allowable"
+    },
+    {
+      "name": "equal_height_analytic",
+      "passed": true,
+      "detail": "F=C*delta^(3/2) with all sites equally loaded"
+    },
+    {
+      "name": "equal_height_CV",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "independent_force_inversion",
+      "passed": true,
+      "detail": {
+        "max_relative_error": 1.7442701835376443e-11
+      }
+    },
+    {
+      "name": "height_quadrature_100",
+      "passed": true,
+      "detail": {
+        "k": 100,
+        "bins": [
+          101,
+          202,
+          404
+        ],
+        "area_error_101_to_404": 8.324754256874103e-05,
+        "area_error_202_to_404": 3.067983039577363e-05,
+        "area_values_m2": [
+          1.724709023794788e-05,
+          1.7246183673341707e-05,
+          1.724565457958414e-05
+        ]
+      }
+    },
+    {
+      "name": "height_quadrature_1000",
+      "passed": true,
+      "detail": {
+        "k": 1000,
+        "bins": [
+          101,
+          202,
+          404
+        ],
+        "area_error_101_to_404": 0.0005068153340620803,
+        "area_error_202_to_404": 6.296477841199869e-05,
+        "area_values_m2": [
+          1.199049103536723e-05,
+          1.1997326442987378e-05,
+          1.1996571081547525e-05
+        ]
+      }
+    },
+    {
+      "name": "height_quadrature_None",
+      "passed": true,
+      "detail": {
+        "k": null,
+        "bins": [
+          101,
+          202,
+          404
+        ],
+        "area_error_101_to_404": 0.0005687503655233314,
+        "area_error_202_to_404": 0.00012243251257549207,
+        "area_values_m2": [
+          8.03905154184726e-06,
+          8.033498245504705e-06,
+          8.034481927314309e-06
+        ]
+      }
+    },
+    {
+      "name": "load_sharing_tradeoff",
+      "passed": true,
+      "detail": {
+        "soft_peak": 41690073.3948994,
+        "rigid_peak": 90671143.09587449
+      }
+    },
+    {
+      "name": "mass_cost_example",
+      "passed": true,
+      "detail": "5% of assumed 108 t times hypothetical 2000 JPY/kg premium"
+    },
+    {
+      "name": "area_tau0_scale_ambiguity",
+      "passed": true,
+      "detail": "double area and halve tau0: identical force data; no measured area -> no unique tau0"
+    },
+    {
+      "name": "no_physical_probability",
+      "passed": true,
+      "detail": "numerical checks are not material trials"
+    },
+    {
+      "name": "load_fraction_not_mass_fraction",
+      "passed": true,
+      "detail": "hypothetical 0.05/0.15 pair needs 70% of load for total 0.1 with other 0.02"
+    },
+    {
+      "name": "load_share_pressure_area",
+      "passed": true,
+      "detail": "minimum 28 mm2 at assumed local pressure cap 10 MPa, not actual contact area"
+    }
+  ]
+}
