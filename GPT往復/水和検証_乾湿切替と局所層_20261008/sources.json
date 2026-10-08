@@ -1,0 +1,72 @@
+{
+  "accessed": "2026-10-08",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Hierarchical picot-fiber hydrogel coating with ultralow friction and high wear resistance",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41467-026-69322-2",
+      "access": "Publisher full HTML; structure/results/methods. Macro coating not transferred to micrograin; no50C dry validation claimed."
+    },
+    {
+      "id": "S2",
+      "title": "Earthworm inspired lubricant self-pumping hydrogel with sustained lubricity at high loading",
+      "year": 2025,
+      "url": "https://www.nature.com/articles/s41467-024-55715-8",
+      "access": "Publisher indexed full body including friction method and limited-water experiment. Hydrogel-on-hydrogel counterface; not ski PE."
+    },
+    {
+      "id": "S3",
+      "title": "Photografted Zwitterionic Hydrogel Coating Durability for Reduced Foreign Body Response to Cochlear Implants",
+      "year": 2024,
+      "doi": "10.1021/acsabm.4c00156",
+      "url": "https://pubs.acs.org/doi/10.1021/acsabm.4c00156",
+      "open_repository": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11110053/",
+      "access": "Indexed author/publisher text; direct PMC returned browser check and publisher open failed. Rehydration and crosslink-density conditions from indexed text only."
+    },
+    {
+      "id": "S4",
+      "title": "Ultra-High Friction and Adhesion in Hydrogel Layer Driven by Wet-to-Dry Transition Dynamics",
+      "year": "2025 online / 2026 issue",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507827",
+      "access": "Publisher full HTML, results and methods. Used transition hazard; extreme published coefficient not imported into ski model."
+    },
+    {
+      "id": "S5",
+      "title": "The Effect of Phosphorylcholine Coatings on Ice Growing and Melting",
+      "year": 2023,
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/admi.202300347",
+      "access": "Publisher full HTML. Ice growth/thawing results, not a shear-strength measurement for snow."
+    },
+    {
+      "id": "S6",
+      "title": "Ice Adhesion to Cationic, Anionic, Zwitterionic, and Nonionic Polymer Surfaces",
+      "year": 2024,
+      "doi": "10.1021/acsapm.4c02572",
+      "url": "https://orbit.dtu.dk/en/publications/ice-adhesion-to-cationic-anionic-zwitterionic-and-nonionic-polyme/",
+      "access": "Author institution abstract only. Charge/crosslink/temperature dependence; no numerical strength imported."
+    },
+    {
+      "id": "S7",
+      "title": "Brush Swelling and Attachment Strength of Barnacle Adhesion Protein on Zwitterionic Polymer Films as a Function of Macromolecular Structure",
+      "year": 2019,
+      "url": "https://pubs.acs.org/doi/10.1021/acs.langmuir.9b00918",
+      "access": "Publisher indexed body, temperature and salt dependence; direct open failed. No cold-retraction constitutive curve obtained."
+    },
+    {
+      "id": "S8",
+      "title": "Biomimetic hydration lubrication with various polyelectrolyte layers on cross-linked polyethylene orthopedic bearing materials",
+      "year": 2012,
+      "doi": "10.1016/j.biomaterials.2012.03.028",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0142961212003158",
+      "access": "Publisher indexed abstract; nanoscale PE grafting route only, no50C dry/wet ski performance imported."
+    },
+    {
+      "id": "S9",
+      "title": "Durability and Self-healing Effects of Hydrogel Coatings with respect to Contact Condition",
+      "year": 2017,
+      "url": "https://www.nature.com/articles/s41598-017-07106-x",
+      "access": "Publisher full HTML; read as comparison. Freeze-dried glass coating not adopted as onsite30C spray process."
+    }
+  ]
+}

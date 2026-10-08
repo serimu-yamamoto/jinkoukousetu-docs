@@ -1,0 +1,95 @@
+{
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "checks": [
+    {
+      "name": "Bed inventory reconstructed",
+      "ok": true
+    },
+    {
+      "name": "Patch area per mass cancels density-volume correctly",
+      "ok": true
+    },
+    {
+      "name": "Uniform top layer is volume fraction, not full-bed water stock",
+      "ok": true
+    },
+    {
+      "name": "Water balance for full layer volume",
+      "ok": true
+    },
+    {
+      "name": "Pockets add liquid without inventing polymer mass",
+      "ok": true
+    },
+    {
+      "name": "Depth proportional reservoir storage",
+      "ok": true
+    },
+    {
+      "name": "Reference pressure is force divided by all patch area",
+      "ok": true
+    },
+    {
+      "name": "Soft layer counterexample closes switch interval",
+      "ok": true
+    },
+    {
+      "name": "Reference modulus10 permits narrow algebraic interval",
+      "ok": true
+    },
+    {
+      "name": "Unsafe state extending to95percent closes same interval",
+      "ok": true
+    },
+    {
+      "name": "Tripled force closes same interval",
+      "ok": true
+    },
+    {
+      "name": "Tolerance subtracts twice from allowable interval",
+      "ok": true
+    },
+    {
+      "name": "Specified100nm clearance removes reference optimistic interval",
+      "ok": true
+    },
+    {
+      "name": "Rigid rim shares conserve normal force",
+      "ok": true
+    },
+    {
+      "name": "Retreated pads carry zero compression, not proof of zero adhesion",
+      "ok": true
+    },
+    {
+      "name": "Friction endpoints recover bare and coated cases",
+      "ok": true
+    },
+    {
+      "name": "Friction unsafe load boundary meets target",
+      "ok": true
+    },
+    {
+      "name": "Cost allowance consumes same shared margin",
+      "ok": true
+    },
+    {
+      "name": "Narrower pore raises ideal capillary pressure",
+      "ok": true
+    },
+    {
+      "name": "Energy inventory loss matches initial stock",
+      "ok": true
+    }
+  ],
+  "all_checks_ok": true,
+  "check_count": 20,
+  "counts": {
+    "inventory": 729,
+    "switch": 540,
+    "friction": 45,
+    "cost": 40
+  },
+  "scope": "Mass/force conservation, limiting requirements and constructed counterexamples; no wet/dry/ice qualification."
+}

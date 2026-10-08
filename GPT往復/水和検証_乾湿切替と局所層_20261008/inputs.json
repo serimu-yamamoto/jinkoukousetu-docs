@@ -1,0 +1,172 @@
+{
+  "cycle": 22,
+  "base_commit": "f0452470358f47701650a38a59b34ae5c299b4a7",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "Uncalibrated inventory, contact-switch feasibility and shared-budget requirements, not material performance"
+  },
+  "grain": {
+    "equivalent_diameter_um": 500,
+    "apparent_density_kg_m3": 300,
+    "patch_counts": [
+      4,
+      12,
+      24
+    ],
+    "patch_radii_um": [
+      10,
+      20,
+      30
+    ],
+    "reference_patch_count": 4,
+    "reference_patch_radius_um": 20,
+    "hard_outer_radius_um": 30,
+    "notes": "Hypothetical local patches. Smooth sphere is only a whole-surface area reference, not measured branch surface or a minimum."
+  },
+  "layer": {
+    "dry_thicknesses_nm": [
+      30,
+      100,
+      300
+    ],
+    "swelling_ratios": [
+      2,
+      10,
+      50
+    ],
+    "dry_density_kg_m3": 1200,
+    "water_density_kg_m3": 1000,
+    "reference_dry_nm": 100,
+    "reference_swelling": 10,
+    "notes": "All layer values assumed. Fixed lateral area and thickness swelling. Water volume is all included liquid, not necessarily available lubricating water."
+  },
+  "operation": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 120,
+    "closure_minutes": 60,
+    "processing_minutes": 40,
+    "closures_per_year": 240,
+    "reform_fractions": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "active_depths_mm": [
+      0.5,
+      1,
+      5
+    ],
+    "reference_active_depth_mm": 1,
+    "required_interval_h": 4,
+    "operating_h_day": 8
+  },
+  "reservoir": {
+    "depths_um": [
+      0,
+      5,
+      20
+    ],
+    "surface_tension_N_m": 0.06794390594182892,
+    "notes": "Ideal cylindrical off-load pocket, full water initially. No packing/strength proof. Laplace value assumes fully wetting water at50C; wettability of PE not assumed."
+  },
+  "switch": {
+    "dry_thicknesses_nm": [
+      100,
+      1000
+    ],
+    "wet_swelling": 10,
+    "unsafe_hydration_max": [
+      0.5,
+      0.8,
+      0.95
+    ],
+    "effective_compressive_moduli_MPa": [
+      1,
+      5,
+      8,
+      10,
+      50
+    ],
+    "normal_group_forces_mN": [
+      6.48,
+      19.44
+    ],
+    "target_wet_load_fraction": 0.8,
+    "total_height_uncertainties_nm": [
+      0,
+      10,
+      50
+    ],
+    "linear_strain_diagnostic_max": 0.2,
+    "reference_recess_nm": 850,
+    "reference_unsafe_max": 0.8,
+    "notes": "Linear h(theta)=h_d[1+(lambda-1)theta] is a hypothetical constitutive path. M is effective confined layer modulus on relevant time scale, not a quoted bulk Young modulus. Uncertainty includes rim, film and base deflection errors. Target wet fraction is a minimum capacity before rigid rim engagement, not a solved80% split. Clearance sensitivity is hypothetical; liquid bridges can persist across a geometric gap.",
+    "minimum_noncontact_clearances_nm": [
+      0,
+      30,
+      100
+    ]
+  },
+  "friction": {
+    "bare_coefficients": [
+      0.06,
+      0.08,
+      0.12
+    ],
+    "wet_coefficient": 0.02,
+    "unsafe_coefficients": [
+      0.2,
+      0.5,
+      1
+    ],
+    "coating_load_fractions": [
+      0,
+      0.05,
+      0.2,
+      0.8,
+      1
+    ],
+    "other_drag_coefficient": 0.02,
+    "total_target": 0.1,
+    "notes": "Assumed stress-test coefficients; no measured hydrogel value assigned to ski. Weights are normal-load fractions, never area fractions."
+  },
+  "water": {
+    "latent_heat_J_kg": 2400000,
+    "reference_available_heat_W_m2": 300,
+    "evaporation_energy_fractions": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1
+    ],
+    "specified_loss_flux_kg_m2_h": [
+      0.005,
+      0.05,
+      0.5
+    ],
+    "notes": "Latent heat and heat supply are rounded scenario inputs. Energy fractions are not measured evaporation. Loss-flux cases are hypothetical net required supply before application losses. No claim of4h autonomous hydration."
+  },
+  "budget": {
+    "years": 10,
+    "discount": 0.08,
+    "material_JPY_kg": 500,
+    "annual_material_replacement_fraction": 0.02,
+    "nonmaterial_capital_JPY": 20000000,
+    "annual_fixed_JPY": 4000000,
+    "annual_budget_JPY": 19000000,
+    "note": "Inherited pretax hypothetical envelope, not a quote; 2% is a purchased replacement assumption, never an environmental release allowance. Equipment tax-inclusive JPY200M requirement is separate and unproven."
+  },
+  "cost": {
+    "recoat_area_fractions_per_closure": [
+      0,
+      0.001,
+      0.01,
+      0.05
+    ],
+    "notes": "Regrafting costs per treated m2; add new material replacement separately. No vendor prices. Available annual margin shared with machining, stock, water, environment and testing."
+  },
+  "sources_accessed": "2026-10-08"
+}

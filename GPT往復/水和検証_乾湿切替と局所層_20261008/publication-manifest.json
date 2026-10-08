@@ -1,0 +1,75 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "f0452470358f47701650a38a59b34ae5c299b4a7",
+  "cycle": 22,
+  "date": "2026-10-08",
+  "normalization": "UTF-8 LF text; PNG binary; this manifest excluded from its own hash list",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第22巡_乾湿切替と局所水和層の成立条件_20261008.md",
+      "bytes": 20250,
+      "sha256": "17b4323ac1ed6f14c7d491f1f07389bdd73d7491265983b75d855f984d8ad2e4"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 14184,
+      "sha256": "bdbd33fbef48eada783270923ec0dab73a508cbb50a8a382e07b27e1e5cd4088"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/README.md",
+      "bytes": 1537,
+      "sha256": "c51be8ab9beac8c0901635c0449ae98c1cd56d78f2f86b0c7fc8d847d1cc84be"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/calculate.py",
+      "bytes": 11093,
+      "sha256": "55d99adcc3e8a71a56c7b969f1978322c4b8071394c081f2b6f6a80cd4acf421"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/inputs.json",
+      "bytes": 4728,
+      "sha256": "bd91241e4dd1d4e57f1e714f35b68a1e04ca86aadd9a1f18716b41caa519f8d9"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/plot.py",
+      "bytes": 3240,
+      "sha256": "d4897ed11e86ee964977afecdc1e1607fd6b5372575e11dcd4470112d496e0e8"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/recess_concept.png",
+      "bytes": 95177,
+      "sha256": "7790736650e2fc6aedd4860f487c3769a4a1238a4c061b609a454e0e50d143f4"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/results.json",
+      "bytes": 846383,
+      "sha256": "c6347d85ac138fa3ecb743a19fa2c14251f21fcbd021f6e03658efbda109be3d"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/sources.json",
+      "bytes": 3735,
+      "sha256": "4a315d68a2b5f452b59aee6c70b8d2913fa4ada577736d175c3df8e941ada936"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/switch_and_water_limits.png",
+      "bytes": 150801,
+      "sha256": "47b827def68d989448b396a46f00fa9ffa6894651326b6701b4a38ef2f0c86a6"
+    },
+    {
+      "path": "GPT往復/水和検証_乾湿切替と局所層_20261008/validation.json",
+      "bytes": 2342,
+      "sha256": "200c7766817d70e5f2c4aa31ebc1840fdd8b3a694597ee803cc3b3403b1cc558"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20181,
+      "sha256": "959bb5a46f23f6dee317bef5769759737ba0760ce555e06bb6d74b6954e67e40"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 67183,
+      "sha256": "389526d9148ba2398bac4b718b407e1c2312e94c764116ed42debf77b3b6541b"
+    }
+  ]
+}
