@@ -1,0 +1,96 @@
+{
+  "numerical_checks": 20,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "all thermal phase intervals positive",
+      "passed": true
+    },
+    {
+      "name": "phase time balances latent enthalpy",
+      "passed": true
+    },
+    {
+      "name": "temperature at onset",
+      "passed": true
+    },
+    {
+      "name": "quadrature convergence",
+      "passed": true
+    },
+    {
+      "name": "quadrature accuracy",
+      "passed": true
+    },
+    {
+      "name": "lumped Bi does not exceed nominal 0.1",
+      "passed": true
+    },
+    {
+      "name": "radius scaling at equal h",
+      "passed": true
+    },
+    {
+      "name": "same-size fine and support cannot finish melting before onset",
+      "passed": true
+    },
+    {
+      "name": "viscosity boundary agrees with interval",
+      "passed": true
+    },
+    {
+      "name": "wet force and beam form identity",
+      "passed": true
+    },
+    {
+      "name": "unsupported length changes displacement cubically",
+      "passed": true
+    },
+    {
+      "name": "wet cutoff has explicit two flags",
+      "passed": true
+    },
+    {
+      "name": "solution mass conservation",
+      "passed": true
+    },
+    {
+      "name": "good feed reject conservation",
+      "passed": true
+    },
+    {
+      "name": "recovery does not erase circulating solvent",
+      "passed": true
+    },
+    {
+      "name": "yield scales all production cost",
+      "passed": true
+    },
+    {
+      "name": "heat recovery preserves pumping energy",
+      "passed": true
+    },
+    {
+      "name": "area inventories separate",
+      "passed": true
+    },
+    {
+      "name": "antisolvent dilution mass conservation",
+      "passed": true
+    },
+    {
+      "name": "physical success remains unmeasured",
+      "passed": true
+    }
+  ],
+  "not_validated": [
+    "actual branched-grain production",
+    "viscosity and local convection",
+    "rounding without beads or welding",
+    "wet bridge geometry",
+    "50C creep and grain-bed response",
+    "snowlike friction and edge release",
+    "health environment winter and rain",
+    "manufacturing yield and prices"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "cycle": 27,
+  "date": "2026-10-08",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "f6dd5f8d373ea9eaf415bcfbe4b1ff4636d4c09d",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第27巡_枝状粒の形成と微細枝の熱仕上げ_20261008.md",
+      "bytes": 20157,
+      "sha256": "4e440524c0f3eed77080a45898c99738e99a8437cfe38d4da13d74c24c2018bc"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 17053,
+      "sha256": "199dfb8450a050667fbc0c3d3ad4b1e0c115dbbc49d5014f4cf854de8563daa9"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/README.md",
+      "bytes": 3763,
+      "sha256": "1011a198400bc27858691759aea295c65a914bf0d2bbb282b9187029b64a9c4e"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/calculate.py",
+      "bytes": 9422,
+      "sha256": "6ca788027fecd949f7b9d21a68e0d1f211b85f89ce13c8dea34a32dfbfd4e7c8"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/figure1_process_window.png",
+      "bytes": 190797,
+      "sha256": "46649f08d4fcbc692372e41bce930b39a49818a5535f1cb2f475b777fbf2aff9"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/figure2_cost_and_circulation.png",
+      "bytes": 228261,
+      "sha256": "4dfe6737a838a9b3e6a7162f2ee837fd2dafb25a081ee487d6333038e0aa10c5"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/inputs.json",
+      "bytes": 3130,
+      "sha256": "c4c56ae258e9ae98585daeeb29859c49b694299268ede7d933c0cff38bc64d81"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/plot.py",
+      "bytes": 4740,
+      "sha256": "2cc09f9f5b191d4c59228dcd5fe01d4d697cc74e0f07339b925f36ef1d3186f2"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/results.json",
+      "bytes": 403405,
+      "sha256": "6f0e2e4844b0441f72ebbbcb7b2ccf25b9389abf959dd59d8388be73b367f862"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/sources.md",
+      "bytes": 6859,
+      "sha256": "b5800e012672cf6a0fa66012d752027aa84a5469495b16ecfb0eefb8a059c7d3"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/validation.json",
+      "bytes": 2116,
+      "sha256": "870c3e4fb6c49ec13f79fd09a4c68a7a827ee2c6a570d34ef83495e2c15dcd20"
+    },
+    {
+      "path": "README.md",
+      "bytes": 23728,
+      "sha256": "9be0d7119575af651a2f3e19522c086e2001137fc2974fc90cc27ebdfb16262b"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 75874,
+      "sha256": "17b540997ff83aa328bfa3e3d70b71ddbbec33aac436f61d29a7dcc66130d75a"
+    }
+  ],
+  "self_excluded": true
+}
