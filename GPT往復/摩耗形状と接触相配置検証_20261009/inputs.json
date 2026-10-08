@@ -1,0 +1,83 @@
+{
+  "schema": "artificial-firn-cycle42-v1",
+  "base_commit": "bd5e0c8852b7a6190a02e2620a9554a90d30950d",
+  "evidence_status": "uncalibrated_shape_sensitivity_not_wear_forecast",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "contact": {
+    "initial_radius_m": 0.00001,
+    "initial_mean_pressure_Pa": 10000000,
+    "effective_modulus_Pa": 500000000,
+    "split_counts": [
+      1,
+      4,
+      16
+    ],
+    "relative_speed_m_s": 10,
+    "sole_length_m": 1.6,
+    "local_passes": 100,
+    "specific_wear_mm3_Nm": [
+      0,
+      1e-9,
+      1e-8,
+      1e-7,
+      0.000001
+    ],
+    "interface_tau0_Pa": 200000,
+    "interface_beta": 0.03,
+    "friction_increments": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "note": "All numerical material parameters are hypotheses; no measured 50 C polymer pair."
+  },
+  "heterogeneous": {
+    "wear_resistant_area_fractions": [
+      0.01,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "wear_ratio_fast_over_slow": [
+      1,
+      3,
+      10,
+      30,
+      100
+    ],
+    "note": "Area fraction, not mass fraction; stationary full contact, same sliding distance, constant specific wear rates."
+  },
+  "redistribution": {
+    "sectors": [
+      1,
+      4,
+      16
+    ],
+    "direction_wear_multipliers": [
+      1,
+      4,
+      16
+    ],
+    "baseline_specific_wear_mm3_Nm": 1e-7,
+    "note": "Hypothetical equal exposure to available separate surface sectors; no demonstrated reorientation."
+  },
+  "cost": {
+    "bed_mass_kg": 108000,
+    "bed_depth_m": 0.45,
+    "processed_depths_m": [
+      0.01,
+      0.05,
+      0.45
+    ],
+    "maintenance_cycles_per_year": 200,
+    "complete_particle_JPY_kg": 500,
+    "baseline_annual_new_fraction": 0.2,
+    "new_annual_new_fraction": 0.1,
+    "note": "Assumed 100 operating days with one midday and one post-close operation. Gross variable cost ceiling, no supplier quote; replacement improvement unmeasured.",
+    "discount_rate": 0.08,
+    "years": 10,
+    "illustrative_material_budget_JPY_year": 10000000
+  }
+}

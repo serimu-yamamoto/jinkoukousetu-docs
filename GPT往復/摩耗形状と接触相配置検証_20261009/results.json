@@ -1,0 +1,508 @@
+{
+  "schema": "cycle42-results-v1",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "prescribed_morphologies_not_wear_evolution": true,
+  "contact_cases": 30,
+  "heterogeneous_cases": 25,
+  "redistribution_cases": 9,
+  "check_count": 24,
+  "checks": [
+    {
+      "name": "Hertz load and input mean pressure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unworn contact and friction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MDR transform independent angle integral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MDR derivative finite difference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Smooth force roots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Flat force independent MDR integral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Flat removed volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Smooth removed volume",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Equal volume between morphology alternatives",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Total removed volume invariant under splitting",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pressure quadrature convergence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hertz pressure profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Pressure integrates to imposed normal load",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Incremental stiffness is 2 E a",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Area and friction grow with prescribed wear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Friction is shear force over load",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Friction thresholds roots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Phase load equilibrium",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Equal phase recession",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Homogeneous material limit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Harmonic effective wear coefficient",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reorientation can lose all dose benefit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Processing mass and money balance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Specific wear unit conversion",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "base_geometry": {
+    "a0_m": 1e-05,
+    "R0_m": 0.00021220659078919387,
+    "F0_N": 0.0031415926535897933,
+    "delta0_m": 4.7123889803846885e-07
+  },
+  "representatives": [
+    {
+      "split_count": 1,
+      "specific_wear_mm3_Nm": 0,
+      "profile": "smooth_gaussian_removal",
+      "sliding_distance_m": 160.0,
+      "force_per_contact_N": 0.0031415926535897933,
+      "initial_contact_radius_um": 10.0,
+      "curvature_radius_um": 212.20659078919388,
+      "removed_volume_per_contact_m3": 0.0,
+      "total_removed_volume_m3": 0.0,
+      "apex_removed_um": 0.0,
+      "apex_removed_over_initial_indentation": 0.0,
+      "contact_radius_um": 10.0,
+      "area_ratio": 1.0,
+      "mean_pressure_MPa": 10.0,
+      "interface_mu": 0.05,
+      "normal_contact_stiffness_ratio": 1.0,
+      "elastic_indentation_um": 0.47123889803846886,
+      "power_per_400N_ski_W": 200.0,
+      "finite_peak_pressure_MPa": 15.0,
+      "peak_radius_over_contact_radius": 0.0,
+      "peak_pressure_status": "finite",
+      "w_dimensionless": 0.0,
+      "a_dimensionless": 1.0
+    },
+    {
+      "split_count": 1,
+      "specific_wear_mm3_Nm": 1e-07,
+      "profile": "smooth_gaussian_removal",
+      "sliding_distance_m": 160.0,
+      "force_per_contact_N": 0.0031415926535897933,
+      "initial_contact_radius_um": 10.0,
+      "curvature_radius_um": 212.20659078919388,
+      "removed_volume_per_contact_m3": 5.02654824574367e-17,
+      "total_removed_volume_m3": 5.02654824574367e-17,
+      "apex_removed_um": 0.19416259125556992,
+      "apex_removed_over_initial_indentation": 0.4120258154914023,
+      "contact_radius_um": 11.305232622253262,
+      "area_ratio": 1.2780828464325933,
+      "mean_pressure_MPa": 7.824218929087556,
+      "interface_mu": 0.055561656928651865,
+      "normal_contact_stiffness_ratio": 1.130523262225326,
+      "elastic_indentation_um": 0.36196091153579707,
+      "power_per_400N_ski_W": 222.24662771460746,
+      "finite_peak_pressure_MPa": 9.492544404806921,
+      "peak_radius_over_contact_radius": 0.6040000000000001,
+      "peak_pressure_status": "finite",
+      "w_dimensionless": 0.4120258154914023,
+      "a_dimensionless": 1.130523262225326
+    },
+    {
+      "split_count": 4,
+      "specific_wear_mm3_Nm": 0,
+      "profile": "smooth_gaussian_removal",
+      "sliding_distance_m": 160.0,
+      "force_per_contact_N": 0.0007853981633974483,
+      "initial_contact_radius_um": 5.0,
+      "curvature_radius_um": 106.10329539459694,
+      "removed_volume_per_contact_m3": 0.0,
+      "total_removed_volume_m3": 0.0,
+      "apex_removed_um": 0.0,
+      "apex_removed_over_initial_indentation": 0.0,
+      "contact_radius_um": 5.0,
+      "area_ratio": 1.0,
+      "mean_pressure_MPa": 10.0,
+      "interface_mu": 0.05,
+      "normal_contact_stiffness_ratio": 1.0,
+      "elastic_indentation_um": 0.23561944901923443,
+      "power_per_400N_ski_W": 200.0,
+      "finite_peak_pressure_MPa": 15.0,
+      "peak_radius_over_contact_radius": 0.0,
+      "peak_pressure_status": "finite",
+      "w_dimensionless": 0.0,
+      "a_dimensionless": 1.0
+    },
+    {
+      "split_count": 4,
+      "specific_wear_mm3_Nm": 1e-07,
+      "profile": "smooth_gaussian_removal",
+      "sliding_distance_m": 160.0,
+      "force_per_contact_N": 0.0007853981633974483,
+      "initial_contact_radius_um": 5.0,
+      "curvature_radius_um": 106.10329539459694,
+      "removed_volume_per_contact_m3": 1.2566370614359176e-17,
+      "total_removed_volume_m3": 5.02654824574367e-17,
+      "apex_removed_um": 0.1372936849295653,
+      "apex_removed_over_initial_indentation": 0.5826924963157756,
+      "contact_radius_um": 5.917109474531378,
+      "area_ratio": 1.4004873813435594,
+      "mean_pressure_MPa": 7.140371368720571,
+      "interface_mu": 0.058009747626871194,
+      "normal_contact_stiffness_ratio": 1.1834218949062754,
+      "elastic_indentation_um": 0.17140992595973642,
+      "power_per_400N_ski_W": 232.03899050748478,
+      "finite_peak_pressure_MPa": 8.590080707430678,
+      "peak_radius_over_contact_radius": 0.626,
+      "peak_pressure_status": "finite",
+      "w_dimensionless": 0.5826924963157756,
+      "a_dimensionless": 1.1834218949062754
+    },
+    {
+      "split_count": 16,
+      "specific_wear_mm3_Nm": 0,
+      "profile": "smooth_gaussian_removal",
+      "sliding_distance_m": 160.0,
+      "force_per_contact_N": 0.00019634954084936208,
+      "initial_contact_radius_um": 2.5,
+      "curvature_radius_um": 53.05164769729847,
+      "removed_volume_per_contact_m3": 0.0,
+      "total_removed_volume_m3": 0.0,
+      "apex_removed_um": 0.0,
+      "apex_removed_over_initial_indentation": 0.0,
+      "contact_radius_um": 2.5,
+      "area_ratio": 1.0,
+      "mean_pressure_MPa": 10.0,
+      "interface_mu": 0.05,
+      "normal_contact_stiffness_ratio": 1.0,
+      "elastic_indentation_um": 0.11780972450961721,
+      "power_per_400N_ski_W": 200.0,
+      "finite_peak_pressure_MPa": 15.0,
+      "peak_radius_over_contact_radius": 0.0,
+      "peak_pressure_status": "finite",
+      "w_dimensionless": 0.0,
+      "a_dimensionless": 1.0
+    },
+    {
+      "split_count": 16,
+      "specific_wear_mm3_Nm": 1e-07,
+      "profile": "smooth_gaussian_removal",
+      "sliding_distance_m": 160.0,
+      "force_per_contact_N": 0.00019634954084936208,
+      "initial_contact_radius_um": 2.5,
+      "curvature_radius_um": 53.05164769729847,
+      "removed_volume_per_contact_m3": 3.141592653589794e-18,
+      "total_removed_volume_m3": 5.02654824574367e-17,
+      "apex_removed_um": 0.09708129562778496,
+      "apex_removed_over_initial_indentation": 0.8240516309828047,
+      "contact_radius_um": 3.112348232584218,
+      "area_ratio": 1.5498738433392167,
+      "mean_pressure_MPa": 6.452138051736465,
+      "interface_mu": 0.060997476866784334,
+      "normal_contact_stiffness_ratio": 1.2449392930336871,
+      "elastic_indentation_um": 0.08092414973114555,
+      "power_per_400N_ski_W": 243.98990746713733,
+      "finite_peak_pressure_MPa": 7.716979750872987,
+      "peak_radius_over_contact_radius": 0.6420000000000001,
+      "peak_pressure_status": "finite",
+      "w_dimensionless": 0.8240516309828047,
+      "a_dimensionless": 1.2449392930336871
+    }
+  ],
+  "friction_thresholds": [
+    {
+      "split_count": 1,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.01,
+      "threshold_mu": 0.060000000000000005,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 1.2098170532886672e-07,
+      "apex_removed_um": 0.3020232719562912,
+      "total_removed_volume_m3": 6.081203786878924e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 1,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.02,
+      "threshold_mu": 0.07,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 2.6148448736242063e-07,
+      "apex_removed_um": 0.44402101153674434,
+      "total_removed_volume_m3": 1.3143643912407582e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 1,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.05,
+      "threshold_mu": 0.1,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 8.832482139434615e-07,
+      "apex_removed_um": 0.8160597184355198,
+      "total_removed_volume_m3": 4.4396897603537356e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 1,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.01,
+      "threshold_mu": 0.060000000000000005,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 3.218551959545208e-07,
+      "apex_removed_um": 0.34833396374119346,
+      "total_removed_volume_m3": 1.6178206706086816e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 1,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.02,
+      "threshold_mu": 0.07,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 1.9153882569590667e-06,
+      "apex_removed_um": 0.8497554714270285,
+      "total_removed_volume_m3": 9.627791482935621e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 1,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.05,
+      "threshold_mu": 0.1,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 4.1528554818145046e-05,
+      "apex_removed_um": 3.956753255853371,
+      "total_removed_volume_m3": 2.0874528436941677e-14,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 4,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.01,
+      "threshold_mu": 0.060000000000000005,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 6.04908526644336e-08,
+      "apex_removed_um": 0.15101163597814593,
+      "total_removed_volume_m3": 3.040601893439475e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 4,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.02,
+      "threshold_mu": 0.07,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 1.3074224368113943e-07,
+      "apex_removed_um": 0.22201050576831197,
+      "total_removed_volume_m3": 6.571821956200227e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 4,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.05,
+      "threshold_mu": 0.1,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 4.4162410697177763e-07,
+      "apex_removed_um": 0.4080298592177816,
+      "total_removed_volume_m3": 2.2198448801771037e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 4,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.01,
+      "threshold_mu": 0.060000000000000005,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 1.6092759797726036e-07,
+      "apex_removed_um": 0.1741669818705967,
+      "total_removed_volume_m3": 8.089103353043406e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 4,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.02,
+      "threshold_mu": 0.07,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 9.576941284795333e-07,
+      "apex_removed_um": 0.4248777357135142,
+      "total_removed_volume_m3": 4.813895741467811e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 4,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.05,
+      "threshold_mu": 0.1,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 2.0764277409072692e-05,
+      "apex_removed_um": 1.9783766279266939,
+      "total_removed_volume_m3": 1.0437264218470927e-14,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 16,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.01,
+      "threshold_mu": 0.060000000000000005,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 3.024542633221673e-08,
+      "apex_removed_um": 0.07550581798907287,
+      "total_removed_volume_m3": 1.520300946719734e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 16,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.02,
+      "threshold_mu": 0.07,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 6.537112184058415e-08,
+      "apex_removed_um": 0.11100525288416822,
+      "total_removed_volume_m3": 3.285910978100839e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 16,
+      "profile": "flat_truncation",
+      "diagnostic_mu_increment": 0.05,
+      "threshold_mu": 0.1,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 2.208120534858653e-07,
+      "apex_removed_um": 0.20401492960887996,
+      "total_removed_volume_m3": 1.1099224400884335e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 16,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.01,
+      "threshold_mu": 0.060000000000000005,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 8.046379898859282e-08,
+      "apex_removed_um": 0.08708349093527813,
+      "total_removed_volume_m3": 4.044551676519825e-17,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 16,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.02,
+      "threshold_mu": 0.07,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 4.788470642397656e-07,
+      "apex_removed_um": 0.21243886785675686,
+      "total_removed_volume_m3": 2.4069478707339e-16,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    },
+    {
+      "split_count": 16,
+      "profile": "smooth_gaussian_removal",
+      "diagnostic_mu_increment": 0.05,
+      "threshold_mu": 0.1,
+      "max_specific_wear_at_100_local_passes_mm3_Nm": 1.0382138704536365e-05,
+      "apex_removed_um": 0.9891883139633478,
+      "total_removed_volume_m3": 5.218632109235472e-15,
+      "note": "Diagnostic friction drift only, not a snow acceptance or material life."
+    }
+  ],
+  "maintenance_cost_limits": [
+    {
+      "processed_depth_m": 0.01,
+      "processed_mass_per_operation_kg": 2400.0,
+      "processed_mass_per_year_kg": 480000.0,
+      "assumed_gross_savings_JPY_year": 5400000.0,
+      "max_added_cost_JPY_processed_kg": 11.25,
+      "annual_material_cost_before_JPY": 18847592.38964207,
+      "annual_material_cost_after_JPY": 13447592.38964207,
+      "illustrative_material_budget_JPY_year": 10000000,
+      "note": "No improved replacement rate demonstrated; excludes extra capital and other costs."
+    },
+    {
+      "processed_depth_m": 0.05,
+      "processed_mass_per_operation_kg": 12000.0,
+      "processed_mass_per_year_kg": 2400000.0,
+      "assumed_gross_savings_JPY_year": 5400000.0,
+      "max_added_cost_JPY_processed_kg": 2.25,
+      "annual_material_cost_before_JPY": 18847592.38964207,
+      "annual_material_cost_after_JPY": 13447592.38964207,
+      "illustrative_material_budget_JPY_year": 10000000,
+      "note": "No improved replacement rate demonstrated; excludes extra capital and other costs."
+    },
+    {
+      "processed_depth_m": 0.45,
+      "processed_mass_per_operation_kg": 108000.0,
+      "processed_mass_per_year_kg": 21600000.0,
+      "assumed_gross_savings_JPY_year": 5400000.0,
+      "max_added_cost_JPY_processed_kg": 0.25,
+      "annual_material_cost_before_JPY": 18847592.38964207,
+      "annual_material_cost_after_JPY": 13447592.38964207,
+      "illustrative_material_budget_JPY_year": 10000000,
+      "note": "No improved replacement rate demonstrated; excludes extra capital and other costs."
+    }
+  ],
+  "source_data_are_not_calibration": true
+}

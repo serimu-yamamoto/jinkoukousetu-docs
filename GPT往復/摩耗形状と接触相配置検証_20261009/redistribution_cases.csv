@@ -1,0 +1,10 @@
+sectors_with_equal_exposure,unknown_direction_wear_multiplier,dose_ratio_per_sector,mu,total_wear_volume_ratio_all_sectors,interpretation
+1,1,1.0,0.055561656928651865,1,"exposure redistribution, not restoration or measured lifetime"
+1,4,4.0,0.060997476866784334,4,"exposure redistribution, not restoration or measured lifetime"
+1,16,16.0,0.06879012348145906,16,"exposure redistribution, not restoration or measured lifetime"
+4,1,0.25,0.052165150671077805,1,"exposure redistribution, not restoration or measured lifetime"
+4,4,1.0,0.055561656928651865,4,"exposure redistribution, not restoration or measured lifetime"
+4,16,4.0,0.060997476866784334,16,"exposure redistribution, not restoration or measured lifetime"
+16,1,0.0625,0.05056701657269614,1,"exposure redistribution, not restoration or measured lifetime"
+16,4,0.25,0.052165150671077805,4,"exposure redistribution, not restoration or measured lifetime"
+16,16,1.0,0.055561656928651865,16,"exposure redistribution, not restoration or measured lifetime"

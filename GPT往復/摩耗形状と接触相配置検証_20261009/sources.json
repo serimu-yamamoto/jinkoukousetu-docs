@@ -1,0 +1,70 @@
+{
+  "schema": "source-ledger-v1",
+  "checked_date": "2026-10-09",
+  "physical_tests_by_this_project": 0,
+  "sources": [
+    {
+      "id": "S1",
+      "authors": "Popov, Heß and Willert",
+      "year": 2019,
+      "title": "Normal Contact Without Adhesion",
+      "doi": "10.1007/978-3-662-58709-6_2",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-58709-6_2",
+      "access": "Publisher full HTML read, sections 2.3 and 2.5.10",
+      "used": "Axisymmetric linear elastic non-adhesive contact, MDR transform and truncated paraboloid equation 2.78. Sharp rim stress singularity explicitly retained as limitation.",
+      "not_proved": "Finite polymer branches, temperature dependent creep, wear evolution and ski edge release."
+    },
+    {
+      "id": "S2",
+      "authors_preprint": "Forsbach, Schuster, Pielsticker and Li",
+      "preprint_year": 2017,
+      "journal_authors": "Li, Forsbach, Schuster, Pielsticker and Popov",
+      "journal_year": 2018,
+      "title": "Wear Analysis of a Heterogeneous Annular Cylinder",
+      "doi": "10.3390/lubricants6020028",
+      "url": "https://www.mdpi.com/2075-4442/6/2/28",
+      "preprint": "https://arxiv.org/abs/1712.01022",
+      "pdf": "https://arxiv.org/pdf/1712.01022",
+      "access": "Publisher page unavailable; author preprint PDF full text read, printed page 8 visually checked.",
+      "bytes": 947324,
+      "sha256": "a3d4af42d0a35db96e804ec884c160a83887f1dba6c460a5250128f234da0f3a",
+      "used": "Constant recession in full contact requires dimensional specific wear coefficient times pressure to be equal. Same elastic modulus, persistent contact, fixed area and constant sliding velocity are assumptions.",
+      "source_audit": "Preprint page 8 printed equation 22 lacks radial factor r; equation 25 prints an extra 2pi before an angular integral. Our force balance independently uses F=2pi integral[p(r) r dr]. No claim that the final journal version retains these printing issues.",
+      "not_proved": "Random mixture area exposure, transient roughness, actual PHAs or outdoor wet wear; steady shape still loses mass."
+    },
+    {
+      "id": "S3",
+      "authors": "Dunn, Steffens, Burris, Banks and Sawyer",
+      "year": 2008,
+      "title": "Spatial geometric effects on the friction coefficients of UHMWPe",
+      "doi": "10.1016/j.wear.2007.05.012",
+      "url": "https://research.me.udel.edu/~dlburris/papers/JA18.pdf",
+      "bibliography_url": "https://research.me.udel.edu/~dlburris/publicationsRefereed.html",
+      "access": "Author-hosted 6-page article-in-press PDF read; table 2 visually verified. Final publication Wear 264 (2008) 648–653 per author bibliography, whereas PDF header says 2007.",
+      "bytes": 1037330,
+      "sha256": "e1b90aab5c970839f10c599f1c119bec2d3aba491bfae8091d3c1f6e3fefe2ed",
+      "used": "Sliding direction can alter friction; selected dry/water line/chirp averages retained only as source observations.",
+      "conditions": "UHMWPE pins against polished CoCr, average speed 50.8 mm/s, typical 203 N and nominal 10 MPa for Fig 4. Methods dry approx 26 C, table 1 temperatures 28/35 C, heated bath target 37 C; per-row temperatures not resolved. Table 2 path-length entries 50.8/25.4 mm differ from table 1 range 300–650 mm.",
+      "not_used": "No coefficient, temperature or direction multiplier transferred to a 50 C ski sole. Reported friction ratios are not wear ratios. Bovine-serum lubrication is not a candidate."
+    },
+    {
+      "id": "S4",
+      "authors": "Bergmann et al.",
+      "year": 2024,
+      "title": "Semi-analytical calculation model for friction of polymers on the example of POM / PE-UHMW and steel / PE-UHMW",
+      "doi": "10.1007/s40544-024-0887-2",
+      "url": "https://link.springer.com/article/10.1007/s40544-024-0887-2",
+      "previous_verification": "../局部圧力と乾式接点検証_20261008/sources.md",
+      "access": "Prior cycle 33 verified full-text record and cycle 41 restatement used for provenance of tau=tau0+beta*p. This cycle numerical tau0=0.2 MPa beta=0.03 remain hypothetical, not fitted from this source.",
+      "not_proved": "Chosen interface coefficients, shape changes, high speed, 50 C, biological/environmental safety."
+    }
+  ],
+  "excluded_unavailable_leads": [
+    {
+      "doi": "10.1038/s41598-024-66613-w",
+      "title": "Wear simulation of UHMWPE against the different counterface roughness in reciprocating unidirectional sliding motion",
+      "access": "PMC browser challenge, publisher redirect/PDF inaccessible. No bypass and no quantitative input."
+    }
+  ],
+  "publication_policy": "No original third-party PDFs or screenshots republished. Only source links, metadata and limited factual observations."
+}

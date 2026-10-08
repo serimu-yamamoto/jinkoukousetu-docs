@@ -1,0 +1,5 @@
+source_id,condition,path,friction_coefficient,speed_m_s,counterface,temperature_status,use
+S3,dry,line,0.118,0.0508,polished_CoCr,per_row_not_resolved,source_observation_only
+S3,dry,chirp,0.270,0.0508,polished_CoCr,per_row_not_resolved,source_observation_only
+S3,water,line,0.034,0.0508,polished_CoCr,per_row_not_resolved,source_observation_only
+S3,water,chirp,0.047,0.0508,polished_CoCr,per_row_not_resolved,source_observation_only

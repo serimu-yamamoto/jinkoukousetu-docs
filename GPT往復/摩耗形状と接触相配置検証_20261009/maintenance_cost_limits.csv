@@ -1,0 +1,4 @@
+processed_depth_m,processed_mass_per_operation_kg,processed_mass_per_year_kg,assumed_gross_savings_JPY_year,max_added_cost_JPY_processed_kg,annual_material_cost_before_JPY,annual_material_cost_after_JPY,illustrative_material_budget_JPY_year,note
+0.01,2400.0,480000.0,5400000.0,11.25,18847592.38964207,13447592.38964207,10000000,No improved replacement rate demonstrated; excludes extra capital and other costs.
+0.05,12000.0,2400000.0,5400000.0,2.25,18847592.38964207,13447592.38964207,10000000,No improved replacement rate demonstrated; excludes extra capital and other costs.
+0.45,108000.0,21600000.0,5400000.0,0.25,18847592.38964207,13447592.38964207,10000000,No improved replacement rate demonstrated; excludes extra capital and other costs.

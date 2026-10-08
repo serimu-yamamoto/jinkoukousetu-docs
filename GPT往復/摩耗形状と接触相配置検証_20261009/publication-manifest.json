@@ -1,0 +1,117 @@
+{
+  "schema": "publication-byte-manifest-v1",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "bd5e0c8852b7a6190a02e2620a9554a90d30950d",
+  "cycle": 42,
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "numerical_checks": 24,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第42巡_摩耗後も滑りを保つ先端と接触相の配置_20261009.md",
+      "bytes": 18642,
+      "sha256": "c141a5070f9032cd3e8b1bb7c287faf0f4e96565d2c3253c4f66553a64a3b245"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 27768,
+      "sha256": "412688c88c43630d29d4fe032035ebd23f8097652f7779dcbd2fadc245e76f52"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/README.md",
+      "bytes": 1763,
+      "sha256": "32f92a4710da8cf1010fb99bf39170435326df95d42f71385ceb828417ac4e4c"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/environment.json",
+      "bytes": 93,
+      "sha256": "a0979a490be0b124b7e8e314ee7f60f3acf09df3ec1c4a86bc74e96641de1376"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/friction_drift_limits.csv",
+      "bytes": 3306,
+      "sha256": "5feef920b623f1e46b8ce1ebcfd87f331bc84d7282a2363aa904ef2e10d488cc"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/heterogeneous_phase_cases.csv",
+      "bytes": 2207,
+      "sha256": "d0f858edc8132fb4cdc389f3059112bead322d7aa7228f1f1d653c83e359d99d"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/inputs.json",
+      "bytes": 2047,
+      "sha256": "f114a1fc51424ff09c36fab63b503b825bfb9d0b0fffe423e690758934db7516"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/maintenance_cost_limits.csv",
+      "bytes": 745,
+      "sha256": "1e54c231d6391faf6ab5af1477b01749f115b90f6df5b310fd7f3303e8a74585"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/model.md",
+      "bytes": 6640,
+      "sha256": "986f415bf368b93138a157e3ac0b371f3d2823aa08cb5dcdbe5133003087c021"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/phase_load_and_maintenance.png",
+      "bytes": 99755,
+      "sha256": "524e509424233d817361b4f80679d6bd0b13ea3043e366c26ccf37e2e7a5af0f"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/pressure_convergence.csv",
+      "bytes": 1237,
+      "sha256": "1be3695e31cd542c037502f33a2842e25ed24514db7187537a6fd8e8979a66ad"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/redistribution_cases.csv",
+      "bytes": 1006,
+      "sha256": "b8c7cd560ad291eb82a7f45ef900cce2162150f54ab13e876d84e221195fbd5e"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/reproduce.py",
+      "bytes": 16366,
+      "sha256": "8397c62ebe31a7fe82c8912392b9462f7883d8deefa92df63e02f55fa1aa78ad"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/results.json",
+      "bytes": 18118,
+      "sha256": "37a01a0c204282ea14330e61f5e957afd309ac3746348a86ed4e8de8cc2d1528"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/source_observations.csv",
+      "bytes": 433,
+      "sha256": "a2f74b7935f52047642cc6dd69860cd45ff328eb20afe12ece2281c7cd4bc4c8"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/sources.json",
+      "bytes": 4729,
+      "sha256": "78fb720068cc8c244191392bc364e2747545cc671dfabaddf5414d1c4703e185"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/wear_contact_cases.csv",
+      "bytes": 10210,
+      "sha256": "d3ab6e491bfe4e5bc12c3bb2ad61c534ba21ed1f70b719e2ed7991ad20245130"
+    },
+    {
+      "path": "GPT往復/摩耗形状と接触相配置検証_20261009/wear_contact_response.png",
+      "bytes": 143685,
+      "sha256": "fc8bd560c07c3d6c509e5157cd4f23d02451d4e6e4912b4e32c0f6a9ba782644"
+    },
+    {
+      "path": "README.md",
+      "bytes": 34773,
+      "sha256": "70a99cc93aea6007910aa57e54f4ca70e7ac8173f37daaf3b311218ee3403372"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 101504,
+      "sha256": "847f1150a27a52d82f54220139fdc0368ecd5b6900ef0da6e0317fa9148fd82c"
+    }
+  ]
+}
