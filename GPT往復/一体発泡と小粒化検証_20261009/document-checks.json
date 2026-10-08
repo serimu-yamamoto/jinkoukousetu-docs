@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "name": "no physical success or 90 percent claim generated",
+      "passed": true
+    },
+    {
+      "name": "all ten numerical outputs reproduce byte for byte",
+      "passed": true
+    },
+    {
+      "name": "15 consistency checks passed",
+      "passed": true
+    },
+    {
+      "name": "all report links to substantive local artifacts exist",
+      "passed": true
+    },
+    {
+      "name": "reported geometric results match model",
+      "passed": true
+    },
+    {
+      "name": "mass and manufacturing geometry limits disclosed",
+      "passed": true
+    },
+    {
+      "name": "50 and 60 C are not fabricated measurement inputs",
+      "passed": true
+    },
+    {
+      "name": "prior history preserved exactly: README.md",
+      "passed": true
+    },
+    {
+      "name": "prior history preserved exactly: GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "prior board entries and instructions preserved exactly",
+      "passed": true
+    },
+    {
+      "name": "3 original figures present in PNG and SVG",
+      "passed": true
+    },
+    {
+      "name": "new text is LF-only without trailing spaces",
+      "passed": true
+    }
+  ],
+  "count": 12,
+  "all_passed": true
+}

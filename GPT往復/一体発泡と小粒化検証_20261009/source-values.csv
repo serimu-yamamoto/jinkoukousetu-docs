@@ -1,0 +1,8 @@
+source,sample,foam_density_kg_m3,cell_diameter_um,axial_strain_at_0p2_MPa,E_MPa,temperature_C,scope
+10.1021/acs.iecr.2c00001,CF,221,19.4,0.5,,,author manuscript; 4 mm cuboids; not 50 C qualification
+10.1021/acs.iecr.2c00001,WF1.77,218,19.6,0.279,,,author manuscript; 4 mm cuboids; not 50 C qualification
+10.1021/acs.iecr.2c00001,WF1.94,220,19.6,0.339,,,author manuscript; 4 mm cuboids; not 50 C qualification
+10.1021/acs.iecr.2c00001,WF2.16,218,19.6,0.409,,,author manuscript; 4 mm cuboids; not 50 C qualification
+10.1186/s40712-024-00149-9,ETPU_about250kg_m3,250,,,1.19,-20,published text; slow compression; not cut particles
+10.1186/s40712-024-00149-9,ETPU_about250kg_m3,250,,,0.87,23,published text; slow compression; not cut particles
+10.1186/s40712-024-00149-9,ETPU_about250kg_m3,250,,,0.82,40,published text; slow compression; not cut particles

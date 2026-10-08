@@ -1,0 +1,4 @@
+submerged_fraction_of_reference_particle_volume,submerged_particle_envelope_m3,net_upward_force_N_if_unrestrained,air_filled_intact_skin_assumed,not_an_anchor_design_load
+0.01,4.950000000000001,34811.129489682564,True,True
+0.1,49.50000000000001,348111.2948968256,True,True
+1,495.00000000000006,3481112.9489682564,True,True

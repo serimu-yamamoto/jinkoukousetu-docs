@@ -1,0 +1,134 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "b4014e27c86096725c70cc09c0774c1ce394867c",
+  "cycle": 53,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第53巡_一体発泡で戻る粒と量産の成立条件_20261009.md",
+      "bytes": 23133,
+      "sha256": "ac514f368fdbb6ea9d2a290b720813cfc5659329a7b980d7e28e7e7952c559d2"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 35991,
+      "sha256": "559fc6a99d09c53347e7c5ba75b433b4076c3073854b860f3df3571c69018e01"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/01-size-and-mass.png",
+      "bytes": 230643,
+      "sha256": "4a603ff042595e2bd7b91f76e0d7d4751271b8233b040f8d5fd5e86919a7328b"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/01-size-and-mass.svg",
+      "bytes": 136931,
+      "sha256": "a88348ccabd2f70b7a1bd66f60b61dfca0e8fa3a0ecda8520d303b934e14b4e8"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/02-rain-and-grooming.png",
+      "bytes": 137215,
+      "sha256": "ff59dd090cf2e7ce98a1154fcbb382f6103137e9cb3dbe0dacd6132818c9b8fe"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/02-rain-and-grooming.svg",
+      "bytes": 119913,
+      "sha256": "6a519c3cb4e390f89c891bf0985b411605fc74b340d4db7b323eb3e1b18a3b85"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/03-concept.png",
+      "bytes": 134782,
+      "sha256": "c7884d5cbdf75ce4413bc55357d2a02685a24fee71c75077ee3801c5407de927"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/03-concept.svg",
+      "bytes": 131283,
+      "sha256": "83372c054dc8c90781db2183ec3480bff5122c1256fc9e103e66061e2053bd8b"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/buoyancy.csv",
+      "bytes": 323,
+      "sha256": "13b6013d21b8ee07f177dac70b98608a8cf2d84b2083d0abf011695ed4d02cb8"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/cost.csv",
+      "bytes": 558,
+      "sha256": "ecc4e92b6f14927a2fad5a597739097f06433b528a9ef06ca699988396adde73"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/cutting.csv",
+      "bytes": 3657,
+      "sha256": "db60d2dab4bf346b9e45da25f764e75d1c8214c572a276912516939aca074868"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/document-checks.json",
+      "bytes": 1228,
+      "sha256": "17352084d1ce239b84f1a20978fa8014fb3c2b5ce0e0101143f7ef10c68e87cb"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/draw.py",
+      "bytes": 6503,
+      "sha256": "78a9687511969c07eaccaa012ef72f865733ab1d3975cd9b91631c714e95a881"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/end-seal.csv",
+      "bytes": 347,
+      "sha256": "ae8731f730ccd782711a80e60d8c73a1bde81978ae938045bfb8da1b8755cf22"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/grooming.csv",
+      "bytes": 796,
+      "sha256": "9132286f0ce22b08a23e7b8191e21b5814f31767a9640ee4b6e84269141e836b"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/model.py",
+      "bytes": 12144,
+      "sha256": "de73f1e7ca39c22eb736b854e9fb50bb730296ace297544698d3a7f9516d8cd0"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/numerical-checks.json",
+      "bytes": 1465,
+      "sha256": "c6ca0d6ad6056aace37db3371b2c1294c58000f7399f29dbf57a37d2dd7f3a7d"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/particles.csv",
+      "bytes": 2570,
+      "sha256": "aafdf03029bd9f96db03ef2d13aca8127a3a93c0327e8679c22aeebe117aca2c"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/results.json",
+      "bytes": 3053,
+      "sha256": "1035868f650a2c0c509a58d67463bdf3c5c08c00cd184aa3b7684dad12acd73c"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/source-values.csv",
+      "bytes": 851,
+      "sha256": "ba3c4482ceec9cae5337877632d60b0cee8899ae0074345175b3c553109cc7b1"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/sources.md",
+      "bytes": 5571,
+      "sha256": "cf06df9f0c126372fac0393917852466130515385edb1c701f0c2263d645817f"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/verify.py",
+      "bytes": 4776,
+      "sha256": "3a7344e09edb09b504e4f02159ee0a7c03d042385343fa9cd524202e76e4b3fd"
+    },
+    {
+      "path": "GPT往復/一体発泡と小粒化検証_20261009/water.csv",
+      "bytes": 2748,
+      "sha256": "5001b0762df6b4c65e47ae602764abf3ca2cc52764ff2f2200ba2b4fe653817c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 43280,
+      "sha256": "04a151abca760c654cd7ba10125324b4303cc727c2552ac8217508a96cc26da3"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 116192,
+      "sha256": "223d9117dca7547b64867b21d32df9d063f12bc7bdfcecde3112645124c1d087"
+    }
+  ],
+  "self_excluded": true
+}

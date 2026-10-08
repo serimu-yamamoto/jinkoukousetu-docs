@@ -1,0 +1,62 @@
+[
+  {
+    "name": "affected-layer geometry has correct zero and fully affected limits",
+    "passed": true
+  },
+  {
+    "name": "all affected fractions bounded by geometry",
+    "passed": true
+  },
+  {
+    "name": "two end cuts affect less volume than six face cuts at equal 500 um size",
+    "passed": true
+  },
+  {
+    "name": "80 percent retained interior inversion",
+    "passed": true
+  },
+  {
+    "name": "particle phase volumes close exactly",
+    "passed": true
+  },
+  {
+    "name": "particle mass independently reconstructed by mixture density",
+    "passed": true
+  },
+  {
+    "name": "skin thickness raises mass at each fixed core size",
+    "passed": true
+  },
+  {
+    "name": "void fraction discrepancy retained rather than silently overwritten",
+    "passed": true
+  },
+  {
+    "name": "water bounded by total foam pore capacity",
+    "passed": true
+  },
+  {
+    "name": "grooming mass balance independently closes on initial loaded and recovered states",
+    "passed": true
+  },
+  {
+    "name": "discrete mold minimum line count bracketed",
+    "passed": true
+  },
+  {
+    "name": "continuous roll minimum line count bracketed",
+    "passed": true
+  },
+  {
+    "name": "buoyancy balances displaced water minus particle weight",
+    "passed": true
+  },
+  {
+    "name": "cost break-even lifetime ratio gives equal annual body cost",
+    "passed": true
+  },
+  {
+    "name": "end-sealing mass is conserved including dense caps",
+    "passed": true
+  }
+]

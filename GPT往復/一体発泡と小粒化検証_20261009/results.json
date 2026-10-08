@@ -1,0 +1,92 @@
+{
+  "cycle": 53,
+  "base_commit": "b4014e27c86096725c70cc09c0774c1ce394867c",
+  "physical_tests": 0,
+  "success_probability": null,
+  "source_audit": {
+    "reported_void_fraction": 0.788,
+    "void_from_reported_densities": 0.8053571428571429,
+    "temperature_figure_points_C": [
+      -50,
+      -40,
+      -20,
+      0,
+      23,
+      40,
+      80,
+      120
+    ],
+    "50C_sample_identified": false,
+    "60C_sample_identified": false,
+    "recovery_wait_conflict_hours": [
+      24,
+      72
+    ],
+    "wrinkled_E_retention_not_used_due_text_figure_discrepancy": true
+  },
+  "cutting": {
+    "D_for_80pct_cube_interior_um_at_one_cell_depth": 546.8579619761211,
+    "500um_cube_affected_at_one19p6um_cell": 0.21724221030400004,
+    "500um_profile_two_end_affected_at_one19p6um_cell": 0.07840000000000003,
+    "50um_diameter_150um_long_branch_affected_at_one19p6um_cell": 0.965536768
+  },
+  "selected_mass_candidate": {
+    "core_side_um": 500,
+    "skin_um": 5,
+    "arms": 6,
+    "arm_radius_um": 25,
+    "arm_length_um": 150,
+    "envelope_volume_m3": 1.2676714586764426e-10,
+    "foam_inner_m3": 1.17649e-10,
+    "dense_skin_and_arms_m3": 9.118145867644274e-12,
+    "mass_kg": 3.585980537176159e-08,
+    "envelope_density_kg_m3": 282.879330652457,
+    "packing_to_bulk120": 0.42420914855539915,
+    "mass_at_phi055_t": 140.02526867296623,
+    "dense_fraction_of_mass": 0.28478468485507885,
+    "extra_mass_over_all_foam_same_envelope_t": 32.11526867296621
+  },
+  "production": {
+    "mass_kg": 140025.26867296622,
+    "particle_count": 3904797229692.482,
+    "scheduled_hours": 480,
+    "availability": 0.75,
+    "productive_hours": 360.0,
+    "minimum_net_mass_kg_h": 388.9590796471284,
+    "required_particles_s_when_running": 3012960.8253800017,
+    "assumed_pitch_m": 0.0008,
+    "assumed_mold_area_m2": 1,
+    "assumed_cycle_s": 30,
+    "ideal_cavities_per_mold": 1562500.0,
+    "ideal_parallel_mold_count": 58,
+    "assumed_roll_width_m": 1,
+    "assumed_roll_speed_m_min": 30,
+    "ideal_parallel_roll_count": 4,
+    "yield_assumed": 1,
+    "cavity_and_roll_geometry_not_validated": true,
+    "gas_saturation_2h_inventory_lower_bound_kg": 777.9181592942568
+  },
+  "buoyancy": {
+    "free_float_submerged_volume_fraction": 0.28287933065245696,
+    "air_filled_intact_skin_assumed": true
+  },
+  "counts": {
+    "source_rows": 7,
+    "cut_rows": 72,
+    "particle_rows": 12,
+    "water_rows": 24,
+    "buoyancy_rows": 3,
+    "groom_rows": 9,
+    "cost_rows": 3,
+    "seal_rows": 3,
+    "numerical_checks": 15
+  },
+  "limitations": [
+    "geometric cut layers do not predict actual ruptured cells",
+    "macro-scale foams, wrinkled foams and injection-molded foams are different materials and processes",
+    "no transfer of rebound ratios or energy loss into ski friction",
+    "mass candidate six-arm geometry differs from proposed continuous profile; no proven factory line",
+    "J and packing are free state variables, not functions fitted to groomer pressure",
+    "no 50 C wet/dry fatigue, toxicity or snow-equivalence proof"
+  ]
+}
