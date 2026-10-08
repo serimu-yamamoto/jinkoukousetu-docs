@@ -1,0 +1,172 @@
+{
+  "cycle": 30,
+  "date": "2026-10-08",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "pe_observations": {
+    "source": "S1, Table 1, commercial PE membranes; liquid-entry test uses saline, outer apparent contact angles",
+    "rows": [
+      {
+        "id": "PE-0.2",
+        "diameter_um": 0.2,
+        "entry_bar": 6,
+        "entry_error_bar": 1.1,
+        "receding_deg": 88,
+        "receding_error_deg": 3,
+        "hysteresis_deg": 35,
+        "hysteresis_error_deg": 3
+      },
+      {
+        "id": "PE-0.5",
+        "diameter_um": 0.5,
+        "entry_bar": 1.65,
+        "entry_error_bar": 0.4,
+        "receding_deg": 92,
+        "receding_error_deg": 2,
+        "hysteresis_deg": 41,
+        "hysteresis_error_deg": 3
+      },
+      {
+        "id": "PE-0.9",
+        "diameter_um": 0.9,
+        "entry_bar": 1.07,
+        "entry_error_bar": 0.12,
+        "receding_deg": 92,
+        "receding_error_deg": 3,
+        "hysteresis_deg": 32,
+        "hysteresis_error_deg": 4
+      },
+      {
+        "id": "PE-1.5",
+        "diameter_um": 1.5,
+        "entry_bar": 0.45,
+        "entry_error_bar": 0.1,
+        "receding_deg": 85,
+        "receding_error_deg": 3,
+        "hysteresis_deg": 35,
+        "hysteresis_error_deg": 3
+      },
+      {
+        "id": "PE-2.5",
+        "diameter_um": 2.5,
+        "entry_bar": 0.4,
+        "entry_error_bar": 0.1,
+        "receding_deg": 86,
+        "receding_error_deg": 2,
+        "hysteresis_deg": 39,
+        "hysteresis_error_deg": 4
+      }
+    ]
+  },
+  "scenarios": {
+    "temperature_C": [
+      25,
+      30,
+      50
+    ],
+    "diameters_um": [
+      1,
+      3,
+      10,
+      30,
+      100
+    ],
+    "advancing_deg": 120,
+    "receding_deg": [
+      85,
+      95
+    ],
+    "pressure_cycle_kPa": [
+      0,
+      2,
+      20,
+      0,
+      -5,
+      0
+    ],
+    "audit_surface_tension_N_m": 0.072,
+    "gas_solid_fractions": [
+      0.03,
+      0.1,
+      0.2
+    ],
+    "gas_compressive_strains": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "polytropic_exponents": [
+      1,
+      1.4
+    ],
+    "initial_gas_pressure_Pa": 101325
+  },
+  "network": {
+    "nodes": [
+      "in",
+      "upper",
+      "lower",
+      "out"
+    ],
+    "edge_pairs": [
+      [
+        "in",
+        "upper"
+      ],
+      [
+        "upper",
+        "out"
+      ],
+      [
+        "in",
+        "lower"
+      ],
+      [
+        "lower",
+        "out"
+      ]
+    ],
+    "mixed_paths_um": [
+      3,
+      30,
+      3,
+      30
+    ],
+    "separated_paths_um": [
+      30,
+      30,
+      3,
+      3
+    ],
+    "temperature_C": 50,
+    "advancing_deg": 120
+  },
+  "factory": {
+    "areas_m2": [
+      2000,
+      20000
+    ],
+    "bed_depth_m": 0.45,
+    "assumed_bed_density_kg_m3": 120,
+    "production_days": 30,
+    "hours_per_day": 16,
+    "good_yields": [
+      1,
+      0.8
+    ],
+    "source_S3_solid_density_kg_m3": 1240,
+    "source_S3_prefoamed_density_kg_m3": 450,
+    "source_S3_one_stage_saturation_h": 9,
+    "source_S3_pretreatment_saturation_h": 12,
+    "source_S3_second_stage_saturation_h": 2
+  },
+  "limits": [
+    "Pressure hysteresis model assumes straight vented cylinders with specified advancing/receding intrinsic angles. Not a model of real granular snow.",
+    "Commercial-membrane apparent angles and nominal pores are used only to audit an unsafe shortcut, not calibrate artificial firn.",
+    "Pressure means local water minus air pressure. Ski/groomer total mechanical stress is not automatically pore-water pressure.",
+    "Network is a four-throat topological counterexample; no filling kinetics, snap-off, trapped gas, pore-size distribution or permeability prediction.",
+    "Gas pressures are thermodynamic scales for sealed cells at constant cross-section and incompressible solid; not added directly as macroscopic foam stress.",
+    "Factory occupied volumes omit free space, packing, transfers, temperature ramps, depressurization, cleaning and cutting. They are not vessel designs or price quotes.",
+    "Two-hour PBAT saturation is the second stage after a 12-hour pretreatment in the cited study; not a two-hour end-to-end process."
+  ]
+}

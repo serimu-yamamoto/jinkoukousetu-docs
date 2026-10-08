@@ -1,0 +1,77 @@
+{
+  "cycle": 30,
+  "date": "2026-10-08",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "5f247e29907c3fa66355fa3eb58a4d0e688e4b59",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第30巡_浸水履歴と開放支持骨格の設計_20261008.md",
+      "bytes": 18644,
+      "sha256": "28e62bbf2d153e3296e00b8357c6ee22c90c067617087afd4ef3ca676c4d2e5e"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 19048,
+      "sha256": "7ba268fa02b2e4cf879fd03928627fe3dbe2422659d7337e466bc32dc662f45c"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/README.md",
+      "bytes": 2727,
+      "sha256": "495c0e12d1fd2322f01207249606b6f569706ca08f59f2e6cf8270b3efdce9a0"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/calculate.py",
+      "bytes": 8452,
+      "sha256": "27ca1aee0b72315e215b7066b2c6d3a192d5c71d63086f3520830fa5ffa84502"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/figure1_wetting_history.png",
+      "bytes": 160279,
+      "sha256": "f9673d5f20c9165203a5255b36a25371bba4524576214b4f991003feea18cd9e"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/figure2_structure_and_process.png",
+      "bytes": 201503,
+      "sha256": "692877e7ccf8e649faaca7112a67a2424f0fe134bd3505a8c912f3e6b0e7f830"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/inputs.json",
+      "bytes": 4149,
+      "sha256": "08f2264eaac439bb2632e6c16101494d497d9aaa5b37c6180a2298ffb15bd423"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/plot.py",
+      "bytes": 5335,
+      "sha256": "d66db08bdbbed5c7dc0bbe87b080db4fd12477ed327e6014a2010ccffa0b7865"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/results.json",
+      "bytes": 31529,
+      "sha256": "e1dddca01e5f196cd99b5ac46bf335eb082694e19fbc5692c25169a56d99c8ff"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/sources.md",
+      "bytes": 5377,
+      "sha256": "908e5681481483c29d9b3e208073fbe853cc5a40dbd17523ec3b2b05b9f44771"
+    },
+    {
+      "path": "GPT往復/浸水履歴と開放支持骨格検証_20261008/validation.json",
+      "bytes": 2951,
+      "sha256": "b1f23bb480890e33022b7ecb2a3596166fb46f571ff21c1a95b5eab70cb61a69"
+    },
+    {
+      "path": "README.md",
+      "bytes": 25789,
+      "sha256": "8e09375ab7a22718082fdbccac34c407a5691a93a589f9f4723862cb609c91a6"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 82931,
+      "sha256": "66bf1a8fecaa49977fd348c1b7076b9765f175a67853a9d513de503bab278f34"
+    }
+  ]
+}

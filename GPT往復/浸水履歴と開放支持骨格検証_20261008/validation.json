@@ -1,0 +1,117 @@
+{
+  "check_count": 22,
+  "checks": [
+    {
+      "name": "IAPWS 25C reference",
+      "passed": true,
+      "detail": "N/m table rounded reference"
+    },
+    {
+      "name": "IAPWS 50C reference",
+      "passed": true,
+      "detail": "N/m table rounded reference"
+    },
+    {
+      "name": "inverse diameter scaling",
+      "passed": true,
+      "detail": "cylinder only"
+    },
+    {
+      "name": "wetting sign",
+      "passed": true,
+      "detail": "water minus air convention"
+    },
+    {
+      "name": "90 degree neutral",
+      "passed": true,
+      "detail": "numerical trigonometric tolerance"
+    },
+    {
+      "name": "hysteresis retains wet state at zero",
+      "passed": true,
+      "detail": "ideal thetaR 85"
+    },
+    {
+      "name": "higher receding angle allows release",
+      "passed": true,
+      "detail": "ideal thetaR 95"
+    },
+    {
+      "name": "sufficient negative pressure drains",
+      "passed": true,
+      "detail": "specified imposed liquid-side pressure"
+    },
+    {
+      "name": "no-entry control",
+      "passed": true,
+      "detail": "peak below threshold"
+    },
+    {
+      "name": "same pore histogram",
+      "passed": true,
+      "detail": "different paths, same throat inventory"
+    },
+    {
+      "name": "different topology different onset",
+      "passed": true,
+      "detail": "exact diamond counterexample"
+    },
+    {
+      "name": "independent flood vs minimax mixed",
+      "passed": true,
+      "detail": "connectivity search, no fitted inputs"
+    },
+    {
+      "name": "independent flood vs minimax separated",
+      "passed": true,
+      "detail": "connectivity search, no fitted inputs"
+    },
+    {
+      "name": "sealed gas Boyle conservation",
+      "passed": true,
+      "detail": "isothermal"
+    },
+    {
+      "name": "zero compression gas baseline",
+      "passed": true,
+      "detail": "no initial prepressure"
+    },
+    {
+      "name": "energy derivative k=1",
+      "passed": true,
+      "detail": "constant area cell-volume path only; not real foam stress"
+    },
+    {
+      "name": "energy derivative k=1.4",
+      "passed": true,
+      "detail": "constant area cell-volume path only; not real foam stress"
+    },
+    {
+      "name": "gas scenario domain",
+      "passed": true,
+      "detail": "all evaluated inputs keep positive gas volume"
+    },
+    {
+      "name": "factory 2000m2 good rate",
+      "passed": true,
+      "detail": "108 t / 480 h"
+    },
+    {
+      "name": "two-stage full accounting",
+      "passed": true,
+      "detail": "12h pretreatment not omitted"
+    },
+    {
+      "name": "yield mass conservation",
+      "passed": true,
+      "detail": "assumed yields 1 and .8"
+    },
+    {
+      "name": "small area scales tenfold",
+      "passed": true,
+      "detail": "same yield"
+    }
+  ],
+  "physical_tests": 0,
+  "scope": "Arithmetic, conservation, topology and specified ideal constitutive examples only. No snow/material validation."
+}
