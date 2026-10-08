@@ -1,0 +1,214 @@
+{
+  "numerical_checks": 50,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "disconnected branch melting matches lumped latent solution",
+      "passed": true
+    },
+    {
+      "name": "disconnected root onset matches analytical value",
+      "passed": true
+    },
+    {
+      "name": "all root onset events reached",
+      "passed": true
+    },
+    {
+      "name": "global energy conservation",
+      "passed": true
+    },
+    {
+      "name": "connected root does not melt later than disconnected comparison",
+      "passed": true
+    },
+    {
+      "name": "positive mass and melt ordering",
+      "passed": true
+    },
+    {
+      "name": "tip is earliest to fully melt in monotone fine branch",
+      "passed": true
+    },
+    {
+      "name": "temperature enthalpy relation at latent endpoints",
+      "passed": true
+    },
+    {
+      "name": "finer spatial mesh changes root onset less than 0.1 percent",
+      "passed": true
+    },
+    {
+      "name": "finer spatial mesh changes tip melt less than 1 percent",
+      "passed": true
+    },
+    {
+      "name": "Radau agrees with BDF root onset",
+      "passed": true
+    },
+    {
+      "name": "Radau agrees with BDF tip melt",
+      "passed": true
+    },
+    {
+      "name": "higher viscosity never increases qualified length",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 10 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 10 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 10 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 10 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 25 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 25 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 25 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 25 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 50 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 50 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 50 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 50 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 100 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 100 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 100 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 0.5 100 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 10 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 10 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 10 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 10 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 25 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 25 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 25 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 25 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 50 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 50 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 50 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 50 2000 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 100 500 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 100 500 12",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 100 2000 1",
+      "passed": true
+    },
+    {
+      "name": "steady fin threshold 1 100 2000 12",
+      "passed": true
+    },
+    {
+      "name": "slurry mass closes",
+      "passed": true
+    },
+    {
+      "name": "10x good rate produces 10x slurry",
+      "passed": true
+    },
+    {
+      "name": "drying cost includes yield",
+      "passed": true
+    },
+    {
+      "name": "mechanical water removal lowers modeled latent heat",
+      "passed": true
+    },
+    {
+      "name": "physical success remains unmeasured",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "fixed geometry after melting is counterfactual",
+    "root is isothermal and gas uniform",
+    "viscosity and heat transfer uncalibrated",
+    "no rounding or breakup simulation",
+    "patent fibres are not ski grains",
+    "water processing and plant cost unquoted"
+  ]
+}

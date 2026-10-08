@@ -1,0 +1,88 @@
+{
+  "cycle": 28,
+  "date": "2026-10-08",
+  "base_commit": "487d10dc7c4b4ffafd74ac756c1b980bec65d156",
+  "evidence": {
+    "physical_tests": 0,
+    "physical_success_probability": null,
+    "scope": "One-dimensional fixed-geometry enthalpy diagnostic and scenario mass-energy balances; no grain manufacture or ski validation."
+  },
+  "thermal": {
+    "rho_kg_m3": 950,
+    "cp_J_kgK": 2300,
+    "k_W_mK": 0.4,
+    "T0_C": 50,
+    "Tm_C": 130,
+    "latent_J_kg": 200000,
+    "gas_C": 150,
+    "root_radius_um": 10,
+    "root_length_um": 100,
+    "fine_radii_um": [
+      0.5,
+      1
+    ],
+    "lengths_um": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "h_W_m2K": [
+      500,
+      2000
+    ],
+    "parallel_branches": [
+      1,
+      12
+    ],
+    "viscosities_Pa_s": [
+      100,
+      1000
+    ],
+    "surface_tension_N_m": 0.03,
+    "residence_uncertainty": 0.2,
+    "cells": 32,
+    "rtol": 2e-7,
+    "atol_K_equivalent": 1e-8,
+    "max_time_s": 0.08,
+    "tip_convection": false,
+    "note": "Root is a lumped cylinder; fine branches are identical axial finite volumes. Perfect conducting attachment. No flow, shape change, retraction, capillary breakup, shielding or temperature-dependent viscosity. Stop at root melting onset. Shape-clock is a diagnostic after complete local melting, not a shape prediction."
+  },
+  "wet": {
+    "E_MPa": 300,
+    "gamma_N_m": 0.072,
+    "force_factor": 1,
+    "max_deflection_over_length": 0.1,
+    "min_slenderness": 10
+  },
+  "factory": {
+    "good_rates_kg_h": [
+      225,
+      2250
+    ],
+    "good_yields": [
+      0.5,
+      0.8,
+      0.95
+    ],
+    "initial_slurry_mass_fraction": 0.005,
+    "cake_solid_mass_fractions": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "final_water_kg_per_polymer_kg": 0.01,
+    "latent_water_kWh_kg": 0.63,
+    "heat_recovery": [
+      0,
+      0.7
+    ],
+    "heat_conversion_efficiency": 0.6,
+    "electric_JPY_kWh": 25,
+    "gas_m3_per_polymer_kg_lower_boundary": 4.5,
+    "nitrogen_to_polymer_kg_ratio": 1.0869565217391304,
+    "reference_base_JPY_per_feed_kg": 336.3287226001512,
+    "price_comparator_JPY_good_kg": 500,
+    "note": "Slurry 0.5% and cake ~50% from EP0597658A1 example. 70/90% cakes, water endpoint, yields and recovery are hypothetical. Water drying added as a sensitivity, not a complete plant quotation. Gas 4.5 m3/kg is a claimed tunnel boundary, not a measured demand or standard m3."
+  }
+}

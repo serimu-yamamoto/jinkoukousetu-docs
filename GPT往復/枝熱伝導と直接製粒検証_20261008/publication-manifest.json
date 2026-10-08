@@ -1,0 +1,87 @@
+{
+  "cycle": 28,
+  "date": "2026-10-08",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "487d10dc7c4b4ffafd74ac756c1b980bec65d156",
+  "physical_tests": 0,
+  "physical_success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第28巡_枝熱伝導の反証と噴出時の直接製粒_20261008.md",
+      "bytes": 17009,
+      "sha256": "4b859c99a8fa6a7707848500c08250c301b0282572e59dc36dff74d22735be2d"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 17688,
+      "sha256": "170bdc41ef965ee942bc95a5994ef39dad8491a7b75cb2114d33d34ffb1cc70a"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/README.md",
+      "bytes": 3392,
+      "sha256": "b0d3dbb77f7a1e099af34085172c74675a468e0dde543030e429ba3649308bed"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/calculate.py",
+      "bytes": 10353,
+      "sha256": "cd6e95563cd348afdcdad73627f295af115d01502b3474478bed3817f4d66af2"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/figure1_coupled_heat.png",
+      "bytes": 116918,
+      "sha256": "da13d27906a98d9f3275e3f2158025bc684741f5eae38a0b98e917a6675a3ba9"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/figure2_recovery_water.png",
+      "bytes": 167103,
+      "sha256": "16f871e509e69f02c82c87973f3584054b83029fe4cee831ba3da301dde8c765"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/inputs.json",
+      "bytes": 2411,
+      "sha256": "f5add1e1e956cdffcc97c411c42bf1c0578f7432716ef984d0464707da6f0aca"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/plot.py",
+      "bytes": 4423,
+      "sha256": "de3ff20fed06bec86f0a1abd7bb88bc1d8088601613481ccd11f00d78927199d"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/refine.py",
+      "bytes": 2309,
+      "sha256": "16b02a5105d10a6f459ee505bd1a767b796e104ac4e09f26956c82b3de7e8cd4"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/refinement.json",
+      "bytes": 3093,
+      "sha256": "3748983b1f4e8c96e00bacd8739f9fd43b7b9133611da25008e7f5c5df3e8c88"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/results.json",
+      "bytes": 104421,
+      "sha256": "97b8d199e1f0a932449062d3f55b4162212029f57596078068863761f2e0327c"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/sources.md",
+      "bytes": 4045,
+      "sha256": "4c61e2cdc6b08bc675275e68c9d25ffd88577ee07033400034a3f6aa96f201de"
+    },
+    {
+      "path": "GPT往復/枝熱伝導と直接製粒検証_20261008/validation.json",
+      "bytes": 4774,
+      "sha256": "310542b982f2e0f4f4c501815c330d36db41c626dad2a683f5eff3cd1ed4cf15"
+    },
+    {
+      "path": "README.md",
+      "bytes": 24385,
+      "sha256": "e558329a6adecdd53077698f1f46fd4c9a6e42dac7afcc52ccf29ec8fd77c12f"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 76679,
+      "sha256": "a0680353aa6fb44cc38899eb2c647ec145852cb6b243aafbad86e11aee67e2c3"
+    }
+  ],
+  "self_excluded": true
+}

@@ -1,0 +1,87 @@
+{
+  "steady_fin_comparison": [
+    {
+      "cells": 16,
+      "max_temperature_error_C": 0.521540099568206,
+      "tip_cell_C": 144.13456821023007,
+      "analytic_tip_cell_C": 144.14072641883155
+    },
+    {
+      "cells": 32,
+      "max_temperature_error_C": 0.14139174413895716,
+      "tip_cell_C": 144.16585781736708,
+      "analytic_tip_cell_C": 144.1674190798864
+    },
+    {
+      "cells": 64,
+      "max_temperature_error_C": 0.03674326529489491,
+      "tip_cell_C": 144.17369420933105,
+      "analytic_tip_cell_C": 144.17408588581404
+    },
+    {
+      "cells": 128,
+      "max_temperature_error_C": 0.009361072917087654,
+      "tip_cell_C": 144.17565418574955,
+      "analytic_tip_cell_C": 144.1757521899966
+    }
+  ],
+  "bead_volume_diagnostic": [
+    {
+      "radius_um": 0.5,
+      "melted_length_um": 10,
+      "equivalent_single_sphere_radius_um": 1.2331060371652351,
+      "equivalent_sphere_diameter_um": 2.4662120743304703,
+      "note": "Conserved volume if collected into one sphere only. Retraction, contact angle, detached droplets and grain shape not predicted."
+    },
+    {
+      "radius_um": 0.5,
+      "melted_length_um": 40,
+      "equivalent_single_sphere_radius_um": 1.9574338205844317,
+      "equivalent_sphere_diameter_um": 3.9148676411688634,
+      "note": "Conserved volume if collected into one sphere only. Retraction, contact angle, detached droplets and grain shape not predicted."
+    },
+    {
+      "radius_um": 0.5,
+      "melted_length_um": 90,
+      "equivalent_single_sphere_radius_um": 2.564963920015045,
+      "equivalent_sphere_diameter_um": 5.12992784003009,
+      "note": "Conserved volume if collected into one sphere only. Retraction, contact angle, detached droplets and grain shape not predicted."
+    },
+    {
+      "radius_um": 1,
+      "melted_length_um": 10,
+      "equivalent_single_sphere_radius_um": 1.9574338205844317,
+      "equivalent_sphere_diameter_um": 3.9148676411688634,
+      "note": "Conserved volume if collected into one sphere only. Retraction, contact angle, detached droplets and grain shape not predicted."
+    },
+    {
+      "radius_um": 1,
+      "melted_length_um": 40,
+      "equivalent_single_sphere_radius_um": 3.1072325059538586,
+      "equivalent_sphere_diameter_um": 6.214465011907717,
+      "note": "Conserved volume if collected into one sphere only. Retraction, contact angle, detached droplets and grain shape not predicted."
+    },
+    {
+      "radius_um": 1,
+      "melted_length_um": 90,
+      "equivalent_single_sphere_radius_um": 4.07162642489236,
+      "equivalent_sphere_diameter_um": 8.14325284978472,
+      "note": "Conserved volume if collected into one sphere only. Retraction, contact angle, detached droplets and grain shape not predicted."
+    }
+  ],
+  "tests": [
+    {
+      "name": "steady spatial errors decrease with refinement",
+      "passed": true
+    },
+    {
+      "name": "steady 128-cell maximum error below 0.02C",
+      "passed": true
+    },
+    {
+      "name": "finite volume approaches second-order spatial convergence",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}
