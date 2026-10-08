@@ -1,0 +1,105 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "1366ad7ffa160fac8c7b9481e6133c67dc0115f7",
+  "cycle": 50,
+  "date": "2026-10-09",
+  "note": "Self excluded from list; fixed-commit readback also verifies manifest before deleting local clone.",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第50巡_雨で貼り付かず戻る粒の条件と排水構造_20261009.md",
+      "bytes": 36070,
+      "sha256": "ac81a96efe080d149d88a0d5744cf69bf9b6ac26562493afbbf831cb8288ee8d"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 33737,
+      "sha256": "a1a97312bffc4cbfead23853cf1e93e38b6303a028301867e4fb9d860bde9851"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/01_reopening_path.png",
+      "bytes": 171106,
+      "sha256": "54cd2c76620e3ff177fc9e20b9119d1df3d651e3a808e288a277517cc05c6bc8"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/01_reopening_path.svg",
+      "bytes": 118043,
+      "sha256": "fa1f08049991c8ad95c6f89f275a463414cc3a984506749c7a219783e04cc0b4"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/02_drainage_pressure.png",
+      "bytes": 166435,
+      "sha256": "c2af1184f066fd4471a89f602368f8e68e9442e236dc11b990ba825fed428631"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/02_drainage_pressure.svg",
+      "bytes": 95903,
+      "sha256": "25b21d084848f9af923e9f15c6700baf21ec882c7d9241778a008ee3e3634fe8"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/03_component_concept.png",
+      "bytes": 148413,
+      "sha256": "a2aa8379b422a15997dbccbff2d56f26279431cd6a9e04179d5e3ebcec0b2ec2"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/03_component_concept.svg",
+      "bytes": 188366,
+      "sha256": "50985e0f2d88a7236774fa4f21203dbac0835ea81ff5ab0006f02c6e1a61ca32"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/calculate.py",
+      "bytes": 12767,
+      "sha256": "517842b8b4273a698774afabaaa69e22014e8af6781d829a7395885d75cccf1a"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/component_cases.csv",
+      "bytes": 101092,
+      "sha256": "fac33f86162d1daea7753d881f5767be65f5d743bd240ad9f6715b2ef0778e3a"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/document-checks.json",
+      "bytes": 1691,
+      "sha256": "84363092f5c8cc86fca5379b4414969a6b9f79716ed878ebd04e055db92bb1d0"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/draw.py",
+      "bytes": 6131,
+      "sha256": "80d2ed168736028dc7c8b17b60afd45baf632ed268dbea235f8bb1f853d1253a"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/exploration.json",
+      "bytes": 1968,
+      "sha256": "ea2c1d94d24292e241657faf8965e980327b07c89e54a35a43484ae2a7ea9a7e"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/inputs.json",
+      "bytes": 4038,
+      "sha256": "f0c1929e54009afec8ad9f8c3b38daab26947209dee8af5caa0ece6cd53a23cd"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/results.json",
+      "bytes": 334444,
+      "sha256": "ea4873c31d27dce7692d683055e022b6c4e0dd5db377d4fc4e0dee06958f4909"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/sources.json",
+      "bytes": 4705,
+      "sha256": "3d3ce2d1d37b162a9e013a924bc29fef026f09dfe2e3cf675ee2f49093776fd8"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/validation.json",
+      "bytes": 2610,
+      "sha256": "019cc7641dba64cc4325af67892d0e29fe636d01c2e2e5fc3d203011f85e9954"
+    },
+    {
+      "path": "README.md",
+      "bytes": 40960,
+      "sha256": "d55127642f4256f839a066b8a5fe9aa8a01024263832f74253ff837ad9a7655d"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 113863,
+      "sha256": "f77af805cd8dd7f1d201cd3692f3df8f12e13c71e4114c568407e8c5c8995798"
+    }
+  ]
+}

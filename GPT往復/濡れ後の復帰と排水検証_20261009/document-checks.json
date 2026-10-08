@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-09",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "Exact input appendix",
+      "passed": true
+    },
+    {
+      "name": "Exact calculation appendix",
+      "passed": true
+    },
+    {
+      "name": "25 numerical checks pass within stated scope",
+      "passed": true
+    },
+    {
+      "name": "All case counts match report",
+      "passed": true
+    },
+    {
+      "name": "Physical tests0 and probability null",
+      "passed": true
+    },
+    {
+      "name": "Reported taper material change rounds correctly",
+      "passed": true
+    },
+    {
+      "name": "Latest report linked in README.md",
+      "passed": true
+    },
+    {
+      "name": "Latest report linked in GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "Latest report linked in 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "Relative report links resolve except verification files now being generated",
+      "passed": true
+    },
+    {
+      "name": "Five primary source records with access limits",
+      "passed": true
+    },
+    {
+      "name": "Third-party PDFs not republished",
+      "passed": true
+    },
+    {
+      "name": "Protected file hash AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "Protected file hash .claude/settings.local.json",
+      "passed": true
+    }
+  ],
+  "visual_review": {
+    "completed": true,
+    "generated_figures": 3,
+    "changes": "Adjusted logarithmic x-axis labels to avoid overlap; reviewed all three PNGs",
+    "source_views": "Bico original single page and sand chapter results page rendered and read"
+  },
+  "scope": "Document consistency and reproducibility only; not physical experiments"
+}

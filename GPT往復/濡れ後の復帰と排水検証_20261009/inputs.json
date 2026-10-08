@@ -1,0 +1,149 @@
+{
+  "cycle": 50,
+  "date": "2026-10-09",
+  "physical_tests_our_material": 0,
+  "success_probability": null,
+  "water": {
+    "critical_temperature_K": 647.096,
+    "B_N_m": 0.2358,
+    "b": -0.625,
+    "exponent": 1.256,
+    "temperatures_C": [
+      0,
+      20,
+      50
+    ],
+    "calculation_temperature_C": 50,
+    "density_for_head_kg_m3": 1000,
+    "g_m_s2": 9.81,
+    "note": "IAPWS pure-water surface tension; air, solutes, dirt and dynamic effects not calibrated. Density1000 is a reference approximation."
+  },
+  "beams": [
+    {
+      "id": "A_long_soft",
+      "radius_m": 0.000005,
+      "length_m": 0.0003,
+      "E_hypothesis_Pa": 10000000
+    },
+    {
+      "id": "B_short",
+      "radius_m": 0.000015,
+      "length_m": 0.00015,
+      "E_hypothesis_Pa": 100000000
+    },
+    {
+      "id": "B_softened",
+      "radius_m": 0.000015,
+      "length_m": 0.00015,
+      "E_hypothesis_Pa": 10000000
+    },
+    {
+      "id": "C_long_equal_volume",
+      "radius_m": 0.000005,
+      "length_m": 0.0006,
+      "E_hypothesis_Pa": 100000000
+    },
+    {
+      "id": "D_short_equal_volume",
+      "radius_m": 0.00001,
+      "length_m": 0.00015,
+      "E_hypothesis_Pa": 100000000
+    }
+  ],
+  "bridge": {
+    "tip_radii_m": [
+      0.000005,
+      0.000015,
+      0.00003
+    ],
+    "unloaded_gaps_m": [
+      0.000005,
+      0.00002,
+      0.00006
+    ],
+    "volume_over_R_cubed": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "contact_angles_deg": [
+      0,
+      20,
+      40
+    ],
+    "reference": {
+      "tip_radius_m": 0.000015,
+      "gap_m": 0.00002,
+      "volume_over_R_cubed": 0.01,
+      "contact_angle_deg": 0
+    },
+    "note": "Two identical spherical wet tips on two independently clamped linear cantilevers. Constant-volume pendular bridge formed at prior contact. Not freely moving particle bed; no contact line pinning or viscosity. Finite positive volumes only; V=0 means no bridge and is not passed to this fit. Angular and volume ranges are screening choices, not validated errors."
+  },
+  "beam_screen": {
+    "minimum_length_over_diameter": 5,
+    "maximum_tip_deflection_over_length": 0.1,
+    "maximum_geometric_surface_strain": 0.02,
+    "note": "Applicability screens only, not yield/fatigue/safety criteria. E is the assumed wet50C tangent modulus, not a measured material property."
+  },
+  "drainage": {
+    "pore_radii_m": [
+      0.000025,
+      0.0001,
+      0.0005
+    ],
+    "advancing_angles_deg": [
+      100,
+      110,
+      120
+    ],
+    "allowable_head_hypothesis_m": 0.005,
+    "note": "Ideal cylindrical-pore entry head, not a hydraulic conductivity or a calibrated real packing contact angle."
+  },
+  "pressure": {
+    "forces_N": [
+      0.001,
+      0.003,
+      0.008
+    ],
+    "pad_radii_m": [
+      0.000005,
+      0.000015,
+      0.00003
+    ],
+    "note": "F/(pi R^2) is minimum mean pressure if the entire projected circular area carries load; real curved contact can be smaller."
+  },
+  "economics": {
+    "base_arm_radius_m": 0.00003,
+    "base_arm_length_m": 0.00015,
+    "arms_per_grain": 6,
+    "base_volume_m3": 900,
+    "base_bulk_density_kg_m3": 120,
+    "price_hypothesis_JPY_kg": 500,
+    "annual_replacement_fraction": 0.02,
+    "note": "Fixed grain count and fixed bed volume; adding six reset fingers without removing old material. Omits pads, hub overlaps, coatings and manufacturing. Not a quote or packing prediction."
+  },
+  "taper": {
+    "length_m": 0.00018,
+    "control_radius_m": 0.000015,
+    "E_hypothesis_Pa": 100000000,
+    "alpha": [
+      0,
+      0.5,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "note": "Compare equal Euler-Bernoulli tip stiffness, finite tapered radius r(s)=r0(1-alpha*s/L)^(1/3). Separate180um component family, not the150um B reference."
+  },
+  "root_support": {
+    "stiffness_N_m": [
+      0,
+      0.1,
+      0.5,
+      1,
+      10,
+      1000
+    ],
+    "note": "Directional linear root-support stiffness per finger, in series with branch bending. A free particle cannot inherit fixed-root stiffness for free."
+  }
+}

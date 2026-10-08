@@ -1,0 +1,45 @@
+{
+  "candidate": "H50",
+  "status": "Conditional local component concept; no complete particle CAD, physical snow equivalence or probability",
+  "new_evidence": [
+    "Primary wet-sand drag, capillary bundling and rainfall experiments inspected with scope limits",
+    "Two force-path counterexamples invalidate energy-only and initial-force-only reset criteria",
+    "Fixed-root candidate loses reopening margin with soft particle support",
+    "Equal-stiffness tapered finger reduces only its reference stem volume17.75percent"
+  ],
+  "routes": [
+    {
+      "route": "Long flexible branches",
+      "decision": "lower priority",
+      "reason": "Capillary binding and downscaling penalize restoration"
+    },
+    {
+      "route": "Global hydrophobic surface",
+      "decision": "not a stand-alone solution",
+      "reason": "Entry barriers and winter water/snow access must close"
+    },
+    {
+      "route": "Short root bearing plus reset finger",
+      "decision": "retain B as comparator",
+      "reason": "Separate winterload and wet reset; actual wet50C modulus required"
+    },
+    {
+      "route": "Finite taper plus open drainage and local crystal surfaces",
+      "decision": "advance H50 conditionally",
+      "reason": "Reduces reference finger mass while preserving model stiffness; root support is still unknown"
+    },
+    {
+      "route": "Spray crystallization and other chemistries",
+      "decision": "remain open",
+      "reason": "This geometry study neither realizes nor rules out the user preferred ambient-spray route"
+    }
+  ],
+  "next_evidence": [
+    "Free-particle3D configuration that supplies directional root reaction during reset",
+    "Wet50C constitutive and cyclic data for an actual candidate",
+    "Loaded return path with contact-line pinning, dirt and fluid redistribution",
+    "Same-sample ski-force and rain-recovery comparison against groomed snow"
+  ],
+  "physical_tests_our_material": 0,
+  "success_probability": null
+}

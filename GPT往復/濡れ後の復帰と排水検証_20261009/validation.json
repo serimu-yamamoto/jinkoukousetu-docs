@@ -1,0 +1,109 @@
+{
+  "count": 25,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "IAPWS50C rounds to published67.94mN/m",
+      "passed": true
+    },
+    {
+      "name": "Surface tension decreases over chosen temperatures",
+      "passed": true
+    },
+    {
+      "name": "Reference unloaded gap exceeds rupture length",
+      "passed": true
+    },
+    {
+      "name": "Analytic bridge work matches midpoint quadrature",
+      "passed": true
+    },
+    {
+      "name": "Analytic path threshold matches dense grid",
+      "passed": true
+    },
+    {
+      "name": "Energy can pass while initial opening force fails",
+      "passed": true
+    },
+    {
+      "name": "Initial force can pass but full opening path fail",
+      "passed": true
+    },
+    {
+      "name": "Narrow-gap critical threshold matches dense path",
+      "passed": true
+    },
+    {
+      "name": "Reference short beam satisfies hypothetical path",
+      "passed": true
+    },
+    {
+      "name": "10x softening can reverse path decision",
+      "passed": true
+    },
+    {
+      "name": "Reference comparisons satisfy geometric beam screens",
+      "passed": true
+    },
+    {
+      "name": "C and D cylinder volumes equal",
+      "passed": true
+    },
+    {
+      "name": "Equal-volume stiffness ratio1024",
+      "passed": true
+    },
+    {
+      "name": "Narrower hydrophobic pore requires greater head",
+      "passed": true
+    },
+    {
+      "name": "Drainage threshold obeys specified5mm target",
+      "passed": true
+    },
+    {
+      "name": "Smaller support projection raises stress lower bound",
+      "passed": true
+    },
+    {
+      "name": "Base material mass108t",
+      "passed": true
+    },
+    {
+      "name": "B reset fingers add25percent cylinder material",
+      "passed": true
+    },
+    {
+      "name": "Tapers preserve target compliance",
+      "passed": true
+    },
+    {
+      "name": "Uniform taper limit restores control radius and volume",
+      "passed": true
+    },
+    {
+      "name": "Taper family meets geometric beam screening",
+      "passed": true
+    },
+    {
+      "name": "Taper compliance integration converges",
+      "passed": true
+    },
+    {
+      "name": "Free root gives no relative restoring stiffness",
+      "passed": true
+    },
+    {
+      "name": "Root stiffness threshold closes series compliance",
+      "passed": true
+    },
+    {
+      "name": "Budget is not physical test count",
+      "passed": true
+    }
+  ],
+  "max_relative_work_quadrature_error": 6.693066766440316e-08,
+  "max_relative_threshold_grid_difference": 0.0,
+  "scope": "Algebra, limiting behavior and stated model only"
+}

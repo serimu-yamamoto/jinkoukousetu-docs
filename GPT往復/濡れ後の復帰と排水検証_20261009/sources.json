@@ -1,0 +1,84 @@
+{
+  "retrieved_on": "2026-10-09",
+  "scope": "Primary sources and official water-property formulation; not material tests for our project",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Sliding Friction on Wet and Dry Sand",
+      "authors": "Fall et al.",
+      "year": 2014,
+      "url": "https://doi.org/10.1103/PhysRevLett.112.175502",
+      "fulltext_adapted_chapter": "https://pure.uva.nl/ws/files/17279860/Chapter_3.pdf",
+      "access": "Publisher abstract and university-hosted adapted chapter; full chapter extracted, methods/results inspected; APS harvest returned401",
+      "used": "Nonmonotonic relation of water addition and sled drag, ploughing contribution",
+      "limits": "PVC sled, roughened and unroughened comparison,10–800mm/s; not ski base at2–10m/s, not50C artificial grains or snow-feel proof",
+      "observed_pdf_bytes": 4799745,
+      "observed_pdf_sha256": "57b4ac239f827c7370f04dc6f0c978397228976d282a713e916ef8096975738d"
+    },
+    {
+      "id": "S2",
+      "title": "Elastocapillary coalescence in wet hair",
+      "authors": "Bico, Roman, Moulin, Boudaoud",
+      "year": 2004,
+      "url": "https://doi.org/10.1038/432690a",
+      "fulltext": "https://blog.espci.fr/jbico/files/2018/04/bico04.pdf",
+      "access": "Author-hosted original single-page PDF read and rendered; experiment and figure inspected",
+      "used": "Capillary forces can close flexible lamellae; stiffness and wetting history must be considered",
+      "limits": "Polyester lamellae in silicone oil, not our water-wet particles; oil is not proposed for this project",
+      "observed_pdf_bytes": 124431,
+      "observed_pdf_sha256": "643d528e9ed542516cada15d6a6ded53c88a58286abf25fc31bf43bac2a659a9"
+    },
+    {
+      "id": "S3",
+      "title": "Micro–macro transition and simplified contact models for wet granular materials",
+      "authors": "Roy, Singh, Luding, Weinhart",
+      "year_online": 2015,
+      "year_volume": 2016,
+      "url": "https://doi.org/10.1007/s40571-015-0061-8",
+      "fulltext": "https://link.springer.com/article/10.1007/s40571-015-0061-8",
+      "author_preprint": "https://arxiv.org/pdf/1505.07298",
+      "access": "Publisher full HTML equations12–15 and scope; author preprint PDF extracted",
+      "used": "Irreversible pendular force law and rupture-distance approximation; source of capillary part only",
+      "limits": "Quasistatic spherical-particle model; pinning, dynamic viscous effects and free-particle root motion not calibrated; saturation outside scope",
+      "observed_pdf_bytes": 3165735,
+      "observed_pdf_sha256": "fbf5b7c522b2aa024539c7fda10067b09227f6b2e2e563cbd3ca5725dc1fcd32"
+    },
+    {
+      "id": "S4",
+      "title": "Morphology of Rain Water Channeling in Systematically Varied Model Sandy Soils",
+      "authors": "Wei, Cejas, Barrois, Dreyfus, Durian",
+      "year": 2014,
+      "url": "https://doi.org/10.1103/PhysRevApplied.2.044004",
+      "fulltext": "https://remidreyfus.wordpress.com/wp-content/uploads/2008/11/morphology.pdf",
+      "access": "Publisher abstract and author-hosted full PDF, methods and wetting sections inspected",
+      "used": "Ponding and preferential rain channels in water-repellent grain beds; bed effective contact angle differs from single-grain angle",
+      "limits": "Quasi2D glass-bead experiment, not a30deg ski slope; chemical surface treatments not proposed",
+      "observed_pdf_bytes": 4142369,
+      "observed_pdf_sha256": "8ba5c910a9a906004ec01bd96fd12daee741bd63dc106ad9f8e9238f5e9c58f4"
+    },
+    {
+      "id": "S5",
+      "title": "Revised Release on Surface Tension of Ordinary Water Substance",
+      "organization": "IAPWS",
+      "year": 2014,
+      "url": "https://iapws.org/technical-guidance/release/Surf-H2O",
+      "fulltext": "https://iapws.org/public/documents/CH-L9/Surf-H2O-2014.pdf",
+      "access": "Official PDF read; equation parameters and50C table checked",
+      "used": "Pure-water equilibrium surface tension equation;50C67.94mN/m",
+      "limits": "Not measured contaminated rain water surface tension or dynamic contact angle",
+      "observed_pdf_bytes": 63322,
+      "observed_pdf_sha256": "77d07ae4c6d473806b73f982d4c031b927db02a5718bd3c25cd7a03c3321587d"
+    }
+  ],
+  "original_work": [
+    "Closed-form force-path critical stiffness plus numerical verification",
+    "Energy-only and initial-force-only counterexamples",
+    "Root support series-compliance constraint",
+    "Equal-stiffness finite taper comparison",
+    "Cylindrical-pore entry and support-area stress lower bounds",
+    "Incremental material budget"
+  ],
+  "third_party_pdfs_redistributed": false,
+  "physical_tests_our_material": 0,
+  "success_probability": null
+}
