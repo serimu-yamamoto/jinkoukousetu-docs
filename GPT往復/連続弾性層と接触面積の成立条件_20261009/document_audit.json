@@ -1,0 +1,149 @@
+{
+  "cycle": 79,
+  "document_checks": 33,
+  "links_checked": 526,
+  "checks": [
+    {
+      "name": "physical_evidence_scope",
+      "passed": true
+    },
+    {
+      "name": "30_numerical_checks",
+      "passed": true
+    },
+    {
+      "name": "rows_area_shear_tradeoff.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_coating_throughput.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_contact_results.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_coupling_diagnostic.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_frequency_requirements.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_grid_convergence.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_material_cost.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_mode_response.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_pressure_profiles.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_scale_separation.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_skin_stiffening.csv",
+      "passed": true
+    },
+    {
+      "name": "479_comparison_rows",
+      "passed": true
+    },
+    {
+      "name": "1280_profile_samples_not_experiments",
+      "passed": true
+    },
+    {
+      "name": "pressure_unit_mapping",
+      "passed": true
+    },
+    {
+      "name": "load_gap_and_shear_budget",
+      "passed": true
+    },
+    {
+      "name": "area_mass_cost_units",
+      "passed": true
+    },
+    {
+      "name": "throughput_units",
+      "passed": true
+    },
+    {
+      "name": "frequency_units",
+      "passed": true
+    },
+    {
+      "name": "eight_specs_not_run",
+      "passed": true
+    },
+    {
+      "name": "decision_unproven",
+      "passed": true
+    },
+    {
+      "name": "correct_snow_paper_author",
+      "passed": true
+    },
+    {
+      "name": "report_scope_and_values",
+      "passed": true
+    },
+    {
+      "name": "PNG_layer_tradeoffs.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_concept.png",
+      "passed": true
+    },
+    {
+      "name": "history_README.md",
+      "passed": true
+    },
+    {
+      "name": "history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_unchanged",
+      "passed": true
+    },
+    {
+      "name": "relative_links",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "ca0af3256348ba58015a2e84423a457aa000abfeae5f137f4a96b503192a6b97",
+    "回覧板.md": "ec4a1566a765331e9b51b6112182a77f7f3e8ca0c82ccfdea8a199e4311ed8a7",
+    "GPT往復/README.md": "e1a2e7c3b265f339e44db44d4857f8e2530fda50630cd05512a33f1a7470af2d",
+    "調査台帳/一般.md": "60594b2eaa49fe7d4f1460b388136d9fc73bebba7d683ecdc3fffeb0e05ecd91",
+    "調査台帳/計算部品索引.md": "ab8d24cc1d305d556b935593bab61f46f71295397ebf8157a9209dc4949c118b"
+  },
+  "physical_trials": 0,
+  "success_probability": null,
+  "visual_review": "Both original generated PNGs inspected. No third-party source figures/PDFs republished."
+}

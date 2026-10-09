@@ -1,0 +1,175 @@
+{
+  "cycle": 79,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "basis_commit": "9547993e3fe089afde054334b1161ed050c8faac",
+  "physical_trials": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第79巡_可動部を省く弾性層と滑り抵抗の交換条件_20261009.md",
+      "bytes": 14448,
+      "sha256": "1086cca77e205788235b1da5cf11368609dff8310c666f089a3e5cbe4048d925"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/area_shear_tradeoff.csv",
+      "bytes": 2601,
+      "sha256": "e22249e03975e6e7662dfdbb495896f5c52fe820c977840ccb56995534a8fbf2"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/audit.py",
+      "bytes": 4921,
+      "sha256": "197cb6d0ddad9b5eb62d007b916ce424ab2691d7fd5420782d0f4fa9d69a1b62"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/checks.json",
+      "bytes": 2629,
+      "sha256": "105472e2359a2d89a3396bd5772fc3af632df4584e58165e4efe2e1c1199195b"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/claude_handoff.md",
+      "bytes": 1923,
+      "sha256": "e45deb845bd5360c9c74fc6558a55487080f0da1a8fba02b3030fa34c93179d8"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/coating_throughput.csv",
+      "bytes": 5948,
+      "sha256": "5cbcc93b68920cb4047846062525133ae17a2fccbdb71140df2f0c0807cc2380"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/concept.png",
+      "bytes": 110242,
+      "sha256": "300c085b2031320943535a2aab201d8a80a6a672f6804e4587811f1989d1efb4"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/contact_results.csv",
+      "bytes": 9616,
+      "sha256": "d6a488c4ceeebf318cba7519515cb0a872b533c6e0c9c960996340b318bcfcc1"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/coupling_diagnostic.csv",
+      "bytes": 4294,
+      "sha256": "39a1d7f7b20d8014de28f6e302d2583589c45a3c93caf1d0e2e703c08a7f5d4f"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/decision.json",
+      "bytes": 1793,
+      "sha256": "1d8b0b569910ce5a3f6965056164c1a4e8cd55ee96f6b66c6ade78d27b9a4e85"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/document_audit.json",
+      "bytes": 3253,
+      "sha256": "062b8f3368739c3b9aad30c62978f21ba2909e09237e0cf0587c451aeca40eaf"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/frequency_requirements.csv",
+      "bytes": 401,
+      "sha256": "9f17e64655dfdbb7951584c669efa2a9cabc29e0b0becddc95ed83a9920e3ab4"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/grid_convergence.csv",
+      "bytes": 2882,
+      "sha256": "438f1953c93fc7b6a8c6319452b4f4178419e7c42da0660f53329d8c42469da1"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/index_changes.json",
+      "bytes": 4500,
+      "sha256": "c89a96c9f7c5a64f7d5b9929565a1be728a6fc811c5440a77ae8db3d414578bf"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/inputs.json",
+      "bytes": 772,
+      "sha256": "dbfec07b0507808e1901b44d915f2466a2b6bf86f2b3b2a377a2fd2b83dc4b9d"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/layer_tradeoffs.png",
+      "bytes": 277005,
+      "sha256": "4800c3d2a330557c9b5e38311086280979ad4394a1a330718edefd86ae595a0d"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/material_cost.csv",
+      "bytes": 2050,
+      "sha256": "f3da2e41109d58bdfc3290219f15cf0a8d3a90419fe4970e980ac7420912cca5"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/model.md",
+      "bytes": 5191,
+      "sha256": "713fa3aace221c1c7c835323ee56da3a761a949d22ae926a5d1a2ad8f3212aaf"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/mode_response.csv",
+      "bytes": 9161,
+      "sha256": "7df18e9b36dd3de9a021e3a4e9410549e8f7aa46a1980600e05783d972c8b310"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/pressure_profiles.csv",
+      "bytes": 92775,
+      "sha256": "912f9ffc5045225506bea65a2f00eca61ae19bc81f12843597a7b47abfc30dd9"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/README.md",
+      "bytes": 2118,
+      "sha256": "2b99f9c6440c27a5834bd738d3381e202cd57973d55821266cbebccf0dc44fe6"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/reproduce.py",
+      "bytes": 16481,
+      "sha256": "764a510b3e37132ccd44aefc8f1a6a8846f151ec0f535bcfaf008642cd864f20"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/scale_separation.csv",
+      "bytes": 2693,
+      "sha256": "c704ab1816c3b516f1099d810710639c2670afd34116bd95ef7c000fbde127df"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/skin_stiffening.csv",
+      "bytes": 6839,
+      "sha256": "e66421af910d75918abbd4a3f8f1d7812fb3e55c86839762ea5fbeac02f55ab4"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/sources.json",
+      "bytes": 3620,
+      "sha256": "20ebde94a6cc8b0a3a0a23b9b50238b2c8bb5875fd4bc8f9152f7820b84ea79a"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/summary.json",
+      "bytes": 12945,
+      "sha256": "9e99b71e6ab2b0f607714cd18320b5e245798af75b1f1ee0f59eb9cb47338281"
+    },
+    {
+      "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/test_plan.json",
+      "bytes": 3223,
+      "sha256": "cb9335f32ba0816f1cbebe94ff0307b85b6adf8ea223ad3ce15491dc2abab881"
+    },
+    {
+      "path": "README.md",
+      "bytes": 61646,
+      "sha256": "5cd6e597156d77b3346d7396c33d4f7aca0a2779f612ad75aec48b605e6e388b"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 154359,
+      "sha256": "76670b630c13f7617aa55adce13936d9c96c4ebfd63106a0f7111e011275e770"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 53740,
+      "sha256": "a0c194734851986d0950bdbaae242dcb4cd24ca174e4ef7418df4aec980e7876"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 16445,
+      "sha256": "8297d4e57aaa9c28b8c00a3d45abc6ab2221293e9767cdd6c58f0a6fcb6f4008"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 221352,
+      "sha256": "9bb348b4072db790bb0c1c57c0c15968b1d85193c3a0ac949b61abbe675a3ab8"
+    }
+  ]
+}

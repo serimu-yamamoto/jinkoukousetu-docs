@@ -1,0 +1,33 @@
+{
+  "cycle": 79,
+  "basis_commit": "9547993e3fe089afde054334b1161ed050c8faac",
+  "physical_trials": 0,
+  "success_probability": null,
+  "period_um": 190,
+  "ripple_wavelength_um": 47.5,
+  "short_amplitude_um": 0.25,
+  "long_amplitude_um": 0.25,
+  "mean_pressure_Pa": 870247.2724625465,
+  "E_MPa": [
+    10,
+    30,
+    100
+  ],
+  "nu": 0.49,
+  "thickness_um": [
+    2,
+    5,
+    10,
+    25,
+    50
+  ],
+  "grid": 256,
+  "coating_density_kg_m3": 950,
+  "grains_at_2000m2": 3117691453600,
+  "pads_per_grain": 6,
+  "pad_side_um": 190,
+  "raw_price_JPY_kg": 500,
+  "mass_yield": 0.8,
+  "material_properties": "Hypothetical at 50 C; not measured; no completed composition selected",
+  "geometry_scope": "1-D plane strain periodic patch, not finite particle or full ski bed"
+}

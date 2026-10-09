@@ -1,0 +1,152 @@
+[
+  {
+    "name": "kernel_positive_nu_0.3",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "thick_limit_nu_0.3",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "thin_compressible_limit_0.3",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "kernel_positive_nu_0.49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "thick_limit_nu_0.49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "thin_compressible_limit_0.49",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "kernel_positive_nu_0.5",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "thick_limit_nu_0.5",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "thin_incompressible_limit",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "modulus_inverse_scaling",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "zero_mode_constrained_compression",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "full_contact_sinusoid_vs_exact_pressure",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "flat_full_contact_uniform",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "uniform_displacement_matches_constrained_modulus",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "all_contacts_KKT",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "all_contacts_load",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "contact_fractions_range",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "peak_above_mean",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "area_pressure_lower_bound",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "grid_peak_256_512_d2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "grid_contact_fraction_d2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "grid_peak_256_512_d10",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "grid_contact_fraction_d10",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "grid_peak_256_512_d25",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "grid_contact_fraction_d25",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "scale_split_load_and_KKT",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "skin_reduces_normal_compliance",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "coupling_finite",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "cost_scaling_10x",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "name": "tau_budget_identity",
+    "passed": true,
+    "detail": null
+  }
+]

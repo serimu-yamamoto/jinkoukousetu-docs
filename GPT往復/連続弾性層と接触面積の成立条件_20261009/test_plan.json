@@ -1,0 +1,63 @@
+{
+  "cycle": 79,
+  "physical_trials": 0,
+  "success_probability": null,
+  "tests": [
+    {
+      "id": "T1",
+      "name": "界面摩擦",
+      "status": "not_run",
+      "conditions": "完成面と実スキーソール、裸骨格、現行候補、新雪圧雪の対照。人工材は表面30/50℃、乾燥・濡れ・排水後、始動から0.1/2/5/10m/s。",
+      "measurements_and_decision": "荷重・実面積・摩擦・温度・摩耗からτ0、圧力依存b、他抵抗を分離。模型の94kPaだけを合格としない。"
+    },
+    {
+      "id": "T2",
+      "name": "温度と速度",
+      "status": "not_run",
+      "conditions": "10/25µm層と完成複合面。50℃、乾湿、5時間保持、除荷回復、低速から凹凸通過帯域。",
+      "measurements_and_decision": "E′、損失、クリープ、回復時間、層厚。低周波測定から100kHzへ無根拠に外挿しない。"
+    },
+    {
+      "id": "T3",
+      "name": "有限粒子・横力",
+      "status": "not_run",
+      "conditions": "測定した3D粒形状で法線＋接線。H78-R、H79-L、裸骨格。製造公差と摩耗後を含む。",
+      "measurements_and_decision": "圧力、接触率、内部ひずみ、剥離、枝損傷。周期模型と差を定量化。"
+    },
+    {
+      "id": "T4",
+      "name": "雪感",
+      "status": "not_run",
+      "conditions": "同一板・エッジ・荷重で新雪圧雪と人工床を比較。平滑面とエッジの両方。",
+      "measurements_and_decision": "貫入、横支持、ピーク後解放、散逸、振動、跳ね返り、停止。対照分布を取得してから受入帯を固定。"
+    },
+    {
+      "id": "T5",
+      "name": "雨・復旧",
+      "status": "not_run",
+      "conditions": "規定雨量、土砂混入、保持構造を含め、排水・低損傷解離・捕集・配材・圧密を60分枠で試す。",
+      "measurements_and_decision": "排水量、再凝集、摩擦・エッジ回復、流出量、層剥離。平坦さだけでは成功としない。"
+    },
+    {
+      "id": "T6",
+      "name": "冬",
+      "status": "not_run",
+      "conditions": "同じ下地条件の自然地面対照と人工床。雪被覆、融雪、再凍結を含む。",
+      "measurements_and_decision": "境界せん断、水頭、排水、凍結閉塞、雪底温度・融雪量。油潤滑や底面水層に依存しない。"
+    },
+    {
+      "id": "T7",
+      "name": "完成品曝露",
+      "status": "not_run",
+      "conditions": "配合・接着・安定剤を固定した完成品、摩耗粉・溶出液、乾湿・UV劣化後。",
+      "measurements_and_decision": "放出量と組成、粒径・曝露経路を専門試験へつなぐ。原料の用途実績を完成品の無害認定にしない。"
+    },
+    {
+      "id": "T8",
+      "name": "量産・寿命費",
+      "status": "not_run",
+      "conditions": "同材層/低せん断相付き層、連続工程と小規模成形対照。10/25µm、膜厚・切断位置を記録。",
+      "measurements_and_decision": "面積歩留まり、速度、欠陥率、剥離・摩耗寿命、再生・交換・捕集費。販売見積もり未取得。"
+    }
+  ]
+}

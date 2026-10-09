@@ -1,0 +1,66 @@
+{
+  "cycle": 79,
+  "checked_date": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Essink et al., Regimes of soft lubrication (2021)",
+      "url": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/regimes-of-soft-lubrication/2198767B3740A49ED7CB55CC3F165053",
+      "doi": "10.1017/jfm.2021.96",
+      "access": "Publisher indexed text of equations 2.4, 2.5 and Table 1 retrieved; subsequent direct opens timed out. No PDF figures inspected or republished.",
+      "used": "Normal Fourier kernel of a layer bonded to a rigid base. Lubricated-flow results NOT used to claim dry ski lubrication."
+    },
+    {
+      "id": "S2",
+      "title": "Menga, Carbone, Dini, Exploring the effect of geometric coupling on friction and energy dissipation in rough contacts of elastic and viscoelastic coatings",
+      "url": "https://arxiv.org/html/2006.16133",
+      "version": "arXiv:2006.16133v2 (2020-12-17)",
+      "access": "HTML equations 1-22 and discussion read.",
+      "used": "Independent algebraic normal-kernel comparison; normal-tangential kernel ratio. Their full frictional/viscoelastic model is NOT rerun."
+    },
+    {
+      "id": "S3",
+      "title": "Theile, Szabo, Luthi, Rhyner, Schneebeli, Mechanics of the Ski–Snow Contact (2009)",
+      "url": "https://link.springer.com/article/10.1007/s11249-009-9476-9",
+      "access": "Publisher HTML abstract, methods/discussion and conclusions read.",
+      "used": "Hard sintered snow at -6 C: deformation mechanisms and limited scope. Not a fresh-groomed-snow acceptance band; no 50 C polymer properties inferred."
+    },
+    {
+      "id": "S4",
+      "title": "Arkema Pebax processing guidelines",
+      "url": "https://hpp.arkema.com/en/product-families/pebax-elastomer-family/pebax-processing-guidelines/",
+      "access": "Manufacturer HTML read.",
+      "used": "Film extrusion/coextrusion and stated 10 um film capability; not evidence of 1 um top skin or 190 um six-pad particles."
+    },
+    {
+      "id": "S5",
+      "title": "Arkema PEBAX 4033 SP 01 product page",
+      "url": "https://hpp.arkema.com/en/products/product/f/spa_hpp_PebaxPellets/p/pebax-4033-sp-01/",
+      "access": "Manufacturer HTML read; page indicates newer version. No exact-grade procurement authorized or performed.",
+      "used": "Example PEBA family: conditioned flexural modulus 77 MPa and melt 160 C as listed; neither used as 50 C dynamic Young modulus, fatigue guarantee, price, or safety evidence."
+    },
+    {
+      "id": "S6",
+      "title": "Covestro Desmopan chemical properties",
+      "url": "https://solutions.covestro.com/en/highlights/articles/theme/product-technology/chemical-properties-tpu",
+      "access": "Manufacturer HTML hydrolysis/weathering discussion read.",
+      "used": "Polyether TPU as comparative substrate family, with environment/grade dependence. Not completed-material safety or service-life proof."
+    }
+  ],
+  "claude": {
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "changed_since_cycle78": false,
+    "full_v3_code_results_or_running_state_confirmed": false
+  },
+  "prior_inputs": [
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/inputs.json",
+      "sha256": "f7e8638e02b17f249dac3414496802e7053eb4ff6d02615449c6ebb1048dc702"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/summary.json",
+      "sha256": "87ddbbe1844f5e1c882a0e9c2c234e6c89891f3f4fdfa41f5360833f009eaaaa"
+    }
+  ]
+}

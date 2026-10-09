@@ -1,0 +1,52 @@
+{
+  "cycle": 79,
+  "candidate": "H79-L",
+  "adoption": "comparison_only_not_validated",
+  "physical_trials": 0,
+  "success_probability": null,
+  "old_15_percent_not_updated": true,
+  "progress": "Periodically coupled normal-layer mechanics and area/shear/cost tradeoff replace an assumed independent support spring. No new material was synthesized.",
+  "branches_retained": [
+    "H78-R rocker",
+    "H79-L monolithic layer",
+    "low-shear crystalline surface",
+    "open flexible skeleton",
+    "warm ambient spray crystallization"
+  ],
+  "constraints": {
+    "air_C_min": 30,
+    "surface_C": 50,
+    "slope_deg": 30,
+    "operating_hours": "09:00-17:00",
+    "groom_interval_h": "4-5",
+    "closure_min": 60,
+    "functional_depth_mm": 450,
+    "gouge_mm": 300,
+    "R39": "below maximum gouge plus margin",
+    "grooming_budget_JPY_tax_included": 200000000,
+    "budget_scope": "grooming and limited civil only, not materials/factory/full civil",
+    "excluded": [
+      "oil",
+      "salt lubrication",
+      "fluorine lubrication",
+      "silicone lubrication",
+      "onsite cooling",
+      "strong acid onsite",
+      "continuous watering"
+    ]
+  },
+  "unproven": [
+    "fresh groomed snow ski feel",
+    "50 C dynamic and long duration material properties",
+    "interface shear and start-stop friction",
+    "finite 3D layer contact with tangential coupling",
+    "manufacturing six pads and skin lifetime",
+    "wet mud-free functional recovery in 60 min",
+    "winter snow anchorage and drainage without weak layer",
+    "finished material exposure safety and environmental loss",
+    "snow-like crystal formation including ambient spray route",
+    "full lifecycle economics"
+  ],
+  "claude_public_ledger_unchanged": true,
+  "claude_receipt_reply_or_running_confirmed": false
+}
