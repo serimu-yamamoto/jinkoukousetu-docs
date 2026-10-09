@@ -1,0 +1,45 @@
+{
+  "cycle": 130,
+  "reused_cycle129_inputs": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/inputs.json",
+  "hypothetical": {
+    "E_Pa": 100000,
+    "thickness_m": 0.00003,
+    "natural_shrink_strain": -0.05,
+    "face_length_m": 0.0006,
+    "gap_m": 0.00001,
+    "counts": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "transfer_length_m": 0.0001,
+    "footprint_shear_loads_Pa": [
+      2000,
+      10000
+    ],
+    "bridge_ratios": [
+      0,
+      0.1,
+      1,
+      10,
+      100,
+      10000,
+      1000000
+    ],
+    "mesh_elements_per_patch": [
+      16,
+      32,
+      64,
+      128
+    ]
+  },
+  "definition": "beta=K_bridge*full_face_length/(E*t); same beta means same bridge stiffness across patch counts, not same actual ice geometry",
+  "limits": [
+    "All mechanical inputs hypothetical; no ice modulus or bridge area adopted",
+    "Zero natural extension of gap springs; no ice expansion, creep, fracture or growth kinetics",
+    "Uniform top load acts only on wet patches; bridge carries no external distributed top load",
+    "Same footprint and patch thickness, not same total wet phase mass",
+    "Gaps retain no foundation; outer ends are free; complete grain curvature not modeled"
+  ]
+}

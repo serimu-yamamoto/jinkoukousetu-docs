@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [linked_shrinkage_patches.py](linked_shrinkage_patches.py)：分割した収縮接点を有限ばねで連結し、端点縮約と全体有限要素で再拘束・荷重分流を比較。実氷や破壊を予測しない。[第130巡](../GPT往復/氷橋で連結された冬季接点の再評価_20261010/README.md)。
+
 - [shrinkage_patches.py](shrinkage_patches.py)：収縮する局所接合帯と外部せん断荷重の伝達を解析式・一次元有限要素で比較。凍結耐久や成功率は予測しない。[第129巡](../GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/README.md)。
 
 - [formation_conditioning.py](formation_conditioning.py)：形成・後処理の物量時間、代表径による条件付き面積/個数合わせ、残留在庫を区別。安全・摩擦・採算は予測しない。[第128巡](../GPT往復/温暖粒形成と結晶安定化の工程分離_20261010/README.md)。

@@ -1,0 +1,27 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "routes": [
+    "dry skeleton load path",
+    "load bypass with local connections",
+    "independent local connections",
+    "ice-bridged local connections",
+    "continuous connection control"
+  ],
+  "priority_checks": [
+    "effective bridge stiffness geometry time temperature and fracture",
+    "actual material water-temperature-strain and interface stiffness",
+    "load bypass independently from natural shrinkage",
+    "winter thaw load path and drainage",
+    "summer50C real sole and edge behavior after freeze thaw",
+    "retained phase wear safety maintenance cost and warm formation"
+  ],
+  "limits": [
+    "No measured beta or universal shrink threshold",
+    "No success from analytic/FE agreement",
+    "No bridge fracture assumed beneficial"
+  ]
+}

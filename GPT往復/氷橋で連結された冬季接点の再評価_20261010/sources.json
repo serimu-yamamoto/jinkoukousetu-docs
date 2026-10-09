@@ -1,0 +1,33 @@
+[
+  {
+    "id": "reused_primary",
+    "title": "Dehydration drives damage in the freezing of brittle hydrogels",
+    "authors": "Yang et al.",
+    "year": 2024,
+    "doi": "10.1126/sciadv.ado7750",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11343028/",
+    "scope": "Primary text already inspected in cycle129; not fetched again. No newly measured ice properties or fracture data adopted."
+  },
+  {
+    "id": "reused_source_audit",
+    "repository_path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/sources.json"
+  },
+  {
+    "id": "reused_code",
+    "repository_path": "計算部品/shrinkage_patches.py",
+    "sha256": "cf659bf2b0ad6ed8cd041bd76fea3bb10b80acf274a81f81e70f96e885e6f6f5",
+    "scope": "Current definitions inspected; geometry and tridiagonal solver reused unchanged."
+  },
+  {
+    "id": "reused_inputs",
+    "repository_path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/inputs.json"
+  },
+  {
+    "id": "reused_model",
+    "repository_path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/model.md"
+  },
+  {
+    "id": "own_extension",
+    "scope": "Finite gap-spring coupling with exact patch condensation versus whole-patch finite elements. Uniform bridge stiffness across each specimen; no constitutive parameters of real ice adopted."
+  }
+]

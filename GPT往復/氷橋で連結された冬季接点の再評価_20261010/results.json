@@ -1,0 +1,5267 @@
+{
+  "cycle": 130,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "計算部品/shrinkage_patches.py": "cf659bf2b0ad6ed8cd041bd76fea3bb10b80acf274a81f81e70f96e885e6f6f5",
+    "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/inputs.json": "fa31e639bb7bf2968763be1b83a605d4d51723c9541b04d9b548a45304d08033",
+    "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/model.md": "48b2186f29da1f424526c798ccd530156dfc5bc5ba3500bf981625c2c0bac490",
+    "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/sources.json": "81b87ec65579d1c86708dd9485e3121562e389123fb5ecececac461b46a3d064"
+  },
+  "baselines": {
+    "2000": {
+      "lambda_m": 0.0001,
+      "alpha": 2.9999999999999996,
+      "peak_tensile_Pa": 4503.360362902834,
+      "peak_abs_interface_shear_Pa": 3492.582130530096,
+      "shrink_shear_Pa": 1492.5821305300958,
+      "stored_J_per_m_width": 5.503708934734952e-06
+    },
+    "10000": {
+      "lambda_m": 0.0001,
+      "alpha": 2.9999999999999996,
+      "peak_tensile_Pa": 4503.360362902834,
+      "peak_abs_interface_shear_Pa": 11492.582130530096,
+      "shrink_shear_Pa": 1492.5821305300958,
+      "stored_J_per_m_width": 0.00010150370893473494
+    }
+  },
+  "cases": [
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 0.9691078531331074,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 3384.688770409076,
+        "peak_tensile_Pa": 2825.9992875681405,
+        "total_stored_J_per_m_width": 4.929506144845162e-06,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          9.005269768828867e-06
+        ],
+        "shrink_reaction_N_per_m_width": -4.576656115866699e-17,
+        "endpoint_w_m": [
+          4.502634884414433e-06,
+          -4.5026348844144335e-06,
+          4.502634884414433e-06,
+          -4.5026348844144335e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0008776439375007322,
+            "peak_shear": 0.0003889474027153339,
+            "peak_stress": 0.0016522242333078794,
+            "energy": 0.00026705837614748873
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.00021995686228790988,
+            "peak_shear": 9.747876859944604e-05,
+            "peak_stress": 0.0004117767537866712,
+            "energy": 6.693069929042395e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 5.502339122085721e-05,
+            "peak_shear": 2.4384837847835072e-05,
+            "peak_stress": 0.00010286457413940298,
+            "energy": 1.674307413468412e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.375798469798546e-05,
+            "peak_shear": 6.097156471152054e-06,
+            "peak_stress": 2.5711172963474382e-05,
+            "energy": 4.186418770757427e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 0.9704172018798248,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 3389.261778444493,
+        "peak_tensile_Pa": 2857.857108505593,
+        "total_stored_J_per_m_width": 4.949122398282301e-06,
+        "bridge_stored_J_per_m_width": 1.898010734011496e-08,
+        "bridge_extensions_m": [
+          8.713233002764235e-06
+        ],
+        "shrink_reaction_N_per_m_width": -2.2551405187698492e-17,
+        "endpoint_w_m": [
+          4.5178782445324905e-06,
+          -4.356616501382117e-06,
+          4.3566165013821164e-06,
+          -4.5178782445324905e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.004356616501382117
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0008975765615595919,
+            "peak_shear": 0.0003972442762906203,
+            "peak_stress": 0.0010444389781800963,
+            "energy": 0.0002584650988084469
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.000224945784018712,
+            "peak_shear": 9.955521233928621e-05,
+            "peak_stress": 0.0001413635659827378,
+            "energy": 6.477635266510795e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 5.627098338223894e-05,
+            "peak_shear": 2.4904088437471827e-05,
+            "peak_stress": 2.49646049551302e-06,
+            "energy": 1.6204109947848266e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.4069905368552496e-05,
+            "peak_shear": 6.2269778559054245e-06,
+            "peak_stress": 2.0024695055326445e-06,
+            "energy": 4.0516541102153525e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 0.979243183566748,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 3420.0872443686267,
+        "peak_tensile_Pa": 3089.5601884876273,
+        "total_stored_J_per_m_width": 5.081350495675203e-06,
+        "bridge_stored_J_per_m_width": 1.137270607110342e-07,
+        "bridge_extensions_m": [
+          6.744688598031319e-06
+        ],
+        "shrink_reaction_N_per_m_width": -1.3877787807814457e-17,
+        "endpoint_w_m": [
+          4.620629797612937e-06,
+          -3.37234429901566e-06,
+          3.3723442990156597e-06,
+          -4.620629797612937e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.033723442990156595
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0010244564920916881,
+            "peak_shear": 0.00044931156088667823,
+            "peak_stress": 0.0003218247763717045,
+            "energy": 0.00021178784037667597
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.0002566929432743607,
+            "peak_shear": 0.00011258175227646383,
+            "peak_stress": 3.284102512488971e-05,
+            "energy": 5.307413921729065e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 6.420947889866895e-05,
+            "peak_shear": 2.8161333749943118e-05,
+            "peak_stress": 6.600756959178398e-05,
+            "energy": 1.3276496473313415e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.6054635964028122e-05,
+            "peak_shear": 7.041327374945894e-06,
+            "peak_stress": 1.0775182532324834e-05,
+            "energy": 3.319621932229566e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 1.0002048987710233,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 3493.2977563163395,
+        "peak_tensile_Pa": 3844.562412162366,
+        "total_stored_J_per_m_width": 5.3953923572915514e-06,
+        "bridge_stored_J_per_m_width": 1.0705975681184788e-07,
+        "bridge_extensions_m": [
+          2.069393696828594e-06
+        ],
+        "shrink_reaction_N_per_m_width": 2.7755575615628914e-17,
+        "endpoint_w_m": [
+          4.864664837438645e-06,
+          -1.034696848414297e-06,
+          1.0346968484142972e-06,
+          -4.864664837438645e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.10346968484142971
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0012735212545568987,
+            "peak_shear": 0.0005468419857369566,
+            "peak_stress": 3.826728005269615e-05,
+            "energy": 0.00017273136365547614
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.000318953080287305,
+            "peak_shear": 0.00013695643881650454,
+            "peak_stress": 3.204472963134322e-05,
+            "energy": 4.326799739806653e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.977414346289289e-05,
+            "peak_shear": 3.425451351179998e-05,
+            "peak_stress": 6.124348146568081e-06,
+            "energy": 1.0822332028537218e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.994577913901394e-05,
+            "peak_shear": 8.564591622017836e-06,
+            "peak_stress": 1.0984050793649658e-05,
+            "energy": 2.7059164624532173e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.0083133019185833,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 3521.617020256642,
+        "peak_tensile_Pa": 4361.485886980267,
+        "total_stored_J_per_m_width": 5.516869917423477e-06,
+        "bridge_stored_J_per_m_width": 1.7016915789617714e-08,
+        "bridge_extensions_m": [
+          2.6089780213422813e-07
+        ],
+        "shrink_reaction_N_per_m_width": -2.7755575615628914e-17,
+        "endpoint_w_m": [
+          4.9590623839063194e-06,
+          -1.3044890106711428e-07,
+          1.3044890106711383e-07,
+          -4.9590623839063194e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.13044890106711407
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.001350103379578639,
+            "peak_shear": 0.0005750639713849592,
+            "peak_stress": 0.0001188553745025274,
+            "energy": 0.0001819711859682993
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.00033807468361486535,
+            "peak_shear": 0.00014399976559176242,
+            "peak_stress": 7.445210644436884e-06,
+            "energy": 4.556798584642863e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 8.455305135245723e-05,
+            "peak_shear": 3.601458542756841e-05,
+            "peak_stress": 1.2559077614605485e-05,
+            "energy": 1.1396706372845955e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.114041284016028e-05,
+            "peak_shear": 9.004562127490345e-06,
+            "peak_stress": 3.138025980661041e-07,
+            "energy": 2.849471128829606e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.0094709961366937,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 3525.6603623954315,
+        "peak_tensile_Pa": 4476.698893049662,
+        "total_stored_J_per_m_width": 5.5342141301415135e-06,
+        "bridge_stored_J_per_m_width": 1.8036735794210408e-10,
+        "bridge_extensions_m": [
+          2.6860183018148186e-09
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          4.9725401910356195e-06,
+          -1.343009150907586e-09,
+          1.3430091509072325e-09,
+          -4.9725401910356195e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.13430091509074096
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0013601372412670708,
+            "peak_shear": 0.0005786733979427083,
+            "peak_stress": 0.00013524223992753833,
+            "energy": 0.00018430896272114694
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.0003405789344593728,
+            "peak_shear": 0.00014490006103096142,
+            "peak_stress": 2.787212796665699e-05,
+            "energy": 4.6151054326593055e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 8.517885104240509e-05,
+            "peak_shear": 3.623953059284091e-05,
+            "peak_stress": 4.132096565990651e-06,
+            "energy": 1.1542387560625755e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.1296846332452705e-05,
+            "peak_shear": 9.060790377435346e-06,
+            "peak_stress": 2.5588322005205554e-07,
+            "energy": 2.885886059011966e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.0094829184539036,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 2033.898305084746,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 3525.7020020674736,
+        "peak_tensile_Pa": 4478.0194802627375,
+        "total_stored_J_per_m_width": 5.5343927465693625e-06,
+        "bridge_stored_J_per_m_width": 1.8047392617657874e-12,
+        "bridge_extensions_m": [
+          2.686811688053919e-11
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          4.9726789899424255e-06,
+          -1.3434058440293164e-11,
+          1.3434058440246023e-11,
+          -4.9726789899424255e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.13434058440269595
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0013602394025691532,
+            "peak_shear": 0.0005787100278632495,
+            "peak_stress": 0.00015753859829164868,
+            "energy": 0.00018433432913633752
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.00034060443041552884,
+            "peak_shear": 0.0001449091968985794,
+            "peak_stress": 3.929939766585449e-05,
+            "energy": 4.615738173607831e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 8.518522226363689e-05,
+            "peak_shear": 3.624181321060238e-05,
+            "peak_stress": 9.792465568170882e-06,
+            "energy": 1.1543968526650517e-05
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.1298438965474154e-05,
+            "peak_shear": 9.061360947693053e-06,
+            "peak_stress": 2.4325726169990957e-06,
+            "energy": 2.8862812424534923e-06
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 0.865728057757725,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 3023.626344423157,
+        "peak_tensile_Pa": 1046.648317033358,
+        "total_stored_J_per_m_width": 4.511299942732631e-06,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          6.122421243522802e-06,
+          6.122421243522802e-06,
+          6.122421243522802e-06
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          3.061210621761401e-06,
+          -3.061210621761401e-06,
+          3.061210621761401e-06,
+          -3.061210621761401e-06,
+          3.061210621761401e-06,
+          -3.061210621761401e-06,
+          3.061210621761401e-06,
+          -3.061210621761401e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 5.4971738998844194e-05,
+            "peak_shear": 2.727109738620559e-05,
+            "peak_stress": 0.0009324145204116121,
+            "energy": 3.655603020980003e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.377327652437419e-05,
+            "peak_shear": 6.832826689451288e-06,
+            "peak_stress": 0.00023289255967365535,
+            "energy": 9.159184735763048e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 3.4452153411256325e-06,
+            "peak_shear": 1.7091473691888126e-06,
+            "peak_stress": 5.820996329189257e-05,
+            "energy": 2.291057160430654e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 8.614223555830472e-07,
+            "peak_shear": 4.2734563421298333e-07,
+            "peak_stress": 1.4551667518026079e-05,
+            "energy": 5.7284310717165e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 0.8700774948601072,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 3038.8171107248018,
+        "peak_tensile_Pa": 1125.3854116025614,
+        "total_stored_J_per_m_width": 4.538698809024359e-06,
+        "bridge_stored_J_per_m_width": 2.6703233977359226e-08,
+        "bridge_extensions_m": [
+          5.950753894660091e-06,
+          5.9991659486809025e-06,
+          5.95075389466009e-06
+        ],
+        "shrink_reaction_N_per_m_width": -3.0791341698588326e-17,
+        "endpoint_w_m": [
+          3.1118465094335496e-06,
+          -2.9498530306565145e-06,
+          3.0009008640035763e-06,
+          -2.9995829743404512e-06,
+          2.9995829743404512e-06,
+          -3.0009008640035763e-06,
+          2.9498530306565136e-06,
+          -3.1118465094335505e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.002975376947330045,
+          0.0029995829743404514,
+          0.0029753769473300448
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.44934781165325e-05,
+            "peak_shear": 3.1834827055599035e-05,
+            "peak_stress": 0.0009105429775305311,
+            "energy": 3.529065402108067e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.6154400254518705e-05,
+            "peak_shear": 7.974023937262764e-06,
+            "peak_stress": 0.000226274364562596,
+            "energy": 8.842118861762671e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.040539385161205e-06,
+            "peak_shear": 1.99446325777064e-06,
+            "peak_stress": 5.598090950452388e-05,
+            "energy": 2.2117455800163555e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0102560505852404e-06,
+            "peak_shear": 4.986756427793892e-07,
+            "peak_stress": 1.370965957412409e-05,
+            "energy": 5.530123845520762e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 0.9005736591258695,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 3145.327469089114,
+        "peak_tensile_Pa": 1693.3474372313726,
+        "total_stored_J_per_m_width": 4.734467614518866e-06,
+        "bridge_stored_J_per_m_width": 1.7728438828260915e-07,
+        "bridge_extensions_m": [
+          4.767458252004377e-06,
+          5.045437438303482e-06,
+          4.767458252004377e-06
+        ],
+        "shrink_reaction_N_per_m_width": 1.734723475976807e-17,
+        "endpoint_w_m": [
+          3.46688103731459e-06,
+          -2.1690670782135513e-06,
+          2.598391173790825e-06,
+          -2.522718719151741e-06,
+          2.522718719151741e-06,
+          -2.598391173790825e-06,
+          2.1690670782135517e-06,
+          -3.4668810373145897e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.023837291260021886,
+          0.02522718719151741,
+          0.023837291260021886
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.00012668162071184037,
+            "peak_shear": 6.041419627544897e-05,
+            "peak_stress": 0.0005463143772924469,
+            "energy": 2.88155473608942e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 3.1704954679717706e-05,
+            "peak_shear": 1.5120025653070357e-05,
+            "peak_stress": 9.009126807764006e-05,
+            "energy": 7.218816926224392e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.928398220048417e-06,
+            "peak_shear": 3.7810362925050356e-06,
+            "peak_stress": 9.50546750382273e-06,
+            "energy": 1.8056372925734365e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.98223452626059e-06,
+            "peak_shear": 9.453234420808698e-07,
+            "peak_stress": 6.021982695165207e-06,
+            "energy": 4.514676334999024e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 0.9846695628926606,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 3439.039319835787,
+        "peak_tensile_Pa": 3375.9198907231203,
+        "total_stored_J_per_m_width": 5.296425143571292e-06,
+        "bridge_stored_J_per_m_width": 2.2028681403056575e-07,
+        "bridge_extensions_m": [
+          1.6273177614887145e-06,
+          1.8748723603246562e-06,
+          1.6273177614887145e-06
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          4.445920539803501e-06,
+          -1.597989823588858e-08,
+          1.611337863252826e-06,
+          -9.374361801623281e-07,
+          9.374361801623281e-07,
+          -1.6113378632528255e-06,
+          1.5979898235888934e-08,
+          -4.445920539803501e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.08136588807443573,
+          0.09374361801623282,
+          0.08136588807443573
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.00026284084984868434,
+            "peak_shear": 0.00011464285171103317,
+            "peak_stress": 0.00017142383534073815,
+            "energy": 3.084182432355753e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 6.57447750659402e-05,
+            "peak_shear": 2.8675788040666284e-05,
+            "peak_stress": 1.621038413095448e-05,
+            "energy": 7.717048745803368e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.643835469339257e-05,
+            "peak_shear": 7.169889527869344e-06,
+            "peak_stress": 4.0200922409894705e-06,
+            "energy": 1.929674298351003e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.1097237610848345e-06,
+            "peak_shear": 1.7925312931765802e-06,
+            "peak_stress": 1.0317941546418297e-06,
+            "energy": 4.824443380346821e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.023436555344906,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 3574.4362249288943,
+        "peak_tensile_Pa": 4259.041338543885,
+        "total_stored_J_per_m_width": 5.5619573367390385e-06,
+        "bridge_stored_J_per_m_width": 3.9520849062279e-08,
+        "bridge_extensions_m": [
+          2.15771474364787e-07,
+          2.5488965838183415e-07,
+          2.15771474364787e-07
+        ],
+        "shrink_reaction_N_per_m_width": -1.3877787807814457e-17,
+        "endpoint_w_m": [
+          4.897243556780524e-06,
+          9.765620772530675e-07,
+          1.1923335516178545e-06,
+          -1.2744482919091715e-07,
+          1.2744482919091702e-07,
+          -1.1923335516178547e-06,
+          -9.765620772530677e-07,
+          -4.897243556780524e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.10788573718239351,
+          0.1274448291909171,
+          0.10788573718239351
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0003093696478399997,
+            "peak_shear": 0.00012982592010568617,
+            "peak_stress": 5.552820755583525e-05,
+            "energy": 4.036081574576578e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 7.73728671300342e-05,
+            "peak_shear": 3.2469260434542235e-05,
+            "peak_stress": 4.9702433962011125e-06,
+            "energy": 1.0094467742138846e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.9345121194508895e-05,
+            "peak_shear": 8.118114282362754e-06,
+            "peak_stress": 1.8208584016974783e-06,
+            "energy": 2.5238835517082947e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.836399331997895e-06,
+            "peak_shear": 2.0295785242430142e-06,
+            "peak_stress": 6.348199451167602e-07,
+            "energy": 6.3098754932156e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.029336586903136,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 3595.042569718732,
+        "peak_tensile_Pa": 4421.664127293007,
+        "total_stored_J_per_m_width": 5.602601869510883e-06,
+        "bridge_stored_J_per_m_width": 4.2648991098357354e-10,
+        "bridge_extensions_m": [
+          2.2384369956250155e-09,
+          2.652997563620715e-09,
+          2.2384369956250155e-09
+        ],
+        "shrink_reaction_N_per_m_width": 1.5404344466674047e-15,
+        "endpoint_w_m": [
+          4.965931372746652e-06,
+          1.1276191649409152e-06,
+          1.1298576019365402e-06,
+          -1.326498781804048e-09,
+          1.3264987818166667e-09,
+          -1.129857601936511e-06,
+          -1.127619164940886e-06,
+          -4.965931372746638e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.11192184978125079,
+          0.13264987818103577,
+          0.11192184978125079
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.00031555654051298126,
+            "peak_shear": 0.000131663200529597,
+            "peak_stress": 3.364964627344307e-05,
+            "energy": 4.222757075855732e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 7.891876220431142e-05,
+            "peak_shear": 3.292816176425628e-05,
+            "peak_stress": 5.686729781155009e-06,
+            "energy": 1.0560860302488706e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.9731543249345077e-05,
+            "peak_shear": 8.232813455300025e-06,
+            "peak_stress": 1.7321701416221912e-07,
+            "energy": 2.640463193204212e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.933001617494972e-06,
+            "peak_shear": 2.0582516847555965e-06,
+            "peak_stress": 4.668664349082974e-07,
+            "energy": 6.601313067289283e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.0293978606995178,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 2105.2631578947367,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 3595.256573485045,
+        "peak_tensile_Pa": 4423.467548945715,
+        "total_stored_J_per_m_width": 5.603024258510601e-06,
+        "bridge_stored_J_per_m_width": 4.2682128503994354e-12,
+        "bridge_extensions_m": [
+          2.239275323158332e-11,
+          2.6540805292757933e-11,
+          2.239275323137156e-11
+        ],
+        "shrink_reaction_N_per_m_width": -1.4813705817573464e-12,
+        "endpoint_w_m": [
+          4.9666447186343606e-06,
+          1.129187943199415e-06,
+          1.1292103359526466e-06,
+          -1.3270408948957793e-11,
+          1.3270396343800142e-11,
+          -1.1292103359803674e-06,
+          -1.129187943227136e-06,
+          -4.966644718646966e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.11196376615791659,
+          0.13270402646378968,
+          0.1119637661568578
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0003156195494067381,
+            "peak_shear": 0.0001316816507925811,
+            "peak_stress": 4.444906091612211e-05,
+            "energy": 4.224751275039296e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 7.89345077119652e-05,
+            "peak_shear": 3.2932770413052204e-05,
+            "peak_stress": 1.1080430220499693e-05,
+            "energy": 1.056584346348366e-05
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.9735482997280246e-05,
+            "peak_shear": 8.233964983950237e-06,
+            "peak_stress": 2.7552121218832327e-06,
+            "energy": 2.641712305573307e-06
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.933984911107791e-06,
+            "peak_shear": 2.0585391885541426e-06,
+            "peak_stress": 6.814317142925575e-07,
+            "energy": 6.604430233814185e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 0.7855552441642879,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 2743.6162083123986,
+        "peak_tensile_Pa": 262.31061974667097,
+        "total_stored_J_per_m_width": 4.597940827127762e-06,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06
+        ],
+        "shrink_reaction_N_per_m_width": 3.248983011584076e-17,
+        "endpoint_w_m": [
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.5837380713949233e-06,
+            "peak_shear": 8.658671355465941e-07,
+            "peak_stress": 0.00026366212272394023,
+            "energy": 2.066670445666219e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 3.968470089304017e-07,
+            "peak_shear": 2.1696566376849802e-07,
+            "peak_stress": 6.590170221060134e-05,
+            "energy": 5.178583515341728e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 9.926878883723013e-08,
+            "peak_shear": 5.427259941459539e-08,
+            "peak_stress": 1.6474561497227567e-05,
+            "energy": 1.2953899219958487e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.4820794537058697e-08,
+            "peak_shear": 1.3570116697003698e-08,
+            "peak_stress": 4.118586358072207e-06,
+            "energy": 3.23893616371862e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 0.7917733456832566,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 2765.3334385633707,
+        "peak_tensile_Pa": 312.25721855395875,
+        "total_stored_J_per_m_width": 4.615517945888498e-06,
+        "bridge_stored_J_per_m_width": 1.7280997246720008e-08,
+        "bridge_extensions_m": [
+          3.092695482164915e-06,
+          3.161185700833436e-06,
+          3.1627024551281255e-06,
+          3.162735301352132e-06,
+          3.162702455128125e-06,
+          3.161185700833437e-06,
+          3.092695482164916e-06
+        ],
+        "shrink_reaction_N_per_m_width": 4.098284211995207e-17,
+        "endpoint_w_m": [
+          1.6706083172238157e-06,
+          -1.5093507815655427e-06,
+          1.5833447005993727e-06,
+          -1.57977352330666e-06,
+          1.5814121775267764e-06,
+          -1.5813330918032808e-06,
+          1.5813693633248447e-06,
+          -1.5813676506760657e-06,
+          1.5813676506760665e-06,
+          -1.5813693633248443e-06,
+          1.581333091803281e-06,
+          -1.5814121775267764e-06,
+          1.5797735233066603e-06,
+          -1.5833447005993723e-06,
+          1.5093507815655438e-06,
+          -1.6706083172238148e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0015463477410824576,
+          0.001580592850416718,
+          0.0015813512275640628,
+          0.0015813676506760662,
+          0.0015813512275640626,
+          0.0015805928504167184,
+          0.001546347741082458
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 3.8222843784100805e-06,
+            "peak_shear": 2.0733219682211868e-06,
+            "peak_stress": 0.0002609280941451289,
+            "energy": 2.024973340342129e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 9.565338758408024e-07,
+            "peak_shear": 5.188527330002302e-07,
+            "peak_stress": 6.521752647203129e-05,
+            "energy": 5.074079125755304e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 2.391936496452514e-07,
+            "peak_shear": 1.2974582719316174e-07,
+            "peak_stress": 1.630310830627195e-05,
+            "energy": 1.269247498214554e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 5.98022106552791e-08,
+            "peak_shear": 3.2438517094668384e-08,
+            "peak_stress": 4.075513769510053e-06,
+            "energy": 3.173574514292454e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 0.8348009655444355,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 2915.6109348097657,
+        "peak_tensile_Pa": 717.431087116971,
+        "total_stored_J_per_m_width": 4.751244746675175e-06,
+        "bridge_stored_J_per_m_width": 1.3204720644653562e-07,
+        "bridge_extensions_m": [
+          2.449333121431477e-06,
+          2.821806607500632e-06,
+          2.878259000940472e-06,
+          2.8855644657282536e-06,
+          2.878259000940472e-06,
+          2.8218066075006322e-06,
+          2.4493331214314766e-06
+        ],
+        "shrink_reaction_N_per_m_width": 1.5612511283791264e-17,
+        "endpoint_w_m": [
+          2.1715333047117986e-06,
+          -8.944162220698958e-07,
+          1.5549168993615813e-06,
+          -1.360703932685947e-06,
+          1.4611026748146848e-06,
+          -1.431667594960823e-06,
+          1.446591405979649e-06,
+          -1.4427822328641266e-06,
+          1.4427822328641268e-06,
+          -1.4465914059796486e-06,
+          1.4316675949608237e-06,
+          -1.4611026748146846e-06,
+          1.3607039326859476e-06,
+          -1.554916899361581e-06,
+          8.944162220698955e-07,
+          -2.171533304711799e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.012246665607157385,
+          0.014109033037503159,
+          0.01439129500470236,
+          0.014427822328641269,
+          0.01439129500470236,
+          0.01410903303750316,
+          0.012246665607157384
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.733471922226915e-05,
+            "peak_shear": 8.91822654480734e-06,
+            "peak_stress": 0.00023126817116983603,
+            "energy": 1.926414305630786e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 4.334916453150906e-06,
+            "peak_shear": 2.2301928540580107e-06,
+            "peak_stress": 5.599353169739061e-05,
+            "energy": 4.825805703934094e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.0838064186178664e-06,
+            "peak_shear": 5.575879856722921e-07,
+            "peak_stress": 1.3120576292112673e-05,
+            "energy": 1.2070619570536678e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.7095650188133026e-07,
+            "peak_shear": 1.3939951581942722e-07,
+            "peak_stress": 2.8701017622324797e-06,
+            "energy": 3.01803497748665e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 0.9707386365939349,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 3390.3844155831257,
+        "peak_tensile_Pa": 2550.02049342451,
+        "total_stored_J_per_m_width": 5.296786572647201e-06,
+        "bridge_stored_J_per_m_width": 2.8140648283241615e-07,
+        "bridge_extensions_m": [
+          9.210461414823087e-07,
+          1.2892519245874876e-06,
+          1.429528962705735e-06,
+          1.4656603164729523e-06,
+          1.429528962705735e-06,
+          1.2892519245874876e-06,
+          9.210461414823085e-07
+        ],
+        "shrink_reaction_N_per_m_width": -2.0816681711721685e-17,
+        "endpoint_w_m": [
+          3.754111573956331e-06,
+          1.0483538436549957e-06,
+          1.9693999851373045e-06,
+          -4.9522727868446915e-08,
+          1.2397291967190408e-06,
+          -5.083047934164743e-07,
+          9.212241692892607e-07,
+          -7.328301582364763e-07,
+          7.328301582364761e-07,
+          -9.212241692892609e-07,
+          5.083047934164741e-07,
+          -1.239729196719041e-06,
+          4.952272786844674e-08,
+          -1.969399985137305e-06,
+          -1.0483538436549963e-06,
+          -3.7541115739563313e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.046052307074115444,
+          0.06446259622937439,
+          0.07147644813528677,
+          0.07328301582364763,
+          0.07147644813528677,
+          0.06446259622937439,
+          0.04605230707411544
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 4.946212929218937e-05,
+            "peak_shear": 2.188341640485536e-05,
+            "peak_stress": 8.579694220461533e-05,
+            "energy": 4.164875759604669e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.236714684009672e-05,
+            "peak_shear": 5.47156840380314e-06,
+            "peak_stress": 1.3380335093825125e-05,
+            "energy": 1.0416563107629173e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 3.0918876507710976e-06,
+            "peak_shear": 1.3679367574237489e-06,
+            "peak_stress": 1.5902065959380707e-06,
+            "energy": 2.6044141643311036e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 7.729783147583722e-07,
+            "peak_shear": 3.419870228116295e-07,
+            "peak_stress": 1.8012352339610516e-06,
+            "energy": 6.511202021997065e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.057635105188046,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 3693.877469001088,
+        "peak_tensile_Pa": 4005.905928041019,
+        "total_stored_J_per_m_width": 5.697719393890092e-06,
+        "bridge_stored_J_per_m_width": 7.06087590997592e-08,
+        "bridge_extensions_m": [
+          1.3532428739050115e-07,
+          2.0147017459187964e-07,
+          2.31372917438952e-07,
+          2.399216424896967e-07,
+          2.3137291743895188e-07,
+          2.0147017459187964e-07,
+          1.3532428739050115e-07
+        ],
+        "shrink_reaction_N_per_m_width": -6.938893903907228e-17,
+        "endpoint_w_m": [
+          4.765755085349538e-06,
+          2.290245489278154e-06,
+          2.425569776668655e-06,
+          1.0233707431906386e-06,
+          1.2248409177825183e-06,
+          3.3433057153801104e-07,
+          5.65703488976963e-07,
+          -1.1996082124484844e-07,
+          1.199608212448483e-07,
+          -5.657034889769632e-07,
+          -3.3433057153801136e-07,
+          -1.2248409177825193e-06,
+          -1.0233707431906397e-06,
+          -2.4255697766686573e-06,
+          -2.290245489278156e-06,
+          -4.76575508534954e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.06766214369525059,
+          0.10073508729593983,
+          0.11568645871947601,
+          0.11996082124484837,
+          0.11568645871947596,
+          0.10073508729593983,
+          0.06766214369525059
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.468508270386858e-05,
+            "peak_shear": 2.6267147425151904e-05,
+            "peak_stress": 1.99979514088227e-05,
+            "energy": 7.84507094264697e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.6172715011646035e-05,
+            "peak_shear": 6.567373356025641e-06,
+            "peak_stress": 2.1394734816567507e-06,
+            "energy": 1.961477285261637e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.043269046666038e-06,
+            "peak_shear": 1.6418800085071794e-06,
+            "peak_stress": 3.4284804942217307e-07,
+            "energy": 4.903824140090052e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0108230601152532e-06,
+            "peak_shear": 4.104723441145097e-07,
+            "peak_stress": 2.4466328795824665e-08,
+            "energy": 1.2259644344148057e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.073320729177161,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 3748.660799051685,
+        "peak_tensile_Pa": 4293.802743377298,
+        "total_stored_J_per_m_width": 5.7724446336208595e-06,
+        "bridge_stored_J_per_m_width": 8.06892561000403e-10,
+        "bridge_extensions_m": [
+          1.4312584198045545e-09,
+          2.149043120343131e-09,
+          2.480393613687337e-09,
+          2.576280941136431e-09,
+          2.480393613687337e-09,
+          2.1490431203429194e-09,
+          1.431258419804978e-09
+        ],
+        "shrink_reaction_N_per_m_width": -1.85268467234323e-14,
+        "endpoint_w_m": [
+          4.948366185518196e-06,
+          2.5144185276493384e-06,
+          2.515849786069143e-06,
+          1.2267816048799159e-06,
+          1.228930648000259e-06,
+          4.987778931085211e-07,
+          5.012582867222084e-07,
+          -1.2881404706556896e-09,
+          1.2881404704807411e-09,
+          -5.012582867224231e-07,
+          -4.987778931087358e-07,
+          -1.228930648000529e-06,
+          -1.226781604880186e-06,
+          -2.5158497860694233e-06,
+          -2.5144185276496184e-06,
+          -4.9483661855184235e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.07156292099022774,
+          0.10745215601715657,
+          0.12401968068436688,
+          0.12881404705682156,
+          0.12401968068436688,
+          0.10745215601714599,
+          0.07156292099024891
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.695372637268647e-05,
+            "peak_shear": 2.6791058158170955e-05,
+            "peak_stress": 8.954796222496953e-06,
+            "energy": 8.691579792552417e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.6739806942717985e-05,
+            "peak_shear": 6.698314834130414e-06,
+            "peak_stress": 1.0814529219715042e-06,
+            "energy": 2.1730738686276396e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.185037754543444e-06,
+            "peak_shear": 1.6746131125122687e-06,
+            "peak_stress": 2.2011706241755746e-07,
+            "energy": 5.432796605919776e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0462648630772068e-06,
+            "peak_shear": 4.1865545552521866e-07,
+            "peak_stress": 2.121610687026987e-07,
+            "energy": 1.358205123924705e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.0734878943646102,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 2264.150943396226,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 3749.244637198217,
+        "peak_tensile_Pa": 4296.964998331456,
+        "total_stored_J_per_m_width": 5.773244009122572e-06,
+        "bridge_stored_J_per_m_width": 8.080078496288886e-12,
+        "bridge_extensions_m": [
+          1.4320898488357918e-11,
+          2.150479094398639e-11,
+          2.482178850671714e-11,
+          2.5781789989279636e-11,
+          2.482178850671714e-11,
+          2.150479094377463e-11,
+          1.4320898488781434e-11
+        ],
+        "shrink_reaction_N_per_m_width": -1.3357231987143336e-12,
+        "endpoint_w_m": [
+          4.9503123126733036e-06,
+          2.5168075896341482e-06,
+          2.5168219105326366e-06,
+          1.2289616638080052e-06,
+          1.2289831685989492e-06,
+          5.005464790475768e-07,
+          5.005713008360836e-07,
+          -1.2890902840320468e-11,
+          1.2890887148959166e-11,
+          -5.005713008553466e-07,
+          -5.005464790668399e-07,
+          -1.2289831686259342e-06,
+          -1.2289616638349904e-06,
+          -2.5168219105436883e-06,
+          -2.5168075896451995e-06,
+          -4.950312312682306e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0716044924417896,
+          0.10752395471993194,
+          0.1241089425335857,
+          0.12890894994639818,
+          0.1241089425335857,
+          0.10752395471887315,
+          0.07160449244390717
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.697705252706258e-05,
+            "peak_shear": 2.67962165800828e-05,
+            "peak_stress": 1.3774056242436927e-05,
+            "energy": 8.700891848567593e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.674563029812671e-05,
+            "peak_shear": 6.69960162047456e-06,
+            "peak_stress": 3.429954987950623e-06,
+            "energy": 2.175398022385977e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.1864967711667815e-06,
+            "peak_shear": 1.6749360909340538e-06,
+            "peak_stress": 8.508179527780157e-07,
+            "energy": 5.438625754194959e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0466316132661815e-06,
+            "peak_shear": 4.187346455131191e-07,
+            "peak_stress": 2.093856555802631e-07,
+            "energy": 1.3596956138783867e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 0.8235238323436623,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 2876.2246209091377,
+        "peak_tensile_Pa": 49.034366000786505,
+        "total_stored_J_per_m_width": 5.344369699393559e-06,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06
+        ],
+        "shrink_reaction_N_per_m_width": -9.230129563334279e-17,
+        "endpoint_w_m": [
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 2.342252101806077e-08,
+            "peak_shear": 1.2215242706226093e-08,
+            "peak_stress": 5.074552302433659e-05,
+            "energy": 5.2591817789604534e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 5.869351838859622e-09,
+            "peak_shear": 3.0609667023284715e-09,
+            "peak_stress": 1.26858926774446e-05,
+            "energy": 1.3178737434671461e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.4682338664632163e-09,
+            "peak_shear": 7.656664191557638e-10,
+            "peak_stress": 3.171442660432433e-06,
+            "energy": 3.296657613560683e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 3.6710098766975624e-10,
+            "peak_shear": 1.9144930085701617e-10,
+            "peak_stress": 7.928587758556205e-07,
+            "energy": 8.242722060458618e-10
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 0.8301443643451538,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 2899.3473726721495,
+        "peak_tensile_Pa": 71.98336785172523,
+        "total_stored_J_per_m_width": 5.3516012729349364e-06,
+        "bridge_stored_J_per_m_width": 7.147362200716353e-09,
+        "bridge_extensions_m": [
+          1.3178700377826484e-06,
+          1.386775776874913e-06,
+          1.3903785607183318e-06,
+          1.390566934743393e-06,
+          1.390576784008521e-06,
+          1.3905772989839036e-06,
+          1.390577325905908e-06,
+          1.3905773272401363e-06,
+          1.3905773259059084e-06,
+          1.390577298983905e-06,
+          1.3905767840085198e-06,
+          1.390566934743389e-06,
+          1.3903785607183337e-06,
+          1.3867757768749133e-06,
+          1.3178700377826472e-06
+        ],
+        "shrink_reaction_N_per_m_width": -7.762887554996212e-17,
+        "endpoint_w_m": [
+          7.756023533516093e-07,
+          -6.183821177195866e-07,
+          6.994879200630618e-07,
+          -6.912675521770794e-07,
+          6.955082246978336e-07,
+          -6.950784171230681e-07,
+          6.953001435952637e-07,
+          -6.952776708113367e-07,
+          6.952892639320563e-07,
+          -6.95288088927131e-07,
+          6.952886950813901e-07,
+          -6.952886336454745e-07,
+          6.952886653384293e-07,
+          -6.952886621266697e-07,
+          6.952886637792382e-07,
+          -6.952886636200682e-07,
+          6.952886636200681e-07,
+          -6.952886637792384e-07,
+          6.9528866212667e-07,
+          -6.95288665338429e-07,
+          6.95288633645476e-07,
+          -6.952886950813886e-07,
+          6.952880889271312e-07,
+          -6.952892639320562e-07,
+          6.952776708113328e-07,
+          -6.953001435952676e-07,
+          6.950784171230661e-07,
+          -6.955082246978356e-07,
+          6.912675521770775e-07,
+          -6.994879200630637e-07,
+          6.183821177195834e-07,
+          -7.756023533516125e-07
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0006589350188913242,
+          0.0006933878884374565,
+          0.0006951892803591659,
+          0.0006952834673716965,
+          0.0006952883920042605,
+          0.0006952886494919518,
+          0.000695288662952954,
+          0.0006952886636200681,
+          0.0006952886629529542,
+          0.0006952886494919526,
+          0.0006952883920042599,
+          0.0006952834673716945,
+          0.0006951892803591669,
+          0.0006933878884374566,
+          0.0006589350188913235
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 4.081469036322575e-07,
+            "peak_shear": 2.111579873176339e-07,
+            "peak_stress": 5.051107028877766e-05,
+            "energy": 5.231695010543547e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.0205222903563093e-07,
+            "peak_shear": 5.279751758013873e-08,
+            "peak_stress": 1.262728216252924e-05,
+            "energy": 1.3109721308524058e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 2.5513998063696205e-08,
+            "peak_shear": 1.3199865422919288e-08,
+            "peak_stress": 3.156790186613989e-06,
+            "energy": 3.2793148196930133e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 6.378627942000723e-09,
+            "peak_shear": 3.2999913912590273e-09,
+            "peak_stress": 7.891956443899062e-07,
+            "energy": 8.200222723075967e-10
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 0.8714463527664497,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 3043.597959387728,
+        "peak_tensile_Pa": 269.30601539746425,
+        "total_stored_J_per_m_width": 5.410580120249117e-06,
+        "bridge_stored_J_per_m_width": 6.049620966025051e-08,
+        "bridge_extensions_m": [
+          9.53936236332535e-07,
+          1.226172227321608e-06,
+          1.3038633433776044e-06,
+          1.326034715903439e-06,
+          1.3323611254308474e-06,
+          1.3341634276831768e-06,
+          1.334666770144178e-06,
+          1.3347718639290245e-06,
+          1.3346667701441782e-06,
+          1.334163427683176e-06,
+          1.3323611254308455e-06,
+          1.3260347159034427e-06,
+          1.3038633433776037e-06,
+          1.2261722273216059e-06,
+          9.539362363325354e-07
+        ],
+        "shrink_reaction_N_per_m_width": -6.938893903907228e-18,
+        "endpoint_w_m": [
+          1.2564376424035385e-06,
+          -1.1840372741698048e-07,
+          8.355325089155546e-07,
+          -5.107584005153589e-07,
+          7.154138268062491e-07,
+          -6.227293038817364e-07,
+          6.81134039495868e-07,
+          -6.546838713240319e-07,
+          6.71350844579407e-07,
+          -6.638035176952123e-07,
+          6.685576077356351e-07,
+          -6.664074838488522e-07,
+          6.677559438343246e-07,
+          -6.67155462618014e-07,
+          6.67511307526164e-07,
+          -6.673859319645119e-07,
+          6.673859319645126e-07,
+          -6.675113075261633e-07,
+          6.671554626180149e-07,
+          -6.677559438343241e-07,
+          6.664074838488518e-07,
+          -6.685576077356354e-07,
+          6.638035176952102e-07,
+          -6.713508445794091e-07,
+          6.546838713240335e-07,
+          -6.811340394958663e-07,
+          6.227293038817375e-07,
+          -7.154138268062482e-07,
+          5.107584005153576e-07,
+          -8.355325089155559e-07,
+          1.1840372741697953e-07,
+          -1.2564376424035397e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.004769681181662675,
+          0.00613086113660804,
+          0.006519316716888022,
+          0.006630173579517194,
+          0.006661805627154237,
+          0.0066708171384158845,
+          0.00667333385072089,
+          0.006673859319645123,
+          0.006673333850720891,
+          0.00667081713841588,
+          0.006661805627154228,
+          0.006630173579517213,
+          0.006519316716888018,
+          0.006130861136608029,
+          0.0047696811816626775
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 2.3060486474532274e-06,
+            "peak_shear": 1.1365078494973702e-06,
+            "peak_stress": 4.838524986297443e-05,
+            "energy": 6.18999929091757e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 5.765366952938274e-07,
+            "peak_shear": 2.841390533969701e-07,
+            "peak_stress": 1.2068632196940143e-05,
+            "energy": 1.550306394371148e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.4413573734039836e-07,
+            "peak_shear": 7.103553401055507e-08,
+            "peak_stress": 3.003551043434527e-06,
+            "energy": 3.877520748929442e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 3.6034024893509564e-08,
+            "peak_shear": 1.775888114341484e-08,
+            "peak_stress": 7.441274663051445e-07,
+            "energy": 9.694831604178944e-10
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 1.0104522739563768,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 3529.0875557735426,
+        "peak_tensile_Pa": 1558.7401822193362,
+        "total_stored_J_per_m_width": 5.74001758628991e-06,
+        "bridge_stored_J_per_m_width": 2.262200625014861e-07,
+        "bridge_extensions_m": [
+          3.720960677409366e-07,
+          5.985692703430291e-07,
+          7.361755832695262e-07,
+          8.194002366947294e-07,
+          8.690999868859023e-07,
+          8.977299842536466e-07,
+          9.124651325368892e-07,
+          9.169981764171301e-07,
+          9.124651325368894e-07,
+          8.977299842536466e-07,
+          8.690999868859026e-07,
+          8.194002366947294e-07,
+          7.36175583269526e-07,
+          5.985692703430285e-07,
+          3.72096067740937e-07
+        ],
+        "shrink_reaction_N_per_m_width": 3.122502256758253e-17,
+        "endpoint_w_m": [
+          2.874736297022921e-06,
+          1.5643229251147332e-06,
+          1.93641899285567e-06,
+          7.65377789575808e-07,
+          1.363947059918837e-06,
+          2.7767892158982127e-07,
+          1.0138545048593474e-06,
+          -2.099487175627915e-08,
+          7.984053649384503e-07,
+          -2.0549360490967788e-07,
+          6.636063819762244e-07,
+          -3.2205411936659714e-07,
+          5.756758648870495e-07,
+          -3.9988740178016357e-07,
+          5.125777307567257e-07,
+          -4.584990882085649e-07,
+          4.5849908820856525e-07,
+          -5.125777307567252e-07,
+          3.998874017801641e-07,
+          -5.756758648870492e-07,
+          3.2205411936659736e-07,
+          -6.636063819762242e-07,
+          2.0549360490967844e-07,
+          -7.984053649384498e-07,
+          2.099487175627963e-08,
+          -1.0138545048593468e-06,
+          -2.7767892158982084e-07,
+          -1.3639470599188367e-06,
+          -7.653777895758081e-07,
+          -1.93641899285567e-06,
+          -1.5643229251147328e-06,
+          -2.8747362970229208e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.01860480338704683,
+          0.029928463517151456,
+          0.036808779163476316,
+          0.040970011834736475,
+          0.04345499934429512,
+          0.04488649921268233,
+          0.045623256626844466,
+          0.04584990882085651,
+          0.04562325662684447,
+          0.04488649921268233,
+          0.043454999344295135,
+          0.040970011834736475,
+          0.0368087791634763,
+          0.02992846351715143,
+          0.018604803387046853
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 7.0972311412039035e-06,
+            "peak_shear": 3.0166003374132444e-06,
+            "peak_stress": 8.452340722033114e-06,
+            "energy": 3.20161858802237e-07
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.7743539997573912e-06,
+            "peak_shear": 7.541697272239745e-07,
+            "peak_stress": 5.969944005528305e-06,
+            "energy": 8.00573283221695e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.4359152369873874e-07,
+            "peak_shear": 1.8854371697241135e-07,
+            "peak_stress": 9.923724240707088e-07,
+            "energy": 2.0015354262881146e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.1089792677034296e-07,
+            "peak_shear": 4.713594858873904e-08,
+            "peak_stress": 1.2935985519106908e-07,
+            "energy": 5.0038797549945e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.1485550811027132,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 4011.422952188881,
+        "peak_tensile_Pa": 3433.617081529324,
+        "total_stored_J_per_m_width": 6.170955936080249e-06,
+        "bridge_stored_J_per_m_width": 1.0173905410839123e-07,
+        "bridge_extensions_m": [
+          6.470007908520597e-08,
+          1.1177081729206527e-07,
+          1.457650242367704e-07,
+          1.6997071192356641e-07,
+          1.8672912019413033e-07,
+          1.9766116780250901e-07,
+          2.0382423207848619e-07,
+          2.0581442133414286e-07,
+          2.038242320784861e-07,
+          1.9766116780250896e-07,
+          1.8672912019413012e-07,
+          1.699707119235662e-07,
+          1.4576502423677018e-07,
+          1.1177081729206442e-07,
+          6.470007908520639e-08
+        ],
+        "shrink_reaction_N_per_m_width": -3.191891195797325e-16,
+        "endpoint_w_m": [
+          4.482520951740714e-06,
+          3.2361169924844813e-06,
+          3.3008170715696873e-06,
+          2.314662710266057e-06,
+          2.4264335275581222e-06,
+          1.6290325447738246e-06,
+          1.774797569010595e-06,
+          1.1129104846274622e-06,
+          1.2828811965510286e-06,
+          7.163758026814141e-07,
+          9.031049228755444e-07,
+          4.010745877396257e-07,
+          5.987357555421347e-07,
+          1.3651005011768013e-07,
+          3.403342821961663e-07,
+          -1.0290721066707268e-07,
+          1.0290721066707017e-07,
+          -3.4033428219616897e-07,
+          -1.3651005011768286e-07,
+          -5.987357555421378e-07,
+          -4.0107458773962885e-07,
+          -9.031049228755478e-07,
+          -7.163758026814177e-07,
+          -1.2828811965510328e-06,
+          -1.1129104846274666e-06,
+          -1.7747975690106003e-06,
+          -1.6290325447738301e-06,
+          -2.426433527558129e-06,
+          -2.3146627102660646e-06,
+          -3.3008170715696957e-06,
+          -3.2361169924844893e-06,
+          -4.482520951740721e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.03235003954260299,
+          0.05588540864603264,
+          0.0728825121183852,
+          0.08498535596178322,
+          0.09336456009706517,
+          0.09883058390125452,
+          0.1019121160392431,
+          0.10290721066707144,
+          0.10191211603924306,
+          0.09883058390125449,
+          0.09336456009706508,
+          0.08498535596178311,
+          0.0728825121183851,
+          0.05588540864603222,
+          0.0323500395426032
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.0702103817340485e-05,
+            "peak_shear": 4.001860657854017e-06,
+            "peak_stress": 2.373733429794811e-06,
+            "energy": 1.074849935944755e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 2.675573648642799e-06,
+            "peak_shear": 1.0004830010013066e-06,
+            "peak_stress": 6.271156671573408e-08,
+            "energy": 2.6871965119745767e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 6.688965614715493e-07,
+            "peak_shear": 2.501219279471556e-07,
+            "peak_stress": 5.647187581416802e-07,
+            "energy": 6.718030309826872e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.6722427089566449e-07,
+            "peak_shear": 6.253042339476877e-08,
+            "peak_stress": 1.0351408127462492e-07,
+            "energy": 1.67951847984682e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.1831703996762057,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 4132.319795281268,
+        "peak_tensile_Pa": 3951.545859142503,
+        "total_stored_J_per_m_width": 6.28598476617882e-06,
+        "bridge_stored_J_per_m_width": 1.3270716144853118e-09,
+        "bridge_extensions_m": [
+          7.159053610378849e-10,
+          1.2500635546673542e-09,
+          1.645097917840369e-09,
+          1.93253035356403e-09,
+          2.135296631998679e-09,
+          2.2695765581375676e-09,
+          2.3460850449149847e-09,
+          2.370927113372522e-09,
+          2.3460850449149318e-09,
+          2.2695765581374617e-09,
+          2.135296631998467e-09,
+          1.9325303535636064e-09,
+          1.645097917840369e-09,
+          1.2500635546669307e-09,
+          7.159053610383084e-10
+        ],
+        "shrink_reaction_N_per_m_width": -3.1509517217642724e-14,
+        "endpoint_w_m": [
+          4.885510428715338e-06,
+          3.655150359199173e-06,
+          3.6558662645602107e-06,
+          2.7165737074765623e-06,
+          2.7178237710312297e-06,
+          1.9948864265040357e-06,
+          1.996531524421876e-06,
+          1.4325012312448727e-06,
+          1.4344337615984368e-06,
+          9.845424014339731e-07,
+          9.866776980659718e-07,
+          6.152649080299412e-07,
+          6.175344845880787e-07,
+          2.952021263173928e-07,
+          2.975482113623078e-07,
+          -1.185463556835941e-09,
+          1.185463556536581e-09,
+          -2.975482113626192e-07,
+          -2.9520212631770425e-07,
+          -6.175344845884073e-07,
+          -6.152649080302698e-07,
+          -9.866776980663074e-07,
+          -9.84542401434309e-07,
+          -1.4344337615988546e-06,
+          -1.432501231245291e-06,
+          -1.996531524422367e-06,
+          -1.9948864265045265e-06,
+          -2.7178237710318226e-06,
+          -2.7165737074771557e-06,
+          -3.6558662645609756e-06,
+          -3.6551503591999372e-06,
+          -4.885510428716073e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.03579526805189425,
+          0.06250317773336772,
+          0.08225489589201847,
+          0.09662651767820152,
+          0.10676483159993395,
+          0.1134788279068784,
+          0.11730425224574925,
+          0.11854635566862612,
+          0.1173042522457466,
+          0.11347882790687311,
+          0.10676483159992337,
+          0.09662651767818034,
+          0.08225489589201847,
+          0.06250317773334654,
+          0.03579526805191543
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.1326009626490988e-05,
+            "peak_shear": 4.111253398941805e-06,
+            "peak_stress": 2.962247552113695e-06,
+            "energy": 1.3484872658509062e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 2.831546926420345e-06,
+            "peak_shear": 1.0278294185761538e-06,
+            "peak_stress": 3.201257969521976e-07,
+            "energy": 3.371271666274822e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.078892392037749e-07,
+            "peak_shear": 2.569582973066531e-07,
+            "peak_stress": 7.99175169049704e-08,
+            "energy": 8.428206710320296e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.7697247289713772e-07,
+            "peak_shear": 6.42395979744137e-08,
+            "peak_stress": 4.9689870138536204e-08,
+            "energy": 2.1070599043326865e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.1835632793130757,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 2666.6666666666665,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 4133.691959680449,
+        "peak_tensile_Pa": 3957.527391510927,
+        "total_stored_J_per_m_width": 6.2873004385369884e-06,
+        "bridge_stored_J_per_m_width": 1.330855047078923e-11,
+        "bridge_extensions_m": [
+          7.166874195124647e-12,
+          1.2515687598664392e-11,
+          1.6472345205349292e-11,
+          1.935190011099412e-11,
+          2.1383639958759944e-11,
+          2.2729344209171764e-11,
+          2.3496166003739367e-11,
+          2.3745164348659916e-11,
+          2.3496166003739367e-11,
+          2.2729344209277643e-11,
+          2.1383639958759944e-11,
+          1.9351900110782362e-11,
+          1.647234520450226e-11,
+          1.2515687598240875e-11,
+          7.166874195124647e-12
+        ],
+        "shrink_reaction_N_per_m_width": -2.9781732635569824e-14,
+        "endpoint_w_m": [
+          4.890084310045941e-06,
+          3.659906336718251e-06,
+          3.659913503592446e-06,
+          2.7211535179526352e-06,
+          2.721166033640234e-06,
+          1.999076655572394e-06,
+          1.9990931279175995e-06,
+          1.436179606384887e-06,
+          1.436198958284998e-06,
+          9.876410902185852e-07,
+          9.87662473858544e-07,
+          6.177457475496687e-07,
+          6.177684768938778e-07,
+          2.970402657254314e-07,
+          2.9706376189143513e-07,
+          -1.1872575856802799e-11,
+          1.1872588491857118e-11,
+          -2.9706376187829706e-07,
+          -2.970402657122933e-07,
+          -6.177684768782511e-07,
+          -6.177457475340418e-07,
+          -9.876624738421333e-07,
+          -9.876410902021745e-07,
+          -1.4361989582644347e-06,
+          -1.436179606364324e-06,
+          -1.9990931279169523e-06,
+          -1.999076655571748e-06,
+          -2.721166033667288e-06,
+          -2.72115351797969e-06,
+          -3.6599135036256713e-06,
+          -3.659906336751476e-06,
+          -4.890084310077895e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.03583437097562324,
+          0.06257843799332195,
+          0.08236172602674646,
+          0.0967595005549706,
+          0.10691819979379971,
+          0.11364672104585882,
+          0.11748083001869683,
+          0.11872582174329958,
+          0.11748083001869683,
+          0.11364672104638822,
+          0.10691819979379971,
+          0.0967595005539118,
+          0.0823617260225113,
+          0.06257843799120438,
+          0.03583437097562324
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.133232866591926e-05,
+            "peak_shear": 4.112179464499377e-06,
+            "peak_stress": 4.8100117135618346e-06,
+            "energy": 1.3517814390073823e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 2.8331021302417004e-06,
+            "peak_shear": 1.0280477340529615e-06,
+            "peak_stress": 1.1972956028330373e-06,
+            "energy": 3.379523472180068e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.082953166242708e-07,
+            "peak_shear": 2.570157717762811e-07,
+            "peak_stress": 2.967143892419699e-07,
+            "energy": 8.449082011807718e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.770446721220892e-07,
+            "peak_shear": 6.424060172705026e-08,
+            "peak_stress": 7.290574576472864e-08,
+            "energy": 2.1125581950443006e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 1.002410238178275,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 11520.281990748059,
+        "peak_tensile_Pa": 2825.9992875681405,
+        "total_stored_J_per_m_width": 0.00010255662478891295,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          9.005269768828867e-06
+        ],
+        "shrink_reaction_N_per_m_width": -4.576656115866699e-17,
+        "endpoint_w_m": [
+          4.502634884414433e-06,
+          -4.5026348844144335e-06,
+          4.502634884414433e-06,
+          -4.5026348844144335e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0008776439375007322,
+            "peak_shear": 0.00011427375712735888,
+            "peak_stress": 0.0016522242333078794,
+            "energy": 1.2836478471722756e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.00021995686228790988,
+            "peak_shear": 2.863951539522347e-05,
+            "peak_stress": 0.0004117767537866712,
+            "energy": 3.217103664576726e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 5.502339122085721e-05,
+            "peak_shear": 7.164328694186928e-06,
+            "peak_stress": 0.00010286457413940298,
+            "energy": 8.047757715790027e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.375798469798546e-05,
+            "peak_shear": 1.7913604072328226e-06,
+            "peak_stress": 2.5711172963474382e-05,
+            "energy": 2.0122519783782877e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 1.0028081477153552,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 11524.854998783476,
+        "peak_tensile_Pa": 2857.857108505593,
+        "total_stored_J_per_m_width": 0.00010257624104235008,
+        "bridge_stored_J_per_m_width": 1.898010734011496e-08,
+        "bridge_extensions_m": [
+          8.713233002764235e-06
+        ],
+        "shrink_reaction_N_per_m_width": -2.2551405187698492e-17,
+        "endpoint_w_m": [
+          4.5178782445324905e-06,
+          -4.356616501382117e-06,
+          4.3566165013821164e-06,
+          -4.5178782445324905e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.004356616501382117
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0008975765615595919,
+            "peak_shear": 0.00011682271425361712,
+            "peak_stress": 0.0010444389781800963,
+            "energy": 1.2470484360482814e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.000224945784018712,
+            "peak_shear": 2.9277476902067612e-05,
+            "peak_stress": 0.0001413635659827378,
+            "energy": 3.1253445691437065e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 5.627098338223894e-05,
+            "peak_shear": 7.323864384956025e-06,
+            "peak_stress": 2.49646049551302e-06,
+            "energy": 7.818196752218398e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.4069905368552496e-05,
+            "peak_shear": 1.8312471649073458e-06,
+            "peak_stress": 2.0024695055326445e-06,
+            "energy": 1.9548515206579964e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 1.0054903531217665,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 11555.68046470761,
+        "peak_tensile_Pa": 3089.5601884876273,
+        "total_stored_J_per_m_width": 0.00010270846913974298,
+        "bridge_stored_J_per_m_width": 1.137270607110342e-07,
+        "bridge_extensions_m": [
+          6.744688598031319e-06
+        ],
+        "shrink_reaction_N_per_m_width": -1.3877787807814457e-17,
+        "endpoint_w_m": [
+          4.620629797612937e-06,
+          -3.37234429901566e-06,
+          3.3723442990156597e-06,
+          -4.620629797612937e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.033723442990156595
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0010244564920916881,
+            "peak_shear": 0.0001329808956580525,
+            "peak_stress": 0.0003218247763717045,
+            "energy": 1.047789200558924e-05
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.0002566929432743607,
+            "peak_shear": 3.3320358423294394e-05,
+            "peak_stress": 3.284102512488971e-05,
+            "energy": 2.625765001651459e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 6.420947889866895e-05,
+            "peak_shear": 8.33479418516081e-06,
+            "peak_stress": 6.600756959178398e-05,
+            "energy": 6.568351422764351e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.6054635964028122e-05,
+            "peak_shear": 2.0839927178384343e-06,
+            "peak_stress": 1.0775182532324834e-05,
+            "energy": 1.6423341486770937e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 1.0118605936052545,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 11628.890976655322,
+        "peak_tensile_Pa": 3844.562412162366,
+        "total_stored_J_per_m_width": 0.00010302251100135933,
+        "bridge_stored_J_per_m_width": 1.0705975681184788e-07,
+        "bridge_extensions_m": [
+          2.069393696828594e-06
+        ],
+        "shrink_reaction_N_per_m_width": 2.7755575615628914e-17,
+        "endpoint_w_m": [
+          4.864664837438645e-06,
+          -1.034696848414297e-06,
+          1.0346968484142972e-06,
+          -4.864664837438645e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.10346968484142971
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0012735212545568987,
+            "peak_shear": 0.0001642703406256052,
+            "peak_stress": 3.826728005269615e-05,
+            "energy": 9.04611497309915e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.000318953080287305,
+            "peak_shear": 4.114146580191935e-05,
+            "peak_stress": 3.204472963134322e-05,
+            "energy": 2.2659884737485925e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.977414346289289e-05,
+            "peak_shear": 1.0289993726320112e-05,
+            "peak_stress": 6.124348146568081e-06,
+            "energy": 5.667763955941041e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.994577913901394e-05,
+            "peak_shear": 2.572787788368558e-06,
+            "peak_stress": 1.0984050793649658e-05,
+            "energy": 1.4171156226261417e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.0143247277414005,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 11657.210240595625,
+        "peak_tensile_Pa": 4361.485886980267,
+        "total_stored_J_per_m_width": 0.00010314398856149125,
+        "bridge_stored_J_per_m_width": 1.7016915789617714e-08,
+        "bridge_extensions_m": [
+          2.6089780213422813e-07
+        ],
+        "shrink_reaction_N_per_m_width": -2.7755575615628914e-17,
+        "endpoint_w_m": [
+          4.9590623839063194e-06,
+          -1.3044890106711428e-07,
+          1.3044890106711383e-07,
+          -4.9590623839063194e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.13044890106711407
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.001350103379578639,
+            "peak_shear": 0.00017372553360250897,
+            "peak_stress": 0.0001188553745025274,
+            "energy": 9.733105881482018e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.00033807468361486535,
+            "peak_shear": 4.35020056218649e-05,
+            "peak_stress": 7.445210644436884e-06,
+            "energy": 2.4372981288767193e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 8.455305135245723e-05,
+            "peak_shear": 1.0879925333884266e-05,
+            "peak_stress": 1.2559077614605485e-05,
+            "energy": 6.095764517599633e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.114041284016028e-05,
+            "peak_shear": 2.720257985755481e-06,
+            "peak_stress": 3.138025980661041e-07,
+            "energy": 1.5240986739328832e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.014676549646423,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 11661.253582734415,
+        "peak_tensile_Pa": 4476.698893049662,
+        "total_stored_J_per_m_width": 0.0001031613327742093,
+        "bridge_stored_J_per_m_width": 1.8036735794210408e-10,
+        "bridge_extensions_m": [
+          2.6860183018148186e-09
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          4.9725401910356195e-06,
+          -1.343009150907586e-09,
+          1.3430091509072325e-09,
+          -4.9725401910356195e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.13430091509074096
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0013601372412670708,
+            "peak_shear": 0.0001749559639899756,
+            "peak_stress": 0.00013524223992753833,
+            "energy": 9.887476619230284e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.0003405789344593728,
+            "peak_shear": 4.3809046605503e-05,
+            "peak_stress": 2.787212796665699e-05,
+            "energy": 2.4758289769444275e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 8.517885104240509e-05,
+            "peak_shear": 1.0956650214000163e-05,
+            "peak_stress": 4.132096565990651e-06,
+            "energy": 6.192053034759226e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.1296846332452705e-05,
+            "peak_shear": 2.739436996135325e-06,
+            "peak_stress": 2.5588322005205554e-07,
+            "energy": 1.5481683846019223e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.0146801728245365,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.0005899999999999999,
+          "coverage": 0.9833333333333333,
+          "half_patch_m": 0.00014749999999999998
+        },
+        "q_local_Pa": 10169.49152542373,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 11661.295222406457,
+        "peak_tensile_Pa": 4478.0194802627375,
+        "total_stored_J_per_m_width": 0.00010316151139063715,
+        "bridge_stored_J_per_m_width": 1.8047392617657874e-12,
+        "bridge_extensions_m": [
+          2.686811688053919e-11
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          4.9726789899424255e-06,
+          -1.3434058440293164e-11,
+          1.3434058440246023e-11,
+          -4.9726789899424255e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.13434058440269595
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0013602394025691532,
+            "peak_shear": 0.00017496848033937695,
+            "peak_stress": 0.00015753859829164868,
+            "energy": 9.88913947042036e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 0.00034060443041552884,
+            "peak_shear": 4.3812169735923945e-05,
+            "peak_stress": 3.929939766585449e-05,
+            "energy": 2.476244048699172e-06
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 8.518522226363689e-05,
+            "peak_shear": 1.095743062484722e-05,
+            "peak_stress": 9.792465568170882e-06,
+            "energy": 6.193090311690241e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.1298438965474154e-05,
+            "peak_shear": 2.739632075643428e-06,
+            "peak_stress": 2.4325726169990957e-06,
+            "energy": 1.5484276816302156e-07
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 0.9958318196917003,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 11444.678976002104,
+        "peak_tensile_Pa": 1046.648317033358,
+        "total_stored_J_per_m_width": 0.00010556393152167996,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          6.122421243522802e-06,
+          6.122421243522802e-06,
+          6.122421243522802e-06
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          3.061210621761401e-06,
+          -3.061210621761401e-06,
+          3.061210621761401e-06,
+          -3.061210621761401e-06,
+          3.061210621761401e-06,
+          -3.061210621761401e-06,
+          3.061210621761401e-06,
+          -3.061210621761401e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 5.4971738998844194e-05,
+            "peak_shear": 7.2048861021745125e-06,
+            "peak_stress": 0.0009324145204116121,
+            "energy": 1.562230722118585e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.377327652437419e-05,
+            "peak_shear": 1.805198278526099e-06,
+            "peak_stress": 0.00023289255967365535,
+            "energy": 3.9141995733515955e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 3.4452153411256325e-06,
+            "peak_shear": 4.515480969136121e-07,
+            "peak_stress": 5.820996329189257e-05,
+            "energy": 9.790887833815987e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 8.614223555830472e-07,
+            "peak_shear": 1.1290255685914019e-07,
+            "peak_stress": 1.4551667518026079e-05,
+            "energy": 2.4480589999598124e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 0.9971536084880832,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 11459.869742303748,
+        "peak_tensile_Pa": 1125.3854116025614,
+        "total_stored_J_per_m_width": 0.0001055913303879717,
+        "bridge_stored_J_per_m_width": 2.6703233977359226e-08,
+        "bridge_extensions_m": [
+          5.950753894660091e-06,
+          5.9991659486809025e-06,
+          5.95075389466009e-06
+        ],
+        "shrink_reaction_N_per_m_width": -3.0791341698588326e-17,
+        "endpoint_w_m": [
+          3.1118465094335496e-06,
+          -2.9498530306565145e-06,
+          3.0009008640035763e-06,
+          -2.9995829743404512e-06,
+          2.9995829743404512e-06,
+          -3.0009008640035763e-06,
+          2.9498530306565136e-06,
+          -3.1118465094335505e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.002975376947330045,
+          0.0029995829743404514,
+          0.0029753769473300448
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.44934781165325e-05,
+            "peak_shear": 8.441650677482038e-06,
+            "peak_stress": 0.0009105429775305311,
+            "energy": 1.5169204590215202e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.6154400254518705e-05,
+            "peak_shear": 2.114474328851479e-06,
+            "peak_stress": 0.000226274364562596,
+            "energy": 3.8006637681498034e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.040539385161205e-06,
+            "peak_shear": 5.288724226337749e-07,
+            "peak_stress": 5.598090950452388e-05,
+            "energy": 9.506885612076132e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0102560505852404e-06,
+            "peak_shear": 1.3223397032913198e-07,
+            "peak_stress": 1.370965957412409e-05,
+            "energy": 2.3770480916951442e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 1.0064213567760303,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 11566.38010066806,
+        "peak_tensile_Pa": 1693.3474372313726,
+        "total_stored_J_per_m_width": 0.0001057870991934662,
+        "bridge_stored_J_per_m_width": 1.7728438828260915e-07,
+        "bridge_extensions_m": [
+          4.767458252004377e-06,
+          5.045437438303482e-06,
+          4.767458252004377e-06
+        ],
+        "shrink_reaction_N_per_m_width": 1.734723475976807e-17,
+        "endpoint_w_m": [
+          3.46688103731459e-06,
+          -2.1690670782135513e-06,
+          2.598391173790825e-06,
+          -2.522718719151741e-06,
+          2.522718719151741e-06,
+          -2.598391173790825e-06,
+          2.1690670782135517e-06,
+          -3.4668810373145897e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.023837291260021886,
+          0.02522718719151741,
+          0.023837291260021886
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.00012668162071184037,
+            "peak_shear": 1.6428859281325536e-05,
+            "peak_stress": 0.0005463143772924469,
+            "energy": 1.289630558343191e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 3.1704954679717706e-05,
+            "peak_shear": 4.111695414366068e-06,
+            "peak_stress": 9.009126807764006e-05,
+            "energy": 3.23075831198949e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.928398220048417e-06,
+            "peak_shear": 1.028203915898196e-06,
+            "peak_stress": 9.50546750382273e-06,
+            "energy": 8.081071767307435e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.98223452626059e-06,
+            "peak_shear": 2.5706848327811116e-07,
+            "peak_stress": 6.021982695165207e-06,
+            "energy": 2.0205289663621784e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 1.0319780025681389,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 11860.091951414734,
+        "peak_tensile_Pa": 3375.9198907231203,
+        "total_stored_J_per_m_width": 0.00010634905672251863,
+        "bridge_stored_J_per_m_width": 2.2028681403056575e-07,
+        "bridge_extensions_m": [
+          1.6273177614887145e-06,
+          1.8748723603246562e-06,
+          1.6273177614887145e-06
+        ],
+        "shrink_reaction_N_per_m_width": 0.0,
+        "endpoint_w_m": [
+          4.445920539803501e-06,
+          -1.597989823588858e-08,
+          1.611337863252826e-06,
+          -9.374361801623281e-07,
+          9.374361801623281e-07,
+          -1.6113378632528255e-06,
+          1.5979898235888934e-08,
+          -4.445920539803501e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.08136588807443573,
+          0.09374361801623282,
+          0.08136588807443573
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.00026284084984868434,
+            "peak_shear": 3.3242682804468515e-05,
+            "peak_stress": 0.00017142383534073815,
+            "energy": 1.5359930671809963e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 6.57447750659402e-05,
+            "peak_shear": 8.315041991502348e-06,
+            "peak_stress": 1.621038413095448e-05,
+            "energy": 3.843265972136578e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.643835469339257e-05,
+            "peak_shear": 2.079033797230956e-06,
+            "peak_stress": 4.0200922409894705e-06,
+            "energy": 9.610217488464912e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.1097237610848345e-06,
+            "peak_shear": 5.197755316155295e-07,
+            "peak_stress": 1.0317941546418297e-06,
+            "energy": 2.4026826972445292e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.0437592457696492,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 11995.48885650784,
+        "peak_tensile_Pa": 4259.041338543885,
+        "total_stored_J_per_m_width": 0.00010661458891568636,
+        "bridge_stored_J_per_m_width": 3.9520849062279e-08,
+        "bridge_extensions_m": [
+          2.15771474364787e-07,
+          2.5488965838183415e-07,
+          2.15771474364787e-07
+        ],
+        "shrink_reaction_N_per_m_width": -1.3877787807814457e-17,
+        "endpoint_w_m": [
+          4.897243556780524e-06,
+          9.765620772530675e-07,
+          1.1923335516178545e-06,
+          -1.2744482919091715e-07,
+          1.2744482919091702e-07,
+          -1.1923335516178547e-06,
+          -9.765620772530677e-07,
+          -4.897243556780524e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.10788573718239351,
+          0.1274448291909171,
+          0.10788573718239351
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0003093696478399997,
+            "peak_shear": 3.868574906029654e-05,
+            "peak_stress": 5.552820755583525e-05,
+            "energy": 2.1055761461052924e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 7.73728671300342e-05,
+            "peak_shear": 9.675245592921655e-06,
+            "peak_stress": 4.9702433962011125e-06,
+            "energy": 5.266164744277546e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.9345121194508895e-05,
+            "peak_shear": 2.4190495373499488e-06,
+            "peak_stress": 1.8208584016974783e-06,
+            "energy": 1.3166802781405806e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.836399331997895e-06,
+            "peak_shear": 6.047772694861564e-07,
+            "peak_stress": 6.348199451167602e-07,
+            "energy": 3.2917875314453227e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.0455522583890757,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 12016.095201297678,
+        "peak_tensile_Pa": 4421.664127293007,
+        "total_stored_J_per_m_width": 0.00010665523344845827,
+        "bridge_stored_J_per_m_width": 4.2648991098357354e-10,
+        "bridge_extensions_m": [
+          2.2384369956250155e-09,
+          2.652997563620715e-09,
+          2.2384369956250155e-09
+        ],
+        "shrink_reaction_N_per_m_width": 1.5404344466674047e-15,
+        "endpoint_w_m": [
+          4.965931372746652e-06,
+          1.1276191649409152e-06,
+          1.1298576019365402e-06,
+          -1.326498781804048e-09,
+          1.3264987818166667e-09,
+          -1.129857601936511e-06,
+          -1.127619164940886e-06,
+          -4.965931372746638e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.11192184978125079,
+          0.13264987818103577,
+          0.11192184978125079
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.00031555654051298126,
+            "peak_shear": 3.93917327418114e-05,
+            "peak_stress": 3.364964627344307e-05,
+            "energy": 2.2182152648042575e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 7.891876220431142e-05,
+            "peak_shear": 9.851631607604716e-06,
+            "peak_stress": 5.686729781155009e-06,
+            "energy": 5.547622372592542e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.9731543249345077e-05,
+            "peak_shear": 2.4631391765117527e-06,
+            "peak_stress": 1.7321701416221912e-07,
+            "energy": 1.3870359572010216e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.933001617494972e-06,
+            "peak_shear": 6.157992510358312e-07,
+            "peak_stress": 4.668664349082974e-07,
+            "energy": 3.46767130565695e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.0455708794233989,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00057,
+          "coverage": 0.9500000000000001,
+          "half_patch_m": 7.125e-05
+        },
+        "q_local_Pa": 10526.315789473683,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 12016.309205063992,
+        "peak_tensile_Pa": 4423.467548945715,
+        "total_stored_J_per_m_width": 0.00010665565583741634,
+        "bridge_stored_J_per_m_width": 4.2682128503994354e-12,
+        "bridge_extensions_m": [
+          2.239275323158332e-11,
+          2.6540805292757933e-11,
+          2.239275323137156e-11
+        ],
+        "shrink_reaction_N_per_m_width": -1.4813705817573464e-12,
+        "endpoint_w_m": [
+          4.9666447186343606e-06,
+          1.129187943199415e-06,
+          1.1292103359526466e-06,
+          -1.3270408948957793e-11,
+          1.3270396343800142e-11,
+          -1.1292103359803674e-06,
+          -1.129187943227136e-06,
+          -4.966644718646966e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.11196376615791659,
+          0.13270402646378968,
+          0.1119637661568578
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 0.0003156195494067381,
+            "peak_shear": 3.939889632842419e-05,
+            "peak_stress": 4.444906091612211e-05,
+            "energy": 2.2194217019766427e-06
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 7.89345077119652e-05,
+            "peak_shear": 9.853421486516467e-06,
+            "peak_stress": 1.1080430220499693e-05,
+            "energy": 5.55063879748019e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.9735482997280246e-05,
+            "peak_shear": 2.4635864663835605e-06,
+            "peak_stress": 2.7552121218832327e-06,
+            "energy": 1.3877991800193001e-07
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 4.933984911107791e-06,
+            "peak_shear": 6.159109610104352e-07,
+            "peak_stress": 6.814317142925575e-07,
+            "energy": 3.4695649464566714e-08
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 1.0267683839778674,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 11800.219981897304,
+        "peak_tensile_Pa": 262.31061974667097,
+        "total_stored_J_per_m_width": 0.00011327718611014659,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06,
+          3.19643509944115e-06
+        ],
+        "shrink_reaction_N_per_m_width": 3.248983011584076e-17,
+        "endpoint_w_m": [
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06,
+          1.5982175497205752e-06,
+          -1.5982175497205748e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.5837380713949233e-06,
+            "peak_shear": 2.0131888311958335e-07,
+            "peak_stress": 0.00026366212272394023,
+            "energy": 8.388651573376649e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 3.968470089304017e-07,
+            "peak_shear": 5.044571316226154e-08,
+            "peak_stress": 6.590170221060134e-05,
+            "energy": 2.1019962215262922e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 9.926878883723013e-08,
+            "peak_shear": 1.2618678657538851e-08,
+            "peak_stress": 1.6474561497227567e-05,
+            "energy": 5.258009583286594e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.4820794537058697e-08,
+            "peak_shear": 3.1551269374929802e-09,
+            "peak_stress": 4.118586358072207e-06,
+            "energy": 1.3146819188847303e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 1.0286580576825504,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 11821.937212148276,
+        "peak_tensile_Pa": 312.25721855395875,
+        "total_stored_J_per_m_width": 0.00011329476322890734,
+        "bridge_stored_J_per_m_width": 1.7280997246720008e-08,
+        "bridge_extensions_m": [
+          3.092695482164915e-06,
+          3.161185700833436e-06,
+          3.1627024551281255e-06,
+          3.162735301352132e-06,
+          3.162702455128125e-06,
+          3.161185700833437e-06,
+          3.092695482164916e-06
+        ],
+        "shrink_reaction_N_per_m_width": 4.098284211995207e-17,
+        "endpoint_w_m": [
+          1.6706083172238157e-06,
+          -1.5093507815655427e-06,
+          1.5833447005993727e-06,
+          -1.57977352330666e-06,
+          1.5814121775267764e-06,
+          -1.5813330918032808e-06,
+          1.5813693633248447e-06,
+          -1.5813676506760657e-06,
+          1.5813676506760665e-06,
+          -1.5813693633248443e-06,
+          1.581333091803281e-06,
+          -1.5814121775267764e-06,
+          1.5797735233066603e-06,
+          -1.5833447005993723e-06,
+          1.5093507815655438e-06,
+          -1.6706083172238148e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0015463477410824576,
+          0.001580592850416718,
+          0.0015813512275640628,
+          0.0015813676506760662,
+          0.0015813512275640626,
+          0.0015805928504167184,
+          0.001546347741082458
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 3.8222843784100805e-06,
+            "peak_shear": 4.849819843499859e-07,
+            "peak_stress": 0.0002609280941451289,
+            "energy": 8.249543537175441e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 9.565338758408024e-07,
+            "peak_shear": 1.2136765625836432e-07,
+            "peak_stress": 6.521752647203129e-05,
+            "energy": 2.067130377980675e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 2.391936496452514e-07,
+            "peak_shear": 3.034954998426542e-08,
+            "peak_stress": 1.630310830627195e-05,
+            "energy": 5.170788686115202e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 5.98022106552791e-08,
+            "peak_shear": 7.587869332859043e-09,
+            "peak_stress": 4.075513769510053e-06,
+            "energy": 1.29288380001924e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 1.0417341005195369,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 11972.214708394671,
+        "peak_tensile_Pa": 717.431087116971,
+        "total_stored_J_per_m_width": 0.00011343049002969402,
+        "bridge_stored_J_per_m_width": 1.3204720644653562e-07,
+        "bridge_extensions_m": [
+          2.449333121431477e-06,
+          2.821806607500632e-06,
+          2.878259000940472e-06,
+          2.8855644657282536e-06,
+          2.878259000940472e-06,
+          2.8218066075006322e-06,
+          2.4493331214314766e-06
+        ],
+        "shrink_reaction_N_per_m_width": 1.5612511283791264e-17,
+        "endpoint_w_m": [
+          2.1715333047117986e-06,
+          -8.944162220698958e-07,
+          1.5549168993615813e-06,
+          -1.360703932685947e-06,
+          1.4611026748146848e-06,
+          -1.431667594960823e-06,
+          1.446591405979649e-06,
+          -1.4427822328641266e-06,
+          1.4427822328641268e-06,
+          -1.4465914059796486e-06,
+          1.4316675949608237e-06,
+          -1.4611026748146846e-06,
+          1.3607039326859476e-06,
+          -1.554916899361581e-06,
+          8.944162220698955e-07,
+          -2.171533304711799e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.012246665607157385,
+          0.014109033037503159,
+          0.01439129500470236,
+          0.014427822328641269,
+          0.01439129500470236,
+          0.01410903303750316,
+          0.012246665607157384
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.733471922226915e-05,
+            "peak_shear": 2.171868736633442e-06,
+            "peak_stress": 0.00023126817116983603,
+            "energy": 8.069140688959919e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 4.334916453150906e-06,
+            "peak_shear": 5.431221231644301e-07,
+            "peak_stress": 5.599353169739061e-05,
+            "energy": 2.021377576433281e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.0838064186178664e-06,
+            "peak_shear": 1.3579021662657453e-07,
+            "peak_stress": 1.3120576292112673e-05,
+            "energy": 5.055999618974738e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 2.7095650188133026e-07,
+            "peak_shear": 3.394816761037589e-08,
+            "peak_stress": 2.8701017622324797e-06,
+            "energy": 1.2641561131232493e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 1.0830453981357724,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 12446.98818916803,
+        "peak_tensile_Pa": 2550.02049342451,
+        "total_stored_J_per_m_width": 0.00011397603185566605,
+        "bridge_stored_J_per_m_width": 2.8140648283241615e-07,
+        "bridge_extensions_m": [
+          9.210461414823087e-07,
+          1.2892519245874876e-06,
+          1.429528962705735e-06,
+          1.4656603164729523e-06,
+          1.429528962705735e-06,
+          1.2892519245874876e-06,
+          9.210461414823085e-07
+        ],
+        "shrink_reaction_N_per_m_width": -2.0816681711721685e-17,
+        "endpoint_w_m": [
+          3.754111573956331e-06,
+          1.0483538436549957e-06,
+          1.9693999851373045e-06,
+          -4.9522727868446915e-08,
+          1.2397291967190408e-06,
+          -5.083047934164743e-07,
+          9.212241692892607e-07,
+          -7.328301582364763e-07,
+          7.328301582364761e-07,
+          -9.212241692892609e-07,
+          5.083047934164741e-07,
+          -1.239729196719041e-06,
+          4.952272786844674e-08,
+          -1.969399985137305e-06,
+          -1.0483538436549963e-06,
+          -3.7541115739563313e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.046052307074115444,
+          0.06446259622937439,
+          0.07147644813528677,
+          0.07328301582364763,
+          0.07147644813528677,
+          0.06446259622937439,
+          0.04605230707411544
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 4.946212929218937e-05,
+            "peak_shear": 5.960734662080469e-06,
+            "peak_stress": 8.579694220461533e-05,
+            "energy": 1.9355348368499392e-07
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.236714684009672e-05,
+            "peak_shear": 1.4903782313835379e-06,
+            "peak_stress": 1.3380335093825125e-05,
+            "energy": 4.8408697272961376e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 3.0918876507710976e-06,
+            "peak_shear": 3.7260672169914244e-07,
+            "peak_stress": 1.5902065959380707e-06,
+            "energy": 1.2103445135025481e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 7.729783147583722e-07,
+            "peak_shear": 9.315245219632118e-08,
+            "peak_stress": 1.8012352339610516e-06,
+            "energy": 3.0259317274072828e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.109453132269926,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 12750.481242585993,
+        "peak_tensile_Pa": 4005.905928041019,
+        "total_stored_J_per_m_width": 0.00011437696467690893,
+        "bridge_stored_J_per_m_width": 7.06087590997592e-08,
+        "bridge_extensions_m": [
+          1.3532428739050115e-07,
+          2.0147017459187964e-07,
+          2.31372917438952e-07,
+          2.399216424896967e-07,
+          2.3137291743895188e-07,
+          2.0147017459187964e-07,
+          1.3532428739050115e-07
+        ],
+        "shrink_reaction_N_per_m_width": -6.938893903907228e-17,
+        "endpoint_w_m": [
+          4.765755085349538e-06,
+          2.290245489278154e-06,
+          2.425569776668655e-06,
+          1.0233707431906386e-06,
+          1.2248409177825183e-06,
+          3.3433057153801104e-07,
+          5.65703488976963e-07,
+          -1.1996082124484844e-07,
+          1.199608212448483e-07,
+          -5.657034889769632e-07,
+          -3.3433057153801136e-07,
+          -1.2248409177825193e-06,
+          -1.0233707431906397e-06,
+          -2.4255697766686573e-06,
+          -2.290245489278156e-06,
+          -4.76575508534954e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.06766214369525059,
+          0.10073508729593983,
+          0.11568645871947601,
+          0.11996082124484837,
+          0.11568645871947596,
+          0.10073508729593983,
+          0.06766214369525059
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.468508270386858e-05,
+            "peak_shear": 7.609722503909566e-06,
+            "peak_stress": 1.99979514088227e-05,
+            "energy": 3.908043288980423e-07
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.6172715011646035e-05,
+            "peak_shear": 1.9026005378952604e-06,
+            "peak_stress": 2.1394734816567507e-06,
+            "energy": 9.771152331694566e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.043269046666038e-06,
+            "peak_shear": 4.756607577816041e-07,
+            "peak_stress": 3.4284804942217307e-07,
+            "energy": 2.4428531419928845e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0108230601152532e-06,
+            "peak_shear": 1.1891586781942465e-07,
+            "peak_stress": 2.4466328795824665e-08,
+            "energy": 6.107177652481255e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.1142199748670358,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 12805.26457263659,
+        "peak_tensile_Pa": 4293.802743377298,
+        "total_stored_J_per_m_width": 0.00011445168991663914,
+        "bridge_stored_J_per_m_width": 8.06892561000403e-10,
+        "bridge_extensions_m": [
+          1.4312584198045545e-09,
+          2.149043120343131e-09,
+          2.480393613687337e-09,
+          2.576280941136431e-09,
+          2.480393613687337e-09,
+          2.1490431203429194e-09,
+          1.431258419804978e-09
+        ],
+        "shrink_reaction_N_per_m_width": -1.85268467234323e-14,
+        "endpoint_w_m": [
+          4.948366185518196e-06,
+          2.5144185276493384e-06,
+          2.515849786069143e-06,
+          1.2267816048799159e-06,
+          1.228930648000259e-06,
+          4.987778931085211e-07,
+          5.012582867222084e-07,
+          -1.2881404706556896e-09,
+          1.2881404704807411e-09,
+          -5.012582867224231e-07,
+          -4.987778931087358e-07,
+          -1.228930648000529e-06,
+          -1.226781604880186e-06,
+          -2.5158497860694233e-06,
+          -2.5144185276496184e-06,
+          -4.9483661855184235e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.07156292099022774,
+          0.10745215601715657,
+          0.12401968068436688,
+          0.12881404705682156,
+          0.12401968068436688,
+          0.10745215601714599,
+          0.07156292099024891
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.695372637268647e-05,
+            "peak_shear": 7.8429140539793e-06,
+            "peak_stress": 8.954796222496953e-06,
+            "energy": 4.3836542462649675e-07
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.6739806942717985e-05,
+            "peak_shear": 1.960889608687566e-06,
+            "peak_stress": 1.0814529219715042e-06,
+            "energy": 1.096003896527975e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.185037754543444e-06,
+            "peak_shear": 4.902324737265928e-07,
+            "peak_stress": 2.2011706241755746e-07,
+            "energy": 2.7400664626142657e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0462648630772068e-06,
+            "peak_shear": 1.2255875592170895e-07,
+            "peak_stress": 2.121610687026987e-07,
+            "energy": 6.850178202455481e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.1142707761699895,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00053,
+          "coverage": 0.8833333333333334,
+          "half_patch_m": 3.3125e-05
+        },
+        "q_local_Pa": 11320.754716981131,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 12805.848410783123,
+        "peak_tensile_Pa": 4296.964998331456,
+        "total_stored_J_per_m_width": 0.00011445248929210108,
+        "bridge_stored_J_per_m_width": 8.080078496288886e-12,
+        "bridge_extensions_m": [
+          1.4320898488357918e-11,
+          2.150479094398639e-11,
+          2.482178850671714e-11,
+          2.5781789989279636e-11,
+          2.482178850671714e-11,
+          2.150479094377463e-11,
+          1.4320898488781434e-11
+        ],
+        "shrink_reaction_N_per_m_width": -1.3357231987143336e-12,
+        "endpoint_w_m": [
+          4.9503123126733036e-06,
+          2.5168075896341482e-06,
+          2.5168219105326366e-06,
+          1.2289616638080052e-06,
+          1.2289831685989492e-06,
+          5.005464790475768e-07,
+          5.005713008360836e-07,
+          -1.2890902840320468e-11,
+          1.2890887148959166e-11,
+          -5.005713008553466e-07,
+          -5.005464790668399e-07,
+          -1.2289831686259342e-06,
+          -1.2289616638349904e-06,
+          -2.5168219105436883e-06,
+          -2.5168075896451995e-06,
+          -4.950312312682306e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0716044924417896,
+          0.10752395471993194,
+          0.1241089425335857,
+          0.12890894994639818,
+          0.1241089425335857,
+          0.10752395471887315,
+          0.07160449244390717
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 6.697705252706258e-05,
+            "peak_shear": 7.845288190755362e-06,
+            "peak_stress": 1.3774056242436927e-05,
+            "energy": 4.388933678711737e-07
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.674563029812671e-05,
+            "peak_shear": 1.9614823354441313e-06,
+            "peak_stress": 3.429954987950623e-06,
+            "energy": 1.097314648035308e-07
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.1864967711667815e-06,
+            "peak_shear": 4.903810318923618e-07,
+            "peak_stress": 8.508179527780157e-07,
+            "energy": 2.7433911364838082e-08
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.0466316132661815e-06,
+            "peak_shear": 1.2259544024395552e-07,
+            "peak_stress": 2.093856555802631e-07,
+            "energy": 6.859324219732343e-09
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 0,
+      "compared_to_unsegmented_peak": 1.1784028283425578,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 0.0,
+        "peak_interface_shear_Pa": 13542.891287575805,
+        "peak_tensile_Pa": 49.034366000786505,
+        "total_stored_J_per_m_width": 0.00013334436969939355,
+        "bridge_stored_J_per_m_width": 0.0,
+        "bridge_extensions_m": [
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06,
+          1.3970530282831424e-06
+        ],
+        "shrink_reaction_N_per_m_width": -9.230129563334279e-17,
+        "endpoint_w_m": [
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07,
+          6.985265141415704e-07,
+          -6.985265141415718e-07
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 2.342252101806077e-08,
+            "peak_shear": 2.594260029020745e-09,
+            "peak_stress": 5.074552302433659e-05,
+            "energy": 2.107849228494274e-09
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 5.869351838859622e-09,
+            "peak_shear": 6.5008476379802e-10,
+            "peak_stress": 1.26858926774446e-05,
+            "energy": 5.281941550805413e-10
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.4682338664632163e-09,
+            "peak_shear": 1.626113688146802e-10,
+            "peak_stress": 3.171442660432433e-06,
+            "energy": 1.321385223462812e-10
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 3.6710098766975624e-10,
+            "peak_shear": 4.065980885314957e-11,
+            "peak_stress": 7.928587758556205e-07,
+            "energy": 3.303513018693138e-11
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 0.1,
+      "compared_to_unsegmented_peak": 1.1804148001953922,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 500.0,
+        "peak_interface_shear_Pa": 13566.014039338817,
+        "peak_tensile_Pa": 71.98336785172523,
+        "total_stored_J_per_m_width": 0.00013335160127293493,
+        "bridge_stored_J_per_m_width": 7.147362200716353e-09,
+        "bridge_extensions_m": [
+          1.3178700377826484e-06,
+          1.386775776874913e-06,
+          1.3903785607183318e-06,
+          1.390566934743393e-06,
+          1.390576784008521e-06,
+          1.3905772989839036e-06,
+          1.390577325905908e-06,
+          1.3905773272401363e-06,
+          1.3905773259059084e-06,
+          1.390577298983905e-06,
+          1.3905767840085198e-06,
+          1.390566934743389e-06,
+          1.3903785607183337e-06,
+          1.3867757768749133e-06,
+          1.3178700377826472e-06
+        ],
+        "shrink_reaction_N_per_m_width": -7.762887554996212e-17,
+        "endpoint_w_m": [
+          7.756023533516093e-07,
+          -6.183821177195866e-07,
+          6.994879200630618e-07,
+          -6.912675521770794e-07,
+          6.955082246978336e-07,
+          -6.950784171230681e-07,
+          6.953001435952637e-07,
+          -6.952776708113367e-07,
+          6.952892639320563e-07,
+          -6.95288088927131e-07,
+          6.952886950813901e-07,
+          -6.952886336454745e-07,
+          6.952886653384293e-07,
+          -6.952886621266697e-07,
+          6.952886637792382e-07,
+          -6.952886636200682e-07,
+          6.952886636200681e-07,
+          -6.952886637792384e-07,
+          6.9528866212667e-07,
+          -6.95288665338429e-07,
+          6.95288633645476e-07,
+          -6.952886950813886e-07,
+          6.952880889271312e-07,
+          -6.952892639320562e-07,
+          6.952776708113328e-07,
+          -6.953001435952676e-07,
+          6.950784171230661e-07,
+          -6.955082246978356e-07,
+          6.912675521770775e-07,
+          -6.994879200630637e-07,
+          6.183821177195834e-07,
+          -7.756023533516125e-07
+        ],
+        "bridge_force_N_per_m_width": [
+          0.0006589350188913242,
+          0.0006933878884374565,
+          0.0006951892803591659,
+          0.0006952834673716965,
+          0.0006952883920042605,
+          0.0006952886494919518,
+          0.000695288662952954,
+          0.0006952886636200681,
+          0.0006952886629529542,
+          0.0006952886494919526,
+          0.0006952883920042599,
+          0.0006952834673716945,
+          0.0006951892803591669,
+          0.0006933878884374566,
+          0.0006589350188913235
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 4.081469036322575e-07,
+            "peak_shear": 4.51289784431097e-08,
+            "peak_stress": 5.051107028877766e-05,
+            "energy": 2.0995585270355832e-09
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.0205222903563093e-07,
+            "peak_shear": 1.1283958878394174e-08,
+            "peak_stress": 1.262728216252924e-05,
+            "energy": 5.261124869093692e-10
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 2.5513998063696205e-08,
+            "peak_shear": 2.821093580962497e-09,
+            "peak_stress": 3.156790186613989e-06,
+            "energy": 1.3160050826854786e-10
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 6.378627942000723e-09,
+            "peak_shear": 7.052788353334449e-10,
+            "peak_stress": 7.891956443899062e-07,
+            "energy": 3.291811268013589e-11
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 1,
+      "compared_to_unsegmented_peak": 1.1929664256766994,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 5000.0,
+        "peak_interface_shear_Pa": 13710.264626054395,
+        "peak_tensile_Pa": 269.30601539746425,
+        "total_stored_J_per_m_width": 0.00013341058012024908,
+        "bridge_stored_J_per_m_width": 6.049620966025051e-08,
+        "bridge_extensions_m": [
+          9.53936236332535e-07,
+          1.226172227321608e-06,
+          1.3038633433776044e-06,
+          1.326034715903439e-06,
+          1.3323611254308474e-06,
+          1.3341634276831768e-06,
+          1.334666770144178e-06,
+          1.3347718639290245e-06,
+          1.3346667701441782e-06,
+          1.334163427683176e-06,
+          1.3323611254308455e-06,
+          1.3260347159034427e-06,
+          1.3038633433776037e-06,
+          1.2261722273216059e-06,
+          9.539362363325354e-07
+        ],
+        "shrink_reaction_N_per_m_width": -6.938893903907228e-18,
+        "endpoint_w_m": [
+          1.2564376424035385e-06,
+          -1.1840372741698048e-07,
+          8.355325089155546e-07,
+          -5.107584005153589e-07,
+          7.154138268062491e-07,
+          -6.227293038817364e-07,
+          6.81134039495868e-07,
+          -6.546838713240319e-07,
+          6.71350844579407e-07,
+          -6.638035176952123e-07,
+          6.685576077356351e-07,
+          -6.664074838488522e-07,
+          6.677559438343246e-07,
+          -6.67155462618014e-07,
+          6.67511307526164e-07,
+          -6.673859319645119e-07,
+          6.673859319645126e-07,
+          -6.675113075261633e-07,
+          6.671554626180149e-07,
+          -6.677559438343241e-07,
+          6.664074838488518e-07,
+          -6.685576077356354e-07,
+          6.638035176952102e-07,
+          -6.713508445794091e-07,
+          6.546838713240335e-07,
+          -6.811340394958663e-07,
+          6.227293038817375e-07,
+          -7.154138268062482e-07,
+          5.107584005153576e-07,
+          -8.355325089155559e-07,
+          1.1840372741697953e-07,
+          -1.2564376424035397e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.004769681181662675,
+          0.00613086113660804,
+          0.006519316716888022,
+          0.006630173579517194,
+          0.006661805627154237,
+          0.0066708171384158845,
+          0.00667333385072089,
+          0.006673859319645123,
+          0.006673333850720891,
+          0.00667081713841588,
+          0.006661805627154228,
+          0.006630173579517213,
+          0.006519316716888018,
+          0.006130861136608029,
+          0.0047696811816626775
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 2.3060486474532274e-06,
+            "peak_shear": 2.522980456776125e-07,
+            "peak_stress": 4.838524986297443e-05,
+            "energy": 2.510406993394554e-09
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 5.765366952938274e-07,
+            "peak_shear": 6.307719557785418e-08,
+            "peak_stress": 1.2068632196940143e-05,
+            "energy": 6.28740393082694e-10
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 1.4413573734039836e-07,
+            "peak_shear": 1.5769469952076065e-08,
+            "peak_stress": 3.003551043434527e-06,
+            "energy": 1.5725687418921552e-10
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 3.6034024893509564e-08,
+            "peak_shear": 3.942366877396353e-09,
+            "peak_stress": 7.441274663051445e-07,
+            "energy": 3.931766023868022e-11
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 10,
+      "compared_to_unsegmented_peak": 1.2352101608853527,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 50000.00000000001,
+        "peak_interface_shear_Pa": 14195.75422244021,
+        "peak_tensile_Pa": 1558.7401822193362,
+        "total_stored_J_per_m_width": 0.0001337400175862899,
+        "bridge_stored_J_per_m_width": 2.262200625014861e-07,
+        "bridge_extensions_m": [
+          3.720960677409366e-07,
+          5.985692703430291e-07,
+          7.361755832695262e-07,
+          8.194002366947294e-07,
+          8.690999868859023e-07,
+          8.977299842536466e-07,
+          9.124651325368892e-07,
+          9.169981764171301e-07,
+          9.124651325368894e-07,
+          8.977299842536466e-07,
+          8.690999868859026e-07,
+          8.194002366947294e-07,
+          7.36175583269526e-07,
+          5.985692703430285e-07,
+          3.72096067740937e-07
+        ],
+        "shrink_reaction_N_per_m_width": 3.122502256758253e-17,
+        "endpoint_w_m": [
+          2.874736297022921e-06,
+          1.5643229251147332e-06,
+          1.93641899285567e-06,
+          7.65377789575808e-07,
+          1.363947059918837e-06,
+          2.7767892158982127e-07,
+          1.0138545048593474e-06,
+          -2.099487175627915e-08,
+          7.984053649384503e-07,
+          -2.0549360490967788e-07,
+          6.636063819762244e-07,
+          -3.2205411936659714e-07,
+          5.756758648870495e-07,
+          -3.9988740178016357e-07,
+          5.125777307567257e-07,
+          -4.584990882085649e-07,
+          4.5849908820856525e-07,
+          -5.125777307567252e-07,
+          3.998874017801641e-07,
+          -5.756758648870492e-07,
+          3.2205411936659736e-07,
+          -6.636063819762242e-07,
+          2.0549360490967844e-07,
+          -7.984053649384498e-07,
+          2.099487175627963e-08,
+          -1.0138545048593468e-06,
+          -2.7767892158982084e-07,
+          -1.3639470599188367e-06,
+          -7.653777895758081e-07,
+          -1.93641899285567e-06,
+          -1.5643229251147328e-06,
+          -2.8747362970229208e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.01860480338704683,
+          0.029928463517151456,
+          0.036808779163476316,
+          0.040970011834736475,
+          0.04345499934429512,
+          0.04488649921268233,
+          0.045623256626844466,
+          0.04584990882085651,
+          0.04562325662684447,
+          0.04488649921268233,
+          0.043454999344295135,
+          0.040970011834736475,
+          0.0368087791634763,
+          0.02992846351715143,
+          0.018604803387046853
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 7.0972311412039035e-06,
+            "peak_shear": 7.499317432602126e-07,
+            "peak_stress": 8.452340722033114e-06,
+            "energy": 1.3741098037201027e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 1.7743539997573912e-06,
+            "peak_shear": 1.8748781893673794e-07,
+            "peak_stress": 5.969944005528305e-06,
+            "energy": 3.4359985967569173e-09
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 4.4359152369873874e-07,
+            "peak_shear": 4.6872274173104245e-08,
+            "peak_stress": 9.923724240707088e-07,
+            "energy": 8.590390621066035e-10
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.1089792677034296e-07,
+            "peak_shear": 1.1718073400501794e-08,
+            "peak_stress": 1.2935985519106908e-07,
+            "energy": 2.1475843325902133e-10
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 100,
+      "compared_to_unsegmented_peak": 1.2771794408032238,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 500000.00000000006,
+        "peak_interface_shear_Pa": 14678.089618855549,
+        "peak_tensile_Pa": 3433.617081529324,
+        "total_stored_J_per_m_width": 0.0001341709559360803,
+        "bridge_stored_J_per_m_width": 1.0173905410839123e-07,
+        "bridge_extensions_m": [
+          6.470007908520597e-08,
+          1.1177081729206527e-07,
+          1.457650242367704e-07,
+          1.6997071192356641e-07,
+          1.8672912019413033e-07,
+          1.9766116780250901e-07,
+          2.0382423207848619e-07,
+          2.0581442133414286e-07,
+          2.038242320784861e-07,
+          1.9766116780250896e-07,
+          1.8672912019413012e-07,
+          1.699707119235662e-07,
+          1.4576502423677018e-07,
+          1.1177081729206442e-07,
+          6.470007908520639e-08
+        ],
+        "shrink_reaction_N_per_m_width": -3.191891195797325e-16,
+        "endpoint_w_m": [
+          4.482520951740714e-06,
+          3.2361169924844813e-06,
+          3.3008170715696873e-06,
+          2.314662710266057e-06,
+          2.4264335275581222e-06,
+          1.6290325447738246e-06,
+          1.774797569010595e-06,
+          1.1129104846274622e-06,
+          1.2828811965510286e-06,
+          7.163758026814141e-07,
+          9.031049228755444e-07,
+          4.010745877396257e-07,
+          5.987357555421347e-07,
+          1.3651005011768013e-07,
+          3.403342821961663e-07,
+          -1.0290721066707268e-07,
+          1.0290721066707017e-07,
+          -3.4033428219616897e-07,
+          -1.3651005011768286e-07,
+          -5.987357555421378e-07,
+          -4.0107458773962885e-07,
+          -9.031049228755478e-07,
+          -7.163758026814177e-07,
+          -1.2828811965510328e-06,
+          -1.1129104846274666e-06,
+          -1.7747975690106003e-06,
+          -1.6290325447738301e-06,
+          -2.426433527558129e-06,
+          -2.3146627102660646e-06,
+          -3.3008170715696957e-06,
+          -3.2361169924844893e-06,
+          -4.482520951740721e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.03235003954260299,
+          0.05588540864603264,
+          0.0728825121183852,
+          0.08498535596178322,
+          0.09336456009706517,
+          0.09883058390125452,
+          0.1019121160392431,
+          0.10290721066707144,
+          0.10191211603924306,
+          0.09883058390125449,
+          0.09336456009706508,
+          0.08498535596178311,
+          0.0728825121183851,
+          0.05588540864603222,
+          0.0323500395426032
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.0702103817340485e-05,
+            "peak_shear": 1.0936815424411606e-06,
+            "peak_stress": 2.373733429794811e-06,
+            "energy": 4.9435823878951624e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 2.675573648642799e-06,
+            "peak_shear": 2.734252603220355e-07,
+            "peak_stress": 6.271156671573408e-08,
+            "energy": 1.2359284484730892e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 6.688965614715493e-07,
+            "peak_shear": 6.835663701743044e-08,
+            "peak_stress": 5.647187581416802e-07,
+            "energy": 3.0898283931435344e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.6722427089566449e-07,
+            "peak_shear": 1.7089143211634905e-08,
+            "peak_stress": 1.0351408127462492e-07,
+            "energy": 7.724760830996047e-10
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 10000,
+      "compared_to_unsegmented_peak": 1.287698995218347,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 50000000.00000001,
+        "peak_interface_shear_Pa": 14798.986461947936,
+        "peak_tensile_Pa": 3951.545859142503,
+        "total_stored_J_per_m_width": 0.00013428598476617772,
+        "bridge_stored_J_per_m_width": 1.3270716144853118e-09,
+        "bridge_extensions_m": [
+          7.159053610378849e-10,
+          1.2500635546673542e-09,
+          1.645097917840369e-09,
+          1.93253035356403e-09,
+          2.135296631998679e-09,
+          2.2695765581375676e-09,
+          2.3460850449149847e-09,
+          2.370927113372522e-09,
+          2.3460850449149318e-09,
+          2.2695765581374617e-09,
+          2.135296631998467e-09,
+          1.9325303535636064e-09,
+          1.645097917840369e-09,
+          1.2500635546669307e-09,
+          7.159053610383084e-10
+        ],
+        "shrink_reaction_N_per_m_width": -3.1509517217642724e-14,
+        "endpoint_w_m": [
+          4.885510428715338e-06,
+          3.655150359199173e-06,
+          3.6558662645602107e-06,
+          2.7165737074765623e-06,
+          2.7178237710312297e-06,
+          1.9948864265040357e-06,
+          1.996531524421876e-06,
+          1.4325012312448727e-06,
+          1.4344337615984368e-06,
+          9.845424014339731e-07,
+          9.866776980659718e-07,
+          6.152649080299412e-07,
+          6.175344845880787e-07,
+          2.952021263173928e-07,
+          2.975482113623078e-07,
+          -1.185463556835941e-09,
+          1.185463556536581e-09,
+          -2.975482113626192e-07,
+          -2.9520212631770425e-07,
+          -6.175344845884073e-07,
+          -6.152649080302698e-07,
+          -9.866776980663074e-07,
+          -9.84542401434309e-07,
+          -1.4344337615988546e-06,
+          -1.432501231245291e-06,
+          -1.996531524422367e-06,
+          -1.9948864265045265e-06,
+          -2.7178237710318226e-06,
+          -2.7165737074771557e-06,
+          -3.6558662645609756e-06,
+          -3.6551503591999372e-06,
+          -4.885510428716073e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.03579526805189425,
+          0.06250317773336772,
+          0.08225489589201847,
+          0.09662651767820152,
+          0.10676483159993395,
+          0.1134788279068784,
+          0.11730425224574925,
+          0.11854635566862612,
+          0.1173042522457466,
+          0.11347882790687311,
+          0.10676483159992337,
+          0.09662651767818034,
+          0.08225489589201847,
+          0.06250317773334654,
+          0.03579526805191543
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.1326009626490988e-05,
+            "peak_shear": 1.1479849547635368e-06,
+            "peak_stress": 2.962247552113695e-06,
+            "energy": 6.312329769997405e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 2.831546926420345e-06,
+            "peak_shear": 2.8700072562948264e-07,
+            "peak_stress": 3.201257969521976e-07,
+            "energy": 1.5781087769894953e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.078892392037749e-07,
+            "peak_shear": 7.175044458573865e-08,
+            "peak_stress": 7.99175169049704e-08,
+            "energy": 3.945273663319426e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.7697247289713772e-07,
+            "peak_shear": 1.7937617724506083e-08,
+            "peak_stress": 4.9689870138536204e-08,
+            "energy": 9.863336813964452e-10
+          }
+        }
+      ]
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "beta": 1000000,
+      "compared_to_unsegmented_peak": 1.2878183908757892,
+      "solution": {
+        "geometry": {
+          "wet_length_m": 0.00044999999999999993,
+          "coverage": 0.75,
+          "half_patch_m": 1.4062499999999998e-05
+        },
+        "q_local_Pa": 13333.333333333334,
+        "bridge_K_Pa": 5000000000.0,
+        "peak_interface_shear_Pa": 14800.358626347117,
+        "peak_tensile_Pa": 3957.527391510927,
+        "total_stored_J_per_m_width": 0.00013428730043853592,
+        "bridge_stored_J_per_m_width": 1.330855047078923e-11,
+        "bridge_extensions_m": [
+          7.166874195124647e-12,
+          1.2515687598664392e-11,
+          1.6472345205349292e-11,
+          1.935190011099412e-11,
+          2.1383639958759944e-11,
+          2.2729344209171764e-11,
+          2.3496166003739367e-11,
+          2.3745164348659916e-11,
+          2.3496166003739367e-11,
+          2.2729344209277643e-11,
+          2.1383639958759944e-11,
+          1.9351900110782362e-11,
+          1.647234520450226e-11,
+          1.2515687598240875e-11,
+          7.166874195124647e-12
+        ],
+        "shrink_reaction_N_per_m_width": -2.9781732635569824e-14,
+        "endpoint_w_m": [
+          4.890084310045941e-06,
+          3.659906336718251e-06,
+          3.659913503592446e-06,
+          2.7211535179526352e-06,
+          2.721166033640234e-06,
+          1.999076655572394e-06,
+          1.9990931279175995e-06,
+          1.436179606384887e-06,
+          1.436198958284998e-06,
+          9.876410902185852e-07,
+          9.87662473858544e-07,
+          6.177457475496687e-07,
+          6.177684768938778e-07,
+          2.970402657254314e-07,
+          2.9706376189143513e-07,
+          -1.1872575856802799e-11,
+          1.1872588491857118e-11,
+          -2.9706376187829706e-07,
+          -2.970402657122933e-07,
+          -6.177684768782511e-07,
+          -6.177457475340418e-07,
+          -9.876624738421333e-07,
+          -9.876410902021745e-07,
+          -1.4361989582644347e-06,
+          -1.436179606364324e-06,
+          -1.9990931279169523e-06,
+          -1.999076655571748e-06,
+          -2.721166033667288e-06,
+          -2.72115351797969e-06,
+          -3.6599135036256713e-06,
+          -3.659906336751476e-06,
+          -4.890084310077895e-06
+        ],
+        "bridge_force_N_per_m_width": [
+          0.03583437097562324,
+          0.06257843799332195,
+          0.08236172602674646,
+          0.0967595005549706,
+          0.10691819979379971,
+          0.11364672104585882,
+          0.11748083001869683,
+          0.11872582174329958,
+          0.11748083001869683,
+          0.11364672104638822,
+          0.10691819979379971,
+          0.0967595005539118,
+          0.0823617260225113,
+          0.06257843799120438,
+          0.03583437097562324
+        ]
+      },
+      "meshes": [
+        {
+          "elements_per_patch": 16,
+          "errors": {
+            "endpoint": 1.133232866591926e-05,
+            "peak_shear": 1.1485183311066294e-06,
+            "peak_stress": 4.8100117135618346e-06,
+            "energy": 6.329010870942398e-08
+          }
+        },
+        {
+          "elements_per_patch": 32,
+          "errors": {
+            "endpoint": 2.8331021302417004e-06,
+            "peak_shear": 2.871303838025696e-07,
+            "peak_stress": 1.1972956028330373e-06,
+            "energy": 1.582317854520454e-08
+          }
+        },
+        {
+          "elements_per_patch": 64,
+          "errors": {
+            "endpoint": 7.082953166242708e-07,
+            "peak_shear": 7.178366800975056e-08,
+            "peak_stress": 2.967143892419699e-07,
+            "energy": 3.956372340851999e-09
+          }
+        },
+        {
+          "elements_per_patch": 128,
+          "errors": {
+            "endpoint": 1.770446721220892e-07,
+            "peak_shear": 1.7942190844166817e-08,
+            "peak_stress": 7.290574576472864e-08,
+            "energy": 9.89763826453327e-10
+          }
+        }
+      ]
+    }
+  ],
+  "conditional_crossings": [
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "status": "conditional equal-peak boundary",
+      "beta": 9.719464889463346,
+      "K_bridge_Pa": 48597.324447316736
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "status": "conditional equal-peak boundary",
+      "beta": 17.21386032549647,
+      "K_bridge_Pa": 86069.30162748236
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "status": "conditional equal-peak boundary",
+      "beta": 16.49785497227036,
+      "K_bridge_Pa": 82489.27486135182
+    },
+    {
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "status": "conditional equal-peak boundary",
+      "beta": 8.754342287714802,
+      "K_bridge_Pa": 43771.71143857401
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "status": "no initial peak benefit",
+      "beta": null
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "status": "conditional equal-peak boundary",
+      "beta": 0.33607143353842417,
+      "K_bridge_Pa": 1680.3571676921213
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "status": "no initial peak benefit",
+      "beta": null
+    },
+    {
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "status": "no initial peak benefit",
+      "beta": null
+    }
+  ],
+  "design_budgets": [
+    {
+      "beta": 100.0,
+      "maximum_wet_path_load_fraction_for_original_free_shear": 0.5803012765291622,
+      "required_dry_load_path_fraction_for_shear": 0.4196987234708378,
+      "original_shrink_strain_magnitude": 0.05,
+      "shrink_strain_magnitude_for_original_free_tension": 0.0032740486728672006,
+      "stress_unchanged_by_half_load_bypass_Pa": 4005.905928041019,
+      "low_shrink_peak_shear_Pa": 2357.770828070619,
+      "limitation": "Conditional targets at unchanged E,k,bridge stiffness; material changes may change all coefficients"
+    },
+    {
+      "beta": 1000000.0,
+      "maximum_wet_path_load_fraction_for_original_free_shear": 0.5558474439087635,
+      "required_dry_load_path_fraction_for_shear": 0.4441525560912365,
+      "original_shrink_strain_magnitude": 0.05,
+      "shrink_strain_magnitude_for_original_free_tension": 0.003052277826890936,
+      "stress_unchanged_by_half_load_bypass_Pa": 4296.964998331456,
+      "low_shrink_peak_shear_Pa": 2354.8093144451736,
+      "limitation": "Conditional targets at unchanged E,k,bridge stiffness; material changes may change all coefficients"
+    }
+  ],
+  "limits": [
+    "All mechanical inputs hypothetical; no ice modulus or bridge area adopted",
+    "Zero natural extension of gap springs; no ice expansion, creep, fracture or growth kinetics",
+    "Uniform top load acts only on wet patches; bridge carries no external distributed top load",
+    "Same footprint and patch thickness, not same total wet phase mass",
+    "Gaps retain no foundation; outer ends are free; complete grain curvature not modeled"
+  ]
+}
