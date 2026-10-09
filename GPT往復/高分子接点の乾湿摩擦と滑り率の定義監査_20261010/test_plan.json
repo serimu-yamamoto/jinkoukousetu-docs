@@ -1,0 +1,27 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "priority_source_check": "original diameter drawing and machine slip convention",
+  "material_routes": [
+    "PE",
+    "PEEK",
+    "PK/UHMWPE contact compound",
+    "retained molecular crystal"
+  ],
+  "conditions": [
+    "actual ski sole at50C",
+    "dry single-wet drained redried",
+    "actual relative contact velocity and grain rotation",
+    "new/worn material crossed with new/worn sole",
+    "both-side wear and released particles",
+    "edge support and release winter connection rain recovery safety and costs"
+  ],
+  "limits": [
+    "No graph friction coefficients adopted",
+    "No general water-lubrication benefit presumed",
+    "Relative-slip heat not complete grain-bed energy"
+  ]
+}

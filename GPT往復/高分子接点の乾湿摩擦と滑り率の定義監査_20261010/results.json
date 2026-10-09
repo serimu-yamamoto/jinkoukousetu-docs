@@ -1,0 +1,52 @@
+{
+  "cycle": 126,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/局部圧力と乾式接点検証_20261008/sources.md": "9f789d91f2b0bcc2fb4fe6425c05634cc157acd6e26b633924468e9a7fec5b7c",
+    "GPT往復/滑走面と回転摩耗検証_20261009/sources.md": "145e11815f5c6f0edd65ee65b8fc09825998825347be339dc6e6e1f616b71f7f"
+  },
+  "conditional_equal_diameter_cases": [
+    {
+      "source_label": 0.03,
+      "relative_speed": 0.06000000000000005,
+      "entrainment_speed": 0.97,
+      "one_surface_fraction": 0.06000000000000005,
+      "symmetric_fraction": 0.06185567010309284,
+      "half_symmetric_fraction": 0.03092783505154642,
+      "implied_diameter_ratios": {
+        "one_surface": 1.0319148936170213,
+        "symmetric": 1.0323865422911644,
+        "half_symmetric": 1.0018591200165254
+      },
+      "illustrative_power_W": 2.9999999999999982,
+      "illustrative_full_sliding_power_W": 50.0,
+      "full_over_rolling_sliding_power": 16.666666666666675
+    },
+    {
+      "source_label": 0.3,
+      "relative_speed": 0.4666666666666667,
+      "entrainment_speed": 0.7666666666666666,
+      "one_surface_fraction": 0.4666666666666667,
+      "symmetric_fraction": 0.6086956521739131,
+      "half_symmetric_fraction": 0.30434782608695654,
+      "implied_diameter_ratios": {
+        "one_surface": 1.3125,
+        "symmetric": 1.3858695652173916,
+        "half_symmetric": 1.0096153846153846
+      },
+      "illustrative_power_W": 23.333333333333336,
+      "illustrative_full_sliding_power_W": 50.0,
+      "full_over_rolling_sliding_power": 2.142857142857143
+    }
+  ],
+  "limits": [
+    "Disk diameters in AppendixB drawing not independently read",
+    "Equal diameters are conditional scenario, not confirmed source geometry",
+    "Three reported-slip conventions kept separate",
+    "No raw COF curves digitized or adopted",
+    "5m/s mu.1 and100N power example not fitted experiment",
+    "Power excludes lower grain contact rolling deformation and ploughing",
+    "No50C skiing safety or environmental certification"
+  ]
+}

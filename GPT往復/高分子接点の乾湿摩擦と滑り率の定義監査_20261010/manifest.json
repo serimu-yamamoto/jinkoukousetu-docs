@@ -1,0 +1,119 @@
+{
+  "cycle": 126,
+  "base_commit": "5676ebf8a9487aa1dfed4e7a0ac7460e5f73b6b4",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第126巡_水で滑るとは限らない接点と相対速度の監査_20261010.md",
+      "bytes": 7152,
+      "sha256": "512cd76601a4e1f06dce290c6e1498ccb44f574ba91278a5da36bb52c1f27d10"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 81433,
+      "sha256": "31e3de1a29bdb1ec380785b36fabf3d372ff6a48bf52750cbb8a1d99eb5b7671"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/README.md",
+      "bytes": 606,
+      "sha256": "02a82bfb2fc4d0772d7421519d9b933f1404b3ca026042eaca5708e2285a0c69"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/claude_handoff.md",
+      "bytes": 1261,
+      "sha256": "f392b59f82eddf522ce2e0ee57b36d5a5916faade21c7d533826242c811a8d51"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "ebca19a77de47bcb7fa41f27ac294ef62f508529aa411da5585bac7b07543d4c"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/inputs.json",
+      "bytes": 1064,
+      "sha256": "344013b8c9147334a704da729ad417a0b22c3a153493aedf5906819b5a3c3fd7"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/model.md",
+      "bytes": 1147,
+      "sha256": "9fa8283db01eab9cb627dc9251d0a078d41cc14c7963d48e841a2efa56b62d19"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "88dbe847a7384661b11ecc327eaca654a39cad0c19e57ba4222eee16782feb2a"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/reproduce.py",
+      "bytes": 3304,
+      "sha256": "67425d820a07c3992fb9eeff1c8c5d42ecf8684d1700313798798c72fd5257a4"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/research_state.json",
+      "bytes": 823,
+      "sha256": "81bba887429c5fe809cb60d6949db093927de27dab8b0c71f69073664da0c03f"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/results.json",
+      "bytes": 2086,
+      "sha256": "0ca17239f3ffb0d10390d9e4e27b9433e1b99a95647a85ab7ac3a4160665220f"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/sources.json",
+      "bytes": 1541,
+      "sha256": "314995b23aa8d8d44099e482d6ea84a7a56d2e8359d06a52a96666f2f3541f4b"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/test_plan.json",
+      "bytes": 850,
+      "sha256": "d9cef7e9dacff52b0ede24c04686304b31d6cb4e85e9881e7d7ac477eeac4e77"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/validation.json",
+      "bytes": 1313,
+      "sha256": "741a958b6b7d4d393068609555b9e2233f422166481e8420d265031e622e69ca"
+    },
+    {
+      "path": "README.md",
+      "bytes": 91729,
+      "sha256": "61f8481f93e2dfa7d5054f0099bb0525c711034aba1cdf8c91cbc00db68c7f6c"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 205800,
+      "sha256": "e9e40aa73a7d2919e5e4b775c842729a30937fb8e7b63fbbd30cf0fd80e3e6e7"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 6956,
+      "sha256": "43c6cd304ef0d384cf21b4bf2820f12ef6d7cbf1ebca835494eb228e435403a2"
+    },
+    {
+      "path": "計算部品/rolling_slip_audit.py",
+      "bytes": 1348,
+      "sha256": "aaa4b00d1e686e7c491bde69f1dbc94902b3366ffcf63b809fae575f22a54b36"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 46170,
+      "sha256": "883a15e802593d8a0b17fbc2055160d50bf386fa1ac0921913bdd34d4d53f3ed"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 237741,
+      "sha256": "2b00ba7bd438f3fb3847052d03b7a6bfecbf6ee8bdc9f29ea73a67dcfd24dfe9"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/局部圧力と乾式接点検証_20261008/sources.md",
+      "bytes": 4000,
+      "sha256": "9f789d91f2b0bcc2fb4fe6425c05634cc157acd6e26b633924468e9a7fec5b7c"
+    },
+    {
+      "path": "GPT往復/滑走面と回転摩耗検証_20261009/sources.md",
+      "bytes": 3432,
+      "sha256": "145e11815f5c6f0edd65ee65b8fc09825998825347be339dc6e6e1f616b71f7f"
+    }
+  ]
+}

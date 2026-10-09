@@ -1,0 +1,16 @@
+{
+  "cycle": 126,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress:125 normalized3D audit published verified cleaned",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "candidate": "H126 open draining contact evaluated across dry wet drained redried actual-sole states and explicit relative speed",
+  "status": "New primary thesis changes water-lubrication assumption; slip labels need diameter/control verification",
+  "next": [
+    "verify source dimensional drawing and convention",
+    "actual sole friction and both-side wear across wet/dry history",
+    "keep edge support winter safety warm formation cost requirements"
+  ],
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}

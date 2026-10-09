@@ -1,0 +1,29 @@
+[
+  {
+    "id": "new_primary_thesis",
+    "title": "Tribological Behaviour of Polymer Materials for Gear Applications",
+    "author": "Sandra Frlic",
+    "institution": "Luleå University of Technology",
+    "year": 2016,
+    "url": "https://www.diva-portal.org/smash/get/diva2:1028424/FULLTEXT02",
+    "pdf_bytes": 6409063,
+    "pdf_sha256": "6ca02c10a916fc03b783f4d1bbb477f3b475e7331f6fb1f737daf9735aff4521",
+    "pdf_pages": 81,
+    "read_date": "2026-10-10",
+    "scope": "Title abstract; PDF21-27 relevant methods,44/46 result narrative,61 conclusion,63 future-work; appendix textual locator only. Extraction using installed pypdf on server. No independently rendered figures/drawing, no graph digitization, no full81page reading.",
+    "limits": "Master thesis; room temperature rolling-sliding, equipment vibration limitations. Diameter unconfirmed. Conditional speed audit not confirmed author error. No50C dry-ski or safety qualification."
+  },
+  {
+    "id": "reused33",
+    "repository_path": "GPT往復/局部圧力と乾式接点検証_20261008/sources.md"
+  },
+  {
+    "id": "reused54",
+    "repository_path": "GPT往復/滑走面と回転摩耗検証_20261009/sources.md",
+    "scope": "Campo/Sherrington secondary abstract previously insufficient; its COF numbers remain unadopted. Oil-infused matting search result also not adopted."
+  },
+  {
+    "id": "assumptions",
+    "scope": "Equal diameters and example5m/s mu.1 N100. Algebra only, no fitted coefficient or temperature. RPM entries transcribed fromTable6 text."
+  }
+]

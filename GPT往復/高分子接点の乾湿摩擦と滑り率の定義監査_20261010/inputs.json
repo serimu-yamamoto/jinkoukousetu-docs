@@ -1,0 +1,37 @@
+{
+  "source": {
+    "title": "Tribological Behaviour of Polymer Materials for Gear Applications",
+    "author": "Sandra Frlic",
+    "year": 2016,
+    "table6": [
+      {
+        "label_fraction": 0.03,
+        "rpm1": 750,
+        "rpm2": 705
+      },
+      {
+        "label_fraction": 0.3,
+        "rpm1": 750,
+        "rpm2": 400
+      }
+    ],
+    "declared_room_temperature": true,
+    "normal_force_N": 100,
+    "geometry_diameter_verified": false
+  },
+  "assumed": {
+    "equal_diameter_ratio": 1,
+    "illustrative_v1_m_s": 5,
+    "illustrative_mu": 0.1,
+    "illustrative_normal_force_N": 100
+  },
+  "limits": [
+    "Disk diameters in AppendixB drawing not independently read",
+    "Equal diameters are conditional scenario, not confirmed source geometry",
+    "Three reported-slip conventions kept separate",
+    "No raw COF curves digitized or adopted",
+    "5m/s mu.1 and100N power example not fitted experiment",
+    "Power excludes lower grain contact rolling deformation and ploughing",
+    "No50C skiing safety or environmental certification"
+  ]
+}
