@@ -1,0 +1,35 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "candidate_families": "Reuse117 four shape families, no new invented probability",
+  "regimes": [
+    "unloaded slope",
+    "ski-supported bed",
+    "edge release and recovery"
+  ],
+  "fixture_checks": [
+    "top normal load",
+    "vertical reaction of upper sidewall",
+    "weight above shear plane",
+    "diameter and wall finish sensitivity",
+    "quasistatic force balance, inertia correction for dynamic trials"
+  ],
+  "DEM_checks": [
+    "analytic geometry versus sphere clumps if supported",
+    "fixed material parameters across shape resolution",
+    "convergence of support and postpeak release",
+    "local stress distinct from boundary nominal stress"
+  ],
+  "required_field_conditions": [
+    "30C50C dry wet redry",
+    "4-5h use and60min restoration",
+    "wear and residual grain safety",
+    "winter connection and drainage",
+    "warm spray formation",
+    "actual cost"
+  ],
+  "actions": "Specifications only. No purchase paid API manufacture field release or third-party messaging."
+}

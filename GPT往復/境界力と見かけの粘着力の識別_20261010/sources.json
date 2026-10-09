@@ -1,0 +1,22 @@
+[
+  {
+    "id": "S1",
+    "title": "Yielding, rigidity, and tensile stress in sheared columns of hexapod granules",
+    "url": "https://arxiv.org/pdf/2002.09800v2",
+    "journal_doi": "10.1103/PhysRevE.101.062903",
+    "version": "v2 revised2020-07-03",
+    "accessed": "2026-10-10",
+    "read_scope": "Primary Methods and Results pp2-4,6-7,10-11 via text extraction. No curve digitization or raw-data acquisition.",
+    "critical_limit": "Nominal fitted cohesion may contain wall forces; pressure variables and model surfaces differ. Not50C wet ski-bed data."
+  },
+  {
+    "id": "prior105",
+    "repository_path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json",
+    "scope": "Assumed dry bulk density150kg/m3 only."
+  },
+  {
+    "id": "prior98",
+    "repository_path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/inputs.json",
+    "scope": "5/20/50kPa single-contact nominal pressure assumptions; not interchangeable with bed local stress."
+  }
+]

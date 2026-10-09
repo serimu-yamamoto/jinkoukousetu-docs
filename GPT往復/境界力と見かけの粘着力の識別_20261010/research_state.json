@@ -1,0 +1,18 @@
+{
+  "cycle": 118,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress:117 primary entanglement experiments and machine dwell audit published verified cleaned",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "candidate": "H118 evaluate117 grain shapes separately under unloaded slope, ski load and postedge release; discriminate fixture support from intrinsic strength",
+  "status": "New primary body evidence invalidates direct apparent-cohesion transfer; counterexamples and pressure scales verified, no physical material validation",
+  "next": [
+    "Acquire primary raw shear curves and actual wall-force data if available",
+    "Audit DEM sphere-clump surface artifacts before tuning friction",
+    "Validate low-load slope and loaded support as separate requirements",
+    "Retain warm spray and safe dry/wet50C interface chemistry as unresolved independent routes",
+    "Use measured complete formulation and equipment costs before success claims"
+  ],
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}

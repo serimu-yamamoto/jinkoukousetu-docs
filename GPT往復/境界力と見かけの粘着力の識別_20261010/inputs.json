@@ -1,0 +1,64 @@
+{
+  "reported": {
+    "nominal_fit_alpha3_3": {
+      "slope": 1.78,
+      "intercept_pa": 290,
+      "note": "Published experiment fit; not intrinsic material values. Uncertainty not propagated into constructed counterexamples."
+    },
+    "cell_diameter_m": 0.096,
+    "shear_speed_m_s": 0.0001,
+    "particle_L_m": [
+      0.01,
+      0.02,
+      0.03
+    ],
+    "particle_arm_d_m": 0.003
+  },
+  "assumed": {
+    "nominal_pressures_pa": [
+      0,
+      50,
+      200,
+      500,
+      1000
+    ],
+    "wall_offsets_cases": [
+      {
+        "name": "intrinsic_only",
+        "mu": 1.78,
+        "c_pa": 290,
+        "a": 0,
+        "b_pa": 0
+      },
+      {
+        "name": "wall_offset_only",
+        "mu": 1.78,
+        "c_pa": 0,
+        "a": 0,
+        "b_pa": 162.92134831460675
+      },
+      {
+        "name": "wall_gain_and_offset",
+        "mu": 1,
+        "c_pa": 0,
+        "a": 0.78,
+        "b_pa": 290
+      }
+    ],
+    "diameter_multipliers": [
+      1,
+      2,
+      4
+    ],
+    "engaged_height_m": 0.05,
+    "wall_shear_pa": 100,
+    "normal_depths_m": [
+      0.005,
+      0.02,
+      0.45
+    ],
+    "slope_deg": 30
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}

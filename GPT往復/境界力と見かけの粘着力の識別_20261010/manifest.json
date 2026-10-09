@@ -1,0 +1,124 @@
+{
+  "cycle": 118,
+  "base_commit": "e8b37598e08dfc203b33389d9d6b12a92d653e30",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第118巡_容器の支えを素材の粘着力と混同しない_20261010.md",
+      "bytes": 8611,
+      "sha256": "348cfbb6bf8bc372ffde0970e801391d7df0f3f04a03ed62e1a8c0215620768c"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 76586,
+      "sha256": "46c2bb6fa90ca1a2128e558349afeb220563b4299a66efa89e2802a3d4a862fd"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/README.md",
+      "bytes": 677,
+      "sha256": "c91ce78165aeefc0b136b78a8b667e94bc59b205f59b8208a36fb6c58d9a4f7c"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/claude_handoff.md",
+      "bytes": 1649,
+      "sha256": "13a9a759ca54305613b8572e1af0d11c2ea225ce808f8f59f85e6eda713e852a"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "997e48e9b10c43921255feb8d43197892ea2593d6667132beff29eb69e113882"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/inputs.json",
+      "bytes": 1204,
+      "sha256": "b746e89656e611625d961c60e4671288443b82f5bdc9eafdfb6761a8f45fa379"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/model.md",
+      "bytes": 982,
+      "sha256": "8f460de1d879f53ac74c246879abd16a955fd30a459fead95de46b079d98944c"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "28f8c13da8c992e516ab4afbce95a7cb17f2284dd7408910fcb3336ba6ede097"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/reproduce.py",
+      "bytes": 3941,
+      "sha256": "8008a7bc5f7079ed30ae3eefac69e545168c336d22310816b6ca3fa2c9f98e16"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/research_state.json",
+      "bytes": 1149,
+      "sha256": "0e8470efd0b3fe93cd722156c0b3f8beacb62de20368b341dfed05cdfc7ec5c4"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/results.json",
+      "bytes": 6638,
+      "sha256": "4122d2ac9c14eaf0859ab076b4a1a1c68ae48c7034883464c2068c070d45ac04"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/source_acquisition.json",
+      "bytes": 361,
+      "sha256": "a34783d5047e140a17738a9979e05ab51f628527e9f901c6ebd45cf176bc3384"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/sources.json",
+      "bytes": 1012,
+      "sha256": "2f0c0c830c5ca12d1b69082c3abef362815638018f897d009dd5de862ec39d88"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/test_plan.json",
+      "bytes": 1156,
+      "sha256": "f01c90e72167327a5f1df29c8e8a78353b05defd6745e393cc4b0dd36e70987c"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/validation.json",
+      "bytes": 2684,
+      "sha256": "9db4450b7d873e6e9c1d6334db50b67fa76a7396ee4456ab51f87aaf6c49b84b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 86762,
+      "sha256": "1397cdde4889d667901a2f173a6ba09cb0d2649d08e80a361b8617ac4a87f1b4"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 197058,
+      "sha256": "c07c5a728042fe27aadd7bd91e90cd41f6941db3edd12490d3bdadd3c28b5fad"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 4602,
+      "sha256": "f80253d67fd70f0a94ae0ec66d7fabe6c4d89799ba9bc4499da83cc99ac2729f"
+    },
+    {
+      "path": "計算部品/boundary_pressure.py",
+      "bytes": 1673,
+      "sha256": "b4af0ec3399f94577eb57522fed4bcaf9edf5ec402af5d815c638e39c3d64b9e"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 40626,
+      "sha256": "bb42e7e23b8e17325b3df34e5feab718f6fd453bba586e136202c1a189016537"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 235259,
+      "sha256": "7b0a201b7d2a657acce1573186a9e2f49a7d4ce16b0fc1d31528c1813cafa798"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json",
+      "bytes": 4759,
+      "sha256": "78289c28e125e1866bef6e5f8a2fae3c727b1aebabad9b121832c32d3e813920"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/inputs.json",
+      "bytes": 1365,
+      "sha256": "269fb9e0014d19fdc6fb4c1da8697f7522c48944b8e7347bb9db5a5cef153760"
+    }
+  ]
+}

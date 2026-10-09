@@ -1,0 +1,208 @@
+{
+  "cycle": 118,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json": "78289c28e125e1866bef6e5f8a2fae3c727b1aebabad9b121832c32d3e813920",
+    "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/inputs.json": "269fb9e0014d19fdc6fb4c1da8697f7522c48944b8e7347bb9db5a5cef153760"
+  },
+  "constructed_identical_nominal_curves": [
+    {
+      "nominal_pressure_pa": 0,
+      "local_pressure_pa_assumed": 0,
+      "shear_stress_pa": 290.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "intrinsic_only"
+    },
+    {
+      "nominal_pressure_pa": 50,
+      "local_pressure_pa_assumed": 50,
+      "shear_stress_pa": 379.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "intrinsic_only"
+    },
+    {
+      "nominal_pressure_pa": 200,
+      "local_pressure_pa_assumed": 200,
+      "shear_stress_pa": 646.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "intrinsic_only"
+    },
+    {
+      "nominal_pressure_pa": 500,
+      "local_pressure_pa_assumed": 500,
+      "shear_stress_pa": 1180.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "intrinsic_only"
+    },
+    {
+      "nominal_pressure_pa": 1000,
+      "local_pressure_pa_assumed": 1000,
+      "shear_stress_pa": 2070.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "intrinsic_only"
+    },
+    {
+      "nominal_pressure_pa": 0,
+      "local_pressure_pa_assumed": 162.92134831460675,
+      "shear_stress_pa": 290.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "wall_offset_only"
+    },
+    {
+      "nominal_pressure_pa": 50,
+      "local_pressure_pa_assumed": 212.92134831460675,
+      "shear_stress_pa": 379.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "wall_offset_only"
+    },
+    {
+      "nominal_pressure_pa": 200,
+      "local_pressure_pa_assumed": 362.92134831460675,
+      "shear_stress_pa": 646.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "wall_offset_only"
+    },
+    {
+      "nominal_pressure_pa": 500,
+      "local_pressure_pa_assumed": 662.9213483146068,
+      "shear_stress_pa": 1180.0000000000002,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "wall_offset_only"
+    },
+    {
+      "nominal_pressure_pa": 1000,
+      "local_pressure_pa_assumed": 1162.9213483146068,
+      "shear_stress_pa": 2070.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290.0,
+      "case": "wall_offset_only"
+    },
+    {
+      "nominal_pressure_pa": 0,
+      "local_pressure_pa_assumed": 290.0,
+      "shear_stress_pa": 290.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290,
+      "case": "wall_gain_and_offset"
+    },
+    {
+      "nominal_pressure_pa": 50,
+      "local_pressure_pa_assumed": 379.0,
+      "shear_stress_pa": 379.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290,
+      "case": "wall_gain_and_offset"
+    },
+    {
+      "nominal_pressure_pa": 200,
+      "local_pressure_pa_assumed": 646.0,
+      "shear_stress_pa": 646.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290,
+      "case": "wall_gain_and_offset"
+    },
+    {
+      "nominal_pressure_pa": 500,
+      "local_pressure_pa_assumed": 1180.0,
+      "shear_stress_pa": 1180.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290,
+      "case": "wall_gain_and_offset"
+    },
+    {
+      "nominal_pressure_pa": 1000,
+      "local_pressure_pa_assumed": 2070.0,
+      "shear_stress_pa": 2070.0,
+      "apparent_slope": 1.78,
+      "apparent_intercept_pa": 290,
+      "case": "wall_gain_and_offset"
+    }
+  ],
+  "no_wall_zero_pressure_limits_pa": [
+    290.0,
+    0.0,
+    0
+  ],
+  "wall_scaling": [
+    {
+      "diameter_m": 0.096,
+      "engaged_height_m_assumed": 0.05,
+      "wall_shear_pa_assumed": 100,
+      "wall_force_N": 1.5079644737231008,
+      "cross_section_area_m2": 0.007238229473870883,
+      "pressure_offset_pa": 208.33333333333334
+    },
+    {
+      "diameter_m": 0.192,
+      "engaged_height_m_assumed": 0.05,
+      "wall_shear_pa_assumed": 100,
+      "wall_force_N": 3.0159289474462017,
+      "cross_section_area_m2": 0.028952917895483533,
+      "pressure_offset_pa": 104.16666666666667
+    },
+    {
+      "diameter_m": 0.384,
+      "engaged_height_m_assumed": 0.05,
+      "wall_shear_pa_assumed": 100,
+      "wall_force_N": 6.031857894892403,
+      "cross_section_area_m2": 0.11581167158193413,
+      "pressure_offset_pa": 52.083333333333336
+    }
+  ],
+  "self_weight_scale_comparisons": [
+    {
+      "normal_depth_m_assumed": 0.005,
+      "bulk_density_kg_m3_assumed": 150,
+      "self_weight_normal_pressure_pa": 6.365286717815625,
+      "published_apparent_intercept_over_pressure": 45.55961307890924,
+      "prior98_contact_pressure_ratio": [
+        785.5105703260214,
+        3142.0422813040855,
+        7855.105703260213
+      ],
+      "warning": "Ratios compare scales only; prior98 pressure is single-contact nominal force/area, not the local bed stress here"
+    },
+    {
+      "normal_depth_m_assumed": 0.02,
+      "bulk_density_kg_m3_assumed": 150,
+      "self_weight_normal_pressure_pa": 25.4611468712625,
+      "published_apparent_intercept_over_pressure": 11.38990326972731,
+      "prior98_contact_pressure_ratio": [
+        196.37764258150534,
+        785.5105703260214,
+        1963.7764258150532
+      ],
+      "warning": "Ratios compare scales only; prior98 pressure is single-contact nominal force/area, not the local bed stress here"
+    },
+    {
+      "normal_depth_m_assumed": 0.45,
+      "bulk_density_kg_m3_assumed": 150,
+      "self_weight_normal_pressure_pa": 572.8758046034062,
+      "published_apparent_intercept_over_pressure": 0.5062179230989916,
+      "prior98_contact_pressure_ratio": [
+        8.727895225844682,
+        34.91158090337873,
+        87.27895225844682
+      ],
+      "warning": "Ratios compare scales only; prior98 pressure is single-contact nominal force/area, not the local bed stress here"
+    }
+  ],
+  "missing": [
+    "wall traction measured by location",
+    "shear-plane stress",
+    "actual50C wet properties",
+    "continuous load-release path",
+    "raw source curves and uncertainty covariance"
+  ],
+  "caveat": "Diagnostic counterexamples, not corrected source coefficients or artificial-firn strength. Internal material friction, bed friction, contact friction and ski-base friction remain distinct."
+}
