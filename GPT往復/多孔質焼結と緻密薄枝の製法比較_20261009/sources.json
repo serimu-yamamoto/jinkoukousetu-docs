@@ -1,0 +1,87 @@
+[
+  {
+    "id": "S1",
+    "title": "Mitsui Chemicals MIPELON manufacturer brochure",
+    "url": "https://tw.mitsuichemicals.com/rwd1438/store/F3/MIPELON_EN.pdf",
+    "accessed": "2026-10-09",
+    "read_scope": "PDF physical-property table on page 5 and particle-size page 6 visually inspected",
+    "sha256": "c1c5fe50efb8b6d47124518757e5b56ecdacd5579119b45c876a1e713a97006f",
+    "claims": [
+      "Typical average sizes: XM-220 30 um; XM-221U 25 um; PM-200 10 um.",
+      "PM-200 labelled Development product. Typical values are not quality-assurance specifications."
+    ],
+    "not_proven": [
+      "Current supply, powder price, uniform 15 um surface skin, 50 C ski friction, finished-product safety"
+    ],
+    "source_file_republished": false
+  },
+  {
+    "id": "S2",
+    "title": "Mitsui Chemicals UHMW-PE applications",
+    "url": "https://jp.mitsuichemicals.com/en/special/uhmw-pe/application/",
+    "accessed": "2026-10-09",
+    "claims": [
+      "Fine-powder grades listed for sintered filters.",
+      "L3000 and L8100-R2 listed for extrusion."
+    ],
+    "not_proven": [
+      "115-154 um production sheet at required speed/yield, branch forming, winter performance"
+    ]
+  },
+  {
+    "id": "S3",
+    "title": "Mitsui Chemicals LUBMER features",
+    "url": "https://jp.mitsuichemicals.com/en/special/uhmw-pe/features/lubmer/",
+    "accessed": "2026-10-09",
+    "claims": [
+      "Special PE, undisclosed molecular weight, injection/extrusion pellets.",
+      "Published ring sliding conditions: 23 C, S45C, 0.75 MPa, 30 m/min, 3 km."
+    ],
+    "not_proven": [
+      "Same microstructure as sintered UHMWPE, 50 C UHMWPE ski contact, absence of additives"
+    ]
+  },
+  {
+    "id": "S4",
+    "title": "Mitsui Chemicals LUBMER Japanese grade table",
+    "url": "https://jp.mitsuichemicals.com/jp/special/uhmw-pe/assets/image/technical_data/table_lubmer01.png",
+    "parent_url": "https://jp.mitsuichemicals.com/jp/special/uhmw-pe/technical_data/lubmer/",
+    "accessed": "2026-10-09",
+    "read_scope": "Image visually inspected",
+    "values": {
+      "L3000": {
+        "density_kg_m3": 969,
+        "tensile_modulus_MPa": 1450,
+        "elongation_at_break_percent": 10,
+        "HDT_at_1_8MPa_C": 50,
+        "relative_wear_table_value": 85
+      },
+      "L8100-R2": {
+        "density_kg_m3": 963,
+        "tensile_modulus_MPa": 992,
+        "elongation_at_break_percent": 290,
+        "HDT_at_1_8MPa_C": 48,
+        "relative_wear_table_value": 1500
+      }
+    },
+    "cautions": [
+      "English table density unit reads g/cm3 but numbers are 969/963. Japanese table explicitly kg/m3; use Japanese units.",
+      "Parent-page footnotes appear mismatched to the table. Do not silently repair test-method or load notation.",
+      "Table values are not measured 50 C finished-film properties. HDT is a load-dependent test indicator, not a service-temperature approval."
+    ],
+    "source_file_republished": false,
+    "sha256": "9dbf5ddf30bc34fd31fedffbd1fd399bcf453bf27182bcf4824115fd6a1ffadb"
+  },
+  {
+    "id": "S5",
+    "title": "IAPWS surface tension release, inherited via cycle 86",
+    "url": "https://iapws.org/technical-guidance/release/Surf-H2O",
+    "accessed": "2026-10-09; landing page rechecked, numerical correlation inherited from cycle 86",
+    "claims": [
+      "Pure-water surface tension correlation used at 323.15 K; inherited model value about 0.06794 N/m."
+    ],
+    "not_proven": [
+      "Actual contact angle, contamination, rain geometry or free-grain motion"
+    ]
+  }
+]

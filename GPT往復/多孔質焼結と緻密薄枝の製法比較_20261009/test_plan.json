@@ -1,0 +1,242 @@
+[
+  {
+    "id": "C91-01",
+    "route": "P_XM220",
+    "batch_group": "P_XM220-1",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-02",
+    "route": "P_XM220",
+    "batch_group": "P_XM220-1",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-03",
+    "route": "P_XM220",
+    "batch_group": "P_XM220-2",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-04",
+    "route": "P_XM220",
+    "batch_group": "P_XM220-2",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-05",
+    "route": "P_XM220",
+    "batch_group": "P_XM220-3",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-06",
+    "route": "P_XM220",
+    "batch_group": "P_XM220-3",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-07",
+    "route": "P_XM221U",
+    "batch_group": "P_XM221U-1",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-08",
+    "route": "P_XM221U",
+    "batch_group": "P_XM221U-1",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-09",
+    "route": "P_XM221U",
+    "batch_group": "P_XM221U-2",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-10",
+    "route": "P_XM221U",
+    "batch_group": "P_XM221U-2",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-11",
+    "route": "P_XM221U",
+    "batch_group": "P_XM221U-3",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-12",
+    "route": "P_XM221U",
+    "batch_group": "P_XM221U-3",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-13",
+    "route": "D_L3000",
+    "batch_group": "D_L3000-1",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-14",
+    "route": "D_L3000",
+    "batch_group": "D_L3000-1",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-15",
+    "route": "D_L3000",
+    "batch_group": "D_L3000-2",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-16",
+    "route": "D_L3000",
+    "batch_group": "D_L3000-2",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-17",
+    "route": "D_L3000",
+    "batch_group": "D_L3000-3",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-18",
+    "route": "D_L3000",
+    "batch_group": "D_L3000-3",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-19",
+    "route": "D_L8100R2",
+    "batch_group": "D_L8100R2-1",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-20",
+    "route": "D_L8100R2",
+    "batch_group": "D_L8100R2-1",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-21",
+    "route": "D_L8100R2",
+    "batch_group": "D_L8100R2-2",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-22",
+    "route": "D_L8100R2",
+    "batch_group": "D_L8100R2-2",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-23",
+    "route": "D_L8100R2",
+    "batch_group": "D_L8100R2-3",
+    "condition": "dry_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "C91-24",
+    "route": "D_L8100R2",
+    "batch_group": "D_L8100R2-3",
+    "condition": "wet_drained_50C",
+    "independent_of_other_condition_same_batch": false,
+    "requires_separate_specimen": true,
+    "status": "not_run",
+    "measurements": null
+  }
+]

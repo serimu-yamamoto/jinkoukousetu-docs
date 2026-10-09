@@ -1,0 +1,131 @@
+{
+  "cycle": 91,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "515d8e26852dca1118c77744de271fc25eca1b1d",
+  "hash_algorithm": "SHA-256",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第91巡_内部孔に頼らない薄枝と製造費の両立_20261009.md",
+      "bytes": 14237,
+      "sha256": "ec4ce5790b3a36d8b9cd8ac4deeb25c0918568537c7647841e886efcf48054ba"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 60010,
+      "sha256": "73071191e3ce4af5665cb23e63d7b4abd52d0a3f5c64349ac24662c5dd1bb768"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/README.md",
+      "bytes": 1498,
+      "sha256": "2d0f445f7d4c268d54378a894fac7538dbdf9cff8f73ec71aa5f5f57dfeb4b54"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/audit.py",
+      "bytes": 5313,
+      "sha256": "996ec6a5e934be7c17c91f6b0300b154b341b794f95cc068a9de4e87078fe63e"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/claude_handoff.md",
+      "bytes": 2787,
+      "sha256": "c394ce5cf041420a480bf93c6ed9be4a5740db58534d316d28d5b596638f7b4f"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/document_audit.json",
+      "bytes": 5349,
+      "sha256": "eb8ebdaa480684742f5aa1ac0afb75fc42401d403e4bc7192ec570896327592b"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/draw.py",
+      "bytes": 5339,
+      "sha256": "b5eda6bbf4e088fb9ff6fa3426025069e6d0c0df3088fc53b6036e6be30f1289"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/index_changes.json",
+      "bytes": 4087,
+      "sha256": "3c667a7392f77f90d268984621ccb775fefa3a8332c8d0c17ee9fc07d6bcbd76"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/inputs.json",
+      "bytes": 2627,
+      "sha256": "80845b08dfa22134330c7e7f056e5443f1c240473bbb93efbb916686f1d38830"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/manufacture_cost_boundary.png",
+      "bytes": 183022,
+      "sha256": "58d922c5cf834a8142fda2d2670bcbe4e8ec716a5131d09f9c22c4db253d4a01"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/mass_stiffness_wet.png",
+      "bytes": 169013,
+      "sha256": "ae8f3e0d2ebf3f04b59fe7e1b0633d9e13351b447f3fe4ee9cf4cdfb5ddc8f0e"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/model.md",
+      "bytes": 4141,
+      "sha256": "99c7d29f71b1736f7c1872679a8d78f12fad83d1a1d6a98f62ebb21efbaa5d62"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/plot_metadata.json",
+      "bytes": 235,
+      "sha256": "124d9560a066708d074074bcfb66e2a11f6f0c3ec5c82b8023685da412607890"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/reproduce.py",
+      "bytes": 10913,
+      "sha256": "ac812ffec04f80e9439fe691cf16376cb550beda19b4cdf3569a807567e65331"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/research_state.json",
+      "bytes": 1011,
+      "sha256": "c38c913b8ae025b2ad1b2cbbb563396021842500b9f1c23dc69b140b096f7515"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/results.json",
+      "bytes": 205475,
+      "sha256": "da3b792a4cffbfe39ea0312af61bd6540052fffc3887ce8fdd5f75ebc70f23dd"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/sources.json",
+      "bytes": 3520,
+      "sha256": "e09d5742af7aefd5ec8ad3f940057d54f6bae69a35669454c493bb75545e7ddf"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/test_plan.json",
+      "bytes": 6351,
+      "sha256": "7525c01112e2afaaf1ba30524134cec509e8acbca413f6b35675baf3bcfcaaf4"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/test_protocol.md",
+      "bytes": 5852,
+      "sha256": "3977cdfa618699642af9f488bdb0c9a67c266fe3034bf715f90e6dc8b056726e"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/validation.json",
+      "bytes": 3020,
+      "sha256": "8dbc917cf519d054ec6345d7d8c3db74f5dc934a57dd2dc9772a631aca24cc61"
+    },
+    {
+      "path": "README.md",
+      "bytes": 69841,
+      "sha256": "0ee6980799df0d4cd3099cda8a8578256a5f89c3e1fb0620df81bc15352f2260"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 168133,
+      "sha256": "c1c21ba0e9ac2fe25870ce45b939028abddd4f3b7d827ae1a87724c9561387b1"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 21346,
+      "sha256": "b1733a7e0bfdcc1cd307aefbff386d8925645421d6af08a3fae8575ded84e41e"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 225983,
+      "sha256": "dc17beea48fe7bf4c5182fc2f8cc31987da49beb9720e89984c67038378a0a57"
+    }
+  ]
+}

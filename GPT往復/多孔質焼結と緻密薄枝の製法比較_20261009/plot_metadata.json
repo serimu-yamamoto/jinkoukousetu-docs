@@ -1,0 +1,9 @@
+{
+  "original_figures": [
+    "mass_stiffness_wet.png",
+    "manufacture_cost_boundary.png"
+  ],
+  "source": "results.json; proposed outline dimensions in inputs.json",
+  "physical_test_data": false,
+  "visual_review_required": true
+}

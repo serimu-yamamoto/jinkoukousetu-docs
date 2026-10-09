@@ -1,0 +1,94 @@
+{
+  "cycle": 91,
+  "date": "2026-10-09",
+  "base_commit": "515d8e26852dca1118c77744de271fc25eca1b1d",
+  "reference": {
+    "initial_thickness_m": 0.0002,
+    "porosity": 0.4,
+    "initial_dense_depth_m": 0.000025,
+    "solid_density_kg_m3_assumed": 930,
+    "skin_modulus_Pa_assumed": 500000000,
+    "core_modulus_ratio_assumed": 0.36,
+    "poisson_ratio_assumed": 0.4,
+    "span_m": 0.00222,
+    "arm_length_m": 0.00075,
+    "arm_width_m": 0.00072,
+    "hole_m": 0.0003,
+    "tile_area_m2": 0.0000028125,
+    "nominal_pressure_Pa_assumed": 2000
+  },
+  "comparison": {
+    "dense_to_skin_modulus_ratios_assumed": [
+      0.2,
+      0.5,
+      1,
+      2,
+      3
+    ],
+    "density_cases_kg_m3": [
+      930,
+      963,
+      969
+    ],
+    "same_mass_and_same_bending_are_per_particle_at_equal_outline": true,
+    "measured_50C_moduli": null
+  },
+  "wet": {
+    "temperature_K": 323.15,
+    "critical_temperature_K": 647.096,
+    "B_N_m": 0.2358,
+    "exponent": 1.256,
+    "b": -0.625,
+    "gaps_m_assumed": [
+      0.00002,
+      0.00005,
+      0.0001
+    ],
+    "cos_angle_assumed": 1,
+    "closure_fraction_diagnostic_limit": 0.1,
+    "all_particle_roots_fixed": true,
+    "free_translation_included": false,
+    "scope": "Full-face uniform minimum-gap Laplace pressure; analytical screen, not rain test or particle-bed simulation"
+  },
+  "cost": {
+    "reference_area_m2": 2000,
+    "reference_depth_m": 0.45,
+    "reference_bed_density_kg_m3_assumed": 150,
+    "quality_yield_assumed": 0.9,
+    "reject_recovery_assumed": 0.9,
+    "powder_price_yen_kg_ex_tax_assumed": 500,
+    "dense_price_yen_kg_ex_tax_assumed": [
+      500,
+      800,
+      1200
+    ],
+    "powder_all_conversion_yen_per_processed_kg_ex_tax_assumed": [
+      100,
+      300,
+      600
+    ],
+    "campaign_h_assumed": 2304,
+    "web_width_m_assumed": 1,
+    "basis": "Same particle count and same external bed volume, packing equivalence unproven. Conversion includes energy, labor, tool wear, forming, cutting, QC and apportioned equipment; values are scenarios, no quote.",
+    "actual_quote": null
+  },
+  "powders": [
+    {
+      "grade": "MIPELON XM-220",
+      "mean_size_um": 30,
+      "source_status": "typical manufacturer brochure; availability unconfirmed"
+    },
+    {
+      "grade": "MIPELON XM-221U",
+      "mean_size_um": 25,
+      "source_status": "typical manufacturer brochure; availability unconfirmed"
+    },
+    {
+      "grade": "MIPELON PM-200",
+      "mean_size_um": 10,
+      "source_status": "development product in cited brochure; supply unconfirmed"
+    }
+  ],
+  "physical_experiments": 0,
+  "success_probability": null
+}

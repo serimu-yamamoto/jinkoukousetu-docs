@@ -1,0 +1,147 @@
+{
+  "count": 35,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "base_layers_conserve_solid_volume",
+      "passed": true
+    },
+    {
+      "name": "base_final_thickness_180um",
+      "passed": true
+    },
+    {
+      "name": "base_D_matches_cycle86",
+      "passed": true
+    },
+    {
+      "name": "layer_quadrature_converges",
+      "passed": true
+    },
+    {
+      "name": "dense_bending_closed_form",
+      "passed": true
+    },
+    {
+      "name": "dense_shear_closed_form",
+      "passed": true
+    },
+    {
+      "name": "equal_mass_constant_rho_stiffness_ratio",
+      "passed": true
+    },
+    {
+      "name": "equal_mass_all_density_cases",
+      "passed": true
+    },
+    {
+      "name": "equal_bending_all_moduli",
+      "passed": true
+    },
+    {
+      "name": "equal_bending_thickness_cube_relation",
+      "passed": true
+    },
+    {
+      "name": "two_equalities_require_specific_E",
+      "passed": true
+    },
+    {
+      "name": "inverse_modulus_compliance_equal_mass",
+      "passed": true
+    },
+    {
+      "name": "surface_tension_matches_50C",
+      "passed": true
+    },
+    {
+      "name": "wet_equilibrium_satisfies_quadratic",
+      "passed": true
+    },
+    {
+      "name": "wet_gap_inverse_square",
+      "passed": true
+    },
+    {
+      "name": "baseline_20um_has_equilibrium",
+      "passed": true
+    },
+    {
+      "name": "dense_equalmass_20um_counterexample",
+      "passed": true
+    },
+    {
+      "name": "dense_equalmass_50um_below_10percent",
+      "passed": true
+    },
+    {
+      "name": "softer_dense_50um_exceeds_10percent",
+      "passed": true
+    },
+    {
+      "name": "critical_gap_reproduces_fold",
+      "passed": true
+    },
+    {
+      "name": "10percent_gap_above_fold",
+      "passed": true
+    },
+    {
+      "name": "mass_reference_135t",
+      "passed": true
+    },
+    {
+      "name": "same_inventory_particle_number_preserved",
+      "passed": true
+    },
+    {
+      "name": "gross_yield_balance",
+      "passed": true
+    },
+    {
+      "name": "same_inventory_web_speed_preserved",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_identity_equal_mass",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_identity_equal_bending",
+      "passed": true
+    },
+    {
+      "name": "equal_bending_more_material_at_same_E_rho",
+      "passed": true
+    },
+    {
+      "name": "fine_powder_not_uniform_skin_evidence",
+      "passed": true
+    },
+    {
+      "name": "unmeasured_success",
+      "passed": true
+    },
+    {
+      "name": "mass_stiffness_frontier_930",
+      "passed": true
+    },
+    {
+      "name": "mass_stiffness_frontier_963",
+      "passed": true
+    },
+    {
+      "name": "mass_stiffness_frontier_969",
+      "passed": true
+    },
+    {
+      "name": "price_limit_balance_equal_mass",
+      "passed": true
+    },
+    {
+      "name": "price_limit_balance_equal_bending",
+      "passed": true
+    }
+  ],
+  "scope": "Arithmetic, conservation, inverse and counterexample checks; not physical validation"
+}
