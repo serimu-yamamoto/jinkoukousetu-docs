@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "cycle": 98,
+  "date": "2026-10-10",
+  "base_commit": "297450f72a46e703d48150f3892e5a78a1af3d4e",
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "parameters": "All model inputs below are assumed diagnostics, not measured artificial-firn properties."
+  },
+  "pressure_kPa": [
+    5,
+    20,
+    50
+  ],
+  "particle_contact_mu": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "escape_run_mm": 0.5,
+  "escape_height_mm": [
+    0,
+    0.02,
+    0.1,
+    0.2
+  ],
+  "path_profiles": [
+    "straight",
+    "cosine"
+  ],
+  "release_c0_kPa": 3,
+  "pressure_ratio_diagnostic": 0.3,
+  "tolerance": {
+    "nominal_h_mm": 0.015,
+    "plus_h_mm": 0.005,
+    "nominal_run_mm": 0.5,
+    "minus_run_mm": 0.05
+  },
+  "cost": {
+    "inventory_kg": 135000,
+    "incremental_processing_JPY_kg": [
+      20,
+      100,
+      300
+    ],
+    "tooling_JPY": [
+      1000000,
+      5000000
+    ],
+    "replacement_JPY_kg": 1200,
+    "events": 150
+  },
+  "source_conditions": {
+    "snow_test_temperature_C": -10,
+    "snow_shear_mm_min": 0.8,
+    "snow_diameter_mm": 61.8,
+    "snow_height_mm": 20,
+    "artificial_service_target_C": 50
+  },
+  "source_inputs_not_material_calibration": true,
+  "orientation": {
+    "local_straight_slope": 0.04,
+    "uphill_tilt_deg": [
+      0,
+      5,
+      15,
+      30,
+      60
+    ],
+    "mu": 0.2
+  }
+}

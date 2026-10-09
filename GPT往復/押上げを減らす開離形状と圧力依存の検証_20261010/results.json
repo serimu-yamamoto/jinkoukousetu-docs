@@ -1,0 +1,1023 @@
+{
+  "orientation": {
+    "cases": [
+      {
+        "tilt_deg": 0,
+        "total_slope": 0.04,
+        "ramp_ratio": 0.24193548387096775
+      },
+      {
+        "tilt_deg": 5,
+        "total_slope": 0.12793638285200654,
+        "ramp_ratio": 0.33654772250693005
+      },
+      {
+        "tilt_deg": 15,
+        "total_slope": 0.31128554080205856,
+        "ramp_ratio": 0.5452299828144364
+      },
+      {
+        "tilt_deg": 30,
+        "total_slope": 0.631944399966978,
+        "ramp_ratio": 0.9523051858138992
+      },
+      {
+        "tilt_deg": 60,
+        "total_slope": 1.9039611021513136,
+        "ramp_ratio": 3.3978273070362133
+      }
+    ],
+    "diagnostic_max_uphill_tilt_deg": 3.098701717334878
+  },
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "parameters": "All model inputs below are assumed diagnostics, not measured artificial-firn properties."
+  },
+  "rows": [
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.1,
+      "work_J_m2": 1.0,
+      "friction_J_m2": 0.25,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.1,
+      "work_J_m2": 1.75,
+      "friction_J_m2": 1.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.1,
+      "work_J_m2": 3.25,
+      "friction_J_m2": 2.5,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.2,
+      "work_J_m2": 1.25,
+      "friction_J_m2": 0.5,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.2,
+      "work_J_m2": 2.75,
+      "friction_J_m2": 2.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.2,
+      "work_J_m2": 5.75,
+      "friction_J_m2": 5.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.4,
+      "work_J_m2": 1.75,
+      "friction_J_m2": 1.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.4,
+      "work_J_m2": 4.75,
+      "friction_J_m2": 4.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.4,
+      "work_J_m2": 10.75,
+      "friction_J_m2": 10.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.14056224899598396,
+      "work_J_m2": 1.1014056224899598,
+      "friction_J_m2": 0.25140562248995985,
+      "lift_J_m2": 0.1,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.14056224899598396,
+      "work_J_m2": 2.1556224899598395,
+      "friction_J_m2": 1.0056224899598394,
+      "lift_J_m2": 0.4,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.14056224899598396,
+      "work_J_m2": 4.2640562248995995,
+      "friction_J_m2": 2.5140562248995986,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.24193548387096775,
+      "work_J_m2": 1.3548387096774193,
+      "friction_J_m2": 0.5048387096774194,
+      "lift_J_m2": 0.1,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.24193548387096775,
+      "work_J_m2": 3.1693548387096775,
+      "friction_J_m2": 2.0193548387096776,
+      "lift_J_m2": 0.4,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.24193548387096775,
+      "work_J_m2": 6.798387096774193,
+      "friction_J_m2": 5.048387096774194,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.44715447154471544,
+      "work_J_m2": 1.8678861788617886,
+      "friction_J_m2": 1.0178861788617888,
+      "lift_J_m2": 0.1,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.44715447154471544,
+      "work_J_m2": 5.221544715447154,
+      "friction_J_m2": 4.071544715447155,
+      "lift_J_m2": 0.4,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.44715447154471544,
+      "work_J_m2": 11.928861788617885,
+      "friction_J_m2": 10.178861788617887,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.3061224489795919,
+      "work_J_m2": 1.5153061224489799,
+      "friction_J_m2": 0.2653061224489796,
+      "lift_J_m2": 0.5,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.3061224489795919,
+      "work_J_m2": 3.8112244897959195,
+      "friction_J_m2": 1.0612244897959184,
+      "lift_J_m2": 2.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.3061224489795919,
+      "work_J_m2": 8.403061224489797,
+      "friction_J_m2": 2.653061224489796,
+      "lift_J_m2": 5.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.4166666666666667,
+      "work_J_m2": 1.791666666666667,
+      "friction_J_m2": 0.5416666666666667,
+      "lift_J_m2": 0.5,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.4166666666666667,
+      "work_J_m2": 4.916666666666666,
+      "friction_J_m2": 2.166666666666667,
+      "lift_J_m2": 2.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.4166666666666667,
+      "work_J_m2": 11.166666666666666,
+      "friction_J_m2": 5.416666666666666,
+      "lift_J_m2": 5.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.6521739130434784,
+      "work_J_m2": 2.380434782608696,
+      "friction_J_m2": 1.1304347826086956,
+      "lift_J_m2": 0.5,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.6521739130434784,
+      "work_J_m2": 7.271739130434784,
+      "friction_J_m2": 4.521739130434782,
+      "lift_J_m2": 2.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.6521739130434784,
+      "work_J_m2": 17.05434782608696,
+      "friction_J_m2": 11.304347826086957,
+      "lift_J_m2": 5.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.5208333333333334,
+      "work_J_m2": 2.0520833333333335,
+      "friction_J_m2": 0.30208333333333337,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.5208333333333334,
+      "work_J_m2": 5.958333333333333,
+      "friction_J_m2": 1.2083333333333335,
+      "lift_J_m2": 4.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.5208333333333334,
+      "work_J_m2": 13.770833333333336,
+      "friction_J_m2": 3.020833333333334,
+      "lift_J_m2": 10.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.6521739130434784,
+      "work_J_m2": 2.380434782608696,
+      "friction_J_m2": 0.6304347826086958,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.6521739130434784,
+      "work_J_m2": 7.271739130434784,
+      "friction_J_m2": 2.521739130434783,
+      "lift_J_m2": 4.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.6521739130434784,
+      "work_J_m2": 17.05434782608696,
+      "friction_J_m2": 6.304347826086958,
+      "lift_J_m2": 10.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.9523809523809524,
+      "work_J_m2": 3.130952380952381,
+      "friction_J_m2": 1.380952380952381,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.9523809523809524,
+      "work_J_m2": 10.273809523809524,
+      "friction_J_m2": 5.523809523809524,
+      "lift_J_m2": 4.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "straight",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.9523809523809524,
+      "work_J_m2": 24.55952380952381,
+      "friction_J_m2": 13.809523809523814,
+      "lift_J_m2": 10.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.1,
+      "work_J_m2": 1.0,
+      "friction_J_m2": 0.25,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.1,
+      "work_J_m2": 1.75,
+      "friction_J_m2": 1.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.1,
+      "work_J_m2": 3.25,
+      "friction_J_m2": 2.5,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.2,
+      "work_J_m2": 1.25,
+      "friction_J_m2": 0.5,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.2,
+      "work_J_m2": 2.75,
+      "friction_J_m2": 2.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.2,
+      "work_J_m2": 5.75,
+      "friction_J_m2": 5.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.4,
+      "work_J_m2": 1.75,
+      "friction_J_m2": 1.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.4,
+      "work_J_m2": 4.75,
+      "friction_J_m2": 4.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.4,
+      "work_J_m2": 10.75,
+      "friction_J_m2": 10.0,
+      "lift_J_m2": 0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.16386142476831367,
+      "work_J_m2": 1.1015010880776297,
+      "friction_J_m2": 0.2515010880776264,
+      "lift_J_m2": 0.1,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.16386142476831367,
+      "work_J_m2": 2.156004352310519,
+      "friction_J_m2": 1.0060043523105056,
+      "lift_J_m2": 0.4,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.16386142476831367,
+      "work_J_m2": 4.265010880776297,
+      "friction_J_m2": 2.5150108807762637,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.2661767284909306,
+      "work_J_m2": 1.3550375105047554,
+      "friction_J_m2": 0.5050375105047521,
+      "lift_J_m2": 0.1,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.2661767284909306,
+      "work_J_m2": 3.170150042019022,
+      "friction_J_m2": 2.0201500420190084,
+      "lift_J_m2": 0.4,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.2661767284909306,
+      "work_J_m2": 6.8003751050475545,
+      "friction_J_m2": 5.050375105047521,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.4747639731537882,
+      "work_J_m2": 1.8683397061994547,
+      "friction_J_m2": 1.0183397061994512,
+      "lift_J_m2": 0.1,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.4747639731537882,
+      "work_J_m2": 5.223358824797819,
+      "friction_J_m2": 4.073358824797805,
+      "lift_J_m2": 0.4,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.02,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.4747639731537882,
+      "work_J_m2": 11.933397061994546,
+      "friction_J_m2": 10.183397061994512,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.4275924792751912,
+      "work_J_m2": 1.5178021458310118,
+      "friction_J_m2": 0.2678021458309949,
+      "lift_J_m2": 0.5,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.4275924792751912,
+      "work_J_m2": 3.8212085833240472,
+      "friction_J_m2": 1.0712085833239795,
+      "lift_J_m2": 2.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.4275924792751912,
+      "work_J_m2": 8.428021458310118,
+      "friction_J_m2": 2.678021458309949,
+      "lift_J_m2": 5.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.5486307521699931,
+      "work_J_m2": 1.7971101235490774,
+      "friction_J_m2": 0.5471101235490605,
+      "lift_J_m2": 0.5,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.5486307521699931,
+      "work_J_m2": 4.93844049419631,
+      "friction_J_m2": 2.188440494196242,
+      "lift_J_m2": 2.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.5486307521699931,
+      "work_J_m2": 11.221101235490774,
+      "friction_J_m2": 5.471101235490607,
+      "lift_J_m2": 5.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.8168015789543163,
+      "work_J_m2": 2.3941149113723665,
+      "friction_J_m2": 1.1441149113723494,
+      "lift_J_m2": 0.5,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.8168015789543163,
+      "work_J_m2": 7.326459645489466,
+      "friction_J_m2": 4.576459645489398,
+      "lift_J_m2": 2.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.1,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.8168015789543163,
+      "work_J_m2": 17.191149113723664,
+      "friction_J_m2": 11.441149113723496,
+      "lift_J_m2": 5.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.7771481917147944,
+      "work_J_m2": 2.062656201508785,
+      "friction_J_m2": 0.31265620150875134,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.7771481917147944,
+      "work_J_m2": 6.00062480603514,
+      "friction_J_m2": 1.2506248060350054,
+      "lift_J_m2": 4.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.1,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.7771481917147944,
+      "work_J_m2": 13.87656201508785,
+      "friction_J_m2": 3.126562015087513,
+      "lift_J_m2": 10.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 5,
+      "max_ramp_ratio": 0.9473683484698083,
+      "work_J_m2": 2.4049646686676915,
+      "friction_J_m2": 0.6549646686676578,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 20,
+      "max_ramp_ratio": 0.9473683484698083,
+      "work_J_m2": 7.369858674670767,
+      "friction_J_m2": 2.619858674670631,
+      "lift_J_m2": 4.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.2,
+      "p_kPa": 50,
+      "max_ramp_ratio": 0.9473683484698083,
+      "work_J_m2": 17.299646686676915,
+      "friction_J_m2": 6.549646686676578,
+      "lift_J_m2": 10.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 5,
+      "max_ramp_ratio": 1.37352234821293,
+      "work_J_m2": 3.201884720313149,
+      "friction_J_m2": 1.451884720313115,
+      "lift_J_m2": 1.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 20,
+      "max_ramp_ratio": 1.37352234821293,
+      "work_J_m2": 10.557538881252595,
+      "friction_J_m2": 5.80753888125246,
+      "lift_J_m2": 4.0,
+      "parallel_release_J_m2": 0.75
+    },
+    {
+      "profile": "cosine",
+      "h_mm": 0.2,
+      "run_mm": 0.5,
+      "mu": 0.4,
+      "p_kPa": 50,
+      "max_ramp_ratio": 1.37352234821293,
+      "work_J_m2": 25.26884720313149,
+      "friction_J_m2": 14.51884720313115,
+      "lift_J_m2": 10.0,
+      "parallel_release_J_m2": 0.75
+    }
+  ],
+  "single_pressure_match": {
+    "deep_c0_kPa": 3,
+    "shallow_c0_kPa": 11.204768583450212,
+    "cases": [
+      {
+        "p_kPa": 5,
+        "deep_kPa": 6.2608695652173925,
+        "shallow_kPa": 12.41444600280505
+      },
+      {
+        "p_kPa": 20,
+        "deep_kPa": 16.04347826086957,
+        "shallow_kPa": 16.043478260869566
+      },
+      {
+        "p_kPa": 50,
+        "deep_kPa": 35.60869565217392,
+        "shallow_kPa": 23.301542776998602
+      }
+    ]
+  },
+  "inverse": [
+    {
+      "mu": 0.1,
+      "feasible": true,
+      "d_max": 0.19417475728155337,
+      "straight_h_max_mm": 0.09708737864077668,
+      "cosine_h_max_mm": 0.061807744890056436
+    },
+    {
+      "mu": 0.2,
+      "feasible": true,
+      "d_max": 0.09433962264150941,
+      "straight_h_max_mm": 0.047169811320754707,
+      "cosine_h_max_mm": 0.030029234545640625
+    },
+    {
+      "mu": 0.3,
+      "feasible": true,
+      "d_max": 0.0,
+      "straight_h_max_mm": 0.0,
+      "cosine_h_max_mm": 0.0
+    },
+    {
+      "mu": 0.4,
+      "feasible": false,
+      "d_max": null,
+      "straight_h_max_mm": null,
+      "cosine_h_max_mm": null
+    }
+  ],
+  "tolerance": {
+    "worst_h_mm": 0.02,
+    "worst_run_mm": 0.45,
+    "d_max": 0.06981317007977318,
+    "ratio_at_mu02": 0.273633818948134,
+    "ratio_at_mu04": 0.48330972365527475
+  },
+  "rain": {
+    "mu": 0.2,
+    "p_kPa": 20,
+    "c0_kPa": 3,
+    "before_h_mm": 0.02,
+    "after_h_mm": 0.2,
+    "run_mm": 0.5,
+    "before_kPa": 7.838709677419355,
+    "after_kPa": 16.04347826086957,
+    "ratio": 2.04669887278583
+  },
+  "apparatus": {
+    "source_area_m2": 0.0029996240815740698,
+    "normal_load_N_at_25_kPa": 74.99060203935174,
+    "normal_load_N_at_100_kPa": 299.96240815740697,
+    "source_rate_m_s": 1.3333333333333333e-05,
+    "source_six_mm_duration_s": 449.99999999999994
+  },
+  "cost": [
+    {
+      "processing_JPY_kg": 20,
+      "tooling_JPY": 1000000,
+      "incremental_JPY": 3700000,
+      "required_loss_reduction_fraction_per_event": 0.0001522633744855967,
+      "required_loss_reduction_percentage_points_per_event": 0.01522633744855967
+    },
+    {
+      "processing_JPY_kg": 20,
+      "tooling_JPY": 5000000,
+      "incremental_JPY": 7700000,
+      "required_loss_reduction_fraction_per_event": 0.00031687242798353907,
+      "required_loss_reduction_percentage_points_per_event": 0.03168724279835391
+    },
+    {
+      "processing_JPY_kg": 100,
+      "tooling_JPY": 1000000,
+      "incremental_JPY": 14500000,
+      "required_loss_reduction_fraction_per_event": 0.0005967078189300411,
+      "required_loss_reduction_percentage_points_per_event": 0.05967078189300411
+    },
+    {
+      "processing_JPY_kg": 100,
+      "tooling_JPY": 5000000,
+      "incremental_JPY": 18500000,
+      "required_loss_reduction_fraction_per_event": 0.0007613168724279835,
+      "required_loss_reduction_percentage_points_per_event": 0.07613168724279835
+    },
+    {
+      "processing_JPY_kg": 300,
+      "tooling_JPY": 1000000,
+      "incremental_JPY": 41500000,
+      "required_loss_reduction_fraction_per_event": 0.0017078189300411522,
+      "required_loss_reduction_percentage_points_per_event": 0.17078189300411523
+    },
+    {
+      "processing_JPY_kg": 300,
+      "tooling_JPY": 5000000,
+      "incremental_JPY": 45500000,
+      "required_loss_reduction_fraction_per_event": 0.0018724279835390946,
+      "required_loss_reduction_percentage_points_per_event": 0.18724279835390947
+    }
+  ]
+}

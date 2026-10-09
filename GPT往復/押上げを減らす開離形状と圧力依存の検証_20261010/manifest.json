@@ -1,0 +1,130 @@
+{
+  "cycle": 98,
+  "base_commit": "297450f72a46e703d48150f3892e5a78a1af3d4e",
+  "date": "2026-10-10",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第98巡_粒が外れるときの押上げを減らす形状と圧力条件_20261010.md",
+      "bytes": 12527,
+      "sha256": "2d93e395117c88664424b01949dbc00ce8e2a2a983afc51c75a3b9b662122a85"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 63491,
+      "sha256": "457210f1e4b09f0b6f2cc1055c5a84f912d22ae91b54432e850cffd4b9643af1"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/README.md",
+      "bytes": 1329,
+      "sha256": "b1875bb4e4a5e1042d72a1cfc61ed05a6c11a71e172973612940a629dc54b642"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/audit.py",
+      "bytes": 3477,
+      "sha256": "c5e09d7a6dbff8269d1b53f7dba4bfa396deda1897ca47bd4beda001a5f7b8c1"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/claude_handoff.md",
+      "bytes": 1539,
+      "sha256": "f798cc5ccc579f0219f8e68493a8face68fcfaed9b554e965c5b0cb72811ff1f"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/concept.png",
+      "bytes": 78771,
+      "sha256": "4294bea848ed0d1f2d352995d09ad96fab414f609bf5b870c84ca43369f9af2e"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/document_audit.json",
+      "bytes": 16493,
+      "sha256": "6c67e44edebac41dd7c13f3e7ddf750798632c5022a5c90a1405aa1eb6af5332"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/index_changes.json",
+      "bytes": 5342,
+      "sha256": "1335460ed9ce6d8b6299f334eaf5bd3753a0bc3c73db86c0b923dae55fa8a027"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/inputs.json",
+      "bytes": 1365,
+      "sha256": "269fb9e0014d19fdc6fb4c1da8697f7522c48944b8e7347bb9db5a5cef153760"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/make_figures.py",
+      "bytes": 3619,
+      "sha256": "ff2cb8dacbf755092090053affa5bcf8e417ed45411af9b28d3c61bb20d97ded"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/model.md",
+      "bytes": 2184,
+      "sha256": "6f4b736d3dd0b91322b0e696e46ae80d5bc84b0e98fa358a133563072a85f309"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/pressure_and_release.png",
+      "bytes": 219102,
+      "sha256": "2f714a4b6edcf219a052ee070e5c8dfb979da2f2a4c848d1ea6da1376c9f056c"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/reproduce.py",
+      "bytes": 6205,
+      "sha256": "fc23db138ec5cceb1cff507be829860ca6cb036c34d645b73a592df41d576464"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/requirements.txt",
+      "bytes": 19,
+      "sha256": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/research_state.json",
+      "bytes": 1422,
+      "sha256": "9d6a1786fb3a5a84c257c135a68fc607783e4ea4f0197c04c1d8b55adfe2b9ea"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/results.json",
+      "bytes": 25267,
+      "sha256": "065ae9f492f3970c090e2dc5ccce6f200ff579a99f924e44bf4aaddf0ce856f6"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/sources.md",
+      "bytes": 1990,
+      "sha256": "4cc7fc70fd094c5a35642489bf956af818bfb7809b384a42dc049acd953a3dee"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/test_plan.json",
+      "bytes": 34839,
+      "sha256": "e8c0483cab1a2f7bedfa718f0e0ab44604b512456f407d89c949f430d4230ebe"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/test_plan.md",
+      "bytes": 2137,
+      "sha256": "5df6c8c14fb22c3a669bf80bb0e12185cff3ea121707b8f9fc21d2e876d69f22"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/validation.json",
+      "bytes": 4506,
+      "sha256": "98372a85f981ac5e651b36cc8ebb243d0c5dad4d05540fcd6ad0180814135955"
+    },
+    {
+      "path": "README.md",
+      "bytes": 73367,
+      "sha256": "a710525d1d85a4fe54051b318f76d72744ef9f57396b3fa6617222c5482757bd"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 173921,
+      "sha256": "a3641c2b904d033c9d4b48b35e0091277207c2ac1bcbb3641c6640f0009d706d"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 24084,
+      "sha256": "fc5211970c626ce2746c3775aead8c6fc9f628e2df5e5258fef7f902dec84a6e"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 228732,
+      "sha256": "cb54c4b2041969a7fc146ef25d3d59ead7fdff0403f15b898223790d777c5b27"
+    }
+  ]
+}
