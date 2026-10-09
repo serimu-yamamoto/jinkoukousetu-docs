@@ -1,0 +1,72 @@
+{
+  "cycle": 72,
+  "physical_tests": 0,
+  "success_probability": null,
+  "packages": [
+    {
+      "id": "T72-01",
+      "title": "実ソール基準",
+      "spec": "新雪圧雪の摩擦・始動・エッジ侵入・横支持・短い解放・振動を同じ装置とソールで基準化する。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-02",
+      "title": "形と有限厚さ",
+      "spec": "Q72とR8の先端を同材で比較し、実形状・皮膜/芯・ソール有限厚さ・接点間干渉を含む法線接触解析で校正する。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-03",
+      "title": "係数・荷重変動",
+      "spec": "25/50℃、乾燥・雨直後・排水後・再乾燥で係数と接触面積を測り、仮のE比を置換する。せん断抵抗τ0,bも実ソールで同定する。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-04",
+      "title": "片当たり",
+      "spec": "先端の傾き・回転、法線力と接線力、反力位置、支持剛性を測る。モーメント釣合いだけを弾性接触解としない。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-05",
+      "title": "摩耗と安全",
+      "spec": "繰返し・多方向摩耗後の形状と滑走、破片・溶出・残留加工材と曝露を調べる。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-06",
+      "title": "粒床と掘れ",
+      "spec": "450mm床で300mm掘れ・上下混合・エッジ解放と支持を確認。R39保持層が露出しないことを確認する。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-07",
+      "title": "雨・冬・回復",
+      "spec": "雨水と泥混入後の開放路・液橋・損傷率、通常60分整地で戻る機能を測る。台風大量回収は別収支。冬の雪の保持、融水、追加融雪を自然地面と比較する。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    },
+    {
+      "id": "T72-08",
+      "title": "加工と別経路",
+      "spec": "冠形状を連続一体で量産し、摩耗後も許容範囲に残るかを測る。費用超過や形状効果消失なら単純先端と別材料・暖気中晶析へ配分を変える。",
+      "status": "NOT_EXECUTED",
+      "result": null,
+      "sample_count": null
+    }
+  ],
+  "acceptance_note": "物理比較の条件と自然雪許容帯を試験前に定義する。計算行数を試験数・成功率にしない。"
+}

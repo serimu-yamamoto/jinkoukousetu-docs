@@ -1,0 +1,14 @@
+{
+  "cycle": 72,
+  "physical_tests": 0,
+  "success_probability": null,
+  "material_selected": false,
+  "p_ref_Pa": 5000000,
+  "a_ref_m": 0.00005,
+  "E_ref_Pa": 500000000,
+  "grain_count": 3117691453623.979,
+  "skin_thickness_m": 0.00001,
+  "density_kg_m3": 950,
+  "assumptions": "All moduli, friction coefficients, dimensions and costs are illustrative; no measured snow or 50 C material coefficients are inserted.",
+  "reference_model": "Rigid smooth axisymmetric indenter and homogeneous linear elastic half-space; finite skin and real grain not solved."
+}

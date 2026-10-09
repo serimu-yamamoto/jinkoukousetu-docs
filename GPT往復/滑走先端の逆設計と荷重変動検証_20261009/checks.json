@@ -1,0 +1,137 @@
+{
+  "count": 33,
+  "checks": [
+    {
+      "name": "Q72 design pressure center",
+      "passed": true
+    },
+    {
+      "name": "outside-radius quadrature endpoint is finite",
+      "passed": true
+    },
+    {
+      "name": "Q72 design beta",
+      "passed": true
+    },
+    {
+      "name": "Q72 equivalent and physical profiles agree",
+      "passed": true
+    },
+    {
+      "name": "Q72 force by independent derivative integral",
+      "passed": true
+    },
+    {
+      "name": "Q72 pressure by independent Abel transform",
+      "passed": true
+    },
+    {
+      "name": "Hertz inverse profile baseline",
+      "passed": true
+    },
+    {
+      "name": "Q72 analytical pressure integral",
+      "passed": true
+    },
+    {
+      "name": "inverse power pressure 2",
+      "passed": true
+    },
+    {
+      "name": "inverse power force 2",
+      "passed": true
+    },
+    {
+      "name": "inverse power pressure 8",
+      "passed": true
+    },
+    {
+      "name": "inverse power force 8",
+      "passed": true
+    },
+    {
+      "name": "inverse power pressure 16",
+      "passed": true
+    },
+    {
+      "name": "inverse power force 16",
+      "passed": true
+    },
+    {
+      "name": "Q72 twice load radius",
+      "passed": true
+    },
+    {
+      "name": "Q72 profile convex",
+      "passed": true
+    },
+    {
+      "name": "inverse convergence force",
+      "passed": true
+    },
+    {
+      "name": "inverse convergence height",
+      "passed": true
+    },
+    {
+      "name": "inverse convergence pressure",
+      "passed": true
+    },
+    {
+      "name": "same reference load and peak",
+      "passed": true
+    },
+    {
+      "name": "Q72 load increase needs less radius than R8 extension",
+      "passed": true
+    },
+    {
+      "name": "modulus loss still raises friction",
+      "passed": true
+    },
+    {
+      "name": "harder material still raises peak pressure",
+      "passed": true
+    },
+    {
+      "name": "Q72 full examined radius range inside 1.5",
+      "passed": true
+    },
+    {
+      "name": "radius capacity does not prove pressure constraint",
+      "passed": true
+    },
+    {
+      "name": "radial second moment identity",
+      "passed": true
+    },
+    {
+      "name": "deep pivot counterexample",
+      "passed": true
+    },
+    {
+      "name": "shallow support reduces skew",
+      "passed": true
+    },
+    {
+      "name": "invalid skew has no fake beta",
+      "passed": true
+    },
+    {
+      "name": "fixed radius overload grows at edge",
+      "passed": true
+    },
+    {
+      "name": "reserve 1.5 multiplies skin by 2.25",
+      "passed": true
+    },
+    {
+      "name": "Q72 shape is micron subscale at assumed modulus",
+      "passed": true
+    },
+    {
+      "name": "probability remains undefined",
+      "passed": true
+    }
+  ]
+}

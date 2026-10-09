@@ -1,0 +1,141 @@
+{
+  "cycle": 72,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "8098aae1adc1109c6abe11223a2c1b029b927b31",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第72巡_荷重が変わっても圧力を均す先端の逆設計_20261009.md",
+      "bytes": 12064,
+      "sha256": "ad970a538263ef25dc2725f111b72611b6150465647754a003f27dbeadd2829c"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 49945,
+      "sha256": "3fed166622ee5f99dbfff24da5db54fb29086f868936199c173961c1b88f83ad"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/audit.py",
+      "bytes": 3399,
+      "sha256": "04abf0f0cd8f15d8689ccf869f5019c3a0a82f361b182f6ddc30f610f20445e5"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/checks.json",
+      "bytes": 2787,
+      "sha256": "2004649d4ed85829a851ec76a2b64a92d383ced59a85065fc0545b9bfdc36944"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/convergence.csv",
+      "bytes": 279,
+      "sha256": "56c30028c7954f0a997e2f1c3e70d61b858754d93a25f0183c673c63d455aa51"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/design.md",
+      "bytes": 2445,
+      "sha256": "1f762d13075fbf8ba371482c06fe1d0a25b111135603086163870c3178b167d3"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/document_audit.json",
+      "bytes": 3001,
+      "sha256": "140f66938b3aab47fd73cd7189e20bfae731b22eb26565c8c857fc43cf571f99"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/figure1_inverse.png",
+      "bytes": 129568,
+      "sha256": "5f993799d324c8da039125973cd7c3ea0ca058d92ed0db312f343bf81e380002"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/figure2_reserve.png",
+      "bytes": 121939,
+      "sha256": "6e9270914c519e63bb835be2e40479472cc4f04ce9a4f87b88813a75199d76fb"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/inputs.json",
+      "bytes": 559,
+      "sha256": "32641f81755173bdc93e65d5ce6977cdd26722c8601f8bc710ddd311c3a170b6"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/inverse_profiles.csv",
+      "bytes": 15353,
+      "sha256": "0a7b6f661a0176c08947227c31e6e55707b135718a035482d2f848b08163aea6"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/load_cases.csv",
+      "bytes": 9290,
+      "sha256": "7124149e2c685d79e7c932192ed361abd13c4cd6ee8d74043b405d385a76d8ba"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/model.md",
+      "bytes": 5137,
+      "sha256": "b9bda95542ec655f45723b402aea7f573e4e6dbdc856a2624c1396d4c5300fe1"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/moment_cases.csv",
+      "bytes": 3000,
+      "sha256": "f84b2a3836d85af5783b542b3127e03f9445713199d8393b89bb795a4bec26f5"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/radius_capacity.csv",
+      "bytes": 1860,
+      "sha256": "aac9cc1d9efe19c0b68d2fc771aad6644869fd4238d1ba46c48c4659b3d3bd79"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/reproduce.py",
+      "bytes": 13446,
+      "sha256": "87fae9e7aa1c8d74146de8ecf191ec09541d608911e288b3bd5c661055a039d0"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/reserve_costs.csv",
+      "bytes": 1618,
+      "sha256": "7a20cc48de4b67d44bbc6573cdea6d535807f2c804c9e32c1135265b987e524a"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/results.json",
+      "bytes": 4199,
+      "sha256": "dd3e308c79fcfe388805e045ef061ebe33c3c79ffeded3596dd70960a07db3cd"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/sharp_edge_overload.csv",
+      "bytes": 480,
+      "sha256": "419ccc3eeae9ab390061c08b84369ba814853cd0a2ec4e528e4f339ab32168db"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/sources.md",
+      "bytes": 2452,
+      "sha256": "9e193b8d2c679cd343da4b3b836d80603b592084f6053db9a9eebde56e975f55"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/test_plan.json",
+      "bytes": 2843,
+      "sha256": "26d676a56ec2a3163644896cdf17f2ad7edf793a608034fbd43221344beb1536"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/tilt_diagnostics.csv",
+      "bytes": 1497,
+      "sha256": "880ffbb4e5eb4d4150794f64307eca11b68eff8287df1721c21c10bd075b8b39"
+    },
+    {
+      "path": "README.md",
+      "bytes": 57781,
+      "sha256": "402205f8f73596c6426501c193a93609b3c8263b0e48a212bfda03770095e713"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 144054,
+      "sha256": "4c8b59f1d751fb9ffe48916dcbe0da430666464e2e47c48ab9b0141446514b40"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 10515,
+      "sha256": "6da8e0e4409e1bfb00783224ffacc378e84ceeecd655a7776a4ac7581a7fbaf6"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 215589,
+      "sha256": "e89cc5d12f8c857e0b3e106272a23321f8bf89cdcff1712254f031a223fd6662"
+    }
+  ],
+  "verification_policy": "Verify every listed file and this manifest byte-for-byte against the public commit, then delete the local research checkout and its Git history."
+}
