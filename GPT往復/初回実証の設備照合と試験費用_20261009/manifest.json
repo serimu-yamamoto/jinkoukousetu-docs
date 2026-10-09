@@ -1,0 +1,139 @@
+{
+  "cycle": 82,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "1094351712924f038af813d51dd6badcbf13c801",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第82巡_設備未確保から始める実証と試験費用_20261009.md",
+      "bytes": 13489,
+      "sha256": "4580c85f5f5c703450a9818dbf3eb93a7dab3ebdb09707f1bd54e16cf8fb5526"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 55472,
+      "sha256": "e19c218c83c2e6fe90d97e4b427aa81408f59c37e31f4d251d60aad5e73b3dc6"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/README.md",
+      "bytes": 1315,
+      "sha256": "3c083a8e2e64ea3d8804467e7bb903a64f4476d8c8ea9b381defbdabc304ae84"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/audit.py",
+      "bytes": 3573,
+      "sha256": "4ae35576708c634c6de135f62f28990a3e928012a8f8895884c48d5f532e50af"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/checks.json",
+      "bytes": 1554,
+      "sha256": "a6919aabf89787c1d7a86c2ec2cf456837d70b1c8f99aff4ae1480c3ec889f52"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/claude_handoff.md",
+      "bytes": 1966,
+      "sha256": "a5a99fabc8bc69a9508f3b500324af24583dca12e587df97e62b031b037dbb8e"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/cost_scenarios.json",
+      "bytes": 854,
+      "sha256": "66bbcfb2497eaef621c7801fc9e70ca7e33b84b81daaaa27ff7cdd59c1b7c2f4"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/decision.json",
+      "bytes": 1099,
+      "sha256": "560aff91f45663c7c745bd99b1d1df101a8df791b229d81bac2a886dc455aea1"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/document_audit.json",
+      "bytes": 4595,
+      "sha256": "5c90ce35f3e24aa44f76d1fd1c869c33a7adaea5632e140ba5088e4388f2a895"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/force_uncertainty.json",
+      "bytes": 259,
+      "sha256": "c52ae64760c8ef1de5af6c9c8d45bc9ec09a1026bc35b57d8d2e441c35256c89"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/geometry.json",
+      "bytes": 4301,
+      "sha256": "d027a5bf85abcac851e5f9e21765cc5ce99176a6accf738286c6ed8339dd7446"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/index_changes.json",
+      "bytes": 5653,
+      "sha256": "6d1f9dea1f5075b4f4d8f8729f7f37534f683af3b281d00047c96648b7b7814c"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/inputs.json",
+      "bytes": 1519,
+      "sha256": "34301ed3222ea978d66050cfac61dd3c568d2a6b1e42731d57a80e7ef9910e8c"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/inquiry_draft.md",
+      "bytes": 3277,
+      "sha256": "c5fcbee076f4d753d4091abbfdb19b128be390d707a0c4b16e0fa214c0da0186"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/main_run_plan.json",
+      "bytes": 8157,
+      "sha256": "edf0024eb4900ed671a93ad197ce824d3f2771f4e033307988dd7415902809f9"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/model.md",
+      "bytes": 1570,
+      "sha256": "ae3f7d990e3413bfa4bcc6c4ee03c225611ed238e89d05ac8e25127fc6f91171"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/protocol.md",
+      "bytes": 5313,
+      "sha256": "a056a3225e6d4b57370adfe7e5a652cdf76de057f69994b3c7ed6441877ad4e7"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/reproduce.py",
+      "bytes": 5853,
+      "sha256": "2286c95037de6500655b35aa61664aba0d5918fa9b50f437e2874fe76e178ec3"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/sources.json",
+      "bytes": 3034,
+      "sha256": "9f810bf6e9e9f2b305163e1d1ade1c51c1714cfebe9717baf79cc9f592db6f88"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/summary.json",
+      "bytes": 492,
+      "sha256": "c0ada6c80df48f5e1066386852e6d5889e17e12e5f296931d34e3f05e1b94414"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/time_scenarios.json",
+      "bytes": 1657,
+      "sha256": "17f23bd07410b7ff1a24f556fb8b1ba1c36a07725f683ce9bf9a1c88e8e87b95"
+    },
+    {
+      "path": "GPT往復/初回実証の設備照合と試験費用_20261009/wear_detection.json",
+      "bytes": 769,
+      "sha256": "bb36e38fb8de144c492558cc09646235de436afb2bab1aa11a55c239ee5be3ff"
+    },
+    {
+      "path": "README.md",
+      "bytes": 63720,
+      "sha256": "1b14ac56d68cfefc39f10017b9ac1aca5668187a069e7ba1ae693b92258aaf8f"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 159124,
+      "sha256": "b861817db738eb8bf4c294bda2976064aaf445d23abcd918326e4088a61d0b1b"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 17696,
+      "sha256": "c02f7f43704ad19452d96a7ae28de7fffed0aa3dea81ae7934f02af73b4b6f21"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 222558,
+      "sha256": "33c06ae23c201e509ac5f15b36f546dfdf4a0fed4a63f3f10186d777c0d3078a"
+    }
+  ]
+}

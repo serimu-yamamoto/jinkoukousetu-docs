@@ -1,0 +1,35 @@
+[
+  {
+    "case": "6_pilot_each_base",
+    "runs": 6,
+    "basic_units": 6,
+    "additional_condition_units": 0,
+    "published_tariff_subtotal_yen": 50160,
+    "quote": false
+  },
+  {
+    "case": "18_independent_each_base",
+    "runs": 18,
+    "basic_units": 18,
+    "additional_condition_units": 0,
+    "published_tariff_subtotal_yen": 150480,
+    "quote": false
+  },
+  {
+    "case": "24_pilot_plus_main_each_base",
+    "runs": 24,
+    "basic_units": 24,
+    "additional_condition_units": 0,
+    "published_tariff_subtotal_yen": 200640,
+    "quote": false
+  },
+  {
+    "case": "18_only_if_3_admin_groups_accepted",
+    "runs": 18,
+    "basic_units": 3,
+    "additional_condition_units": 15,
+    "published_tariff_subtotal_yen": 82830,
+    "quote": false,
+    "applicability": "unconfirmed; requires acceptance for eighteen independent specimens"
+  }
+]

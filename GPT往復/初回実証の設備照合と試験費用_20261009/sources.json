@@ -1,0 +1,74 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.kistec.jp/connect/experiment/e140401-01/",
+    "title": "KISTEC トライボ試験",
+    "verified": "2026-10-09",
+    "scope": "樹脂を含む試験、室温〜100℃、0.5〜2000N、料金8360円/試料条件と条件追加3850円",
+    "not_proven": "当案件の速度・水・実ソール固定・引受け・納期"
+  },
+  {
+    "id": "S2",
+    "url": "https://www.kistec.jp/connect/support/price/",
+    "title": "KISTEC 料金表",
+    "verified": "2026-10-09",
+    "scope": "利用上の注意で消費税込を確認。掲載外試験は個別算定",
+    "not_proven": "本件総見積"
+  },
+  {
+    "id": "S3",
+    "url": "https://www.kistec.jp/connect/about/faq/",
+    "title": "KISTEC FAQ",
+    "verified": "2026-10-09",
+    "scope": "相談後に仕様料金提示、宅配受付とオンライン相談の制度",
+    "not_proven": "本件の受付承諾・予約"
+  },
+  {
+    "id": "S4",
+    "url": "https://www.kistec.jp/connect/sup_case/ac_mme0001/",
+    "title": "KISTEC トライボロジー多機能試験機の事例",
+    "verified": "2026-10-09",
+    "scope": "UMT TriboLab保有、試験形態の選択と事前の試料条件調整",
+    "not_proven": "油中の回転事例を乾湿樹脂試験へ流用できること"
+  },
+  {
+    "id": "S5",
+    "url": "https://www.iri-tokyo.jp/service/search/srv/",
+    "title": "都産技研 摩擦・摩耗試験機SRV5",
+    "verified": "2026-10-09",
+    "scope": "1〜2000N、室温〜300℃、標準形状のみ。3250/5210円・10分・税込",
+    "not_proven": "4mm平面ピン仕様の実施、湿潤・定速1m/s"
+  },
+  {
+    "id": "S6",
+    "url": "https://jtla.co.jp/service/test/material-test/frictionalwear.html",
+    "title": "JTL 摩擦摩耗試験",
+    "verified": "2026-10-09",
+    "scope": "UMTの0.05〜2000N、0.1〜5000rpm、試料温度範囲は試験形態限定。加工・表面分析対応",
+    "not_proven": "必要条件の同時使用、料金、納期"
+  },
+  {
+    "id": "S7",
+    "url": "https://tribology.niche.tohoku.ac.jp/tribo/equipment/eq7.html",
+    "title": "東北大学 マクロトライボロジー試験機",
+    "verified": "2026-10-09",
+    "scope": "公開荷重0.2〜20N、室温〜1000℃、公開直動仕様上限10mm/s、学外1254円/時",
+    "not_proven": "1m/s経路、受託作業費込み総額、現在の受付・税区分"
+  },
+  {
+    "id": "S8",
+    "url": "https://www.heidon.co.jp/contract-experiment/",
+    "title": "新東科学 HEIDON受託試験",
+    "verified": "2026-10-09",
+    "scope": "摩擦パック49800円〜、摩耗100000円/時〜等を掲示",
+    "not_proven": "18走行の適用、50℃水1m/s同時能力、税区分・総見積"
+  },
+  {
+    "id": "S9",
+    "url": "https://www.iri-tokyo.jp/research/field/hyomen-bussei-seigyo/",
+    "title": "都産技研 表面物性制御",
+    "verified": "2026-10-09",
+    "scope": "摩擦摩耗の条件依存と相談による試験調整",
+    "not_proven": "本材料の実物性"
+  }
+]

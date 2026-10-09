@@ -1,0 +1,62 @@
+[
+  {
+    "runs": 18,
+    "setup_minutes_per_run_assumed": 10,
+    "minutes_per_profile_assumed": 5,
+    "pure_sliding_hours": 1.0,
+    "setup_hours": 3.0,
+    "profile_hours": 3.0,
+    "serial_hours_excluding_overhead": 7.0,
+    "not_machine_reservation_or_quote": true
+  },
+  {
+    "runs": 18,
+    "setup_minutes_per_run_assumed": 10,
+    "minutes_per_profile_assumed": 15,
+    "pure_sliding_hours": 1.0,
+    "setup_hours": 3.0,
+    "profile_hours": 9.0,
+    "serial_hours_excluding_overhead": 13.0,
+    "not_machine_reservation_or_quote": true
+  },
+  {
+    "runs": 18,
+    "setup_minutes_per_run_assumed": 20,
+    "minutes_per_profile_assumed": 5,
+    "pure_sliding_hours": 1.0,
+    "setup_hours": 6.0,
+    "profile_hours": 3.0,
+    "serial_hours_excluding_overhead": 10.0,
+    "not_machine_reservation_or_quote": true
+  },
+  {
+    "runs": 18,
+    "setup_minutes_per_run_assumed": 20,
+    "minutes_per_profile_assumed": 15,
+    "pure_sliding_hours": 1.0,
+    "setup_hours": 6.0,
+    "profile_hours": 9.0,
+    "serial_hours_excluding_overhead": 16.0,
+    "not_machine_reservation_or_quote": true
+  },
+  {
+    "runs": 18,
+    "setup_minutes_per_run_assumed": 40,
+    "minutes_per_profile_assumed": 5,
+    "pure_sliding_hours": 1.0,
+    "setup_hours": 12.0,
+    "profile_hours": 3.0,
+    "serial_hours_excluding_overhead": 16.0,
+    "not_machine_reservation_or_quote": true
+  },
+  {
+    "runs": 18,
+    "setup_minutes_per_run_assumed": 40,
+    "minutes_per_profile_assumed": 15,
+    "pure_sliding_hours": 1.0,
+    "setup_hours": 12.0,
+    "profile_hours": 9.0,
+    "serial_hours_excluding_overhead": 22.0,
+    "not_machine_reservation_or_quote": true
+  }
+]

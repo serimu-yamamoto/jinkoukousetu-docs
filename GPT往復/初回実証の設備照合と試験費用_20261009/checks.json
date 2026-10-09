@@ -1,0 +1,102 @@
+[
+  {
+    "name": "18_independent_runs",
+    "passed": true
+  },
+  {
+    "name": "force_units_MPa_equals_N_per_mm2",
+    "passed": true
+  },
+  {
+    "name": "200_seconds_per_run",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_0",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_1",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_2",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_3",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_4",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_5",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_6",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_7",
+    "passed": true
+  },
+  {
+    "name": "rpm_distance_8",
+    "passed": true
+  },
+  {
+    "name": "archard_equivalent_1e-07",
+    "passed": true
+  },
+  {
+    "name": "archard_equivalent_1e-06",
+    "passed": true
+  },
+  {
+    "name": "archard_equivalent_1e-05",
+    "passed": true
+  },
+  {
+    "name": "archard_equivalent_0.0001",
+    "passed": true
+  },
+  {
+    "name": "uncertainty_positive",
+    "passed": true
+  },
+  {
+    "name": "tariff_18",
+    "passed": true
+  },
+  {
+    "name": "tariff_24",
+    "passed": true
+  },
+  {
+    "name": "no_false_total",
+    "passed": true
+  },
+  {
+    "name": "pure_motion_one_hour",
+    "passed": true
+  },
+  {
+    "name": "new_candidate_each_run",
+    "passed": true
+  },
+  {
+    "name": "new_counterface_each_run",
+    "passed": true
+  },
+  {
+    "name": "balanced_blocks",
+    "passed": true
+  },
+  {
+    "name": "no_simulated_measurements",
+    "passed": true
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "cycle": 82,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "test": {
+    "materials": [
+      "unfilled_UHMWPE_grade_TBD",
+      "unfilled_PEEK_grade_TBD",
+      "unfilled_hydrolysis_suitable_elastomer_grade_TBD"
+    ],
+    "states": [
+      "dry",
+      "once_wet_then_drained"
+    ],
+    "replicates": 3,
+    "diameter_mm": 4,
+    "nominal_pressure_MPa": 0.3,
+    "speed_m_s": 1,
+    "distance_m": 200,
+    "surface_temperature_C": 50
+  },
+  "geometry": {
+    "radii_mm": [
+      20,
+      25,
+      40
+    ],
+    "speeds_m_s": [
+      0.1,
+      1,
+      5
+    ],
+    "candidate_contact_width_mm": 4,
+    "ski_length_m": 1.6
+  },
+  "wear_assumptions": {
+    "k_mm3_Nm": [
+      1e-7,
+      0.000001,
+      0.00001,
+      0.0001
+    ],
+    "density_g_cm3": 0.95
+  },
+  "uncertainty_assumptions": {
+    "mu": 0.1,
+    "u_tangential_force_N": 0.01,
+    "u_normal_force_N": 0.02,
+    "coverage_factor": 2,
+    "interpretation": "illustrative independent standard uncertainties; actual calibration and other sources unknown"
+  },
+  "prices": {
+    "kistec_base_yen": 8360,
+    "kistec_add_condition_yen": 3850,
+    "kistec_tax": "included",
+    "tokyo_10min_sme_yen": 3250,
+    "tokyo_10min_general_yen": 5210,
+    "tokyo_tax": "included"
+  },
+  "processing_assumptions": {
+    "setup_minutes_per_run": [
+      10,
+      20,
+      40
+    ],
+    "profile_minutes_per_scan": [
+      5,
+      15
+    ],
+    "profiles_per_run": 2,
+    "pilot_runs": 6
+  },
+  "source_material_parameters_measured": false
+}

@@ -1,0 +1,18 @@
+{
+  "cycle": 82,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "equipment_or_collaborators_secured": false,
+  "provider_contacts_sent": 0,
+  "purchase_orders": 0,
+  "main_runs_planned": 18,
+  "optional_setup_pilot_runs": 6,
+  "area_mm2": 12.566370614359172,
+  "force_N": 3.7699111843077517,
+  "main_motion_hours": 1.0,
+  "kistec_18_basic_tariff_subtotal_yen": 150480,
+  "main_total_cost_yen": null,
+  "numeric_checks": 25,
+  "calculation_rows": 23,
+  "goal_complete": false
+}

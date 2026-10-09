@@ -1,0 +1,30 @@
+[
+  {
+    "assumed_k_mm3_Nm": 1e-07,
+    "depth_um": 0.006,
+    "volume_mm3": 7.539822368615503e-05,
+    "mass_mg_at_assumed_density": 7.162831250184727e-05,
+    "measurement": false
+  },
+  {
+    "assumed_k_mm3_Nm": 1e-06,
+    "depth_um": 0.060000000000000005,
+    "volume_mm3": 0.0007539822368615504,
+    "mass_mg_at_assumed_density": 0.0007162831250184729,
+    "measurement": false
+  },
+  {
+    "assumed_k_mm3_Nm": 1e-05,
+    "depth_um": 0.6000000000000001,
+    "volume_mm3": 0.007539822368615504,
+    "mass_mg_at_assumed_density": 0.0071628312501847285,
+    "measurement": false
+  },
+  {
+    "assumed_k_mm3_Nm": 0.0001,
+    "depth_um": 6.0,
+    "volume_mm3": 0.07539822368615504,
+    "mass_mg_at_assumed_density": 0.07162831250184729,
+    "measurement": false
+  }
+]
