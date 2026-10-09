@@ -1,0 +1,126 @@
+{
+  "cycle": 78,
+  "document_checks": 27,
+  "links_checked": 525,
+  "checks": [
+    {
+      "name": "physical_trials_zero_probability_null",
+      "passed": true
+    },
+    {
+      "name": "28_math_checks",
+      "passed": true
+    },
+    {
+      "name": "row_count_axial_posts.csv",
+      "passed": true
+    },
+    {
+      "name": "row_count_fixed_guided_beams.csv",
+      "passed": true
+    },
+    {
+      "name": "row_count_uniaxial_energy_bound.csv",
+      "passed": true
+    },
+    {
+      "name": "row_count_rocker_pairs.csv",
+      "passed": true
+    },
+    {
+      "name": "row_count_common_translation.csv",
+      "passed": true
+    },
+    {
+      "name": "row_count_lever_stock_cost.csv",
+      "passed": true
+    },
+    {
+      "name": "row_count_lateral_moment_budget.csv",
+      "passed": true
+    },
+    {
+      "name": "592_calculation_rows",
+      "passed": true
+    },
+    {
+      "name": "column_units_and_boundary_condition",
+      "passed": true
+    },
+    {
+      "name": "fixed_guided_factors",
+      "passed": true
+    },
+    {
+      "name": "rocker_force_and_micrometre_margin",
+      "passed": true
+    },
+    {
+      "name": "energy_capacity_units",
+      "passed": true
+    },
+    {
+      "name": "lateral_moment_bound_units",
+      "passed": true
+    },
+    {
+      "name": "test_specs_not_run",
+      "passed": true
+    },
+    {
+      "name": "decision_unproven",
+      "passed": true
+    },
+    {
+      "name": "report_evidence_scope",
+      "passed": true
+    },
+    {
+      "name": "PNG_support_rocker_cost.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_rocker_concept.png",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "relative_links_exist",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "921e0dd2712258480203e421124c88f0b85d95ce16a9c965dbd00284ba1aa282",
+    "回覧板.md": "6e3df147e965cc4b4b8872b36fc505468de9fd650efe0aac6d2ce0baa139c600",
+    "GPT往復/README.md": "60decae1e84b65fe52605978d26a34ad4b1a8540839950c545ff0c3e206d5897",
+    "調査台帳/一般.md": "57f6a4527e5b2559526ad996389af0864435e52b160634fa64a29f5b2157f9ae",
+    "調査台帳/計算部品索引.md": "af0e83e9285fab26546d4405b0e0234f88c17463f1e30683a403a7adf7e21861"
+  },
+  "physical_trials": 0,
+  "success_probability": null,
+  "visual_review": "Both generated PNGs visually inspected. Primary source access is limited to the scopes in sources.json. Code/maths only.",
+  "copyrighted_source_PDFs_republished": false
+}

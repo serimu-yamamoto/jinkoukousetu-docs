@@ -1,0 +1,13 @@
+height_span_um,common_base_k_N_m,common_sink_um,load_fraction_max,load_fraction_unchanged,scope
+0,2000,15.707963267948967,0.0625,True,rigid plate translation only; rotation/elastic coupling excluded
+0,20000,1.5707963267948966,0.0625,True,rigid plate translation only; rotation/elastic coupling excluded
+0,200000,0.15707963267948966,0.0625,True,rigid plate translation only; rotation/elastic coupling excluded
+0.1,2000,15.707963267948967,0.10229508730196347,True,rigid plate translation only; rotation/elastic coupling excluded
+0.1,20000,1.5707963267948966,0.10229508730196347,True,rigid plate translation only; rotation/elastic coupling excluded
+0.1,200000,0.15707963267948966,0.10229508730196347,True,rigid plate translation only; rotation/elastic coupling excluded
+0.5,2000,15.707963267948967,0.2957214000242657,True,rigid plate translation only; rotation/elastic coupling excluded
+0.5,20000,1.5707963267948966,0.2957214000242657,True,rigid plate translation only; rotation/elastic coupling excluded
+0.5,200000,0.15707963267948966,0.2957214000242657,True,rigid plate translation only; rotation/elastic coupling excluded
+1,2000,15.707963267948967,0.5824509599843658,True,rigid plate translation only; rotation/elastic coupling excluded
+1,20000,1.5707963267948966,0.5824509599843658,True,rigid plate translation only; rotation/elastic coupling excluded
+1,200000,0.15707963267948966,0.5824509599843658,True,rigid plate translation only; rotation/elastic coupling excluded

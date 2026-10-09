@@ -1,0 +1,35 @@
+{
+  "cycle": 78,
+  "physical_trials": 0,
+  "success_probability": null,
+  "new_comparison": "H78-R local two-tip rocker plus separate normal seat and shallow lateral reaction path",
+  "no_adoption_yet": true,
+  "counterexamples": [
+    "Tuned fixed-free column may buckle before its assigned load",
+    "Fixed-guided beams require a larger footprint and sizable strain",
+    "Common rigid-base translation leaves relative contact heights unchanged",
+    "Rolling resistance and lateral moments can destroy load uniformity"
+  ],
+  "unresolved": [
+    "actual 50 C modulus and recoverable strain",
+    "full-array equilibrium",
+    "arm stiffness",
+    "lateral-guide friction",
+    "manufacturable captive joints",
+    "wet dirty and frozen joint behavior",
+    "snow ski feel",
+    "warm spray crystals",
+    "completed-material safety",
+    "winter snow bonding",
+    "rain restoration within 60 minutes",
+    "full cost"
+  ],
+  "keep_routes": [
+    "independent spring supports",
+    "rocking normal distribution",
+    "shared support volume with measured coupling",
+    "low-shear crystal contact",
+    "warm spray crystallization"
+  ],
+  "claude_receipt": "unconfirmed"
+}

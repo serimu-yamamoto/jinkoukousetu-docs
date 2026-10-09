@@ -1,0 +1,78 @@
+{
+  "cycle": 78,
+  "checked_date": "2026-10-09",
+  "base_commit": "ae463e8ebcf16ef02fd23369d1398b4081216139",
+  "claude_ledger": {
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "update_since_cycle77": false,
+    "source_code_available": false,
+    "current_run_and_receipt": "unconfirmed"
+  },
+  "primary_sources": [
+    {
+      "id": "S1",
+      "title": "Compliance of a microfibril subjected to shear and normal loads",
+      "authors": "Liu, Hui, Shen, Jagota",
+      "year": 2008,
+      "doi": "10.1098/rsif.2007.1336",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2607426/",
+      "access": "Primary PMC indexed text: abstract and section 2.5. Direct page was browser challenge; fullTextXML timed out. Full PDF not obtained this cycle.",
+      "used": "Normal compression and shear deformation are coupled; small-deflection formulas have limited scope.",
+      "not_used_as": "Candidate polymer properties, 50 C validation or snow ski performance."
+    },
+    {
+      "id": "S2",
+      "title": "Contact compliance effects in the frictional response of bioinspired fibrillar adhesives",
+      "year": 2013,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645428/",
+      "access": "Primary PMC indexed sections on stiction, indentation and rate dependence. Direct page challenged; fullTextXML timed out.",
+      "used": "Steady sliding force need not represent startup peaks in soft fibrillar contacts.",
+      "not_used_as": "A ski-friction coefficient or approval of sticky PU/PDMS surface for this project."
+    },
+    {
+      "id": "S3",
+      "title": "Load sharing in bioinspired fibrillar adhesives with backing layer interactions and interfacial misalignment",
+      "authors": "Bacca, Booth, Turner, McMeeking",
+      "year": 2016,
+      "doi": "10.1016/j.jmps.2016.04.008",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022509616301508",
+      "access": "Publisher abstract and article preview.",
+      "used": "Backing deformation and misalignment can change load sharing; uniformity cannot be presumed.",
+      "not_used_as": "Full backing-layer numerical model reproduced."
+    },
+    {
+      "id": "S4",
+      "title": "Mirror Metrology Using Nano-Probe Supports",
+      "year": 2012,
+      "url": "https://ntrs.nasa.gov/citations/20120007482",
+      "access": "NASA NTRS indexed descriptive record; direct page returned 403.",
+      "used": "Whiffletree support is an established force-distribution concept, not claimed as newly invented here.",
+      "not_used_as": "Micrometre particle manufacturing feasibility or material durability."
+    },
+    {
+      "id": "S5",
+      "title": "Optimal load sharing in bioinspired fibrillar adhesives: Asymptotic solution",
+      "authors": "Khungura, Bacca",
+      "year": 2019,
+      "url": "https://arxiv.org/abs/1911.05225",
+      "access": "arXiv abstract and metadata only.",
+      "used": "Retain graded-compliance comparison route; no parameter or complete calculation imported.",
+      "not_used_as": "Validated adhesion or skiing material."
+    }
+  ],
+  "prior_components": [
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/inputs.json",
+      "sha256_lf": "c844d6e78135946dc2e580fecbbbacd5b6421cec17e4e8e552b48c99fe779e20"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/model.md",
+      "sha256_lf": "b9bda95542ec655f45723b402aea7f573e4e6dbdc856a2624c1396d4c5300fe1"
+    },
+    {
+      "path": "GPT往復/50度クリープと材料履歴検証_20261009/sources.json",
+      "sha256_lf": "5bdbe847b536c8fc79817d0f4afbcbb249bd32b63c0fb2e0e1903a19ac489edb"
+    }
+  ]
+}

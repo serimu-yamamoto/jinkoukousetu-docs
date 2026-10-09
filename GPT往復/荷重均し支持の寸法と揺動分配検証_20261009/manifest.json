@@ -1,0 +1,155 @@
+{
+  "cycle": 78,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "basis_commit": "ae463e8ebcf16ef02fd23369d1398b4081216139",
+  "physical_trials": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第78巡_支持ばねの実寸制約と揺動する荷重分配_20261009.md",
+      "bytes": 10847,
+      "sha256": "57420662a3e7166501b69490fa5448ee7f60f58e87dc5d24cd32350ab2b23cec"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 53157,
+      "sha256": "e1a2e7c3b265f339e44db44d4857f8e2530fda50630cd05512a33f1a7470af2d"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/README.md",
+      "bytes": 1888,
+      "sha256": "56470a60d5e529aeb3b556303b75611d0756803eb006976630dc17d68448e5c3"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/audit.py",
+      "bytes": 5976,
+      "sha256": "b85e92a282a9001c23edebb7730cf53688853db0eec556dab9130c43cabb3d9b"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/axial_posts.csv",
+      "bytes": 11535,
+      "sha256": "d3145f4efd162465fb9a9d8a264c95383f6c014f499fea20f441c662c8bcfe7e"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/checks.json",
+      "bytes": 3029,
+      "sha256": "68a13daf511bacebda7c430a28746d9e9bcd2fe55818da0f1fad09af38261b24"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/claude_handoff.md",
+      "bytes": 2290,
+      "sha256": "ce578399520b070bcd1430e3a0c4a777610c1fccc3cf4d81dc12bd8adc223e42"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/common_translation.csv",
+      "bytes": 1471,
+      "sha256": "dcd1767c3d4c6a2533e6a5be13b911d974f1be15ea3b0b7bf9082906f1dbf307"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/decision.json",
+      "bytes": 1176,
+      "sha256": "e6b8e6af4b87009e3ab5cabcdd341c388187ed016047c62f1f5212ec2fc423bd"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/document_audit.json",
+      "bytes": 3014,
+      "sha256": "26b1a8db462cb59bd65101a482283ff46d70c9585b2b1ff72d96092425554f18"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/fixed_guided_beams.csv",
+      "bytes": 14817,
+      "sha256": "41bf50f1573476115ff13aa882dce33ae0f64c21cc6d399bec9ce0ffdc05cf39"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/index_changes.json",
+      "bytes": 5336,
+      "sha256": "54fabd38544bd072dcc14921659d0cc85c4ff105cf391408f9821fcba58c2684"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/inputs.json",
+      "bytes": 2060,
+      "sha256": "41159cbfc354c09df43d7b6efa25ca0cd2c5e1574c6b4b7cff71cad1bae51636"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/lateral_moment_budget.csv",
+      "bytes": 4925,
+      "sha256": "2ea128e55deb981360f2e07e32cd81887325e944fe156004267c5014b8556332"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/lever_stock_cost.csv",
+      "bytes": 974,
+      "sha256": "84421d7dd72eb48aa33b4464e7cff47cac51d7fb4424ae98d892585f2440cc0f"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/model.md",
+      "bytes": 6349,
+      "sha256": "323e89046d244297e02361f8205c5568fa935378cc10683156f25933a0b1859e"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/reproduce.py",
+      "bytes": 15794,
+      "sha256": "8b4cb5fe4403252d06ae307aeda4df3f338f3bc4d88874948a9f949dc27b1894"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/rocker_concept.png",
+      "bytes": 58310,
+      "sha256": "677b2b2267cb49701dff6e29927b8298143aab3d331f345734a9405e09416247"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/rocker_pairs.csv",
+      "bytes": 69296,
+      "sha256": "7358b0fe58958890e0c487ceecba9428f394ae2298c0494bfb9d26bab907115d"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/sources.json",
+      "bytes": 3772,
+      "sha256": "41e64710a24f2d66eb538c09cdcf85161a82c24af770f0df4ac6b5cecf3310d3"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/summary.json",
+      "bytes": 11340,
+      "sha256": "1cb9aa4ff6d80a1e5a0b48d9c799d6e112ccf2f120f85da945cae2d1fae42677"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/support_rocker_cost.png",
+      "bytes": 169337,
+      "sha256": "2b1b48704a623b1e268026f5c9eec98f583c55f6e4d59def2101839993d27d7c"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/test_plan.json",
+      "bytes": 3230,
+      "sha256": "4c4c7104942ea2d6c6315c3684fac2486e42b1b5b58183cb63f8cebf9101f5e1"
+    },
+    {
+      "path": "GPT往復/荷重均し支持の寸法と揺動分配検証_20261009/uniaxial_energy_bound.csv",
+      "bytes": 7710,
+      "sha256": "7ffbe10b699b9dc595ef929bdb1857e67f74a02856342bd6318eaccebac4cca8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 61053,
+      "sha256": "ca0af3256348ba58015a2e84423a457aa000abfeae5f137f4a96b503192a6b97"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 153769,
+      "sha256": "ec4a1566a765331e9b51b6112182a77f7f3e8ca0c82ccfdea8a199e4311ed8a7"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 16041,
+      "sha256": "60594b2eaa49fe7d4f1460b388136d9fc73bebba7d683ecdc3fffeb0e05ecd91"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 220966,
+      "sha256": "ab8d24cc1d305d556b935593bab61f46f71295397ebf8157a9209dc4949c118b"
+    }
+  ]
+}

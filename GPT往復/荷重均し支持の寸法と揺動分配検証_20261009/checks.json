@@ -1,0 +1,147 @@
+{
+  "total": 28,
+  "passed": 28,
+  "checks": [
+    {
+      "name": "reference_load",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "nominal_support_stroke",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "post_axial_stiffness_inversion",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N4_E10000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N4_E50000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N4_E100000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N4_E500000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N4_E1000000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N4_E3000000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N16_E10000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N16_E50000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N16_E100000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N16_E500000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N16_E1000000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "Euler_length_independence_N16_E3000000000",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "beam_target_stiffness",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "energy_capacity_identity",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "rocker_pair_force_balance",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "rocker_torque_balance_when_moving",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "locked_torque_within_threshold",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "rocker_never_worsens_pair_load_in_this_model",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "rocker_bound",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "ideal_rocker_equal_load",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "rolling_loss_can_lock",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "shared_translation_does_not_equalize",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "lateral_moment_increases_imbalance_bound",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "micrometre_fulcrum_margin_unit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "name": "probability_not_filled",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "physical_validation": false
+}
