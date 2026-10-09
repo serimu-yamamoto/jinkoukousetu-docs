@@ -1,0 +1,70 @@
+[
+  {
+    "id": "new_EBS_primary",
+    "doi": "10.2497/jjspm.68.8",
+    "title": "Development of Powder Lubricant for Compacting Raw Material Powders in Powder Metallurgy",
+    "author": "Kyoushi Adachi",
+    "year": 2021,
+    "pdf_url": "https://www.jstage.jst.go.jp/article/jjspm/68/1/68_8/_pdf/-char/en",
+    "bytes": 4041588,
+    "sha256": "caf8c0890023d07edfa0c0a66fb0b95ea6817b9c4b05ba43197be60730a3a32a",
+    "pairs": [
+      {
+        "M": 1,
+        "S": 4,
+        "d50_M_um": 44,
+        "d50_S_um": 27,
+        "LiSt_mass_fraction_in_lubricant": 0
+      },
+      {
+        "M": 2,
+        "S": 5,
+        "d50_M_um": 39,
+        "d50_S_um": 33,
+        "LiSt_mass_fraction_in_lubricant": 0.1
+      },
+      {
+        "M": 3,
+        "S": 6,
+        "d50_M_um": 46,
+        "d50_S_um": 32,
+        "LiSt_mass_fraction_in_lubricant": 0.2
+      }
+    ],
+    "iron_g": 497,
+    "additive_g": 3,
+    "cure_temperature_K": 343,
+    "cure_hours": 5,
+    "DSC_peak_about_K": 337,
+    "limits": "Pure EBS not isolated; fatty amide mix and optional LiSt; metal-powder high-pressure compaction/ejection not actual ski sliding. Do not transfer friction or safety.",
+    "read_date": "2026-10-10",
+    "scope": "Publisher abstract and PDF text: English Table1, abstract and Fig1 labels. Selected Japanese-body extraction garbled; visual rendering unsuccessful; not used to adopt additional numeric claims. No graphs digitized."
+  },
+  {
+    "id": "new_PA_patent",
+    "url": "https://patents.google.com/patent/JPWO2006112028A1/ja",
+    "publication_date": "2008-11-27",
+    "read_date": "2026-10-10",
+    "scope": "Japanese description, especially example10/comparative4 and analysis methods. Original patent disclosure, no legal-status/FTO opinion.",
+    "limits": "PA12/PA6 wording inconsistency and crystallinity calculation not adopted. Input amounts, fixed stated times, and residual phenol stages only. No independent reproduction, safety standard, outdoor spraying or scale yield."
+  },
+  {
+    "id": "reused_29",
+    "repository_path": "GPT往復/重合時結晶網と密度履歴検証_20261008/sources.md",
+    "scope": "Oleamide/stearamide migration was already investigated; EBS primary here is additional, not duplicate discovery."
+  },
+  {
+    "id": "reused_122",
+    "repository_path": "GPT往復/液中形状形成と母液循環の濃度管理_20261010/model.md",
+    "scope": "Keep formation and mother-liquor regeneration separate."
+  },
+  {
+    "id": "reused_127",
+    "repository_path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/model.md",
+    "scope": "Integrate finite rearrangement without replacing snow-feel target."
+  },
+  {
+    "id": "hypothetical_inputs",
+    "scope": "Equal-density monodisperse spheres,135t inventory and1% local phase are illustrative not prototype or vendor quotation."
+  }
+]

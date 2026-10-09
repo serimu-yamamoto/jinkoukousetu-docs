@@ -1,0 +1,93 @@
+{
+  "cycle": 128,
+  "source_ebs": {
+    "doi": "10.2497/jjspm.68.8",
+    "title": "Development of Powder Lubricant for Compacting Raw Material Powders in Powder Metallurgy",
+    "author": "Kyoushi Adachi",
+    "year": 2021,
+    "pdf_url": "https://www.jstage.jst.go.jp/article/jjspm/68/1/68_8/_pdf/-char/en",
+    "bytes": 4041588,
+    "sha256": "caf8c0890023d07edfa0c0a66fb0b95ea6817b9c4b05ba43197be60730a3a32a",
+    "pairs": [
+      {
+        "M": 1,
+        "S": 4,
+        "d50_M_um": 44,
+        "d50_S_um": 27,
+        "LiSt_mass_fraction_in_lubricant": 0
+      },
+      {
+        "M": 2,
+        "S": 5,
+        "d50_M_um": 39,
+        "d50_S_um": 33,
+        "LiSt_mass_fraction_in_lubricant": 0.1
+      },
+      {
+        "M": 3,
+        "S": 6,
+        "d50_M_um": 46,
+        "d50_S_um": 32,
+        "LiSt_mass_fraction_in_lubricant": 0.2
+      }
+    ],
+    "iron_g": 497,
+    "additive_g": 3,
+    "cure_temperature_K": 343,
+    "cure_hours": 5,
+    "DSC_peak_about_K": 337,
+    "limits": [
+      "Table1 and English abstract/figure labels extracted",
+      "Japanese body text partially garbled; no independent rendered figure confirmation",
+      "EBS-Wax contains fatty amide, not pure EBS",
+      "High pressure iron powder experiments not50C ski friction"
+    ]
+  },
+  "source_pa": {
+    "url": "https://patents.google.com/patent/JPWO2006112028A1/ja",
+    "example": 10,
+    "polymer_feed_g": 2,
+    "initial_auxiliary_g": {
+      "phenol": 98,
+      "ethylene_glycol": 10,
+      "PEG": 2.5,
+      "PPG": 2.5
+    },
+    "nonsolvent_g": {
+      "glycerol": 14,
+      "ethylene_glycol": 9.5
+    },
+    "fixed_stages_min": {
+      "dissolution_at70C": 1440,
+      "mixing_at30C": 10,
+      "waiting_to_cloud_after_mixing": 90,
+      "hold_after_cloud": 1440,
+      "first_dry_at60C": 720,
+      "extraction_of_0_5g_aliquot": 600,
+      "post_extraction_dry_at60C": 480
+    },
+    "residual_phenol_before_ppm": 6000,
+    "residual_phenol_after_ppm": 3,
+    "limits": [
+      "Patent disclosure not independent replication",
+      "PA6 wording within PA12 example and DSC stated range require source clarification; crystallinity not adopted",
+      "Input polymer basis, recovered yield not reported",
+      "Fixed time sum excludes washing filtration cooling and storage; aliquot treatment not demonstrated full scale"
+    ]
+  },
+  "hypothetical": {
+    "sphere_density_kg_m3": 1000,
+    "installed_product_kg": 135000,
+    "local_fractions": [
+      1,
+      0.01
+    ],
+    "additional_fixed_time_min": 0
+  },
+  "limits": [
+    "Particle calculations monodisperse equal-density spheres using d50 as illustrative diameter, not measured distribution moments",
+    "Residual inventory not released mass nor safety limit",
+    "No price quote or installed capacity claim",
+    "No conversion to success probability"
+  ]
+}

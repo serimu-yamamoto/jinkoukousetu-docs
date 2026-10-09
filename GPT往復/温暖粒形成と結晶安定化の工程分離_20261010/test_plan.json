@@ -1,0 +1,26 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "routes": [
+    "warm in-air formation remains ideal/unverified",
+    "closed liquid formation and purification",
+    "melt-solidification and subsequent shaping"
+  ],
+  "material_decision": "EBS mixture and PA12 patent grains not approved complete candidates",
+  "priority_checks": [
+    "independent Japanese PDF visual reading",
+    "match phase composition size shape and dose separately",
+    "condition local contact phase before integration without damaging support",
+    "retention wear actual sole50C wet dry and repeated contact",
+    "total residual leachate and wear safety",
+    "winter snow path rain recovery60min grooming and full cost"
+  ],
+  "limits": [
+    "No LiSt addition recommendation",
+    "No success from phase formation alone",
+    "No actual full-scale production capacity"
+  ]
+}

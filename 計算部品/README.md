@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [formation_conditioning.py](formation_conditioning.py)：形成・後処理の物量時間、代表径による条件付き面積/個数合わせ、残留在庫を区別。安全・摩擦・採算は予測しない。[第128巡](../GPT往復/温暖粒形成と結晶安定化の工程分離_20261010/README.md)。
+
 - [contact_rearrangement.py](contact_rearrangement.py)：粒間滑り・硬化の履歴と正味仕事の分配、有限時間回復の識別反例。雪感や材料成功率を予測しない。[第127巡](../GPT往復/雪の永久変形と粒接点の再配置設計_20261010/README.md)。
 
 - [rolling_slip_audit.py](rolling_slip_audit.py)：回転数と径比から3種の滑り率・相対速度・接点仕事を監査。摩擦係数・温度・滑走感は予測しない。[第126巡](../GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/README.md)。

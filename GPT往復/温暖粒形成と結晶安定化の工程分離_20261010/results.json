@@ -1,0 +1,120 @@
+{
+  "cycle": 128,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/重合時結晶網と密度履歴検証_20261008/sources.md": "22bbc7f4a7fe8084e678ae0cbb5000020a5b18040467f04bb60364bafa6fa10a",
+    "GPT往復/液中形状形成と母液循環の濃度管理_20261010/model.md": "78e0c8480866deaa2739f4eeba5f4a0d2d41434b387b248617f70930b5b58efd",
+    "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/model.md": "b85ffb99f1e829a99709b1c59c59d98e160cdb9c9d5aba9bb444ac3d0e158520"
+  },
+  "size_matching": [
+    {
+      "source_pair": {
+        "M": 1,
+        "S": 4,
+        "d50_M_um": 44,
+        "d50_S_um": 27,
+        "LiSt_mass_fraction_in_lubricant": 0
+      },
+      "conditional_sphere_matching": {
+        "diameter_ratio_M_over_S": 1.6296296296296295,
+        "number_ratio_S_over_M_same_mass": 4.327795559619976,
+        "area_ratio_S_over_M_same_mass": 1.6296296296296295,
+        "S_mass_same_area": 1.840909090909091,
+        "S_mass_same_number": 0.6931935574755823,
+        "source_mass_fraction": 0.006,
+        "same_area_mass_fraction": 0.0036903731377283706,
+        "same_number_mass_fraction": 0.001392813015023742
+      }
+    },
+    {
+      "source_pair": {
+        "M": 2,
+        "S": 5,
+        "d50_M_um": 39,
+        "d50_S_um": 33,
+        "LiSt_mass_fraction_in_lubricant": 0.1
+      },
+      "conditional_sphere_matching": {
+        "diameter_ratio_M_over_S": 1.1818181818181819,
+        "number_ratio_S_over_M_same_mass": 1.6506386175807666,
+        "area_ratio_S_over_M_same_mass": 1.1818181818181819,
+        "S_mass_same_area": 2.5384615384615383,
+        "S_mass_same_number": 1.817478379608557,
+        "source_mass_fraction": 0.006,
+        "same_area_mass_fraction": 0.005081613797351401,
+        "same_number_mass_fraction": 0.0036435739692052757
+      }
+    },
+    {
+      "source_pair": {
+        "M": 3,
+        "S": 6,
+        "d50_M_um": 46,
+        "d50_S_um": 32,
+        "LiSt_mass_fraction_in_lubricant": 0.2
+      },
+      "conditional_sphere_matching": {
+        "diameter_ratio_M_over_S": 1.4375,
+        "number_ratio_S_over_M_same_mass": 2.970458984375,
+        "area_ratio_S_over_M_same_mass": 1.4375,
+        "S_mass_same_area": 2.0869565217391304,
+        "S_mass_same_number": 1.009944933015534,
+        "source_mass_fraction": 0.006,
+        "same_area_mass_fraction": 0.00418154891541075,
+        "same_number_mass_fraction": 0.002027961375653604
+      }
+    }
+  ],
+  "PA_feed": {
+    "initial": {
+      "total": 115.0,
+      "polymer_fraction": 0.017391304347826087,
+      "total_per_polymer": 57.5,
+      "auxiliaries_per_polymer": {
+        "phenol": 49.0,
+        "ethylene_glycol": 5.0,
+        "PEG": 1.25,
+        "PPG": 1.25
+      }
+    },
+    "combined": {
+      "total": 138.5,
+      "polymer_fraction": 0.01444043321299639,
+      "total_per_polymer": 69.25,
+      "auxiliaries_per_polymer": {
+        "phenol": 49.0,
+        "ethylene_glycol": 9.75,
+        "PEG": 1.25,
+        "PPG": 1.25,
+        "glycerol": 7.0
+      }
+    },
+    "fixed_stage_sum": {
+      "minutes": 4780,
+      "hours": 79.66666666666667
+    }
+  },
+  "residual_inventory": [
+    {
+      "product_fraction": 1,
+      "product_kg": 135000,
+      "before_kg": 810.0,
+      "after_kg": 0.405,
+      "interpretation": "inventory only, not predicted release"
+    },
+    {
+      "product_fraction": 0.01,
+      "product_kg": 1350.0,
+      "before_kg": 8.1,
+      "after_kg": 0.00405,
+      "interpretation": "inventory only, not predicted release"
+    }
+  ],
+  "limits": [
+    "Particle calculations monodisperse equal-density spheres using d50 as illustrative diameter, not measured distribution moments",
+    "Residual inventory not released mass nor safety limit",
+    "No price quote or installed capacity claim",
+    "No conversion to success probability"
+  ]
+}
