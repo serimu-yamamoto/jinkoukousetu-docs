@@ -1,0 +1,84 @@
+{
+  "cycle": 60,
+  "base_commit": "346e7879c9fef03607ad446575b4ebe3cd47ee50",
+  "physical_tests": 0,
+  "success_probability": null,
+  "geometry": {
+    "area_m2": 2.5e-7,
+    "modules_per_grain": 4,
+    "W_um": 500,
+    "H_um": 577.3502691896257,
+    "course_area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "packing_fraction": 0.55
+  },
+  "baseline": {
+    "opening_k_N_m": 20,
+    "opening_predeflection_um": 15,
+    "bridge_rupture_um": 10,
+    "normal_adhesion_uN": 4.269041514902965,
+    "tangential_adhesion_uN": 4,
+    "return_k_N_m": 27.77777777777778,
+    "initial_x_um": 10,
+    "mu_static": 0.6,
+    "mu_kinetic": 0.3,
+    "initial_pressure_kPa": 20,
+    "final_pressure_kPa": 1,
+    "E50_MPa_assumed": 100,
+    "opening_beams": {
+      "count": 8,
+      "width_um": 86.4,
+      "thickness_um": 20,
+      "length_um": 120
+    },
+    "return_beams": {
+      "count": 8,
+      "width_um": 120,
+      "thickness_um": 20,
+      "length_um": 120
+    },
+    "density_kg_m3": 1120
+  },
+  "latch": {
+    "frictions": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "extra_latch_volume_um3_per_module": 120000,
+    "note": "Volume allowance only: three 100x20x20 um solids, NOT stress-checked latch design"
+  },
+  "sensitivity": {
+    "modulus_scales": [
+      0.5,
+      0.8,
+      1
+    ],
+    "final_pressures_kPa": [
+      1,
+      3,
+      5
+    ],
+    "tangential_adhesion_uN": [
+      4,
+      40,
+      300
+    ],
+    "normal_adhesion_multipliers": [
+      1,
+      4
+    ],
+    "mu_static": [
+      0.3,
+      0.6,
+      0.8
+    ],
+    "mu_kinetic_fraction": 0.5,
+    "prices_yen_kg": [
+      1000,
+      3000,
+      10000
+    ]
+  },
+  "notes": "All forces, geometry, effective kx mapping, friction, adhesion/rupture, material at 50 C and prices are unmeasured assumptions. Force-controlled normal unloading is imposed, not derived from a real grain/skier. Complementarity model is quasi-static; abrupt releases leave kinetic/transient energy unresolved."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "planned_not_executed",
+  "physical_tests": 0,
+  "success_probability": null,
+  "branches": [
+    "H60-P coupled partial sliding without sequencing latch",
+    "H60-L loaded extraction latch",
+    "separate viscoelastic damping branch"
+  ],
+  "required_measurements": [
+    {
+      "stage": "two_axis_module",
+      "items": [
+        "Measure actual normal contact reaction N separately from applied W",
+        "Simultaneous x and y with high-speed motion around first slip",
+        "Measure Kxx, Kyy, Kxy at 50 C wet/dry and after dwell, ageing and fatigue",
+        "Identify static and kinetic friction separately from normal and tangential adhesion",
+        "Measure bridge force and rupture distance, not only return offset"
+      ],
+      "gate": "measured path and final state meet limits with uncertainty; contact cannot be counted as open while carrying solid friction"
+    },
+    {
+      "stage": "dynamic_release",
+      "items": [
+        "mass, velocity-dependent friction and damping",
+        "first slip transient and rebound; resolve the unassigned energy",
+        "repeated full loading/unloading and contamination",
+        "for H60-L: loaded extraction, gate strength, reengagement, fatigue and tolerance"
+      ],
+      "gate": "No assumed instantaneous settling; compare with measured snow reference behavior"
+    },
+    {
+      "stage": "ski_bed",
+      "items": [
+        "normal/tangential load paths and force chains in 450 mm bed",
+        "30 degree slope holding after rain and 300 mm gouging",
+        "glide, edge penetration, peak/release, vibration, restart, fall response vs groomed fresh snow",
+        "60 min recovery throughput and full functional recovery",
+        "winter snow interface shear, drainage, freeze blockage, incremental melting",
+        "finished grains/wear/leachate exposure; lifecycle cost"
+      ],
+      "gate": "Joint all-requirement pass under predeclared realistic operating scenarios; no numerical-grid success probability"
+    }
+  ],
+  "branch_logic": [
+    {
+      "if": "ordering requires an added latch",
+      "then": "compare actual dynamic benefits against latch extraction friction and processing cost before adoption"
+    },
+    {
+      "if": "Kxy exceeds derived final-state bound or gap cannot break bridge",
+      "then": "change serial guidance topology or material/geometry combination; do not set Kxy=0 by naming axes"
+    },
+    {
+      "if": "dynamic release exceeds snow reference range",
+      "then": "compare smaller static/kinetic contrast, speed-dependent damping and viscoelastic core; measure associated heat/creep penalties"
+    },
+    {
+      "if": "full bed does not unload sufficiently",
+      "then": "revisit load sharing/packing/recovery, do not validate only surface"
+    }
+  ],
+  "authorization": "No physical apparatus operated, no purchases, no external messages; GitHub handoff only."
+}

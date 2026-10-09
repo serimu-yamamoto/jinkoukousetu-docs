@@ -1,0 +1,159 @@
+{
+  "cycle": 60,
+  "base_commit": "346e7879c9fef03607ad446575b4ebe3cd47ee50",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第59巡_濡れた静摩擦を越える開離復帰と材料分担_20261009.md",
+      "bytes": 15475,
+      "sha256": "d7a64748b3c64af5e1caaedbc75dd4ee28f15ea80a9f3f675c98c8f47b4ede9a"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md",
+      "bytes": 14416,
+      "sha256": "0924b19a9e876730a96c2ab800d814134750f1c33d9afbc38c045625495971dc"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 41338,
+      "sha256": "0e33c9f57c50c8fcd96ca7092ce366125968263cf07f2298bf453a275b99d1b6"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/audit.py",
+      "bytes": 4272,
+      "sha256": "87d65f81a85db77a1620f6c9cedbbfd2ba5ae5469ef915c8ddc087d3ca6bc430"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/calculate.py",
+      "bytes": 12048,
+      "sha256": "7c3f5bf45b885a2002113c5fe19eacca156ec7b4bbdab9d88414c125ad29e055"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/coupled_sensitivity.csv",
+      "bytes": 12257,
+      "sha256": "bfa92b856df27d822bf67eeebeab8d9d41439e2111c9cf096b9551bb54cfb7f3"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/coupled_unloading_path.csv",
+      "bytes": 47082,
+      "sha256": "8b1e66cc9e289ca47832453057d0b819a4967a8a68b4b9e228a34eb94be6090a"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/cross_axis_coupling.csv",
+      "bytes": 1694,
+      "sha256": "66b7bb00f61295dad53cf2ba4bcaf0be23357f0029703a6d03116b36c08a2709"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/document-audit.json",
+      "bytes": 2558,
+      "sha256": "20c3c8e51e41a7c1546436e5dc3e971070c63bd1cba2c7c418742f8927b154a0"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/draw.py",
+      "bytes": 4249,
+      "sha256": "b2728bc8b9e4e48ceb4299f7487d8bad64912cb5ec590cbdb18e9dfc9a569ea9"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/event_order.csv",
+      "bytes": 1966,
+      "sha256": "bc6ba3f72856bb9b4f2d2755e2261f4eb201bc07790901e53ab705986a72650b"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/figure1_contact_order.png",
+      "bytes": 101780,
+      "sha256": "8e8714e05dc9b14f42038402ffe858e2fd3a06f22844a3e2fd4a6b4594a7a7d5"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/figure1_contact_order.svg",
+      "bytes": 74022,
+      "sha256": "055108f87dc65ca0426fc9cc713219c68ada5e1f195ef58bdddddd2157390ca2"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/figure2_coupled_path.png",
+      "bytes": 106314,
+      "sha256": "26d0a385f82d2ae7bc499b031df8d484faa4cd2580ade1d1c3ddbe24e219a917"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/figure2_coupled_path.svg",
+      "bytes": 88259,
+      "sha256": "71f88f720d52c898ee482698c9f4495a81f0ac2a30e02233a4d15ab28ea4b1cd"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/figure3_partial_cost.png",
+      "bytes": 53511,
+      "sha256": "6907bd43e034494af3f7e0976b90cd982574843505aa528586df353f5da36a1c"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/figure3_partial_cost.svg",
+      "bytes": 63971,
+      "sha256": "a0528cc770b81ba401fedca192585693047947caccbecf3289d97c2959697c0f"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/inputs.json",
+      "bytes": 1962,
+      "sha256": "9e43014df8a5916df56ab76fba2632b0ef16e805e7adde594d2786b1f95f27c5"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/latch_tradeoff.csv",
+      "bytes": 1676,
+      "sha256": "dbcd8f360349d075c83140197c1b7048212434654a1607394e93046c5fc265d4"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/model.md",
+      "bytes": 4471,
+      "sha256": "9f8cbcb2f74f1e31d8fe0fcdb3a6da65a490288b4443815d28f273726b492668"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/partial_component_cost.csv",
+      "bytes": 1394,
+      "sha256": "70bf64902f8f940c5b9aad2d6a16bb1e6d4c97a1695173df692aef373f7ff7fb"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/provenance.json",
+      "bytes": 1322,
+      "sha256": "6910aa82ce5233f08dd9011b41c6c12cad7f8501b5cbf9d6d141c4b7df43f3a6"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/README.md",
+      "bytes": 2144,
+      "sha256": "f78071608b9bf2fa784bdd944173ad8cbd0fcea3d50d1caff0b54a24d7809aac"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/results.json",
+      "bytes": 2246,
+      "sha256": "3844b328da1559ae2ffba7166f10f6dc904854853aabf2ae1ff5f81d4e33b082"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/sources.md",
+      "bytes": 2497,
+      "sha256": "e30fb076e49932a6895f18c297555cfa9c93713f00560cc45d8250c761944fd2"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/static_kinetic_jump.csv",
+      "bytes": 309,
+      "sha256": "2c2103b6b22597fe41391cac38bbd2ddd568d148d116525e75734774324aecf9"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/test_plan.json",
+      "bytes": 2907,
+      "sha256": "19c41ab9cceb493e50ed2aaca0d2725cb3818c42a2b609b88b35a9fbe05c931f"
+    },
+    {
+      "path": "GPT往復/開離と滑りの連成復帰検証_20261009/validation.json",
+      "bytes": 1465,
+      "sha256": "498b4171ddddfe96e07fb8427b8501d6a411a009159d45ae7d4ec333263ce319"
+    },
+    {
+      "path": "README.md",
+      "bytes": 48781,
+      "sha256": "def22d52cfe85cba41fd60aab00db6dee6b027088d80d3533fb5dd75e6ca678a"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 122560,
+      "sha256": "ec893f4eb657d8f94c0b24a4bba63fca8c460a86d0c959e541c0ae5fd5038e71"
+    }
+  ]
+}

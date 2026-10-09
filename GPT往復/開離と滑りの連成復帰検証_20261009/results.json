@@ -1,0 +1,66 @@
+{
+  "cycle": 60,
+  "physical_tests": 0,
+  "success_probability": null,
+  "force_conversion_uN_per_kPa": 62.5,
+  "baseline_events": {
+    "opening_pressure_kPa": 4.731695335761553,
+    "rupture_pressure_kPa": 1.5316953357615526,
+    "first_slip_pressure_kPa": 12.032436076502293,
+    "contact_normal_at_first_slip_uN": 456.2962962962963,
+    "x_after_first_slip_um": 5.072,
+    "first_slip_jump_um": 4.928,
+    "unresolved_first_jump_energy_nJ": 0.3372942222222222,
+    "first_slip_before_opening": true
+  },
+  "end_1kPa": {
+    "pressure_kPa": 1,
+    "after_event": true,
+    "mode": "bridge_broken_returned",
+    "normal_reaction_uN": 0,
+    "normal_gap_um": 11.875,
+    "tangential_offset_um": 0,
+    "bridge_intact": false,
+    "normal_force_residual_uN": 0.0,
+    "return_force_uN": 0.0,
+    "static_capacity_uN": 0.0
+  },
+  "end_3kPa": {
+    "pressure_kPa": 3,
+    "after_event": true,
+    "mode": "bridge_limited",
+    "normal_reaction_uN": 0,
+    "normal_gap_um": 5.411547924254851,
+    "tangential_offset_um": 0.144,
+    "bridge_intact": true,
+    "normal_force_residual_uN": 2.930988785010413e-14,
+    "return_force_uN": 4.0,
+    "static_capacity_uN": 4.0
+  },
+  "first_jump_energy": {
+    "elastic_release_nJ": 1.0315946666666667,
+    "constant_kinetic_resistance_work_nJ": 0.6943004444444445,
+    "unresolved_transient_energy_nJ": 0.33729422222222216,
+    "warning": "Not all released elastic energy is accounted for by steady sliding friction. No restitution/dynamics solved."
+  },
+  "partial_mass_kg": {
+    "opening_beams": 6371.751230260105,
+    "return_beams": 8849.654486472371,
+    "latch_allowance": 1843.678018015077
+  },
+  "row_counts": {
+    "path": 407,
+    "sensitivity": 162,
+    "latch": 12,
+    "order": 16,
+    "cost": 9,
+    "cross_axis": 15,
+    "jump": 5
+  },
+  "concept": "H60-P permits partial sliding during unload. H60-L straight loaded latch is a competing unbuilt branch. No proof of real ski feel.",
+  "cross_axis": {
+    "kappa_limit_for_1um_at_1kPa_after_break": 0.33484106722352625,
+    "Kxy_limit_N_m": 7.892279641783201,
+    "definition": "Kxy=kappa*sqrt(Kxx*Kyy); symmetric linear elastic stiffness; |kappa|<1 for positive definiteness. Free post-bridge state only, not full coupled trajectory."
+  }
+}
