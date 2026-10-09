@@ -1,0 +1,63 @@
+[
+  {
+    "id": "S134-1",
+    "type": "primary_research",
+    "title": "Reorganization of Poly(Butylene Succinate) Containing Crystals of Low Stability",
+    "authors": "Jariyavidyanont, Schick, Androsch",
+    "year": 2024,
+    "doi": "10.1002/marc.202400273",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/marc.202400273",
+    "accessed": "2026-10-10",
+    "scope": "Publisher HTML methods, results, discussion, conclusion, figure captions; not figure images or raw data",
+    "material": "MCPP Germany extrusion PBS homopolymer Mw123kg/mol; grade unknown",
+    "facts": [
+      "20C-crystallized ~200um film",
+      "150C molding;20Cwaterquench;days-to-weeks20-25C storage",
+      "WAXS25-100C1K/min",
+      "initial crystallinity index30-35percent not absolute mass fraction",
+      "early melting/recrystallization overlap is author interpretation;larger changes above70-80C"
+    ],
+    "limits": [
+      "not free snowlike particles",
+      "no50C skiing friction creep wear data",
+      "do not infer all-liquid50C or safety",
+      "14h80C unchanged lattice spacing would not prove all properties stable"
+    ],
+    "failed_pdf_attempt": "University URL returned HTML, not read as PDF"
+  },
+  {
+    "id": "S134-2",
+    "type": "prior_primary_reused",
+    "doi": "10.1021/acs.macromol.2c02315",
+    "url": "https://pubs.acs.org/doi/abs/10.1021/acs.macromol.2c02315",
+    "accessed": "2026-10-10",
+    "scope": "Prior cycle133 indexed publisher abstract and SI description reused; attempts to retrieve SI this cycle unsuccessful",
+    "limits": [
+      "No full formulation",
+      "No independent particle after extraction proven",
+      "PESu/PVPh growth rate is not PBSu/PEO growth rate",
+      "No circumvention of access barriers"
+    ]
+  },
+  {
+    "id": "S134-3",
+    "type": "prior_internal_audit",
+    "path": "GPT往復/GPT回答_多方向探索第133巡_PBSの樹枝状結晶を独立した雪状粒へつなぐ工程_20261010.md",
+    "scope": "Formation vs independence vs residue removal, patent formulation and manufacturing sensitivities",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "S134-4",
+    "type": "claude_internal_ledger",
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "status": "unchanged from preceding cycle; acknowledgment unknown",
+    "date": "2026-10-10"
+  },
+  {
+    "id": "S134-5",
+    "type": "explicit_hypotheses",
+    "description": "All model transfer fractions, equal normalized latent heats, cp2, local treatment mass fractions and incremental yen/kg are assumptions; no actual quote or calibrated PBS kinetics",
+    "date": "2026-10-10"
+  }
+]

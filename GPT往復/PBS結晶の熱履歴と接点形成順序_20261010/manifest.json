@@ -1,0 +1,108 @@
+{
+  "cycle": 134,
+  "base_commit": "472c91441e4027d9f4969895c984867314614d59",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第134巡_PBSの融点では決められない50度安定性と接点形成順序_20261010.md",
+      "bytes": 12701,
+      "sha256": "b66a3cdef6a212f3e0f3f99aca5c4510a1349f5bd5b5a7b272ab87f5b2d9de1c"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/README.md",
+      "bytes": 1164,
+      "sha256": "9eae5ed836c0ac437037081d6d9f77c5e32def2776091a9a9981c8302c650ea8"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/claude_handoff.md",
+      "bytes": 2380,
+      "sha256": "6707443348a6db3b8e37ee55953949172cab21c8469fee6520fcc364f2f9c038"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "2cae5b09204e86bc481f4faaa04cf1af275816e36a86c70df068a5cd7487ee42"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/inputs.json",
+      "bytes": 1167,
+      "sha256": "55fe88788e69b53170b520983108a2fd2f471e9f61585db7af358a352928bcc5"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/model.md",
+      "bytes": 1504,
+      "sha256": "03b4ee8adfc67114b94003f5dd31186adeed5fcc96a3c4c3b49e8e2d6f2d5a2b"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "b5b7ace3fed7d41967662b79761d459153027f34c89005e115dd57ed2940099a"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/reproduce.py",
+      "bytes": 3460,
+      "sha256": "d33457f97aea19fc465d33500916b2f931dbbbeb198b34105a585470d52728cd"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/research_state.json",
+      "bytes": 1010,
+      "sha256": "5fbd3f34aa48694b38cadb7a0933e4e72f4c4c55c824a81d204460ca9416164d"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/results.json",
+      "bytes": 7233,
+      "sha256": "c85b4d95b1e7693d17de443d9261cca8c9a18c175f57a9c2ac5fa3b787f18398"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/sources.json",
+      "bytes": 2709,
+      "sha256": "ed57a03472e12d087ef4e653c01fcf9ed4fc7f37e0750fc6ef8a3939160cf8ee"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/test_plan.json",
+      "bytes": 3024,
+      "sha256": "3f8ab9571e28cfe82473f8172e54fbd2b2d182a870c8de05810399b1162e310e"
+    },
+    {
+      "path": "GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/validation.json",
+      "bytes": 927,
+      "sha256": "995a6f8ca4bf9190cc595150315d0ad5fca0a494d4292abb9f1b1737d05cf9a2"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 86465,
+      "sha256": "cbf86e55cc9475ae98ce628447629d2188be2a607146e00366ac6d1f09fac8df"
+    },
+    {
+      "path": "README.md",
+      "bytes": 96881,
+      "sha256": "ee7f53d76c07f8b43610000f91484bde07a59b12160d9b38615e4f89cf6dc9ec"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 214851,
+      "sha256": "b242d1c8d834e836c044fd3e51f48d7056c04ddf418899d7d6dad47e8cbb3e34"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 9401,
+      "sha256": "ebb52e0f50f72abe0a03ec0c1b1ebc60def3cf419ff9280b707ce52a78ba2405"
+    },
+    {
+      "path": "計算部品/crystal_thermal_ledger.py",
+      "bytes": 2295,
+      "sha256": "775407808f1e95e8c44e40af043965afd8adad19278eb0604ec68dd34a7ffb68"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 51192,
+      "sha256": "3fab16332cc40cc7fcd3a10d5db4ac5a528f0a9bdcdc80742dc6bfee3fc54d2e"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 240314,
+      "sha256": "42a707d854ea65a09b13ac9a46b3b101089739d1ab094745de1ee04b948915aa"
+    }
+  ],
+  "dependencies": []
+}

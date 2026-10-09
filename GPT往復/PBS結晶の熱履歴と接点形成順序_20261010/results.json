@@ -1,0 +1,296 @@
+{
+  "cycle": 134,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {},
+  "heat_counterexamples": [
+    {
+      "original_crystal": 0.35,
+      "new_crystal": 0.0,
+      "amorphous": 0.65,
+      "final_crystal": 0.35,
+      "net_heat_normalized": 0.0,
+      "cumulative_melt": 0.0,
+      "cumulative_recrystallization": 0.0,
+      "original_fraction_retained": 1.0,
+      "trajectory": [],
+      "name": "unchanged"
+    },
+    {
+      "original_crystal": 0.14999999999999997,
+      "new_crystal": 0.2,
+      "amorphous": 0.65,
+      "final_crystal": 0.35,
+      "net_heat_normalized": 0.0,
+      "cumulative_melt": 0.2,
+      "cumulative_recrystallization": 0.2,
+      "original_fraction_retained": 0.4285714285714285,
+      "trajectory": [
+        {
+          "original_crystal": 0.14999999999999997,
+          "new_crystal": 0.2,
+          "amorphous": 0.65,
+          "net_heat_normalized": 0.0
+        }
+      ],
+      "name": "hidden_turnover"
+    },
+    {
+      "original_crystal": 0.04999999999999999,
+      "new_crystal": 0.25,
+      "amorphous": 0.7,
+      "final_crystal": 0.3,
+      "net_heat_normalized": 0.04999999999999999,
+      "cumulative_melt": 0.3,
+      "cumulative_recrystallization": 0.25,
+      "original_fraction_retained": 0.14285714285714282,
+      "trajectory": [
+        {
+          "original_crystal": 0.04999999999999999,
+          "new_crystal": 0.25,
+          "amorphous": 0.7,
+          "net_heat_normalized": 0.04999999999999999
+        }
+      ],
+      "name": "small_net_endotherm_large_turnover"
+    }
+  ],
+  "sensible_heat_sensitivities": [
+    {
+      "end_c": 60,
+      "sensible_kwh_kg": 0.016666666666666666
+    },
+    {
+      "end_c": 80,
+      "sensible_kwh_kg": 0.027777777777777776
+    },
+    {
+      "end_c": 100,
+      "sensible_kwh_kg": 0.03888888888888889
+    }
+  ],
+  "incremental_treatment_cost_sensitivities": [
+    {
+      "density_kg_m3": 150,
+      "fraction": 0.01,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 0.675,
+      "increment_yen_m2": 6.75
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 0.01,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 0.675,
+      "increment_yen_m2": 67.5
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 0.01,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 0.675,
+      "increment_yen_m2": 675.0
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 0.1,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 6.75,
+      "increment_yen_m2": 67.5
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 0.1,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 6.75,
+      "increment_yen_m2": 675.0
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 0.1,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 6.75,
+      "increment_yen_m2": 6750.0
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 1,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 67.5,
+      "increment_yen_m2": 675.0
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 1,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 67.5,
+      "increment_yen_m2": 6750.0
+    },
+    {
+      "density_kg_m3": 150,
+      "fraction": 1,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 67.5,
+      "treated_kg_m2": 67.5,
+      "increment_yen_m2": 67500.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 0.01,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 1.8,
+      "increment_yen_m2": 18.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 0.01,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 1.8,
+      "increment_yen_m2": 180.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 0.01,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 1.8,
+      "increment_yen_m2": 1800.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 0.1,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 18.0,
+      "increment_yen_m2": 180.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 0.1,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 18.0,
+      "increment_yen_m2": 1800.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 0.1,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 18.0,
+      "increment_yen_m2": 18000.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 1,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 180.0,
+      "increment_yen_m2": 1800.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 1,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 180.0,
+      "increment_yen_m2": 18000.0
+    },
+    {
+      "density_kg_m3": 400,
+      "fraction": 1,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 180.0,
+      "treated_kg_m2": 180.0,
+      "increment_yen_m2": 180000.0
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 0.01,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 2.4930000000000003,
+      "increment_yen_m2": 24.930000000000003
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 0.01,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 2.4930000000000003,
+      "increment_yen_m2": 249.30000000000004
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 0.01,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 2.4930000000000003,
+      "increment_yen_m2": 2493.0000000000005
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 0.1,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 24.930000000000003,
+      "increment_yen_m2": 249.30000000000004
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 0.1,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 24.930000000000003,
+      "increment_yen_m2": 2493.0000000000005
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 0.1,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 24.930000000000003,
+      "increment_yen_m2": 24930.000000000004
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 1,
+      "increment_yen_kg": 10,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 249.3,
+      "increment_yen_m2": 2493.0
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 1,
+      "increment_yen_kg": 100,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 249.3,
+      "increment_yen_m2": 24930.0
+    },
+    {
+      "density_kg_m3": 554,
+      "fraction": 1,
+      "increment_yen_kg": 1000,
+      "bed_kg_m2": 249.3,
+      "treated_kg_m2": 249.3,
+      "increment_yen_m2": 249300.0
+    }
+  ],
+  "limitations": [
+    "No PBS rate or enthalpy fitted",
+    "No mapping from old crystals to load-bearing contacts",
+    "WAXS source index is not an absolute mass fraction",
+    "No friction, wear, strength, safety or winter performance measured"
+  ]
+}

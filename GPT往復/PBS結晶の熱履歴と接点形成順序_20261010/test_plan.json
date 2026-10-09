@@ -1,0 +1,72 @@
+{
+  "cycle": 134,
+  "physical_trials_completed": 0,
+  "success_probability": null,
+  "equipment_and_collaborators": "not_secured",
+  "status": "proposed protocol; no purchase or trial performed",
+  "objective": "Simultaneous groomed new-snow glide and edge behavior at about50C, rain restoration within60min, winter connection, safety and whole-life cost",
+  "candidate_families": [
+    {
+      "id": "A",
+      "route": "as-formed independent PBS dendritic grains",
+      "stop_or_pivot": "branches fail extraction or50C load"
+    },
+    {
+      "id": "B",
+      "route": "thermal conditioning before final classification and contact assembly",
+      "stop_or_pivot": "conditioning destroys branches or re-cooling creates unstable contacts"
+    },
+    {
+      "id": "C",
+      "route": "separate open support skeleton and replaceable local contact phase",
+      "stop_or_pivot": "wear safety friction or winter load-path fail despite support stability"
+    }
+  ],
+  "material_identity_required": [
+    "grade",
+    "lot",
+    "molar-mass definition",
+    "all additives",
+    "PEO/diluent ratio",
+    "residuals and removal process"
+  ],
+  "temperature_histories": {
+    "source_reference": "20C crystallization is a research control, not achievement of30C+ formation",
+    "comparison": [
+      "low-temperature formation",
+      "higher-temperature direct formation",
+      "post-formation thermal conditioning"
+    ],
+    "actual_temperatures": "select after observing branch stability;80/100C not automatically recommended",
+    "screening_holds_hours": [
+      5,
+      8
+    ],
+    "reason": "groom interval and operating day;not service-life validation",
+    "service_surface_c": 50
+  },
+  "measurements": [
+    "DSC paired with same-particle hot-stage microscopy",
+    "independence and branch thickness/length/void geometry after extraction",
+    "50C creep compression cyclic shear",
+    "real ski sole friction and edge support/cutting/release",
+    "particle mass-size distribution and fines after wet recovery",
+    "drainage and winter snow-to-ground load path",
+    "finished formulation leachate residues exposure wear particles"
+  ],
+  "controls": [
+    "same formulation and lot across process histories",
+    "round-particle shape control when feasible",
+    "natural groomed new-snow reference with snow temperature density ski speed and load recorded"
+  ],
+  "pass_criteria": "Predefine quantitative tolerances against the measured reference before testing; no numerical success criteria invented from this study",
+  "maintenance": "60minutes includes deployment redistribution rebonding and QA; measure after realistic rain-induced sorting",
+  "cost": "Separate material mass, shape yield, removal, conditioning, classification, replacement and equipment budget;1%local treatment is only sensitivity",
+  "missing": [
+    "independent-grain recipe",
+    "pilot equipment partner",
+    "actual target friction/edge reference traces",
+    "supplier quotes",
+    "mechanical safety and winter data"
+  ]
+}

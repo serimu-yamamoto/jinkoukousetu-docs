@@ -1,0 +1,29 @@
+{
+  "count": 22,
+  "passed": true,
+  "checks": [
+    "unchanged:phase mass",
+    "unchanged:net heat",
+    "unchanged:gross transfer",
+    "hidden_turnover:phase mass",
+    "hidden_turnover:net heat",
+    "hidden_turnover:gross transfer",
+    "small_net_endotherm_large_turnover:phase mass",
+    "small_net_endotherm_large_turnover:net heat",
+    "small_net_endotherm_large_turnover:gross transfer",
+    "equal net heat does not identify original crystals",
+    "same total crystals do not identify original crystals",
+    "hidden turnover original fraction",
+    "small net large turnover",
+    "negative initial",
+    "excess melting",
+    "excess crystallization",
+    "negative transfer",
+    "heat arithmetic80C",
+    "27 independent cost input combinations",
+    "inventory150",
+    "local1percent sensitivity",
+    "zero local fraction"
+  ],
+  "meaning": "implementation consistency only; not independent experiments"
+}

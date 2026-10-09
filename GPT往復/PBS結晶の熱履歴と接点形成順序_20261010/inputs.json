@@ -1,0 +1,61 @@
+{
+  "scope": "Mathematical counterexamples and cost sensitivities only; no calibration to PBS",
+  "initial_crystal_fraction": 0.35,
+  "scenarios": [
+    {
+      "name": "unchanged",
+      "events": []
+    },
+    {
+      "name": "hidden_turnover",
+      "events": [
+        {
+          "melt_original": 0.2,
+          "melt_new": 0,
+          "recrystallize": 0.2
+        }
+      ]
+    },
+    {
+      "name": "small_net_endotherm_large_turnover",
+      "events": [
+        {
+          "melt_original": 0.3,
+          "melt_new": 0,
+          "recrystallize": 0.25
+        }
+      ]
+    }
+  ],
+  "heat": {
+    "cp_kj_kg_k": 2,
+    "start_c": 30,
+    "end_c": [
+      60,
+      80,
+      100
+    ],
+    "status": "assumed cp; neither treatment recommendation nor measured energy"
+  },
+  "cost": {
+    "density_kg_m3": [
+      150,
+      400,
+      554
+    ],
+    "bed_m": 0.45,
+    "fraction": [
+      0.01,
+      0.1,
+      1
+    ],
+    "increment_yen_kg": [
+      10,
+      100,
+      1000
+    ],
+    "status": "hypothetical incremental all-in treatment costs; no quotes; no proof of feasible localization"
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}
