@@ -1,0 +1,22 @@
+{
+  "cycle": 90,
+  "date": "2026-10-09",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "7dce25f30bd0b229a6a0514005e18fbc16215a31",
+  "claude_ledger": "調査台帳/物性値照合_自律ループv2v3.md",
+  "claude_ledger_normalized_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "claude_receipt": null,
+  "claude_reply": null,
+  "claude_running": null,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "facilities_secured": false,
+  "collaborators_secured": false,
+  "contacts_sent": 0,
+  "purchases": 0,
+  "source_fulltext_embargo_respected": true,
+  "source_figures_republished": false,
+  "own_figures_visually_checked": true,
+  "changed_decision": "Interface-only improvement cannot be accepted without residual load transmission through the artificial bed and buried retention.",
+  "completion_not_claimed": true
+}

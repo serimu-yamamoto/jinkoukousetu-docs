@@ -1,0 +1,225 @@
+{
+  "all_passed": true,
+  "document_checks": 54,
+  "local_link_count": 610,
+  "numeric_checks": 30,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "30_numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "no_physical_trials",
+      "passed": true
+    },
+    {
+      "name": "probability_null",
+      "passed": true
+    },
+    {
+      "name": "all_strengths_assumed",
+      "passed": true
+    },
+    {
+      "name": "quote_unavailable",
+      "passed": true
+    },
+    {
+      "name": "no_contacts_purchases",
+      "passed": true
+    },
+    {
+      "name": "no_claude_receipt_claim",
+      "passed": true
+    },
+    {
+      "name": "embargo_respected",
+      "passed": true
+    },
+    {
+      "name": "original_figures_reviewed",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_10",
+      "passed": true
+    },
+    {
+      "name": "history_restored_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_12",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_13",
+      "passed": true
+    },
+    {
+      "name": "history_restored_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_15",
+      "passed": true
+    },
+    {
+      "name": "history_restored_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_17",
+      "passed": true
+    },
+    {
+      "name": "history_restored_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_19",
+      "passed": true
+    },
+    {
+      "name": "history_restored_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_contains_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_contains_成功確率",
+      "passed": true
+    },
+    {
+      "name": "report_contains_仮入力",
+      "passed": true
+    },
+    {
+      "name": "report_contains_30件",
+      "passed": true
+    },
+    {
+      "name": "report_contains_2.2倍",
+      "passed": true
+    },
+    {
+      "name": "report_contains_0.668",
+      "passed": true
+    },
+    {
+      "name": "report_contains_3.039",
+      "passed": true
+    },
+    {
+      "name": "report_contains_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_contains_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_contains_60分",
+      "passed": true
+    },
+    {
+      "name": "report_contains_未見積り",
+      "passed": true
+    },
+    {
+      "name": "source_access_limit_recorded",
+      "passed": true
+    },
+    {
+      "name": "model_not_safety_prediction",
+      "passed": true
+    },
+    {
+      "name": "png_signature_winter_load_path.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_winter_load_path.png",
+      "passed": true
+    },
+    {
+      "name": "png_signature_surface_only_plateau.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_surface_only_plateau.png",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "reproduction_exit_zero",
+      "passed": true
+    },
+    {
+      "name": "reproduction_byte_identical",
+      "passed": true
+    },
+    {
+      "name": "LF_only_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_results.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_validation.json",
+      "passed": true
+    }
+  ]
+}

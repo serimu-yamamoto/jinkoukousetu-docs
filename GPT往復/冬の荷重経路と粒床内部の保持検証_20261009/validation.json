@@ -1,0 +1,127 @@
+{
+  "kind": "numerical_diagnostic_checks_not_experiments",
+  "count": 30,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "one_metre_snow_mass",
+      "passed": true
+    },
+    {
+      "name": "snow_driving_force",
+      "passed": true
+    },
+    {
+      "name": "zero_snow_and_depth_no_contact",
+      "passed": true
+    },
+    {
+      "name": "pore_pressure_contact_loss_rejected",
+      "passed": true
+    },
+    {
+      "name": "pressure_above_normal_rejected",
+      "passed": true
+    },
+    {
+      "name": "horizontal_no_division_by_zero",
+      "passed": true
+    },
+    {
+      "name": "zero_mu_support_only_c",
+      "passed": true
+    },
+    {
+      "name": "zero_mu_inverse_impossible",
+      "passed": true
+    },
+    {
+      "name": "zero_mu_inverse_sufficient",
+      "passed": true
+    },
+    {
+      "name": "thin_snow_dry_base_2point2_top_load",
+      "passed": true
+    },
+    {
+      "name": "thin_snow_wet_base_3point2_top_load",
+      "passed": true
+    },
+    {
+      "name": "bed_water_mass45",
+      "passed": true
+    },
+    {
+      "name": "dry_bed_mass54",
+      "passed": true
+    },
+    {
+      "name": "mass_integral_matches_cell_sum",
+      "passed": true
+    },
+    {
+      "name": "uniform_weight_D_over_N",
+      "passed": true
+    },
+    {
+      "name": "peak_example_above_diagnostic_budget",
+      "passed": true
+    },
+    {
+      "name": "residual_internal_plane_below_weight",
+      "passed": true
+    },
+    {
+      "name": "surface_and_base_not_limiting_in_counterexample",
+      "passed": true
+    },
+    {
+      "name": "interior_plane_limits",
+      "passed": true
+    },
+    {
+      "name": "surface4_to8kPa_no_system_gain",
+      "passed": true
+    },
+    {
+      "name": "drainage_alone_cannot_meet_example_budget",
+      "passed": true
+    },
+    {
+      "name": "inverse_c_returns_exact_budget",
+      "passed": true
+    },
+    {
+      "name": "inverse_r_recovers_original_r",
+      "passed": true
+    },
+    {
+      "name": "pressure_increases_required_c",
+      "passed": true
+    },
+    {
+      "name": "water_mass_increases_D_at_fixed_r",
+      "passed": true
+    },
+    {
+      "name": "surface_load_independent_of_bed_water",
+      "passed": true
+    },
+    {
+      "name": "H48_surface_equation_recovered",
+      "passed": true
+    },
+    {
+      "name": "equipment_remaining2million",
+      "passed": true
+    },
+    {
+      "name": "area_allowance100yen",
+      "passed": true
+    },
+    {
+      "name": "not_a_success_estimate",
+      "passed": true
+    }
+  ]
+}

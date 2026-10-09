@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "evidence_status": {
+    "physical_experiments": 0,
+    "success_probability": null,
+    "all_strength_parameters_assumed": true
+  },
+  "assumptions": {
+    "g_m_s2": 9.81,
+    "slope_deg": 30,
+    "snow_density_kg_m3": 450,
+    "artificial_dry_bulk_density_kg_m3": 120,
+    "water_density_kg_m3": 1000,
+    "bed_depth_m": 0.45,
+    "mu_residual": 0.2,
+    "diagnostic_load_ratio": 1.5
+  },
+  "snow_normal_depths_m": [
+    0.1,
+    1,
+    2
+  ],
+  "water_volume_fractions": [
+    0,
+    0.1
+  ],
+  "cut_depths_m": [
+    0,
+    0.225,
+    0.45
+  ],
+  "comparison": {
+    "snow_normal_depth_m": 1,
+    "water_volume_fraction": 0.1,
+    "pore_pressure_fraction": 0.25,
+    "assumed_peak_c_Pa": [
+      4000,
+      4000,
+      4000
+    ],
+    "assumed_residual_c_Pa": [
+      4000,
+      1000,
+      4000
+    ],
+    "alternative_surface_c_Pa": [
+      0,
+      500,
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "constant_internal_c_Pa_for_drainage_inverse": 2500
+  },
+  "equipment_budget_context": {
+    "provisional_tax_included_yen": 198000000,
+    "cap_tax_included_yen": 200000000,
+    "course_area_m2": 20000,
+    "additional_works_quote_yen": null
+  },
+  "not_modelled": [
+    "snow_internal_fracture",
+    "three_dimensional_load_transfer",
+    "time_dependent_creep",
+    "velocity_dependent_strength",
+    "surface_discontinuity_propagation",
+    "coupled_hydraulics",
+    "cyclic_loading",
+    "anchor_and_soil_capacity",
+    "summer_ski_feel",
+    "natural_ground_thermal_comparison"
+  ]
+}

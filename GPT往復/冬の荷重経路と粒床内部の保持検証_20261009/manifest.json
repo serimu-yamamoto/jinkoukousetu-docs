@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "7dce25f30bd0b229a6a0514005e18fbc16215a31",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第90巡_雪の固着を粒床と地盤までつなぐ冬季設計_20261009.md",
+      "sha256": "4a61e4db606d97474b48f0d8df401fc765290ef25924a85692bbc1f0774fb814",
+      "bytes": 9319
+    },
+    {
+      "path": "GPT往復/README.md",
+      "sha256": "3987006ecc87aedbbc22bedaf3c7df545b1a8873459ebd413879d99d000192ed",
+      "bytes": 59555
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/README.md",
+      "sha256": "c642ab230825b0edfcb86f8c1a0c122cf68e98d5496721c27c6613c8ab8e6bc4",
+      "bytes": 1324
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/audit.json",
+      "sha256": "ccda3276f15c105be90a4896d1244201937240ff9087c1747ab44108a635fa5c",
+      "bytes": 4228
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/audit.py",
+      "sha256": "7925e100992317dba853680d08f392b955ef2a49c0b1122d70ad272c82f79f10",
+      "bytes": 4119
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/claude_handoff.md",
+      "sha256": "735657433dd493bf677f8ba1f14ba23e3ba984697623d14979a5a44779b99860",
+      "bytes": 2003
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/draw.py",
+      "sha256": "a2dd084cf401f0b572b642f3333952686f716037506cf7deb0d08ced09c05b14",
+      "bytes": 2884
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/index_changes.json",
+      "sha256": "6c5986d1005ac000b7f7b5f6640bbfebaf0c9315a3c6040c55d4e29c722ce103",
+      "bytes": 3982
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/inputs.json",
+      "sha256": "611db12e6fce0fee089bc26168b60924cbb2bba606a17e514d0191418d30908f",
+      "bytes": 1537
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/model.md",
+      "sha256": "f0c8af6164f2784aa3906f1871602a2e18ce84f799b8eb751b846cf135dedfcf",
+      "bytes": 3182
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/protocol.md",
+      "sha256": "4ccec22fddbce6a5ff59f43c074444d2b1d7259970de23a8a2a0935fce5ab706",
+      "bytes": 3248
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/reproduce.py",
+      "sha256": "de6a3492417a8f1665cef877678603a6b31b905d2eb87265a1f2c9b375651cd4",
+      "bytes": 7017
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/research_state.json",
+      "sha256": "757fa121c6670e9d1fe79f7824744ef7e27c104393b3cbfe26049fd4743720ba",
+      "bytes": 909
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/results.json",
+      "sha256": "ae471f8a05a7251abdc514d86f7015aa41eddcb95602026935ce15821f271f25",
+      "bytes": 26110
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/sources.md",
+      "sha256": "04caf375c6f6d022e3e38760e5550eefcc654466b1ed5425f274e6c2dc53f19d",
+      "bytes": 3612
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/surface_only_plateau.png",
+      "sha256": "53cf94ef16420f8d8255014644cbe3bf8a4978c6dffde28e4add0bfb35ac311e",
+      "bytes": 63121
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/validation.json",
+      "sha256": "94519ef2a09fef7a544f9819125c46c2fac8d2a58e081d742327dc1f8bfcaf36",
+      "bytes": 2532
+    },
+    {
+      "path": "GPT往復/冬の荷重経路と粒床内部の保持検証_20261009/winter_load_path.png",
+      "sha256": "26a147ada267e9ac13735064309431551f9363cd637c6723d022fdc2be08a0ed",
+      "bytes": 162083
+    },
+    {
+      "path": "README.md",
+      "sha256": "c96e0d47848f88b39e0c57938d947a73db3cdc6cbce49b9052d188f9eb0bf472",
+      "bytes": 69381
+    },
+    {
+      "path": "回覧板.md",
+      "sha256": "626efaedf64c190f2d4b0f3c306850e3a05fc819ae88e8b0c4421d30ee9d7c5c",
+      "bytes": 167506
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "sha256": "37637237e22860d98d28a6837ab952e2e72f483be1a722ce75480fde96b976b1",
+      "bytes": 20953
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "sha256": "a920a7af2a2921877b6248128bf6f1066dea3536e4151b30293c524974e8e4d1",
+      "bytes": 225631
+    }
+  ]
+}
