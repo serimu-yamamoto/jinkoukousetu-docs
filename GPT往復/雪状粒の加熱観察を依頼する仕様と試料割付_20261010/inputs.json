@@ -1,0 +1,20 @@
+{
+  "histories": [
+    "H1_low_temperature_formed",
+    "H2_higher_temperature_direct",
+    "H3_low_formed_then_conditioned"
+  ],
+  "preparation_batches": 3,
+  "capacity_sensitivities": [
+    1,
+    2,
+    3
+  ],
+  "hold_hours": 8,
+  "baseline_temperature_c": 30,
+  "service_temperature_c": 50,
+  "proposed_ramp_k_min": 1,
+  "note": "Trial recipe and formation temperatures unset. One composition/grade held fixed. Low-temperature preparation is a laboratory control, not achievement of ambient30C spray.",
+  "physical_trials": 0,
+  "success_probability": null
+}

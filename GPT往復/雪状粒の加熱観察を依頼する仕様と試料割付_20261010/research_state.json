@@ -1,0 +1,18 @@
+{
+  "cycle": 135,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress134 published verified cleaned",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "candidate": "H135 independent-grain thermal observation and blocked simultaneous measurement",
+  "status": "New primary provider evidence and concrete protocol;no inquiry sent",
+  "next": [
+    "explicit authorization and sender details for inquiry",
+    "confirm free-grain preparation and recipe",
+    "confirm shared-stage capacity optical temperature and DSC recovery",
+    "use measured results to select thermal-conditioning or open-support/local-contact route"
+  ],
+  "blocked_audit": "Progress this round;physical evidence still missing;not declaring goal complete",
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}

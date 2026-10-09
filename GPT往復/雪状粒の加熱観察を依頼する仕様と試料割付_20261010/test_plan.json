@@ -1,0 +1,59 @@
+{
+  "cycle": 135,
+  "physical_trials_completed": 0,
+  "success_probability": null,
+  "provider_contacts_sent": 0,
+  "orders": 0,
+  "first_inquiry_candidate": "Yamagata Research Institute of Technology",
+  "official_entry": "https://yrit.jp/inquiries-access/",
+  "inquiry_status": "draft_not_sent",
+  "inquiry_file": "inquiry_draft.md",
+  "contact_prerequisites": [
+    "explicit user instruction",
+    "approved sender company/name and reply email"
+  ],
+  "trial_prerequisites": [
+    "exact grade/formulation",
+    "independent-grain preparation role",
+    "thermal optical suitability pilot",
+    "itemized quote and separate approval for paid work"
+  ],
+  "stages": [
+    {
+      "id": "P0",
+      "purpose": "material identity and independent-grain preparation",
+      "status": "not_done"
+    },
+    {
+      "id": "P1",
+      "purpose": "resolution support boundary temperature recovery feasibility",
+      "status": "not_done"
+    },
+    {
+      "id": "P2",
+      "purpose": "3histories by3 batches;split initialDSC and observation/postDSC",
+      "status": "not_done"
+    },
+    {
+      "id": "P3",
+      "purpose": "load realsole/edge bed rain winter safety",
+      "status": "not_done"
+    }
+  ],
+  "quote_yen": null,
+  "planned_batches": 3,
+  "planned_physical_aliquots": 18,
+  "planned_DSC_measurements": 18,
+  "planned_repeated_timepoints": 63,
+  "scope_preserved": [
+    "ambient30C+spray",
+    "surface50Cnewgroomedsnowglideandedge",
+    "drysummerfeel",
+    "rainrestoration60minmaintenance",
+    "winterconnectiondrainage",
+    "buriedretentionnotexposed",
+    "humanenvironmentalsafety",
+    "equipment200millionyenprovisionalandmateriallifecycle"
+  ],
+  "provider_claims": "Published instrument/service only;actualcapabilitiesandacceptanceunconfirmed"
+}

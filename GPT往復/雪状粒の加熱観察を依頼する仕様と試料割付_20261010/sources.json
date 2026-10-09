@@ -1,0 +1,71 @@
+[
+  {
+    "id": "S135-1",
+    "url": "https://yrit.jp/wp-content/uploads/26_y-bake31.pdf",
+    "title": "山形県工業技術センター 偏光顕微鏡",
+    "verified": "2026-10-10",
+    "scope": "Official1-pagePDFtext: NikonECLIPSELV100NPOL,transmission/reflection,roomT-to-over400Cstage,commissionedphotographs,no equipment self-service",
+    "not_proven": [
+      "operational today",
+      "8h50C actual sample",
+      "3histories simultaneously",
+      "free-grain resolution",
+      "trialpreparation",
+      "DSC integration"
+    ],
+    "visual_check": "Screenshot cache miss;no image inspection claimed"
+  },
+  {
+    "id": "S135-2",
+    "url": "https://yrit.jp/mainwork/test/",
+    "title": "委託分析試験・設備使用",
+    "verified": "2026-10-10",
+    "scope": "Staff-performed analysis;initial form;detaileddocuments to designated email after reply;methods fees discussed before application",
+    "not_proven": "Project acceptance or eligibility"
+  },
+  {
+    "id": "S135-3",
+    "url": "https://yrit.jp/mainwork/fee/",
+    "title": "利用料金",
+    "verified": "2026-10-10",
+    "scope": "Technical consultation free;commissioned tests charged;tax included",
+    "not_proven": "Applicable tariff and quote for proposed study"
+  },
+  {
+    "id": "S135-4",
+    "url": "https://yrit.jp/inquiries-access/",
+    "title": "問い合わせフォーム",
+    "verified": "2026-10-10",
+    "scope": "Company/individual,name,email,subject,message required;phone optional",
+    "status": "not_submitted"
+  },
+  {
+    "id": "S135-5",
+    "url": "https://therm-info.com/products/contract/",
+    "title": "日本サーマル・コンサルティング 受託測定",
+    "verified": "2026-10-10",
+    "scope": "DSC thermal and creep/mechanical services offered",
+    "not_proven": "free-grain hotstage,project50Cconditions,prices"
+  },
+  {
+    "id": "S135-6",
+    "path": "GPT往復/GPT回答_多方向探索第82巡_設備未確保から始める実証と試験費用_20261009.md",
+    "scope": "Reused providers and draft;not refreshed quotation"
+  },
+  {
+    "id": "S135-7",
+    "path": "GPT往復/GPT回答_多方向探索第134巡_PBSの融点では決められない50度安定性と接点形成順序_20261010.md",
+    "scope": "Reused PBS thermal history question;no50C efficacy"
+  },
+  {
+    "id": "S135-8",
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "status": "unchanged;Claude receipt unknown"
+  },
+  {
+    "id": "S135-9",
+    "type": "proposed_not_measured",
+    "scope": "3batches,3histories,2aliquots,8hhold,1K/minandcapacity1/2/3 are protocol/sensitivity assumptions"
+  }
+]

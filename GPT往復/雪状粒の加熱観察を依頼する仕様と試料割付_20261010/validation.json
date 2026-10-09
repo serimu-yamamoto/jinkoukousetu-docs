@@ -1,0 +1,15 @@
+{
+  "count": 8,
+  "passed": true,
+  "checks": [
+    "18 physically distinct aliquot IDs",
+    "9 processing portions in 3 blocked preparation batches",
+    "three histories appear once per batch",
+    "carrier position balanced across batches",
+    "63 scheduled observations are repeated measures",
+    "capacity scheduling respects batch boundaries",
+    "hold-only times72_48_24",
+    "no data, performance probability or confirmed quote invented"
+  ],
+  "meaning": "allocation/data integrity checks;not experiments"
+}

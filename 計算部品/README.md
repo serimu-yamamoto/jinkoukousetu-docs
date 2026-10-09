@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [blocked_thermal_screen.py](blocked_thermal_screen.py)：3調製バッチ・3熱履歴の循環配置、初期DSCと観察後DSCの識別、同時収容数別保持時間。装置能力・料金・成功率は推定しない。[第135巡](../GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/README.md)。
+
 - [crystal_thermal_ledger.py](crystal_thermal_ledger.py)：相収支による正味熱流と元の結晶分の不識別性、顕熱と局所処理費の仮定感度。PBS物性や成功率は予測しない。[第134巡](../GPT往復/PBS結晶の熱履歴と接点形成順序_20261010/README.md)。
 
 - [porous_grain_process.py](porous_grain_process.py)：多孔粒の母液回収・収率・仮費用と、非多孔楕円体による粒径比の不識別性。混合・時間部品を再利用。[第133巡](../GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/README.md)。

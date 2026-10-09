@@ -1,0 +1,118 @@
+{
+  "cycle": 135,
+  "base_commit": "d5b06ebe3cdc2452df33fbe8bb0c48099ceef27c",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第135巡_雪状粒の50度形状保持を実測へつなぐ試験仕様_20261010.md",
+      "bytes": 9518,
+      "sha256": "de2317d6f1f1c851a2d456caddc41724521c10e3cc841e9481ac78d8ee105b6c"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 87127,
+      "sha256": "be33f3be19ca88ba7e6ae747bad4026b5c1f28628cefee7317a6ff0f9e5b79d1"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/README.md",
+      "bytes": 925,
+      "sha256": "8354160d706fcaccf82c08a0db3923b8dd6246f92c54037929899a7c197838c9"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/claude_handoff.md",
+      "bytes": 1408,
+      "sha256": "837ce19e6cdcfb2696c331783bff58613ba4156a2ad7fcb766e9a3c987b7d65f"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "fc090bae6d2fc2dba672c6ba3505a9fa672721269cbfe244fad58a6fc0496326"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/inputs.json",
+      "bytes": 563,
+      "sha256": "b41616032b7de14b38d28311ed7c35fc975f0d9f67c37fdda65f29b36bf6f17a"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/inquiry_draft.md",
+      "bytes": 2977,
+      "sha256": "0523cc252cd6a10951dc98f4ebcc1649cee72115878ca7254ace5ee6952bd3ae"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/model.md",
+      "bytes": 859,
+      "sha256": "e6a1f629c04be8b0dd8d6a469ae584b41354854cb5c3d5a4bed78bbb64901489"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/protocol.md",
+      "bytes": 2787,
+      "sha256": "1ac8b90c31e88716e3e888e6c3b556709569715b53d299d809141cbae987abad"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/publication_audit.json",
+      "bytes": 254,
+      "sha256": "d2a8fdad8a4bcdedcbb3762f71fb92f6328037e0c18b595fdcaa47bc5e24d039"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/reproduce.py",
+      "bytes": 2700,
+      "sha256": "55d47af4bb823957e951da750f14b9e1d4f26d2c034eb6310dcba5ba8050736f"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/research_state.json",
+      "bytes": 915,
+      "sha256": "102ec949c6d0c82f8cf6b3438e1c296da7e0b43cda1088428fdc5d2d35a5051e"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/results.json",
+      "bytes": 6475,
+      "sha256": "ac16a5f0365bc3f403f4e20a0f2e6a6e24e31819f9e2f78d73e5a6122764dc75"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/sources.json",
+      "bytes": 2715,
+      "sha256": "1a121783ab918e84da308d3bbbac37ccf16643c53eed146f4d46ba469d76e14f"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/test_plan.json",
+      "bytes": 1772,
+      "sha256": "65ff4b3e517e535350fa511b3c1b6914163acc4794c4bdf9b98e9828966b5a49"
+    },
+    {
+      "path": "GPT往復/雪状粒の加熱観察を依頼する仕様と試料割付_20261010/validation.json",
+      "bytes": 522,
+      "sha256": "50cbb4edc505c33e3764824ef71f9947c10a3757fabcc0efd5a22a5b219cf000"
+    },
+    {
+      "path": "README.md",
+      "bytes": 97558,
+      "sha256": "21bad0e276c76b54058f7c34cd0359597fcd153f014ac4b824a56032ee426501"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 216062,
+      "sha256": "cd2b5f70f9355ed8a244cf436d94874ab1709b6df6e32c8179c75222a822b15e"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 9740,
+      "sha256": "0844a0281a208cee1b8743deecc12eb07d92f574c31883162239e49c27341b19"
+    },
+    {
+      "path": "計算部品/blocked_thermal_screen.py",
+      "bytes": 1447,
+      "sha256": "d0312b0b9d3cb4250972a91006c08c17309202e3bcb34e59fe31e8d75793f291"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 51897,
+      "sha256": "24b25bbc5d8ff1b51a4831ebc3bf357c4a938368cfd5b5bbd5b2ef63d1c0b34f"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 240669,
+      "sha256": "5220a5f213f9da4e6bbfbd9c9dff51bc1468052680283c8ecd8a92e54574e3e6"
+    }
+  ],
+  "dependencies": []
+}

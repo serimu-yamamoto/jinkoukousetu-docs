@@ -1,0 +1,221 @@
+{
+  "cycle": 135,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {},
+  "plan": [
+    {
+      "parent_portion": "B1-H1_low_temperature_formed",
+      "preparation_batch": "B1",
+      "history": "H1_low_temperature_formed",
+      "joint_carrier_position": 1,
+      "baseline_dsc_aliquot": "B1-H1_low_temperature_formed-D0",
+      "hotstage_then_dsc_aliquot": "B1-H1_low_temperature_formed-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B1-H2_higher_temperature_direct",
+      "preparation_batch": "B1",
+      "history": "H2_higher_temperature_direct",
+      "joint_carrier_position": 2,
+      "baseline_dsc_aliquot": "B1-H2_higher_temperature_direct-D0",
+      "hotstage_then_dsc_aliquot": "B1-H2_higher_temperature_direct-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B1-H3_low_formed_then_conditioned",
+      "preparation_batch": "B1",
+      "history": "H3_low_formed_then_conditioned",
+      "joint_carrier_position": 3,
+      "baseline_dsc_aliquot": "B1-H3_low_formed_then_conditioned-D0",
+      "hotstage_then_dsc_aliquot": "B1-H3_low_formed_then_conditioned-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B2-H1_low_temperature_formed",
+      "preparation_batch": "B2",
+      "history": "H1_low_temperature_formed",
+      "joint_carrier_position": 2,
+      "baseline_dsc_aliquot": "B2-H1_low_temperature_formed-D0",
+      "hotstage_then_dsc_aliquot": "B2-H1_low_temperature_formed-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B2-H2_higher_temperature_direct",
+      "preparation_batch": "B2",
+      "history": "H2_higher_temperature_direct",
+      "joint_carrier_position": 3,
+      "baseline_dsc_aliquot": "B2-H2_higher_temperature_direct-D0",
+      "hotstage_then_dsc_aliquot": "B2-H2_higher_temperature_direct-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B2-H3_low_formed_then_conditioned",
+      "preparation_batch": "B2",
+      "history": "H3_low_formed_then_conditioned",
+      "joint_carrier_position": 1,
+      "baseline_dsc_aliquot": "B2-H3_low_formed_then_conditioned-D0",
+      "hotstage_then_dsc_aliquot": "B2-H3_low_formed_then_conditioned-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B3-H1_low_temperature_formed",
+      "preparation_batch": "B3",
+      "history": "H1_low_temperature_formed",
+      "joint_carrier_position": 3,
+      "baseline_dsc_aliquot": "B3-H1_low_temperature_formed-D0",
+      "hotstage_then_dsc_aliquot": "B3-H1_low_temperature_formed-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B3-H2_higher_temperature_direct",
+      "preparation_batch": "B3",
+      "history": "H2_higher_temperature_direct",
+      "joint_carrier_position": 1,
+      "baseline_dsc_aliquot": "B3-H2_higher_temperature_direct-D0",
+      "hotstage_then_dsc_aliquot": "B3-H2_higher_temperature_direct-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    },
+    {
+      "parent_portion": "B3-H3_low_formed_then_conditioned",
+      "preparation_batch": "B3",
+      "history": "H3_low_formed_then_conditioned",
+      "joint_carrier_position": 2,
+      "baseline_dsc_aliquot": "B3-H3_low_formed_then_conditioned-D0",
+      "hotstage_then_dsc_aliquot": "B3-H3_low_formed_then_conditioned-HD1",
+      "observed_timepoints": [
+        "30C_before",
+        "50C_arrival",
+        "50C_0.5h",
+        "50C_1h",
+        "50C_5h",
+        "50C_8h",
+        "30C_after"
+      ],
+      "status": "not_prepared",
+      "measurements": null
+    }
+  ],
+  "schedule_sensitivities": [
+    {
+      "simultaneous_history_capacity": 1,
+      "cycles": 9,
+      "hold_hours_only": 72,
+      "confirmed_capacity": false,
+      "overhead_hours": null,
+      "total_quote_yen": null
+    },
+    {
+      "simultaneous_history_capacity": 2,
+      "cycles": 6,
+      "hold_hours_only": 48,
+      "confirmed_capacity": false,
+      "overhead_hours": null,
+      "total_quote_yen": null
+    },
+    {
+      "simultaneous_history_capacity": 3,
+      "cycles": 3,
+      "hold_hours_only": 24,
+      "confirmed_capacity": false,
+      "overhead_hours": null,
+      "total_quote_yen": null
+    }
+  ],
+  "distinct_preparation_batches": 3,
+  "process_portions": 9,
+  "physical_aliquots": 18,
+  "hotstage_aliquots": 9,
+  "dsc_measurements_planned": 18,
+  "planned_timepoint_observations": 63,
+  "combined_capacity3_hold_hours_saved": 48,
+  "overall_test_quote_yen": null,
+  "provider_contacts_sent": 0,
+  "caveats": [
+    "Shared stage capacity and uniformity unconfirmed",
+    "three observations in one batch are not three independent formation batches",
+    "DSC baseline and after observation use different aliquots",
+    "18DSC measurements are not18independent batches",
+    "No recipe or free particles obtained"
+  ]
+}
