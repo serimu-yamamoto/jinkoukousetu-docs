@@ -1,0 +1,295 @@
+{
+  "all_passed": true,
+  "count": 72,
+  "checks": [
+    {
+      "name": "ratio_identity_room",
+      "passed": true
+    },
+    {
+      "name": "table_difference_denominator_room",
+      "passed": true
+    },
+    {
+      "name": "ratio_identity_50C",
+      "passed": true
+    },
+    {
+      "name": "table_difference_denominator_50C",
+      "passed": true
+    },
+    {
+      "name": "ratio_identity_60C",
+      "passed": true
+    },
+    {
+      "name": "table_difference_denominator_60C",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_0",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_0",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_1",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_1",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_2",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_2",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_3",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_3",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_4",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_4",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_5",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_5",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_6",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_6",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_7",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_7",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_8",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_8",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_9",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_9",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_10",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_10",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_11",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_11",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_12",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_12",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_13",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_13",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_14",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_14",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_15",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_15",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_16",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_16",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_17",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_17",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_18",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_18",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_19",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_19",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_20",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_20",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_21",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_21",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_22",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_22",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_23",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_23",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_24",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_24",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_25",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_25",
+      "passed": true
+    },
+    {
+      "name": "mass_balance_26",
+      "passed": true
+    },
+    {
+      "name": "cost_balance_26",
+      "passed": true
+    },
+    {
+      "name": "Gy_unit_reference",
+      "passed": true
+    },
+    {
+      "name": "transport_mass_balance_10_1",
+      "passed": true
+    },
+    {
+      "name": "transport_mass_balance_10_10",
+      "passed": true
+    },
+    {
+      "name": "transport_mass_balance_20_1",
+      "passed": true
+    },
+    {
+      "name": "transport_mass_balance_20_10",
+      "passed": true
+    },
+    {
+      "name": "transport_mass_balance_100_1",
+      "passed": true
+    },
+    {
+      "name": "transport_mass_balance_100_10",
+      "passed": true
+    },
+    {
+      "name": "full_yield_zero_saving",
+      "passed": true
+    },
+    {
+      "name": "no_recovery_no_raw_saving",
+      "passed": true
+    },
+    {
+      "name": "full_recovery_fresh_equals_product",
+      "passed": true
+    },
+    {
+      "name": "50C_percent_uses_virgin",
+      "passed": true
+    },
+    {
+      "name": "post_crosslink_not_free_recycling",
+      "passed": true
+    }
+  ],
+  "meaning": "arithmetic consistency only; no material success rate"
+}

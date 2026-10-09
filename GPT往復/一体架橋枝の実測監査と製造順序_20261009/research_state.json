@@ -1,0 +1,22 @@
+{
+  "cycle": 95,
+  "base_commit": "e8543d822805562f0f69d885860f9b925beb06ec",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "selected_material": null,
+  "facilities_available": false,
+  "collaborators_available": false,
+  "contacts_sent": 0,
+  "quotes_obtained": 0,
+  "claude_receipt_confirmed": false,
+  "claude_reply_confirmed": false,
+  "claude_ledger_sha256_LF": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "actual_50C_creep_confirmed": false,
+  "actual_50C_recovery_confirmed": false,
+  "actual_ski_friction_confirmed": false,
+  "snow_crystal_growth_confirmed": false,
+  "dataset_content_obtained": false,
+  "public_dataset_metadata_obtained": true,
+  "novelty_claim": "engineering hypothesis only; no patent novelty determination",
+  "hypothesis": "H95 form monolithic branched PE, remove/recycle uncrosslinked offcuts, irradiate accepted shapes in controlled reusable carrier; choose minimum passing dose only after tests"
+}

@@ -1,0 +1,245 @@
+{
+  "all_passed": true,
+  "document_checks": 59,
+  "numeric_checks": 72,
+  "local_link_count": 652,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "physical_experiments_zero",
+      "passed": true
+    },
+    {
+      "name": "success_probability_unknown",
+      "passed": true
+    },
+    {
+      "name": "source_data_not_mislabeled_product_data",
+      "passed": true
+    },
+    {
+      "name": "no_ski_or_wear_measurements",
+      "passed": true
+    },
+    {
+      "name": "no_material_selected",
+      "passed": true
+    },
+    {
+      "name": "no_equipment_or_partners",
+      "passed": true
+    },
+    {
+      "name": "no_contacts_or_quotes",
+      "passed": true
+    },
+    {
+      "name": "claude_response_unknown",
+      "passed": true
+    },
+    {
+      "name": "dataset_content_unavailable",
+      "passed": true
+    },
+    {
+      "name": "not_crystal_growth",
+      "passed": true
+    },
+    {
+      "name": "48_unperformed_specimens",
+      "passed": true
+    },
+    {
+      "name": "unique_specimens",
+      "passed": true
+    },
+    {
+      "name": "all_factors_present",
+      "passed": true
+    },
+    {
+      "name": "72_arithmetic_checks",
+      "passed": true
+    },
+    {
+      "name": "case_counts",
+      "passed": true
+    },
+    {
+      "name": "assumed_prices",
+      "passed": true
+    },
+    {
+      "name": "duration_ambiguity_preserved",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_preserved",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_0",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_4",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_3",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_2",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_1",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_5",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_6",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_condition_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_condition_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_condition_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_condition_60分",
+      "passed": true
+    },
+    {
+      "name": "report_condition_2億円",
+      "passed": true
+    },
+    {
+      "name": "report_condition_成功確率未算定",
+      "passed": true
+    },
+    {
+      "name": "report_condition_36.51％は復元率ではない",
+      "passed": true
+    },
+    {
+      "name": "report_condition_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "dataset_failure_disclosed",
+      "passed": true
+    },
+    {
+      "name": "PNG_signature",
+      "passed": true
+    },
+    {
+      "name": "PNG_dimensions",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "reproduction_succeeds",
+      "passed": true
+    },
+    {
+      "name": "reproduction_keeps_bytes",
+      "passed": true
+    },
+    {
+      "name": "LF_only_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_make_figure.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "LF_only_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_results.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_test_plan.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_validation.json",
+      "passed": true
+    }
+  ]
+}

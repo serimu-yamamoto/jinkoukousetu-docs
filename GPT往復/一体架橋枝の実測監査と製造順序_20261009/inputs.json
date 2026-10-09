@@ -1,0 +1,104 @@
+{
+  "cycle": 95,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "source_table": {
+    "source": "S1",
+    "page": 24,
+    "table": "7.1",
+    "loading_MPa": 8,
+    "specimen_length_mm": 20,
+    "holding_time_note": "Methods says 1 h; curves reach about 2 h. Do not treat terminal values as standardized 1 h or 4 h values.",
+    "rows": [
+      {
+        "temperature_C": null,
+        "label": "room",
+        "virgin_mm": 0.79,
+        "crosslinked_mm": 0.58,
+        "printed_difference_percent": 36.2
+      },
+      {
+        "temperature_C": 50,
+        "label": "50C",
+        "virgin_mm": 1.26,
+        "crosslinked_mm": 0.8,
+        "printed_difference_percent": 57.5
+      },
+      {
+        "temperature_C": 60,
+        "label": "60C",
+        "virgin_mm": 1.536,
+        "crosslinked_mm": 0.84,
+        "printed_difference_percent": 82.8
+      }
+    ]
+  },
+  "manufacturing": {
+    "finished_kg": 135000,
+    "yields": [
+      0.5,
+      0.65,
+      0.8
+    ],
+    "pre_crosslink_offcut_recovery": [
+      0,
+      0.5,
+      0.95
+    ],
+    "post_crosslink_same_grade_remelt_recovery": 0,
+    "virgin_price_JPY_kg": 500,
+    "irradiation_charge_JPY_kg": [
+      50,
+      150,
+      500
+    ],
+    "price_status": "sensitivity assumptions, not quotations; tax excluded",
+    "central_yield": 0.65,
+    "central_recovery": 0.95,
+    "central_charge": 150,
+    "extra_handling_break_even_excludes_other_costs": true
+  },
+  "energy": {
+    "dose_kGy": [
+      30,
+      60,
+      120
+    ],
+    "absorbed_to_grid_efficiency": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "electricity_JPY_kWh": 30,
+    "beam_power_kW_reference": 200,
+    "power_source": "S2 equipment rating; not guaranteed usable power or throughput"
+  },
+  "transport": {
+    "density_kg_m3": 930,
+    "sheet_thickness_m": 0.00012,
+    "width_m": 1,
+    "speed_m_min": [
+      10,
+      20,
+      100
+    ],
+    "layers": [
+      1,
+      10
+    ],
+    "yield": 0.65,
+    "utilization": 0.7,
+    "all_values_assumed": true
+  },
+  "lifetime": {
+    "annual_replacement_fraction": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "years": 10,
+    "price_before_crosslink_JPY_kg": 500,
+    "charge_JPY_kg": 150,
+    "actual_life": null
+  }
+}

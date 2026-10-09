@@ -1,0 +1,124 @@
+{
+  "cycle": 95,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "e8543d822805562f0f69d885860f9b925beb06ec",
+  "hash_algorithm": "SHA-256",
+  "excludes": "Self manifest; third-party inspection copies and transient dependencies are not deliverables",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第95巡_一体架橋枝の50℃根拠と端材回収の経済性_20261009.md",
+      "bytes": 8606,
+      "sha256": "7e41b73b87fc8510b120adaa29685685b55dc385dd7d3092431c3e8f6bd1f3db"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 61850,
+      "sha256": "8fd1f9091c01958339cbf87357275784a0e142005bcc04c993373fdf73c61852"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/README.md",
+      "bytes": 1159,
+      "sha256": "a03be58203c1e85c3d48599a172c2000a8a3c36b4506a772d75046834e0858c5"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/audit.py",
+      "bytes": 5242,
+      "sha256": "fcf92aebab9d8f9217a7337d5c52e18836e9678af8f8a3f92cf5d15630e7436c"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/claude_handoff.md",
+      "bytes": 1932,
+      "sha256": "4a4e0d269d8660ba3afccc307f5bf4bcbe73d53bb83cc71d526701fb4874e23c"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/document_audit.json",
+      "bytes": 4603,
+      "sha256": "e3f34de93ade6bbe9958a52d5bf8058d4aa21856dad9396eb5b38596e1b6be17"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/evidence_and_process.png",
+      "bytes": 165098,
+      "sha256": "37266c316625559a3897a23a52401313a8a23be990e005580bf305c319256160"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/index_changes.json",
+      "bytes": 4452,
+      "sha256": "fb2fdde0ced9c109c870827d01001482ce3224abcdbcc9f3aee6e2a61524b3b4"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/inputs.json",
+      "bytes": 2229,
+      "sha256": "98905727a24bf45f6b4b8be27e1a55fa11add266df7a8d91bda4b96db400d19f"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/make_figure.py",
+      "bytes": 1982,
+      "sha256": "ab9ad4491fb695f710a8f09c5a0c76e6f1ab4f189d931383ae85ef4cd8d9541d"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/model.md",
+      "bytes": 4533,
+      "sha256": "16582bd87b44f6cbbdb3d89da6dd24c26f61ddc8d1b6d3516f8ac8312ce0b57a"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/reproduce.py",
+      "bytes": 5137,
+      "sha256": "4afd15cf4161730d7e03d6f877a2a8555046e7a2dd7950a2a11fcf7e39192d8a"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/requirements.txt",
+      "bytes": 32,
+      "sha256": "2b7af937bbd6f44236acaeb7316c2aa376d5a1a81c1d776a2d66ae70a54b837b"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/research_state.json",
+      "bytes": 974,
+      "sha256": "1228d6d0bc5753bfa104fbb9e9722c6e87f58751b7bcb179268c9aa49db0c827"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/results.json",
+      "bytes": 22602,
+      "sha256": "57c0ac256b35ebbcf06cacbbecb50a8b75e6392c7f1d2f44a8431ecaf7ce9841"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/sources.md",
+      "bytes": 4597,
+      "sha256": "2e2dd07063942797b1cf4fd258cd4065facfef61ede7c3ea5d3869ebd16a5380"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/test_plan.json",
+      "bytes": 13044,
+      "sha256": "d20916c2e3513d06db32b246bbb4de0446c96d4d3b897b7efd273a67423dd795"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/test_plan.md",
+      "bytes": 4004,
+      "sha256": "4d544ea9fd17a2619c1d8f610013bfe184ce5af15309e6ce14a23fd965118b59"
+    },
+    {
+      "path": "GPT往復/一体架橋枝の実測監査と製造順序_20261009/validation.json",
+      "bytes": 5135,
+      "sha256": "7cd8f76f3858d1c52a405a641a25111374289b2a71127ada6d7f2ebfffa82ff1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 71701,
+      "sha256": "25ff8d2acb61d4fe7846c4eea10cfdae23c203e997a1b57298e3245c0649371f"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 171554,
+      "sha256": "5b88a8f23cd54f09676d892c85bfd542accf66c60be80fb21ca000b80ba212c4"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 22871,
+      "sha256": "f495d43a582ce4e3031f196d7d882a16c2b21971864f33e7fe53c1f38805478c"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 227471,
+      "sha256": "84fa995f4350a258feb9068931cdbbfa62467adb4dead9a07ed0b0746430d966"
+    }
+  ]
+}
