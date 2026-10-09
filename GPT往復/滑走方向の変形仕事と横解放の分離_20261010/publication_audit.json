@@ -1,0 +1,10 @@
+{
+  "links_checked": 27,
+  "stored_result_reproduction_passed": true,
+  "prior_text_preserved": true,
+  "numerical_checks": 49,
+  "physical_trials": 0,
+  "success_probability": null,
+  "field_snow_coefficient_used_as_material_coefficient": false,
+  "public_byte_verification": "required after commit before deletion"
+}

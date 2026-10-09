@@ -1,0 +1,203 @@
+{
+  "status": "analytic_and_numerical_consistency_only",
+  "count": 49,
+  "checks": [
+    {
+      "name": "equal depth stiffness compensation",
+      "passed": true
+    },
+    {
+      "name": "compensated force numerical balance",
+      "passed": true
+    },
+    {
+      "name": "compensated work numerical balance",
+      "passed": true
+    },
+    {
+      "name": "annual cost arithmetic",
+      "passed": true
+    },
+    {
+      "name": "small area three year gross unit cap",
+      "passed": true
+    },
+    {
+      "name": "large area three year gross unit cap",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 1.0, 500)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 1.0, 500)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 1.0, 1000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 1.0, 1000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 1.0, 2000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 1.0, 2000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 1.0, 4000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 1.0, 4000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 0.25, 500)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 0.25, 500)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 0.25, 1000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 0.25, 1000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 0.25, 2000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 0.25, 2000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.2, 0.25, 4000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.2, 0.25, 4000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (1.0, 1.0, 500)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (1.0, 1.0, 500)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (1.0, 1.0, 1000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (1.0, 1.0, 1000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (1.0, 1.0, 2000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (1.0, 1.0, 2000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (1.0, 1.0, 4000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (1.0, 1.0, 4000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.7071067811865476, 0.37, 500)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.7071067811865476, 0.37, 500)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.7071067811865476, 0.37, 1000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.7071067811865476, 0.37, 1000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.7071067811865476, 0.37, 2000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.7071067811865476, 0.37, 2000)",
+      "passed": true
+    },
+    {
+      "name": "normal quadrature (0.7071067811865476, 0.37, 4000)",
+      "passed": true
+    },
+    {
+      "name": "work quadrature (0.7071067811865476, 0.37, 4000)",
+      "passed": true
+    },
+    {
+      "name": "elastic limit dissipates zero",
+      "passed": true
+    },
+    {
+      "name": "linear foundation depth scales with load",
+      "passed": true
+    },
+    {
+      "name": "load doubling quadruples work",
+      "passed": true
+    },
+    {
+      "name": "rate independent force",
+      "passed": true
+    },
+    {
+      "name": "power speed conversion",
+      "passed": true
+    },
+    {
+      "name": "fixed depth admissibility inversion",
+      "passed": true
+    },
+    {
+      "name": "zero budget nonelastic allows zero depth",
+      "passed": true
+    },
+    {
+      "name": "elastic depth unbounded only by this work criterion",
+      "passed": true
+    },
+    {
+      "name": "grid count",
+      "passed": true
+    },
+    {
+      "name": "nonnegative loss and support",
+      "passed": true
+    },
+    {
+      "name": "work balance in all rows",
+      "passed": true
+    }
+  ],
+  "physical_validation": false
+}

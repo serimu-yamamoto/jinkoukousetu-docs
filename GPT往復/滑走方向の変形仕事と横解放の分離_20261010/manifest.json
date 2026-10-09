@@ -1,0 +1,109 @@
+{
+  "cycle": 108,
+  "base_commit": "7322fdb0de096915f156bcb8f3a165be07e66262",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第108巡_滑走中の変形仕事とエッジ解放を分ける_20261010.md",
+      "bytes": 10835,
+      "sha256": "cd80e0baa56d3dff0e3f80896deaec377302e8ddb3cb48df510c0ab960e669f5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 70410,
+      "sha256": "a1aa15e0039f5dbe9690f3085262985af6ba3c4775a3ddfb0d20a00d362d78d6"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/README.md",
+      "bytes": 687,
+      "sha256": "d3aee4ed103d1f94446d4c321242d3eb26fbdfce2089c91f6c38012394ea74d1"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/claude_handoff.md",
+      "bytes": 1735,
+      "sha256": "37c0f76e4e7d2a4217c77db347facfa9d1ed29baa2ba861fd6fbe6660745bfaf"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "ffa16b3943c7d49312ad6f1c4a83a858a35c632c6ae368b3e15783f15aec8272"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/model.md",
+      "bytes": 2270,
+      "sha256": "cba43d0d72c4855d2578e98be436c9c6224f430ecdc26de3be82b675410ce768"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/publication_audit.json",
+      "bytes": 319,
+      "sha256": "608da8b0c05d1f0f0f59b48a10c136b6ac94b1a691ca9a6da04def0ce3619f71"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/reproduce.py",
+      "bytes": 5664,
+      "sha256": "2f9eea0aa0f68e97850375708a449b0b0ad4b653902ff1335db2d01f98ed0394"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/research_state.json",
+      "bytes": 1020,
+      "sha256": "4f0345222851b562762900a4f1a8ea5644d8ddc04f6b017bf17db35e792a9b8d"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/results.json",
+      "bytes": 173601,
+      "sha256": "8491df365029f4c1ec54ec3c0fe70296170d62a64c2293e477bb874b13d076a8"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/sources.json",
+      "bytes": 695,
+      "sha256": "485656b25b2353ad0143cc6f38b2d16badaf9d6a77e9e38bbc60f82dcb2865b1"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/validation.json",
+      "bytes": 4382,
+      "sha256": "cb89d7c5c54b6c9bbcb7d4a692d554865ddb8cd049eb9eb9e293c1392f0507c9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 80436,
+      "sha256": "f43461d5a333636addc191b1acc88adcac1913f1186a593bd834531e22e864fe"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 186129,
+      "sha256": "2c52ad8cf7dc812a81f725dc022077f651dd14a9f52c00d665c7c94e01ee01bb"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 1850,
+      "sha256": "3be49edf67c407f7588d31c4f3a941da2bce44abaf9f5b91f642fc929c6c67ff"
+    },
+    {
+      "path": "計算部品/load_unload_foundation.py",
+      "bytes": 2547,
+      "sha256": "8f2ee2e86289139c686258d662e7967e41c8cd05f095555457c054bc5f5463f7"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 31335,
+      "sha256": "42a9483916a56a743e3795257b3c0b271d81e5136e04a28f46a03a267184e7c7"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 232254,
+      "sha256": "aeb4c99f7640d8933aeec58053e77de3a38f97719779a9571e7796c0fb7d2de6"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/model.md",
+      "bytes": 4178,
+      "sha256": "d3b45a093c5d423617fc94057092827b635a2c2b1d6a948d00e7c90dde919ed3"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/model.md",
+      "bytes": 4979,
+      "sha256": "d1f60eaed2495dac331814da5342f59c77d10ba0b6bd2b05fd70ef7d535abf4a"
+    }
+  ]
+}

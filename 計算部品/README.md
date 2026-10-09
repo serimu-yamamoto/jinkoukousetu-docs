@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [load_unload_foundation.py](load_unload_foundation.py)：移動する押込み履歴の変形仕事と同深さ比較。[第108巡](../GPT往復/滑走方向の変形仕事と横解放の分離_20261010/README.md)。横切削・50℃材料未同定。
+
 - [restoration_process.py](restoration_process.py)：保持水切りと分流復旧の収支。[第107巡](../GPT往復/分流水切りと60分復旧の成立条件_20261010/README.md)。実機能力・実物損傷未検証。
 
 - [rim_grain_hex.py](rim_grain_hex.py)：環粒のHex8弾性と開口の毛管圧尺度。[第106巡](../GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/README.md)。大窓メッシュ未収束。

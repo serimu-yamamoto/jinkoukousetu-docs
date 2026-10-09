@@ -1,0 +1,16 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2021.728722/full",
+    "date": "2021-09-16",
+    "accessed": "2026-10-10",
+    "scope": "original research Results: freshly groomed new snow near zero snow temperature, whole-system COF 0.060 ± 0.008; do not assign as material interface coefficient"
+  },
+  {
+    "id": "S2",
+    "url": "https://publikationen.bibliothek.kit.edu/1000172164",
+    "date": "2024-07-15",
+    "accessed": "2026-10-10",
+    "scope": "official dissertation abstract only: compaction and plowing on groomed snow, permanent and reversible deformation; no numeric constitutive parameters imported"
+  }
+]
