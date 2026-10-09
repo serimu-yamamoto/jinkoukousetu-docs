@@ -1,0 +1,119 @@
+{
+  "kind": "arithmetic_and_identifiability_checks_not_physical_tests",
+  "count": 28,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "four_history_cells_rank_four",
+      "passed": true
+    },
+    {
+      "name": "only_fresh_and_worn_rank_two",
+      "passed": true
+    },
+    {
+      "name": "missing_cell_0_loses_identifiability",
+      "passed": true
+    },
+    {
+      "name": "missing_cell_1_loses_identifiability",
+      "passed": true
+    },
+    {
+      "name": "missing_cell_2_loses_identifiability",
+      "passed": true
+    },
+    {
+      "name": "missing_cell_3_loses_identifiability",
+      "passed": true
+    },
+    {
+      "name": "candidate_history_only_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "ski_history_only_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "both_histories_required_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "all_examples_same_FF_WW",
+      "passed": true
+    },
+    {
+      "name": "mixed_history_cases_differ",
+      "passed": true
+    },
+    {
+      "name": "candidate_only_zero_ski_and_interaction",
+      "passed": true
+    },
+    {
+      "name": "both_only_negative_interaction",
+      "passed": true
+    },
+    {
+      "name": "24_independent_endpoints",
+      "passed": true
+    },
+    {
+      "name": "18_dedicated_donor_pairs",
+      "passed": true
+    },
+    {
+      "name": "30_candidates_and_30_ski_bodies",
+      "passed": true
+    },
+    {
+      "name": "unique_produced_body_ids",
+      "passed": true
+    },
+    {
+      "name": "no_body_shared_between_endpoints",
+      "passed": true
+    },
+    {
+      "name": "one_endpoint_per_donor",
+      "passed": true
+    },
+    {
+      "name": "all_measurements_missing",
+      "passed": true
+    },
+    {
+      "name": "12_unused_donor_partners",
+      "passed": true
+    },
+    {
+      "name": "default_motion_50_plus_1_over_15_hours",
+      "passed": true
+    },
+    {
+      "name": "default_751000_yen_not_total",
+      "passed": true
+    },
+    {
+      "name": "slow_30km_motion_hours",
+      "passed": true
+    },
+    {
+      "name": "speed_shortens_time_not_validates_equivalence",
+      "passed": true
+    },
+    {
+      "name": "pressure_load_arithmetic_source1",
+      "passed": true
+    },
+    {
+      "name": "distance_arithmetic_source1",
+      "passed": true
+    },
+    {
+      "name": "probability_remains_null",
+      "passed": true
+    }
+  ]
+}

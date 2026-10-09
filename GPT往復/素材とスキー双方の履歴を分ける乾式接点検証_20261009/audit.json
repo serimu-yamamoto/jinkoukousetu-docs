@@ -1,0 +1,193 @@
+{
+  "all_passed": true,
+  "document_checks": 46,
+  "local_link_count": 606,
+  "numeric_checks": 28,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "28_numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "no_physical_trials",
+      "passed": true
+    },
+    {
+      "name": "no_success_estimate",
+      "passed": true
+    },
+    {
+      "name": "no_contacts_or_purchases",
+      "passed": true
+    },
+    {
+      "name": "no_claimed_claude_receipt",
+      "passed": true
+    },
+    {
+      "name": "all_endpoints_unperformed",
+      "passed": true
+    },
+    {
+      "name": "all_donors_unperformed",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_operation_README.md_8",
+      "passed": true
+    },
+    {
+      "name": "history_restored_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_operation_回覧板.md_10",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_operation_回覧板.md_11",
+      "passed": true
+    },
+    {
+      "name": "history_restored_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_operation_GPT往復/README.md_13",
+      "passed": true
+    },
+    {
+      "name": "history_restored_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_operation_調査台帳/一般.md_15",
+      "passed": true
+    },
+    {
+      "name": "history_restored_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_operation_調査台帳/計算部品索引.md_17",
+      "passed": true
+    },
+    {
+      "name": "history_restored_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_contains_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_contains_成功確率",
+      "passed": true
+    },
+    {
+      "name": "report_contains_架空",
+      "passed": true
+    },
+    {
+      "name": "report_contains_総額は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_contains_60分",
+      "passed": true
+    },
+    {
+      "name": "report_contains_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_contains_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_contains_Claude",
+      "passed": true
+    },
+    {
+      "name": "report_contains_28件",
+      "passed": true
+    },
+    {
+      "name": "states_not_fitted_to_literature",
+      "passed": true
+    },
+    {
+      "name": "all_costs_incomplete",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "reproduction_exit_zero",
+      "passed": true
+    },
+    {
+      "name": "reproduction_byte_identical",
+      "passed": true
+    },
+    {
+      "name": "lf_only_audit.py",
+      "passed": true
+    },
+    {
+      "name": "lf_only_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "lf_only_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "lf_only_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "lf_only_model.md",
+      "passed": true
+    },
+    {
+      "name": "lf_only_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "lf_only_README.md",
+      "passed": true
+    },
+    {
+      "name": "lf_only_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "lf_only_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "lf_only_results.json",
+      "passed": true
+    },
+    {
+      "name": "lf_only_sources.md",
+      "passed": true
+    },
+    {
+      "name": "lf_only_specimen_allocation.json",
+      "passed": true
+    },
+    {
+      "name": "lf_only_validation.json",
+      "passed": true
+    }
+  ]
+}

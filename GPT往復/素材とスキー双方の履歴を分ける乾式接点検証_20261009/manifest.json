@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "09f9b8ef232d7eb218efb81d64dcf12665157448",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第89巡_慣らした板だけに依存しない滑走接点_20261009.md",
+      "sha256": "351e6251aea804b8d7ab2fc1bad5579209a14bcf7678b8c02b8424f4869d8eba",
+      "bytes": 8869
+    },
+    {
+      "path": "GPT往復/README.md",
+      "sha256": "c4ade5066ac717f8a568dae2a437ffcdb0bd670f05c674fd799ceb35c7e9f65c",
+      "bytes": 59077
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/README.md",
+      "sha256": "ef2a87b42b9d6b150fa2e3c9fa12d4f713653599620a5df28c8d830b9804aa68",
+      "bytes": 1226
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/audit.json",
+      "sha256": "cbf72a12547f85c00ec031b67b79ce041d01ba2b883eb960c51d8ee9733030c1",
+      "bytes": 3788
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/audit.py",
+      "sha256": "34842d04d480c41b56f3100a8577a0cc151e51b715eff8c671af7559bf2a8ac8",
+      "bytes": 4042
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/claude_handoff.md",
+      "sha256": "a09220ca1daffe470455bb77d57155bf07731c248cf5ba769af320ee06c99368",
+      "bytes": 1713
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/index_changes.json",
+      "sha256": "dbb0898a3e1b4dc68481b70cf6e7cdb4de4de0d6ade365c527e33e3c51631e13",
+      "bytes": 3992
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/inputs.json",
+      "sha256": "0d0d54b2c3b9f08f859be49feaf280a1568afbbf1a95a8b311f895c6aeba0104",
+      "bytes": 1613
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/model.md",
+      "sha256": "479c8f42b48e8ff769e301f19f671cc021fd6250582638ee550916bcbea31b22",
+      "bytes": 2751
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/protocol.md",
+      "sha256": "c34d2b386d3de91b18f44f4226d800cd1cebe7060a783700aa8ead2d3bf384c5",
+      "bytes": 4032
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/reproduce.py",
+      "sha256": "dfadcff5a4b2b37c1430b8a7f638901e8524f33ece99bb8fe3ab891202390b38",
+      "bytes": 6495
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/research_state.json",
+      "sha256": "ce18a216ac20efae56373df504d2191a70d3ba3b51d871b12f67fc84ec6d7bb8",
+      "bytes": 838
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/results.json",
+      "sha256": "741b7445b753c07f3bf790cb79d59b88f71dce8359f0f31ec58f37e834332833",
+      "bytes": 5474
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/sources.md",
+      "sha256": "19c2bc63f2ba560e5d3c32acec3db7e6c243553782ffea69701aa47d7d5ee234",
+      "bytes": 3188
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/specimen_allocation.json",
+      "sha256": "279c31a4bf7cc54d94e27b8e86c7df979e08ce0cda71d3615b4ea4d1d4515e1e",
+      "bytes": 22397
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/validation.json",
+      "sha256": "e4012c94617ead99d7ab67aacbcd074641e69a99ba344e8b87a7416ce12a3ed8",
+      "bytes": 2429
+    },
+    {
+      "path": "README.md",
+      "sha256": "0a232945e5a14954f9e59d5edeeead8ca6d64e0929fc9cd06e1c9d27b09abf84",
+      "bytes": 68898
+    },
+    {
+      "path": "回覧板.md",
+      "sha256": "04fa2f547bc6cf6faffdc3903196043e6e09cde9cf7df56bc572b8f7d9f217d2",
+      "bytes": 166856
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "sha256": "6a6c66421a9d815e9137b1dc2bed335c0112b05342200ba74b7ab5f2109378ef",
+      "bytes": 20522
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "sha256": "e616ff4144c0f625e370778a1f32d88bfc27b137c7d7980fa44a4e4274807b66",
+      "bytes": 225271
+    }
+  ]
+}

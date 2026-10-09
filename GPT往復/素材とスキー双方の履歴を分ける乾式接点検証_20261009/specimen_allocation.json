@@ -1,0 +1,713 @@
+{
+  "status": "not_performed",
+  "endpoint_runs": [
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_FF_r1",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "FF",
+      "independent_replicate": 1,
+      "donor_id": null,
+      "candidate_id": "unfilled_UHMWPE_reference_FF_r1_fresh_C",
+      "ski_id": "unfilled_UHMWPE_reference_FF_r1_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_FF_r2",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "FF",
+      "independent_replicate": 2,
+      "donor_id": null,
+      "candidate_id": "unfilled_UHMWPE_reference_FF_r2_fresh_C",
+      "ski_id": "unfilled_UHMWPE_reference_FF_r2_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_FF_r3",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "FF",
+      "independent_replicate": 3,
+      "donor_id": null,
+      "candidate_id": "unfilled_UHMWPE_reference_FF_r3_fresh_C",
+      "ski_id": "unfilled_UHMWPE_reference_FF_r3_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_WF_r1",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "WF",
+      "independent_replicate": 1,
+      "donor_id": "unfilled_UHMWPE_reference_WF_r1_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WF_r1_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WF_r1_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_WF_r2",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "WF",
+      "independent_replicate": 2,
+      "donor_id": "unfilled_UHMWPE_reference_WF_r2_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WF_r2_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WF_r2_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_WF_r3",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "WF",
+      "independent_replicate": 3,
+      "donor_id": "unfilled_UHMWPE_reference_WF_r3_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WF_r3_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WF_r3_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_FW_r1",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "FW",
+      "independent_replicate": 1,
+      "donor_id": "unfilled_UHMWPE_reference_FW_r1_D",
+      "candidate_id": "unfilled_UHMWPE_reference_FW_r1_fresh_C",
+      "ski_id": "unfilled_UHMWPE_reference_FW_r1_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_FW_r2",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "FW",
+      "independent_replicate": 2,
+      "donor_id": "unfilled_UHMWPE_reference_FW_r2_D",
+      "candidate_id": "unfilled_UHMWPE_reference_FW_r2_fresh_C",
+      "ski_id": "unfilled_UHMWPE_reference_FW_r2_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_FW_r3",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "FW",
+      "independent_replicate": 3,
+      "donor_id": "unfilled_UHMWPE_reference_FW_r3_D",
+      "candidate_id": "unfilled_UHMWPE_reference_FW_r3_fresh_C",
+      "ski_id": "unfilled_UHMWPE_reference_FW_r3_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_WW_r1",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "WW",
+      "independent_replicate": 1,
+      "donor_id": "unfilled_UHMWPE_reference_WW_r1_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WW_r1_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WW_r1_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_WW_r2",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "WW",
+      "independent_replicate": 2,
+      "donor_id": "unfilled_UHMWPE_reference_WW_r2_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WW_r2_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WW_r2_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_UHMWPE_reference_WW_r3",
+      "material": "unfilled_UHMWPE_reference",
+      "history": "WW",
+      "independent_replicate": 3,
+      "donor_id": "unfilled_UHMWPE_reference_WW_r3_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WW_r3_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WW_r3_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_FF_r1",
+      "material": "unfilled_PEI_candidate",
+      "history": "FF",
+      "independent_replicate": 1,
+      "donor_id": null,
+      "candidate_id": "unfilled_PEI_candidate_FF_r1_fresh_C",
+      "ski_id": "unfilled_PEI_candidate_FF_r1_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_FF_r2",
+      "material": "unfilled_PEI_candidate",
+      "history": "FF",
+      "independent_replicate": 2,
+      "donor_id": null,
+      "candidate_id": "unfilled_PEI_candidate_FF_r2_fresh_C",
+      "ski_id": "unfilled_PEI_candidate_FF_r2_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_FF_r3",
+      "material": "unfilled_PEI_candidate",
+      "history": "FF",
+      "independent_replicate": 3,
+      "donor_id": null,
+      "candidate_id": "unfilled_PEI_candidate_FF_r3_fresh_C",
+      "ski_id": "unfilled_PEI_candidate_FF_r3_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_WF_r1",
+      "material": "unfilled_PEI_candidate",
+      "history": "WF",
+      "independent_replicate": 1,
+      "donor_id": "unfilled_PEI_candidate_WF_r1_D",
+      "candidate_id": "unfilled_PEI_candidate_WF_r1_D_C",
+      "ski_id": "unfilled_PEI_candidate_WF_r1_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_WF_r2",
+      "material": "unfilled_PEI_candidate",
+      "history": "WF",
+      "independent_replicate": 2,
+      "donor_id": "unfilled_PEI_candidate_WF_r2_D",
+      "candidate_id": "unfilled_PEI_candidate_WF_r2_D_C",
+      "ski_id": "unfilled_PEI_candidate_WF_r2_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_WF_r3",
+      "material": "unfilled_PEI_candidate",
+      "history": "WF",
+      "independent_replicate": 3,
+      "donor_id": "unfilled_PEI_candidate_WF_r3_D",
+      "candidate_id": "unfilled_PEI_candidate_WF_r3_D_C",
+      "ski_id": "unfilled_PEI_candidate_WF_r3_fresh_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_FW_r1",
+      "material": "unfilled_PEI_candidate",
+      "history": "FW",
+      "independent_replicate": 1,
+      "donor_id": "unfilled_PEI_candidate_FW_r1_D",
+      "candidate_id": "unfilled_PEI_candidate_FW_r1_fresh_C",
+      "ski_id": "unfilled_PEI_candidate_FW_r1_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_FW_r2",
+      "material": "unfilled_PEI_candidate",
+      "history": "FW",
+      "independent_replicate": 2,
+      "donor_id": "unfilled_PEI_candidate_FW_r2_D",
+      "candidate_id": "unfilled_PEI_candidate_FW_r2_fresh_C",
+      "ski_id": "unfilled_PEI_candidate_FW_r2_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_FW_r3",
+      "material": "unfilled_PEI_candidate",
+      "history": "FW",
+      "independent_replicate": 3,
+      "donor_id": "unfilled_PEI_candidate_FW_r3_D",
+      "candidate_id": "unfilled_PEI_candidate_FW_r3_fresh_C",
+      "ski_id": "unfilled_PEI_candidate_FW_r3_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_WW_r1",
+      "material": "unfilled_PEI_candidate",
+      "history": "WW",
+      "independent_replicate": 1,
+      "donor_id": "unfilled_PEI_candidate_WW_r1_D",
+      "candidate_id": "unfilled_PEI_candidate_WW_r1_D_C",
+      "ski_id": "unfilled_PEI_candidate_WW_r1_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_WW_r2",
+      "material": "unfilled_PEI_candidate",
+      "history": "WW",
+      "independent_replicate": 2,
+      "donor_id": "unfilled_PEI_candidate_WW_r2_D",
+      "candidate_id": "unfilled_PEI_candidate_WW_r2_D_C",
+      "ski_id": "unfilled_PEI_candidate_WW_r2_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    },
+    {
+      "endpoint_id": "unfilled_PEI_candidate_WW_r3",
+      "material": "unfilled_PEI_candidate",
+      "history": "WW",
+      "independent_replicate": 3,
+      "donor_id": "unfilled_PEI_candidate_WW_r3_D",
+      "candidate_id": "unfilled_PEI_candidate_WW_r3_D_C",
+      "ski_id": "unfilled_PEI_candidate_WW_r3_D_S",
+      "status": "not_performed",
+      "measured_mu": null
+    }
+  ],
+  "conditioning_runs": [
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r1_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WF_r1_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WF_r1_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_WF_r1",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r2_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WF_r2_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WF_r2_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_WF_r2",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r3_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WF_r3_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WF_r3_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_WF_r3",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r1_D",
+      "candidate_id": "unfilled_UHMWPE_reference_FW_r1_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_FW_r1_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_FW_r1",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r2_D",
+      "candidate_id": "unfilled_UHMWPE_reference_FW_r2_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_FW_r2_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_FW_r2",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r3_D",
+      "candidate_id": "unfilled_UHMWPE_reference_FW_r3_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_FW_r3_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_FW_r3",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r1_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WW_r1_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WW_r1_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_WW_r1",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r2_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WW_r2_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WW_r2_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_WW_r2",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r3_D",
+      "candidate_id": "unfilled_UHMWPE_reference_WW_r3_D_C",
+      "ski_id": "unfilled_UHMWPE_reference_WW_r3_D_S",
+      "dedicated_endpoint": "unfilled_UHMWPE_reference_WW_r3",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r1_D",
+      "candidate_id": "unfilled_PEI_candidate_WF_r1_D_C",
+      "ski_id": "unfilled_PEI_candidate_WF_r1_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_WF_r1",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r2_D",
+      "candidate_id": "unfilled_PEI_candidate_WF_r2_D_C",
+      "ski_id": "unfilled_PEI_candidate_WF_r2_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_WF_r2",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r3_D",
+      "candidate_id": "unfilled_PEI_candidate_WF_r3_D_C",
+      "ski_id": "unfilled_PEI_candidate_WF_r3_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_WF_r3",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r1_D",
+      "candidate_id": "unfilled_PEI_candidate_FW_r1_D_C",
+      "ski_id": "unfilled_PEI_candidate_FW_r1_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_FW_r1",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r2_D",
+      "candidate_id": "unfilled_PEI_candidate_FW_r2_D_C",
+      "ski_id": "unfilled_PEI_candidate_FW_r2_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_FW_r2",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r3_D",
+      "candidate_id": "unfilled_PEI_candidate_FW_r3_D_C",
+      "ski_id": "unfilled_PEI_candidate_FW_r3_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_FW_r3",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r1_D",
+      "candidate_id": "unfilled_PEI_candidate_WW_r1_D_C",
+      "ski_id": "unfilled_PEI_candidate_WW_r1_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_WW_r1",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r2_D",
+      "candidate_id": "unfilled_PEI_candidate_WW_r2_D_C",
+      "ski_id": "unfilled_PEI_candidate_WW_r2_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_WW_r2",
+      "status": "not_performed"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r3_D",
+      "candidate_id": "unfilled_PEI_candidate_WW_r3_D_C",
+      "ski_id": "unfilled_PEI_candidate_WW_r3_D_S",
+      "dedicated_endpoint": "unfilled_PEI_candidate_WW_r3",
+      "status": "not_performed"
+    }
+  ],
+  "bodies": [
+    {
+      "id": "unfilled_UHMWPE_reference_FF_r1_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FF_r1_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FF_r2_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FF_r2_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FF_r3_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FF_r3_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r1_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r1_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r1_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r2_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r2_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r2_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r3_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r3_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WF_r3_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r1_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r1_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r1_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r2_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r2_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r2_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r3_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r3_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_FW_r3_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r1_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r1_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r2_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r2_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r3_D_C",
+      "type": "candidate",
+      "material": "unfilled_UHMWPE_reference"
+    },
+    {
+      "id": "unfilled_UHMWPE_reference_WW_r3_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FF_r1_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FF_r1_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FF_r2_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FF_r2_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FF_r3_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FF_r3_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r1_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r1_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r1_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r2_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r2_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r2_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r3_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r3_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WF_r3_fresh_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r1_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r1_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r1_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r2_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r2_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r2_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r3_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r3_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_FW_r3_fresh_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r1_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r1_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r2_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r2_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r3_D_C",
+      "type": "candidate",
+      "material": "unfilled_PEI_candidate"
+    },
+    {
+      "id": "unfilled_PEI_candidate_WW_r3_D_S",
+      "type": "ski",
+      "material": "ski_UHMWPE"
+    }
+  ],
+  "unused_partners": [
+    "unfilled_UHMWPE_reference_WF_r1_D_S",
+    "unfilled_UHMWPE_reference_WF_r2_D_S",
+    "unfilled_UHMWPE_reference_WF_r3_D_S",
+    "unfilled_UHMWPE_reference_FW_r1_D_C",
+    "unfilled_UHMWPE_reference_FW_r2_D_C",
+    "unfilled_UHMWPE_reference_FW_r3_D_C",
+    "unfilled_PEI_candidate_WF_r1_D_S",
+    "unfilled_PEI_candidate_WF_r2_D_S",
+    "unfilled_PEI_candidate_WF_r3_D_S",
+    "unfilled_PEI_candidate_FW_r1_D_C",
+    "unfilled_PEI_candidate_FW_r2_D_C",
+    "unfilled_PEI_candidate_FW_r3_D_C"
+  ]
+}

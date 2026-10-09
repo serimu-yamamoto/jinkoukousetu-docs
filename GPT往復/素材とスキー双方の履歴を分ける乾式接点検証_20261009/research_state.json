@@ -1,0 +1,21 @@
+{
+  "cycle": 89,
+  "date": "2026-10-09",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "09f9b8ef232d7eb218efb81d64dcf12665157448",
+  "claude_ledger": "調査台帳/物性値照合_自律ループv2v3.md",
+  "claude_ledger_normalized_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "claude_receipt": null,
+  "claude_reply": null,
+  "claude_running": null,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "facilities_secured": false,
+  "collaborators_secured": false,
+  "contacts_sent": 0,
+  "purchases": 0,
+  "third_party_raw_data_retrieved": false,
+  "new_source": "10.1007/s44493-025-00004-z",
+  "change": "Separate candidate and ski history before selecting a contact material; preserve all earlier unverified requirements."
+}

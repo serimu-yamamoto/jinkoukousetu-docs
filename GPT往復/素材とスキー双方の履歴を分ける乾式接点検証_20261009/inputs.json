@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "evidence_status": {
+    "physical_experiments_performed": 0,
+    "success_probability": null,
+    "synthetic_examples_are_measurements": false
+  },
+  "history_order": [
+    "FF",
+    "WF",
+    "FW",
+    "WW"
+  ],
+  "synthetic_examples": [
+    {
+      "id": "candidate_history_only",
+      "mu": [
+        0.2,
+        0.06,
+        0.2,
+        0.06
+      ]
+    },
+    {
+      "id": "ski_history_only",
+      "mu": [
+        0.2,
+        0.2,
+        0.06,
+        0.06
+      ]
+    },
+    {
+      "id": "both_histories_required",
+      "mu": [
+        0.2,
+        0.2,
+        0.2,
+        0.06
+      ]
+    }
+  ],
+  "campaign": {
+    "material_ids": [
+      "unfilled_UHMWPE_reference",
+      "unfilled_PEI_candidate"
+    ],
+    "replicates": 3,
+    "surface_setpoint_C": 50,
+    "nominal_pressure_MPa": 0.3,
+    "default_speed_m_s": 1,
+    "default_age_distance_m": 10000,
+    "endpoint_distance_m": 10
+  },
+  "sensitivity": {
+    "age_distance_m": [
+      1000,
+      10000,
+      30000
+    ],
+    "speed_m_s": [
+      0.25,
+      1,
+      5
+    ],
+    "assumed_machine_rates_yen_h": [
+      5000,
+      15000
+    ]
+  },
+  "rate_basis": "Assumptions only; no quote, vendor acceptance or full cost known.",
+  "unpriced": [
+    "specimens",
+    "machining",
+    "fixtures",
+    "temperature_preparation",
+    "independent_conditioning_setup",
+    "endpoint_setup",
+    "surface_and_debris_analysis",
+    "wear_metrology",
+    "reporting",
+    "natural_snow_reference",
+    "safety_and_environment",
+    "wet_and_winter_tests"
+  ],
+  "source_ids": [
+    "S1",
+    "S2",
+    "S3"
+  ]
+}

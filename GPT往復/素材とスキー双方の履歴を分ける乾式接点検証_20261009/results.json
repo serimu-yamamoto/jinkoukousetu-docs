@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "physical_experiments_performed": 0,
+  "success_probability": null,
+  "identifiability": {
+    "only_FF_WW_rank": 2,
+    "four_cells_rank": 4,
+    "unknown_coefficients": 4
+  },
+  "synthetic_counterexamples": [
+    {
+      "id": "candidate_history_only",
+      "mu": [
+        0.2,
+        0.06,
+        0.2,
+        0.06
+      ],
+      "status": "synthetic_counterexample_not_measurement",
+      "coefficients": {
+        "baseline": 0.2,
+        "candidate_history": -0.14,
+        "ski_history": 0.0,
+        "interaction": 0.0
+      }
+    },
+    {
+      "id": "ski_history_only",
+      "mu": [
+        0.2,
+        0.2,
+        0.06,
+        0.06
+      ],
+      "status": "synthetic_counterexample_not_measurement",
+      "coefficients": {
+        "baseline": 0.2,
+        "candidate_history": 0.0,
+        "ski_history": -0.14,
+        "interaction": 0.0
+      }
+    },
+    {
+      "id": "both_histories_required",
+      "mu": [
+        0.2,
+        0.2,
+        0.2,
+        0.06
+      ],
+      "status": "synthetic_counterexample_not_measurement",
+      "coefficients": {
+        "baseline": 0.2,
+        "candidate_history": 0.0,
+        "ski_history": 0.0,
+        "interaction": -0.14
+      }
+    }
+  ],
+  "campaign": {
+    "endpoint_count": 24,
+    "conditioning_count": 18,
+    "candidate_bodies": 30,
+    "ski_bodies": 30,
+    "unused_donor_partners": [
+      "unfilled_UHMWPE_reference_WF_r1_D_S",
+      "unfilled_UHMWPE_reference_WF_r2_D_S",
+      "unfilled_UHMWPE_reference_WF_r3_D_S",
+      "unfilled_UHMWPE_reference_FW_r1_D_C",
+      "unfilled_UHMWPE_reference_FW_r2_D_C",
+      "unfilled_UHMWPE_reference_FW_r3_D_C",
+      "unfilled_PEI_candidate_WF_r1_D_S",
+      "unfilled_PEI_candidate_WF_r2_D_S",
+      "unfilled_PEI_candidate_WF_r3_D_S",
+      "unfilled_PEI_candidate_FW_r1_D_C",
+      "unfilled_PEI_candidate_FW_r2_D_C",
+      "unfilled_PEI_candidate_FW_r3_D_C"
+    ],
+    "default_motion_and_assumed_cost": {
+      "age_distance_m": 10000,
+      "speed_m_s": 1,
+      "age_hours": 50.0,
+      "endpoint_hours": 0.06666666666666667,
+      "contact_motion_hours": 50.06666666666667,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 250333.33333333334,
+        "15000": 751000.0
+      }
+    }
+  },
+  "motion_budget_sensitivity": [
+    {
+      "age_distance_m": 1000,
+      "speed_m_s": 0.25,
+      "age_hours": 20.0,
+      "endpoint_hours": 0.26666666666666666,
+      "contact_motion_hours": 20.266666666666666,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 101333.33333333333,
+        "15000": 304000.0
+      }
+    },
+    {
+      "age_distance_m": 1000,
+      "speed_m_s": 1,
+      "age_hours": 5.0,
+      "endpoint_hours": 0.06666666666666667,
+      "contact_motion_hours": 5.066666666666666,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 25333.333333333332,
+        "15000": 76000.0
+      }
+    },
+    {
+      "age_distance_m": 1000,
+      "speed_m_s": 5,
+      "age_hours": 1.0,
+      "endpoint_hours": 0.013333333333333334,
+      "contact_motion_hours": 1.0133333333333334,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 5066.666666666667,
+        "15000": 15200.000000000002
+      }
+    },
+    {
+      "age_distance_m": 10000,
+      "speed_m_s": 0.25,
+      "age_hours": 200.0,
+      "endpoint_hours": 0.26666666666666666,
+      "contact_motion_hours": 200.26666666666668,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 1001333.3333333334,
+        "15000": 3004000.0
+      }
+    },
+    {
+      "age_distance_m": 10000,
+      "speed_m_s": 1,
+      "age_hours": 50.0,
+      "endpoint_hours": 0.06666666666666667,
+      "contact_motion_hours": 50.06666666666667,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 250333.33333333334,
+        "15000": 751000.0
+      }
+    },
+    {
+      "age_distance_m": 10000,
+      "speed_m_s": 5,
+      "age_hours": 10.0,
+      "endpoint_hours": 0.013333333333333334,
+      "contact_motion_hours": 10.013333333333334,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 50066.66666666667,
+        "15000": 150200.0
+      }
+    },
+    {
+      "age_distance_m": 30000,
+      "speed_m_s": 0.25,
+      "age_hours": 600.0,
+      "endpoint_hours": 0.26666666666666666,
+      "contact_motion_hours": 600.2666666666667,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 3001333.3333333335,
+        "15000": 9004000.0
+      }
+    },
+    {
+      "age_distance_m": 30000,
+      "speed_m_s": 1,
+      "age_hours": 150.0,
+      "endpoint_hours": 0.06666666666666667,
+      "contact_motion_hours": 150.06666666666666,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 750333.3333333334,
+        "15000": 2251000.0
+      }
+    },
+    {
+      "age_distance_m": 30000,
+      "speed_m_s": 5,
+      "age_hours": 30.0,
+      "endpoint_hours": 0.013333333333333334,
+      "contact_motion_hours": 30.013333333333332,
+      "setup_count": 42,
+      "full_cost_yen": null,
+      "assumed_machine_only_yen": {
+        "5000": 150066.66666666666,
+        "15000": 450200.0
+      }
+    }
+  ]
+}
