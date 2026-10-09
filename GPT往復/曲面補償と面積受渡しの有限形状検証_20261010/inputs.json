@@ -1,0 +1,25 @@
+{
+  "cycle": 102,
+  "date": "2026-10-10",
+  "base_commit": "582938ba5cc08b8b98f913136cef2732e429995b",
+  "eta": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "gamma": [
+    0.0,
+    0.1,
+    0.25,
+    0.4,
+    0.75
+  ],
+  "candidates": [
+    "height_compensated_profiles",
+    "constant_total_overlap_area"
+  ],
+  "calibration": "none; dimensionless surrogate",
+  "physical_trials": 0,
+  "success_probability": null
+}

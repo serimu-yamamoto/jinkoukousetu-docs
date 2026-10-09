@@ -1,0 +1,35 @@
+{
+  "cycle": 102,
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment_and_collaborators": "not_secured",
+  "claude_receipt_response_running": "unconfirmed",
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "candidates": [
+    "H102-C two compensated profiles",
+    "H102-A two coplanar pads with area transfer"
+  ],
+  "new_decisions": [
+    "do not equate constant height with zero geometric resistance",
+    "free rotation invalidates constant-area stiffness claim",
+    "analyze entering local pressure separately from total contact force",
+    "retain small drainage gap variant for finite 3D geometry; round-entry effect unverified"
+  ],
+  "unresolved": [
+    "three-dimensional free grains and random orientations",
+    "finite-rotation geometry",
+    "50 C creep recovery and wet friction",
+    "entrance rounding and wear",
+    "snow-like glide edge support braking vibration",
+    "rain maintenance within 60 min and winter bed stability",
+    "safety environment materials and full cost",
+    "ambient spray crystallization"
+  ],
+  "common_library": {
+    "path": "計算部品/handover_contacts.py",
+    "sha256": "2c7828b8af449b3ea150307bffe3c0274ff086f6d310500ac0fc34d537403904",
+    "server_copy": "delete after public byte verification"
+  },
+  "unit_label_correction": "peak_line_load replaced misleading peak_pressure_over_width; normalized comparisons unchanged",
+  "previous_turn_classification": "progress: cycle101 published with new load-transfer evidence"
+}

@@ -1,0 +1,107 @@
+{
+  "failed_check": "quadrature_improves",
+  "quadrature": [
+    {
+      "n_per_interval": 100,
+      "force_error": 0.0,
+      "moment_error": 1.0129032610419787e-05,
+      "energy_error": 8.160994427908186e-06
+    },
+    {
+      "n_per_interval": 400,
+      "force_error": 4.440892098500626e-16,
+      "moment_error": 6.330645382033326e-07,
+      "energy_error": 5.100621514042558e-07
+    },
+    {
+      "n_per_interval": 1600,
+      "force_error": 2.220446049250313e-16,
+      "moment_error": 3.956653352592027e-08,
+      "energy_error": 3.1878883532954205e-08
+    }
+  ],
+  "selected_contact": {
+    "status": "equilibrium",
+    "delta": 1.4955074947869462,
+    "theta": 1.6114064871120215,
+    "q": 1.0774981019681125,
+    "force": 1.0,
+    "moment": 5.551115123125783e-17,
+    "energy": 0.747753747393473,
+    "active_length": 1.0,
+    "peak_pressure_over_width": 2.9054881710099654,
+    "reactions": [
+      {
+        "label": "A",
+        "force": 0.7450322608819065,
+        "moment": -0.2117211164121096,
+        "active_length": 0.91,
+        "peak_pressure_over_width": 1.5519067218358669
+      },
+      {
+        "label": "B",
+        "force": 0.25496773911809345,
+        "moment": 0.21172111641210967,
+        "active_length": 0.09000000000000008,
+        "peak_pressure_over_width": 2.9054881710099654
+      }
+    ]
+  },
+  "area_summaries": [
+    {
+      "gamma": 0.0,
+      "rotation_free": true,
+      "delta_span": 4.440892098500626e-16,
+      "max_delta": 1.0000000000000002,
+      "peak_pressure": 1.0000000000000007,
+      "min_active_length": 0.9999999999999999,
+      "peak_internal_Q_over_F_per_delta0_over_L": 1.1102230246251564e-11,
+      "geometric_slot_fraction": 0.0,
+      "max_theta_per_delta0_over_L": 1.0221893518085712e-15
+    },
+    {
+      "gamma": 0.1,
+      "rotation_free": true,
+      "delta_span": 0.030000000000000027,
+      "max_delta": 1.03,
+      "peak_pressure": 1.353779728522792,
+      "min_active_length": 0.9999999999999998,
+      "peak_internal_Q_over_F_per_delta0_over_L": 0.07797452000191107,
+      "geometric_slot_fraction": 0.047619047619047616,
+      "max_theta_per_delta0_over_L": 0.6000000000000006
+    },
+    {
+      "gamma": 0.25,
+      "rotation_free": true,
+      "delta_span": 0.1875,
+      "max_delta": 1.1875,
+      "peak_pressure": 2.091529895389148,
+      "min_active_length": 0.9999999999999998,
+      "peak_internal_Q_over_F_per_delta0_over_L": 0.6931909212082309,
+      "geometric_slot_fraction": 0.1111111111111111,
+      "max_theta_per_delta0_over_L": 1.5000000000000004
+    },
+    {
+      "gamma": 0.4,
+      "rotation_free": true,
+      "delta_span": 0.4814814814814814,
+      "max_delta": 1.4814814814814814,
+      "peak_pressure": 3.0922539089849512,
+      "min_active_length": 0.9000000000000001,
+      "peak_internal_Q_over_F_per_delta0_over_L": 2.4433552784086654,
+      "geometric_slot_fraction": 0.16666666666666669,
+      "max_theta_per_delta0_over_L": 2.4691358024691357
+    },
+    {
+      "gamma": 0.75,
+      "rotation_free": true,
+      "delta_span": 2.5555555555555554,
+      "max_delta": 3.5555555555555554,
+      "peak_pressure": 9.74508716208034,
+      "min_active_length": 0.375,
+      "peak_internal_Q_over_F_per_delta0_over_L": 39.67975780415633,
+      "geometric_slot_fraction": 0.2727272727272727,
+      "max_theta_per_delta0_over_L": 14.222222222222221
+    }
+  ]
+}

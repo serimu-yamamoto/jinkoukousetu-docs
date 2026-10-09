@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "scope": "Winkler surrogate: finite entrance pressure with vanishing patch force; not real edge stress",
+  "rows": [
+    {
+      "gamma": 0.1,
+      "endpoint_delta": 1.03,
+      "incoming_pressure_limit": 1.3600000000000003,
+      "exact_endpoint_Q_per_delta0_over_L": 0.07980000000000002,
+      "approach": [
+        {
+          "u": 0.01,
+          "incoming_peak": 1.3476686658743542,
+          "incoming_total_force": 0.013447665901992777,
+          "Q_right_derivative_estimate": 0.07798291921173872
+        },
+        {
+          "u": 0.0001,
+          "incoming_peak": 1.3598745025160115,
+          "incoming_total_force": 0.00013598445124742004,
+          "Q_right_derivative_estimate": 0.07978148989673528
+        },
+        {
+          "u": 1e-06,
+          "incoming_peak": 1.359998744802253,
+          "incoming_total_force": 1.3599984447013335e-06,
+          "Q_right_derivative_estimate": 0.07979981475614295
+        },
+        {
+          "u": 1e-08,
+          "incoming_peak": 1.359999987448001,
+          "incoming_total_force": 1.3599999768511725e-08,
+          "Q_right_derivative_estimate": 0.07979998883911321
+        }
+      ]
+    },
+    {
+      "gamma": 0.25,
+      "endpoint_delta": 1.1875,
+      "incoming_pressure_limit": 2.125,
+      "exact_endpoint_Q_per_delta0_over_L": 0.7265625,
+      "approach": [
+        {
+          "u": 0.01,
+          "incoming_peak": 2.0594913824273835,
+          "incoming_total_force": 0.020524044835482733,
+          "Q_right_derivative_estimate": 0.6935488730866579
+        },
+        {
+          "u": 0.0001,
+          "incoming_peak": 2.1243159311876525,
+          "incoming_total_force": 0.0002124240974293482,
+          "Q_right_derivative_estimate": 0.7262175394051607
+        },
+        {
+          "u": 1e-06,
+          "incoming_peak": 2.124993156280634,
+          "incoming_total_force": 2.1249924061267214e-06,
+          "Q_right_derivative_estimate": 0.7265590487026685
+        },
+        {
+          "u": 1e-08,
+          "incoming_peak": 2.124999931562504,
+          "incoming_total_force": 2.1249999144845425e-08,
+          "Q_right_derivative_estimate": 0.7265624546448635
+        }
+      ]
+    },
+    {
+      "gamma": 0.4,
+      "endpoint_delta": 1.4814814814814812,
+      "incoming_pressure_limit": 3.209876543209875,
+      "exact_endpoint_Q_per_delta0_over_L": null,
+      "approach": [
+        {
+          "u": 0.01,
+          "incoming_peak": 2.9895109614938256,
+          "incoming_total_force": 0.029783893213193868,
+          "Q_right_derivative_estimate": 2.450007220959194
+        },
+        {
+          "u": 0.0001,
+          "incoming_peak": 3.2073523009808875,
+          "incoming_total_force": 0.00032072289862166553,
+          "Q_right_derivative_estimate": 2.679886647352081
+        },
+        {
+          "u": 1e-06,
+          "incoming_peak": 3.209851262894261,
+          "incoming_total_force": 3.209850028830268e-06,
+          "Q_right_derivative_estimate": 2.6824915612122524
+        },
+        {
+          "u": 1e-08,
+          "incoming_peak": 3.2098762904029265,
+          "incoming_total_force": 3.209876259929832e-08,
+          "Q_right_derivative_estimate": 2.6825175969413806
+        }
+      ]
+    },
+    {
+      "gamma": 0.75,
+      "endpoint_delta": 3.5555555555555554,
+      "incoming_pressure_limit": 15.999999999999998,
+      "exact_endpoint_Q_per_delta0_over_L": null,
+      "approach": [
+        {
+          "u": 0.01,
+          "incoming_peak": 7.718593363483396,
+          "incoming_total_force": 0.07689409612028549,
+          "Q_right_derivative_estimate": 47.20593483345652
+        },
+        {
+          "u": 0.0001,
+          "incoming_peak": 15.708205856570565,
+          "incoming_total_force": 0.001570751014411578,
+          "Q_right_derivative_estimate": 111.58816937894888
+        },
+        {
+          "u": 1e-06,
+          "incoming_peak": 15.996985899882727,
+          "incoming_total_force": 1.599697878881055e-05,
+          "Q_right_derivative_estimate": 113.75525630619165
+        },
+        {
+          "u": 1e-08,
+          "incoming_peak": 15.99996984899016,
+          "incoming_total_force": 1.5999969672801792e-07,
+          "Q_right_derivative_estimate": 113.77755186892102
+        }
+      ]
+    }
+  ]
+}

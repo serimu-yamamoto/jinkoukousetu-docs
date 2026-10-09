@@ -1,0 +1,24 @@
+{
+  "failed": "quadrature_convergence_partial",
+  "fixture": "partial",
+  "rows": [
+    {
+      "n_per_interval": 100,
+      "force_error": 0.00017777777777761017,
+      "moment_error": 3.469446951953614e-18,
+      "energy_error": 0.00031604938271589944
+    },
+    {
+      "n_per_interval": 400,
+      "force_error": 4.440892098500626e-16,
+      "moment_error": 2.7777777777742915e-06,
+      "energy_error": 1.9753086419882493e-05
+    },
+    {
+      "n_per_interval": 1600,
+      "force_error": 0.0,
+      "moment_error": 1.7361111106882618e-07,
+      "energy_error": 1.234567899466299e-06
+    }
+  ]
+}

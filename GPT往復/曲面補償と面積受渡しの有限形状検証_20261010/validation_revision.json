@@ -1,0 +1,15 @@
+{
+  "revision": 2,
+  "cause": "roundoff-level exact force/moment values need not strictly decrease; require bounded errors and convergence of maximum error instead",
+  "retained_absolute_bounds": {
+    "force": 1e-05,
+    "moment": 1e-06,
+    "energy": 2e-06
+  },
+  "convergence": "at least 50-fold reduction of max error on 16-fold refinement, with 1e-12 roundoff floor",
+  "physics_model_changed": false,
+  "diagnostics": [
+    "initial_check_diagnostic.json",
+    "second_check_diagnostic.json"
+  ]
+}
