@@ -1,0 +1,25 @@
+{
+  "status": "hypothetical parameters, no physical experiment",
+  "parameters": {
+    "M": 70.0,
+    "g": 9.81,
+    "theta_deg": 30.0,
+    "L": 1.5,
+    "width": 0.1,
+    "n_skis": 2,
+    "H": 0.05,
+    "phi": 0.9,
+    "p0": 101325.0,
+    "mu_air": 1.95e-05,
+    "Ed": 20000.0,
+    "ky": 3e-12,
+    "kz": 3e-12,
+    "V": 10.0,
+    "mu_solid": 0.1,
+    "mu_water": 0.001,
+    "rho_water": 1000.0
+  },
+  "modes_each_axis": 128,
+  "air_model_state": "dry; saturated water calculation separate",
+  "winter_storm_design_intensity": "unmeasured site-specific; 100/200 mm/h scenarios only"
+}

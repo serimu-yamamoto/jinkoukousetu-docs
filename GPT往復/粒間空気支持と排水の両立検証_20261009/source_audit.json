@@ -1,0 +1,38 @@
+{
+  "cycle": 74,
+  "basis_commit": "63aa160aafda955d66ffdf3b94bd7e5eb7028dce",
+  "verified_at_utc": "2026-10-09T06:55:43.822Z",
+  "claude_ledger_sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "claude_response_received": false,
+  "physical_experiments": 0,
+  "source1_pdf": {
+    "url": "https://link.aps.org/accepted/10.1103/PhysRevFluids.4.024305",
+    "bytes": 1577509,
+    "sha256": "282bfef03073b13b5b9c75c8deacecb6e0e2447c5b2bce7f2c0ff4b21164b302",
+    "full_text_read": true,
+    "pages_visually_checked": [
+      5,
+      6
+    ],
+    "page_numbering": "1-based PDF pages",
+    "republished": false
+  },
+  "source_scope": {
+    "S1": "accepted manuscript full text and selected figures/table",
+    "S2": "publisher abstract only",
+    "S3": "university abstract and publisher search excerpt; full text not obtained",
+    "S4": "university abstract only",
+    "S5": "university abstract and publisher public excerpt"
+  },
+  "unmeasured_inputs": [
+    "Ed",
+    "ky",
+    "kz",
+    "mu_solid",
+    "wetting angle",
+    "wear",
+    "manufacturing price",
+    "pore-structure recovery"
+  ],
+  "probability_of_success": null
+}

@@ -1,0 +1,162 @@
+{
+  "checks": [
+    {
+      "name": "steady_series_0.1",
+      "passed": true,
+      "detail": {
+        "single": 129114.08966324248,
+        "double": 129114.08787898658,
+        "relative_error": 1.3819219168119303e-08
+      }
+    },
+    {
+      "name": "steady_series_1.0",
+      "passed": true,
+      "detail": {
+        "single": 65759.25181330342,
+        "double": 65759.25107343515,
+        "relative_error": 1.1251166098207631e-08
+      }
+    },
+    {
+      "name": "steady_series_10.0",
+      "passed": true,
+      "detail": {
+        "single": 10684.680008326,
+        "double": 10684.679374450687,
+        "relative_error": 5.932562446702471e-08
+      }
+    },
+    {
+      "name": "series_convergence_32",
+      "passed": true,
+      "detail": {
+        "relative_error": 7.2661324251500264e-06
+      }
+    },
+    {
+      "name": "series_convergence_64",
+      "passed": true,
+      "detail": {
+        "relative_error": 9.009273588079953e-07
+      }
+    },
+    {
+      "name": "series_convergence_128",
+      "passed": true,
+      "detail": {
+        "relative_error": 1.0035186590607164e-07
+      }
+    },
+    {
+      "name": "force_closure",
+      "passed": true,
+      "detail": "global normal load only"
+    },
+    {
+      "name": "positive_fractions",
+      "passed": true,
+      "detail": "not success fractions"
+    },
+    {
+      "name": "speed_lift_monotonic",
+      "passed": true,
+      "detail": "six fixed-parameter ski speed cases"
+    },
+    {
+      "name": "stiffening_reduces_air_share",
+      "passed": true,
+      "detail": "fixed permeability; real coupling unmeasured"
+    },
+    {
+      "name": "leak_reduces_air_share",
+      "passed": true,
+      "detail": "fixed solid stiffness"
+    },
+    {
+      "name": "darcy_units",
+      "passed": true,
+      "detail": 105.94800000000001
+    },
+    {
+      "name": "rain_margin_closure",
+      "passed": true,
+      "detail": "saturated gradient 1 only"
+    },
+    {
+      "name": "small_z_F",
+      "passed": true,
+      "detail": "cancellation avoided"
+    },
+    {
+      "name": "side_only_steady_limit",
+      "passed": true,
+      "detail": {
+        "series": 108333.33331676117,
+        "analytic": 108333.33333333333
+      }
+    },
+    {
+      "name": "bottom_only_steady_limit",
+      "passed": true,
+      "detail": {
+        "series": 162371.36912923335,
+        "analytic": 162500.0
+      }
+    },
+    {
+      "name": "slow_drain_limit",
+      "passed": true,
+      "detail": {
+        "dynamic": 4.383940954426499,
+        "steady": 4.383950051285414
+      }
+    },
+    {
+      "name": "fast_closed_limit",
+      "passed": true,
+      "detail": {
+        "series": 1123543.4111276239,
+        "analytic": 1125833.3333333333
+      }
+    },
+    {
+      "name": "source_speed_conditions_separated",
+      "passed": true,
+      "detail": "k=3 table; .04 at k=1.5 kept separate"
+    },
+    {
+      "name": "source_ratio_not_constant",
+      "passed": true,
+      "detail": "diagnostic only; do not fit constant mu_solid from source"
+    },
+    {
+      "name": "cost_mass_arithmetic",
+      "passed": true,
+      "detail": "not quotation"
+    },
+    {
+      "name": "finite_outputs",
+      "passed": true,
+      "detail": "no NaN"
+    },
+    {
+      "name": "fusion_force_friction_closure",
+      "passed": true,
+      "detail": "not a measured coefficient"
+    },
+    {
+      "name": "pore_bundle_inversion",
+      "passed": true,
+      "detail": "ideal geometry only"
+    },
+    {
+      "name": "capillary_units",
+      "passed": true,
+      "detail": "complete wetting assumption, not measured suction"
+    }
+  ],
+  "passed": 25,
+  "total": 25,
+  "physical_validation": false
+}

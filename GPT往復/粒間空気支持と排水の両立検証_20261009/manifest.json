@@ -1,0 +1,175 @@
+{
+  "cycle": 74,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "basis_commit": "63aa160aafda955d66ffdf3b94bd7e5eb7028dce",
+  "physical_experiments": 0,
+  "probability_of_success": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第74巡_空気で荷重を支える開放粒と雨の排水条件_20261009.md",
+      "bytes": 16498,
+      "sha256": "258cb453331a0a14120220368ed67872f665051f10d5e14ddf085694b21878b4"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 50989,
+      "sha256": "ce32ddc88307966998e5b2d96f1c7228656d02f7a9114b315fc5892d7deb2f53"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/audit.py",
+      "bytes": 5509,
+      "sha256": "5f4583325c58e818d2bc7da53f9aa2fb51a08c9b13758ac3f2903e6d5fbc2b81"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/checks.json",
+      "bytes": 3668,
+      "sha256": "eb0e55160c40743315bbf8d08e00ab24bd71581cd092c02e23af7402491d08eb"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/depth_anisotropy.csv",
+      "bytes": 4092,
+      "sha256": "e5d125dec3ec0341a814a80376661859c157050a1f7f1974d41add0f1579f94c"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/design.md",
+      "bytes": 4411,
+      "sha256": "106bbae06a8d980146841c270b4cc8d19c4d5372c6dcbee698435b4bffa2c5e8"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/document_audit.json",
+      "bytes": 3341,
+      "sha256": "e53d3429de24323a58cdce1520d72ec387cd2194326ae3ed9382e59cb535a6ea"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/draw.py",
+      "bytes": 6211,
+      "sha256": "b02bb9894931c57e975dc04717eaad966b314271b5a387d7de366231f9318f9b"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/figure1_tradeoff.png",
+      "bytes": 213743,
+      "sha256": "df853a13cc06ffd18c27651a65e16e4df504124b9a7e023ba4e28f3327a2c1aa"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/figure2_design_cost.png",
+      "bytes": 258651,
+      "sha256": "7895847213d5445919dbf95047c5e2cde58ef726fa0b85f6ea6b10c101423f81"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/finite_volume_audit.py",
+      "bytes": 1795,
+      "sha256": "b047d9a12703a32720ad1b64f3dda25fdbd053892dc38167b732df268b101334"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/fusion_requirements.csv",
+      "bytes": 4269,
+      "sha256": "4ecf522630eaf89171a6e0c3e2956d57af163ead409053ffdf4292b036de0ad2"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/gap_bypass.csv",
+      "bytes": 3701,
+      "sha256": "41cedbcaa282a51f48046e9d1c4175523380c039918cdb64b219d51278358856"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/geometry_screen.csv",
+      "bytes": 3961,
+      "sha256": "76c8c62bfc8f6eef2b62236e859f40d0923372b61c55bd3e2d3eb269a4424cba"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/index_changes.json",
+      "bytes": 5691,
+      "sha256": "d1d82fef6e5c16e283ee80a6e70917d7f51400fad9bf57a84098c741628a8517"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/inputs.json",
+      "bytes": 586,
+      "sha256": "3b19f1eb7021f8ef9272ef7f7412f4d7f1544c682640b35fccedf84bcfa36c39"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/model.md",
+      "bytes": 7295,
+      "sha256": "4d114bb8c96c5b744605c896f2d3b347fca1fbb49e8ce39604466b0ba8d4553f"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/numerical_audit.json",
+      "bytes": 2038,
+      "sha256": "d08897b3cdb641eb28cf91748708ef329b416c0b459176a0f3db3846b777e47b"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/pore_wetting_screen.csv",
+      "bytes": 607,
+      "sha256": "34ccdf2d42b2679aaa13db8af4064a5d1a2573e9d7e8e22ef0a5e3c2fc1e84eb"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/rain_tradeoff.csv",
+      "bytes": 5052,
+      "sha256": "615ceb358123cc7a8de5df6705f99588b96040c07fe1d77a40bbaa385bbecdb9"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/raw_cost.csv",
+      "bytes": 351,
+      "sha256": "da0d2b30107289a712d585c107561aeeb9bf6689872cf5cb51876811143d5a51"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/reproduce.py",
+      "bytes": 11074,
+      "sha256": "3b541b0e3aafc87820bfbf4a6cbbf70e41030e0e07818c58943a0d2e636649bd"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/results.json",
+      "bytes": 3177,
+      "sha256": "5ddf4a758a6f6bfd9dfe75a4ed6ca7ee4fe858972d5692eb236782ab3a7f2beb"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/source_audit.json",
+      "bytes": 1164,
+      "sha256": "119d0d28675b2339217afde80e9a586e256e01c929b61a804f37bb299efb41af"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/source_speed_subset.csv",
+      "bytes": 320,
+      "sha256": "6927b7f748d240239557ad5f8a440c87fbf98c969ed7230e242e47cdf93de3ef"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/sources.md",
+      "bytes": 4236,
+      "sha256": "243d68e8dd18c7198f9ed75b4c861b36723c76c9b24820fee6da79f93a8f58d5"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/stiffness_permeability.csv",
+      "bytes": 6175,
+      "sha256": "1525f29d3478f70810089b6f10d647c6f853cca577e652e3fb5cc686b72d6068"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/test_plan.json",
+      "bytes": 3791,
+      "sha256": "7e33284d98520d3db758e45baa89b4449bbe129d0465b10f1f461abd23294994"
+    },
+    {
+      "path": "GPT往復/粒間空気支持と排水の両立検証_20261009/velocity.csv",
+      "bytes": 3246,
+      "sha256": "2e51da8400a9fa97c191c8deabe5a55f594b0e85cca04c760b0df9ff3d32d312"
+    },
+    {
+      "path": "README.md",
+      "bytes": 58845,
+      "sha256": "18d373e0fb0931194cc297f81d903de9ebb74d846ccdfb20758ad731975df628"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 147205,
+      "sha256": "25a287fe5f8b247dd1df084d5ae745c4bed7ff4c56e7b3f1e5f1d06a001779df"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 12312,
+      "sha256": "13e9f27f6fe89971f83e111bb5826656b44d8233792636c001a35556e2bb8741"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 217531,
+      "sha256": "0cc765b4b0370e6638ff8638a86db4774b9a508fad065c9eaab4f5e863ea28e7"
+    }
+  ]
+}

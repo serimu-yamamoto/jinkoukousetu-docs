@@ -1,0 +1,146 @@
+{
+  "cycle": 74,
+  "document_checks": 32,
+  "links_checked": 466,
+  "checks": [
+    {
+      "name": "physical_experiments_zero",
+      "passed": true
+    },
+    {
+      "name": "probability_not_fabricated",
+      "passed": true
+    },
+    {
+      "name": "25_math_checks",
+      "passed": true
+    },
+    {
+      "name": "6_independent_numerical_checks",
+      "passed": true
+    },
+    {
+      "name": "rows_velocity.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_stiffness_permeability.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_depth_anisotropy.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_rain_tradeoff.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_gap_bypass.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_pore_wetting_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_geometry_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_fusion_requirements.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_source_speed_subset.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_raw_cost.csv",
+      "passed": true
+    },
+    {
+      "name": "row_total_123_with_5_source_rows",
+      "passed": true
+    },
+    {
+      "name": "independent_load_pressure",
+      "passed": true
+    },
+    {
+      "name": "independent_friction_formula",
+      "passed": true
+    },
+    {
+      "name": "independent_rain_units",
+      "passed": true
+    },
+    {
+      "name": "independent_bypass_fraction",
+      "passed": true
+    },
+    {
+      "name": "fusion_allowance_all_rows",
+      "passed": true
+    },
+    {
+      "name": "raw_cost_limits",
+      "passed": true
+    },
+    {
+      "name": "tests_not_executed",
+      "passed": true
+    },
+    {
+      "name": "report_status_and_scope",
+      "passed": true
+    },
+    {
+      "name": "PNG_figure1_tradeoff.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_figure2_design_cost.png",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "relative_links_exist",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "463402d2b27454a0cde33dd09b3a13087467b1f44a6c4994150efcf04457cf79",
+    "回覧板.md": "b792f45d51c953021507358913595fa48cc09c813ed18bbb5ec1d60347d7f3f5",
+    "GPT往復/README.md": "f4e3eb6271a6bfd71cd6e88ccac53be7eb881c4eb20bbca582b2b3b8955a46d2",
+    "調査台帳/一般.md": "a7de9a57cb76bf381324bde6afb06f59af30af135a0b34156fa4c274094e0039",
+    "調査台帳/計算部品索引.md": "40ee97cf8b4498f9a6ffb54fa5c520227e57cc53f653a2d1e1ff46f2d5c825b1"
+  },
+  "physical_experiments": 0,
+  "probability_of_success": null,
+  "visual_review": "Both PNGs visually inspected. Equations/assumptions distinguish numerical confirmation from physical validation.",
+  "source1_full_text_republished": false
+}

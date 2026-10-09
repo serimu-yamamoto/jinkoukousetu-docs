@@ -1,0 +1,71 @@
+{
+  "scope": "same PDE; independent spatial discretization and exact time integration; no measured validation",
+  "rows": [
+    {
+      "case": "reference",
+      "cells_each_axis": 16,
+      "spectral_reference": 351272.3615733251,
+      "finite_volume": 351748.8534659979,
+      "relative_error": 0.0013564741915322038
+    },
+    {
+      "case": "reference",
+      "cells_each_axis": 32,
+      "spectral_reference": 351272.3615733251,
+      "finite_volume": 351391.6955387733,
+      "relative_error": 0.00033971919940899484
+    },
+    {
+      "case": "reference",
+      "cells_each_axis": 64,
+      "spectral_reference": 351272.3615733251,
+      "finite_volume": 351302.2117791629,
+      "relative_error": 8.497738251910882e-05
+    },
+    {
+      "case": "vertical_drain",
+      "cells_each_axis": 16,
+      "spectral_reference": 371375.2838426121,
+      "finite_volume": 372435.66485213855,
+      "relative_error": 0.002855281586202223
+    },
+    {
+      "case": "vertical_drain",
+      "cells_each_axis": 32,
+      "spectral_reference": 371375.2838426121,
+      "finite_volume": 371643.3912192636,
+      "relative_error": 0.0007219311255110677
+    },
+    {
+      "case": "vertical_drain",
+      "cells_each_axis": 64,
+      "spectral_reference": 371375.2838426121,
+      "finite_volume": 371442.50106061785,
+      "relative_error": 0.00018099539988295283
+    },
+    {
+      "case": "shallow",
+      "cells_each_axis": 16,
+      "spectral_reference": 185700.96538019538,
+      "finite_volume": 186446.30688635702,
+      "relative_error": 0.004013665220510097
+    },
+    {
+      "case": "shallow",
+      "cells_each_axis": 32,
+      "spectral_reference": 185700.96538019538,
+      "finite_volume": 185891.33196794495,
+      "relative_error": 0.0010251243840322445
+    },
+    {
+      "case": "shallow",
+      "cells_each_axis": 64,
+      "spectral_reference": 185700.96538019538,
+      "finite_volume": 185748.7971006193,
+      "relative_error": 0.00025757389212266826
+    }
+  ],
+  "case_count": 3,
+  "checks": 6,
+  "all_passed": true
+}
