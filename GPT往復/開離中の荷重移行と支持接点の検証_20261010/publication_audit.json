@@ -1,0 +1,13 @@
+{
+  "new_relative_links_checked": 25,
+  "new_relative_link_errors": [],
+  "indices_preserve_previous_history": true,
+  "ledger_unchanged": true,
+  "physical_tests": 0,
+  "success_probability": null,
+  "server_calculations_executed": true,
+  "cross_platform_differences_disclosed": true,
+  "figures_visually_inspected_before_transfer": 2,
+  "source_transfer_files": 21,
+  "main_byte_check_on_server": true
+}

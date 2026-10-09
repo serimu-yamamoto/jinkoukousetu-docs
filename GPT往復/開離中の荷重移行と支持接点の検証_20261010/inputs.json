@@ -1,0 +1,149 @@
+{
+  "cycle": 100,
+  "date": "2026-10-10",
+  "base_commit": "d0f140b5051b59bfb7cf7896fe04afeca5e15481",
+  "physical_tests": 0,
+  "success_probability": null,
+  "internal_friction": [
+    0.1,
+    0.3,
+    0.6,
+    1
+  ],
+  "loads": [
+    {
+      "q": 0,
+      "heading_deg": 0
+    },
+    {
+      "q": 0.2,
+      "heading_deg": 0
+    },
+    {
+      "q": 0.2,
+      "heading_deg": 90
+    },
+    {
+      "q": 0.2,
+      "heading_deg": 180
+    },
+    {
+      "q": 0.2,
+      "heading_deg": 270
+    }
+  ],
+  "removed_support": [
+    null,
+    1,
+    2,
+    3
+  ],
+  "cone_edges": 32,
+  "reference_contact_budget": {
+    "top_force_mN_for_couple_example": 2,
+    "force_units_mN_for_area": [
+      0.5,
+      2,
+      5
+    ],
+    "assumed_nominal_limits_MPa": [
+      1,
+      5,
+      10
+    ]
+  },
+  "ideal_helper": {
+    "model": "C3",
+    "pose": 3,
+    "normal": [
+      0,
+      0,
+      1
+    ],
+    "point": "existing central grain minimum z surface point",
+    "neighbor_geometry_built": false,
+    "not_a_realized_extra_contact": true
+  },
+  "dependencies": [
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/inputs.json",
+      "sha256_LF": "0ba10f6a3cd1a4609889d6b10d8a0af6abc1861d0e9d37988251dc361d10351a"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/cluster_results.json",
+      "sha256_LF": "f2d4d2fda6848453d61791850e7d69a471516c46e685b0262fc7cafd52c8b031"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/pair_geometry.py",
+      "sha256_LF": "21ee8a1fd0217c4cc051651408d1dbc4f7d308464cbdf5657889813dd97c2306"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/cluster.py",
+      "sha256_LF": "0d9b8f781431958d9021b3c21a52f607f463258ef55d54340823b22989be6611"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/numerical_audit.json",
+      "sha256_LF": "8559a7bc864582f99e24185783e6977b981701698beb5694647e4c75150fcb9b"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/correction_results.json",
+      "sha256_LF": "29a03e3444baad28dd7c2f09913df5db50609b1f577b752a5b1203a74c4ac3f9"
+    }
+  ],
+  "load_sharing": {
+    "support_locations": 25,
+    "lambda": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "missing": {
+      "intact": [],
+      "dispersed": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18
+      ],
+      "central_block": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "edge_block": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "measured_parameters": false
+  },
+  "second_helper": {
+    "polar_deg": [
+      30,
+      60
+    ],
+    "azimuth_deg": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "mu": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "neighbor_geometry_built": false
+  }
+}

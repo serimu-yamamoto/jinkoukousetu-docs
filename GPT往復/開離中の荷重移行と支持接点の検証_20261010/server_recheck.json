@@ -1,0 +1,74 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "executed_on_server": true,
+  "commands": [
+    {
+      "script": "reproduce.py",
+      "exit_code": 0
+    },
+    {
+      "script": "two_helpers.py",
+      "exit_code": 0
+    },
+    {
+      "script": "load_sharing.py",
+      "exit_code": 0
+    },
+    {
+      "script": "area_budget.py",
+      "exit_code": 0
+    }
+  ],
+  "original_output_sha256": {
+    "results.json": "d0d39663d3f9521008a0ef848670e05e63cbcaf2f7a935875a5cf9f4f45eac19",
+    "validation.json": "7115e81d95614ffabb59461e89caa3c56fe56a5da7424bed97a8506a5cec70fb",
+    "two_helpers_results.json": "03acf41abfdb9a07064f5554c7619ea1422d5a55340fab6dc3804a1009cdc022",
+    "load_sharing_results.json": "0ef611c888ea40f6456bbe957ee3755954f7e66076b241607a1fb65687806278",
+    "area_budget.json": "aa41755ff50979b24a2ece10dba24a77546d3fb1184da051f7c0a7ad4fb88f54"
+  },
+  "server_output_sha256": {
+    "results.json": "78c05dd5b725e2147c05841837fcfd569d366da39e2123dfed0029b9fd3b7ac4",
+    "validation.json": "7115e81d95614ffabb59461e89caa3c56fe56a5da7424bed97a8506a5cec70fb",
+    "two_helpers_results.json": "5881923b5f00306c34d33b7e4bd2066a53dd9bb7fc33d73e762112f1350f98f1",
+    "load_sharing_results.json": "1dd6e403ecba436a28b46855a40286db7e881d0fcd4462890a341733b3755903",
+    "area_budget.json": "026b6221187812dcb7650d97d46d69115e8891c12bc621d4749e37af5941f45c"
+  },
+  "numeric_values_compared": 26762,
+  "max_absolute_difference": 2,
+  "max_scaled_difference": 0.5,
+  "relative_and_absolute_tolerance": 1e-07,
+  "mismatches": [
+    "results.json/base_cases/14/inner/status",
+    "results.json/helper_cases/20/min_peak/status",
+    "results.json/helper_cases/25/min_peak/status",
+    "results.json/helper_cases/73/outer/status",
+    "results.json/helper_cases/73/classification",
+    "two_helpers_results.json/cases/62/inner/status",
+    "two_helpers_results.json/cases/72/outer/status",
+    "two_helpers_results.json/cases/72/classification",
+    "two_helpers_results.json/cases/90/inner/status",
+    "two_helpers_results.json/cases/90/outer/status",
+    "two_helpers_results.json/cases/90/classification",
+    "two_helpers_results.json/cases/100/outer/status",
+    "two_helpers_results.json/cases/100/classification",
+    "two_helpers_results.json/cases/105/inner/status",
+    "two_helpers_results.json/cases/135/outer/status",
+    "two_helpers_results.json/cases/135/classification",
+    "two_helpers_results.json/cases/179/inner/status",
+    "two_helpers_results.json/cases/179/outer/status",
+    "two_helpers_results.json/cases/179/classification",
+    "two_helpers_results.json/cases/230/outer/status",
+    "two_helpers_results.json/cases/230/classification",
+    "two_helpers_results.json/cases/253/inner/status",
+    "two_helpers_results.json/cases/297/outer/status",
+    "two_helpers_results.json/cases/297/classification",
+    "two_helpers_results.json/cases/315/inner/status"
+  ],
+  "versions": {
+    "python": "3.14.4",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "figures": "Generated before environment change; source numerical results rechecked on server; transferred image bytes retained."
+}

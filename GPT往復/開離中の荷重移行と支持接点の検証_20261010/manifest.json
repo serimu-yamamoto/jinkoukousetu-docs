@@ -1,0 +1,165 @@
+{
+  "cycle": 100,
+  "base_commit": "d0f140b5051b59bfb7cf7896fe04afeca5e15481",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "physical_tests": 0,
+  "success_probability": null,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第100巡_開離する粒から周囲へ荷重を渡す構造と復旧条件_20261010.md",
+      "bytes": 15267,
+      "sha256": "6809d84bd89a5aeeff80106728529b3395616026beb093a3dd5ca978456c8e72"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 64933,
+      "sha256": "c890deef5aefb6e3c2af2429cdbc12def46e2facbb97a4a8ca9135989f6c56e5"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/README.md",
+      "bytes": 2710,
+      "sha256": "764736bba568d3ee852990b9cdaad9cbf81a00246d8660bf12277254fde7c64c"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/area_budget.json",
+      "bytes": 10403,
+      "sha256": "026b6221187812dcb7650d97d46d69115e8891c12bc621d4749e37af5941f45c"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/area_budget.py",
+      "bytes": 1623,
+      "sha256": "b2ee76d79a1123a68c95319544c164a513e22a9cec03751266c09f0b8151a8c9"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/claude_handoff.md",
+      "bytes": 2577,
+      "sha256": "26d0134bcaebc8f6267f4bc8df42927a2cf4e2e39518637ab90532ec86972b45"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/contact_transfer.png",
+      "bytes": 109954,
+      "sha256": "b53e1f624db827e0491985957b6e41ec38f048ab7d2f9799781d1bce61d4e698"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/distributed_release.png",
+      "bytes": 275653,
+      "sha256": "d66511328599081558c7ed6b8c7311eb4cc4edd6129cf4ad147fd3b0ed62b8ba"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/index_preservation.json",
+      "bytes": 1215,
+      "sha256": "c00ea408331e40f751045bcfbbe284cb812051df8f8528d8cd9da37b9078fa29"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/inputs.json",
+      "bytes": 2963,
+      "sha256": "53ecfe2094469887c855089bd1b1e30f32ef4f13ba33ea159ca999850b9e6204"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/load_sharing.py",
+      "bytes": 4397,
+      "sha256": "cc02ae9baf81385c0ef78c7dbe0655e4021b405158171526f2fc6e8b2c2590fa"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/load_sharing_results.json",
+      "bytes": 70376,
+      "sha256": "1dd6e403ecba436a28b46855a40286db7e881d0fcd4462890a341733b3755903"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/make_figures.py",
+      "bytes": 3872,
+      "sha256": "7b931f3998e58ff896776c352a6e84704b52f9db71c1381787c39a9faab7f81d"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/migration_differences.json",
+      "bytes": 6611,
+      "sha256": "46a767c31ee4e38eb2ab511b775c2eb9a94dba468a8f0584ecf51bdd094f1f4c"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/model.md",
+      "bytes": 5247,
+      "sha256": "458aa77d3062d0a9d3f45d41b89e5a10269431bfbb71bf49df2b1bbd0b4ffac6"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/publication_audit.json",
+      "bytes": 407,
+      "sha256": "b59a3a32cc3c77e0437d95d7d8970c6dda18f8cf2d64d35e04e0a6be2b3284ef"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/reproduce.py",
+      "bytes": 9864,
+      "sha256": "c3550d00f058618dba5abc79480fa84a73b2d742c07def246cb9ceb470f5f232"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/research_state.json",
+      "bytes": 1670,
+      "sha256": "4153a87b50fc316e121b157e0b0c5e03a205b8d5b73b71f41da5cab4ad9984a1"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/results.json",
+      "bytes": 615581,
+      "sha256": "78c05dd5b725e2147c05841837fcfd569d366da39e2123dfed0029b9fd3b7ac4"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/runtime_versions.json",
+      "bytes": 93,
+      "sha256": "a0979a490be0b124b7e8e314ee7f60f3acf09df3ec1c4a86bc74e96641de1376"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/server_recheck.json",
+      "bytes": 3135,
+      "sha256": "d1439c69ca42f15d594f2f7561c5c8d1d13c252e8968e3f9fc3ec1d08c704543"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/sources.md",
+      "bytes": 3285,
+      "sha256": "883f7f41b0ce2520d52049def26fca24f39c1ce165cf8d9415af59706fb30d2d"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/test_plan.md",
+      "bytes": 2564,
+      "sha256": "fd123017f348daeca7a19b947e12ab1d9f167361bcb158013a9c024e916dd0a1"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/two_helpers.py",
+      "bytes": 2572,
+      "sha256": "47ebfb66c0dc7c272af811d02527872e71b5359293f79e8a735e8e0f72e26bd8"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/two_helpers_results.json",
+      "bytes": 501559,
+      "sha256": "5881923b5f00306c34d33b7e4bd2066a53dd9bb7fc33d73e762112f1350f98f1"
+    },
+    {
+      "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/validation.json",
+      "bytes": 26665,
+      "sha256": "7115e81d95614ffabb59461e89caa3c56fe56a5da7424bed97a8506a5cec70fb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 74839,
+      "sha256": "f1944529b044d32ceb5484fb7fe440221d309678fb1b7bd90a3c8cb1e51ff7c3"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 176280,
+      "sha256": "1df77238f730d034466031321f10416a57fd77e0ca94dfd2288adb2e3245058e"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 24898,
+      "sha256": "1e37a5f81532868a65ec6e7519e482166247ad686f5370b8cdafd7760b633109"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 229564,
+      "sha256": "2f9b607907330f8b6c33d4345a78c1d9be55690e113154b71a5e4324dbfa9f14"
+    }
+  ]
+}

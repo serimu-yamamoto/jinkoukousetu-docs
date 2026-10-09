@@ -1,0 +1,334 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "scope": "Nominal area requirement under assumed force and allowable pressure; not Hertz contact area, strength evidence, material mass, cost estimate or rated safety.",
+  "cases": [
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 515.6353965119766,
+      "equivalent_square_side_um": 22.707606578236657,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 103.12707930239533,
+      "equivalent_square_side_um": 10.155150383051712,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 51.563539651197665,
+      "equivalent_square_side_um": 7.180775699825031,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 2062.5415860479065,
+      "equivalent_square_side_um": 45.415213156473314,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 412.5083172095813,
+      "equivalent_square_side_um": 20.310300766103424,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 206.25415860479066,
+      "equivalent_square_side_um": 14.361551399650063,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 5156.353965119766,
+      "equivalent_square_side_um": 71.80775699825031,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 1031.2707930239533,
+      "equivalent_square_side_um": 32.113405191974785,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "intact",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 515.6353965119766,
+      "equivalent_square_side_um": 22.707606578236657,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 784.4917684112224,
+      "equivalent_square_side_um": 28.008780202129874,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 156.89835368224448,
+      "equivalent_square_side_um": 12.52590729976254,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 78.44917684112224,
+      "equivalent_square_side_um": 8.857153992176169,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 3137.9670736448898,
+      "equivalent_square_side_um": 56.01756040425975,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 627.5934147289779,
+      "equivalent_square_side_um": 25.05181459952508,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 313.79670736448895,
+      "equivalent_square_side_um": 17.714307984352338,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 7844.917684112225,
+      "equivalent_square_side_um": 88.5715399217617,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 1568.983536822445,
+      "equivalent_square_side_um": 39.61039682737911,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "dispersed",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 784.4917684112226,
+      "equivalent_square_side_um": 28.008780202129877,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 2315.57714916162,
+      "equivalent_square_side_um": 48.120444191233524,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 463.115429832324,
+      "equivalent_square_side_um": 21.52011686381661,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 231.557714916162,
+      "equivalent_square_side_um": 15.217020566331703,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 9262.30859664648,
+      "equivalent_square_side_um": 96.24088838246705,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 1852.461719329296,
+      "equivalent_square_side_um": 43.04023372763322,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 926.230859664648,
+      "equivalent_square_side_um": 30.434041132663406,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 23155.7714916162,
+      "equivalent_square_side_um": 152.17020566331703,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 4631.15429832324,
+      "equivalent_square_side_um": 68.05258480266006,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "central_block",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 2315.57714916162,
+      "equivalent_square_side_um": 48.120444191233524,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 6142.376226975871,
+      "equivalent_square_side_um": 78.37331323209368,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 1228.4752453951742,
+      "equivalent_square_side_um": 35.049611201769046,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 0.5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 614.2376226975871,
+      "equivalent_square_side_um": 24.78381775872287,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 24569.504907903483,
+      "equivalent_square_side_um": 156.74662646418736,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 4913.900981580697,
+      "equivalent_square_side_um": 70.09922240353809,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 2,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 2456.9504907903483,
+      "equivalent_square_side_um": 49.56763551744574,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 1,
+      "required_nominal_area_um2": 61423.76226975871,
+      "equivalent_square_side_um": 247.8381775872287,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 5,
+      "required_nominal_area_um2": 12284.752453951742,
+      "equivalent_square_side_um": 110.83660250094164,
+      "not_measured_strength": true
+    },
+    {
+      "pattern": "edge_block",
+      "lambda_value": 1,
+      "force_unit_mN": 5,
+      "assumed_nominal_limit_MPa": 10,
+      "required_nominal_area_um2": 6142.376226975871,
+      "equivalent_square_side_um": 78.37331323209368,
+      "not_measured_strength": true
+    }
+  ],
+  "central_to_distributed_peak_ratio": 2.9516908174208125,
+  "central_to_distributed_nodal_deflection_ratio": 11.049519970896535,
+  "checks": 38
+}

@@ -1,0 +1,164 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "numeric_values_compared_excluding_solver_status": 24489,
+  "max_scaled_numeric_difference": 3.356690481126634e-10,
+  "tolerance": 1e-07,
+  "feasible_flags_unchanged": true,
+  "nonstatus_mismatches": [],
+  "solver_differences": [
+    {
+      "path": "results.json/base_cases/14/inner/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "results.json/helper_cases/20/min_peak/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "results.json/helper_cases/25/min_peak/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "results.json/helper_cases/73/outer/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "results.json/helper_cases/73/classification",
+      "before": "unresolved",
+      "server": "infeasible_outer",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/62/inner/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/72/outer/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/72/classification",
+      "before": "infeasible_outer",
+      "server": "unresolved",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/90/inner/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/90/outer/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/90/classification",
+      "before": "unresolved",
+      "server": "infeasible_outer",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/100/outer/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/100/classification",
+      "before": "unresolved",
+      "server": "infeasible_outer",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/105/inner/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/135/outer/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/135/classification",
+      "before": "unresolved",
+      "server": "infeasible_outer",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/179/inner/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/179/outer/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/179/classification",
+      "before": "infeasible_outer",
+      "server": "unresolved",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/230/outer/status",
+      "before": 4,
+      "server": 2,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/230/classification",
+      "before": "unresolved",
+      "server": "infeasible_outer",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/253/inner/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/297/outer/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/297/classification",
+      "before": "infeasible_outer",
+      "server": "unresolved",
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    },
+    {
+      "path": "two_helpers_results.json/cases/315/inner/status",
+      "before": 2,
+      "server": 4,
+      "interpretation": "Solver-status or infeasibility-label difference, not evidence of physical performance."
+    }
+  ],
+  "minimum_two_support_axis_moment": 0.010177492441465628,
+  "all_120_two_support_geometries_have_nonzero_unbalanced_axis_moment": true,
+  "interpretation": "Numerical forces/displacements and feasible flags agree within tolerance; raw solver statuses and some infeasible/unresolved labels do not. Preserve server labels; these differences are not counted as successful experiments."
+}
