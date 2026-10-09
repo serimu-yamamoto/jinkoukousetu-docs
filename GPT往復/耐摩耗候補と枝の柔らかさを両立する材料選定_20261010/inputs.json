@@ -1,0 +1,31 @@
+{
+  "status": "assumed diagnostic ranges, not properties of PK or any grade",
+  "ratios": {
+    "effective_bending_modulus": [
+      0.5,
+      2,
+      8
+    ],
+    "density": [
+      1,
+      1.4
+    ],
+    "price_per_kg": [
+      1,
+      2
+    ]
+  },
+  "reference": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 150,
+    "reference_price_yen_kg": 500
+  },
+  "illustration": {
+    "e_ratio": 2,
+    "rho_ratio": 1.4,
+    "price_ratio": 2,
+    "local_volume_fraction": 0.1
+  },
+  "excluded": "No measured 50C modulus, ski friction, wear, toxicity, lifespan or supplier quote entered"
+}

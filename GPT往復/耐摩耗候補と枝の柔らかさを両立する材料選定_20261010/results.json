@@ -1,0 +1,205 @@
+{
+  "cycle": 120,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json": "6e2a529274c46abdbd4140e78ccf461071d6ebcfff53ed1908e2bd7a94fb2976"
+  },
+  "reference": {
+    "reference_mass_kg": 135000.0,
+    "reference_raw_yen": 67500000.0
+  },
+  "illustration": {
+    "whole_equal_bending": {
+      "thickness_ratio": 0.7937005259840998,
+      "stiffness_ratio": 1.0000000000000002,
+      "mass_ratio": 1.1111807363777397,
+      "stress_ratio": 1.5874010519681991,
+      "strain_ratio": 0.7937005259840996,
+      "raw_cost_ratio": 2.2223614727554795,
+      "minimum_life_ratio_for_raw_replacement_parity": 2.2223614727554795,
+      "price_ratio_for_initial_raw_parity": 0.8999436070677664,
+      "scenario_mass_kg": 150009.39941099487,
+      "scenario_raw_yen": 150009399.41099486,
+      "scenario_raw_extra_yen": 82509399.41099486,
+      "annual_raw_ratio_if_life_doubles": 1.1111807363777397
+    },
+    "local_fixed_geometry": {
+      "volume_fraction": 0.1,
+      "mass_ratio": 1.04,
+      "raw_cost_ratio": 1.18,
+      "scenario_mass_kg": 140400.0,
+      "scenario_raw_yen": 79650000.0,
+      "scenario_raw_extra_yen": 12150000.0,
+      "annual_raw_ratio_if_life_doubles": 0.59
+    }
+  },
+  "conditions": [
+    {
+      "e_ratio": 0.5,
+      "density_ratio": 1,
+      "price_ratio": 1,
+      "thickness_ratio": 1.2599210498948732,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 1.2599210498948732,
+      "stress_ratio": 0.6299605249474365,
+      "strain_ratio": 1.259921049894873,
+      "raw_cost_ratio": 1.2599210498948732,
+      "minimum_life_ratio_for_raw_replacement_parity": 1.2599210498948732,
+      "price_ratio_for_initial_raw_parity": 0.7937005259840997
+    },
+    {
+      "e_ratio": 0.5,
+      "density_ratio": 1,
+      "price_ratio": 2,
+      "thickness_ratio": 1.2599210498948732,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 1.2599210498948732,
+      "stress_ratio": 0.6299605249474365,
+      "strain_ratio": 1.259921049894873,
+      "raw_cost_ratio": 2.5198420997897464,
+      "minimum_life_ratio_for_raw_replacement_parity": 2.5198420997897464,
+      "price_ratio_for_initial_raw_parity": 0.7937005259840997
+    },
+    {
+      "e_ratio": 0.5,
+      "density_ratio": 1.4,
+      "price_ratio": 1,
+      "thickness_ratio": 1.2599210498948732,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 1.7638894698528222,
+      "stress_ratio": 0.6299605249474365,
+      "strain_ratio": 1.259921049894873,
+      "raw_cost_ratio": 1.7638894698528222,
+      "minimum_life_ratio_for_raw_replacement_parity": 1.7638894698528222,
+      "price_ratio_for_initial_raw_parity": 0.5669289471314999
+    },
+    {
+      "e_ratio": 0.5,
+      "density_ratio": 1.4,
+      "price_ratio": 2,
+      "thickness_ratio": 1.2599210498948732,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 1.7638894698528222,
+      "stress_ratio": 0.6299605249474365,
+      "strain_ratio": 1.259921049894873,
+      "raw_cost_ratio": 3.5277789397056445,
+      "minimum_life_ratio_for_raw_replacement_parity": 3.5277789397056445,
+      "price_ratio_for_initial_raw_parity": 0.5669289471314999
+    },
+    {
+      "e_ratio": 2,
+      "density_ratio": 1,
+      "price_ratio": 1,
+      "thickness_ratio": 0.7937005259840998,
+      "stiffness_ratio": 1.0000000000000002,
+      "mass_ratio": 0.7937005259840998,
+      "stress_ratio": 1.5874010519681991,
+      "strain_ratio": 0.7937005259840996,
+      "raw_cost_ratio": 0.7937005259840998,
+      "minimum_life_ratio_for_raw_replacement_parity": 0.7937005259840998,
+      "price_ratio_for_initial_raw_parity": 1.259921049894873
+    },
+    {
+      "e_ratio": 2,
+      "density_ratio": 1,
+      "price_ratio": 2,
+      "thickness_ratio": 0.7937005259840998,
+      "stiffness_ratio": 1.0000000000000002,
+      "mass_ratio": 0.7937005259840998,
+      "stress_ratio": 1.5874010519681991,
+      "strain_ratio": 0.7937005259840996,
+      "raw_cost_ratio": 1.5874010519681996,
+      "minimum_life_ratio_for_raw_replacement_parity": 1.5874010519681996,
+      "price_ratio_for_initial_raw_parity": 1.259921049894873
+    },
+    {
+      "e_ratio": 2,
+      "density_ratio": 1.4,
+      "price_ratio": 1,
+      "thickness_ratio": 0.7937005259840998,
+      "stiffness_ratio": 1.0000000000000002,
+      "mass_ratio": 1.1111807363777397,
+      "stress_ratio": 1.5874010519681991,
+      "strain_ratio": 0.7937005259840996,
+      "raw_cost_ratio": 1.1111807363777397,
+      "minimum_life_ratio_for_raw_replacement_parity": 1.1111807363777397,
+      "price_ratio_for_initial_raw_parity": 0.8999436070677664
+    },
+    {
+      "e_ratio": 2,
+      "density_ratio": 1.4,
+      "price_ratio": 2,
+      "thickness_ratio": 0.7937005259840998,
+      "stiffness_ratio": 1.0000000000000002,
+      "mass_ratio": 1.1111807363777397,
+      "stress_ratio": 1.5874010519681991,
+      "strain_ratio": 0.7937005259840996,
+      "raw_cost_ratio": 2.2223614727554795,
+      "minimum_life_ratio_for_raw_replacement_parity": 2.2223614727554795,
+      "price_ratio_for_initial_raw_parity": 0.8999436070677664
+    },
+    {
+      "e_ratio": 8,
+      "density_ratio": 1,
+      "price_ratio": 1,
+      "thickness_ratio": 0.5,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 0.5,
+      "stress_ratio": 4.0,
+      "strain_ratio": 0.5,
+      "raw_cost_ratio": 0.5,
+      "minimum_life_ratio_for_raw_replacement_parity": 0.5,
+      "price_ratio_for_initial_raw_parity": 2.0
+    },
+    {
+      "e_ratio": 8,
+      "density_ratio": 1,
+      "price_ratio": 2,
+      "thickness_ratio": 0.5,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 0.5,
+      "stress_ratio": 4.0,
+      "strain_ratio": 0.5,
+      "raw_cost_ratio": 1.0,
+      "minimum_life_ratio_for_raw_replacement_parity": 1.0,
+      "price_ratio_for_initial_raw_parity": 2.0
+    },
+    {
+      "e_ratio": 8,
+      "density_ratio": 1.4,
+      "price_ratio": 1,
+      "thickness_ratio": 0.5,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 0.7,
+      "stress_ratio": 4.0,
+      "strain_ratio": 0.5,
+      "raw_cost_ratio": 0.7,
+      "minimum_life_ratio_for_raw_replacement_parity": 0.7,
+      "price_ratio_for_initial_raw_parity": 1.4285714285714286
+    },
+    {
+      "e_ratio": 8,
+      "density_ratio": 1.4,
+      "price_ratio": 2,
+      "thickness_ratio": 0.5,
+      "stiffness_ratio": 1.0,
+      "mass_ratio": 0.7,
+      "stress_ratio": 4.0,
+      "strain_ratio": 0.5,
+      "raw_cost_ratio": 1.4,
+      "minimum_life_ratio_for_raw_replacement_parity": 1.4,
+      "price_ratio_for_initial_raw_parity": 1.4285714285714286
+    }
+  ],
+  "scope": "Dimensionless material selection and raw replacement economics, not particle-bed or 50C validation",
+  "limits": [
+    "no compound data",
+    "beam fixed width length small deflection only",
+    "local replacement may change stiffness and interface durability",
+    "no packing equivalence",
+    "no time-dependent modulus measurement",
+    "raw price is hypothetical",
+    "processing recovery water drainage taxes equipment excluded"
+  ]
+}

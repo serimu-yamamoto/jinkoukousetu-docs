@@ -1,0 +1,34 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "families": [
+    "PE monolithic reference",
+    "non-lubricated PK monolithic or localized contact",
+    "PEEK localized contact",
+    "retained LL or guanine crystalline contact"
+  ],
+  "first_stage": "Matched smooth contact geometry against actual UHMWPE ski sole at50C; initial dry, repeated dry, rainwater wet, redried",
+  "measure": [
+    "mean and peak force",
+    "both-side wear including particle-size distribution",
+    "temperature",
+    "50C creep and recovery over4-5h",
+    "edge support and release",
+    "complete formulation and wear/leachate safety"
+  ],
+  "integration": "Only if contact phase qualifies: compare single-material short branch and local contact phase with open drainage, no exposed retainers",
+  "retained_requirements": [
+    "warm spray formation remains open",
+    "30C air and50C surface",
+    "new groomed-snow feel",
+    "450mm bed300mm gouge reserve",
+    "no surface mats nets geocells",
+    "winter connection and no weak water/oil plane",
+    "rain recovery of composition within60min",
+    "equipment200Myen provisional separate from materials"
+  ],
+  "actions": "No procurement, manufacture, environmental release, or vendor contact"
+}

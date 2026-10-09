@@ -1,0 +1,43 @@
+[
+  {
+    "id": "S1",
+    "title": "Hyosung POKETONE official product page",
+    "url": "https://www.hyosungchemical.com/en/business/pok",
+    "read_date": "2026-10-10",
+    "scope": "Manufacturer statements, not independent proof of complete-grain environmental safety. F-grade and other grades not equated."
+  },
+  {
+    "id": "S2",
+    "title": "Hyosung six-page POKETONE catalogue",
+    "url": "https://www.hyosungchemical.com/upload/board/20231010/ded9e847-7053-4dc5-93a6-0ae782d03543.pdf",
+    "read_date": "2026-10-10",
+    "sha256": "dc957af97aa8003d88e5dba8ca1c4cebd4646c31a9f7def1ade2772d20457130",
+    "bytes": 21861641,
+    "pages": 6,
+    "read_scope": "Extracted text of pages2-3 inspected; table columns not visually verified, no grade numerical constants entered. Font warnings and output gate interrupted broader extraction.",
+    "access": "Web open size limit; server download successful; working PDF removed after publication verification.",
+    "restriction": "Do not transfer silicone/PTFE additive comparisons or catalogue wear advantage to no-additive grade."
+  },
+  {
+    "id": "S3",
+    "title": "Dry sliding wear characteristics of some industrial polymers against steel counterface",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0301679X04000477",
+    "doi": "10.1016/j.triboint.2004.03.002",
+    "read_date": "2026-10-10",
+    "read_scope": "Publisher search-return abstract only. Direct open403. Room-temperature AISI D2 counterface; no ski contact coefficient adopted. Conflicting pressure detail in excerpt not used."
+  },
+  {
+    "id": "S4",
+    "title": "Tribological Behavior of Polymer Seal Materials in Water-Based Hydraulic Fluids",
+    "url": "https://www.sintef.no/publikasjoner/publikasjon/1602463/",
+    "doi": "10.1115/1.4040078",
+    "read_date": "2026-10-10",
+    "read_scope": "Author institution abstract. Water-based hydraulic fluids and steel; not pure-rainwater or dry-ski trials."
+  },
+  {
+    "id": "prior83",
+    "repository_path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json",
+    "read_date": "2026-10-10",
+    "scope": "Existing material-grade and actual ski-base source records reused; no duplicate supplier fetch or new quote."
+  }
+]

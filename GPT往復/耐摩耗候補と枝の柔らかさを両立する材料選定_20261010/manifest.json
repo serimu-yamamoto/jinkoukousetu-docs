@@ -1,0 +1,114 @@
+{
+  "cycle": 120,
+  "base_commit": "17b4740cdd2a7ddbef25750266f06dad11135607",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第120巡_耐摩耗材を雪らしい粒へ組み込む条件_20261010.md",
+      "bytes": 8549,
+      "sha256": "e8da5eb7923f4fd511464fc37e5f8a06ce632e84c78f24f6a55a074a2490e2d7"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 77772,
+      "sha256": "63790c8744af677d7d0d4881507b6120884ce89db95a4c1937fef67f38a5dda0"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/README.md",
+      "bytes": 657,
+      "sha256": "ca27be009534fc534ecf101b1bac8c190507cec4e4eb6282168215531c9a2c55"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/claude_handoff.md",
+      "bytes": 1558,
+      "sha256": "e81aa6d019d9c99c56feb09220cabe2dfd60fcd2ec192ba8ceae3a0d1bf17558"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "353050cf1b4be142491e071882f9facc54eb1d7ce0c44bc6f6bebff0cbacfd70"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/inputs.json",
+      "bytes": 612,
+      "sha256": "499c53a24a31c0af76e850b446bbe002e36568b21345f5da7f763773a86a9adc"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/model.md",
+      "bytes": 1071,
+      "sha256": "6668cc2c3ce4f61d79382cedf511d4b26e7332f6fce965ae230a2f8c817875b3"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "9d35a491d2ddb7d93c1ed6f0fc1b600499a9da1dc16fe3db4d64d56f86914d92"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/reproduce.py",
+      "bytes": 3995,
+      "sha256": "b91ea168c0625edd3ba8539df25c97106db2bb888ca30f5529be0db5f37ba22b"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/research_state.json",
+      "bytes": 1056,
+      "sha256": "176a8991516b892724b758648bb4491db5781b4c466b046b5778c02a43c262d4"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/results.json",
+      "bytes": 7032,
+      "sha256": "7008d823eda47eba0a4a5a10d989f067e1a86f6a52620a4426c05d0372966109"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/sources.json",
+      "bytes": 2251,
+      "sha256": "193fa971b56f1d02a9650d93fd1693085569c366136e7b3aaeeaac6663b3e65b"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/test_plan.json",
+      "bytes": 1334,
+      "sha256": "7ed1e88ceae18711a7686738c3cfeaeccfae3216f84acff89ff04f98fd0157cc"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/validation.json",
+      "bytes": 2906,
+      "sha256": "88599a2a4855b559dee60a80a497026d9f36fe480fe657893cc91920ba8121ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 87978,
+      "sha256": "0b37e7e69626067ccc64df491a67e9fa0fc425f8c711978bef1f6f4dc5a6af86"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 199154,
+      "sha256": "f5744f887004586db3bcfd1065d8f1c586b320bc0696f39892ffed3b0a1339f8"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 5176,
+      "sha256": "411b8f4d189bdd4c217564dee5e912fa867ac4aaef3679ccf55fb9b79189144a"
+    },
+    {
+      "path": "計算部品/material_beam_screen.py",
+      "bytes": 1465,
+      "sha256": "df5fb3947cb04158080d64d81f759f4faa41ac7af11bc24c9747a768a50b0cb3"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 41983,
+      "sha256": "cd54767c3ee0216ecc8947ef65455e1af5a1995b25d1ad6c72ec24e2944ab67e"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 235865,
+      "sha256": "5add2163a37fb6a74930ac9f269e12d7bd752709131148fe5e25473d831d8fb6"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json",
+      "bytes": 3945,
+      "sha256": "6e2a529274c46abdbd4140e78ccf461071d6ebcfff53ed1908e2bd7a94fb2976"
+    }
+  ]
+}
