@@ -1,0 +1,99 @@
+{
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "model": "finite-thickness linear-elastic bridge plus bilinear cohesive separation; deterministic hypothetical screening"
+  },
+  "force_reference_N": 0.004759988869075444,
+  "reference": {
+    "sigma_Pa": 1000000,
+    "E_Pa": 10000000,
+    "length_m": 1e-05,
+    "Gc_J_m2": 10,
+    "area_m2": 4.759988869075444e-09,
+    "Fpeak_N": 0.004759988869075444,
+    "d0_um": 1.0,
+    "df_um": 20.0,
+    "minimum_G_J_m2": 0.5,
+    "bridge_K_N_m": 4759.988869075443,
+    "energy_J": 4.759988869075444e-08,
+    "positive_softening_interval": true,
+    "linear_strain_diagnostic_ok": true,
+    "initial_strain": 0.1,
+    "softening_slope_magnitude_N_m": 250.52572995133914
+  },
+  "thickness": [
+    {
+      "length_um": 1.0,
+      "mass_kg": 140.4,
+      "bridge_K_N_m": 47599.888690754444,
+      "fraction_if_parallel_100N_m": 0.9979035590491979,
+      "peak_opening_um": 0.09999999999999999,
+      "final_opening_um": 20.0,
+      "initial_material_JPY": 1755000.0
+    },
+    {
+      "length_um": 10.0,
+      "mass_kg": 1404.0,
+      "bridge_K_N_m": 4759.988869075443,
+      "fraction_if_parallel_100N_m": 0.9794238211868531,
+      "peak_opening_um": 1.0,
+      "final_opening_um": 20.0,
+      "initial_material_JPY": 17550000.0
+    },
+    {
+      "length_um": 50.0,
+      "mass_kg": 7020.000000000001,
+      "bridge_K_N_m": 951.9977738150887,
+      "fraction_if_parallel_100N_m": 0.9049427646245408,
+      "peak_opening_um": 5.0,
+      "final_opening_um": 20.0,
+      "initial_material_JPY": 87750000.0
+    }
+  ],
+  "load_split": {
+    "target_beta": 0.1,
+    "reduced_area_m2": 4.759988869075445e-10,
+    "actual_beta_if_Km100": 0.8263885533930705,
+    "total_peak_N_if_Km100": 0.0005759988869075445,
+    "required_Km_N_m": 4283.9899821679,
+    "unchanged_mechanical_force_at_20um_N": 0.08567979964335799,
+    "ideal_release_total_work_J": 7.330382858376185e-09,
+    "ideal_release_chemical_work_J": 4.759988869075445e-09,
+    "ideal_release_mechanical_work_J": 2.57039398930074e-09,
+    "mechanical_stored_energy_at_peak_J": 2.14199499108395e-09,
+    "ideal_remaining_chemical_force_fraction_at_mechanical_release": 0.09894736842105264,
+    "ideal_chemical_mass_kg": 140.4,
+    "ideal_initial_material_JPY": 1755000.0,
+    "warning": "load paths, coordinated release, networks, damping, material parameters and manufacture unproven"
+  },
+  "fixture": [
+    {
+      "fixture_K_N_m": 50,
+      "softening_slope_N_m": 250.52572995133914,
+      "du_d_delta": -4.0105145990267825,
+      "quasistatic_displacement_branch_stable": false,
+      "peak_crosshead_um": 96.19977738150888,
+      "final_crosshead_um": 20.0
+    },
+    {
+      "fixture_K_N_m": 500,
+      "softening_slope_N_m": 250.52572995133914,
+      "du_d_delta": 0.4989485400973217,
+      "quasistatic_displacement_branch_stable": true,
+      "peak_crosshead_um": 10.519977738150887,
+      "final_crosshead_um": 20.0
+    },
+    {
+      "fixture_K_N_m": 5000,
+      "softening_slope_N_m": 250.52572995133914,
+      "du_d_delta": 0.9498948540097322,
+      "quasistatic_displacement_branch_stable": true,
+      "peak_crosshead_um": 1.9519977738150889,
+      "final_crosshead_um": 20.0
+    }
+  ],
+  "grid_rows": 96,
+  "valid_form_and_strain_rows": 55,
+  "valid_rows_are_not_success_probability": true
+}

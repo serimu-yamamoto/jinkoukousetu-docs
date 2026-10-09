@@ -1,0 +1,127 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "31615b2c96ef60491555f5f1f6a03412dc109767",
+  "cycle": 65,
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null
+  },
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第65巡_短い解放を阻む接点剛性と修復機能の再配置_20261009.md",
+      "bytes": 16059,
+      "sha256": "1daf262e2cca4aea738dc3ac30bedf6e6c65e2fb16595a18675b87b712047297"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 45079,
+      "sha256": "7683d4f1a4f29e621bd6a34b7fc1ccd080bdbeda226fda5c78e0ddac04e530a7"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/README.md",
+      "bytes": 3032,
+      "sha256": "536fbd21bbe865e3e2fa5ceb50455db308aa1d9ce3df839d53177c0500dc4fd5"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/audit.py",
+      "bytes": 4332,
+      "sha256": "d0ae7927893b7f658ebe594e7cb30e42ef02c56b8be6aff2da588a2976dd4820"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/bridge_screen.csv",
+      "bytes": 15588,
+      "sha256": "36eb365080e8df55a88442dd8d0a6b1914cf6133bed6437aa788327e535660a8"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/calculate.py",
+      "bytes": 6985,
+      "sha256": "ad3e29082b67ae945014d0dbc765c0afb40d32caca703c4a22326a78a9328acb"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/document-audit.json",
+      "bytes": 3149,
+      "sha256": "b1e594715f28363188b69304bfaa027017c1b9341fbce3a44a4c067b3b477646"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/draw.py",
+      "bytes": 3324,
+      "sha256": "78617e9333b2d429bef8025a371095a8ef8a5261fee5b42792a86f192c6b523a"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/fixture_and_thickness.png",
+      "bytes": 177531,
+      "sha256": "b38aa54bddf088eb155731bc52353da9516ac54ca8a8d9f9f4d40befc7e9ab74"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/fixture_and_thickness.svg",
+      "bytes": 43728,
+      "sha256": "ae118f604bb3bd7da38d78e6ec9f57362e9de27fb7abfe292092aec8a2d234b3"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/fixture_screen.csv",
+      "bytes": 335,
+      "sha256": "1cb88fd2eb8535df5623b67b4c95834891f273dfbc0789580d059a3ace9dd1d0"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/force_and_release.png",
+      "bytes": 159129,
+      "sha256": "02cccd0733e6318828eb936a791780c219b4d4d488f62ff754cf2ea7ad6922a9"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/force_and_release.svg",
+      "bytes": 42087,
+      "sha256": "4769bed4221d683a8cb4c79e646b41d8c9d258ad599d793bd38236d709611c6c"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/force_paths.csv",
+      "bytes": 75579,
+      "sha256": "ed9308fb97f608e481cd2c4ac9ba4ead1aec1c3658c7fe4f047958ad96121c00"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/inputs.json",
+      "bytes": 1332,
+      "sha256": "1b39507f88cb2155a9e21341193b24f2a6657cb5be1d3ff8933fe8a22b5bfcad"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/numerical_checks.json",
+      "bytes": 1926,
+      "sha256": "0f13e3ce200cf128fbe428c7c59e1c642083d6c4080f4e278edb96b881a5d88f"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/results.json",
+      "bytes": 3327,
+      "sha256": "d220fd4c78bbf0bfbc5a31d9c68496660d5ec5eea6394e65cb85ee283ed6697f"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/sources.json",
+      "bytes": 2602,
+      "sha256": "e543a6a8b568da21b4bba393374fc7d57773fb106515a9576e60c3cb62d0e756"
+    },
+    {
+      "path": "GPT往復/接点厚さと破断荷重分担_20261009/thickness_screen.csv",
+      "bytes": 345,
+      "sha256": "20af79d2d9e69f60f9cc9a4b931b6760dfc17ae880dd561ed6465bb40828b80e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 52785,
+      "sha256": "89c6780ea22226b45df49b8641aeaa0dc2aa1584346554aae17add1c47610f81"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 131357,
+      "sha256": "338bb1c1b9a0f83ca6fdb0e19b431c9f519c56c3853081708fdedfb1f0adb296"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 4038,
+      "sha256": "f98a10d08eca06b56c758cde15deb5e63b529cdb8b72d11851b2c9c7a5653009"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 209140,
+      "sha256": "5b2096c08af4792f8f9cc3d2f1bd59aa663f9d9d49421bbb409bac14edf283c3"
+    }
+  ]
+}

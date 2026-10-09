@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "no_physical_trials",
+      "passed": true
+    },
+    {
+      "name": "no_success_probability",
+      "passed": true
+    },
+    {
+      "name": "24_numerical_checks",
+      "passed": true
+    },
+    {
+      "name": "96_assumption_rows_55_consistent_not_probability",
+      "passed": true
+    },
+    {
+      "name": "load_fraction_not_area_fraction",
+      "passed": true
+    },
+    {
+      "name": "thin_layer_same_final_opening",
+      "passed": true
+    },
+    {
+      "name": "mechanical_release_work_includes_chemical",
+      "passed": true
+    },
+    {
+      "name": "fixture_instability_detected",
+      "passed": true
+    },
+    {
+      "name": "rows_bridge_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_thickness_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_force_paths.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_fixture_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "903_csv_data_rows",
+      "passed": true
+    },
+    {
+      "name": "supplement_not_obtained",
+      "passed": true
+    },
+    {
+      "name": "snow_pdf_identified",
+      "passed": true
+    },
+    {
+      "name": "raw_dynamic_snow_data_not_reanalysed",
+      "passed": true
+    },
+    {
+      "name": "report_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_90％超は未実証",
+      "passed": true
+    },
+    {
+      "name": "report_H65-M",
+      "passed": true
+    },
+    {
+      "name": "report_H65-P",
+      "passed": true
+    },
+    {
+      "name": "report_要求曲線",
+      "passed": true
+    },
+    {
+      "name": "report_未測定の仮定",
+      "passed": true
+    },
+    {
+      "name": "report_装置変位",
+      "passed": true
+    },
+    {
+      "name": "report_未取得",
+      "passed": true
+    },
+    {
+      "name": "report_60分",
+      "passed": true
+    },
+    {
+      "name": "report_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_冬",
+      "passed": true
+    },
+    {
+      "name": "report_費用",
+      "passed": true
+    },
+    {
+      "name": "report_Claudeの閲覧・受領・同意・稼働は確認していない",
+      "passed": true
+    },
+    {
+      "name": "local_markdown_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "newest_history_row_is_65",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_26",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_61",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_63",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_64",
+      "passed": true
+    },
+    {
+      "name": "figure_pair_force_and_release",
+      "passed": true
+    },
+    {
+      "name": "figure_pair_fixture_and_thickness",
+      "passed": true
+    }
+  ],
+  "check_count": 37,
+  "local_links_checked": 342,
+  "csv_data_rows": 903,
+  "physical_trials": 0,
+  "success_probability": null,
+  "visual_review": "Two original figure PNGs inspected by Codex before publication; no clipping found. External snow PDF pages 8 and 15 inspected; not redistributed."
+}

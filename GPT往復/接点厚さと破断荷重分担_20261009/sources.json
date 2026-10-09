@@ -1,0 +1,43 @@
+[
+  {
+    "id": "S1",
+    "title": "Biosynthetic self-healing materials for soft machines",
+    "doi": "10.1038/s41563-020-0736-2",
+    "year": 2020,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7610468/",
+    "read": "author manuscript HTML at ?pdf=1; same primary paper as cycle64",
+    "sha256": "b4651692247300d31df095705449e6ff845bd9227a07435e2132181efd08c218",
+    "bytes": 185592,
+    "supplement_status": "publisher page and PMC link checked; PDF endpoint returned HTML CAPTCHA, Europe PMC supplementaryFiles returned not-open-access error. Supplementary numerical data not obtained; do not infer 50 C strength or fracture energy.",
+    "attempted_supplement_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/7610468/bin/EMS104391-supplement-Supplementary_fig__1___20.pdf"
+  },
+  {
+    "id": "S2",
+    "title": "Fracture toughness of dry snow slab avalanches from field measurements",
+    "authors": "D. M. McClung and Jürg Schweizer",
+    "doi": "10.1029/2005JF000403",
+    "year": 2006,
+    "url": "https://www.slf.ch/fileadmin/user_upload/WSL/Mitarbeitende/schweizj/McClung_Schweizer_Fracture_toughness_2005JF000403_2006.pdf",
+    "bytes": 412352,
+    "sha256": "5aadf68a0612256fcad835adee8a8649bf0f3fdd8d7253d503c879b91be00297",
+    "read": "17-page publisher PDF hosted by SLF; pages 8 and 15 rendered and visually inspected. Figure 5, paragraphs 38 and 79; values are not a micro-joint or groomed-snow target."
+  },
+  {
+    "id": "S3",
+    "title": "Dynamic crack propagation in weak snowpack layers: insights from high-resolution, high-speed photography",
+    "doi": "10.5194/tc-15-3539-2021",
+    "year": 2021,
+    "url": "https://tc.copernicus.org/articles/15/3539/2021/index.html",
+    "read": "primary full HTML; introduction and sections 2, 3.2, 4; mixed-mode and spatial-resolution limitations inspected; no raw data reanalysis."
+  },
+  {
+    "id": "R26",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/31615b2c96ef60491555f5f1f6a03412dc109767/GPT往復/GPT回答_多方向探索第26巡_自己修復接点の保持時間と雪らしい解放_20261008.md",
+    "read": "prior cohesive triangle, encounter probability and rebonding comparison; explicitly reused, not claimed new"
+  },
+  {
+    "id": "R64",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/31615b2c96ef60491555f5f1f6a03412dc109767/GPT往復/GPT回答_多方向探索第64巡_自己修復材を内部接点に限定する設計と量産条件_20261009.md",
+    "read": "mass and internal repair concepts; now add finite stiffness and actual load split"
+  }
+]

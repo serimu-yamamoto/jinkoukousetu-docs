@@ -1,0 +1,64 @@
+{
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "model": "finite-thickness linear-elastic bridge plus bilinear cohesive separation; deterministic hypothetical screening"
+  },
+  "geometry": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "grain_D_m": 0.0005,
+    "phi": 0.55,
+    "z": 6,
+    "q": 0.25,
+    "assumed_network_strength_Pa": 5000,
+    "connector_density_kg_m3": 1300
+  },
+  "reference": {
+    "joint_strength_Pa": 1000000,
+    "joint_modulus_Pa": 10000000,
+    "length_m": 0.00001,
+    "Gc_J_m2": 10,
+    "mechanical_K_N_m": 100,
+    "target_chemical_load_fraction": 0.1,
+    "mechanical_release_width_m": 2e-7,
+    "reference_release_distance_m": 0.00002,
+    "reference_distance_status": "not a measured snow acceptance criterion"
+  },
+  "sweep": {
+    "strength_Pa": [
+      100000,
+      1000000
+    ],
+    "modulus_Pa": [
+      100000,
+      1000000,
+      10000000,
+      100000000
+    ],
+    "length_m": [
+      0.000001,
+      0.00001,
+      0.00005
+    ],
+    "Gc_J_m2": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "small_strain_diagnostic_limit": 0.1,
+    "fixture_K_N_m": [
+      50,
+      500,
+      5000
+    ]
+  },
+  "cost": {
+    "price_JPY_kg": 10000,
+    "downstream_yield": 0.8,
+    "life_cycles": 100,
+    "year_cycles": 360,
+    "assumptions_only": true
+  }
+}

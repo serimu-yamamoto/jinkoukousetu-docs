@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Rumpf_force_matches_cycle64",
+      "passed": true
+    },
+    {
+      "name": "reference_peak_opening_1um",
+      "passed": true
+    },
+    {
+      "name": "reference_final_opening_20um",
+      "passed": true
+    },
+    {
+      "name": "reference_minimum_G_0_5",
+      "passed": true
+    },
+    {
+      "name": "reference_work_numeric",
+      "passed": true
+    },
+    {
+      "name": "inconsistent_combo_detected",
+      "passed": true
+    },
+    {
+      "name": "threshold_zero_interval_rejected",
+      "passed": true
+    },
+    {
+      "name": "force_zero_after_complete_release",
+      "passed": true
+    },
+    {
+      "name": "peak_force_matches",
+      "passed": true
+    },
+    {
+      "name": "thin_layer_same_final_opening",
+      "passed": true
+    },
+    {
+      "name": "thinning_increases_stiffness_10fold",
+      "passed": true
+    },
+    {
+      "name": "thinning_mass_10fold",
+      "passed": true
+    },
+    {
+      "name": "target_load_sum_at_peak",
+      "passed": true
+    },
+    {
+      "name": "target_fraction_at_peak",
+      "passed": true
+    },
+    {
+      "name": "small_patch_not_10percent_with_soft_parallel",
+      "passed": true
+    },
+    {
+      "name": "mechanical_residual_at_df",
+      "passed": true
+    },
+    {
+      "name": "ideal_bypass_zero_final_force",
+      "passed": true
+    },
+    {
+      "name": "mechanical_release_work_integral",
+      "passed": true
+    },
+    {
+      "name": "total_release_work_integral",
+      "passed": true
+    },
+    {
+      "name": "fixture_soft_snapback",
+      "passed": true
+    },
+    {
+      "name": "fixture_stiff_traceable",
+      "passed": true
+    },
+    {
+      "name": "fixture_compliance_unit",
+      "passed": true
+    },
+    {
+      "name": "grid96",
+      "passed": true
+    },
+    {
+      "name": "physical_test_status",
+      "passed": true
+    }
+  ],
+  "physical_tests": 0
+}
