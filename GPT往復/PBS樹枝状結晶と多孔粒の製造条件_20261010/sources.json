@@ -1,0 +1,47 @@
+[
+  {
+    "id": "dendritic_PBS_primary",
+    "title": "Microscopic and Small-/Wide-Angle Microbeam X-ray Analyses on Dendritic Crystals in Poly(butylene succinate)",
+    "authors": "Hsiao-Hua Li, Selvaraj Nagarajan, Wei-Tsung Chuang, Yi-Wei Tsai, Eamor M. Woo",
+    "year": 2023,
+    "doi": "10.1021/acs.macromol.2c02315",
+    "url": "https://pubs.acs.org/doi/abs/10.1021/acs.macromol.2c02315",
+    "accessed": "2026-10-10",
+    "scope": "Publisher indexed abstract and SI description; direct pages403. Full methods, composition, growth kinetics, images and SI not acquired.",
+    "use": "PBSu/PEO composite dendritic spherulites at60–78C; distinguish from isolated open particles and50C strength",
+    "not_adopted": "Grade, ratio, recipe, speed, free particle shape or safety"
+  },
+  {
+    "id": "porous_particle_patent",
+    "identifier": "EP3357955B1",
+    "url": "https://patents.google.com/patent/EP3357955B1/en",
+    "accessed": "2026-10-10",
+    "html_bytes": 274527,
+    "html_sha256": "5e661a9258afceeb613dad02370c7acb312e4f7062b443c504de99ea93a75606",
+    "scope": "Retrieved HTML; Example1/3/6/4b/5b,Table2 and measurement definitions; images not visually inspected",
+    "use": "Reported batch ingredients, process temperatures/times and measured size indices as published, not independent experiments",
+    "not_adopted": "Patent safety claims, patent legal status or freedom to operate; final solvent ppm, yield, field degradation,50C performance"
+  },
+  {
+    "id": "reused_Claude_ledger",
+    "repository_path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "scope": "Existing PBS fast-DSC audit reused, not refetched; old virtual probability not empirical success"
+  },
+  {
+    "id": "reused_code",
+    "repository_path": "計算部品/formation_conditioning.py",
+    "sha256": "09edd0e38c2edac49eec73c5519d9498cff3f0c0281ca816b7ff6bca690946f4",
+    "scope": "Definitions inspected; mixture and schedule reused unchanged"
+  },
+  {
+    "id": "screened_not_adopted",
+    "doi": "10.1002/masy.201800118",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/masy.201800118",
+    "scope": "Suspension polycondensation microbead abstract screened only; no recipe or model parameters imported"
+  },
+  {
+    "id": "own_counterexample",
+    "scope": "Solid oblate geometry shows diameter-ratio nonuniqueness; not actual particle reconstruction or Coulter electrical simulation"
+  }
+]

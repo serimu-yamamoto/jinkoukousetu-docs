@@ -1,0 +1,110 @@
+{
+  "cycle": 133,
+  "patent": {
+    "identifier": "EP3357955B1",
+    "grade": "GS-Pla FZ-71PD",
+    "solvent": "3-methoxy-3-methyl-1-butanol, Solfit Fine Grade",
+    "heat_C": 120,
+    "hold_minutes": 60,
+    "stirring_rpm": 600,
+    "cool_to_C": 25,
+    "starting_autoclave_mL": 1500,
+    "postprocess": "content dehydrated, filtered and dried; detailed durations and final solvent residue not given in inspected Example1",
+    "recipes": [
+      {
+        "id": "1",
+        "polymer_g": 36,
+        "solvent_g": 1164,
+        "cool_minutes": 60,
+        "A_um": 34.45,
+        "B_um": 21.74,
+        "C_um": 30.24,
+        "index_reported": 1.39,
+        "sphericity_reported": 0.95
+      },
+      {
+        "id": "6",
+        "polymer_g": 36,
+        "solvent_g": 1164,
+        "cool_minutes": 30,
+        "A_um": 45,
+        "B_um": 21.91,
+        "C_um": 25.11,
+        "index_reported": 1.15,
+        "sphericity_reported": 0.94
+      },
+      {
+        "id": "3",
+        "polymer_g": 90,
+        "solvent_g": 1110,
+        "cool_minutes": 30,
+        "A_um": 55.32,
+        "B_um": 24.19,
+        "C_um": 31.2,
+        "index_reported": 1.29,
+        "sphericity_reported": 0.94
+      },
+      {
+        "id": "4b",
+        "polymer_g": 120,
+        "solvent_g": 1080,
+        "cool_minutes": 30,
+        "A_um": 44.77,
+        "B_um": 31.31,
+        "C_um": 48.22,
+        "index_reported": 1.54,
+        "sphericity_reported": 0.93
+      },
+      {
+        "id": "5b",
+        "polymer_g": 180,
+        "solvent_g": 1020,
+        "cool_minutes": 30,
+        "A_um": 88.23,
+        "B_um": 54.13,
+        "C_um": 72.53,
+        "index_reported": 1.34,
+        "sphericity_reported": 0.91
+      }
+    ]
+  },
+  "hypothetical": {
+    "yields": [
+      0.6,
+      0.9,
+      1
+    ],
+    "recoveries": [
+      0.9,
+      0.99,
+      0.999
+    ],
+    "cp_polymer_kJ_kgK": 2,
+    "cp_solvent_kJ_kgK": 2,
+    "feed_C": 30,
+    "solvent_to_polymer_prices": [
+      0.5,
+      1,
+      2
+    ],
+    "makeup_solvent_cost_budget_fraction_of_polymer_feed": 0.1,
+    "view_angles_deg": [
+      0,
+      30,
+      60,
+      90
+    ]
+  },
+  "dependencies": [
+    "計算部品/formation_conditioning.py"
+  ],
+  "limits": [
+    "Patent is a reported process example, not an independently repeated test here",
+    "New dendrite paper abstract supports PBSu/PEO composite dendritic spherulites at60–78C, not isolated free particles, spray process, exact grade, growth speed or50C strength",
+    "Yield recovery heat capacities starting temperature and price ratios are assumptions",
+    "Solvent makeup is unrecovered inventory, not automatically environmental release",
+    "Hold plus cooling excludes heat-up filtering drying cleaning; not factory throughput or full maintenance closure",
+    "C/B uses different measurement modes; oblate example is a mathematical counterexample, not a reconstruction of patented particles",
+    "No crystallization growth, fracture, friction, safety or field biodegradation prediction"
+  ]
+}

@@ -1,0 +1,2171 @@
+{
+  "cycle": 133,
+  "physical_trials": 0,
+  "success_probability": null,
+  "rows": [
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 55.555555555555564,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 53.88888888888889,
+      "solvent_recovered_kg_per_kg_product": 48.50000000000001,
+      "fresh_solvent_kg_per_kg_product": 5.388888888888888,
+      "sensible_heat_only_kWh_per_kg_product": 2.7777777777777777,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 55.555555555555564,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 53.88888888888889,
+      "solvent_recovered_kg_per_kg_product": 53.35000000000001,
+      "fresh_solvent_kg_per_kg_product": 0.5388888888888894,
+      "sensible_heat_only_kWh_per_kg_product": 2.7777777777777777,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 55.555555555555564,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 53.88888888888889,
+      "solvent_recovered_kg_per_kg_product": 53.83500000000001,
+      "fresh_solvent_kg_per_kg_product": 0.053888888888888944,
+      "sensible_heat_only_kWh_per_kg_product": 2.7777777777777777,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 37.03703703703704,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 35.92592592592593,
+      "solvent_recovered_kg_per_kg_product": 32.333333333333336,
+      "fresh_solvent_kg_per_kg_product": 3.592592592592592,
+      "sensible_heat_only_kWh_per_kg_product": 1.8518518518518516,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 37.03703703703704,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 35.92592592592593,
+      "solvent_recovered_kg_per_kg_product": 35.56666666666667,
+      "fresh_solvent_kg_per_kg_product": 0.3592592592592596,
+      "sensible_heat_only_kWh_per_kg_product": 1.8518518518518516,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 37.03703703703704,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 35.92592592592593,
+      "solvent_recovered_kg_per_kg_product": 35.89,
+      "fresh_solvent_kg_per_kg_product": 0.035925925925925965,
+      "sensible_heat_only_kWh_per_kg_product": 1.8518518518518516,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 33.333333333333336,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 32.333333333333336,
+      "solvent_recovered_kg_per_kg_product": 29.1,
+      "fresh_solvent_kg_per_kg_product": 3.233333333333333,
+      "sensible_heat_only_kWh_per_kg_product": 1.6666666666666667,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 33.333333333333336,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 32.333333333333336,
+      "solvent_recovered_kg_per_kg_product": 32.010000000000005,
+      "fresh_solvent_kg_per_kg_product": 0.32333333333333364,
+      "sensible_heat_only_kWh_per_kg_product": 1.6666666666666667,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 33.333333333333336,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 32.333333333333336,
+      "solvent_recovered_kg_per_kg_product": 32.301,
+      "fresh_solvent_kg_per_kg_product": 0.03233333333333337,
+      "sensible_heat_only_kWh_per_kg_product": 1.6666666666666667,
+      "specified_hold_and_cool": {
+        "minutes": 120,
+        "hours": 2.0
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 55.555555555555564,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 53.88888888888889,
+      "solvent_recovered_kg_per_kg_product": 48.50000000000001,
+      "fresh_solvent_kg_per_kg_product": 5.388888888888888,
+      "sensible_heat_only_kWh_per_kg_product": 2.7777777777777777,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 55.555555555555564,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 53.88888888888889,
+      "solvent_recovered_kg_per_kg_product": 53.35000000000001,
+      "fresh_solvent_kg_per_kg_product": 0.5388888888888894,
+      "sensible_heat_only_kWh_per_kg_product": 2.7777777777777777,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 55.555555555555564,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 53.88888888888889,
+      "solvent_recovered_kg_per_kg_product": 53.83500000000001,
+      "fresh_solvent_kg_per_kg_product": 0.053888888888888944,
+      "sensible_heat_only_kWh_per_kg_product": 2.7777777777777777,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 37.03703703703704,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 35.92592592592593,
+      "solvent_recovered_kg_per_kg_product": 32.333333333333336,
+      "fresh_solvent_kg_per_kg_product": 3.592592592592592,
+      "sensible_heat_only_kWh_per_kg_product": 1.8518518518518516,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 37.03703703703704,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 35.92592592592593,
+      "solvent_recovered_kg_per_kg_product": 35.56666666666667,
+      "fresh_solvent_kg_per_kg_product": 0.3592592592592596,
+      "sensible_heat_only_kWh_per_kg_product": 1.8518518518518516,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 37.03703703703704,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 35.92592592592593,
+      "solvent_recovered_kg_per_kg_product": 35.89,
+      "fresh_solvent_kg_per_kg_product": 0.035925925925925965,
+      "sensible_heat_only_kWh_per_kg_product": 1.8518518518518516,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 33.333333333333336,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 32.333333333333336,
+      "solvent_recovered_kg_per_kg_product": 29.1,
+      "fresh_solvent_kg_per_kg_product": 3.233333333333333,
+      "sensible_heat_only_kWh_per_kg_product": 1.6666666666666667,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 33.333333333333336,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 32.333333333333336,
+      "solvent_recovered_kg_per_kg_product": 32.010000000000005,
+      "fresh_solvent_kg_per_kg_product": 0.32333333333333364,
+      "sensible_heat_only_kWh_per_kg_product": 1.6666666666666667,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.03,
+      "wet_charge_kg_per_kg_product": 33.333333333333336,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 32.333333333333336,
+      "solvent_recovered_kg_per_kg_product": 32.301,
+      "fresh_solvent_kg_per_kg_product": 0.03233333333333337,
+      "sensible_heat_only_kWh_per_kg_product": 1.6666666666666667,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 22.222222222222225,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 20.555555555555557,
+      "solvent_recovered_kg_per_kg_product": 18.500000000000004,
+      "fresh_solvent_kg_per_kg_product": 2.0555555555555554,
+      "sensible_heat_only_kWh_per_kg_product": 1.1111111111111112,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 22.222222222222225,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 20.555555555555557,
+      "solvent_recovered_kg_per_kg_product": 20.35,
+      "fresh_solvent_kg_per_kg_product": 0.20555555555555574,
+      "sensible_heat_only_kWh_per_kg_product": 1.1111111111111112,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 22.222222222222225,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 20.555555555555557,
+      "solvent_recovered_kg_per_kg_product": 20.535,
+      "fresh_solvent_kg_per_kg_product": 0.020555555555555577,
+      "sensible_heat_only_kWh_per_kg_product": 1.1111111111111112,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 14.814814814814815,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 13.703703703703704,
+      "solvent_recovered_kg_per_kg_product": 12.333333333333334,
+      "fresh_solvent_kg_per_kg_product": 1.3703703703703702,
+      "sensible_heat_only_kWh_per_kg_product": 0.7407407407407407,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 14.814814814814815,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 13.703703703703704,
+      "solvent_recovered_kg_per_kg_product": 13.566666666666666,
+      "fresh_solvent_kg_per_kg_product": 0.13703703703703715,
+      "sensible_heat_only_kWh_per_kg_product": 0.7407407407407407,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 14.814814814814815,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 13.703703703703704,
+      "solvent_recovered_kg_per_kg_product": 13.69,
+      "fresh_solvent_kg_per_kg_product": 0.013703703703703716,
+      "sensible_heat_only_kWh_per_kg_product": 0.7407407407407407,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 13.333333333333334,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 12.333333333333334,
+      "solvent_recovered_kg_per_kg_product": 11.100000000000001,
+      "fresh_solvent_kg_per_kg_product": 1.2333333333333332,
+      "sensible_heat_only_kWh_per_kg_product": 0.6666666666666666,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 13.333333333333334,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 12.333333333333334,
+      "solvent_recovered_kg_per_kg_product": 12.21,
+      "fresh_solvent_kg_per_kg_product": 0.12333333333333345,
+      "sensible_heat_only_kWh_per_kg_product": 0.6666666666666666,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.075,
+      "wet_charge_kg_per_kg_product": 13.333333333333334,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 12.333333333333334,
+      "solvent_recovered_kg_per_kg_product": 12.321,
+      "fresh_solvent_kg_per_kg_product": 0.012333333333333345,
+      "sensible_heat_only_kWh_per_kg_product": 0.6666666666666666,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 16.666666666666668,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 15.0,
+      "solvent_recovered_kg_per_kg_product": 13.5,
+      "fresh_solvent_kg_per_kg_product": 1.4999999999999998,
+      "sensible_heat_only_kWh_per_kg_product": 0.8333333333333334,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 16.666666666666668,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 15.0,
+      "solvent_recovered_kg_per_kg_product": 14.850000000000001,
+      "fresh_solvent_kg_per_kg_product": 0.15000000000000013,
+      "sensible_heat_only_kWh_per_kg_product": 0.8333333333333334,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 16.666666666666668,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 15.0,
+      "solvent_recovered_kg_per_kg_product": 14.985,
+      "fresh_solvent_kg_per_kg_product": 0.015000000000000013,
+      "sensible_heat_only_kWh_per_kg_product": 0.8333333333333334,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 11.11111111111111,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 10.0,
+      "solvent_recovered_kg_per_kg_product": 9.0,
+      "fresh_solvent_kg_per_kg_product": 0.9999999999999998,
+      "sensible_heat_only_kWh_per_kg_product": 0.5555555555555556,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 11.11111111111111,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 10.0,
+      "solvent_recovered_kg_per_kg_product": 9.9,
+      "fresh_solvent_kg_per_kg_product": 0.10000000000000009,
+      "sensible_heat_only_kWh_per_kg_product": 0.5555555555555556,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 11.11111111111111,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 10.0,
+      "solvent_recovered_kg_per_kg_product": 9.99,
+      "fresh_solvent_kg_per_kg_product": 0.010000000000000009,
+      "sensible_heat_only_kWh_per_kg_product": 0.5555555555555556,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 10.0,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 9.0,
+      "solvent_recovered_kg_per_kg_product": 8.1,
+      "fresh_solvent_kg_per_kg_product": 0.8999999999999998,
+      "sensible_heat_only_kWh_per_kg_product": 0.5,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 10.0,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 9.0,
+      "solvent_recovered_kg_per_kg_product": 8.91,
+      "fresh_solvent_kg_per_kg_product": 0.09000000000000008,
+      "sensible_heat_only_kWh_per_kg_product": 0.5,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.1,
+      "wet_charge_kg_per_kg_product": 10.0,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 9.0,
+      "solvent_recovered_kg_per_kg_product": 8.991,
+      "fresh_solvent_kg_per_kg_product": 0.009000000000000008,
+      "sensible_heat_only_kWh_per_kg_product": 0.5,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 11.111111111111112,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 9.444444444444445,
+      "solvent_recovered_kg_per_kg_product": 8.500000000000002,
+      "fresh_solvent_kg_per_kg_product": 0.9444444444444443,
+      "sensible_heat_only_kWh_per_kg_product": 0.5555555555555556,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 11.111111111111112,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 9.444444444444445,
+      "solvent_recovered_kg_per_kg_product": 9.350000000000001,
+      "fresh_solvent_kg_per_kg_product": 0.09444444444444454,
+      "sensible_heat_only_kWh_per_kg_product": 0.5555555555555556,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 11.111111111111112,
+      "polymer_feed_kg_per_kg_product": 1.6666666666666667,
+      "not_product_polymer_kg_per_kg_product": 0.6666666666666667,
+      "solvent_charge_kg_per_kg_product": 9.444444444444445,
+      "solvent_recovered_kg_per_kg_product": 9.435,
+      "fresh_solvent_kg_per_kg_product": 0.009444444444444455,
+      "sensible_heat_only_kWh_per_kg_product": 0.5555555555555556,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 7.407407407407407,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 6.296296296296297,
+      "solvent_recovered_kg_per_kg_product": 5.666666666666667,
+      "fresh_solvent_kg_per_kg_product": 0.6296296296296294,
+      "sensible_heat_only_kWh_per_kg_product": 0.37037037037037035,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 7.407407407407407,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 6.296296296296297,
+      "solvent_recovered_kg_per_kg_product": 6.233333333333333,
+      "fresh_solvent_kg_per_kg_product": 0.06296296296296303,
+      "sensible_heat_only_kWh_per_kg_product": 0.37037037037037035,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 7.407407407407407,
+      "polymer_feed_kg_per_kg_product": 1.1111111111111112,
+      "not_product_polymer_kg_per_kg_product": 0.11111111111111108,
+      "solvent_charge_kg_per_kg_product": 6.296296296296297,
+      "solvent_recovered_kg_per_kg_product": 6.29,
+      "fresh_solvent_kg_per_kg_product": 0.0062962962962963024,
+      "sensible_heat_only_kWh_per_kg_product": 0.37037037037037035,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 6.666666666666667,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 5.666666666666667,
+      "solvent_recovered_kg_per_kg_product": 5.1000000000000005,
+      "fresh_solvent_kg_per_kg_product": 0.5666666666666665,
+      "sensible_heat_only_kWh_per_kg_product": 0.3333333333333333,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 6.666666666666667,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 5.666666666666667,
+      "solvent_recovered_kg_per_kg_product": 5.61,
+      "fresh_solvent_kg_per_kg_product": 0.05666666666666672,
+      "sensible_heat_only_kWh_per_kg_product": 0.3333333333333333,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "polymer_fraction": 0.15,
+      "wet_charge_kg_per_kg_product": 6.666666666666667,
+      "polymer_feed_kg_per_kg_product": 1.0,
+      "not_product_polymer_kg_per_kg_product": 0.0,
+      "solvent_charge_kg_per_kg_product": 5.666666666666667,
+      "solvent_recovered_kg_per_kg_product": 5.6610000000000005,
+      "fresh_solvent_kg_per_kg_product": 0.005666666666666672,
+      "sensible_heat_only_kWh_per_kg_product": 0.3333333333333333,
+      "specified_hold_and_cool": {
+        "minutes": 90,
+        "hours": 1.5
+      },
+      "total_batch_time_h": null,
+      "final_residual_solvent_ppm": null
+    }
+  ],
+  "cost_budgets": [
+    {
+      "example": "1",
+      "price_ratio": 0.5,
+      "min_recovery_for_assumed_cost_budget": 0.9938144329896907
+    },
+    {
+      "example": "1",
+      "price_ratio": 1,
+      "min_recovery_for_assumed_cost_budget": 0.9969072164948454
+    },
+    {
+      "example": "1",
+      "price_ratio": 2,
+      "min_recovery_for_assumed_cost_budget": 0.9984536082474227
+    },
+    {
+      "example": "6",
+      "price_ratio": 0.5,
+      "min_recovery_for_assumed_cost_budget": 0.9938144329896907
+    },
+    {
+      "example": "6",
+      "price_ratio": 1,
+      "min_recovery_for_assumed_cost_budget": 0.9969072164948454
+    },
+    {
+      "example": "6",
+      "price_ratio": 2,
+      "min_recovery_for_assumed_cost_budget": 0.9984536082474227
+    },
+    {
+      "example": "3",
+      "price_ratio": 0.5,
+      "min_recovery_for_assumed_cost_budget": 0.9837837837837837
+    },
+    {
+      "example": "3",
+      "price_ratio": 1,
+      "min_recovery_for_assumed_cost_budget": 0.9918918918918919
+    },
+    {
+      "example": "3",
+      "price_ratio": 2,
+      "min_recovery_for_assumed_cost_budget": 0.995945945945946
+    },
+    {
+      "example": "4b",
+      "price_ratio": 0.5,
+      "min_recovery_for_assumed_cost_budget": 0.9777777777777777
+    },
+    {
+      "example": "4b",
+      "price_ratio": 1,
+      "min_recovery_for_assumed_cost_budget": 0.9888888888888889
+    },
+    {
+      "example": "4b",
+      "price_ratio": 2,
+      "min_recovery_for_assumed_cost_budget": 0.9944444444444445
+    },
+    {
+      "example": "5b",
+      "price_ratio": 0.5,
+      "min_recovery_for_assumed_cost_budget": 0.9647058823529412
+    },
+    {
+      "example": "5b",
+      "price_ratio": 1,
+      "min_recovery_for_assumed_cost_budget": 0.9823529411764705
+    },
+    {
+      "example": "5b",
+      "price_ratio": 2,
+      "min_recovery_for_assumed_cost_budget": 0.9911764705882353
+    }
+  ],
+  "normalised_feed_material_cost": [
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 4.361111111111111
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 7.055555555555555
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 12.444444444444443
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.9361111111111113
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 2.205555555555556
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 2.7444444444444454
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.6936111111111112
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.7205555555555556
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.7744444444444447
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.9074074074074074
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 4.703703703703703
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 8.296296296296296
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.290740740740741
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.4703703703703708
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.8296296296296304
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1290740740740741
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.147037037037037
+    },
+    {
+      "example": "1",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.182962962962963
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.6166666666666663
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 4.2333333333333325
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 7.466666666666666
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1616666666666668
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.3233333333333337
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.6466666666666674
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0161666666666667
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.0323333333333333
+    },
+    {
+      "example": "1",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.0646666666666667
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 4.361111111111111
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 7.055555555555555
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 12.444444444444443
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.9361111111111113
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 2.205555555555556
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 2.7444444444444454
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.6936111111111112
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.7205555555555556
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.7744444444444447
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.9074074074074074
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 4.703703703703703
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 8.296296296296296
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.290740740740741
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.4703703703703708
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.8296296296296304
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1290740740740741
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.147037037037037
+    },
+    {
+      "example": "6",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.182962962962963
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.6166666666666663
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 4.2333333333333325
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 7.466666666666666
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1616666666666668
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.3233333333333337
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.6466666666666674
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0161666666666667
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.0323333333333333
+    },
+    {
+      "example": "6",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.0646666666666667
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.6944444444444446
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 3.7222222222222223
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 5.777777777777778
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.7694444444444446
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.8722222222222225
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 2.0777777777777784
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.6769444444444446
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.6872222222222224
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.7077777777777778
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.7962962962962963
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 2.4814814814814814
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 3.8518518518518516
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1796296296296298
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.2481481481481482
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.3851851851851855
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.117962962962963
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.124814814814815
+    },
+    {
+      "example": "3",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.1385185185185185
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.6166666666666667
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 2.2333333333333334
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 3.4666666666666663
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0616666666666668
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.1233333333333335
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.2466666666666668
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0061666666666667
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.0123333333333333
+    },
+    {
+      "example": "3",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.0246666666666666
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.4166666666666665
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 3.1666666666666665
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 4.666666666666666
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.7416666666666667
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.8166666666666669
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.966666666666667
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.6741666666666668
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.6816666666666666
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.6966666666666668
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.6111111111111112
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 2.1111111111111107
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 3.1111111111111107
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1611111111111112
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.2111111111111112
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.3111111111111113
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.116111111111111
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.1211111111111112
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.1311111111111112
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.45
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.9
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 2.8
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.045
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.09
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.1800000000000002
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0045
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.009
+    },
+    {
+      "example": "4b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.018
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 2.138888888888889
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 2.611111111111111
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 3.5555555555555554
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.713888888888889
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.7611111111111113
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.8555555555555558
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.671388888888889
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.676111111111111
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.6,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.6855555555555557
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.4259259259259258
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.7407407407407405
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 2.3703703703703702
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1425925925925926
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.1740740740740743
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.2370370370370372
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.1142592592592593
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.1174074074074074
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 0.9,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.1237037037037039
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.2833333333333332
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.5666666666666664
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.9,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 2.133333333333333
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0283333333333333
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.0566666666666666
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.99,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.1133333333333335
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 0.5,
+      "feed_material_cost_over_polymer_price": 1.0028333333333332
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 1,
+      "feed_material_cost_over_polymer_price": 1.0056666666666667
+    },
+    {
+      "example": "5b",
+      "yield_fraction": 1,
+      "recovery_fraction": 0.999,
+      "price_ratio": 2,
+      "feed_material_cost_over_polymer_price": 1.0113333333333334
+    }
+  ],
+  "shape_counterexamples": [
+    {
+      "example_index_used": "1",
+      "view_angle_deg": 0,
+      "equatorial_um": 30.24,
+      "thickness_um": 11.23608576712578,
+      "volume_um3": 5379.937638331946,
+      "projected_area_um2": 718.2133195448383,
+      "image_equivalent_diameter_um": 30.24,
+      "volume_equivalent_diameter_um": 21.739999999999995,
+      "diameter_index": 1.3909843606255752,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.6284363172246769
+    },
+    {
+      "example_index_used": "1",
+      "view_angle_deg": 30,
+      "equatorial_um": 30.24,
+      "thickness_um": 11.23608576712578,
+      "volume_um3": 5379.937638331946,
+      "projected_area_um2": 636.1419724994284,
+      "image_equivalent_diameter_um": 28.459815801443632,
+      "volume_equivalent_diameter_um": 21.739999999999995,
+      "diameter_index": 1.3090991628998914,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.5542592242689433
+    },
+    {
+      "example_index_used": "1",
+      "view_angle_deg": 60,
+      "equatorial_um": 30.24,
+      "thickness_um": 11.23608576712578,
+      "volume_um3": 5379.937638331946,
+      "projected_area_um2": 427.0469327640214,
+      "image_equivalent_diameter_um": 23.318084017624823,
+      "volume_equivalent_diameter_um": 21.739999999999995,
+      "diameter_index": 1.072588961252292,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.18959888307055262
+    },
+    {
+      "example_index_used": "1",
+      "view_angle_deg": 90,
+      "equatorial_um": 30.24,
+      "thickness_um": 11.23608576712578,
+      "volume_um3": 5379.937638331946,
+      "projected_area_um2": 266.8619860283703,
+      "image_equivalent_diameter_um": 18.433101572928077,
+      "volume_equivalent_diameter_um": 21.739999999999995,
+      "diameter_index": 0.8478887568044196,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": -0.6405269552907036
+    },
+    {
+      "example_index_used": "6",
+      "view_angle_deg": 0,
+      "equatorial_um": 25.11,
+      "thickness_um": 16.681446511494393,
+      "volume_um3": 5507.13540877743,
+      "projected_area_um2": 495.2030453398682,
+      "image_equivalent_diameter_um": 25.11,
+      "volume_equivalent_diameter_um": 21.909999999999997,
+      "diameter_index": 1.1460520310360567,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.3356652126047639
+    },
+    {
+      "example_index_used": "6",
+      "view_angle_deg": 30,
+      "equatorial_um": 25.11,
+      "thickness_um": 16.681446511494393,
+      "volume_um3": 5507.13540877743,
+      "projected_area_um2": 459.3218942077907,
+      "image_equivalent_diameter_um": 24.18319249950304,
+      "volume_equivalent_diameter_um": 21.909999999999997,
+      "diameter_index": 1.1037513692151093,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.25631977402763706
+    },
+    {
+      "example_index_used": "6",
+      "view_angle_deg": 60,
+      "equatorial_um": 25.11,
+      "thickness_um": 16.681446511494393,
+      "volume_um3": 5507.13540877743,
+      "projected_area_um2": 377.4621772683183,
+      "image_equivalent_diameter_um": 21.922585858877525,
+      "volume_equivalent_diameter_um": 21.909999999999997,
+      "diameter_index": 1.0005744344535614,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.0017213254048932258
+    },
+    {
+      "example_index_used": "6",
+      "view_angle_deg": 90,
+      "equatorial_um": 25.11,
+      "thickness_um": 16.681446511494393,
+      "volume_um3": 5507.13540877743,
+      "projected_area_um2": 328.9806098433351,
+      "image_equivalent_diameter_um": 20.466341194840474,
+      "volume_equivalent_diameter_um": 21.909999999999997,
+      "diameter_index": 0.9341095935573016,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": -0.22689247486649777
+    },
+    {
+      "example_index_used": "3",
+      "view_angle_deg": 0,
+      "equatorial_um": 31.2,
+      "thickness_um": 14.541138702950365,
+      "volume_um3": 7411.501953176856,
+      "projected_area_um2": 764.5379881776121,
+      "image_equivalent_diameter_um": 31.2,
+      "volume_equivalent_diameter_um": 24.189999999999998,
+      "diameter_index": 1.2897891690781316,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.5339378620849244
+    },
+    {
+      "example_index_used": "3",
+      "view_angle_deg": 30,
+      "equatorial_um": 31.2,
+      "thickness_um": 14.541138702950365,
+      "volume_um3": 7411.501953176856,
+      "projected_area_um2": 685.660361062864,
+      "image_equivalent_diameter_um": 29.546740699485422,
+      "volume_equivalent_diameter_um": 24.189999999999998,
+      "diameter_index": 1.2214444274280871,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.4512445297006017
+    },
+    {
+      "example_index_used": "3",
+      "view_angle_deg": 60,
+      "equatorial_um": 31.2,
+      "thickness_um": 14.541138702950365,
+      "volume_um3": 7411.501953176856,
+      "projected_area_um2": 491.27764193501685,
+      "image_equivalent_diameter_um": 25.010280309422868,
+      "volume_equivalent_diameter_um": 24.189999999999998,
+      "diameter_index": 1.033909892907105,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.09520138444735193
+    },
+    {
+      "example_index_used": "3",
+      "view_angle_deg": 90,
+      "equatorial_um": 31.2,
+      "thickness_um": 14.541138702950365,
+      "volume_um3": 7411.501953176856,
+      "projected_area_um2": 356.3222092873488,
+      "image_equivalent_diameter_um": 21.29984806359077,
+      "volume_equivalent_diameter_um": 24.189999999999998,
+      "diameter_index": 0.880522863315038,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": -0.46479918104825346
+    },
+    {
+      "example_index_used": "4b",
+      "view_angle_deg": 0,
+      "equatorial_um": 48.22,
+      "thickness_um": 13.20063402332493,
+      "volume_um3": 16071.182215432664,
+      "projected_area_um2": 1826.1829909497835,
+      "image_equivalent_diameter_um": 48.22,
+      "volume_equivalent_diameter_um": 31.30999999999999,
+      "diameter_index": 1.540083040562121,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.7262415175585872
+    },
+    {
+      "example_index_used": "4b",
+      "view_angle_deg": 30,
+      "equatorial_um": 48.22,
+      "thickness_um": 13.20063402332493,
+      "volume_um3": 16071.182215432664,
+      "projected_area_um2": 1601.1531811512712,
+      "image_equivalent_diameter_um": 45.15142907395404,
+      "volume_equivalent_diameter_um": 31.30999999999999,
+      "diameter_index": 1.4420769426366673,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.6665469446661842
+    },
+    {
+      "example_index_used": "4b",
+      "view_angle_deg": 60,
+      "equatorial_um": 48.22,
+      "thickness_um": 13.20063402332493,
+      "volume_um3": 16071.182215432664,
+      "projected_area_um2": 1010.5374291256664,
+      "image_equivalent_diameter_um": 35.8699904683261,
+      "volume_equivalent_diameter_um": 31.30999999999999,
+      "diameter_index": 1.1456400660596011,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.3349482830048214
+    },
+    {
+      "example_index_used": "4b",
+      "view_angle_deg": 90,
+      "equatorial_um": 48.22,
+      "thickness_um": 13.20063402332493,
+      "volume_um3": 16071.182215432664,
+      "projected_area_um2": 499.9330842627332,
+      "image_equivalent_diameter_um": 25.22963679097914,
+      "volume_equivalent_diameter_um": 31.30999999999999,
+      "diameter_index": 0.8058012389325822,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": -0.9112443195076456
+    },
+    {
+      "example_index_used": "5b",
+      "view_angle_deg": 0,
+      "equatorial_um": 72.53,
+      "thickness_um": 30.149403654057853,
+      "volume_um3": 83044.8497314463,
+      "projected_area_um2": 4131.666285226964,
+      "image_equivalent_diameter_um": 72.53,
+      "volume_equivalent_diameter_um": 54.129999999999995,
+      "diameter_index": 1.3399224090153337,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.5843181627732271
+    },
+    {
+      "example_index_used": "5b",
+      "view_angle_deg": 30,
+      "equatorial_um": 72.53,
+      "thickness_um": 30.149403654057853,
+      "volume_um3": 83044.8497314463,
+      "projected_area_um2": 3679.7303919899223,
+      "image_equivalent_diameter_um": 68.4483619164505,
+      "volume_equivalent_diameter_um": 54.129999999999995,
+      "diameter_index": 1.2645180475974598,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.505433263072673
+    },
+    {
+      "example_index_used": "5b",
+      "view_angle_deg": 60,
+      "equatorial_um": 72.53,
+      "thickness_um": 30.149403654057853,
+      "volume_um3": 83044.8497314463,
+      "projected_area_um2": 2545.567655404303,
+      "image_equivalent_diameter_um": 56.93081241875554,
+      "volume_equivalent_diameter_um": 54.129999999999995,
+      "diameter_index": 1.0517423317708396,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.14044843142258223
+    },
+    {
+      "example_index_used": "5b",
+      "view_angle_deg": 90,
+      "equatorial_um": 72.53,
+      "thickness_um": 30.149403654057853,
+      "volume_um3": 83044.8497314463,
+      "projected_area_um2": 1717.458632251061,
+      "image_equivalent_diameter_um": 46.762551759167465,
+      "volume_equivalent_diameter_um": 54.129999999999995,
+      "diameter_index": 0.8638934372652405,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": -0.5510274198366636
+    }
+  ],
+  "summary": {
+    "mother_solvent_per_polymer_low": 32.333333333333336,
+    "mother_solvent_per_polymer_high": 5.666666666666667,
+    "solvent_charge_reduction_fraction": 0.8247422680412371,
+    "low_concentration_sensible_heat": 1.6666666666666667,
+    "high_concentration_sensible_heat": 0.3333333333333333,
+    "selected_shape": {
+      "example_index_used": "4b",
+      "view_angle_deg": 0,
+      "equatorial_um": 48.22,
+      "thickness_um": 13.20063402332493,
+      "volume_um3": 16071.182215432664,
+      "projected_area_um2": 1826.1829909497835,
+      "image_equivalent_diameter_um": 48.22,
+      "volume_equivalent_diameter_um": 31.30999999999999,
+      "diameter_index": 1.540083040562121,
+      "true_internal_void_fraction": 0,
+      "incorrect_spherical_void_estimate": 0.7262415175585872
+    }
+  },
+  "dependency_hashes": {
+    "計算部品/formation_conditioning.py": "09edd0e38c2edac49eec73c5519d9498cff3f0c0281ca816b7ff6bca690946f4"
+  }
+}

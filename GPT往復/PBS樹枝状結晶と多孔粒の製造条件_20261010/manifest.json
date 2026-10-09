@@ -1,0 +1,114 @@
+{
+  "cycle": 133,
+  "base_commit": "ec515215a4bf1f797c3a58314486e1eebf40849d",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第133巡_PBSの樹枝状結晶を独立した雪状粒へつなぐ工程_20261010.md",
+      "bytes": 9475,
+      "sha256": "e90c086c4a1206c7d4da4fdb39c58af63cb303f59796641b51aefd19914aad4b"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/README.md",
+      "bytes": 606,
+      "sha256": "e7284970b6df91ea5fa62f9d2cb5be294d5986e961d2919b1bb04ed325f1c83a"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/claude_handoff.md",
+      "bytes": 2007,
+      "sha256": "a85508fb84ea1bb070c7dfd899a1857f28cdf005fa56e4913ef69f41ce89727f"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "943749dbabe932c75fe090b868f1918b98042596713d6f54b4f99cfb35da7e7c"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/inputs.json",
+      "bytes": 3023,
+      "sha256": "ab41b62aa1ba20ef25f7ae2f39abc4ce7026099da33026f05035d48b9f21679a"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/model.md",
+      "bytes": 1888,
+      "sha256": "43e871b0ff3b440eb2faf1388e467d054b93377f1f17a9b5082dde645c0a3130"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/publication_audit.json",
+      "bytes": 256,
+      "sha256": "0da8cf45e3248ad39f5e0b21582fb2e8144437d949d9de3d77d1bd4a70217582"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/reproduce.py",
+      "bytes": 4439,
+      "sha256": "4f1807a55a3df56dde0433601f6ba4df86253f9bbbaa68d9aaa7d9f45e13cc35"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/research_state.json",
+      "bytes": 1083,
+      "sha256": "00572d69c2455e942406fd0d647e17de59421b792f1728363cad88d129e691cd"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/results.json",
+      "bytes": 69982,
+      "sha256": "022f2aa15f888a0e67047f8da75b955c10549b4e7bc50f18a67679f5609570f9"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/sources.json",
+      "bytes": 2497,
+      "sha256": "fc3e8b05e5321f0ee690bdb049c7421a99814af04d2d230c3022b8ab4693dda2"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/test_plan.json",
+      "bytes": 1211,
+      "sha256": "61ef04bf310a954f4cff54e4bcb61be6c2c6345e810c327a928136f189bf9385"
+    },
+    {
+      "path": "GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/validation.json",
+      "bytes": 7712,
+      "sha256": "47ee28db7ce1ab0b4ed6949d5ef7fa2dfa43cc6b152f97420f461a900bcfd079"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 85821,
+      "sha256": "131b11e7413123b3900725143897882e35e52c3ac7d781ec15ca107b37dbb179"
+    },
+    {
+      "path": "README.md",
+      "bytes": 96222,
+      "sha256": "bc398478b2f3975848ec0d1a51a85ba367c7f8584afefb59a262cbafa51ece4a"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 213711,
+      "sha256": "2608070511141de55896f0242b16359711acadc98a395e35c77ca4b8d380abf1"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 9100,
+      "sha256": "0d144a2e9d8e007da8cb55674f8828302007cc5fdd6efc09c69732a0c9ab2046"
+    },
+    {
+      "path": "計算部品/porous_grain_process.py",
+      "bytes": 3007,
+      "sha256": "4109ed5485d38778be515597e3316f5cd5b04fac18f04def63dd7fa6d29b3eaf"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 50555,
+      "sha256": "243bc4513a2f8a48707dfe81faed053c20341db72d0d40f98833e758622ca2f5"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 239997,
+      "sha256": "277c142b5c5e32f060384dbbc4727a5b04887b43466225905635b3d179889a5a"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/formation_conditioning.py",
+      "bytes": 1983,
+      "sha256": "09edd0e38c2edac49eec73c5519d9498cff3f0c0281ca816b7ff6bca690946f4"
+    }
+  ]
+}

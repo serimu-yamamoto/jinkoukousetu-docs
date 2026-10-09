@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [porous_grain_process.py](porous_grain_process.py)：多孔粒の母液回収・収率・仮費用と、非多孔楕円体による粒径比の不識別性。混合・時間部品を再利用。[第133巡](../GPT往復/PBS樹枝状結晶と多孔粒の製造条件_20261010/README.md)。
+
 - [chip_transport_balance.py](chip_transport_balance.py)：定常二次元の排雪運動量・接点抵抗・仕事収支と力だけによる識別限界。現物や法線荷重を予測しない。[第132巡](../GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/README.md)。
 
 - [slab_moisture_response.py](slab_moisture_response.py)：一定Dの両面平板吸湿・境界ステップ乾燥・寸法尺度を級数と有限体積で比較。膨張や現地50℃性能は予測しない。[第131巡](../GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/README.md)。

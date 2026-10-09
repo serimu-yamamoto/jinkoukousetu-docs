@@ -1,0 +1,23 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "routes": [
+    "PBSu/PEO controlled crystal growth after full recipe confirmation",
+    "PBS porous precipitation with solvent recovery and residue audit",
+    "onsite melt spray/seeding kept as independent unproven route"
+  ],
+  "sequence": [
+    "confirm exact grade mixture thermal history and growth rate",
+    "assess independent particles after dilution-phase removal and drying",
+    "measure3D open porosity branch thickness shape retention and trapped gas",
+    "quantify mother liquor recovery actual yield all residues and drying cost",
+    "50C dry/wet creep breakage real ski friction edge and natural groomed snow comparison",
+    "rain recovery composition/shape/connection and winter snow to ground drainage/load path",
+    "finished-particle leachate wear exposure biodegradation and annual replenishment"
+  ],
+  "pivot": "If independent structures fail, examine local crystal growth on support or shaped skeleton without treating these as proven inventions",
+  "quantities_and_cost": "Not fixed without verified full methods and facility"
+}
