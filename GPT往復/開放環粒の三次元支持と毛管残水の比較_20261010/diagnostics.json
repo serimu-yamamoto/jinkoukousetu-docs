@@ -1,0 +1,14 @@
+{
+  "baseline_absolute_stiffness_relative_changes": {
+    "normal": 0.0013737820031276757,
+    "lateral": 0.011568221033895798
+  },
+  "envelope_diagonal_mm": 2.08806130178211,
+  "envelope_diagonal_gravity_pressure_Pa": 20.4838813704825,
+  "processed_blank_kg_per_good_kg_at_quality_point8": {
+    "no_window": 1.25,
+    "small_window": 1.6071428571428572,
+    "large_window": 2.25
+  },
+  "interpretation": "geometry and pressure scales only; no drainage-time or full bed-cost validation"
+}

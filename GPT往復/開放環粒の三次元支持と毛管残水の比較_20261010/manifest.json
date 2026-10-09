@@ -1,0 +1,104 @@
+{
+  "cycle": 106,
+  "base_commit": "42a5c62b3ef9f8591f969c5351cd571e242d1c14",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第106巡_側面窓の支持損失と残水条件_20261010.md",
+      "bytes": 8492,
+      "sha256": "f704c0fb7ffd5b536d9c67b1fd9c1ede3c2b26881c9077441d4211bb2b59f69e"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 69051,
+      "sha256": "7cb9753501ecbc605e76f0679bfe6a877793234dcf38141e332eca4c7cf66ca4"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/README.md",
+      "bytes": 1953,
+      "sha256": "662b2316a4fdc0a158b29110f8b31e989cf33707c545f4c334e1e57266b152ee"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/claude_handoff.md",
+      "bytes": 1662,
+      "sha256": "6b674a541c39baef22cb8166d3d2244103f7b4d0c688b029984f5c2670eae620"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/diagnostics.json",
+      "bytes": 490,
+      "sha256": "4781b966db3f286d18f85fe25f50d40163d5425c58d6140cef3db82aa1eefc70"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "28f07ca13b6dddf0df4ae72957c3cfe04e975122b6b215bfe97a2574cebf6fb1"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/publication_audit.json",
+      "bytes": 353,
+      "sha256": "7bd4b60a05550a249f36e0c7424991cad9c080a416ea2caf3ad6d8534ca81dc8"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/reproduce.py",
+      "bytes": 5271,
+      "sha256": "2ee298ee698d1f4640a461984961dc1d376d910d8e0c74d4ef0515a4afd436fb"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/research_state.json",
+      "bytes": 924,
+      "sha256": "3a1379e0bee61317fbd88f14c8a72c2e6569c72597e1425e1e113a4c887627e1"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/results.json",
+      "bytes": 15747,
+      "sha256": "57ce8fef59470f36468f67907d3d2e19822008e2c4638a643fdd31ed8c9b9ff2"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/sources.json",
+      "bytes": 1221,
+      "sha256": "781bd097535a8231a89e5a39fb6d0c5997a36f7f7060f16903311cbf4b3e8f80"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/validation.json",
+      "bytes": 4555,
+      "sha256": "6ef1c425ca94dfc5182f21a94a1a718c7151fde122c285b680fa494984bb54d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 79047,
+      "sha256": "ce970bb31a453899109032a50e97c96da01c0e3a5c5fb2e089363818948331be"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 183670,
+      "sha256": "aec228f41f998010413ec0f0aca990a141e8ac52f7b20955ccad7309af50b246"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 1367,
+      "sha256": "ca1969353d22009ff27ca22a37145bf0866cceed587f19e0fdc868496c153bb7"
+    },
+    {
+      "path": "計算部品/rim_grain_hex.py",
+      "bytes": 4019,
+      "sha256": "477b448c7feac574829dd6eebd9ba4dd70b92bd0a83a15dce522c3f7b482ab55"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 29554,
+      "sha256": "b0a4e8e9cfec434f4fcb4f84ee6fd1e608af9df24827ee2f8840c81bac108ab7"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 231663,
+      "sha256": "a502eb7d649e810344737722d890a97a68c7e5fe8ed19235635fea62022c9409"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/formation_routes.py",
+      "bytes": 2142,
+      "sha256": "99cd4bc2c4be045e932e780684cc3d38b551c367dab6927da54ee87dc6a31779"
+    }
+  ]
+}

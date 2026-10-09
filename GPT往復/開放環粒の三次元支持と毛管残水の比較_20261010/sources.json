@@ -1,0 +1,30 @@
+[
+  {
+    "id": "S1",
+    "url": "https://docs.fenicsproject.org/dolfinx/main/python/demos/demo_elasticity.html",
+    "checked": "2026-10-10",
+    "scope": "Problem definition constitutive stress and six rigid-body modes",
+    "use": "Validate isotropic 3D weak-form conventions; own Hex8 assembly, not DOLFINx execution"
+  },
+  {
+    "id": "S2",
+    "url": "https://iapws.org/technical-guidance/release/Surf-H2O.download",
+    "checked": "2026-10-10",
+    "scope": "Official 2014 PDF equation on p3 and Table1 p4",
+    "use": "50 C calculated surface tension 67.94 mN/m rounded; pure liquid-vapor equilibrium water, not dirty rainwater"
+  },
+  {
+    "id": "S3",
+    "url": "https://arxiv.org/abs/2202.10129",
+    "checked": "2026-10-10",
+    "scope": "Original authors abstract only",
+    "use": "Contact angle and cross-section affect liquid recovery; no coefficients transferred"
+  },
+  {
+    "id": "S4",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/42a5c62b3ef9f8591f969c5351cd571e242d1c14/計算部品/formation_routes.py",
+    "checked": "2026-10-10",
+    "scope": "Existing canonical geometry module",
+    "use": "Independent geometric volume for FE mesh; same cycle105 dimensions"
+  }
+]

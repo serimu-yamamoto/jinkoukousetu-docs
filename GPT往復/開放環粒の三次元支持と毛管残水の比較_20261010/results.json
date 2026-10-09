@@ -1,0 +1,523 @@
+{
+  "cycle": 106,
+  "physical_trials": 0,
+  "success_probability": null,
+  "rows": [
+    {
+      "mesh": [
+        2,
+        36,
+        6
+      ],
+      "web_fraction": 1.0,
+      "nu": 0.3,
+      "nodes": 756,
+      "elements": 432,
+      "mesh_volume_mm3": 0.9564541625894523,
+      "normal": {
+        "stiffness_E1": 2.8584624782593413,
+        "relative_residual": 2.9516715059974254e-16,
+        "force_balance": 1.6166671385789819e-15,
+        "energy": 5.145232460866808e-13,
+        "energy_reaction_ratio": 0.9999999999999988
+      },
+      "lateral": {
+        "stiffness_E1": 0.5061392995138184,
+        "relative_residual": 5.908995616690672e-16,
+        "force_balance": 8.099290563517012e-15,
+        "energy": 9.110507391248712e-14,
+        "energy_reaction_ratio": 0.9999999999999979
+      },
+      "normal_ratio": 1.0,
+      "lateral_ratio": 1.0
+    },
+    {
+      "mesh": [
+        2,
+        36,
+        6
+      ],
+      "web_fraction": 0.6666666666666666,
+      "nu": 0.3,
+      "nodes": 702,
+      "elements": 336,
+      "mesh_volume_mm3": 0.7439087931251297,
+      "normal": {
+        "stiffness_E1": 1.9376541021747604,
+        "relative_residual": 2.910021196546143e-16,
+        "force_balance": 3.6072878891171014e-16,
+        "energy": 3.4877773839145666e-13,
+        "energy_reaction_ratio": 0.9999999999999994
+      },
+      "lateral": {
+        "stiffness_E1": 0.26859967460416023,
+        "relative_residual": 7.163659280445504e-16,
+        "force_balance": 1.318070480518789e-14,
+        "energy": 4.834794142874899e-14,
+        "energy_reaction_ratio": 1.000000000000003
+      },
+      "normal_ratio": 0.6778658516289826,
+      "lateral_ratio": 0.530683301735646
+    },
+    {
+      "mesh": [
+        2,
+        36,
+        6
+      ],
+      "web_fraction": 0.3333333333333333,
+      "nu": 0.3,
+      "nodes": 594,
+      "elements": 240,
+      "mesh_volume_mm3": 0.5313634236608069,
+      "normal": {
+        "stiffness_E1": 0.9939985259837212,
+        "relative_residual": 5.201093053271883e-16,
+        "force_balance": 1.6255149489159059e-15,
+        "energy": 1.7891973467706954e-13,
+        "energy_reaction_ratio": 0.9999999999999986
+      },
+      "lateral": {
+        "stiffness_E1": 0.0984828771257136,
+        "relative_residual": 1.9300737056075033e-15,
+        "force_balance": 2.0975334097114363e-14,
+        "energy": 1.7726917882628447e-14,
+        "energy_reaction_ratio": 1.0
+      },
+      "normal_ratio": 0.3477388748475075,
+      "lateral_ratio": 0.19457662588207075
+    },
+    {
+      "mesh": [
+        2,
+        72,
+        12
+      ],
+      "web_fraction": 1.0,
+      "nu": 0.3,
+      "nodes": 2808,
+      "elements": 1728,
+      "mesh_volume_mm3": 0.9601076621082024,
+      "normal": {
+        "stiffness_E1": 2.8616586106431323,
+        "relative_residual": 4.80315312972771e-16,
+        "force_balance": 3.843486024971682e-15,
+        "energy": 5.150985499157633e-13,
+        "energy_reaction_ratio": 0.999999999999999
+      },
+      "lateral": {
+        "stiffness_E1": 0.5015025591862871,
+        "relative_residual": 7.958377046059731e-16,
+        "force_balance": 1.3302447850045955e-14,
+        "energy": 9.027046065352964e-14,
+        "energy_reaction_ratio": 0.9999999999999776
+      },
+      "normal_ratio": 1.0,
+      "lateral_ratio": 1.0
+    },
+    {
+      "mesh": [
+        2,
+        72,
+        12
+      ],
+      "web_fraction": 0.6666666666666666,
+      "nu": 0.3,
+      "nodes": 2430,
+      "elements": 1344,
+      "mesh_volume_mm3": 0.7467504038619354,
+      "normal": {
+        "stiffness_E1": 1.9149288107072475,
+        "relative_residual": 3.9236744408869134e-16,
+        "force_balance": 3.0424675572822195e-15,
+        "energy": 3.4468718592730394e-13,
+        "energy_reaction_ratio": 0.9999999999999982
+      },
+      "lateral": {
+        "stiffness_E1": 0.2484551137395753,
+        "relative_residual": 2.2399919547105125e-15,
+        "force_balance": 6.931946156243133e-15,
+        "energy": 4.4721920473122823e-14,
+        "energy_reaction_ratio": 0.9999999999999838
+      },
+      "normal_ratio": 0.6691674553998893,
+      "lateral_ratio": 0.4954214274453676
+    },
+    {
+      "mesh": [
+        2,
+        72,
+        12
+      ],
+      "web_fraction": 0.3333333333333333,
+      "nu": 0.3,
+      "nodes": 1926,
+      "elements": 960,
+      "mesh_volume_mm3": 0.533393145615668,
+      "normal": {
+        "stiffness_E1": 0.9712639952435267,
+        "relative_residual": 7.196474089745859e-16,
+        "force_balance": 2.8526072428172424e-16,
+        "energy": 1.7482751914383486e-13,
+        "energy_reaction_ratio": 1.0000000000000004
+      },
+      "lateral": {
+        "stiffness_E1": 0.0864955644566023,
+        "relative_residual": 2.455569329326524e-15,
+        "force_balance": 1.728561419978655e-14,
+        "energy": 1.5569201602188024e-14,
+        "energy_reaction_ratio": 0.999999999999975
+      },
+      "normal_ratio": 0.33940596255303973,
+      "lateral_ratio": 0.17247282765006358
+    },
+    {
+      "mesh": [
+        3,
+        108,
+        18
+      ],
+      "web_fraction": 1.0,
+      "nu": 0.3,
+      "nodes": 8208,
+      "elements": 5832,
+      "mesh_volume_mm3": 0.9607851529167023,
+      "normal": {
+        "stiffness_E1": 2.8577327088779265,
+        "relative_residual": 5.142623090922032e-16,
+        "force_balance": 4.097696110158699e-15,
+        "energy": 5.143918875980175e-13,
+        "energy_reaction_ratio": 0.9999999999999821
+      },
+      "lateral": {
+        "stiffness_E1": 0.4957674121807773,
+        "relative_residual": 8.589223004743477e-16,
+        "force_balance": 1.2662760212051807e-14,
+        "energy": 8.923813419253404e-14,
+        "energy_reaction_ratio": 0.9999999999999343
+      },
+      "normal_ratio": 1.0,
+      "lateral_ratio": 1.0
+    },
+    {
+      "mesh": [
+        3,
+        108,
+        18
+      ],
+      "web_fraction": 0.6666666666666666,
+      "nu": 0.3,
+      "nodes": 6888,
+      "elements": 4536,
+      "mesh_volume_mm3": 0.7472773411574353,
+      "normal": {
+        "stiffness_E1": 1.9054225287864226,
+        "relative_residual": 9.630212185441972e-16,
+        "force_balance": 1.593941205449186e-15,
+        "energy": 3.4297605518155186e-13,
+        "energy_reaction_ratio": 0.9999999999999878
+      },
+      "lateral": {
+        "stiffness_E1": 0.24046552582917338,
+        "relative_residual": 3.3162916245046874e-15,
+        "force_balance": 1.60041976355351e-14,
+        "energy": 4.328379464924827e-14,
+        "energy_reaction_ratio": 0.999999999999932
+      },
+      "normal_ratio": 0.6667602336869974,
+      "lateral_ratio": 0.4850369748415205
+    },
+    {
+      "mesh": [
+        3,
+        108,
+        18
+      ],
+      "web_fraction": 0.3333333333333333,
+      "nu": 0.3,
+      "nodes": 5304,
+      "elements": 3240,
+      "mesh_volume_mm3": 0.5337695293981679,
+      "normal": {
+        "stiffness_E1": 0.9632926902813792,
+        "relative_residual": 2.8179711845786636e-15,
+        "force_balance": 6.470313725485088e-15,
+        "energy": 1.7339268425064699e-13,
+        "energy_reaction_ratio": 0.9999999999999927
+      },
+      "lateral": {
+        "stiffness_E1": 0.08229443445992271,
+        "relative_residual": 9.116480204035326e-15,
+        "force_balance": 9.304421882756395e-15,
+        "energy": 1.4812998202781734e-14,
+        "energy_reaction_ratio": 0.9999999999997062
+      },
+      "normal_ratio": 0.3370828514817997,
+      "lateral_ratio": 0.16599403760309028
+    }
+  ],
+  "convergence": [
+    {
+      "web_fraction": 1.0,
+      "relative_ratio_changes": {
+        "normal_ratio": 0.0,
+        "lateral_ratio": 0.0
+      },
+      "within_3_percent": true
+    },
+    {
+      "web_fraction": 0.6666666666666666,
+      "relative_ratio_changes": {
+        "normal_ratio": 0.0036103258581883465,
+        "lateral_ratio": 0.02140961028226789
+      },
+      "within_3_percent": true
+    },
+    {
+      "web_fraction": 0.3333333333333333,
+      "relative_ratio_changes": {
+        "normal_ratio": 0.0068918103102183215,
+        "lateral_ratio": 0.03903025759554561
+      },
+      "within_3_percent": false
+    }
+  ],
+  "benchmark": {
+    "mesh": [
+      2,
+      36,
+      6
+    ],
+    "web_fraction": 1.0,
+    "nu": 0.0,
+    "nodes": 756,
+    "elements": 432,
+    "mesh_volume_mm3": 0.9564541625894523,
+    "normal": {
+      "stiffness_E1": 2.6568171183040334,
+      "relative_residual": 2.3662045129459323e-16,
+      "force_balance": 8.71759557401133e-17,
+      "energy": 4.782270812947261e-13,
+      "energy_reaction_ratio": 1.0000000000000004
+    },
+    "lateral": {
+      "stiffness_E1": 0.5883704809905442,
+      "relative_residual": 5.910570416030513e-16,
+      "force_balance": 9.536579422495216e-16,
+      "energy": 1.0590668657829788e-13,
+      "energy_reaction_ratio": 0.9999999999999991
+    }
+  },
+  "capillary_scales": [
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 0.0,
+      "pressure_magnitude_Pa": 194.11428571428573,
+      "equivalent_head_mm": 19.78738896170089
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 0.0,
+      "pressure_magnitude_Pa": 797.6617953080956,
+      "equivalent_head_mm": 81.31109024547357
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 0.0,
+      "pressure_magnitude_Pa": 568.6808976540478,
+      "equivalent_head_mm": 57.96951046422506
+    },
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 30.0,
+      "pressure_magnitude_Pa": 168.1079026660422,
+      "equivalent_head_mm": 17.13638151539676
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 30.0,
+      "pressure_magnitude_Pa": 690.7953783651138,
+      "equivalent_head_mm": 70.41746976198918
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 30.0,
+      "pressure_magnitude_Pa": 492.49210401534384,
+      "equivalent_head_mm": 50.203068706966754
+    },
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 60.0,
+      "pressure_magnitude_Pa": 97.05714285714289,
+      "equivalent_head_mm": 9.89369448085045
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 60.0,
+      "pressure_magnitude_Pa": 398.83089765404793,
+      "equivalent_head_mm": 40.65554512273679
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 60.0,
+      "pressure_magnitude_Pa": 284.340448827024,
+      "equivalent_head_mm": 28.984755232112533
+    },
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 80.0,
+      "pressure_magnitude_Pa": 33.70759197340358,
+      "equivalent_head_mm": 3.4360440339860934
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 80.0,
+      "pressure_magnitude_Pa": 138.51251714978287,
+      "equivalent_head_mm": 14.119522645237804
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 80.0,
+      "pressure_magnitude_Pa": 98.75040155161958,
+      "equivalent_head_mm": 10.066299852356735
+    },
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 89.0,
+      "pressure_magnitude_Pa": 3.387761409568708,
+      "equivalent_head_mm": 0.34533755449222303
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 89.0,
+      "pressure_magnitude_Pa": 13.9211178512102,
+      "equivalent_head_mm": 1.4190741948226504
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 89.0,
+      "pressure_magnitude_Pa": 9.92485015897772,
+      "equivalent_head_mm": 1.0117074575920202
+    },
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 90.0,
+      "pressure_magnitude_Pa": 1.188607193343874e-14,
+      "equivalent_head_mm": 1.211628127771533e-15
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 90.0,
+      "pressure_magnitude_Pa": 4.884269822130953e-14,
+      "equivalent_head_mm": 4.978868320215039e-15
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 90.0,
+      "pressure_magnitude_Pa": 3.482166205241366e-14,
+      "equivalent_head_mm": 3.5496087719076104e-15
+    },
+    {
+      "path": "axial_bore",
+      "width_mm": 1.4,
+      "height_mm": null,
+      "assumed_angle_deg": 100.0,
+      "pressure_magnitude_Pa": 33.70759197340356,
+      "equivalent_head_mm": 3.436044033986091
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "window_width_at_mean_radius_mm": 0.29670597283903605,
+      "width_mm": 0.29670597283903605,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 100.0,
+      "pressure_magnitude_Pa": 138.51251714978278,
+      "equivalent_head_mm": 14.119522645237796
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "window_width_at_mean_radius_mm": 0.5934119456780721,
+      "width_mm": 0.5934119456780721,
+      "height_mm": 0.4,
+      "assumed_angle_deg": 100.0,
+      "pressure_magnitude_Pa": 98.7504015516195,
+      "equivalent_head_mm": 10.066299852356728
+    }
+  ],
+  "grain_gravity_pressure_Pa": 5.885999999999999,
+  "assumptions": {
+    "E": 1,
+    "nu": 0.3,
+    "sigma_N_m": 0.06794,
+    "water_density_kg_m3": 1000,
+    "strain_scale": 1e-06,
+    "structural_boundary": "clamped bottom annulus, uniform top displacement in one axis; other top axes free",
+    "capillary_model": "P/A force scale for a prismatic circle or locally approximated rectangular opening; no flow simulation or drainage threshold"
+  },
+  "dependencies": {
+    "rim_grain_hex.py": "477b448c7feac574829dd6eebd9ba4dd70b92bd0a83a15dce522c3f7b482ab55",
+    "formation_routes.py": "99cd4bc2c4be045e932e780684cc3d38b551c367dab6927da54ee87dc6a31779"
+  }
+}

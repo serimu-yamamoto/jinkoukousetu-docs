@@ -1,0 +1,12 @@
+{
+  "links_checked": 27,
+  "algebraic_checks_passed": true,
+  "mesh_acceptance_passed": false,
+  "mesh_criterion_unchanged": true,
+  "prior_text_preserved": true,
+  "primary_checks": 76,
+  "physical_trials": 0,
+  "success_probability": null,
+  "stored_result_full_recheck": false,
+  "public_byte_verification": "required after commit before deletion"
+}

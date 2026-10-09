@@ -1,0 +1,17 @@
+{
+  "cycle": 106,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress: cycle105 manufacturing geometry published",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "candidate": "H105-C not promoted; preserve windowless, small-window and large-window controls",
+  "status": "3D surrogate stiffness and capillary scales; large-window ratio mesh acceptance failed at unchanged 3 percent limit",
+  "next": [
+    "resolve large-window mesh and contact boundary dependence",
+    "meniscus pinning residual water and winter blockage in same geometry",
+    "compare grain shape with collection dewatering and redistribution under 60 minute maintenance",
+    "retain above-30 C spray crystallization and molecular/mineral/composite routes"
+  ]
+}

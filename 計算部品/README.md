@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [rim_grain_hex.py](rim_grain_hex.py)：環粒のHex8弾性と開口の毛管圧尺度。[第106巡](../GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/README.md)。大窓メッシュ未収束。
+
 - [formation_routes.py](formation_routes.py)：環粒の幾何、乾燥・延べ加工・原料回収の収支。[第105巡](../GPT往復/温暖形成と開放環粒の製造監査_20261010/README.md)。
 
 - [flared_ligament.py](flared_ligament.py)：可変幅支柱のQ4平面応力、断面と局所流路の積分。[第104巡](../GPT往復/拡大流路と支持剛性の連成監査_20261010/README.md)。
