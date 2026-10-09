@@ -1,0 +1,277 @@
+{
+  "cycle": 67,
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks_passed": 23,
+  "checks": [
+    "excluded volume agrees with independent cross-section integration",
+    "point-contact limit equals phase fraction",
+    "scale invariance of presence",
+    "mass-volume conversion round trip",
+    "mixture density conserves mass and component volumes",
+    "zero phase gives zero presence",
+    "contact presence bounded for all cases",
+    "stationary expected area equals phase volume fraction",
+    "area variance bounded by Bernoulli point variance",
+    "area-variance integral converges",
+    "larger contact radius increases presence",
+    "finer domains increase presence at fixed phase fraction",
+    "analytical domain limit reproduces geometric target",
+    "cluster construction preserves global composition",
+    "cluster construction cannot cover unoccupied macroregions",
+    "two-size Boolean model preserves phase fraction",
+    "two-size limits recover monodisperse cases",
+    "no measured lifetime gain permits no price premium",
+    "cost ceilings recover common annual budget",
+    "yield mass balance",
+    "all experiment rows explicitly unperformed",
+    "experimental IDs unique",
+    "new plan includes every material-state-temperature-lot combination"
+  ],
+  "reference_phi": 0.027620787829855945,
+  "mixture_density_kg_m3": 1289.8907916542726,
+  "geometry_95pct_domain_limit_um": 2.612411755119774,
+  "reference_rows": [
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 1,
+      "contact_presence": 0.9999999869381591,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.007202918630038343
+    },
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 2,
+      "contact_presence": 0.992473896939144,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.014208712646763804
+    },
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 3,
+      "contact_presence": 0.9032160959738815,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.021013675386131494
+    },
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 5,
+      "contact_presence": 0.6187187088803723,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.03400676316959916
+    },
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 10,
+      "contact_presence": 0.2796781545130447,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.06273628903581141
+    },
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 20,
+      "contact_presence": 0.12717409536892424,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.10313028818183072
+    },
+    {
+      "w_mass": 0.02,
+      "phi_volume": 0.027620787829855945,
+      "a_um": 10,
+      "domain_d_um": 30,
+      "contact_presence": 0.08668956826466861,
+      "expected_area_fraction": 0.027620787829855945,
+      "area_fraction_sd": 0.12344197370346797
+    }
+  ],
+  "cluster_counterexamples": [
+    {
+      "region_area_fraction": 1,
+      "local_phase_fraction": 0.027620787829855945,
+      "global_phase_fraction": 0.027620787829855945,
+      "contact_presence": 0.992473896939144,
+      "uncovered_fraction": 0.007526103060855993
+    },
+    {
+      "region_area_fraction": 0.5,
+      "local_phase_fraction": 0.05524157565971189,
+      "global_phase_fraction": 0.027620787829855945,
+      "contact_presence": 0.49997540107255317,
+      "uncovered_fraction": 0.5000245989274468
+    },
+    {
+      "region_area_fraction": 0.25,
+      "local_phase_fraction": 0.11048315131942378,
+      "global_phase_fraction": 0.027620787829855945,
+      "contact_presence": 0.24999999966719139,
+      "uncovered_fraction": 0.7500000003328087
+    },
+    {
+      "region_area_fraction": 0.1,
+      "local_phase_fraction": 0.2762078782985594,
+      "global_phase_fraction": 0.02762078782985594,
+      "contact_presence": 0.1,
+      "uncovered_fraction": 0.9
+    }
+  ],
+  "two_size_cases": [
+    {
+      "coarse_share_of_intensity_times_volume": 0,
+      "global_phase_fraction": 0.027620787829855945,
+      "contact_presence": 0.992473896939144
+    },
+    {
+      "coarse_share_of_intensity_times_volume": 0.1,
+      "global_phase_fraction": 0.02762078782985594,
+      "contact_presence": 0.9878938539840865
+    },
+    {
+      "coarse_share_of_intensity_times_volume": 0.5,
+      "global_phase_fraction": 0.027620787829855945,
+      "contact_presence": 0.9189507698220497
+    },
+    {
+      "coarse_share_of_intensity_times_volume": 0.9,
+      "global_phase_fraction": 0.02762078782985594,
+      "contact_presence": 0.45738489327623805
+    },
+    {
+      "coarse_share_of_intensity_times_volume": 1,
+      "global_phase_fraction": 0.027620787829855945,
+      "contact_presence": 0.12717409536892424
+    }
+  ],
+  "cost": {
+    "contact_mass_kg": 2888.695192979133,
+    "capital_recovery_factor": 0.12950457496545661,
+    "initial_contact_material_JPY": 17332171.157874797,
+    "annual_reference_JPY": 5711029.69060408,
+    "ceilings": [
+      {
+        "lifetime_factor_assumed": 1,
+        "annual_replacement_fraction": 0.2,
+        "added_annual_QA_JPY": 0,
+        "total_processed_price_ceiling_JPY_kg": 5999.999999999999,
+        "price_premium_ceiling_JPY_kg": -9.094947017729282e-13
+      },
+      {
+        "lifetime_factor_assumed": 1,
+        "annual_replacement_fraction": 0.2,
+        "added_annual_QA_JPY": 500000,
+        "total_processed_price_ceiling_JPY_kg": 5474.700682271767,
+        "price_premium_ceiling_JPY_kg": -525.2993177282333
+      },
+      {
+        "lifetime_factor_assumed": 1,
+        "annual_replacement_fraction": 0.2,
+        "added_annual_QA_JPY": 1000000,
+        "total_processed_price_ceiling_JPY_kg": 4949.401364543535,
+        "price_premium_ceiling_JPY_kg": -1050.5986354564648
+      },
+      {
+        "lifetime_factor_assumed": 1.5,
+        "annual_replacement_fraction": 0.13333333333333333,
+        "added_annual_QA_JPY": 0,
+        "total_processed_price_ceiling_JPY_kg": 7521.850491768812,
+        "price_premium_ceiling_JPY_kg": 1521.8504917688124
+      },
+      {
+        "lifetime_factor_assumed": 1.5,
+        "annual_replacement_fraction": 0.13333333333333333,
+        "added_annual_QA_JPY": 500000,
+        "total_processed_price_ceiling_JPY_kg": 6863.313336538825,
+        "price_premium_ceiling_JPY_kg": 863.3133365388248
+      },
+      {
+        "lifetime_factor_assumed": 1.5,
+        "annual_replacement_fraction": 0.13333333333333333,
+        "added_annual_QA_JPY": 1000000,
+        "total_processed_price_ceiling_JPY_kg": 6204.776181308838,
+        "price_premium_ceiling_JPY_kg": 204.7761813088382
+      },
+      {
+        "lifetime_factor_assumed": 2,
+        "annual_replacement_fraction": 0.1,
+        "added_annual_QA_JPY": 0,
+        "total_processed_price_ceiling_JPY_kg": 8614.326969692465,
+        "price_premium_ceiling_JPY_kg": 2614.3269696924654
+      },
+      {
+        "lifetime_factor_assumed": 2,
+        "annual_replacement_fraction": 0.1,
+        "added_annual_QA_JPY": 500000,
+        "total_processed_price_ceiling_JPY_kg": 7860.143623047906,
+        "price_premium_ceiling_JPY_kg": 1860.1436230479057
+      },
+      {
+        "lifetime_factor_assumed": 2,
+        "annual_replacement_fraction": 0.1,
+        "added_annual_QA_JPY": 1000000,
+        "total_processed_price_ceiling_JPY_kg": 7105.960276403345,
+        "price_premium_ceiling_JPY_kg": 1105.9602764033452
+      },
+      {
+        "lifetime_factor_assumed": 3,
+        "annual_replacement_fraction": 0.06666666666666667,
+        "added_annual_QA_JPY": 0,
+        "total_processed_price_ceiling_JPY_kg": 10078.069717783745,
+        "price_premium_ceiling_JPY_kg": 4078.0697177837446
+      },
+      {
+        "lifetime_factor_assumed": 3,
+        "annual_replacement_fraction": 0.06666666666666667,
+        "added_annual_QA_JPY": 500000,
+        "total_processed_price_ceiling_JPY_kg": 9195.735859988852,
+        "price_premium_ceiling_JPY_kg": 3195.735859988852
+      },
+      {
+        "lifetime_factor_assumed": 3,
+        "annual_replacement_fraction": 0.06666666666666667,
+        "added_annual_QA_JPY": 1000000,
+        "total_processed_price_ceiling_JPY_kg": 8313.402002193958,
+        "price_premium_ceiling_JPY_kg": 2313.4020021939577
+      },
+      {
+        "lifetime_factor_assumed": 5,
+        "annual_replacement_fraction": 0.04,
+        "added_annual_QA_JPY": 0,
+        "total_processed_price_ceiling_JPY_kg": 11663.563949206906,
+        "price_premium_ceiling_JPY_kg": 5663.563949206906
+      },
+      {
+        "lifetime_factor_assumed": 5,
+        "annual_replacement_fraction": 0.04,
+        "added_annual_QA_JPY": 500000,
+        "total_processed_price_ceiling_JPY_kg": 10642.420251740574,
+        "price_premium_ceiling_JPY_kg": 4642.420251740574
+      },
+      {
+        "lifetime_factor_assumed": 5,
+        "annual_replacement_fraction": 0.04,
+        "added_annual_QA_JPY": 1000000,
+        "total_processed_price_ceiling_JPY_kg": 9621.276554274242,
+        "price_premium_ceiling_JPY_kg": 3621.276554274242
+      }
+    ]
+  },
+  "planned": {
+    "stage_A_cells": 96,
+    "stage_B_conditional_cells": 72,
+    "stage_A_nominal_rig_hours": 72.0,
+    "stage_B_nominal_rig_hours": 54.0,
+    "excluded": "conditioning, microscopy, load/speed validation, aging, grain-bed trials, setup commissioning"
+  },
+  "interpretation": "presence is geometric contact with at least one phase domain, not low friction, load share, snow likeness or success probability"
+}

@@ -1,0 +1,78 @@
+{
+  "cycle": 67,
+  "baseline_commit": "c41bb67bb07cda0d7410d3102e583eb5ccb2e8d8",
+  "physical_tests": 0,
+  "success_probability": null,
+  "model": "Poisson Boolean spherical domains intersecting a circular contact; geometry diagnostic only",
+  "densities_kg_m3": {
+    "PEEK": 1300,
+    "UHMWPE": 934
+  },
+  "mass_fractions": [
+    0.01,
+    0.02,
+    0.03,
+    0.06,
+    0.1
+  ],
+  "contact_radii_um": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "domain_diameters_um": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    20,
+    30
+  ],
+  "reference": {
+    "mass_fraction": 0.02,
+    "contact_radius_um": 10,
+    "geometry_contact_presence_target": 0.95
+  },
+  "cluster_regions_fraction": [
+    1,
+    0.5,
+    0.25,
+    0.1
+  ],
+  "fine_domain_diameter_um": 2,
+  "coarse_domain_diameter_um": 20,
+  "coarse_intensity_volume_shares": [
+    0,
+    0.1,
+    0.5,
+    0.9,
+    1
+  ],
+  "cost": {
+    "contact_volume_m3": 2.239488188976378,
+    "processed_reference_price_JPY_kg": 6000,
+    "discount_rate": 0.05,
+    "years": 10,
+    "reference_annual_replacement": 0.2,
+    "lifetime_multipliers": [
+      1,
+      1.5,
+      2,
+      3,
+      5
+    ],
+    "additional_annual_QA_JPY": [
+      0,
+      500000,
+      1000000
+    ],
+    "process_yield": [
+      0.6,
+      0.8,
+      0.95
+    ],
+    "price_status": "illustrative assumption, not quote; tax-exclusive; grain joining and full project excluded"
+  }
+}

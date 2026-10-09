@@ -1,0 +1,140 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "c41bb67bb07cda0d7410d3102e583eb5ccb2e8d8",
+  "cycle": 67,
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "numerical_checks": 23,
+    "document_checks": 34,
+    "local_links": 376,
+    "primary_source_records": 6,
+    "new_figures": 2,
+    "planned_experiment_rows": 168,
+    "geometric_cases": 140,
+    "scope": "desk research, geometric counterexamples and unexecuted coupon specifications"
+  },
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第67巡_低摩擦相を微小接点へ行き渡らせる材料設計_20261009.md",
+      "bytes": 15604,
+      "sha256": "977432b412f240c85bb670ae3940ee0ed2c6c0b72a8469076645751b2433198e"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 46519,
+      "sha256": "5dc500a24d1586457bfdff2b8e349478c9c6a295a1ce127c90e39e287654233f"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/README.md",
+      "bytes": 1145,
+      "sha256": "15852d2d64c4cfd8dbd8494b40f3b2091b7e15e722c46dc1abf6265467e8c009"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/audit.py",
+      "bytes": 3571,
+      "sha256": "8480ec59187f99eb42191e88144d3fce8055778a039d407e58aeb4719492cc8c"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/audit_results.json",
+      "bytes": 1702,
+      "sha256": "fe7ccf9a43dcd9e96ed4e833305df9218fb72fa4db0d7c746fd857e95944b620"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/cluster_counterexamples.csv",
+      "bytes": 403,
+      "sha256": "4e48d6ed5c1e040b2691277601e018a4ef8e9a44a71ca675bf5feda2629b542c"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/clustering_and_cost.png",
+      "bytes": 107614,
+      "sha256": "8bcdebee09f1f809b47bca5e8d43b9fb75570ced3ec1bf174a3a0f5a702c1979"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/conditional_process_cost.csv",
+      "bytes": 975,
+      "sha256": "fbfc90a8c16687d26d776e49fdbe2cc044d58cf624b3cb32d7bf9159a5f0422a"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/contact_presence.csv",
+      "bytes": 12370,
+      "sha256": "35b78e62b45e8c919136739d00bbb53a84128edf1e1582f588faa5acf92713ca"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/coupon_protocol.md",
+      "bytes": 8564,
+      "sha256": "1e8de5e3d1a10a1ce03c7ba066ca0da292cc990d98e95303cefad9c562c3c5df"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/inputs.json",
+      "bytes": 1397,
+      "sha256": "8070c0472df94a04ac70326f0e5e7b619a33e23053f4a7987fc95845c85a806a"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/manufacturing_yield.csv",
+      "bytes": 232,
+      "sha256": "fe6ea6b1aff6d03c13d5c081d4a0cc6e0628838a6c2a919ccd1a1a5374d81e18"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/mixed_domain_sizes.csv",
+      "bytes": 293,
+      "sha256": "7443cbec3a988ece78d6c03613374331ba69a869ff238173147a76301723da88"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/model.md",
+      "bytes": 5777,
+      "sha256": "0e8cb10ce2a2e3a92a60f4adee3dd9a8cf969bc16e403a325d4b01271a948d7f"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/phase_presence.png",
+      "bytes": 114274,
+      "sha256": "49e2092a4a984f80175ec4b3508e40eee4a8d3f57305a687af64ab903e9fe9c0"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/planned_coupon_tests.csv",
+      "bytes": 26281,
+      "sha256": "29d692dc9ff264c1929fd3a7d10f1e2f9ce8f836a9c211ded73098c0f6c7a747"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/reproduce.py",
+      "bytes": 10593,
+      "sha256": "2bd2eff10ab24704c16376afc456d0802a24cb123a21de4bc6f08e846071c77d"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/requirements.txt",
+      "bytes": 33,
+      "sha256": "35cf8c20f7999ec3cdf7cc07f2793446106de0bd71b614b6f04ff148b4d5ba25"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/results.json",
+      "bytes": 9865,
+      "sha256": "0899f11e2f9a75a21594cf2d1ff75f758daca6d9295ff893909fc17e2def8a7d"
+    },
+    {
+      "path": "GPT往復/微小接点の混合相分布と乾湿摩擦検証_20261009/sources.json",
+      "bytes": 3068,
+      "sha256": "cf994e6607c231f9cf7564cf73ed05ec96cb4eabc04daef87fd51eb92ee66ae5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 54269,
+      "sha256": "3ded70d65f3e3c475c67a46f5df5108efa59c42748faa29aa1ed10e107ed3c08"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 135504,
+      "sha256": "e5b6b8f9f2420707641202d6dfef1c081ff3c9bfd47fcb87c7e6abc262ea41ac"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 6858,
+      "sha256": "42601ed163e2543f9573a4f1bf87c90d0fe38775ac92eb67bf157a309380902f"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 210922,
+      "sha256": "3c4a49b473ceed5938cc1a1b38485939892a2fd9a67f7c5f61bd74c28f0f2e21"
+    }
+  ]
+}

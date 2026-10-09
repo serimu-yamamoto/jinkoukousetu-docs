@@ -1,0 +1,56 @@
+[
+  {
+    "id": "S1",
+    "title": "Enhanced Friction and Wear Behavior of PEEK Composites with Low-Content UHMWPE under Elevated-Temperature Conditions",
+    "authors": "Yongliang Jin et al.",
+    "year": 2025,
+    "doi": "10.2474/trol.20.146",
+    "url": "https://www.jstage.jst.go.jp/article/trol/20/3/20_146/_article/-char/en",
+    "pdf_url": "https://www.jstage.jst.go.jp/article/trol/20/3/20_146/_pdf/-char/en",
+    "access": "official full PDF; methods and Fig.2 pages 147–148 rendered and inspected",
+    "retrieved": "2026-10-09",
+    "pdf_sha256": "3236f0c4299e7f7704b6159d14c8cc935cbe183c2cfdb66804283a71da0834de",
+    "limits": "100 C, steel sphere, not ski sole; final domain distribution not measured for this project; no source artwork reproduced"
+  },
+  {
+    "id": "S2",
+    "title": "Tribological performances of UHMWPE and PEEK under dry sliding conditions against steel and various polyetherimide polymer counterfaces",
+    "doi": "10.1108/ILT-08-2025-0377",
+    "url": "https://www.sciencedirect.com/org/science/article/abs/pii/S0036879225001271",
+    "access": "publisher abstract indexed; direct DOI/official full text unavailable this cycle",
+    "limits": "same source as cycle23/33; not independent replication; temperature, speed, grade, run-in unresolved"
+  },
+  {
+    "id": "S3",
+    "title": "Optimized tribological properties and wear mechanisms of low UHMWPE-content PEEK composites under water-lubricated conditions",
+    "doi": "10.1108/ILT-01-2025-0031",
+    "url": "https://www.sciencedirect.com/org/science/article/abs/pii/S0036879225000514",
+    "year": 2025,
+    "access": "publisher abstract indexed; full text unavailable",
+    "limits": "3 wt% optimum in its test only; counterface and detailed conditions unconfirmed in obtained abstract; no coefficient supplied to model"
+  },
+  {
+    "id": "S4",
+    "title": "Wear and Friction of UHMWPE-on-PEEK OPTIMA",
+    "year": 2018,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6195677/",
+    "access": "full paper methods and results",
+    "limits": "medical test, protein medium effects; friction only room-temperature; no human outdoor safety inference; 934 kg/m3 is a different UHMWPE grade used only as representative density"
+  },
+  {
+    "id": "S5",
+    "title": "VICTREX PEEK 450P technical datasheet",
+    "url": "https://www.victrex.com/-/media/downloads/datasheets/victrex_tds_450p.pdf",
+    "access": "manufacturer published datasheet",
+    "limits": "nominal 1300 kg/m3 used; no extrapolation of 23 C mechanical values to actual 50 C small parts; coarse-powder descriptor vs S1 12–15 um feed specification unresolved"
+  },
+  {
+    "id": "S6",
+    "title": "Oscillating tribological long-term investigations of PTFE and microcapsule filled POM",
+    "year": 2025,
+    "doi": "10.1007/s44493-025-00004-z",
+    "url": "https://link.springer.com/article/10.1007/s44493-025-00004-z",
+    "access": "primary full text rechecked; already cycle14",
+    "limits": "unfilled comparison retained; oil/PTFE variants excluded; not new independent success evidence"
+  }
+]
