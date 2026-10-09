@@ -1,0 +1,98 @@
+{
+  "cycle": 105,
+  "base_commit": "b92a19516b2ffedef4fbbdf627f6dc846d3349a2",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第105巡_温暖形成と開放環粒の製造条件_20261010.md",
+      "bytes": 9690,
+      "sha256": "9a96c534d5ddac8b83670f55693038bb62493d948eb57733a9db20422600c4e3"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 68423,
+      "sha256": "b7f0593abab132d5f2a513a762e27f449f9f7a51947af2c2bb42ea7a81e85b01"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/README.md",
+      "bytes": 2025,
+      "sha256": "87ce42409fe743c40772202b90e7db8a94f8721bdca549a44cf8653e913ba033"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/claude_handoff.md",
+      "bytes": 1798,
+      "sha256": "0e6f5e374cc15057f98bb8ae932c07698602b4509f333dcda0896e77009a0926"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "a7626367308ccbbf05170e08dbf33fd7332ea5597e86b975ab8612a1ec03c066"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/open_rim_grain.scad",
+      "bytes": 670,
+      "sha256": "d6d2c9c4342816e7b4a070ce5485435be1be6ede1e398ccaf67cee3a3b8338fb"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/publication_audit.json",
+      "bytes": 273,
+      "sha256": "262adab6807dd566c5aef795a58ad647a9a4988e0b9022dc1868acc450639ac3"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/reproduce.py",
+      "bytes": 4165,
+      "sha256": "8ec849256485398fef711486e43d0a796048693210172f79b7a6f0e3abaf188f"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/research_state.json",
+      "bytes": 907,
+      "sha256": "ce114723d0e90e181555c53f8490c71cd788367934a1cd1f4b4238a4cf7dd3d7"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json",
+      "bytes": 4759,
+      "sha256": "78289c28e125e1866bef6e5f8a2fae3c727b1aebabad9b121832c32d3e813920"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/sources.json",
+      "bytes": 2001,
+      "sha256": "801eab0e6af50096a8b4aace12a787813b000245181873b11185c89b88f43f30"
+    },
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/validation.json",
+      "bytes": 1552,
+      "sha256": "39248292a2ee94a7536f2c12f8505e0d7c751ce194dcc29bbdd25bbc11c5225d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 78404,
+      "sha256": "964732019e30aeead608c35a33f26c3422b94b962db8f1813cb45e2d796a658b"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 182508,
+      "sha256": "a8a6bf604aba9e370feddc7e3c0f69903ddf1cd463883b4d6b86cfd7c2900b2f"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 1143,
+      "sha256": "1972d60c7741871a5cb2b867a334fa393af848350500278db6f90b9a0afa96de"
+    },
+    {
+      "path": "計算部品/formation_routes.py",
+      "bytes": 2142,
+      "sha256": "99cd4bc2c4be045e932e780684cc3d38b551c367dab6927da54ee87dc6a31779"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 28523,
+      "sha256": "4ecb33bd82556deaf3c08ea84fa36db3a81a0ce8ca6ac016c09e38a9a9e471f4"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 231382,
+      "sha256": "7cd5cbd9362cf4dadcb1c733afb0a1278979eb4a216aa6aed5e3fa69ecb65022"
+    }
+  ],
+  "dependencies": []
+}

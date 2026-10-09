@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [formation_routes.py](formation_routes.py)：環粒の幾何、乾燥・延べ加工・原料回収の収支。[第105巡](../GPT往復/温暖形成と開放環粒の製造監査_20261010/README.md)。
+
 - [flared_ligament.py](flared_ligament.py)：可変幅支柱のQ4平面応力、断面と局所流路の積分。[第104巡](../GPT往復/拡大流路と支持剛性の連成監査_20261010/README.md)。
 
 - [graded_contact.py](graded_contact.py)：区分一次剛性と自由回転の片側接触。handover_contacts.pyの幾何を再利用。[第103巡](../GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/README.md)。

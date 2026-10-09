@@ -1,0 +1,36 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.nature.com/articles/ncomms12401",
+    "doi": "10.1038/ncomms12401",
+    "checked": "2026-10-10",
+    "scope": "Publisher indexed full Methods and Discussion; live open/find returned internal error",
+    "facts": "2% w/v nanoclay; 0.06 ml/min; 7.3 kV; 100 mM CaCl2 receiving bath. Freezing means arrest of vortex-ring shape by gelation/precipitation.",
+    "limits": "No dry 50 C ski-grain performance; not ambient air snow-crystal growth; no temperature guarantee extracted"
+  },
+  {
+    "id": "S2",
+    "url": "https://journals.sagepub.com/doi/10.1177/1558925019899680",
+    "doi": "10.1177/1558925019899680",
+    "checked": "2026-10-10",
+    "scope": "Publisher indexed full Methods and results excerpt",
+    "facts": "PP3155 at 210 C; 4C segmented die; 0.25/0.50/0.83 g/min per fiber; 69 fibers; 500/1000/2000 m/min take-up. Quench affects hollow formation; not all settings collectable.",
+    "limits": "Does not demonstrate 2 mm perforated grains or 50 C ski friction; no UHMWPE extrusion extrapolation"
+  },
+  {
+    "id": "S3",
+    "url": "https://www.preci.co.jp/en/applications/0017/",
+    "checked": "2026-10-10",
+    "scope": "Manufacturer indexed process description",
+    "facts": "Spray congealing of nearly water-free molten thermoplastic gives spherical granules using cooling gas below melting point.",
+    "limits": "Manufacturer description not independent ski testing; warm-site air cooling condition unverified"
+  },
+  {
+    "id": "S4",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/b92a19516b2ffedef4fbbdf627f6dc846d3349a2/GPT往復/GPT回答_多方向探索第68巡_温暖反応晶析と内部結晶の再生経路_20261009.md",
+    "checked": "2026-10-10",
+    "scope": "Existing project evidence reused",
+    "facts": "Warm reaction crystallization and dilute-feed burdens already audited; not recomputed.",
+    "limits": "Earlier report is an internal synthesis; primary links remain within report"
+  }
+]

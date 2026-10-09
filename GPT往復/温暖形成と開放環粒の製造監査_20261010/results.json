@@ -1,0 +1,141 @@
+{
+  "cycle": 105,
+  "physical_trials": 0,
+  "success_probability": null,
+  "inputs": {
+    "area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "dry_bulk_density_kg_m3": 150,
+    "solid_density_kg_m3": 900,
+    "manufacturing_hours": 1000,
+    "assumption_not_quote": true
+  },
+  "geometry": {
+    "R_mm": 1.0,
+    "r_mm": 0.7,
+    "h_mm": 0.6,
+    "rim_mm": 0.1,
+    "web_fraction": 0.3333333333333333,
+    "web_count": 6,
+    "web_angle_deg": 20.0,
+    "window_angle_deg": 40.00000000000001,
+    "volume_mm3": 0.5340707511102648,
+    "blank_volume_mm3": 0.9613273519984766,
+    "mass_kg": 4.806636759992384e-07,
+    "envelope_solid_fraction": 0.2833333333333333,
+    "machining_yield": 0.5555555555555556
+  },
+  "bed_dry_mass_kg": 135000.0,
+  "implied_envelope_volume_fraction": 0.5882352941176471,
+  "wet_ring": {
+    "source_feed_ml_min": 0.06,
+    "source_solids_g_ml": 0.02,
+    "dry_feed_kg_h_per_nozzle": 7.199999999999999e-05,
+    "water_kg_per_kg_solid_assumed_density": 49.0,
+    "evaporative_kWh_per_kg_solid": 32.666666666666664,
+    "ideal_nozzles_for_135kg_h": 1875000.0000000002,
+    "ideal_initial_evaporation_kWh": 4410000.0,
+    "one_percent_replacement_kg": 1350.0,
+    "one_percent_feed_L": 67500.0,
+    "one_percent_water_kg": 66150.0,
+    "one_percent_one_hour_evaporation_kW": 44100.0,
+    "disclaimer": "feed-solid upper bound, not usable grain production; assumes all feed water evaporated, excludes bath and wash water"
+  },
+  "production": [
+    {
+      "quality_yield": 0.8,
+      "recovery_fraction": 0.0,
+      "processed_kg": 303750.0,
+      "virgin_kg": 303750.0,
+      "nominal_head_kg_h": 2.07,
+      "equivalent_heads": 146.7391304347826,
+      "finished_pieces": 280861664279.8153,
+      "pieces_per_second": 78017.12896661536,
+      "window_features_per_second": 468102.77379969216,
+      "window_features_before_quality_per_second": 585128.4672496152
+    },
+    {
+      "quality_yield": 0.8,
+      "recovery_fraction": 0.5,
+      "processed_kg": 303750.0,
+      "virgin_kg": 219375.0,
+      "nominal_head_kg_h": 2.07,
+      "equivalent_heads": 146.7391304347826,
+      "finished_pieces": 280861664279.8153,
+      "pieces_per_second": 78017.12896661536,
+      "window_features_per_second": 468102.77379969216,
+      "window_features_before_quality_per_second": 585128.4672496152
+    },
+    {
+      "quality_yield": 0.8,
+      "recovery_fraction": 0.9,
+      "processed_kg": 303750.0,
+      "virgin_kg": 151875.0,
+      "nominal_head_kg_h": 2.07,
+      "equivalent_heads": 146.7391304347826,
+      "finished_pieces": 280861664279.8153,
+      "pieces_per_second": 78017.12896661536,
+      "window_features_per_second": 468102.77379969216,
+      "window_features_before_quality_per_second": 585128.4672496152
+    },
+    {
+      "quality_yield": 1.0,
+      "recovery_fraction": 0.0,
+      "processed_kg": 243000.0,
+      "virgin_kg": 243000.0,
+      "nominal_head_kg_h": 2.07,
+      "equivalent_heads": 117.3913043478261,
+      "finished_pieces": 280861664279.8153,
+      "pieces_per_second": 78017.12896661536,
+      "window_features_per_second": 468102.77379969216,
+      "window_features_before_quality_per_second": 468102.77379969216
+    },
+    {
+      "quality_yield": 1.0,
+      "recovery_fraction": 0.5,
+      "processed_kg": 243000.0,
+      "virgin_kg": 189000.0,
+      "nominal_head_kg_h": 2.07,
+      "equivalent_heads": 117.3913043478261,
+      "finished_pieces": 280861664279.8153,
+      "pieces_per_second": 78017.12896661536,
+      "window_features_per_second": 468102.77379969216,
+      "window_features_before_quality_per_second": 468102.77379969216
+    },
+    {
+      "quality_yield": 1.0,
+      "recovery_fraction": 0.9,
+      "processed_kg": 243000.0,
+      "virgin_kg": 145800.0,
+      "nominal_head_kg_h": 2.07,
+      "equivalent_heads": 117.3913043478261,
+      "finished_pieces": 280861664279.8153,
+      "pieces_per_second": 78017.12896661536,
+      "window_features_per_second": 468102.77379969216,
+      "window_features_before_quality_per_second": 468102.77379969216
+    }
+  ],
+  "dewatering_sensitivity": [
+    {
+      "solids_mass_fraction": 0.02,
+      "water_kg_per_kg_solid": 49.0,
+      "remaining_evaporation_kWh_per_kg": 32.666666666666664
+    },
+    {
+      "solids_mass_fraction": 0.1,
+      "water_kg_per_kg_solid": 9.0,
+      "remaining_evaporation_kWh_per_kg": 6.0
+    },
+    {
+      "solids_mass_fraction": 0.3,
+      "water_kg_per_kg_solid": 2.3333333333333335,
+      "remaining_evaporation_kWh_per_kg": 1.5555555555555556
+    },
+    {
+      "solids_mass_fraction": 0.6,
+      "water_kg_per_kg_solid": 0.6666666666666667,
+      "remaining_evaporation_kWh_per_kg": 0.44444444444444453
+    }
+  ],
+  "source_module_sha256": "99cd4bc2c4be045e932e780684cc3d38b551c367dab6927da54ee87dc6a31779"
+}

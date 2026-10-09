@@ -1,0 +1,10 @@
+{
+  "links_checked": 24,
+  "stored_result_checks_passed": true,
+  "prior_text_preserved": true,
+  "primary_checks": 35,
+  "physical_trials": 0,
+  "success_probability": null,
+  "scad_rendered": false,
+  "public_byte_verification": "required after commit before deletion"
+}

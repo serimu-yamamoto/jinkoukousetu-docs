@@ -1,0 +1,17 @@
+{
+  "cycle": 105,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress: cycle104 geometry stiffness audit published",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "candidate": "H105-C connected rims with 6 axial webs and open axial/radial paths; comparison geometry only",
+  "status": "manufacturing mass-balance and geometric connectivity, not snow feel or crystal-growth validation",
+  "next": [
+    "same-geometry mechanics and fluid drainage versus windowless tube",
+    "net-shape multi-cavity forming versus continuous blank subtraction",
+    "retain warm reaction crystallization and molecular/mineral/composite routes",
+    "50 C wet dry friction wear recovery safety winter connection and restoration"
+  ]
+}
