@@ -1,0 +1,10 @@
+{
+  "figures": [
+    "contact_recruitment.png",
+    "design_window.png"
+  ],
+  "physical_experiments": 0,
+  "manufacturing_demonstrated": false,
+  "third_party_figures_reproduced": false,
+  "drawn_from": "reproduce.py analytical outputs; conceptual schematic not to scale"
+}

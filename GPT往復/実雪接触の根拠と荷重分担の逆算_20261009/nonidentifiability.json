@@ -1,0 +1,134 @@
+[
+  {
+    "pressure_Pa": 1000,
+    "A": {
+      "approach_m": 1.9664160663105168e-05,
+      "active_fraction": 0.39328321326210336,
+      "active_density_m2": 139834.0313820812,
+      "mean_force_N": 0.007151334979877748,
+      "max_force_N": 0.0143026699597555,
+      "tangent_stiffness_Pa_per_m": 101707875.26937243,
+      "reconstructed_pressure_Pa": 1000.0000000000001
+    },
+    "B": {
+      "approach_m": 1.9664160663105168e-05,
+      "active_fraction": 0.39328321326210336,
+      "active_density_m2": 279668.0627641624,
+      "mean_force_N": 0.003575667489938874,
+      "max_force_N": 0.00715133497987775,
+      "tangent_stiffness_Pa_per_m": 101707875.26937243,
+      "reconstructed_pressure_Pa": 1000.0000000000001
+    },
+    "interpretation": "Same normal curve; twice contacts; half per-contact force. No friction prediction."
+  },
+  {
+    "pressure_Pa": 2000,
+    "A": {
+      "approach_m": 2.780932270244684e-05,
+      "active_fraction": 0.5561864540489367,
+      "active_density_m2": 197755.18366184417,
+      "mean_force_N": 0.010113514917616239,
+      "max_force_N": 0.020227029835232474,
+      "tangent_stiffness_Pa_per_m": 143836656.60609758,
+      "reconstructed_pressure_Pa": 2000.0000000000002
+    },
+    "B": {
+      "approach_m": 2.780932270244684e-05,
+      "active_fraction": 0.5561864540489367,
+      "active_density_m2": 395510.36732368835,
+      "mean_force_N": 0.005056757458808119,
+      "max_force_N": 0.010113514917616237,
+      "tangent_stiffness_Pa_per_m": 143836656.60609758,
+      "reconstructed_pressure_Pa": 2000.0000000000002
+    },
+    "interpretation": "Same normal curve; twice contacts; half per-contact force. No friction prediction."
+  },
+  {
+    "pressure_Pa": 5000,
+    "A": {
+      "approach_m": 4.3970399963180496e-05,
+      "active_fraction": 0.8794079992636099,
+      "active_density_m2": 312678.3997381724,
+      "mean_force_N": 0.015990871144878734,
+      "max_force_N": 0.031981742289757475,
+      "tangent_stiffness_Pa_per_m": 227425722.9493865,
+      "reconstructed_pressure_Pa": 5000.000000000001
+    },
+    "B": {
+      "approach_m": 4.3970399963180496e-05,
+      "active_fraction": 0.8794079992636099,
+      "active_density_m2": 625356.7994763448,
+      "mean_force_N": 0.007995435572439367,
+      "max_force_N": 0.015990871144878738,
+      "tangent_stiffness_Pa_per_m": 227425722.9493865,
+      "reconstructed_pressure_Pa": 5000.000000000001
+    },
+    "interpretation": "Same normal curve; twice contacts; half per-contact force. No friction prediction."
+  },
+  {
+    "pressure_Pa": 20000,
+    "A": {
+      "approach_m": 0.00010233584291688252,
+      "active_fraction": 1.0,
+      "active_density_m2": 355555.55555555556,
+      "mean_force_N": 0.05625,
+      "max_force_N": 0.07443367715357266,
+      "tangent_stiffness_Pa_per_m": 258612297.29525548,
+      "reconstructed_pressure_Pa": 20000.0
+    },
+    "B": {
+      "approach_m": 0.00010233584291688252,
+      "active_fraction": 1.0,
+      "active_density_m2": 711111.1111111111,
+      "mean_force_N": 0.028125,
+      "max_force_N": 0.03721683857678633,
+      "tangent_stiffness_Pa_per_m": 258612297.29525548,
+      "reconstructed_pressure_Pa": 20000.0
+    },
+    "interpretation": "Same normal curve; twice contacts; half per-contact force. No friction prediction."
+  },
+  {
+    "pressure_Pa": 50000,
+    "A": {
+      "approach_m": 0.0002183396072922063,
+      "active_fraction": 1.0,
+      "active_density_m2": 355555.55555555556,
+      "mean_force_N": 0.140625,
+      "max_force_N": 0.15880867715357266,
+      "tangent_stiffness_Pa_per_m": 258612297.29525548,
+      "reconstructed_pressure_Pa": 50000.0
+    },
+    "B": {
+      "approach_m": 0.0002183396072922063,
+      "active_fraction": 1.0,
+      "active_density_m2": 711111.1111111111,
+      "mean_force_N": 0.0703125,
+      "max_force_N": 0.07940433857678633,
+      "tangent_stiffness_Pa_per_m": 258612297.29525548,
+      "reconstructed_pressure_Pa": 50000.0
+    },
+    "interpretation": "Same normal curve; twice contacts; half per-contact force. No friction prediction."
+  },
+  {
+    "pressure_Pa": 150000,
+    "A": {
+      "approach_m": 0.0006050188218766189,
+      "active_fraction": 1.0,
+      "active_density_m2": 355555.55555555556,
+      "mean_force_N": 0.421875,
+      "max_force_N": 0.44005867715357266,
+      "tangent_stiffness_Pa_per_m": 258612297.29525548,
+      "reconstructed_pressure_Pa": 150000.0
+    },
+    "B": {
+      "approach_m": 0.0006050188218766189,
+      "active_fraction": 1.0,
+      "active_density_m2": 711111.1111111111,
+      "mean_force_N": 0.2109375,
+      "max_force_N": 0.22002933857678633,
+      "tangent_stiffness_Pa_per_m": 258612297.29525548,
+      "reconstructed_pressure_Pa": 150000.0
+    },
+    "interpretation": "Same normal curve; twice contacts; half per-contact force. No friction prediction."
+  }
+]

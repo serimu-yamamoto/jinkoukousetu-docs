@@ -1,0 +1,29 @@
+{
+  "geometry": "planar_only_s3",
+  "assumed_E_MPa": 200,
+  "height_spread_um_assumed": 50,
+  "water_gap_um_assumed": 50,
+  "approach_m": 4.397039996318049e-05,
+  "active_fraction": 0.8794079992636098,
+  "active_density_m2": 312678.39973817236,
+  "mean_force_N": 0.006396348457951495,
+  "max_force_N": 0.01279269691590299,
+  "tangent_stiffness_Pa_per_m": 90970289.1797546,
+  "reconstructed_pressure_Pa": 2000.0,
+  "independent_fixed_base_closure_fraction": 0.08463054908296305,
+  "max_root_strain_linear_diagnostic": 0.019596655814802383,
+  "minimum_gap_um_at_dry_bound": 42.19977266530734,
+  "manufactured": false,
+  "validated": false,
+  "20kPa_diagnostic": {
+    "approach_m": 0.00021833960729220628,
+    "active_fraction": 1.0,
+    "active_density_m2": 355555.55555555556,
+    "mean_force_N": 0.05625,
+    "max_force_N": 0.06352347086142907,
+    "tangent_stiffness_Pa_per_m": 103444918.9181022,
+    "reconstructed_pressure_Pa": 20000.0,
+    "approach_over_arm_length": 0.29111947638960833,
+    "linear_model_invalid_for_design": true
+  }
+}

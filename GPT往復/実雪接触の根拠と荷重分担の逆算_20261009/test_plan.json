@@ -1,0 +1,44 @@
+[
+  {
+    "id": "H87-O1",
+    "observation": "50 C single-branch compliance and recovery",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H87-O2",
+    "observation": "Height distribution with fixed roots and contact recruitment",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H87-O3",
+    "observation": "Independent water-gap and contact-height comparison",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H87-O4",
+    "observation": "Spacer-induced hard support and snagging comparison",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H87-O5",
+    "observation": "Free particles after rain, drainage and regrading",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H87-O6",
+    "observation": "Matched ski-base friction, start/restart and edge comparison",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  }
+]

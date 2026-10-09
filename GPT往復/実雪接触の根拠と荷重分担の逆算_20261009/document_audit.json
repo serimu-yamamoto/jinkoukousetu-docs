@@ -1,0 +1,324 @@
+{
+  "checks": [
+    {
+      "name": "no_physical_results_or_probability",
+      "passed": true
+    },
+    {
+      "name": "no_external_supplier_action",
+      "passed": true
+    },
+    {
+      "name": "23_numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "177_calculation_records",
+      "passed": true
+    },
+    {
+      "name": "no_actual_material_or_snow_target",
+      "passed": true
+    },
+    {
+      "name": "unquoted_total",
+      "passed": true
+    },
+    {
+      "name": "no_ski_adoption",
+      "passed": true
+    },
+    {
+      "name": "6_unperformed_observation_specs",
+      "passed": true
+    },
+    {
+      "name": "all_contact_results_diagnostics",
+      "passed": true
+    },
+    {
+      "name": "separate_dry_wet_screens",
+      "passed": true
+    },
+    {
+      "name": "high_load_counterexample_preserved",
+      "passed": true
+    },
+    {
+      "name": "witness_not_manufactured",
+      "passed": true
+    },
+    {
+      "name": "primary_sources",
+      "passed": true
+    },
+    {
+      "name": "speed_range_exclusions",
+      "passed": true
+    },
+    {
+      "name": "no_third_party_PDF_in_artifacts",
+      "passed": true
+    },
+    {
+      "name": "figures_own_unmanufactured_concept",
+      "passed": true
+    },
+    {
+      "name": "png_signature_contact_recruitment.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_contact_recruitment.png",
+      "passed": true
+    },
+    {
+      "name": "png_signature_design_window.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_design_window.png",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_20",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_22",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_23",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_24",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_26",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_28",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_30",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_guard_50℃の実測値ではありません",
+      "passed": true
+    },
+    {
+      "name": "report_guard_原料費は減らない",
+      "passed": true
+    },
+    {
+      "name": "report_guard_最適解や採用確定とはしません",
+      "passed": true
+    },
+    {
+      "name": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "name": "report_guard_約60分",
+      "passed": true
+    },
+    {
+      "name": "report_guard_人体・環境への無害性は未証明",
+      "passed": true
+    },
+    {
+      "name": "report_guard_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_guard_総製造費は未取得",
+      "passed": true
+    },
+    {
+      "name": "report_guard_20kPa",
+      "passed": true
+    },
+    {
+      "name": "report_guard_0.291",
+      "passed": true
+    },
+    {
+      "name": "report_guard_172.2",
+      "passed": true
+    },
+    {
+      "name": "report_guard_241.7",
+      "passed": true
+    },
+    {
+      "name": "report_guard_23照合",
+      "passed": true
+    },
+    {
+      "name": "report_guard_177計算",
+      "passed": true
+    },
+    {
+      "name": "local_links",
+      "passed": true
+    },
+    {
+      "name": "LF_GPT回答_多方向探索第87巡_実雪の接触根拠と高さ分布から見直す荷重設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_checks.json",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_contact_recruitment.json",
+      "passed": true
+    },
+    {
+      "name": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "name": "LF_design_witness.json",
+      "passed": true
+    },
+    {
+      "name": "LF_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inverse_windows.json",
+      "passed": true
+    },
+    {
+      "name": "LF_measurement_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_nonidentifiability.json",
+      "passed": true
+    },
+    {
+      "name": "LF_plot_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "LF_quadrature_check.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reference_scope.json",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "name": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "name": "LF_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF_計算部品索引.md",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 604,
+  "python": "3.12.14",
+  "physical_experiments": 0,
+  "success_probability": null
+}

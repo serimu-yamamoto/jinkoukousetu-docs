@@ -1,0 +1,28 @@
+[
+  {
+    "id": "S1",
+    "title": "Mechanics of the Ski–Snow Contact",
+    "authors": "Theile et al.",
+    "year": 2009,
+    "url": "https://link.springer.com/article/10.1007/s11249-009-9476-9",
+    "doi": "10.1007/s11249-009-9476-9",
+    "verified": "2026-10-09",
+    "access": "Publisher full HTML; PDF challenge response excluded",
+    "section": "2.1–2.3, 3.2–3.3",
+    "evidence": "Hard well-sintered snow, density 500 kg/m3; normal impact at -6 C, about 100 ms, peak 140 N. Topography plus model gives approximately 0.3 N/contact and 0.4% real area.",
+    "exclusion": "Neither a direct single-contact force measurement nor fresh groomed sliding at 50 C. Not used as a target or constitutive input."
+  },
+  {
+    "id": "S2",
+    "title": "The Snow-Friction of Freestyle Skis and Snowboards Predicted From Snow Physical Quantities",
+    "authors": "Wolfsperger, Meyer and Gilgien",
+    "year": 2021,
+    "url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2021.728722/full",
+    "doi": "10.3389/fmech.2021.728722",
+    "verified": "2026-10-09",
+    "access": "Full HTML and PDF; PDF page 8 Table 5 rendered and visually checked",
+    "pdf_sha256": "ab4124fcbd1a2eab681dee0fb7abfbae13a9e718e817abd0935b623ec6115d42",
+    "evidence": "Hydrocarbon-waxed ski bases; resistance inferred from kinematics, aerodynamics and force balance. COF_start follows 4 m gliding, not static friction.",
+    "exclusion": "Speed entries beyond each reported maximum are withheld here; endpoint handling not established from reviewed text. No extrapolation to unwaxed 50 C candidates."
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dry_new_ski",
+    "source": "S2 Table 5",
+    "published_mu_10": 0.056,
+    "published_mu_15": 0.071,
+    "published_vmax_m_s": 13.7,
+    "published_n": 5,
+    "accepted_as_observation_at_10": true,
+    "accepted_as_observation_at_15": false,
+    "reason": "15 m/s exceeds published vmax; no interpolation/extrapolation assumption"
+  },
+  {
+    "id": "very_wet_new_ski",
+    "source": "S2 Table 5",
+    "published_mu_10": 0.133,
+    "published_mu_15": 0.133,
+    "published_vmax_m_s": 8.354,
+    "published_n": 1,
+    "accepted_as_observation_at_10": false,
+    "accepted_as_observation_at_15": false,
+    "reason": "Both speeds exceed published vmax; retain published entries only as an audit record"
+  }
+]

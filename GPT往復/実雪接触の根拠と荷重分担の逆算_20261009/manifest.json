@@ -1,0 +1,160 @@
+{
+  "cycle": 87,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "295bea87c0bc682f97230510a54490320e08c43e",
+  "created": "2026-10-09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第87巡_実雪の接触根拠と高さ分布から見直す荷重設計_20261009.md",
+      "bytes": 11469,
+      "sha256": "e1219a21b159e4356b144bd751d8da71330aecac2f078d264c306a3078884ada"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 58078,
+      "sha256": "fc74e79cbf332325a438512ddd3ed69a416bf3d428db87c28e0b4fc085ae3913"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/README.md",
+      "bytes": 1448,
+      "sha256": "b309fad0ed4adecec6c01ef229c403f8e2ef3b6009e1657d6d996e7a08e79f84"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/audit.py",
+      "bytes": 5293,
+      "sha256": "14d24f1ae261ae4d270cc1f1fcc36fa06c039fd27cc8ce51d1f546d6dde94426"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/checks.json",
+      "bytes": 1611,
+      "sha256": "e2b6d89ace2b741b4e3f16467f819ea02ef2df8aed45368abf347c281bc0bfa4"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/claude_handoff.md",
+      "bytes": 2508,
+      "sha256": "ba5ef50b223c9672ed15a45bb6901646a760d98c580f7d8ea7ca21ec42f22d4a"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/contact_recruitment.json",
+      "bytes": 122457,
+      "sha256": "9f0224f05573ad5b506c214f374f728342fbc7a3b210354888405eef72df58aa"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/contact_recruitment.png",
+      "bytes": 280268,
+      "sha256": "a144ce580dac7305d66d795d467319fd2c5cc4ef16f0c80f2aed1f966557c407"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/decision.json",
+      "bytes": 988,
+      "sha256": "20062f8724c960f8adf58dbdf13a30250ee82c7d88105b390f23e6a523b8cc88"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/design_window.png",
+      "bytes": 195694,
+      "sha256": "8b372ba08f115e32701b51b1d4a0477fcef13ea1dc6bbe3b63f7d87fc12873f0"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/design_witness.json",
+      "bytes": 1044,
+      "sha256": "e22bdd191b2775f007229c4e334aab7fe0f1fd60d3133682c11544c9ac0f17ef"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/document_audit.json",
+      "bytes": 6236,
+      "sha256": "68f974d1489534d6f62f6af8b308d98f5c93d801927e67d8f37ad7d0cb20a353"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/draw.py",
+      "bytes": 5706,
+      "sha256": "cf51e6284aea8763ee9607c49e9eb51f2754428dd164780fc6d3fded5cbf9e06"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/index_changes.json",
+      "bytes": 5077,
+      "sha256": "761f134c4174b2143c724aa33cf3977af7e7905e367b9a52f625eb3d1dfbd90b"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/inputs.json",
+      "bytes": 15611,
+      "sha256": "cb4f594bcd8157deecf352ada14991326d0d25334738346e9cfd3fe242653f61"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/inverse_windows.json",
+      "bytes": 7239,
+      "sha256": "767accb24f0b640ad65190a0442fb85e73d37fc76efb706cb7ce2523a21cd2ef"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/measurement_protocol.md",
+      "bytes": 4559,
+      "sha256": "f7be82982822d06160ac07f5381e2f5ddce204397dda53e9b02af9bbedd6e6c9"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/model.md",
+      "bytes": 3886,
+      "sha256": "064c42ebcb01c362450bb6e64509e553112409de3657d9793a70807225af506c"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/nonidentifiability.json",
+      "bytes": 4816,
+      "sha256": "98c74c1d2a3c7285e7005dc88f71e1df8c01b452124516b42dd4d0f73421cd62"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/plot_metadata.json",
+      "bytes": 275,
+      "sha256": "3733262d8f3d03c473ad42ec83a3af3743995b5c4350919de650883c732c717b"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/quadrature_check.json",
+      "bytes": 2263,
+      "sha256": "84fcfbdab0aa2b47e5f0cc26bf2736730718cb8b7ccd83917b651aeb607a29c1"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/reference_scope.json",
+      "bytes": 725,
+      "sha256": "760b0464fe1788fb75e8427fa952e516b7d882bcc362b65035c63ea4c6ae5257"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/reproduce.py",
+      "bytes": 10493,
+      "sha256": "9140da42481ae2dea9cb2f40a5259c826583a932b92922ed24313e33df18a71e"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/sources.json",
+      "bytes": 1622,
+      "sha256": "04168ef837b048fe162eaa332b3a1443f9e252f5cd21c33c6dd249a75af0b12d"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/summary.json",
+      "bytes": 476,
+      "sha256": "c4f5636d89071196ea4093ce4ee1a474989f83eb03fca060d1604043e0f813f2"
+    },
+    {
+      "path": "GPT往復/実雪接触の根拠と荷重分担の逆算_20261009/test_plan.json",
+      "bytes": 1102,
+      "sha256": "dd4b6cde672885cfe91d85cfb08a6211660cbf02cbbac04d3b6e63c97fa945af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 67635,
+      "sha256": "2daa3f76035399c26de06210f6b82fb907af0f9f11762dc8ad4f11d19485265c"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 165178,
+      "sha256": "286b26b5e88d881fe1ab4355e367b246187241b104b88e2d4d380e2fd1346c9d"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 19712,
+      "sha256": "4b91059e5cc7345dd871e01f17626ca169bc3420a7ca2212aa9fcb6a01f8c214"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 224440,
+      "sha256": "d4274930475656e5eb1ca1f21fec5f1a0b4d5e036ed3c0fe068fe70cdad05b10"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "cycle": 87,
+  "numeric_checks": 23,
+  "calculation_rows": 177,
+  "row_breakdown": {
+    "contact": 144,
+    "quadrature": 8,
+    "nonidentifiability": 6,
+    "inverse": 18,
+    "witness": 1
+  },
+  "physical_experiments": 0,
+  "success_probability": null,
+  "provider_contacts_sent": 0,
+  "orders_placed": 0,
+  "equipment_secured": false,
+  "actual_50C_material_moduli": null,
+  "actual_total_manufacturing_cost_yen": null,
+  "actual_snow_contact_fraction_target": null
+}

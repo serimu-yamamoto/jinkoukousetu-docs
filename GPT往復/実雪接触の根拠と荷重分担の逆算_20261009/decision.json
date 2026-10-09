@@ -1,0 +1,23 @@
+{
+  "cycle": 87,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "equipment_secured": false,
+  "provider_contacts_sent": 0,
+  "orders_placed": 0,
+  "quotes_received": 0,
+  "adopted_for_ski_use": false,
+  "manufacturing_demonstrated": false,
+  "finished_safety_verified": false,
+  "actual_50C_material_moduli": null,
+  "actual_total_manufacturing_cost_yen": null,
+  "actual_snow_contact_fraction_target": null,
+  "decision": "Test height distribution and water-gap separation before selecting a material; 200 MPa example is invalid as a small-deflection design at 20 kPa.",
+  "new_concept": "H87 diagnostic coupon: same branched lamella with/without integral off-glide gap-control geometry; no assembly process or loose-grain spacing demonstrated.",
+  "independent_routes_retained": [
+    "warm spray crystallization",
+    "crystalline composites",
+    "reversible connections"
+  ],
+  "claude_delivery": "GitHub shared record; receipt, reply and running state unconfirmed"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "geometry": "planar_only_s1",
+    "modulus_MPa": 500,
+    "pressure_Pa": 2000,
+    "height_spread_um": 50,
+    "nodes": 8192,
+    "analytic_approach_m": 3.874163499360213e-06,
+    "quadrature_approach_m": 3.8741638169154e-06,
+    "relative_error": 8.196741996258083e-08
+  },
+  {
+    "geometry": "planar_only_s3",
+    "modulus_MPa": 500,
+    "pressure_Pa": 2000,
+    "height_spread_um": 50,
+    "nodes": 8192,
+    "analytic_approach_m": 2.7809322702446837e-05,
+    "quadrature_approach_m": 2.780932275474872e-05,
+    "relative_error": 1.8807320145697304e-09
+  },
+  {
+    "geometry": "planar_only_s4",
+    "modulus_MPa": 500,
+    "pressure_Pa": 2000,
+    "height_spread_um": 50,
+    "nodes": 8192,
+    "analytic_approach_m": 4.865936118657846e-05,
+    "quadrature_approach_m": 4.865936123340213e-05,
+    "relative_error": 9.622747043636082e-10
+  },
+  {
+    "geometry": "planar_only_s3",
+    "modulus_MPa": 100,
+    "pressure_Pa": 2000,
+    "height_spread_um": 200,
+    "nodes": 8192,
+    "analytic_approach_m": 0.00012436707194179858,
+    "quadrature_approach_m": 0.00012436707195537412,
+    "relative_error": 1.0915712778114539e-10
+  },
+  {
+    "geometry": "planar_only_s3",
+    "modulus_MPa": 500,
+    "pressure_Pa": 20000,
+    "height_spread_um": 50,
+    "nodes": 8192,
+    "analytic_approach_m": 0.00010233584291688252,
+    "quadrature_approach_m": 0.00010233584291688251,
+    "relative_error": 1.1102230246251565e-16
+  },
+  {
+    "geometry": "planar_only_s3",
+    "modulus_MPa": 1000,
+    "pressure_Pa": 150000,
+    "height_spread_um": 10,
+    "nodes": 8192,
+    "analytic_approach_m": 0.00029500941093830947,
+    "quadrature_approach_m": 0.00029500941093830947,
+    "relative_error": 0.0
+  },
+  {
+    "geometry": "planar_only_s2",
+    "modulus_MPa": 500,
+    "pressure_Pa": 2000,
+    "height_spread_um": 0,
+    "nodes": 8192,
+    "analytic_approach_m": 1.6641592857757484e-06,
+    "quadrature_approach_m": 1.6641592857757484e-06,
+    "relative_error": 0.0
+  },
+  {
+    "geometry": "planar_only_s4",
+    "modulus_MPa": 1000,
+    "pressure_Pa": 2000,
+    "height_spread_um": 200,
+    "nodes": 8192,
+    "analytic_approach_m": 6.881472852647024e-05,
+    "quadrature_approach_m": 6.881472905305414e-05,
+    "relative_error": 7.652197542284966e-09
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 10,
+    "initial_water_gap_um_assumed": 20,
+    "minimum_E_MPa_for_closure_limit": 1075.9474895122114,
+    "maximum_E_MPa_for_contact_fraction": 1208.3725455762894,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 10,
+    "initial_water_gap_um_assumed": 50,
+    "minimum_E_MPa_for_closure_limit": 172.15159832195386,
+    "maximum_E_MPa_for_contact_fraction": 1208.3725455762894,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 10,
+    "initial_water_gap_um_assumed": 100,
+    "minimum_E_MPa_for_closure_limit": 43.037899580488464,
+    "maximum_E_MPa_for_contact_fraction": 1208.3725455762894,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 50,
+    "initial_water_gap_um_assumed": 20,
+    "minimum_E_MPa_for_closure_limit": 1075.9474895122114,
+    "maximum_E_MPa_for_contact_fraction": 241.67450911525788,
+    "necessary_intersection_exists": false,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 50,
+    "initial_water_gap_um_assumed": 50,
+    "minimum_E_MPa_for_closure_limit": 172.15159832195386,
+    "maximum_E_MPa_for_contact_fraction": 241.67450911525788,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 50,
+    "initial_water_gap_um_assumed": 100,
+    "minimum_E_MPa_for_closure_limit": 43.037899580488464,
+    "maximum_E_MPa_for_contact_fraction": 241.67450911525788,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 200,
+    "initial_water_gap_um_assumed": 20,
+    "minimum_E_MPa_for_closure_limit": 1075.9474895122114,
+    "maximum_E_MPa_for_contact_fraction": 60.41862727881447,
+    "necessary_intersection_exists": false,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 200,
+    "initial_water_gap_um_assumed": 50,
+    "minimum_E_MPa_for_closure_limit": 172.15159832195386,
+    "maximum_E_MPa_for_contact_fraction": 60.41862727881447,
+    "necessary_intersection_exists": false,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s3",
+    "height_spread_um_assumed": 200,
+    "initial_water_gap_um_assumed": 100,
+    "minimum_E_MPa_for_closure_limit": 43.037899580488464,
+    "maximum_E_MPa_for_contact_fraction": 60.41862727881447,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 10,
+    "initial_water_gap_um_assumed": 20,
+    "minimum_E_MPa_for_closure_limit": 3261.990292306479,
+    "maximum_E_MPa_for_contact_fraction": 3699.583486071715,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 10,
+    "initial_water_gap_um_assumed": 50,
+    "minimum_E_MPa_for_closure_limit": 521.9184467690368,
+    "maximum_E_MPa_for_contact_fraction": 3699.583486071715,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 10,
+    "initial_water_gap_um_assumed": 100,
+    "minimum_E_MPa_for_closure_limit": 130.4796116922592,
+    "maximum_E_MPa_for_contact_fraction": 3699.583486071715,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 50,
+    "initial_water_gap_um_assumed": 20,
+    "minimum_E_MPa_for_closure_limit": 3261.990292306479,
+    "maximum_E_MPa_for_contact_fraction": 739.9166972143431,
+    "necessary_intersection_exists": false,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 50,
+    "initial_water_gap_um_assumed": 50,
+    "minimum_E_MPa_for_closure_limit": 521.9184467690368,
+    "maximum_E_MPa_for_contact_fraction": 739.9166972143431,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 50,
+    "initial_water_gap_um_assumed": 100,
+    "minimum_E_MPa_for_closure_limit": 130.4796116922592,
+    "maximum_E_MPa_for_contact_fraction": 739.9166972143431,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 200,
+    "initial_water_gap_um_assumed": 20,
+    "minimum_E_MPa_for_closure_limit": 3261.990292306479,
+    "maximum_E_MPa_for_contact_fraction": 184.97917430358578,
+    "necessary_intersection_exists": false,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 200,
+    "initial_water_gap_um_assumed": 50,
+    "minimum_E_MPa_for_closure_limit": 521.9184467690368,
+    "maximum_E_MPa_for_contact_fraction": 184.97917430358578,
+    "necessary_intersection_exists": false,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  },
+  {
+    "geometry": "planar_only_s4",
+    "height_spread_um_assumed": 200,
+    "initial_water_gap_um_assumed": 100,
+    "minimum_E_MPa_for_closure_limit": 130.4796116922592,
+    "maximum_E_MPa_for_contact_fraction": 184.97917430358578,
+    "necessary_intersection_exists": true,
+    "actual_joint_wet_contact_solution": null,
+    "provisional_fraction_min": 0.8,
+    "provisional_closure_max": 0.1
+  }
+]
