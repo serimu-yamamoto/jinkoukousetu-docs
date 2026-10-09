@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-10-09",
+  "basis_commit": "c73f9535d6db108fa6ea18d7d22c48641aa6889b",
+  "claude_ledger": {
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf_normalized": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "private_code_and_full_v3_results": "not_obtained"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "doi": "10.1021/acsnano.3c02528",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10655173/",
+      "scope": "Public full article and Table 1, experimental section. Supporting PDF not fully audited."
+    },
+    {
+      "id": "S2",
+      "url": "https://patents.google.com/patent/EP4647059A2/en",
+      "scope": "Patent HTML description, granulation and tank evaluation, Table 3. EPO PDF linked but not text-audited."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.ashland.com/file_source/Ashland/Documents/Performance%20Specialties%20Reference%20Guide%20%28IND17-1002.2-US%29.pdf",
+      "scope": "Search-extracted official EC section; water-insolubility only; no full PDF inspection."
+    }
+  ],
+  "new_measured_LL_EC_ski_friction": null,
+  "new_measured_wet_attachment_strength": null,
+  "publication_access_does_not_imply_claude_receipt": true
+}

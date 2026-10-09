@@ -1,0 +1,117 @@
+{
+  "cycle": 73,
+  "physical_trials": 0,
+  "success_probability": null,
+  "document_checks": 25,
+  "links_checked": 450,
+  "checks": [
+    {
+      "name": "physical_trial_status",
+      "passed": true
+    },
+    {
+      "name": "success_probability_not_fabricated",
+      "passed": true
+    },
+    {
+      "name": "math_check_record",
+      "passed": true
+    },
+    {
+      "name": "rows_composition",
+      "passed": true
+    },
+    {
+      "name": "rows_closed_coats",
+      "passed": true
+    },
+    {
+      "name": "rows_coupled_binder",
+      "passed": true
+    },
+    {
+      "name": "rows_separated_binder",
+      "passed": true
+    },
+    {
+      "name": "rows_drying_scenarios",
+      "passed": true
+    },
+    {
+      "name": "rows_pad_costs",
+      "passed": true
+    },
+    {
+      "name": "rows_manufacturing",
+      "passed": true
+    },
+    {
+      "name": "row_total",
+      "passed": true
+    },
+    {
+      "name": "surface_budget_independent",
+      "passed": true
+    },
+    {
+      "name": "hold_requirement_independent",
+      "passed": true
+    },
+    {
+      "name": "drying_mass_independent",
+      "passed": true
+    },
+    {
+      "name": "cost_limits_ordered",
+      "passed": true
+    },
+    {
+      "name": "tests_not_executed",
+      "passed": true
+    },
+    {
+      "name": "report_status_and_scope",
+      "passed": true
+    },
+    {
+      "name": "image_figure1_binder.png",
+      "passed": true
+    },
+    {
+      "name": "image_figure2_design_cost.png",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "all_local_links_exist",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "402205f8f73596c6426501c193a93609b3c8263b0e48a212bfda03770095e713",
+    "回覧板.md": "4c8b59f1d751fb9ffe48916dcbe0da430666464e2e47c48ab9b0141446514b40",
+    "GPT往復/README.md": "3fed166622ee5f99dbfff24da5db54fb29086f868936199c173961c1b88f83ad",
+    "調査台帳/一般.md": "6da8e0e4409e1bfb00783224ffacc378e84ceeecd655a7776a4ac7581a7fbaf6",
+    "調査台帳/計算部品索引.md": "e89cc5d12f8c857e0b3e106272a23321f8bf89cdcff1712254f031a223fd6662"
+  },
+  "visual_review": "Two rendered figures inspected; concept drawing not to scale; numerical figures use hypothetical inputs."
+}

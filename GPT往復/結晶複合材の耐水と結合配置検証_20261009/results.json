@@ -1,0 +1,38 @@
+{
+  "physical_trials": 0,
+  "success_probability": null,
+  "computed_rows": 111,
+  "math_checks": 25,
+  "binder_surface_load_budget": 0.028571428571428553,
+  "uniform_5pct_coat_r10_h1_nm": 25.065343545354224,
+  "critical_coupled_wet_strength_MPa": 8.400000000000006,
+  "separated_reference": {
+    "pressure_MPa": 4,
+    "binder_surface_load_fraction": 0.01,
+    "anchor_projected_area_fraction": 0.05,
+    "diagnostic_mu": 0.036750000000000005,
+    "required_wet_shear_MPa": 4.28
+  },
+  "drying_reference": [
+    {
+      "hypothetical_concentration_factor": 1,
+      "water_kg_per_kg_dry_composite": 153.84615384615384,
+      "efficiency_assumed": 0.35,
+      "purchased_heat_kWh_per_kg_if_resistance_heated": 293.040293040293,
+      "energy_JPY_per_kg": 8791.20879120879,
+      "published_recipe_ratio": true
+    },
+    {
+      "hypothetical_concentration_factor": 1,
+      "water_kg_per_kg_dry_composite": 153.84615384615384,
+      "efficiency_assumed": 0.7,
+      "purchased_heat_kWh_per_kg_if_resistance_heated": 146.5201465201465,
+      "energy_JPY_per_kg": 4395.604395604395,
+      "published_recipe_ratio": true
+    }
+  ],
+  "pad_area_m2": 330564.8860345017,
+  "pad_5um_cost_min": 5902014.795930965,
+  "pad_5um_cost_max": 56794691.44309313,
+  "pad_5um_mass_kg": 1978.1835699702465
+}

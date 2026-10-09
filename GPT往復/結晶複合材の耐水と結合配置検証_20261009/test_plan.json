@@ -1,0 +1,156 @@
+{
+  "physical_trials": 0,
+  "success_probability": null,
+  "status": "not_executed",
+  "sampling_note": "Independent preparation replicates and snow-reference acceptance windows must be fixed before testing; these eight specifications are not eight successful experiments.",
+  "specifications": [
+    {
+      "id": "T73-1",
+      "purpose": "same-composition placement comparison",
+      "groups": [
+        "LL/EC 95/5 uniformly mixed",
+        "same masses with binder behind crystal faces",
+        "binder-only",
+        "unmodified substrate",
+        "enclosed loose LL control"
+      ],
+      "measure": [
+        "surface chemistry",
+        "cross-section morphology",
+        "free particle mass",
+        "normal-load sharing"
+      ],
+      "stop": "Do not assume mass fraction equals contact load fraction."
+    },
+    {
+      "id": "T73-2",
+      "purpose": "true ski-sole friction",
+      "conditions": [
+        "30 and 50 C",
+        "dry",
+        "wet",
+        "partly dried",
+        "after wet-dry cycles",
+        "start-stop-restart"
+      ],
+      "measure": [
+        "UHMWPE sole friction versus pressure and speed",
+        "steel edge tested separately",
+        "transfer film",
+        "wear on both surfaces"
+      ],
+      "decision": "Replace all hypothetical friction inputs before claiming the 2.86% budget is applicable."
+    },
+    {
+      "id": "T73-3",
+      "purpose": "wet attachment capacity",
+      "conditions": [
+        "50 C water exposure",
+        "24 h and 7 d screening, not lifetime proof",
+        "cyclic loading",
+        "edge peel and normal load"
+      ],
+      "measure": [
+        "shear failure load divided by measured bonded area",
+        "creep",
+        "peel",
+        "retained crystal mass"
+      ],
+      "decision": "4.28/8.4 MPa are model requirements, not measured bond strengths; include additional force paths."
+    },
+    {
+      "id": "T73-4",
+      "purpose": "internal growth alternative",
+      "groups": [
+        "HEC/Tyr in-situ growth",
+        "preformed-crystal mix",
+        "neat HEC",
+        "encapsulated intact specimen",
+        "encapsulated cut/abraded specimen"
+      ],
+      "measure": [
+        "dry/wet strength",
+        "50 C creep",
+        "water uptake",
+        "crack entry",
+        "particle shedding"
+      ],
+      "decision": "Do not substitute dry tensile strength for wet adhesion; no onsite solvents."
+    },
+    {
+      "id": "T73-5",
+      "purpose": "full-depth snow-like response",
+      "conditions": [
+        "450 mm bed",
+        "300 mm gouge",
+        "random grain orientation",
+        "groomed fresh-snow reference"
+      ],
+      "measure": [
+        "normal force versus sinkage",
+        "edge force versus displacement",
+        "release distance",
+        "residual drag",
+        "vibration",
+        "restart",
+        "fall abrasion"
+      ],
+      "decision": "Flat-coupon friction alone cannot qualify a ski bed."
+    },
+    {
+      "id": "T73-6",
+      "purpose": "storm recovery and closure",
+      "conditions": [
+        "rain with representative fines",
+        "downslope collection",
+        "uphill retrieval",
+        "60 min closure scenario"
+      ],
+      "measure": [
+        "intact functional mass fraction",
+        "restored friction and attachment",
+        "drainage",
+        "replacement inventory",
+        "processing throughput"
+      ],
+      "decision": "Redistribution alone does not repair detached crystals or swollen binder."
+    },
+    {
+      "id": "T73-7",
+      "purpose": "winter and environmental exposure",
+      "conditions": [
+        "wet snow",
+        "freeze-thaw",
+        "natural-ground comparison"
+      ],
+      "measure": [
+        "interface shear",
+        "standing water",
+        "additional melt",
+        "finished-material wear size distribution",
+        "extractables",
+        "skin/eye relevance",
+        "inhalation and water exposure"
+      ],
+      "decision": "No harmlessness claim from ingredient use or biodegradability."
+    },
+    {
+      "id": "T73-8",
+      "purpose": "manufacturing and cost",
+      "conditions": [
+        "continuous strip processing before splitting",
+        "manufacturing yields recorded",
+        "closed solvent recovery where relevant"
+      ],
+      "measure": [
+        "exposed-face yield",
+        "backside placement accuracy",
+        "actual web throughput",
+        "drying time and energy",
+        "retained solvent",
+        "quote with exact scope"
+      ],
+      "decision": "Area processing price is not a quote for assembling trillions of individual parts."
+    }
+  ]
+}

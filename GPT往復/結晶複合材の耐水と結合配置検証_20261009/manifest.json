@@ -1,0 +1,148 @@
+{
+  "cycle": 73,
+  "basis_commit": "c73f9535d6db108fa6ea18d7d22c48641aa6889b",
+  "physical_trials": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/audit.py",
+      "bytes": 4823,
+      "sha256": "cc0b3088cf27229569ec6a1b1a9e47caae5310152eed343d07d72203fe5c67e9"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/checks.json",
+      "bytes": 1708,
+      "sha256": "5a8fd466929828889758fc7bb7d89b05058be07ff7cfeceb1f3176de7d7a28e8"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/closed_coats.csv",
+      "bytes": 1215,
+      "sha256": "618f72d2760d2583bbf895b649cc15ded7c260d6d3ed9c8c985f5dd532c37fbe"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/composition.csv",
+      "bytes": 542,
+      "sha256": "d8262593924d5d6572486f478454075fa0e69ab7f87350a890250cbb9cfac333"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/coupled_binder.csv",
+      "bytes": 1336,
+      "sha256": "6a1570810acbfcf3c60128ac46e4921cba59c6f5285b0f4f1f69fbad75b7f0ce"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/design.md",
+      "bytes": 3601,
+      "sha256": "031df8136e8a50fb2f59064f0fe4b18f28dc8fd063f42047356a32695e55f358"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/document_audit.json",
+      "bytes": 2694,
+      "sha256": "aeea3aab221ac6dc32a1f20335feb07035617545732f1dbda59972d32bbe59b9"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/draw.py",
+      "bytes": 4152,
+      "sha256": "5ae54414fbcd353b6095054a56eb0e8517c7641c0183e147373f22c706fa4416"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/drying_scenarios.csv",
+      "bytes": 580,
+      "sha256": "aacf2cf11f50b594f65804ca78a6bb699c63fb32d69b13ad494338979a71f4db"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/figure1_binder.png",
+      "bytes": 140924,
+      "sha256": "67ff1c3ae74345f50f0b02f941e48456dd3e97a677f0ca2d36a118f7ef1eaf1d"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/figure2_design_cost.png",
+      "bytes": 94601,
+      "sha256": "2514efcb155da19319690d7846ee5a57337b50f895d2105123fc7fd75d0f09cd"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/index_changes.json",
+      "bytes": 5591,
+      "sha256": "45ad1d93a8e17c1b119bd81dd5a1542a2f21033e9145f68f3f540fa245b8d492"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/inputs.json",
+      "bytes": 1333,
+      "sha256": "1f9318e0469b411d15434a76ad332ee8b275e96e5d34fe8452ab783f1405e94b"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/manufacturing.csv",
+      "bytes": 279,
+      "sha256": "4093ef255a08d34cad2c7c00a7dd9e4991bc1947e9ae0611c5f330f75695f0f1"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/model.md",
+      "bytes": 5183,
+      "sha256": "61529820236b3066522375059879910eafa8f3ee0a680be20a601a8fbf5a1f4c"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/pad_costs.csv",
+      "bytes": 3433,
+      "sha256": "d906c0d3c928f091147359b9e9ff6995b76f83c8578afa2181bba2ed718755c7"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/reproduce.py",
+      "bytes": 7747,
+      "sha256": "2724e266c1267da2665981f6d1bf9ecc2dfd81b45816147fbe3c6a8bd628ee34"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/results.json",
+      "bytes": 1291,
+      "sha256": "7538999fa3b3158030a55caa46b0cd2f270a724e1ba26c093856a5255841b34e"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/separated_binder.csv",
+      "bytes": 1124,
+      "sha256": "561e9a7fe6ed07fd4b187db589214cd90e4526be2ca81a7ec414052be617bb80"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/sources.md",
+      "bytes": 3529,
+      "sha256": "b1306bb6d1196ad29aa02285576d7cf6872074c035a8a3d98648ef681c21c30e"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/source_audit.json",
+      "bytes": 1251,
+      "sha256": "cf2ede2cf64a5ab47e6b7f7d29f3598850fb374a0f224dad2acda75a1cf2b529"
+    },
+    {
+      "path": "GPT往復/結晶複合材の耐水と結合配置検証_20261009/test_plan.json",
+      "bytes": 4624,
+      "sha256": "131c28c0ba07faa814de03958c6de67bf4985ab98273d52efd86097473ad254c"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第73巡_結晶複合材の耐水性と滑走面を隠さない結合_20261009.md",
+      "bytes": 16128,
+      "sha256": "e8c437f047fde147866202afbfc480ba6df99af3a20e45c57dc4da3746a7ebb6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 58345,
+      "sha256": "463402d2b27454a0cde33dd09b3a13087467b1f44a6c4994150efcf04457cf79"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 145613,
+      "sha256": "b792f45d51c953021507358913595fa48cc09c813ed18bbb5ec1d60347d7f3f5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 50499,
+      "sha256": "f4e3eb6271a6bfd71cd6e88ccac53be7eb881c4eb20bbca582b2b3b8955a46d2"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 11497,
+      "sha256": "a7de9a57cb76bf381324bde6afb06f59af30af135a0b34156fa4c274094e0039"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 216378,
+      "sha256": "40ee97cf8b4498f9a6ffb54fa5c520227e57cc53f653a2d1e1ff46f2d5c825b1"
+    }
+  ]
+}

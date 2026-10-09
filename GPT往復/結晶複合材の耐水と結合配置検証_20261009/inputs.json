@@ -1,0 +1,59 @@
+{
+  "cycle": 73,
+  "physical_trials": 0,
+  "success_probability": null,
+  "basis_commit": "c73f9535d6db108fa6ea18d7d22c48641aa6889b",
+  "density_kg_m3": {
+    "LL": 1200,
+    "EC": 1140
+  },
+  "diagnostic": {
+    "mu_crystal": 0.025,
+    "mu_binder": 0.2,
+    "mu_other": 0.01,
+    "mu_target": 0.04,
+    "pressure_MPa": 4,
+    "shear_factor": 2,
+    "explanation": "All friction, pressure and shear strengths are hypothetical diagnostic inputs, not measured properties."
+  },
+  "plate": {
+    "radius_um": 10,
+    "thickness_um": 1
+  },
+  "course": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "dry_bulk_kg_m3": 120,
+    "particle_count": 3117691000000,
+    "pads_per_particle": 6,
+    "pad_diameter_um": 150,
+    "explanation": "Inherited inventory scenario; not a manufactured product or measured density."
+  },
+  "cost": {
+    "yield": 0.8,
+    "LL_JPY_kg": [
+      1000,
+      5000,
+      10000
+    ],
+    "EC_JPY_kg": 2000,
+    "coat_JPY_m2": [
+      10,
+      100
+    ],
+    "vat_excluded": true
+  },
+  "drying": {
+    "HEC_g": 0.1,
+    "Tyr_g": 0.03,
+    "water_mL": 20,
+    "water_density_kg_L": 1,
+    "latent_MJ_kg": 2.4,
+    "efficiencies": [
+      0.35,
+      0.7
+    ],
+    "JPY_kWh": 30,
+    "explanation": "Rounded latent heat assumption; purchased heat model without recovery, not a universal lower bound."
+  }
+}

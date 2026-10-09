@@ -1,0 +1,102 @@
+[
+  {
+    "name": "surface_budget_boundary",
+    "passed": true
+  },
+  {
+    "name": "surface_budget_is_1_over_35",
+    "passed": true
+  },
+  {
+    "name": "density_limit_pure_LL",
+    "passed": true
+  },
+  {
+    "name": "density_limit_pure_EC",
+    "passed": true
+  },
+  {
+    "name": "density_5pct_harmonic_mean",
+    "passed": true
+  },
+  {
+    "name": "density_5pct_volume",
+    "passed": true
+  },
+  {
+    "name": "mass_not_volume_fraction",
+    "passed": true
+  },
+  {
+    "name": "all_24_coat_volume_residuals",
+    "passed": true
+  },
+  {
+    "name": "zero_binder_zero_coat",
+    "passed": true
+  },
+  {
+    "name": "more_binder_thicker_coat",
+    "passed": true
+  },
+  {
+    "name": "all_coupled_equilibria",
+    "passed": true
+  },
+  {
+    "name": "critical_strength_8p4_MPa",
+    "passed": true
+  },
+  {
+    "name": "five_MPa_coupled_min_fraction",
+    "passed": true
+  },
+  {
+    "name": "separated_reference_4p28_MPa",
+    "passed": true
+  },
+  {
+    "name": "separated_reference_mu",
+    "passed": true
+  },
+  {
+    "name": "published_water_ratio",
+    "passed": true
+  },
+  {
+    "name": "tenfold_concentration_divides_water",
+    "passed": true
+  },
+  {
+    "name": "efficiency_scaling",
+    "passed": true
+  },
+  {
+    "name": "course_inventory_108t",
+    "passed": true
+  },
+  {
+    "name": "pad_area_independent_diameter",
+    "passed": true
+  },
+  {
+    "name": "pad_mass_scales_with_thickness",
+    "passed": true
+  },
+  {
+    "name": "raw_mass_cost_direct_sum",
+    "passed": true
+  },
+  {
+    "name": "forming_area_not_course_area",
+    "passed": true
+  },
+  {
+    "name": "web_area_conservation",
+    "passed": true
+  },
+  {
+    "name": "web_line_time_area",
+    "passed": true
+  }
+]
