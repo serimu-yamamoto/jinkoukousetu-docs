@@ -1,0 +1,79 @@
+{
+  "cycle": 70,
+  "physical_tests": 0,
+  "success_probability": null,
+  "status": "UNCALIBRATED_ONE_MODE_MODEL_AND_MANUFACTURING_BALANCE",
+  "assumed_E_Pa": 1000000000.0,
+  "assumed_density_kg_m3": 1300.0,
+  "material_selected": false,
+  "inverse_inextensible": {
+    "contour_half_length_um": 134.28695726748296,
+    "initial_amplitude_rad": 1.0458739947719735,
+    "EI_N_m2": 2.641153819090471e-12,
+    "width_um": 400.0,
+    "thickness_um": 4.2950838817650885
+  },
+  "layer_results": [
+    {
+      "layers": 1,
+      "thickness_each_um": 4.2950838817650885,
+      "axial_EA_N": 1.7180335527060353,
+      "material_kg": 1870.1306813338624,
+      "material_multiplier": 1.0,
+      "fully_coupled_to_free_EI_ratio": 1,
+      "low_pressure_kPa": 4.952100962673824,
+      "high_amplitude_rad": 0.30286323916308744,
+      "high_axial_strain": 0.008096049728088417,
+      "high_pressure_kPa": 74.54579054289849,
+      "high_energy_two_halves_J": 2.2945052997959497e-07,
+      "high_bending_strain_estimate": 0.07465910676006987,
+      "high_tensile_surface_strain_estimate": 0.08275515648815829
+    },
+    {
+      "layers": 8,
+      "thickness_each_um": 2.1475419408825442,
+      "axial_EA_N": 6.872134210824141,
+      "material_kg": 7480.52272533545,
+      "material_multiplier": 3.9999999999999996,
+      "fully_coupled_to_free_EI_ratio": 64,
+      "low_pressure_kPa": 4.987902136859142,
+      "high_amplitude_rad": 0.26373516905313865,
+      "high_axial_strain": 0.0024673806089197114,
+      "high_pressure_kPa": 90.36795060387523,
+      "high_energy_two_halves_J": 2.43114750363731e-07,
+      "high_bending_strain_estimate": 0.039295384117747634,
+      "high_tensile_surface_strain_estimate": 0.041762764726667345
+    },
+    {
+      "layers": 64,
+      "thickness_each_um": 1.0737709704412723,
+      "axial_EA_N": 27.488536843296572,
+      "material_kg": 29922.090901341802,
+      "material_multiplier": 15.999999999999998,
+      "fully_coupled_to_free_EI_ratio": 4096,
+      "low_pressure_kPa": 4.996968587815322,
+      "high_amplitude_rad": 0.24983138931227217,
+      "high_axial_strain": 0.0006645451185385287,
+      "high_pressure_kPa": 97.18092130739088,
+      "high_energy_two_halves_J": 2.476455380950288e-07,
+      "high_bending_strain_estimate": 0.019996961490105405,
+      "high_tensile_surface_strain_estimate": 0.020661506608643933
+    }
+  ],
+  "pure_water_surface_tension_50C_N_m": 0.06794390594487329,
+  "manufacturing": {
+    "grain_count": 3117691454647.9585,
+    "days": 100,
+    "hours_per_day": 16,
+    "source_yarn_dtex": 110,
+    "source_winding_m_min": 4200,
+    "source_yarn_kg_h": 2.772,
+    "source_throughput_is_particle_output": false
+  },
+  "rows": {
+    "support_curves": 153,
+    "layers": 3,
+    "wet_layers": 27,
+    "factory": 9
+  }
+}

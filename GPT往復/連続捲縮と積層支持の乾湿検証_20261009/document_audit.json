@@ -1,0 +1,129 @@
+{
+  "cycle": 70,
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "all 23 mathematical checks",
+      "passed": true
+    },
+    {
+      "name": "no physical trials",
+      "passed": true
+    },
+    {
+      "name": "success probability remains undefined",
+      "passed": true
+    },
+    {
+      "name": "eight packages unexecuted",
+      "passed": true
+    },
+    {
+      "name": "material not selected",
+      "passed": true
+    },
+    {
+      "name": "source winding speed not used as particle output",
+      "passed": true
+    },
+    {
+      "name": "rows support_curves",
+      "passed": true
+    },
+    {
+      "name": "rows layers",
+      "passed": true
+    },
+    {
+      "name": "rows wet_layers",
+      "passed": true
+    },
+    {
+      "name": "rows factory",
+      "passed": true
+    },
+    {
+      "name": "192 calculated rows",
+      "passed": true
+    },
+    {
+      "name": "report states zero physical trials and undefined probability",
+      "passed": true
+    },
+    {
+      "name": "retained operation and depth constraints",
+      "passed": true
+    },
+    {
+      "name": "four branches and warm spray route retained",
+      "passed": true
+    },
+    {
+      "name": "one structural diagram",
+      "passed": true
+    },
+    {
+      "name": "two plotted figures",
+      "passed": true
+    },
+    {
+      "name": "no NaN or Infinity output",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\GPT回答_多方向探索第70巡_連続捲縮成形と濡れて固まる積層の反証_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\連続捲縮と積層支持の乾湿検証_20261009\\design.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\連続捲縮と積層支持の乾湿検証_20261009\\model.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\連続捲縮と積層支持の乾湿検証_20261009\\protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\連続捲縮と積層支持の乾湿検証_20261009\\sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding README.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\README.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 調査台帳\\一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 調査台帳\\計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "all referenced local documents exist",
+      "passed": true
+    }
+  ],
+  "check_count": 28,
+  "data_rows": {
+    "support_curves": 153,
+    "layers": 3,
+    "wet_layers": 27,
+    "factory": 9
+  },
+  "local_links_checked": 410,
+  "missing_links": [],
+  "all_passed": true
+}

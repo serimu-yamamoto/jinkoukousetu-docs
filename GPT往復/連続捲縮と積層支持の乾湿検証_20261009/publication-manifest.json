@@ -1,0 +1,131 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "14c176e69464914537f628c9f9eefbed906cda94",
+  "cycle": 70,
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "mathematical_checks": 23,
+    "calculated_rows": 192,
+    "unexecuted_test_packages": 8,
+    "document_checks": 28
+  },
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第70巡_連続捲縮成形と濡れて固まる積層の反証_20261009.md",
+      "bytes": 9142,
+      "sha256": "7efec342b309f8c457054add848a92c8775f0d448433e82d0b3414c621c2aefd"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 48815,
+      "sha256": "3c45a9778d85c0a0188f4cd823d1654486616ba34ff49cf0ec0cb57e92653b69"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/audit.py",
+      "bytes": 3579,
+      "sha256": "55afe66d10a08544afdc363ab459112440d31e38ffa80bd54def44555f6f37d4"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/calculate.py",
+      "bytes": 6200,
+      "sha256": "3ce8c5e7637adb2a566dee315f4029d3311580f2ad32e8cb1fa28600932bff2b"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/checks.json",
+      "bytes": 2056,
+      "sha256": "186a759bc2971bbb9cb8a267ba8426c83d4ca7b054fe73f9acec1e023ba741c1"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/design.md",
+      "bytes": 3443,
+      "sha256": "5dcead58890f17dfb5eb1b6a52d1c4ebad0a885127c477577c81f14099fcd51e"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/document_audit.json",
+      "bytes": 2867,
+      "sha256": "e2da9fce29da730684f7a3701fa30242c59bf69d562a99c65b8561d547c29e5a"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/draw.py",
+      "bytes": 2779,
+      "sha256": "ede49b77b4d3ca26420fccf6d68252d16ba238c290f3657e4aa9578088c95187"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/factory.csv",
+      "bytes": 1030,
+      "sha256": "45c29a024b8c6feea69a0397dbf0904f5d2f927e08a260900fd2252c292bbf2c"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/figure1_support.png",
+      "bytes": 103065,
+      "sha256": "e00f13679a802710bbc2bee49ffcc3fb3cebfa93a725d9503cbe3a93717fab68"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/figure2_production.png",
+      "bytes": 79948,
+      "sha256": "54c97200e644155f8248547e126a900fbd1aa54b05fed98c93c09a3c3fb90c65"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/layers.csv",
+      "bytes": 912,
+      "sha256": "146a42e3fe1dd2c7e7766fed08215eaa689654e77ee118ac7618e956354c99b8"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/model.md",
+      "bytes": 4952,
+      "sha256": "65c4400944ab6bb974fe8f5eb5ff04aa200609c733281ec2264bee1446293765"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/protocol.md",
+      "bytes": 1813,
+      "sha256": "2e7dafde6c16aa7afe5e04d5247fbf1a99793fd2fbd2340e98208230d0e08d95"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/results.json",
+      "bytes": 2769,
+      "sha256": "ce70f0e872343b30eca76694aa71eb95c5ec3496618908afdc0573397c69d594"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/sources.md",
+      "bytes": 3486,
+      "sha256": "8344b48d1d5b6f56a297d066f7a0772cefdc9359ab55a046779ecf3b3aceacaa"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/support_curves.csv",
+      "bytes": 21738,
+      "sha256": "796dd193dc71ee5f294bd6c3a30cdd73a7155e8a4af7b75d820a3810dcfef660"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/test_plan.json",
+      "bytes": 996,
+      "sha256": "36ecc66efc0d52e06efa6597bb491c0be24d94d8d10581c2e6ac86c36eae034a"
+    },
+    {
+      "path": "GPT往復/連続捲縮と積層支持の乾湿検証_20261009/wet_layers.csv",
+      "bytes": 2151,
+      "sha256": "d8a905872c75e86d4396527277fe297f5bb59d316157852593163f70dcf9bd17"
+    },
+    {
+      "path": "README.md",
+      "bytes": 56631,
+      "sha256": "35b539a069408aea278813318ff0ed8114cfd48976a52073e37e69655ed253ff"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 141255,
+      "sha256": "03e3488c8989b1fd01bb20b4636e2765577430086192dec4da478dab6bd2d9af"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 9191,
+      "sha256": "056ba1904d79b203724d5e4ed8bb73180c9d12cbf22d7671ee2994d43fb7a4d5"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 214012,
+      "sha256": "fe6d949a617df4a723d842038a3434dd9fa67106c854aeb215f463a6c2ae0013"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "count": 23,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "Bessel J0 vs geometric integral 0",
+      "passed": true
+    },
+    {
+      "name": "Bessel J0 vs geometric integral 0.4",
+      "passed": true
+    },
+    {
+      "name": "Bessel J0 vs geometric integral 1.046",
+      "passed": true
+    },
+    {
+      "name": "initial chord closure",
+      "passed": true
+    },
+    {
+      "name": "inverse low point only",
+      "passed": true
+    },
+    {
+      "name": "inverse high point only",
+      "passed": true
+    },
+    {
+      "name": "not measured 100kPa after axial compliance",
+      "passed": true
+    },
+    {
+      "name": "free layers preserve total EI 1",
+      "passed": true
+    },
+    {
+      "name": "minimum energy not above inextensible trial 1",
+      "passed": true
+    },
+    {
+      "name": "energy derivative equals transverse force 1",
+      "passed": true
+    },
+    {
+      "name": "free layers preserve total EI 8",
+      "passed": true
+    },
+    {
+      "name": "minimum energy not above inextensible trial 8",
+      "passed": true
+    },
+    {
+      "name": "energy derivative equals transverse force 8",
+      "passed": true
+    },
+    {
+      "name": "free layers preserve total EI 64",
+      "passed": true
+    },
+    {
+      "name": "minimum energy not above inextensible trial 64",
+      "passed": true
+    },
+    {
+      "name": "energy derivative equals transverse force 64",
+      "passed": true
+    },
+    {
+      "name": "water surface tension positive",
+      "passed": true
+    },
+    {
+      "name": "linked eight layer rigidity factor is 64",
+      "passed": true
+    },
+    {
+      "name": "64 layers sixteen times material",
+      "passed": true
+    },
+    {
+      "name": "2000 m2 bed grain volume accounting",
+      "passed": true
+    },
+    {
+      "name": "source yarn throughput arithmetic",
+      "passed": true
+    },
+    {
+      "name": "factory area equals width speed time",
+      "passed": true
+    },
+    {
+      "name": "all curve fields finite",
+      "passed": true
+    }
+  ]
+}
