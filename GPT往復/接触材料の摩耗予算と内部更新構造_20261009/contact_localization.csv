@@ -1,0 +1,6 @@
+load_bearing_area_fraction_relative,local_pressure_multiplier,local_wear_depth_multiplier,total_wear_volume_multiplier,assumptions
+1.0,1.0,1.0,1.0,same_total_load_distance_kw; no change of friction law or contact mechanics
+0.75,1.3333333333333333,1.3333333333333333,1.0,same_total_load_distance_kw; no change of friction law or contact mechanics
+0.5,2.0,2.0,1.0,same_total_load_distance_kw; no change of friction law or contact mechanics
+0.25,4.0,4.0,1.0,same_total_load_distance_kw; no change of friction law or contact mechanics
+0.1,10.0,10.0,1.0,same_total_load_distance_kw; no change of friction law or contact mechanics

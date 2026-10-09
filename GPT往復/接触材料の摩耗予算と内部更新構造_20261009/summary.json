@@ -1,0 +1,54 @@
+{
+  "cycle": 80,
+  "physical_tests_performed": 0,
+  "success_probability": null,
+  "external_material_properties_validated_for_ski": false,
+  "input_status": "assumptions except inherited accounting quantities",
+  "all_pad_area_m2": 675291.968854954,
+  "nominal_ski_pressure_Pa": 2499.9999999999995,
+  "fixed_active_area_fraction": 0.0028727467228087124,
+  "tau_allow_Pa": 93803.49547385759,
+  "required_UH_exposed_area_fraction_under_uniform_shear_hypothesis": 0.7636907575042311,
+  "equivalent_UH_mass_fraction": 0.7189798165022834,
+  "representative_wear": [
+    {
+      "total_course_runs": 10000,
+      "traffic_band_m": 20.0,
+      "kw_mm3_Nm_ASSUMED": 1e-05,
+      "mean_local_passes": 100.0,
+      "sliding_distance_per_fixed_patch_m": 160.0,
+      "wear_depth_um": 1.392395635940074,
+      "nominal_thickness_um_from_patch_mean_at_half_utilization": 2.784791271880148,
+      "total_material_loss_g": 7.6000000000000005,
+      "fixed_active_course_area_m2": 5.7454934456174245,
+      "model_status": "sensitivity_not_life_prediction"
+    },
+    {
+      "total_course_runs": 10000,
+      "traffic_band_m": 5.0,
+      "kw_mm3_Nm_ASSUMED": 1e-05,
+      "mean_local_passes": 400.0,
+      "sliding_distance_per_fixed_patch_m": 640.0,
+      "wear_depth_um": 5.569582543760296,
+      "nominal_thickness_um_from_patch_mean_at_half_utilization": 11.139165087520592,
+      "total_material_loss_g": 7.6000000000000005,
+      "fixed_active_course_area_m2": 1.4363733614043561,
+      "model_status": "sensitivity_not_life_prediction"
+    },
+    {
+      "total_course_runs": 10000,
+      "traffic_band_m": 2.0,
+      "kw_mm3_Nm_ASSUMED": 1e-05,
+      "mean_local_passes": 1000.0,
+      "sliding_distance_per_fixed_patch_m": 1600.0,
+      "wear_depth_um": 13.923956359400739,
+      "nominal_thickness_um_from_patch_mean_at_half_utilization": 27.847912718801478,
+      "total_material_loss_g": 7.6000000000000005,
+      "fixed_active_course_area_m2": 0.5745493445617424,
+      "model_status": "sensitivity_not_life_prediction"
+    }
+  ],
+  "math_accounting_checks": 53,
+  "comparison_rows": 86,
+  "no_lifetime_or_success_claim": true
+}

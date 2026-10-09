@@ -1,0 +1,6 @@
+speed_m_s,fixed_ground_patch_contact_time_s,moving_ski_point_time_over_190um_patch_s,ratio_fixed_to_moving,interpretation
+0.1,16.0,0.0019,8421.052631578947,kinematic time only; not a flash-temperature solution
+0.45,3.555555555555556,0.0004222222222222222,8421.052631578947,kinematic time only; not a flash-temperature solution
+1.0,1.6,0.00019,8421.052631578947,kinematic time only; not a flash-temperature solution
+5.0,0.32,3.8e-05,8421.052631578947,kinematic time only; not a flash-temperature solution
+10.0,0.16,1.9e-05,8421.052631578947,kinematic time only; not a flash-temperature solution

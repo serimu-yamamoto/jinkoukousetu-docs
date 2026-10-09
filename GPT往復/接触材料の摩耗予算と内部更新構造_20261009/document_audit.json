@@ -1,0 +1,235 @@
+{
+  "document_checks": [
+    {
+      "check": "physical_tests_zero",
+      "passed": true
+    },
+    {
+      "check": "probability_null",
+      "passed": true
+    },
+    {
+      "check": "numeric_checks",
+      "passed": true
+    },
+    {
+      "check": "rows",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_4",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_6",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_7",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_8",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_10",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_12",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_14",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "check": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "check": "protocols_not_results",
+      "passed": true
+    },
+    {
+      "check": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "check": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "check": "report_guard_保証寿命",
+      "passed": true
+    },
+    {
+      "check": "report_guard_仮のk",
+      "passed": true
+    },
+    {
+      "check": "report_guard_76.4％",
+      "passed": true
+    },
+    {
+      "check": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "check": "report_guard_60分",
+      "passed": true
+    },
+    {
+      "check": "report_guard_原料分のみ",
+      "passed": true
+    },
+    {
+      "check": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "check": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "check": "report_guard_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "check": "links_checked",
+      "passed": true
+    },
+    {
+      "check": "no_original_papers_published",
+      "passed": true
+    },
+    {
+      "check": "LF_GPT回答_多方向探索第80巡_摩耗後も滑る接触部と混雑帯の耐久条件_20261009.md",
+      "passed": true
+    },
+    {
+      "check": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "check": "LF_model.md",
+      "passed": true
+    },
+    {
+      "check": "LF_README.md",
+      "passed": true
+    },
+    {
+      "check": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "check": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "check": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "check": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "check": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "check": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "check": "LF_test_plan.json",
+      "passed": true
+    },
+    {
+      "check": "LF_verification.json",
+      "passed": true
+    },
+    {
+      "check": "LF_body_role_contact_time.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_contact_localization.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_film_model_scope.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_full_depth_cap_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_phase_exposure.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_wear_budget.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_wear_requirements.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_within_pad_wear.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_README.md",
+      "passed": true
+    },
+    {
+      "check": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "check": "LF_README.md",
+      "passed": true
+    },
+    {
+      "check": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "check": "LF_計算部品索引.md",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 524,
+  "physical_experiments": 0,
+  "reported_success_probability": null
+}

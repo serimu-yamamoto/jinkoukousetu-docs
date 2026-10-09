@@ -1,0 +1,158 @@
+{
+  "cycle": 80,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "3ef4e21d64c51c80410c37179fce97fcd5cd0d7a",
+  "physical_tests_performed": 0,
+  "files": [
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/README.md",
+      "bytes": 1558,
+      "sha256": "61e34284325142f333754756e6621da157a024d9780a9d7b06d77b41be292c36"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/audit.py",
+      "bytes": 3227,
+      "sha256": "73cdb17c25f8dc0ccded6cc5f5c3e2801c471adf46e9ef237acc3cfcff1dd49f"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/body_role_contact_time.csv",
+      "bytes": 594,
+      "sha256": "bf8b3828b02614d4f316024b2e6885b42760957c55759099f49d356e52309700"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/claude_handoff.md",
+      "bytes": 2054,
+      "sha256": "2e6d6bfd7028935291b96536dbd79f678959178c8adc8b3cdb25d7b5117474c7"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/contact_concepts.png",
+      "bytes": 35882,
+      "sha256": "050019d5769de1ac138a606d3fe9929a22659ed2b50b1e31744f0dea3fc710e7"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/contact_localization.csv",
+      "bytes": 625,
+      "sha256": "771c15be5a85d8eb4d4c5e69c8e38322cb22713b97ee0472c8b2a1c9d212571c"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/decision.json",
+      "bytes": 922,
+      "sha256": "1e656fd37416b452ad61488607f1ad0459abce6dd0a94a91867f73d2dee27ce5"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/document_audit.json",
+      "bytes": 4427,
+      "sha256": "786c5c933ab05f482b48d8f532b81531a570c971b7746ae71329906d39c6fd46"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/film_model_scope.csv",
+      "bytes": 562,
+      "sha256": "a4af9df3dbdf009b36987df4f949aadfe822d8aefdc1daf90e703111b5ed60cf"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/full_depth_cap_inventory.csv",
+      "bytes": 1675,
+      "sha256": "acc7247087eb39b00994e83ae6fd885e4ffa16c41fa82c6a6c0b85ac6390f6bc"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/index_changes.json",
+      "bytes": 5046,
+      "sha256": "f258a24ef32b249a200e74d1ce0decccf96dc033c919b88cb2e455af6ce97dc4"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/inputs.json",
+      "bytes": 644,
+      "sha256": "27a513315ae91767a650f0f7a205d0ac5bd9ff0677ac4f40833972452a03b174"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/model.md",
+      "bytes": 3066,
+      "sha256": "546188fe09220a0378ff85f55e60b397cb99eef991f4fd1439f50b920c5c69a0"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/phase_exposure.csv",
+      "bytes": 1318,
+      "sha256": "807516082ea2bad78fd1138fb20b0d1cfd97c840e1c5f21c03745f3eac00873e"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/reproduce.py",
+      "bytes": 12183,
+      "sha256": "bac60b6ccec5153a2ada99ce6a21dc3a44b69d2b491e2943740d6b6df9a186a8"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/requirements.txt",
+      "bytes": 105,
+      "sha256": "c60df89f9b0e9346e2a7aa55017a22664917efba2e32fbf0b317c5b74490aeed"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/sources.json",
+      "bytes": 2095,
+      "sha256": "0af196a477693eada1086ebb1c2532e464ad5fb65b573538a9ccec4cc1346dc8"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/summary.json",
+      "bytes": 2128,
+      "sha256": "affec8a5254b115805b61fe30f1479c5618934aa8d649d3904a3723f48c4652b"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/test_plan.json",
+      "bytes": 3370,
+      "sha256": "38754453ceb8093149629e6f2f7f4bf827924c8a5951d351444fa9290fa8ca41"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/verification.json",
+      "bytes": 4470,
+      "sha256": "5e62b00f3d2e064f25e7172f5f135f4aa1035022cc912bae0c83fc9cb66ab225"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/wear_and_phase.png",
+      "bytes": 136741,
+      "sha256": "6f297fed7bb9d8f0614ccd239b75b59cd11fec324b9f0f920c7023f7e6a980f5"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/wear_budget.csv",
+      "bytes": 4992,
+      "sha256": "5ed5270e3e7cac737fcc7ef6fb0a0156b022e434b8ffdeef757caf79b11865b4"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/wear_requirements.csv",
+      "bytes": 1201,
+      "sha256": "9e643c5e08990ca576338160a6ce319214286178400bb131df1ffd909d6c1aba"
+    },
+    {
+      "path": "GPT往復/接触材料の摩耗予算と内部更新構造_20261009/within_pad_wear.csv",
+      "bytes": 693,
+      "sha256": "44b5c11ccef3c24dd72294a039087ad885510f7b8b7300b66a7a469365482abc"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第80巡_摩耗後も滑る接触部と混雑帯の耐久条件_20261009.md",
+      "bytes": 13879,
+      "sha256": "0fa05580b207fe2a29cd9ab821aecb7675aef34d22216b77f68cefd73d8b4dee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 62158,
+      "sha256": "e890972eb95bc055c3b0ab02f1354ab1bbb82c8780d5deed143a602eff78000a"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 155822,
+      "sha256": "c2832733531a9c3ba3af44e53a4eba51bb6d98003242c1600b8b43cf7e6dab67"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 54242,
+      "sha256": "5382c0d1696dfc44d5c95dcf47c8ba5e540347f0402ed22815bb0279d2673a6f"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 16859,
+      "sha256": "f726013d97ec89d85ee30e885858bc91af592459ea2e3dad735d04c51fe43ca8"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 221741,
+      "sha256": "6cee8c7946b67b0a22823299953608d389e207a6cab3908dd6a6ff97195fc64c"
+    }
+  ]
+}

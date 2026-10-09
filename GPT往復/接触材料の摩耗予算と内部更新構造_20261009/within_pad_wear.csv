@@ -1,0 +1,4 @@
+traffic_band_m,mean_over_pad_um,mean_over_real_contact_um,frozen_profile_peak_wear_um,nominal_thickness_um_from_peak_at_half_utilization,local_passes_to_0p05um_peak_wear,status
+20.0,1.392395635940074,1.8760699094771522,3.7801495316400504,7.560299063280101,1.3226989985845103,frozen_profile_diagnostic; shape changes require coupled wear-contact model
+5.0,5.569582543760296,7.504279637908609,15.120598126560202,30.241196253120403,1.3226989985845103,frozen_profile_diagnostic; shape changes require coupled wear-contact model
+2.0,13.923956359400739,18.76069909477152,37.8014953164005,75.602990632801,1.3226989985845103,frozen_profile_diagnostic; shape changes require coupled wear-contact model

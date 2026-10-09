@@ -1,0 +1,48 @@
+{
+  "checked_date": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "primary_research",
+      "doi": "10.3103/S1068366622010093",
+      "url": "https://link.springer.com/article/10.3103/S1068366622010093",
+      "author_copy": "https://www.researchgate.net/publication/361529041_Optimal_Material_Selection_for_Polymer-Polymer_Prosthetic_Implants_by_Tribological_Criteria",
+      "access": "publisher abstract and author full-text transcription; author PDF HTTP403; figures not visually verified",
+      "used_for": "counterface and lubrication audit; no numerical model input",
+      "unresolved": [
+        "mu0.02 test assignment",
+        "Table1 pressure inconsistency in transcription"
+      ],
+      "transferred_to_ski": false
+    },
+    {
+      "id": "S2",
+      "type": "primary_research",
+      "doi": "10.1007/s40544-023-0856-1",
+      "url": "https://www.repository.cam.ac.uk/items/33050ddf-3538-44ae-9b4b-6b4364a4048a",
+      "pdf_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e07255b4-c448-4c51-9308-0195c97662f0/content",
+      "access": "public PDF; text extracted; PDF pages 3,5,6,8 visually checked",
+      "used_for": "50C water test and TPU/UHMWPE blend applicability limits",
+      "transferred_to_ski": false
+    },
+    {
+      "id": "S3",
+      "type": "primary_research_abstract",
+      "doi": "10.1002/pc.23009",
+      "url": "https://4spepublications.onlinelibrary.wiley.com/doi/10.1002/pc.23009",
+      "access": "publisher abstract only",
+      "used_for": "independent bulk-blend route; no adopted friction or modulus values",
+      "transferred_to_ski": false
+    },
+    {
+      "id": "L1",
+      "type": "primary_research_followup_lead",
+      "doi": "10.3390/polym17010030",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723112/",
+      "access": "search-indexed primary text; direct page CAPTCHA; no full verified extraction",
+      "used_for": "future comparison of short-fiber wear mechanisms only; no design number adopted",
+      "transferred_to_ski": false
+    }
+  ],
+  "external_PDF_republished": false
+}

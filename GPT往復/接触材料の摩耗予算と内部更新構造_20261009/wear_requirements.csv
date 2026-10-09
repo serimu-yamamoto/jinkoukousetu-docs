@@ -1,0 +1,17 @@
+course_runs,traffic_band_m,nominal_cap_um,usable_fraction,kw_max_mm3_Nm,status
+10000,20.0,1.0,0.5,3.5909334035108904e-06,required_value_not_measured
+10000,20.0,5.0,0.5,1.7954667017554452e-05,required_value_not_measured
+10000,20.0,25.0,0.5,8.977333508777225e-05,required_value_not_measured
+10000,20.0,50.0,0.5,0.0001795466701755445,required_value_not_measured
+10000,2.0,1.0,0.5,3.5909334035108903e-07,required_value_not_measured
+10000,2.0,5.0,0.5,1.7954667017554452e-06,required_value_not_measured
+10000,2.0,25.0,0.5,8.977333508777226e-06,required_value_not_measured
+10000,2.0,50.0,0.5,1.7954667017554452e-05,required_value_not_measured
+100000,20.0,1.0,0.5,3.5909334035108903e-07,required_value_not_measured
+100000,20.0,5.0,0.5,1.7954667017554452e-06,required_value_not_measured
+100000,20.0,25.0,0.5,8.977333508777226e-06,required_value_not_measured
+100000,20.0,50.0,0.5,1.7954667017554452e-05,required_value_not_measured
+100000,2.0,1.0,0.5,3.590933403510891e-08,required_value_not_measured
+100000,2.0,5.0,0.5,1.7954667017554451e-07,required_value_not_measured
+100000,2.0,25.0,0.5,8.977333508777226e-07,required_value_not_measured
+100000,2.0,50.0,0.5,1.7954667017554452e-06,required_value_not_measured

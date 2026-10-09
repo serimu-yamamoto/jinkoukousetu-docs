@@ -1,0 +1,9 @@
+UH_weight_fraction,UH_volume_fraction,exposed_area_fraction_assumed_equal_to_volume,tau_uniform_mix_Pa,mu_interface_screen,mu_with_other_assumed,meets_assumed_interface_budget,status
+0.0,0.0,0.0,300000.0,0.255854005000151,0.275854005000151,False,uniform_shear_hypothesis_not_composite_prediction
+0.05,0.062337662337662345,0.062337662337662345,283168.83116883115,0.24149959848585678,0.2614995984858568,False,uniform_shear_hypothesis_not_composite_prediction
+0.1,0.12307692307692308,0.12307692307692308,266769.23076923075,0.2275132536770573,0.2475132536770573,False,uniform_shear_hypothesis_not_composite_prediction
+0.2,0.24,0.24,235200.0,0.20058953992011838,0.22058953992011837,False,uniform_shear_hypothesis_not_composite_prediction
+0.4,0.45714285714285713,0.45714285714285713,176571.42857142858,0.1505883572286603,0.17058835722866028,False,uniform_shear_hypothesis_not_composite_prediction
+0.6,0.6545454545454545,0.6545454545454545,123272.72727272726,0.10513273660006203,0.12513273660006202,False,uniform_shear_hypothesis_not_composite_prediction
+0.8,0.8347826086956522,0.8347826086956522,74608.69565217389,0.06362977863482014,0.08362977863482014,True,uniform_shear_hypothesis_not_composite_prediction
+1.0,1.0,1.0,30000.0,0.025585400500015096,0.0455854005000151,True,uniform_shear_hypothesis_not_composite_prediction

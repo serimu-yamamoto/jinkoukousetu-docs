@@ -1,0 +1,9 @@
+course_area_m2,functional_depth_m,all_pad_area_m2,cap_thickness_um,finished_cap_mass_kg,raw_cap_material_JPY_ex_tax,assumed_price_JPY_kg,assumed_yield,excludes
+2000.0,0.45,675291.968854954,1.0,641.5273704122063,400954.6065076289,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+2000.0,0.45,675291.968854954,5.0,3207.6368520610313,2004773.0325381444,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+2000.0,0.45,675291.968854954,25.0,16038.184260305155,10023865.162690721,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+2000.0,0.45,675291.968854954,50.0,32076.36852061031,20047730.325381443,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+20000.0,0.45,6752919.68854954,1.0,6415.273704122063,4009546.0650762888,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+20000.0,0.45,6752919.68854954,5.0,32076.36852061031,20047730.325381443,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+20000.0,0.45,6752919.68854954,25.0,160381.84260305157,100238651.62690723,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax
+20000.0,0.45,6752919.68854954,50.0,320763.68520610314,200477303.25381446,500.0,0.8,support skeleton; bonding; shaping; rejects beyond stated yield; factory; shipping; civil; maintenance; tax

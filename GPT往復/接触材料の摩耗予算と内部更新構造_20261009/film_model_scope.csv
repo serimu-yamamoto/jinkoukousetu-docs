@@ -1,0 +1,6 @@
+thickness_um,thickness_wavelength_ratio,thin_plate_screen_in_scope,compliance_retention_if_in_scope,status
+1.0,0.021052631578947368,True,0.995674050522591,continuous_film_only; no segmented-cap extrapolation
+2.0,0.042105263157894736,True,0.9664095774760706,continuous_film_only; no segmented-cap extrapolation
+5.0,0.10526315789473682,False,,continuous_film_only; no segmented-cap extrapolation
+25.0,0.5263157894736842,False,,continuous_film_only; no segmented-cap extrapolation
+50.0,1.0526315789473684,False,,continuous_film_only; no segmented-cap extrapolation
