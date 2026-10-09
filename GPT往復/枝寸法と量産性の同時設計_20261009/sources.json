@@ -1,0 +1,31 @@
+[
+  {
+    "id": "S1",
+    "title": "Rumen Krastev, Consistent Presentation of the Beam Deflection Theory Including Shear Correction (2021)",
+    "url": "https://stumejournals.com/journals/mm/2021/4/120",
+    "pdf_url": "https://stumejournals.com/journals/mm/2021/4/120.full.pdf",
+    "verified": "2026-10-09",
+    "read_scope": "本文・式(4)–(7), (17)–(23)。印刷122頁/PDF3枚目を目視。",
+    "pdf_sha256": "f81cc007f345d6431027179dcf3b4baa91ac00ce49be0710f07d909f3a0428ca",
+    "use": "曲げと横せん断を分ける原式とせん断エネルギーの扱い。積層断面への積分は今回独自の理想化。",
+    "not_proven": "多孔質粒の50℃物性、短太い自由粒の三次元変形、粒床の雪状性。"
+  },
+  {
+    "id": "S2",
+    "title": "Götz, Pöschel and D'Angelo, Structural features of jammed-granulate metamaterials (2024)",
+    "url": "https://doi.org/10.1103/PhysRevResearch.6.013061",
+    "verified": "2026-10-09",
+    "read_scope": "出版社掲載の要旨のみ。数値・図・本文の校正データは転記していない。",
+    "use": "粒床の剛性は充填・調製履歴にも依存するため、単粒の枝剛性から床のHを決めない根拠。",
+    "not_proven": "自由な人工フィルン、濡れた薄片、天然雪の実測、50℃の摩擦性能。"
+  },
+  {
+    "id": "S3",
+    "title": "IAPWS R1-76(2014), Revised Release on the Surface Tension of Ordinary Water Substance",
+    "url": "https://iapws.org/technical-guidance/release/Surf-H2O",
+    "verified": "2026-10-09",
+    "read_scope": "公式リリース。第76巡の純水式を再計算。",
+    "use": "50℃純水表面張力の尺度。",
+    "not_proven": "汚れた雨水、実粒の接触角、界面活性物質の影響、実粒の毛管力。"
+  }
+]

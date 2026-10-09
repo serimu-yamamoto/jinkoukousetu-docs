@@ -1,0 +1,29 @@
+[
+  {
+    "core_modulus_power_assumed": 1,
+    "core_thickness_m": 0.00015000000000000001,
+    "skin_thickness_m": 1.5e-05,
+    "final_thickness_m": 0.00018,
+    "D_per_width_N_m": 0.00018675,
+    "K_shear_per_width_N_m": 16892.83612562768,
+    "actual_material": null
+  },
+  {
+    "core_modulus_power_assumed": 2,
+    "core_thickness_m": 0.00015000000000000001,
+    "skin_thickness_m": 1.5e-05,
+    "final_thickness_m": 0.00018,
+    "D_per_width_N_m": 0.000153,
+    "K_shear_per_width_N_m": 10596.042616294824,
+    "actual_material": null
+  },
+  {
+    "core_modulus_power_assumed": 3,
+    "core_thickness_m": 0.00015000000000000001,
+    "skin_thickness_m": 1.5e-05,
+    "final_thickness_m": 0.00018,
+    "D_per_width_N_m": 0.00013275,
+    "K_shear_per_width_N_m": 6582.47771917059,
+    "actual_material": null
+  }
+]

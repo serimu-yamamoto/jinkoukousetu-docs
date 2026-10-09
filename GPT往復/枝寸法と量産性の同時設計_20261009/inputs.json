@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-09",
+  "reference_commit": "82b04cb42ca7b243c8adc70604f2c3dc99340b46",
+  "reference_cycle": 85,
+  "base": {
+    "cell_size_mm": 0.25,
+    "edge_inset_mm": 0.005,
+    "center_hole_mm": 0.1,
+    "initial_thickness_mm": 0.2,
+    "porosity": 0.4,
+    "initial_densified_depth_each_side_mm": 0.025,
+    "solid_density_kg_m3": 930
+  },
+  "scales": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "modes": [
+    "planar_only",
+    "uniform_3d"
+  ],
+  "mechanics": {
+    "solid_moduli_MPa_assumed": [
+      100,
+      500,
+      1000
+    ],
+    "core_power": 2,
+    "core_power_sensitivity": [
+      1,
+      2,
+      3
+    ],
+    "poisson_ratio_assumed": 0.4,
+    "nominal_pressures_Pa": [
+      2000,
+      20000
+    ],
+    "active_support_fractions_assumed": [
+      1,
+      0.1
+    ],
+    "one_arm_carries_one_support_cell": true,
+    "review_flags": {
+      "thickness_over_free_length_above": 0.3,
+      "tip_deflection_over_free_length_above": 0.1
+    },
+    "snow_target_deflection_ratio": null
+  },
+  "wet": {
+    "gaps_um": [
+      20,
+      50,
+      100
+    ],
+    "contact_angles_deg_assumed": [
+      0,
+      60
+    ],
+    "temperature_K": 323.15,
+    "water_critical_temperature_K": 647.096,
+    "surface_tension_B_N_m": 0.2358,
+    "surface_tension_exponent": 1.256,
+    "surface_tension_b": -0.625,
+    "scope": "two fixed-base identical opposing beams; full-face wetting; uniform minimum-gap pressure; excludes free particle translation and contact-line force"
+  },
+  "production": {
+    "areas_m2": [
+      2000,
+      20000
+    ],
+    "depth_m": 0.45,
+    "bed_density_kg_m3_assumed": 150,
+    "quality_yield_assumed": 0.9,
+    "reject_recovery_assumed": 0.9,
+    "campaign_h": 2304,
+    "web_width_m": 1,
+    "reference_hold_min": 10,
+    "raw_powder_yen_kg_ex_tax_assumed": 500,
+    "electricity_yen_kWh_ex_tax_assumed": 25,
+    "polymer_heat_kWh_kg_ideal_assumed": 0.11666666666666667,
+    "thermal_efficiency_assumed": 0.4
+  },
+  "status": {
+    "physical_experiments": 0,
+    "success_probability": null,
+    "equipment_secured": false,
+    "provider_contacts_sent": 0,
+    "orders_placed": 0,
+    "finished_safety_verified": false,
+    "actual_total_manufacturing_cost_yen": null
+  }
+}

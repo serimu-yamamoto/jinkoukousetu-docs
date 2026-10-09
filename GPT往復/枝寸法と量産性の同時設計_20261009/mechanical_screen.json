@@ -1,0 +1,1822 @@
+[
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.000625,
+    "bending_deflection_um": 0.443247322076979,
+    "shear_deflection_um": 0.30720981891177035,
+    "total_deflection_um": 0.7504571409887493,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725494,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 4.432473220769789,
+    "shear_deflection_um": 3.072098189117703,
+    "total_deflection_um": 7.504571409887491,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 4.432473220769789,
+    "shear_deflection_um": 3.072098189117703,
+    "total_deflection_um": 7.504571409887491,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.06249999999999999,
+    "bending_deflection_um": 44.324732207697885,
+    "shear_deflection_um": 30.720981891177026,
+    "total_deflection_um": 75.04571409887491,
+    "deflection_over_free_length": 0.30018285639549963,
+    "outer_fibre_strain_estimate": 0.1914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.000625,
+    "bending_deflection_um": 0.08864946441539578,
+    "shear_deflection_um": 0.06144196378235405,
+    "total_deflection_um": 0.15009142819774982,
+    "deflection_over_free_length": 0.0006003657127909993,
+    "outer_fibre_strain_estimate": 0.00038296568627450985,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.8864946441539578,
+    "shear_deflection_um": 0.6144196378235405,
+    "total_deflection_um": 1.5009142819774983,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.8864946441539578,
+    "shear_deflection_um": 0.6144196378235405,
+    "total_deflection_um": 1.5009142819774983,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.06249999999999999,
+    "bending_deflection_um": 8.864946441539576,
+    "shear_deflection_um": 6.144196378235404,
+    "total_deflection_um": 15.00914281977498,
+    "deflection_over_free_length": 0.06003657127909992,
+    "outer_fibre_strain_estimate": 0.038296568627450976,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.000625,
+    "bending_deflection_um": 0.04432473220769789,
+    "shear_deflection_um": 0.030720981891177026,
+    "total_deflection_um": 0.07504571409887491,
+    "deflection_over_free_length": 0.0003001828563954997,
+    "outer_fibre_strain_estimate": 0.00019148284313725493,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.4432473220769789,
+    "shear_deflection_um": 0.30720981891177024,
+    "total_deflection_um": 0.7504571409887492,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.4432473220769789,
+    "shear_deflection_um": 0.30720981891177024,
+    "total_deflection_um": 0.7504571409887492,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.06249999999999999,
+    "bending_deflection_um": 4.432473220769788,
+    "shear_deflection_um": 3.072098189117702,
+    "total_deflection_um": 7.50457140988749,
+    "deflection_over_free_length": 0.03001828563954996,
+    "outer_fibre_strain_estimate": 0.019148284313725488,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0025,
+    "bending_deflection_um": 7.091957153231664,
+    "shear_deflection_um": 1.2288392756470814,
+    "total_deflection_um": 8.320796428878745,
+    "deflection_over_free_length": 0.01664159285775749,
+    "outer_fibre_strain_estimate": 0.0076593137254901975,
+    "shear_to_bending_deflection": 0.17327223629476157,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 70.91957153231662,
+    "shear_deflection_um": 12.288392756470811,
+    "total_deflection_um": 83.20796428878742,
+    "deflection_over_free_length": 0.16641592857757484,
+    "outer_fibre_strain_estimate": 0.07659313725490197,
+    "shear_to_bending_deflection": 0.17327223629476157,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 70.91957153231662,
+    "shear_deflection_um": 12.288392756470811,
+    "total_deflection_um": 83.20796428878742,
+    "deflection_over_free_length": 0.16641592857757484,
+    "outer_fibre_strain_estimate": 0.07659313725490197,
+    "shear_to_bending_deflection": 0.17327223629476157,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.24999999999999997,
+    "bending_deflection_um": 709.1957153231662,
+    "shear_deflection_um": 122.8839275647081,
+    "total_deflection_um": 832.0796428878743,
+    "deflection_over_free_length": 1.6641592857757486,
+    "outer_fibre_strain_estimate": 0.7659313725490196,
+    "shear_to_bending_deflection": 0.17327223629476157,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0025,
+    "bending_deflection_um": 1.4183914306463326,
+    "shear_deflection_um": 0.2457678551294162,
+    "total_deflection_um": 1.6641592857757488,
+    "deflection_over_free_length": 0.003328318571551498,
+    "outer_fibre_strain_estimate": 0.0015318627450980394,
+    "shear_to_bending_deflection": 0.17327223629476154,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 14.183914306463326,
+    "shear_deflection_um": 2.457678551294162,
+    "total_deflection_um": 16.641592857757487,
+    "deflection_over_free_length": 0.033283185715514974,
+    "outer_fibre_strain_estimate": 0.015318627450980392,
+    "shear_to_bending_deflection": 0.17327223629476152,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 14.183914306463326,
+    "shear_deflection_um": 2.457678551294162,
+    "total_deflection_um": 16.641592857757487,
+    "deflection_over_free_length": 0.033283185715514974,
+    "outer_fibre_strain_estimate": 0.015318627450980392,
+    "shear_to_bending_deflection": 0.17327223629476152,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.24999999999999997,
+    "bending_deflection_um": 141.83914306463322,
+    "shear_deflection_um": 24.576785512941616,
+    "total_deflection_um": 166.41592857757482,
+    "deflection_over_free_length": 0.3328318571551497,
+    "outer_fibre_strain_estimate": 0.1531862745098039,
+    "shear_to_bending_deflection": 0.17327223629476154,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0025,
+    "bending_deflection_um": 0.7091957153231663,
+    "shear_deflection_um": 0.1228839275647081,
+    "total_deflection_um": 0.8320796428878744,
+    "deflection_over_free_length": 0.001664159285775749,
+    "outer_fibre_strain_estimate": 0.0007659313725490197,
+    "shear_to_bending_deflection": 0.17327223629476154,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 7.091957153231663,
+    "shear_deflection_um": 1.228839275647081,
+    "total_deflection_um": 8.320796428878744,
+    "deflection_over_free_length": 0.016641592857757487,
+    "outer_fibre_strain_estimate": 0.007659313725490196,
+    "shear_to_bending_deflection": 0.17327223629476152,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 7.091957153231663,
+    "shear_deflection_um": 1.228839275647081,
+    "total_deflection_um": 8.320796428878744,
+    "deflection_over_free_length": 0.016641592857757487,
+    "outer_fibre_strain_estimate": 0.007659313725490196,
+    "shear_to_bending_deflection": 0.17327223629476152,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.24999999999999997,
+    "bending_deflection_um": 70.91957153231661,
+    "shear_deflection_um": 12.288392756470808,
+    "total_deflection_um": 83.20796428878741,
+    "deflection_over_free_length": 0.16641592857757484,
+    "outer_fibre_strain_estimate": 0.07659313725490195,
+    "shear_to_bending_deflection": 0.17327223629476154,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.005625,
+    "bending_deflection_um": 35.903033088235325,
+    "shear_deflection_um": 2.7648883702059335,
+    "total_deflection_um": 38.667921458441256,
+    "deflection_over_free_length": 0.051557228611255,
+    "outer_fibre_strain_estimate": 0.017233455882352946,
+    "shear_to_bending_deflection": 0.07700988279767176,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 359.03033088235316,
+    "shear_deflection_um": 27.64888370205933,
+    "total_deflection_um": 386.67921458441253,
+    "deflection_over_free_length": 0.51557228611255,
+    "outer_fibre_strain_estimate": 0.17233455882352947,
+    "shear_to_bending_deflection": 0.07700988279767176,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 359.03033088235316,
+    "shear_deflection_um": 27.64888370205933,
+    "total_deflection_um": 386.67921458441253,
+    "deflection_over_free_length": 0.51557228611255,
+    "outer_fibre_strain_estimate": 0.17233455882352947,
+    "shear_to_bending_deflection": 0.07700988279767176,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.5624999999999999,
+    "bending_deflection_um": 3590.303308823532,
+    "shear_deflection_um": 276.4888370205933,
+    "total_deflection_um": 3866.792145844125,
+    "deflection_over_free_length": 5.155722861125499,
+    "outer_fibre_strain_estimate": 1.7233455882352942,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.005625,
+    "bending_deflection_um": 7.180606617647065,
+    "shear_deflection_um": 0.5529776740411866,
+    "total_deflection_um": 7.733584291688252,
+    "deflection_over_free_length": 0.010311445722251,
+    "outer_fibre_strain_estimate": 0.0034466911764705894,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 71.80606617647064,
+    "shear_deflection_um": 5.529776740411865,
+    "total_deflection_um": 77.3358429168825,
+    "deflection_over_free_length": 0.10311445722250998,
+    "outer_fibre_strain_estimate": 0.03446691176470589,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 71.80606617647064,
+    "shear_deflection_um": 5.529776740411865,
+    "total_deflection_um": 77.3358429168825,
+    "deflection_over_free_length": 0.10311445722250998,
+    "outer_fibre_strain_estimate": 0.03446691176470589,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.5624999999999999,
+    "bending_deflection_um": 718.0606617647063,
+    "shear_deflection_um": 55.29776740411865,
+    "total_deflection_um": 773.3584291688251,
+    "deflection_over_free_length": 1.0311445722251,
+    "outer_fibre_strain_estimate": 0.3446691176470589,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.005625,
+    "bending_deflection_um": 3.5903033088235325,
+    "shear_deflection_um": 0.2764888370205933,
+    "total_deflection_um": 3.866792145844126,
+    "deflection_over_free_length": 0.0051557228611255,
+    "outer_fibre_strain_estimate": 0.0017233455882352947,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 35.90303308823532,
+    "shear_deflection_um": 2.7648883702059326,
+    "total_deflection_um": 38.66792145844125,
+    "deflection_over_free_length": 0.05155722861125499,
+    "outer_fibre_strain_estimate": 0.017233455882352946,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 35.90303308823532,
+    "shear_deflection_um": 2.7648883702059326,
+    "total_deflection_um": 38.66792145844125,
+    "deflection_over_free_length": 0.05155722861125499,
+    "outer_fibre_strain_estimate": 0.017233455882352946,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.5624999999999999,
+    "bending_deflection_um": 359.03033088235316,
+    "shear_deflection_um": 27.648883702059326,
+    "total_deflection_um": 386.67921458441253,
+    "deflection_over_free_length": 0.51557228611255,
+    "outer_fibre_strain_estimate": 0.17233455882352944,
+    "shear_to_bending_deflection": 0.07700988279767175,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.01,
+    "bending_deflection_um": 113.47131445170662,
+    "shear_deflection_um": 4.915357102588326,
+    "total_deflection_um": 118.38667155429494,
+    "deflection_over_free_length": 0.11838667155429493,
+    "outer_fibre_strain_estimate": 0.03063725490196079,
+    "shear_to_bending_deflection": 0.04331805907369039,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 1134.713144517066,
+    "shear_deflection_um": 49.153571025883245,
+    "total_deflection_um": 1183.8667155429491,
+    "deflection_over_free_length": 1.183866715542949,
+    "outer_fibre_strain_estimate": 0.30637254901960786,
+    "shear_to_bending_deflection": 0.04331805907369039,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 1134.713144517066,
+    "shear_deflection_um": 49.153571025883245,
+    "total_deflection_um": 1183.8667155429491,
+    "deflection_over_free_length": 1.183866715542949,
+    "outer_fibre_strain_estimate": 0.30637254901960786,
+    "shear_to_bending_deflection": 0.04331805907369039,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.9999999999999999,
+    "bending_deflection_um": 11347.131445170658,
+    "shear_deflection_um": 491.5357102588324,
+    "total_deflection_um": 11838.667155429492,
+    "deflection_over_free_length": 11.83866715542949,
+    "outer_fibre_strain_estimate": 3.063725490196078,
+    "shear_to_bending_deflection": 0.04331805907369039,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.01,
+    "bending_deflection_um": 22.69426289034132,
+    "shear_deflection_um": 0.9830714205176648,
+    "total_deflection_um": 23.677334310858985,
+    "deflection_over_free_length": 0.023677334310858986,
+    "outer_fibre_strain_estimate": 0.006127450980392158,
+    "shear_to_bending_deflection": 0.043318059073690386,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 226.9426289034132,
+    "shear_deflection_um": 9.830714205176648,
+    "total_deflection_um": 236.77334310858984,
+    "deflection_over_free_length": 0.23677334310858983,
+    "outer_fibre_strain_estimate": 0.061274509803921566,
+    "shear_to_bending_deflection": 0.04331805907369038,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 226.9426289034132,
+    "shear_deflection_um": 9.830714205176648,
+    "total_deflection_um": 236.77334310858984,
+    "deflection_over_free_length": 0.23677334310858983,
+    "outer_fibre_strain_estimate": 0.061274509803921566,
+    "shear_to_bending_deflection": 0.04331805907369038,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.9999999999999999,
+    "bending_deflection_um": 2269.4262890341315,
+    "shear_deflection_um": 98.30714205176646,
+    "total_deflection_um": 2367.733431085898,
+    "deflection_over_free_length": 2.367733431085898,
+    "outer_fibre_strain_estimate": 0.6127450980392156,
+    "shear_to_bending_deflection": 0.043318059073690386,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.01,
+    "bending_deflection_um": 11.34713144517066,
+    "shear_deflection_um": 0.4915357102588324,
+    "total_deflection_um": 11.838667155429492,
+    "deflection_over_free_length": 0.011838667155429493,
+    "outer_fibre_strain_estimate": 0.003063725490196079,
+    "shear_to_bending_deflection": 0.043318059073690386,
+    "review_flags": [],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 113.4713144517066,
+    "shear_deflection_um": 4.915357102588324,
+    "total_deflection_um": 118.38667155429492,
+    "deflection_over_free_length": 0.11838667155429491,
+    "outer_fibre_strain_estimate": 0.030637254901960783,
+    "shear_to_bending_deflection": 0.04331805907369038,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 113.4713144517066,
+    "shear_deflection_um": 4.915357102588324,
+    "total_deflection_um": 118.38667155429492,
+    "deflection_over_free_length": 0.11838667155429491,
+    "outer_fibre_strain_estimate": 0.030637254901960783,
+    "shear_to_bending_deflection": 0.04331805907369038,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "planar_only_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.9999999999999999,
+    "bending_deflection_um": 1134.7131445170658,
+    "shear_deflection_um": 49.15357102588323,
+    "total_deflection_um": 1183.866715542949,
+    "deflection_over_free_length": 1.183866715542949,
+    "outer_fibre_strain_estimate": 0.3063725490196078,
+    "shear_to_bending_deflection": 0.043318059073690386,
+    "review_flags": [
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.000625,
+    "bending_deflection_um": 0.443247322076979,
+    "shear_deflection_um": 0.30720981891177035,
+    "total_deflection_um": 0.7504571409887493,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725494,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 4.432473220769789,
+    "shear_deflection_um": 3.072098189117703,
+    "total_deflection_um": 7.504571409887491,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 4.432473220769789,
+    "shear_deflection_um": 3.072098189117703,
+    "total_deflection_um": 7.504571409887491,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.06249999999999999,
+    "bending_deflection_um": 44.324732207697885,
+    "shear_deflection_um": 30.720981891177026,
+    "total_deflection_um": 75.04571409887491,
+    "deflection_over_free_length": 0.30018285639549963,
+    "outer_fibre_strain_estimate": 0.1914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.000625,
+    "bending_deflection_um": 0.08864946441539578,
+    "shear_deflection_um": 0.06144196378235405,
+    "total_deflection_um": 0.15009142819774982,
+    "deflection_over_free_length": 0.0006003657127909993,
+    "outer_fibre_strain_estimate": 0.00038296568627450985,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.8864946441539578,
+    "shear_deflection_um": 0.6144196378235405,
+    "total_deflection_um": 1.5009142819774983,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.8864946441539578,
+    "shear_deflection_um": 0.6144196378235405,
+    "total_deflection_um": 1.5009142819774983,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.06249999999999999,
+    "bending_deflection_um": 8.864946441539576,
+    "shear_deflection_um": 6.144196378235404,
+    "total_deflection_um": 15.00914281977498,
+    "deflection_over_free_length": 0.06003657127909992,
+    "outer_fibre_strain_estimate": 0.038296568627450976,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.000625,
+    "bending_deflection_um": 0.04432473220769789,
+    "shear_deflection_um": 0.030720981891177026,
+    "total_deflection_um": 0.07504571409887491,
+    "deflection_over_free_length": 0.0003001828563954997,
+    "outer_fibre_strain_estimate": 0.00019148284313725493,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.4432473220769789,
+    "shear_deflection_um": 0.30720981891177024,
+    "total_deflection_um": 0.7504571409887492,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0062499999999999995,
+    "bending_deflection_um": 0.4432473220769789,
+    "shear_deflection_um": 0.30720981891177024,
+    "total_deflection_um": 0.7504571409887492,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s1",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.06249999999999999,
+    "bending_deflection_um": 4.432473220769788,
+    "shear_deflection_um": 3.072098189117702,
+    "total_deflection_um": 7.50457140988749,
+    "deflection_over_free_length": 0.03001828563954996,
+    "outer_fibre_strain_estimate": 0.019148284313725488,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0025,
+    "bending_deflection_um": 0.886494644153958,
+    "shear_deflection_um": 0.6144196378235407,
+    "total_deflection_um": 1.5009142819774985,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725494,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 8.864946441539578,
+    "shear_deflection_um": 6.144196378235406,
+    "total_deflection_um": 15.009142819774983,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 8.864946441539578,
+    "shear_deflection_um": 6.144196378235406,
+    "total_deflection_um": 15.009142819774983,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.24999999999999997,
+    "bending_deflection_um": 88.64946441539577,
+    "shear_deflection_um": 61.44196378235405,
+    "total_deflection_um": 150.09142819774982,
+    "deflection_over_free_length": 0.30018285639549963,
+    "outer_fibre_strain_estimate": 0.1914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0025,
+    "bending_deflection_um": 0.17729892883079157,
+    "shear_deflection_um": 0.1228839275647081,
+    "total_deflection_um": 0.30018285639549963,
+    "deflection_over_free_length": 0.0006003657127909993,
+    "outer_fibre_strain_estimate": 0.00038296568627450985,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 1.7729892883079157,
+    "shear_deflection_um": 1.228839275647081,
+    "total_deflection_um": 3.0018285639549966,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 1.7729892883079157,
+    "shear_deflection_um": 1.228839275647081,
+    "total_deflection_um": 3.0018285639549966,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.24999999999999997,
+    "bending_deflection_um": 17.729892883079152,
+    "shear_deflection_um": 12.288392756470808,
+    "total_deflection_um": 30.01828563954996,
+    "deflection_over_free_length": 0.06003657127909992,
+    "outer_fibre_strain_estimate": 0.038296568627450976,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.0025,
+    "bending_deflection_um": 0.08864946441539578,
+    "shear_deflection_um": 0.06144196378235405,
+    "total_deflection_um": 0.15009142819774982,
+    "deflection_over_free_length": 0.0003001828563954997,
+    "outer_fibre_strain_estimate": 0.00019148284313725493,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 0.8864946441539578,
+    "shear_deflection_um": 0.6144196378235405,
+    "total_deflection_um": 1.5009142819774983,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.024999999999999998,
+    "bending_deflection_um": 0.8864946441539578,
+    "shear_deflection_um": 0.6144196378235405,
+    "total_deflection_um": 1.5009142819774983,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s2",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.24999999999999997,
+    "bending_deflection_um": 8.864946441539576,
+    "shear_deflection_um": 6.144196378235404,
+    "total_deflection_um": 15.00914281977498,
+    "deflection_over_free_length": 0.03001828563954996,
+    "outer_fibre_strain_estimate": 0.019148284313725488,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.005625,
+    "bending_deflection_um": 1.329741966230938,
+    "shear_deflection_um": 0.9216294567353103,
+    "total_deflection_um": 2.251371422966248,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725498,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 13.297419662309377,
+    "shear_deflection_um": 9.216294567353101,
+    "total_deflection_um": 22.51371422966248,
+    "deflection_over_free_length": 0.030018285639549967,
+    "outer_fibre_strain_estimate": 0.019148284313725495,
+    "shear_to_bending_deflection": 0.6930889451790451,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 13.297419662309377,
+    "shear_deflection_um": 9.216294567353101,
+    "total_deflection_um": 22.51371422966248,
+    "deflection_over_free_length": 0.030018285639549967,
+    "outer_fibre_strain_estimate": 0.019148284313725495,
+    "shear_to_bending_deflection": 0.6930889451790451,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.5624999999999999,
+    "bending_deflection_um": 132.97419662309377,
+    "shear_deflection_um": 92.162945673531,
+    "total_deflection_um": 225.13714229662477,
+    "deflection_over_free_length": 0.30018285639549963,
+    "outer_fibre_strain_estimate": 0.19148284313725494,
+    "shear_to_bending_deflection": 0.693088945179045,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.005625,
+    "bending_deflection_um": 0.2659483932461876,
+    "shear_deflection_um": 0.18432589134706207,
+    "total_deflection_um": 0.45027428459324964,
+    "deflection_over_free_length": 0.0006003657127909995,
+    "outer_fibre_strain_estimate": 0.00038296568627450996,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 2.659483932461876,
+    "shear_deflection_um": 1.8432589134706205,
+    "total_deflection_um": 4.502742845932496,
+    "deflection_over_free_length": 0.006003657127909994,
+    "outer_fibre_strain_estimate": 0.003829656862745099,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 2.659483932461876,
+    "shear_deflection_um": 1.8432589134706205,
+    "total_deflection_um": 4.502742845932496,
+    "deflection_over_free_length": 0.006003657127909994,
+    "outer_fibre_strain_estimate": 0.003829656862745099,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.5624999999999999,
+    "bending_deflection_um": 26.594839324618757,
+    "shear_deflection_um": 18.432589134706205,
+    "total_deflection_um": 45.02742845932496,
+    "deflection_over_free_length": 0.060036571279099935,
+    "outer_fibre_strain_estimate": 0.03829656862745099,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.005625,
+    "bending_deflection_um": 0.1329741966230938,
+    "shear_deflection_um": 0.09216294567353103,
+    "total_deflection_um": 0.22513714229662482,
+    "deflection_over_free_length": 0.00030018285639549973,
+    "outer_fibre_strain_estimate": 0.00019148284313725498,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 1.329741966230938,
+    "shear_deflection_um": 0.9216294567353103,
+    "total_deflection_um": 2.251371422966248,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725496,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.056249999999999994,
+    "bending_deflection_um": 1.329741966230938,
+    "shear_deflection_um": 0.9216294567353103,
+    "total_deflection_um": 2.251371422966248,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725496,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s3",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.5624999999999999,
+    "bending_deflection_um": 13.297419662309379,
+    "shear_deflection_um": 9.216294567353103,
+    "total_deflection_um": 22.51371422966248,
+    "deflection_over_free_length": 0.030018285639549967,
+    "outer_fibre_strain_estimate": 0.019148284313725495,
+    "shear_to_bending_deflection": 0.6930889451790452,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.01,
+    "bending_deflection_um": 1.772989288307916,
+    "shear_deflection_um": 1.2288392756470814,
+    "total_deflection_um": 3.001828563954997,
+    "deflection_over_free_length": 0.003001828563954997,
+    "outer_fibre_strain_estimate": 0.0019148284313725494,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 17.729892883079156,
+    "shear_deflection_um": 12.288392756470811,
+    "total_deflection_um": 30.018285639549966,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 17.729892883079156,
+    "shear_deflection_um": 12.288392756470811,
+    "total_deflection_um": 30.018285639549966,
+    "deflection_over_free_length": 0.030018285639549964,
+    "outer_fibre_strain_estimate": 0.01914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 100,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.9999999999999999,
+    "bending_deflection_um": 177.29892883079154,
+    "shear_deflection_um": 122.8839275647081,
+    "total_deflection_um": 300.18285639549964,
+    "deflection_over_free_length": 0.30018285639549963,
+    "outer_fibre_strain_estimate": 0.1914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790463,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis",
+      "large_displacement_requires_nonlinear_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.01,
+    "bending_deflection_um": 0.35459785766158314,
+    "shear_deflection_um": 0.2457678551294162,
+    "total_deflection_um": 0.6003657127909993,
+    "deflection_over_free_length": 0.0006003657127909993,
+    "outer_fibre_strain_estimate": 0.00038296568627450985,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 3.5459785766158314,
+    "shear_deflection_um": 2.457678551294162,
+    "total_deflection_um": 6.003657127909993,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 3.5459785766158314,
+    "shear_deflection_um": 2.457678551294162,
+    "total_deflection_um": 6.003657127909993,
+    "deflection_over_free_length": 0.006003657127909993,
+    "outer_fibre_strain_estimate": 0.003829656862745098,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 500,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.9999999999999999,
+    "bending_deflection_um": 35.459785766158305,
+    "shear_deflection_um": 24.576785512941616,
+    "total_deflection_um": 60.03657127909992,
+    "deflection_over_free_length": 0.06003657127909992,
+    "outer_fibre_strain_estimate": 0.038296568627450976,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.01,
+    "bending_deflection_um": 0.17729892883079157,
+    "shear_deflection_um": 0.1228839275647081,
+    "total_deflection_um": 0.30018285639549963,
+    "deflection_over_free_length": 0.0003001828563954997,
+    "outer_fibre_strain_estimate": 0.00019148284313725493,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 2000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 1.7729892883079157,
+    "shear_deflection_um": 1.228839275647081,
+    "total_deflection_um": 3.0018285639549966,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 1,
+    "arm_tip_load_N": 0.09999999999999999,
+    "bending_deflection_um": 1.7729892883079157,
+    "shear_deflection_um": 1.228839275647081,
+    "total_deflection_um": 3.0018285639549966,
+    "deflection_over_free_length": 0.0030018285639549966,
+    "outer_fibre_strain_estimate": 0.001914828431372549,
+    "shear_to_bending_deflection": 0.6930889451790461,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  },
+  {
+    "geometry": "uniform_3d_s4",
+    "solid_modulus_MPa_assumed": 1000,
+    "core_modulus_power": 2,
+    "pressure_Pa_assumed": 20000,
+    "active_support_fraction_assumed": 0.1,
+    "arm_tip_load_N": 0.9999999999999999,
+    "bending_deflection_um": 17.729892883079152,
+    "shear_deflection_um": 12.288392756470808,
+    "total_deflection_um": 30.01828563954996,
+    "deflection_over_free_length": 0.03001828563954996,
+    "outer_fibre_strain_estimate": 0.019148284313725488,
+    "shear_to_bending_deflection": 0.6930889451790462,
+    "review_flags": [
+      "short_thick_arm_requires_3D_analysis"
+    ],
+    "actual_allowable_strain": null,
+    "snowlike_performance": null
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "S86-01",
+    "geometry": "base_0_74mm",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-02",
+    "geometry": "base_0_74mm",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-03",
+    "geometry": "base_0_74mm",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-04",
+    "geometry": "base_0_74mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-05",
+    "geometry": "base_0_74mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-06",
+    "geometry": "base_0_74mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-07",
+    "geometry": "planar_1_48mm",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-08",
+    "geometry": "planar_1_48mm",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-09",
+    "geometry": "planar_1_48mm",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-10",
+    "geometry": "planar_1_48mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-11",
+    "geometry": "planar_1_48mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-12",
+    "geometry": "planar_1_48mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-13",
+    "geometry": "planar_2_22mm",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-14",
+    "geometry": "planar_2_22mm",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-15",
+    "geometry": "planar_2_22mm",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-16",
+    "geometry": "planar_2_22mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-17",
+    "geometry": "planar_2_22mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-18",
+    "geometry": "planar_2_22mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-19",
+    "geometry": "planar_2_96mm",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-20",
+    "geometry": "planar_2_96mm",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-21",
+    "geometry": "planar_2_96mm",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-22",
+    "geometry": "planar_2_96mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-23",
+    "geometry": "planar_2_96mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "measurements": null
+  },
+  {
+    "id": "S86-24",
+    "geometry": "planar_2_96mm",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "measurements": null
+  }
+]

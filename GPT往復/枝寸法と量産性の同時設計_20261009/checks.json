@@ -1,0 +1,94 @@
+[
+  {
+    "name": "50C surface tension",
+    "passed": true
+  },
+  {
+    "name": "H85 geometry recovered",
+    "passed": true
+  },
+  {
+    "name": "inplane area follows square scale",
+    "passed": true
+  },
+  {
+    "name": "similar outline maintains theoretical material yield",
+    "passed": true
+  },
+  {
+    "name": "homogeneous section bending",
+    "passed": true
+  },
+  {
+    "name": "energy shear recovers rectangular five-sixths",
+    "passed": true
+  },
+  {
+    "name": "H85 section stiffness recovered",
+    "passed": true
+  },
+  {
+    "name": "layerwise shear quadrature convergence",
+    "passed": true
+  },
+  {
+    "name": "planar bending s4 and shear s2 scale 1",
+    "passed": true
+  },
+  {
+    "name": "planar bending s4 and shear s2 scale 2",
+    "passed": true
+  },
+  {
+    "name": "planar bending s4 and shear s2 scale 3",
+    "passed": true
+  },
+  {
+    "name": "planar bending s4 and shear s2 scale 4",
+    "passed": true
+  },
+  {
+    "name": "uniform 3D scaling does not change relative compliance",
+    "passed": true
+  },
+  {
+    "name": "load concentration changes force and deformation",
+    "passed": true
+  },
+  {
+    "name": "tip compliance matches virtual work integral",
+    "passed": true
+  },
+  {
+    "name": "wet equilibrium equation",
+    "passed": true
+  },
+  {
+    "name": "wet critical gap formula",
+    "passed": true
+  },
+  {
+    "name": "homogeneous wet limit matches prior bending formula",
+    "passed": true
+  },
+  {
+    "name": "planar enlargement reduces count s2 and contour per batch s1",
+    "passed": true
+  },
+  {
+    "name": "uniform enlargement reduces count s3",
+    "passed": true
+  },
+  {
+    "name": "equal mass and yield preserve selected raw heat subtotal",
+    "passed": true
+  },
+  {
+    "name": "thicker sheet heat path cannot be shortened without dwell assumption",
+    "passed": true
+  },
+  {
+    "name": "24 planned preparations are unperformed",
+    "passed": true
+  }
+]

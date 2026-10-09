@@ -1,0 +1,42 @@
+{
+  "cycle": 86,
+  "date": "2026-10-09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "equipment_secured": false,
+  "provider_contacts_sent": 0,
+  "orders_placed": 0,
+  "quotes_received": 0,
+  "selected_for_comparison": [
+    "H85 0.74mm control",
+    "H86 planar 1.48mm",
+    "H86 planar 2.22mm",
+    "H86 planar 2.96mm"
+  ],
+  "provisional_midpoint_comparison": "H86 planar 2.22mm, not adopted",
+  "adopted_for_ski_use": false,
+  "manufacturing_demonstrated": false,
+  "finished_safety_verified": false,
+  "actual_50C_material_moduli": null,
+  "actual_snow_target_deflection_ratio": null,
+  "actual_total_manufacturing_cost_yen": null,
+  "claude_receipt_confirmed": false,
+  "grooming_budget_tax_included_yen": 200000000,
+  "raw_heat_subtotal_2000m2_yen_ex_tax_assumed": 70018623.91464323,
+  "grooming_budget_includes_all_material_factory_and_RnD": false,
+  "key_rejections": [
+    "short thick H85 arm treated as slender snow branch",
+    "uniform 3D enlargement called relatively softer",
+    "support cell factory area treated as measured bed contact density",
+    "fixed-base wet equilibrium called rain recovery",
+    "number or contour reduction called raw-material cost saving"
+  ],
+  "alternative_routes_preserved": [
+    "3D open skeleton",
+    "discontinuous contacts and short supports",
+    "warm crystallization",
+    "crystal composites",
+    "reversible connections"
+  ],
+  "claude_ledger_sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}

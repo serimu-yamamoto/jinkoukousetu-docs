@@ -1,0 +1,10 @@
+{
+  "figures": [
+    "compliance_wet_tradeoff.png",
+    "geometry_production.png"
+  ],
+  "matplotlib": "3.11.2",
+  "physical_experiments": 0,
+  "manufacturing_demonstrated": false,
+  "source": "own analytic calculations and geometry"
+}
