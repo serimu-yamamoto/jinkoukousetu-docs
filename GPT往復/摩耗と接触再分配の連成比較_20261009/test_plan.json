@@ -1,0 +1,69 @@
+{
+  "physical_experiments": 0,
+  "tests": [
+    {
+      "id": "T81-1",
+      "title": "摩耗前後の構成則",
+      "conditions": "同じ実ソールと候補面、25/50℃、低速発進・1/5/10m/s、乾燥・雨水、複数荷重",
+      "measurements": "力・面積・温度・摩耗深さ・転移物を同時測定し面積則と荷重則を識別",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-2",
+      "title": "均一相と異相の選択摩耗",
+      "conditions": "同じ面を同じ位置で短い距離刻みごとに測る",
+      "measurements": "k(p,v,T,履歴)、突出、欠落を画像測定。定数kの適用区間を限定",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-3",
+      "title": "H81-Pの丸み・荷重範囲",
+      "conditions": "公称形状を固定し0.5/1/1.5/2倍荷重、横力・回転を含める",
+      "measurements": "有限端部半径の応力収束・滑走材の脱落・板の傷。理想公称解だけで合格にしない",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-4",
+      "title": "隙間消耗・侵入物",
+      "conditions": "新品・摩耗後に水・泥・回収微粉を与える",
+      "measurements": "支持材への接触開始・再固着・清掃後回復・摩擦を測る",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-5",
+      "title": "新雪圧雪との比較",
+      "conditions": "板、荷重、速度、天然雪状態と試料状態を揃える",
+      "measurements": "エッジ支持と解離、沈下、縦摩擦、振動、発進停止。許容帯は試験前に固定",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-6",
+      "title": "整地と接点入替え",
+      "conditions": "450mm床で集中帯と分散、4〜5時間相当後の整地",
+      "measurements": "粒追跡で入替え率、摩耗粉、300mm削れ代とR39保持、60分復旧後の機能確認",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-7",
+      "title": "冬・完成材安全",
+      "conditions": "摩耗・濡れ乾燥後の床に雪、自然地盤対照。完成材・粉・溶出物",
+      "measurements": "排水・境界せん断・余分な融雪、曝露別の人体環境評価。樹脂一般名で無害としない",
+      "status": "not_run",
+      "data": null
+    },
+    {
+      "id": "T81-8",
+      "title": "成形と表面調整の比較",
+      "conditions": "そのまま成形／閉鎖工場で初期表面を調整／接点利用を分散",
+      "measurements": "全量加工時間、歩留まり、公差、回収物と再利用、完成費。原料分だけで選ばない",
+      "status": "not_run",
+      "data": null
+    }
+  ]
+}

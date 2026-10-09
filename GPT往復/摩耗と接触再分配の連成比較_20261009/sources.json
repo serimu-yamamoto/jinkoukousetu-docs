@@ -1,0 +1,49 @@
+{
+  "cycle": 81,
+  "checked_date": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Effect of Wear on the Evolution of Contact Pressure at a Bimaterial Sliding Interface",
+      "doi": "10.1007/s11249-020-1269-1",
+      "url": "https://link.springer.com/article/10.1007/s11249-020-1269-1",
+      "author_explanation": "https://imechanica.egr.uh.edu/node/23930",
+      "access": "publisher abstract and author summary; ResearchGate direct request HTTP429; no numerical material properties adopted",
+      "used": "scope of full-contact wear/pressure evolution; no ski validation"
+    },
+    {
+      "id": "S2",
+      "title": "A Closer Look at the Contact Conditions of a Block-on-Flat Wear Experiment",
+      "doi": "10.3390/lubricants10070131",
+      "url": "https://repositum.tuwien.at/handle/20.500.12708/192061",
+      "access": "institutional abstract; publisher direct HTTP429; full PDF not inspected this cycle",
+      "used": "limits of constant nominal area/pressure in wear characterization"
+    },
+    {
+      "id": "S3",
+      "title": "Abaqus official Contact Wear documentation",
+      "url": "https://docs.software.vt.edu/abaqusv2025/English/SIMACAEITNRefMap/simaitn-c-contactwear.htm",
+      "access": "official documentation read",
+      "used": "pressure-based dimensional wear coefficient, state dependence and geometry updates; Abaqus was not executed"
+    },
+    {
+      "id": "S4",
+      "title": "Regimes of soft lubrication",
+      "doi": "10.1017/jfm.2021.96",
+      "url": "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/regimes-of-soft-lubrication/2198767B3740A49ED7CB55CC3F165053",
+      "access": "normal elastic kernel inherited from cycle79 source audit; no new fluid lubrication calculation",
+      "used": "bonded-layer Green function only"
+    }
+  ],
+  "prior_code": {
+    "path": "GPT往復/連続弾性層と接触面積の成立条件_20261009/reproduce.py",
+    "sha256_lf": "764a510b3e37132ccd44aefc8f1a6a8846f151ec0f535bcfaf008642cd864f20"
+  },
+  "claude": {
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "changed_since_cycle80": false,
+    "running_or_reply_confirmed": false
+  },
+  "base_commit": "516dfac67ccd2908adbb2d30b0f7f7924d12ed32"
+}

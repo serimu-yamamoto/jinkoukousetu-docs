@@ -1,0 +1,194 @@
+{
+  "cycle": 81,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "516dfac67ccd2908adbb2d30b0f7f7924d12ed32",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第81巡_摩耗で平らになる面と突き出す接点の比較_20261009.md",
+      "bytes": 15132,
+      "sha256": "f447d28b8dbca47f41613293367ef23f270e2dbc1d102b6ea68a26e10a9a6c33"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 54900,
+      "sha256": "aeffb34da60fa4e49058b908cf3b59b24a01af138d4873aea46c9f7605eaeaa9"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/README.md",
+      "bytes": 1674,
+      "sha256": "08b1e0030eb1b36fcd8eee6ef8a357e97d05b2b634c9bc137b4e5a968ae0663d"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/analytic_decay_check.csv",
+      "bytes": 261,
+      "sha256": "f56d3d5f1d7a061fe73ddad13a094e67afdacd18fcde4df3692ea2548219d28e"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/audit.py",
+      "bytes": 4184,
+      "sha256": "9d56d98054d907c42727dd346593df9c8fcb4526a179be43bac1d57bea4f2d33"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/cap_material_inventory.csv",
+      "bytes": 993,
+      "sha256": "a89766417794ce0e02fe3959c407708509ff70de03c96f8e3fe675e2970c83b1"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/checks.json",
+      "bytes": 5343,
+      "sha256": "717e64d189589c71e7846251e26f9481c1d0471167387f509afa4ec0cc2fb331"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/claude_handoff.md",
+      "bytes": 2141,
+      "sha256": "e33989c24860bb45538a62e64b6c236db977af33523421139d49e87fa12baa4a"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/convergence.csv",
+      "bytes": 2017,
+      "sha256": "fb6ea95be3ddbc5aac0d588cbb2db0b397e23629b9eb8899e8d9f66027fa105f"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/decision.json",
+      "bytes": 1145,
+      "sha256": "0b7932f6052b52f7a5c0644e410104d52a937d354400df76331672ded8db614a"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/document_audit.json",
+      "bytes": 5530,
+      "sha256": "0e3c5d4c3e63216be0af269b5428146594f3b0696e0e87b035fd53296c4bd5f0"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/evolution.csv",
+      "bytes": 16061,
+      "sha256": "4210654ab19c8c5b1f9c0dc2cef344db4c4813101c03b0d9d3260216e3ef00af"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/evolved_profiles.png",
+      "bytes": 161891,
+      "sha256": "cdc5c2f54a2bbc14a624aec2db8194f95f1e763bf8306aa3c7e4f676e3128caf"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/finishing_inventory.csv",
+      "bytes": 1011,
+      "sha256": "8416b1ae23f2a6794b19eb18c515e5fc2b40f00a74e8e9dd8cc559c8eb0fff0c"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/first_test_request.md",
+      "bytes": 5016,
+      "sha256": "4570b6fc6328b5ed23093fb284df8c06333060a9f8c354e96afccaba2f78bc44"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/index_changes.json",
+      "bytes": 5633,
+      "sha256": "e7981c2401105a1f16b2a92ece430fe7093a9e55ec9ac6540d02564cbb7f7d49"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/inputs.json",
+      "bytes": 567,
+      "sha256": "5512e85d83bfd3768078af7f956d67fa5ec64e77e9af4f2e9d19a93f35054ff6"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/model.md",
+      "bytes": 4792,
+      "sha256": "5b80b8c6e79339c860c62d71742496c6e01ef52c2758f6885c99428ba6fc9ef4"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/off_design_loads.csv",
+      "bytes": 679,
+      "sha256": "d1a81ee030e297650717570aa72a998ebd26cc2e4d4c1253b963e0b61309d308"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/profiles.csv",
+      "bytes": 333844,
+      "sha256": "9a36471a6aa0715b197ad7278f52bf033906ee77627b64a360ffc6f7e02cd613"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/recess_clearance_limits.csv",
+      "bytes": 2205,
+      "sha256": "38b66ecbdee0465ddae0d3eebda107d394a7957f88fe2d042abb17f406e4633d"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/recessed_support.png",
+      "bytes": 112745,
+      "sha256": "958631b03c9fd76ebc28e778c3dbf18fb56899b0cebbea9549277b79f4630e5b"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/recessed_support_evolution.csv",
+      "bytes": 5854,
+      "sha256": "df3f4f48a99c1fcdb5561969992f3483526af3acec4fb5880ac9efe3914e5254"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/recessed_support_profiles.csv",
+      "bytes": 93082,
+      "sha256": "f8f49910e83b6e08036c7962f58a74cddfbae013c8cb59fd2f6330b6cad3a802"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/reproduce.py",
+      "bytes": 18771,
+      "sha256": "e0b88eff3f0652393743448cf208596c41a56b6f6275c8659fc131bbcb922cd8"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "b89d4367e39962ee5247bd20ca221673aaab3edbafee4eeae923c9f4cd73e41a"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/sharp_edge_resolution.csv",
+      "bytes": 473,
+      "sha256": "32f5e7e35050f658c610d04905370c2a0f3afc2eecd51d98626bc6e4d887ee53"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/solver_diagnostics.json",
+      "bytes": 4845,
+      "sha256": "fcc8698a0068550a20df50ef5a354c53bc96e6d9bd30b74efc4ecb6bae70202e"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/sources.json",
+      "bytes": 2342,
+      "sha256": "6f8f87c728949d824c289f27115d9b4df21bd759325958c6de89736dada93986"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/stationary_phase_limits.csv",
+      "bytes": 3464,
+      "sha256": "327f4e41c51586fe298f098fdd40f3a2fe97da2727a16e98520f021874c7d145"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/summary.json",
+      "bytes": 12790,
+      "sha256": "e96dfac10f367d0f5c47fea993dbd8ab7a764b5886dbeb2fa1ceffda45b01729"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/test_plan.json",
+      "bytes": 2825,
+      "sha256": "8829dc1b20d53dca6058af9789d326fa010b00344e127aa770bb4da8f6c3978b"
+    },
+    {
+      "path": "GPT往復/摩耗と接触再分配の連成比較_20261009/wear_evolution.png",
+      "bytes": 213179,
+      "sha256": "68d0a3c6d3df064321cb1a3df96ba4fca3ea8438508fe963284666af413ca9d7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 62878,
+      "sha256": "f28ea7252d46f311b6faa2e8ae2b305cf64876e7af961f92161232542782ddb3"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 157428,
+      "sha256": "9f1c67e1516ff2f97ee6e1a55d4f0286b11fedffd18968c081a5454b89a56e84"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 17302,
+      "sha256": "22a2279ffdbee30e84e2e7d14dafdfe031b22ebd41c7258ee2509704c7762d82"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 222168,
+      "sha256": "1aec9acb3c0bb123d92ad1a818adbec21e6fca6b3b265aa483215602a156a9be"
+    }
+  ]
+}

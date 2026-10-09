@@ -1,0 +1,289 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "document_checks": [
+    {
+      "check": "physical_tests_zero",
+      "passed": true
+    },
+    {
+      "check": "probability_null",
+      "passed": true
+    },
+    {
+      "check": "numeric_checks",
+      "passed": true
+    },
+    {
+      "check": "comparison_rows",
+      "passed": true
+    },
+    {
+      "check": "profile_rows",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_5",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_7",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_8",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_9",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_11",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_13",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "check": "reverse_unique_15",
+      "passed": true
+    },
+    {
+      "check": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "check": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "check": "protocols_not_results",
+      "passed": true
+    },
+    {
+      "check": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "check": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "check": "report_guard_営業寿命の予測ではない",
+      "passed": true
+    },
+    {
+      "check": "report_guard_未測定τ",
+      "passed": true
+    },
+    {
+      "check": "report_guard_85.3％",
+      "passed": true
+    },
+    {
+      "check": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "check": "report_guard_60分",
+      "passed": true
+    },
+    {
+      "check": "report_guard_実見積りではなく",
+      "passed": true
+    },
+    {
+      "check": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "check": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "check": "report_guard_受領・稼働・返答は未確認",
+      "passed": true
+    },
+    {
+      "check": "report_guard_設備・協力先はまだない",
+      "passed": true
+    },
+    {
+      "check": "report_guard_格子依存",
+      "passed": true
+    },
+    {
+      "check": "links_checked",
+      "passed": true
+    },
+    {
+      "check": "no_original_papers_published",
+      "passed": true
+    },
+    {
+      "check": "LF_GPT回答_多方向探索第81巡_摩耗で平らになる面と突き出す接点の比較_20261009.md",
+      "passed": true
+    },
+    {
+      "check": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "check": "LF_first_test_request.md",
+      "passed": true
+    },
+    {
+      "check": "LF_model.md",
+      "passed": true
+    },
+    {
+      "check": "LF_README.md",
+      "passed": true
+    },
+    {
+      "check": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "check": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "check": "LF_checks.json",
+      "passed": true
+    },
+    {
+      "check": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "check": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "check": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "LF_solver_diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "check": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "check": "LF_test_plan.json",
+      "passed": true
+    },
+    {
+      "check": "LF_analytic_decay_check.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_cap_material_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_convergence.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_evolution.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_finishing_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_off_design_loads.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_profiles.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_recessed_support_evolution.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_recessed_support_profiles.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_recess_clearance_limits.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_sharp_edge_resolution.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_stationary_phase_limits.csv",
+      "passed": true
+    },
+    {
+      "check": "LF_README.md",
+      "passed": true
+    },
+    {
+      "check": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "check": "LF_README.md",
+      "passed": true
+    },
+    {
+      "check": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "check": "LF_計算部品索引.md",
+      "passed": true
+    },
+    {
+      "check": "three_plots",
+      "passed": true
+    },
+    {
+      "check": "physical_entry_prepared",
+      "passed": true
+    },
+    {
+      "check": "user_test_access_recorded",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 549,
+  "physical_experiments": 0,
+  "reported_success_probability": null
+}

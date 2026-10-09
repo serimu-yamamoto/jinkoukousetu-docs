@@ -1,0 +1,255 @@
+{
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "flat_uniform_pressure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "flat_exact_wear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "SI_conversion",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "analytic_error_decreases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "analytic_error_below_0p2percent",
+      "passed": true,
+      "detail": 0.0009968948981233794
+    },
+    {
+      "name": "phase_area_exact_on_grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_step_contact_residual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_step_load_balance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "implicit_contact_static_agreement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "nonnegative_wear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "integrated_volume_balance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uniform_mean_wear_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uniform_peak_pressure_decreases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "matched_phase_wear_equals_uniform_geometry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "initial_profile_grid_agrees79",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uniform_grid_pmax_MPa",
+      "passed": true,
+      "detail": 9.130560731190991e-10
+    },
+    {
+      "name": "uniform_step_pmax_MPa",
+      "passed": true,
+      "detail": 0.00018502443600049452
+    },
+    {
+      "name": "uniform_grid_mean_wear_um",
+      "passed": true,
+      "detail": 3.189389555578718e-16
+    },
+    {
+      "name": "uniform_step_mean_wear_um",
+      "passed": true,
+      "detail": 3.986736944473381e-15
+    },
+    {
+      "name": "uniform_grid_relief_peak_to_valley_um",
+      "passed": true,
+      "detail": 0.00029017933512709334
+    },
+    {
+      "name": "uniform_step_relief_peak_to_valley_um",
+      "passed": true,
+      "detail": 0.013695070703217354
+    },
+    {
+      "name": "A12_ratio10_grid_pmax_MPa",
+      "passed": true,
+      "detail": 0.005919022743744953
+    },
+    {
+      "name": "A12_ratio10_step_pmax_MPa",
+      "passed": true,
+      "detail": 7.028821240934252e-05
+    },
+    {
+      "name": "A12_ratio10_grid_mean_wear_um",
+      "passed": true,
+      "detail": 0.0041021157925068006
+    },
+    {
+      "name": "A12_ratio10_step_mean_wear_um",
+      "passed": true,
+      "detail": 7.134660600147837e-05
+    },
+    {
+      "name": "A12_ratio10_grid_relief_peak_to_valley_um",
+      "passed": true,
+      "detail": 0.005341998202835276
+    },
+    {
+      "name": "A12_ratio10_step_relief_peak_to_valley_um",
+      "passed": true,
+      "detail": 0.0001615498684280472
+    },
+    {
+      "name": "P37_gap1_uniform_cap_pressure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P37_gap1_no_floor_contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P37_gap1_exact_cap_wear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P50_gap2_uniform_cap_pressure",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P50_gap2_no_floor_contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P50_gap2_exact_cap_wear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recess_cases_contact_residual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.375_0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.375_1.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.375_1.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.375_2.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.5_0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.5_1.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.5_1.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "off_design_load_balance_0.5_2.0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edge_load_balance_128",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edge_load_balance_256",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "edge_load_balance_512",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stationary_wear_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stationary_load_balance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stationary_profile_pressure_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stationary_profile_parallel_recession",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all_contact_area_requirement",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

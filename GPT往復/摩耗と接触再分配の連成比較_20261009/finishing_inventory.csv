@@ -1,0 +1,7 @@
+all_contact_area_m2,removed_equivalent_thickness_um,captured_material_kg_if_density950,hypothetical_line_width_m,line_speed_m_min,availability,area_yield,processing_hours,status
+675291.968854954,0.1,64.15273704122063,1,5.0,0.7,0.8,4019.5950527080595,full_depth_contact_area; no actual multiface process demonstrated
+675291.968854954,0.1,64.15273704122063,1,20.0,0.7,0.8,1004.8987631770149,full_depth_contact_area; no actual multiface process demonstrated
+675291.968854954,0.5,320.76368520610316,1,5.0,0.7,0.8,4019.5950527080595,full_depth_contact_area; no actual multiface process demonstrated
+675291.968854954,0.5,320.76368520610316,1,20.0,0.7,0.8,1004.8987631770149,full_depth_contact_area; no actual multiface process demonstrated
+675291.968854954,1.0,641.5273704122063,1,5.0,0.7,0.8,4019.5950527080595,full_depth_contact_area; no actual multiface process demonstrated
+675291.968854954,1.0,641.5273704122063,1,20.0,0.7,0.8,1004.8987631770149,full_depth_contact_area; no actual multiface process demonstrated

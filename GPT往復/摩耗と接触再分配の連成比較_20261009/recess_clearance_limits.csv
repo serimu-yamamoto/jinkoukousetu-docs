@@ -1,0 +1,13 @@
+cap_area_fraction,clearance_um,uniform_cap_pressure_MPa,distance_to_ideal_floor_contact_m,local_1p6m_passes_to_ideal_floor_contact,mu_area_law_plus_other,pressure_screen_pass,status
+0.25,1.0,3.480989089850186,28.727467228087107,17.954667017554442,0.028618240168426134,False,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.25,2.0,3.480989089850186,57.454934456174215,35.909334035108884,0.028618240168426134,False,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.25,5.0,3.480989089850186,143.63733614043554,89.77333508777221,0.028618240168426134,False,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.375,1.0,2.320659393233457,43.09120084213067,26.932000526331667,0.032927360252639204,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.375,2.0,2.320659393233457,86.18240168426134,53.86400105266333,0.032927360252639204,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.375,5.0,2.320659393233457,215.45600421065333,134.66000263165833,0.032927360252639204,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.5,1.0,1.740494544925093,57.454934456174215,35.909334035108884,0.03723648033685227,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.5,2.0,1.740494544925093,114.90986891234843,71.81866807021777,0.03723648033685227,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.5,5.0,1.740494544925093,287.2746722808711,179.54667017554442,0.03723648033685227,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.75,1.0,1.1603296966167285,86.18240168426134,53.86400105266333,0.045854720505278404,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.75,2.0,1.1603296966167285,172.36480336852267,107.72800210532667,0.045854720505278404,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation
+0.75,5.0,1.1603296966167285,430.91200842130667,269.32000526331666,0.045854720505278404,True,exact in ideal inverse geometry only; no tolerance or finite-grain validation

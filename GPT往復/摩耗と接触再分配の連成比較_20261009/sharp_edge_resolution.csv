@@ -1,0 +1,4 @@
+grid,load_factor,cap_fraction,peak_pressure_MPa,peak_over_E,interpretation
+128,1.5,0.375,4.644473968471072,0.15481579894903572,"sharp-edge model; peak is resolution dependent, not physical stress prediction"
+256,1.5,0.375,5.532235688292771,0.18440785627642572,"sharp-edge model; peak is resolution dependent, not physical stress prediction"
+512,1.5,0.375,6.80977482473971,0.22699249415799036,"sharp-edge model; peak is resolution dependent, not physical stress prediction"
