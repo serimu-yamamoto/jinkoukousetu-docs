@@ -1,0 +1,85 @@
+[
+  {
+    "id": "S1",
+    "title": "三菱ケミカルアドバンスドマテリアルズ TIVAR 1000 Virgin UHMW-PE",
+    "url": "https://www.mcam.com/en/products/shapes/engineering/tivar/tivar-1000-virgin-uhmw-pe",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_product",
+    "use": "自然色の成形素材候補。正確な供給寸法・添加剤・国内価格は別照会。"
+  },
+  {
+    "id": "S2",
+    "title": "TIVAR 1000 UHMW-PE natural 物性表",
+    "url": "https://www.mcam.com/mam/datasheets/PE-TIVAR%C2%AE%201000%20UHMW-PE%20natural_en_US.pdf",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_pdf",
+    "document_date_literal": "07/03/2023",
+    "sha256": "73ac52a85dbe636ce882a4339aaa9205bed8304b4c38b0ae00e275f58dd576cf",
+    "pages_visually_checked": [
+      1,
+      2
+    ],
+    "use": "室温物性と脚注の試験条件。80℃連続使用、HDT A 42℃、ISO引張弾性率750MPa。50℃の設計値へ直接流用しない。"
+  },
+  {
+    "id": "S3",
+    "title": "Ensinger TECAPEEK natural（国際版）",
+    "url": "https://www.ensingerplastics.com/en-gb/shapes/peek-tecapeek-natural",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_product",
+    "use": "無充填、密度1.31g/cm3、引張弾性率4,200MPaを参考にする。原料450又はKT820の記述を確認。試験温度50℃の実測値ではない。"
+  },
+  {
+    "id": "S4",
+    "title": "Ensinger 日本向けPEEK素材",
+    "url": "https://www.ensingerplastics.com/ja-jp/shapes/high-performance-plastics/peek",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_product",
+    "use": "国内販売品はVictrex PEEK 450と明記。国内natural・450・ロットを指定して照会する。受注・供給保証ではない。"
+  },
+  {
+    "id": "S5",
+    "title": "MonotaRO TECAPEEK 板 10×100×100 注文コード17196208",
+    "url": "https://www.monotaro.com/p/1719/6208/",
+    "verified": "2026-10-09",
+    "kind": "seller_price",
+    "public_price_yen_ex_tax": 14980,
+    "public_price_yen_inc_tax": 16478,
+    "use": "当該小売寸法の表示価格のみ。商品欄だけではnatural・原料450・ロットの同定が完結しないため適合は未確認。見積書ではない。"
+  },
+  {
+    "id": "S6",
+    "title": "BASF Elastollan 1185 A 10M000 technical data sheet",
+    "url": "https://download.basf.com/p1/8a8081ec96f843480197313c447b046d/en/Elastollan%25C2%25AE_E_1185_A_10M000",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_pdf",
+    "document_date_literal": "09/11/2023",
+    "version": "5",
+    "sha256": "efbf8322f6b771c996af64986f62f47ec57f11b750d3e51e5c5c8fa335ca4550",
+    "pages_visually_checked": [
+      1
+    ],
+    "use": "polyether TPU、硬度A88、密度1.11。20%伸びの応力3.5MPaはYoung率でない。指定成形・養生による室温試片値。充填材・添加剤・50℃摩擦は未確認。"
+  },
+  {
+    "id": "S7",
+    "title": "ISOSPORT ISOSPEED Sintered Transparent Running Bases",
+    "url": "https://www.isosport.com/en/categories/isospeed-sintered-transparent-running-bases",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_product",
+    "use": "スキー底面用焼結UHMWPEを対向面に指定。一般工業PE板とは分ける。"
+  },
+  {
+    "id": "S8",
+    "title": "ISOSPORT IS 7500 color 000 技術資料",
+    "url": "https://www.isosport.com/ploxmedia/_1_/08360f81d75451e38716b3ccb69fbe2e/data+sheet+-+IS+7500+000.pdf",
+    "verified": "2026-10-09",
+    "kind": "manufacturer_pdf",
+    "document_date_literal": "01/16",
+    "sha256": "76ca657d6e66ba53114350945d7369603fd063235130414c59b3f5d147f459fb",
+    "pages_visually_checked": [
+      1
+    ],
+    "use": "現在のメーカー商品ページから取得した旧発行資料。密度0.930g/cm3。1.25mmは試験片条件から採った仮寸法で、販売厚さを保証しない。ワックス吸収値を出荷時ワックス量としない。"
+  }
+]

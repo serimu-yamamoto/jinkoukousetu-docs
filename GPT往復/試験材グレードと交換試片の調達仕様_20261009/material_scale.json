@@ -1,0 +1,29 @@
+[
+  {
+    "material": "M1",
+    "source_reference_E_MPa": 750,
+    "reference_temperature": "room/reference test, not 50 C",
+    "compliance_relative_to_assumed_30MPa": 0.04,
+    "stiffness_relative_to_assumed_30MPa": 25.0,
+    "same_geometry_same_nu_required": true,
+    "measured_50C_prediction": false
+  },
+  {
+    "material": "M2",
+    "source_reference_E_MPa": 4200,
+    "reference_temperature": "room/reference test, not 50 C",
+    "compliance_relative_to_assumed_30MPa": 0.007142857142857143,
+    "stiffness_relative_to_assumed_30MPa": 140.0,
+    "same_geometry_same_nu_required": true,
+    "measured_50C_prediction": false
+  },
+  {
+    "material": "M3",
+    "source_reference_E_MPa": null,
+    "reference_temperature": "room/reference test, not 50 C",
+    "compliance_relative_to_assumed_30MPa": null,
+    "stiffness_relative_to_assumed_30MPa": null,
+    "same_geometry_same_nu_required": true,
+    "measured_50C_prediction": false
+  }
+]

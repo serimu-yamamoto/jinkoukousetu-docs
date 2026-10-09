@@ -1,0 +1,32 @@
+[
+  {
+    "scenario": "pilot_6_plus_one_PEEK_stock",
+    "basic_test_item_yen_inc_tax": 50160,
+    "PEEK_public_stock_item_yen_inc_tax": 16478,
+    "selected_items_subtotal_yen_inc_tax": 66638,
+    "complete_trial_total_yen": null,
+    "quote": false,
+    "grade_match_confirmed": false,
+    "orders_placed": 0
+  },
+  {
+    "scenario": "all_24_plus_one_PEEK_stock",
+    "basic_test_item_yen_inc_tax": 200640,
+    "PEEK_public_stock_item_yen_inc_tax": 16478,
+    "selected_items_subtotal_yen_inc_tax": 217118,
+    "complete_trial_total_yen": null,
+    "quote": false,
+    "grade_match_confirmed": false,
+    "orders_placed": 0
+  },
+  {
+    "scenario": "all_24_plus_three_PEEK_stocks",
+    "basic_test_item_yen_inc_tax": 200640,
+    "PEEK_public_stock_item_yen_inc_tax": 49434,
+    "selected_items_subtotal_yen_inc_tax": 250074,
+    "complete_trial_total_yen": null,
+    "quote": false,
+    "grade_match_confirmed": false,
+    "orders_placed": 0
+  }
+]

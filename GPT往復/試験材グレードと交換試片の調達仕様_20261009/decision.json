@@ -1,0 +1,22 @@
+{
+  "physical_experiments": 0,
+  "success_probability": null,
+  "equipment_secured": false,
+  "quotes_received": 0,
+  "provider_contacts_sent": 0,
+  "orders_placed": 0,
+  "complete_trial_total_yen": null,
+  "material_status": {
+    "M1": "conditional_50C_shape_and_composition_test",
+    "M2": "conditional_exact_sku_lot_and_friction_test",
+    "M3": "held_pending_unfilled_and_additive_confirmation",
+    "SKI": "conditional_side_finish_wax_history_and_thickness"
+  },
+  "concept": "H83-C same face material on rigid versus compliant support, then finite-particle validation",
+  "finished_snowlike_crystal_verified": false,
+  "full_ski_feel_verified": false,
+  "public_price_is_project_quote": false,
+  "next_high_information_action": "Facility and exact-grade procurement inquiry, then orientation pilots; not yet sent",
+  "claude_update": "ledger unchanged",
+  "claude_receipt_confirmed": false
+}

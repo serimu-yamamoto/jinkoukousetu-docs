@@ -1,0 +1,113 @@
+{
+  "stock_mm": [
+    100,
+    100,
+    10
+  ],
+  "rectangles": [
+    {
+      "id": "disk_blank_1",
+      "x_mm": 3,
+      "y_mm": 3,
+      "w_mm": 64,
+      "h_mm": 64
+    },
+    {
+      "id": "pin_blank_1",
+      "x_mm": 73,
+      "y_mm": 3,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_2",
+      "x_mm": 84,
+      "y_mm": 3,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_3",
+      "x_mm": 73,
+      "y_mm": 14,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_4",
+      "x_mm": 84,
+      "y_mm": 14,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_5",
+      "x_mm": 73,
+      "y_mm": 25,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_6",
+      "x_mm": 84,
+      "y_mm": 25,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_7",
+      "x_mm": 73,
+      "y_mm": 36,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_8",
+      "x_mm": 84,
+      "y_mm": 36,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_9",
+      "x_mm": 73,
+      "y_mm": 47,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_10",
+      "x_mm": 84,
+      "y_mm": 47,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_11",
+      "x_mm": 73,
+      "y_mm": 58,
+      "w_mm": 8,
+      "h_mm": 8
+    },
+    {
+      "id": "pin_blank_12",
+      "x_mm": 84,
+      "y_mm": 58,
+      "w_mm": 8,
+      "h_mm": 8
+    }
+  ],
+  "minimum_gap_mm": 3.0,
+  "finished_disk_center_mm": [
+    35,
+    35
+  ],
+  "finished_disk_diameter_mm": 60,
+  "first_stock_yields": {
+    "candidate_disk": 1,
+    "candidate_pins": 12
+  },
+  "extended_stock_count_per_material": 3,
+  "extended_layout_note": "Two more stocks each supply only one disk; unused offcuts kept as unallocated material.",
+  "scope": "2D collision and allowance check only; supplier must approve fixturing, shrinkage, tolerance, finish and kerf."
+}

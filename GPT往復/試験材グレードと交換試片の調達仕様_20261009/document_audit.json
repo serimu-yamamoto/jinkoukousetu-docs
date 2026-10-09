@@ -1,0 +1,256 @@
+{
+  "document_checks": [
+    {
+      "name": "physical_zero_and_probability_unknown",
+      "passed": true
+    },
+    {
+      "name": "no_actual_supplier_action",
+      "passed": true
+    },
+    {
+      "name": "numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "calculation_rows",
+      "passed": true
+    },
+    {
+      "name": "not_run_plan",
+      "passed": true
+    },
+    {
+      "name": "no_adoption_or_total_price",
+      "passed": true
+    },
+    {
+      "name": "missing_50C_properties_preserved",
+      "passed": true
+    },
+    {
+      "name": "M3_unfilled_not_invented",
+      "passed": true
+    },
+    {
+      "name": "eight_primary_or_price_sources",
+      "passed": true
+    },
+    {
+      "name": "three_pdf_hashes_recorded",
+      "passed": true
+    },
+    {
+      "name": "source_ids_resolve",
+      "passed": true
+    },
+    {
+      "name": "no_PDF_republication",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_12",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_14",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_15",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_16",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_18",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_20",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_22",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_guard_実見積りでも総額でもなく",
+      "passed": true
+    },
+    {
+      "name": "report_guard_50℃の完成材予測ではない",
+      "passed": true
+    },
+    {
+      "name": "report_guard_採用を保留",
+      "passed": true
+    },
+    {
+      "name": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "name": "report_guard_約60分",
+      "passed": true
+    },
+    {
+      "name": "report_guard_人体・環境への無害性は未証明",
+      "passed": true
+    },
+    {
+      "name": "report_guard_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_guard_逆配置",
+      "passed": true
+    },
+    {
+      "name": "local_links_verified",
+      "passed": true
+    },
+    {
+      "name": "LF_GPT回答_多方向探索第83巡_具体グレードと試片費用から絞る材料構成_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_bom.json",
+      "passed": true
+    },
+    {
+      "name": "LF_checks.json",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_cost_scenarios.json",
+      "passed": true
+    },
+    {
+      "name": "LF_cutting_layout.json",
+      "passed": true
+    },
+    {
+      "name": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_materials.json",
+      "passed": true
+    },
+    {
+      "name": "LF_material_scale.json",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_procurement_spec.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "name": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "name": "LF_trial_bindings.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF_計算部品索引.md",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 559,
+  "python": "3.12.14",
+  "physical_experiments": 0,
+  "success_probability": null
+}

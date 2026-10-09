@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "candidates": [
+    {
+      "id": "M1",
+      "family": "UHMWPE",
+      "grade": "TIVAR 1000 Virgin UHMW-PE natural",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "density_g_cm3": 0.93,
+      "room_reference_tensile_E_MPa": 750,
+      "E_50C_MPa": null,
+      "mu_50C_against_ski": null,
+      "k_50C_mm3_Nm": null,
+      "creep_50C": null,
+      "price_yen": null,
+      "role": "低摩擦候補。50℃変形・移着・回復を優先確認。",
+      "procurement_status": "not_contacted",
+      "composition_status": "virgin自然色表記のみ。全添加剤の確認未完。",
+      "HDT_A_C": 42,
+      "HDT_stress_MPa": 1.8,
+      "continuous_air_reference_C": 80
+    },
+    {
+      "id": "M2",
+      "family": "PEEK",
+      "grade": "TECAPEEK natural / 国内Victrex PEEK 450指定",
+      "source_ids": [
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "density_g_cm3": 1.31,
+      "room_reference_tensile_E_MPa": 4200,
+      "E_50C_MPa": null,
+      "mu_50C_against_ski": null,
+      "k_50C_mm3_Nm": null,
+      "creep_50C": null,
+      "price_yen": null,
+      "role": "硬い耐熱接触材の比較対照。全深度大量使用を仮定しない。",
+      "procurement_status": "not_contacted",
+      "composition_status": "natural無充填。小売SKUとの一致・ロット確認未完。"
+    },
+    {
+      "id": "M3",
+      "family": "polyether_TPU",
+      "grade": "BASF Elastollan 1185 A 10M000",
+      "source_ids": [
+        "S6"
+      ],
+      "density_g_cm3": 1.11,
+      "room_reference_tensile_E_MPa": null,
+      "E_50C_MPa": null,
+      "mu_50C_against_ski": null,
+      "k_50C_mm3_Nm": null,
+      "creep_50C": null,
+      "price_yen": null,
+      "role": "柔軟支持と損失・粘着の比較。無充填条件確認まで本試験への採用保留。",
+      "procurement_status": "not_contacted",
+      "composition_status": "polyetherの明記は確認。無充填・全添加剤・潤滑成分不使用は未確認。",
+      "shore_A_reference": 88,
+      "stress_at_20pct_MPa": 3.5
+    }
+  ],
+  "counterface": {
+    "id": "SKI",
+    "grade": "ISOSPORT IS 7500 color 000",
+    "source_ids": [
+      "S7",
+      "S8"
+    ],
+    "density_g_cm3": 0.93,
+    "nominal_fixture_thickness_mm": 1.25,
+    "thickness_status": "provisional_not_confirmed_stock",
+    "mu": null,
+    "price_yen": null,
+    "procurement_status": "not_contacted",
+    "wax_as_supplied": null,
+    "surface_finish": null,
+    "role": "スキー底面の対向材。板・ピン双方で同一ロットの走行側を使う。"
+  },
+  "do_not_substitute": [
+    "filled PEEK",
+    "antistatic or recycled UHMWPE",
+    "1185 A 10 without full suffix identity",
+    "generic industrial UHMWPE for ski counterface"
+  ],
+  "safety_evidence_for_finished_product": null
+}

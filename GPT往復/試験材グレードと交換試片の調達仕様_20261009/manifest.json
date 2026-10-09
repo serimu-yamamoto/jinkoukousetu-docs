@@ -1,0 +1,137 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "cycle": 83,
+  "date": "2026-10-09",
+  "base_commit": "96f7739dfd1bf69886841f0f7f5f609d77124354",
+  "encoding": "UTF-8 LF",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第83巡_具体グレードと試片費用から絞る材料構成_20261009.md",
+      "bytes": 11427,
+      "sha256": "68c05b67f51ea47e8f4768d43e9e74bfaabacd7c46bd07ef4fb2fb81ee0c4d26"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 55972,
+      "sha256": "b1fcf9d2b3fb48dcf6fd48fac8108aa051f8663ea8515fd41a07aea6f5992c5c"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/README.md",
+      "bytes": 1519,
+      "sha256": "85c353df9a02506e89d97f234cf42c4018b79a3c222140c84febf718d26433aa"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/audit.py",
+      "bytes": 4358,
+      "sha256": "a3b3a835696bf63bda1aab892bd7daaafe055c9eba80e148fcb6420658190357"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/bom.json",
+      "bytes": 2649,
+      "sha256": "e81475171604df06f91997d7044c8019db920c7f8bc9666fed24cef479a525e9"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/checks.json",
+      "bytes": 986,
+      "sha256": "9cc8bdd8c680230e3ee8aff707067ef26bbe9fa4a965cd155e1c57e59efd4672"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/claude_handoff.md",
+      "bytes": 3186,
+      "sha256": "3ac7461e8d5a04568cb44dc2d0b92dca9612680a938cf72bec2f9a739caad818"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/cost_scenarios.json",
+      "bytes": 950,
+      "sha256": "a457f25eb806768f0b9de0c371535fbead8a5f7cd42ee8d6ee65d445e5529174"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/cutting_layout.json",
+      "bytes": 1966,
+      "sha256": "9ee1edc203780ea1bfc366d25dbc24e146c3178c1181ce027cefa5cac3771f3d"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/decision.json",
+      "bytes": 900,
+      "sha256": "926996af5c85b5e6dc8cf5ff03d0bf89f3e68d8ca7693330e12d7e85ebe5a396"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/document_audit.json",
+      "bytes": 4867,
+      "sha256": "9efaf5337984e526b0d7480f79623f263742b9f95d77e4a4a077bec191b2bfc6"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/index_changes.json",
+      "bytes": 5288,
+      "sha256": "46267f350fec70dff65425fc3b0ecb386fdd7d25797524717742612c98bf99a7"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/inputs.json",
+      "bytes": 2228,
+      "sha256": "8dab6a41ead334694d002932ac574bc17c8c2c07b608071f4e4f0345e4eb4f44"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/material_scale.json",
+      "bytes": 946,
+      "sha256": "43fdc47b0b85ffb951b8f8bafe4c9e90022ead7372da92d7f1c4e02f338ca0ff"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/materials.json",
+      "bytes": 2894,
+      "sha256": "c0e81bc8b16378933c378e88827c9fcdef3dc231b002483129fee59e696e8443"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/model.md",
+      "bytes": 2866,
+      "sha256": "1e4a07fa45e9d799511b065af235bc10e62ee93d84545e4840217266c7114e41"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/procurement_spec.md",
+      "bytes": 7596,
+      "sha256": "d6b2000031acfef2519c42b3b3c33c4be6a2b57fc465c199af8a76b884a8c6c3"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/reproduce.py",
+      "bytes": 8933,
+      "sha256": "9b9a7b7ccdfcc90c51623d7e1025efc5f5722d5db3b191c7abd69ebfa1a142cf"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json",
+      "bytes": 3945,
+      "sha256": "6e2a529274c46abdbd4140e78ccf461071d6ebcfff53ed1908e2bd7a94fb2976"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/summary.json",
+      "bytes": 737,
+      "sha256": "f73524ea9a0e8d7ad9c7edd7758d070573cfc34563f3019247f204cbbd9dbbd2"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/trial_bindings.json",
+      "bytes": 8043,
+      "sha256": "507cb12a37041c8b8e50acfbaaa48d20b45efede68f9415cbaa8802df3c17101"
+    },
+    {
+      "path": "README.md",
+      "bytes": 64510,
+      "sha256": "b5de487fb6b8000f5fc662b7e6d034f934dfbd955a763287632f28954959ef30"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 160638,
+      "sha256": "48510f4426ca22771658d5e3e77602255026d280102d101883f27031ec8cf91f"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 18106,
+      "sha256": "fd5654943bc689e85c124effed746c89567a4e952880c4835dcef3e96ff6391f"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 222941,
+      "sha256": "769b6b1a3b01f385c8e9a7fd8cb15d822fa1235f433318a142f19846bb6dfde2"
+    }
+  ]
+}

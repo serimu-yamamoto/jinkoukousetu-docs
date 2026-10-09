@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-09",
+  "previous_cycle": 82,
+  "previous_folder": "GPT往復/初回実証の設備照合と試験費用_20261009",
+  "main": {
+    "materials": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "states": [
+      "dry",
+      "once_wet_then_drained"
+    ],
+    "independent_samples_per_state": 3,
+    "orientation_assumption": "candidate_pin_ski_disk"
+  },
+  "pilots": {
+    "per_material": 2,
+    "orientations": [
+      "candidate_pin_ski_disk",
+      "ski_cap_candidate_disk"
+    ],
+    "state": "dry",
+    "orientation_resolved": false
+  },
+  "geometry": {
+    "pin_diameter_mm": 4,
+    "pin_finished_length_mm": 8,
+    "disk_diameter_mm": 60,
+    "disk_finished_thickness_mm": 5,
+    "stock_mm": [
+      100,
+      100,
+      10
+    ],
+    "pin_blank_mm": [
+      8,
+      8,
+      10
+    ],
+    "disk_blank_mm": [
+      64,
+      64,
+      10
+    ],
+    "min_kerf_clearance_mm": 3,
+    "skin_assumed_thickness_mm": 1.25,
+    "units": "mm",
+    "machining_acceptance": false
+  },
+  "purchase_extras_per_material": {
+    "candidate_pin_environmental_blanks": 2,
+    "candidate_pin_spares": 3,
+    "candidate_disk_environmental_blanks": 1,
+    "candidate_disk_spares": 1
+  },
+  "counterface_extras": {
+    "ski_disks_spares": 6,
+    "ski_caps_spares": 3
+  },
+  "prices": {
+    "peek_stock_source": "S5",
+    "peek_stock_yen_ex_tax": 14980,
+    "peek_stock_yen_inc_tax": 16478,
+    "exact_grade_match_confirmed": false,
+    "machining_total_yen": null,
+    "TPU_molding_total_yen": null,
+    "other_materials_total_yen": null,
+    "complete_project_total_yen": null
+  },
+  "basic_test_tariff": {
+    "source_cycle": 82,
+    "yen_inc_tax_per_run": 8360,
+    "scope": "KISTEC基本項目の算術例のみ。受託・付加項目・総額未確認"
+  },
+  "mechanical_scaling": {
+    "reference_assumed_E_MPa": 30,
+    "nu_fixed_for_diagnostic": 0.49,
+    "validity": "同じ線形等方形状・同じnuでのみK proportional to 1/E。室温参考値での感度であり50℃完成材予測ではない"
+  },
+  "status": {
+    "physical_experiments": 0,
+    "success_probability": null,
+    "orders_placed": 0,
+    "provider_contacts_sent": 0,
+    "quotes_received": 0,
+    "equipment_secured": false
+  }
+}

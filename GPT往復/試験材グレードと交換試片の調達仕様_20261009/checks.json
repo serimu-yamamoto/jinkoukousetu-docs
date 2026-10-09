@@ -1,0 +1,50 @@
+[
+  {
+    "name": "24 independent pairs retain 18 prior IDs",
+    "passed": true
+  },
+  {
+    "name": "all sample identities unique",
+    "passed": true
+  },
+  {
+    "name": "balanced main blocks",
+    "passed": true
+  },
+  {
+    "name": "all runs explicitly unperformed",
+    "passed": true
+  },
+  {
+    "name": "core coupon conservation per orientation",
+    "passed": true
+  },
+  {
+    "name": "36 pins and 9 disks are extended stock not replicate count",
+    "passed": true
+  },
+  {
+    "name": "blanks inside slab with 3 mm edge allowance",
+    "passed": true
+  },
+  {
+    "name": "blank separation includes 3 mm kerf",
+    "passed": true
+  },
+  {
+    "name": "finished dimensions fit machining blanks",
+    "passed": true
+  },
+  {
+    "name": "linear elastic diagnostic ratios",
+    "passed": true
+  },
+  {
+    "name": "tax arithmetic and selected item sums",
+    "passed": true
+  },
+  {
+    "name": "unknown prices and material responses not filled in",
+    "passed": true
+  }
+]

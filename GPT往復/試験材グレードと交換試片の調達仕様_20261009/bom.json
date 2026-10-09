@@ -1,0 +1,100 @@
+[
+  {
+    "material": "M1",
+    "item": "candidate_pin",
+    "active_core": 7,
+    "environmental_blanks": 2,
+    "spares": 3,
+    "extended_count": 12,
+    "single_finished_volume_cm3": 0.10053096491487339,
+    "extended_finished_mass_g": 1.121925568449987,
+    "status": "not_procured",
+    "price_yen": null
+  },
+  {
+    "material": "M1",
+    "item": "candidate_disk",
+    "active_core": 1,
+    "environmental_blanks": 1,
+    "spares": 1,
+    "extended_count": 3,
+    "single_finished_volume_cm3": 14.137166941154067,
+    "extended_finished_mass_g": 39.442695765819856,
+    "status": "not_procured",
+    "price_yen": null
+  },
+  {
+    "material": "M2",
+    "item": "candidate_pin",
+    "active_core": 7,
+    "environmental_blanks": 2,
+    "spares": 3,
+    "extended_count": 12,
+    "single_finished_volume_cm3": 0.10053096491487339,
+    "extended_finished_mass_g": 1.5803467684618095,
+    "status": "not_procured",
+    "price_yen": null
+  },
+  {
+    "material": "M2",
+    "item": "candidate_disk",
+    "active_core": 1,
+    "environmental_blanks": 1,
+    "spares": 1,
+    "extended_count": 3,
+    "single_finished_volume_cm3": 14.137166941154067,
+    "extended_finished_mass_g": 55.55906607873549,
+    "status": "not_procured",
+    "price_yen": null
+  },
+  {
+    "material": "M3",
+    "item": "candidate_pin",
+    "active_core": 7,
+    "environmental_blanks": 2,
+    "spares": 3,
+    "extended_count": 12,
+    "single_finished_volume_cm3": 0.10053096491487339,
+    "extended_finished_mass_g": 1.3390724526661135,
+    "status": "not_procured",
+    "price_yen": null
+  },
+  {
+    "material": "M3",
+    "item": "candidate_disk",
+    "active_core": 1,
+    "environmental_blanks": 1,
+    "spares": 1,
+    "extended_count": 3,
+    "single_finished_volume_cm3": 14.137166941154067,
+    "extended_finished_mass_g": 47.07676591404305,
+    "status": "not_procured",
+    "price_yen": null
+  },
+  {
+    "material": "SKI",
+    "item": "ski_disk",
+    "active_core": 21,
+    "environmental_blanks": 0,
+    "spares": 6,
+    "extended_count": 27,
+    "single_finished_volume_cm3": 3.534291735288517,
+    "extended_finished_mass_g": 88.74606547309466,
+    "status": "not_procured",
+    "price_yen": null,
+    "note": "film on holder; thickness provisional, holders excluded"
+  },
+  {
+    "material": "SKI",
+    "item": "ski_cap",
+    "active_core": 3,
+    "environmental_blanks": 0,
+    "spares": 3,
+    "extended_count": 6,
+    "single_finished_volume_cm3": 0.015707963267948967,
+    "extended_finished_mass_g": 0.08765043503515524,
+    "status": "not_procured",
+    "price_yen": null,
+    "note": "film on holder; thickness provisional, holders excluded"
+  }
+]
