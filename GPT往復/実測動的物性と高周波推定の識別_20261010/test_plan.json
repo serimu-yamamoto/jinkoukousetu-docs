@@ -1,0 +1,54 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "first_target": "Matched sample preparation, material grade and environmental state rather than merging unrelated best-case values",
+  "initial_frequency_examples_Hz": [
+    1,
+    10,
+    100
+  ],
+  "temperatures_C": [
+    30,
+    50
+  ],
+  "water_states": [
+    "defined_dry",
+    "defined_wet",
+    "after_wet_dry"
+  ],
+  "amplitude": "Establish linear range first; also measure relevant finite-strain/repeated-load effects",
+  "measurements": [
+    "frequency sweep of storage and loss response",
+    "normal support before and after localized geometric compensation",
+    "longer-term creep and recovery",
+    "actual ski-base friction wear transfer over relevant speeds",
+    "finite lateral opening and residual edge resistance",
+    "mass fraction that truly participates in normal support",
+    "roughness wet-recovery and winter snow-grain-bed coupling"
+  ],
+  "cautions": [
+    "Three initial frequencies do not prove broad-band accuracy",
+    "SRM data not transferred to TIVAR1000 ISOSPORT or fabricated micrograins",
+    "No unverified time-temperature superposition",
+    "Report first-pass and post-restoration behavior",
+    "Include altered opening area and drainage after reinforcement"
+  ],
+  "comparisons": [
+    "radius thickening limited to load-bearing regions",
+    "shorter effective bending span using local stops",
+    "parallel load paths with controlled lateral release"
+  ],
+  "cost_missing": [
+    "actual active mass fraction",
+    "qualified material price",
+    "forming and joining yield",
+    "inspection",
+    "recovery",
+    "replacement rate",
+    "full annual operations"
+  ],
+  "actions": "Research specification only; no purchase, vendor message, paid API or physical trial."
+}

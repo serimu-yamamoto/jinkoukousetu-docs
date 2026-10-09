@@ -1,0 +1,242 @@
+{
+  "cycle": 113,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "計算部品/viscoelastic_glide.py": "ff41d86ad7e6ddacf454e29ae93a70a7fa2749b2622620cbea0ebd893c534f8a",
+    "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json": "3cc51ec1d18b78419b1ac81e0f12ff73443591712228e85fdbcf733986567520"
+  },
+  "measured_source": "https://www.tainstruments.com/pdf/literature/TA328.pdf",
+  "measurement_temperature_comparison_C": [
+    30,
+    50
+  ],
+  "measurement_frequency_Hz": 1,
+  "geometric_comparison": {
+    "storage_ratio_hot_to_reference": 0.6951672862453532,
+    "loss_tangent_reference": 0.07063197026022305,
+    "loss_tangent_hot": 0.12433155080213903,
+    "matched_storage_loss_ratio": 1.760273008725021,
+    "circular_radius_ratio": 1.095160240246577,
+    "circular_active_material_ratio": 1.1993759518169402,
+    "active_span_length_ratio": 0.8858559547213776,
+    "effective_parallel_member_ratio": 1.4385026737967914,
+    "assumptions": "Same uniform linear bending material, boundary condition and frequency; no whole-grain guarantee."
+  },
+  "storage_ratio_reported_spread_corners": {
+    "low": 0.5716783216783217,
+    "central": 0.6951672862453532,
+    "high": 0.8353174603174603,
+    "interpretation": "Arithmetic corners of reported spreads; NOT confidence interval or independent sampling model."
+  },
+  "inverse_families": [
+    {
+      "parameters": {
+        "E0_MPa": 738.7,
+        "deltaE_MPa": 939.3000000000001,
+        "tau_s": 0.015915494309189534,
+        "E_infinity_MPa": 1678.0,
+        "x_at_anchor": 0.1,
+        "anchor_frequency_Hz": 1
+      },
+      "spectrum": [
+        {
+          "frequency_Hz": 1,
+          "E_storage_MPa": 748.0,
+          "E_loss_MPa": 92.99999999999999,
+          "tan_delta": 0.12433155080213902
+        },
+        {
+          "frequency_Hz": 10,
+          "E_storage_MPa": 1208.3500000000001,
+          "E_loss_MPa": 469.65000000000003,
+          "tan_delta": 0.38867050109653656
+        },
+        {
+          "frequency_Hz": 100,
+          "E_storage_MPa": 1668.7,
+          "E_loss_MPa": 93.0,
+          "tan_delta": 0.05573200695151914
+        },
+        {
+          "frequency_Hz": 666.6666666666666,
+          "E_storage_MPa": 1677.7887050413656,
+          "E_loss_MPa": 14.086330575620485,
+          "tan_delta": 0.00839577148975573
+        },
+        {
+          "frequency_Hz": 1000,
+          "E_storage_MPa": 1677.906079392061,
+          "E_loss_MPa": 9.392060793920612,
+          "tan_delta": 0.005597488983008837
+        },
+        {
+          "frequency_Hz": 5000,
+          "E_storage_MPa": 1677.9962428150288,
+          "E_loss_MPa": 1.8785924856300578,
+          "tan_delta": 0.0011195451084434528
+        },
+        {
+          "frequency_Hz": 40000,
+          "E_storage_MPa": 1677.9999412937539,
+          "E_loss_MPa": 0.23482498532343846,
+          "tan_delta": 0.00013994338113169788
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "E0_MPa": 655,
+        "deltaE_MPa": 186.0,
+        "tau_s": 0.15915494309189535,
+        "E_infinity_MPa": 841.0,
+        "x_at_anchor": 1,
+        "anchor_frequency_Hz": 1
+      },
+      "spectrum": [
+        {
+          "frequency_Hz": 1,
+          "E_storage_MPa": 748.0,
+          "E_loss_MPa": 93.0,
+          "tan_delta": 0.12433155080213903
+        },
+        {
+          "frequency_Hz": 10,
+          "E_storage_MPa": 839.1584158415842,
+          "E_loss_MPa": 18.415841584158414,
+          "tan_delta": 0.021945607928735764
+        },
+        {
+          "frequency_Hz": 100,
+          "E_storage_MPa": 840.981401859814,
+          "E_loss_MPa": 1.8598140185981402,
+          "tan_delta": 0.0022114805565083815
+        },
+        {
+          "frequency_Hz": 666.6666666666666,
+          "E_storage_MPa": 840.9995815009416,
+          "E_loss_MPa": 0.2789993722514124,
+          "tan_delta": 0.0003317473377970998
+        },
+        {
+          "frequency_Hz": 1000,
+          "E_storage_MPa": 840.999814000186,
+          "E_loss_MPa": 0.185999814000186,
+          "tan_delta": 0.00022116510717818644
+        },
+        {
+          "frequency_Hz": 5000,
+          "E_storage_MPa": 840.9999925600002,
+          "E_loss_MPa": 0.03719999851200006,
+          "tan_delta": 4.423305450784063e-05
+        },
+        {
+          "frequency_Hz": 40000,
+          "E_storage_MPa": 840.99999988375,
+          "E_loss_MPa": 0.00464999999709375,
+          "tan_delta": 5.529131983039847e-06
+        }
+      ]
+    },
+    {
+      "parameters": {
+        "E0_MPa": 283,
+        "deltaE_MPa": 483.6,
+        "tau_s": 0.7957747154594768,
+        "E_infinity_MPa": 766.6,
+        "x_at_anchor": 5,
+        "anchor_frequency_Hz": 1
+      },
+      "spectrum": [
+        {
+          "frequency_Hz": 1,
+          "E_storage_MPa": 748.0,
+          "E_loss_MPa": 93.0,
+          "tan_delta": 0.12433155080213903
+        },
+        {
+          "frequency_Hz": 10,
+          "E_storage_MPa": 766.406637345062,
+          "E_loss_MPa": 9.66813274690124,
+          "tan_delta": 0.012614886505149513
+        },
+        {
+          "frequency_Hz": 100,
+          "E_storage_MPa": 766.5980656077376,
+          "E_loss_MPa": 0.967196131215475,
+          "tan_delta": 0.001261673065204918
+        },
+        {
+          "frequency_Hz": 666.6666666666666,
+          "E_storage_MPa": 766.5999564760039,
+          "E_loss_MPa": 0.1450799869428012,
+          "tan_delta": 0.00018925123295039282
+        },
+        {
+          "frequency_Hz": 1000,
+          "E_storage_MPa": 766.5999806560008,
+          "E_loss_MPa": 0.09671999613120015,
+          "tan_delta": 0.00012616749096241065
+        },
+        {
+          "frequency_Hz": 5000,
+          "E_storage_MPa": 766.5999992262399,
+          "E_loss_MPa": 0.019343999969049595,
+          "tan_delta": 2.5233498550188194e-05
+        },
+        {
+          "frequency_Hz": 40000,
+          "E_storage_MPa": 766.59999998791,
+          "E_loss_MPa": 0.0024179999999395492,
+          "tan_delta": 3.1541873206074657e-06
+        }
+      ]
+    }
+  ],
+  "high_frequency_5000Hz_loss_ratio_between_examples": 97.11499631078404,
+  "partial_mass_cost": [
+    {
+      "core_kg": 133650.0,
+      "active_mass_fraction_assumed": 0.1,
+      "added_kg": 2664.659596033406,
+      "assumed_jpy_per_kg": 500,
+      "added_material_only_jpy": 1332329.798016703
+    },
+    {
+      "core_kg": 133650.0,
+      "active_mass_fraction_assumed": 0.1,
+      "added_kg": 2664.659596033406,
+      "assumed_jpy_per_kg": 2000,
+      "added_material_only_jpy": 5329319.192066812
+    },
+    {
+      "core_kg": 133650.0,
+      "active_mass_fraction_assumed": 0.3,
+      "added_kg": 7993.9787881002185,
+      "assumed_jpy_per_kg": 500,
+      "added_material_only_jpy": 3996989.394050109
+    },
+    {
+      "core_kg": 133650.0,
+      "active_mass_fraction_assumed": 0.3,
+      "added_kg": 7993.9787881002185,
+      "assumed_jpy_per_kg": 2000,
+      "added_material_only_jpy": 15987957.576200437
+    },
+    {
+      "core_kg": 133650.0,
+      "active_mass_fraction_assumed": 1,
+      "added_kg": 26646.595960334063,
+      "assumed_jpy_per_kg": 500,
+      "added_material_only_jpy": 13323297.980167031
+    },
+    {
+      "core_kg": 133650.0,
+      "active_mass_fraction_assumed": 1,
+      "added_kg": 26646.595960334063,
+      "assumed_jpy_per_kg": 2000,
+      "added_material_only_jpy": 53293191.920668125
+    }
+  ],
+  "caution": "Three positive SLS models fitting a single observed complex datum are nonunique examples, NOT three validated real materials or a high-frequency confidence band."
+}

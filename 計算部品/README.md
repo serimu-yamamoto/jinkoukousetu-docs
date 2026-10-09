@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [response_identifiability.py](response_identifiability.py)：単一複素測定に一致するSLS族、支持の幾何補償、局所質量費。第112巡の数学式を再利用し、高周波の実材妥当性は未証明。[第113巡](../GPT往復/実測動的物性と高周波推定の識別_20261010/README.md)。
+
 - [viscoelastic_glide.py](viscoelastic_glide.py)：指定正弦変形のSLS応答、周期仕事、同じ動的硬さの比較、独立時間積分。実材パラメータ未同定。[第112巡](../GPT往復/滑走速度と接触変形の時間尺度_20261010/README.md)。
 
 - [washing_selectivity.py](washing_selectivity.py)：結晶精製の選択性・水量・損失補充費。[第111巡](../GPT往復/結晶精製の選択性と洗浄順序_20261010/README.md)。製品残留・装置性能は未測定。

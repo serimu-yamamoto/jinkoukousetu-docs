@@ -1,0 +1,55 @@
+{
+  "material": "NIST SRM 8456 UHMWPE as tested by TA Instruments; NOT TIVAR1000 or ISOSPORT qualification",
+  "source_url": "https://www.tainstruments.com/pdf/literature/TA328.pdf",
+  "source_title": "NIST SRM8456 Ultra-High Molecular Weight Polyethylene as a Reference Material for Dynamic Mechanical Analysis",
+  "source_year": 2005,
+  "accessed": "2026-10-10",
+  "table": "Table1, PDFpage4",
+  "extraction": "PDF text table; screenshot references returned but image pixels not inspected",
+  "frequency_Hz": 1,
+  "method": "Three-point bending, two Q800 and two RSAII instruments",
+  "reported_amplitude_um": 25,
+  "reported_strain_percent": 0.03,
+  "heating_rate_C_min": 3,
+  "environment": "Humidity/wet conditioning not established from the reported method; not treated as a50C wet measurement",
+  "spread_interpretation": "Reported table ± retained as stated; not converted to confidence intervals or safety factors",
+  "rows": [
+    {
+      "temperature_C": 23,
+      "E_storage_MPa": 1181,
+      "reported_spread_storage_MPa": 73,
+      "E_loss_MPa": 69,
+      "reported_spread_loss_MPa": 13
+    },
+    {
+      "temperature_C": 30,
+      "E_storage_MPa": 1076,
+      "reported_spread_storage_MPa": 68,
+      "E_loss_MPa": 76,
+      "reported_spread_loss_MPa": 12
+    },
+    {
+      "temperature_C": 40,
+      "E_storage_MPa": 919,
+      "reported_spread_storage_MPa": 95,
+      "E_loss_MPa": 87,
+      "reported_spread_loss_MPa": 14
+    },
+    {
+      "temperature_C": 50,
+      "E_storage_MPa": 748,
+      "reported_spread_storage_MPa": 94,
+      "E_loss_MPa": 93,
+      "reported_spread_loss_MPa": 18
+    },
+    {
+      "temperature_C": 60,
+      "E_storage_MPa": 598,
+      "reported_spread_storage_MPa": 84,
+      "E_loss_MPa": 90,
+      "reported_spread_loss_MPa": 17
+    }
+  ],
+  "certification_scope": "Manufacturer's DMA measurements;50C table values are not asserted to be NIST-certified DMA values.",
+  "physical_trials_of_our_material": 0
+}

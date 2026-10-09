@@ -1,0 +1,44 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.tainstruments.com/pdf/literature/TA328.pdf",
+    "title": "NIST SRM8456 Ultra-High Molecular Weight Polyethylene as a Reference Material for Dynamic Mechanical Analysis",
+    "author": "Roger L.Blaine",
+    "year": 2005,
+    "accessed": "2026-10-10",
+    "read_scope": "Methods PDFp2, Table1 PDFp4, text; screenshot references returned but pixels not inspected",
+    "used": "Reported 1Hz small-strain DMA values of specified SRM, not certified50C DMA data or wet ski-material data",
+    "limitations": "No frequency sweep at50C, no identified ski-grade formulation, no measured whole-grain stiffness or skiing coefficients."
+  },
+  {
+    "id": "S2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36236086/",
+    "doi": "10.3390/polym14194138",
+    "title": "Study on Tribological Characteristics of Ultra-High Molecular Weight Polyethylene under Unsaturated Lubrication of Water and Brine",
+    "year": 2022,
+    "accessed": "2026-10-10",
+    "read_scope": "Public primary abstract; PMC/MDPI fulltext retrieval unsuccessful",
+    "used": "Lubrication experiment explicitly supplies about150–170mL/h of liquid; not water-free dry skiing proof",
+    "unknown": [
+      "full counterface specification",
+      "complete temperature conditions",
+      "all methods"
+    ],
+    "adoption": "No numerical friction coefficient or brine process adopted."
+  },
+  {
+    "id": "not_used",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0142941811000766",
+    "scope": "Fetch failed; no dynamic material parameters imported."
+  },
+  {
+    "id": "shared112",
+    "repository_path": "計算部品/viscoelastic_glide.py",
+    "scope": "Standard-linear-solid algebra reused with moduli inMPa, not a geometrical conversion from N/m."
+  },
+  {
+    "id": "shared110",
+    "repository_path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+    "scope": "Named reference_coating core mass for conditional partial-reinforcement cost."
+  }
+]

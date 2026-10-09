@@ -1,0 +1,119 @@
+{
+  "cycle": 113,
+  "base_commit": "bfb86133b0250d8826ccc630341cb6b2a26ba831",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第113巡_50度の実測物性から支持と滑走損失を分ける_20261010.md",
+      "bytes": 11693,
+      "sha256": "35e0d2ed46d4f889570ea154d7f2cc2a2e6c4b9c1ecb3b6738c53064b2075038"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 73585,
+      "sha256": "6c0f13e9e4f5245ff3d9768370d221fef3be8cbec882169a6cedba6d47eed39e"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/README.md",
+      "bytes": 1025,
+      "sha256": "a812bccae3535fe0c6cd3115edef44f66d2b036823d2e088bf98d171cf0bf465"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/claude_handoff.md",
+      "bytes": 2264,
+      "sha256": "22f3fe4e6095d2bd5e4efb8aca47d3193a57ffc2fe0946364e33cbb28e42f274"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "1bc4d011d4cf29d88de5441380be44c1aa6bea0788f406f68951cfb90b4b0b9e"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/measured_inputs.json",
+      "bytes": 1962,
+      "sha256": "689f23e6e5fcd7a043f3bd0b5a09d5647621ab8c5bae696653fa1d1bbface6cc"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/model.md",
+      "bytes": 2661,
+      "sha256": "e1a4eda60e4d9fb62420f01dca3fdaca4287bfe772c3bcf179d31b2f6e2d08cd"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "1f0aad1a32b3ffa0621d5aa3dd29a69315fb09f6b318fc84493812a963c8a843"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/reproduce.py",
+      "bytes": 4815,
+      "sha256": "e383d612d38d652ffd1720361e5ec78b8211b5e5fe9784da6f7f44dad01ae267"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/research_state.json",
+      "bytes": 1223,
+      "sha256": "4391c513388237f95f3637c5af91bc4f370fa806aa052430014f23a65fcaaea1"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/results.json",
+      "bytes": 7576,
+      "sha256": "d40369f3b74ca93d75006cbf95000b3eb37e05e43e94d3ebfb69b53ea2cd700c"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/sources.json",
+      "bytes": 2018,
+      "sha256": "d652ee94c8232dcaa63be0848daf9864933d5c068cd6cd56d439b3108eceddad"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/test_plan.json",
+      "bytes": 1872,
+      "sha256": "b46ebd84bae01f82737fdfe89d3f92106b8557b4b4b529541febdb7702a09105"
+    },
+    {
+      "path": "GPT往復/実測動的物性と高周波推定の識別_20261010/validation.json",
+      "bytes": 2268,
+      "sha256": "48a9085d52cd19c7c5f084d537c691833babee605d694b9679ffa07a42de2640"
+    },
+    {
+      "path": "README.md",
+      "bytes": 83686,
+      "sha256": "9c8fb97b0c9ece4da2bd5d9df5f68a9a52f20681208f598dcc582a2b29b158d5"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 191747,
+      "sha256": "0ffed72eba449c42deb017e9b5da2989f7ab7ad75cbcdb94997f4b2122ed60d1"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 3172,
+      "sha256": "13787b10a322ede5fd2e0dc2a1eab491ba90f8cd02386aaf89464c9f4c341e36"
+    },
+    {
+      "path": "計算部品/response_identifiability.py",
+      "bytes": 2338,
+      "sha256": "3027bcc445cd3ccaa0a60268818504d68382f171a3ea31357802ed22d2d70c61"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 36159,
+      "sha256": "a1e3727e9e1fa330dd35281d3607ef90215669703a9582c08418c6c8ba8a46ed"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 233749,
+      "sha256": "7626998cb53862a7c1e33bc58c1fa323838415594e33058d867e678cfcb59f70"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/viscoelastic_glide.py",
+      "bytes": 2680,
+      "sha256": "ff41d86ad7e6ddacf454e29ae93a70a7fa2749b2622620cbea0ebd893c534f8a"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+      "bytes": 33057,
+      "sha256": "3cc51ec1d18b78419b1ac81e0f12ff73443591712228e85fdbcf733986567520"
+    }
+  ]
+}
