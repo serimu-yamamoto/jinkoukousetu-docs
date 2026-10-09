@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S1",
+    "url": "https://maag.com/wp-content/uploads/CD2019_MAAG_High-Capacity-Centrifugal-Dryers_4s_EN_s.pdf",
+    "checked": "2026-10-10",
+    "scope": "Official manufacturer 4-page PDF; pp2-4 and capacity footnote (1)",
+    "facts": "Rated drying capacities 60/70/100/150 t/h based on round smooth 3 x 3 mm LDPE; 1.4 mm rotor slits; pre-dewatering and rotor/lifters/screens/air. Source printed 2020/01.",
+    "limits": "Not fragile firn qualification; not price quotation; no direct transfer of residual-moisture claims"
+  },
+  {
+    "id": "S2",
+    "url": "https://maag.com/accessories/dryer-screens/",
+    "checked": "2026-10-10",
+    "scope": "Manufacturer page",
+    "facts": "Several screen types including micro-pellet options.",
+    "limits": "No confirmed retention, throughput or attrition for current grain"
+  },
+  {
+    "id": "S3",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/6821c46fc73957742b1a473341c224616482866f/GPT往復/雨後凝集の解離と60分復旧検証_20261009/inputs.json",
+    "checked": "2026-10-10",
+    "scope": "Existing project assumptions reused",
+    "facts": "60 minute closure, 22 minute other operations, annual200, assumed500JPY/kg",
+    "limits": "Current bulk density150 and extra2-minute tail are explicitly different assumptions"
+  },
+  {
+    "id": "S4",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/6821c46fc73957742b1a473341c224616482866f/GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/results.json",
+    "checked": "2026-10-10",
+    "scope": "Existing capillary force scales at assumed60 degree contact angle",
+    "facts": "97.057 / 284.340 / 398.831 Pa scales reused",
+    "limits": "No drainage-threshold claim; unresolved stiffness not used"
+  }
+]

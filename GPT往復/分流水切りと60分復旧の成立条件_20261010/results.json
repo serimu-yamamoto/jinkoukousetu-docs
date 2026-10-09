@@ -1,0 +1,752 @@
+{
+  "cycle": 107,
+  "physical_trials": 0,
+  "success_probability": null,
+  "processing_seconds": 2160.0,
+  "scopes": [
+    {
+      "area_m2": 2000,
+      "depth_m": 0.05,
+      "area_fraction": 0.01,
+      "dry_mass_kg": 150.0,
+      "volume_m3": 1.0,
+      "required_t_h": 0.25,
+      "required_m3_h": 1.6666666666666667
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.05,
+      "area_fraction": 0.1,
+      "dry_mass_kg": 1500.0,
+      "volume_m3": 10.0,
+      "required_t_h": 2.5,
+      "required_m3_h": 16.666666666666664
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.05,
+      "area_fraction": 1.0,
+      "dry_mass_kg": 15000.0,
+      "volume_m3": 100.0,
+      "required_t_h": 25.0,
+      "required_m3_h": 166.66666666666666
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.3,
+      "area_fraction": 0.01,
+      "dry_mass_kg": 900.0,
+      "volume_m3": 6.0,
+      "required_t_h": 1.5,
+      "required_m3_h": 10.0
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.3,
+      "area_fraction": 0.1,
+      "dry_mass_kg": 9000.0,
+      "volume_m3": 60.0,
+      "required_t_h": 15.000000000000002,
+      "required_m3_h": 100.0
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.3,
+      "area_fraction": 1.0,
+      "dry_mass_kg": 90000.0,
+      "volume_m3": 600.0,
+      "required_t_h": 150.0,
+      "required_m3_h": 1000.0
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.45,
+      "area_fraction": 0.01,
+      "dry_mass_kg": 1350.0,
+      "volume_m3": 9.0,
+      "required_t_h": 2.25,
+      "required_m3_h": 15.0
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.45,
+      "area_fraction": 0.1,
+      "dry_mass_kg": 13500.0,
+      "volume_m3": 90.0,
+      "required_t_h": 22.5,
+      "required_m3_h": 150.0
+    },
+    {
+      "area_m2": 2000,
+      "depth_m": 0.45,
+      "area_fraction": 1.0,
+      "dry_mass_kg": 135000.0,
+      "volume_m3": 900.0,
+      "required_t_h": 225.0,
+      "required_m3_h": 1500.0
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.05,
+      "area_fraction": 0.01,
+      "dry_mass_kg": 1500.0,
+      "volume_m3": 10.0,
+      "required_t_h": 2.5,
+      "required_m3_h": 16.666666666666664
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.05,
+      "area_fraction": 0.1,
+      "dry_mass_kg": 15000.0,
+      "volume_m3": 100.0,
+      "required_t_h": 25.0,
+      "required_m3_h": 166.66666666666666
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.05,
+      "area_fraction": 1.0,
+      "dry_mass_kg": 150000.0,
+      "volume_m3": 1000.0,
+      "required_t_h": 250.0,
+      "required_m3_h": 1666.6666666666667
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.3,
+      "area_fraction": 0.01,
+      "dry_mass_kg": 9000.0,
+      "volume_m3": 60.0,
+      "required_t_h": 15.000000000000002,
+      "required_m3_h": 100.0
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.3,
+      "area_fraction": 0.1,
+      "dry_mass_kg": 90000.0,
+      "volume_m3": 600.0,
+      "required_t_h": 150.0,
+      "required_m3_h": 1000.0
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.3,
+      "area_fraction": 1.0,
+      "dry_mass_kg": 900000.0,
+      "volume_m3": 6000.0,
+      "required_t_h": 1500.0,
+      "required_m3_h": 10000.0
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.45,
+      "area_fraction": 0.01,
+      "dry_mass_kg": 13500.0,
+      "volume_m3": 90.0,
+      "required_t_h": 22.5,
+      "required_m3_h": 150.0
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.45,
+      "area_fraction": 0.1,
+      "dry_mass_kg": 135000.0,
+      "volume_m3": 900.0,
+      "required_t_h": 225.0,
+      "required_m3_h": 1500.0
+    },
+    {
+      "area_m2": 20000,
+      "depth_m": 0.45,
+      "area_fraction": 1.0,
+      "dry_mass_kg": 1350000.0,
+      "volume_m3": 9000.0,
+      "required_t_h": 2250.0,
+      "required_m3_h": 15000.000000000002
+    }
+  ],
+  "qualified_capacity_scenarios": [
+    {
+      "area_m2": 2000,
+      "q_dry_t_h_assumed": 5,
+      "processable_kg": 3000.0,
+      "fraction_of_bed": 0.022222222222222223,
+      "uncapped_fraction": 0.022222222222222223
+    },
+    {
+      "area_m2": 2000,
+      "q_dry_t_h_assumed": 20,
+      "processable_kg": 12000.0,
+      "fraction_of_bed": 0.08888888888888889,
+      "uncapped_fraction": 0.08888888888888889
+    },
+    {
+      "area_m2": 2000,
+      "q_dry_t_h_assumed": 50,
+      "processable_kg": 30000.0,
+      "fraction_of_bed": 0.2222222222222222,
+      "uncapped_fraction": 0.2222222222222222
+    },
+    {
+      "area_m2": 2000,
+      "q_dry_t_h_assumed": 150,
+      "processable_kg": 90000.0,
+      "fraction_of_bed": 0.6666666666666666,
+      "uncapped_fraction": 0.6666666666666666
+    },
+    {
+      "area_m2": 20000,
+      "q_dry_t_h_assumed": 5,
+      "processable_kg": 3000.0,
+      "fraction_of_bed": 0.0022222222222222222,
+      "uncapped_fraction": 0.0022222222222222222
+    },
+    {
+      "area_m2": 20000,
+      "q_dry_t_h_assumed": 20,
+      "processable_kg": 12000.0,
+      "fraction_of_bed": 0.008888888888888889,
+      "uncapped_fraction": 0.008888888888888889
+    },
+    {
+      "area_m2": 20000,
+      "q_dry_t_h_assumed": 50,
+      "processable_kg": 30000.0,
+      "fraction_of_bed": 0.022222222222222223,
+      "uncapped_fraction": 0.022222222222222223
+    },
+    {
+      "area_m2": 20000,
+      "q_dry_t_h_assumed": 150,
+      "processable_kg": 90000.0,
+      "fraction_of_bed": 0.06666666666666667,
+      "uncapped_fraction": 0.06666666666666667
+    }
+  ],
+  "carrier_scenarios": [
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 13.88888888888889,
+      "active_area_m2": 18.51851851851852
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 13.88888888888889,
+      "active_area_m2": 9.25925925925926
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 13.88888888888889,
+      "active_area_m2": 3.0864197530864197
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 41.666666666666664,
+      "active_area_m2": 55.55555555555555
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 41.666666666666664,
+      "active_area_m2": 27.777777777777775
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 41.666666666666664,
+      "active_area_m2": 9.25925925925926
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 83.33333333333333,
+      "active_area_m2": 111.1111111111111
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 83.33333333333333,
+      "active_area_m2": 55.55555555555555
+    },
+    {
+      "q_dry_t_h_assumed": 5,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 83.33333333333333,
+      "active_area_m2": 18.51851851851852
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 55.55555555555556,
+      "active_area_m2": 74.07407407407408
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 55.55555555555556,
+      "active_area_m2": 37.03703703703704
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 55.55555555555556,
+      "active_area_m2": 12.345679012345679
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 166.66666666666666,
+      "active_area_m2": 222.2222222222222
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 166.66666666666666,
+      "active_area_m2": 111.1111111111111
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 166.66666666666666,
+      "active_area_m2": 37.03703703703704
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 333.3333333333333,
+      "active_area_m2": 444.4444444444444
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 333.3333333333333,
+      "active_area_m2": 222.2222222222222
+    },
+    {
+      "q_dry_t_h_assumed": 20,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 333.3333333333333,
+      "active_area_m2": 74.07407407407408
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 138.88888888888889,
+      "active_area_m2": 185.1851851851852
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 138.88888888888889,
+      "active_area_m2": 92.5925925925926
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 10,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 138.88888888888889,
+      "active_area_m2": 30.864197530864196
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 416.6666666666667,
+      "active_area_m2": 555.5555555555555
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 416.6666666666667,
+      "active_area_m2": 277.77777777777777
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 30,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 416.6666666666667,
+      "active_area_m2": 92.5925925925926
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.005,
+      "dry_holdup_kg": 833.3333333333334,
+      "active_area_m2": 1111.111111111111
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.01,
+      "dry_holdup_kg": 833.3333333333334,
+      "active_area_m2": 555.5555555555555
+    },
+    {
+      "q_dry_t_h_assumed": 50,
+      "residence_s_assumed": 60,
+      "layer_m_assumed": 0.03,
+      "dry_holdup_kg": 833.3333333333334,
+      "active_area_m2": 185.1851851851852
+    }
+  ],
+  "centrifugal_scales": [
+    {
+      "G_assumed": 10,
+      "layer_m_assumed": 0.005,
+      "R_m_assumed": 0.5,
+      "rpm": 133.75834406706747,
+      "tip_speed_m_s": 7.003570517957251,
+      "water_radial_pressure_scale_Pa": 58.82468399999849,
+      "wet_layer_bodyforce_scale_Pa": 87.84855000000013
+    },
+    {
+      "G_assumed": 10,
+      "layer_m_assumed": 0.01,
+      "R_m_assumed": 0.5,
+      "rpm": 133.75834406706747,
+      "tip_speed_m_s": 7.003570517957251,
+      "water_radial_pressure_scale_Pa": 58.82468399999849,
+      "wet_layer_bodyforce_scale_Pa": 174.81420000000034
+    },
+    {
+      "G_assumed": 10,
+      "layer_m_assumed": 0.03,
+      "R_m_assumed": 0.5,
+      "rpm": 133.75834406706747,
+      "tip_speed_m_s": 7.003570517957251,
+      "water_radial_pressure_scale_Pa": 58.82468399999849,
+      "wet_layer_bodyforce_scale_Pa": 513.8478000000002
+    },
+    {
+      "G_assumed": 50,
+      "layer_m_assumed": 0.005,
+      "R_m_assumed": 0.5,
+      "rpm": 299.09274989176856,
+      "tip_speed_m_s": 15.660459763365825,
+      "water_radial_pressure_scale_Pa": 294.12341999999245,
+      "wet_layer_bodyforce_scale_Pa": 439.2427500000006
+    },
+    {
+      "G_assumed": 50,
+      "layer_m_assumed": 0.01,
+      "R_m_assumed": 0.5,
+      "rpm": 299.09274989176856,
+      "tip_speed_m_s": 15.660459763365825,
+      "water_radial_pressure_scale_Pa": 294.12341999999245,
+      "wet_layer_bodyforce_scale_Pa": 874.0710000000017
+    },
+    {
+      "G_assumed": 50,
+      "layer_m_assumed": 0.03,
+      "R_m_assumed": 0.5,
+      "rpm": 299.09274989176856,
+      "tip_speed_m_s": 15.660459763365825,
+      "water_radial_pressure_scale_Pa": 294.12341999999245,
+      "wet_layer_bodyforce_scale_Pa": 2569.2390000000014
+    },
+    {
+      "G_assumed": 100,
+      "layer_m_assumed": 0.005,
+      "R_m_assumed": 0.5,
+      "rpm": 422.9810233044032,
+      "tip_speed_m_s": 22.147234590350102,
+      "water_radial_pressure_scale_Pa": 588.246839999985,
+      "wet_layer_bodyforce_scale_Pa": 878.4855000000014
+    },
+    {
+      "G_assumed": 100,
+      "layer_m_assumed": 0.01,
+      "R_m_assumed": 0.5,
+      "rpm": 422.9810233044032,
+      "tip_speed_m_s": 22.147234590350102,
+      "water_radial_pressure_scale_Pa": 588.246839999985,
+      "wet_layer_bodyforce_scale_Pa": 1748.1420000000037
+    },
+    {
+      "G_assumed": 100,
+      "layer_m_assumed": 0.03,
+      "R_m_assumed": 0.5,
+      "rpm": 422.9810233044032,
+      "tip_speed_m_s": 22.147234590350102,
+      "water_radial_pressure_scale_Pa": 588.246839999985,
+      "wet_layer_bodyforce_scale_Pa": 5138.478000000004
+    }
+  ],
+  "capillary_equivalent_acceleration": [
+    {
+      "path": "axial_bore",
+      "web_fraction": null,
+      "pressure_scale_Pa": 97.05714285714289,
+      "acceleration_equivalent_G": 16.499390435679242,
+      "interpretation": "pressure-scale equivalence only; not drainage threshold or specified rotor acceleration"
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.6666666666666666,
+      "pressure_scale_Pa": 398.83089765404793,
+      "acceleration_equivalent_G": 67.79992182432431,
+      "interpretation": "pressure-scale equivalence only; not drainage threshold or specified rotor acceleration"
+    },
+    {
+      "path": "side_window",
+      "web_fraction": 0.3333333333333333,
+      "pressure_scale_Pa": 284.340448827024,
+      "acceleration_equivalent_G": 48.33692754338149,
+      "interpretation": "pressure-scale equivalence only; not drainage threshold or specified rotor acceleration"
+    }
+  ],
+  "screen_geometry": [
+    {
+      "slot_mm": 0.3,
+      "angle_from_edge_on_deg": 0,
+      "envelope_width_mm": 0.6,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.3,
+      "angle_from_edge_on_deg": 10,
+      "envelope_width_mm": 0.9381810071411854,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.3,
+      "angle_from_edge_on_deg": 20,
+      "envelope_width_mm": 1.2478558591228825,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.3,
+      "angle_from_edge_on_deg": 30,
+      "envelope_width_mm": 1.519615242270663,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.3,
+      "angle_from_edge_on_deg": 45,
+      "envelope_width_mm": 1.8384776310850235,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.3,
+      "angle_from_edge_on_deg": 90,
+      "envelope_width_mm": 2.0,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.5,
+      "angle_from_edge_on_deg": 0,
+      "envelope_width_mm": 0.6,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.5,
+      "angle_from_edge_on_deg": 10,
+      "envelope_width_mm": 0.9381810071411854,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.5,
+      "angle_from_edge_on_deg": 20,
+      "envelope_width_mm": 1.2478558591228825,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.5,
+      "angle_from_edge_on_deg": 30,
+      "envelope_width_mm": 1.519615242270663,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.5,
+      "angle_from_edge_on_deg": 45,
+      "envelope_width_mm": 1.8384776310850235,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.5,
+      "angle_from_edge_on_deg": 90,
+      "envelope_width_mm": 2.0,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.6,
+      "angle_from_edge_on_deg": 0,
+      "envelope_width_mm": 0.6,
+      "rigid_long_slot_pass_geometrically_possible": true
+    },
+    {
+      "slot_mm": 0.6,
+      "angle_from_edge_on_deg": 10,
+      "envelope_width_mm": 0.9381810071411854,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.6,
+      "angle_from_edge_on_deg": 20,
+      "envelope_width_mm": 1.2478558591228825,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.6,
+      "angle_from_edge_on_deg": 30,
+      "envelope_width_mm": 1.519615242270663,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.6,
+      "angle_from_edge_on_deg": 45,
+      "envelope_width_mm": 1.8384776310850235,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 0.6,
+      "angle_from_edge_on_deg": 90,
+      "envelope_width_mm": 2.0,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.0,
+      "angle_from_edge_on_deg": 0,
+      "envelope_width_mm": 0.6,
+      "rigid_long_slot_pass_geometrically_possible": true
+    },
+    {
+      "slot_mm": 1.0,
+      "angle_from_edge_on_deg": 10,
+      "envelope_width_mm": 0.9381810071411854,
+      "rigid_long_slot_pass_geometrically_possible": true
+    },
+    {
+      "slot_mm": 1.0,
+      "angle_from_edge_on_deg": 20,
+      "envelope_width_mm": 1.2478558591228825,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.0,
+      "angle_from_edge_on_deg": 30,
+      "envelope_width_mm": 1.519615242270663,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.0,
+      "angle_from_edge_on_deg": 45,
+      "envelope_width_mm": 1.8384776310850235,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.0,
+      "angle_from_edge_on_deg": 90,
+      "envelope_width_mm": 2.0,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.4,
+      "angle_from_edge_on_deg": 0,
+      "envelope_width_mm": 0.6,
+      "rigid_long_slot_pass_geometrically_possible": true
+    },
+    {
+      "slot_mm": 1.4,
+      "angle_from_edge_on_deg": 10,
+      "envelope_width_mm": 0.9381810071411854,
+      "rigid_long_slot_pass_geometrically_possible": true
+    },
+    {
+      "slot_mm": 1.4,
+      "angle_from_edge_on_deg": 20,
+      "envelope_width_mm": 1.2478558591228825,
+      "rigid_long_slot_pass_geometrically_possible": true
+    },
+    {
+      "slot_mm": 1.4,
+      "angle_from_edge_on_deg": 30,
+      "envelope_width_mm": 1.519615242270663,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.4,
+      "angle_from_edge_on_deg": 45,
+      "envelope_width_mm": 1.8384776310850235,
+      "rigid_long_slot_pass_geometrically_possible": false
+    },
+    {
+      "slot_mm": 1.4,
+      "angle_from_edge_on_deg": 90,
+      "envelope_width_mm": 2.0,
+      "rigid_long_slot_pass_geometrically_possible": false
+    }
+  ],
+  "buoyancy_counterexample": {
+    "solid_density_assumed": 900.0,
+    "fluid_density_assumed": 1000.0,
+    "solid_volume_m3": 5.340707511102648e-10,
+    "dry_outward_bodyforce_100G_N": 0.0004715310661552529,
+    "submerged_relative_outward_force_100G_N": -5.239234068391698e-05,
+    "assumptions": "rigid fully wetted open grain; no trapped gas; co-rotating liquid; force sign is relative to fluid, no rotor/lifter contact"
+  },
+  "annual_contained_losses": [
+    {
+      "processed_kg_per_pass": 12000,
+      "passes_per_year_assumed": 200,
+      "loss_fraction_assumed": 0.0001,
+      "contained_reject_kg_y": 240.0,
+      "raw_replacement_JPY_y_assumed": 120000.0
+    },
+    {
+      "processed_kg_per_pass": 12000,
+      "passes_per_year_assumed": 200,
+      "loss_fraction_assumed": 0.001,
+      "contained_reject_kg_y": 2400.0,
+      "raw_replacement_JPY_y_assumed": 1200000.0
+    },
+    {
+      "processed_kg_per_pass": 12000,
+      "passes_per_year_assumed": 200,
+      "loss_fraction_assumed": 0.01,
+      "contained_reject_kg_y": 24000.0,
+      "raw_replacement_JPY_y_assumed": 12000000.0
+    }
+  ],
+  "water_balance": {
+    "incoming_water_kg_per_dry_kg_assumed": 0.2,
+    "outgoing_water_kg_per_dry_kg_assumed": 0.02,
+    "dry_kg_per_closure": 12000,
+    "water_removed_kg_per_closure": 2160.0000000000005,
+    "water_removed_t_h": 3.6000000000000005,
+    "claim": "water-content target unqualified for ski performance; not achieved"
+  },
+  "dependencies": {
+    "GPT往復/雨後凝集の解離と60分復旧検証_20261009/inputs.json": "c1a2b814927e2fd6155bdb9cb1f961b9b6ef9e7c404acf23dcaa96b8dd33b1ba",
+    "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/results.json": "57ce8fef59470f36468f67907d3d2e19822008e2c4638a643fdd31ed8c9b9ff2",
+    "計算部品/formation_routes.py": "99cd4bc2c4be045e932e780684cc3d38b551c367dab6927da54ee87dc6a31779",
+    "計算部品/restoration_process.py": "f1f7cd06f1f121c9fa364a3a7e49f6c6648ce5ecf9d46f824f4402113293c938"
+  }
+}

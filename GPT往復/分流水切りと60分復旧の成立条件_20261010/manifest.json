@@ -1,0 +1,109 @@
+{
+  "cycle": 107,
+  "base_commit": "6821c46fc73957742b1a473341c224616482866f",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第107巡_粒を壊さない水切りと復旧処理量_20261010.md",
+      "bytes": 11393,
+      "sha256": "23cea387fdcf80790ecaeb62b415983f50d5f02d39f97b0a1fd062ead270cc05"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 69731,
+      "sha256": "e160cd950a8055fd3720a0dd6d7736a8155c6eac06049348dcbfaafc482c3bc5"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/README.md",
+      "bytes": 1765,
+      "sha256": "1bfb03b949db89614fcfef48f1c371c8ebfb65db4a61c72ecf215035460602de"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/claude_handoff.md",
+      "bytes": 1728,
+      "sha256": "7ad24bf9f0634ae61153d4da4e889871dbab425d557c8ef2f497e0cb01b39b25"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "b8a2f115be590f12bec2eeb173b221814c228ee58ec6a195f4a63bb499299c48"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/publication_audit.json",
+      "bytes": 299,
+      "sha256": "68f95e1b67fbbcba692f38cd231751056371efb847bd3c870ca54a4ecb51e6a3"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/reproduce.py",
+      "bytes": 5502,
+      "sha256": "b6c820d6ba4546841d12d1c74e801895475aab0b11081dcaae9351859082579b"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/research_state.json",
+      "bytes": 1037,
+      "sha256": "ee8f6e8552afdacfdc5b880b511cc317553a62a368a8a4ae04507f5a6734dbfc"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/results.json",
+      "bytes": 21354,
+      "sha256": "a5df69599c27c5f99bf6cfb16b97a82d8ac19b1480851a70557f20e824c921e0"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/sources.json",
+      "bytes": 1800,
+      "sha256": "d118347187fbbbcf2b2aa254363b36c15026236b4449f2b3ce36df6dc5b5a249"
+    },
+    {
+      "path": "GPT往復/分流水切りと60分復旧の成立条件_20261010/validation.json",
+      "bytes": 3976,
+      "sha256": "54aba1fba6e8a1d3871b9806781b7b47acd8cff75d059e14ffbb432cdcce8f93"
+    },
+    {
+      "path": "README.md",
+      "bytes": 79742,
+      "sha256": "35ee6362b3e11c7d5c8dd85634f5b67128aabf2bb693cdb63ab25eda1e986f11"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 184913,
+      "sha256": "05657ef2cd45da5c7838a8c026149e198d728e9a8f24134e952114ee72baafb2"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 1595,
+      "sha256": "7ed5aa86d01855eea957279a35a472a1085be999b5f6066bde0ab596119e936f"
+    },
+    {
+      "path": "計算部品/restoration_process.py",
+      "bytes": 1891,
+      "sha256": "f1f7cd06f1f121c9fa364a3a7e49f6c6648ce5ecf9d46f824f4402113293c938"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 30435,
+      "sha256": "3805781805084fff0569c8168b00ee1875ed9bbe8b48b37c8ce4c6f1cb4d8862"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 231968,
+      "sha256": "4adf004608e00413e0d56111963e220ae6f766f255ecc1b9776d01c2367de436"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/inputs.json",
+      "bytes": 659,
+      "sha256": "c1a2b814927e2fd6155bdb9cb1f961b9b6ef9e7c404acf23dcaa96b8dd33b1ba"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/results.json",
+      "bytes": 15747,
+      "sha256": "57ce8fef59470f36468f67907d3d2e19822008e2c4638a643fdd31ed8c9b9ff2"
+    },
+    {
+      "path": "計算部品/formation_routes.py",
+      "bytes": 2142,
+      "sha256": "99cd4bc2c4be045e932e780684cc3d38b551c367dab6927da54ee87dc6a31779"
+    }
+  ]
+}
