@@ -1,0 +1,31 @@
+[
+  {
+    "id": "S1",
+    "url": "https://patents.google.com/patent/US12221403B2/en",
+    "publication_date": "2025-02-11",
+    "accessed": "2026-10-10",
+    "scope": "patent description: mixture can include distinct single crystals or eutectic crystals; particle metrics and C8/LL variant, not independent skiing validation or legal clearance"
+  },
+  {
+    "id": "S1_CN",
+    "url": "https://patents.google.com/patent/CN114026062A/en",
+    "publication_date": "2022-02-08",
+    "accessed": "2026-10-10",
+    "scope": "same patent family, machine-translated description Examples2 and powder treatment evaluation; not 30C outdoor spray or 50C ski data"
+  },
+  {
+    "id": "S2_prior",
+    "repository_path": "GPT往復/GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md",
+    "scope": "prior46 manufacturer nominal LL density 1.2; not mixed-material density"
+  },
+  {
+    "id": "not_used",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/app.71518",
+    "scope": "page fetch failed; no performance values imported"
+  },
+  {
+    "id": "not_used_derivative",
+    "url": "https://www.jstage.jst.go.jp/article/sccj/52/2/52_92/_article/-char/en",
+    "scope": "bibliographic discovery of distinct water-soluble derivative only; no performance/chemistry inputs imported"
+  }
+]

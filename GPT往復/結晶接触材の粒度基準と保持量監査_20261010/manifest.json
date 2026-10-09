@@ -1,0 +1,109 @@
+{
+  "cycle": 110,
+  "base_commit": "8f59e0eae0317d25b67b96a6a459b665800a9d56",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第110巡_結晶接触材の粒度と保持量から製造を見直す_20261010.md",
+      "bytes": 10266,
+      "sha256": "5b1a90a79bb253f0e8a1c5156ca682565a40c0b727ad3bb1edde841a8d1170c5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 71714,
+      "sha256": "ee8c233eea292100e3cae29373a4afbb440c20e9436b5ed3349b7e73d3d1295a"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/README.md",
+      "bytes": 665,
+      "sha256": "4508ebb96115e567597f795f8125d9dc52d8407187495a521764351b5bd3870d"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/claude_handoff.md",
+      "bytes": 1845,
+      "sha256": "761a032d73ccc90fb6a44123b88e70385d89e3446adbba40ea89403b468e6bc4"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "dca666aaeb1f1f05a47e31e4cbd992a7f1585cc741270c38e133af7e9f591fa7"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/model.md",
+      "bytes": 1428,
+      "sha256": "9a1bbc2fb35b7419ed24aeea441f5233eb3717f73ab86c03009d4740775377cf"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/publication_audit.json",
+      "bytes": 307,
+      "sha256": "bbeb057173f32906db4eae93f534c8ac99b795602dea9d397d2e91c080e1b982"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/reproduce.py",
+      "bytes": 5174,
+      "sha256": "898e918e158ea30c8accc43610c8a98135ae76eae19e65a8a632df9d8a23fd79"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/research_state.json",
+      "bytes": 1103,
+      "sha256": "48c938cf9eabee45ae5bbe94d2daf7d9a6b7dcb782ccb77be11fe60a4a27a135"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+      "bytes": 33057,
+      "sha256": "3cc51ec1d18b78419b1ac81e0f12ff73443591712228e85fdbcf733986567520"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/sources.json",
+      "bytes": 1321,
+      "sha256": "85ff8ab58752188859c046b97fe1158ea30e830c843ff756330ef8945aa48abc"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/test_plan.json",
+      "bytes": 1399,
+      "sha256": "dca96bbef29551f6d7f8303ca1c122a214b7cf76094603bc1d417b4b610e4d19"
+    },
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/validation.json",
+      "bytes": 2118,
+      "sha256": "9068ec391abe7a6a7836d6944bd2fdf33b96fef8cfaa57004467245bb73ce77b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 81770,
+      "sha256": "44277da5ab2009ebe60f15f91dba9a57a5a9156768cb7bf7fe16a534f5b15b63"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 188462,
+      "sha256": "7ac108b73d60deebc1d17c23922a608c9af413d24e07f7fcfc04df72639feb18"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 2336,
+      "sha256": "0c47abfde96e2d7bd1b6ac2bf6a25a681b4c0032ea5202ae7b75bcd3815dc09d"
+    },
+    {
+      "path": "計算部品/powder_inventory.py",
+      "bytes": 3037,
+      "sha256": "6817c5182d4ce61f225f69d9106b276cdfc2e0c5597c5cb92c1ae5f5e52b56a8"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 33174,
+      "sha256": "14ba7173916aea122fba92188b4e9db7e5b995da6aaa964a32572b5de487939d"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 232815,
+      "sha256": "2e63aa62b0bfcc9d5bf0c28c65a2dca03e1f7eafc2a9bcf86794f87db8b01fe2"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md",
+      "bytes": 36056,
+      "sha256": "7cdf50b3d007380146218557b2378624691e14692868e4513433045bcb2c3e69"
+    }
+  ]
+}

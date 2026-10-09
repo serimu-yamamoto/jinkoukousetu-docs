@@ -1,0 +1,39 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "variants": [
+    "U0 bare core",
+    "UB retention structure/binder without crystal",
+    "U1 locally retained LL",
+    "U2 locally retained C8/LL; proposed feed mass ratio1:3, crystal phase unverified"
+  ],
+  "temperatures_C": [
+    30,
+    50
+  ],
+  "water_states": [
+    "dry controlled humidity",
+    "defined wet film with recorded water amount",
+    "after wet-dry exposure"
+  ],
+  "conditions": 24,
+  "independent_specimens_per_condition_proposed": 3,
+  "total_specimens_proposed": 72,
+  "measurements": [
+    "full number and volume size distributions and plate thickness",
+    "free crystal mass before and after retention treatment",
+    "friction against actual ski base with load speed dwell history",
+    "wear on both surfaces and transferred material",
+    "post-soak retained mass and exposed contact area",
+    "only after coupon evidence: free-grain bed sinkage loading-unloading edge cutting and snow comparator"
+  ],
+  "uncertainties": [
+    "temperature load speed humidity test apparatus capability are not qualified",
+    "no total quotation",
+    "72 specimens not a statistical demonstration of90percent overall success"
+  ],
+  "actions_authorized": "research specification only; no vendor messages purchase or payment"
+}

@@ -1,0 +1,103 @@
+{
+  "count": 24,
+  "status": "mass_geometry_arithmetic_consistency_only",
+  "physical_validation": false,
+  "checks": [
+    {
+      "name": "number conserved number_only",
+      "passed": true
+    },
+    {
+      "name": "mass conserved number_only",
+      "passed": true
+    },
+    {
+      "name": "number conserved both_number90_volume50",
+      "passed": true
+    },
+    {
+      "name": "mass conserved both_number90_volume50",
+      "passed": true
+    },
+    {
+      "name": "number conserved constant_thickness_plate",
+      "passed": true
+    },
+    {
+      "name": "mass conserved constant_thickness_plate",
+      "passed": true
+    },
+    {
+      "name": "counterexample count fine",
+      "passed": true
+    },
+    {
+      "name": "counterexample volume median fine",
+      "passed": true
+    },
+    {
+      "name": "counterexample volume upper tail coarse",
+      "passed": true
+    },
+    {
+      "name": "counterexample independent volume sum",
+      "passed": true
+    },
+    {
+      "name": "single bin quantile",
+      "passed": true
+    },
+    {
+      "name": "count replication invariance",
+      "passed": true
+    },
+    {
+      "name": "36 coating scenarios",
+      "passed": true
+    },
+    {
+      "name": "all coating mass balances",
+      "passed": true
+    },
+    {
+      "name": "1wt percent coat mass",
+      "passed": true
+    },
+    {
+      "name": "equivalent thickness independent direct volume",
+      "passed": true
+    },
+    {
+      "name": "targeting fifth area raises equivalent thickness fivefold",
+      "passed": true
+    },
+    {
+      "name": "36 loss scenarios",
+      "passed": true
+    },
+    {
+      "name": "all capture balances",
+      "passed": true
+    },
+    {
+      "name": "reference annual uncaptured grams",
+      "passed": true
+    },
+    {
+      "name": "reference replacement material cost",
+      "passed": true
+    },
+    {
+      "name": "18 price sensitivities",
+      "passed": true
+    },
+    {
+      "name": "coating 5 parts per100 core not 5wt%",
+      "passed": true
+    },
+    {
+      "name": "lossless capture limit",
+      "passed": true
+    }
+  ]
+}

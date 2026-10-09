@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [powder_inventory.py](powder_inventory.py)：結晶接触材の粒度・局所量・補充費。[第110巡](../GPT往復/結晶接触材の粒度基準と保持量監査_20261010/README.md)。保持・摩擦・捕集率は未測定。
+
 - [contact_fabric.py](contact_fabric.py)：接点配向と自由回転を含む微小支持模型。[第109巡](../GPT往復/接点配向と回転を含む支持解放の比較_20261010/README.md)。大変位解放・50℃・実床は未実証。
 
 - [load_unload_foundation.py](load_unload_foundation.py)：移動する押込み履歴の変形仕事と同深さ比較。[第108巡](../GPT往復/滑走方向の変形仕事と横解放の分離_20261010/README.md)。横切削・50℃材料未同定。

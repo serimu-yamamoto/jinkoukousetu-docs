@@ -1,0 +1,1001 @@
+{
+  "cycle": 110,
+  "physical_trials": 0,
+  "success_probability": null,
+  "distributions": [
+    {
+      "mass_exponent": 3,
+      "number_D90_um": 0.5,
+      "volume_D50_um": 10,
+      "volume_D90_um": 10,
+      "bins": [
+        {
+          "d_um": 0.5,
+          "count": 950,
+          "number_fraction": 0.95,
+          "equal_density_mass_fraction": 0.0023693727397431103
+        },
+        {
+          "d_um": 10,
+          "count": 50,
+          "number_fraction": 0.05,
+          "equal_density_mass_fraction": 0.9976306272602569
+        }
+      ],
+      "name": "number_only",
+      "ideal_retention": {
+        "ideal_cutoff_um": 2.8,
+        "retained_number_fraction": 0.05,
+        "retained_mass_fraction": 0.9976306272602569,
+        "boundary": "ideal diameter classification only; not real filtration efficiency"
+      }
+    },
+    {
+      "mass_exponent": 3,
+      "number_D90_um": 1,
+      "volume_D50_um": 1,
+      "volume_D90_um": 20,
+      "bins": [
+        {
+          "d_um": 1,
+          "count": 99990,
+          "number_fraction": 0.9999,
+          "equal_density_mass_fraction": 0.5555308628257125
+        },
+        {
+          "d_um": 20,
+          "count": 10,
+          "number_fraction": 0.0001,
+          "equal_density_mass_fraction": 0.4444691371742875
+        }
+      ],
+      "name": "both_number90_volume50",
+      "ideal_retention": {
+        "ideal_cutoff_um": 2.8,
+        "retained_number_fraction": 0.0001,
+        "retained_mass_fraction": 0.4444691371742875,
+        "boundary": "ideal diameter classification only; not real filtration efficiency"
+      }
+    },
+    {
+      "mass_exponent": 2,
+      "number_D90_um": 1,
+      "volume_D50_um": 1,
+      "volume_D90_um": 20,
+      "bins": [
+        {
+          "d_um": 1,
+          "count": 999,
+          "number_fraction": 0.999,
+          "equal_density_mass_fraction": 0.7140814867762688
+        },
+        {
+          "d_um": 20,
+          "count": 1,
+          "number_fraction": 0.001,
+          "equal_density_mass_fraction": 0.28591851322373124
+        }
+      ],
+      "name": "constant_thickness_plate",
+      "ideal_retention": {
+        "ideal_cutoff_um": 2.8,
+        "retained_number_fraction": 0.001,
+        "retained_mass_fraction": 0.28591851322373124,
+        "boundary": "ideal diameter classification only; not real filtration efficiency"
+      }
+    }
+  ],
+  "coating_scenarios": [
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 134730.0,
+      "coating_kg": 270.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 8.3500334001336,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 134730.0,
+      "coating_kg": 270.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 1.6700066800267201,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 134730.0,
+      "coating_kg": 270.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.8350033400133601,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 134730.0,
+      "coating_kg": 270.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.167000668002672,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 134730.0,
+      "coating_kg": 270.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.083500334001336,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 134730.0,
+      "coating_kg": 270.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.016700066800267203,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 133650.0,
+      "coating_kg": 1350.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 42.08754208754209,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 133650.0,
+      "coating_kg": 1350.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 8.417508417508417,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 133650.0,
+      "coating_kg": 1350.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 4.2087542087542085,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 133650.0,
+      "coating_kg": 1350.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.8417508417508418,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 133650.0,
+      "coating_kg": 1350.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.4208754208754209,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 133650.0,
+      "coating_kg": 1350.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.08417508417508417,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 128250.0,
+      "coating_kg": 6750.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 219.2982456140351,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 128250.0,
+      "coating_kg": 6750.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 43.859649122807014,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 128250.0,
+      "coating_kg": 6750.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 21.929824561403507,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 128250.0,
+      "coating_kg": 6750.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 4.385964912280701,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 128250.0,
+      "coating_kg": 6750.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 2.1929824561403506,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 128250.0,
+      "coating_kg": 6750.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.4385964912280702,
+      "course_area_m2": 2000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 1347300.0,
+      "coating_kg": 2700.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 8.3500334001336,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 1347300.0,
+      "coating_kg": 2700.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 1.6700066800267201,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 1347300.0,
+      "coating_kg": 2700.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.8350033400133601,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 1347300.0,
+      "coating_kg": 2700.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.167000668002672,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 1347300.0,
+      "coating_kg": 2700.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.083500334001336,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "core_kg": 1347300.0,
+      "coating_kg": 2700.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.016700066800267203,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 1336500.0,
+      "coating_kg": 13500.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 42.08754208754209,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 1336500.0,
+      "coating_kg": 13500.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 8.417508417508417,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 1336500.0,
+      "coating_kg": 13500.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 4.2087542087542085,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 1336500.0,
+      "coating_kg": 13500.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.8417508417508418,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 1336500.0,
+      "coating_kg": 13500.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.4208754208754209,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "core_kg": 1336500.0,
+      "coating_kg": 13500.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.08417508417508417,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 1282500.0,
+      "coating_kg": 67500.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 219.2982456140351,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 1282500.0,
+      "coating_kg": 67500.0,
+      "coatable_area_m2_per_kg_core": 1.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 43.859649122807014,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 1282500.0,
+      "coating_kg": 67500.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 21.929824561403507,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 1282500.0,
+      "coating_kg": 67500.0,
+      "coatable_area_m2_per_kg_core": 10.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 4.385964912280701,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 1282500.0,
+      "coating_kg": 67500.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 0.2,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 2.1929824561403506,
+      "course_area_m2": 20000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "core_kg": 1282500.0,
+      "coating_kg": 67500.0,
+      "coatable_area_m2_per_kg_core": 100.0,
+      "target_area_fraction": 1.0,
+      "coating_density_kg_m3": 1200.0,
+      "equivalent_solid_thickness_um": 0.4385964912280702,
+      "course_area_m2": 20000.0
+    }
+  ],
+  "loss_scenarios": [
+    {
+      "coating_kg": 270.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.9,
+      "detached_kg": 2.7,
+      "captured_kg": 2.43,
+      "uncaptured_kg": 0.26999999999999996,
+      "replacement_material_JPY_if_all_detached_unusable": 5400.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 270.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.99,
+      "detached_kg": 2.7,
+      "captured_kg": 2.673,
+      "uncaptured_kg": 0.027000000000000027,
+      "replacement_material_JPY_if_all_detached_unusable": 5400.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 270.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.999,
+      "detached_kg": 2.7,
+      "captured_kg": 2.6973000000000003,
+      "uncaptured_kg": 0.0027000000000000027,
+      "replacement_material_JPY_if_all_detached_unusable": 5400.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 270.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.9,
+      "detached_kg": 27.0,
+      "captured_kg": 24.3,
+      "uncaptured_kg": 2.6999999999999993,
+      "replacement_material_JPY_if_all_detached_unusable": 54000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 270.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.99,
+      "detached_kg": 27.0,
+      "captured_kg": 26.73,
+      "uncaptured_kg": 0.27000000000000024,
+      "replacement_material_JPY_if_all_detached_unusable": 54000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 270.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.999,
+      "detached_kg": 27.0,
+      "captured_kg": 26.973,
+      "uncaptured_kg": 0.027000000000000024,
+      "replacement_material_JPY_if_all_detached_unusable": 54000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 1350.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.9,
+      "detached_kg": 13.5,
+      "captured_kg": 12.15,
+      "uncaptured_kg": 1.3499999999999996,
+      "replacement_material_JPY_if_all_detached_unusable": 27000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 1350.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.99,
+      "detached_kg": 13.5,
+      "captured_kg": 13.365,
+      "uncaptured_kg": 0.13500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 27000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 1350.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.999,
+      "detached_kg": 13.5,
+      "captured_kg": 13.4865,
+      "uncaptured_kg": 0.013500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 27000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 1350.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.9,
+      "detached_kg": 135.0,
+      "captured_kg": 121.5,
+      "uncaptured_kg": 13.499999999999996,
+      "replacement_material_JPY_if_all_detached_unusable": 270000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 1350.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.99,
+      "detached_kg": 135.0,
+      "captured_kg": 133.65,
+      "uncaptured_kg": 1.3500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 270000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 1350.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.999,
+      "detached_kg": 135.0,
+      "captured_kg": 134.865,
+      "uncaptured_kg": 0.13500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 270000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 6750.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.9,
+      "detached_kg": 67.5,
+      "captured_kg": 60.75,
+      "uncaptured_kg": 6.749999999999998,
+      "replacement_material_JPY_if_all_detached_unusable": 135000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 6750.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.99,
+      "detached_kg": 67.5,
+      "captured_kg": 66.825,
+      "uncaptured_kg": 0.6750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 135000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 6750.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.999,
+      "detached_kg": 67.5,
+      "captured_kg": 67.4325,
+      "uncaptured_kg": 0.06750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 135000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 6750.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.9,
+      "detached_kg": 675.0,
+      "captured_kg": 607.5,
+      "uncaptured_kg": 67.49999999999999,
+      "replacement_material_JPY_if_all_detached_unusable": 1350000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 6750.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.99,
+      "detached_kg": 675.0,
+      "captured_kg": 668.25,
+      "uncaptured_kg": 6.750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 1350000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 6750.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.999,
+      "detached_kg": 675.0,
+      "captured_kg": 674.325,
+      "uncaptured_kg": 0.6750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 1350000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 2700.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.9,
+      "detached_kg": 27.0,
+      "captured_kg": 24.3,
+      "uncaptured_kg": 2.6999999999999993,
+      "replacement_material_JPY_if_all_detached_unusable": 54000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 2700.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.99,
+      "detached_kg": 27.0,
+      "captured_kg": 26.73,
+      "uncaptured_kg": 0.27000000000000024,
+      "replacement_material_JPY_if_all_detached_unusable": 54000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 2700.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.999,
+      "detached_kg": 27.0,
+      "captured_kg": 26.973,
+      "uncaptured_kg": 0.027000000000000024,
+      "replacement_material_JPY_if_all_detached_unusable": 54000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 2700.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.9,
+      "detached_kg": 270.0,
+      "captured_kg": 243.0,
+      "uncaptured_kg": 26.999999999999993,
+      "replacement_material_JPY_if_all_detached_unusable": 540000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 2700.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.99,
+      "detached_kg": 270.0,
+      "captured_kg": 267.3,
+      "uncaptured_kg": 2.7000000000000024,
+      "replacement_material_JPY_if_all_detached_unusable": 540000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 2700.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.999,
+      "detached_kg": 270.0,
+      "captured_kg": 269.73,
+      "uncaptured_kg": 0.27000000000000024,
+      "replacement_material_JPY_if_all_detached_unusable": 540000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 13500.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.9,
+      "detached_kg": 135.0,
+      "captured_kg": 121.5,
+      "uncaptured_kg": 13.499999999999996,
+      "replacement_material_JPY_if_all_detached_unusable": 270000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 13500.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.99,
+      "detached_kg": 135.0,
+      "captured_kg": 133.65,
+      "uncaptured_kg": 1.3500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 270000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 13500.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.999,
+      "detached_kg": 135.0,
+      "captured_kg": 134.865,
+      "uncaptured_kg": 0.13500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 270000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 13500.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.9,
+      "detached_kg": 1350.0,
+      "captured_kg": 1215.0,
+      "uncaptured_kg": 134.99999999999997,
+      "replacement_material_JPY_if_all_detached_unusable": 2700000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 13500.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.99,
+      "detached_kg": 1350.0,
+      "captured_kg": 1336.5,
+      "uncaptured_kg": 13.500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 2700000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 13500.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.999,
+      "detached_kg": 1350.0,
+      "captured_kg": 1348.65,
+      "uncaptured_kg": 1.3500000000000012,
+      "replacement_material_JPY_if_all_detached_unusable": 2700000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 67500.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.9,
+      "detached_kg": 675.0,
+      "captured_kg": 607.5,
+      "uncaptured_kg": 67.49999999999999,
+      "replacement_material_JPY_if_all_detached_unusable": 1350000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 67500.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.99,
+      "detached_kg": 675.0,
+      "captured_kg": 668.25,
+      "uncaptured_kg": 6.750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 1350000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 67500.0,
+      "annual_detached_fraction": 0.01,
+      "capture_fraction": 0.999,
+      "detached_kg": 675.0,
+      "captured_kg": 674.325,
+      "uncaptured_kg": 0.6750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 1350000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 67500.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.9,
+      "detached_kg": 6750.0,
+      "captured_kg": 6075.0,
+      "uncaptured_kg": 674.9999999999999,
+      "replacement_material_JPY_if_all_detached_unusable": 13500000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 67500.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.99,
+      "detached_kg": 6750.0,
+      "captured_kg": 6682.5,
+      "uncaptured_kg": 67.50000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 13500000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    },
+    {
+      "coating_kg": 67500.0,
+      "annual_detached_fraction": 0.1,
+      "capture_fraction": 0.999,
+      "detached_kg": 6750.0,
+      "captured_kg": 6743.25,
+      "uncaptured_kg": 6.750000000000006,
+      "replacement_material_JPY_if_all_detached_unusable": 13500000.0,
+      "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+    }
+  ],
+  "price_scenarios": [
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "price_JPY_kg": 500.0,
+      "coating_material_JPY": 135000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "price_JPY_kg": 2000.0,
+      "coating_material_JPY": 540000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.002,
+      "price_JPY_kg": 10000.0,
+      "coating_material_JPY": 2700000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "price_JPY_kg": 500.0,
+      "coating_material_JPY": 675000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "price_JPY_kg": 2000.0,
+      "coating_material_JPY": 2700000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.01,
+      "price_JPY_kg": 10000.0,
+      "coating_material_JPY": 13500000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "price_JPY_kg": 500.0,
+      "coating_material_JPY": 3375000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "price_JPY_kg": 2000.0,
+      "coating_material_JPY": 13500000.0
+    },
+    {
+      "finished_mass_kg": 135000.0,
+      "weight_fraction": 0.05,
+      "price_JPY_kg": 10000.0,
+      "coating_material_JPY": 67500000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "price_JPY_kg": 500.0,
+      "coating_material_JPY": 1350000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "price_JPY_kg": 2000.0,
+      "coating_material_JPY": 5400000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.002,
+      "price_JPY_kg": 10000.0,
+      "coating_material_JPY": 27000000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "price_JPY_kg": 500.0,
+      "coating_material_JPY": 6750000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "price_JPY_kg": 2000.0,
+      "coating_material_JPY": 27000000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.01,
+      "price_JPY_kg": 10000.0,
+      "coating_material_JPY": 135000000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "price_JPY_kg": 500.0,
+      "coating_material_JPY": 33750000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "price_JPY_kg": 2000.0,
+      "coating_material_JPY": 135000000.0
+    },
+    {
+      "finished_mass_kg": 1350000.0,
+      "weight_fraction": 0.05,
+      "price_JPY_kg": 10000.0,
+      "coating_material_JPY": 675000000.0
+    }
+  ],
+  "reference_coating": {
+    "finished_mass_kg": 135000,
+    "weight_fraction": 0.01,
+    "core_kg": 133650.0,
+    "coating_kg": 1350.0,
+    "coatable_area_m2_per_kg_core": 10,
+    "target_area_fraction": 1.0,
+    "coating_density_kg_m3": 1200.0,
+    "equivalent_solid_thickness_um": 0.8417508417508418
+  },
+  "reference_localized_coating": {
+    "finished_mass_kg": 135000,
+    "weight_fraction": 0.01,
+    "core_kg": 133650.0,
+    "coating_kg": 1350.0,
+    "coatable_area_m2_per_kg_core": 10,
+    "target_area_fraction": 0.2,
+    "coating_density_kg_m3": 1200,
+    "equivalent_solid_thickness_um": 4.2087542087542085
+  },
+  "reference_loss": {
+    "coating_kg": 1350,
+    "annual_detached_fraction": 0.01,
+    "capture_fraction": 0.999,
+    "detached_kg": 13.5,
+    "captured_kg": 13.4865,
+    "uncaptured_kg": 0.013500000000000012,
+    "replacement_material_JPY_if_all_detached_unusable": 27000.0,
+    "status": "assumed inventory loss; not measured wear, permitted release, or quotation"
+  },
+  "assumptions": {
+    "size": "diameter variable for a mathematical two-bin population, not measured patent particle data",
+    "volume_law": "p3 similar shapes; p2 equal thickness plates, not a laser scattering inversion",
+    "density": "1200 kg/m3 reference LL nominal density from prior46; mixed crystals density unmeasured",
+    "bed": "finished mass assumption area times 0.45m times150kg/m3, not fixed microstructure after coating",
+    "surface": "externally coatable area, not necessarily BET area",
+    "price": "sensitivity assumptions, not supplier quotation",
+    "detach": "hypothetical annual loss of coating inventory, not per skier pass"
+  },
+  "dependency_hashes": {
+    "計算部品/powder_inventory.py": "6817c5182d4ce61f225f69d9106b276cdfc2e0c5597c5cb92c1ae5f5e52b56a8",
+    "GPT往復/GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md": "7cdf50b3d007380146218557b2378624691e14692868e4513433045bcb2c3e69"
+  }
+}
