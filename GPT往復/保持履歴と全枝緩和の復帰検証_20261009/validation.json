@@ -1,0 +1,699 @@
+{
+  "all_passed": true,
+  "count": 173,
+  "checks": [
+    {
+      "name": "solver_success_0",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_0",
+      "passed": true
+    },
+    {
+      "name": "solver_success_1",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_1",
+      "passed": true
+    },
+    {
+      "name": "solver_success_2",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_2",
+      "passed": true
+    },
+    {
+      "name": "solver_success_3",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_3",
+      "passed": true
+    },
+    {
+      "name": "solver_success_4",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_4",
+      "passed": true
+    },
+    {
+      "name": "solver_success_5",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_5",
+      "passed": true
+    },
+    {
+      "name": "solver_success_6",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_6",
+      "passed": true
+    },
+    {
+      "name": "solver_success_7",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_7",
+      "passed": true
+    },
+    {
+      "name": "solver_success_8",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_8",
+      "passed": true
+    },
+    {
+      "name": "solver_success_9",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_9",
+      "passed": true
+    },
+    {
+      "name": "solver_success_10",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_10",
+      "passed": true
+    },
+    {
+      "name": "solver_success_11",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_11",
+      "passed": true
+    },
+    {
+      "name": "solver_success_12",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_12",
+      "passed": true
+    },
+    {
+      "name": "solver_success_13",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_13",
+      "passed": true
+    },
+    {
+      "name": "solver_success_14",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_14",
+      "passed": true
+    },
+    {
+      "name": "solver_success_15",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_15",
+      "passed": true
+    },
+    {
+      "name": "solver_success_16",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_16",
+      "passed": true
+    },
+    {
+      "name": "solver_success_17",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_17",
+      "passed": true
+    },
+    {
+      "name": "solver_success_18",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_18",
+      "passed": true
+    },
+    {
+      "name": "solver_success_19",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_19",
+      "passed": true
+    },
+    {
+      "name": "solver_success_20",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_20",
+      "passed": true
+    },
+    {
+      "name": "solver_success_21",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_21",
+      "passed": true
+    },
+    {
+      "name": "solver_success_22",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_22",
+      "passed": true
+    },
+    {
+      "name": "solver_success_23",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_23",
+      "passed": true
+    },
+    {
+      "name": "solver_success_24",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_24",
+      "passed": true
+    },
+    {
+      "name": "solver_success_25",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_25",
+      "passed": true
+    },
+    {
+      "name": "solver_success_26",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_26",
+      "passed": true
+    },
+    {
+      "name": "solver_success_27",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_27",
+      "passed": true
+    },
+    {
+      "name": "solver_success_28",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_28",
+      "passed": true
+    },
+    {
+      "name": "solver_success_29",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_29",
+      "passed": true
+    },
+    {
+      "name": "solver_success_30",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_30",
+      "passed": true
+    },
+    {
+      "name": "solver_success_31",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_31",
+      "passed": true
+    },
+    {
+      "name": "solver_success_32",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_32",
+      "passed": true
+    },
+    {
+      "name": "solver_success_33",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_33",
+      "passed": true
+    },
+    {
+      "name": "solver_success_34",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_34",
+      "passed": true
+    },
+    {
+      "name": "solver_success_35",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_35",
+      "passed": true
+    },
+    {
+      "name": "solver_success_36",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_36",
+      "passed": true
+    },
+    {
+      "name": "solver_success_37",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_37",
+      "passed": true
+    },
+    {
+      "name": "solver_success_38",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_38",
+      "passed": true
+    },
+    {
+      "name": "solver_success_39",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_39",
+      "passed": true
+    },
+    {
+      "name": "solver_success_40",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_40",
+      "passed": true
+    },
+    {
+      "name": "solver_success_41",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_41",
+      "passed": true
+    },
+    {
+      "name": "solver_success_42",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_42",
+      "passed": true
+    },
+    {
+      "name": "solver_success_43",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_43",
+      "passed": true
+    },
+    {
+      "name": "solver_success_44",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_44",
+      "passed": true
+    },
+    {
+      "name": "solver_success_45",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_45",
+      "passed": true
+    },
+    {
+      "name": "solver_success_46",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_46",
+      "passed": true
+    },
+    {
+      "name": "solver_success_47",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_47",
+      "passed": true
+    },
+    {
+      "name": "solver_success_48",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_48",
+      "passed": true
+    },
+    {
+      "name": "solver_success_49",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_49",
+      "passed": true
+    },
+    {
+      "name": "solver_success_50",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_50",
+      "passed": true
+    },
+    {
+      "name": "solver_success_51",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_51",
+      "passed": true
+    },
+    {
+      "name": "solver_success_52",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_52",
+      "passed": true
+    },
+    {
+      "name": "solver_success_53",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_53",
+      "passed": true
+    },
+    {
+      "name": "solver_success_54",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_54",
+      "passed": true
+    },
+    {
+      "name": "solver_success_55",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_55",
+      "passed": true
+    },
+    {
+      "name": "solver_success_56",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_56",
+      "passed": true
+    },
+    {
+      "name": "solver_success_57",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_57",
+      "passed": true
+    },
+    {
+      "name": "solver_success_58",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_58",
+      "passed": true
+    },
+    {
+      "name": "solver_success_59",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_59",
+      "passed": true
+    },
+    {
+      "name": "solver_success_60",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_60",
+      "passed": true
+    },
+    {
+      "name": "solver_success_61",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_61",
+      "passed": true
+    },
+    {
+      "name": "solver_success_62",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_62",
+      "passed": true
+    },
+    {
+      "name": "solver_success_63",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_63",
+      "passed": true
+    },
+    {
+      "name": "solver_success_64",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_64",
+      "passed": true
+    },
+    {
+      "name": "solver_success_65",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_65",
+      "passed": true
+    },
+    {
+      "name": "solver_success_66",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_66",
+      "passed": true
+    },
+    {
+      "name": "solver_success_67",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_67",
+      "passed": true
+    },
+    {
+      "name": "solver_success_68",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_68",
+      "passed": true
+    },
+    {
+      "name": "solver_success_69",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_69",
+      "passed": true
+    },
+    {
+      "name": "solver_success_70",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_70",
+      "passed": true
+    },
+    {
+      "name": "solver_success_71",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_71",
+      "passed": true
+    },
+    {
+      "name": "solver_success_72",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_72",
+      "passed": true
+    },
+    {
+      "name": "solver_success_73",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_73",
+      "passed": true
+    },
+    {
+      "name": "solver_success_74",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_74",
+      "passed": true
+    },
+    {
+      "name": "solver_success_75",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_75",
+      "passed": true
+    },
+    {
+      "name": "solver_success_76",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_76",
+      "passed": true
+    },
+    {
+      "name": "solver_success_77",
+      "passed": true
+    },
+    {
+      "name": "energy_balance_77",
+      "passed": true
+    },
+    {
+      "name": "independent_solver_0",
+      "passed": true
+    },
+    {
+      "name": "independent_solver_1",
+      "passed": true
+    },
+    {
+      "name": "independent_solver_2",
+      "passed": true
+    },
+    {
+      "name": "independent_solver_3",
+      "passed": true
+    },
+    {
+      "name": "analytic_equilibrium_0.1",
+      "passed": true
+    },
+    {
+      "name": "analytic_equilibrium_0.24",
+      "passed": true
+    },
+    {
+      "name": "analytic_equilibrium_0.25",
+      "passed": true
+    },
+    {
+      "name": "monostable_positive_discriminant_removed",
+      "passed": true
+    },
+    {
+      "name": "fold_exact",
+      "passed": true
+    },
+    {
+      "name": "potential_force_0.2",
+      "passed": true
+    },
+    {
+      "name": "potential_force_0.8",
+      "passed": true
+    },
+    {
+      "name": "potential_force_1.3",
+      "passed": true
+    },
+    {
+      "name": "potential_force_1.7",
+      "passed": true
+    },
+    {
+      "name": "zero_tolerance_identity",
+      "passed": true
+    },
+    {
+      "name": "peak_derivative_0.2501",
+      "passed": true
+    },
+    {
+      "name": "peak_derivative_0.3",
+      "passed": true
+    },
+    {
+      "name": "peak_derivative_0.4",
+      "passed": true
+    }
+  ],
+  "meaning": "equation and numerical validation only"
+}

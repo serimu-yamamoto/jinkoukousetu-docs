@@ -1,0 +1,23 @@
+{
+  "cycle": 96,
+  "base_commit": "939140edfbf3d67bd6eb2de014f3d72b89998404",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "selected_material": null,
+  "facilities_available": false,
+  "collaborators_available": false,
+  "contacts_sent": 0,
+  "quotes_obtained": 0,
+  "claude_receipt_confirmed": false,
+  "claude_reply_confirmed": false,
+  "claude_ledger_sha256_LF": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "actual_50C_recovery_confirmed": false,
+  "actual_ski_friction_confirmed": false,
+  "snow_crystal_growth_confirmed": false,
+  "novelty_claim": "engineering hypothesis only; no patent novelty determination",
+  "hypothesis": "H96 same-material branched grain with return bias and compliant internal travel limit, combined with whole-grain disengagement; no geometry or material qualified",
+  "source_model_extended": true,
+  "zero_crossing_equals_settled_recovery": false,
+  "full_product_success_unproven": true,
+  "final_verification_date": "2026-10-10"
+}

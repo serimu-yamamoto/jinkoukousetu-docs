@@ -1,0 +1,38 @@
+{
+  "purpose": "check possible missed oscillatory zero crossings in four reported cases; not a material test",
+  "checks": [
+    {
+      "X_initial": 1.3,
+      "mode": "vertical_SLS",
+      "original_first_zero_T": 0.05038824361828204,
+      "max_step_0_0025_first_zero_T": 0.050388243619871376,
+      "relative_difference": 3.15417390611619e-11,
+      "passed": true
+    },
+    {
+      "X_initial": 1.3,
+      "mode": "all_SLS",
+      "original_first_zero_T": 0.05451679898285368,
+      "max_step_0_0025_first_zero_T": 0.054516798948120095,
+      "relative_difference": 6.371170856441157e-10,
+      "passed": true
+    },
+    {
+      "X_initial": 1.5,
+      "mode": "vertical_SLS",
+      "original_first_zero_T": 19.350733491065146,
+      "max_step_0_0025_first_zero_T": 19.350733491097827,
+      "relative_difference": 1.6888978986931255e-12,
+      "passed": true
+    },
+    {
+      "X_initial": 1.5,
+      "mode": "all_SLS",
+      "original_first_zero_T": 66.250734910975,
+      "max_step_0_0025_first_zero_T": 66.25073491100505,
+      "relative_difference": 4.536698009920427e-13,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

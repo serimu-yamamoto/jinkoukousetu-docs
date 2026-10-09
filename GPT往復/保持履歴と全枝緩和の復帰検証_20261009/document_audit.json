@@ -1,0 +1,1011 @@
+{
+  "all_passed": true,
+  "audit_checks": 250,
+  "model_checks": 173,
+  "independent_solver_pairs": 10,
+  "event_step_checks": 4,
+  "local_link_count": 649,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "experiments_zero",
+      "passed": true
+    },
+    {
+      "name": "probability_unknown",
+      "passed": true
+    },
+    {
+      "name": "no_equipment_contacts_or_quotes",
+      "passed": true
+    },
+    {
+      "name": "no_claim_of_claude_reply",
+      "passed": true
+    },
+    {
+      "name": "no_calibrated_material",
+      "passed": true
+    },
+    {
+      "name": "no_actual_50C_time_or_ski_response",
+      "passed": true
+    },
+    {
+      "name": "not_crystal_growth",
+      "passed": true
+    },
+    {
+      "name": "173_model_checks",
+      "passed": true
+    },
+    {
+      "name": "simulation_counts",
+      "passed": true
+    },
+    {
+      "name": "independent_solver_pairs",
+      "passed": true
+    },
+    {
+      "name": "reduced_step_event_checks",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_0",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_0",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_1",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_1",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_2",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_2",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_3",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_3",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_4",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_4",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_5",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_5",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_6",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_6",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_7",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_7",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_8",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_8",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_9",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_9",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_10",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_10",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_11",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_11",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_12",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_12",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_13",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_13",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_14",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_14",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_15",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_15",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_16",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_16",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_17",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_17",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_18",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_18",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_19",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_19",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_20",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_20",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_21",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_21",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_22",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_22",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_23",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_23",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_24",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_24",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_25",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_25",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_26",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_26",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_27",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_27",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_28",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_28",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_29",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_29",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_30",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_30",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_31",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_31",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_32",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_32",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_33",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_33",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_34",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_34",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_35",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_35",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_36",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_36",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_37",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_37",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_38",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_38",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_39",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_39",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_40",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_40",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_41",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_41",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_42",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_42",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_43",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_43",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_44",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_44",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_45",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_45",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_46",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_46",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_47",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_47",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_48",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_48",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_49",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_49",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_50",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_50",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_51",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_51",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_52",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_52",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_53",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_53",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_54",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_54",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_55",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_55",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_56",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_56",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_57",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_57",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_58",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_58",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_59",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_59",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_60",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_60",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_61",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_61",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_62",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_62",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_63",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_63",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_64",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_64",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_65",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_65",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_66",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_66",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_67",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_67",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_68",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_68",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_69",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_69",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_70",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_70",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_71",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_71",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_72",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_72",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_73",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_73",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_74",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_74",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_75",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_75",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_76",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_76",
+      "passed": true
+    },
+    {
+      "name": "energy_and_solver_77",
+      "passed": true
+    },
+    {
+      "name": "no_settled_recovery_claim_77",
+      "passed": true
+    },
+    {
+      "name": "near_zero_event_unusable_4",
+      "passed": true
+    },
+    {
+      "name": "near_zero_event_unusable_5",
+      "passed": true
+    },
+    {
+      "name": "finite_cases_count",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_0",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_0",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_1",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_1",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_2",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_2",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_3",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_3",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_4",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_4",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_5",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_5",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_6",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_6",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_7",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_7",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_8",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_8",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_9",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_9",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_10",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_10",
+      "passed": true
+    },
+    {
+      "name": "energy_threshold_11",
+      "passed": true
+    },
+    {
+      "name": "enclosure_result_11",
+      "passed": true
+    },
+    {
+      "name": "finite_solver_agreement",
+      "passed": true
+    },
+    {
+      "name": "partial_rerun_matches_0",
+      "passed": true
+    },
+    {
+      "name": "partial_rerun_matches_1",
+      "passed": true
+    },
+    {
+      "name": "cost_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "24_unperformed_individuals",
+      "passed": true
+    },
+    {
+      "name": "specimen_factors",
+      "passed": true
+    },
+    {
+      "name": "specimen_ids",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_preserved",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_0",
+      "passed": true
+    },
+    {
+      "name": "index_history_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_6",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_3",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_2",
+      "passed": true
+    },
+    {
+      "name": "index_history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_1",
+      "passed": true
+    },
+    {
+      "name": "index_history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_4",
+      "passed": true
+    },
+    {
+      "name": "index_history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_5",
+      "passed": true
+    },
+    {
+      "name": "index_history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_condition_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_condition_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_condition_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_condition_60分",
+      "passed": true
+    },
+    {
+      "name": "report_condition_2億円",
+      "passed": true
+    },
+    {
+      "name": "report_condition_成功確率未算定",
+      "passed": true
+    },
+    {
+      "name": "report_condition_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_condition_約49.8％",
+      "passed": true
+    },
+    {
+      "name": "report_condition_秒ではない",
+      "passed": true
+    },
+    {
+      "name": "report_condition_雪の結晶成長ではない",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "png_signature_recovery_history.png",
+      "passed": true
+    },
+    {
+      "name": "png_size_recovery_history.png",
+      "passed": true
+    },
+    {
+      "name": "png_signature_force_tolerance.png",
+      "passed": true
+    },
+    {
+      "name": "png_size_force_tolerance.png",
+      "passed": true
+    },
+    {
+      "name": "saved_results_revalidation",
+      "passed": true
+    },
+    {
+      "name": "saved_bytes_preserved",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_event_audit.json",
+      "passed": true
+    },
+    {
+      "name": "LF_event_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_finite_recovery.json",
+      "passed": true
+    },
+    {
+      "name": "LF_finite_recovery.py",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_make_figures.py",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "LF_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "LF_results.json",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_test_plan.md",
+      "passed": true
+    },
+    {
+      "name": "LF_validation.json",
+      "passed": true
+    }
+  ]
+}

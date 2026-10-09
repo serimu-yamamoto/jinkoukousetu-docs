@@ -1,0 +1,275 @@
+{
+  "physical_experiments": 0,
+  "success_probability": null,
+  "band_fraction_of_initial_indentation": 0.1,
+  "meaning": "passive unforced model position enclosure, not complete relaxation or physical product recovery",
+  "cases": [
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.25,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 10,
+      "method": "DOP853",
+      "energy_enclosure_T": 12.538639852661829,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.12046853591161111,
+      "end_V": 3.8602368382149836,
+      "end_energy": 0.019759718034807958,
+      "relative_energy_balance_error": 9.802125272998737e-08,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.25,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 10,
+      "method": "Radau",
+      "energy_enclosure_T": 12.53864094754187,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.12047240921887699,
+      "end_V": 3.8571931271198356,
+      "end_energy": 0.019759718034807958,
+      "relative_energy_balance_error": 2.0746785510311884e-11,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.25,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 100,
+      "method": "DOP853",
+      "energy_enclosure_T": 12.538578602287968,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.12029514246203259,
+      "end_V": 3.994044195982293,
+      "end_energy": 0.01975971803480793,
+      "relative_energy_balance_error": 9.772301355177835e-08,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.25,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 100,
+      "method": "Radau",
+      "energy_enclosure_T": 12.538579695478699,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.12029914065632971,
+      "end_V": 3.991010591380702,
+      "end_energy": 0.019759718034807958,
+      "relative_energy_balance_error": 1.9590324328255317e-11,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.5,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 10,
+      "method": "DOP853",
+      "energy_enclosure_T": 5.670448161969554,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": -0.049010284837427476,
+      "end_V": 8.058930879795545,
+      "end_energy": 0.01975971803480795,
+      "relative_energy_balance_error": 2.834285384043302e-08,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.5,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 10,
+      "method": "Radau",
+      "energy_enclosure_T": 5.6704483053975245,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": -0.049009250180503956,
+      "end_V": 8.059423472710243,
+      "end_energy": 0.01975971803480795,
+      "relative_energy_balance_error": 2.537274908829619e-12,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.5,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 100,
+      "method": "DOP853",
+      "energy_enclosure_T": 5.670380254873902,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": -0.04950072085412342,
+      "end_V": 7.821075405919343,
+      "end_energy": 0.019759718034807944,
+      "relative_energy_balance_error": 2.8315670643876324e-08,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.5,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 100,
+      "method": "Radau",
+      "energy_enclosure_T": 5.6703803966309865,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": -0.04949972981053249,
+      "end_V": 7.82156505855921,
+      "end_energy": 0.019759718034807944,
+      "relative_energy_balance_error": 3.383706593192183e-12,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.75,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 10,
+      "method": "DOP853",
+      "energy_enclosure_T": 6.618370599588219,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.11952943943397987,
+      "end_V": 2.169679855027205,
+      "end_energy": 0.01975971803480794,
+      "relative_energy_balance_error": 2.1405534541738776e-09,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.75,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 10,
+      "method": "Radau",
+      "energy_enclosure_T": 6.618370612482794,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.1195294679570201,
+      "end_V": 2.1696797868972277,
+      "end_energy": 0.019759718034807954,
+      "relative_energy_balance_error": 8.824374014282994e-13,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.75,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 100,
+      "method": "DOP853",
+      "energy_enclosure_T": 6.618084353687694,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.11918312141101102,
+      "end_V": 2.1687560298204556,
+      "end_energy": 0.01975971803480795,
+      "relative_energy_balance_error": 2.217883313512079e-09,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    },
+    {
+      "lambda": 0.2969955933998693,
+      "beta": 0.75,
+      "X_initial": 1.3961218836565097,
+      "hold_T": 100,
+      "method": "Radau",
+      "energy_enclosure_T": 6.618084366645951,
+      "position_band": [
+        -0.13961218836565098,
+        0.13961218836565098
+      ],
+      "energy_threshold": 0.01975971803480795,
+      "end_X": 0.1191831499518272,
+      "end_V": 2.1687563072574747,
+      "end_energy": 0.019759718034807947,
+      "relative_energy_balance_error": 8.349050930208351e-13,
+      "steady_potential_monotone_for_positive_X": true,
+      "physical_recovery_seconds": null
+    }
+  ],
+  "independent_comparisons": [
+    {
+      "beta": 0.25,
+      "hold_T": 10,
+      "relative_time_difference": 8.732047160720644e-08,
+      "passed": true
+    },
+    {
+      "beta": 0.25,
+      "hold_T": 100,
+      "relative_time_difference": 8.718616919759913e-08,
+      "passed": true
+    },
+    {
+      "beta": 0.5,
+      "hold_T": 10,
+      "relative_time_difference": 2.5293938522800443e-08,
+      "passed": true
+    },
+    {
+      "beta": 0.5,
+      "hold_T": 100,
+      "relative_time_difference": 2.4999572229303622e-08,
+      "passed": true
+    },
+    {
+      "beta": 0.75,
+      "hold_T": 10,
+      "relative_time_difference": 1.9483005622357567e-09,
+      "passed": true
+    },
+    {
+      "beta": 0.75,
+      "hold_T": 100,
+      "relative_time_difference": 1.9580071773044155e-09,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

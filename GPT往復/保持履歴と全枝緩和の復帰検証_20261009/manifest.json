@@ -1,0 +1,149 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "939140edfbf3d67bd6eb2de014f3d72b89998404",
+  "verified_date": "2026-10-10",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第96巡_長時間荷重でも戻る粒形状と製造ばらつきの条件_20261009.md",
+      "bytes": 9012,
+      "sha256": "4eb4b77fafc230323786a87c4f32cea9f738ece2d44c8648c8a0dfdbfaf2b5ea"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 62314,
+      "sha256": "d114460b5989a5eaf45d5436884613a5ccf14433f6a1ea27ee9c9ca230b83c9a"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/README.md",
+      "bytes": 2631,
+      "sha256": "4c7a26995425c09426be88c7d7e8c11196c3510b20019cb0091e1c4b27a8587b"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/audit.py",
+      "bytes": 6396,
+      "sha256": "39bddc9a385d2a1230b76681bc93c12a468cedb306f889ed389cba827414a2b5"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/claude_handoff.md",
+      "bytes": 2493,
+      "sha256": "8cd0bfe24c30a7f7f3585e3efe3b902f3c71dd1c12eb89f4d84d87db2b8700ba"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/document_audit.json",
+      "bytes": 18940,
+      "sha256": "583a865e09cf96e50f5ca1aa60c7c551bcf15fe4aefc94c217799f935a008a66"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/event_audit.json",
+      "bytes": 1140,
+      "sha256": "1bbffeb2b02b20dea03d55ecc0f34572637819771f65d92a394b35c90c974fd5"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/event_audit.py",
+      "bytes": 982,
+      "sha256": "f48dd9772e302c63241cc6a64f2b8192137b7d717c53debb67a7468876448459"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/finite_recovery.json",
+      "bytes": 8415,
+      "sha256": "fd60156f5f650193e9fa2f1999d442e1840fe1268c54920aff56c1ecd7268c2f"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/finite_recovery.py",
+      "bytes": 3174,
+      "sha256": "4e4acabc453205581c9e9334d375ce3895aa28ba40e8586240b4788da4650d59"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/force_tolerance.png",
+      "bytes": 180714,
+      "sha256": "2a3147a442d95d58d6d0bb9883c1357f5b7650169cdd1a8e48650c33cca966ed"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/index_changes.json",
+      "bytes": 4359,
+      "sha256": "29788ae77f54f063449575e33fcdc02b9896011c401abda11532959d78171c9f"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/inputs.json",
+      "bytes": 548,
+      "sha256": "5dc47fdfc0e26e5dc0cf823db45ff7170f5c61ccffafb3ce49c1dd311bda87ff"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/make_figures.py",
+      "bytes": 3583,
+      "sha256": "5c49c2803ccd24102f0f0732a0541d1de5d5b764161437371357b737772c2308"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/model.md",
+      "bytes": 4322,
+      "sha256": "2b0cd353756a2bd4427dee4c8834ffc0390c9b96d92472c59c9b04f7dd85225a"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/recovery_history.png",
+      "bytes": 144281,
+      "sha256": "7edce1191f037a2ad6f5f3d798b58fb56d7870f3896e3c8a25934a1484cf74c2"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/reproduce.py",
+      "bytes": 7301,
+      "sha256": "2af60b5725085ce9f2f06557959d0860a951605d3c086c037f777ae624272dcb"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/research_state.json",
+      "bytes": 1009,
+      "sha256": "1d5ded09306ff9732bbbe2a950233b93c9b3ed8d6786d3675abb60a330ebf295"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/results.json",
+      "bytes": 277954,
+      "sha256": "a5c4a8b5ebd566753ae08e528dd1f352ef9301f359af613c74232e2554bccc0e"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/sources.md",
+      "bytes": 3442,
+      "sha256": "cc519a6d18a64c6eeef6e5d230cbaae0a9a62ffe7b4fd705dce4ba124fdf722f"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/test_plan.json",
+      "bytes": 7518,
+      "sha256": "d987c19827d27966a8e2dae32792befa7754ce0b85e68b92410c6ef09e4443c6"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/test_plan.md",
+      "bytes": 2390,
+      "sha256": "7b510d39909c59bfe7991f7e6d70326159dbe7cd0cd94ec208eb946acaf9d00b"
+    },
+    {
+      "path": "GPT往復/保持履歴と全枝緩和の復帰検証_20261009/validation.json",
+      "bytes": 12105,
+      "sha256": "45e7cee5e828bd81cca93bb7e7555518ce586f834a42e3575a741b25558367c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 72170,
+      "sha256": "c1f3cc84ba0011bcaaf7e9aa43f9d7094348343e3fa23cb0f428299f2dd8fe8f"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 172178,
+      "sha256": "1a73871b20e768934acdf1d9a7639c56bb2560a054d1af8f758e1e91a5bfc547"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 23272,
+      "sha256": "e9f32c3b2068dd821285fdc00674c126e1ab1e93eda18bf0f5e5f4252c382fe4"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 227945,
+      "sha256": "9f403bd6dd5da345d14677630a09474d695b89d5e4d4b9c2136fb26cb3e9d273"
+    }
+  ]
+}
