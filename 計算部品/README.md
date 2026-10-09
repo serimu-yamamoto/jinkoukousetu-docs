@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [drying_stop_geometry.py](drying_stop_geometry.py)：乾湿の三方向形状比と対向突起の固体増加・名目荷重集中。力学、接着、滑走は予測しない。[第123巡](../GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/README.md)。
+
 - [precipitation_bath_balance.py](precipitation_bath_balance.py)：析出原料と浴濃度、選択回収・抜出し・非溶剤補充の質量収支。形態・乾燥・滑走は予測しない。[第122巡](../GPT往復/液中形状形成と母液循環の濃度管理_20261010/README.md)。
 
 - [compound_contact_inventory.py](compound_contact_inventory.py)：質量分率と理想体積分率、局所複合部物量、分散相寸法、同試験内の報告値比。寿命予測ではない。[第121巡](../GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/README.md)。

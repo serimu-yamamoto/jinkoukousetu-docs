@@ -1,0 +1,124 @@
+{
+  "cycle": 123,
+  "base_commit": "953e3b0cad6e9199c79f08c05674b06ceaf4497d",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第123巡_乾燥形状の保持と粒内ストッパーの設計_20261010.md",
+      "bytes": 7649,
+      "sha256": "df1203b66fa0c5a7bb309926c765759422e5882844fdaf25d101c85dbcfe293d"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 79623,
+      "sha256": "e6d97add7e3a6032d0626cfa2d56793046077bb92bfe2edb50f831b93ecc89bf"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/README.md",
+      "bytes": 644,
+      "sha256": "505e38b7d87c683e8cec79d605dda54fb8bb21ae4700551a98acac13b9ffd64d"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/claude_handoff.md",
+      "bytes": 1427,
+      "sha256": "3a5b37b3fae3d2be6a36c27aeeb43f79dd51fc7a72cb02429215c3a82e6ba288"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "8d2d69f3f86233f986620321de615c1a70823581d13f86606e23722190ab397a"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/inputs.json",
+      "bytes": 1496,
+      "sha256": "571fa0e4ade422c71795bbada90dde99b440313ab1046f6ac91d47fb729a1fa0"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/model.md",
+      "bytes": 1574,
+      "sha256": "bf7952295692e3ea16ddf0e6b0e2fcae8daa55a41b2b0e3378c46bd2fe69cb7f"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "078eaccfe3e5ba24b309e746fcf862e830b2ad592bea7fe3f358ae320280e284"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/reproduce.py",
+      "bytes": 4057,
+      "sha256": "ec94adcae760803c6be91e528e3b8b7f65cdd9def71b5546fec4aa5bb7533f1a"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/research_state.json",
+      "bytes": 861,
+      "sha256": "318ca628a0b4b8c9858d622d9ef298e27e56a28e1111603f0b03e7bfd0331dc1"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/results.json",
+      "bytes": 4473,
+      "sha256": "bfb4ade0fc60a7d04a92043cf5f04b614121ba0f75e72b2fb6006fc250d66e9b"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/sources.json",
+      "bytes": 1665,
+      "sha256": "c70af1e83f7f9f1480609823713b557effc9ef0c9f4dd042d6181d0d2bf237cb"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/test_plan.json",
+      "bytes": 854,
+      "sha256": "9b03c24ca56450696c9725c1d8ee2cac53a80c623322ac49697b9f1d4bdd4013"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/validation.json",
+      "bytes": 1211,
+      "sha256": "c7ed52e8fe023fa725e463b7647c22a158dc5fbf448c0bd56364df51b7f949ea"
+    },
+    {
+      "path": "README.md",
+      "bytes": 89874,
+      "sha256": "f531d851842759dcda55b77222318aa269cc8b824a79a56e3abdfd702307a24c"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 202515,
+      "sha256": "02664ae0168a451ff8f65dc94a32971b8da1a8ed111c5228b1e310628a82e8bf"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 6069,
+      "sha256": "c061ed549741d726c3131a2e11e694b6577726a2f2246c758dc2fde03837145b"
+    },
+    {
+      "path": "計算部品/drying_stop_geometry.py",
+      "bytes": 2359,
+      "sha256": "0cdcae29678e563b99cf0e60ca6164f4e72d0a5890d6050b733383724c2fb2b4"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 44254,
+      "sha256": "c42c033206925f3b5a5d6d38f2b509bad158f182874bb74b19a5f1fac17a8eb3"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 236806,
+      "sha256": "fc5a9de66d5103c9f59602a047082f06053eaf808d98f93f805d800ddf0a9067"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/液中形状形成と母液循環の濃度管理_20261010/sources.json",
+      "bytes": 1955,
+      "sha256": "3f887c159465aec28641ffd3f6c3437ccfa48308d82439952ee5c797718f1f90"
+    },
+    {
+      "path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/sources.md",
+      "bytes": 6859,
+      "sha256": "b5800e012672cf6a0fa66012d752027aa84a5469495b16ecfb0eefb8a059c7d3"
+    },
+    {
+      "path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/model.md",
+      "bytes": 4141,
+      "sha256": "99c7d29f71b1736f7c1872679a8d78f12fad83d1a1d6a98f62ebb21efbaa5d62"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "source": {
+    "doi": "10.1016/j.powtec.2024.120275",
+    "role": "qualitative dry-collapse/wet-recovery counterexample; no material properties fitted"
+  },
+  "assumed": {
+    "patch_um": [
+      600,
+      600
+    ],
+    "plate_thickness_um": 30,
+    "gap_um": 100,
+    "post_height_um": 40,
+    "posts_per_face": 4,
+    "radii_um": [
+      25,
+      50,
+      75
+    ],
+    "base_material_kg": 135000,
+    "local_reference_mass_fraction": 0.1,
+    "synthetic_shape_pairs": [
+      {
+        "id": "flat_dry_false_positive",
+        "initial": [
+          1,
+          1,
+          1
+        ],
+        "final": [
+          1,
+          1,
+          0.1
+        ]
+      },
+      {
+        "id": "uniform_shrink",
+        "initial": [
+          1,
+          1,
+          1
+        ],
+        "final": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "id": "wet_recovered_only",
+        "initial": [
+          1,
+          1,
+          1
+        ],
+        "final": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "Dimensions and 10percent local fraction are design assumptions",
+    "Shape examples are synthetic, not digitized source measurements",
+    "Rigid aligned posts do not prove wet or50C stability",
+    "Plan area load uniformly shared among posts is a reference load comparison",
+    "Post placement and manufacturability not solved",
+    "No material price durability friction or toxicology measured"
+  ]
+}

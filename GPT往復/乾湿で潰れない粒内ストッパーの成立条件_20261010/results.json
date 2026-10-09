@@ -1,0 +1,109 @@
+{
+  "cycle": 123,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/液中形状形成と母液循環の濃度管理_20261010/sources.json": "3f887c159465aec28641ffd3f6c3437ccfa48308d82439952ee5c797718f1f90",
+    "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/sources.md": "b5800e012672cf6a0fa66012d752027aa84a5469495b16ecfb0eefb8a059c7d3",
+    "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/model.md": "99c7d29f71b1736f7c1872679a8d78f12fad83d1a1d6a98f62ebb21efbaa5d62"
+  },
+  "shape_counterexamples": [
+    {
+      "id": "flat_dry_false_positive",
+      "axis_ratios": [
+        1.0,
+        1.0,
+        0.1
+      ],
+      "xy_projected_area_ratio": 1.0,
+      "ellipsoid_envelope_volume_ratio": 0.1,
+      "note": "same ellipsoid shape factor; not solid volume or measured packing"
+    },
+    {
+      "id": "uniform_shrink",
+      "axis_ratios": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "xy_projected_area_ratio": 0.010000000000000002,
+      "ellipsoid_envelope_volume_ratio": 0.0010000000000000002,
+      "note": "same ellipsoid shape factor; not solid volume or measured packing"
+    },
+    {
+      "id": "wet_recovered_only",
+      "axis_ratios": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "xy_projected_area_ratio": 1.0,
+      "ellipsoid_envelope_volume_ratio": 1.0,
+      "note": "same ellipsoid shape factor; not solid volume or measured packing"
+    }
+  ],
+  "stop_scenarios": [
+    {
+      "radius_um": 25,
+      "remaining_gap_at_first_contact_m": 7.999999999999999e-05,
+      "closure_before_first_contact_m": 1.9999999999999998e-05,
+      "ideal_remaining_gap_fraction": 0.8,
+      "contact_area_m2": 7.853981633974481e-09,
+      "reference_patch_area_m2": 3.5999999999999994e-07,
+      "nominal_stop_stress_multiplier": 45.836623610465864,
+      "added_solid_volume_m3": 6.283185307179584e-13,
+      "reference_plate_volume_m3": 2.1599999999999995e-11,
+      "local_added_solid_fraction": 0.029088820866572156,
+      "assumptions": "aligned circular rigid posts; all share load; same density; no deformation, holes, flow, adhesion or process waste",
+      "inventory": {
+        "added_kg": 392.6990816987241,
+        "total_kg": 135392.69908169872,
+        "per_yen_per_kg_increment_yen": 392.6990816987241
+      }
+    },
+    {
+      "radius_um": 50,
+      "remaining_gap_at_first_contact_m": 7.999999999999999e-05,
+      "closure_before_first_contact_m": 1.9999999999999998e-05,
+      "ideal_remaining_gap_fraction": 0.8,
+      "contact_area_m2": 3.1415926535897924e-08,
+      "reference_patch_area_m2": 3.5999999999999994e-07,
+      "nominal_stop_stress_multiplier": 11.459155902616466,
+      "added_solid_volume_m3": 2.5132741228718337e-12,
+      "reference_plate_volume_m3": 2.1599999999999995e-11,
+      "local_added_solid_fraction": 0.11635528346628862,
+      "assumptions": "aligned circular rigid posts; all share load; same density; no deformation, holes, flow, adhesion or process waste",
+      "inventory": {
+        "added_kg": 1570.7963267948965,
+        "total_kg": 136570.7963267949,
+        "per_yen_per_kg_increment_yen": 1570.7963267948965
+      }
+    },
+    {
+      "radius_um": 75,
+      "remaining_gap_at_first_contact_m": 7.999999999999999e-05,
+      "closure_before_first_contact_m": 1.9999999999999998e-05,
+      "ideal_remaining_gap_fraction": 0.8,
+      "contact_area_m2": 7.068583470577033e-08,
+      "reference_patch_area_m2": 3.5999999999999994e-07,
+      "nominal_stop_stress_multiplier": 5.092958178940651,
+      "added_solid_volume_m3": 5.654866776461626e-12,
+      "reference_plate_volume_m3": 2.1599999999999995e-11,
+      "local_added_solid_fraction": 0.2617993877991494,
+      "assumptions": "aligned circular rigid posts; all share load; same density; no deformation, holes, flow, adhesion or process waste",
+      "inventory": {
+        "added_kg": 3534.291735288517,
+        "total_kg": 138534.2917352885,
+        "per_yen_per_kg_increment_yen": 3534.291735288517
+      }
+    }
+  ],
+  "limits": [
+    "Dimensions and 10percent local fraction are design assumptions",
+    "Shape examples are synthetic, not digitized source measurements",
+    "Rigid aligned posts do not prove wet or50C stability",
+    "Plan area load uniformly shared among posts is a reference load comparison",
+    "Post placement and manufacturability not solved",
+    "No material price durability friction or toxicology measured"
+  ]
+}

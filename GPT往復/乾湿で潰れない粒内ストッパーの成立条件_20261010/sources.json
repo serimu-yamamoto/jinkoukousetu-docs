@@ -1,0 +1,35 @@
+[
+  {
+    "id": "S1_new",
+    "title": "Significant size change during bacterial cellulose capsule drying",
+    "authors": [
+      "Maryam Hosseini",
+      "Patrick T. Spicer"
+    ],
+    "doi": "10.1016/j.powtec.2024.120275",
+    "publication_date": "2024-09-20 online;2024-12 volume448",
+    "url": "https://doi.org/10.1016/j.powtec.2024.120275",
+    "pdf_url": "https://nonequilibrium.com/pdf/Hosseini%20Jelliyfish%20drying%202024.pdf",
+    "pdf_sha256": "726d733defddf80e6ca081ddae90cbacc50a46e631fcd7ee11b4b0e0d8607ef9",
+    "pdf_bytes": 2426858,
+    "read_date": "2026-10-10",
+    "scope": "Methods/results/conclusion in text pp2-6; caption and author narrative only. Web screenshots pp4-5 returned cache miss; no independent figure measurement. Original PDF working copy deleted after verification; not republished.",
+    "limits": "BC not CA or PE. Wet recovery not dry shape retention; no50C ski tests, no environment safety certification. Hotplate and source process not field method."
+  },
+  {
+    "id": "reused122",
+    "repository_path": "GPT往復/液中形状形成と母液循環の濃度管理_20261010/sources.json"
+  },
+  {
+    "id": "reused27",
+    "repository_path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/sources.md"
+  },
+  {
+    "id": "reused91",
+    "repository_path": "GPT往復/多孔質焼結と緻密薄枝の製法比較_20261009/model.md"
+  },
+  {
+    "id": "assumptions",
+    "scope": "All stop dimensions, initial material mass and localized10percent fraction are analyst design assumptions; synthetic shape ratios not measurements. No process price, material allowable stress or friction supplied."
+  }
+]

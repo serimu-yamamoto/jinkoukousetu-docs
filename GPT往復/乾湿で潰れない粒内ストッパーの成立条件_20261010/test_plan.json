@@ -1,0 +1,30 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "specimens": [
+    "same matrix without stop",
+    "same matrix small stop",
+    "same matrix large stop"
+  ],
+  "state_sequence": [
+    "W0 manufactured wet",
+    "D0 ambient dried",
+    "D50 dried at50C",
+    "W1 rewetted",
+    "D1 redried"
+  ],
+  "observables": [
+    "three-direction shape and pore connectivity",
+    "intergrain aggregates and intragrain closure separately",
+    "post alignment and deformation",
+    "50C sole friction both-side wear",
+    "edge penetration lateral support release",
+    "winter snow and basal connection",
+    "residual and wear toxicology",
+    "rain recovery and60min complete maintenance"
+  ],
+  "no_numeric_physical_pass_bands_until_snow_calibrated": true
+}
