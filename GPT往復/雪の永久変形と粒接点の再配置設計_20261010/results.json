@@ -1,0 +1,751 @@
+{
+  "cycle": 127,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/model.md": "cba43d0d72c4855d2578e98be436c9c6224f430ecdc26de3be82b675410ce768",
+    "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/sources.json": "485656b25b2353ad0143cc6f38b2d16badaf9d6a77e9e38bbc60f82dcb2865b1",
+    "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/model.md": "9fa8283db01eab9cb627dc9251d0a078d41cc14c7963d48e841a2efa56b62d19"
+  },
+  "hypothetical_contact_cases": [
+    {
+      "residual_fraction": 0.05,
+      "hardening_fraction": 0,
+      "analytic": {
+        "k_N_m": 526315.7894736842,
+        "H_N_m": 0.0,
+        "yield_force_N": 499.99999999999994,
+        "yield_depth_m": 0.00095,
+        "permanent_set_m": 5e-05,
+        "load_work_J": 0.2625,
+        "returned_work_J": 0.23750000000000002,
+        "net_work_J": 0.024999999999999994,
+        "frictional_dissipation_J": 0.024999999999999998,
+        "hardening_energy_J": 0.0
+      },
+      "refinements": [
+        {
+          "steps_per_ramp": 500,
+          "relative_energy_error": 1.7763568394002505e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.02499999999999955,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -4.000960126355688e-18,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": -4.000960126355688e-18,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 1000,
+          "relative_energy_error": 2.6423307986078726e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.024999999999999335,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -2.6560676824849113e-17,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": -2.6560676824849113e-17,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 2000,
+          "relative_energy_error": 2.6645352591003757e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.02499999999999933,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -1.9741413089851753e-17,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": -1.9741413089851753e-17,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 4000,
+          "relative_energy_error": 8.304468224196171e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.02500000000000207,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": 3.7213300659209115e-18,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": 3.7213300659209115e-18,
+              "permanent_set_m": 5.000000000000002e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "residual_fraction": 0.05,
+      "hardening_fraction": 0.05,
+      "analytic": {
+        "k_N_m": 526315.7894736842,
+        "H_N_m": 27700.831024930747,
+        "yield_force_N": 498.6149584487534,
+        "yield_depth_m": 0.0009473684210526315,
+        "permanent_set_m": 5e-05,
+        "load_work_J": 0.26246537396121883,
+        "returned_work_J": 0.23750000000000002,
+        "net_work_J": 0.024965373961218812,
+        "frictional_dissipation_J": 0.02493074792243767,
+        "hardening_energy_J": 3.462603878116344e-05
+      },
+      "refinements": [
+        {
+          "steps_per_ramp": 500,
+          "relative_energy_error": 8.654646332373339e-06,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.024965157894736623,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 2,
+              "work_J": -5.480366696206367e-17,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": -5.480366696206367e-17,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 1000,
+          "relative_energy_error": 2.3300970904971408e-06,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.024965315789473582,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 2,
+              "work_J": -2.184550910528044e-17,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": -2.184550910528044e-17,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 2000,
+          "relative_energy_error": 4.85436888686408e-07,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.024965361842105353,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 2,
+              "work_J": -2.6223743000299113e-18,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": -2.6223743000299113e-18,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 4000,
+          "relative_energy_error": 1.560332816286092e-07,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.024965370065789586,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 2,
+              "work_J": 8.877964078409135e-18,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            },
+            {
+              "cycle": 3,
+              "work_J": 8.877964078409135e-18,
+              "permanent_set_m": 5.000000000000006e-05,
+              "peak_force_N": 499.99999999999994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "residual_fraction": 0.5,
+      "hardening_fraction": 0,
+      "analytic": {
+        "k_N_m": 1000000.0,
+        "H_N_m": 0.0,
+        "yield_force_N": 500.0,
+        "yield_depth_m": 0.0005,
+        "permanent_set_m": 0.0005,
+        "load_work_J": 0.375,
+        "returned_work_J": 0.125,
+        "net_work_J": 0.25,
+        "frictional_dissipation_J": 0.25,
+        "hardening_energy_J": 0.0
+      },
+      "refinements": [
+        {
+          "steps_per_ramp": 500,
+          "relative_energy_error": 9.992007221626409e-15,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.2499999999999975,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -4.8971209845507374e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": -4.8971209845507374e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 1000,
+          "relative_energy_error": 2.4313884239290928e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.24999999999999392,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": 2.722999167185762e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": 2.722999167185762e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 2000,
+          "relative_energy_error": 2.3425705819590803e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.24999999999999414,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -1.2141555554400353e-17,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": -1.2141555554400353e-17,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 4000,
+          "relative_energy_error": 8.748557434046234e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.25000000000002187,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": 2.136567817555068e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": 2.136567817555068e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "residual_fraction": 0.5,
+      "hardening_fraction": 0.05,
+      "analytic": {
+        "k_N_m": 1000000.0,
+        "H_N_m": 52631.57894736842,
+        "yield_force_N": 473.68421052631584,
+        "yield_depth_m": 0.0004736842105263158,
+        "permanent_set_m": 0.0005,
+        "load_work_J": 0.3684210526315789,
+        "returned_work_J": 0.125,
+        "net_work_J": 0.24342105263157893,
+        "frictional_dissipation_J": 0.23684210526315794,
+        "hardening_energy_J": 0.006578947368421052
+      },
+      "refinements": [
+        {
+          "steps_per_ramp": 500,
+          "relative_energy_error": 1.037837837003508e-06,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.2434208000000002,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -4.8971209845507374e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": -4.8971209845507374e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 1000,
+          "relative_energy_error": 4.216216217267643e-07,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.24342094999999994,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": 2.722999167185762e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": 2.722999167185762e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 2000,
+          "relative_energy_error": 1.1351351314470293e-07,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.24342102500000007,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": -1.2141555554400353e-17,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": -1.2141555554400353e-17,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 4000,
+          "relative_energy_error": 2.3648647706764336e-08,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.2434210468750002,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 2,
+              "work_J": 2.136567817555068e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            },
+            {
+              "cycle": 3,
+              "work_J": 2.136567817555068e-18,
+              "permanent_set_m": 0.0005,
+              "peak_force_N": 500.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "residual_fraction": 0.9,
+      "hardening_fraction": 0,
+      "analytic": {
+        "k_N_m": 5000000.000000001,
+        "H_N_m": 0.0,
+        "yield_force_N": 500.0,
+        "yield_depth_m": 9.999999999999998e-05,
+        "permanent_set_m": 0.0009000000000000001,
+        "load_work_J": 0.4750000000000001,
+        "returned_work_J": 0.024999999999999994,
+        "net_work_J": 0.45000000000000007,
+        "frictional_dissipation_J": 0.45000000000000007,
+        "hardening_energy_J": 0.0
+      },
+      "refinements": [
+        {
+          "steps_per_ramp": 500,
+          "relative_energy_error": 1.0658141036401503e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.4499999999999953,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 2,
+              "work_J": -1.3671111768684407e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 3,
+              "work_J": -1.3671111768684407e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 1000,
+          "relative_energy_error": 1.8540724511240114e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.44999999999999174,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 2,
+              "work_J": -3.0675298184814487e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 3,
+              "work_J": -3.0675298184814487e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 2000,
+          "relative_energy_error": 2.19824158875781e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.4499999999999902,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 2,
+              "work_J": 1.5645757326970995e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 3,
+              "work_J": 1.5645757326970995e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 4000,
+          "relative_energy_error": 8.681944052568724e-14,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.45000000000003915,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 2,
+              "work_J": -2.5626452423586823e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            },
+            {
+              "cycle": 3,
+              "work_J": -2.5626452423586823e-18,
+              "permanent_set_m": 0.0009,
+              "peak_force_N": 500.00000000000034
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "residual_fraction": 0.9,
+      "hardening_fraction": 0.05,
+      "analytic": {
+        "k_N_m": 5000000.000000001,
+        "H_N_m": 263157.8947368422,
+        "yield_force_N": 263.15789473684185,
+        "yield_depth_m": 5.263157894736836e-05,
+        "permanent_set_m": 0.0009000000000000001,
+        "load_work_J": 0.36842105263157876,
+        "returned_work_J": 0.024999999999999994,
+        "net_work_J": 0.34342105263157874,
+        "frictional_dissipation_J": 0.2368421052631577,
+        "hardening_energy_J": 0.1065789473684211
+      },
+      "refinements": [
+        {
+          "steps_per_ramp": 500,
+          "relative_energy_error": 5.977011494517903e-06,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.3434189999999997,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 2,
+              "work_J": -5.8106460181645e-19,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 3,
+              "work_J": -5.8106460181645e-19,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 1000,
+          "relative_energy_error": 1.6091954025965194e-06,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.3434204999999997,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 2,
+              "work_J": 3.837482767535608e-18,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 3,
+              "work_J": 3.837482767535608e-18,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 2000,
+          "relative_energy_error": 3.3524904263781963e-07,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.34342093749999963,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 2,
+              "work_J": 1.415286175743529e-18,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 3,
+              "work_J": 1.415286175743529e-18,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            }
+          ]
+        },
+        {
+          "steps_per_ramp": 4000,
+          "relative_energy_error": 1.0775862013812088e-07,
+          "cycles": [
+            {
+              "cycle": 1,
+              "work_J": 0.343421015625,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 2,
+              "work_J": 2.97364151023423e-18,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            },
+            {
+              "cycle": 3,
+              "work_J": 2.97364151023423e-18,
+              "permanent_set_m": 0.0009000000000000001,
+              "peak_force_N": 499.9999999999998
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "finite_window_recovery": {
+    "A": {
+      "permanent": 0.0007999993855749896,
+      "retarded": 0.00010000061442501037,
+      "tau": 5
+    },
+    "B": {
+      "permanent": 0.0,
+      "retarded": 0.0009,
+      "tau": 509.411220942226
+    },
+    "series": [
+      {
+        "time_s": 0,
+        "A_m": 0.0009,
+        "B_m": 0.0009
+      },
+      {
+        "time_s": 0.1,
+        "A_m": 0.0008980198551642451,
+        "B_m": 0.0008998233427864352
+      },
+      {
+        "time_s": 1,
+        "A_m": 0.0008818729639314392,
+        "B_m": 0.0008982349874364347
+      },
+      {
+        "time_s": 10,
+        "A_m": 0.0008135329970520337,
+        "B_m": 0.000882504826029864
+      },
+      {
+        "time_s": 60,
+        "A_m": 0.0008000000000000001,
+        "B_m": 0.0008
+      },
+      {
+        "time_s": 300,
+        "A_m": 0.0007999993855749896,
+        "B_m": 0.0004994360615759795
+      },
+      {
+        "time_s": 3600,
+        "A_m": 0.0007999993855749896,
+        "B_m": 7.675225828393869e-07
+      }
+    ]
+  },
+  "limits": [
+    "Uncalibrated one-contact surrogate; confinement/grain rotation/shear/50C wetting not solved",
+    "No equilibrium permanence claim from60s observation",
+    "Hardening work not all heat; reset operation not modeled",
+    "No conversion of lab fractions into success probability or universal snow specification"
+  ]
+}

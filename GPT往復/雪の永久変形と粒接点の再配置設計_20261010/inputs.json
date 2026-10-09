@@ -1,0 +1,63 @@
+{
+  "cycle": 127,
+  "source": {
+    "title": "The influence of snow physical properties on the ski-snow friction: From real scale measurements on skis to investigations of fundamental processes on the microscale",
+    "author": "Fabian Wolfsperger",
+    "year": 2024,
+    "url": "https://publikationen.bibliothek.kit.edu/1000172164/153587108",
+    "sha256": "4857102b3d29324ea03edf2c341a2a69b39927691d828f2c7d07778679fb39c7",
+    "bytes": 107431348,
+    "pages": 153,
+    "selected_pdf_pages": [
+      66,
+      69,
+      71,
+      73,
+      74,
+      97,
+      98
+    ],
+    "observed_repeat_wait_s": 60
+  },
+  "hypothetical": {
+    "peak_force_N": 500,
+    "depth_m": 0.001,
+    "residual_fractions": [
+      0.05,
+      0.5,
+      0.9
+    ],
+    "hardening_fractions": [
+      0,
+      0.05
+    ],
+    "grids": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "cycles": 3,
+    "recovery": {
+      "unload_m": 0.0009,
+      "at60_m": 0.0008,
+      "time_s": 60,
+      "short_tau_s": 5,
+      "times_s": [
+        0,
+        0.1,
+        1,
+        10,
+        60,
+        300,
+        3600
+      ]
+    }
+  },
+  "limits": [
+    "Uncalibrated one-contact surrogate; confinement/grain rotation/shear/50C wetting not solved",
+    "No equilibrium permanence claim from60s observation",
+    "Hardening work not all heat; reset operation not modeled",
+    "No conversion of lab fractions into success probability or universal snow specification"
+  ]
+}

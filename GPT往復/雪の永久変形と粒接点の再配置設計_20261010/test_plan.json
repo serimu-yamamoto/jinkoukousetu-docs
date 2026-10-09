@@ -1,0 +1,22 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "routes": [
+    "elastic skeleton",
+    "finite contact rearrangement with intact skeleton",
+    "sacrificial bond and reconnection"
+  ],
+  "observables": [
+    "same-condition reference groomed new snow",
+    "normal load-displacement and dwell",
+    "instant and0.1/1/10/60/300/3600s recovery",
+    "first repeated and groomed contact history",
+    "actual ski-sole50C dry single-wet drained redried",
+    "edge entry support peak release residual drag",
+    "wear full material safety winter load path rain recovery cost"
+  ],
+  "decision": "No ranking from recovery alone. Do not treat90% permanent fraction as success."
+}

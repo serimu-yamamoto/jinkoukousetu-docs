@@ -1,0 +1,124 @@
+{
+  "cycle": 127,
+  "base_commit": "67cab8d6d5719ddbef9b5c91a64a28874672457b",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第127巡_雪の戻らない変形を粒を壊さず再現する条件_20261010.md",
+      "bytes": 9235,
+      "sha256": "3823458d339fa49c8cb834e1048d22d6337036ee6d0976844150b69d7041b350"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 82030,
+      "sha256": "a9a350ae3f01039781ed5a07e66302c60c2bbeca775d3367bf003d88f436696e"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/README.md",
+      "bytes": 582,
+      "sha256": "34d2594b8315440e5d340874ff2763ba2e47d8e054707e5f54c143636b8cb73b"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/claude_handoff.md",
+      "bytes": 1539,
+      "sha256": "6df8a867e63c6727b848306fbd300c72cc331ee28ead8e7151cfc02e266fc167"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "604cc4f5849bccdf7a209b4aa5bd7f775d8639f988b9e91a83ecca6846d2b8b9"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/inputs.json",
+      "bytes": 1457,
+      "sha256": "468fe4de6deb425323273512ca065e961ee699ccdb768333b463771abb725806"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/model.md",
+      "bytes": 1777,
+      "sha256": "b85ffb99f1e829a99709b1c59c59d98e160cdb9c9d5aba9bb444ac3d0e158520"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/publication_audit.json",
+      "bytes": 256,
+      "sha256": "39981036b98cb888cd802f4545c214c5ee1d2f17d480a5d9d83a170a8a4375f0"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/reproduce.py",
+      "bytes": 4066,
+      "sha256": "ededbc1002ed09a1e8461dc6052074010b0aa02f19f79c248de84fcf260b2596"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/research_state.json",
+      "bytes": 804,
+      "sha256": "be9dcac91a6957b3af84a59db93f5a4b3a1dc193a55c9a485b5e02efa5eaa803"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/results.json",
+      "bytes": 22717,
+      "sha256": "39fea0518cc3f940cd77be59f95aeca8683fb5e56457784faf3bcb48c4708347"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/sources.json",
+      "bytes": 1864,
+      "sha256": "82e8e3953ab7ce2d5537149d5541a29918fd1e89a11a619323b5c0a23c5b0ebb"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/test_plan.json",
+      "bytes": 778,
+      "sha256": "ba2574210550b271c025c6bc3745247ac04a04f2feb7cf24fa76d236ba098e57"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/validation.json",
+      "bytes": 5206,
+      "sha256": "0bf519e9d95ff37c0dfcc15b772bcf3676c0182ea3bc559e2b01e5e5928b1706"
+    },
+    {
+      "path": "README.md",
+      "bytes": 92341,
+      "sha256": "4576fd03b9a76eebc3c55dbded27ac18caee512da43a6540ce7de8b7cb4a4eeb"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 206877,
+      "sha256": "ccdc8e88c65c1e2720f0b7d1e7c9bbd821821ac421ad3b02029e9692edf8a4a4"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 7249,
+      "sha256": "c1943503af21a878039914e29c84075fac3dd8a6693cf41529c99d1bbabe8d8f"
+    },
+    {
+      "path": "計算部品/contact_rearrangement.py",
+      "bytes": 2274,
+      "sha256": "85f43ae6577148ab011d213bc598d396daa33cfaea4dcc8242a781eeab5e3ab1"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 46788,
+      "sha256": "e7b6440e41d79fd165aff465068f208d2c3e816e65de5d66e9655cff2cd19401"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 238050,
+      "sha256": "738f0c5201f6503cbbb55864b6bf553d46fda2a7cac86f3d48eab8acc9c2c101"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/model.md",
+      "bytes": 2270,
+      "sha256": "cba43d0d72c4855d2578e98be436c9c6224f430ecdc26de3be82b675410ce768"
+    },
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/sources.json",
+      "bytes": 695,
+      "sha256": "485656b25b2353ad0143cc6f38b2d16badaf9d6a77e9e38bbc60f82dcb2865b1"
+    },
+    {
+      "path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/model.md",
+      "bytes": 1147,
+      "sha256": "9fa8283db01eab9cb627dc9251d0a078d41cc14c7963d48e841a2efa56b62d19"
+    }
+  ]
+}

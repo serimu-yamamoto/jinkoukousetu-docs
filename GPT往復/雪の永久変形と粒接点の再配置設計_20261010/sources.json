@@ -1,0 +1,43 @@
+[
+  {
+    "id": "extended_primary",
+    "title": "The influence of snow physical properties on the ski-snow friction: From real scale measurements on skis to investigations of fundamental processes on the microscale",
+    "author": "Fabian Wolfsperger",
+    "year": 2024,
+    "url": "https://publikationen.bibliothek.kit.edu/1000172164/153587108",
+    "sha256": "4857102b3d29324ea03edf2c341a2a69b39927691d828f2c7d07778679fb39c7",
+    "bytes": 107431348,
+    "pages": 153,
+    "selected_pdf_pages": [
+      66,
+      69,
+      71,
+      73,
+      74,
+      97,
+      98
+    ],
+    "observed_repeat_wait_s": 60,
+    "date_read": "2026-10-10",
+    "scope": "Previously abstract-only; now selected methods/results full text. pypdf text of PDF66,69,71,73,74,97,98; no independent graph/drawing digitization or full153-page reading.",
+    "limits": "Doctoral dissertation, confined low-temperature snow, timed recovery and load. Slider used hydrocarbon wax and0.1m/s. Not50C artificial material nor complete target snow specimen. No constitutive coefficient adopted."
+  },
+  {
+    "id": "existing_model",
+    "repository_path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/model.md",
+    "scope": "Reuse normal-work versus horizontal-work distinction; new contact history law is separate."
+  },
+  {
+    "id": "existing_sources",
+    "repository_path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/sources.json",
+    "scope": "Prior abstract-only audit; no claim this thesis newly discovered."
+  },
+  {
+    "id": "prior_wetting",
+    "repository_path": "GPT往復/高分子接点の乾湿摩擦と滑り率の定義監査_20261010/model.md"
+  },
+  {
+    "id": "hypothetical",
+    "scope": "500N,1mm,residual fractions,hardening ratios and recovery curves are constructed counterexamples; neither measured nor fitted"
+  }
+]
