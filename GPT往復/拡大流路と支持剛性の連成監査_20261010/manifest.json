@@ -1,0 +1,103 @@
+{
+  "cycle": 104,
+  "base_commit": "cfb0065281e39f40585e0444789e579770efe6d5",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第104巡_排水出口と支持剛性の両立条件_20261010.md",
+      "bytes": 11650,
+      "sha256": "ac1a90446985cccb29e90b0fc2862d5393fdd4d73030cb0b50bcfd0ee6b45d83"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 67774,
+      "sha256": "10c26dc7fc437d4e86024f84bfde46aac7430cfcdfb19ecddf82dbdf5f309a4a"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/README.md",
+      "bytes": 3306,
+      "sha256": "318953e4a3fb73ba5b5af4377f12da38d059aedd7892207a114aa0605b05113e"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/claude_handoff.md",
+      "bytes": 2192,
+      "sha256": "246472b4767ada064d9748440ef3d786d2c70cf88e6f9c780701743fad825731"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "c20de2c41906a60b57f745703558a3d13caa672aa77f43049b888772d756e074"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/inputs.json",
+      "bytes": 492,
+      "sha256": "4d049f2e56d79e2dd95a8ca03893d9445f8b017fed957fe115259a6e61dff30f"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/publication_audit.json",
+      "bytes": 314,
+      "sha256": "a6ee2d56511834c1a0e01c6df979f544aae8a467b30a506c1e7f82a0d898af8a"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/reproduce.py",
+      "bytes": 5733,
+      "sha256": "578795a950d3415683289f2d735e6f6e9a968f697f29898b5a9c2a0fd6ce0d37"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/research_state.json",
+      "bytes": 1260,
+      "sha256": "eb29b0b66f94de94b7c40ad27cc4d81920b3cb5b141229f4af9f6d00e5ce42f2"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/results.json",
+      "bytes": 44534,
+      "sha256": "75a1d89980a7d3b8470365109486c4e8d4d554e3392ab5b742a81f27b8b30123"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/section_tradeoff.json",
+      "bytes": 613,
+      "sha256": "babfd837873879636a32d7eaa900f0575db04cefce7ad13af3c6c28abfc63fe8"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/section_tradeoff.py",
+      "bytes": 1165,
+      "sha256": "d9d907bd1b551353e59dfa5510444b1960b72fa9cd98b17d92a4cba3cfedf739"
+    },
+    {
+      "path": "GPT往復/拡大流路と支持剛性の連成監査_20261010/validation.json",
+      "bytes": 9593,
+      "sha256": "f426bb79bd58d42d910b9f606fc69d08c0025e38a20ab4e3cff4dcd22b657aef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 77740,
+      "sha256": "6631acad9738688d559dfc787a968bfd0d8a8022d0d41ebc6eaf7558f23d14f2"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 181297,
+      "sha256": "d0bd788e31c1a89a56dbdbee570ae58a711495da5eba0382ae0b3349ab9bed4a"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 938,
+      "sha256": "5ac8d6e01d73ee49bc9483e8163747d67dc7002dbc1a8e3cfcc30a446536173a"
+    },
+    {
+      "path": "計算部品/flared_ligament.py",
+      "bytes": 3475,
+      "sha256": "c2c435376fa30cd728f869d61903e8af9ea653e245a4098f4f8448082b1a0d8e"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 27456,
+      "sha256": "2193328223988748bb86d4f92b985930e1e51031fa6c103167ccc6d69c267049"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 231102,
+      "sha256": "7df960e720228dc5786aa69f284d14d1c69cd0798516912d84d2a265e560c72c"
+    }
+  ],
+  "dependencies": []
+}

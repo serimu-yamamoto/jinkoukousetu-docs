@@ -1,0 +1,18 @@
+{
+  "area_ratio": 0.75,
+  "centered_solid_I_ratio": 0.421875,
+  "outer_material_composite_I_ratio": 0.984375,
+  "independent_equal_ribs_I_ratio": 0.10546875,
+  "assumptions": "same total outer width; parallel-axis term requires composite action; no drainage connectivity, buckling or strength proof",
+  "specific_volume_price_break_even": 1.2698412698412698,
+  "selective_modulus_ratio_lateral_over_normal_required": [
+    1.459979249653004,
+    1.4657595781243011,
+    1.4354463664095525,
+    1.4411334409481182,
+    1.798289038446854,
+    1.8025136584517951,
+    1.794921526531113,
+    1.7991449432384243
+  ]
+}

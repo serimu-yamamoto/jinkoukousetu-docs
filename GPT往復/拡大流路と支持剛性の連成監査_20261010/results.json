@@ -1,0 +1,1302 @@
+{
+  "cycle": 104,
+  "physical_trials": 0,
+  "success_probability": null,
+  "analytical": [
+    {
+      "axial_ratio": 0.769230769230769,
+      "bending_ratio": 0.42211903756859437,
+      "volume_ratio": 0.775,
+      "local_flow_resistance_ratio": 0.8500000000000001,
+      "tau": 0.1,
+      "rho": 0
+    },
+    {
+      "axial_ratio": 0.7799480227088765,
+      "bending_ratio": 0.4228746672744257,
+      "volume_ratio": 0.7875000000000001,
+      "local_flow_resistance_ratio": 0.9679378605318052,
+      "tau": 0.1,
+      "rho": 0.1
+    },
+    {
+      "axial_ratio": 0.7806766249316757,
+      "bending_ratio": 0.42317144244217647,
+      "volume_ratio": 0.7875,
+      "local_flow_resistance_ratio": 0.9108757210636101,
+      "tau": 0.05,
+      "rho": 0.2
+    }
+  ],
+  "rows": [
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7607282189152329,
+      "lateral_ratio": 0.5190360501176166,
+      "baseline": {
+        "min_jacobian": 0.0001953124999999986,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 1.0130998056662837,
+          "energy": 1.266374757082856e-13,
+          "relative_free_residual": 3.657851993960651e-15,
+          "relative_force_balance": 1.283383499595337e-13,
+          "relative_cross_reaction": 3.7558301723703114e-17
+        },
+        "lateral": {
+          "stiffness": 0.14492953616415719,
+          "energy": 1.8116192020520213e-14,
+          "relative_free_residual": 1.2373789466791073e-14,
+          "relative_force_balance": 1.5961503516064537e-13,
+          "relative_cross_reaction": 3.7106064861232965e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0001464843749999991,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.7706936107478806,
+          "energy": 9.633670134348539e-14,
+          "relative_free_residual": 4.3618656785714755e-15,
+          "relative_force_balance": 1.376563593678305e-13,
+          "relative_cross_reaction": 2.5759049282902415e-17
+        },
+        "lateral": {
+          "stiffness": 0.0752236539960224,
+          "energy": 9.402956749502723e-15,
+          "relative_free_residual": 2.08489531960714e-14,
+          "relative_force_balance": 1.6417451013573103e-13,
+          "relative_cross_reaction": 2.9225946005485975e-15
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.763176163200661,
+      "lateral_ratio": 0.5190827097882518,
+      "baseline": {
+        "min_jacobian": 0.0001953124999999986,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 1.0130998056662837,
+          "energy": 1.266374757082856e-13,
+          "relative_free_residual": 3.657851993960651e-15,
+          "relative_force_balance": 1.283383499595337e-13,
+          "relative_cross_reaction": 3.7558301723703114e-17
+        },
+        "lateral": {
+          "stiffness": 0.14492953616415719,
+          "energy": 1.8116192020520213e-14,
+          "relative_free_residual": 1.2373789466791073e-14,
+          "relative_force_balance": 1.5961503516064537e-13,
+          "relative_cross_reaction": 3.7106064861232965e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0001464843749999991,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.7731736226277296,
+          "energy": 9.664670282846378e-14,
+          "relative_free_residual": 4.655991772709588e-15,
+          "relative_force_balance": 8.969631209190529e-14,
+          "relative_cross_reaction": 2.1610991224433288e-16
+        },
+        "lateral": {
+          "stiffness": 0.07523041636044514,
+          "energy": 9.403802045055923e-15,
+          "relative_free_residual": 2.5509084143950487e-14,
+          "relative_force_balance": 3.8395569754601334e-14,
+          "relative_cross_reaction": 7.90960433038685e-15
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7588374320559064,
+      "lateral_ratio": 0.519141769633995,
+      "baseline": {
+        "min_jacobian": 4.882812499999938e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 1.0126848470973762,
+          "energy": 1.2658560588717263e-13,
+          "relative_free_residual": 5.750408460306865e-15,
+          "relative_force_balance": 5.441977461072224e-13,
+          "relative_cross_reaction": 4.0024149794749486e-16
+        },
+        "lateral": {
+          "stiffness": 0.14404250464340246,
+          "energy": 1.8005313080426327e-14,
+          "relative_free_residual": 1.695219875759346e-14,
+          "relative_force_balance": 8.185063662999023e-13,
+          "relative_cross_reaction": 8.273908854885667e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999964e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.7684631688533011,
+          "energy": 9.6057896106661e-14,
+          "relative_free_residual": 7.853479507928097e-15,
+          "relative_force_balance": 6.359940597999315e-13,
+          "relative_cross_reaction": 3.100057700497933e-16
+        },
+        "lateral": {
+          "stiffness": 0.0747784807630889,
+          "energy": 9.347310095387965e-15,
+          "relative_free_residual": 4.203463744683417e-14,
+          "relative_force_balance": 1.375908107039336e-14,
+          "relative_cross_reaction": 1.0244636132863473e-14
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7617755524683988,
+      "lateral_ratio": 0.5192933187656058,
+      "baseline": {
+        "min_jacobian": 4.882812499999938e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 1.0126848470973762,
+          "energy": 1.2658560588717263e-13,
+          "relative_free_residual": 5.750408460306865e-15,
+          "relative_force_balance": 5.441977461072224e-13,
+          "relative_cross_reaction": 4.0024149794749486e-16
+        },
+        "lateral": {
+          "stiffness": 0.14404250464340246,
+          "energy": 1.8005313080426327e-14,
+          "relative_free_residual": 1.695219875759346e-14,
+          "relative_force_balance": 8.185063662999023e-13,
+          "relative_cross_reaction": 8.273908854885667e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999964e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.7714385588739797,
+          "energy": 9.64298198592498e-14,
+          "relative_free_residual": 7.548691266966606e-15,
+          "relative_force_balance": 5.229184314025959e-13,
+          "relative_cross_reaction": 6.219092236989534e-17
+        },
+        "lateral": {
+          "stiffness": 0.07480031027958264,
+          "energy": 9.35003878495047e-15,
+          "relative_free_residual": 5.423097456144245e-14,
+          "relative_force_balance": 7.579508557180394e-14,
+          "relative_cross_reaction": 1.7129523582973494e-14
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7579576377870202,
+      "lateral_ratio": 0.5191564455228835,
+      "baseline": {
+        "min_jacobian": 1.2207031249999735e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 1.0125001619740481,
+          "energy": 1.2656252024676056e-13,
+          "relative_free_residual": 8.470328117507611e-15,
+          "relative_force_balance": 1.7303520908691165e-12,
+          "relative_cross_reaction": 1.830009161189916e-16
+        },
+        "lateral": {
+          "stiffness": 0.14376545864722398,
+          "energy": 1.7970682330907793e-14,
+          "relative_free_residual": 2.1357664509187223e-14,
+          "relative_force_balance": 2.6950875512965775e-12,
+          "relative_cross_reaction": 4.755986533764773e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 9.155273437499778e-06,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.7674322310288249,
+          "energy": 9.592902887860616e-14,
+          "relative_free_residual": 1.2692819638765713e-14,
+          "relative_force_balance": 1.963110115652145e-12,
+          "relative_cross_reaction": 1.7461249842731365e-16
+        },
+        "lateral": {
+          "stiffness": 0.0746367645002599,
+          "energy": 9.329595562529047e-15,
+          "relative_free_residual": 4.468564858277309e-14,
+          "relative_force_balance": 6.602770053610795e-13,
+          "relative_cross_reaction": 1.7963798311196275e-14
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.3628295058585955,
+        "delta_span": 0.043494558697614795,
+        "E_factor_to_match_old_max_delta": 1.1476458996703962,
+        "E_factor_to_restore_normal_stiffness": 1.3193349471609808,
+        "E_factor_to_restore_lateral_stiffness": 1.9262016461970743
+      },
+      "maximum_channel_wall_slope": 1.9634954084936207,
+      "local_flow_resistance_ratio": 0.9679378605318052,
+      "volume_ratio": 0.7875000000000001
+    },
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7612633872681484,
+      "lateral_ratio": 0.5193644296306217,
+      "baseline": {
+        "min_jacobian": 1.2207031249999735e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 1.0125001619740481,
+          "energy": 1.2656252024676056e-13,
+          "relative_free_residual": 8.470328117507611e-15,
+          "relative_force_balance": 1.7303520908691165e-12,
+          "relative_cross_reaction": 1.830009161189916e-16
+        },
+        "lateral": {
+          "stiffness": 0.14376545864722398,
+          "energy": 1.7970682330907793e-14,
+          "relative_free_residual": 2.1357664509187223e-14,
+          "relative_force_balance": 2.6950875512965775e-12,
+          "relative_cross_reaction": 4.755986533764773e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 9.155273437499778e-06,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.7707793029139127,
+          "energy": 9.634741286424587e-14,
+          "relative_free_residual": 1.2500335360060629e-14,
+          "relative_force_balance": 1.4810836906832276e-12,
+          "relative_cross_reaction": 3.9278182879311387e-16
+        },
+        "lateral": {
+          "stiffness": 0.07466666543090021,
+          "energy": 9.333333178867239e-15,
+          "relative_free_residual": 5.0904843449834737e-14,
+          "relative_force_balance": 5.594595664549666e-13,
+          "relative_cross_reaction": 1.6421223554658318e-14
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.356911484570293,
+        "delta_span": 0.04330568567777535,
+        "E_factor_to_match_old_max_delta": 1.1426623027960363,
+        "E_factor_to_restore_normal_stiffness": 1.3136057988925176,
+        "E_factor_to_restore_lateral_stiffness": 1.9254302816063322
+      },
+      "maximum_channel_wall_slope": 0.9817477042468103,
+      "local_flow_resistance_ratio": 0.9108757210636101,
+      "volume_ratio": 0.7875
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7583585879186779,
+      "lateral_ratio": 0.5262108420471383,
+      "baseline": {
+        "min_jacobian": 0.0001953124999999986,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 1.0288505669794894,
+          "energy": 1.2860632087243859e-13,
+          "relative_free_residual": 6.7920668356761356e-15,
+          "relative_force_balance": 1.9964560092745004e-14,
+          "relative_cross_reaction": 4.5023170312247113e-17
+        },
+        "lateral": {
+          "stiffness": 0.1402191111927722,
+          "energy": 1.7527388899097182e-14,
+          "relative_free_residual": 9.832357905321319e-15,
+          "relative_force_balance": 8.47597088589628e-14,
+          "relative_cross_reaction": 6.192865742814568e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0001464843749999991,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.7802376631538968,
+          "energy": 9.75297078942363e-14,
+          "relative_free_residual": 6.785055593112505e-15,
+          "relative_force_balance": 1.370581229808726e-13,
+          "relative_cross_reaction": 0.0
+        },
+        "lateral": {
+          "stiffness": 0.07378481657184997,
+          "energy": 9.223102071481818e-15,
+          "relative_free_residual": 3.013440420194556e-14,
+          "relative_force_balance": 7.847501094256656e-14,
+          "relative_cross_reaction": 9.877519245661132e-15
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7607318856505443,
+      "lateral_ratio": 0.5262138154665393,
+      "baseline": {
+        "min_jacobian": 0.0001953124999999986,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 1.0288505669794894,
+          "energy": 1.2860632087243859e-13,
+          "relative_free_residual": 6.7920668356761356e-15,
+          "relative_force_balance": 1.9964560092745004e-14,
+          "relative_cross_reaction": 4.5023170312247113e-17
+        },
+        "lateral": {
+          "stiffness": 0.1402191111927722,
+          "energy": 1.7527388899097182e-14,
+          "relative_free_residual": 9.832357905321319e-15,
+          "relative_force_balance": 8.47597088589628e-14,
+          "relative_cross_reaction": 6.192865742814568e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0001464843749999991,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.7826794318709386,
+          "energy": 9.783492898386715e-14,
+          "relative_free_residual": 5.952221331231884e-15,
+          "relative_force_balance": 1.2648470328867753e-13,
+          "relative_cross_reaction": 2.5364579536499505e-16
+        },
+        "lateral": {
+          "stiffness": 0.0737852335020756,
+          "energy": 9.223154187759917e-15,
+          "relative_free_residual": 2.133767809761278e-14,
+          "relative_force_balance": 1.7040191802675986e-14,
+          "relative_cross_reaction": 1.1689723394876515e-14
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7563076386814014,
+      "lateral_ratio": 0.5262142084598982,
+      "baseline": {
+        "min_jacobian": 4.882812499999938e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 1.0278709684999119,
+          "energy": 1.2848387106249093e-13,
+          "relative_free_residual": 8.034638090598174e-15,
+          "relative_force_balance": 9.600362436458331e-14,
+          "relative_cross_reaction": 2.961485193649968e-16
+        },
+        "lateral": {
+          "stiffness": 0.1390447848841494,
+          "energy": 1.7380598110518937e-14,
+          "relative_free_residual": 1.533658109463406e-14,
+          "relative_force_balance": 5.407661836703786e-13,
+          "relative_cross_reaction": 7.104737181485889e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999964e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.7773866650553335,
+          "energy": 9.717333313191363e-14,
+          "relative_free_residual": 8.444324602292443e-15,
+          "relative_force_balance": 5.717624948455432e-13,
+          "relative_cross_reaction": 3.6603423175259584e-16
+        },
+        "lateral": {
+          "stiffness": 0.0731673414182895,
+          "energy": 9.145917677286799e-15,
+          "relative_free_residual": 4.060872928680394e-14,
+          "relative_force_balance": 3.036004223549439e-13,
+          "relative_cross_reaction": 1.3255937177037781e-14
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7591987650035004,
+      "lateral_ratio": 0.5263455946412194,
+      "baseline": {
+        "min_jacobian": 4.882812499999938e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 1.0278709684999119,
+          "energy": 1.2848387106249093e-13,
+          "relative_free_residual": 8.034638090598174e-15,
+          "relative_force_balance": 9.600362436458331e-14,
+          "relative_cross_reaction": 2.961485193649968e-16
+        },
+        "lateral": {
+          "stiffness": 0.1390447848841494,
+          "energy": 1.7380598110518937e-14,
+          "relative_free_residual": 1.533658109463406e-14,
+          "relative_force_balance": 5.407661836703786e-13,
+          "relative_cross_reaction": 7.104737181485889e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999964e-05,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.7803583698680849,
+          "energy": 9.754479623350977e-14,
+          "relative_free_residual": 7.869447044736351e-15,
+          "relative_force_balance": 5.306449550338598e-13,
+          "relative_cross_reaction": 2.3744021255670025e-16
+        },
+        "lateral": {
+          "stiffness": 0.07318560998160806,
+          "energy": 9.148201247699935e-15,
+          "relative_free_residual": 4.484833386556814e-14,
+          "relative_force_balance": 1.9300843263375985e-13,
+          "relative_cross_reaction": 2.726773256809089e-16
+        }
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.755356504986731,
+      "lateral_ratio": 0.5262171563233575,
+      "baseline": {
+        "min_jacobian": 1.2207031249999735e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 1.027416607070504,
+          "energy": 1.2842707588381908e-13,
+          "relative_free_residual": 9.893158527029822e-15,
+          "relative_force_balance": 8.367963254112725e-14,
+          "relative_cross_reaction": 5.410321069469434e-16
+        },
+        "lateral": {
+          "stiffness": 0.13865139956597644,
+          "energy": 1.733142494574782e-14,
+          "relative_free_residual": 3.6785749534212063e-14,
+          "relative_force_balance": 1.126720184403388e-13,
+          "relative_cross_reaction": 2.5441858736337895e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 9.155273437499778e-06,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.7760658174821013,
+          "energy": 9.700822718526524e-14,
+          "relative_free_residual": 1.2005892038934175e-14,
+          "relative_force_balance": 1.128963143433867e-12,
+          "relative_cross_reaction": 1.705382391894059e-17
+        },
+        "lateral": {
+          "stiffness": 0.07296074519986173,
+          "energy": 9.12009314998231e-15,
+          "relative_free_residual": 6.675424481165328e-14,
+          "relative_force_balance": 6.713708809093821e-13,
+          "relative_cross_reaction": 1.392353023490724e-14
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.367522522342187,
+        "delta_span": 0.043644335819431536,
+        "E_factor_to_match_old_max_delta": 1.1515979135513152,
+        "E_factor_to_restore_normal_stiffness": 1.3238781865227554,
+        "E_factor_to_restore_lateral_stiffness": 1.9003561324129568
+      },
+      "maximum_channel_wall_slope": 1.9634954084936207,
+      "local_flow_resistance_ratio": 0.9679378605318052,
+      "volume_ratio": 0.7875000000000001
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.758635179065937,
+      "lateral_ratio": 0.5264156375185026,
+      "baseline": {
+        "min_jacobian": 1.2207031249999735e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 1.027416607070504,
+          "energy": 1.2842707588381908e-13,
+          "relative_free_residual": 9.893158527029822e-15,
+          "relative_force_balance": 8.367963254112725e-14,
+          "relative_cross_reaction": 5.410321069469434e-16
+        },
+        "lateral": {
+          "stiffness": 0.13865139956597644,
+          "energy": 1.733142494574782e-14,
+          "relative_free_residual": 3.6785749534212063e-14,
+          "relative_force_balance": 1.126720184403388e-13,
+          "relative_cross_reaction": 2.5441858736337895e-15
+        }
+      },
+      "flared": {
+        "min_jacobian": 9.155273437499778e-06,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.7794343816802493,
+          "energy": 9.74292977100384e-14,
+          "relative_free_residual": 1.4399142268942938e-14,
+          "relative_force_balance": 9.61618189828746e-13,
+          "relative_cross_reaction": 4.075228944040454e-16
+        },
+        "lateral": {
+          "stiffness": 0.07298826489535612,
+          "energy": 9.123533111922007e-15,
+          "relative_free_residual": 5.763995899171418e-14,
+          "relative_force_balance": 7.712128303949637e-13,
+          "relative_cross_reaction": 2.473783858410373e-14
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.361612355281052,
+        "delta_span": 0.04345571346641659,
+        "E_factor_to_match_old_max_delta": 1.146620930762991,
+        "E_factor_to_restore_normal_stiffness": 1.3181566418146353,
+        "E_factor_to_restore_lateral_stiffness": 1.8996396169269414
+      },
+      "maximum_channel_wall_slope": 0.9817477042468103,
+      "local_flow_resistance_ratio": 0.9108757210636101,
+      "volume_ratio": 0.7875
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7755872988505842,
+      "lateral_ratio": 0.43211814018596234,
+      "baseline": {
+        "min_jacobian": 0.0007812499999999931,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.250835115657417,
+          "energy": 5.016702313148425e-13,
+          "relative_free_residual": 4.6431708711205106e-15,
+          "relative_force_balance": 4.257998742038923e-14,
+          "relative_cross_reaction": 5.474192930440375e-16
+        },
+        "lateral": {
+          "stiffness": 0.003768447268568745,
+          "energy": 7.536894537139763e-15,
+          "relative_free_residual": 1.650652845345843e-13,
+          "relative_force_balance": 5.394254477975278e-13,
+          "relative_cross_reaction": 4.154853761556175e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0005859374999999965,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.19454452980960993,
+          "energy": 3.8908905961922283e-13,
+          "relative_free_residual": 5.442410460494861e-15,
+          "relative_force_balance": 2.972916714045318e-14,
+          "relative_cross_reaction": 1.700753268904644e-17
+        },
+        "lateral": {
+          "stiffness": 0.0016284144250827957,
+          "energy": 3.256828850170849e-15,
+          "relative_free_residual": 5.85438320088156e-13,
+          "relative_force_balance": 3.3862342862451955e-12,
+          "relative_cross_reaction": 1.3767577358631941e-13
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7776113028560705,
+      "lateral_ratio": 0.4324554511150022,
+      "baseline": {
+        "min_jacobian": 0.0007812499999999931,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.250835115657417,
+          "energy": 5.016702313148425e-13,
+          "relative_free_residual": 4.6431708711205106e-15,
+          "relative_force_balance": 4.257998742038923e-14,
+          "relative_cross_reaction": 5.474192930440375e-16
+        },
+        "lateral": {
+          "stiffness": 0.003768447268568745,
+          "energy": 7.536894537139763e-15,
+          "relative_free_residual": 1.650652845345843e-13,
+          "relative_force_balance": 5.394254477975278e-13,
+          "relative_cross_reaction": 4.154853761556175e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0005859374999999965,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.19505222108841716,
+          "energy": 3.901044421768324e-13,
+          "relative_free_residual": 5.971069162789579e-15,
+          "relative_force_balance": 5.0618381766375294e-14,
+          "relative_cross_reaction": 3.053387640062853e-16
+        },
+        "lateral": {
+          "stiffness": 0.0016296855635319944,
+          "energy": 3.2593711270619678e-15,
+          "relative_free_residual": 4.3448050359531263e-13,
+          "relative_force_balance": 1.878582539566824e-12,
+          "relative_cross_reaction": 6.523119915716043e-15
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7750800012070422,
+      "lateral_ratio": 0.43116219538827727,
+      "baseline": {
+        "min_jacobian": 0.00019531249999999754,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.2507939056794092,
+          "energy": 5.015878113588087e-13,
+          "relative_free_residual": 8.443516051154228e-15,
+          "relative_force_balance": 5.403850272738706e-14,
+          "relative_cross_reaction": 6.068777161767101e-16
+        },
+        "lateral": {
+          "stiffness": 0.0037497455945319515,
+          "energy": 7.499491189058611e-15,
+          "relative_free_residual": 2.991288028333326e-13,
+          "relative_force_balance": 7.564307840232804e-12,
+          "relative_cross_reaction": 2.477770977956333e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.00014648437499999856,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.19438534071671532,
+          "energy": 3.8877068143343897e-13,
+          "relative_free_residual": 9.259674655912003e-15,
+          "relative_force_balance": 1.1458847386691104e-13,
+          "relative_cross_reaction": 9.446910724321988e-16
+        },
+        "lateral": {
+          "stiffness": 0.0016167485426859171,
+          "energy": 3.23349708535623e-15,
+          "relative_free_residual": 8.186115188241467e-13,
+          "relative_force_balance": 1.3076679472966662e-11,
+          "relative_cross_reaction": 8.81019402471907e-15
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7774485183995333,
+      "lateral_ratio": 0.43152024341703415,
+      "baseline": {
+        "min_jacobian": 0.00019531249999999754,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.2507939056794092,
+          "energy": 5.015878113588087e-13,
+          "relative_free_residual": 8.443516051154228e-15,
+          "relative_force_balance": 5.403850272738706e-14,
+          "relative_cross_reaction": 6.068777161767101e-16
+        },
+        "lateral": {
+          "stiffness": 0.0037497455945319515,
+          "energy": 7.499491189058611e-15,
+          "relative_free_residual": 2.991288028333326e-13,
+          "relative_force_balance": 7.564307840232804e-12,
+          "relative_cross_reaction": 2.477770977956333e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.00014648437499999856,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.19497935039408898,
+          "energy": 3.8995870078816014e-13,
+          "relative_free_residual": 1.0860546841784676e-14,
+          "relative_force_balance": 1.6833847604766248e-14,
+          "relative_cross_reaction": 2.460592643841841e-16
+        },
+        "lateral": {
+          "stiffness": 0.0016180911317043793,
+          "energy": 3.2361822634199006e-15,
+          "relative_free_residual": 1.0326395124587987e-12,
+          "relative_force_balance": 1.33771547535365e-11,
+          "relative_cross_reaction": 2.210369314374675e-13
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7749278388359985,
+      "lateral_ratio": 0.4309250750398212,
+      "baseline": {
+        "min_jacobian": 4.8828124999998946e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.2507770449374257,
+          "energy": 5.015540898748836e-13,
+          "relative_free_residual": 9.710696303817414e-15,
+          "relative_force_balance": 4.003023449155168e-13,
+          "relative_cross_reaction": 3.173128343842511e-15
+        },
+        "lateral": {
+          "stiffness": 0.0037446129466523984,
+          "energy": 7.48922589334062e-15,
+          "relative_free_residual": 4.824430411241406e-13,
+          "relative_force_balance": 2.6515811760246038e-11,
+          "relative_cross_reaction": 9.191879405651314e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999912e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.19433411346303736,
+          "energy": 3.8866822692605167e-13,
+          "relative_free_residual": 1.3348342988991919e-14,
+          "relative_force_balance": 3.067394735837735e-13,
+          "relative_cross_reaction": 1.5323352921036643e-15
+        },
+        "lateral": {
+          "stiffness": 0.0016136476150312707,
+          "energy": 3.2272952300981093e-15,
+          "relative_free_residual": 1.295891723233223e-12,
+          "relative_force_balance": 2.76612394293465e-11,
+          "relative_cross_reaction": 1.797421107982653e-13
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.3329848034865148,
+        "delta_span": 0.04254206819637817,
+        "E_factor_to_match_old_max_delta": 1.1225135187254862,
+        "E_factor_to_restore_normal_stiffness": 1.2904427352901366,
+        "E_factor_to_restore_lateral_stiffness": 2.320589025615628
+      },
+      "maximum_channel_wall_slope": 0.4908738521234052,
+      "local_flow_resistance_ratio": 0.9679378605318052,
+      "volume_ratio": 0.7875000000000001
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7774070605962301,
+      "lateral_ratio": 0.43129052418052477,
+      "baseline": {
+        "min_jacobian": 4.8828124999998946e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.2507770449374257,
+          "energy": 5.015540898748836e-13,
+          "relative_free_residual": 9.710696303817414e-15,
+          "relative_force_balance": 4.003023449155168e-13,
+          "relative_cross_reaction": 3.173128343842511e-15
+        },
+        "lateral": {
+          "stiffness": 0.0037446129466523984,
+          "energy": 7.48922589334062e-15,
+          "relative_free_residual": 4.824430411241406e-13,
+          "relative_force_balance": 2.6515811760246038e-11,
+          "relative_cross_reaction": 9.191879405651314e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999912e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.1949558453698128,
+          "energy": 3.899116907396057e-13,
+          "relative_free_residual": 1.7378970005183665e-14,
+          "relative_force_balance": 1.9687114458997122e-13,
+          "relative_cross_reaction": 1.0098131985433868e-15
+        },
+        "lateral": {
+          "stiffness": 0.0016150160806148923,
+          "energy": 3.230032161253572e-15,
+          "relative_free_residual": 1.4873737343466066e-12,
+          "relative_force_balance": 1.1918004595808535e-11,
+          "relative_cross_reaction": 8.373597134925905e-15
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.3287337938181343,
+        "delta_span": 0.042406397675046885,
+        "E_factor_to_match_old_max_delta": 1.1189337211100079,
+        "E_factor_to_restore_normal_stiffness": 1.2863273961430874,
+        "E_factor_to_restore_lateral_stiffness": 2.318622700788648
+      },
+      "maximum_channel_wall_slope": 0.2454369260617026,
+      "local_flow_resistance_ratio": 0.9108757210636101,
+      "volume_ratio": 0.7875
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.775017641096023,
+      "lateral_ratio": 0.43249350656710117,
+      "baseline": {
+        "min_jacobian": 0.0007812499999999931,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.25182907465473603,
+          "energy": 5.036581493094757e-13,
+          "relative_free_residual": 5.0452848727789106e-15,
+          "relative_force_balance": 6.800623568099907e-14,
+          "relative_cross_reaction": 1.8394267765339777e-16
+        },
+        "lateral": {
+          "stiffness": 0.0037786312273075584,
+          "energy": 7.557262454613491e-15,
+          "relative_free_residual": 1.5936656681040805e-13,
+          "relative_force_balance": 4.856513275267334e-13,
+          "relative_cross_reaction": 1.5084897307976213e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0005859374999999965,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.1951719753983078,
+          "energy": 3.9034395079661485e-13,
+          "relative_free_residual": 5.9674054130865805e-15,
+          "relative_force_balance": 3.797439808327824e-15,
+          "relative_cross_reaction": 3.0515141316920015e-16
+        },
+        "lateral": {
+          "stiffness": 0.0016342334695221951,
+          "energy": 3.2684669390521345e-15,
+          "relative_free_residual": 5.000842660757242e-13,
+          "relative_force_balance": 1.3567569587206264e-12,
+          "relative_cross_reaction": 3.2717809851349058e-15
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "nx": 8,
+      "ny": 40,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7770140215355291,
+      "lateral_ratio": 0.43282952936175334,
+      "baseline": {
+        "min_jacobian": 0.0007812499999999931,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.25182907465473603,
+          "energy": 5.036581493094757e-13,
+          "relative_free_residual": 5.0452848727789106e-15,
+          "relative_force_balance": 6.800623568099907e-14,
+          "relative_cross_reaction": 1.8394267765339777e-16
+        },
+        "lateral": {
+          "stiffness": 0.0037786312273075584,
+          "energy": 7.557262454613491e-15,
+          "relative_free_residual": 1.5936656681040805e-13,
+          "relative_force_balance": 4.856513275267334e-13,
+          "relative_cross_reaction": 1.5084897307976213e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.0005859374999999965,
+        "ndof": 738,
+        "normal": {
+          "stiffness": 0.19567472203704744,
+          "energy": 3.91349444074095e-13,
+          "relative_free_residual": 5.952073371307276e-15,
+          "relative_force_balance": 2.2049726352797407e-14,
+          "relative_cross_reaction": 6.763719740121905e-17
+        },
+        "lateral": {
+          "stiffness": 0.0016355031757471549,
+          "energy": 3.271006351490597e-15,
+          "relative_free_residual": 4.784538917924662e-13,
+          "relative_force_balance": 1.3288980979753755e-12,
+          "relative_cross_reaction": 8.356065768764398e-14
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7744740955728495,
+      "lateral_ratio": 0.4316056329823233,
+      "baseline": {
+        "min_jacobian": 0.00019531249999999754,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.25172931742674304,
+          "energy": 5.034586348534684e-13,
+          "relative_free_residual": 8.6224439390966e-15,
+          "relative_force_balance": 6.729712342709541e-14,
+          "relative_cross_reaction": 1.8401557187096403e-16
+        },
+        "lateral": {
+          "stiffness": 0.003751630733341773,
+          "energy": 7.503261466697455e-15,
+          "relative_free_residual": 3.0912083337326037e-13,
+          "relative_force_balance": 3.0104554769401952e-12,
+          "relative_cross_reaction": 5.2512900147951863e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.00014648437499999856,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.19495783544324757,
+          "energy": 3.899156708864891e-13,
+          "relative_free_residual": 1.086174537853946e-14,
+          "relative_force_balance": 4.9149397837891064e-14,
+          "relative_cross_reaction": 9.16459766314267e-16
+        },
+        "lateral": {
+          "stiffness": 0.0016192249573799137,
+          "energy": 3.2384499147654815e-15,
+          "relative_free_residual": 9.695927644087597e-13,
+          "relative_force_balance": 7.599975108116264e-12,
+          "relative_cross_reaction": 8.972378680129961e-14
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "nx": 16,
+      "ny": 80,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7768338435702267,
+      "lateral_ratio": 0.43196339270666234,
+      "baseline": {
+        "min_jacobian": 0.00019531249999999754,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.25172931742674304,
+          "energy": 5.034586348534684e-13,
+          "relative_free_residual": 8.6224439390966e-15,
+          "relative_force_balance": 6.729712342709541e-14,
+          "relative_cross_reaction": 1.8401557187096403e-16
+        },
+        "lateral": {
+          "stiffness": 0.003751630733341773,
+          "energy": 7.503261466697455e-15,
+          "relative_free_residual": 3.0912083337326037e-13,
+          "relative_force_balance": 3.0104554769401952e-12,
+          "relative_cross_reaction": 5.2512900147951863e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 0.00014648437499999856,
+        "ndof": 2754,
+        "normal": {
+          "stiffness": 0.19555185319592644,
+          "energy": 3.9110370639185727e-13,
+          "relative_free_residual": 9.745876094626938e-15,
+          "relative_force_balance": 2.8425471942661903e-14,
+          "relative_cross_reaction": 7.444766461173355e-16
+        },
+        "lateral": {
+          "stiffness": 0.0016205671397568958,
+          "energy": 3.2411342795236454e-15,
+          "relative_free_residual": 1.2086902433548093e-12,
+          "relative_force_balance": 1.0375760983139908e-11,
+          "relative_cross_reaction": 2.0869568523399714e-13
+        }
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.1,
+      "rho": 0.1,
+      "normal_ratio": 0.7743098397907778,
+      "lateral_ratio": 0.4313892436775319,
+      "baseline": {
+        "min_jacobian": 4.8828124999998946e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.25168749383896116,
+          "energy": 5.033749876779153e-13,
+          "relative_free_residual": 1.4513353561267464e-14,
+          "relative_force_balance": 1.434928956448792e-12,
+          "relative_cross_reaction": 1.209446130105622e-15
+        },
+        "lateral": {
+          "stiffness": 0.00374384162469372,
+          "energy": 7.487683249395818e-15,
+          "relative_free_residual": 4.759141058978382e-13,
+          "relative_force_balance": 1.8425542666804674e-11,
+          "relative_cross_reaction": 3.0619491549727627e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999912e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.1948841030317884,
+          "energy": 3.8976820606357497e-13,
+          "relative_free_residual": 1.9015245915841067e-14,
+          "relative_force_balance": 5.185729207620085e-13,
+          "relative_cross_reaction": 1.2224086660183543e-15
+        },
+        "lateral": {
+          "stiffness": 0.0016150530069250861,
+          "energy": 3.230106013835089e-15,
+          "relative_free_residual": 1.4361227945172174e-12,
+          "relative_force_balance": 3.8083758817408214e-11,
+          "relative_cross_reaction": 2.493277214198926e-13
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.3340486971548051,
+        "delta_span": 0.04257602224962148,
+        "E_factor_to_match_old_max_delta": 1.1234094291829937,
+        "E_factor_to_restore_normal_stiffness": 1.2914726749051835,
+        "E_factor_to_restore_lateral_stiffness": 2.3180921051140317
+      },
+      "maximum_channel_wall_slope": 0.4908738521234052,
+      "local_flow_resistance_ratio": 0.9679378605318052,
+      "volume_ratio": 0.7875000000000001
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "nx": 32,
+      "ny": 160,
+      "tau": 0.05,
+      "rho": 0.2,
+      "normal_ratio": 0.7767898770686524,
+      "lateral_ratio": 0.43175502895861545,
+      "baseline": {
+        "min_jacobian": 4.8828124999998946e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.25168749383896116,
+          "energy": 5.033749876779153e-13,
+          "relative_free_residual": 1.4513353561267464e-14,
+          "relative_force_balance": 1.434928956448792e-12,
+          "relative_cross_reaction": 1.209446130105622e-15
+        },
+        "lateral": {
+          "stiffness": 0.00374384162469372,
+          "energy": 7.487683249395818e-15,
+          "relative_free_residual": 4.759141058978382e-13,
+          "relative_force_balance": 1.8425542666804674e-11,
+          "relative_cross_reaction": 3.0619491549727627e-14
+        }
+      },
+      "flared": {
+        "min_jacobian": 3.662109374999912e-05,
+        "ndof": 10626,
+        "normal": {
+          "stiffness": 0.19550829739888387,
+          "energy": 3.910165947978062e-13,
+          "relative_free_residual": 1.9766873699293993e-14,
+          "relative_force_balance": 3.157284210051616e-13,
+          "relative_cross_reaction": 6.092529564850888e-16
+        },
+        "lateral": {
+          "stiffness": 0.001616422449086107,
+          "energy": 3.2328448981976408e-15,
+          "relative_free_residual": 1.248634412229616e-12,
+          "relative_force_balance": 3.706071031335601e-11,
+          "relative_cross_reaction": 2.4569716657740848e-14
+        }
+      },
+      "scaled_103_proxy": {
+        "delta_max": 1.3297895138195008,
+        "delta_span": 0.04244009086657985,
+        "E_factor_to_match_old_max_delta": 1.1198227484795795,
+        "E_factor_to_restore_normal_stiffness": 1.2873494229529208,
+        "E_factor_to_restore_lateral_stiffness": 2.316128204486651
+      },
+      "maximum_channel_wall_slope": 0.2454369260617026,
+      "local_flow_resistance_ratio": 0.9108757210636101,
+      "volume_ratio": 0.7875
+    }
+  ],
+  "convergence": [
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "tau": 0.1,
+      "rho": 0.1,
+      "relative_changes": {
+        "normal_ratio": 0.0011607433252534825,
+        "lateral_ratio": 2.826872133640009e-05
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.3,
+      "tau": 0.05,
+      "rho": 0.2,
+      "relative_changes": {
+        "normal_ratio": 0.0006727831770399205,
+        "lateral_ratio": 0.0001369190128527911
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "tau": 0.1,
+      "rho": 0.1,
+      "relative_changes": {
+        "normal_ratio": 0.001259185150840897,
+        "lateral_ratio": 5.601990402463253e-06
+      }
+    },
+    {
+      "height": 0.5,
+      "nu": 0.45,
+      "tau": 0.05,
+      "rho": 0.2,
+      "relative_changes": {
+        "normal_ratio": 0.0007428945468324421,
+        "lateral_ratio": 0.0001330562245706864
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "tau": 0.1,
+      "rho": 0.1,
+      "relative_changes": {
+        "normal_ratio": 0.00019635682629794558,
+        "lateral_ratio": 0.0005502588783773256
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.3,
+      "tau": 0.05,
+      "rho": 0.2,
+      "relative_changes": {
+        "normal_ratio": 5.332830817284872e-05,
+        "lateral_ratio": 0.0005326322365784958
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "tau": 0.1,
+      "rho": 0.1,
+      "relative_changes": {
+        "normal_ratio": 0.0002121318542407648,
+        "lateral_ratio": 0.0005016103390680532
+      }
+    },
+    {
+      "height": 2.0,
+      "nu": 0.45,
+      "tau": 0.05,
+      "rho": 0.2,
+      "relative_changes": {
+        "normal_ratio": 5.660025043084752e-05,
+        "lateral_ratio": 0.0004825971536439555
+      }
+    }
+  ],
+  "source_module_sha256": "c2c435376fa30cd728f869d61903e8af9ea653e245a4098f4f8448082b1a0d8e",
+  "cosine_transition_resistance_coefficient": 1.6793786053180502,
+  "reference94_sha256": "79cb7ca4d07f98d7c21f598228998041008b85f523080fa0f8971d6b00e0ac6f"
+}

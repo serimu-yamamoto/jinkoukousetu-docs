@@ -1,0 +1,11 @@
+{
+  "links_checked": 27,
+  "stored_result_checks_passed": true,
+  "prior_text_preserved": true,
+  "states": 24,
+  "primary_checks": 168,
+  "max_ratio_mesh_change": 0.001259185150840897,
+  "physical_trials": 0,
+  "success_probability": null,
+  "public_byte_verification": "after commit; required before deletion"
+}
