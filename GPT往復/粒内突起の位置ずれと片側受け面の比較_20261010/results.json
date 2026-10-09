@@ -1,0 +1,149 @@
+{
+  "cycle": 124,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "計算部品/drying_stop_geometry.py": "0cdcae29678e563b99cf0e60ca6164f4e72d0a5890d6050b733383724c2fb2b4",
+    "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/model.md": "bf7952295692e3ea16ddf0e6b0e2fcae8daa55a41b2b0e3378c46bd2fe69cb7f",
+    "GPT往復/濡れ後の復帰と排水検証_20261009/sources.json": "3d3ce2d1d37b162a9e013a924bc29fef026f09dfe2e3cf675ee2f49093776fd8"
+  },
+  "rows": [
+    {
+      "offset_um": 0,
+      "paired_overlap_fraction": 0.9999999999999998,
+      "one_sided_overlap_fraction": 0.9999999999999998,
+      "paired_pressure_factor4": 45.83662361046587,
+      "paired_pressure_factor1": 183.34649444186348,
+      "single_pressure_factor4": 45.83662361046587,
+      "single_pressure_factor1": 183.34649444186348,
+      "contact_lost": false
+    },
+    {
+      "offset_um": 12.5,
+      "paired_overlap_fraction": 0.6850376424742926,
+      "one_sided_overlap_fraction": 0.9999999999999998,
+      "paired_pressure_factor4": 66.91110205989297,
+      "paired_pressure_factor1": 267.6444082395719,
+      "single_pressure_factor4": 45.83662361046587,
+      "single_pressure_factor1": 183.34649444186348,
+      "contact_lost": false
+    },
+    {
+      "offset_um": 25,
+      "paired_overlap_fraction": 0.39100221895577064,
+      "one_sided_overlap_fraction": 0.9999999999999998,
+      "paired_pressure_factor4": 117.2285511138002,
+      "paired_pressure_factor1": 468.9142044552008,
+      "single_pressure_factor4": 45.83662361046587,
+      "single_pressure_factor1": 183.34649444186348,
+      "contact_lost": false
+    },
+    {
+      "offset_um": 37.5,
+      "paired_overlap_fraction": 0.1442936128143875,
+      "one_sided_overlap_fraction": 0.9999999999999998,
+      "paired_pressure_factor4": 317.66218002613834,
+      "paired_pressure_factor1": 1270.6487201045534,
+      "single_pressure_factor4": 45.83662361046587,
+      "single_pressure_factor1": 183.34649444186348,
+      "contact_lost": false
+    },
+    {
+      "offset_um": 47.5,
+      "paired_overlap_fraction": 0.013320011010141533,
+      "one_sided_overlap_fraction": 0.9999999999999998,
+      "paired_pressure_factor4": 3441.185114304107,
+      "paired_pressure_factor1": 13764.740457216429,
+      "single_pressure_factor4": 45.83662361046587,
+      "single_pressure_factor1": 183.34649444186348,
+      "contact_lost": false
+    },
+    {
+      "offset_um": 50,
+      "paired_overlap_fraction": 0.0,
+      "one_sided_overlap_fraction": 0.9999999999999998,
+      "paired_pressure_factor4": null,
+      "paired_pressure_factor1": null,
+      "single_pressure_factor4": 45.83662361046587,
+      "single_pressure_factor1": 183.34649444186348,
+      "contact_lost": true
+    }
+  ],
+  "quadrature_errors": [
+    {
+      "offset_um": 0,
+      "coarse_relative_error": 3.56954125045883e-05,
+      "fine_relative_error": 5.576523749439843e-07
+    },
+    {
+      "offset_um": 12.5,
+      "coarse_relative_error": 1.1964621485671678e-05,
+      "fine_relative_error": 1.8693608749842383e-07
+    },
+    {
+      "offset_um": 25,
+      "coarse_relative_error": 1.141006458227345e-05,
+      "fine_relative_error": 1.7827518694613076e-07
+    },
+    {
+      "offset_um": 37.5,
+      "coarse_relative_error": 1.093115456685112e-05,
+      "fine_relative_error": 1.7079590264312827e-07
+    },
+    {
+      "offset_um": 47.5,
+      "coarse_relative_error": 1.0591225169331864e-05,
+      "fine_relative_error": 1.6548725845222378e-07
+    }
+  ],
+  "height_rearrangement": {
+    "paired_volume_m3": 6.283185307179584e-13,
+    "single_sided_volume_m3": 6.283185307179584e-13,
+    "paired_lateral_compliance_times_EI": 4.266666666666665e-14,
+    "single_lateral_compliance_times_EI": 1.706666666666666e-13,
+    "lateral_compliance_ratio_single_to_pair": 4.0,
+    "axial_compliance_times_EA": 7.999999999999999e-05,
+    "assumptions": "same radius; two independent equal cantilevers in series versus one twice as long; rigid plates; no slip at lateral force application"
+  },
+  "beam_comparison": {
+    "poisson_assumed": 0.35,
+    "shear_factor_assumed": 0.9,
+    "pair": {
+      "bending_times_E": 139071.71133960606,
+      "shear_times_E": 122230.99629457564,
+      "lateral_times_E": 261302.70763418172,
+      "axial_times_E": 40743.665431525216,
+      "volume_m3": 1.570796326794896e-13
+    },
+    "single": {
+      "bending_times_E": 556286.8453584242,
+      "shear_times_E": 122230.99629457564,
+      "lateral_times_E": 678517.8416529999,
+      "axial_times_E": 40743.665431525216,
+      "volume_m3": 1.570796326794896e-13
+    },
+    "stepped": {
+      "bending_times_E": 99957.79252534185,
+      "shear_times_E": 76394.37268410978,
+      "lateral_times_E": 176352.16520945163,
+      "axial_times_E": 25464.79089470326,
+      "volume_m3": 3.9269908169872403e-13
+    },
+    "single_lateral_ratio": 2.5966735966735963,
+    "stepped_lateral_ratio": 0.6748960498960499,
+    "step_added_fraction_of_reference_plates": 0.07272205216643038,
+    "scope": "ideal segmented beam components only; short post3D compliance and effective grain stiffness unknown"
+  },
+  "receiver_footprint_fraction": 0.19634954084936204,
+  "limits": [
+    "Planar rigid circular faces; actual asperity contact may differ",
+    "Offsets and all dimensions are design assumptions, not manufacturing tolerances",
+    "No real pressure assigned; multiplier only",
+    "Zero overlap means loss of this contact path, not infinite real pressure",
+    "Common displacement for all posts; no tilt or rotation calculated",
+    "Adhesion is not proportional to nominal overlap in this model because adhesion is not modeled",
+    "Broad receiving area assumed retained in preexisting plate",
+    "No rain recovery stiffness wear or safety measurements",
+    "Beam bending plus assumed shear correction is an ideal comparison; short posts, plate flexibility, fillets, contact, stress concentration and3D elasticity not resolved"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "variants": [
+    "no stop control",
+    "paired short stops",
+    "one-sided uniform stop with broad landing",
+    "one-sided wide-root stop with broad landing"
+  ],
+  "next_computation": [
+    "3D short-post and receiving-plate elasticity with mesh convergence",
+    "offset tilt one-stop loading",
+    "contact slip and localized strain rather than area-only adhesion"
+  ],
+  "same_specimen_checks": [
+    "wet-dry50C-rewet-redry morphology",
+    "direct pull-off and residual sticking",
+    "actual ski friction both-side wear",
+    "edge penetration support release and softness",
+    "rain composition recovery and winter snow/basal connection",
+    "complete material residuals wear environmental safety",
+    "restoration including all work within60min"
+  ],
+  "limits": [
+    "no material constants or manufacturing quote secured",
+    "59 numerical checks not trials",
+    "no adhesion or cost proportionality assumed"
+  ]
+}

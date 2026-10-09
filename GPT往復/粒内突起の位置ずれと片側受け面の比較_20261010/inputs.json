@@ -1,0 +1,42 @@
+{
+  "assumed": {
+    "patch_um": [
+      600,
+      600
+    ],
+    "post_radius_um": 25,
+    "height_each_um": 40,
+    "pairs": 4,
+    "offsets_um": [
+      0,
+      12.5,
+      25,
+      37.5,
+      47.5,
+      50
+    ],
+    "landing_radius_um": 75,
+    "active_contacts": [
+      4,
+      1
+    ],
+    "simpson_n": [
+      512,
+      8192
+    ],
+    "stepped_base_radius_factor": 2,
+    "poisson": 0.35,
+    "circular_shear_factor": 0.9
+  },
+  "limits": [
+    "Planar rigid circular faces; actual asperity contact may differ",
+    "Offsets and all dimensions are design assumptions, not manufacturing tolerances",
+    "No real pressure assigned; multiplier only",
+    "Zero overlap means loss of this contact path, not infinite real pressure",
+    "Common displacement for all posts; no tilt or rotation calculated",
+    "Adhesion is not proportional to nominal overlap in this model because adhesion is not modeled",
+    "Broad receiving area assumed retained in preexisting plate",
+    "No rain recovery stiffness wear or safety measurements",
+    "Beam bending plus assumed shear correction is an ideal comparison; short posts, plate flexibility, fillets, contact, stress concentration and3D elasticity not resolved"
+  ]
+}

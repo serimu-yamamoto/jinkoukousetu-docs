@@ -1,0 +1,124 @@
+{
+  "cycle": 124,
+  "base_commit": "1a1f8ed546e846fcac26777e455689c39daeda9b",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第124巡_位置ずれに耐える粒内接点と付着の限界_20261010.md",
+      "bytes": 8481,
+      "sha256": "747945671b75ae34fcaa79ff9f8e628fd997b446610f7dc1a9262dbcc9e61844"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 80225,
+      "sha256": "709972dd82e36b0a73434a93d98364b0eeb752f6a9b089f1dfe371516380d644"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/README.md",
+      "bytes": 635,
+      "sha256": "195528d2b6cce3b1378e21fe3e7589ea1d00d4d26ceccd35320476550362a7d9"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/claude_handoff.md",
+      "bytes": 1809,
+      "sha256": "9c385ef3aacecdd38f33ec85cd3bcc8543e119e341dcb0dcd5cd0b568d8fa8e1"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "b61a5ae6906f944b0f33b814572b08deb253210cf97aa34323ce59718b85630c"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/inputs.json",
+      "bytes": 1228,
+      "sha256": "b86cfc3fb92cab4ec21cccb7ca98dfbf0d37cd1c63d0c643b478bbb4f1ea18d6"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/model.md",
+      "bytes": 2430,
+      "sha256": "6c66523b07ee1e866aac260ffd8c9bdfb2524e0513ffc08a5c1f286d7576021f"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "55f959572f8cef9f911e7a60d8230b39f886ea3f4962ad4fce5366f5988cde48"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/reproduce.py",
+      "bytes": 6202,
+      "sha256": "1fabac8040e1d936369eed415b0e961036ae32d8580a0202914d9c01a48e63af"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/research_state.json",
+      "bytes": 925,
+      "sha256": "44c090ae49f9ea25a6656e12187230540418415fa1bb143d649a62aac2f6495a"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/results.json",
+      "bytes": 5987,
+      "sha256": "d638c339e1848308c07c57635b8965f897363b2a7ad904696a438535b788978c"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/sources.json",
+      "bytes": 2575,
+      "sha256": "e5c30240b10e6bdcd1f551bc1027a3d951dead1e794a04478e42ae67956befba"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/test_plan.json",
+      "bytes": 1086,
+      "sha256": "7edb5aaed2788667b3e1beedf5cd8fc1ed6803da3916f762fe22bb7ce60537cf"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/validation.json",
+      "bytes": 2434,
+      "sha256": "ceb121af8479dc9a5810509ae40a15c342100dc429812211d29110dfa1b5ec2e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 90491,
+      "sha256": "f742558d28739a72bb6c628fae69f444a7112e3a0be76528ba845db6709c095a"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 203620,
+      "sha256": "2685b7377e0a2d2e80c94ea2a592cb3e38880600570ff0c7687df0cda15cb398"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 6371,
+      "sha256": "e3c67c28d13c3cd6ec1c192cd6482a4e34840c04545656e322e966e65ebc59ed"
+    },
+    {
+      "path": "計算部品/stop_misalignment.py",
+      "bytes": 2428,
+      "sha256": "ed07459f582f96f43c43fb65055dd3b5f001585032c1a679eede15371dbba1e3"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 44913,
+      "sha256": "964b0bea6c036524f4477c681d1d560f25f1407265f2774ec7fd30ab7bc78215"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 237124,
+      "sha256": "27c0900d447ae48a323fc3ef38d4b28149f73978ad25b71614011569c4eda5c7"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/drying_stop_geometry.py",
+      "bytes": 2359,
+      "sha256": "0cdcae29678e563b99cf0e60ca6164f4e72d0a5890d6050b733383724c2fb2b4"
+    },
+    {
+      "path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/model.md",
+      "bytes": 1574,
+      "sha256": "bf7952295692e3ea16ddf0e6b0e2fcae8daa55a41b2b0e3378c46bd2fe69cb7f"
+    },
+    {
+      "path": "GPT往復/濡れ後の復帰と排水検証_20261009/sources.json",
+      "bytes": 4705,
+      "sha256": "3d3ce2d1d37b162a9e013a924bc29fef026f09dfe2e3cf675ee2f49093776fd8"
+    }
+  ]
+}

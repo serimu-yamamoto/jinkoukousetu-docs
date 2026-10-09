@@ -1,0 +1,59 @@
+[
+  {
+    "id": "S1_new",
+    "title": "Interfacial Adhesion between Rough Surfaces of Polycrystalline Silicon and Its Implications for M/NEMS Technology",
+    "authors": [
+      "Ian Laboriante",
+      "Brian Bush",
+      "Donovan Lee",
+      "Fang Liu",
+      "Tsu-Jae King Liu",
+      "Carlo Carraro",
+      "Roya Maboudian"
+    ],
+    "doi": "10.1163/016942410X508262",
+    "year": 2010,
+    "url": "https://www.tandfonline.com/doi/abs/10.1163/016942410X508262",
+    "metadata_url": "https://api.crossref.org/works/10.1163/016942410X508262",
+    "read_date": "2026-10-10",
+    "scope": "Publisher search-index abstract read; direct full-page open403. Crossref bibliographic title authors year volume checked. No full paper, figures, measured force curve or polymer data read.",
+    "limits": "weak area dependence in rough polysilicon not transferable adhesion coefficient for plastic grains"
+  },
+  {
+    "id": "S2_new",
+    "title": "Experiments on MEMS Integration in 0.25 μm CMOS Process",
+    "authors": [
+      "Piotr Michalik",
+      "Daniel Fernández",
+      "Matthias Wietstruck",
+      "Mehmet Kaynak",
+      "Jordi Madrenas"
+    ],
+    "doi": "10.3390/s18072111",
+    "year": 2018,
+    "url": "https://doi.org/10.3390/s18072111",
+    "fulltext_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6069414/fullTextXML",
+    "xml_sha256": "3a1e323059b745069d07c5cf240566eabce44d0d154f30f77ca083f3b6efb667",
+    "xml_bytes": 186621,
+    "read_date": "2026-10-10",
+    "scope": "Dimples subsection, related process context, gap-dispersion paragraph and conclusion read in original XML; figures not independently measured. Textual duplicated excerpts not counted as new evidence.",
+    "limits": "Microelectronic structures; not polymer50C rain skiing. Qualitative development not statistical yield or success probability."
+  },
+  {
+    "id": "reused123",
+    "repository_path": "GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/model.md"
+  },
+  {
+    "id": "reused123_module",
+    "repository_path": "計算部品/drying_stop_geometry.py"
+  },
+  {
+    "id": "reused50",
+    "repository_path": "GPT往復/濡れ後の復帰と排水検証_20261009/sources.json",
+    "scope": "Restoring path and root support limits reused; no previous equations counted new"
+  },
+  {
+    "id": "assumptions",
+    "scope": "All proposed stop/landing dimensions offsets and contact counts;nu.35,kappa.9; rigid faces and equal loads; piecewise straight beams. No measured allowables adhesion friction safety manufacturing cost or yield."
+  }
+]

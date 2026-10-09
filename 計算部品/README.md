@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [stop_misalignment.py](stop_misalignment.py)：円端面の位置ずれと名目荷重配分、片側・段付き突起の体積と理想梁成分。付着・短柱3D・滑走を予測しない。[第124巡](../GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/README.md)。
+
 - [drying_stop_geometry.py](drying_stop_geometry.py)：乾湿の三方向形状比と対向突起の固体増加・名目荷重集中。力学、接着、滑走は予測しない。[第123巡](../GPT往復/乾湿で潰れない粒内ストッパーの成立条件_20261010/README.md)。
 
 - [precipitation_bath_balance.py](precipitation_bath_balance.py)：析出原料と浴濃度、選択回収・抜出し・非溶剤補充の質量収支。形態・乾燥・滑走は予測しない。[第122巡](../GPT往復/液中形状形成と母液循環の濃度管理_20261010/README.md)。
