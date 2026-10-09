@@ -1,0 +1,150 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "815b5effcd3ce08fc04723b7df1f0992060743c7",
+  "cycle": 62,
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第62巡_結晶接点と水で集める固体橋の選択再生_20261009.md",
+      "bytes": 19111,
+      "sha256": "d91aef2d9ecf120af6570e90deaa01abcf6a60e6cd7d75974b311a19039f4bf5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 42797,
+      "sha256": "b1900eb4319de6187279246bb14b8641dcdb76710f0296312817925c6a05660a"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/01_routes.png",
+      "bytes": 129013,
+      "sha256": "4d45ab54738a284111ec76df7ad74662bf7c6a0e7017545cdb4bd02b1d9d052d"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/01_routes.svg",
+      "bytes": 89466,
+      "sha256": "e989306f2bc8d4ec7066397ab63e1d2db6e1bf6f01226523fd0ee31f47652481"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/02_process_bounds.png",
+      "bytes": 183387,
+      "sha256": "5039668dbb6bae58d4720bef4a7a8e38a723551a6b89bf9db771580d4e05532b"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/02_process_bounds.svg",
+      "bytes": 116592,
+      "sha256": "86c5db381d62dda5c5bd87f6801dc2d763cfd685be78b7df380c8697bf628457"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/03_inventory_cost.png",
+      "bytes": 131704,
+      "sha256": "88b0f911d08372aa0418755dc30174f7d976cf925ca0b7dc83b8504b2b25b613"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/03_inventory_cost.svg",
+      "bytes": 102886,
+      "sha256": "590a234c591e1f595a3e44fcd4d600bc6e9063c9aaf38cd0d491cc2cc5163e32"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/README.md",
+      "bytes": 907,
+      "sha256": "7f4ca34a427189658bd9a4ae3c9581f3eaf094b64db16f13bd08cc4b65e2291c"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/audit.py",
+      "bytes": 4094,
+      "sha256": "fd5e4caf0f329a3b48133638956196195c0a6d59cd12bebb3666153a164ce0b2"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/calculate.py",
+      "bytes": 11767,
+      "sha256": "81a1acd7805d6f40d5039b59a1d086451816d8541c7c01c8458810f0e9a87db4"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/carrier_cost.csv",
+      "bytes": 581,
+      "sha256": "9107d130b23ed6160c93d271af7f3ff2c6422122cedbe2b77c32f1670ed99530"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/coupled_requirements.csv",
+      "bytes": 329,
+      "sha256": "d781f28a6fe36e12df695943f5ae99bc20751777ca2e10dd42a0bfbbdf79e178"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/debris_history.csv",
+      "bytes": 122881,
+      "sha256": "4f17284ce28ffe12bd189db8cde9906d815d8d8854887985eb698cfbe8a1e0e0"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/debris_inventory.csv",
+      "bytes": 1552,
+      "sha256": "e09cb1e6e9786dcccebebd6b50e204f9e914263bb2737be336d4235dd3bcd14f"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/document_checks.json",
+      "bytes": 62557,
+      "sha256": "e27221745e4185711bcbc6945dfd2b3acf30eaab2f3aa92611d6933f06e89d65"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/draw.py",
+      "bytes": 6011,
+      "sha256": "4a005d15eff40cb65cecb23b5c079023acdb8e64a2b0ddf8dade49cb299122a0"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/inputs.json",
+      "bytes": 2681,
+      "sha256": "3817aaead3fa1290c716f42578f06e94352e315c418694ff2818905f66af4923"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/model.md",
+      "bytes": 4619,
+      "sha256": "a58c52736c2da9ef936246d4d34e6598e44540a9719fccf2e4d87a9938b97d45"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/network_bounds.csv",
+      "bytes": 5426,
+      "sha256": "9d7d59bb4027b89800e4c1a80397bddd2e94de4d7d95e8af9c97dc89efcab9dd"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/numerical_checks.json",
+      "bytes": 4641,
+      "sha256": "0add5c6f530a66438deca7ab6faa41a61061a1b16971dd9b13d42c4ca634a9f5"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/results.json",
+      "bytes": 13424,
+      "sha256": "134e4578c5a124424585ce1693c611af8cd2dc5223196e7e76241cdc466ab46d"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/slurry_route.csv",
+      "bytes": 4486,
+      "sha256": "376fe04ca6dc2283eeb3706fcf7577e53e033c561c7e2410a5653cf8efec1afa"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/solution_route.csv",
+      "bytes": 4461,
+      "sha256": "f3b85ee3bfcdd2a54147a68979f8e4516e890d3858ae05085265c3c633099c5c"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/source_provenance.json",
+      "bytes": 2388,
+      "sha256": "c02a8fcf252cb3d519f9131640ee75061ad973f4ea0ff9cb2fbac1c46c7725fc"
+    },
+    {
+      "path": "GPT往復/結晶接点と固体橋の再生検証_20261009/validation_plan.md",
+      "bytes": 4298,
+      "sha256": "1a97953027035da34424b582c43bcda900af70bc02258f6ebc890538891c2e62"
+    },
+    {
+      "path": "README.md",
+      "bytes": 50284,
+      "sha256": "bee52148daab1488c827692d7be8df7e11780db5513c88ad331346bb7c66c23b"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 124054,
+      "sha256": "060c535d41adc383db29f33427c3b9872fd8c17a4c118a9f26fe493628548805"
+    }
+  ]
+}

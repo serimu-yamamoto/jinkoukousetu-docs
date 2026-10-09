@@ -1,0 +1,111 @@
+{
+  "cycle": 62,
+  "base_commit": "815b5effcd3ce08fc04723b7df1f0992060743c7",
+  "physical_tests": 0,
+  "success_probability": null,
+  "bed": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "packing_fraction": 0.55,
+    "grain_diameter_m": 0.0005,
+    "contacts_per_grain": 6
+  },
+  "mechanics": {
+    "network_stress_Pa": 5000,
+    "bridge_tensile_strength_Pa": 10000000,
+    "bridge_length_m": 0.00001,
+    "fracture_energy_J_m2": 1,
+    "crystal_density_kg_m3_assumed": 1830,
+    "particulate_bridge_bulk_density_kg_m3_assumed": 1000,
+    "reference_compression_Pa": 20000,
+    "reference_compression_strain": 0.1
+  },
+  "process": {
+    "closure_min": 60,
+    "handling_min": 20,
+    "net_drying_heat_W_m2": 100,
+    "latent_heat_J_kg_assumed": 2400000,
+    "liquid_water_kg_L_assumed": 1,
+    "precursor_Mg_mol_L_assumed": 0.025,
+    "nesquehonite_molar_mass_kg_mol": 0.13836,
+    "baseline_selectivity": 0.25,
+    "slurry_solids_mass_fraction": 0.5
+  },
+  "sensitivity": {
+    "network_stress_Pa": [
+      1000,
+      5000,
+      10000
+    ],
+    "bridge_strength_Pa": [
+      100000,
+      1000000,
+      10000000
+    ],
+    "diameters_m": [
+      0.0005,
+      0.001,
+      0.003
+    ],
+    "contacts": [
+      4,
+      6,
+      8
+    ],
+    "selectivity": [
+      0.01,
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "slurry_solids_mass_fraction": [
+      0.2,
+      0.5
+    ],
+    "renewed_fraction": [
+      0.1,
+      1
+    ],
+    "retained_solution_water_fraction": [
+      0.001,
+      0.01,
+      0.1,
+      1
+    ]
+  },
+  "lifecycle": {
+    "cycles": 360,
+    "renewed_fraction": [
+      0.1,
+      1
+    ],
+    "debris_collection_fraction": [
+      0,
+      0.5,
+      0.9
+    ],
+    "potential_reuse_fraction": [
+      0,
+      0.9
+    ],
+    "bridge_price_yen_kg_assumed": 1000,
+    "carrier_density_kg_m3_assumed": [
+      60,
+      100,
+      200
+    ],
+    "carrier_price_yen_kg_assumed": [
+      500,
+      1000,
+      3000
+    ]
+  },
+  "warnings": [
+    "Isotropic equal-force network is an optimistic inverse design relation, NOT measured shear strength or snow feel.",
+    "Particulate bridge density and tensile strength are unmeasured and coupled; do not cherry-pick independent favorable inputs.",
+    "Selectivity includes delivery, conversion/assembly and formation of load-bearing contacts. Geometric area fraction is a null model, NOT measured process yield.",
+    "Drying calculation is an energy lower bound, not a kinetic model. Mechanical handling, drainage, moisture diffusion and high humidity may prevent it.",
+    "Warm ambient crystal growth, safe finished materials, wet 50 C durability and practical recovery are unverified."
+  ]
+}

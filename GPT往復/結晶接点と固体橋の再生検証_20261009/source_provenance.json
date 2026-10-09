@@ -1,0 +1,47 @@
+{
+  "access_date": "2026-10-09",
+  "full_sources_archived": false,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Influence of additives, temperature, and pressure on the morphology of nesquehonite– results from three synthesis routes",
+      "doi": "10.1007/s42247-024-00968-8",
+      "url": "https://link.springer.com/article/10.1007/s42247-024-00968-8",
+      "access": "Primary full text read through web tool. Direct fetch returned a client challenge; challenge hash is not an article hash.",
+      "sections": [
+        "2.2",
+        "2.3",
+        "2.4",
+        "3.2"
+      ],
+      "not_inferred": "No 30 C outdoor spray growth rate or wet 50 C bridge strength."
+    },
+    {
+      "id": "S2",
+      "title": "Biologically enhanced degassing and precipitation of magnesium carbonates derived from bicarbonate solutions",
+      "doi": "10.1016/j.mineng.2013.11.003",
+      "url": "https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Biologically-enhanced-degassing-and-precipitation-of/991005544294207891",
+      "access": "Author institutional abstract only via web; no primary full article numerical extraction.",
+      "not_inferred": "No enzyme/algae adoption, kinetics, yield, or precursor concentration borrowed."
+    },
+    {
+      "id": "S3",
+      "title": "Bead-to-Bead Analysis: Introducing an Innovative Methodology for Accelerated Quantitative Analysis of the Welding Behavior of Bead Foams",
+      "doi": "10.1002/pol.20240830",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/pol.20240830",
+      "access": "Primary full text through web; direct fetch 403. Table 1, sections 2.3/3 read.",
+      "not_inferred": "No 50 C bonding, repeated regeneration or tested micrograin/snow performance."
+    },
+    {
+      "id": "S4",
+      "title": "Formation of stable aggregates by fluid-assembled solid bridges",
+      "doi": "10.1073/pnas.1913855117",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7035605/",
+      "read_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7035605/fullTextXML",
+      "access": "Primary published text via Europe PMC XML",
+      "bytes": 118013,
+      "sha256": "9ec4dbaf9fcba4d2f9cbf4a4476b2373f38869d5c5566db492a3e8b241e91502",
+      "not_inferred": "Silica/clay experiment is not a safety approval, 50 C wet strength measurement, or typhoon recovery demonstration."
+    }
+  ]
+}

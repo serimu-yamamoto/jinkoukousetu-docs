@@ -1,0 +1,188 @@
+{
+  "passed": 26,
+  "checks": [
+    {
+      "name": "inventory closure f=0.1 collection=0",
+      "actual": 3888.000000000025,
+      "expected": 3887.9999999999995,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "inventory closure f=0.1 collection=0.5",
+      "actual": 3888.0000000000246,
+      "expected": 3887.9999999999995,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "inventory closure f=0.1 collection=0.9",
+      "actual": 3888.000000000025,
+      "expected": 3887.9999999999995,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "inventory closure f=1 collection=0",
+      "actual": 38879.99999999999,
+      "expected": 38879.99999999999,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "inventory closure f=1 collection=0.5",
+      "actual": 38879.99999999999,
+      "expected": 38879.99999999999,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "inventory closure f=1 collection=0.9",
+      "actual": 38879.99999999999,
+      "expected": 38879.99999999999,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "same-density solid feed same for two supply routes",
+      "actual": 49.41,
+      "expected": 49.41,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "supply-format water ratio independent of network mass",
+      "actual": 289.10089621277825,
+      "expected": 289.10089621277825,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "network sphere count from volume",
+      "actual": 495.0,
+      "expected": 495.00000000000006,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "contacts not double counted",
+      "actual": 22689128687180.598,
+      "expected": 22689128687180.6,
+      "tolerance": 0.01,
+      "passed": true
+    },
+    {
+      "name": "mass eliminated analytic",
+      "actual": 26.999999999999996,
+      "expected": 27.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "required mass independent of z at fixed stress",
+      "actual": 26.999999999999996,
+      "expected": 26.999999999999996,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "doubling diameter halves required mass",
+      "actual": 13.499999999999998,
+      "expected": 13.499999999999998,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "half load sharing doubles material",
+      "actual": 53.99999999999999,
+      "expected": 53.99999999999999,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "uniform coating identity",
+      "actual": 29700.0,
+      "expected": 29700.000000000004,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "renewal cycle does not double active inventory",
+      "actual": 10.799999999999999,
+      "expected": 10.799999999999999,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "200 kg drying capacity",
+      "actual": 200.0,
+      "expected": 200,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "50 wt% solids -> equal carrier water",
+      "actual": 107.99999999999999,
+      "expected": 107.99999999999999,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "20 wt% solids -> four times carrier water",
+      "actual": 4.0,
+      "expected": 4,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "G fracture includes both surfaces once",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "geometric selectivity inversion",
+      "actual": 0.000909090909090909,
+      "expected": 0.0009090909090909091,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "zero recollection accumulates every addition",
+      "actual": 3888.000000000025,
+      "expected": 3887.9999999999995,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "precipitation element balance Mg",
+      "actual": 1,
+      "expected": 1,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "precipitation element balance H",
+      "actual": 6,
+      "expected": 6,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "precipitation element balance C",
+      "actual": 2,
+      "expected": 2,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "precipitation element balance O",
+      "actual": 8,
+      "expected": 8,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "physical_tests": 0
+}

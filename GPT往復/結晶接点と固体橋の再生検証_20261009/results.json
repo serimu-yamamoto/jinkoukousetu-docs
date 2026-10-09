@@ -1,0 +1,383 @@
+{
+  "cycle": 62,
+  "physical_tests": 0,
+  "success_probability": null,
+  "crystal_route": {
+    "diameter_um": 500.0,
+    "contacts_per_grain": 6,
+    "stress_target_kPa": 5.0,
+    "effective_bridge_strength_MPa": 10.0,
+    "bridge_density_kg_m3": 1830,
+    "load_sharing_efficiency": 1,
+    "grain_count": 7563042895726.867,
+    "contact_count": 22689128687180.598,
+    "contact_force_mN": 1.189997217268861,
+    "neck_radius_um": 6.154574548966637,
+    "active_bridge_mass_kg": 49.41,
+    "geometric_contact_area_fraction": 0.000909090909090909,
+    "single_break_work_J_m3": 2.9999999999999996,
+    "triangular_failure_opening_um": 0.19999999999999998,
+    "geometry_warning": false
+  },
+  "particulate_route": {
+    "diameter_um": 500.0,
+    "contacts_per_grain": 6,
+    "stress_target_kPa": 5.0,
+    "effective_bridge_strength_MPa": 10.0,
+    "bridge_density_kg_m3": 1000,
+    "load_sharing_efficiency": 1,
+    "grain_count": 7563042895726.867,
+    "contact_count": 22689128687180.598,
+    "contact_force_mN": 1.189997217268861,
+    "neck_radius_um": 6.154574548966637,
+    "active_bridge_mass_kg": 26.999999999999996,
+    "geometric_contact_area_fraction": 0.000909090909090909,
+    "single_break_work_J_m3": 2.9999999999999996,
+    "triangular_failure_opening_um": 0.19999999999999998,
+    "geometry_warning": false
+  },
+  "nominal_solution": {
+    "renewed_fraction": 1,
+    "overall_selectivity": 0.25,
+    "retained_carrier_water_fraction": 1,
+    "equivalent_total_precipitate_kg": 197.64,
+    "solution_L": 57137.90112749349,
+    "water_dose_mm": 28.568950563746746,
+    "retained_water_kg": 57137.90112749349,
+    "ideal_drying_min": 11427.5802254987,
+    "drying_energy_bound_within_window": false,
+    "chemistry_rate_verified": false
+  },
+  "nominal_slurry": {
+    "renewed_fraction": 1,
+    "bridge_strength_MPa": 10.0,
+    "selectivity": 0.25,
+    "solids_mass_fraction": 0.5,
+    "solid_feed_kg": 107.99999999999999,
+    "carrier_water_kg": 107.99999999999999,
+    "ideal_drying_min": 21.599999999999998,
+    "drying_energy_bound_within_window": true,
+    "assembly_rate_verified": false
+  },
+  "drying_window_min": 40.0,
+  "drying_capacity_water_kg": 200.0,
+  "same_density_feed_compare": {
+    "solid_feed_kg": 197.64,
+    "slurry_water_kg": 197.64,
+    "solution_L": 57137.90112749349,
+    "water_ratio": 289.10089621277825,
+    "ideal_slurry_drying_min": 39.528
+  },
+  "coupled_requirements": [
+    {
+      "renewed_fraction": 0.1,
+      "load_sharing_efficiency": 1,
+      "solids_mass_fraction": 0.2,
+      "minimum_strength_times_selectivity_MPa": 0.5400000000000001
+    },
+    {
+      "renewed_fraction": 0.1,
+      "load_sharing_efficiency": 1,
+      "solids_mass_fraction": 0.5,
+      "minimum_strength_times_selectivity_MPa": 0.135
+    },
+    {
+      "renewed_fraction": 0.1,
+      "load_sharing_efficiency": 0.5,
+      "solids_mass_fraction": 0.2,
+      "minimum_strength_times_selectivity_MPa": 1.0800000000000003
+    },
+    {
+      "renewed_fraction": 0.1,
+      "load_sharing_efficiency": 0.5,
+      "solids_mass_fraction": 0.5,
+      "minimum_strength_times_selectivity_MPa": 0.27
+    },
+    {
+      "renewed_fraction": 0.1,
+      "load_sharing_efficiency": 0.25,
+      "solids_mass_fraction": 0.2,
+      "minimum_strength_times_selectivity_MPa": 2.1600000000000006
+    },
+    {
+      "renewed_fraction": 0.1,
+      "load_sharing_efficiency": 0.25,
+      "solids_mass_fraction": 0.5,
+      "minimum_strength_times_selectivity_MPa": 0.54
+    },
+    {
+      "renewed_fraction": 1,
+      "load_sharing_efficiency": 1,
+      "solids_mass_fraction": 0.2,
+      "minimum_strength_times_selectivity_MPa": 5.4
+    },
+    {
+      "renewed_fraction": 1,
+      "load_sharing_efficiency": 1,
+      "solids_mass_fraction": 0.5,
+      "minimum_strength_times_selectivity_MPa": 1.35
+    },
+    {
+      "renewed_fraction": 1,
+      "load_sharing_efficiency": 0.5,
+      "solids_mass_fraction": 0.2,
+      "minimum_strength_times_selectivity_MPa": 10.8
+    },
+    {
+      "renewed_fraction": 1,
+      "load_sharing_efficiency": 0.5,
+      "solids_mass_fraction": 0.5,
+      "minimum_strength_times_selectivity_MPa": 2.7
+    },
+    {
+      "renewed_fraction": 1,
+      "load_sharing_efficiency": 0.25,
+      "solids_mass_fraction": 0.2,
+      "minimum_strength_times_selectivity_MPa": 21.6
+    },
+    {
+      "renewed_fraction": 1,
+      "load_sharing_efficiency": 0.25,
+      "solids_mass_fraction": 0.5,
+      "minimum_strength_times_selectivity_MPa": 5.4
+    }
+  ],
+  "uniform_coating_null": {
+    "selectivity": 0.000909090909090909,
+    "total_solid_kg": 29700.0,
+    "ratio_vs_selective_feed": 275.00000000000006,
+    "ideal_drying_hours_at_50wt": 99.0
+  },
+  "nominal_minimum_effective_strength_MPa": 5.4,
+  "comparison_compression_work_J_m3": 2000.0,
+  "lifecycle": [
+    {
+      "renewed_fraction": 0.1,
+      "collection_fraction": 0,
+      "potential_reuse_fraction": 0,
+      "cycles": 360,
+      "gross_handled_kg": 3887.9999999999995,
+      "collected_kg": 0.0,
+      "resident_debris_kg": 3888.000000000025,
+      "potential_net_fresh_material_kg": 3887.9999999999995,
+      "raw_material_cost_yen_tax_excluded": 3887999.9999999995,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 0.1,
+      "collection_fraction": 0,
+      "potential_reuse_fraction": 0.9,
+      "cycles": 360,
+      "gross_handled_kg": 3887.9999999999995,
+      "collected_kg": 0.0,
+      "resident_debris_kg": 3888.000000000025,
+      "potential_net_fresh_material_kg": 3887.9999999999995,
+      "raw_material_cost_yen_tax_excluded": 3887999.9999999995,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 0.1,
+      "collection_fraction": 0.5,
+      "potential_reuse_fraction": 0,
+      "cycles": 360,
+      "gross_handled_kg": 3887.9999999999995,
+      "collected_kg": 3877.2000000000244,
+      "resident_debris_kg": 10.799999999999997,
+      "potential_net_fresh_material_kg": 3887.9999999999995,
+      "raw_material_cost_yen_tax_excluded": 3887999.9999999995,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 0.1,
+      "collection_fraction": 0.5,
+      "potential_reuse_fraction": 0.9,
+      "cycles": 360,
+      "gross_handled_kg": 3887.9999999999995,
+      "collected_kg": 3877.2000000000244,
+      "resident_debris_kg": 10.799999999999997,
+      "potential_net_fresh_material_kg": 398.5199999999777,
+      "raw_material_cost_yen_tax_excluded": 398519.9999999777,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 0.1,
+      "collection_fraction": 0.9,
+      "potential_reuse_fraction": 0,
+      "cycles": 360,
+      "gross_handled_kg": 3887.9999999999995,
+      "collected_kg": 3886.800000000025,
+      "resident_debris_kg": 1.1999999999999993,
+      "potential_net_fresh_material_kg": 3887.9999999999995,
+      "raw_material_cost_yen_tax_excluded": 3887999.9999999995,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 0.1,
+      "collection_fraction": 0.9,
+      "potential_reuse_fraction": 0.9,
+      "cycles": 360,
+      "gross_handled_kg": 3887.9999999999995,
+      "collected_kg": 3886.800000000025,
+      "resident_debris_kg": 1.1999999999999993,
+      "potential_net_fresh_material_kg": 389.8799999999769,
+      "raw_material_cost_yen_tax_excluded": 389879.9999999769,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 1,
+      "collection_fraction": 0,
+      "potential_reuse_fraction": 0,
+      "cycles": 360,
+      "gross_handled_kg": 38879.99999999999,
+      "collected_kg": 0.0,
+      "resident_debris_kg": 38879.99999999999,
+      "potential_net_fresh_material_kg": 38879.99999999999,
+      "raw_material_cost_yen_tax_excluded": 38879999.99999999,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 1,
+      "collection_fraction": 0,
+      "potential_reuse_fraction": 0.9,
+      "cycles": 360,
+      "gross_handled_kg": 38879.99999999999,
+      "collected_kg": 0.0,
+      "resident_debris_kg": 38879.99999999999,
+      "potential_net_fresh_material_kg": 38879.99999999999,
+      "raw_material_cost_yen_tax_excluded": 38879999.99999999,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 1,
+      "collection_fraction": 0.5,
+      "potential_reuse_fraction": 0,
+      "cycles": 360,
+      "gross_handled_kg": 38879.99999999999,
+      "collected_kg": 38771.99999999999,
+      "resident_debris_kg": 107.99999999999997,
+      "potential_net_fresh_material_kg": 38879.99999999999,
+      "raw_material_cost_yen_tax_excluded": 38879999.99999999,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 1,
+      "collection_fraction": 0.5,
+      "potential_reuse_fraction": 0.9,
+      "cycles": 360,
+      "gross_handled_kg": 38879.99999999999,
+      "collected_kg": 38771.99999999999,
+      "resident_debris_kg": 107.99999999999997,
+      "potential_net_fresh_material_kg": 3985.199999999997,
+      "raw_material_cost_yen_tax_excluded": 3985199.999999997,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 1,
+      "collection_fraction": 0.9,
+      "potential_reuse_fraction": 0,
+      "cycles": 360,
+      "gross_handled_kg": 38879.99999999999,
+      "collected_kg": 38867.99999999999,
+      "resident_debris_kg": 12.0,
+      "potential_net_fresh_material_kg": 38879.99999999999,
+      "raw_material_cost_yen_tax_excluded": 38879999.99999999,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    },
+    {
+      "renewed_fraction": 1,
+      "collection_fraction": 0.9,
+      "potential_reuse_fraction": 0.9,
+      "cycles": 360,
+      "gross_handled_kg": 38879.99999999999,
+      "collected_kg": 38867.99999999999,
+      "resident_debris_kg": 12.0,
+      "potential_net_fresh_material_kg": 3898.7999999999956,
+      "raw_material_cost_yen_tax_excluded": 3898799.999999996,
+      "recovery_and_reuse_unverified": true,
+      "environmental_release_not_estimated": true
+    }
+  ],
+  "carrier_material_cost": [
+    {
+      "foam_grain_envelope_density_kg_m3": 60,
+      "material_price_yen_kg_assumed": 500,
+      "carrier_mass_kg": 29700.000000000004,
+      "raw_carrier_cost_yen_tax_excluded": 14850000.000000002,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 60,
+      "material_price_yen_kg_assumed": 1000,
+      "carrier_mass_kg": 29700.000000000004,
+      "raw_carrier_cost_yen_tax_excluded": 29700000.000000004,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 60,
+      "material_price_yen_kg_assumed": 3000,
+      "carrier_mass_kg": 29700.000000000004,
+      "raw_carrier_cost_yen_tax_excluded": 89100000.00000001,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 100,
+      "material_price_yen_kg_assumed": 500,
+      "carrier_mass_kg": 49500.00000000001,
+      "raw_carrier_cost_yen_tax_excluded": 24750000.000000004,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 100,
+      "material_price_yen_kg_assumed": 1000,
+      "carrier_mass_kg": 49500.00000000001,
+      "raw_carrier_cost_yen_tax_excluded": 49500000.00000001,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 100,
+      "material_price_yen_kg_assumed": 3000,
+      "carrier_mass_kg": 49500.00000000001,
+      "raw_carrier_cost_yen_tax_excluded": 148500000.00000003,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 200,
+      "material_price_yen_kg_assumed": 500,
+      "carrier_mass_kg": 99000.00000000001,
+      "raw_carrier_cost_yen_tax_excluded": 49500000.00000001,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 200,
+      "material_price_yen_kg_assumed": 1000,
+      "carrier_mass_kg": 99000.00000000001,
+      "raw_carrier_cost_yen_tax_excluded": 99000000.00000001,
+      "quote": false
+    },
+    {
+      "foam_grain_envelope_density_kg_m3": 200,
+      "material_price_yen_kg_assumed": 3000,
+      "carrier_mass_kg": 99000.00000000001,
+      "raw_carrier_cost_yen_tax_excluded": 297000000.00000006,
+      "quote": false
+    }
+  ],
+  "warnings": [
+    "Isotropic equal-force network is an optimistic inverse design relation, NOT measured shear strength or snow feel.",
+    "Particulate bridge density and tensile strength are unmeasured and coupled; do not cherry-pick independent favorable inputs.",
+    "Selectivity includes delivery, conversion/assembly and formation of load-bearing contacts. Geometric area fraction is a null model, NOT measured process yield.",
+    "Drying calculation is an energy lower bound, not a kinetic model. Mechanical handling, drainage, moisture diffusion and high humidity may prevent it.",
+    "Warm ambient crystal growth, safe finished materials, wet 50 C durability and practical recovery are unverified."
+  ]
+}
