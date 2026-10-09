@@ -1,0 +1,44 @@
+[
+  {
+    "sheet_thickness_mm": 0.2,
+    "reference_powder_size_um": 10,
+    "thickness_over_reference_size": 20.0,
+    "distribution_or_grade_equivalent": false,
+    "is_layer_count_measurement": false
+  },
+  {
+    "sheet_thickness_mm": 0.2,
+    "reference_powder_size_um": 30,
+    "thickness_over_reference_size": 6.666666666666667,
+    "distribution_or_grade_equivalent": false,
+    "is_layer_count_measurement": false
+  },
+  {
+    "sheet_thickness_mm": 0.2,
+    "reference_powder_size_um": 130,
+    "thickness_over_reference_size": 1.5384615384615385,
+    "distribution_or_grade_equivalent": false,
+    "is_layer_count_measurement": false
+  },
+  {
+    "sheet_thickness_mm": 0.5,
+    "reference_powder_size_um": 10,
+    "thickness_over_reference_size": 50.0,
+    "distribution_or_grade_equivalent": false,
+    "is_layer_count_measurement": false
+  },
+  {
+    "sheet_thickness_mm": 0.5,
+    "reference_powder_size_um": 30,
+    "thickness_over_reference_size": 16.666666666666668,
+    "distribution_or_grade_equivalent": false,
+    "is_layer_count_measurement": false
+  },
+  {
+    "sheet_thickness_mm": 0.5,
+    "reference_powder_size_um": 130,
+    "thickness_over_reference_size": 3.8461538461538463,
+    "distribution_or_grade_equivalent": false,
+    "is_layer_count_measurement": false
+  }
+]

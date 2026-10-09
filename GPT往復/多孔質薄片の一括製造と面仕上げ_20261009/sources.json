@@ -1,0 +1,33 @@
+[
+  {
+    "id": "S1",
+    "title": "Celanese GUR UHMW-PE product page",
+    "url": "https://www.celanese.com/products/gur-uhmw-pe-ultra-high-molecular-weight-polyethylene",
+    "verified": "2026-10-09",
+    "read_scope": "manufacturer overview and processing",
+    "use": "粉体の無加圧焼結、圧縮成形、ラム押出等の実在する工程。通常グレードと特殊な射出可能グレードを区別。",
+    "not_proven": "雪状粒の工場生産、50℃スキー対向摩擦、完成品安全性、価格。"
+  },
+  {
+    "id": "S2",
+    "title": "Celanese GUR-015 UHMW-PE Overview r1-0916",
+    "url": "https://www.celanese.com/-/media/Engineered-Materials/Files/Brochures/GUR-015-UHMW-PE-Overview-PM-EN-r1-0916.pdf",
+    "verified": "2026-10-09",
+    "sha256_pdf": "bb7ba789a952d40d88b4d6cd14e64eeafeff1e29684225e2be520edebf9e187e",
+    "read_scope": "印刷pp.16-17（PDF9枚目）を目視。pp.30-31の表は第29巡と照合。",
+    "use": "粒形状を残し接触部がつながる多孔質焼結、半製品からの二次加工。GUR2122の代表d50 130µm、固体密度0.93g/cm3。",
+    "not_proven": "原料粉のかさ密度が完成床密度になること、低密度薄片の製造、現行グレード価格と供給保証。"
+  },
+  {
+    "id": "S3",
+    "title": "Fabrication of Self-Lubricating Porous UHMWPE with Excellent Mechanical Properties and Friction Performance via Rotary Sintering (2020)",
+    "url": "https://doi.org/10.3390/polym12061335",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7361689/",
+    "pdf_url": "https://res.mdpi.com/d_attachment/polymers/polymers-12-01335/article_deploy/polymers-12-01335-v2.pdf",
+    "verified": "2026-10-09",
+    "sha256_pdf": "c39b91d8718dcbc4f439272ccd1d0539ecc310cb7544888c5b38014401c95233",
+    "read_scope": "PDF本文Methods/Results、p.3図表目視。XML/HTML取得制約はPDFで補完。",
+    "use": "XM220粉体10–30µm、50×25×5mm型、温度安定後10分保持、離型剤使用。室温GCr15球対向の乾燥と含油を区別。",
+    "not_proven": "0.2mm連続シートの保持時間、無離型剤成形、油なし50℃滑走、100万回寿命、整地後再接続。"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "M85-01",
+    "variant": "solid_reference_same_outline",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-02",
+    "variant": "solid_reference_same_outline",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-03",
+    "variant": "solid_reference_same_outline",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-04",
+    "variant": "solid_reference_same_outline",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-05",
+    "variant": "solid_reference_same_outline",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-06",
+    "variant": "solid_reference_same_outline",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-07",
+    "variant": "porous_no_skin",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-08",
+    "variant": "porous_no_skin",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-09",
+    "variant": "porous_no_skin",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-10",
+    "variant": "porous_no_skin",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-11",
+    "variant": "porous_no_skin",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-12",
+    "variant": "porous_no_skin",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-13",
+    "variant": "porous_two_dense_faces_no_hole",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-14",
+    "variant": "porous_two_dense_faces_no_hole",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-15",
+    "variant": "porous_two_dense_faces_no_hole",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-16",
+    "variant": "porous_two_dense_faces_no_hole",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-17",
+    "variant": "porous_two_dense_faces_no_hole",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-18",
+    "variant": "porous_two_dense_faces_no_hole",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-19",
+    "variant": "porous_two_dense_faces_with_hole",
+    "condition": "dry_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-20",
+    "variant": "porous_two_dense_faces_with_hole",
+    "condition": "dry_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-21",
+    "variant": "porous_two_dense_faces_with_hole",
+    "condition": "dry_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-22",
+    "variant": "porous_two_dense_faces_with_hole",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 1,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-23",
+    "variant": "porous_two_dense_faces_with_hole",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 2,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  },
+  {
+    "id": "M85-24",
+    "variant": "porous_two_dense_faces_with_hole",
+    "condition": "once_wet_drained_50C",
+    "independent_batch": 3,
+    "status": "not_run",
+    "data": null,
+    "manufacturing_recipe_qualified": false
+  }
+]

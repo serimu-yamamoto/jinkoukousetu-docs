@@ -1,0 +1,312 @@
+{
+  "checks": [
+    {
+      "name": "no_physical_results_or_probability",
+      "passed": true
+    },
+    {
+      "name": "no_external_supplier_action",
+      "passed": true
+    },
+    {
+      "name": "21_numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "117_calculation_rows",
+      "passed": true
+    },
+    {
+      "name": "geometry_yield_is_not_success",
+      "passed": true
+    },
+    {
+      "name": "oil_friction_not_transferred",
+      "passed": true
+    },
+    {
+      "name": "total_manufacturing_quote_unknown",
+      "passed": true
+    },
+    {
+      "name": "all_24_trials_unperformed",
+      "passed": true
+    },
+    {
+      "name": "cutting_capacity_unknown",
+      "passed": true
+    },
+    {
+      "name": "50C_finished_properties_unknown",
+      "passed": true
+    },
+    {
+      "name": "no_ski_adoption",
+      "passed": true
+    },
+    {
+      "name": "primary_sources",
+      "passed": true
+    },
+    {
+      "name": "no_third_party_PDF_in_artifacts",
+      "passed": true
+    },
+    {
+      "name": "figures_are_own_unmanufactured_concept",
+      "passed": true
+    },
+    {
+      "name": "png_signature_manufacturing_concept.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_manufacturing_concept.png",
+      "passed": true
+    },
+    {
+      "name": "png_signature_yield_cost_tradeoff.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_yield_cost_tradeoff.png",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_18",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_20",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_21",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_22",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_24",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_26",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_28",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_guard_室温の樹脂弾性率を床のHへ比例換算しない",
+      "passed": true
+    },
+    {
+      "name": "report_guard_92.7％はシート面積の利用率",
+      "passed": true
+    },
+    {
+      "name": "report_guard_未製造",
+      "passed": true
+    },
+    {
+      "name": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "name": "report_guard_約60分",
+      "passed": true
+    },
+    {
+      "name": "report_guard_人体・環境への無害性は未証明",
+      "passed": true
+    },
+    {
+      "name": "report_guard_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_guard_総製造費は未取得",
+      "passed": true
+    },
+    {
+      "name": "report_guard_特許性を主張するものではありません",
+      "passed": true
+    },
+    {
+      "name": "local_links",
+      "passed": true
+    },
+    {
+      "name": "LF_GPT回答_多方向探索第85巡_油を使わない多孔質薄片の製造と量産条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_checks.json",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_cutting_requirements.json",
+      "passed": true
+    },
+    {
+      "name": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "name": "LF_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_geometry.json",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inventory.json",
+      "passed": true
+    },
+    {
+      "name": "LF_line_requirements.json",
+      "passed": true
+    },
+    {
+      "name": "LF_literature_conversion.json",
+      "passed": true
+    },
+    {
+      "name": "LF_manufacturing_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_manufacturing_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_material_heat_costs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_nested_geometry.json",
+      "passed": true
+    },
+    {
+      "name": "LF_plot_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "LF_powder_scale.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_route_comparison.json",
+      "passed": true
+    },
+    {
+      "name": "LF_skin_sweep.json",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "name": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF_計算部品索引.md",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 592,
+  "python": "3.12.14",
+  "physical_experiments": 0,
+  "success_probability": null
+}

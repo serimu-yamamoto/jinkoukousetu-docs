@@ -1,0 +1,32 @@
+[
+  {
+    "area_m2": 2000,
+    "functional_depth_m": 0.45,
+    "assumed_bulk_density_kg_m3": 150,
+    "finished_mass_kg": 135000.0,
+    "nominal_particle_count": 2815521074663.5757,
+    "net_first_pass_yield": 0.3195714186193578,
+    "gross_web_mass_kg": 422440.78204252303,
+    "active_campaign_h": 2304.0,
+    "required_good_kg_h": 58.59375,
+    "required_gross_kg_h": 183.35103387262285,
+    "serial_handling_machine_h_at_10ms": 7820891.874065489,
+    "quote": false,
+    "actual_production_capability": null
+  },
+  {
+    "area_m2": 20000,
+    "functional_depth_m": 0.45,
+    "assumed_bulk_density_kg_m3": 150,
+    "finished_mass_kg": 1350000.0,
+    "nominal_particle_count": 28155210746635.758,
+    "net_first_pass_yield": 0.3195714186193578,
+    "gross_web_mass_kg": 4224407.82042523,
+    "active_campaign_h": 2304.0,
+    "required_good_kg_h": 585.9375,
+    "required_gross_kg_h": 1833.5103387262284,
+    "serial_handling_machine_h_at_10ms": 78208918.74065489,
+    "quote": false,
+    "actual_production_capability": null
+  }
+]

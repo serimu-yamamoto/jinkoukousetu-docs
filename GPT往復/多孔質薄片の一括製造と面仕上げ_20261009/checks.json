@@ -1,0 +1,86 @@
+[
+  {
+    "name": "cross fits pitch and center hole",
+    "passed": true
+  },
+  {
+    "name": "areal mass and individual part mass agree",
+    "passed": true
+  },
+  {
+    "name": "skin collapse conserves polymer volume",
+    "passed": true
+  },
+  {
+    "name": "zero densification preserves bending",
+    "passed": true
+  },
+  {
+    "name": "zero porosity preserves bending",
+    "passed": true
+  },
+  {
+    "name": "representative thickness and stiffness",
+    "passed": true
+  },
+  {
+    "name": "modulus assumption can change stiffness direction",
+    "passed": true
+  },
+  {
+    "name": "powder-to-thickness units",
+    "passed": true
+  },
+  {
+    "name": "inventory dimensions and yield",
+    "passed": true
+  },
+  {
+    "name": "line length tracks residence time",
+    "passed": true
+  },
+  {
+    "name": "closed-loop mass balance",
+    "passed": true
+  },
+  {
+    "name": "recycling does not erase gross thermal throughput",
+    "passed": true
+  },
+  {
+    "name": "thermal units",
+    "passed": true
+  },
+  {
+    "name": "literature speed conversion",
+    "passed": true
+  },
+  {
+    "name": "planned trials remain unperformed",
+    "passed": true
+  },
+  {
+    "name": "five-square cross lattice covers each unit cell once",
+    "passed": true
+  },
+  {
+    "name": "inset reduces usable area and retains hole ligament",
+    "passed": true
+  },
+  {
+    "name": "nested area matches independent polynomial",
+    "passed": true
+  },
+  {
+    "name": "nested route fresh mass equals product plus unrecovered mass",
+    "passed": true
+  },
+  {
+    "name": "nested route preserves gross mass and improves geometric yield",
+    "passed": true
+  },
+  {
+    "name": "individual contour burden exceeds nominal shared reference",
+    "passed": true
+  }
+]

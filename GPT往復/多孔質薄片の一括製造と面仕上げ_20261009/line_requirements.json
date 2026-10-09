@@ -1,0 +1,122 @@
+[
+  {
+    "area_m2": 2000,
+    "web_width_m": 1,
+    "assumed_hold_min": 1,
+    "required_speed_m_min": 27.382173517416792,
+    "equivalent_hot_path_m": 27.382173517416792,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 2000,
+    "web_width_m": 1,
+    "assumed_hold_min": 3,
+    "required_speed_m_min": 27.382173517416792,
+    "equivalent_hot_path_m": 82.14652055225038,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 2000,
+    "web_width_m": 1,
+    "assumed_hold_min": 10,
+    "required_speed_m_min": 27.382173517416792,
+    "equivalent_hot_path_m": 273.82173517416794,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 2000,
+    "web_width_m": 3,
+    "assumed_hold_min": 1,
+    "required_speed_m_min": 9.127391172472265,
+    "equivalent_hot_path_m": 9.127391172472265,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 2000,
+    "web_width_m": 3,
+    "assumed_hold_min": 3,
+    "required_speed_m_min": 9.127391172472265,
+    "equivalent_hot_path_m": 27.382173517416796,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 2000,
+    "web_width_m": 3,
+    "assumed_hold_min": 10,
+    "required_speed_m_min": 9.127391172472265,
+    "equivalent_hot_path_m": 91.27391172472265,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 20000,
+    "web_width_m": 1,
+    "assumed_hold_min": 1,
+    "required_speed_m_min": 273.8217351741679,
+    "equivalent_hot_path_m": 273.8217351741679,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 20000,
+    "web_width_m": 1,
+    "assumed_hold_min": 3,
+    "required_speed_m_min": 273.8217351741679,
+    "equivalent_hot_path_m": 821.4652055225037,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 20000,
+    "web_width_m": 1,
+    "assumed_hold_min": 10,
+    "required_speed_m_min": 273.8217351741679,
+    "equivalent_hot_path_m": 2738.2173517416786,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 20000,
+    "web_width_m": 3,
+    "assumed_hold_min": 1,
+    "required_speed_m_min": 91.27391172472264,
+    "equivalent_hot_path_m": 91.27391172472264,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 20000,
+    "web_width_m": 3,
+    "assumed_hold_min": 3,
+    "required_speed_m_min": 91.27391172472264,
+    "equivalent_hot_path_m": 273.8217351741679,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  },
+  {
+    "area_m2": 20000,
+    "web_width_m": 3,
+    "assumed_hold_min": 10,
+    "required_speed_m_min": 91.27391172472264,
+    "equivalent_hot_path_m": 912.7391172472264,
+    "heatup_cooling_path_included": false,
+    "hold_time_validated_for_thin_sheet": false,
+    "actual_factory_size_m2": null
+  }
+]

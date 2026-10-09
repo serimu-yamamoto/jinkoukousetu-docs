@@ -1,0 +1,8 @@
+{
+  "source": "S3",
+  "test_speed_m_s": 0.16755160819145562,
+  "is_ski_or_50C_measurement": false,
+  "holding_only_ideal_lab_output_kg_h": 0.0216,
+  "total_cycle_output_kg_h": null,
+  "release_agent_composition": null
+}

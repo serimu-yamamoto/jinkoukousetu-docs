@@ -1,0 +1,43 @@
+{
+  "cycle": 85,
+  "date": "2026-10-09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "equipment_secured": false,
+  "quotes_received": 0,
+  "provider_contacts_sent": 0,
+  "orders_placed": 0,
+  "claude_receipt_confirmed": false,
+  "selected_candidate": "H85 porous sheet with conditional densified faces and parallel open-flake shaping; unmanufactured",
+  "nested_geometric_retention": 0.9271872587712815,
+  "nested_net_yield_assumed": 0.8344685328941533,
+  "adopted_for_ski_use": false,
+  "manufacturing_demonstrated": false,
+  "patent_novelty_established": false,
+  "finished_safety_verified": false,
+  "finished_50C_mu": null,
+  "finished_50C_H": null,
+  "finished_50C_S": null,
+  "total_manufacturing_cost_yen": null,
+  "material_heat_subtotal_2000m2_yen_ex_tax_assumed_recovery": 70018623.91464323,
+  "grooming_budget_tax_included_yen": 200000000,
+  "grooming_budget_includes_all_material_factory_and_RnD": false,
+  "claude_ledger_sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "rejected_inferences": [
+    "oil friction transferred to dry skiing",
+    "92.7 percent geometric yield called success probability",
+    "10 minute hold called full cycle",
+    "powder bulk density called bed density",
+    "strip stiffness called bed H",
+    "scrap recycling removes thermal throughput",
+    "individual trace equivalent called machine velocity"
+  ],
+  "independent_routes": [
+    "parallel cutting",
+    "multi-cavity sintering",
+    "continuous slit subdivision",
+    "polymerization-created networks",
+    "warm spray crystallization",
+    "reversible connections and crystal composites"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cross_plan_area_mm2": 0.4296460183660255,
+  "layout_cell_area_mm2": 1.2100000000000002,
+  "first_pass_geometric_retention": 0.35507935402150864,
+  "initial_sheet_mass_kg_m2": 0.1116,
+  "mass_per_unrounded_cross_kg": 4.794849564964845e-08,
+  "mass_per_unrounded_cross_mg": 0.047948495649648454,
+  "parts_per_square_metre_of_web": 826446.2809917354,
+  "representative_skin": {
+    "initial_thickness_mm": 0.2,
+    "porosity": 0.4,
+    "initial_densified_depth_each_side_mm": 0.025,
+    "assumed_core_modulus_power": 2,
+    "core_thickness_mm": 0.15000000000000002,
+    "dense_skin_thickness_each_side_mm": 0.015,
+    "final_thickness_mm": 0.18000000000000002,
+    "thickness_loss_mm": 0.01999999999999999,
+    "relative_bending_rigidity": 1.275,
+    "material_volume_per_unit_area_mm": 0.12000000000000001,
+    "unperforated_strip_only": true,
+    "manufactured": false,
+    "modulus_measured_at_50C": false
+  },
+  "geometry_is_unmanufactured": true,
+  "edge_rounding_included": false
+}

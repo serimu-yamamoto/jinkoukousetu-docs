@@ -1,0 +1,10 @@
+{
+  "figures": [
+    "manufacturing_concept.png",
+    "yield_cost_tradeoff.png"
+  ],
+  "physical_experiments": 0,
+  "source": "own geometry and calculations; no copied third-party images",
+  "matplotlib": "3.11.2",
+  "manufacturing_demonstrated": false
+}

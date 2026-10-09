@@ -1,0 +1,28 @@
+[
+  {
+    "area_m2": 2000,
+    "produced_piece_count_including_quality_rejects": 4638842076536.982,
+    "nominal_zero_inset_shared_boundary_reference_m": 8415598333.686655,
+    "representative_all_individual_contours_m": 15188307765.430647,
+    "shared_reference_equivalent_trace_m_s": 1014.6120676223302,
+    "individual_contours_equivalent_trace_m_s": 1831.152074343008,
+    "serial_handling_machine_h_at_10ms": 11597105.191342458,
+    "shared_reference_validated_cut_route": false,
+    "actual_machine_speed_m_s": null,
+    "parallel_tool_capacity": null,
+    "note": "Nominal shared reference ignores positive-inset dual boundaries. Full contours trace each part separately. Neither is a demonstrated cutting process or strict lower bound."
+  },
+  {
+    "area_m2": 20000,
+    "produced_piece_count_including_quality_rejects": 46388420765369.83,
+    "nominal_zero_inset_shared_boundary_reference_m": 84155983336.86656,
+    "representative_all_individual_contours_m": 151883077654.3065,
+    "shared_reference_equivalent_trace_m_s": 10146.120676223303,
+    "individual_contours_equivalent_trace_m_s": 18311.520743430083,
+    "serial_handling_machine_h_at_10ms": 115971051.91342457,
+    "shared_reference_validated_cut_route": false,
+    "actual_machine_speed_m_s": null,
+    "parallel_tool_capacity": null,
+    "note": "Nominal shared reference ignores positive-inset dual boundaries. Full contours trace each part separately. Neither is a demonstrated cutting process or strict lower bound."
+  }
+]
