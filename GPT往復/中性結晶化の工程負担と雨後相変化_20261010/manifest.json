@@ -1,0 +1,119 @@
+{
+  "cycle": 115,
+  "base_commit": "eeeae63ce64e0a5c6d82911dda3201b919bd16a1",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第115巡_結晶形成と雪の機能を分離して再設計する_20261010.md",
+      "bytes": 10917,
+      "sha256": "30416f91b66874541fb2e7c9896f5546be614b3187485f868daf0f911ea048a8"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 74818,
+      "sha256": "e866ca1d100abac3ebc09549aa4252dea04471373bbf1a550d42e01062275ded"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/README.md",
+      "bytes": 719,
+      "sha256": "ed0bf49f32c583c4875148037bfc8dd12339210686b2e219556a7facc41c6198"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/claude_handoff.md",
+      "bytes": 1841,
+      "sha256": "e942011532868a09a9d72558dfa7fdb11303a30e236fa9323bf17c007d4135fa"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "681ae143dd1356e0b603bdc5083d675752f9dcacb1ad3944f8b85cfff2394349"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/inputs.json",
+      "bytes": 546,
+      "sha256": "c6a2dfcd25e3806fa11309c8aa1b817afed44ba154b9d322816250a4866f0850"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/model.md",
+      "bytes": 1284,
+      "sha256": "a32759f5ef6193562a1d75f08c14a13e0693f7ce0a8ffc153aa95bbd69034cfc"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "268c11839410179e81b3a94eb188e188ad6d6656119e1d7aa93a5568751c7be1"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/reproduce.py",
+      "bytes": 3720,
+      "sha256": "ed8b6ea00a578da771d3b89900bbcdcf28065d3c5b33c62bfb25dd8103e368e7"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/research_state.json",
+      "bytes": 1022,
+      "sha256": "9999595df801ee82dadda36620f96e47823a858723b39ffaa891ddbedf4a8ff1"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/results.json",
+      "bytes": 10458,
+      "sha256": "a745a50e01000e3c477fd853cec7bb5a157315aca87c1f2503679a185697e3d1"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/source_acquisition.json",
+      "bytes": 834,
+      "sha256": "349f2b130aab7611a0c5af7e256d6e180cfacb68bde236dc404c94a1778ec702"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/sources.json",
+      "bytes": 1172,
+      "sha256": "41c0a1e145e697bf327236c6e39e690626ffdfff935514b894e5b54eb84827e4"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/test_plan.json",
+      "bytes": 1054,
+      "sha256": "b4d7e4b5f8a1180a18c3b09346cc89d3f0dd1026f1ddc443e450fb565594d441"
+    },
+    {
+      "path": "GPT往復/中性結晶化の工程負担と雨後相変化_20261010/validation.json",
+      "bytes": 2401,
+      "sha256": "26560f0b769b6cfa51aefa6b0a7aa8f3872088e243a25d42d164ac570d7b4ee6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 84949,
+      "sha256": "fe004e05aef28c8cd56555732fcd8373cc3e08bb71c64d808afa2eaa422b55f1"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 193911,
+      "sha256": "45bbb6acbcda0a6240e870eed1d8fc5b86e0e275d27106e7bf473d45600c8055"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 3798,
+      "sha256": "38798b8aeadc0ec99702d1d813ac7ae9266ab91b18d7d6c390aa32388c83ebf9"
+    },
+    {
+      "path": "計算部品/enzyme_crystal_process.py",
+      "bytes": 2147,
+      "sha256": "beabddf6394f958a86bdadc1458b19be62205964e8806685d2f8fce993a59214"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 38148,
+      "sha256": "bab8b55a9e24a676c10ca191f1f54409dda8084c0a9692e53dd04b25b5915b4c"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 234407,
+      "sha256": "f4d25320a26a0fac670696cf0e2bcb67231b4ebedac349f3cde7384e3e40694c"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/results.json",
+      "bytes": 18130,
+      "sha256": "8e0ba3f6b692a72df528132e1313b927cbcecf228cd993e1827f5f78ff1b0e3c"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "reported": {
+    "guanosine_mM": 1.6,
+    "phosphate_mM": 50,
+    "pH": 7.2,
+    "enzyme_U": 1,
+    "stirred_volume_mL": 20,
+    "static_completion_days": 2,
+    "stirred_completion_days": 1,
+    "di_water_phase_change_observed_h": 18
+  },
+  "assumed": {
+    "guanine_MW_g_mol": 151.13,
+    "guanosine_MW_g_mol": 283.24,
+    "isolation_yields": [
+      1,
+      0.5
+    ],
+    "placement_yields": [
+      1,
+      0.5
+    ],
+    "production_days": 30,
+    "uptime_fraction": 0.75
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}

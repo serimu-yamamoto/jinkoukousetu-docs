@@ -1,0 +1,37 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "variants": [
+    "retaining_structure_only",
+    "retained_LL_reference",
+    "washed_beta_guanine",
+    "water_conditioned_alpha_containing_guanine"
+  ],
+  "condition_hours": [
+    0,
+    1,
+    18,
+    24,
+    72
+  ],
+  "temperature_C": [
+    30,
+    50
+  ],
+  "confounders": [
+    "phase shape and retained area covary; isolate or document",
+    "18h literature observation is not safe field lifetime"
+  ],
+  "required_outcomes": [
+    "phase morphology free fraction leachate before/after water and redrying",
+    "actual ski sole friction wear transfer",
+    "bed sinkage lateral edge resistance release",
+    "rain recovery composition drainage and friction",
+    "winter snow-to-grain-to-bed attachment",
+    "complete material wear and effluent human/environment evaluation"
+  ],
+  "actions": "Specifications only. No physical manufacture, release, purchase, vendor contact or paid service."
+}

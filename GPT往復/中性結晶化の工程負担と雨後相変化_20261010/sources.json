@@ -1,0 +1,29 @@
+[
+  {
+    "id": "S1",
+    "title": "Guanine Crystal Formation at Physiological pH",
+    "doi": "10.1021/acs.cgd.5c00205",
+    "url": "https://eprints.whiterose.ac.uk/id/eprint/227661/1/tah-roy-et-al-2025-guanine-crystal-formation-at-physiological-ph.pdf",
+    "accessed": "2026-10-10",
+    "read_scope": "Full9pages extracted; primary body and figure captions. No image-level remeasurement.",
+    "locators": {
+      "reaction": "PDF2;4-5",
+      "shape": "PDF2-3;5-7",
+      "stability": "PDF7",
+      "limitations": "PDF8"
+    },
+    "limits": "Detailed temperature, washing and enzyme activity unit assay in SI unverified. No ski friction or outdoor safety evidence.",
+    "sha256": "2a11cad8c6a09e16b9ce34a2eb375f8bb65bd5ed991345b4fc2ae451585cf9e2"
+  },
+  {
+    "id": "S1_SI",
+    "url": "https://pubs.acs.org/doi/suppl/10.1021/acs.cgd.5c00205/suppl_file/cg5c00205_si_001.pdf",
+    "accessed": "2026-10-10",
+    "status": "HTTP403_not_read"
+  },
+  {
+    "id": "prior114",
+    "repository_path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/results.json",
+    "scope": "20.20788kg mass budget only. Geometry not transferred to enzyme route."
+  }
+]

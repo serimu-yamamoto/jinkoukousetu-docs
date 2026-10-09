@@ -1,0 +1,26 @@
+{
+  "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/227661/1/tah-roy-et-al-2025-guanine-crystal-formation-at-physiological-ph.pdf",
+  "pdf_bytes": 12502536,
+  "pdf_sha256": "2a11cad8c6a09e16b9ce34a2eb375f8bb65bd5ed991345b4fc2ae451585cf9e2",
+  "parser": {
+    "name": "pypdf",
+    "version": "6.20.0",
+    "wheel_sha256": "f003fc2014814d264fe7dd3f9d435c158e23e1a85a2233f87a0a2d6d21c914ad",
+    "source": "https://pypi.org/pypi/pypdf/json"
+  },
+  "pages": 9,
+  "PdfReader_signature": "(stream: str | IO[Any] | pathlib.Path, strict: bool = False, password: str | bytes | None = None, *, root_object_recovery_limit: int | None = 10000) -> None",
+  "supporting_information_status": "HTTP403_not_read",
+  "pages_text_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visual_figure_remeasurement": false
+}
