@@ -1,0 +1,105 @@
+{
+  "rows": [
+    {
+      "n": 32,
+      "Lambda": 0.026999999999999972,
+      "status": "converged_minimal_equilibrium",
+      "iterations": 7,
+      "tip_closure_fraction": 0.02749682086572892,
+      "jacobian_spectral_radius": 0.01821348144548412,
+      "residual": 1.777744618181032e-14,
+      "span_um": 100.0,
+      "lumped_closure_fraction": 0.027771241875296178
+    },
+    {
+      "n": 64,
+      "Lambda": 0.026999999999999972,
+      "status": "converged_minimal_equilibrium",
+      "iterations": 7,
+      "tip_closure_fraction": 0.02749682084450289,
+      "jacobian_spectral_radius": 0.018213480836780156,
+      "residual": 1.779826286352204e-14,
+      "span_um": 100.0,
+      "lumped_closure_fraction": 0.027771241875296178
+    },
+    {
+      "n": 32,
+      "Lambda": 0.13668749999999985,
+      "status": "converged_minimal_equilibrium",
+      "iterations": 13,
+      "tip_closure_fraction": 0.15205786709409982,
+      "jacobian_spectral_radius": 0.1129000837006961,
+      "residual": 5.756506382681437e-14,
+      "span_um": 150.0,
+      "lumped_closure_fraction": 0.16338077892075126
+    },
+    {
+      "n": 64,
+      "Lambda": 0.13668749999999985,
+      "status": "converged_minimal_equilibrium",
+      "iterations": 13,
+      "tip_closure_fraction": 0.15205786635524424,
+      "jacobian_spectral_radius": 0.1129000795057612,
+      "residual": 5.764833055366125e-14,
+      "span_um": 150.0,
+      "lumped_closure_fraction": 0.16338077892075126
+    },
+    {
+      "n": 32,
+      "Lambda": 0.43199999999999955,
+      "status": "gap_closed_in_iteration",
+      "iterations": 5,
+      "tip_closure_fraction": null,
+      "jacobian_spectral_radius": null,
+      "residual": null,
+      "span_um": 200.0,
+      "lumped_closure_fraction": null
+    },
+    {
+      "n": 64,
+      "Lambda": 0.43199999999999955,
+      "status": "gap_closed_in_iteration",
+      "iterations": 5,
+      "tip_closure_fraction": null,
+      "jacobian_spectral_radius": null,
+      "residual": null,
+      "span_um": 200.0,
+      "lumped_closure_fraction": null
+    }
+  ],
+  "checks": [
+    {
+      "name": "status_grid_consistency_100.0",
+      "passed": true
+    },
+    {
+      "name": "resolved_stable_equilibrium_100.0",
+      "passed": true,
+      "grid_abs_difference": 2.1226031349241836e-11
+    },
+    {
+      "name": "lumped_min_gap_conservative_100.0",
+      "passed": true
+    },
+    {
+      "name": "status_grid_consistency_150.0",
+      "passed": true
+    },
+    {
+      "name": "resolved_stable_equilibrium_150.0",
+      "passed": true,
+      "grid_abs_difference": 7.388555878229397e-10
+    },
+    {
+      "name": "lumped_min_gap_conservative_150.0",
+      "passed": true
+    },
+    {
+      "name": "status_grid_consistency_200.0",
+      "passed": true
+    }
+  ],
+  "total_checks": 7,
+  "physical_validation": false,
+  "failure_scope": "iteration gap closure is only failure of this ideal full-wet beam model/iteration, not proof of a real material failure"
+}

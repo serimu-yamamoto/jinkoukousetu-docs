@@ -1,0 +1,39 @@
+{
+  "cycle": 75,
+  "basis_commit": "f2f920434683c60d55a035d3c0f12b92d070cc09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "parameters": {
+    "gamma_water_N_m": 0.072,
+    "rho_water": 1000.0,
+    "mu_water": 0.001,
+    "g": 9.81,
+    "E_local_Pa": 1000000000.0,
+    "plate_t_m": 1e-05,
+    "plate_span_m": 0.0001,
+    "gap_m": 4e-05,
+    "wetting_cosine": 1.0,
+    "local_phi_for_channel_comparison": 0.8,
+    "target_air_k_m2": 3e-12,
+    "functional_area_m2": 330565.0,
+    "solid_density_kg_m3": 1200.0,
+    "price_JPY_kg_assumption": [
+      500.0,
+      2000.0
+    ],
+    "yield_assumption": 0.8,
+    "whole_bed_kg": 108000.0,
+    "bulk_phi_reference": 0.9,
+    "root_width_m": 0.0001,
+    "root_t_m": 2e-05,
+    "root_L_m": 0.0005,
+    "head_area_m2": 1e-08,
+    "representative_particle_mass_kg": 3.5e-08,
+    "normal_test_force_N": 2e-05
+  },
+  "source": {
+    "snow_table": "Calonne et al. 2012 Supplement Table2, six grey-row examples; CT-derived computations",
+    "prior_air_operator": "GPT往復/粒間空気支持と排水の両立検証_20261009/reproduce.py",
+    "prior_code_sha256_lf": "3b541b0e3aafc87820bfbf4a6cbbf70e41030e0e07818c58943a0d2e636649bd"
+  }
+}

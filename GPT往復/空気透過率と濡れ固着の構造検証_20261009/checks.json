@@ -1,0 +1,171 @@
+{
+  "checks": [
+    {
+      "name": "lambda_reference",
+      "passed": true,
+      "detail": {
+        "E_Pa": 1000000000.0,
+        "t_um": 10.0,
+        "span_um": 100.0,
+        "gap_um": 40.0,
+        "cos_contact_angle": 1.0,
+        "Lambda": 0.026999999999999986,
+        "lumped_equilibrium_exists": true,
+        "gap_closure_fraction": 0.027771241875296192,
+        "gap_remaining_um": 38.88915032498816,
+        "meniscus_pressure_Pa": 3702.8322500394934,
+        "max_root_bending_stress_Pa": 1110849.675011848,
+        "each_tip_deflection_over_span": 0.005554248375059238,
+        "critical_span_um": 174.43918989868428
+      }
+    },
+    {
+      "name": "lambda_length_fourth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lambda_thickness_inverse_cube",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lambda_gap_inverse_square",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "lambda_E_inverse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "threshold_root",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "above_lumped_threshold",
+      "passed": true,
+      "detail": "not a proof of collapse in a real structure"
+    },
+    {
+      "name": "nonwetting_attraction_zero",
+      "passed": true,
+      "detail": "no claim actual contact angle is 90 degrees"
+    },
+    {
+      "name": "lumped_equilibrium_residual",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "beam_force_deflection_closure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "critical_length_lambda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pore_model_units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tortuosity_scaling",
+      "passed": true,
+      "detail": "all 30 ideal channel rows"
+    },
+    {
+      "name": "capillary_head_gap40",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "root_stiffness",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "interparticle_full_overlap_counterexample",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "interparticle_reduced_overlap",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "overlap_limit_units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rib_area_inclusion_exclusion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cost_mass_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cost_yield_identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_six_types",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_tensor_average",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "prior_air_same_parameters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source_K_not_actual_ski_experiment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "finite_numbers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tolerance_worst_lambda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "tolerance_counterexample_retained",
+      "passed": true,
+      "detail": "parameter box only, not a success probability"
+    },
+    {
+      "name": "particle_weight_units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "line_force_area_scaling",
+      "passed": true,
+      "detail": "pressure-area reduction alone does not scale the line contribution equally"
+    }
+  ],
+  "passed": 30,
+  "total": 30,
+  "physical_validation": false
+}

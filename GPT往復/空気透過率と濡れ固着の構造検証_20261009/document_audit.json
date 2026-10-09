@@ -1,0 +1,170 @@
+{
+  "cycle": 75,
+  "document_checks": 38,
+  "links_checked": 476,
+  "checks": [
+    {
+      "name": "physical_experiments_zero",
+      "passed": true
+    },
+    {
+      "name": "probability_not_fabricated",
+      "passed": true
+    },
+    {
+      "name": "30_math_checks",
+      "passed": true
+    },
+    {
+      "name": "7_distributed_checks",
+      "passed": true
+    },
+    {
+      "name": "rows_snow_source_subset.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_snow_k_transfer.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_channel_geometries.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_capillary_plates.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_capillary_tolerance.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_interparticle_bridge.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_particle_mobility.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_root_compliance.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_rib_cost.csv",
+      "passed": true
+    },
+    {
+      "name": "231_rows_including_6_source_rows",
+      "passed": true
+    },
+    {
+      "name": "independent_plate_lambda",
+      "passed": true
+    },
+    {
+      "name": "quadratic_equilibrium",
+      "passed": true
+    },
+    {
+      "name": "independent_critical_span",
+      "passed": true
+    },
+    {
+      "name": "independent_root_stiffness",
+      "passed": true
+    },
+    {
+      "name": "independent_overlap_threshold",
+      "passed": true
+    },
+    {
+      "name": "tolerance_counterexample",
+      "passed": true
+    },
+    {
+      "name": "independent_path_resistance",
+      "passed": true
+    },
+    {
+      "name": "independent_capillary_height",
+      "passed": true
+    },
+    {
+      "name": "source_tensor_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "free_particle_force_scales",
+      "passed": true
+    },
+    {
+      "name": "independent_rib_mass",
+      "passed": true
+    },
+    {
+      "name": "raw_cost_limits_for_50um_pitch",
+      "passed": true
+    },
+    {
+      "name": "tests_not_executed",
+      "passed": true
+    },
+    {
+      "name": "prior_operator_unchanged",
+      "passed": true
+    },
+    {
+      "name": "report_status_and_scope",
+      "passed": true
+    },
+    {
+      "name": "PNG_figure1_evidence_and_limits.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_figure2_structure_cost.png",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "relative_links_exist",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "18d373e0fb0931194cc297f81d903de9ebb74d846ccdfb20758ad731975df628",
+    "回覧板.md": "25a287fe5f8b247dd1df084d5ae745c4bed7ff4c56e7b3f1e5f1d06a001779df",
+    "GPT往復/README.md": "ce32ddc88307966998e5b2d96f1c7228656d02f7a9114b315fc5892d7deb2f53",
+    "調査台帳/一般.md": "13e9f27f6fe89971f83e111bb5826656b44d8233792636c001a35556e2bb8741",
+    "調査台帳/計算部品索引.md": "0cc765b4b0370e6638ff8638a86db4774b9a508fad065c9eaab4f5e863ea28e7"
+  },
+  "physical_experiments": 0,
+  "success_probability": null,
+  "visual_review": "Both PNGs visually inspected. Equations/assumptions distinguish numerical confirmation from physical validation.",
+  "source1_full_text_republished": false
+}

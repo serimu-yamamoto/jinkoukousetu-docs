@@ -1,0 +1,27 @@
+{
+  "cycle": 75,
+  "basis_commit": "f2f920434683c60d55a035d3c0f12b92d070cc09",
+  "checked_at_utc": "2026-10-09T07:19:20.564Z",
+  "source1": "published methods/results/equation6 and supplement table2; table visually checked",
+  "source2": "publisher public search abstract/introduction; direct page 403; not full text",
+  "source3": "APS author abstract and publisher excerpt; journal full text unavailable",
+  "source4": "author-provided PDF article and figure read visually; silicone oil experiment distinct from water model",
+  "pdfs": [
+    {
+      "id": "snow_supplement",
+      "url": "https://tc.copernicus.org/articles/6/939/2012/tc-6-939-2012-supplement.pdf",
+      "bytes": 824731,
+      "sha256": "55c7611bbda373ee6b75ca4afc4c14ab7803ef2d3b7cb04d25791158327b1ecd"
+    },
+    {
+      "id": "bico2004",
+      "url": "https://blog.espci.fr/jbico/files/2018/04/bico04.pdf",
+      "bytes": 124431,
+      "sha256": "643d528e9ed542516cada15d6a6ded53c88a58286abf25fc31bf43bac2a659a9"
+    }
+  ],
+  "claude_ledger_sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "claude_received": false,
+  "physical_experiments": 0,
+  "success_probability": null
+}

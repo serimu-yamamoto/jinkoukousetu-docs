@@ -1,0 +1,170 @@
+{
+  "cycle": 75,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "basis_commit": "f2f920434683c60d55a035d3c0f12b92d070cc09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第75巡_雪の通気構造との比較と濡れ固着を減らす薄片粒_20261009.md",
+      "bytes": 14781,
+      "sha256": "db67065c67acb5b247d4a8d98fa36d118afdd55cdaa067f821e38839c206e33b"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 51523,
+      "sha256": "ff093a3292bd4edc1c262531f0b4f65ed6ba9a390d810b3830209193bbfc086b"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/audit.py",
+      "bytes": 6962,
+      "sha256": "7d0c915e5e029d3bfa715ad2c9b6cd53d1c7c2be7a9e5832915bf469db6ac5c7"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/capillary_plates.csv",
+      "bytes": 11828,
+      "sha256": "f578edb3dd496e11dc1d764403f32bad52d4e8e68ff66516bb7554002cd6d4f1"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/capillary_tolerance.csv",
+      "bytes": 5314,
+      "sha256": "9201da622d528ade0f9093a5267e70a905773d2d4149b33d3cf8003238307602"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/channel_geometries.csv",
+      "bytes": 4005,
+      "sha256": "9d2cafefaea0e07316a8854b3b87f021ffb554ccdd396cbd5bd9c85850824352"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/checks.json",
+      "bytes": 3697,
+      "sha256": "9b64ab6be80e968a35f26170ab7653148aa7997d01e2c2e32837df6006f087f0"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/design.md",
+      "bytes": 3809,
+      "sha256": "2bc774c68deec8fe0d760f81c96c38da3088dbf131cde1606144b32c6cf36c6d"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/distributed_audit.json",
+      "bytes": 2955,
+      "sha256": "ddae65093337daa863974d3aa37790ae5fc78afc4b9adc96b49d4e61063c5c12"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/distributed_audit.py",
+      "bytes": 2854,
+      "sha256": "1ea84e6079ad5aa04d8dc5c1a00b0b90e6321cbe2f0dbf0cca5e24d29cec287a"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/document_audit.json",
+      "bytes": 3828,
+      "sha256": "969527b7d1367d1fab4d4ed9d3b44b429f5e19a64d08fdb7ed14b6e09f82fcda"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/draw.py",
+      "bytes": 6452,
+      "sha256": "8ef4a2cb7f0ab35f85ef429fe92ce9ee9c45e4be954e6b71a13af8d8de0f29e6"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/figure1_evidence_and_limits.png",
+      "bytes": 238406,
+      "sha256": "3dbd57e5f105f6691f2edad0ee76918c7528127dd89dd7c2795984268a001e38"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/figure2_structure_cost.png",
+      "bytes": 201483,
+      "sha256": "c6df2f5fd96d72931b37f2e8eabf11521c35d1a040689ca7d83c3acef7965a0a"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/index_changes.json",
+      "bytes": 6082,
+      "sha256": "f3fc3dc7e6bdbee13bd6fe731890c28e60789f9d542d0277c8c8d5421bec06d2"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/inputs.json",
+      "bytes": 1197,
+      "sha256": "bf041c93dc57d62929ffd59c76fdc9ccd9bfae0f2e0c07799cd6196b02055850"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/interparticle_bridge.csv",
+      "bytes": 2885,
+      "sha256": "4b9032ab0bec1277cfb7df8da99910fdd0602dbe922d450bf1c2292d75e39a9a"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/model.md",
+      "bytes": 7491,
+      "sha256": "0f0886790c849e5f713d6033fcd04985052782ae103615f48f445459770c31a9"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/particle_mobility.csv",
+      "bytes": 3390,
+      "sha256": "69a1ac23eaa41b44fadc9ecd838cf378acec4d51f12cbb61f434757c0c52b755"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/reproduce.py",
+      "bytes": 13284,
+      "sha256": "8afa8b5c299da978ffe8497ae50ebb4fb26311529ea0657cc0d86b6adab0e905"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/results.json",
+      "bytes": 3933,
+      "sha256": "0148d8a9aaa841c3c0e5d44a10c6864256deff29cf6bce3bd2a9fbaf4b7a813e"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/rib_cost.csv",
+      "bytes": 2057,
+      "sha256": "61e49585f8bd91fa344a3df16c4ac18a17911d607844e385de60d78aa7babbcd"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/root_compliance.csv",
+      "bytes": 1110,
+      "sha256": "2a0880a2883c178978e05a48f84eec6c2232ca8c9f1666768e33231c8c76004a"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/snow_k_transfer.csv",
+      "bytes": 1340,
+      "sha256": "27e7c9ce6349711e3257dd54fd4b3ef8b3895edf3c672ee19ae75422fb8f6225"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/snow_source_subset.csv",
+      "bytes": 1117,
+      "sha256": "835997c70c2f025cc7963ff0fab17f9ebea47fe0d56ea311b06168bfc18a3ee7"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/source_audit.json",
+      "bytes": 1183,
+      "sha256": "0b4f3d0ca935fe7029a207c879725dee1763a8760573366f32bd1f8172abbd05"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/sources.md",
+      "bytes": 3004,
+      "sha256": "5f65aa924cbf55f7132f119d4aa6ce72768208275f3355433a481c558e98bbf2"
+    },
+    {
+      "path": "GPT往復/空気透過率と濡れ固着の構造検証_20261009/test_plan.json",
+      "bytes": 3409,
+      "sha256": "76e0cfdc941dde48a5dde6bf01043606e1a9b7cc9e71c70ede052a39d8215b9d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 59389,
+      "sha256": "ece6256ac6369dfa78e1cf2885d366899e019847a7928420dcb271558700a59a"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 149009,
+      "sha256": "d3be1fed563e9a531a36a97cc34096217844af71bf2e3689b6ff12d499ba257b"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 13178,
+      "sha256": "9d0915c77ca9258bac60fa3f8956307ff2620ab3005580461275a48b835dd903"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 218738,
+      "sha256": "220430f58c7d058298a8bc5ef4e393e2d4aa3f1604815cc60149478ed244e970"
+    }
+  ]
+}
