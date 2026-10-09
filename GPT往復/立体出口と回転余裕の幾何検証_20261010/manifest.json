@@ -1,0 +1,150 @@
+{
+  "cycle": 99,
+  "base_commit": "5b9c68f29c187bbaae4cf784e82eed2335a209ed",
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "physical_tests": 0,
+  "success_probability": null,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第99巡_立体接点の回転拘束と横へ逃がす開離設計_20261010.md",
+      "bytes": 12112,
+      "sha256": "28bd183a9ca07ece2fc891f052f2945642d05772eb5ddfcd9bc21df86d193c44"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 64160,
+      "sha256": "3b1b2d30628947b7a49975c772c06fe6e8de3ef8bf77825c2b25962855f0867d"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/README.md",
+      "bytes": 1891,
+      "sha256": "175c57567ca63fc5e8ab52ec8de797e507dba19c91bfacff9f1c9c1f97efbb33"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/audit.py",
+      "bytes": 3369,
+      "sha256": "c9e5aa18f9ab44a0cc7f5da718346ea675f9761a9c902eb5435419df390f42ca"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/audit_results.json",
+      "bytes": 12031,
+      "sha256": "29db5a94061fcf9a80efbe3dc3a1ff4fff21a411e5476743ca1434f721621448"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/claude_handoff.md",
+      "bytes": 1889,
+      "sha256": "e47e6cff191e3492a6dea63760b7f58a1f2c2ff3614f06723acd3c77f5710280"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/correct_path.py",
+      "bytes": 2801,
+      "sha256": "d817d1200a539e296c49fadcd48bab9280357b8fed2e713a0d400a5263986bd0"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/correction_results.json",
+      "bytes": 18734,
+      "sha256": "29a03e3444baad28dd7c2f09913df5db50609b1f577b752a5b1203a74c4ac3f9"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/fixture_and_path.png",
+      "bytes": 233216,
+      "sha256": "d5527dec66947abbd357f780c0449bd67215f189ab040880f905e873feb0bcab"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/inputs.json",
+      "bytes": 1907,
+      "sha256": "6156c49d3d0e6756805fd5fedee144718831f028e289177645901abb7ef413fc"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/make_figures.py",
+      "bytes": 4213,
+      "sha256": "cbbe68bb6c3bef6cc801e15cea3de99994b468465e86d561f4bd400979a8b97c"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/mobility.py",
+      "bytes": 5951,
+      "sha256": "3fa207c7126676d71733560b15decb63fe3ef545f2b6fc3a19ce15411163acdc"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/mobility_and_correction.png",
+      "bytes": 163976,
+      "sha256": "12045e7b7cd8f066d4007ba8bfc1bbda3a1d2c95ca84c0a0ac4089d83300a017"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/mobility_results.json",
+      "bytes": 87506,
+      "sha256": "3ee544d0bfed1a3993c2d326db62c1827a3fcc7862d815364661b9729a15fc78"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/model.md",
+      "bytes": 3701,
+      "sha256": "ad1c0b12164cfa77f41a782d7eb4e1252f830abf6ef12d0bdbf384feb88f63dd"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/path_results.json",
+      "bytes": 28024,
+      "sha256": "39ee1d94b87208853b5ecb35754efd0096f12efae726aba1aae210435bac457b"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/probe_paths.py",
+      "bytes": 2773,
+      "sha256": "c08e244fd1214059976b4bda76ffb20f7ab5d57ea85399215efa42ef7ee6bc61"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/publication_audit.json",
+      "bytes": 1726,
+      "sha256": "40a01751968b848c8419e8e8930062a4d8051ce429efdf04a7890eecddd2e684"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/research_state.json",
+      "bytes": 1300,
+      "sha256": "70d602160549da16f2d89f4674b43e6cd59b197b591650d5df7b6168d4e83694"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/runtime_versions.json",
+      "bytes": 70,
+      "sha256": "3843389f54e5cb8ff3e6fa392e4b5791322e62724fa4ad731b682a7de90595c1"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/sources.md",
+      "bytes": 2213,
+      "sha256": "224f1b52bbd8e95d88955520c3fe3dad5b5a0373b69f6821ce04b646760cbbf5"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/test_plan.md",
+      "bytes": 2429,
+      "sha256": "039af2f15fbd34a9c6977fd5926016d60a4fbf3510bf09abda10771b2c898706"
+    },
+    {
+      "path": "GPT往復/立体出口と回転余裕の幾何検証_20261010/validation.json",
+      "bytes": 5852,
+      "sha256": "cc27f9d24befee7d30d8b1e3372b473ebceb2c85bd535df9ceb6f16560106274"
+    },
+    {
+      "path": "README.md",
+      "bytes": 74051,
+      "sha256": "52dd5a789ad730041fa461aa33671af0892db5412ca8117b4180edcf767309da"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 175016,
+      "sha256": "f4b266ade09ff327aafc6da58665321aa8315ad494086ef03ad99a323110a436"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 24491,
+      "sha256": "accfa292c08b88a6a5e39fae77919fd83b89bebb4198f3b36b66c6af43135457"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 229146,
+      "sha256": "2009aad5d0d7c7b987f8e904b3ba8f30d7d2100b338d8fdf38f28ecb658960be"
+    }
+  ]
+}

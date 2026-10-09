@@ -1,0 +1,997 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "scope": "Only prescribed endpoint probes; a collision is a counterexample to that path, not a proof no other path exists. Initial contact coordinates are approximate.",
+  "rows": [
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0,
+      "rotation_angle_deg": 0.0,
+      "central_rotation": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "center_mm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.0,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -4.235893192965773e-05,
+          "clearance_upper_mm": 7.595474723565143e-06,
+          "nodes": 1012,
+          "certificate_gap_um": 0.04995440665322287,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -4.726149371463151e-05,
+          "clearance_upper_mm": 2.696818259519118e-06,
+          "nodes": 1818,
+          "certificate_gap_um": 0.049958311974150627,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -4.999341378555955e-05,
+          "clearance_upper_mm": 3.492570975482945e-09,
+          "nodes": 16336,
+          "certificate_gap_um": 0.04999690635653503,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.001,
+      "rotation_angle_deg": 0.41349667156634407,
+      "central_rotation": [
+        [
+          -0.9164220032591202,
+          0.38190224567187414,
+          0.1196719962786667
+        ],
+        [
+          -0.4001505650122847,
+          -0.8690598165355398,
+          -0.2908858205612022
+        ],
+        [
+          -0.007087824976049089,
+          -0.3144609833254263,
+          0.9492439374065632
+        ]
+      ],
+      "center_mm": [
+        -0.001,
+        1.2246467991473531e-19,
+        2.527633909494965e-06
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 5.629493532999241e-07,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 1.2761468536390264e-05,
+          "clearance_upper_mm": 6.272511931579294e-05,
+          "nodes": 1012,
+          "certificate_gap_um": 0.04996365077940268,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.0008336242161455024,
+          "clearance_upper_mm": 0.0008831599174008997,
+          "nodes": 1952,
+          "certificate_gap_um": 0.04953570125539736,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.0011249756845239378,
+          "clearance_upper_mm": 0.0011749649839514764,
+          "nodes": 16690,
+          "certificate_gap_um": 0.0499892994275386,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.005,
+      "rotation_angle_deg": 2.0674833578317204,
+      "central_rotation": [
+        [
+          -0.9227741520664459,
+          0.37238977246069427,
+          0.09906422989517735
+        ],
+        [
+          -0.3850142113576303,
+          -0.8804135035350825,
+          -0.27683229552518573
+        ],
+        [
+          -0.015872029823377612,
+          -0.2935948231147036,
+          0.955798178754036
+        ]
+      ],
+      "center_mm": [
+        -0.005,
+        6.123233995736766e-19,
+        1.2638169547474823e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 1.4656330309281707e-05,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.00030192397099562673,
+          "clearance_upper_mm": 0.0003517155707631614,
+          "nodes": 1040,
+          "certificate_gap_um": 0.04979159976753467,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.00476519609891074,
+          "clearance_upper_mm": 0.004815167626855112,
+          "nodes": 2750,
+          "certificate_gap_um": 0.049971527944371597,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.005868841379731093,
+          "clearance_upper_mm": 0.005918824477233034,
+          "nodes": 18148,
+          "certificate_gap_um": 0.04998309750194052,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.01,
+      "rotation_angle_deg": 4.134966715663441,
+      "central_rotation": [
+        [
+          -0.9301494676376155,
+          0.35975067775455744,
+          0.0734943379356364
+        ],
+        [
+          -0.3661611055183558,
+          -0.8938859916093258,
+          -0.2586385099133314
+        ],
+        [
+          -0.027349820091482544,
+          -0.26748324033432347,
+          0.9631742851017226
+        ]
+      ],
+      "center_mm": [
+        -0.01,
+        1.2246467991473532e-18,
+        2.5276339094949646e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 6.156400795898076e-05,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.0008134160513294936,
+          "clearance_upper_mm": 0.0008633289110726791,
+          "nodes": 1486,
+          "certificate_gap_um": 0.049912859743185545,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.01047973750262645,
+          "clearance_upper_mm": 0.010529717023324753,
+          "nodes": 5750,
+          "certificate_gap_um": 0.049979520698302526,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.011896602610859466,
+          "clearance_upper_mm": 0.011946600421784186,
+          "nodes": 19924,
+          "certificate_gap_um": 0.04999781092471928,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.02,
+      "rotation_angle_deg": 8.269933431326882,
+      "central_rotation": [
+        [
+          -0.9429816523129964,
+          0.33204122191973856,
+          0.023113423526139862
+        ],
+        [
+          -0.3287724797679482,
+          -0.9183667872289442,
+          -0.22025235676837154
+        ],
+        [
+          -0.0519062611665093,
+          -0.21529298887988632,
+          0.9751690463662593
+        ]
+      ],
+      "center_mm": [
+        -0.02,
+        2.4492935982947064e-18,
+        5.055267818989929e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.0002700386165659374,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -0.0015067493193779077,
+          "clearance_upper_mm": -0.0014569258905528654,
+          "nodes": 968,
+          "certificate_gap_um": 0.04982342882504237,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.023601574242224213,
+          "clearance_upper_mm": 0.023651572629472914,
+          "nodes": 22404,
+          "certificate_gap_um": 0.04999838724870087,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.02427201367518793,
+          "clearance_upper_mm": 0.02432201312827946,
+          "nodes": 23508,
+          "certificate_gap_um": 0.04999945309153153,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0,
+      "rotation_angle_deg": 0.0,
+      "central_rotation": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "center_mm": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.0,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -4.999051957880335e-05,
+          "clearance_upper_mm": -1.3877787807814457e-17,
+          "nodes": 16785,
+          "certificate_gap_um": 0.04999051957878947,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -4.726149371463151e-05,
+          "clearance_upper_mm": 2.696818259519118e-06,
+          "nodes": 1589,
+          "certificate_gap_um": 0.049958311974150627,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -4.9990469562909146e-05,
+          "clearance_upper_mm": 2.28824009740336e-09,
+          "nodes": 16201,
+          "certificate_gap_um": 0.04999275780300655,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.001,
+      "rotation_angle_deg": 0.36093834464026286,
+      "central_rotation": [
+        [
+          -0.9131217480712404,
+          0.38697655075453685,
+          0.12828804451484876
+        ],
+        [
+          -0.40768553402373797,
+          -0.8658943202662058,
+          -0.28986122796694563
+        ],
+        [
+          -0.0010856090926573707,
+          -0.3169797711161508,
+          0.9484316771154636
+        ]
+      ],
+      "center_mm": [
+        -0.001,
+        1.2246467991473531e-19,
+        -4.579808373305109e-06
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 1.783270067723386e-06,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -4.812361184167169e-05,
+          "clearance_upper_mm": 1.8641019758416921e-06,
+          "nodes": 16769,
+          "certificate_gap_um": 0.04998771381751338,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.0005790857525699925,
+          "clearance_upper_mm": 0.0006289157488270775,
+          "nodes": 1625,
+          "certificate_gap_um": 0.04982999625708501,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -5.0809351292570304e-05,
+          "clearance_upper_mm": -8.138046709849078e-07,
+          "nodes": 16197,
+          "certificate_gap_um": 0.049995546621585396,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.005,
+      "rotation_angle_deg": 1.8046917232013142,
+      "central_rotation": [
+        [
+          -0.9062775016173978,
+          0.39815031998882583,
+          0.1419063520598128
+        ],
+        [
+          -0.42243515650350405,
+          -0.8646754170854812,
+          -0.271817883219464
+        ],
+        [
+          0.014478556971882892,
+          -0.30628866414029365,
+          0.9518285694426109
+        ]
+      ],
+      "center_mm": [
+        -0.005,
+        6.123233995736766e-19,
+        -2.2899041866525548e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 4.511782976840406e-05,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -9.14520103766775e-06,
+          "clearance_upper_mm": 4.085288664656961e-05,
+          "nodes": 16685,
+          "certificate_gap_um": 0.04999808768423736,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.003105627988689935,
+          "clearance_upper_mm": 0.0031553068365469047,
+          "nodes": 1687,
+          "certificate_gap_um": 0.04967884785696958,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -6.77571996762702e-05,
+          "clearance_upper_mm": -1.7778453973750497e-05,
+          "nodes": 16187,
+          "certificate_gap_um": 0.0499787457025197,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.01,
+      "rotation_angle_deg": 3.6093834464026284,
+      "central_rotation": [
+        [
+          -0.89717900071132,
+          0.4122265791848114,
+          0.15855310812540516
+        ],
+        [
+          -0.4403425700872938,
+          -0.8626452431505501,
+          -0.24888070523575317
+        ],
+        [
+          0.03417984276667768,
+          -0.29310822554701094,
+          0.955468108554717
+        ]
+      ],
+      "center_mm": [
+        -0.01,
+        1.2246467991473532e-18,
+        -4.5798083733051096e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.00018309248691344981,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 9.740079478444408e-05,
+          "clearance_upper_mm": 0.0001473892396042023,
+          "nodes": 16669,
+          "certificate_gap_um": 0.049988444819758227,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.006307155246073712,
+          "clearance_upper_mm": 0.0063570798100599235,
+          "nodes": 1807,
+          "certificate_gap_um": 0.0499245639862117,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -0.00011265942451921945,
+          "clearance_upper_mm": -6.26631818704676e-05,
+          "nodes": 16097,
+          "certificate_gap_um": 0.049996242648751854,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.02,
+      "rotation_angle_deg": 7.218766892805257,
+      "central_rotation": [
+        [
+          -0.8772063288228691,
+          0.4406894025161703,
+          0.1905305938243136
+        ],
+        [
+          -0.4743251920514569,
+          -0.8569046998394716,
+          -0.2018166186872976
+        ],
+        [
+          0.07432811620412075,
+          -0.26740827568152475,
+          0.9607123113807695
+        ]
+      ],
+      "center_mm": [
+        -0.02,
+        2.4492935982947064e-18,
+        -9.159616746610219e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.0007525366635847686,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.00042293557462198816,
+          "clearance_upper_mm": 0.00047292686692656377,
+          "nodes": 16617,
+          "certificate_gap_um": 0.04999129230457561,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.012836019796770931,
+          "clearance_upper_mm": 0.012886004423648047,
+          "nodes": 1947,
+          "certificate_gap_um": 0.049984626877115634,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -0.000234321857863172,
+          "clearance_upper_mm": -0.00018432891312536448,
+          "nodes": 15969,
+          "certificate_gap_um": 0.04999294473780752,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0,
+      "rotation_angle_deg": 0.0,
+      "central_rotation": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "center_mm": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.0,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -4.999506239564133e-05,
+          "clearance_upper_mm": 1.064829752150942e-09,
+          "nodes": 17534,
+          "certificate_gap_um": 0.04999612722539348,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -4.998376184552067e-05,
+          "clearance_upper_mm": 7.483357683524261e-11,
+          "nodes": 16208,
+          "certificate_gap_um": 0.049983836679097504,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -4.996809367675131e-05,
+          "clearance_upper_mm": 1.0371087495741893e-08,
+          "nodes": 16394,
+          "certificate_gap_um": 0.049978464764247055,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.001,
+      "rotation_angle_deg": 0.36100401300170515,
+      "central_rotation": [
+        [
+          -0.9131218862269522,
+          0.3869751279760057,
+          0.12829135287028248
+        ],
+        [
+          -0.407685233308235,
+          -0.8658944501574389,
+          -0.2898612628982304
+        ],
+        [
+          -0.0010823288517621253,
+          -0.31698115324810877,
+          0.9484312189345921
+        ]
+      ],
+      "center_mm": [
+        -0.001,
+        1.2246467991473531e-19,
+        -4.5837078343778894e-06
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 1.7863161652642567e-06,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -4.845419427584874e-05,
+          "clearance_upper_mm": 1.5404836477966866e-06,
+          "nodes": 17660,
+          "certificate_gap_um": 0.049994677923645425,
+          "disjoint": false,
+          "overlapping": false,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.0005899986249146907,
+          "clearance_upper_mm": 0.0006399820256659666,
+          "nodes": 16414,
+          "certificate_gap_um": 0.049983400751275886,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -5.0664757310144026e-05,
+          "clearance_upper_mm": -6.929552152715179e-07,
+          "nodes": 16386,
+          "certificate_gap_um": 0.04997180209487251,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.005,
+      "rotation_angle_deg": 1.8050200650085257,
+      "central_rotation": [
+        [
+          -0.9062780003240275,
+          0.39814327619162837,
+          0.14192292891594052
+        ],
+        [
+          -0.42243352658384226,
+          -0.8646761911533591,
+          -0.2718179539148558
+        ],
+        [
+          0.014494886912998637,
+          -0.3062956350911928,
+          0.9518260776935369
+        ]
+      ],
+      "center_mm": [
+        -0.005,
+        6.123233995736766e-19,
+        -2.2918539171889447e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 4.5194109188295695e-05,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -0.0010303343832009093,
+          "clearance_upper_mm": -0.0009803678281389283,
+          "nodes": 19642,
+          "certificate_gap_um": 0.049966555061981,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.0031564312706076694,
+          "clearance_upper_mm": 0.0032064297598942276,
+          "nodes": 17290,
+          "certificate_gap_um": 0.0499984892865582,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -6.721643686689177e-05,
+          "clearance_upper_mm": -1.7218295919607662e-05,
+          "nodes": 16348,
+          "certificate_gap_um": 0.04999814094728411,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.01,
+      "rotation_angle_deg": 3.6100401300170515,
+      "central_rotation": [
+        [
+          -0.8971795196129116,
+          0.41221266796113176,
+          0.15858633597984262
+        ],
+        [
+          -0.44033899145136307,
+          -0.8626471026534551,
+          -0.24888059163220538
+        ],
+        [
+          0.03421231057298229,
+          -0.29312231688489004,
+          0.9554626236275768
+        ]
+      ],
+      "center_mm": [
+        -0.01,
+        1.2246467991473532e-18,
+        -4.5837078343778894e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.00018339810264189627,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -0.004320754035390381,
+          "clearance_upper_mm": -0.0042707562919826955,
+          "nodes": 17928,
+          "certificate_gap_um": 0.049997743407685646,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.006378635092076382,
+          "clearance_upper_mm": 0.006428624674192959,
+          "nodes": 18376,
+          "certificate_gap_um": 0.04998958211657745,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -0.00011152947515703088,
+          "clearance_upper_mm": -6.154926716329945e-05,
+          "nodes": 16296,
+          "certificate_gap_um": 0.04998020799373143,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180,
+      "cap": 1,
+      "travel_mm": 0.02,
+      "rotation_angle_deg": 7.220080260034103,
+      "central_rotation": [
+        [
+          -0.8772054663231257,
+          0.44066229227166365,
+          0.1905972560734042
+        ],
+        [
+          -0.47431674201120316,
+          -0.8569096628303964,
+          -0.2018154057443951
+        ],
+        [
+          0.07439219112719848,
+          -0.2674370466442149,
+          0.960699343177414
+        ]
+      ],
+      "center_mm": [
+        -0.02,
+        2.4492935982947064e-18,
+        -9.167415668755779e-05
+      ],
+      "platen_height_mm": 0.26199706203600054,
+      "platen_clearance_mm": 0.0007537613365267704,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -0.010491248987780248,
+          "clearance_upper_mm": -0.01044125075034618,
+          "nodes": 15680,
+          "certificate_gap_um": 0.04999823743406795,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 0,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": 0.012867786304446252,
+          "clearance_upper_mm": 0.012917767961079657,
+          "nodes": 20590,
+          "certificate_gap_um": 0.049981656633404925,
+          "disjoint": true,
+          "overlapping": false,
+          "support_index": 1,
+          "bracket_reached": true
+        },
+        {
+          "clearance_lower_mm": -0.00023214636385954918,
+          "clearance_upper_mm": -0.00018216956372880955,
+          "nodes": 16158,
+          "certificate_gap_um": 0.04997680013073963,
+          "disjoint": false,
+          "overlapping": true,
+          "support_index": 2,
+          "bracket_reached": true
+        }
+      ],
+      "collision_witness": true,
+      "continuous_free_path_proven": false
+    }
+  ]
+}

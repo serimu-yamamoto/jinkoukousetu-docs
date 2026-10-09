@@ -1,0 +1,737 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "corrected_path_endpoints": [
+    {
+      "sideways_per_forward": -0.1,
+      "travel_mm": 0,
+      "center_mm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rotation": [
+        [
+          -0.9147718810639008,
+          0.3841961502923526,
+          0.12484279600901664
+        ],
+        [
+          -0.4039404940474998,
+          -0.8661426550644321,
+          -0.29432801148820104
+        ],
+        [
+          -0.004948018136053209,
+          -0.3196720494170124,
+          0.9475153286032121
+        ]
+      ],
+      "plate_gap_mm": 0.0,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -9.999799223329997e-06,
+          "clearance_upper_mm": -1.3877787807814457e-17,
+          "nodes": 81125,
+          "certificate_gap_um": 0.00999979922331612,
+          "disjoint": false,
+          "overlapping": true
+        },
+        {
+          "clearance_lower_mm": -1.2002399940168329e-05,
+          "clearance_upper_mm": -2.0105048380500423e-06,
+          "nodes": 3399,
+          "certificate_gap_um": 0.009991895102118287,
+          "disjoint": false,
+          "overlapping": true
+        },
+        {
+          "clearance_lower_mm": -9.999909906362181e-06,
+          "clearance_upper_mm": 1.249000902703301e-16,
+          "nodes": 77829,
+          "certificate_gap_um": 0.009999909906487081,
+          "disjoint": false,
+          "overlapping": false
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "sideways_per_forward": -0.1,
+      "travel_mm": 0.001,
+      "center_mm": [
+        -0.001,
+        -9.999999999999988e-05,
+        -4.579808373305109e-06
+      ],
+      "rotation": [
+        [
+          -0.9131217480712404,
+          0.38697655075453685,
+          0.12828804451484876
+        ],
+        [
+          -0.40768553402373797,
+          -0.8658943202662058,
+          -0.28986122796694563
+        ],
+        [
+          -0.0010856090926573707,
+          -0.3169797711161508,
+          0.9484316771154636
+        ]
+      ],
+      "plate_gap_mm": 1.7832700677112107e-06,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 6.030803898989662e-05,
+          "clearance_upper_mm": 7.030770230800898e-05,
+          "nodes": 81063,
+          "certificate_gap_um": 0.009999663318112362,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.0005475606589232865,
+          "clearance_upper_mm": 0.0005575538837523583,
+          "nodes": 3481,
+          "certificate_gap_um": 0.009993224829071834,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 8.666662398504332e-05,
+          "clearance_upper_mm": 9.666643999367563e-05,
+          "nodes": 77893,
+          "certificate_gap_um": 0.009999816008632312,
+          "disjoint": true,
+          "overlapping": false
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "sideways_per_forward": -0.1,
+      "travel_mm": 0.005,
+      "center_mm": [
+        -0.005,
+        -0.0004999999999999994,
+        -2.2899041866525548e-05
+      ],
+      "rotation": [
+        [
+          -0.9062775016173978,
+          0.39815031998882583,
+          0.1419063520598128
+        ],
+        [
+          -0.42243515650350405,
+          -0.8646754170854812,
+          -0.271817883219464
+        ],
+        [
+          0.014478556971882892,
+          -0.30628866414029365,
+          0.9518285694426109
+        ]
+      ],
+      "plate_gap_mm": 4.5117829768398694e-05,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.0003772209328074122,
+          "clearance_upper_mm": 0.00038722065694885704,
+          "nodes": 81203,
+          "certificate_gap_um": 0.009999724141444843,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.002811877449985206,
+          "clearance_upper_mm": 0.0028218748945368424,
+          "nodes": 3707,
+          "certificate_gap_um": 0.009997444551636259,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.0004585718327741392,
+          "clearance_upper_mm": 0.0004685716085313235,
+          "nodes": 78399,
+          "certificate_gap_um": 0.009999775757184304,
+          "disjoint": true,
+          "overlapping": false
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "sideways_per_forward": -0.1,
+      "travel_mm": 0.01,
+      "center_mm": [
+        -0.01,
+        -0.0009999999999999987,
+        -4.5798083733051096e-05
+      ],
+      "rotation": [
+        [
+          -0.89717900071132,
+          0.4122265791848114,
+          0.15855310812540516
+        ],
+        [
+          -0.4403425700872938,
+          -0.8626452431505501,
+          -0.24888070523575317
+        ],
+        [
+          0.03417984276667768,
+          -0.29310822554701094,
+          0.955468108554717
+        ]
+      ],
+      "plate_gap_mm": 0.00018309248691343908,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.0008390842410476787,
+          "clearance_upper_mm": 0.000849084077816413,
+          "nodes": 81373,
+          "certificate_gap_um": 0.009999836768734283,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.005694118170940919,
+          "clearance_upper_mm": 0.0057041164359791716,
+          "nodes": 4025,
+          "certificate_gap_um": 0.009998265038252407,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.0008969433670737229,
+          "clearance_upper_mm": 0.000906942997260067,
+          "nodes": 78817,
+          "certificate_gap_um": 0.0099996301863442,
+          "disjoint": true,
+          "overlapping": false
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "sideways_per_forward": -0.1,
+      "travel_mm": 0.02,
+      "center_mm": [
+        -0.02,
+        -0.0019999999999999974,
+        -9.159616746610219e-05
+      ],
+      "rotation": [
+        [
+          -0.8772063288228691,
+          0.4406894025161703,
+          0.1905305938243136
+        ],
+        [
+          -0.4743251920514569,
+          -0.8569046998394716,
+          -0.2018166186872976
+        ],
+        [
+          0.07432811620412075,
+          -0.26740827568152475,
+          0.9607123113807695
+        ]
+      ],
+      "plate_gap_mm": 0.0007525366635847471,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.0018939834368192632,
+          "clearance_upper_mm": 0.0019039829291906743,
+          "nodes": 82385,
+          "certificate_gap_um": 0.009999492371411123,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.011600626590045092,
+          "clearance_upper_mm": 0.01161061487111803,
+          "nodes": 4547,
+          "certificate_gap_um": 0.009988281072938199,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.0017292375696558518,
+          "clearance_upper_mm": 0.0017392374209828226,
+          "nodes": 79577,
+          "certificate_gap_um": 0.009999851326970843,
+          "disjoint": true,
+          "overlapping": false
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": true,
+      "continuous_free_path_proven": false
+    },
+    {
+      "sideways_per_forward": 0,
+      "travel_mm": 0.02,
+      "center_mm": [
+        -0.02,
+        2.4492935982947064e-18,
+        -9.159616746610219e-05
+      ],
+      "rotation": [
+        [
+          -0.8772063288228691,
+          0.4406894025161703,
+          0.1905305938243136
+        ],
+        [
+          -0.4743251920514569,
+          -0.8569046998394716,
+          -0.2018166186872976
+        ],
+        [
+          0.07432811620412075,
+          -0.26740827568152475,
+          0.9607123113807695
+        ]
+      ],
+      "plate_gap_mm": 0.0007525366635847471,
+      "support_distances": [
+        {
+          "clearance_lower_mm": 0.00046292444247802295,
+          "clearance_upper_mm": 0.000472924306987782,
+          "nodes": 80103,
+          "certificate_gap_um": 0.009999864509759038,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": 0.012871967894236919,
+          "clearance_upper_mm": 0.01288196680023207,
+          "nodes": 4281,
+          "certificate_gap_um": 0.009998905995151075,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": -0.0001943334694657281,
+          "clearance_upper_mm": -0.00018433351362921735,
+          "nodes": 76649,
+          "certificate_gap_um": 0.009999955836510754,
+          "disjoint": false,
+          "overlapping": true
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": false,
+      "continuous_free_path_proven": false
+    },
+    {
+      "sideways_per_forward": 0.1,
+      "travel_mm": 0.02,
+      "center_mm": [
+        -0.02,
+        0.0020000000000000026,
+        -9.159616746610219e-05
+      ],
+      "rotation": [
+        [
+          -0.8772063288228691,
+          0.4406894025161703,
+          0.1905305938243136
+        ],
+        [
+          -0.4743251920514569,
+          -0.8569046998394716,
+          -0.2018166186872976
+        ],
+        [
+          0.07432811620412075,
+          -0.26740827568152475,
+          0.9607123113807695
+        ]
+      ],
+      "plate_gap_mm": 0.0007525366635847471,
+      "support_distances": [
+        {
+          "clearance_lower_mm": -0.0009626366161306771,
+          "clearance_upper_mm": -0.0009526372977492203,
+          "nodes": 77885,
+          "certificate_gap_um": 0.009999318381456734,
+          "disjoint": false,
+          "overlapping": true
+        },
+        {
+          "clearance_lower_mm": 0.014159659005241354,
+          "clearance_upper_mm": 0.014169653013610138,
+          "nodes": 4113,
+          "certificate_gap_um": 0.009994008368784113,
+          "disjoint": true,
+          "overlapping": false
+        },
+        {
+          "clearance_lower_mm": -0.0021170669596420957,
+          "clearance_upper_mm": -0.0021070672374478086,
+          "nodes": 73735,
+          "certificate_gap_um": 0.00999972219428713,
+          "disjoint": false,
+          "overlapping": true
+        }
+      ],
+      "all_endpoint_lower_bounds_clear": false,
+      "continuous_free_path_proven": false
+    }
+  ],
+  "refined_contact_mobility": [
+    {
+      "heading_deg": 0,
+      "cap": 0,
+      "old": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 0.0,
+        "rotation_component_cap": 0,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          1.0,
+          0.0,
+          13.070526023906556
+        ],
+        "rotation_scaled": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rise_per_mm": 13.070526023906556,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          5.690091759089507,
+          6.030795038873641,
+          0.0
+        ]
+      },
+      "refined": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 0.0,
+        "rotation_component_cap": 0,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          1.0,
+          0.0,
+          13.1045118257163
+        ],
+        "rotation_scaled": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rise_per_mm": 13.1045118257163,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          5.703833196164368,
+          6.050321683250287,
+          0.0
+        ]
+      }
+    },
+    {
+      "heading_deg": 0,
+      "cap": 1,
+      "old": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 0.0,
+        "rotation_component_cap": 1,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          1.0,
+          0.0,
+          0.4659261529038074
+        ],
+        "rotation_scaled": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rise_per_mm": 0.4633985189943125,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          1.1102230246251565e-16,
+          1.4234892084970936,
+          0.0,
+          0.7398146790509268
+        ]
+      },
+      "refined": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 0.0,
+        "rotation_component_cap": 1,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          1.0,
+          0.0,
+          0.4650825548790319
+        ],
+        "rotation_scaled": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "rise_per_mm": 0.46255492096953693,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          5.551115123125783e-17,
+          1.4230646913751221,
+          0.0,
+          0.739918091373325
+        ]
+      }
+    },
+    {
+      "heading_deg": 90,
+      "cap": 0,
+      "old": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 90.0,
+        "rotation_component_cap": 0,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          6.123233995736766e-17,
+          1.0,
+          57.843121735163194
+        ],
+        "rotation_scaled": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rise_per_mm": 57.843121735163194,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          21.756392909938064,
+          29.775222015940408,
+          0.0
+        ]
+      },
+      "refined": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 90.0,
+        "rotation_component_cap": 0,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          6.123233995736766e-17,
+          1.0,
+          58.013267594301716
+        ],
+        "rotation_scaled": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rise_per_mm": 58.013267594301716,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          21.82504105114647,
+          29.871215387424304,
+          0.0
+        ]
+      }
+    },
+    {
+      "heading_deg": 90,
+      "cap": 1,
+      "old": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 90.0,
+        "rotation_component_cap": 1,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          6.123233995736766e-17,
+          1.0,
+          0.3571868867737448
+        ],
+        "rotation_scaled": [
+          -1.0,
+          -0.7701454316718475,
+          -1.0
+        ],
+        "rise_per_mm": 0.3556996581391761,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          0.0,
+          1.1322866967614855,
+          0.0
+        ]
+      },
+      "refined": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 90.0,
+        "rotation_component_cap": 1,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          6.123233995736766e-17,
+          1.0,
+          0.3569339377443691
+        ],
+        "rotation_scaled": [
+          -1.0,
+          -0.7705965161244746,
+          -1.0
+        ],
+        "rise_per_mm": 0.3554446673377035,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          0.0,
+          1.1324436807515985,
+          0.0
+        ]
+      }
+    },
+    {
+      "heading_deg": 180,
+      "cap": 0,
+      "old": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 180.0,
+        "rotation_component_cap": 0,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          -1.0,
+          1.2246467991473532e-16,
+          1.5976095183930556
+        ],
+        "rotation_scaled": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rise_per_mm": 1.5976095183930556,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          0.0,
+          1.349885860427372,
+          0.24731340224639403
+        ]
+      },
+      "refined": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 180.0,
+        "rotation_component_cap": 0,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          -1.0,
+          1.2246467991473532e-16,
+          1.5973107712025794
+        ],
+        "rotation_scaled": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rise_per_mm": 1.5973107712025791,
+        "min_linear_gap_rate": -2.220446049250313e-16,
+        "constraint_gap_rates": [
+          -2.220446049250313e-16,
+          0.0,
+          1.3499618196071683,
+          0.24715866997771543
+        ]
+      }
+    },
+    {
+      "heading_deg": 180,
+      "cap": 1,
+      "old": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 180.0,
+        "rotation_component_cap": 1,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          -1.0,
+          1.2246467991473532e-16,
+          -0.004579808373305109
+        ],
+        "rotation_scaled": [
+          -1.0,
+          0.570232405776748,
+          0.9801334103941307
+        ],
+        "rise_per_mm": 0.0,
+        "min_linear_gap_rate": 0.0,
+        "constraint_gap_rates": [
+          0.0,
+          0.0,
+          0.6251218681169298,
+          5.551115123125783e-17
+        ]
+      },
+      "refined": {
+        "model": "C3",
+        "pose": 3,
+        "heading_deg": 180.0,
+        "rotation_component_cap": 1,
+        "success": true,
+        "status": 0,
+        "translation_per_mm": [
+          -1.0,
+          1.2246467991473532e-16,
+          -0.004580829327869496
+        ],
+        "rotation_scaled": [
+          -1.0,
+          0.5704579631401481,
+          0.9800461446140728
+        ],
+        "rise_per_mm": 0.0,
+        "min_linear_gap_rate": -8.326672684688674e-17,
+        "constraint_gap_rates": [
+          0.0,
+          0.0,
+          0.6251244246611934,
+          -8.326672684688674e-17
+        ]
+      }
+    }
+  ],
+  "manufacturing": {
+    "volume_sum_upper_mm3": 0.0041463930796085844,
+    "particle_mass_upper_kg": 3.980537356424241e-09,
+    "particle_count_lower": 33915018981575.88,
+    "minimum_grains_per_second": 9420838.605993299,
+    "serial_10000_per_second_max_kg_per_1000h": 143.29934483127266,
+    "claim": "Conditional bounds at specified polymer density, not production quote or physical yield."
+  }
+}

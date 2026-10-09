@@ -1,0 +1,77 @@
+{
+  "cycle": 99,
+  "date": "2026-10-10",
+  "base_commit": "5b9c68f29c187bbaae4cf784e82eed2335a209ed",
+  "physical_tests": 0,
+  "success_probability": null,
+  "scope": "Archived rigid C3/R4/S3 fixture: first-order nonpenetration and finite prescribed-path probes, not force-driven motion or snow performance.",
+  "headings_deg": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "rotation_component_caps": [
+    0,
+    0.1,
+    0.5,
+    1
+  ],
+  "alignment_S": [
+    0,
+    0.4,
+    0.8,
+    0.95
+  ],
+  "rotation_angles_deg": [
+    5,
+    15,
+    30
+  ],
+  "shear_band_mm": [
+    0.5,
+    5,
+    20
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/inputs.json",
+      "sha256_LF": "0ba10f6a3cd1a4609889d6b10d8a0af6abc1861d0e9d37988251dc361d10351a"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/cluster_results.json",
+      "sha256_LF": "f2d4d2fda6848453d61791850e7d69a471516c46e685b0262fc7cafd52c8b031"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/pair_geometry.py",
+      "sha256_LF": "21ee8a1fd0217c4cc051651408d1dbc4f7d308464cbdf5657889813dd97c2306"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/cluster.py",
+      "sha256_LF": "0d9b8f781431958d9021b3c21a52f607f463258ef55d54340823b22989be6611"
+    },
+    {
+      "path": "GPT往復/粒間接触検証_自由回転と濡れ_20261007/numerical_audit.json",
+      "sha256_LF": "8559a7bc864582f99e24185783e6977b981701698beb5694647e4c75150fcb9b"
+    }
+  ],
+  "finite_path": {
+    "pose": 3,
+    "heading_deg": 180,
+    "cap": 1,
+    "travel_mm": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.02
+    ],
+    "distance_gap_mm": 0.00005,
+    "max_nodes": 80000
+  },
+  "manufacturing": {
+    "density_kg_m3": 960,
+    "inventory_kg": 135000,
+    "production_hours": 1000
+  }
+}

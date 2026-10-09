@@ -1,0 +1,43 @@
+{
+  "base_commit": "5b9c68f29c187bbaae4cf784e82eed2335a209ed",
+  "index_operations": 7,
+  "index_history_reversible": true,
+  "indices": [
+    {
+      "path": "README.md",
+      "original_sha256_LF": "a710525d1d85a4fe54051b318f76d72744ef9f57396b3fa6617222c5482757bd",
+      "updated_sha256": "52dd5a789ad730041fa461aa33671af0892db5412ca8117b4180edcf767309da"
+    },
+    {
+      "path": "回覧板.md",
+      "original_sha256_LF": "a3641c2b904d033c9d4b48b35e0091277207c2ac1bcbb3641c6640f0009d706d",
+      "updated_sha256": "f4b266ade09ff327aafc6da58665321aa8315ad494086ef03ad99a323110a436"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "original_sha256_LF": "457210f1e4b09f0b6f2cc1055c5a84f912d22ae91b54432e850cffd4b9643af1",
+      "updated_sha256": "3b1b2d30628947b7a49975c772c06fe6e8de3ef8bf77825c2b25962855f0867d"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "original_sha256_LF": "fc5211970c626ce2746c3775aead8c6fc9f628e2df5e5258fef7f902dec84a6e",
+      "updated_sha256": "accfa292c08b88a6a5e39fae77919fd83b89bebb4198f3b36b66c6af43135457"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "original_sha256_LF": "cb54c4b2041969a7fc146ef25d3d59ead7fdff0403f15b898223790d777c5b27",
+      "updated_sha256": "2009aad5d0d7c7b987f8e904b3ba8f30d7d2100b338d8fdf38f28ecb658960be"
+    }
+  ],
+  "new_relative_links_checked": 24,
+  "new_relative_link_errors": [],
+  "public_repository": true,
+  "remote_head_checked": "5b9c68f29c187bbaae4cf784e82eed2335a209ed",
+  "claude_ledger_unchanged": true,
+  "protected_files_unchanged": true,
+  "physical_tests": 0,
+  "success_probability": null,
+  "main_numerical_checks": 208,
+  "additional_output_checks": 337,
+  "figures_visually_inspected": 2
+}

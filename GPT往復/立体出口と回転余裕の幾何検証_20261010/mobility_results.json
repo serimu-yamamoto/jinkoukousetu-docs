@@ -1,0 +1,4111 @@
+{
+  "physical_tests": 0,
+  "success_probability": null,
+  "scope": "Archived rigid C3/R4/S3 fixture: first-order nonpenetration and finite prescribed-path probes, not force-driven motion or snow performance.",
+  "mobility": [
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": false,
+      "status": 2
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": false,
+      "status": 2
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.685294673072687
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        -0.16090159554027192
+      ],
+      "rise_per_mm": 0.19511094089533,
+      "min_linear_gap_rate": -2.7755575615628914e-17,
+      "constraint_gap_rates": [
+        -2.7755575615628914e-17,
+        1.4825850513507217,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.035587299361381976
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.944780164993332,
+        1.1245250909902438,
+        0.21179592602288855,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.34373491004253953
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.34373491004253953,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.18551430309678701,
+        0.7961075578315389,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.26912510319669436
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.17108835676122297,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        2.7755575615628914e-17,
+        0.17688695769608243,
+        0.8799612400175282,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.022292362950700362,
+      "constraint_gap_rates": [
+        0.490183732177357,
+        0.16618208329321954,
+        1.2112336267168637,
+        0.022292362950700362
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.305983064964685,
+      "constraint_gap_rates": [
+        0.980367464354714,
+        0.4259794765346783,
+        1.5777869474959987,
+        0.305983064964685
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.7093557453176139
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.7093557453176139,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.4160437501923114,
+        1.1338844529959569
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.6117328078958214
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 0.51369606146035,
+      "min_linear_gap_rate": -1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        -1.1102230246251565e-16,
+        0.0,
+        0.577764650510768,
+        1.0527165170468393
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.2212410582086515
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.26894267396870547,
+        0.0,
+        1.2246482517845942,
+        0.7280447732503705
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.26687362890031097
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        1.2472410932550249,
+        1.1102230246251565e-16,
+        2.0332527533768774,
+        0.3222050935047842
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": false,
+      "status": 2
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": false,
+      "status": 2
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": false,
+      "status": 2
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.0
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        0.7009360765513404
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.980367464354714,
+        0.6540549560622018,
+        0.0,
+        0.7335768438745347
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        13.163396464032074
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 13.163396464032072,
+      "min_linear_gap_rate": -1.7763568394002505e-15,
+      "constraint_gap_rates": [
+        -1.7763568394002505e-15,
+        3.848447123020411,
+        6.077525387224146,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        6.59248206747639
+      ],
+      "rotation_scaled": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 6.593134576738922,
+      "min_linear_gap_rate": -8.881784197001252e-16,
+      "constraint_gap_rates": [
+        -8.881784197001252e-16,
+        2.349998618827155,
+        2.777242929547813,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.7755188934359293
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.7742550764811819,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        1.1102230246251565e-16,
+        1.6448441841302908,
+        0.0,
+        0.26887962772098356
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.4659261529038074
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.4633985189943125,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        1.1102230246251565e-16,
+        2.0858361746954666,
+        0.0,
+        0.7398964808737061
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        58.27635630890002
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 58.27635630890001,
+      "min_linear_gap_rate": -7.105427357601002e-15,
+      "constraint_gap_rates": [
+        -7.105427357601002e-15,
+        12.624237450604628,
+        29.99321605711048,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        51.705441912344334
+      ],
+      "rotation_scaled": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 51.70609442160686,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        11.12578894641137,
+        26.69293359943414,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        25.421784326121603
+      ],
+      "rotation_scaled": [
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "rise_per_mm": 25.42504687243426,
+      "min_linear_gap_rate": -3.552713678800501e-15,
+      "constraint_gap_rates": [
+        -3.552713678800501e-15,
+        5.1319949296383465,
+        13.49180376872881,
+        0.0
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        -0.002413771619709442
+      ],
+      "rotation_scaled": [
+        -1.0,
+        0.09169442160905394,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": -4.336808689942018e-19,
+      "constraint_gap_rates": [
+        -4.336808689942018e-19,
+        0.0,
+        0.8431830374282108,
+        0.05746172350828349
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        4.4130724263680685
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 4.4130724263680685,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        2.7665644319920206,
+        0.2941525807993325
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        3.9483377939912128
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        -0.1
+      ],
+      "rise_per_mm": 3.9480850306002635,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        4.440892098500626e-16,
+        0.0,
+        2.5638763009386647,
+        0.38161458651099134
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        2.0893992644837907
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 2.088135447529043,
+      "min_linear_gap_rate": -4.440892098500626e-16,
+      "constraint_gap_rates": [
+        -4.440892098500626e-16,
+        0.0,
+        1.7531237767252452,
+        0.7314626093576266
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0025276339094949646
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.05184876311501152,
+        0.8588364067567056,
+        1.172735651306518
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.3312279340169935
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.3312279340169935,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.42711191429208695,
+        0.0,
+        0.9975681036732118
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.269309385910569
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        -0.1
+      ],
+      "rise_per_mm": 1.2690566225196196,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.515310312405122,
+        0.0,
+        1.0917714743037563
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.0216351934848715
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 1.020371376530124,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.8681039048572623,
+        0.0,
+        1.4685849568259344
+      ]
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.7120424529527496
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.7095148190432546,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.3090958954224379,
+        0.0,
+        1.939601809978657
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.6628095519514827
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.6628095519514827,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.053797323120635,
+        0.014549442783960087,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.5913185818275982
+      ],
+      "rotation_scaled": [
+        0.0032907051782153154,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.556678478884822,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.0672519362543549,
+        0.0,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.4496474927535419
+      ],
+      "rotation_scaled": [
+        -0.19742586901930165,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.19631005895698572,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        0.0,
+        1.0919218086227174,
+        -5.551115123125783e-17,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.733413480361972
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.0939402295945486,
+        0.1965334791671502,
+        0.06973626553336987
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.4210874828030748
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.4210874828030748,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.6960350408487549,
+        1.0049294975258838,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.28435201302981683
+      ],
+      "rotation_scaled": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.285947214272951,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        5.551115123125783e-17,
+        0.7226696923594362,
+        0.9640649185451658,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        -0.007976006215670739
+      ],
+      "rotation_scaled": [
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.9623528890238755,
+        0.9339007352084885,
+        0.20025186366670655
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        -0.015952012431341478
+      ],
+      "rotation_scaled": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.4488689642213346,
+        1.08331751657339,
+        0.7316858289225747
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        1.3523786181715698
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.3523786181715698,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        1.0404314576876446,
+        1.5849301642411493
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        1.1219665655770839
+      ],
+      "rotation_scaled": [
+        0.1,
+        -0.1,
+        -0.1
+      ],
+      "rise_per_mm": 1.123561766820218,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.1102230246251565e-16,
+        0.9192827751238408,
+        1.4690107995144968
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.20031835519913954
+      ],
+      "rotation_scaled": [
+        0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.20829436141481028,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.4346880448686254,
+        1.0053333406078864
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.015952012431341478
+      ],
+      "rotation_scaled": [
+        1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.4893502757385032,
+        0.3188445238199092,
+        1.161728150167348
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.4984942217724118
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.4984942217724118,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.30776703172369024,
+        0.0,
+        1.5097364064624073
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.4707926509507336
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 1.3974513029145363,
+      "min_linear_gap_rate": -1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        0.0,
+        0.29360333542311245,
+        -1.1102230246251565e-16,
+        1.4893700130641847
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.3599863676640218
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.9932796274830358,
+      "min_linear_gap_rate": -1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        -1.1102230246251565e-16,
+        0.23694855022080197,
+        -1.1102230246251565e-16,
+        1.4079044394712954
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.2214785135556323
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.48806503319366035,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        0.1661300687179138,
+        0.0,
+        1.306072472480184
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        13.070526023906556
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 13.070526023906556,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        5.690091759089507,
+        6.030795038873641,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        6.549512023840462
+      ],
+      "rotation_scaled": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 6.550164533102994,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        3.15371623879934,
+        2.7556213553953763,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.7755188934359293
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.7742550764811819,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        1.1102230246251565e-16,
+        1.2320878161368065,
+        0.0,
+        0.26886676754681527
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.4659261529038074
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.4633985189943125,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        1.1102230246251565e-16,
+        1.4234892084970936,
+        0.0,
+        0.7398146790509268
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        57.843121735163194
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 57.843121735163194,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        21.756392909938064,
+        29.775222015940408,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        51.3221077350971
+      ],
+      "rotation_scaled": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 51.32276024435963,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        19.220017389647897,
+        26.500048332462143,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        25.23805173483272
+      ],
+      "rotation_scaled": [
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "rise_per_mm": 25.241314281145378,
+      "min_linear_gap_rate": -3.552713678800501e-15,
+      "constraint_gap_rates": [
+        -3.552713678800501e-15,
+        9.07451530848723,
+        13.39935359854908,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.3571868867737448
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -0.7701454316718475,
+        -1.0
+      ],
+      "rise_per_mm": 0.3556996581391761,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        1.1322866967614855,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        1.5976095183930556
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.5976095183930556,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        1.349885860427372,
+        0.24731340224639403
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        1.2962808888569213
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 1.2960281254659718,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        1.2260793606052645,
+        0.20735781504468861
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.09096637071238384
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.08970255375763636,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.7308533613168346,
+        0.04753546623786689
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.004579808373305109
+      ],
+      "rotation_scaled": [
+        -1.0,
+        0.570232405776748,
+        0.9801334103941307
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.6251218681169298,
+        5.551115123125783e-17
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.3312279340169935
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.3312279340169935,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.1986362709073308,
+        0.0,
+        0.9977143789133804
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.269309385910569
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        -0.1
+      ],
+      "rise_per_mm": 1.2690566225196196,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.236916549379388,
+        0.0,
+        1.0919039612142027
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.0216351934848715
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 1.020371376530124,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.3900376632676181,
+        0.0,
+        1.468662290417492
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.7120424529527496
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.7095148190432546,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.5814390556279052,
+        0.0,
+        1.9396102019216035
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        20.115575596280085
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 20.115575596280085,
+      "min_linear_gap_rate": -1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        0.0,
+        19.01545916558238,
+        13.920126338463485,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        18.359152780407822
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "rise_per_mm": 18.364709233466584,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        17.48260691294391,
+        12.684743816822918,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        11.333461516918756
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "rise_per_mm": 11.361243782212576,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        11.351197902390007,
+        7.743213730260644,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        2.5513474375574283
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 2.6069119681450657,
+      "min_linear_gap_rate": -1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        0.0,
+        3.686936639197634,
+        1.566301122057801,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        1.5018856598219772
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.5018856598219772,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.4820561265166656,
+        1.3535522219973708,
+        0.0
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        -0.005556453058763714
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 4.336808689942018e-19,
+      "constraint_gap_rates": [
+        4.336808689942018e-19,
+        0.18006686902239155,
+        0.29834506144204126,
+        0.012328012686313991
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        -0.027782265293818567
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 1.734723475976807e-18,
+      "constraint_gap_rates": [
+        1.734723475976807e-18,
+        0.5424985097275916,
+        0.4248861200184297,
+        0.35909709918118193
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        -0.055564530587637134
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 3.469446951953614e-18,
+      "constraint_gap_rates": [
+        3.469446951953614e-18,
+        0.9955380606090917,
+        0.5830624432389152,
+        0.7925584572997668
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.3921822095826562
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.39218220958265615,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        0.0,
+        0.9203517521045268,
+        1.015419650442293
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.24933650405285873
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 0.2548929571116224,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        0.0,
+        0.8810533542787187,
+        0.9517118466346278
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.32204631806633116
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 5.551115123125783e-17,
+      "constraint_gap_rates": [
+        0.2942640527725126,
+        5.551115123125783e-17,
+        0.7238597629754865,
+        0.6968806314039668
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.055564530587637134
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 3.469446951953614e-18,
+      "constraint_gap_rates": [
+        3.469446951953614e-18,
+        0.9093464593796108,
+        1.2370606658058811,
+        0.4269004326325454
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.3685608970144544
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.3685608970144544,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.25228267637086166,
+        0.0,
+        0.09261315678161927
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.28002085602266974
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 0.2855773090814334,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        0.3026366524738555,
+        0.0,
+        0.03159423975642136
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        -0.016813319702230267
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        -0.2080228834067597
+      ],
+      "rise_per_mm": 0.0109689455915883,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        1.734723475976807e-18,
+        0.5036422029228337,
+        0.0,
+        1.3877787807814457e-17
+      ]
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        -0.055564530587637134
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 3.469446951953614e-18,
+      "constraint_gap_rates": [
+        3.469446951953614e-18,
+        0.8166201429169085,
+        0.049642849643026954,
+        0.941286975174573
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.7818496226562605
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.7818496226562605,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.2109319279839834,
+        0.07673599872077114,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.6329649699887472
+      ],
+      "rotation_scaled": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.6484276962737404,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.062225701459914,
+        0.02946128318703861,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.34231750194580035
+      ],
+      "rotation_scaled": [
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.4196311333707664,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        0.7149873633145833,
+        0.0,
+        0.2318451509808992
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.049343143416417934
+      ],
+      "rotation_scaled": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.2039704062663501,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        0.0,
+        0.33805489270710587,
+        -5.551115123125783e-17,
+        0.5751356729473768
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.34366220167758144
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.3436622016775814,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        0.18545526033684917,
+        0.9642915188484398,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.1947775490100681
+      ],
+      "rotation_scaled": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.2102402752950613,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -2.7755575615628914e-17,
+        0.036749033812779566,
+        0.9170168033147073,
+        -5.551115123125783e-17
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.006883857304944847
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.1717721131960555,
+        0.8715194986326095,
+        0.027686333607234326
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.013767714609889695
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.43715953634035026,
+        0.9586851485602792,
+        0.316700085085097
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.7093557453176139
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.7093557453176139,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.7040423886284352,
+        1.1339415461611826
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.6117328078958214
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 0.6103560364348324,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.6384341830410355,
+        1.0527715088963483
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.2212410582086515
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.21435720090370664,
+      "min_linear_gap_rate": -2.7755575615628914e-17,
+      "constraint_gap_rates": [
+        -2.7755575615628914e-17,
+        0.0,
+        0.3760013606914368,
+        0.7280913598370118
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.013767714609889695
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.22789454119962416,
+        0.19490098916256907,
+        0.5356463059052317
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.49803412662427
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.49803412662427,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.310092525024031,
+        0.0,
+        1.4004616848392153
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.4394392549183934
+      ],
+      "rotation_scaled": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 1.4549019812033865,
+      "min_linear_gap_rate": -2.220446049250313e-16,
+      "constraint_gap_rates": [
+        -2.220446049250313e-16,
+        1.2347060309025353,
+        0.0,
+        1.469119789232511
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        1.2050597680948876
+      ],
+      "rotation_scaled": [
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 1.2823733995198536,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.9331600544165535,
+        0.0,
+        1.743752206805693
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.9120854095655051
+      ],
+      "rotation_scaled": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "rise_per_mm": 1.0667126724154372,
+      "min_linear_gap_rate": -1.1102230246251565e-16,
+      "constraint_gap_rates": [
+        0.0,
+        0.5562275838090759,
+        -1.1102230246251565e-16,
+        2.08704272877217
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        13.104475484798956
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 13.104475484798954,
+      "min_linear_gap_rate": -1.7763568394002505e-15,
+      "constraint_gap_rates": [
+        -1.7763568394002505e-15,
+        5.703794409429258,
+        8.431018801744335,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        6.5631300974777895
+      ],
+      "rotation_scaled": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 6.563782606740322,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        3.159221520280629,
+        3.9906588172692845,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.2565962519813203
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.25533243502657277,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        -5.551115123125783e-17,
+        1.0306099401940643,
+        0.0,
+        0.26024571051945844
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.0025276339094949646
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.243462542172617,
+        0.13997726871165228,
+        0.7321901392679999
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        58.01939927725481
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 58.01939927725481,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        21.827562725061025,
+        40.03332503151274,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        51.47805388993365
+      ],
+      "rotation_scaled": [
+        -0.1,
+        0.1,
+        -0.1
+      ],
+      "rise_per_mm": 51.47870639919617,
+      "min_linear_gap_rate": -7.105427357601002e-15,
+      "constraint_gap_rates": [
+        -7.105427357601002e-15,
+        19.282989835912396,
+        35.59296504703769,
+        -1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        25.312672340648987
+      ],
+      "rotation_scaled": [
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "rise_per_mm": 25.315934886961646,
+      "min_linear_gap_rate": -3.552713678800501e-15,
+      "constraint_gap_rates": [
+        -3.552713678800501e-15,
+        9.104698279317883,
+        17.83152510913749,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        0.3570084927603678
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -0.7708579686477549,
+        -1.0
+      ],
+      "rise_per_mm": 0.35551803892460465,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.1102230246251565e-16,
+        1.3571658239120032,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        1.5971130481660631
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.5971130481660631,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        1.5744721016971468,
+        0.24712992306839568
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        1.295824828535696
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 1.2955720651447464,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        1.425002995183026,
+        0.20718766555555798
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.09067195001422668
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.0894081330594792,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.8271265691265435,
+        0.047418635504207246
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.004583707834377889
+      ],
+      "rotation_scaled": [
+        -1.0,
+        0.5710939055818695,
+        0.9800561628538572
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": -8.326672684688674e-17,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        0.6396294174674793,
+        -8.326672684688674e-17
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.8036487770201303
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.8036487770201303,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.9940916754308476,
+        0.0,
+        0.9888003128169242
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.7116998761630542
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        -0.1
+      ],
+      "rise_per_mm": 0.7114471127721047,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        1.1102230246251565e-16,
+        1.0207029276521185,
+        0.0,
+        1.0824977268141343
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.3439042727347499
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "rise_per_mm": 0.3426404557800024,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.1271479365372017,
+        0.0,
+        1.4572873828029749
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.0025276339094949646
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.3061275322378871,
+        0.08055786614252458,
+        1.9277641861718733
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.6154176914529396
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.6154176914529396,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.9342598377613062,
+        0.3928694740830654,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.6154523404041162
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 0.6098958873453525,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.8018325844627405,
+        0.3897868259180599,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.6155909362088229
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.5878086709150043,
+      "min_linear_gap_rate": -5.551115123125783e-17,
+      "constraint_gap_rates": [
+        1.1102230246251565e-16,
+        0.2721235712684784,
+        0.3774562332580379,
+        -5.551115123125783e-17
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 0.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        1.0,
+        0.0,
+        0.6192294472833103
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -0.7299983157260015,
+        0.20610818319711102
+      ],
+      "rise_per_mm": 0.5735818180265244,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        3.608224830031759e-16,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        1.0932304732236449
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 1.0932304732236449,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.1032177228758029,
+        1.312695928897595,
+        0.0
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        1.0932651221748215
+      ],
+      "rotation_scaled": [
+        -0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 1.0877086691160578,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.9707904695772374,
+        1.3096132807325893,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        1.0934037179795282
+      ],
+      "rotation_scaled": [
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 1.0656214526857093,
+      "min_linear_gap_rate": -2.220446049250313e-16,
+      "constraint_gap_rates": [
+        -2.220446049250313e-16,
+        0.4410814563829752,
+        1.2972826880725674,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 90.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        6.123233995736766e-17,
+        1.0,
+        1.1003651977244955
+      ],
+      "rotation_scaled": [
+        -1.0,
+        -1.0,
+        -0.1701579117768271
+      ],
+      "rise_per_mm": 1.0448006671368584,
+      "min_linear_gap_rate": 4.163336342344337e-17,
+      "constraint_gap_rates": [
+        2.220446049250313e-16,
+        4.163336342344337e-17,
+        0.8555994706461061,
+        1.1102230246251565e-16
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.46831910378930564
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 0.46831910378930564,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.07061601585352667,
+        0.0,
+        0.6755051672787379
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.28377586533028676
+      ],
+      "rotation_scaled": [
+        0.1,
+        0.1,
+        0.07414435099849398
+      ],
+      "rise_per_mm": 0.2893323183890505,
+      "min_linear_gap_rate": -8.326672684688674e-17,
+      "constraint_gap_rates": [
+        0.0,
+        0.0,
+        -8.326672684688674e-17,
+        0.5611286063060457
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.027782265293818567
+      ],
+      "rotation_scaled": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 1.734723475976807e-18,
+      "constraint_gap_rates": [
+        1.734723475976807e-18,
+        0.08938041938631591,
+        0.20201961906953467,
+        0.3700035726307196
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 180.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.0,
+        1.2246467991473532e-16,
+        -0.055564530587637134
+      ],
+      "rotation_scaled": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 3.469446951953614e-18,
+      "constraint_gap_rates": [
+        3.469446951953614e-18,
+        0.5423854625748061,
+        0.5738113459206737,
+        0.3564104708324897
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        2.52786246720225
+      ],
+      "rotation_scaled": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rise_per_mm": 2.52786246720225,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        2.254376921417653,
+        0.0,
+        2.25706740159864
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        2.1691939481223232
+      ],
+      "rotation_scaled": [
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "rise_per_mm": 2.1674045941669444,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        1.8389727421493196,
+        0.0,
+        2.033723671934014
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 0.5,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        0.7345198718026154
+      ],
+      "rotation_scaled": [
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "rise_per_mm": 0.7255731020257212,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.17735602507598583,
+        1.1102230246251565e-16,
+        1.140348753275509
+      ]
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 270.0,
+      "rotation_component_cap": 1,
+      "success": true,
+      "status": 0,
+      "translation_per_mm": [
+        -1.8369701987210297e-16,
+        -1.0,
+        -0.03302310696341713
+      ],
+      "rotation_scaled": [
+        1.0,
+        0.386277815879942,
+        1.0
+      ],
+      "rise_per_mm": 0.0,
+      "min_linear_gap_rate": 0.0,
+      "constraint_gap_rates": [
+        0.0,
+        0.2893543628869518,
+        0.0,
+        0.6666713547369987
+      ]
+    }
+  ],
+  "relief": [
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.5162819189914221,
+        0.5944442966031281
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        10.32563837982844,
+        11.888885932062562
+      ],
+      "max_at_20_um_um": 11.888885932062562
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.09361530994823926,
+        0.0,
+        0.2613983390632843
+      ],
+      "at_20_um_normal_relief_um": [
+        1.8723061989647851,
+        0.0,
+        5.227966781265686
+      ],
+      "max_at_20_um_um": 5.227966781265686
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.5760316712587257,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        11.520633425174513,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 11.520633425174513
+    },
+    {
+      "model": "R4",
+      "pose": 0,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.8446803059377289,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        16.89360611875458,
+        0.0
+      ],
+      "max_at_20_um_um": 16.89360611875458
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.546004138517915,
+        0.22029720907677114
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        10.920082770358299,
+        4.405944181535423
+      ],
+      "max_at_20_um_um": 10.920082770358299
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.13563355508933186,
+        0.0,
+        0.9752892184850079
+      ],
+      "at_20_um_normal_relief_um": [
+        2.712671101786637,
+        0.0,
+        19.50578436970016
+      ],
+      "max_at_20_um_um": 19.50578436970016
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.9662621080968588,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        19.325242161937176,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 19.325242161937176
+    },
+    {
+      "model": "R4",
+      "pose": 3,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.669844409119415,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        13.3968881823883,
+        0.0
+      ],
+      "max_at_20_um_um": 13.3968881823883
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.33244118981600096,
+        0.5212946699517989
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        6.648823796320019,
+        10.425893399035978
+      ],
+      "max_at_20_um_um": 10.425893399035978
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.0,
+        0.3311821015891616
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        0.0,
+        6.623642031783232
+      ],
+      "max_at_20_um_um": 6.623642031783232
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.707195977429622,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        14.143919548592441,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 14.143919548592441
+    },
+    {
+      "model": "C3",
+      "pose": 0,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.4758368138264165,
+        0.7844839538435869,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        9.51673627652833,
+        15.68967907687174,
+        0.0
+      ],
+      "max_at_20_um_um": 15.68967907687174
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.546004138517915,
+        0.22037676504968973
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        10.920082770358299,
+        4.4075353009937945
+      ],
+      "max_at_20_um_um": 10.920082770358299
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.6822237333373178,
+        0.0,
+        0.9752690920820887
+      ],
+      "at_20_um_normal_relief_um": [
+        13.644474666746355,
+        0.0,
+        19.505381841641775
+      ],
+      "max_at_20_um_um": 19.505381841641775
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.6197478015277531,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        12.394956030555061,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 12.394956030555061
+    },
+    {
+      "model": "C3",
+      "pose": 3,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.669844409119415,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        13.3968881823883,
+        0.0
+      ],
+      "max_at_20_um_um": 13.3968881823883
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.6365483473677059,
+        0.9960011686202451
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        12.73096694735412,
+        19.920023372404902
+      ],
+      "max_at_20_um_um": 19.920023372404902
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.0,
+        0.074364258937403
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        0.0,
+        1.48728517874806
+      ],
+      "max_at_20_um_um": 1.48728517874806
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.36364408349190275,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        7.272881669838055,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 7.272881669838055
+    },
+    {
+      "model": "C3",
+      "pose": 7,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.08945895884609159,
+        0.2667097967979441,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        1.7891791769218317,
+        5.334195935958882,
+        0.0
+      ],
+      "max_at_20_um_um": 5.334195935958882
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.3326316850588083,
+        0.5945336497715114
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        6.652633701176166,
+        11.890672995430227
+      ],
+      "max_at_20_um_um": 11.890672995430227
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.09361530994823926,
+        0.0,
+        0.26132741787062835
+      ],
+      "at_20_um_normal_relief_um": [
+        1.8723061989647851,
+        0.0,
+        5.226548357412567
+      ],
+      "max_at_20_um_um": 5.226548357412567
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.5760316712587257,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        11.520633425174513,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 11.520633425174513
+    },
+    {
+      "model": "S3",
+      "pose": 0,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.7843538487049396,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        15.687076974098792,
+        0.0
+      ],
+      "max_at_20_um_um": 15.687076974098792
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.48752152901842605,
+        0.22028286338911035
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        9.750430580368521,
+        4.405657267782207
+      ],
+      "max_at_20_um_um": 9.750430580368521
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.6822990149823643,
+        0.0,
+        0.975291183514763
+      ],
+      "at_20_um_normal_relief_um": [
+        13.645980299647286,
+        0.0,
+        19.50582367029526
+      ],
+      "max_at_20_um_um": 19.50582367029526
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.6196340249170942,
+        0.0,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        12.392680498341884,
+        0.0,
+        0.0
+      ],
+      "max_at_20_um_um": 12.392680498341884
+    },
+    {
+      "model": "S3",
+      "pose": 3,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.5469409315875537,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        10.938818631751076,
+        0.0
+      ],
+      "max_at_20_um_um": 10.938818631751076
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 0,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.0,
+        0.38359667442894957
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        0.0,
+        7.671933488578992
+      ],
+      "max_at_20_um_um": 7.671933488578992
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 90,
+      "normal_relief_per_forward_mm": [
+        0.0,
+        0.0,
+        0.6814226820859033
+      ],
+      "at_20_um_normal_relief_um": [
+        0.0,
+        0.0,
+        13.628453641718066
+      ],
+      "max_at_20_um_um": 13.628453641718066
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 180,
+      "normal_relief_per_forward_mm": [
+        0.3636246238021743,
+        0.16977210778160437,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        7.272492476043486,
+        3.3954421556320873,
+        0.0
+      ],
+      "max_at_20_um_um": 7.272492476043486
+    },
+    {
+      "model": "S3",
+      "pose": 7,
+      "heading_deg": 270,
+      "normal_relief_per_forward_mm": [
+        0.08953902358166407,
+        0.9163848661446232,
+        0.0
+      ],
+      "at_20_um_normal_relief_um": [
+        1.7907804716332816,
+        18.327697322892465,
+        0.0
+      ],
+      "max_at_20_um_um": 18.327697322892465
+    }
+  ],
+  "independent_lp": [
+    {
+      "model": "R4",
+      "heading_deg": 0,
+      "cap": 0,
+      "lp": 13.163396464032072,
+      "vertices": 13.163396464032074,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "model": "R4",
+      "heading_deg": 0,
+      "cap": 0.5,
+      "lp": 0.7742550764811819,
+      "vertices": 0.7742550764811819,
+      "error": 0.0
+    },
+    {
+      "model": "R4",
+      "heading_deg": 90,
+      "cap": 0,
+      "lp": 58.27635630890001,
+      "vertices": 58.27635630890002,
+      "error": 7.105427357601002e-15
+    },
+    {
+      "model": "R4",
+      "heading_deg": 90,
+      "cap": 0.5,
+      "lp": 25.42504687243426,
+      "vertices": 25.425046872434265,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "model": "C3",
+      "heading_deg": 0,
+      "cap": 0,
+      "lp": 13.070526023906556,
+      "vertices": 13.070526023906556,
+      "error": 0.0
+    },
+    {
+      "model": "C3",
+      "heading_deg": 0,
+      "cap": 0.5,
+      "lp": 0.7742550764811819,
+      "vertices": 0.7742550764811819,
+      "error": 0.0
+    },
+    {
+      "model": "C3",
+      "heading_deg": 90,
+      "cap": 0,
+      "lp": 57.843121735163194,
+      "vertices": 57.843121735163194,
+      "error": 0.0
+    },
+    {
+      "model": "C3",
+      "heading_deg": 90,
+      "cap": 0.5,
+      "lp": 25.241314281145378,
+      "vertices": 25.241314281145375,
+      "error": 3.552713678800501e-15
+    },
+    {
+      "model": "S3",
+      "heading_deg": 0,
+      "cap": 0,
+      "lp": 13.104475484798954,
+      "vertices": 13.104475484798956,
+      "error": 1.7763568394002505e-15
+    },
+    {
+      "model": "S3",
+      "heading_deg": 0,
+      "cap": 0.5,
+      "lp": 0.25533243502657277,
+      "vertices": 0.2553324350265728,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "model": "S3",
+      "heading_deg": 90,
+      "cap": 0,
+      "lp": 58.01939927725481,
+      "vertices": 58.01939927725481,
+      "error": 0.0
+    },
+    {
+      "model": "S3",
+      "heading_deg": 90,
+      "cap": 0.5,
+      "lp": 25.315934886961646,
+      "vertices": 25.315934886961642,
+      "error": 3.552713678800501e-15
+    }
+  ],
+  "rotation_sensitivity": [
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 5,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.08726646259971647
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 5,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 0.8726646259971648
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 5,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 3.490658503988659
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 15,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.2617993877991494
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 15,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 2.617993877991494
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 15,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 10.471975511965976
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 30,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.5235987755982988
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 30,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 5.235987755982988
+    },
+    {
+      "S": 0,
+      "k": 0.5,
+      "angle_deg": 30,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 20.94395102393195
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 5,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.09614367691235862
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 5,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 0.9614367691235861
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 5,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 3.8457470764943444
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 15,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.2884310307370758
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 15,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 2.884310307370758
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 15,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 11.537241229483032
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 30,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.5768620614741516
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 30,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 5.768620614741516
+    },
+    {
+      "S": 0.4,
+      "k": 0.45383360301096914,
+      "angle_deg": 30,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 23.074482458966063
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 5,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.19824338151774007
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 5,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 1.9824338151774008
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 5,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 7.929735260709603
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 15,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.5947301445532202
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 15,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 5.947301445532202
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 15,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 23.789205782128807
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 30,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 1.1894602891064403
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 30,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 11.894602891064403
+    },
+    {
+      "S": 0.8,
+      "k": 0.22009930907052078,
+      "angle_deg": 30,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 47.578411564257614
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 5,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 0.6989577922206224
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 5,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 6.989577922206224
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 5,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 27.958311688824896
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 15,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 2.096873376661867
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 15,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 20.96873376661867
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 15,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 83.87493506647468
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 30,
+      "shear_band_mm": 0.5,
+      "conditional_travel_mm": 4.193746753323734
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 30,
+      "shear_band_mm": 5,
+      "conditional_travel_mm": 41.93746753323734
+    },
+    {
+      "S": 0.95,
+      "k": 0.06242613185730911,
+      "angle_deg": 30,
+      "shear_band_mm": 20,
+      "conditional_travel_mm": 167.74987013294935
+    }
+  ]
+}
