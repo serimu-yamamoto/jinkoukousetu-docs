@@ -1,0 +1,23 @@
+{
+  "cycle": 103,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress; cycle102 published finite-contact evidence",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "candidate": "H103-D distributed support interruptions with short narrow throats and wider exits",
+  "status": "mechanical surrogate improvement and separate flow constraints; coupled real geometry unproven",
+  "rejected_within_tested_range": [
+    "inner-edge stiffness reduction",
+    "sampled two-ended grading as simultaneous pressure/displacement improvement"
+  ],
+  "next": [
+    "include exit-induced ligament reduction in real 3D particle stiffness",
+    "finite-rotation and random-orientation contact",
+    "wetting clogging wear and winter refreeze",
+    "50 C properties recovery ski friction edge release safety environmental and cost",
+    "retain ambient spray crystallization mineral and composite routes"
+  ],
+  "local_policy": "server-only research; delete owned working copies after public byte verification"
+}

@@ -1,0 +1,22 @@
+{
+  "cycle": 103,
+  "date": "2026-10-10",
+  "base_commit": "7ed70ab70c7466308364e1eaccb2c2e4fe07e69b",
+  "gamma": [
+    0.1,
+    0.25
+  ],
+  "ramp": [
+    0.05,
+    0.15,
+    0.3
+  ],
+  "edge": [
+    0.0,
+    0.05,
+    0.2
+  ],
+  "physical_trials": 0,
+  "success_probability": null,
+  "stiffness_calibration": "none; independent graded Winkler elements"
+}

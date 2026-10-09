@@ -1,0 +1,15 @@
+{
+  "links_checked": 14,
+  "stored_result_checks_passed": true,
+  "prior_text_preserved": true,
+  "cases": {
+    "inner": 20,
+    "two_ended": 72,
+    "drainage": 8
+  },
+  "primary_checks": 6700,
+  "drainage_equilibria": 4134,
+  "probability": null,
+  "physical_trials": 0,
+  "public_byte_verification": "after commit; checked before deletion"
+}

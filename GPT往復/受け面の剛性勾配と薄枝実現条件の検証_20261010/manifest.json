@@ -1,0 +1,119 @@
+{
+  "cycle": 103,
+  "base_commit": "7ed70ab70c7466308364e1eaccb2c2e4fe07e69b",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第103巡_柔軟化の限界と排水を分散する支持構造_20261010.md",
+      "bytes": 8033,
+      "sha256": "b869e7bf1124deb54ec061f59ef284c723781d6ceb7d8121d354c2e555aaf276"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 67102,
+      "sha256": "f8d088530a830c911d5db6c77beb9a2d340a22802f77ce299f7042b64e5791dc"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/README.md",
+      "bytes": 4117,
+      "sha256": "b156212be6669e709c1c123248f6bcf7302120af10bd3fbbeaace48d7e337168"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/claude_handoff.md",
+      "bytes": 2522,
+      "sha256": "89863c66f97a7fd9a3c21415d19b41c7a9b11e6099823587aebb0c48d253d7ef"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/drain_distribution.json",
+      "bytes": 6442874,
+      "sha256": "452d1e34e92c55206cebd1ff5bd431a649ebcf2c76555b934f1df7ca1e694ff5"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/drain_distribution.py",
+      "bytes": 3902,
+      "sha256": "be32a93ec7e8e587de8b179c9057d083123f1cd45a10a361551962e1a8bbfc3d"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "4a8091e3d5f4c42774960715905cfb82dcaf6bd5f9e36f8f97d876b2eb4977e0"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/inputs.json",
+      "bytes": 356,
+      "sha256": "51f51d59d0cdb4ac5734123f547f293b42a76deb8707dd1251516bd19787e9f5"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/profile_screen.json",
+      "bytes": 2220215,
+      "sha256": "2945991d498ec4e092a2c90b29198a924939f87c2e9bf9ef9bc656b3f48426e5"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/profile_screen.py",
+      "bytes": 3438,
+      "sha256": "a3e294b204f12bbac14b38a92e6b56828f21b54372f23c86a8d4b5681fd236c0"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/publication_audit.json",
+      "bytes": 346,
+      "sha256": "c3e2b39e35e3a8c38ef65b78db17e024f013f3a34d27b8ecc94da0e1b3298754"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/reproduce.py",
+      "bytes": 6022,
+      "sha256": "1592f0366d31ebaf0c6d132c2b4e5f1a213aca7ce74a9d6c1e76ef82616dd512"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/research_state.json",
+      "bytes": 1182,
+      "sha256": "9f35e33223a23eac6201909c8ed6f2fe73b2f5945a49690364959a70a33aa7a0"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/results.json",
+      "bytes": 783608,
+      "sha256": "12dbb2d88b3d742ed6d4537eead112e1ab97fce3a00953d6ea5727ad9a32e4d7"
+    },
+    {
+      "path": "GPT往復/受け面の剛性勾配と薄枝実現条件の検証_20261010/validation.json",
+      "bytes": 229076,
+      "sha256": "4e901d6537d3676a1f0fe610bc9fbc3ebdc81ea927e18309d4ab464d88e394e1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 77053,
+      "sha256": "c0f52121c96f998c120d3e3a0122f0330b81a097344ca885c096bfc77e88c769"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 180045,
+      "sha256": "83c6bc46796721434a0a2405d59e15f6f7c1f50db67addabf2c10f65b1c6fbbc"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 733,
+      "sha256": "dea7b578f45db7051dc78db36762f5bb3e1ed5ad60b9eabcb59a64239dce8e9d"
+    },
+    {
+      "path": "計算部品/graded_contact.py",
+      "bytes": 3737,
+      "sha256": "b8b59ebc337371ebc06c9ec75ff98c8c6a342a689d022962e49b40ab8c4aec20"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 26784,
+      "sha256": "a9c75bc8cda3f01e0728886cdd5d7c2d1c584e0e3391ced3241381cc2f2468b3"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 230745,
+      "sha256": "cd64ab2ef0f01d9c96f56189ad2d1d16bfc4e83474d4ba014ae7fad65c834775"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/handover_contacts.py",
+      "bytes": 3332,
+      "sha256": "2c7828b8af449b3ea150307bffe3c0274ff086f6d310500ac0fc34d537403904"
+    }
+  ]
+}
