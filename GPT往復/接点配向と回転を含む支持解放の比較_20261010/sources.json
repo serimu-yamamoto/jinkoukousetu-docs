@@ -1,0 +1,22 @@
+[
+  {
+    "id": "S1",
+    "title": "Stress-induced anisotropy in granular materials: fabric, stiffness, and permeability",
+    "authors": "Kuhn, Sun, Wang",
+    "journal_year": 2015,
+    "arxiv_submitted": "2018-12-19",
+    "url": "https://arxiv.org/abs/1812.08267",
+    "accessed": "2026-10-10",
+    "scope": "author abstract and journal-reference metadata only; body/surface/contact/void fabrics distinguished; not coefficients imported"
+  },
+  {
+    "id": "S2",
+    "title": "Granular Packings: Nonlinear elasticity, sound propagation and collective relaxation dynamics",
+    "authors": "Makse, Gland, Johnson, Schwartz",
+    "journal_year": 2004,
+    "arxiv_submitted": "2005-03-02",
+    "url": "https://arxiv.org/abs/cond-mat/0503053",
+    "accessed": "2026-10-10",
+    "scope": "author abstract and journal-reference metadata only; shear and nonaffine relaxation limits, not reproduced full study"
+  }
+]

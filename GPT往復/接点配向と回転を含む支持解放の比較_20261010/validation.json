@@ -1,0 +1,371 @@
+{
+  "status": "numerical_and_analytic_consistency_only",
+  "physical_validation": false,
+  "count": 91,
+  "checks": [
+    {
+      "name": "120 full tensor comparisons",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.02, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.02, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.02, 15.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.02, 15.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.02, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.02, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.02, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.02, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.02, 90.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.02, 90.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.1, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.1, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.1, 15.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.1, 15.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.1, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.1, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.1, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.1, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (0.1, 90.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (0.1, 90.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (1.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (1.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (1.0, 15.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (1.0, 15.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (1.0, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (1.0, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (1.0, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (1.0, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Czz (1.0, 90.0)",
+      "passed": true
+    },
+    {
+      "name": "closed Gxz (1.0, 90.0)",
+      "passed": true
+    },
+    {
+      "name": "isotropic ratio 0.01",
+      "passed": true
+    },
+    {
+      "name": "isotropic central relaxation zero 0.01",
+      "passed": true
+    },
+    {
+      "name": "isotropic ratio 0.02",
+      "passed": true
+    },
+    {
+      "name": "isotropic central relaxation zero 0.02",
+      "passed": true
+    },
+    {
+      "name": "isotropic ratio 0.1",
+      "passed": true
+    },
+    {
+      "name": "isotropic central relaxation zero 0.1",
+      "passed": true
+    },
+    {
+      "name": "isotropic ratio 0.5",
+      "passed": true
+    },
+    {
+      "name": "isotropic central relaxation zero 0.5",
+      "passed": true
+    },
+    {
+      "name": "isotropic ratio 1.0",
+      "passed": true
+    },
+    {
+      "name": "isotropic central relaxation zero 1.0",
+      "passed": true
+    },
+    {
+      "name": "direct energy (0.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "particle force torque equilibrium (0.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxation cannot raise quadratic energy (0.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxed nonnegative energy (0.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "direct energy (15.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "particle force torque equilibrium (15.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxation cannot raise quadratic energy (15.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxed nonnegative energy (15.0, 0.0)",
+      "passed": true
+    },
+    {
+      "name": "direct energy (30.0, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "particle force torque equilibrium (30.0, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxation cannot raise quadratic energy (30.0, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxed nonnegative energy (30.0, 30.0)",
+      "passed": true
+    },
+    {
+      "name": "direct energy (90.0, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "particle force torque equilibrium (90.0, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxation cannot raise quadratic energy (90.0, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "relaxed nonnegative energy (90.0, 45.0)",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (0.0, 'C')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (0.0, 'relaxed')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (15.0, 'C')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (15.0, 'relaxed')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (30.0, 'C')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (30.0, 'relaxed')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (90.0, 'C')",
+      "passed": true
+    },
+    {
+      "name": "Mandel rotation spectrum (90.0, 'relaxed')",
+      "passed": true
+    },
+    {
+      "name": "aligned fixed rotational shear finite",
+      "passed": true
+    },
+    {
+      "name": "aligned free rotation removes xz shear",
+      "passed": true
+    },
+    {
+      "name": "aligned free rotation leaves one supported strain mode",
+      "passed": true
+    },
+    {
+      "name": "quadrature C 0",
+      "passed": true
+    },
+    {
+      "name": "quadrature relaxed 0",
+      "passed": true
+    },
+    {
+      "name": "quadrature C 1",
+      "passed": true
+    },
+    {
+      "name": "quadrature relaxed 1",
+      "passed": true
+    },
+    {
+      "name": "illustrative ratio boundary",
+      "passed": true
+    },
+    {
+      "name": "one pass timing",
+      "passed": true
+    },
+    {
+      "name": "two pass timing",
+      "passed": true
+    },
+    {
+      "name": "two pass minimum speed",
+      "passed": true
+    },
+    {
+      "name": "regular star second fabric isotropic six_axes",
+      "passed": true
+    },
+    {
+      "name": "regular star central relaxation zero six_axes",
+      "passed": true
+    },
+    {
+      "name": "regular star six strain modes positive six_axes",
+      "passed": true
+    },
+    {
+      "name": "regular star second fabric isotropic eight_diagonals",
+      "passed": true
+    },
+    {
+      "name": "regular star central relaxation zero eight_diagonals",
+      "passed": true
+    },
+    {
+      "name": "regular star six strain modes positive eight_diagonals",
+      "passed": true
+    },
+    {
+      "name": "regular star second fabric isotropic twelve_icosahedral",
+      "passed": true
+    },
+    {
+      "name": "regular star central relaxation zero twelve_icosahedral",
+      "passed": true
+    },
+    {
+      "name": "regular star six strain modes positive twelve_icosahedral",
+      "passed": true
+    },
+    {
+      "name": "six axes closed ratio",
+      "passed": true
+    },
+    {
+      "name": "eight diagonal closed ratio",
+      "passed": true
+    },
+    {
+      "name": "icosahedral full fourth moment isotropic",
+      "passed": true
+    },
+    {
+      "name": "icosahedral closed ratio",
+      "passed": true
+    },
+    {
+      "name": "SO3 weights normalized",
+      "passed": true
+    },
+    {
+      "name": "randomized six axes loses cubic anisotropy",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "cycle": 109,
+  "base_commit": "2120a41beac9867c382f0945ec0b5880d3d3bd9e",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第109巡_粒の配向と自由回転を踏まえた支持解放_20261010.md",
+      "bytes": 12777,
+      "sha256": "877d940fdd7b1092f154bed758b95f9cfefa3cb9d4daf3fbd9ca2926d6a05464"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 71080,
+      "sha256": "7e7f4654be97e01ce69a53c5448513a99b56dd3f847e3d447ff06417aa7c828c"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/README.md",
+      "bytes": 778,
+      "sha256": "8e8dac81b2394716971972710f2d7ab8f0955a39e093448eb079432a1286e064"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/claude_handoff.md",
+      "bytes": 2022,
+      "sha256": "dbf52e96c18b4ac2ee6875c474b4d688018cab1168fce23a750934960a89bd0b"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/geometry.json",
+      "bytes": 6098,
+      "sha256": "5927938fc94676d8c9ee3db80145a390b7ac294f915a5871f94c0b6e5c0b5da4"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "5e09565eada8eec6b55e94a054abfd1132465c15ddf93130b0ba9e8790ef030c"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/model.md",
+      "bytes": 4952,
+      "sha256": "01d5b69ba2cfe75044dfa776ba010e65c16ab8ae6687e077ff7ea11905bd5ecb"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/publication_audit.json",
+      "bytes": 322,
+      "sha256": "4d5ce2c6bc9c25d6183537a1ed6e098b3fb70ffede54a029ebf3c8b8795f7c4f"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/reproduce.py",
+      "bytes": 7466,
+      "sha256": "c9bfa980a44c84f7ae2b8282eb5c9b075fd0705944d186b35ff546022098034f"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/research_state.json",
+      "bytes": 1060,
+      "sha256": "f014fe2e9d58fafaf90085c95e72f20d8a83b26d41ea04c18cc8980e7f531447"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/results.json",
+      "bytes": 197886,
+      "sha256": "4a603746f81bd4da4873de40c60c5f7eb7c8522fe472b0d70b53d80dd7bb3e5b"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/sources.json",
+      "bytes": 910,
+      "sha256": "307303fd79936368a01fede00682c4adcc0e62b8af85469970de66d3c01372fe"
+    },
+    {
+      "path": "GPT往復/接点配向と回転を含む支持解放の比較_20261010/validation.json",
+      "bytes": 7698,
+      "sha256": "ed9c8a2b9c3372cbd82995514a5a33287e7e2d423ed7d325e3c0d764b1fa13de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 81121,
+      "sha256": "230471271317bc6e1458fd2b424de18fa26ede91118c81c36d320a7ffb5e7eeb"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 187336,
+      "sha256": "3ec0a46333c4473b87bbd5bab467d3bd68da192c005e1b1d590733a4c351dcb2"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 2098,
+      "sha256": "93d7bcc94fc8c438c5c8de860d21737574a232680ba8b44d4bf5b3646f5b1086"
+    },
+    {
+      "path": "計算部品/contact_fabric.py",
+      "bytes": 4479,
+      "sha256": "b1b9749b3c26afd12391f3b7b15415681bee778dfbe85b4af9118b1cc8ddc4b0"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 32231,
+      "sha256": "589a275a218785361afb11794508538afcc42462e6d0d74f0cc67ff00af38bfb"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 232540,
+      "sha256": "37da491fad1168c9c30ca951d6b973d210f5bb9c303b61a5aac96f45752dc908"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/model.md",
+      "bytes": 2270,
+      "sha256": "cba43d0d72c4855d2578e98be436c9c6224f430ecdc26de3be82b675410ce768"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/results.json",
+      "bytes": 15747,
+      "sha256": "57ce8fef59470f36468f67907d3d2e19822008e2c4638a643fdd31ed8c9b9ff2"
+    }
+  ]
+}

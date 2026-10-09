@@ -1,0 +1,10 @@
+{
+  "links_checked": 31,
+  "stored_result_reproduction_passed": true,
+  "prior_text_preserved": true,
+  "numerical_checks": 91,
+  "physical_trials": 0,
+  "success_probability": null,
+  "orientation_comparison_transferred_to_physical_success": false,
+  "public_byte_verification": "required after commit before deletion"
+}

@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [contact_fabric.py](contact_fabric.py)：接点配向と自由回転を含む微小支持模型。[第109巡](../GPT往復/接点配向と回転を含む支持解放の比較_20261010/README.md)。大変位解放・50℃・実床は未実証。
+
 - [load_unload_foundation.py](load_unload_foundation.py)：移動する押込み履歴の変形仕事と同深さ比較。[第108巡](../GPT往復/滑走方向の変形仕事と横解放の分離_20261010/README.md)。横切削・50℃材料未同定。
 
 - [restoration_process.py](restoration_process.py)：保持水切りと分流復旧の収支。[第107巡](../GPT往復/分流水切りと60分復旧の成立条件_20261010/README.md)。実機能力・実物損傷未検証。
