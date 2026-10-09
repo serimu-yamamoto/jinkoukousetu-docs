@@ -1,0 +1,22 @@
+{
+  "cycle": 97,
+  "base_commit": "4a63db5f6c5e101436da1eacc27e527ec78aed53",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "facilities_available": false,
+  "collaborators_available": false,
+  "contacts_sent": 0,
+  "quotes_obtained": 0,
+  "selected_material": null,
+  "claude_receipt_confirmed": false,
+  "claude_reply_confirmed": false,
+  "claude_ledger_sha256_LF": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "actual_50C_modulus": null,
+  "actual_ski_friction": null,
+  "actual_grain_lifetime": null,
+  "snow_crystal_growth_confirmed": false,
+  "source_version": "author accepted preproof read as HTML; PDF not obtained",
+  "hypothesis": "H97 form open single-material branches, stabilize and qualify after final thermal/mechanical shaping, then compare aged stiffness and ski contact response; PHA is a comparison candidate, not selected",
+  "post_forming_stability_measured_for_product": false,
+  "novelty_claim": "engineering proposal only; patent novelty not established"
+}

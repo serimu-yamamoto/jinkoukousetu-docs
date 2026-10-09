@@ -1,0 +1,908 @@
+{
+  "physical_experiments": 0,
+  "success_probability": null,
+  "actual_50C_modulus": null,
+  "actual_ski_friction": null,
+  "aging_cases": [
+    {
+      "material": "PHBHHx",
+      "start_age_hours": 1,
+      "run_hours": 4,
+      "nominal_fractional_drift": 0.16520449252825933,
+      "lower_exponent_drift": 0.15772728939675498,
+      "upper_exponent_drift": 0.1727299873146135,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "start_age_hours": 1,
+      "run_hours": 8,
+      "nominal_fractional_drift": 0.23212008856668037,
+      "lower_exponent_drift": 0.22133855868949912,
+      "upper_exponent_drift": 0.24299679384438058,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "start_age_hours": 24,
+      "run_hours": 4,
+      "nominal_fractional_drift": 0.014752067907065626,
+      "lower_exponent_drift": 0.014126561886744262,
+      "upper_exponent_drift": 0.015377959735032863,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "start_age_hours": 24,
+      "run_hours": 8,
+      "nominal_fractional_drift": 0.027706681339929883,
+      "lower_exponent_drift": 0.02652475035921996,
+      "upper_exponent_drift": 0.028889973184898245,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "start_age_hours": 72,
+      "run_hours": 4,
+      "nominal_fractional_drift": 0.005149599865468424,
+      "lower_exponent_drift": 0.00493224078701578,
+      "upper_exponent_drift": 0.005367005957010178,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "start_age_hours": 72,
+      "run_hours": 8,
+      "nominal_fractional_drift": 0.010059509068733107,
+      "lower_exponent_drift": 0.009633917193308961,
+      "upper_exponent_drift": 0.010485280344275795,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "start_age_hours": 1,
+      "run_hours": 4,
+      "nominal_fractional_drift": 0.34898903872766307,
+      "lower_exponent_drift": 0.3317314642975278,
+      "upper_exponent_drift": 0.36647024974159625,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "start_age_hours": 1,
+      "run_hours": 8,
+      "nominal_fractional_drift": 0.5048357731024073,
+      "lower_exponent_drift": 0.4786152010102398,
+      "upper_exponent_drift": 0.531521319719638,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "start_age_hours": 24,
+      "run_hours": 4,
+      "nominal_fractional_drift": 0.029087025794056504,
+      "lower_exponent_drift": 0.027818732271005783,
+      "upper_exponent_drift": 0.03035688434838182,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "start_age_hours": 24,
+      "run_hours": 8,
+      "nominal_fractional_drift": 0.05496634450497394,
+      "lower_exponent_drift": 0.05254117704938913,
+      "upper_exponent_drift": 0.057397099805781227,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "start_age_hours": 72,
+      "run_hours": 4,
+      "nominal_fractional_drift": 0.010107239718977477,
+      "lower_exponent_drift": 0.009670424662200314,
+      "upper_exponent_drift": 0.01054424375563279,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "start_age_hours": 72,
+      "run_hours": 8,
+      "nominal_fractional_drift": 0.019790338739415582,
+      "lower_exponent_drift": 0.018931135806920695,
+      "upper_exponent_drift": 0.020650266185720353,
+      "all_ages_within_5min_10day": true,
+      "actual_50C_prediction": false
+    }
+  ],
+  "conditioning_windows": [
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.091,
+      "minimum_age_hours": 16.453879235518194,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.095,
+      "minimum_age_hours": 17.258805557491552,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.099,
+      "minimum_age_hours": 18.06397761052674,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.091,
+      "minimum_age_hours": 5.638388209975761,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.095,
+      "minimum_age_hours": 5.958900711798437,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.099,
+      "minimum_age_hours": 6.280005462314875,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.091,
+      "minimum_age_hours": 2.1620102172715963,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.095,
+      "minimum_age_hours": 2.3159249831061817,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.099,
+      "minimum_age_hours": 2.4709146168315663,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.091,
+      "minimum_age_hours": 32.90775847103639,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.095,
+      "minimum_age_hours": 34.517611114983104,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.099,
+      "minimum_age_hours": 36.12795522105348,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.091,
+      "minimum_age_hours": 11.276776419951522,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.095,
+      "minimum_age_hours": 11.917801423596874,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.099,
+      "minimum_age_hours": 12.56001092462975,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.091,
+      "minimum_age_hours": 4.3240204345431925,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.095,
+      "minimum_age_hours": 4.631849966212363,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "PHBHHx",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.099,
+      "minimum_age_hours": 4.941829233663133,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.178,
+      "minimum_age_hours": 33.99190097621135,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.186,
+      "minimum_age_hours": 35.606254121968036,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.194,
+      "minimum_age_hours": 37.220738664063894,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.178,
+      "minimum_age_hours": 12.684358374594542,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.186,
+      "minimum_age_hours": 13.336312590675988,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.194,
+      "minimum_age_hours": 13.988588685053742,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.178,
+      "minimum_age_hours": 5.647982173767264,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.186,
+      "minimum_age_hours": 5.976155587874921,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 4,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.194,
+      "minimum_age_hours": 6.304945720373415,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.178,
+      "minimum_age_hours": 67.9838019524227,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.186,
+      "minimum_age_hours": 71.21250824393607,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.02,
+      "exponent": 0.194,
+      "minimum_age_hours": 74.44147732812779,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.178,
+      "minimum_age_hours": 25.368716749189083,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.186,
+      "minimum_age_hours": 26.672625181351975,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.05,
+      "exponent": 0.194,
+      "minimum_age_hours": 27.977177370107484,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.178,
+      "minimum_age_hours": 11.295964347534529,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.186,
+      "minimum_age_hours": 11.952311175749841,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    },
+    {
+      "material": "P3HB4HB",
+      "run_hours": 8,
+      "assumed_drift_limit": 0.1,
+      "exponent": 0.194,
+      "minimum_age_hours": 12.60989144074683,
+      "within_age_window": true,
+      "actual_50C_prediction": false
+    }
+  ],
+  "source_ratios": [
+    {
+      "material": "PHBHHx",
+      "G_10day_to_5min": 2.155234657039711,
+      "yield_parameter_10day_to_5min": 0.9843749999999999,
+      "interpretation": "reported fit parameters, not recovery or 50C modulus"
+    },
+    {
+      "material": "P3HB4HB",
+      "G_10day_to_5min": 2.222222222222222,
+      "yield_parameter_10day_to_5min": 2.395833333333333,
+      "interpretation": "reported fit parameters, not recovery or 50C modulus"
+    }
+  ],
+  "same_geometry_mass": [
+    {
+      "material": "PHBHHx",
+      "mass_kg_same_solid_volume": 175645.16129032258,
+      "mass_ratio": 1.3010752688172043
+    },
+    {
+      "material": "P3HB4HB",
+      "mass_kg_same_solid_volume": 178548.38709677418,
+      "mass_ratio": 1.3225806451612903
+    }
+  ],
+  "equal_bending_cost_cases": [
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 200,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 1.0,
+      "mass_ratio": 1.3010752688172043,
+      "finished_mass_kg": 175645.16129032258,
+      "raw_resin_cost_JPY": 87822580.64516129,
+      "raw_cost_ratio_to_PE": 1.3010752688172043,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 400,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 0.7937005259840998,
+      "mass_ratio": 1.032664125205119,
+      "finished_mass_kg": 139409.65690269106,
+      "raw_resin_cost_JPY": 69704828.45134553,
+      "raw_cost_ratio_to_PE": 1.032664125205119,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 800,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 0.6299605249474366,
+      "mass_ratio": 0.8196260593402132,
+      "finished_mass_kg": 110649.51801092878,
+      "raw_resin_cost_JPY": 55324759.00546439,
+      "raw_cost_ratio_to_PE": 0.8196260593402132,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 1600,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 0.5,
+      "mass_ratio": 0.6505376344086021,
+      "finished_mass_kg": 87822.58064516129,
+      "raw_resin_cost_JPY": 43911290.32258064,
+      "raw_cost_ratio_to_PE": 0.6505376344086021,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 200,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 1.0,
+      "mass_ratio": 1.3010752688172043,
+      "finished_mass_kg": 175645.16129032258,
+      "raw_resin_cost_JPY": 175645161.29032257,
+      "raw_cost_ratio_to_PE": 2.6021505376344085,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 400,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 0.7937005259840998,
+      "mass_ratio": 1.032664125205119,
+      "finished_mass_kg": 139409.65690269106,
+      "raw_resin_cost_JPY": 139409656.90269107,
+      "raw_cost_ratio_to_PE": 2.065328250410238,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 800,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 0.6299605249474366,
+      "mass_ratio": 0.8196260593402132,
+      "finished_mass_kg": 110649.51801092878,
+      "raw_resin_cost_JPY": 110649518.01092878,
+      "raw_cost_ratio_to_PE": 1.6392521186804263,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 1600,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 0.5,
+      "mass_ratio": 0.6505376344086021,
+      "finished_mass_kg": 87822.58064516129,
+      "raw_resin_cost_JPY": 87822580.64516129,
+      "raw_cost_ratio_to_PE": 1.3010752688172043,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 200,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 1.0,
+      "mass_ratio": 1.3010752688172043,
+      "finished_mass_kg": 175645.16129032258,
+      "raw_resin_cost_JPY": 263467741.93548387,
+      "raw_cost_ratio_to_PE": 3.9032258064516125,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 400,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 0.7937005259840998,
+      "mass_ratio": 1.032664125205119,
+      "finished_mass_kg": 139409.65690269106,
+      "raw_resin_cost_JPY": 209114485.3540366,
+      "raw_cost_ratio_to_PE": 3.097992375615357,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 800,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 0.6299605249474366,
+      "mass_ratio": 0.8196260593402132,
+      "finished_mass_kg": 110649.51801092878,
+      "raw_resin_cost_JPY": 165974277.01639315,
+      "raw_cost_ratio_to_PE": 2.4588781780206395,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 1600,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 0.5,
+      "mass_ratio": 0.6505376344086021,
+      "finished_mass_kg": 87822.58064516129,
+      "raw_resin_cost_JPY": 131733870.96774194,
+      "raw_cost_ratio_to_PE": 1.9516129032258063,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 200,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 1.0,
+      "mass_ratio": 1.3225806451612903,
+      "finished_mass_kg": 178548.38709677418,
+      "raw_resin_cost_JPY": 89274193.5483871,
+      "raw_cost_ratio_to_PE": 1.3225806451612903,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 400,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 0.7937005259840998,
+      "mass_ratio": 1.0497329537209061,
+      "finished_mass_kg": 141713.94875232232,
+      "raw_resin_cost_JPY": 70856974.37616116,
+      "raw_cost_ratio_to_PE": 1.0497329537209061,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 800,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 0.6299605249474366,
+      "mass_ratio": 0.8331735975111257,
+      "finished_mass_kg": 112478.43566400197,
+      "raw_resin_cost_JPY": 56239217.832000986,
+      "raw_cost_ratio_to_PE": 0.8331735975111257,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 1600,
+      "assumed_price_JPY_kg": 500,
+      "thickness_ratio": 0.5,
+      "mass_ratio": 0.6612903225806451,
+      "finished_mass_kg": 89274.19354838709,
+      "raw_resin_cost_JPY": 44637096.77419355,
+      "raw_cost_ratio_to_PE": 0.6612903225806451,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 200,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 1.0,
+      "mass_ratio": 1.3225806451612903,
+      "finished_mass_kg": 178548.38709677418,
+      "raw_resin_cost_JPY": 178548387.0967742,
+      "raw_cost_ratio_to_PE": 2.6451612903225805,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 400,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 0.7937005259840998,
+      "mass_ratio": 1.0497329537209061,
+      "finished_mass_kg": 141713.94875232232,
+      "raw_resin_cost_JPY": 141713948.75232232,
+      "raw_cost_ratio_to_PE": 2.0994659074418123,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 800,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 0.6299605249474366,
+      "mass_ratio": 0.8331735975111257,
+      "finished_mass_kg": 112478.43566400197,
+      "raw_resin_cost_JPY": 112478435.66400197,
+      "raw_cost_ratio_to_PE": 1.6663471950222515,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 1600,
+      "assumed_price_JPY_kg": 1000,
+      "thickness_ratio": 0.5,
+      "mass_ratio": 0.6612903225806451,
+      "finished_mass_kg": 89274.19354838709,
+      "raw_resin_cost_JPY": 89274193.5483871,
+      "raw_cost_ratio_to_PE": 1.3225806451612903,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 200,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 1.0,
+      "mass_ratio": 1.3225806451612903,
+      "finished_mass_kg": 178548.38709677418,
+      "raw_resin_cost_JPY": 267822580.64516127,
+      "raw_cost_ratio_to_PE": 3.9677419354838706,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 400,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 0.7937005259840998,
+      "mass_ratio": 1.0497329537209061,
+      "finished_mass_kg": 141713.94875232232,
+      "raw_resin_cost_JPY": 212570923.12848347,
+      "raw_cost_ratio_to_PE": 3.1491988611627186,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 800,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 0.6299605249474366,
+      "mass_ratio": 0.8331735975111257,
+      "finished_mass_kg": 112478.43566400197,
+      "raw_resin_cost_JPY": 168717653.49600294,
+      "raw_cost_ratio_to_PE": 2.499520792533377,
+      "quoted": false,
+      "qualified_geometry": false
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 1600,
+      "assumed_price_JPY_kg": 1500,
+      "thickness_ratio": 0.5,
+      "mass_ratio": 0.6612903225806451,
+      "finished_mass_kg": 89274.19354838709,
+      "raw_resin_cost_JPY": 133911290.32258064,
+      "raw_cost_ratio_to_PE": 1.9838709677419353,
+      "quoted": false,
+      "qualified_geometry": false
+    }
+  ],
+  "raw_cost_parity_boundaries": [
+    {
+      "material": "PHBHHx",
+      "assumed_PHA_price_JPY_kg": 500,
+      "required_PHA_modulus_MPa_for_raw_cost_parity": 440.49122466765374,
+      "actual_modulus_MPa": null
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_PHA_price_JPY_kg": 1000,
+      "required_PHA_modulus_MPa_for_raw_cost_parity": 3523.92979734123,
+      "actual_modulus_MPa": null
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_PHA_price_JPY_kg": 1500,
+      "required_PHA_modulus_MPa_for_raw_cost_parity": 11893.26306602665,
+      "actual_modulus_MPa": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_PHA_price_JPY_kg": 500,
+      "required_PHA_modulus_MPa_for_raw_cost_parity": 462.6967876204222,
+      "actual_modulus_MPa": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_PHA_price_JPY_kg": 1000,
+      "required_PHA_modulus_MPa_for_raw_cost_parity": 3701.5743009633775,
+      "actual_modulus_MPa": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_PHA_price_JPY_kg": 1500,
+      "required_PHA_modulus_MPa_for_raw_cost_parity": 12492.813265751396,
+      "actual_modulus_MPa": null
+    }
+  ],
+  "raw_price_ceilings": [
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 200,
+      "max_raw_price_JPY_kg_for_parity": 384.297520661157,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 400,
+      "max_raw_price_JPY_kg_for_parity": 484.18453570340165,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 800,
+      "max_raw_price_JPY_kg_for_parity": 610.0342885662915,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "PHBHHx",
+      "assumed_E50_MPa": 1600,
+      "max_raw_price_JPY_kg_for_parity": 768.595041322314,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 200,
+      "max_raw_price_JPY_kg_for_parity": 378.0487804878049,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 400,
+      "max_raw_price_JPY_kg_for_parity": 476.3116164236716,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 800,
+      "max_raw_price_JPY_kg_for_parity": 600.1150318416363,
+      "actual_price_JPY_kg": null
+    },
+    {
+      "material": "P3HB4HB",
+      "assumed_E50_MPa": 1600,
+      "max_raw_price_JPY_kg_for_parity": 756.0975609756098,
+      "actual_price_JPY_kg": null
+    }
+  ],
+  "holding_cost_cases": [
+    {
+      "assumed_hold_days": 3,
+      "assumed_bulk_density_kg_m3": 150,
+      "assumed_storage_JPY_m3_day": 50,
+      "work_in_process_kg": 15000,
+      "work_in_process_m3": 100.0,
+      "storage_JPY_per_finished_kg": 1.0,
+      "capital_JPY_per_finished_kg": 1.2328767123287672,
+      "partial_holding_JPY_per_kg": 2.232876712328767,
+      "heat_energy_and_equipment_included": false
+    },
+    {
+      "assumed_hold_days": 3,
+      "assumed_bulk_density_kg_m3": 150,
+      "assumed_storage_JPY_m3_day": 200,
+      "work_in_process_kg": 15000,
+      "work_in_process_m3": 100.0,
+      "storage_JPY_per_finished_kg": 4.0,
+      "capital_JPY_per_finished_kg": 1.2328767123287672,
+      "partial_holding_JPY_per_kg": 5.232876712328768,
+      "heat_energy_and_equipment_included": false
+    },
+    {
+      "assumed_hold_days": 3,
+      "assumed_bulk_density_kg_m3": 600,
+      "assumed_storage_JPY_m3_day": 50,
+      "work_in_process_kg": 15000,
+      "work_in_process_m3": 25.0,
+      "storage_JPY_per_finished_kg": 0.25,
+      "capital_JPY_per_finished_kg": 1.2328767123287672,
+      "partial_holding_JPY_per_kg": 1.4828767123287672,
+      "heat_energy_and_equipment_included": false
+    },
+    {
+      "assumed_hold_days": 3,
+      "assumed_bulk_density_kg_m3": 600,
+      "assumed_storage_JPY_m3_day": 200,
+      "work_in_process_kg": 15000,
+      "work_in_process_m3": 25.0,
+      "storage_JPY_per_finished_kg": 1.0,
+      "capital_JPY_per_finished_kg": 1.2328767123287672,
+      "partial_holding_JPY_per_kg": 2.232876712328767,
+      "heat_energy_and_equipment_included": false
+    }
+  ],
+  "scratch_speed_m_s": 8.333333333333333e-05,
+  "illustrative_5m_s_to_scratch_speed_ratio": 60000.0,
+  "scratch_coefficients_used_for_ski": false,
+  "lifetime_cost_known": false
+}

@@ -1,0 +1,269 @@
+{
+  "all_passed": true,
+  "audit_checks": 65,
+  "numeric_checks": 85,
+  "local_link_count": 653,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "physical_experiments_zero",
+      "passed": true
+    },
+    {
+      "name": "success_probability_unknown",
+      "passed": true
+    },
+    {
+      "name": "no_equipment_or_partner",
+      "passed": true
+    },
+    {
+      "name": "no_contacts_or_quotes",
+      "passed": true
+    },
+    {
+      "name": "claude_reply_not_claimed",
+      "passed": true
+    },
+    {
+      "name": "material_not_selected",
+      "passed": true
+    },
+    {
+      "name": "not_crystal_growth",
+      "passed": true
+    },
+    {
+      "name": "actual_values_missing",
+      "passed": true
+    },
+    {
+      "name": "source_temperature_unconfirmed",
+      "passed": true
+    },
+    {
+      "name": "aging_not_service_prediction",
+      "passed": true
+    },
+    {
+      "name": "scratch_not_ski",
+      "passed": true
+    },
+    {
+      "name": "85_arithmetic_checks",
+      "passed": true
+    },
+    {
+      "name": "case_counts",
+      "passed": true
+    },
+    {
+      "name": "boundary_counts",
+      "passed": true
+    },
+    {
+      "name": "calculation_window_not_extrapolated",
+      "passed": true
+    },
+    {
+      "name": "cost_not_quoted",
+      "passed": true
+    },
+    {
+      "name": "life_not_known",
+      "passed": true
+    },
+    {
+      "name": "36_unperformed_sets",
+      "passed": true
+    },
+    {
+      "name": "72_unperformed_specimens",
+      "passed": true
+    },
+    {
+      "name": "unique_sets_and_specimens",
+      "passed": true
+    },
+    {
+      "name": "full_factorial_sets",
+      "passed": true
+    },
+    {
+      "name": "two_types_per_set",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_preserved",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_0",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_3",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_2",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_1",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_4",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_5",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_condition_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_condition_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_condition_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_condition_60分",
+      "passed": true
+    },
+    {
+      "name": "report_condition_2億円",
+      "passed": true
+    },
+    {
+      "name": "report_condition_成功確率未算定",
+      "passed": true
+    },
+    {
+      "name": "report_condition_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_condition_50℃営業時の予測ではない",
+      "passed": true
+    },
+    {
+      "name": "report_condition_雪の結晶成長と呼ばない",
+      "passed": true
+    },
+    {
+      "name": "source_version_and_access_disclosed",
+      "passed": true
+    },
+    {
+      "name": "grade_difference_disclosed",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "png_signature",
+      "passed": true
+    },
+    {
+      "name": "figure_size",
+      "passed": true
+    },
+    {
+      "name": "full_reproduction_passes",
+      "passed": true
+    },
+    {
+      "name": "reproduction_preserves_bytes",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_make_figure.py",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "LF_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "LF_results.json",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_test_plan.md",
+      "passed": true
+    },
+    {
+      "name": "LF_validation.json",
+      "passed": true
+    }
+  ]
+}

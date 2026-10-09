@@ -1,0 +1,1021 @@
+{
+  "cycle": 97,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "status": "not_run",
+  "facilities_available": false,
+  "collaborators_available": false,
+  "test_temperature_C": 50,
+  "sets": [
+    {
+      "id": "C97-01",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-02",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-03",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-04",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-05",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-06",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-07",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-08",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-09",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-10",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-11",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-12",
+      "material": "PHBHHx_BP350-05",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-13",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-14",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-15",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-16",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-17",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-18",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-19",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-20",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-21",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-22",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-23",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-24",
+      "material": "P3HB4HB_A1000P",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-25",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-26",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-27",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "dry",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-28",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-29",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-30",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 1,
+      "environment": "wet_drained",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-31",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-32",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-33",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "dry",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-34",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 1,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-35",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 2,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    },
+    {
+      "id": "C97-36",
+      "material": "PE_reference_grade_unfixed",
+      "nominal_post_forming_age_hours": 72,
+      "environment": "wet_drained",
+      "replicate": 3,
+      "actual_age_hours": null,
+      "lot_id": null,
+      "status": "not_run"
+    }
+  ],
+  "specimens": [
+    {
+      "id": "C97-01-branch_bending",
+      "set_id": "C97-01",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-01-flat_ski_contact",
+      "set_id": "C97-01",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-02-branch_bending",
+      "set_id": "C97-02",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-02-flat_ski_contact",
+      "set_id": "C97-02",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-03-branch_bending",
+      "set_id": "C97-03",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-03-flat_ski_contact",
+      "set_id": "C97-03",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-04-branch_bending",
+      "set_id": "C97-04",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-04-flat_ski_contact",
+      "set_id": "C97-04",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-05-branch_bending",
+      "set_id": "C97-05",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-05-flat_ski_contact",
+      "set_id": "C97-05",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-06-branch_bending",
+      "set_id": "C97-06",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-06-flat_ski_contact",
+      "set_id": "C97-06",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-07-branch_bending",
+      "set_id": "C97-07",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-07-flat_ski_contact",
+      "set_id": "C97-07",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-08-branch_bending",
+      "set_id": "C97-08",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-08-flat_ski_contact",
+      "set_id": "C97-08",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-09-branch_bending",
+      "set_id": "C97-09",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-09-flat_ski_contact",
+      "set_id": "C97-09",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-10-branch_bending",
+      "set_id": "C97-10",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-10-flat_ski_contact",
+      "set_id": "C97-10",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-11-branch_bending",
+      "set_id": "C97-11",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-11-flat_ski_contact",
+      "set_id": "C97-11",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-12-branch_bending",
+      "set_id": "C97-12",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-12-flat_ski_contact",
+      "set_id": "C97-12",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-13-branch_bending",
+      "set_id": "C97-13",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-13-flat_ski_contact",
+      "set_id": "C97-13",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-14-branch_bending",
+      "set_id": "C97-14",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-14-flat_ski_contact",
+      "set_id": "C97-14",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-15-branch_bending",
+      "set_id": "C97-15",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-15-flat_ski_contact",
+      "set_id": "C97-15",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-16-branch_bending",
+      "set_id": "C97-16",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-16-flat_ski_contact",
+      "set_id": "C97-16",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-17-branch_bending",
+      "set_id": "C97-17",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-17-flat_ski_contact",
+      "set_id": "C97-17",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-18-branch_bending",
+      "set_id": "C97-18",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-18-flat_ski_contact",
+      "set_id": "C97-18",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-19-branch_bending",
+      "set_id": "C97-19",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-19-flat_ski_contact",
+      "set_id": "C97-19",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-20-branch_bending",
+      "set_id": "C97-20",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-20-flat_ski_contact",
+      "set_id": "C97-20",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-21-branch_bending",
+      "set_id": "C97-21",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-21-flat_ski_contact",
+      "set_id": "C97-21",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-22-branch_bending",
+      "set_id": "C97-22",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-22-flat_ski_contact",
+      "set_id": "C97-22",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-23-branch_bending",
+      "set_id": "C97-23",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-23-flat_ski_contact",
+      "set_id": "C97-23",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-24-branch_bending",
+      "set_id": "C97-24",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-24-flat_ski_contact",
+      "set_id": "C97-24",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-25-branch_bending",
+      "set_id": "C97-25",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-25-flat_ski_contact",
+      "set_id": "C97-25",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-26-branch_bending",
+      "set_id": "C97-26",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-26-flat_ski_contact",
+      "set_id": "C97-26",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-27-branch_bending",
+      "set_id": "C97-27",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-27-flat_ski_contact",
+      "set_id": "C97-27",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-28-branch_bending",
+      "set_id": "C97-28",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-28-flat_ski_contact",
+      "set_id": "C97-28",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-29-branch_bending",
+      "set_id": "C97-29",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-29-flat_ski_contact",
+      "set_id": "C97-29",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-30-branch_bending",
+      "set_id": "C97-30",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-30-flat_ski_contact",
+      "set_id": "C97-30",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-31-branch_bending",
+      "set_id": "C97-31",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-31-flat_ski_contact",
+      "set_id": "C97-31",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-32-branch_bending",
+      "set_id": "C97-32",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-32-flat_ski_contact",
+      "set_id": "C97-32",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-33-branch_bending",
+      "set_id": "C97-33",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-33-flat_ski_contact",
+      "set_id": "C97-33",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-34-branch_bending",
+      "set_id": "C97-34",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-34-flat_ski_contact",
+      "set_id": "C97-34",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-35-branch_bending",
+      "set_id": "C97-35",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-35-flat_ski_contact",
+      "set_id": "C97-35",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-36-branch_bending",
+      "set_id": "C97-36",
+      "type": "branch_bending",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "C97-36-flat_ski_contact",
+      "set_id": "C97-36",
+      "type": "flat_ski_contact",
+      "status": "not_run",
+      "measured_E50": null,
+      "measured_friction": null,
+      "measured_wear": null
+    }
+  ]
+}

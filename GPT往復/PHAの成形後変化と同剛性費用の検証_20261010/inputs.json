@@ -1,0 +1,114 @@
+{
+  "cycle": 97,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "source": {
+    "doi": "10.1016/j.polymer.2025.129207",
+    "source_version": "author-uploaded accepted preproof HTML; publisher abstract also checked; PDF download HTTP403",
+    "measurement_temperature_C": null,
+    "scratch_speed_mm_min": 5,
+    "scratch_total_distance_m": 0.075,
+    "diamond_tip_diameter_um": 200,
+    "minimum_scratch_age_hours": 72,
+    "materials": [
+      {
+        "name": "PHBHHx",
+        "grade": "Bluepha BP350-05",
+        "density_kg_m3": 1210,
+        "power_exponent": 0.095,
+        "exponent_reported_plus_minus": 0.004,
+        "rubbery_G_MPa": [
+          27.7,
+          33.8,
+          36.3,
+          59.7
+        ],
+        "yield_parameter_MPa": [
+          4.48,
+          4.66,
+          4.84,
+          4.41
+        ]
+      },
+      {
+        "name": "P3HB4HB",
+        "grade": "PHACT A1000P",
+        "density_kg_m3": 1230,
+        "power_exponent": 0.186,
+        "exponent_reported_plus_minus": 0.008,
+        "rubbery_G_MPa": [
+          0.27,
+          0.39,
+          0.5,
+          0.6
+        ],
+        "yield_parameter_MPa": [
+          0.48,
+          0.63,
+          0.9,
+          1.15
+        ]
+      }
+    ],
+    "age_hours": [
+      0.08333333333333333,
+      1,
+      24,
+      240
+    ],
+    "source_fits_are_not_50C": true
+  },
+  "aging": {
+    "operating_hours": [
+      4,
+      8
+    ],
+    "allowable_fractional_stiffness_drift": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "diagnostic_age_hours": [
+      1,
+      24,
+      72
+    ],
+    "tolerances_are_assumed": true,
+    "service_age_acceleration_factor": null
+  },
+  "economics": {
+    "reference_PE_mass_kg": 135000,
+    "reference_PE_density_kg_m3": 930,
+    "reference_PE_50C_modulus_MPa_assumed": 200,
+    "reference_PE_price_JPY_kg_assumed": 500,
+    "PHA_50C_moduli_MPa_assumed": [
+      200,
+      400,
+      800,
+      1600
+    ],
+    "PHA_prices_JPY_kg_assumed": [
+      500,
+      1000,
+      1500
+    ],
+    "all_prices_tax_excluded": true,
+    "quotes_obtained": 0,
+    "additional_process_cost_not_included": true
+  },
+  "conditioning": {
+    "nominal_hold_days": 3,
+    "production_kg_day_assumed": 5000,
+    "bulk_density_kg_m3_assumed": [
+      150,
+      600
+    ],
+    "warehouse_JPY_m3_day_assumed": [
+      50,
+      200
+    ],
+    "annual_capital_rate_assumed": 0.1,
+    "PHA_price_JPY_kg_assumed": 1500
+  },
+  "model_scope": "aging power-law interpolation and equal-bending/stock arithmetic, no physical grain simulation, no material selected"
+}

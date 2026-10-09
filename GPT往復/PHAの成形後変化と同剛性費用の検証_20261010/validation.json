@@ -1,0 +1,347 @@
+{
+  "all_passed": true,
+  "count": 85,
+  "checks": [
+    {
+      "name": "age_inverse_1",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_2",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_3",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_4",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_5",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_6",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_7",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_8",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_9",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_10",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_11",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_12",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_13",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_14",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_15",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_16",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_17",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_18",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_19",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_20",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_21",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_22",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_23",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_24",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_25",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_26",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_27",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_28",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_29",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_30",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_31",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_32",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_33",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_34",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_35",
+      "passed": true
+    },
+    {
+      "name": "age_inverse_36",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_PHBHHx_200",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_PHBHHx_400",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_PHBHHx_800",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_PHBHHx_1600",
+      "passed": true
+    },
+    {
+      "name": "price_parity_PHBHHx_500",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_1",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_2",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_3",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_4",
+      "passed": true
+    },
+    {
+      "name": "price_parity_PHBHHx_1000",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_5",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_6",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_7",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_8",
+      "passed": true
+    },
+    {
+      "name": "price_parity_PHBHHx_1500",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_9",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_10",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_11",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_12",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_P3HB4HB_200",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_P3HB4HB_400",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_P3HB4HB_800",
+      "passed": true
+    },
+    {
+      "name": "price_ceiling_P3HB4HB_1600",
+      "passed": true
+    },
+    {
+      "name": "price_parity_P3HB4HB_500",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_13",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_14",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_15",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_16",
+      "passed": true
+    },
+    {
+      "name": "price_parity_P3HB4HB_1000",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_17",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_18",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_19",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_20",
+      "passed": true
+    },
+    {
+      "name": "price_parity_P3HB4HB_1500",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_21",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_22",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_23",
+      "passed": true
+    },
+    {
+      "name": "equal_EI_24",
+      "passed": true
+    },
+    {
+      "name": "holding_flow_balance_1",
+      "passed": true
+    },
+    {
+      "name": "holding_flow_balance_2",
+      "passed": true
+    },
+    {
+      "name": "holding_flow_balance_3",
+      "passed": true
+    },
+    {
+      "name": "holding_flow_balance_4",
+      "passed": true
+    },
+    {
+      "name": "zero_operating_interval",
+      "passed": true
+    },
+    {
+      "name": "older_material_drifts_less",
+      "passed": true
+    },
+    {
+      "name": "larger_exponent_drifts_more",
+      "passed": true
+    },
+    {
+      "name": "age_relation_homogeneous",
+      "passed": true
+    },
+    {
+      "name": "no_unit_dependence",
+      "passed": true
+    },
+    {
+      "name": "age_solutions_in_window",
+      "passed": true
+    },
+    {
+      "name": "scratch_speed_conversion",
+      "passed": true
+    }
+  ],
+  "meaning": "arithmetic and source-fit consistency only; not physical tests"
+}
