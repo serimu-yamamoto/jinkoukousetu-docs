@@ -1,0 +1,51 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "temperatures_C": [
+    30,
+    50
+  ],
+  "water_states": [
+    "dry_controlled_humidity",
+    "defined_wet",
+    "after_wet_and_dry"
+  ],
+  "controls": [
+    "U0 bare",
+    "UB retaining structure only",
+    "U1 retained crystalline contact phase",
+    "U2 alternative composition from110; not fixed as winner"
+  ],
+  "measurements": [
+    "actual direction-dependent contact topography before and after wear",
+    "frequency_and_amplitude_dependent_complex_response_under_same_temperature_water_and_load",
+    "speed-resolved actual ski-base forces from first pass onward",
+    "stopping_restart_and_repeated_pass_history",
+    "ski_material_transfer_and_wear",
+    "instrument vibration inertia and response calibration",
+    "free_grain_bed penetration edge initiation support release recovery",
+    "post_grooming_and_rain_recovery_of_composition_contact_shape_and_friction"
+  ],
+  "frequency_specification": "Required band follows actual topography and speed. Example666.7–40000Hz is not measured and not a requested sampling-rate specification.",
+  "missing_terms": [
+    "real normal-mode reduction",
+    "contact separation and inertia",
+    "coupled deformation modes",
+    "surface shear contribution",
+    "frictional heating",
+    "wet contact and winter linkage",
+    "material safety environmental compatibility",
+    "qualified manufacturing price and lifetime"
+  ],
+  "decision_rules": [
+    "Do not extrapolate room-temperature/low-frequency stiffness to50C skiing without evidence",
+    "compare at matched dynamic support and also check sustained loading",
+    "keep initial-pass deterioration instead of selecting only run-in best values",
+    "no candidate passes solely on an invented relaxation time",
+    "formulate actual snow comparison before using performance acceptance bands"
+  ],
+  "actions": "No vendor contact, trial, purchase or paid API used."
+}

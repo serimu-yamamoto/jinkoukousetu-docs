@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [viscoelastic_glide.py](viscoelastic_glide.py)：指定正弦変形のSLS応答、周期仕事、同じ動的硬さの比較、独立時間積分。実材パラメータ未同定。[第112巡](../GPT往復/滑走速度と接触変形の時間尺度_20261010/README.md)。
+
 - [washing_selectivity.py](washing_selectivity.py)：結晶精製の選択性・水量・損失補充費。[第111巡](../GPT往復/結晶精製の選択性と洗浄順序_20261010/README.md)。製品残留・装置性能は未測定。
 
 - [powder_inventory.py](powder_inventory.py)：結晶接触材の粒度・局所量・補充費。[第110巡](../GPT往復/結晶接触材の粒度基準と保持量監査_20261010/README.md)。保持・摩擦・捕集率は未測定。

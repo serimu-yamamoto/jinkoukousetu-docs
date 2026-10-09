@@ -1,0 +1,42 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.fz-juelich.de/en/pgi/pgi-1/research/friction-and-crack",
+    "title": "Friction, Adhesion & Crack Propagation",
+    "accessed": "2026-10-10",
+    "scope": "Institutional description of its rubber-friction research: roughness-driven viscoelastic dissipation and velocity/history dependence. Mechanism only; no artificial-firn coefficients or validation imported."
+  },
+  {
+    "id": "S2",
+    "url": "https://link.springer.com/article/10.1007/s11249-016-0719-2",
+    "title": "A Novel Ski–Snow Tribometer and its Precision",
+    "year": 2016,
+    "accessed": "2026-10-10",
+    "scope": "Primary ski-snow study; repeated passes change friction, speed affects measurement precision, vibrations/inertial correction matter. No snow friction curve used to calibrate hypothetical polymer response."
+  },
+  {
+    "id": "reuse108",
+    "repository_path": "GPT往復/滑走方向の変形仕事と横解放の分離_20261010/model.md",
+    "scope": "Previous load-unload work excludes constitutive speed dependence; no numerical output added to this new loss term."
+  },
+  {
+    "id": "reuse71",
+    "repository_path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/model.md",
+    "scope": "Existing contact-pressure and prescribed transverse motion models; distinguish energy sources and contact assumptions."
+  },
+  {
+    "id": "reuse110",
+    "repository_path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+    "scope": "Named reference_localized_coating only for functional processing-area inventory."
+  },
+  {
+    "id": "not_used_AIP",
+    "url": "https://pubs.aip.org/jcp/article/115/8/3840/478912/Theory-of-rubber-friction-and-contact-mechanics",
+    "scope": "Fetch failed. No coefficients imported; research institution summary used for mechanism."
+  },
+  {
+    "id": "not_used_RSC",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2025/sm/d5sm00617a",
+    "scope": "Search discovery only; full page retrieval failed. No noise exponents, constants or model inputs used."
+  }
+]
