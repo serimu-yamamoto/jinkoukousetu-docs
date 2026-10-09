@@ -1,0 +1,129 @@
+{
+  "cycle": 94,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "7e32e7c375749d80eff36ddabfec69265e573a15",
+  "hash_algorithm": "SHA-256",
+  "excludes": "Self manifest; third-party inspection copies and transient dependencies are not deliverables",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第94巡_高温復元骨格の候補と根元配置の成立条件_20261009.md",
+      "bytes": 9141,
+      "sha256": "4318e6576b293a4fe4da9b60036f66b84dd62683d6f39f93201307feba543903"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 61413,
+      "sha256": "f955f4918f89032795a42d6dc8e9226e64d8abe64eec98498e3bc8f073e8d5ec"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/README.md",
+      "bytes": 1100,
+      "sha256": "8f695fd519736ad6dccdf14637607674f15ca1ddf1175314d487794bec9ab738"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/audit.py",
+      "bytes": 5116,
+      "sha256": "68e9c428f86d79fa1672c2d7dba3e42920df4d149f216ba96ab3b548882bba59"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/claude_handoff.md",
+      "bytes": 1591,
+      "sha256": "8a2adb639fe03bc2a5c2d31b44106605808556e92adb8af131256fbce339db84"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/document_audit.json",
+      "bytes": 4775,
+      "sha256": "9bcadadfd61408a174c0d378bc5fc43bef675bdc5cc301ec981438da481332a7"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/draw.py",
+      "bytes": 2472,
+      "sha256": "3f91715eb412e521dbb63a8732e842a08ce2be0aa98ed4d39b83e4d8a4db32e2"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/environment.json",
+      "bytes": 151,
+      "sha256": "1e1278d6ff3c0a0ca2ec57fb4ad1cbac001997d99714bea2ac0c499f5068fb34"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/index_changes.json",
+      "bytes": 4603,
+      "sha256": "6db3a31c3486b1d559b26b857c00e6cff56eb27f2e499bc129827c98e6c77aaa"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/inputs.json",
+      "bytes": 2206,
+      "sha256": "f7f4e8e0fc315693dc73df72b6397616addace0a4a67bca6eff8c8fff89026ad"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/measurement_protocol.md",
+      "bytes": 2768,
+      "sha256": "a7ecfa0418d4116d4a74e2f631fa37f76bd45518132c088b84bab25a3e249a3d"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/model.md",
+      "bytes": 4010,
+      "sha256": "b0bb26548bee745e3f6197e4fc7a0723f393c106c3e79cf2b472eebe4dde6cef"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/reproduce.py",
+      "bytes": 8772,
+      "sha256": "79cb7ca4d07f98d7c21f598228998041008b85f523080fa0f8971d6b00e0ac6f"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/requirements.txt",
+      "bytes": 46,
+      "sha256": "1839f9ebfe6ef8dbf3960d324981bdc15fa2378d9bb2f754e1af4ae7360baf4e"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/research_state.json",
+      "bytes": 623,
+      "sha256": "41baeb4a71677ea77ae59967e6b46429ba71330a6e5ea0e115686d1466775db3"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/results.json",
+      "bytes": 35012,
+      "sha256": "e63481447977c3f0464d764fd316f3115aada5d9701f2ac559a40a58f4e00408"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/root_layout_comparison.png",
+      "bytes": 85571,
+      "sha256": "14ae3b6170dbc618ed07892b837664138ebf8d2fdc3bda66983fe0e2f07ba667"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/sources.md",
+      "bytes": 4336,
+      "sha256": "4ac67fd2d5cf11ee0fbad7edf9b4330f877590ba707f574ce99a7d8bfcf4b849"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/test_plan.json",
+      "bytes": 5437,
+      "sha256": "d7ce68afe3549237a547ab761bd0abba6ffd89081dd24dd4ca6301fa680c6ee2"
+    },
+    {
+      "path": "GPT往復/弾性根元と高温復元骨格の検証_20261009/validation.json",
+      "bytes": 4668,
+      "sha256": "82d2dbf817e4687bc4360286266aa6e7adb1466ac3558e4c7bcc46cbedeb9f11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 71259,
+      "sha256": "830fc4700ea45337909cb339008ccf0824f307b156a45991639655d7911c15b2"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 170659,
+      "sha256": "3f05bec4e6421a65e362f6f1048cedd738c8da4afdc4c2b6c3f6d486f9ed5c9f"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 22519,
+      "sha256": "c47ec3df1478bc81aa31afc7c93bf7bee4fcdf12ecd4d062dea349aef7800356"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 227097,
+      "sha256": "39ed4d093f691066ad5956148b7a485209ddfa4832e4c678469ce9b6e9591eb0"
+    }
+  ]
+}

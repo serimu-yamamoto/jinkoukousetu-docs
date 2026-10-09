@@ -1,0 +1,223 @@
+{
+  "status": "not_run",
+  "physical_experiments": 0,
+  "replicates_not_independent_manufacturing_lots": true,
+  "specimens": [
+    {
+      "id": "PE_control_dry_1",
+      "material": "PE_control",
+      "state": "dry",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "PE_control_dry_2",
+      "material": "PE_control",
+      "state": "dry",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "PE_control_dry_3",
+      "material": "PE_control",
+      "state": "dry",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "PE_control_wet_1",
+      "material": "PE_control",
+      "state": "wet",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "PE_control_wet_2",
+      "material": "PE_control",
+      "state": "wet",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "PE_control_wet_3",
+      "material": "PE_control",
+      "state": "wet",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7247_dry_1",
+      "material": "7247",
+      "state": "dry",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7247_dry_2",
+      "material": "7247",
+      "state": "dry",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7247_dry_3",
+      "material": "7247",
+      "state": "dry",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7247_wet_1",
+      "material": "7247",
+      "state": "wet",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7247_wet_2",
+      "material": "7247",
+      "state": "wet",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7247_wet_3",
+      "material": "7247",
+      "state": "wet",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7277R-07_dry_1",
+      "material": "7277R-07",
+      "state": "dry",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7277R-07_dry_2",
+      "material": "7277R-07",
+      "state": "dry",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7277R-07_dry_3",
+      "material": "7277R-07",
+      "state": "dry",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7277R-07_wet_1",
+      "material": "7277R-07",
+      "state": "wet",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7277R-07_wet_2",
+      "material": "7277R-07",
+      "state": "wet",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "7277R-07_wet_3",
+      "material": "7277R-07",
+      "state": "wet",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "conditional_PE_root7277R07_dry_1",
+      "material": "conditional_PE_root7277R07",
+      "state": "dry",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "conditional_PE_root7277R07_dry_2",
+      "material": "conditional_PE_root7277R07",
+      "state": "dry",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "conditional_PE_root7277R07_dry_3",
+      "material": "conditional_PE_root7277R07",
+      "state": "dry",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "conditional_PE_root7277R07_wet_1",
+      "material": "conditional_PE_root7277R07",
+      "state": "wet",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "conditional_PE_root7277R07_wet_2",
+      "material": "conditional_PE_root7277R07",
+      "state": "wet",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    },
+    {
+      "id": "conditional_PE_root7277R07_wet_3",
+      "material": "conditional_PE_root7277R07",
+      "state": "wet",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_recovery": null,
+      "measured_bond_failure": null
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "cycle": 94,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "geometry_assumed": {
+    "length_m": 0.00075,
+    "width_m": 0.00072,
+    "thickness_m": 0.00012,
+    "force_N": 0.005625
+  },
+  "material_assumed": {
+    "body_E_MPa": 500,
+    "root_E_MPa": [
+      100,
+      200,
+      500,
+      1000
+    ],
+    "poisson": 0.45,
+    "body_density_kg_m3": 930,
+    "root_density_kg_m3": 1250
+  },
+  "root_length_fractions": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    1
+  ],
+  "inventory_assumed": {
+    "reference_mass_kg": 135000,
+    "branch_volume_fraction": 0.8,
+    "body_price_JPY_kg": 500,
+    "root_prices_JPY_kg": [
+      500,
+      1000,
+      1500
+    ],
+    "replacement_volume_fractions": [
+      0.08,
+      0.16,
+      1
+    ],
+    "extra_processing_JPY_per_final_kg": [
+      0,
+      100,
+      500
+    ]
+  },
+  "fem": {
+    "meshes": [
+      [
+        30,
+        6
+      ],
+      [
+        60,
+        12
+      ],
+      [
+        120,
+        24
+      ]
+    ],
+    "cases": [
+      {
+        "id": "body",
+        "alpha": 0,
+        "root_E_MPa": 500
+      },
+      {
+        "id": "root10",
+        "alpha": 0.1,
+        "root_E_MPa": 200
+      },
+      {
+        "id": "root40",
+        "alpha": 0.4,
+        "root_E_MPa": 200
+      },
+      {
+        "id": "all_soft",
+        "alpha": 1,
+        "root_E_MPa": 200
+      }
+    ],
+    "assumptions": [
+      "2D plane stress",
+      "perfect bond",
+      "linear isotropic elasticity",
+      "uniform end shear traction",
+      "fully clamped root",
+      "no friction, recovery, creep or damage prediction"
+    ]
+  },
+  "manufacturer_data_not_model_E": {
+    "grade": "7277R-07",
+    "specific_gravity": 1.25,
+    "tensile_modulus_MPa": 230,
+    "flexural_modulus_MPa": 530,
+    "compression_modulus_MPa": 410,
+    "modulus_test_temperature_explicit": false,
+    "source_url": "https://www.tc-net.co.jp/hytrel/data/property_pdf/7277R-07.pdf",
+    "creep_50C_of_this_grade": null
+  },
+  "limitations": [
+    "All 50C elastic moduli are hypothetical",
+    "7277R-07 does not inherit 7247 creep results",
+    "Root share of strain energy is not recovery fraction",
+    "No quotation or physical experiment"
+  ]
+}

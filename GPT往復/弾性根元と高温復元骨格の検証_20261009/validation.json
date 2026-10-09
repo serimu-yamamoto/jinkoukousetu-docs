@@ -1,0 +1,251 @@
+{
+  "count": 61,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "24_layouts",
+      "passed": true
+    },
+    {
+      "name": "root_weight_10pct",
+      "passed": true
+    },
+    {
+      "name": "root_weight_40pct",
+      "passed": true
+    },
+    {
+      "name": "zero_root_baseline",
+      "passed": true
+    },
+    {
+      "name": "homogeneous_baseline",
+      "passed": true
+    },
+    {
+      "name": "all_root_compliance",
+      "passed": true
+    },
+    {
+      "name": "fixed_deflection_force",
+      "passed": true
+    },
+    {
+      "name": "root_shorter_than_thickness",
+      "passed": true
+    },
+    {
+      "name": "beam_compliance_integral",
+      "passed": true
+    },
+    {
+      "name": "element_symmetry",
+      "passed": true
+    },
+    {
+      "name": "element_rigid_translation",
+      "passed": true
+    },
+    {
+      "name": "element_nonnegative_energy",
+      "passed": true
+    },
+    {
+      "name": "constant_strain_patch",
+      "passed": true
+    },
+    {
+      "name": "force_balance_body_30",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_body_30",
+      "passed": true
+    },
+    {
+      "name": "work_energy_body_30",
+      "passed": true
+    },
+    {
+      "name": "force_balance_body_60",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_body_60",
+      "passed": true
+    },
+    {
+      "name": "work_energy_body_60",
+      "passed": true
+    },
+    {
+      "name": "force_balance_body_120",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_body_120",
+      "passed": true
+    },
+    {
+      "name": "work_energy_body_120",
+      "passed": true
+    },
+    {
+      "name": "mesh_convergence_body",
+      "passed": true
+    },
+    {
+      "name": "force_balance_root10_30",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_root10_30",
+      "passed": true
+    },
+    {
+      "name": "work_energy_root10_30",
+      "passed": true
+    },
+    {
+      "name": "force_balance_root10_60",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_root10_60",
+      "passed": true
+    },
+    {
+      "name": "work_energy_root10_60",
+      "passed": true
+    },
+    {
+      "name": "force_balance_root10_120",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_root10_120",
+      "passed": true
+    },
+    {
+      "name": "work_energy_root10_120",
+      "passed": true
+    },
+    {
+      "name": "mesh_convergence_root10",
+      "passed": true
+    },
+    {
+      "name": "force_balance_root40_30",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_root40_30",
+      "passed": true
+    },
+    {
+      "name": "work_energy_root40_30",
+      "passed": true
+    },
+    {
+      "name": "force_balance_root40_60",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_root40_60",
+      "passed": true
+    },
+    {
+      "name": "work_energy_root40_60",
+      "passed": true
+    },
+    {
+      "name": "force_balance_root40_120",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_root40_120",
+      "passed": true
+    },
+    {
+      "name": "work_energy_root40_120",
+      "passed": true
+    },
+    {
+      "name": "mesh_convergence_root40",
+      "passed": true
+    },
+    {
+      "name": "force_balance_all_soft_30",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_all_soft_30",
+      "passed": true
+    },
+    {
+      "name": "work_energy_all_soft_30",
+      "passed": true
+    },
+    {
+      "name": "force_balance_all_soft_60",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_all_soft_60",
+      "passed": true
+    },
+    {
+      "name": "work_energy_all_soft_60",
+      "passed": true
+    },
+    {
+      "name": "force_balance_all_soft_120",
+      "passed": true
+    },
+    {
+      "name": "moment_balance_all_soft_120",
+      "passed": true
+    },
+    {
+      "name": "work_energy_all_soft_120",
+      "passed": true
+    },
+    {
+      "name": "mesh_convergence_all_soft",
+      "passed": true
+    },
+    {
+      "name": "uniform_E_scaling",
+      "passed": true
+    },
+    {
+      "name": "homogeneous_beam_comparison",
+      "passed": true
+    },
+    {
+      "name": "cost_27_cases",
+      "passed": true
+    },
+    {
+      "name": "10pct_root_volume_budget",
+      "passed": true
+    },
+    {
+      "name": "mass_conservation",
+      "passed": true
+    },
+    {
+      "name": "replacement_volume_conservation",
+      "passed": true
+    },
+    {
+      "name": "selected_mass",
+      "passed": true
+    },
+    {
+      "name": "selected_raw_increment",
+      "passed": true
+    }
+  ],
+  "scope": "arithmetic and conditional linear model verification, not physical validation"
+}
