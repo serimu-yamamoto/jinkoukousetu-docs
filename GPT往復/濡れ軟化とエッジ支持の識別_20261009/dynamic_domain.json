@@ -1,0 +1,302 @@
+[
+  {
+    "angle_deg": 5,
+    "assumed_chip_friction": 0,
+    "friction_angle_deg": 0.0,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.08748866352592401,
+    "Fc_N_at_300N": 26.246599057777203,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 5,
+    "assumed_chip_friction": 0.04,
+    "friction_angle_deg": 2.2906100426385296,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.047323054294954786,
+    "Fc_N_at_300N": 14.196916288486436,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 5,
+    "assumed_chip_friction": 0.1,
+    "friction_angle_deg": 5.710593137499643,
+    "inside_positive_cutting_angle_domain": false,
+    "Fc_over_N": null,
+    "Fc_N_at_300N": null,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 5,
+    "assumed_chip_friction": 0.2,
+    "friction_angle_deg": 11.309932474020215,
+    "inside_positive_cutting_angle_domain": false,
+    "Fc_over_N": null,
+    "Fc_N_at_300N": null,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 5,
+    "assumed_chip_friction": 0.3,
+    "friction_angle_deg": 16.69924423399362,
+    "inside_positive_cutting_angle_domain": false,
+    "Fc_over_N": null,
+    "Fc_N_at_300N": null,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 5,
+    "assumed_chip_friction": 0.5,
+    "friction_angle_deg": 26.56505117707799,
+    "inside_positive_cutting_angle_domain": false,
+    "Fc_over_N": null,
+    "Fc_N_at_300N": null,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 15,
+    "assumed_chip_friction": 0,
+    "friction_angle_deg": 0.0,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.2679491924311227,
+    "Fc_N_at_300N": 80.38475772933681,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 15,
+    "assumed_chip_friction": 0.04,
+    "friction_angle_deg": 2.2906100426385296,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.22553194829460438,
+    "Fc_N_at_300N": 67.65958448838131,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 15,
+    "assumed_chip_friction": 0.1,
+    "friction_angle_deg": 5.710593137499643,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.16356644280527227,
+    "Fc_N_at_300N": 49.06993284158168,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 15,
+    "assumed_chip_friction": 0.2,
+    "friction_angle_deg": 11.309932474020215,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.06449302180889539,
+    "Fc_N_at_300N": 19.347906542668618,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 15,
+    "assumed_chip_friction": 0.3,
+    "friction_angle_deg": 16.69924423399362,
+    "inside_positive_cutting_angle_domain": false,
+    "Fc_over_N": null,
+    "Fc_N_at_300N": null,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 15,
+    "assumed_chip_friction": 0.5,
+    "friction_angle_deg": 26.56505117707799,
+    "inside_positive_cutting_angle_domain": false,
+    "Fc_over_N": null,
+    "Fc_N_at_300N": null,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 30,
+    "assumed_chip_friction": 0,
+    "friction_angle_deg": 0.0,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.5773502691896257,
+    "Fc_N_at_300N": 173.20508075688772,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 30,
+    "assumed_chip_friction": 0.04,
+    "friction_angle_deg": 2.2906100426385296,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.5252208140544915,
+    "Fc_N_at_300N": 157.56624421634746,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 30,
+    "assumed_chip_friction": 0.1,
+    "friction_angle_deg": 5.710593137499643,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.4512947543961759,
+    "Fc_N_at_300N": 135.38842631885277,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 30,
+    "assumed_chip_friction": 0.2,
+    "friction_angle_deg": 11.309932474020215,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.3382881215782541,
+    "Fc_N_at_300N": 101.48643647347623,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 30,
+    "assumed_chip_friction": 0.3,
+    "friction_angle_deg": 16.69924423399362,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.23640391073885775,
+    "Fc_N_at_300N": 70.92117322165733,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 30,
+    "assumed_chip_friction": 0.5,
+    "friction_angle_deg": 26.56505117707799,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.060023094349489645,
+    "Fc_N_at_300N": 18.006928304846895,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 45,
+    "assumed_chip_friction": 0,
+    "friction_angle_deg": 0.0,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.9999999999999999,
+    "Fc_N_at_300N": 299.99999999999994,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 45,
+    "assumed_chip_friction": 0.04,
+    "friction_angle_deg": 2.2906100426385296,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.9230769230769231,
+    "Fc_N_at_300N": 276.92307692307696,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 45,
+    "assumed_chip_friction": 0.1,
+    "friction_angle_deg": 5.710593137499643,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.8181818181818181,
+    "Fc_N_at_300N": 245.45454545454544,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 45,
+    "assumed_chip_friction": 0.2,
+    "friction_angle_deg": 11.309932474020215,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.6666666666666666,
+    "Fc_N_at_300N": 200.0,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 45,
+    "assumed_chip_friction": 0.3,
+    "friction_angle_deg": 16.69924423399362,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.5384615384615384,
+    "Fc_N_at_300N": 161.53846153846152,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 45,
+    "assumed_chip_friction": 0.5,
+    "friction_angle_deg": 26.56505117707799,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.3333333333333333,
+    "Fc_N_at_300N": 100.0,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 60,
+    "assumed_chip_friction": 0,
+    "friction_angle_deg": 0.0,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 1.7320508075688767,
+    "Fc_N_at_300N": 519.615242270663,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 60,
+    "assumed_chip_friction": 0.04,
+    "friction_angle_deg": 2.2906100426385296,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 1.5824176937911845,
+    "Fc_N_at_300N": 474.72530813735534,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 60,
+    "assumed_chip_friction": 0.1,
+    "friction_angle_deg": 5.710593137499643,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 1.3911044491181088,
+    "Fc_N_at_300N": 417.3313347354326,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 60,
+    "assumed_chip_friction": 0.2,
+    "friction_angle_deg": 11.309932474020215,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 1.1378782271268546,
+    "Fc_N_at_300N": 341.36346813805636,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 60,
+    "assumed_chip_friction": 0.3,
+    "friction_angle_deg": 16.69924423399362,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.9423772332192824,
+    "Fc_N_at_300N": 282.7131699657847,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  },
+  {
+    "angle_deg": 60,
+    "assumed_chip_friction": 0.5,
+    "friction_angle_deg": 26.56505117707799,
+    "inside_positive_cutting_angle_domain": true,
+    "Fc_over_N": 0.6602540378443863,
+    "Fc_N_at_300N": 198.0762113533159,
+    "material_prediction": false,
+    "note": "orthogonal dynamic cutting idealization; not static Sf or measured ski glide friction"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "assumed_H_N_mm3": 0.16,
+    "assumed_S_N_mm2": 0.086,
+    "penetration_mm": 4.330127018922193,
+    "onset_N": 74.47818472546172,
+    "H_bounded_interval_N_mm3": [
+      0.14856269246014003,
+      0.17248469986069165
+    ],
+    "S_bounded_interval_N_mm2": [
+      0.08284726333126097,
+      0.08930433782006882
+    ],
+    "relative_depth_error_bound": 0.023094010767585035,
+    "penetration_over_assumed_grain_scale": 7.216878364870322,
+    "statistical_confidence_level": null,
+    "instrument_secured": false
+  },
+  {
+    "assumed_H_N_mm3": 0.64,
+    "assumed_S_N_mm2": 0.086,
+    "penetration_mm": 2.1650635094610964,
+    "onset_N": 37.23909236273086,
+    "H_bounded_interval_N_mm3": [
+      0.5683048353436422,
+      0.7237533193996342
+    ],
+    "S_bounded_interval_N_mm2": [
+      0.07991583750751206,
+      0.09267843230267593
+    ],
+    "relative_depth_error_bound": 0.04618802153517007,
+    "penetration_over_assumed_grain_scale": 3.608439182435161,
+    "statistical_confidence_level": null,
+    "instrument_secured": false
+  },
+  {
+    "assumed_H_N_mm3": 4.0,
+    "assumed_S_N_mm2": 0.086,
+    "penetration_mm": 0.8660254037844386,
+    "onset_N": 14.895636945092344,
+    "H_bounded_interval_N_mm3": [
+      3.1243884505134836,
+      5.259822020143217
+    ],
+    "S_bounded_interval_N_mm2": [
+      0.07184984543636315,
+      0.10385783823210827
+    ],
+    "relative_depth_error_bound": 0.11547005383792516,
+    "penetration_over_assumed_grain_scale": 1.4433756729740643,
+    "statistical_confidence_level": null,
+    "instrument_secured": false
+  },
+  {
+    "assumed_H_N_mm3": 16.0,
+    "assumed_S_N_mm2": 0.086,
+    "penetration_mm": 0.4330127018922193,
+    "onset_N": 7.447818472546172,
+    "H_bounded_interval_N_mm3": [
+      10.262826838483804,
+      27.831447610032935
+    ],
+    "S_bounded_interval_N_mm2": [
+      0.060424236351062,
+      0.12696624932388265
+    ],
+    "relative_depth_error_bound": 0.23094010767585033,
+    "penetration_over_assumed_grain_scale": 0.7216878364870322,
+    "statistical_confidence_level": null,
+    "instrument_secured": false
+  }
+]

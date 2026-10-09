@@ -1,0 +1,292 @@
+{
+  "checks": [
+    {
+      "name": "no_physical_results_or_probability",
+      "passed": true
+    },
+    {
+      "name": "no_external_supplier_action",
+      "passed": true
+    },
+    {
+      "name": "20_numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "291_comparison_rows",
+      "passed": true
+    },
+    {
+      "name": "onset_mask_counterexample",
+      "passed": true
+    },
+    {
+      "name": "full_width_and_flat_lateral_data_null",
+      "passed": true
+    },
+    {
+      "name": "dynamic_diagnostic_not_material_prediction",
+      "passed": true
+    },
+    {
+      "name": "unknown_cost_and_target",
+      "passed": true
+    },
+    {
+      "name": "independent_preparations_not_tracks",
+      "passed": true
+    },
+    {
+      "name": "all_bed_data_unmeasured",
+      "passed": true
+    },
+    {
+      "name": "measurement_bounds_not_confidence",
+      "passed": true
+    },
+    {
+      "name": "primary_sources",
+      "passed": true
+    },
+    {
+      "name": "no_third_party_PDF_in_artifacts",
+      "passed": true
+    },
+    {
+      "name": "plot_nodes_separate_from_tests",
+      "passed": true
+    },
+    {
+      "name": "png_signature_coupled_response.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_coupled_response.png",
+      "passed": true
+    },
+    {
+      "name": "png_signature_paired_observations.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_paired_observations.png",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_18",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_20",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_21",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_22",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_24",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_26",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_28",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_guard_新雪圧雪の確定目標にはしない",
+      "passed": true
+    },
+    {
+      "name": "report_guard_室温の樹脂弾性率を床のHへ比例換算しない",
+      "passed": true
+    },
+    {
+      "name": "report_guard_仮の診断模型",
+      "passed": true
+    },
+    {
+      "name": "report_guard_信頼区間でもない",
+      "passed": true
+    },
+    {
+      "name": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "name": "report_guard_約60分",
+      "passed": true
+    },
+    {
+      "name": "report_guard_人体・環境への無害性は未証明",
+      "passed": true
+    },
+    {
+      "name": "report_guard_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_guard_総額は未取得",
+      "passed": true
+    },
+    {
+      "name": "local_links",
+      "passed": true
+    },
+    {
+      "name": "LF_GPT回答_多方向探索第84巡_沈み込みと横抵抗から雪らしさを見分ける_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_bed_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_bed_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_checks.json",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "name": "LF_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_dynamic_domain.json",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_material_quantities.json",
+      "passed": true
+    },
+    {
+      "name": "LF_measurement_bounds.json",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_paired_states.json",
+      "passed": true
+    },
+    {
+      "name": "LF_parameter_sweep.json",
+      "passed": true
+    },
+    {
+      "name": "LF_plot_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "name": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF_計算部品索引.md",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 572,
+  "python": "3.12.14",
+  "physical_experiments": 0,
+  "success_probability": null
+}

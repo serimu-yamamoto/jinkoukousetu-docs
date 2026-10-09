@@ -1,0 +1,82 @@
+[
+  {
+    "name": "reference agrees with prior geometric comparison",
+    "passed": true
+  },
+  {
+    "name": "volume inversion across finite-width and flat domains",
+    "passed": true
+  },
+  {
+    "name": "full width and flat do not extrapolate lateral law",
+    "passed": true
+  },
+  {
+    "name": "both edged geometric branches exercised",
+    "passed": true
+  },
+  {
+    "name": "geometric continuity at 2deg",
+    "passed": true
+  },
+  {
+    "name": "geometric continuity at 15deg",
+    "passed": true
+  },
+  {
+    "name": "geometric continuity at 45deg",
+    "passed": true
+  },
+  {
+    "name": "geometric continuity at 60deg",
+    "passed": true
+  },
+  {
+    "name": "independent strip integration",
+    "passed": true
+  },
+  {
+    "name": "dual observations identify both assumed parameters",
+    "passed": true
+  },
+  {
+    "name": "wet-like counterexample strengthened apparent holding",
+    "passed": true
+  },
+  {
+    "name": "near recovered holding hides unrecovered hardness",
+    "passed": true
+  },
+  {
+    "name": "matched onset does not identify hardness",
+    "passed": true
+  },
+  {
+    "name": "invalid cutting-angle cases remain null",
+    "passed": true
+  },
+  {
+    "name": "zero chip-friction limit",
+    "passed": true
+  },
+  {
+    "name": "bounded inversions enclose assumed truth",
+    "passed": true
+  },
+  {
+    "name": "grain-scale diagnostic exercises sub-grain indentation",
+    "passed": true
+  },
+  {
+    "name": "bed allocation independent at preparation level",
+    "passed": true
+  },
+  {
+    "name": "bed volume units",
+    "passed": true
+  },
+  {
+    "name": "costs not fabricated quotes",
+    "passed": true
+  }
+]

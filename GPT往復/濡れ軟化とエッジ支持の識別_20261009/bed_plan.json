@@ -1,0 +1,230 @@
+[
+  {
+    "bed_id": "dry_50C-1",
+    "condition": "dry_50C",
+    "independent_bed_replicate": 1,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "dry_50C-2",
+    "condition": "dry_50C",
+    "independent_bed_replicate": 2,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "dry_50C-3",
+    "condition": "dry_50C",
+    "independent_bed_replicate": 3,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "once_wet_drained_50C-1",
+    "condition": "once_wet_drained_50C",
+    "independent_bed_replicate": 1,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "once_wet_drained_50C-2",
+    "condition": "once_wet_drained_50C",
+    "independent_bed_replicate": 2,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "once_wet_drained_50C-3",
+    "condition": "once_wet_drained_50C",
+    "independent_bed_replicate": 3,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "rewet_then_redried_50C-1",
+    "condition": "rewet_then_redried_50C",
+    "independent_bed_replicate": 1,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "rewet_then_redried_50C-2",
+    "condition": "rewet_then_redried_50C",
+    "independent_bed_replicate": 2,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "rewet_then_redried_50C-3",
+    "condition": "rewet_then_redried_50C",
+    "independent_bed_replicate": 3,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "rewet_then_regroomed_50C-1",
+    "condition": "rewet_then_regroomed_50C",
+    "independent_bed_replicate": 1,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "rewet_then_regroomed_50C-2",
+    "condition": "rewet_then_regroomed_50C",
+    "independent_bed_replicate": 2,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  },
+  {
+    "bed_id": "rewet_then_regroomed_50C-3",
+    "condition": "rewet_then_regroomed_50C",
+    "independent_bed_replicate": 3,
+    "fresh_tracks": [
+      {
+        "control": "constant_normal_load",
+        "data": null
+      },
+      {
+        "control": "matched_penetration",
+        "data": null
+      }
+    ],
+    "status": "not_run",
+    "material_route": "after_selection_not_fixed",
+    "mass_loss_g": null,
+    "post_yield_curve": null
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S1",
+    "title": "Mössner et al. (2013), Measurement of mechanical properties of snow for simulation of skiing",
+    "url": "https://doi.org/10.3189/2013JoG13J031",
+    "full_text_url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/measurement-of-mechanical-properties-of-snow-for-simulation-of-skiing/00DD7880EF30BFB651D61146B3EFC3FA",
+    "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/00DD7880EF30BFB651D61146B3EFC3FA/S0022143000203870a.pdf/measurement_of_mechanical_properties_of_snow_for_simulation_of_skiing.pdf",
+    "verified": "2026-10-09",
+    "read_scope": "Methods, Results and Discussion HTML; PDF pp.1172-1173 visually checked",
+    "sha256_pdf": "e94580043d51faa4f92cd898c130d7202f64b04cacc137e9324ff91b413ea306",
+    "use": "F_n=H_V VとF_t=S_f L e、初期破壊と継続切削の区別。200×62mmの測定具。式(2)(3)(9)(12)。",
+    "not_proven": "HV=0.16とSf=0.086の組を新雪圧雪の確定目標とすること、50℃人工材への構成則の妥当性、濡れた後の比。",
+    "date_note": "巻号年2013。オンライン表示年2017と区別。"
+  },
+  {
+    "id": "S2",
+    "title": "Komissarov (2021), Mechanics of side-slipping in alpine skiing: theory of machining snow and ice",
+    "url": "https://doi.org/10.1007/s12283-021-00340-7",
+    "full_text_url": "https://link.springer.com/article/10.1007/s12283-021-00340-7",
+    "verified": "2026-10-09",
+    "read_scope": "Publisher HTML, sections 2 and 3, discussion and conclusions",
+    "use": "切削のF_c/N=tan(Psi-arctan(mu))は端部力等を無視した直交模型。Psi<=arctan(mu)の不適用。低摩擦極限の制動・旋回成分分離。",
+    "not_proven": "式の人工粒床への適用、低角度の予測、静的Sfを動的式へ無条件接続、スキー底面摩擦と切りくず摩擦の同一視。"
+  },
+  {
+    "id": "S3",
+    "title": "Measurement of Snow Cutting Forces for Analysis and Design of a Snow Ski",
+    "url": "https://www.jstage.jst.go.jp/article/jskisciences2003/3/1/3_1_11/_article/-char/en",
+    "verified": "2026-10-09",
+    "read_scope": "J-STAGE abstract",
+    "use": "回転する圧縮雪と円弧工具で3方向の切削力を測定する実験構成。",
+    "not_proven": "本文の生データ、回帰係数、人工材の数値。要旨から数表を作らない。"
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "cycle": 84,
+  "date": "2026-10-09",
+  "base_commit": "5ab7b37acb98a181a2a8fcb24c89642ba0fbb8ce",
+  "text_encoding": "UTF-8 LF",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第84巡_沈み込みと横抵抗から雪らしさを見分ける_20261009.md",
+      "bytes": 11860,
+      "sha256": "da5abff07f01d4b996c0bfdcdeb497dc61153bf5ce41bd47950b126f58634c98"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 56488,
+      "sha256": "dad7c60e58838e55d9abea83a2ddd38fef9018288599cedcafc7ba0dc924ae96"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/README.md",
+      "bytes": 1534,
+      "sha256": "cc52b00856184bcb98c8a734889beeda299e85646ac58aa0dfeb17dbec1fcaac"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/audit.py",
+      "bytes": 5027,
+      "sha256": "587eebb69d633e8d4320d9b0ce2b0382f96e620c0d9960544a6659fecbdba262"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/bed_plan.json",
+      "bytes": 5301,
+      "sha256": "be56f5bb5dee8d64dff333067f9baf1a21fbbde5182e2fd6233b824eaef67d5f"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/bed_protocol.md",
+      "bytes": 4708,
+      "sha256": "c9e3c23de17e9293db41e3594365fa43b489997f679f5c7542fbf39eba975feb"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/checks.json",
+      "bytes": 1656,
+      "sha256": "2bfbef22162841e7da08e581a0e5cabb934f37f4c846148a4c4e87a9ec1dea53"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/claude_handoff.md",
+      "bytes": 2924,
+      "sha256": "245e9c46f18f91c99232ae5b937182508491b18b17e7cecaded09c468016ee41"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/coupled_response.png",
+      "bytes": 200407,
+      "sha256": "6a914bfb5e3ca785f000c77427b74f8b26e368f8020580b03b8f13ea020dc85f"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/decision.json",
+      "bytes": 1027,
+      "sha256": "ddd190187f370daad1bd9bf9d4e19ec819f5f5ccfac8167f83088f8edbd6b0a5"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/document_audit.json",
+      "bytes": 5697,
+      "sha256": "b87417fc5e1c3a4dcf13b1696bd64191625958308ea48340860bba30065d6c1b"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/draw.py",
+      "bytes": 3077,
+      "sha256": "2a53dbf8574f7353511c851a9b094ed5df8e014a93a6a5d27048fe7033d13ffa"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/dynamic_domain.json",
+      "bytes": 10844,
+      "sha256": "d74083e7398ac02b0dd6fe64929c53de9b1a92028934c7172d94ea619334da0e"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/index_changes.json",
+      "bytes": 5336,
+      "sha256": "7cff19fdc31d55b1858a56f7c1d5a520289b8e11accfbd44ac0bff22c688818a"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/inputs.json",
+      "bytes": 3039,
+      "sha256": "5c7cb16730de43715531502720282695901dc04fec6c92cdd562a4db098ba946"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/material_quantities.json",
+      "bytes": 2078,
+      "sha256": "22fbf0980addbce47e1783e924232056737bd11e1a969ace52ae68050832cc38"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/measurement_bounds.json",
+      "bytes": 2092,
+      "sha256": "8520601d83cfabf2bfb07c9276289a3baf89cbb06adce29dc0b3dc638d26be1b"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/model.md",
+      "bytes": 4178,
+      "sha256": "d3b45a093c5d423617fc94057092827b635a2c2b1d6a948d00e7c90dde919ed3"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/paired_observations.png",
+      "bytes": 84844,
+      "sha256": "4ff70cbaf0fb8a659c8aecab3b7fb9e8ef384cfecece5f6f4b37ed9f6eb5616f"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/paired_states.json",
+      "bytes": 3655,
+      "sha256": "34d81643ad9e0f5668e347172ad4ba1305b8b254afeb3b3ba7c312ba922fc127"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/parameter_sweep.json",
+      "bytes": 78859,
+      "sha256": "e0f1ca1b3344559f617a51af40931843bffdad5c346f7c3f5666c52105336cd1"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/plot_metadata.json",
+      "bytes": 219,
+      "sha256": "b03693143f4b3d9553edf240a3edb3a46f39892af2b2baa31269a82bdfa977a2"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/reproduce.py",
+      "bytes": 9519,
+      "sha256": "1994bab2a78139e41bd1068027a92f39f05150371824ea2106eb0b3b262847b0"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/sources.json",
+      "bytes": 2410,
+      "sha256": "48c7ae9e07f625dc4f9466803dadafde1cf8fd9149237e402f84ec9fe950ee56"
+    },
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/summary.json",
+      "bytes": 1552,
+      "sha256": "1bfca4ffa47108fab95896ba0f8f9270522e5220506abbf7a699174c5c678d51"
+    },
+    {
+      "path": "README.md",
+      "bytes": 65325,
+      "sha256": "3e8c481d28c65998a9db147fba3ec5e19475a54e7c73cc21c55a159e6f4a5734"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 162165,
+      "sha256": "2bf2dd9597453ec1118ccb4977bcf4b871ead7bc3495bd02b05932ff86a45d25"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 18519,
+      "sha256": "84b2bc129c3b135f8aaa0cd42cd8db197f2ea7c1f3a7e2b0e8aacaccd3d3e286"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 223303,
+      "sha256": "dd29d2b34d92d4a06459afc708f6a2777a8fe1d062f90bc4e3c156cc67d81c65"
+    }
+  ]
+}

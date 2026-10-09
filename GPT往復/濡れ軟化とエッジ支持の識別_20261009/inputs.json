@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-09",
+  "reference": {
+    "tool_length_mm": 200,
+    "tool_width_mm": 62,
+    "normal_force_N": 300,
+    "edge_angle_deg": 45,
+    "H_N_mm3": 0.16,
+    "S_N_mm2": 0.086,
+    "status": "cycle_7_comparison_assumptions_not_fresh_groomed_snow_specification"
+  },
+  "sweep": {
+    "angles_deg": [
+      0,
+      2,
+      5,
+      15,
+      30,
+      45,
+      60
+    ],
+    "H_factors": [
+      0.01,
+      0.04,
+      0.1,
+      0.25,
+      1,
+      4,
+      10
+    ],
+    "S_factors": [
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2
+    ]
+  },
+  "states": [
+    {
+      "id": "reference",
+      "H_ratio": 1,
+      "S_ratio": 1,
+      "label": "comparison baseline"
+    },
+    {
+      "id": "stiffer_support_same_shear",
+      "H_ratio": 4,
+      "S_ratio": 1,
+      "label": "harder support; not a PEEK prediction"
+    },
+    {
+      "id": "softened_with_shear_75pct",
+      "H_ratio": 0.25,
+      "S_ratio": 0.75,
+      "label": "hypothetical wet-like softening"
+    },
+    {
+      "id": "softened_and_disconnected",
+      "H_ratio": 0.25,
+      "S_ratio": 0.25,
+      "label": "hypothetical softening and lost connections"
+    },
+    {
+      "id": "onset_matched_hard_bed",
+      "H_ratio": 4,
+      "S_ratio": 2,
+      "label": "same onset force but half the penetration"
+    },
+    {
+      "id": "apparently_restored_onset",
+      "H_ratio": 0.5,
+      "S_ratio": 0.7,
+      "label": "near-restored force with unrecovered hardness"
+    }
+  ],
+  "diagnostic": {
+    "dynamic_angles_deg": [
+      5,
+      15,
+      30,
+      45,
+      60
+    ],
+    "chip_friction_values": [
+      0,
+      0.04,
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "angles_are_measured_from_snow_plane": true,
+    "material_specific": false
+  },
+  "measurement_bounds": {
+    "normal_force_halfwidth_N": 3,
+    "penetration_halfwidth_mm": 0.1,
+    "force_halfwidth_N": 1,
+    "length_halfwidth_mm": 0.2,
+    "angle_halfwidth_deg": 0.5,
+    "H_factors": [
+      1,
+      4,
+      25,
+      100
+    ],
+    "interpretation": "assumed bounded errors, not confidence intervals or available instrument specs",
+    "assumed_grain_scale_mm": 0.6,
+    "grain_scale_status": "illustrative inherited scale, not measured size distribution"
+  },
+  "beds": {
+    "length_m": 0.6,
+    "width_m": 0.3,
+    "depth_m": 0.15,
+    "conditions": [
+      "dry_50C",
+      "once_wet_drained_50C",
+      "rewet_then_redried_50C",
+      "rewet_then_regroomed_50C"
+    ],
+    "independent_preparations_per_condition": 3,
+    "tracks_per_preparation": 2,
+    "densities_kg_m3": [
+      100,
+      150,
+      250
+    ],
+    "assumed_finished_material_yen_kg_ex_tax": [
+      500,
+      2000
+    ],
+    "unit_price_is_quote": false,
+    "full_functional_depth_m": 0.45
+  },
+  "status": {
+    "physical_experiments": 0,
+    "success_probability": null,
+    "provider_contacts_sent": 0,
+    "orders_placed": 0,
+    "equipment_secured": false,
+    "finished_material_H_50C": null,
+    "finished_material_S_50C": null,
+    "total_project_cost_yen": null
+  }
+}

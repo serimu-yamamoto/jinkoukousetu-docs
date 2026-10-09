@@ -1,0 +1,11 @@
+{
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.3",
+  "figures": [
+    "coupled_response.png",
+    "paired_observations.png"
+  ],
+  "heatmap_model_nodes": 22801,
+  "physical_experiments": 0,
+  "success_probability": null
+}

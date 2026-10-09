@@ -1,0 +1,62 @@
+[
+  {
+    "assumed_density_kg_m3": 100,
+    "assumed_finished_material_yen_kg_ex_tax": 500,
+    "volume_per_preparation_L": 27.0,
+    "mass_per_preparation_kg": 2.7,
+    "fresh_material_for_12_preparations_kg": 32.400000000000006,
+    "assumed_material_only_yen_ex_tax": 16200.000000000004,
+    "actual_total_test_cost_yen": null,
+    "quote": false
+  },
+  {
+    "assumed_density_kg_m3": 100,
+    "assumed_finished_material_yen_kg_ex_tax": 2000,
+    "volume_per_preparation_L": 27.0,
+    "mass_per_preparation_kg": 2.7,
+    "fresh_material_for_12_preparations_kg": 32.400000000000006,
+    "assumed_material_only_yen_ex_tax": 64800.000000000015,
+    "actual_total_test_cost_yen": null,
+    "quote": false
+  },
+  {
+    "assumed_density_kg_m3": 150,
+    "assumed_finished_material_yen_kg_ex_tax": 500,
+    "volume_per_preparation_L": 27.0,
+    "mass_per_preparation_kg": 4.05,
+    "fresh_material_for_12_preparations_kg": 48.599999999999994,
+    "assumed_material_only_yen_ex_tax": 24299.999999999996,
+    "actual_total_test_cost_yen": null,
+    "quote": false
+  },
+  {
+    "assumed_density_kg_m3": 150,
+    "assumed_finished_material_yen_kg_ex_tax": 2000,
+    "volume_per_preparation_L": 27.0,
+    "mass_per_preparation_kg": 4.05,
+    "fresh_material_for_12_preparations_kg": 48.599999999999994,
+    "assumed_material_only_yen_ex_tax": 97199.99999999999,
+    "actual_total_test_cost_yen": null,
+    "quote": false
+  },
+  {
+    "assumed_density_kg_m3": 250,
+    "assumed_finished_material_yen_kg_ex_tax": 500,
+    "volume_per_preparation_L": 27.0,
+    "mass_per_preparation_kg": 6.75,
+    "fresh_material_for_12_preparations_kg": 81.0,
+    "assumed_material_only_yen_ex_tax": 40500.0,
+    "actual_total_test_cost_yen": null,
+    "quote": false
+  },
+  {
+    "assumed_density_kg_m3": 250,
+    "assumed_finished_material_yen_kg_ex_tax": 2000,
+    "volume_per_preparation_L": 27.0,
+    "mass_per_preparation_kg": 6.75,
+    "fresh_material_for_12_preparations_kg": 81.0,
+    "assumed_material_only_yen_ex_tax": 162000.0,
+    "actual_total_test_cost_yen": null,
+    "quote": false
+  }
+]
