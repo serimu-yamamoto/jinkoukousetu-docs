@@ -1,0 +1,41 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "candidates": [
+    "PE one-piece reference",
+    "unmodified PK",
+    "homogeneous PK plus specified additive-free UHMWPE",
+    "localized same-matrix compound contact with unfilled flexible arms"
+  ],
+  "composition_condition": "Full formulation, treatment chemistry, residues and weathered wear/leachate safety required; XM220U not substituted into patent coefficients",
+  "priority_measurements": [
+    "processed phase size and interface",
+    "actual ski sole dry50C including startup and force peaks",
+    "both-side wear",
+    "pure-water wet redry",
+    "50C4-5h support recovery",
+    "edge entry support release",
+    "manufacturing seam and fatigue"
+  ],
+  "retained_scope": [
+    "snowlike crystal or grain structure",
+    "30C warm spray formation remains unsatisfied",
+    "450mm bed and300mm gouge",
+    "no surface mats",
+    "winter drainage and connection",
+    "rain recovery within60min",
+    "equipment200Myen provisional material separate",
+    "complete human/environment safety"
+  ],
+  "no_inferences": [
+    "patent temperature not ski experiment",
+    "published wear reduction not success probability",
+    "lab feed not mass-production throughput",
+    "steady wear not total lifespan",
+    "5wt percent not load share"
+  ],
+  "actions": "No purchase, vendor contact, processing or release."
+}

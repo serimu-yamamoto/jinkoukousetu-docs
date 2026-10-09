@@ -1,0 +1,50 @@
+[
+  {
+    "id": "S1",
+    "title": "US20210395453A1 Polyketone compound, examples1-2",
+    "url": "https://patents.google.com/patent/US20210395453A1/en",
+    "read_date": "2026-10-10",
+    "read_scope": "Applicant disclosure HTML examples1-2 and general mechanism paragraphs, not independent replication. Server HTML SHA recorded; linked PDF web access failed.",
+    "working_html_sha256": "b413198dbe3be9ceea1d25f8d0ec16442bbeb5038d1b7dfc3e4bcb0d9a9dbde1",
+    "limits": [
+      "Steel designation mixes D2 and52100/100Cr6",
+      "No test duration and steady interval supplied in cited paragraph",
+      "Wear units not explicit in cited paragraph; ratios only",
+      "Bending text has cm/mm discrepancy; not used for strength or validation",
+      "Surface treatment and full grade composition unverified",
+      "Hydraulic oil example not adopted",
+      "No freedom-to-operate or novelty conclusion made"
+    ]
+  },
+  {
+    "id": "S2",
+    "title": "Mitsui Chemicals MIPELON technical data",
+    "url": "https://jp.mitsuichemicals.com/en/special/uhmw-pe/technical_data/million_mipelon/",
+    "read_date": "2026-10-10",
+    "scope": "Text footnote explicitly lists additive-free XM-220U. Not equivalence to treated UH-1700. Embedded numerical table not transcribed."
+  },
+  {
+    "id": "S3",
+    "title": "Mitsui Chemicals rubber modifier case",
+    "url": "https://jp.mitsuichemicals.com/en/special/uhmw-pe/case/case06/",
+    "read_date": "2026-10-10",
+    "scope": "136C MIPELON melting point and agglomeration caution. Its EPDM process includes oil; performance not adopted for artificial firn or PK."
+  },
+  {
+    "id": "S4",
+    "title": "Inhance official technical resources",
+    "url": "https://www.inhancetechnologies.com/ebooks-datasheets-and-more",
+    "read_date": "2026-10-10",
+    "scope": "UH1000 datasheet listed; click unsuccessful. No manufacturer treatment-chemistry or complete safety documentation obtained."
+  },
+  {
+    "id": "reused120",
+    "repository_path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/sources.json",
+    "scope": "SINTEF abstract remains abstract-only; NVA linked page yielded no full text. Pure-water redry still unverified."
+  },
+  {
+    "id": "reused89",
+    "repository_path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/model.md",
+    "scope": "Read and reuse four-cell material/sole history discrimination rather than repeat its simulation."
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "source_reported": {
+    "publication": "US20210395453A1, examples1-2",
+    "pk_feed_kg_h": 18.97,
+    "uhmwpe_feed_kg_h": 1,
+    "compound_feed_kg_h": 19.97,
+    "pk_density_kg_m3": 1240,
+    "uhmwpe_density_range_kg_m3": [
+      930,
+      940
+    ],
+    "mean_particle_um": 38,
+    "upper_particle_size_um": 75,
+    "tribology": {
+      "temperature_steady_C": [
+        54,
+        58
+      ],
+      "speed_m_s": 0.84,
+      "nominal_pressure_MPa": 0.84,
+      "mu": {
+        "plain": {
+          "full": 0.412,
+          "steady": 0.39
+        },
+        "compound": {
+          "full": 0.275,
+          "steady": 0.269
+        }
+      },
+      "wear_coefficient_reported_numbers": {
+        "plain": {
+          "full": 0.000015641,
+          "steady": 0.000003814
+        },
+        "compound": {
+          "full": 0.000006556,
+          "steady": 0.000001862
+        }
+      }
+    }
+  },
+  "assumed": {
+    "reference_mass_kg": 135000,
+    "reference_solid_density_kg_m3": 935,
+    "compound_solid_volume_fractions": [
+      0.05,
+      0.1,
+      0.2,
+      1
+    ],
+    "root_thickness_um": [
+      50,
+      100,
+      200
+    ],
+    "inclusion_diameters_um": [
+      30,
+      38,
+      75
+    ]
+  },
+  "limits": [
+    "Patent applicant reported values; not independent replication",
+    "Wear coefficient units not explicit in cited paragraph; ratios only",
+    "Steel grade text internally mixes D2 and52100/100Cr6",
+    "No pure-water redry or actual ski data",
+    "935 is a density midpoint, not measured new formulation",
+    "No powder surface chemistry clearance or total safety established",
+    "Feed rates not qualified production capacity",
+    "Actual postprocessing domain sizes not measured"
+  ]
+}

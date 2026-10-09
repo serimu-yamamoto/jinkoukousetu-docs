@@ -1,0 +1,124 @@
+{
+  "cycle": 121,
+  "base_commit": "dd2309a6731804ec316e02a26e35519b4a663506",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第121巡_少量の内部潤滑相と細い枝を両立する条件_20261010.md",
+      "bytes": 8823,
+      "sha256": "508f4a3d1261e73b42cd8b1106553e9fd6782793810c0b663f70a73c7c8ba55d"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 78400,
+      "sha256": "f3c8998926c2dabfd5a87b8f08bfc88ea3720ac119aaa84122c6c2fd85655c72"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/README.md",
+      "bytes": 667,
+      "sha256": "76e1e032ba5400fc72c905ba89d5e672d7e0514351c79dcb4f8d173c17661981"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/claude_handoff.md",
+      "bytes": 1604,
+      "sha256": "91a72286bc90a442794024aa9e90e2a018d0c01acbd9636666ec8cad248b9a6f"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "c5d1f6fd781d1d35558e058154d7ac141716aea9d269e452968baa9b70ec617c"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/inputs.json",
+      "bytes": 1730,
+      "sha256": "3e31928a058d49b460ac22655bbb087c17a311b21f135be5448b518b494027fd"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/model.md",
+      "bytes": 1342,
+      "sha256": "ab2e2b91acc47d9faa61ad5fc1ba3e20d788910b71a57ce780902f892784497b"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "7db603ec07e20e0dd19a51e161c34145c88857b9c267e67f703a310d7142cd5e"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/reproduce.py",
+      "bytes": 4304,
+      "sha256": "ba0675aa9653711989e3a33da0cd77a9652317c6e175e6d58062bc43c0b3f557"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/research_state.json",
+      "bytes": 1081,
+      "sha256": "cd40463fe0e32995b9d271d07a84684ba8962484d14f9d57678581ee6fe21796"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/results.json",
+      "bytes": 7957,
+      "sha256": "78cb2760cbcabcdf268470be628e186e498f13d37c754bab7a39f329dc412f46"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/sources.json",
+      "bytes": 2483,
+      "sha256": "2141f763d48e7c4bd355c131ba510465af0f7689310f70018cb2a2140a49df74"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/test_plan.json",
+      "bytes": 1474,
+      "sha256": "19cb6edbb95b9c9d01127c7b09d5cb8c593d37bd6ed16126564030813c485bbb"
+    },
+    {
+      "path": "GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/validation.json",
+      "bytes": 2756,
+      "sha256": "9aa7f9771baca6f55bf728c112526ec3892d32ee82787396b81384180c1e2649"
+    },
+    {
+      "path": "README.md",
+      "bytes": 88621,
+      "sha256": "b116321443b5e1792134610020bc850a0a52a886a45de614325673656d710ea5"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 200282,
+      "sha256": "1d14cb67cb684a08a32957eb0004378ce8cf8b3f70c7438caaa4b635307c6457"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 5484,
+      "sha256": "3f897db6dce5f71f1ef045745e882629892915ba150cf32b9afd287586df80c5"
+    },
+    {
+      "path": "計算部品/compound_contact_inventory.py",
+      "bytes": 1927,
+      "sha256": "f646c0b80af694d7145d777b6be768431e2dd2d44f65cc318387deec84f7e218"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 42693,
+      "sha256": "0ad1881c54506cc9323b3b90e5a6334670e6d7bf60db45385e6f0cf70fce73ce"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 236189,
+      "sha256": "d3b55c9705a0f8f6c8d47116b35d9ea4ea02f3cc5b74bd7ecc53ff4214919ab6"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/material_beam_screen.py",
+      "bytes": 1465,
+      "sha256": "df5fb3947cb04158080d64d81f759f4faa41ac7af11bc24c9747a768a50b0cb3"
+    },
+    {
+      "path": "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/model.md",
+      "bytes": 2751,
+      "sha256": "479c8f42b48e8ff769e301f19f671cc021fd6250582638ee550916bcbea31b22"
+    },
+    {
+      "path": "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/sources.json",
+      "bytes": 2251,
+      "sha256": "193fa971b56f1d02a9650d93fd1693085569c366136e7b3aaeeaac6663b3e65b"
+    }
+  ]
+}

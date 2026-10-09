@@ -1,0 +1,227 @@
+{
+  "cycle": 121,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "計算部品/material_beam_screen.py": "df5fb3947cb04158080d64d81f759f4faa41ac7af11bc24c9747a768a50b0cb3",
+    "GPT往復/素材とスキー双方の履歴を分ける乾式接点検証_20261009/model.md": "479c8f42b48e8ff769e301f19f671cc021fd6250582638ee550916bcbea31b22",
+    "GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/sources.json": "193fa971b56f1d02a9650d93fd1693085569c366136e7b3aaeeaac6663b3e65b"
+  },
+  "source_ratios": {
+    "mu_full": {
+      "after_over_before": 0.6674757281553398,
+      "reduction_fraction": 0.33252427184466016
+    },
+    "mu_steady": {
+      "after_over_before": 0.6897435897435897,
+      "reduction_fraction": 0.31025641025641026
+    },
+    "wear_coefficient_reported_numbers_full": {
+      "after_over_before": 0.41915478549964835,
+      "reduction_fraction": 0.5808452145003516
+    },
+    "wear_coefficient_reported_numbers_steady": {
+      "after_over_before": 0.48820136339800735,
+      "reduction_fraction": 0.5117986366019927
+    }
+  },
+  "whole_over_steady_wear_number": {
+    "plain": 4.10094389092816,
+    "compound": 3.5209452201933407
+  },
+  "feed_additive_fraction": 0.05007511266900351,
+  "ideal_mixtures": [
+    {
+      "additive_mass_fraction": 0.05007511266900351,
+      "additive_volume_fraction": 0.06567066163191596,
+      "ideal_density_kg_m3": 1219.642094894106,
+      "input_additive_density": 930
+    },
+    {
+      "additive_mass_fraction": 0.05007511266900351,
+      "additive_volume_fraction": 0.06501746033410587,
+      "ideal_density_kg_m3": 1220.4947618997683,
+      "input_additive_density": 940
+    },
+    {
+      "additive_mass_fraction": 0.05007511266900351,
+      "additive_volume_fraction": 0.06534242857782732,
+      "ideal_density_kg_m3": 1220.0705592837626,
+      "input_additive_density": 935
+    }
+  ],
+  "inventories": [
+    {
+      "retained_reference_kg": 128250.0,
+      "removed_reference_kg": 6750.0,
+      "compound_kg": 8807.996016219677,
+      "total_kg": 137057.99601621967,
+      "additive_kg": 441.0613929003344,
+      "additive_whole_grain_mass_fraction": 0.003218063927099434,
+      "lab_throughput_equivalent_h": 441.06139290033434,
+      "compound_solid_volume_fraction": 0.05,
+      "reference_label": "PE_reference_assumed",
+      "reference_density_kg_m3": 935
+    },
+    {
+      "retained_reference_kg": 121500.0,
+      "removed_reference_kg": 13500.0,
+      "compound_kg": 17615.992032439353,
+      "total_kg": 139115.99203243936,
+      "additive_kg": 882.1227858006688,
+      "additive_whole_grain_mass_fraction": 0.0063409157560762215,
+      "lab_throughput_equivalent_h": 882.1227858006687,
+      "compound_solid_volume_fraction": 0.1,
+      "reference_label": "PE_reference_assumed",
+      "reference_density_kg_m3": 935
+    },
+    {
+      "retained_reference_kg": 108000.0,
+      "removed_reference_kg": 27000.0,
+      "compound_kg": 35231.98406487871,
+      "total_kg": 143231.98406487872,
+      "additive_kg": 1764.2455716013376,
+      "additive_whole_grain_mass_fraction": 0.012317399518826749,
+      "lab_throughput_equivalent_h": 1764.2455716013374,
+      "compound_solid_volume_fraction": 0.2,
+      "reference_label": "PE_reference_assumed",
+      "reference_density_kg_m3": 935
+    },
+    {
+      "retained_reference_kg": 0,
+      "removed_reference_kg": 135000,
+      "compound_kg": 176159.92032439352,
+      "total_kg": 176159.92032439352,
+      "additive_kg": 8821.227858006687,
+      "additive_whole_grain_mass_fraction": 0.05007511266900351,
+      "lab_throughput_equivalent_h": 8821.227858006687,
+      "compound_solid_volume_fraction": 1,
+      "reference_label": "PE_reference_assumed",
+      "reference_density_kg_m3": 935
+    },
+    {
+      "retained_reference_kg": 128250.0,
+      "removed_reference_kg": 6750.0,
+      "compound_kg": 6641.513125133386,
+      "total_kg": 134891.51312513338,
+      "additive_kg": 332.5745180337199,
+      "additive_whole_grain_mass_fraction": 0.002465496237151733,
+      "lab_throughput_equivalent_h": 332.5745180337199,
+      "compound_solid_volume_fraction": 0.05,
+      "reference_label": "PK_reference_assumed",
+      "reference_density_kg_m3": 1240
+    },
+    {
+      "retained_reference_kg": 121500.0,
+      "removed_reference_kg": 13500.0,
+      "compound_kg": 13283.026250266772,
+      "total_kg": 134783.02625026676,
+      "additive_kg": 665.1490360674399,
+      "additive_whole_grain_mass_fraction": 0.004934961430769354,
+      "lab_throughput_equivalent_h": 665.1490360674399,
+      "compound_solid_volume_fraction": 0.1,
+      "reference_label": "PK_reference_assumed",
+      "reference_density_kg_m3": 1240
+    },
+    {
+      "retained_reference_kg": 108000.0,
+      "removed_reference_kg": 27000.0,
+      "compound_kg": 26566.052500533544,
+      "total_kg": 134566.05250053355,
+      "additive_kg": 1330.2980721348797,
+      "additive_whole_grain_mass_fraction": 0.009885837084576774,
+      "lab_throughput_equivalent_h": 1330.2980721348797,
+      "compound_solid_volume_fraction": 0.2,
+      "reference_label": "PK_reference_assumed",
+      "reference_density_kg_m3": 1240
+    },
+    {
+      "retained_reference_kg": 0,
+      "removed_reference_kg": 135000,
+      "compound_kg": 132830.2625026677,
+      "total_kg": 132830.2625026677,
+      "additive_kg": 6651.490360674397,
+      "additive_whole_grain_mass_fraction": 0.05007511266900351,
+      "lab_throughput_equivalent_h": 6651.4903606743965,
+      "compound_solid_volume_fraction": 1,
+      "reference_label": "PK_reference_assumed",
+      "reference_density_kg_m3": 1240
+    }
+  ],
+  "inclusion_scales": [
+    {
+      "thickness_um": 50,
+      "diameter_um": 30,
+      "diameters_across": 1.6666666666666667,
+      "centered_cover_each_side_um": 10.0,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 50,
+      "diameter_um": 38,
+      "diameters_across": 1.3157894736842106,
+      "centered_cover_each_side_um": 6.0,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 50,
+      "diameter_um": 75,
+      "diameters_across": 0.6666666666666666,
+      "centered_cover_each_side_um": 0,
+      "fits_single_sphere": false
+    },
+    {
+      "thickness_um": 100,
+      "diameter_um": 30,
+      "diameters_across": 3.3333333333333335,
+      "centered_cover_each_side_um": 35.0,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 100,
+      "diameter_um": 38,
+      "diameters_across": 2.6315789473684212,
+      "centered_cover_each_side_um": 31.0,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 100,
+      "diameter_um": 75,
+      "diameters_across": 1.3333333333333333,
+      "centered_cover_each_side_um": 12.5,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 200,
+      "diameter_um": 30,
+      "diameters_across": 6.666666666666667,
+      "centered_cover_each_side_um": 85.0,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 200,
+      "diameter_um": 38,
+      "diameters_across": 5.2631578947368425,
+      "centered_cover_each_side_um": 81.0,
+      "fits_single_sphere": true
+    },
+    {
+      "thickness_um": 200,
+      "diameter_um": 75,
+      "diameters_across": 2.6666666666666665,
+      "centered_cover_each_side_um": 62.5,
+      "fits_single_sphere": true
+    }
+  ],
+  "limits": [
+    "Patent applicant reported values; not independent replication",
+    "Wear coefficient units not explicit in cited paragraph; ratios only",
+    "Steel grade text internally mixes D2 and52100/100Cr6",
+    "No pure-water redry or actual ski data",
+    "935 is a density midpoint, not measured new formulation",
+    "No powder surface chemistry clearance or total safety established",
+    "Feed rates not qualified production capacity",
+    "Actual postprocessing domain sizes not measured"
+  ],
+  "scope": "Source arithmetic and ideal composition/inventory, no friction or lifetime model"
+}
