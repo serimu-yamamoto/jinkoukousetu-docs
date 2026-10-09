@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S1_reused",
+    "title": "Yielding, rigidity, and tensile stress in sheared columns of hexapod granules",
+    "url": "https://arxiv.org/pdf/2002.09800v2",
+    "journal_doi": "10.1103/PhysRevE.101.062903",
+    "primary_read_date": "2026-10-10",
+    "reuse_date": "2026-10-10",
+    "read_scope": "Reused118 verified primary body pp6-7 on sphere-clump surface effects. No duplicate source retrieval this cycle.",
+    "scope_limit": "Current one-contact calculation is not a reproduction of published DEM."
+  },
+  {
+    "id": "prior98_inputs",
+    "repository_path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/inputs.json",
+    "scope": "Assumed contact coefficients only, not measured50C properties."
+  },
+  {
+    "id": "prior98_q",
+    "repository_path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/reproduce.py",
+    "scope": "Read and reuse pure q function definition for consistency, not top-level execution."
+  },
+  {
+    "id": "prior118_source_record",
+    "repository_path": "GPT往復/境界力と見かけの粘着力の識別_20261010/sources.json",
+    "scope": "Primary reading scope preserved; actual local/nominal stress cautions retained."
+  }
+]

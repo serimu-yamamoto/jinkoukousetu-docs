@@ -1,0 +1,124 @@
+{
+  "cycle": 119,
+  "base_commit": "eb647a8f9ac0b0274c959d7b17634fc37d103d94",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第119巡_計算上の凹凸を材料の摩擦と混同しない_20261010.md",
+      "bytes": 7337,
+      "sha256": "4c471dbcfea2fbdf327f1e1efe9aba75deba056fda76a2555be70fd0f0066af8"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 77187,
+      "sha256": "9049a3728c66a54e791e983165e15bd8f5694cf874b865886c40821ea8894b72"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/README.md",
+      "bytes": 622,
+      "sha256": "b0eab1229dd2fab2eb2254d860a0a8afff7423a96f8cf3d5331dda43e56d9c3f"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/claude_handoff.md",
+      "bytes": 1609,
+      "sha256": "f29dc5164f11c0730c4b075b03367cb3f4fc3ed73e18a4991981974193abbfcf"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "f53278b99106c17c069e1082bb05ff30ca8fcdfe96917a158fc919c86b1f70e6"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/inputs.json",
+      "bytes": 398,
+      "sha256": "54ad769f8c86faf330027ab52377e80f9277b385b24ff35818ba89e8137423d8"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/model.md",
+      "bytes": 1851,
+      "sha256": "f821209829f1c116af6f4248911bc80609ac36e81d3537f86569aa8b43208bb3"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/publication_audit.json",
+      "bytes": 256,
+      "sha256": "d171859d008880c7941363dfcc1ac39a90bbbefdbaa2d735a89549a3facbd99b"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/reproduce.py",
+      "bytes": 6067,
+      "sha256": "5dc0c3aaae4457473255a0ad225e38b902505b43a66f4191132150389b432e6b"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/research_state.json",
+      "bytes": 1130,
+      "sha256": "08ac092a384b34cabec3edee275a943eaa2f0110bb25c64ebeefe1fef6d35af4"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/results.json",
+      "bytes": 48164,
+      "sha256": "fa9be00a9ba3aaac89fac34264e4982ce54b33412653ee874765a44a6b6a5ce5"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/sources.json",
+      "bytes": 1244,
+      "sha256": "d9763c70050e62e0aff13854ab2a92c53d31400f50e368bc5cf629af0e02b8be"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/test_plan.json",
+      "bytes": 1263,
+      "sha256": "80954dcad1204bc6db8a7fd4d99951bb23105ffdfc225d050cbf8fab6caa1525"
+    },
+    {
+      "path": "GPT往復/球列近似の凹凸と接触仕事の監査_20261010/validation.json",
+      "bytes": 33008,
+      "sha256": "501ff2b1f8b997e3106633184aaedebf8f58cfff915e652d7c254e0258b9f251"
+    },
+    {
+      "path": "README.md",
+      "bytes": 87378,
+      "sha256": "f4ec68eaa60eb7afe4e5712ea3e87c5b606574d172fe25c4f32eb7710de0caaf"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 198123,
+      "sha256": "22f99ca0843d9694cdf28b90a619ca77d0cbe8baf17c9c7df0cad6dc4b548e6c"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 4885,
+      "sha256": "bd85a12231064b0296442f3342b0d380bf6c9765f3cf8e8745437c729d258b95"
+    },
+    {
+      "path": "計算部品/clump_surface_cycle.py",
+      "bytes": 2925,
+      "sha256": "fbf4a11f4160c5a3bffd4f787169dc0dceaa7d0f1473bda22f4943bc006af787"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 41278,
+      "sha256": "69a7f370554686eead5437ef8aeace13d9d1d4193d88968a94c3debcabe220d5"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 235558,
+      "sha256": "70cdb61cd9827068f9d33f49686a0e2296a3285467dc52c1744c83117a81306e"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/inputs.json",
+      "bytes": 1365,
+      "sha256": "269fb9e0014d19fdc6fb4c1da8697f7522c48944b8e7347bb9db5a5cef153760"
+    },
+    {
+      "path": "GPT往復/押上げを減らす開離形状と圧力依存の検証_20261010/reproduce.py",
+      "bytes": 6205,
+      "sha256": "fc23db138ec5cceb1cff507be829860ca6cb036c34d645b73a592df41d576464"
+    },
+    {
+      "path": "GPT往復/境界力と見かけの粘着力の識別_20261010/sources.json",
+      "bytes": 1012,
+      "sha256": "2f0c0c830c5ca12d1b69082c3abef362815638018f897d009dd5de862ec39d88"
+    }
+  ]
+}

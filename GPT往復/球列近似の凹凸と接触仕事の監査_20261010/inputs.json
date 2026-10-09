@@ -1,0 +1,24 @@
+{
+  "assumed": {
+    "bead_radius_m": 0.0005,
+    "probe_radius_over_bead": [
+      0.25,
+      1,
+      4
+    ],
+    "pitch_over_bead_diameter": [
+      1,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "include_frictionless_control": true,
+    "integration_n": [
+      1000,
+      2000
+    ],
+    "relative_peak_extra_diagnostic": 0.05
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}

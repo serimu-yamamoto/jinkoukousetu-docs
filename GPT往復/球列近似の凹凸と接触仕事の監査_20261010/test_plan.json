@@ -1,0 +1,34 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "candidate_families": "Continue117-118 four shape families; separate macro support geometry from local sliding surfaces",
+  "model_comparisons": [
+    "smooth analytic contact",
+    "sphere-clump refinement at fixed material parameters"
+  ],
+  "required_outputs": [
+    "mean signed horizontal resistance",
+    "peak resistance",
+    "friction dissipation versus reversible work",
+    "mass inertia and outer shape control",
+    "rotation compliance multicontact and cusp dynamics"
+  ],
+  "physical_checks": [
+    "actual mold and wear profile",
+    "50C dry wet redry actual ski sole",
+    "unloaded slope support and postedge release",
+    "rain and60min restoration",
+    "winter connection drainage",
+    "complete material human/environment safety"
+  ],
+  "prohibited_inferences": [
+    "608 checks are not physical trials",
+    "5percent peak diagnostic not snow-quality requirement",
+    "numerical sphere count not manufacturing cost",
+    "prescribed path not full DEM"
+  ],
+  "actions": "Research calculations and specifications only; no purchase manufacture field release or third-party messaging."
+}

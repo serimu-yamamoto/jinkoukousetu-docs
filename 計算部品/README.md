@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [clump_surface_cycle.py](clump_surface_cycle.py)：球列の接触包絡と符号付き周期仕事、解析平均、ピーク解像度。実物摩擦・DEM全体の予測ではない。[第119巡](../GPT往復/球列近似の凹凸と接触仕事の監査_20261010/README.md)。
+
 - [boundary_pressure.py](boundary_pressure.py)：名目圧力と局所圧力の識別反例、側壁力の圧力換算、自重尺度。実物の粘着力を推定しない。[第118巡](../GPT往復/境界力と見かけの粘着力の識別_20261010/README.md)。
 
 - [vibration_dwell.py](vibration_dwell.py)：振幅/粒径と加速度比の相似、局所滞留と全閉鎖の時間収支。絡み形成・雪の性能は予測しない。[第117巡](../GPT往復/粒の絡みと振動整地の時間尺度_20261010/README.md)。
