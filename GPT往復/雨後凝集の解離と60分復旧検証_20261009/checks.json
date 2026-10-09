@@ -1,0 +1,123 @@
+{
+  "total": 29,
+  "passed": 29,
+  "checks": [
+    {
+      "name": "surface_tension_50_reference",
+      "passed": true
+    },
+    {
+      "name": "surface_tension_decreases",
+      "passed": true
+    },
+    {
+      "name": "analytic_vs_quadrature_1e-06",
+      "passed": true
+    },
+    {
+      "name": "analytic_vs_quadrature_0.0001",
+      "passed": true
+    },
+    {
+      "name": "analytic_vs_quadrature_0.01",
+      "passed": true
+    },
+    {
+      "name": "integral_lower_limit_zero",
+      "passed": true
+    },
+    {
+      "name": "zero_separation_is_F0",
+      "passed": true
+    },
+    {
+      "name": "force_radius_scaling",
+      "passed": true
+    },
+    {
+      "name": "work_radius_squared",
+      "passed": true
+    },
+    {
+      "name": "rupture_radius_scaling",
+      "passed": true
+    },
+    {
+      "name": "reduced_mass_energy",
+      "passed": true
+    },
+    {
+      "name": "force_weight_units",
+      "passed": true
+    },
+    {
+      "name": "2024_contact_formula",
+      "passed": true
+    },
+    {
+      "name": "draining_need_not_reduce_contact_force",
+      "passed": true
+    },
+    {
+      "name": "draining_reduces_work_both_models",
+      "passed": true
+    },
+    {
+      "name": "new_model_quadrature_convergence_1e-06",
+      "passed": true
+    },
+    {
+      "name": "new_model_quadrature_convergence_0.0001",
+      "passed": true
+    },
+    {
+      "name": "new_model_quadrature_convergence_0.01",
+      "passed": true
+    },
+    {
+      "name": "in_phase_no_relative_energy",
+      "passed": true
+    },
+    {
+      "name": "same_acceleration_energy_factor25",
+      "passed": true
+    },
+    {
+      "name": "root_k_reference",
+      "passed": true
+    },
+    {
+      "name": "root_bending_relations",
+      "passed": true
+    },
+    {
+      "name": "whole_bed_small_area_108t",
+      "passed": true
+    },
+    {
+      "name": "whole_bed_large_area_1080t",
+      "passed": true
+    },
+    {
+      "name": "time_38min",
+      "passed": true
+    },
+    {
+      "name": "flow_mass_identity",
+      "passed": true
+    },
+    {
+      "name": "maintenance_100ppm_limit",
+      "passed": true
+    },
+    {
+      "name": "loss_annual_linear_replacement",
+      "passed": true
+    },
+    {
+      "name": "latent_energy_units",
+      "passed": true
+    }
+  ],
+  "physical_validation": false
+}

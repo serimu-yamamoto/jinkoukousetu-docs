@@ -1,0 +1,9 @@
+area_m2,bed_mass_kg,loss_fraction_each_pass,passes,original_fraction_remaining_without_replacement,replacement_kg_to_maintain_bed_mass,annual_material_only_JPY_assumed,scope
+2000.0,108000.0,1e-05,200,0.9980019886872556,216.00000000000003,108000.00000000001,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+2000.0,108000.0,0.0001,200,0.9801976930432228,2160.0,1080000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+2000.0,108000.0,0.001,200,0.8186488294786356,21600.0,10800000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+2000.0,108000.0,0.01,200,0.13397967485796172,216000.0,108000000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+20000.0,1080000.0,1e-05,200,0.9980019886872556,2160.0,1080000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+20000.0,1080000.0,0.0001,200,0.9801976930432228,21600.0,10800000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+20000.0,1080000.0,0.001,200,0.8186488294786356,216000.0,108000000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"
+20000.0,1080000.0,0.01,200,0.13397967485796172,2160000.0,1080000000.0,"all bed processed each pass; loss includes captured scrap, not permission for environmental discharge"

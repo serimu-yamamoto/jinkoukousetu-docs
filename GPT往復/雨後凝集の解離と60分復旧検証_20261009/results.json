@@ -1,0 +1,112 @@
+{
+  "cycle": 76,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "reference_bridge": {
+    "model": "2007",
+    "R_um": 25.0,
+    "V_over_R3": 0.001,
+    "T_C": 50,
+    "gamma_N_m": 0.06794390594487329,
+    "force_contact_uN": 10.67260378863049,
+    "rupture_distance_um": 2.525000000000001,
+    "rupture_work_nJ": 0.005990092223606595,
+    "single_bridge_force_over_weight": 31.083744833640562,
+    "pair_relative_speed_energy_m_s": 0.026164517354848767
+  },
+  "draining_comparison": [
+    {
+      "V_over_R3": 0.01,
+      "old_F_uN": 10.67260378863049,
+      "new_F_uN": 9.432452454167167,
+      "old_W_nJ": 0.01770648785593744,
+      "new_W_nJ": 0.01832387673307489,
+      "rupture_um": 5.502126445920029
+    },
+    {
+      "V_over_R3": 0.0001,
+      "old_F_uN": 10.67260378863049,
+      "new_F_uN": 10.295661654620343,
+      "old_W_nJ": 0.0019866967763063196,
+      "new_W_nJ": 0.0020299311322563712,
+      "rupture_um": 1.1657832951282747
+    },
+    {
+      "V_over_R3": 1e-06,
+      "old_F_uN": 10.67260378863049,
+      "new_F_uN": 10.558032793588492,
+      "old_W_nJ": 0.00021003112554459776,
+      "new_W_nJ": 0.00021045220049007785,
+      "rupture_um": 0.2502500000000001
+    }
+  ],
+  "same_acceleration_comparison": [
+    {
+      "Gamma_drive": 25,
+      "frequency_Hz": 20,
+      "unknown_relative_coupling_alpha": 0.1,
+      "simultaneous_bridges": 1,
+      "amplitude_mm": 15.530637680177087,
+      "wall_speed_m_s": 1.9516374896643665,
+      "assumed_relative_speed_m_s": 0.19516374896643665,
+      "relative_kinetic_over_bridge_work": 55.638171421572174,
+      "nominal_drive_force_over_bridge_force": 0.8042788966966298,
+      "scope": "two separate diagnostic ratios, not a fluidization or success criterion"
+    },
+    {
+      "Gamma_drive": 25,
+      "frequency_Hz": 100,
+      "unknown_relative_coupling_alpha": 0.1,
+      "simultaneous_bridges": 1,
+      "amplitude_mm": 0.6212255072070835,
+      "wall_speed_m_s": 0.39032749793287336,
+      "assumed_relative_speed_m_s": 0.03903274979328734,
+      "relative_kinetic_over_bridge_work": 2.2255268568628876,
+      "nominal_drive_force_over_bridge_force": 0.8042788966966298,
+      "scope": "two separate diagnostic ratios, not a fluidization or success criterion"
+    }
+  ],
+  "root_reference": [
+    {
+      "E_Pa_assumed": 200000000.0,
+      "width_um": 100.0,
+      "t_um": 20.0,
+      "L_um": 500.0,
+      "R_um": 25.0,
+      "bridges_on_one_root": 1,
+      "root_k_N_m": 0.32000000000000006,
+      "root_strain_linear": 0.004002226420736433,
+      "tip_deflection_um_linear": 33.351886839470275,
+      "deflection_over_length": 0.06670377367894055,
+      "small_deflection_screen": true,
+      "force_limit_uN_for_assumed_strain005": 13.333333333333334,
+      "scope": "0.5% is an illustrative strain budget, not measured yield/fatigue limit"
+    },
+    {
+      "E_Pa_assumed": 1000000000.0,
+      "width_um": 100.0,
+      "t_um": 20.0,
+      "L_um": 500.0,
+      "R_um": 25.0,
+      "bridges_on_one_root": 1,
+      "root_k_N_m": 1.6000000000000003,
+      "root_strain_linear": 0.0008004452841472868,
+      "tip_deflection_um_linear": 6.670377367894055,
+      "deflection_over_length": 0.013340754735788109,
+      "small_deflection_screen": true,
+      "force_limit_uN_for_assumed_strain005": 66.66666666666667,
+      "scope": "0.5% is an illustrative strain budget, not measured yield/fatigue limit"
+    }
+  ],
+  "annual_loss_fraction_per_pass_limit": 0.0001,
+  "row_counts": {
+    "bridge_models.csv": 36,
+    "vibration_diagnostics.csv": 72,
+    "root_damage_screen.csv": 48,
+    "restoration_throughput.csv": 18,
+    "maintenance_loss_cost.csv": 8,
+    "evaporation_bound.csv": 6,
+    "draining_comparison.csv": 3
+  },
+  "total_rows": 191
+}

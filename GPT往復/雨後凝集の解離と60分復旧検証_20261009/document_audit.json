@@ -1,0 +1,150 @@
+{
+  "cycle": 76,
+  "document_checks": 33,
+  "links_checked": 476,
+  "checks": [
+    {
+      "name": "physical_experiments_zero",
+      "passed": true
+    },
+    {
+      "name": "probability_not_fabricated",
+      "passed": true
+    },
+    {
+      "name": "29_math_checks",
+      "passed": true
+    },
+    {
+      "name": "rows_bridge_models.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_vibration_diagnostics.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_root_damage_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_restoration_throughput.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_maintenance_loss_cost.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_evaporation_bound.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_draining_comparison.csv",
+      "passed": true
+    },
+    {
+      "name": "191_comparison_rows",
+      "passed": true
+    },
+    {
+      "name": "independent_gamma",
+      "passed": true
+    },
+    {
+      "name": "independent_peak_force",
+      "passed": true
+    },
+    {
+      "name": "independent_rupture_length",
+      "passed": true
+    },
+    {
+      "name": "independent_reduced_mass",
+      "passed": true
+    },
+    {
+      "name": "independent_midpoint_energy",
+      "passed": true
+    },
+    {
+      "name": "independent_restoration_volume",
+      "passed": true
+    },
+    {
+      "name": "root_reference_two_moduli",
+      "passed": true
+    },
+    {
+      "name": "independent_root_strain",
+      "passed": true
+    },
+    {
+      "name": "independent_material_replacement",
+      "passed": true
+    },
+    {
+      "name": "loss_100ppm_limit",
+      "passed": true
+    },
+    {
+      "name": "drain_work_force_counterexample",
+      "passed": true
+    },
+    {
+      "name": "tests_not_executed",
+      "passed": true
+    },
+    {
+      "name": "report_status_scope",
+      "passed": true
+    },
+    {
+      "name": "PNG_figure1_force_work.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_figure2_process_cost.png",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "relative_links_exist",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "ece6256ac6369dfa78e1cf2885d366899e019847a7928420dcb271558700a59a",
+    "回覧板.md": "d3be1fed563e9a531a36a97cc34096217844af71bf2e3689b6ff12d499ba257b",
+    "GPT往復/README.md": "ff093a3292bd4edc1c262531f0b4f65ed6ba9a390d810b3830209193bbfc086b",
+    "調査台帳/一般.md": "9d0915c77ca9258bac60fa3f8956307ff2620ab3005580461275a48b835dd903",
+    "調査台帳/計算部品索引.md": "220430f58c7d058298a8bc5ef4e393e2d4aa3f1604815cc60149478ed244e970"
+  },
+  "physical_experiments": 0,
+  "success_probability": null,
+  "visual_review": "Both PNGs visually inspected. Equations/assumptions distinguish numerical confirmation from physical validation.",
+  "source1_full_text_republished": false
+}

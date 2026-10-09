@@ -1,0 +1,145 @@
+{
+  "cycle": 76,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "basis_commit": "31aa85c28d705206192a40ac980fc741d6a2f3b0",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第76巡_濡れた粒を壊さずほぐす条件と60分復旧_20261009.md",
+      "bytes": 13722,
+      "sha256": "7362288c75a6b6c8e0e378d6d923e9d6e1fc1f73278edf956e36d745761c9af0"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 52045,
+      "sha256": "a26058fa0b192f3fcca901c661e10d1e8df0c6c5bbeb1d1768fbe0950c5ea1e5"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/audit.py",
+      "bytes": 6250,
+      "sha256": "ad42259c2d3e849f9ad9076027a147243241ce7974b0efe0199ef2a7f120b765"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/bridge_models.csv",
+      "bytes": 5424,
+      "sha256": "458c0e99c1b16c3c7635ecba9166598807bc72bdd6adfbcca78c5f5f61035677"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/checks.json",
+      "bytes": 2328,
+      "sha256": "e432dbcc0d594635987717e39f5357dd798c67fd121c97be555b16450b008728"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/document_audit.json",
+      "bytes": 3433,
+      "sha256": "7faa02707d3951b5ad52b3ca27776d00cd75a6f1da933150ec912d0216263d96"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/draining_comparison.csv",
+      "bytes": 371,
+      "sha256": "19155f833b50b6c3965dfde824f2d96a93ad68ac11b08ebada73a1a24f164148"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/draw.py",
+      "bytes": 3901,
+      "sha256": "1c555d1b7d538de5b409fa29321eb48ea0c9d6c105b47eda6d80b70696460fb3"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/evaporation_bound.csv",
+      "bytes": 958,
+      "sha256": "8f788f6d69728ae29d419332b8958d54a6d45b4526e56a54cd019cfea2fb3974"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/figure1_force_work.png",
+      "bytes": 193768,
+      "sha256": "deedb742ccd2e9b132fec3548740bf0ec6321ec5c9fa427085a14cc5c80e7661"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/figure2_process_cost.png",
+      "bytes": 228034,
+      "sha256": "b29d092c1bb32f488be17980ae69ebe792f821a27827943d3fc1e70b6e458480"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/index_changes.json",
+      "bytes": 5921,
+      "sha256": "eb919a4dfb6b6660407cea453ed721b6898bdba225da45e70f39a2eea12ac11a"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/inputs.json",
+      "bytes": 659,
+      "sha256": "c1a2b814927e2fd6155bdb9cb1f961b9b6ef9e7c404acf23dcaa96b8dd33b1ba"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/maintenance_loss_cost.csv",
+      "bytes": 1551,
+      "sha256": "ea618669661187342fad496d13792ba980b3e9c5d5c08a4716d7a0d9e1f91935"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/model.md",
+      "bytes": 3974,
+      "sha256": "118c5f38f9be33856819bd86ed6787899056fa0e24c17da2f7732cb0c91e4606"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/reproduce.py",
+      "bytes": 9911,
+      "sha256": "b63cf3ce63249cd432fd425795df1b2d0be710ddb584f5c082ae7f49791a922c"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/restoration_throughput.csv",
+      "bytes": 3691,
+      "sha256": "920959f968b6cd76d9b3a9e72c7958a6df1b084837517b62846119f269675d8a"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/results.json",
+      "bytes": 3733,
+      "sha256": "47b0fe17819a01e9a39f01aa89b5f545bd0fcf23d77414f1389deb406649ad16"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/root_damage_screen.csv",
+      "bytes": 10164,
+      "sha256": "e5ed6b6542beb7f1c319c09487f9e42ab082f04354705bfbf0890f3f1bcfdc9e"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/source_audit.json",
+      "bytes": 1305,
+      "sha256": "c30159747b88618ec9781b191b4e520435357e4c40936c51dbeb96899ae9f0c9"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/sources.md",
+      "bytes": 3188,
+      "sha256": "63b1b30f2abcbc9739f158bc654073fa86c2b81bae504465cce48dbefbe2f38f"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/test_plan.json",
+      "bytes": 3292,
+      "sha256": "c2bcc59051fdd915af244aecd6b434d6f50b0029bd9dd4b944b69b61ebc1cf05"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/vibration_diagnostics.csv",
+      "bytes": 12697,
+      "sha256": "dbd85e18f58bbb9f86bfcef6a54630a37c6d449c7b2d0e4fc945ab7f85e9871a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 59921,
+      "sha256": "ccd95e22f4d3fbb33dbc066a577b82cde94e3cad8b08603dfe3cdd917c7fe0de"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 150743,
+      "sha256": "14c91e946e263a6c7b7f02c2c1fe55e1cd12efa5a51c561289bcff943b9f7bb4"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 14119,
+      "sha256": "26eefb5728adab252faf3a01a154a047bedee11d5cc1e8616d5ac00d820f5d2a"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 219687,
+      "sha256": "ea4e19869201d9756ba9b71e3435ef4395ff478a58745c6be222f210deadd0ac"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+area_m2,water_fraction_of_bed_volume,water_kg,latent_heat_only_MWh,thermal_power_in_38min_MW,scope
+2000.0,0.001,900.0,0.595,0.9394736842105262,"50 C approximate latent heat; no heating, air loss, transfer limit or heater efficiency included"
+2000.0,0.01,9000.0,5.95,9.394736842105264,"50 C approximate latent heat; no heating, air loss, transfer limit or heater efficiency included"
+2000.0,0.05,45000.0,29.75,46.973684210526315,"50 C approximate latent heat; no heating, air loss, transfer limit or heater efficiency included"
+20000.0,0.001,9000.0,5.95,9.394736842105264,"50 C approximate latent heat; no heating, air loss, transfer limit or heater efficiency included"
+20000.0,0.01,90000.0,59.5,93.94736842105263,"50 C approximate latent heat; no heating, air loss, transfer limit or heater efficiency included"
+20000.0,0.05,450000.0,297.5,469.7368421052632,"50 C approximate latent heat; no heating, air loss, transfer limit or heater efficiency included"

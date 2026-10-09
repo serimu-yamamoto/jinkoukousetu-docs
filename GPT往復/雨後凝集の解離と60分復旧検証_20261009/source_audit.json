@@ -1,0 +1,33 @@
+{
+  "cycle": 76,
+  "basis_commit": "31aa85c28d705206192a40ac980fc741d6a2f3b0",
+  "checked_at_utc": "2026-10-09T07:45:25.493Z",
+  "pdfs": [
+    {
+      "id": "fingerle2007",
+      "url": "https://arxiv.org/pdf/0708.2597",
+      "bytes": 682858,
+      "sha256": "b2eaebbebbc9b3c8a7666e3bf3f6ce1e2925ebf2d0d6901f23e92d947a9abafd"
+    },
+    {
+      "id": "koval2018",
+      "url": "https://web.njit.edu/~kondic/granular/2018_PRE_cohesive.pdf",
+      "bytes": 909885,
+      "sha256": "0591e4467d25a8e461e3052537ef3625f6ee4c078cec709b7d29a40f106cb4c1"
+    },
+    {
+      "id": "iapws",
+      "url": "https://iapws.org/technical-guidance/release/Surf-H2O.download",
+      "bytes": 63322,
+      "sha256": "77d07ae4c6d473806b73f982d4c031b927db02a5718bd3c25cd7a03c3321587d"
+    }
+  ],
+  "source1_scope": "Equations 2-6 and sphere/plate experiment; PDF page 2 visually checked",
+  "source2_scope": "Publisher HTML equations 17,24,27,28 and domain; no validation of non-spherical particles",
+  "source3_scope": "IAPWS PDF page 3 visually checked",
+  "source4_scope": "Methods and equation 3 checked; PDF page 2 visually checked",
+  "claude_ledger_sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+  "claude_received": false,
+  "physical_experiments": 0,
+  "success_probability": null
+}

@@ -1,0 +1,30 @@
+{
+  "cycle": 76,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "parameters": {
+    "particle_mass_kg": 3.5e-08,
+    "g": 9.81,
+    "bulk_density_kg_m3": 120.0,
+    "bed_depth_m": 0.45,
+    "closed_s": 3600.0,
+    "other_s": 1320.0,
+    "annual_passes": 200,
+    "annual_replacement_target": 0.02,
+    "latent_heat_assumption_J_kg": 2380000.0,
+    "material_price_assumption_JPY_kg": 500.0
+  },
+  "R_um": [
+    10,
+    25,
+    50
+  ],
+  "V_over_R3": [
+    1e-06,
+    0.0001,
+    0.01
+  ],
+  "contact_angle_degrees": 0,
+  "sources": "sources.md",
+  "area_scopes": "2000 m2 economic reference; 20000 m2 grooming reference; not interchangeable"
+}
