@@ -1,0 +1,93 @@
+{
+  "cycle": 77,
+  "physical_trials": 0,
+  "success_probability": null,
+  "reference": {
+    "p0_peak_Pa": 5000000,
+    "a0_m": 0.00005,
+    "E_star_Pa": 500000000,
+    "outer_radius_ratio": 1.5,
+    "load_formula": "0.8*pi*p0*a0^2"
+  },
+  "thermal": {
+    "initial_C": 50,
+    "k_W_mK": 0.4,
+    "rho_kg_m3": 950,
+    "cp_J_kgK": 2000,
+    "mu": [
+      0.04,
+      0.1,
+      0.2
+    ],
+    "speed_m_s": [
+      0.5,
+      5,
+      10,
+      20
+    ],
+    "eta": [
+      0.25,
+      0.5,
+      1
+    ],
+    "baseline_mu": 0.1,
+    "baseline_speed_m_s": 10,
+    "baseline_eta": 0.5
+  },
+  "geometry": {
+    "N": [
+      1,
+      4,
+      16,
+      64
+    ],
+    "height_span_um": [
+      0,
+      0.1,
+      0.5,
+      1
+    ],
+    "patterns": [
+      "one_high",
+      "linear_ramp"
+    ],
+    "array_gap_um": [
+      0,
+      10,
+      25
+    ],
+    "series_seat_total_stiffness_N_m": [
+      null,
+      20000
+    ]
+  },
+  "cost": {
+    "reference_area_m2": 2000,
+    "scale_area_m2": [
+      2000,
+      20000
+    ],
+    "grain_count": 3117691453623.979,
+    "heads_per_grain": 6,
+    "skin_m": 0.00001,
+    "rho_kg_m3": 950,
+    "support_ring_width_m": 0.000002,
+    "support_ring_height_m": 0.00001,
+    "assumed_unit_JPY_kg": [
+      500,
+      2000
+    ],
+    "yield": 0.8
+  },
+  "root75": {
+    "k_N_m": 1.6,
+    "allowable_test_deflection_m": 0.000005,
+    "length_m": 0.0005
+  },
+  "numerics": {
+    "quadrature_nodes": 128,
+    "peak_grid": 2001,
+    "array_grid": 6001
+  },
+  "status": "All parameters are design/sensitivity assumptions unless explicitly sourced; no measured candidate material properties."
+}

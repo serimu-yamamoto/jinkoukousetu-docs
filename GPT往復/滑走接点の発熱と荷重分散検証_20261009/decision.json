@@ -1,0 +1,28 @@
+{
+  "cycle": 77,
+  "physical_trials": 0,
+  "success_probability": null,
+  "chosen_comparison": "H77-S: N=1/4/16, shallow normal load path with per-pad compliance; not manufactured",
+  "deprioritized": "N=64 subdivision without demonstrated cost/tolerance benefit",
+  "new_counterexample": "N=16 one high pad by 0.5 um plus row thermal memory raises moving-base temperature by 14.074 C versus reference 8.872 C",
+  "conditional_improvement": "Assumed total series seat stiffness 20,000 N/m reduces that case to 8.573 C; actual material, dynamic behavior and geometry unknown",
+  "not_proven": [
+    "snow-like ski feeling",
+    "new crystal synthesis",
+    "warm outdoor spray crystallization",
+    "50 C finished-material durability",
+    "human/environment safety",
+    "rain recovery within 60 minutes",
+    "winter bonding/drainage",
+    "manufacturing economics",
+    "probability above 90%"
+  ],
+  "alternatives_retained": [
+    "actual low-shear crystal material",
+    "backside bonded crystal structure",
+    "wet-stable open grains plus low-damage recovery",
+    "warm spray crystal route"
+  ],
+  "candidate_lab_plan": "test_matrix.json",
+  "claude_receipt": "unconfirmed"
+}

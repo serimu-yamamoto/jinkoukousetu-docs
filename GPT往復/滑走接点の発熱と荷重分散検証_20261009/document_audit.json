@@ -1,0 +1,134 @@
+{
+  "cycle": 77,
+  "document_checks": 29,
+  "links_checked": 514,
+  "checks": [
+    {
+      "name": "physical_trials_zero_probability_null",
+      "passed": true
+    },
+    {
+      "name": "32_math_checks",
+      "passed": true
+    },
+    {
+      "name": "rows_thermal_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_height_load_cases.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_array_memory.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_coupled_array.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_cost_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_normal_load_budget.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_convergence.csv",
+      "passed": true
+    },
+    {
+      "name": "277_comparison_rows",
+      "passed": true
+    },
+    {
+      "name": "load_independent",
+      "passed": true
+    },
+    {
+      "name": "effusivity_independent",
+      "passed": true
+    },
+    {
+      "name": "root_budget_N1",
+      "passed": true
+    },
+    {
+      "name": "root_budget_N4",
+      "passed": true
+    },
+    {
+      "name": "root_budget_N16",
+      "passed": true
+    },
+    {
+      "name": "root_budget_N64",
+      "passed": true
+    },
+    {
+      "name": "all_thermal_scaling",
+      "passed": true
+    },
+    {
+      "name": "material_mass_cost_independent",
+      "passed": true
+    },
+    {
+      "name": "tests_not_run",
+      "passed": true
+    },
+    {
+      "name": "report_status_and_scope",
+      "passed": true
+    },
+    {
+      "name": "PNG_thermal_and_tolerance.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_memory_and_material.png",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "preserved_history_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "relative_links_exist",
+      "passed": true
+    }
+  ],
+  "baseline_index_sha256_lf_normalized": {
+    "README.md": "ccd95e22f4d3fbb33dbc066a577b82cde94e3cad8b08603dfe3cdd917c7fe0de",
+    "回覧板.md": "14c91e946e263a6c7b7f02c2c1fe55e1cd12efa5a51c561289bcff943b9f7bb4",
+    "GPT往復/README.md": "a26058fa0b192f3fcca901c661e10d1e8df0c6c5bbeb1d1768fbe0950c5ea1e5",
+    "調査台帳/一般.md": "26eefb5728adab252faf3a01a154a047bedee11d5cc1e8616d5ac00d820f5d2a",
+    "調査台帳/計算部品索引.md": "ea4e19869201d9756ba9b71e3435ef4395ff478a58745c6be222f210deadd0ac"
+  },
+  "physical_trials": 0,
+  "success_probability": null,
+  "visual_review": "Both generated PNGs visually inspected; source method pages inspected. Code/maths validated only.",
+  "copyrighted_source_PDFs_republished": false
+}

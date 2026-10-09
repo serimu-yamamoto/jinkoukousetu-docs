@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-09",
+  "github_base_commit": "2b70115cfb1ca2e06dc78fdae650c315c6e635db",
+  "claude_ledger": {
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "update_since_cycle76": false,
+    "original_scripts_available": false,
+    "current_running_status": "unconfirmed",
+    "receipt": "unconfirmed",
+    "relevant_records": [
+      "v3 R1 案4 審査2: moving-sole heating 2.9-14.7 K and microsecond film life are recorded under other assumptions; not independently rerun",
+      "v3 R1 TRP-HTW 審査2: friction anchors and speed mismatch; no candidate 50 C ski-pair properties confirmed"
+    ]
+  },
+  "primary": [
+    {
+      "id": "S1",
+      "title": "Semi-analytical flash temperature model for thermoplastic polymer spur gears with consideration of linear thermo-mechanical material characteristics",
+      "authors": "Černe, Duhovnik, Tavčar",
+      "year": 2019,
+      "doi": "10.1016/j.jcde.2019.03.001",
+      "url": "https://academic.oup.com/jcde/article/6/4/617/5732335",
+      "access": "publisher HTML, sections 1, 2.1, 2.2 and heat partition; not a rerun of their FEA",
+      "use": "friction heat, heat partition, flash versus nominal temperature; own 1-D screening kernel independently specified",
+      "limit": "gear system, not ski proof; μ and material properties treated as constant"
+    },
+    {
+      "id": "hdpe2018",
+      "title": "Contact mechanics of high-density polyethylene: Effect of pre-stretch on the frictional response and the onset of wear",
+      "authors": "Looijmans, Anderson, van Breemen",
+      "year": 2018,
+      "doi": "10.1016/j.wear.2018.06.009",
+      "url": "https://pure.tue.nl/ws/portalfiles/portal/101136635/1_s2.0_S0043164818301315_main.pdf",
+      "bytes": 2364845,
+      "sha256": "faedb312be2fd00c82e6c8ec74b161350229eebec09fd64c09dcf95b0e893f3a",
+      "access": "full author/institution-hosted journal PDF text; PDF page 3 rendered and inspected, methods and results read",
+      "conditions": "room temperature, diamond indenter top radius 50 um, 100-500 mN, 1-100 um/s",
+      "use": "orientation can increase wear in this HDPE scratch configuration",
+      "limit": "cannot substitute for real ski sole at 50 C and 0.5-20 m/s"
+    },
+    {
+      "id": "uhmw2008",
+      "title": "Spatial geometric effects on the friction coefficients of UHMWPe",
+      "authors": "Dunn, Steffens, Burris, Banks, Sawyer",
+      "year": 2008,
+      "doi": "10.1016/j.wear.2007.05.012",
+      "url": "https://research.me.udel.edu/~dlburris/papers/JA18.pdf",
+      "bytes": 1037330,
+      "sha256": "e1b90aab5c970839f10c599f1c119bec2d3aba491bfae8091d3c1f6e3fefe2ed",
+      "access": "author-hosted in-press PDF text; page 3 rendered; results/closure read; final 2008 bibliographic record verified with publisher",
+      "conditions": "UHMWPE pin on polished CoCr, average speed 50.8 mm/s, dry and liquid-lubricated comparisons",
+      "use": "sliding path changes affect friction; do not infer universal low friction from unidirectional test",
+      "limit": "not dry hot outdoor ski-grain pair; liquid conditions are reference evidence, not proposed lubricant"
+    }
+  ],
+  "prior_components": [
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/model.md",
+      "sha256_lf": "b9bda95542ec655f45723b402aea7f573e4e6dbdc856a2624c1396d4c5300fe1"
+    },
+    {
+      "path": "GPT往復/滑走先端の逆設計と荷重変動検証_20261009/inputs.json",
+      "sha256_lf": "32641f81755173bdc93e65d5ce6977cdd26722c8601f8bc710ddd311c3a170b6"
+    },
+    {
+      "path": "GPT往復/雨後凝集の解離と60分復旧検証_20261009/inputs.json",
+      "sha256_lf": "c1a2b814927e2fd6155bdb9cb1f961b9b6ef9e7c404acf23dcaa96b8dd33b1ba"
+    }
+  ]
+}

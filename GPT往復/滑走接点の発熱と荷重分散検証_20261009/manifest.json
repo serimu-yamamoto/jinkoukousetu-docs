@@ -1,0 +1,160 @@
+{
+  "cycle": 77,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "basis_commit": "2b70115cfb1ca2e06dc78fdae650c315c6e635db",
+  "physical_trials": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第77巡_滑走接点の発熱を抑える分割と荷重集中の反証_20261009.md",
+      "bytes": 12699,
+      "sha256": "470bff8e06048c217a77c1ea933186952270e83d25dd62c98f4d38c3aeffe0f8"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 52626,
+      "sha256": "60decae1e84b65fe52605978d26a34ad4b1a8540839950c545ff0c3e206d5897"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/README.md",
+      "bytes": 1993,
+      "sha256": "bdb0d96c0474dd6393b347bcf78d444a704d0eb077be82bb4ce545140c0f4e9c"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/array_memory.csv",
+      "bytes": 1066,
+      "sha256": "9a12119bba996e67f0a6b5c06af4b5fc2d41e6d320c6ddc501202d37ef049ff2"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/array_traces.csv",
+      "bytes": 139234,
+      "sha256": "c9483db75e3086927107e26a4eb138b183a7de8b1633c527e706c7866d4069a9"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/audit.py",
+      "bytes": 5317,
+      "sha256": "067f0e00f0309e21a7ab96e49dc7859133192b4815a51b107e4650ba3a47e8c5"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/checks.json",
+      "bytes": 3454,
+      "sha256": "dd8f7ecc37d744082e81bd49328be79f369bde1bef375492e036232be9873649"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/claude_handoff.md",
+      "bytes": 2848,
+      "sha256": "b9cf871212cb21dae05e1269533dfa7b2a78ddb3cb84d333b1f82b6350806bee"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/convergence.csv",
+      "bytes": 403,
+      "sha256": "164ec98101294ac0dbe3df34366d1b24b1514ad53f6b3d15d57b131921dfa8a7"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/cost_sensitivity.csv",
+      "bytes": 2925,
+      "sha256": "a9d639dde634200a4c633c5a310f409c194f79c60542ba4b2fb719d9c2e152eb"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/coupled_array.csv",
+      "bytes": 3054,
+      "sha256": "2bd810144781e84412710b590a9376292df9a1fbbe579fc26cac55844f003d43"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/decision.json",
+      "bytes": 1183,
+      "sha256": "541dcdf01907fd7b626bd69041e84829055d04c990713ec5b525bee91c84166a"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/document_audit.json",
+      "bytes": 3044,
+      "sha256": "c071eba79d129119cff722c0bcef79317585ad688e06377475f96732e935c146"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/height_load_cases.csv",
+      "bytes": 6734,
+      "sha256": "15202083cb05274895956e5da3cb30a8059213392bf895e6942067e394000456"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/index_changes.json",
+      "bytes": 5502,
+      "sha256": "a5c325042bb7d8057c46a33b53b2d2f0d8f663f65c18904e9cee03b73e58f25f"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/inputs.json",
+      "bytes": 1624,
+      "sha256": "c844d6e78135946dc2e580fecbbbacd5b6421cec17e4e8e552b48c99fe779e20"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/memory_and_material.png",
+      "bytes": 149073,
+      "sha256": "d744d6b16eccc340d4487a271cc6ecda88a3b8879dacccf3e3bd95081f92c027"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/model.md",
+      "bytes": 5982,
+      "sha256": "034a89b5e1fd727d268e3331df3f831abe9eba8f83b5ad9d0b3ea06acb2cbaaf"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/normal_load_budget.csv",
+      "bytes": 691,
+      "sha256": "a3e6c641dfa0526cb19ca50c2cad46394eb5e125092247a948bbd9d05e0d3cb8"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/reproduce.py",
+      "bytes": 14660,
+      "sha256": "dd8c906ad01beb620d808299b411b10d6d20237c28e60a94eabcb84934f621fa"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/requirements.txt",
+      "bytes": 32,
+      "sha256": "2b7af937bbd6f44236acaeb7316c2aa376d5a1a81c1d776a2d66ae70a54b837b"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/sources.json",
+      "bytes": 3844,
+      "sha256": "2414f5bcce29cf1f5f378bd2ec6c436e5755762348d72409dd33fd4be86387fc"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/summary.json",
+      "bytes": 14127,
+      "sha256": "cea7c6430b1ef2ae7b173eec3ce90b8d62337e41459073b4a6c1956618f290c2"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/test_matrix.json",
+      "bytes": 4902,
+      "sha256": "4f2cb46e9d4f8934bd1d734fc01eb5f28e5d0a141c5d2afe00426be507be6b41"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/thermal_and_tolerance.png",
+      "bytes": 169324,
+      "sha256": "601023074c91f2e9c0b3ba1def816356ca6835b13a95c1172afb753413dc617c"
+    },
+    {
+      "path": "GPT往復/滑走接点の発熱と荷重分散検証_20261009/thermal_sensitivity.csv",
+      "bytes": 16690,
+      "sha256": "045cc8e2802109b4c57f15b0c12cd73f6e012570ce42d5c4281613bae5b5a067"
+    },
+    {
+      "path": "README.md",
+      "bytes": 60512,
+      "sha256": "921e0dd2712258480203e421124c88f0b85d95ce16a9c965dbd00284ba1aa282"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 152322,
+      "sha256": "6e3df147e965cc4b4b8872b36fc505468de9fd650efe0aac6d2ce0baa139c600"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 15052,
+      "sha256": "57f6a4527e5b2559526ad996389af0864435e52b160634fa64a29f5b2157f9ae"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 220322,
+      "sha256": "af0e83e9285fab26546d4405b0e0234f88c17463f1e30683a403a7adf7e21861"
+    }
+  ]
+}

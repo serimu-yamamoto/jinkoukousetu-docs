@@ -1,0 +1,167 @@
+{
+  "physical_validation": false,
+  "checks": [
+    {
+      "name": "Q design load",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q inverse",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent radial pressure integral",
+      "passed": true,
+      "detail": 0.03141592666332673
+    },
+    {
+      "name": "J0 endpoint 4/3",
+      "passed": true,
+      "detail": 1.3333333678455705
+    },
+    {
+      "name": "J2 endpoint 44/105",
+      "passed": true,
+      "detail": 0.4190476535632137
+    },
+    {
+      "name": "Q endpoint 54/35",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "constant-flux kernel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "past-pulse independent integration",
+      "passed": true,
+      "detail": 1.0357318291022384
+    },
+    {
+      "name": "peak quadrature/grid convergence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "isolated N^-1/4 scaling 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "isolated N^-1/4 scaling 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "isolated N^-1/4 scaling 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "isolated N^-1/4 scaling 64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all load solves conserve force",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "equal heights design radius 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "series seats preserve equal-load solution 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "equal heights design radius 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "series seats preserve equal-load solution 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "equal heights design radius 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "series seats preserve equal-load solution 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "equal heights design radius 64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "series seats preserve equal-load solution 64",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "height defect amplifies load",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single pulse array baseline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "memory exceeds isolated for split contacts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "larger gaps reduce residual heat in model",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "split projected area conserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ring width fits all outer radii",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no success probability inferred",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coupled equal-height reduction 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coupled equal-height reduction 16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "coupled equal-height reduction 64",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 32,
+  "total": 32
+}
