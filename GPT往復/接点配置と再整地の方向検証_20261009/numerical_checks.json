@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "analytic_two_springs_series",
+      "passed": true
+    },
+    {
+      "name": "node_count108",
+      "passed": true
+    },
+    {
+      "name": "potential_bonds450",
+      "passed": true
+    },
+    {
+      "name": "cut60_equal_families",
+      "passed": true
+    },
+    {
+      "name": "rigid_translation_[np.float64(1.0), np.float64(0.0), np.float64(0.0)]",
+      "passed": true
+    },
+    {
+      "name": "rigid_translation_[np.float64(0.0), np.float64(1.0), np.float64(0.0)]",
+      "passed": true
+    },
+    {
+      "name": "rigid_translation_[np.float64(0.0), np.float64(0.0), np.float64(1.0)]",
+      "passed": true
+    },
+    {
+      "name": "infinitesimal_rigid_rotation_[np.float64(1.0), np.float64(0.0), np.float64(0.0)]",
+      "passed": true
+    },
+    {
+      "name": "infinitesimal_rigid_rotation_[np.float64(0.0), np.float64(1.0), np.float64(0.0)]",
+      "passed": true
+    },
+    {
+      "name": "infinitesimal_rigid_rotation_[np.float64(0.0), np.float64(0.0), np.float64(1.0)]",
+      "passed": true
+    },
+    {
+      "name": "equilibrium_and_energy",
+      "passed": true
+    },
+    {
+      "name": "full_xy_symmetry",
+      "passed": true
+    },
+    {
+      "name": "cut_no_path_and_zero_stiffness",
+      "passed": true
+    },
+    {
+      "name": "same_number_different_damage",
+      "passed": true
+    },
+    {
+      "name": "directional_repair_connected_but_no_x_support",
+      "passed": true
+    },
+    {
+      "name": "same_repair_budget",
+      "passed": true
+    },
+    {
+      "name": "balanced_restore_two_shear_directions",
+      "passed": true
+    },
+    {
+      "name": "deleting_bonds_cannot_add_stiffness",
+      "passed": true
+    },
+    {
+      "name": "repair_monotone_6",
+      "passed": true
+    },
+    {
+      "name": "repair_monotone_12",
+      "passed": true
+    },
+    {
+      "name": "repair_monotone_18",
+      "passed": true
+    },
+    {
+      "name": "repair_monotone_24",
+      "passed": true
+    },
+    {
+      "name": "repair_monotone_30",
+      "passed": true
+    },
+    {
+      "name": "repair_monotone_60",
+      "passed": true
+    },
+    {
+      "name": "full_repair_restores_reference",
+      "passed": true
+    },
+    {
+      "name": "size_direction_counterexample",
+      "passed": true
+    },
+    {
+      "name": "svd_tolerance_1e-08",
+      "passed": true
+    },
+    {
+      "name": "svd_tolerance_1e-12",
+      "passed": true
+    },
+    {
+      "name": "local_damage_never_stiffens",
+      "passed": true
+    },
+    {
+      "name": "annuity_independent_sum",
+      "passed": true
+    },
+    {
+      "name": "four_direction_repair_improves_this_spread_example",
+      "passed": true
+    },
+    {
+      "name": "physical_status",
+      "passed": true
+    }
+  ],
+  "physical_tests": 0
+}

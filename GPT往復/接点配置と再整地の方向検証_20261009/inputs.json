@@ -1,0 +1,62 @@
+{
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null
+  },
+  "model": {
+    "description": "3D linear central-force spring network; prescribed damage/repair, not DEM, material crystallography or ski simulation",
+    "fcc_cells": 3,
+    "spring_k_normalization_N_m": 1,
+    "nearest_spacing_m": 0.0005,
+    "svd_rcond": 1e-10,
+    "seed": 66,
+    "dispersed_damage_seeds": [
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "repair_counts": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      60
+    ],
+    "jitter_fraction_of_nearest_spacing": [
+      0,
+      0.01,
+      0.05
+    ],
+    "size_cells": [
+      2,
+      3,
+      4
+    ]
+  },
+  "cost": {
+    "prior_hypothetical_annual_connector_JPY": 6318000,
+    "replacement_avoidance_fraction": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "added_annual_maintenance_energy_JPY": [
+      0,
+      500000
+    ],
+    "years": 10,
+    "discount_rate": 0.05,
+    "all_assumptions": true
+  },
+  "scope": {
+    "temperature_C": 50,
+    "closure_minutes": 60,
+    "bed_depth_mm": 450,
+    "gouge_mm": 300,
+    "retain_R39": true
+  }
+}

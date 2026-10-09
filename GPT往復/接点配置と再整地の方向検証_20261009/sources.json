@@ -1,0 +1,42 @@
+[
+  {
+    "id": "S1",
+    "title": "Rigidity transitions in anisotropic networks: a crossover scaling analysis",
+    "authors": "Wang et al.",
+    "year": 2025,
+    "doi": "10.1039/D4SM01191K",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2025/sm/d4sm01191k",
+    "read": "Publisher search-indexed full HTML: abstract, methods 2.1/2.2, results 3.2, conclusions. Direct open returned internal error; search extraction provided full passages.",
+    "scope": "2D triangular central-force lattice, not snow or 3D artificial particles; no numerical critical threshold imported. Data DOI 10.5281/zenodo.13910625 located but not downloaded."
+  },
+  {
+    "id": "S2",
+    "title": "Microstructure-based modelling of snow mechanics: experimental evaluation of the cone penetration test",
+    "authors": "Herny et al.",
+    "year": 2024,
+    "doi": "10.5194/tc-18-3787-2024",
+    "url": "https://tc.copernicus.org/articles/18/3787/2024/",
+    "read": "Final peer-reviewed HTML, methods, sections 3.2/3.3/4/5 and data/code availability. The 2023 preprint and review record were located, then superseded by final text for numerical statements.",
+    "scope": "Final text reports correlation-length discrepancies up to factor 8 (RG) and 20 (PP), section 3.3. Mean-force fit alone does not validate force texture. Section 4.2.3 contains underestimates wording in tension with 3.3; do not silently resolve. Raw code/data available on author request, not downloaded or executed; no contact sent."
+  },
+  {
+    "id": "S3",
+    "title": "Micromechanical modeling of snow failure",
+    "authors": "Bobillier et al.",
+    "year": 2020,
+    "doi": "10.5194/tc-14-39-2020",
+    "url": "https://tc.copernicus.org/articles/14/39/2020/index.html",
+    "read": "Primary full HTML, contact model 2.1.2, particle scale 2.1.3, fabric tensor 2.1.7, validation and discussion.",
+    "scope": "Parallel bond includes normal/shear/bending/torsion; postbreak friction but no new cohesive bonds in seconds-scale simulation. Mesoscale particles are not real grains. Reported experimental artifacts limit postfailure validation. Not evidence of 50 C regeneration."
+  },
+  {
+    "id": "R49",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/135214589e5a9c9f3f7ef03e1ad573cda22be350/GPT往復/GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+    "scope": "Prior mean-field activation and release; explicitly reused; network force equilibration is new here."
+  },
+  {
+    "id": "R65",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/135214589e5a9c9f3f7ef03e1ad573cda22be350/GPT往復/GPT回答_多方向探索第65巡_短い解放を阻む接点剛性と修復機能の再配置_20261009.md",
+    "scope": "Finite-thickness single-contact split; no measured bulk calibration. Annual 6,318,000 JPY input remains hypothetical."
+  }
+]

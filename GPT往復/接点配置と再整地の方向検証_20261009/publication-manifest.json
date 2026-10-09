@@ -1,0 +1,157 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "135214589e5a9c9f3f7ef03e1ad573cda22be350",
+  "cycle": 66,
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null
+  },
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第66巡_つながる粒と支える粒を分ける再接続設計_20261009.md",
+      "bytes": 16551,
+      "sha256": "7193219b9a6874c54c7dc780b3a747621d8c572285b3c41ea5b5ca6d974262d5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 45802,
+      "sha256": "73faad52d8b6551045f7f179cea54b8c876c8683aac28d4005177b6f047b60f3"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/01_contact_layouts.png",
+      "bytes": 94637,
+      "sha256": "a77304dd10f593ece74f849eb3d5257417f78d10599da44c1214deaf7bc8392c"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/01_contact_layouts.svg",
+      "bytes": 90160,
+      "sha256": "acdeb52062c331e72c82a8dba7492a6538de4913b542b7fd24e317ffa6c68123"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/02_support_and_repair.png",
+      "bytes": 133479,
+      "sha256": "a954837d47f9ec36ca3ee8d19763c501fc46bc36180fcf5580b8c3b7caa94555"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/02_support_and_repair.svg",
+      "bytes": 37699,
+      "sha256": "b74a9884476d5c85c5a58e126717949002758c68a7f911b8abf4fe9bb68a2b9d"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/03_damage_jitter_cost.png",
+      "bytes": 171363,
+      "sha256": "7dd7ba1b9293614047a5684e867111bf240001076383698875630e2e13662e16"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/03_damage_jitter_cost.svg",
+      "bytes": 46297,
+      "sha256": "0bb554e9eabfa16998d9040a43181b5cc4617cfeb2d90f713125a7bdcfdbf3a6"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/README.md",
+      "bytes": 3188,
+      "sha256": "6987b323be2e22c89f1ff84737fdb14dc532a50f555afe0b09a91c61131b9301"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/audit.py",
+      "bytes": 4330,
+      "sha256": "3de4ab81df08b56ba19f08ce988f0e3eab3fb08a627e61a6171dcab55cd5f1df"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/calculate.py",
+      "bytes": 12529,
+      "sha256": "0fc33ea7d1b4e1c6a2397fcd65864513b5c0bbda2afca218403d0b4c93a70a41"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/cost_screen.csv",
+      "bytes": 524,
+      "sha256": "c02b435f44c5f4e87ef14307cbf62aff2ec6a95955af0b4a9d51fbc638d42ec8"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/document-audit.json",
+      "bytes": 3768,
+      "sha256": "13381fa8ea70e98dce1c8942aa7adcd9904df771b4a329503ab661ddca98faec"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/draw.py",
+      "bytes": 5594,
+      "sha256": "7ad04eeb1eb917c426afa049622a013d7c33f9fa82a2ade8dc19ae194adf07f4"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/edges_and_masks.csv",
+      "bytes": 32489,
+      "sha256": "0b735a9c48c55eab2877c346d36c02a44364fb754b7683f239847a98e808ab08"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/inputs.json",
+      "bytes": 1126,
+      "sha256": "5d9a98392a74cb1479f175dd65578e2d62e9a5e883cd4abb6d45c1a37c1d2be2"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/jitter_screen.csv",
+      "bytes": 2353,
+      "sha256": "ea6b5d884f074c0a39936d468b6d6b771fd2da7704d82c34492486faea0e9831"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/local_damage.csv",
+      "bytes": 2619,
+      "sha256": "6559a9064fc02cfe5b79cce9a2561502fd35f4f03dfb0755ebb19a9608429e77"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/network_cases.csv",
+      "bytes": 2599,
+      "sha256": "af76b348b3f1d0672570551883a6c4838ac78114cc730e07ef430d741d23499b"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/nodes.csv",
+      "bytes": 6441,
+      "sha256": "a5dd2adf14050ec1adb76ceda2bda4aae1e9bbaf8a57fc224a0f20e23c3aac1c"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/numerical_checks.json",
+      "bytes": 2801,
+      "sha256": "685260720fc693bf82559adaaa3c1d4a1688c337df3fc56bbfaa30f7110d625c"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/repair_curve.csv",
+      "bytes": 4618,
+      "sha256": "177a922f483037cbd426457bad71e573d2d7dad6a3c1aca69d0081afaf1b02d8"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/results.json",
+      "bytes": 40625,
+      "sha256": "7ddf1ade69095e4b97029616ce9480e24efb3002fef959cfe81bba26a881cbcf"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/size_screen.csv",
+      "bytes": 3066,
+      "sha256": "1a083da88f103ea6b59d39a0fae3815d9776769c2b7e339cc25836fdaffeb7b7"
+    },
+    {
+      "path": "GPT往復/接点配置と再整地の方向検証_20261009/sources.json",
+      "bytes": 2911,
+      "sha256": "2d5e65011d2cd8537ca20bdaa4bd6e5a346feeda7c69f6871e249fc967f2eeb3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 53530,
+      "sha256": "8b1d50f15c3e2b196871625b127ad1df4c1be1e34184ba0124c4fc8c3637b98b"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 133770,
+      "sha256": "5242a8137b5fdb8bacec4577507b9be7da3713725fa8c03f5ca6446cb5aea11d"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 5174,
+      "sha256": "8f527c989beb483f27bed8ea435b6a2c3ef1d348bd78ffbce9f51d2fcd214be2"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 210016,
+      "sha256": "55943f632a7a7cbee40d0fad2e54dcf923245d4a4308835551d4d4960eec0905"
+    }
+  ]
+}

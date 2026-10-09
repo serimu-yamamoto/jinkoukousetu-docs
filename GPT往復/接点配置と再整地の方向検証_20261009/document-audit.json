@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "no_physical_trials",
+      "passed": true
+    },
+    {
+      "name": "probability_unestimated",
+      "passed": true
+    },
+    {
+      "name": "32_checks_passed",
+      "passed": true
+    },
+    {
+      "name": "11_network_cases",
+      "passed": true
+    },
+    {
+      "name": "connected_420_but_zero_x",
+      "passed": true
+    },
+    {
+      "name": "adverse_centre_first_result_preserved",
+      "passed": true
+    },
+    {
+      "name": "z_relaxation_changes_two_family_spread",
+      "passed": true
+    },
+    {
+      "name": "cost_is_assumed",
+      "passed": true
+    },
+    {
+      "name": "cost_example",
+      "passed": true
+    },
+    {
+      "name": "source_final_not_preprint",
+      "passed": true
+    },
+    {
+      "name": "source_data_not_reexecuted",
+      "passed": true
+    },
+    {
+      "name": "rows_network_cases.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_repair_curve.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_jitter_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_size_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_cost_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_local_damage.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_nodes.csv",
+      "passed": true
+    },
+    {
+      "name": "rows_edges_and_masks.csv",
+      "passed": true
+    },
+    {
+      "name": "625_rows_including_geometry",
+      "passed": true
+    },
+    {
+      "name": "report_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_90％超は未実証",
+      "passed": true
+    },
+    {
+      "name": "report_FCCは節点配置",
+      "passed": true
+    },
+    {
+      "name": "report_予測した解析ではない",
+      "passed": true
+    },
+    {
+      "name": "report_H66-M",
+      "passed": true
+    },
+    {
+      "name": "report_H66-C",
+      "passed": true
+    },
+    {
+      "name": "report_H66-G",
+      "passed": true
+    },
+    {
+      "name": "report_60分",
+      "passed": true
+    },
+    {
+      "name": "report_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_R39",
+      "passed": true
+    },
+    {
+      "name": "report_冬",
+      "passed": true
+    },
+    {
+      "name": "report_32照合",
+      "passed": true
+    },
+    {
+      "name": "report_625回の独立条件試験ではない",
+      "passed": true
+    },
+    {
+      "name": "report_最適解ではない",
+      "passed": true
+    },
+    {
+      "name": "report_中央寄り案が優れた結果",
+      "passed": true
+    },
+    {
+      "name": "report_受領・同意は確認していない",
+      "passed": true
+    },
+    {
+      "name": "relative_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "newest_history_row66",
+      "passed": true
+    },
+    {
+      "name": "earlier_history_39",
+      "passed": true
+    },
+    {
+      "name": "earlier_history_49",
+      "passed": true
+    },
+    {
+      "name": "earlier_history_63",
+      "passed": true
+    },
+    {
+      "name": "earlier_history_64",
+      "passed": true
+    },
+    {
+      "name": "earlier_history_65",
+      "passed": true
+    },
+    {
+      "name": "figure_pair_01_contact_layouts",
+      "passed": true
+    },
+    {
+      "name": "figure_pair_02_support_and_repair",
+      "passed": true
+    },
+    {
+      "name": "figure_pair_03_damage_jitter_cost",
+      "passed": true
+    }
+  ],
+  "check_count": 46,
+  "relative_links": 357,
+  "csv_rows_including_geometry": 625,
+  "physical_trials": 0,
+  "success_probability": null,
+  "visual_review": "Three original PNG figures inspected before publication; first figure layout repaired and re-inspected. No third-party figures republished."
+}
