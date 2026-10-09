@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [platelet_exposure.py](platelet_exposure.py)：板の回転・突出・被覆・寸法区間と定常再加工収支。幾何露出を摩擦や接触面積に換算しない。[第116巡](../GPT往復/結晶足場と露出保持の幾何条件_20261010/README.md)。
+
 - [enzyme_crystal_process.py](enzyme_crystal_process.py)：中性酵素反応の物量、リン原子収支、分離/配置損失、実験投入比の換算。酵素能力・形態・滑走を予測しない。[第115巡](../GPT往復/中性結晶化の工程負担と雨後相変化_20261010/README.md)。
 
 - [crystal_platelet_inventory.py](crystal_platelet_inventory.py)：板全厚による体積換算、配置歩留まりと晶析歩留まりを分離した仕込み量。形成・摩擦・安全の実物検証ではない。[第114巡](../GPT往復/生体分子結晶の接触相と製造物量_20261010/README.md)。

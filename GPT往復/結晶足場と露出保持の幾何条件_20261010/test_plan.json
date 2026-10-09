@@ -1,0 +1,36 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "variants": [
+    "retention_material_only",
+    "existing_LL_contact_phase",
+    "preformed_crystal_oriented_placement",
+    "local_template_growth_candidate"
+  ],
+  "not_selected_materials": [
+    "biological amyloid proteins",
+    "chitin as an assumed drop-in template"
+  ],
+  "required_measurements": [
+    "actual exposed material",
+    "tilt recess rim change",
+    "adhesion detachment free fraction",
+    "30C50C dry wet redry friction and wear",
+    "open-grain bed sinkage and edge response",
+    "rain recovery of material composition and performance",
+    "winter snow-to-grain-to-bed attachment",
+    "human environment residues wear leachate",
+    "application and rework yield costs"
+  ],
+  "unknowns": [
+    "template chemistry",
+    "transfer process",
+    "adhesion law",
+    "temperature wet deformation",
+    "actual roughness requirement",
+    "manufacturing yield",
+    "safe complete formulation"
+  ],
+  "prohibited_inference": "Do not translate geometric scenario fraction to physical success probability. No manufacture purchase vendor contact paid service or field release."
+}

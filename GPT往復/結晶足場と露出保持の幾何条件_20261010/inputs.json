@@ -1,0 +1,40 @@
+{
+  "geometry_basis": "Prior114 synthetic platelet whole length/thickness, not biogenic scaffold geometry or115 enzyme product",
+  "assumed": {
+    "angles_deg": [
+      0,
+      1,
+      2,
+      5,
+      10
+    ],
+    "recesses_nm": [
+      0,
+      20,
+      50
+    ],
+    "rim_rises_nm": [
+      0,
+      30
+    ],
+    "comparison_height_limit_nm": 100,
+    "vertical_uncertainties_nm": [
+      0,
+      10,
+      30,
+      50,
+      100
+    ],
+    "accepted_fractions": [
+      1,
+      0.5,
+      0.2
+    ],
+    "rework_recovery_fractions": [
+      0,
+      0.8
+    ]
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}

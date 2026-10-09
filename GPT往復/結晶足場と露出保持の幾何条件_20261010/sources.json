@@ -1,0 +1,34 @@
+[
+  {
+    "id": "S1",
+    "title": "Plate-like Guanine Biocrystals Form via Templated Nucleation of Crystal Leaflets on Preassembled Scaffolds",
+    "url": "https://pubs.acs.org/jacsat/article/144/49/22440/1497212/Plate-like-Guanine-Biocrystals-Form-via-Templated",
+    "doi": "10.1021/jacs.2c11136",
+    "year": 2022,
+    "accessed": "2026-10-10",
+    "scope": "Primary publisher indexed body discussion and abstract; scaffold-mediated leaflet formation and initial membrane separation. Direct fulltext access failed; not all methods verified."
+  },
+  {
+    "id": "S2",
+    "title": "Macromolecular sheets direct the morphology and orientation of plate-like biogenic guanine crystals",
+    "url": "https://www.nature.com/articles/s41467-023-35894-6",
+    "doi": "10.1038/s41467-023-35894-6",
+    "year": 2023,
+    "accessed": "2026-10-10",
+    "scope": "Primary indexed text plus direct server HTML verified relevant body/Discussion: unknown sheet chemistry, static-image causal limits, templated shape/orientation. Full downloaded HTML not equated with full reading."
+  },
+  {
+    "id": "S3",
+    "title": "Guanine crystals regulated by chitin-based honeycomb frameworks for tunable structural colors of sapphirinid copepod, Sapphirina nigromaculata",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7010661/",
+    "doi": "10.1038/s41598-020-59090-4",
+    "year": 2020,
+    "accessed": "2026-10-10",
+    "scope": "Primary Results and Experimental: chitin compartments, crystal removal by abundant water and dimensional shrinkage in drying. Not a ski, outdoor or safety validation."
+  },
+  {
+    "id": "prior114",
+    "repository_path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/results.json",
+    "scope": "Synthetic2um42nm geometry and20.20788kg mass budget only; neither transferred as biogenic/template/enzymatic product guarantee."
+  }
+]

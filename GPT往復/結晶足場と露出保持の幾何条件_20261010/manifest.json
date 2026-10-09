@@ -1,0 +1,119 @@
+{
+  "cycle": 116,
+  "base_commit": "2a3f1496c0467378496d5df161d359402e761ca8",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第116巡_結晶の形づくりと滑走面への保持を分ける_20261010.md",
+      "bytes": 9894,
+      "sha256": "3e928c020a2fc9bfc67b1b9e100da57b22b9b693abaaab54e6d43803fd31a090"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 75409,
+      "sha256": "ffebb644c772e0b777c55860ead9563b04c62b118c3ef52e59eebe2611b3aa47"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/README.md",
+      "bytes": 662,
+      "sha256": "978c891c58f67aa939ef612ac0645b7f6fbad78159e907e067ddce94906cf7f4"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/claude_handoff.md",
+      "bytes": 1889,
+      "sha256": "cad528c07ae56214c199c5a6aa7049df334b89589eda4401182be77a28e647fa"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "c7e9116a99f2fab00369f7d2aa6696f13c42164839ea8698c7c96cd350af77d9"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/inputs.json",
+      "bytes": 635,
+      "sha256": "1155069c17e2ce4b18178f6bf28da694a2ac9318824d48f858653f0d6578c655"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/model.md",
+      "bytes": 1162,
+      "sha256": "b94a5a7630c2f51c42f1092d757ac34b3c2d1dcad7a20f22efead1bcab065ae0"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "21d1dd07f330843a4d2bcb4b5c65986694affd3681cdc44fab54db7c125a5c4f"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/reproduce.py",
+      "bytes": 3772,
+      "sha256": "f605bc7ea35dbb126332513642f58d33b4c267f94e7ac4412cf4ea2a273c0f82"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/research_state.json",
+      "bytes": 1147,
+      "sha256": "95c298e3f7ffc82ba1661b6a1e8a3e83c7d006fbf99fa036161591eaac4ed940"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/results.json",
+      "bytes": 15540,
+      "sha256": "b63fbf651752a21d6f2903f26a01208635252788308be4325bc72a5e1f4a9933"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/source_acquisition.json",
+      "bytes": 353,
+      "sha256": "8a2905c1ba4166148e98fd1e3dad3033e577bb20ab973ead1f34497de77062bf"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/sources.json",
+      "bytes": 1873,
+      "sha256": "fdcfd0499995bcbb144ac498968f424ebc3186aad33d95e6817702d4e270436c"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/test_plan.json",
+      "bytes": 1191,
+      "sha256": "24bde168679423c8fbdbb725978990563dd989702c4a0afc0c9d0b222fa13764"
+    },
+    {
+      "path": "GPT往復/結晶足場と露出保持の幾何条件_20261010/validation.json",
+      "bytes": 3743,
+      "sha256": "ca03a1c3eff503f476f09f18f2a995baff949cf79471818ed2ce06549d8ec365"
+    },
+    {
+      "path": "README.md",
+      "bytes": 85555,
+      "sha256": "87ecc099173ede23f4004adef17ec4d23101eb035ef820b2b7c1a2e4594566ea"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 194955,
+      "sha256": "ac270cb8167fa5dc98b1422a4c671b554ef0f157a5126da7910c7f08ca622aee"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 4068,
+      "sha256": "fc66e41b1a87d73a45b1e3cd86c32cc85bf9116892a3330aaedb88f1675c64d0"
+    },
+    {
+      "path": "計算部品/platelet_exposure.py",
+      "bytes": 2234,
+      "sha256": "a89effcd14b3e5d01d8d17bb6dd9f0b7f693f2107620e096775d861e42a898df"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 39175,
+      "sha256": "952ef4a365bca47e83bdced0d17707ae47b4c301991b933b60dc72d76a5f18a4"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 234693,
+      "sha256": "ae2195d553142c90e3a77cbf7d1b43fd491e757fd673e5220abb4ca0fd4e2054"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/results.json",
+      "bytes": 18130,
+      "sha256": "8e0ba3f6b692a72df528132e1313b927cbcecf228cd993e1827f5f78ff1b0e3c"
+    }
+  ]
+}
