@@ -1,0 +1,36 @@
+{
+  "prior_text_preserved": true,
+  "operations": 9,
+  "files": [
+    {
+      "path": "README.md",
+      "before_sha256_lf": "44277da5ab2009ebe60f15f91dba9a57a5a9156768cb7bf7fe16a534f5b15b63",
+      "after_sha256_lf": "a438f1ce151a1b9ec0eeb37e4b8f832cfb93fa7792817483f7f7c4cfeafa9813"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "before_sha256_lf": "ee8c233eea292100e3cae29373a4afbb440c20e9436b5ed3349b7e73d3d1295a",
+      "after_sha256_lf": "2c713060fd638deb79778e56cb8754d0f2b0ea7ac739e01440d651f5c9229b2e"
+    },
+    {
+      "path": "回覧板.md",
+      "before_sha256_lf": "7ac108b73d60deebc1d17c23922a608c9af413d24e07f7fcfc04df72639feb18",
+      "after_sha256_lf": "87e6259e9102f2e9d15fabcaad8a8c8df3da3be2cf722601b63f82d9e4e5f9ba"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "before_sha256_lf": "14ba7173916aea122fba92188b4e9db7e5b995da6aaa964a32572b5de487939d",
+      "after_sha256_lf": "5b97baf55a6de1e47417a6403a7d5dbc0032c2dfa0aa2d6303838661a4496204"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "before_sha256_lf": "2e63aa62b0bfcc9d5bf0c28c65a2dca03e1f7eafc2a9bcf86794f87db8b01fe2",
+      "after_sha256_lf": "87ad7a1e201c8a4362a9884dea3b300fb399095ffd62a7fb54826aeebc1458c3"
+    },
+    {
+      "path": "計算部品/README.md",
+      "before_sha256_lf": "0c47abfde96e2d7bd1b6ac2bf6a25a681b4c0032ea5202ae7b75bcd3815dc09d",
+      "after_sha256_lf": "1a27ffaf4e280df875531f92eea3c807383a2ff82e3b371b16576bddf5b402c1"
+    }
+  ]
+}

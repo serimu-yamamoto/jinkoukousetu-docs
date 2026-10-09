@@ -1,0 +1,51 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "purpose": "Distinguish process input from residue; qualify crystal fraction before fixation and requalify whole grain after fixation.",
+  "samples": [
+    "mother_liquor",
+    "crystals_before_wash",
+    "crystals_after_each_wash_stage",
+    "permeate_or_filtrate_each_stage",
+    "recycled_inlet_water",
+    "fixed_whole_grains",
+    "wet_wear_particles_and_ski_transfer",
+    "final_rinse"
+  ],
+  "measurements": [
+    "exchangeable_liquid_hold_up_on_declared_basis",
+    "solute_specific_concentrations_and_inlet_contamination",
+    "crystal_mass_by_closed_mass_balance_and_size_distribution",
+    "phase_and_morphology_before_after_wash_fixation_and_wear",
+    "residual_process_solvent_with_validated_detection_limit",
+    "material_specific_leachate_and_wear_characterization",
+    "actual_ski_base_friction_wear_and_transfer_30C_50C_with_U0_UB_U1_U2_controls"
+  ],
+  "thresholds": {
+    "q_001": "diagnostic ratio only; NOT a safety or discharge limit",
+    "absolute_residues": "not established; identify components and relevant use-specific assessment",
+    "ski_performance": "must compare defined actual new-groomed-snow reference; not inferred from pH or cosmetic powder data"
+  },
+  "progression": [
+    "closed material balance first",
+    "measure s and p rather than selecting by size alone",
+    "fixed-grain retention and actual sole friction next",
+    "free-grain bed load-unload edge and restoration only after contact evidence",
+    "winter snow-to-grain-to-bed connection and drainage"
+  ],
+  "cost_missing": [
+    "qualified crystal price",
+    "wash water and wastewater treatment",
+    "solvent recovery",
+    "drying",
+    "membrane_or_other_separator_lifetime",
+    "QA",
+    "fixation",
+    "postfixation_rinse",
+    "field_replacement"
+  ],
+  "actions": "Research specification only. No vendor contact, equipment purchase, paid API, or trial performed."
+}

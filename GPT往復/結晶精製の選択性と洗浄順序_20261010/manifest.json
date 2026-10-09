@@ -1,0 +1,114 @@
+{
+  "cycle": 111,
+  "base_commit": "88d4b41d0772a49c914ca7d576c34f76cbbc1c80",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第111巡_結晶の精製と固定順序から残留物と費用を減らす_20261010.md",
+      "bytes": 11488,
+      "sha256": "a3a1234974a79aabb62acc97ce655c484a067b84912a701eedb33d183b23620a"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 72342,
+      "sha256": "2c713060fd638deb79778e56cb8754d0f2b0ea7ac739e01440d651f5c9229b2e"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/README.md",
+      "bytes": 918,
+      "sha256": "d44f06d870b988f26025db8d9242fcc6c3e58c6f70f48c62f4e141470ffde5e3"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/claude_handoff.md",
+      "bytes": 2209,
+      "sha256": "e5f38b7f4a85e28d2787549779f73b8a8cec88b1360deb336e91ad9b95f4bfc1"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "98347f2607bc6a775017566b6fe110a78e35274867555e695a51d5aa1da36303"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/model.md",
+      "bytes": 2600,
+      "sha256": "ff8d9e2783f00b8a85416132972e1100a2fec4a60c9ecd808710c0693cfafab9"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/publication_audit.json",
+      "bytes": 367,
+      "sha256": "2514d9e23739e86b8e004cd594b24bd24269ba0e70be4c0e9ea32df1b88fcaaa"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/reproduce.py",
+      "bytes": 7343,
+      "sha256": "b19f74606e31d2e55f97023b6e2fe4937f79f5a7d585e1f8f6a235250fc6e814"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/research_state.json",
+      "bytes": 1098,
+      "sha256": "2a63b5c57cd84fb8cff25836c0669fc95825faf1c5704b3702208017c620f91f"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/results.json",
+      "bytes": 8406,
+      "sha256": "6b05dde00a9b4827aa16e36bd59a6ddd7fc209dd134c23c4a6d37bc843b7dc0a"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/sources.json",
+      "bytes": 1971,
+      "sha256": "f0fa4fb7974e72317ce27e6bad04bd97728f8a9977b082d5e3b42f48541c3ed7"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/test_plan.json",
+      "bytes": 2038,
+      "sha256": "e44c742091b5222b9f62dbb8e883321ecd6889c96eeeaf97d99c8ddb5314e8df"
+    },
+    {
+      "path": "GPT往復/結晶精製の選択性と洗浄順序_20261010/validation.json",
+      "bytes": 1939,
+      "sha256": "9c59cc20ed51b13e9f2ee74797e8317c3562efd6c6a37ad5009f976349ce5534"
+    },
+    {
+      "path": "README.md",
+      "bytes": 82413,
+      "sha256": "a438f1ce151a1b9ec0eeb37e4b8f832cfb93fa7792817483f7f7c4cfeafa9813"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 189575,
+      "sha256": "87e6259e9102f2e9d15fabcaad8a8c8df3da3be2cf722601b63f82d9e4e5f9ba"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 2574,
+      "sha256": "1a27ffaf4e280df875531f92eea3c807383a2ff82e3b371b16576bddf5b402c1"
+    },
+    {
+      "path": "計算部品/washing_selectivity.py",
+      "bytes": 3575,
+      "sha256": "1dd73eceb15a1d53db23be02661bf262f5106f4794543c21cd4c5ecdaf575bc3"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 34255,
+      "sha256": "5b97baf55a6de1e47417a6403a7d5dbc0032c2dfa0aa2d6303838661a4496204"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 233119,
+      "sha256": "87ad7a1e201c8a4362a9884dea3b300fb399095ffd62a7fb54826aeebc1458c3"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+      "bytes": 33057,
+      "sha256": "3cc51ec1d18b78419b1ac81e0f12ff73443591712228e85fdbcf733986567520"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/calculate.py",
+      "bytes": 9858,
+      "sha256": "cfda747c0706ffc88917a26fc052c4bc715d0401a3931547416bcc0b2fe71ca1"
+    }
+  ]
+}

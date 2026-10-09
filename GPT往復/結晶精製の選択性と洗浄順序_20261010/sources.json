@@ -1,0 +1,41 @@
+[
+  {
+    "id": "S1",
+    "url": "https://patents.google.com/patent/US12221403B2/en",
+    "publication_date": "2025-02-11",
+    "accessed": "2026-10-10",
+    "section": "Example 2-2",
+    "scope": "Listed sodium hydroxide input and reported crystal output; process uses solvent and cooled crystallization. Additional pH-adjustment amount and final product residuals are not determined. Patent is not skiing or environmental validation."
+  },
+  {
+    "id": "S2",
+    "url": "https://www.merckmillipore.com/deepweb/assets/sigmaaldrich/product/documents/264/166/an2700en-ms.pdf",
+    "title": "A Hands-On Guide to Ultrafiltration/Diafiltration Optimization using Pellicon Cassettes",
+    "accessed": "2026-10-10",
+    "pages": [
+      6,
+      7
+    ],
+    "scope": "Contaminant/product retention and recovery mass balance; constant-volume exponential models. Application is not LL crystal processing. No membrane, flow or retention specification imported."
+  },
+  {
+    "id": "reused_wash",
+    "repository_path": "GPT往復/反応晶析と局部再生の物量検証_20261009/calculate.py",
+    "scope": "Existing ideal stage wash formula, not a residual safety standard."
+  },
+  {
+    "id": "reused_inventory",
+    "repository_path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+    "scope": "reference_coating 135000kg finished material with1350kg coating; assumed comparison inventory."
+  },
+  {
+    "id": "not_used",
+    "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C1310732&Units=SI",
+    "scope": "Fetch failed. No sourced formula masses imported; rounded40/23/58.44g/mol are declared arithmetic constants."
+  },
+  {
+    "id": "not_used_redirect",
+    "url": "https://www.merckmillipore.com/US/en/technical-documents/protocol/protein-biology/protein-concentration-and-buffer-exchange/materials-methods-large-volume-concentration-diafiltration",
+    "scope": "No quantitative input imported; later retrieval failed."
+  }
+]

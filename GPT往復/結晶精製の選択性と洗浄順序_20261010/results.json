@@ -1,0 +1,322 @@
+{
+  "cycle": 111,
+  "physical_trials": 0,
+  "success_probability": null,
+  "prior_reference": {
+    "finished_mass_kg": 135000,
+    "weight_fraction": 0.01,
+    "core_kg": 133650.0,
+    "coating_kg": 1350.0,
+    "coatable_area_m2_per_kg_core": 10,
+    "target_area_fraction": 1.0,
+    "coating_density_kg_m3": 1200.0,
+    "equivalent_solid_thickness_um": 0.8417508417508418
+  },
+  "dependency_hashes": {
+    "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json": "3cc51ec1d18b78419b1ac81e0f12ff73443591712228e85fdbcf733986567520",
+    "GPT往復/反応晶析と局部再生の物量検証_20261009/calculate.py": "cfda747c0706ffc88917a26fc052c4bc715d0401a3931547416bcc0b2fe71ca1"
+  },
+  "diagnostic_not_safety_target": 0.001,
+  "washing_routes": [
+    {
+      "route": "single_batch",
+      "total_wash_over_hold": 10,
+      "stages": 1,
+      "c_assuming_no_product_loss": 0.09090909090909091
+    },
+    {
+      "route": "five_stage_batch",
+      "total_wash_over_hold": 10,
+      "stages": 5,
+      "c_assuming_no_product_loss": 0.004115226337448558
+    },
+    {
+      "route": "continuous",
+      "total_wash_over_hold": 10,
+      "stages": null,
+      "c_assuming_no_product_loss": 4.5399929762484854e-05
+    }
+  ],
+  "sequence_comparison": [
+    {
+      "route": "crystal_fraction_before_fixing",
+      "mass_basis_kg": 1350,
+      "hold_L_per_kg_assumed": 0.5,
+      "D_assumed": 10,
+      "wash_m3": 6.75
+    },
+    {
+      "route": "whole_finished_grains_after_fixing",
+      "mass_basis_kg": 135000,
+      "hold_L_per_kg_assumed": 0.2,
+      "D_assumed": 10,
+      "wash_m3": 270.0
+    }
+  ],
+  "clean_water_delivered_cases": [
+    {
+      "solute_transmission": 1,
+      "product_transmission": 0.001,
+      "inlet_ratio": 0,
+      "target_q": 0.001,
+      "D": 6.914669948931069,
+      "c": 0.000993109181374979,
+      "q": 0.0009999999999999996,
+      "delivered_kg": 1350,
+      "yield_fraction": 0.9931091813749796,
+      "input_kg": 1359.3671524926372,
+      "loss_kg": 9.36715249263716,
+      "hold_L": 679.6835762463186,
+      "wash_m3": 4.699787599452417,
+      "replacement_only_jpy": 18734.30498527432
+    },
+    {
+      "solute_transmission": 1,
+      "product_transmission": 0.01,
+      "inlet_ratio": 0,
+      "target_q": 0.001,
+      "D": 6.977530584830442,
+      "c": 0.0009326033468832197,
+      "q": 0.0009999999999999998,
+      "delivered_kg": 1350,
+      "yield_fraction": 0.9326033468832199,
+      "input_kg": 1447.5607497139363,
+      "loss_kg": 97.56074971393627,
+      "hold_L": 723.7803748569681,
+      "wash_m3": 5.050199702264537,
+      "replacement_only_jpy": 195121.49942787254
+    },
+    {
+      "solute_transmission": 0.5,
+      "product_transmission": 0.001,
+      "inlet_ratio": 0,
+      "target_q": 0.001,
+      "D": 13.843196951868011,
+      "c": 0.0009862521794868778,
+      "q": 0.0009999999999999996,
+      "delivered_kg": 1350,
+      "yield_fraction": 0.9862521794868782,
+      "input_kg": 1368.8182678616442,
+      "loss_kg": 18.818267861644244,
+      "hold_L": 684.4091339308221,
+      "wash_m3": 9.474410436661781,
+      "replacement_only_jpy": 37636.535723288485
+    },
+    {
+      "solute_transmission": 0.5,
+      "product_transmission": 0.01,
+      "inlet_ratio": 0,
+      "target_q": 0.001,
+      "D": 14.09745975302477,
+      "c": 0.0008685113737513523,
+      "q": 0.0009999999999999998,
+      "delivered_kg": 1350,
+      "yield_fraction": 0.8685113737513526,
+      "input_kg": 1554.3837890907039,
+      "loss_kg": 204.38378909070389,
+      "hold_L": 777.1918945453519,
+      "wash_m3": 10.95643145373017,
+      "replacement_only_jpy": 408767.57818140776
+    }
+  ],
+  "recycled_water_cases": [
+    {
+      "s": 1,
+      "p": 0.01,
+      "b": 0,
+      "D": 6.977530584830442,
+      "reason": null,
+      "minimum": {
+        "D": 30,
+        "ratio": 1.2631469782464417e-13,
+        "max_D": 30
+      },
+      "q_at_D_10": 5.017468205617531e-05,
+      "q_at_D_20": 2.51749871943828e-09,
+      "q_at_D_30": 1.2631469782464417e-13
+    },
+    {
+      "s": 1,
+      "p": 0.01,
+      "b": 0.0002,
+      "D": 7.221816920050988,
+      "reason": null,
+      "minimum": {
+        "D": 13.11211302154816,
+        "ratio": 0.00023032441903402537,
+        "max_D": 30
+      },
+      "q_at_D_10": 0.0002711988307348936,
+      "q_at_D_20": 0.0002442830686272537,
+      "q_at_D_30": 0.00026997176164149004
+    },
+    {
+      "s": 1,
+      "p": 0.01,
+      "b": 0.0005,
+      "D": 7.762182018311067,
+      "reason": null,
+      "minimum": {
+        "D": 12.19552218463499,
+        "ratio": 0.0005705573306111973,
+        "max_D": 30
+      },
+      "q_at_D_10": 0.0006027350537529711,
+      "q_at_D_20": 0.0006107038953200551,
+      "q_at_D_30": 0.000674929403914253
+    },
+    {
+      "s": 1,
+      "p": 0.01,
+      "b": 0.0009,
+      "D": null,
+      "reason": "target_not_reached_within_stated_D_range",
+      "minimum": {
+        "D": 11.60733523953139,
+        "ratio": 0.0010209802269015075,
+        "max_D": 30
+      },
+      "q_at_D_10": 0.0010447833511104078,
+      "q_at_D_20": 0.0010992649975771235,
+      "q_at_D_30": 0.0012148729269446036
+    },
+    {
+      "s": 1,
+      "p": 0.01,
+      "b": 0.001,
+      "D": null,
+      "reason": "target_not_reached_within_stated_D_range",
+      "minimum": {
+        "D": 11.501874628783144,
+        "ratio": 0.0011332267360923607,
+        "max_D": 30
+      },
+      "q_at_D_10": 0.001155295425449767,
+      "q_at_D_20": 0.0012214052731413906,
+      "q_at_D_30": 0.0013498588077021914
+    }
+  ],
+  "selectivity_constraints": [
+    {
+      "diagnostic_target_q": 0.001,
+      "minimum_yield": 0.9,
+      "maximum_product_to_solute_transmission_ratio": 0.015023353206053152
+    },
+    {
+      "diagnostic_target_q": 0.001,
+      "minimum_yield": 0.95,
+      "maximum_product_to_solute_transmission_ratio": 0.007370733778728823
+    },
+    {
+      "diagnostic_target_q": 0.001,
+      "minimum_yield": 0.99,
+      "maximum_product_to_solute_transmission_ratio": 0.0014528213732903853
+    }
+  ],
+  "listed_process_inventory": {
+    "example": "US12221403B2 Example 2-2",
+    "NaOH_listed_g": 5.7,
+    "product_reported_g": 36.0,
+    "atomic_formula_mass_assumptions_g_per_mol": {
+      "NaOH": 40,
+      "Na": 23,
+      "NaCl": 58.44
+    },
+    "listed_input_sodium_g": 3.2775,
+    "listed_input_sodium_g_per_kg_product": 91.04166666666666,
+    "listed_input_NaCl_equivalent_g_per_kg_product": 231.325,
+    "listed_input_sodium_kg_at_1350kg_product": 122.90624999999999,
+    "additional_pH_adjustment_NaOH_g": null,
+    "product_residual_sodium_g_per_kg": null,
+    "product_residual_solvent": null,
+    "note": "Input inventory only, not product residue. Counterion, partition and unreported additions unknown."
+  },
+  "legacy_regression": [
+    {
+      "n": 0,
+      "mg_per_kg_ideal": 7455.0
+    },
+    {
+      "n": 1,
+      "mg_per_kg_ideal": 677.7272727272727
+    },
+    {
+      "n": 2,
+      "mg_per_kg_ideal": 61.611570247933884
+    },
+    {
+      "n": 3,
+      "mg_per_kg_ideal": 5.601051840721262
+    },
+    {
+      "n": 4,
+      "mg_per_kg_ideal": 0.5091865309746603
+    }
+  ],
+  "independent_ode": [
+    {
+      "s": 1,
+      "p": 0,
+      "b": 0,
+      "D": 10,
+      "c_abs_error": 4.14029704617902e-18,
+      "y_abs_error": 0.0
+    },
+    {
+      "s": 1,
+      "p": 0.001,
+      "b": 0,
+      "D": 10,
+      "c_abs_error": 4.14029704617902e-18,
+      "y_abs_error": 1.6653345369377348e-15
+    },
+    {
+      "s": 0.5,
+      "p": 0.01,
+      "b": 0,
+      "D": 10,
+      "c_abs_error": 8.673617379884035e-19,
+      "y_abs_error": 3.219646771412954e-15
+    },
+    {
+      "s": 1,
+      "p": 0.01,
+      "b": 0.0009,
+      "D": 10,
+      "c_abs_error": 3.469446951953614e-18,
+      "y_abs_error": 3.219646771412954e-15
+    },
+    {
+      "s": 0.5,
+      "p": 0.01,
+      "b": 0.0002,
+      "D": 10,
+      "c_abs_error": 3.9898639947466563e-17,
+      "y_abs_error": 3.219646771412954e-15
+    },
+    {
+      "s": 0,
+      "p": 0.01,
+      "b": 0.1,
+      "D": 10,
+      "c_abs_error": 1.1013412404281553e-13,
+      "y_abs_error": 3.219646771412954e-15
+    },
+    {
+      "s": 1,
+      "p": 1,
+      "b": 0.2,
+      "D": 10,
+      "c_abs_error": 1.1102230246251565e-16,
+      "y_abs_error": 4.14029704617902e-18
+    },
+    {
+      "s": 0.2,
+      "p": 0.5,
+      "b": 0,
+      "D": 10,
+      "c_abs_error": 2.498001805406602e-16,
+      "y_abs_error": 8.673617379884035e-19
+    }
+  ]
+}

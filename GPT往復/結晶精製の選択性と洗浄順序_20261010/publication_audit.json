@@ -1,0 +1,11 @@
+{
+  "links_checked": 37,
+  "stored_result_reproduction_passed": true,
+  "prior_text_preserved": true,
+  "numerical_checks": 47,
+  "physical_trials": 0,
+  "success_probability": null,
+  "input_inventory_mistaken_for_product_residue": false,
+  "diagnostic_ratio_mistaken_for_safety_limit": false,
+  "public_byte_verification": "required after commit before deletion"
+}
