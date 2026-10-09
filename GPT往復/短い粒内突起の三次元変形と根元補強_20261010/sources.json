@@ -1,0 +1,28 @@
+[
+  {
+    "id": "reused_hex",
+    "repository_path": "計算部品/rim_grain_hex.py",
+    "scope": "Full67-line element/mesh/solver definition inspected. Reuse elements only without modifying dependency; normalizedE and constitutive conventions retained."
+  },
+  {
+    "id": "reused106_sources",
+    "repository_path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/sources.json",
+    "scope": "Prior official elasticity weak-form and rigid-mode references reused; no new external material or friction evidence."
+  },
+  {
+    "id": "reused124_module",
+    "repository_path": "計算部品/stop_misalignment.py",
+    "scope": "Existing beam_compliance used for SI-normalized comparison; no new material constants."
+  },
+  {
+    "id": "reused124_results",
+    "repository_path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/results.json",
+    "scope": "Prior stop dimensions and beam ratios reused."
+  },
+  {
+    "id": "own_computation",
+    "read_date": "2026-10-10",
+    "scope": "Mapped circular cross-section Hex8 linear static elasticity,3 geometries ×3 grids. numpy2.5.0 scipy1.18.0. Full reproduction stored. No experiment.",
+    "limits": "Assumednu.35 homogeneousE. Fixed root,uniform top traction,uncoupled paired reference,no contact or50C material calibration."
+  }
+]

@@ -1,0 +1,505 @@
+{
+  "cycle": 125,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "計算部品/rim_grain_hex.py": "477b448c7feac574829dd6eebd9ba4dd70b92bd0a83a15dce522c3f7b482ab55",
+    "計算部品/stop_misalignment.py": "ed07459f582f96f43c43fb65055dd3b5f001585032c1a679eede15371dbba1e3",
+    "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/results.json": "d638c339e1848308c07c57635b8965f897363b2a7ad904696a438535b788978c",
+    "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/sources.json": "781bd097535a8231a89e5a39fb6d0c5997a36f7f7060f16903311cbf4b3e8f80"
+  },
+  "runtime": {
+    "numpy": "2.5.0",
+    "scipy": "1.18.0"
+  },
+  "mesh_levels": [
+    4,
+    8,
+    12
+  ],
+  "states": [
+    {
+      "kind": "short",
+      "n": 4,
+      "nodes": 125,
+      "elements": 64,
+      "nu": 0.35,
+      "volume_mm3": 7.649912183594208e-05,
+      "exact_volume_mm3": 7.853981633974484e-05,
+      "relative_volume_error": -0.025982929409653743,
+      "affine_patch_energy_ratio": 1.0000000000000002,
+      "top_area_relative_error": -0.02598292940965352,
+      "top_load_centre_mm": [
+        -3.3217359634695826e-19,
+        2.7681133028913187e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 122.25864309918539,
+          "relative_free_residual": 1.1642567121683865e-15,
+          "force_balance": 5.054073542698999e-15,
+          "moment_balance": 1.7173691233278678e-15,
+          "energy_reaction_ratio": 1.0000000000000009,
+          "top_displacement_spread_ratio": 0.014417423024663848,
+          "max_displacement_over_height": 0.0003513395103577552
+        },
+        "y": {
+          "compliance_times_E_per_mm": 122.25864309918511,
+          "relative_free_residual": 1.257314531080602e-15,
+          "force_balance": 4.909316935502219e-15,
+          "moment_balance": 1.2755060422082331e-15,
+          "energy_reaction_ratio": 0.999999999999999,
+          "top_displacement_spread_ratio": 0.014417423024664049,
+          "max_displacement_over_height": 0.00035133951035775404
+        },
+        "z": {
+          "compliance_times_E_per_mm": 19.643451962208054,
+          "relative_free_residual": 6.327931686030662e-16,
+          "force_balance": 3.341809674714232e-15,
+          "moment_balance": 1.7690679116124322e-16,
+          "energy_reaction_ratio": 1.0,
+          "top_displacement_spread_ratio": 0.005247183517332569,
+          "max_displacement_over_height": 5.087192818494489e-05
+        }
+      }
+    },
+    {
+      "kind": "single",
+      "n": 4,
+      "nodes": 225,
+      "elements": 128,
+      "nu": 0.35,
+      "volume_mm3": 0.0001529982436718842,
+      "exact_volume_mm3": 0.00015707963267948968,
+      "relative_volume_error": -0.02598292940965341,
+      "affine_patch_energy_ratio": 1.0000000000000013,
+      "top_area_relative_error": -0.02598292940965352,
+      "top_load_centre_mm": [
+        -3.3217359634695826e-19,
+        2.7681133028913187e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 645.7003244113215,
+          "relative_free_residual": 7.965749298885657e-15,
+          "force_balance": 6.993812079135849e-15,
+          "moment_balance": 1.1133010939654128e-14,
+          "energy_reaction_ratio": 1.0000000000000175,
+          "top_displacement_spread_ratio": 0.0027681081950536282,
+          "max_displacement_over_height": 0.0008714391646781938
+        },
+        "y": {
+          "compliance_times_E_per_mm": 645.7003244113306,
+          "relative_free_residual": 8.701940044057851e-15,
+          "force_balance": 1.7544500792249717e-14,
+          "moment_balance": 6.181236374273211e-15,
+          "energy_reaction_ratio": 1.0000000000000173,
+          "top_displacement_spread_ratio": 0.0027681081950539587,
+          "max_displacement_over_height": 0.0008714391646782066
+        },
+        "z": {
+          "compliance_times_E_per_mm": 40.55735477200753,
+          "relative_free_residual": 6.038418471637102e-16,
+          "force_balance": 1.1642567121683865e-14,
+          "moment_balance": 5.896893038708107e-16,
+          "energy_reaction_ratio": 0.9999999999999966,
+          "top_displacement_spread_ratio": 4.009289893475285e-05,
+          "max_displacement_over_height": 5.1016256481447145e-05
+        }
+      }
+    },
+    {
+      "kind": "stepped",
+      "n": 4,
+      "nodes": 385,
+      "elements": 256,
+      "nu": 0.35,
+      "volume_mm3": 0.00038249560917971064,
+      "exact_volume_mm3": 0.0003926990816987242,
+      "relative_volume_error": -0.025982929409653188,
+      "affine_patch_energy_ratio": 1.0000000000000007,
+      "top_area_relative_error": -0.02598292940965352,
+      "top_load_centre_mm": [
+        -3.3217359634695826e-19,
+        2.7681133028913187e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 206.68090337709845,
+          "relative_free_residual": 1.9193876316132472e-15,
+          "force_balance": 4.369369942041279e-15,
+          "moment_balance": 1.4449171229166978e-15,
+          "energy_reaction_ratio": 0.9999999999999959,
+          "top_displacement_spread_ratio": 0.0084901644499939,
+          "max_displacement_over_height": 0.0002899118554914752
+        },
+        "y": {
+          "compliance_times_E_per_mm": 206.6809033770988,
+          "relative_free_residual": 2.9654424960026042e-15,
+          "force_balance": 4.156826398904387e-15,
+          "moment_balance": 2.6124043955043862e-15,
+          "energy_reaction_ratio": 0.9999999999999941,
+          "top_displacement_spread_ratio": 0.008490164449993991,
+          "max_displacement_over_height": 0.0002899118554914757
+        },
+        "z": {
+          "compliance_times_E_per_mm": 29.31498997296968,
+          "relative_free_residual": 4.0531850015098356e-16,
+          "force_balance": 8.751570880811033e-15,
+          "moment_balance": 1.3934439029823953e-16,
+          "energy_reaction_ratio": 0.9999999999999998,
+          "top_displacement_spread_ratio": 0.002495690206837685,
+          "max_displacement_over_height": 3.722434716907025e-05
+        }
+      }
+    },
+    {
+      "kind": "short",
+      "n": 8,
+      "nodes": 729,
+      "elements": 512,
+      "nu": 0.35,
+      "volume_mm3": 7.802203520636321e-05,
+      "exact_volume_mm3": 7.853981633974484e-05,
+      "relative_volume_error": -0.006592594145392816,
+      "affine_patch_energy_ratio": 1.0000000000000004,
+      "top_area_relative_error": -0.006592594145392705,
+      "top_load_centre_mm": [
+        -1.6284494726661895e-19,
+        4.885348417998569e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 124.4284205986054,
+          "relative_free_residual": 2.125854174261281e-15,
+          "force_balance": 1.9070649022410053e-14,
+          "moment_balance": 6.4461926642316016e-15,
+          "energy_reaction_ratio": 0.9999999999999927,
+          "top_displacement_spread_ratio": 0.018640057848033537,
+          "max_displacement_over_height": 0.0003637960880552957
+        },
+        "y": {
+          "compliance_times_E_per_mm": 124.42842059860686,
+          "relative_free_residual": 1.6688368858257333e-15,
+          "force_balance": 1.9323973085004418e-14,
+          "moment_balance": 6.764665278000187e-15,
+          "energy_reaction_ratio": 1.0000000000000029,
+          "top_displacement_spread_ratio": 0.018640057848033756,
+          "max_displacement_over_height": 0.00036379608805529954
+        },
+        "z": {
+          "compliance_times_E_per_mm": 19.459869651019936,
+          "relative_free_residual": 3.836050090714666e-16,
+          "force_balance": 2.0989708043533077e-15,
+          "moment_balance": 1.4409017750404913e-16,
+          "energy_reaction_ratio": 0.9999999999999982,
+          "top_displacement_spread_ratio": 0.004764461838677567,
+          "max_displacement_over_height": 5.029887503959144e-05
+        }
+      }
+    },
+    {
+      "kind": "single",
+      "n": 8,
+      "nodes": 1377,
+      "elements": 1024,
+      "nu": 0.35,
+      "volume_mm3": 0.0001560440704127264,
+      "exact_volume_mm3": 0.00015707963267948968,
+      "relative_volume_error": -0.006592594145393038,
+      "affine_patch_energy_ratio": 1.0000000000000009,
+      "top_area_relative_error": -0.006592594145392705,
+      "top_load_centre_mm": [
+        -1.6284494726661895e-19,
+        4.885348417998569e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 649.4949040347049,
+          "relative_free_residual": 8.453785860291943e-15,
+          "force_balance": 2.0081153538220145e-13,
+          "moment_balance": 1.5238359210749522e-13,
+          "energy_reaction_ratio": 1.0000000000000298,
+          "top_displacement_spread_ratio": 0.003613571600548042,
+          "max_displacement_over_height": 0.0008790394363955062
+        },
+        "y": {
+          "compliance_times_E_per_mm": 649.4949040347052,
+          "relative_free_residual": 9.479489819857697e-15,
+          "force_balance": 2.3870364526748996e-13,
+          "moment_balance": 1.812830128101749e-13,
+          "energy_reaction_ratio": 0.9999999999999997,
+          "top_displacement_spread_ratio": 0.003613571600548225,
+          "max_displacement_over_height": 0.0008790394363955066
+        },
+        "z": {
+          "compliance_times_E_per_mm": 39.965626899160846,
+          "relative_free_residual": 9.223063829966259e-16,
+          "force_balance": 3.029548993475464e-15,
+          "moment_balance": 5.926175555509911e-16,
+          "energy_reaction_ratio": 1.0000000000000053,
+          "top_displacement_spread_ratio": 2.6102779566015597e-05,
+          "max_displacement_over_height": 5.026897046172095e-05
+        }
+      }
+    },
+    {
+      "kind": "stepped",
+      "n": 8,
+      "nodes": 2529,
+      "elements": 2048,
+      "nu": 0.35,
+      "volume_mm3": 0.00039011017603181596,
+      "exact_volume_mm3": 0.0003926990816987242,
+      "relative_volume_error": -0.006592594145393149,
+      "affine_patch_energy_ratio": 0.9999999999999993,
+      "top_area_relative_error": -0.006592594145392705,
+      "top_load_centre_mm": [
+        -1.6284494726661895e-19,
+        4.885348417998569e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 216.40510738523557,
+          "relative_free_residual": 3.50931374875622e-15,
+          "force_balance": 4.659766884452628e-14,
+          "moment_balance": 3.970527524772054e-14,
+          "energy_reaction_ratio": 0.9999999999999931,
+          "top_displacement_spread_ratio": 0.01074790125735628,
+          "max_displacement_over_height": 0.00030670670281716093
+        },
+        "y": {
+          "compliance_times_E_per_mm": 216.40510738524057,
+          "relative_free_residual": 3.4048821964214e-15,
+          "force_balance": 5.204723811760219e-14,
+          "moment_balance": 4.792376699783236e-14,
+          "energy_reaction_ratio": 1.0000000000000075,
+          "top_displacement_spread_ratio": 0.010747901257355797,
+          "max_displacement_over_height": 0.0003067067028171678
+        },
+        "z": {
+          "compliance_times_E_per_mm": 29.523233725700425,
+          "relative_free_residual": 5.15953907079951e-16,
+          "force_balance": 6.498537687369724e-15,
+          "moment_balance": 7.846704760924778e-16,
+          "energy_reaction_ratio": 0.9999999999999987,
+          "top_displacement_spread_ratio": 0.0018868638793795545,
+          "max_displacement_over_height": 3.743640331348566e-05
+        }
+      }
+    },
+    {
+      "kind": "short",
+      "n": 12,
+      "nodes": 2197,
+      "elements": 1728,
+      "nu": 0.35,
+      "volume_mm3": 7.830895838520462e-05,
+      "exact_volume_mm3": 7.853981633974484e-05,
+      "relative_volume_error": -0.0029393747693727823,
+      "affine_patch_energy_ratio": 1.0000000000000007,
+      "top_area_relative_error": -0.0029393747693726713,
+      "top_load_centre_mm": [
+        -2.8393449898864064e-19,
+        4.867448554090982e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 125.24728958838224,
+          "relative_free_residual": 1.1994118882018901e-15,
+          "force_balance": 5.249494962414652e-15,
+          "moment_balance": 4.280649572542331e-15,
+          "energy_reaction_ratio": 0.9999999999999901,
+          "top_displacement_spread_ratio": 0.020227729009817473,
+          "max_displacement_over_height": 0.00036877453596157454
+        },
+        "y": {
+          "compliance_times_E_per_mm": 125.24728958838323,
+          "relative_free_residual": 2.1961645263282885e-15,
+          "force_balance": 3.6369958820310586e-15,
+          "moment_balance": 4.005545375899177e-15,
+          "energy_reaction_ratio": 0.9999999999999967,
+          "top_displacement_spread_ratio": 0.020227729009816803,
+          "max_displacement_over_height": 0.00036877453596157665
+        },
+        "z": {
+          "compliance_times_E_per_mm": 19.443556146825962,
+          "relative_free_residual": 2.714186384939622e-16,
+          "force_balance": 4.1847584176940516e-15,
+          "moment_balance": 4.289131404995267e-16,
+          "energy_reaction_ratio": 0.9999999999999999,
+          "top_displacement_spread_ratio": 0.004683091131900757,
+          "max_displacement_over_height": 5.0234768629782964e-05
+        }
+      }
+    },
+    {
+      "kind": "single",
+      "n": 12,
+      "nodes": 4225,
+      "elements": 3456,
+      "nu": 0.35,
+      "volume_mm3": 0.00015661791677040924,
+      "exact_volume_mm3": 0.00015707963267948968,
+      "relative_volume_error": -0.0029393747693727823,
+      "affine_patch_energy_ratio": 1.0000000000000007,
+      "top_area_relative_error": -0.0029393747693728933,
+      "top_load_centre_mm": [
+        -2.839344989886407e-19,
+        4.867448554090983e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 651.4144441994241,
+          "relative_free_residual": 1.1543305448177501e-14,
+          "force_balance": 3.1692391194203564e-14,
+          "moment_balance": 3.6974529094658517e-14,
+          "energy_reaction_ratio": 1.000000000000014,
+          "top_displacement_spread_ratio": 0.003928750990984047,
+          "max_displacement_over_height": 0.000882748709130576
+        },
+        "y": {
+          "compliance_times_E_per_mm": 651.4144441994084,
+          "relative_free_residual": 9.347140921849213e-15,
+          "force_balance": 8.044745047384471e-14,
+          "moment_balance": 4.5206046516037346e-14,
+          "energy_reaction_ratio": 0.9999999999999198,
+          "top_displacement_spread_ratio": 0.003928750990983697,
+          "max_displacement_over_height": 0.0008827487091305531
+        },
+        "z": {
+          "compliance_times_E_per_mm": 39.87418906679313,
+          "relative_free_residual": 9.326461406535387e-16,
+          "force_balance": 5.9538909527918395e-15,
+          "moment_balance": 1.6126715039869351e-15,
+          "energy_reaction_ratio": 0.9999999999999984,
+          "top_displacement_spread_ratio": 2.366130383521262e-05,
+          "max_displacement_over_height": 5.015313955043265e-05
+        }
+      }
+    },
+    {
+      "kind": "stepped",
+      "n": 12,
+      "nodes": 7969,
+      "elements": 6912,
+      "nu": 0.35,
+      "volume_mm3": 0.00039154479192602326,
+      "exact_volume_mm3": 0.0003926990816987242,
+      "relative_volume_error": -0.0029393747693724492,
+      "affine_patch_energy_ratio": 1.0,
+      "top_area_relative_error": -0.0029393747693726713,
+      "top_load_centre_mm": [
+        -2.8393449898864064e-19,
+        4.867448554090982e-19
+      ],
+      "components": {
+        "x": {
+          "compliance_times_E_per_mm": 220.16455214337583,
+          "relative_free_residual": 2.6599026572408296e-15,
+          "force_balance": 1.0993230340829738e-14,
+          "moment_balance": 1.963241290267153e-14,
+          "energy_reaction_ratio": 0.9999999999999888,
+          "top_displacement_spread_ratio": 0.011545912005975099,
+          "max_displacement_over_height": 0.0003132889655519355
+        },
+        "y": {
+          "compliance_times_E_per_mm": 220.16455214337537,
+          "relative_free_residual": 2.419503291717606e-15,
+          "force_balance": 1.1112654541767081e-14,
+          "moment_balance": 4.071986396780511e-15,
+          "energy_reaction_ratio": 0.9999999999999798,
+          "top_displacement_spread_ratio": 0.011545912005974894,
+          "max_displacement_over_height": 0.0003132889655519349
+        },
+        "z": {
+          "compliance_times_E_per_mm": 29.650709097080764,
+          "relative_free_residual": 6.886278599503955e-16,
+          "force_balance": 1.7028546885169766e-14,
+          "moment_balance": 1.4081861355791655e-15,
+          "energy_reaction_ratio": 0.9999999999999952,
+          "top_displacement_spread_ratio": 0.0017642380263159316,
+          "max_displacement_over_height": 3.7583588835846824e-05
+        }
+      }
+    }
+  ],
+  "final_changes": [
+    {
+      "kind": "short",
+      "axis": "x",
+      "from_n": 8,
+      "to_n": 12,
+      "relative_change": 0.0065810446346372675
+    },
+    {
+      "kind": "short",
+      "axis": "z",
+      "from_n": 8,
+      "to_n": 12,
+      "relative_change": 0.0008383151833248892
+    },
+    {
+      "kind": "single",
+      "axis": "x",
+      "from_n": 8,
+      "to_n": 12,
+      "relative_change": 0.002955435297174791
+    },
+    {
+      "kind": "single",
+      "axis": "z",
+      "from_n": 8,
+      "to_n": 12,
+      "relative_change": 0.002287911874832571
+    },
+    {
+      "kind": "stepped",
+      "axis": "x",
+      "from_n": 8,
+      "to_n": 12,
+      "relative_change": 0.017372255228005562
+    },
+    {
+      "kind": "stepped",
+      "axis": "z",
+      "from_n": 8,
+      "to_n": 12,
+      "relative_change": 0.0043177984012425785
+    }
+  ],
+  "numerical_convergence_criterion_met": true,
+  "final_compliance_ratios_to_two_short": {
+    "x": {
+      "single": 2.600513138209453,
+      "stepped": 0.8789194275857526
+    },
+    "z": {
+      "single": 1.0253831337664623,
+      "stepped": 0.76248163847129
+    }
+  },
+  "FE_vs_beam": {
+    "short": {
+      "FE_over_beam_lateral": 0.958637518320138,
+      "FE_over_beam_axial": 0.9544333304770173
+    },
+    "single": {
+      "FE_over_beam_lateral": 0.9600549966563199,
+      "FE_over_beam_axial": 0.9786598393756855
+    },
+    "stepped": {
+      "FE_over_beam_lateral": 1.248436909645474,
+      "FE_over_beam_axial": 1.1643806234139622
+    }
+  },
+  "limits": [
+    "Small-strain static elasticity only",
+    "No plate flexibility contact adhesion offset tilt buckling plasticity or viscoelasticity",
+    "Sharp shoulder and clamped edge stress singularities; no maximum-stress or lifetime claims",
+    "Polygonal circular boundary changes with refinement",
+    "3percent numerical change criterion not a physical success criterion",
+    "No complete grain or grain-bed model",
+    "No tested material grade safety or ski friction"
+  ]
+}

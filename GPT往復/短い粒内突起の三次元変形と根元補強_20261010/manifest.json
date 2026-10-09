@@ -1,0 +1,129 @@
+{
+  "cycle": 125,
+  "base_commit": "94fbc58f080c2e86e0650decab854e99e13bb0aa",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第125巡_短い突起の三次元解析と根元補強の限界_20261010.md",
+      "bytes": 7721,
+      "sha256": "2ffeede9186a61add1112c58dc5d0b9dbc649a776b1f22023acad5a0fbbb6c43"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 80819,
+      "sha256": "58d8f06e2823e5d9cff13c0f8506b1d7a1e7813067b8726661f8c27b899a8b57"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/README.md",
+      "bytes": 633,
+      "sha256": "9aab4b92420821001bcf0d77b0083d18a859898406ed74252fcc256e06ece0e8"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/claude_handoff.md",
+      "bytes": 1644,
+      "sha256": "81b128151a570fa0066ef0b42a94b70c3e3d1907704c00a921f42efe8cbed1a3"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "62918c6972062d4ac0a92dbe87f7df640710556ed143d78c50653e14f07e9f5e"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/inputs.json",
+      "bytes": 1187,
+      "sha256": "9cc84450e32b847c226a3ee9ba3a09856931afab33af23aae7f0a4da172c3913"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/model.md",
+      "bytes": 2309,
+      "sha256": "b60032d44731f60f3cafb2e81cb7e6ebc8da3f1219bebe816dbfdafe5dccf869"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/publication_audit.json",
+      "bytes": 256,
+      "sha256": "c7cd55e0fa63751107c2cc2c83722f5c3699f5ad068323be7e76013a47e7d41f"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/reproduce.py",
+      "bytes": 4834,
+      "sha256": "db970f17c0fdcc674e8f5d572c7ab7c0c7a625c42febf1f76e24080af9a4aef7"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/research_state.json",
+      "bytes": 923,
+      "sha256": "8ae1d51633b09d24a2c0a3a87679e7b7009d5a4da6a37dcd6d2921aef8942823"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/results.json",
+      "bytes": 18879,
+      "sha256": "52a1e83b4e5c68bc473d77086681fc93692b690537d0d96149e662b7e634cb69"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/sources.json",
+      "bytes": 1337,
+      "sha256": "453270719a8b98f95265142ea8b27cef05ceac24473a3fce405fe0c118edf30d"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/test_plan.json",
+      "bytes": 1072,
+      "sha256": "85dd91b5af5b0043696b79fe167e1ff4d58ae35aba1a71e38929085598b3832e"
+    },
+    {
+      "path": "GPT往復/短い粒内突起の三次元変形と根元補強_20261010/validation.json",
+      "bytes": 4908,
+      "sha256": "ce2f8f88fd2bfb7ab6c0c8ea2e6a18930866a6e75670d4dfc17506c4cd850bc4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 91100,
+      "sha256": "88c91834e3561f1518f9f2e73b94dce68e6785aa5613ba0abeee0e8033231dd4"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 204692,
+      "sha256": "f44a16485df8907c1368ca69cd8f587e3315ff3b560d38889c1b3275d176a222"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 6662,
+      "sha256": "95b6f501e09593d36d545830fd1458bf5dda1ad06e4355d1158ac30195dca68c"
+    },
+    {
+      "path": "計算部品/stop_hex.py",
+      "bytes": 4829,
+      "sha256": "c24da5b0831216a20cb195edf0559ff6f2b9935b7644982d25b31d5cb88ab8b6"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 45570,
+      "sha256": "f70dd7b83cc8877635506c3debbb2f82ed6fea53d1867937530c6b0ca96fa1f5"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 237431,
+      "sha256": "0fd5fc4d6fec08631735adc47b1a38d5060abc84d8edd5d87b8b082ad39aa4bd"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "計算部品/rim_grain_hex.py",
+      "bytes": 4019,
+      "sha256": "477b448c7feac574829dd6eebd9ba4dd70b92bd0a83a15dce522c3f7b482ab55"
+    },
+    {
+      "path": "計算部品/stop_misalignment.py",
+      "bytes": 2428,
+      "sha256": "ed07459f582f96f43c43fb65055dd3b5f001585032c1a679eede15371dbba1e3"
+    },
+    {
+      "path": "GPT往復/粒内突起の位置ずれと片側受け面の比較_20261010/results.json",
+      "bytes": 5987,
+      "sha256": "d638c339e1848308c07c57635b8965f897363b2a7ad904696a438535b788978c"
+    },
+    {
+      "path": "GPT往復/開放環粒の三次元支持と毛管残水の比較_20261010/sources.json",
+      "bytes": 1221,
+      "sha256": "781bd097535a8231a89e5a39fb6d0c5997a36f7f7060f16903311cbf4b3e8f80"
+    }
+  ]
+}

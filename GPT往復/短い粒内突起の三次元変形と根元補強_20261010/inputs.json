@@ -1,0 +1,38 @@
+{
+  "geometry": {
+    "radius_mm": 0.025,
+    "half_height_mm": 0.04,
+    "kinds": [
+      "short",
+      "single",
+      "stepped"
+    ]
+  },
+  "assumed": {
+    "poisson": 0.35,
+    "mesh_levels": [
+      4,
+      8,
+      12
+    ],
+    "convergence_change_limit": 0.03,
+    "optional_final_mesh_level": 16,
+    "beam_shear_factor": 0.9
+  },
+  "boundary": {
+    "bottom": "all displacements fixed",
+    "top": "uniform distributed traction in x,y,z independently; consistent nodal loads",
+    "side_and_step_shoulder": "traction free",
+    "paired_reference": "twice independent short-post compliance",
+    "material": "homogeneous isotropic E=1 in normalized units; no measured50C modulus"
+  },
+  "limits": [
+    "Small-strain static elasticity only",
+    "No plate flexibility contact adhesion offset tilt buckling plasticity or viscoelasticity",
+    "Sharp shoulder and clamped edge stress singularities; no maximum-stress or lifetime claims",
+    "Polygonal circular boundary changes with refinement",
+    "3percent numerical change criterion not a physical success criterion",
+    "No complete grain or grain-bed model",
+    "No tested material grade safety or ski friction"
+  ]
+}
