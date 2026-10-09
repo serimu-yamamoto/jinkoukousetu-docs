@@ -1,0 +1,32 @@
+{
+  "access_date": "2026-10-09",
+  "sources": [
+    {
+      "id": "S1",
+      "doi": "10.3390/polym14235285",
+      "title": "DMA of TPU Films and the Modelling of Their Viscoelastic Properties for Noise Reduction in Jet Engines",
+      "url": "https://www.mdpi.com/2073-4360/14/23/5285",
+      "read_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9740051/fullTextXML",
+      "bytes": 128534,
+      "sha256": "41bb29ba9ec95c2412bb07a97c3f075343029d650013deba6879081e984b48f1",
+      "scope": "Full primary article via Europe PMC XML; Table 1 only 40/60 C rows transcribed; no fitted Prony coefficients digitized; no wet 50 C performance inferred"
+    },
+    {
+      "id": "S2",
+      "url": "https://arxiv.org/html/2411.05891v1",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 224401,
+      "sha256": "980a33b98d003b77f325414d98346f80068e6ed0efc9cdfedf559bb4961c93cb"
+    },
+    {
+      "id": "S3",
+      "url": "https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/20345/1/2_p827-842.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 862040,
+      "sha256": "4804f6778cadbeece803fd4595bce4eba69b55c766a691d4986ab778000d0ec4"
+    }
+  ],
+  "full_copyrighted_sources_in_archive": false
+}

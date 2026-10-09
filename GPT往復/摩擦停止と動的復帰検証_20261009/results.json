@@ -1,0 +1,393 @@
+{
+  "cycle": 61,
+  "physical_tests": 0,
+  "success_probability": null,
+  "omega0_rad_s": 105409.25533894598,
+  "f0_Hz": 16776.40403482901,
+  "baseline_mass_is_unmeasured": true,
+  "initial_return_spring_energy_nJ": 1.3888888888888888,
+  "first_friction_event": [
+    {
+      "alpha": 0,
+      "r": 1,
+      "first_stop_us": 29.803764797543018,
+      "x_stop_um": 0.14400000000034238,
+      "q_stop_uN": 0.0,
+      "elastic_energy_nJ": 0.00028800000000136957,
+      "viscous_loss_nJ": 0.0,
+      "friction_loss_nJ": 1.3886008888888377,
+      "peak_kinetic_nJ": 0.3372940083317072,
+      "static_hold_at_stop": true,
+      "static_hold_after_relax": true,
+      "max_energy_residual_nJ": 4.980583846582299e-14,
+      "force_plateau_is_assumed": true
+    },
+    {
+      "alpha": 0.25,
+      "r": 1,
+      "first_stop_us": 28.613422246705646,
+      "x_stop_um": 1.3070453344177146,
+      "q_stop_uN": -16.17053841103993,
+      "elastic_energy_nJ": 0.04255434097553113,
+      "viscous_loss_nJ": 0.12159382391976234,
+      "friction_loss_nJ": 1.2247407239953723,
+      "peak_kinetic_nJ": 0.28717433788598384,
+      "static_hold_at_stop": true,
+      "static_hold_after_relax": true,
+      "max_energy_residual_nJ": 1.7769736299694868e-12,
+      "force_plateau_is_assumed": true
+    },
+    {
+      "alpha": 1,
+      "r": 1,
+      "first_stop_us": 25.56320789636451,
+      "x_stop_um": 3.717180611001951,
+      "q_stop_uN": -50.66201945832792,
+      "elastic_energy_nJ": 0.23810829741973957,
+      "viscous_loss_nJ": 0.2656011486695923,
+      "friction_loss_nJ": 0.8851794428055022,
+      "peak_kinetic_nJ": 0.19410639252708656,
+      "static_hold_at_stop": true,
+      "static_hold_after_relax": true,
+      "max_energy_residual_nJ": 5.9452442968677125e-12,
+      "force_plateau_is_assumed": true
+    },
+    {
+      "alpha": 4,
+      "r": 1,
+      "first_stop_us": 17.657301488681487,
+      "x_stop_um": 7.318384094736872,
+      "q_stop_uN": -117.9880197591298,
+      "elastic_energy_nJ": 0.8065167464925306,
+      "viscous_loss_nJ": 0.20456225709409775,
+      "friction_loss_nJ": 0.37780988531929444,
+      "peak_kinetic_nJ": 0.07896767638423903,
+      "static_hold_at_stop": true,
+      "static_hold_after_relax": true,
+      "max_energy_residual_nJ": 1.703390515059608e-11,
+      "force_plateau_is_assumed": true
+    },
+    {
+      "alpha": 1,
+      "r": 0.1,
+      "first_stop_us": 29.700725115225236,
+      "x_stop_um": 0.8582179386258924,
+      "q_stop_uN": -1.182196373360092,
+      "elastic_energy_nJ": 0.010254851452374399,
+      "viscous_loss_nJ": 0.09065852035071599,
+      "friction_loss_nJ": 1.287975517091374,
+      "peak_kinetic_nJ": 0.29274012037085206,
+      "static_hold_at_stop": true,
+      "static_hold_after_relax": true,
+      "max_energy_residual_nJ": 5.576711931749084e-12,
+      "force_plateau_is_assumed": true
+    },
+    {
+      "alpha": 1,
+      "r": 10,
+      "first_stop_us": 21.551631420979977,
+      "x_stop_um": 4.934326655832203,
+      "q_stop_uN": -125.68254249723293,
+      "elastic_energy_nJ": 0.6224906538283518,
+      "viscous_loss_nJ": 0.05270114612750886,
+      "friction_loss_nJ": 0.7136970889338633,
+      "peak_kinetic_nJ": 0.1712091366667454,
+      "static_hold_at_stop": true,
+      "static_hold_after_relax": true,
+      "max_energy_residual_nJ": 8.354428260304302e-13,
+      "force_plateau_is_assumed": true
+    }
+  ],
+  "free_return": [
+    {
+      "case": "elastic",
+      "alpha": 0,
+      "r": 1,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": null,
+      "min_x_um": -9.999999894435811,
+      "energy_remaining_fraction": 0.9999999999913161,
+      "max_energy_residual_nJ": 1.2061031186129234e-11,
+      "window_us": 1897.3665961010277
+    },
+    {
+      "case": "low_loss",
+      "alpha": 0.25,
+      "r": 1,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 354.428080151672,
+      "min_x_um": -7.639918711908518,
+      "energy_remaining_fraction": 1.6423510454141498e-11,
+      "max_energy_residual_nJ": 2.1923820783500657e-11,
+      "window_us": 1897.3665961010277
+    },
+    {
+      "case": "balanced",
+      "alpha": 1,
+      "r": 1,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 92.44918739502258,
+      "min_x_um": -2.7492271369333308,
+      "energy_remaining_fraction": 2.6977209716376956e-38,
+      "max_energy_residual_nJ": 3.5693670241698776e-11,
+      "window_us": 1897.3665961010277
+    },
+    {
+      "case": "large_branch",
+      "alpha": 4,
+      "r": 1,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 101.74628371591761,
+      "min_x_um": 8.900914879006997e-18,
+      "energy_remaining_fraction": 1.0415057507205912e-36,
+      "max_energy_residual_nJ": 8.878237651228144e-11,
+      "window_us": 1897.3665961010277
+    },
+    {
+      "case": "fast_relaxation",
+      "alpha": 1,
+      "r": 0.1,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 0.9486832980505139,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 435.06616048596567,
+      "min_x_um": -8.550691808334458,
+      "energy_remaining_fraction": 2.0123791544918188e-09,
+      "max_energy_residual_nJ": 3.613436710341804e-11,
+      "window_us": 1897.3665961010277
+    },
+    {
+      "case": "slow_relaxation",
+      "alpha": 1,
+      "r": 10,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 94.86832980505137,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 742.3921148894295,
+      "min_x_um": -1.2611360503060536,
+      "energy_remaining_fraction": 2.3168163546488268e-05,
+      "max_energy_residual_nJ": 3.135146463427595e-11,
+      "window_us": 1897.3665961010277
+    },
+    {
+      "case": "balanced_unrelaxed",
+      "alpha": 1,
+      "r": 1,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 2.7777777777777777,
+      "settle_energy_and_position_us": 115.92909902177279,
+      "min_x_um": -7.118016803570822,
+      "energy_remaining_fraction": 4.3891602060914244e-38,
+      "max_energy_residual_nJ": 1.0687561946554068e-10,
+      "window_us": 1897.3665961010277
+    }
+  ],
+  "mass_sensitivity": [
+    {
+      "case": "fixed_tau_mass",
+      "alpha": 1,
+      "r": 3.162277660168379,
+      "modal_mass_kg": 2.5e-10,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 74.925,
+      "min_x_um": -1.3598544484480963,
+      "energy_remaining_fraction": 1.367384924880031e-14,
+      "max_energy_residual_nJ": 3.464759343627419e-11,
+      "window_us": 600.0,
+      "f0_Hz": 53051.647697298446,
+      "first_friction_stop_us": 9.42477796076938
+    },
+    {
+      "case": "fixed_tau_mass",
+      "alpha": 1,
+      "r": 1.0,
+      "modal_mass_kg": 2.5e-09,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 92.44918739502258,
+      "min_x_um": -2.7492271369333308,
+      "energy_remaining_fraction": 2.6977209716376956e-38,
+      "max_energy_residual_nJ": 3.5693670241698776e-11,
+      "window_us": 1897.3665961010277,
+      "f0_Hz": 16776.40403482901,
+      "first_friction_stop_us": 29.8037647973883
+    },
+    {
+      "case": "fixed_tau_mass",
+      "alpha": 1,
+      "r": 0.31622776601683794,
+      "modal_mass_kg": 2.5e-08,
+      "tau_us": 9.486832980505138,
+      "initial_energy_nJ": 1.3888888888888888,
+      "settle_energy_and_position_us": 438.3,
+      "min_x_um": -6.165073069571108,
+      "energy_remaining_fraction": 9.243726740000938e-28,
+      "max_energy_residual_nJ": 3.602673714908633e-11,
+      "window_us": 5999.999999999999,
+      "f0_Hz": 5305.164769729845,
+      "first_friction_stop_us": 94.24777960769379
+    }
+  ],
+  "first_stop_friction_ratio_window_for_1um": [
+    0.4419642857142857,
+    0.5434253246753248
+  ],
+  "friction_ratio_sensitivity": [
+    {
+      "adhesion_uN": 4,
+      "mu_kinetic_over_static": 0.2,
+      "x_first_stop_um": -5.769599999999999,
+      "negative_offset_requires_reverse_clearance": true,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 4,
+      "mu_kinetic_over_static": 0.5,
+      "x_first_stop_um": 0.14399999999999968,
+      "negative_offset_requires_reverse_clearance": false,
+      "within_1um_at_first_stop": true,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 4,
+      "mu_kinetic_over_static": 0.8,
+      "x_first_stop_um": 6.0576,
+      "negative_offset_requires_reverse_clearance": false,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 4,
+      "mu_kinetic_over_static": 0.95,
+      "x_first_stop_um": 9.0144,
+      "negative_offset_requires_reverse_clearance": false,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 40,
+      "mu_kinetic_over_static": 0.2,
+      "x_first_stop_um": -3.695999999999999,
+      "negative_offset_requires_reverse_clearance": true,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 40,
+      "mu_kinetic_over_static": 0.5,
+      "x_first_stop_um": 1.4399999999999988,
+      "negative_offset_requires_reverse_clearance": false,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 40,
+      "mu_kinetic_over_static": 0.8,
+      "x_first_stop_um": 6.576000000000001,
+      "negative_offset_requires_reverse_clearance": false,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    },
+    {
+      "adhesion_uN": 40,
+      "mu_kinetic_over_static": 0.95,
+      "x_first_stop_um": 9.143999999999998,
+      "negative_offset_requires_reverse_clearance": false,
+      "within_1um_at_first_stop": false,
+      "probability": null
+    }
+  ],
+  "stiffness_peak": {
+    "alpha": 1,
+    "loss_factor_max": 0.35355339059327373,
+    "f_peak_Hz": 11862.709056952952
+  },
+  "grain_count": 3429460598986.3774,
+  "small_pad": {
+    "volume_um3": 2000.0000000000002,
+    "required_shear_strain_at_deltaG_1MPa": 1.178511301977579,
+    "hypothetical_added_mass_kg": 30.727966966917947
+  },
+  "side_branch_required_deltaG_over_Ginf_min": 20.0,
+  "cost_lower_bounds": [
+    {
+      "deltaG_MPa": 1.0,
+      "strain_limit": 0.02,
+      "volume_um3_per_module": 6944444.444444442,
+      "added_mass_kg": 106694.32974624282,
+      "material_yen_tax_excluded": 320082989.23872846,
+      "lower_bound": true
+    },
+    {
+      "deltaG_MPa": 1.0,
+      "strain_limit": 0.05,
+      "volume_um3_per_module": 1111111.1111111105,
+      "added_mass_kg": 17071.09275939885,
+      "material_yen_tax_excluded": 51213278.27819654,
+      "lower_bound": true
+    },
+    {
+      "deltaG_MPa": 1.0,
+      "strain_limit": 0.1,
+      "volume_um3_per_module": 277777.77777777764,
+      "added_mass_kg": 4267.773189849712,
+      "material_yen_tax_excluded": 12803319.569549136,
+      "lower_bound": true
+    },
+    {
+      "deltaG_MPa": 10.0,
+      "strain_limit": 0.02,
+      "volume_um3_per_module": 694444.4444444444,
+      "added_mass_kg": 10669.432974624284,
+      "material_yen_tax_excluded": 32008298.92387285,
+      "lower_bound": true
+    },
+    {
+      "deltaG_MPa": 10.0,
+      "strain_limit": 0.05,
+      "volume_um3_per_module": 111111.11111111107,
+      "added_mass_kg": 1707.109275939885,
+      "material_yen_tax_excluded": 5121327.827819655,
+      "lower_bound": true
+    },
+    {
+      "deltaG_MPa": 10.0,
+      "strain_limit": 0.1,
+      "volume_um3_per_module": 27777.777777777766,
+      "added_mass_kg": 426.77731898497126,
+      "material_yen_tax_excluded": 1280331.9569549137,
+      "lower_bound": true
+    }
+  ],
+  "source_table_means": [
+    {
+      "temperature_C": 40.0,
+      "frequency_Hz": 50,
+      "mean_MPa": 14.219999999999999,
+      "min_MPa": 13.54,
+      "max_MPa": 15.28
+    },
+    {
+      "temperature_C": 60.0,
+      "frequency_Hz": 50,
+      "mean_MPa": 11.331666666666665,
+      "min_MPa": 10.7,
+      "max_MPa": 12.3
+    }
+  ],
+  "first_slip_pressure_change_during_stop_kPa": 0.005960752959477661,
+  "local_passage_us_at_10m_s": 50.0,
+  "ski_envelope_us_at_10m_s": 100000.0,
+  "warning": "No full grain dynamics, ski contact, warm spray crystallization or wet 50 C material verification. Cases are deterministic hypotheses, not success probability."
+}

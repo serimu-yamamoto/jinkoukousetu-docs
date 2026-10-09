@@ -1,0 +1,9 @@
+adhesion_uN,mu_kinetic_over_static,x_first_stop_um,negative_offset_requires_reverse_clearance,within_1um_at_first_stop,probability
+4,0.2,-5.769599999999999,True,False,
+4,0.5,0.14399999999999968,False,True,
+4,0.8,6.0576,False,False,
+4,0.95,9.0144,False,False,
+40,0.2,-3.695999999999999,True,False,
+40,0.5,1.4399999999999988,False,False,
+40,0.8,6.576000000000001,False,False,
+40,0.95,9.143999999999998,False,False,

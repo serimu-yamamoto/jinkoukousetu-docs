@@ -1,0 +1,206 @@
+{
+  "passed": 29,
+  "checks": [
+    {
+      "name": "elastic displacement vs cos(5)",
+      "actual": 0.2836621854382238,
+      "expected": 0.28366218546322625,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "elastic velocity vs -sin(5)",
+      "actual": 0.9589242746704214,
+      "expected": 0.9589242746631385,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "first stop analytic displacement",
+      "actual": 0.14400000000034238,
+      "expected": 0.14399999999999968,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "first stop analytic time",
+      "actual": 29.803764797543018,
+      "expected": 29.8037647973883,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "unresolved H60 energy becomes peak kinetic",
+      "actual": 0.3372940083317072,
+      "expected": 0.3372942222222222,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "friction first slip energy accounting",
+      "actual": 1.388888888888839,
+      "expected": 1.3888888888888888,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "friction energy balance alpha=0 r=1",
+      "actual": 4.980583846582299e-14,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "friction energy balance alpha=0.25 r=1",
+      "actual": 1.7769736299694868e-12,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "friction energy balance alpha=1 r=1",
+      "actual": 5.9452442968677125e-12,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "friction energy balance alpha=4 r=1",
+      "actual": 1.703390515059608e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "friction energy balance alpha=1 r=0.1",
+      "actual": 5.576711931749084e-12,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "friction energy balance alpha=1 r=10",
+      "actual": 8.354428260304302e-13,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance elastic",
+      "actual": 1.2061031186129234e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance low_loss",
+      "actual": 2.1923820783500657e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance balanced",
+      "actual": 3.5693670241698776e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance large_branch",
+      "actual": 8.878237651228144e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance fast_relaxation",
+      "actual": 3.613436710341804e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance slow_relaxation",
+      "actual": 3.135146463427595e-11,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "free energy balance balanced_unrelaxed",
+      "actual": 1.0687561946554068e-10,
+      "expected": 0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "settling time step halving",
+      "actual": 92.44918739502258,
+      "expected": 92.44918739502256,
+      "tolerance": 0.06,
+      "passed": true
+    },
+    {
+      "name": "elastic energy retained",
+      "actual": 0.9999999999913161,
+      "expected": 1,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "initial material memory changes stored energy",
+      "passed": true
+    },
+    {
+      "name": "SLS peak loss factor",
+      "actual": 0.35355339059327373,
+      "expected": 0.35355339059327373,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "shear-energy lower bound 1000000 0.02",
+      "actual": 2.777777777777777e-09,
+      "expected": 2.777777777777777e-09,
+      "tolerance": 1e-20,
+      "passed": true
+    },
+    {
+      "name": "shear-energy lower bound 1000000 0.05",
+      "actual": 2.777777777777777e-09,
+      "expected": 2.777777777777777e-09,
+      "tolerance": 1e-20,
+      "passed": true
+    },
+    {
+      "name": "shear-energy lower bound 1000000 0.1",
+      "actual": 2.777777777777777e-09,
+      "expected": 2.777777777777777e-09,
+      "tolerance": 1e-20,
+      "passed": true
+    },
+    {
+      "name": "shear-energy lower bound 10000000 0.02",
+      "actual": 2.7777777777777776e-09,
+      "expected": 2.777777777777777e-09,
+      "tolerance": 1e-20,
+      "passed": true
+    },
+    {
+      "name": "shear-energy lower bound 10000000 0.05",
+      "actual": 2.7777777777777776e-09,
+      "expected": 2.777777777777777e-09,
+      "tolerance": 1e-20,
+      "passed": true
+    },
+    {
+      "name": "shear-energy lower bound 10000000 0.1",
+      "actual": 2.7777777777777776e-09,
+      "expected": 2.777777777777777e-09,
+      "tolerance": 1e-20,
+      "passed": true
+    }
+  ],
+  "physical_tests": 0
+}

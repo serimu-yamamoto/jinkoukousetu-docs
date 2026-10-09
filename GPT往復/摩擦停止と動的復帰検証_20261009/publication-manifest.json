@@ -1,0 +1,160 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "e6943509dfd8e8dfccf5226e650d89e2f3c607b3",
+  "cycle": 61,
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md",
+      "bytes": 15022,
+      "sha256": "00916f0d31114146528796e6da93790d8d9c38797453d48ab4fa332ea00a3afc"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "bytes": 21508,
+      "sha256": "a42aad0231df9bd49c5e78389c8696914ae5e677f0dec78df8bb3bd2bd47f047"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 42107,
+      "sha256": "813c687f20ed0f17b5097faa266eaff81e5c12bf0ca5f26dcc1a90d0565bb0d9"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/01_concept.png",
+      "bytes": 121349,
+      "sha256": "9ffea824b686cc6b3c1a6f859382ee950883dbce89b181db3bb907ba27582ccc"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/01_concept.svg",
+      "bytes": 92947,
+      "sha256": "f3786f65833d9c0fd11827d67430fc467e61d2b4be4e4f782a9b41be57a50ad2"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/02_dynamics.png",
+      "bytes": 285867,
+      "sha256": "ec883937772b5c62dbdd97898f0234f5f098b5bf77a35b112f4404c347429776"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/02_dynamics.svg",
+      "bytes": 169596,
+      "sha256": "cae0889409f4d794358821a28ebf0b8f0c769fc2d4792e92b7aa1a68d2d9db43"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/03_volume_cost.png",
+      "bytes": 171257,
+      "sha256": "1335124df8bdc0d13760cb1a66b820fe924b4bae3a108efbed5ba7ac9cfbcdaa"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/03_volume_cost.svg",
+      "bytes": 108721,
+      "sha256": "3cc9f6efb3dc6f2c35fceabee2ce2b1cb0373bfe15440179af27626062e221d8"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/README.md",
+      "bytes": 864,
+      "sha256": "a314e59c5359238357e03b336ec3da81afc61a0757272a127cc8ba5eb5f884fe"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/audit.py",
+      "bytes": 4289,
+      "sha256": "75110b9352ec1b863ecaf6e0addc53e63467423fc32e6dac98ba89f0a31d4717"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/calculate.py",
+      "bytes": 10159,
+      "sha256": "52c124a059637fc882279cbc8392a4924f3bb6ca9fa1d8143c24dff2ff8745c3"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/damping_volume_cost.csv",
+      "bytes": 517,
+      "sha256": "fa27b63f3c117dd84afb03f907a6b1beed2adca3fa7367e631fa9d558affea97"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/document_checks.json",
+      "bytes": 63661,
+      "sha256": "bd480e65118f0cfceedf03e3d4ee5b112aa90ecd08b4bbfe7e35afb0a1731621"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/draw.py",
+      "bytes": 6277,
+      "sha256": "044910a5ace167756ebddf26ac589b9d187f04d7ac44d44a521890006fd26f13"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/free_return.csv",
+      "bytes": 1287,
+      "sha256": "ea7b6d5f32802513d07386ff48fa872a5cd08e6b5e25e333eacee426d835a36a"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/frequency_response.csv",
+      "bytes": 40210,
+      "sha256": "93e1a084bf95a66079974e61d30d139de48f4084a28e0bda8909c127bbaf6f2c"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/friction_events.csv",
+      "bytes": 1237,
+      "sha256": "58f0afe6b645510a6cbc53b0d150c6695efa12c1a687552a5fab453f8849548d"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/friction_ratio_sensitivity.csv",
+      "bytes": 413,
+      "sha256": "899ec0db20c62beeb4e8b525ece41e603ff3234db6beb78d8a46464ee398840c"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/inputs.json",
+      "bytes": 2124,
+      "sha256": "363ff28aac29f586d51dbc77725050e54e5ace5aead8a578d87433f820bc1a40"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/mass_sensitivity.csv",
+      "bytes": 781,
+      "sha256": "0802e7e640beee7ae105c3e24a0470be8d3db4365662d1fc712d6dccb4f591ce"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/model.md",
+      "bytes": 4166,
+      "sha256": "9237d7b9135932d0336d12433ab1b3505f06cca02e9b02aeaf5eb1cfb7bc3a88"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/numerical_checks.json",
+      "bytes": 5181,
+      "sha256": "13e10a3cac46cdb5d272c0bb759bada4ed4bda2034a5196780f81bcde1588456"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/results.json",
+      "bytes": 12633,
+      "sha256": "9d6dad42931730933c5b823b7413527081a47a892a3a34070ae8c5a1f1cd1732"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/source_provenance.json",
+      "bytes": 1257,
+      "sha256": "d07fef525b6d4237d1ed020ab4254bfe9a8af6b15a099c6059ccd26cc2e62213"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/source_table_TPU.csv",
+      "bytes": 201,
+      "sha256": "a2b1a83f6a0f3deffee0ec2015ac8f5bca15c0956505043a2a349ed3394b65b9"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/time_history.csv",
+      "bytes": 1831453,
+      "sha256": "cfe27a02f18820e7a3208dde0a3976bdc2b5bcfe283f3ce15a185095a80ea673"
+    },
+    {
+      "path": "GPT往復/摩擦停止と動的復帰検証_20261009/validation_plan.md",
+      "bytes": 5432,
+      "sha256": "ecf5b2eb3639972c2e726e954926384a8bd1ef87796172f22f209c2e1cbd7f8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 49572,
+      "sha256": "1c24d593cf1fe76eec56cdecb53fab0ca2bd3ee4a06915862c388a1a41020f78"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 123337,
+      "sha256": "86ab5fe4f19700f027ba2d86b4a0bb222cbebb630bb2195d741ba824a689c7c1"
+    }
+  ]
+}

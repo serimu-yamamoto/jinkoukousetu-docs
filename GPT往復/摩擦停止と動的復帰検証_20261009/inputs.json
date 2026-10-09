@@ -1,0 +1,93 @@
+{
+  "cycle": 61,
+  "base_commit": "e6943509dfd8e8dfccf5226e650d89e2f3c607b3",
+  "physical_tests": 0,
+  "success_probability": null,
+  "k0_N_m": 27.77777777777778,
+  "x0_um": 10,
+  "modal_mass_kg": 2.5e-9,
+  "modal_mass_scan_kg": [
+    2.5e-10,
+    2.5e-9,
+    2.5e-8
+  ],
+  "mu_static": 0.6,
+  "mu_kinetic": 0.3,
+  "N_first_slip_uN": 456.2962962962963,
+  "tangential_adhesion_uN": 4,
+  "normal_unloading_assumed_kPa_s": 200,
+  "dimensionless_step": 0.005,
+  "dimensionless_end": 200,
+  "free_cases": [
+    {
+      "name": "elastic",
+      "alpha": 0,
+      "r": 1
+    },
+    {
+      "name": "low_loss",
+      "alpha": 0.25,
+      "r": 1
+    },
+    {
+      "name": "balanced",
+      "alpha": 1,
+      "r": 1
+    },
+    {
+      "name": "large_branch",
+      "alpha": 4,
+      "r": 1
+    },
+    {
+      "name": "fast_relaxation",
+      "alpha": 1,
+      "r": 0.1
+    },
+    {
+      "name": "slow_relaxation",
+      "alpha": 1,
+      "r": 10
+    },
+    {
+      "name": "balanced_unrelaxed",
+      "alpha": 1,
+      "r": 1,
+      "z0": 1
+    }
+  ],
+  "geometry": {
+    "course_area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "packing_fraction": 0.55,
+    "W_um": 500,
+    "H_um": 577.3502691896257,
+    "modules_per_grain": 4
+  },
+  "cost": {
+    "density_kg_m3_assumed": 1120,
+    "price_yen_kg_assumed": 3000,
+    "deltaG_Pa": [
+      1000000,
+      10000000
+    ],
+    "strain_limits": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "small_pad_um": [
+      20,
+      20,
+      5
+    ],
+    "static_stiffness_allowance_fraction": 0.05
+  },
+  "warnings": [
+    "No material parameters calibrated to wet 50 C; k0, modal mass, alpha, r, friction and bridge are design assumptions.",
+    "Fixed normal reaction during first fast slip, followed by sticking; not full evolving normal/contact dynamics.",
+    "Free-return tests are independent initial-value cases after complete adhesion loss; they are not continuation of the friction event.",
+    "Generalized Maxwell with ONE branch; the model predicts local displacement/energy only, not rebound of a whole grain or ski feel.",
+    "No probability is computed from the cases."
+  ]
+}

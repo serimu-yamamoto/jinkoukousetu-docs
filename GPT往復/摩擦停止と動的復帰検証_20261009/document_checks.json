@@ -1,0 +1,1460 @@
+{
+  "passed": 363,
+  "local_links": 324,
+  "checks": [
+    {
+      "name": "physical tests remain zero",
+      "passed": true
+    },
+    {
+      "name": "probability remains null",
+      "passed": true
+    },
+    {
+      "name": "29 numeric checks present and passed",
+      "passed": true
+    },
+    {
+      "name": "source_table_TPU.csv row count",
+      "passed": true
+    },
+    {
+      "name": "friction_events.csv row count",
+      "passed": true
+    },
+    {
+      "name": "free_return.csv row count",
+      "passed": true
+    },
+    {
+      "name": "mass_sensitivity.csv row count",
+      "passed": true
+    },
+    {
+      "name": "friction_ratio_sensitivity.csv row count",
+      "passed": true
+    },
+    {
+      "name": "time_history.csv row count",
+      "passed": true
+    },
+    {
+      "name": "frequency_response.csv row count",
+      "passed": true
+    },
+    {
+      "name": "damping_volume_cost.csv row count",
+      "passed": true
+    },
+    {
+      "name": "all CSV rows accounted",
+      "passed": true
+    },
+    {
+      "name": "nominal Coulomb event holds both before/after relaxation",
+      "passed": true
+    },
+    {
+      "name": "friction ratio 0.8 counterexample > 6um",
+      "passed": true
+    },
+    {
+      "name": "elastic free case does not falsely settle",
+      "passed": true
+    },
+    {
+      "name": "mass sensitivity keeps actual tau fixed",
+      "passed": true
+    },
+    {
+      "name": "larger branch is not declared faster",
+      "passed": true
+    },
+    {
+      "name": "small pad requires large strain",
+      "passed": true
+    },
+    {
+      "name": "smallest-cost row is labelled lower bound",
+      "passed": true
+    },
+    {
+      "name": "source data only 40/60 C observations",
+      "passed": true
+    },
+    {
+      "name": "three source hashes recorded",
+      "passed": true
+    },
+    {
+      "name": "source full copies excluded",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/01_concept.png",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/source_provenance.json",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/source_table_TPU.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/friction_ratio_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/02_dynamics.png",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/03_volume_cost.png",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> ../バーチャル試験/自律ループv2_噴霧結晶化素材_第1〜4ラウンド_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/validation_plan.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/calculate.py",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/results.json",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/model.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/friction_events.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/free_return.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/mass_sensitivity.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/time_history.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/frequency_response.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/damping_volume_cost.csv",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/numerical_checks.json",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md -> 摩擦停止と動的復帰検証_20261009/draw.py",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\摩擦停止と動的復帰検証_20261009\\README.md -> ../GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\摩擦停止と動的復帰検証_20261009\\README.md -> model.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\摩擦停止と動的復帰検証_20261009\\README.md -> validation_plan.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 正本/人工フィルン_正本v36_総括_経緯と到達点_2026-10-05.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> バーチャル試験/自律ループv2_噴霧結晶化素材_第1〜4ラウンド_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第59巡_濡れた静摩擦を越える開離復帰と材料分担_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第58巡_内部摩擦で雪の切れと復帰を両立する条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第57巡_荷重を支える芯と解放する接点の統合_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第56巡_接点が縮んで抜ける粒と雪の支えの両立_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第55巡_摩耗面の再生と材料交換を両立する設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第54巡_雪に接する面の微細構造と回転摩耗_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第53巡_一体発泡で戻る粒と量産の成立条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第52巡_乾湿で戻る骨格と疲労を逃がす接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第51巡_結晶の配置と寿命から滑走素材を再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第50巡_雨で貼り付かず戻る粒の条件と排水構造_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第48巡_夏の結晶面と冬の雪保持を両立する接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第47巡_結晶の裏面保持と枝を壊さない被覆工程_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第45巡_滑走中の水流出と保水接点への再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第44巡_乾燥と濡れをまたぐ滑走接点と荷重給水_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第43巡_微粉を流さない材料と雨水回収の設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第42巡_摩耗後も滑りを保つ先端と接触相の配置_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第41巡_滑走接点の発熱と摩耗を両立させる設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第40巡_50度クリープと経時変化を踏まえた枝の再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第38巡_枝を残す分断位置と開放骨格の製造条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第37巡_一括発泡による開放粒と雨後重量の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第36巡_加圧で戻る材料と現地整地の分離_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第35巡_分子結晶の再評価と少量接点の再成長_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第34巡_接触面の被覆配置と開放骨格の製造順序_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第33巡_局部圧力を抑える接点と接触材料の選び直し_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第31巡_短距離拡散と微粒製造を両立する設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第30巡_浸水履歴と開放支持骨格の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第29巡_重合時の結晶網と密度履歴の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第28巡_枝熱伝導の反証と噴出時の直接製粒_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第27巡_枝状粒の形成と微細枝の熱仕上げ_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第26巡_自己修復接点の保持時間と雪らしい解放_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第25巡_粒内フィブリル補強と再生後の荷重移行_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第24巡_枝状結晶と結晶相を使い分ける粒の製造再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第23巡_乾式異材接点と慣らし摩耗の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第22巡_乾湿切替と局所水和層の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第21巡_分散接点の摩擦熱と乾湿滑走の再設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第20巡_濡れた接合部の二点支持と樹脂内補強_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第19巡_結晶性多材料と少量接合材の部分再製造_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第18巡_濡れ乾きに耐える枝支持と粒内接合_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第17巡_枝形状の形成と量産再生の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第16巡_噴霧結晶化と骨格接点の分流再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第15巡_荷重最適化と接触整合および短い受け_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第14巡_骨格変形と内部補強の費用条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第13巡_粒間接触と三方向開口の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第12巡_接触の偏りと自整列の成立条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第11巡_閉じた補強輪による支持と局所変形の分離_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第10巡_直交する開放輪と分流再生の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第9巡_磁力による接点誘導と液橋の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第8巡_曲がる接点の非線形着脱と保持力の限界_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第7巡_雪の滑走応答と可逆接点の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第6巡_近傍の丸い支点と荷重摩耗の検証_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_レール式整地設備の概念設計と数量費用試算_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_側方レール牽引式自動整地機の成立条件と長期費用_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/GPT回答_50℃対応の雪状結晶素材と圧雪再現の再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 正本/",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 旧版/",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> GPT往復/",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 試験仕様/",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 表計算/",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> バーチャル試験/",
+      "passed": true
+    },
+    {
+      "name": "local link README.md -> 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> 正本/人工フィルン_正本v36_総括_経緯と到達点_2026-10-05.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> バーチャル試験/VT第13弾_含水100段階の摩擦と雨の春雪化_2026-10-06.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> 施工計画/施工計画素案_下地造成と工事費_2026-10-05.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_下地造成と全天候リスクの監査_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_50℃対応の雪状結晶素材と圧雪再現の再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_側方レール牽引式自動整地機の成立条件と長期費用_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_レール式整地設備の概念設計と数量費用試算_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第59巡_濡れた静摩擦を越える開離復帰と材料分担_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第58巡_内部摩擦で雪の切れと復帰を両立する条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第57巡_荷重を支える芯と解放する接点の統合_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第56巡_接点が縮んで抜ける粒と雪の支えの両立_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第55巡_摩耗面の再生と材料交換を両立する設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第54巡_雪に接する面の微細構造と回転摩耗_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第53巡_一体発泡で戻る粒と量産の成立条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第52巡_乾湿で戻る骨格と疲労を逃がす接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第51巡_結晶の配置と寿命から滑走素材を再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第50巡_雨で貼り付かず戻る粒の条件と排水構造_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第48巡_夏の結晶面と冬の雪保持を両立する接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第47巡_結晶の裏面保持と枝を壊さない被覆工程_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第45巡_滑走中の水流出と保水接点への再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第44巡_乾燥と濡れをまたぐ滑走接点と荷重給水_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第43巡_微粉を流さない材料と雨水回収の設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第42巡_摩耗後も滑りを保つ先端と接触相の配置_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第41巡_滑走接点の発熱と摩耗を両立させる設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第40巡_50度クリープと経時変化を踏まえた枝の再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第38巡_枝を残す分断位置と開放骨格の製造条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第37巡_一括発泡による開放粒と雨後重量の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第36巡_加圧で戻る材料と現地整地の分離_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第35巡_分子結晶の再評価と少量接点の再成長_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第34巡_接触面の被覆配置と開放骨格の製造順序_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第33巡_局部圧力を抑える接点と接触材料の選び直し_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第31巡_短距離拡散と微粒製造を両立する設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第30巡_浸水履歴と開放支持骨格の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第29巡_重合時の結晶網と密度履歴の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第28巡_枝熱伝導の反証と噴出時の直接製粒_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第27巡_枝状粒の形成と微細枝の熱仕上げ_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第26巡_自己修復接点の保持時間と雪らしい解放_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> バーチャル試験/自律ループv2_噴霧結晶化素材_第1〜4ラウンド_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第25巡_粒内フィブリル補強と再生後の荷重移行_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第24巡_枝状結晶と結晶相を使い分ける粒の製造再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第23巡_乾式異材接点と慣らし摩耗の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第22巡_乾湿切替と局所水和層の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第21巡_分散接点の摩擦熱と乾湿滑走の再設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第20巡_濡れた接合部の二点支持と樹脂内補強_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第19巡_結晶性多材料と少量接合材の部分再製造_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第18巡_濡れ乾きに耐える枝支持と粒内接合_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第17巡_枝形状の形成と量産再生の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第16巡_噴霧結晶化と骨格接点の分流再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第15巡_荷重最適化と接触整合および短い受け_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第14巡_骨格変形と内部補強の費用条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第13巡_粒間接触と三方向開口の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第12巡_接触の偏りと自整列の成立条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第11巡_閉じた補強輪による支持と局所変形の分離_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第10巡_直交する開放輪と分流再生の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第9巡_磁力による接点誘導と液橋の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第8巡_曲がる接点の非線形着脱と保持力の限界_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第7巡_雪の滑走応答と可逆接点の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第6巡_近傍の丸い支点と荷重摩耗の検証_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第22巡_乾湿切替と局所水和層の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第21巡_分散接点の摩擦熱と乾湿滑走の再設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> 施工計画/寒水石0.4〜0.6mm価格調査_2026-10-05.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> 施工計画/実験施設_20度10m_費用試算_2026-10-05.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> バーチャル試験/自律ループv2_噴霧結晶化素材_第1〜4ラウンド_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第54巡_雪に接する面の微細構造と回転摩耗_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第50巡_雨で貼り付かず戻る粒の条件と排水構造_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第48巡_夏の結晶面と冬の雪保持を両立する接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第47巡_結晶の裏面保持と枝を壊さない被覆工程_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第45巡_滑走中の水流出と保水接点への再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第44巡_乾燥と濡れをまたぐ滑走接点と荷重給水_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第43巡_微粉を流さない材料と雨水回収の設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第42巡_摩耗後も滑りを保つ先端と接触相の配置_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第41巡_滑走接点の発熱と摩耗を両立させる設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第40巡_50度クリープと経時変化を踏まえた枝の再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第38巡_枝を残す分断位置と開放骨格の製造条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第37巡_一括発泡による開放粒と雨後重量の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第36巡_加圧で戻る材料と現地整地の分離_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第35巡_分子結晶の再評価と少量接点の再成長_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第33巡_局部圧力を抑える接点と接触材料の選び直し_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第31巡_短距離拡散と微粒製造を両立する設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第30巡_浸水履歴と開放支持骨格の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第29巡_重合時の結晶網と密度履歴の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第26巡_自己修復接点の保持時間と雪らしい解放_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第25巡_粒内フィブリル補強と再生後の荷重移行_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第24巡_枝状結晶と結晶相を使い分ける粒の製造再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第23巡_乾式異材接点と慣らし摩耗の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第22巡_乾湿切替と局所水和層の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第21巡_分散接点の摩擦熱と乾湿滑走の再設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第20巡_濡れた接合部の二点支持と樹脂内補強_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第19巡_結晶性多材料と少量接合材の部分再製造_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第18巡_濡れ乾きに耐える枝支持と粒内接合_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第17巡_枝形状の形成と量産再生の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第16巡_噴霧結晶化と骨格接点の分流再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第15巡_荷重最適化と接触整合および短い受け_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第14巡_骨格変形と内部補強の費用条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第13巡_粒間接触と三方向開口の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第12巡_接触の偏りと自整列の成立条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第11巡_閉じた補強輪による支持と局所変形の分離_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第10巡_直交する開放輪と分流再生の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第9巡_磁力による接点誘導と液橋の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第8巡_曲がる接点の非線形着脱と保持力の限界_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第7巡_雪の滑走応答と可逆接点の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第6巡_近傍の丸い支点と荷重摩耗の検証_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> バーチャル試験/自律ループv2_噴霧結晶化素材_第1〜4ラウンド_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第20巡_濡れた接合部の二点支持と樹脂内補強_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第19巡_結晶性多材料と少量接合材の部分再製造_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第18巡_濡れ乾きに耐える枝支持と粒内接合_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第17巡_枝形状の形成と量産再生の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第16巡_噴霧結晶化と骨格接点の分流再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第15巡_荷重最適化と接触整合および短い受け_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第14巡_骨格変形と内部補強の費用条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第13巡_粒間接触と三方向開口の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第12巡_接触の偏りと自整列の成立条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第11巡_閉じた補強輪による支持と局所変形の分離_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第10巡_直交する開放輪と分流再生の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第9巡_磁力による接点誘導と液橋の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第8巡_曲がる接点の非線形着脱と保持力の限界_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第7巡_雪の滑走応答と可逆接点の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第6巡_近傍の丸い支点と荷重摩耗の検証_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_開放微細粒の再接続構造と経済最適化_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_原点監査_雪の結晶構造と砂泥化懸念_20261006.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_2億円上限の整地設備再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_レール式整地設備の概念設計と数量費用試算_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_側方レール牽引式自動整地機の成立条件と長期費用_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link 回覧板.md -> GPT往復/GPT回答_50℃対応の雪状結晶素材と圧雪再現の再設計_20261005.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第59巡_濡れた静摩擦を越える開離復帰と材料分担_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第58巡_内部摩擦で雪の切れと復帰を両立する条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第57巡_荷重を支える芯と解放する接点の統合_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第56巡_接点が縮んで抜ける粒と雪の支えの両立_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第55巡_摩耗面の再生と材料交換を両立する設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第54巡_雪に接する面の微細構造と回転摩耗_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第53巡_一体発泡で戻る粒と量産の成立条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第52巡_乾湿で戻る骨格と疲労を逃がす接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第51巡_結晶の配置と寿命から滑走素材を再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第50巡_雨で貼り付かず戻る粒の条件と排水構造_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第48巡_夏の結晶面と冬の雪保持を両立する接続_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第47巡_結晶の裏面保持と枝を壊さない被覆工程_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第46巡_乾式板状結晶と保持接点の発明条件_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第45巡_滑走中の水流出と保水接点への再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第44巡_乾燥と濡れをまたぐ滑走接点と荷重給水_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第43巡_微粉を流さない材料と雨水回収の設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第42巡_摩耗後も滑りを保つ先端と接触相の配置_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第41巡_滑走接点の発熱と摩耗を両立させる設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第40巡_50度クリープと経時変化を踏まえた枝の再設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第38巡_枝を残す分断位置と開放骨格の製造条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第37巡_一括発泡による開放粒と雨後重量の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第36巡_加圧で戻る材料と現地整地の分離_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第35巡_分子結晶の再評価と少量接点の再成長_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第34巡_接触面の被覆配置と開放骨格の製造順序_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第33巡_局部圧力を抑える接点と接触材料の選び直し_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第31巡_短距離拡散と微粒製造を両立する設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第30巡_浸水履歴と開放支持骨格の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第29巡_重合時の結晶網と密度履歴の設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第28巡_枝熱伝導の反証と噴出時の直接製粒_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第27巡_枝状粒の形成と微細枝の熱仕上げ_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第26巡_自己修復接点の保持時間と雪らしい解放_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第25巡_粒内フィブリル補強と再生後の荷重移行_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第24巡_枝状結晶と結晶相を使い分ける粒の製造再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第23巡_乾式異材接点と慣らし摩耗の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第22巡_乾湿切替と局所水和層の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第21巡_分散接点の摩擦熱と乾湿滑走の再設計_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第20巡_濡れた接合部の二点支持と樹脂内補強_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第19巡_結晶性多材料と少量接合材の部分再製造_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第18巡_濡れ乾きに耐える枝支持と粒内接合_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第17巡_枝形状の形成と量産再生の成立条件_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第16巡_噴霧結晶化と骨格接点の分流再生_20261008.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第15巡_荷重最適化と接触整合および短い受け_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第14巡_骨格変形と内部補強の費用条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第13巡_粒間接触と三方向開口の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第12巡_接触の偏りと自整列の成立条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第11巡_閉じた補強輪による支持と局所変形の分離_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第10巡_直交する開放輪と分流再生の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第9巡_磁力による接点誘導と液橋の比較_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第8巡_曲がる接点の非線形着脱と保持力の限界_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第7巡_雪の滑走応答と可逆接点の設計条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第6巡_近傍の丸い支点と荷重摩耗の検証_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第5巡_保持部を全方向で内側に収める形状と量産条件_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第4巡_冬の固着と雨の排水を両立する構造_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第3巡_材料の摩擦と50℃耐久を分ける設計_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第2巡_C形粒の立体的な抜け道と端部改良_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\README.md -> GPT回答_多方向探索第1巡_接続と支持の分離および成功判定_20261007.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> ./GPT回答_多方向探索第61巡_接触中の摩擦停止と離れた後の復帰を分ける設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> 開離と滑りの連成復帰検証_20261009/sources.md",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> 開離と滑りの連成復帰検証_20261009/figure1_contact_order.png",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> 開離と滑りの連成復帰検証_20261009/figure2_coupled_path.png",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> 開離と滑りの連成復帰検証_20261009/figure3_partial_cost.png",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> 開離と滑りの連成復帰検証_20261009/test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "local link GPT往復\\GPT回答_多方向探索第60巡_戻る順序の反証と留め具を増やさない連成復帰_20261009.md -> 開離と滑りの連成復帰検証_20261009/README.md",
+      "passed": true
+    },
+    {
+      "name": "01_concept valid SVG",
+      "passed": true
+    },
+    {
+      "name": "01_concept PNG signature",
+      "passed": true
+    },
+    {
+      "name": "02_dynamics valid SVG",
+      "passed": true
+    },
+    {
+      "name": "02_dynamics PNG signature",
+      "passed": true
+    },
+    {
+      "name": "03_volume_cost valid SVG",
+      "passed": true
+    },
+    {
+      "name": "03_volume_cost PNG signature",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 29.8038",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 0.441964",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 92.449",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 106.694",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 物理試験は0件",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 独立した試験条件",
+      "passed": true
+    },
+    {
+      "name": "report constraint/value 業者見積りではない",
+      "passed": true
+    },
+    {
+      "name": "latest pointer README.md",
+      "passed": true
+    },
+    {
+      "name": "latest pointer 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "latest pointer GPT往復\\README.md",
+      "passed": true
+    }
+  ],
+  "physical_tests": 0,
+  "visual_qa": "3 PNGs inspected in conversation; concept wording revised and regenerated"
+}
