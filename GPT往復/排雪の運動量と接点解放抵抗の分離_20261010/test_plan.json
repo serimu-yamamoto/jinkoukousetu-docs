@@ -1,0 +1,24 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "shape_routes": [
+    "rounded grain control",
+    "open branched grain",
+    "deep hook or C-shaped control"
+  ],
+  "observations": [
+    "3D force, depth, edge tilt, speed and attack angle synchronized",
+    "initial support peak and postpeak release distinct from steady cutting",
+    "mass balance including particles outside collection area, compaction and lateral redistribution",
+    "mass-weighted particle velocity distribution and new fine-particle generation",
+    "actual ski-sole longitudinal glide, vibration and groove residual",
+    "natural groomed snow reference with snow state recorded",
+    "50C dry moisture-conditioned redried regroomed histories",
+    "winter load path thaw drainage; rain mass and composition recovery; additive leachate and wear safety"
+  ],
+  "priority": "Separate transported mass momentum from residual rate-dependent release before optimizing density or hooks",
+  "limits": "No facility availability, sample count, quote or instrument accuracy confirmed"
+}

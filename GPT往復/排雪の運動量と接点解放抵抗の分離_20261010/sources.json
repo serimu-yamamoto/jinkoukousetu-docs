@@ -1,0 +1,34 @@
+[
+  {
+    "id": "Tada_Kobayashi2005_extended",
+    "title": "Measurement of Snow Cutting Forces for Analysis and Design of a Snow Ski",
+    "authors": "Noritaka Tada, Toshiichi Kobayashi",
+    "year": 2005,
+    "doi": "10.14845/jskisciences2003.3.11",
+    "url": "https://www.jstage.jst.go.jp/article/jskisciences2003/3/1/3_1_11/_article/-char/en",
+    "pdf_url": "https://www.jstage.jst.go.jp/article/jskisciences2003/3/1/3_1_11/_pdf/-char/en",
+    "pdf_bytes": 9035879,
+    "pdf_sha256": "c3512dbc1642ce7654354e3d9cd50171b6dbd29115e7ceeef0ed990c46984be7",
+    "pages": 11,
+    "accessed": "2026-10-10",
+    "scope": "Previous cycle84 abstract only. This cycle pypdf selected methods p15–16, discussion p18–19 and conclusion p19–20; text extraction. Figures/equations are not visually rendered or digitized; no regression constants adopted.",
+    "finding": "Author reports residual speed dependence after their jet-resistance subtraction. Stagnant-zone mechanism is their hypothesis, not proven here.",
+    "limits": "Compressed prepared granular snow is not a validated new-groomed-snow target. Specimen temperature OCR ambiguous and not adopted. No synthetic-material properties imported."
+  },
+  {
+    "id": "Komissarov2021_reused",
+    "title": "Mechanics of side-slipping in alpine skiing: theory of machining snow and ice",
+    "doi": "10.1007/s12283-021-00340-7",
+    "url": "https://link.springer.com/article/10.1007/s12283-021-00340-7",
+    "scope": "Prior84 full HTML scope reused; this cycle HTML force-direction definitions confirmed. No experimental curve digitization or coefficient fitting performed."
+  },
+  {
+    "id": "prior84",
+    "repository_path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/sources.json",
+    "scope": "Prior reading scope and distinctions between static failure, fixed depth/load and dynamic cutting retained."
+  },
+  {
+    "id": "own_model",
+    "scope": "Steady 2D momentum and energy diagnostic with hypothetical rate-dependent structural term. Not a reproduction of the snow article's jet-force equation."
+  }
+]

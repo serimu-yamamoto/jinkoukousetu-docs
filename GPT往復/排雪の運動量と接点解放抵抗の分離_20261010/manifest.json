@@ -1,0 +1,114 @@
+{
+  "cycle": 132,
+  "base_commit": "5515503a13406aec20dc609669961243505819b9",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第132巡_雪を切る抵抗を軽量化と接点解放に分ける_20261010.md",
+      "bytes": 9750,
+      "sha256": "a43a8cb7b037801d1b3c229c5c093a60ebfe0da07116d18fe30d58d7c4eecb7e"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 85166,
+      "sha256": "f5435f716b397fb5a58fbcaf1ca99f23fb4cab0184ad5a973eae5d6260668964"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/README.md",
+      "bytes": 582,
+      "sha256": "455605b0f0e6eb86fec48458a19fd2d23509d1fe541495459e42e3df05f95975"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/claude_handoff.md",
+      "bytes": 1847,
+      "sha256": "a9eb565b007d145a725fef70f0f3a89fd40c18fc59de670aa1e9f6ce999cb53a"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "bc83e53fc224f6d9cd27d82b739d6cc87f441527f399a570e7d80467c8076828"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/inputs.json",
+      "bytes": 2428,
+      "sha256": "ddeab3e086f16cbabc54b6484ed393ff659536c78a46ed39f0e88bbb21779637"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/model.md",
+      "bytes": 2169,
+      "sha256": "0f52155ec00a894fa9632cf030bcb3f86c1e36c2744448db094745d41ef7c70f"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/publication_audit.json",
+      "bytes": 257,
+      "sha256": "f6a5286a6736f441d6d67aeb72d8195beaae6ee0c30ce47db08f2166843c9fdb"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/reproduce.py",
+      "bytes": 4200,
+      "sha256": "61eb1371048f7c61454d7239b9f1c0503ea968db2a47fa8949e57bc1178ce63b"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/research_state.json",
+      "bytes": 1018,
+      "sha256": "acabad75c153d02084b9648f35d5f7a92d90bc8ea627c4a7c5ea2a58d48a4b6c"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/results.json",
+      "bytes": 388461,
+      "sha256": "fdc5bd615406e6be68aafec5ab4411cc5646ce7e34c17806872295a2dc53d0a6"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/sources.json",
+      "bytes": 2081,
+      "sha256": "bc168d2f66b9c80c1bf8b9b16258344a7787f67d8d27e7f39a77871eac0535e6"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/test_plan.json",
+      "bytes": 1155,
+      "sha256": "785bbb4828e32df17ffc0e94999f76f6e739c4b108ed55b63246ccaff85eff10"
+    },
+    {
+      "path": "GPT往復/排雪の運動量と接点解放抵抗の分離_20261010/validation.json",
+      "bytes": 50862,
+      "sha256": "00d6383000a92292cd438778943c81cdbdc63da0938e81b72ac6e76b69dc7a8e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 95552,
+      "sha256": "40633d38f894220356a99540252e266c9e281d778fa83cd9bd0e68300b45f4e5"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 212530,
+      "sha256": "421cd637056fbb0c9ab3d576caea8d931dfed662cf2110cb61a49575e0602059"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 8809,
+      "sha256": "fad0461b9d60507752bfbeb787becb2c38e37d1c7192e5a9b38852825719590c"
+    },
+    {
+      "path": "計算部品/chip_transport_balance.py",
+      "bytes": 2914,
+      "sha256": "4f3839128015e1e31af720f7e9c2a143ee3cbc14d08d76aefc7bd1179c72e405"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 49939,
+      "sha256": "d86a80b5e5025b9fa6028e251c48f622b8332d04cadc171c2862b19214fc1c97"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 239690,
+      "sha256": "a394c919e4fb04aaf8c48374acec6ae5e82bed4ff21f8c5fc94e873207951874"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/濡れ軟化とエッジ支持の識別_20261009/sources.json",
+      "bytes": 2410,
+      "sha256": "48c7ae9e07f625dc4f9466803dadafde1cf8fd9149237e402f84ec9fe950ee56"
+    }
+  ]
+}
