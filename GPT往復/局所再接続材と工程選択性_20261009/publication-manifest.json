@@ -1,0 +1,121 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "da9203072a7f74e25ed698dd9adb6814a01aab46",
+  "cycle": 64,
+  "date": "2026-10-09",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第64巡_自己修復材を内部接点に限定する設計と量産条件_20261009.md",
+      "bytes": 19861,
+      "sha256": "57791c15c30f8f6e6c9ab9d23244f3cca7c5a3166d831a0bb20a88906cf851cf"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 44306,
+      "sha256": "b2264474687c4c29337ff69770dd3d11207076bccab28fad01aab3ca6ec99911"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/README.md",
+      "bytes": 2965,
+      "sha256": "e1cce4dcfaefdf9f61716a053a71de43ecb60662998aa1e38cf503e30d11e38e"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/calculate.py",
+      "bytes": 6286,
+      "sha256": "e28a93f2351997207b365835d2edd586563ad1483d47e9632e2959c9b2782fac"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/contact_concepts.png",
+      "bytes": 115568,
+      "sha256": "3040f05c4e22030bbcc0f79ed042f8f08ebbf2f43d3bc3f58ae1f8d2e2ad1a4e"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/contact_concepts.svg",
+      "bytes": 12974,
+      "sha256": "eedb260ac1a494658be97ff315d0a87b6c1c907eea9ac84c4290c30b3e119026"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/cost_screen.csv",
+      "bytes": 8488,
+      "sha256": "83b81e68229cb30dc5c6b6a4454385f4f5980b8b02f83ff29f7fc19378b1dfd8"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/document_audit.json",
+      "bytes": 8173,
+      "sha256": "3116a5c5ddb329a4c42b91390f290ec65813138ac2f59dbba2c268418a08b65d"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/draw.py",
+      "bytes": 3859,
+      "sha256": "5eeb79f2d9b1dbcd3ee3b7b9342e1745c8919bd535c083cc56213f34bc240727"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/inputs.json",
+      "bytes": 2053,
+      "sha256": "e8796e5114d6f4303095b99383bc2d712fb2961924f0586219852b776147925d"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/joint_screen.csv",
+      "bytes": 2315,
+      "sha256": "1194dd9cdaac0ae52dbb447291d9f31f4d099d79872209f5b3f11d4c07005087"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/kinetic_screen.csv",
+      "bytes": 353,
+      "sha256": "0950c12906ba256b5615efdaf3414f9082a2b16f41acf2cc65e2cc5ccf65d6c9"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/numerical_checks.json",
+      "bytes": 2490,
+      "sha256": "8ac13799301e71a955fad384da0804c253272ca8113a4c9b3389b071c611253e"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/quantity_and_selectivity.png",
+      "bytes": 105398,
+      "sha256": "62874eb431f789a13b7ef03a9cfeb6540ad678a42ab76962a5f57f7d1668ab86"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/quantity_and_selectivity.svg",
+      "bytes": 37556,
+      "sha256": "30773d8db777e10e4e667e45a41b0880eb76fcdd74d824b4465d5685afa5fc03"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/release_screen.csv",
+      "bytes": 161,
+      "sha256": "ed4c3703f7b57d4ee6178d89d5d257b0d0c68f1e926377fc9ac92b990a8db840"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/results.json",
+      "bytes": 3097,
+      "sha256": "c7d624565fa274a9b7e068f2b83f5af56544749f6b10346b332375e0084cbcc7"
+    },
+    {
+      "path": "GPT往復/局所再接続材と工程選択性_20261009/sources.json",
+      "bytes": 2309,
+      "sha256": "2baa10dfe40a67d004f7f7c6dc8640f7afe40c6caf65b80e16a3c6d31686148c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 51990,
+      "sha256": "e5b078ddb17fe4683ca793efcaf0149522fae78d94f99f1a28f331c545102236"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 128878,
+      "sha256": "11cf86b3244145aa9d00d91bebbc25399ae92d2bbc972acbca53be21c1ff9b08"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 2854,
+      "sha256": "85b478c744dc0b78834836b5a40d1e81d1be80079810da746ac495b6e6fb0f0b"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 208255,
+      "sha256": "15fee39eac1a8a1a0d4bb69d73baedcb67a6627d700871b0b621fd53fc655fff"
+    }
+  ]
+}

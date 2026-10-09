@@ -1,0 +1,394 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-09",
+  "local_links_checked": 332,
+  "checks": [
+    {
+      "name": "all_local_markdown_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "32_numeric_identities",
+      "passed": true
+    },
+    {
+      "name": "zero_physical_tests",
+      "passed": true
+    },
+    {
+      "name": "csv_rows_joint_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "csv_rows_cost_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "csv_rows_kinetic_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "csv_rows_release_screen.csv",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_7",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_8",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_9",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_10",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_11",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_12",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_13",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_14",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_15",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_16",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_17",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_18",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_19",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_20",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_21",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_22",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_23",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_24",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_25",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_26",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_27",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_28",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_29",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_30",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_31",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_32",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_33",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_34",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_35",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_36",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_37",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_38",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_39",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_40",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_41",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_42",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_43",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_44",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_45",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_46",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_47",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_48",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_49",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_50",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_51",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_52",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_53",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_54",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_55",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_56",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_57",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_58",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_59",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_60",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_61",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_62",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_63",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_64",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_65",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_66",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_67",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_68",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_69",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_70",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_71",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_72",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_73",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_74",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_75",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_76",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_77",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_78",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_79",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_80",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_81",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_82",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_83",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_84",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_85",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_86",
+      "passed": true
+    },
+    {
+      "name": "preserve_history_回覧板.md_87",
+      "passed": true
+    },
+    {
+      "name": "latest64_README.md",
+      "passed": true
+    },
+    {
+      "name": "latest64_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "latest64_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "protected_AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "protected_.claude/settings.local.json",
+      "passed": true
+    },
+    {
+      "name": "working_report_matches",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "visual_inspection": {
+    "figures": 2,
+    "performed": true,
+    "fixes": [
+      "moved kinetic caption away from axis label",
+      "drawn open support and attached internal repair site"
+    ]
+  },
+  "physical_tests": 0,
+  "success_probability": null
+}

@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "mass_identity_20000_0.1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_20000_0.25",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_20000_0.5",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_20000_1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_100000_0.1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_100000_0.25",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_100000_0.5",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_100000_1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_1000000_0.1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_1000000_0.25",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_1000000_0.5",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_1000000_1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_10000000_0.1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_10000000_0.25",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_10000000_0.5",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_10000000_1",
+      "passed": true
+    },
+    {
+      "name": "mass_identity_1000000_0.25",
+      "passed": true
+    },
+    {
+      "name": "reference_mass_1404",
+      "passed": true
+    },
+    {
+      "name": "full_coat_mass_38610",
+      "passed": true
+    },
+    {
+      "name": "reference_patch_fraction_1_over_27_5",
+      "passed": true
+    },
+    {
+      "name": "reference_surface_fraction",
+      "passed": true
+    },
+    {
+      "name": "rate_bounds_recover_0_8",
+      "passed": true
+    },
+    {
+      "name": "rate_bounds_avoid_0_1",
+      "passed": true
+    },
+    {
+      "name": "duration_scaling",
+      "passed": true
+    },
+    {
+      "name": "carrier_mass_108t",
+      "passed": true
+    },
+    {
+      "name": "patch_heat_15_6kWh",
+      "passed": true
+    },
+    {
+      "name": "carrier_heat_1080kWh",
+      "passed": true
+    },
+    {
+      "name": "annual_initial_relation",
+      "passed": true
+    },
+    {
+      "name": "rain_unit_balance",
+      "passed": true
+    },
+    {
+      "name": "reference_fermentation_1170m3",
+      "passed": true
+    },
+    {
+      "name": "reference_grain_patch_not_full_mass",
+      "passed": true
+    },
+    {
+      "name": "zero_physical_tests",
+      "passed": true
+    }
+  ],
+  "not_experimental_tests": true
+}

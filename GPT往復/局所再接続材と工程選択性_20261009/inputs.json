@@ -1,0 +1,95 @@
+{
+  "status": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "purpose": "screening, not performance prediction"
+  },
+  "geometry": {
+    "area_m2": 2000,
+    "depth_m": 0.45,
+    "grain_diameter_m": 0.0005,
+    "envelope_packing": 0.55,
+    "coordination": 6,
+    "nominal_carrier_bulk_density_kg_m3": 120,
+    "assumed_dry_patch_density_kg_m3": 1300,
+    "total_joined_patch_length_m": 0.00001,
+    "full_coating_thickness_m": 0.000005,
+    "assumed_network_strength_Pa": 5000,
+    "diagnostic_max_radius_over_D": 0.1
+  },
+  "reference": {
+    "effective_joint_strength_Pa": 1000000,
+    "active_fraction": 0.25,
+    "downstream_mass_yield": 0.8,
+    "protein_titer_kg_m3": 1.5
+  },
+  "sensitivity": {
+    "joint_strength_Pa": [
+      20000,
+      100000,
+      1000000,
+      10000000
+    ],
+    "active_fraction": [
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "protein_titer_kg_m3": [
+      0.5,
+      1.5
+    ],
+    "protein_price_JPY_kg": [
+      1000,
+      10000,
+      100000
+    ],
+    "contact_lifetime_cycles": [
+      10,
+      100,
+      1000
+    ],
+    "passes_per_day": 2,
+    "operating_days_year": 180
+  },
+  "kinetics": {
+    "model": "assumed h=1-exp(-k t), not fitted to cited papers",
+    "minimum_groom_recovery": 0.8,
+    "maximum_unwanted_recovery": 0.1,
+    "operating_dwell_s": 18000,
+    "groom_dwell_s": [
+      1,
+      10,
+      60,
+      600
+    ],
+    "short_contact_s": [
+      0.05,
+      0.1,
+      0.25
+    ]
+  },
+  "manufacturing": {
+    "nominal_selective_application_budget_JPY": 20000000,
+    "sites_per_second": [
+      1000000,
+      100000000
+    ],
+    "budget_status": "hypothetical materials-process allocation; not included in JPY200M equipment cap"
+  },
+  "thermal": {
+    "carrier_cp_J_kgK": 1800,
+    "patch_cp_J_kgK": 2000,
+    "carrier_start_C": 30,
+    "activation_C": 50,
+    "thermal_energy_price_JPY_kWh": 30,
+    "thermal_price_status": "assumed, no quote",
+    "rain_volume_m3": 200,
+    "assumed_release_fractions": [
+      0.0001,
+      0.001,
+      0.01
+    ]
+  }
+}

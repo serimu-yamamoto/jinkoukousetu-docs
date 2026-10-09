@@ -1,0 +1,56 @@
+[
+  {
+    "id": "S1",
+    "title": "Segmented molecular design of self-healing proteinaceous materials",
+    "year": 2015,
+    "doi": "10.1038/srep13482",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4555047/",
+    "retrieved": "2026-10-09",
+    "access": "fullTextXML; primary article",
+    "sha256": "09071109fb37e56737db1cfe76a303341542cd88e5bdb0873bdb7cb6c47001a5",
+    "bytes": 74984
+  },
+  {
+    "id": "S2",
+    "title": "Biosynthetic self-healing materials for soft machines",
+    "year": 2020,
+    "doi": "10.1038/s41563-020-0736-2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7610468/",
+    "retrieved": "2026-10-09",
+    "access": "full author manuscript HTML at ?pdf=1; fullTextXML failed HTTP500; supplementary numerical tables not retrieved",
+    "sha256": "a3e1b7bcafe36ed90dc858eca54f7d0002e4376cc621c7693e37125585595fce",
+    "bytes": 185592
+  },
+  {
+    "id": "S3",
+    "title": "Cephalopod inspired self-healing protein foams for oil-water separation",
+    "year": 2023,
+    "doi": "10.1016/j.isci.2023.108300",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767161/",
+    "retrieved": "2026-10-09",
+    "access": "fullTextXML; primary article",
+    "sha256": "9ca4efd4a0f4f3b21f9c7078848c8385a4da2d27a35dbd2f171945e553890621",
+    "bytes": 144922
+  },
+  {
+    "id": "S4",
+    "title": "Pore-size dependence and slow relaxation of hydrogel friction on smooth surfaces",
+    "year": 2020,
+    "doi": "10.1073/pnas.1922364117",
+    "url": "https://arxiv.org/abs/2001.00620",
+    "retrieved": "2026-10-09",
+    "access": "primary abstract this cycle; full study already audited in cycle45; not a new result"
+  },
+  {
+    "id": "C1",
+    "title": "Claude v2/v3 physical-property audit",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/da9203072a7f74e25ed698dd9adb6814a01aab46/調査台帳/物性値照合_自律ループv2v3.md",
+    "access": "repository full document read selectively by v3 sections; assumptions not promoted to measurements"
+  },
+  {
+    "id": "C2",
+    "title": "Claude calculation component index",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/da9203072a7f74e25ed698dd9adb6814a01aab46/調査台帳/計算部品索引.md",
+    "access": "index only; original wf3 scripts not retrieved or run"
+  }
+]

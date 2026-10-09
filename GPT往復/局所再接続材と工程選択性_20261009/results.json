@@ -1,0 +1,99 @@
+{
+  "evidence_status": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "purpose": "screening, not performance prediction"
+  },
+  "volume_m3": 900.0,
+  "grain_count": 7563042895726.867,
+  "potential_pairs": 22689128687180.6,
+  "patch_faces": 45378257374361.2,
+  "equivalent_sphere_area_m2": 5940000.000000001,
+  "full_5um_coating_dry_kg": 38610.00000000001,
+  "full_coating_fermentation_m3": 32175.000000000004,
+  "reference": {
+    "joint_strength_Pa": 1000000,
+    "active_fraction": 0.25,
+    "force_N": 0.004759988869075444,
+    "radius_um": 38.92494720807615,
+    "radius_over_D": 0.0778498944161523,
+    "installed_dry_kg": 1404.0,
+    "feed_dry_kg": 1755.0,
+    "fermentation_m3": 1170.0,
+    "patch_surface_m2": 215999.99999999997,
+    "radius_diagnostic_ok": true
+  },
+  "reference_initial_material_JPY_at_10000": 17550000.0,
+  "full_coating_initial_material_JPY_at_10000": 482625000.00000006,
+  "reference_annual_JPY_at_100_cycles": 63180000.0,
+  "reference_annual_JPY_at_1000_cycles": 6318000.0,
+  "lifetime_cycles_for_10M_annual_material_only": 631.8,
+  "area_budget_JPY_m2_for_entire_equivalent_surface": 3.3670033670033663,
+  "area_budget_JPY_m2_if_only_patch_area_processed": 92.59259259259261,
+  "max_JPY_per_face_for_20M": 4.407397100995781e-07,
+  "serial_application_days": [
+    {
+      "faces_per_s_assumed": 1000000,
+      "days_continuous": 525.2113122032547
+    },
+    {
+      "faces_per_s_assumed": 100000000,
+      "days_continuous": 5.252113122032546
+    }
+  ],
+  "thermal_lower_bound": {
+    "patch_only_kWh": 15.6,
+    "carrier_only_kWh": 1080.0,
+    "total_sensible_kWh": 1095.6,
+    "whole_bed_60min_ideal_kW": 1095.6,
+    "energy_JPY_assumed": 32868.0,
+    "excludes": "water, evaporation, losses, equipment, kinetics and spatial heat transfer"
+  },
+  "kinetics": [
+    {
+      "groom_s": 1,
+      "k_groom_min_per_s": 1.6094379124341005,
+      "k_unwanted_max_per_s": 5.85336198099035e-06,
+      "required_rate_ratio": 274959.5732608005,
+      "same_rate_unwanted_h": 1.0
+    },
+    {
+      "groom_s": 10,
+      "k_groom_min_per_s": 0.16094379124341004,
+      "k_unwanted_max_per_s": 5.85336198099035e-06,
+      "required_rate_ratio": 27495.957326080046,
+      "same_rate_unwanted_h": 1.0
+    },
+    {
+      "groom_s": 60,
+      "k_groom_min_per_s": 0.02682396520723501,
+      "k_unwanted_max_per_s": 5.85336198099035e-06,
+      "required_rate_ratio": 4582.659554346675,
+      "same_rate_unwanted_h": 1.0
+    },
+    {
+      "groom_s": 600,
+      "k_groom_min_per_s": 0.002682396520723501,
+      "k_unwanted_max_per_s": 5.85336198099035e-06,
+      "required_rate_ratio": 458.2659554346675,
+      "same_rate_unwanted_h": 1.0
+    }
+  ],
+  "rain": [
+    {
+      "release_fraction": 0.0001,
+      "released_protein_kg": 0.1404,
+      "added_protein_mg_L": 0.7020000000000001
+    },
+    {
+      "release_fraction": 0.001,
+      "released_protein_kg": 1.4040000000000001,
+      "added_protein_mg_L": 7.020000000000001
+    },
+    {
+      "release_fraction": 0.01,
+      "released_protein_kg": 14.040000000000001,
+      "added_protein_mg_L": 70.2
+    }
+  ]
+}
