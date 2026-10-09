@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [precipitation_bath_balance.py](precipitation_bath_balance.py)：析出原料と浴濃度、選択回収・抜出し・非溶剤補充の質量収支。形態・乾燥・滑走は予測しない。[第122巡](../GPT往復/液中形状形成と母液循環の濃度管理_20261010/README.md)。
+
 - [compound_contact_inventory.py](compound_contact_inventory.py)：質量分率と理想体積分率、局所複合部物量、分散相寸法、同試験内の報告値比。寿命予測ではない。[第121巡](../GPT往復/高温乾式PK複合材の実施例と局所配合設計_20261010/README.md)。
 
 - [material_beam_screen.py](material_beam_screen.py)：等曲げ剛性の厚さ・質量・応力と、局所置換原料費・交換寿命の境界。材料入力は未較正。[第120巡](../GPT往復/耐摩耗候補と枝の柔らかさを両立する材料選定_20261010/README.md)。

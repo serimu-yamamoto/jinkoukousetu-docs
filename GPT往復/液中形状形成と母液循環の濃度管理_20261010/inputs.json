@@ -1,0 +1,82 @@
+{
+  "source": {
+    "doi": "10.1021/acs.langmuir.4c03430",
+    "experiment_temperature_C": [
+      20,
+      27
+    ],
+    "polymer_feed_wt_fraction": 0.02,
+    "continuous_pva_wt_fraction": 0.01,
+    "flow_table": [
+      {
+        "Qd_uL_min": 20,
+        "Qc_uL_min": 100,
+        "ratio": 5,
+        "Pe": 91,
+        "shape": "sphere"
+      },
+      {
+        "Qd_uL_min": 20,
+        "Qc_uL_min": 200,
+        "ratio": 10,
+        "Pe": 178,
+        "shape": "bowl"
+      },
+      {
+        "Qd_uL_min": 20,
+        "Qc_uL_min": 700,
+        "ratio": 35,
+        "Pe": 563,
+        "shape": "biconcave"
+      }
+    ],
+    "continuous_solvent_table_at_ratio10": [
+      {
+        "MA_wt_fraction": 0,
+        "Pe": 178
+      },
+      {
+        "MA_wt_fraction": 0.05,
+        "Pe": 131
+      },
+      {
+        "MA_wt_fraction": 0.08,
+        "Pe": 106
+      },
+      {
+        "MA_wt_fraction": 0.1,
+        "Pe": 89
+      },
+      {
+        "MA_wt_fraction": 0.25,
+        "Pe": null,
+        "no_shrinkage": true
+      }
+    ],
+    "sphere_formation_time_s": 42
+  },
+  "assumed": {
+    "initial_bath_kg": 1000,
+    "diagnostic_target_fractions": [
+      0.05,
+      0.08,
+      0.1
+    ],
+    "recovered_incoming_load_fractions": [
+      0,
+      0.99,
+      0.999
+    ],
+    "full_material_kg": 135000,
+    "localized_material_mass_fraction": 0.01
+  },
+  "limits": [
+    "New source experiment20-27C, not30C air or50C use",
+    "2wtpercent CA in MA and1wtpercent PVA carrier, not water-only",
+    "Ideal complete solvent transfer, polymer completely removed, no carrier retained in product",
+    "5percent bath target is a scenario not a certified morphology tolerance",
+    "Recovery fractions assumed, no separator energy or price",
+    "PVA accumulation dilution adsorption not modeled",
+    "No dry50C strength friction safety or winter validation"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "cycle": 122,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/sources.md": "b5800e012672cf6a0fa66012d752027aa84a5469495b16ecfb0eefb8a059c7d3",
+    "GPT往復/温暖形成と開放環粒の製造監査_20261010/sources.json": "801eab0e6af50096a8b4aace12a787813b000245181873b11185c89b88f43f30"
+  },
+  "unit_feed": {
+    "polymer_kg": 1,
+    "solution_kg": 50.0,
+    "solvent_kg": 49.0
+  },
+  "uncontrolled_bath": [
+    {
+      "target_fraction": 0.05,
+      "product_kg": 1.0741138560687433,
+      "bath_mass_kg": 1052.6315789473683,
+      "solvent_mass_fraction": 0.05000000000000001
+    },
+    {
+      "target_fraction": 0.08,
+      "product_kg": 1.7746228926353151,
+      "bath_mass_kg": 1086.9565217391305,
+      "solvent_mass_fraction": 0.08
+    },
+    {
+      "target_fraction": 0.1,
+      "product_kg": 2.2675736961451247,
+      "bath_mass_kg": 1111.111111111111,
+      "solvent_mass_fraction": 0.1
+    }
+  ],
+  "steady_balances_per_kg_polymer": [
+    {
+      "target_fraction": 0.05,
+      "recovery_fraction": 0,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 0.0,
+      "residual_load_kg": 49.0,
+      "purge_solution_kg": 980.0,
+      "fresh_carrier_makeup_kg": 931.0,
+      "purge_solvent_fraction": 0.05,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.05,
+      "recovery_fraction": 0.99,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 48.51,
+      "residual_load_kg": 0.490000000000002,
+      "purge_solution_kg": 9.80000000000004,
+      "fresh_carrier_makeup_kg": 9.310000000000038,
+      "purge_solvent_fraction": 0.05,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.05,
+      "recovery_fraction": 0.999,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 48.951,
+      "residual_load_kg": 0.04899999999999949,
+      "purge_solution_kg": 0.9799999999999898,
+      "fresh_carrier_makeup_kg": 0.9309999999999903,
+      "purge_solvent_fraction": 0.05,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.08,
+      "recovery_fraction": 0,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 0.0,
+      "residual_load_kg": 49.0,
+      "purge_solution_kg": 612.5,
+      "fresh_carrier_makeup_kg": 563.5,
+      "purge_solvent_fraction": 0.08,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.08,
+      "recovery_fraction": 0.99,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 48.51,
+      "residual_load_kg": 0.490000000000002,
+      "purge_solution_kg": 6.125000000000025,
+      "fresh_carrier_makeup_kg": 5.635000000000023,
+      "purge_solvent_fraction": 0.08,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.08,
+      "recovery_fraction": 0.999,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 48.951,
+      "residual_load_kg": 0.04899999999999949,
+      "purge_solution_kg": 0.6124999999999936,
+      "fresh_carrier_makeup_kg": 0.5634999999999941,
+      "purge_solvent_fraction": 0.08,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.1,
+      "recovery_fraction": 0,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 0.0,
+      "residual_load_kg": 49.0,
+      "purge_solution_kg": 490.0,
+      "fresh_carrier_makeup_kg": 441.0,
+      "purge_solvent_fraction": 0.1,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.1,
+      "recovery_fraction": 0.99,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 48.51,
+      "residual_load_kg": 0.490000000000002,
+      "purge_solution_kg": 4.90000000000002,
+      "fresh_carrier_makeup_kg": 4.410000000000018,
+      "purge_solvent_fraction": 0.1,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    {
+      "target_fraction": 0.1,
+      "recovery_fraction": 0.999,
+      "gross_solvent_load_kg": 49.0,
+      "recovered_solvent_kg": 48.951,
+      "residual_load_kg": 0.04899999999999949,
+      "purge_solution_kg": 0.4899999999999949,
+      "fresh_carrier_makeup_kg": 0.4409999999999954,
+      "purge_solvent_fraction": 0.1,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    }
+  ],
+  "full_scenario": {
+    "polymer_kg": 135000,
+    "solution_kg": 6750000.0,
+    "solvent_kg": 6615000.0
+  },
+  "local_scenario": {
+    "polymer_kg": 1350.0,
+    "solution_kg": 67500.0,
+    "solvent_kg": 66150.0
+  },
+  "recovery99_at_target5": {
+    "full": {
+      "gross_solvent_load_kg": 6615000.0,
+      "recovered_solvent_kg": 6548850.0,
+      "residual_load_kg": 66150.0,
+      "purge_solution_kg": 1323000.0,
+      "fresh_carrier_makeup_kg": 1256850.0,
+      "purge_solvent_fraction": 0.05,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    },
+    "local": {
+      "gross_solvent_load_kg": 66150.0,
+      "recovered_solvent_kg": 65488.5,
+      "residual_load_kg": 661.5,
+      "purge_solution_kg": 13230.0,
+      "fresh_carrier_makeup_kg": 12568.5,
+      "purge_solvent_fraction": 0.05,
+      "meaning": "recovery fraction of incoming solvent load; not per-pass separator efficiency or emissions"
+    }
+  },
+  "scope": "Ideal manufacturing mass balance; not morphology prediction at30C or50C ski performance",
+  "limits": [
+    "New source experiment20-27C, not30C air or50C use",
+    "2wtpercent CA in MA and1wtpercent PVA carrier, not water-only",
+    "Ideal complete solvent transfer, polymer completely removed, no carrier retained in product",
+    "5percent bath target is a scenario not a certified morphology tolerance",
+    "Recovery fractions assumed, no separator energy or price",
+    "PVA accumulation dilution adsorption not modeled",
+    "No dry50C strength friction safety or winter validation"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "candidate_routes": [
+    "CA nonspherical solvent-diffusion particle",
+    "existing limited-branch shear precipitation",
+    "melt or solid-state open grain",
+    "retained molecular crystals"
+  ],
+  "first_process_checks": [
+    "batch before and after mother-liquid reuse",
+    "MA and PVA composition temperature and residence time",
+    "wet versus ambient-dry shape and pore continuity",
+    "recovery purity and load balance",
+    "washing residuals and phase losses"
+  ],
+  "functional_checks": [
+    "50C actual ski friction both-side wear",
+    "grain recovery and edge release",
+    "rain wet redry adhesion and drainage",
+    "winter snow connection without weak layer",
+    "complete grain residual and wear safety",
+    "60min restoration including quality"
+  ],
+  "limits": [
+    "5percentMA not specification or safety threshold",
+    "37 checks not trials",
+    "20-27C cannot certify30C formation",
+    "sprayed finished grain not in-air crystallization",
+    "no new purchasing manufacturing vendor contact or environmental release"
+  ]
+}

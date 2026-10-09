@@ -1,0 +1,35 @@
+[
+  {
+    "id": "S1_new",
+    "title": "Formation of Nonspherical Cellulose Acetate Microparticles under Microflow",
+    "authors": [
+      "Kurumi Mori",
+      "Takaichi Watanabe",
+      "Tsutomu Ono"
+    ],
+    "doi": "10.1021/acs.langmuir.4c03430",
+    "publication_date": "2024-12-19",
+    "url": "https://doi.org/10.1021/acs.langmuir.4c03430",
+    "fulltext_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11697331/fullTextXML",
+    "read_date": "2026-10-10",
+    "xml_sha256": "a6a60c4add74a6bca86b188607de41204350ba19e702a2eaaff147d7aa87ce38",
+    "xml_bytes": 112685,
+    "read_scope": "Methods, particle formation and solvent-concentration results, Tables1-2 parsed row-wise. Figures not independently digitized; SI not obtained. Browser PMC was challenged; official EuropePMC fulltext retrieved.",
+    "limits": "20-27C; solvent diffusion and deformation not snow crystal growth. SEM freeze-dried; no ambient dry50C validation. Threshold not transferred to other polymers."
+  },
+  {
+    "id": "S2_reused27",
+    "title": "Existing dendritic-particle evidence record",
+    "repository_path": "GPT往復/枝状粒形成検証_熱選別と回収収支_20261008/sources.md",
+    "scope": "2019 Roh DOI10.1038/s41563-019-0508-z, earlier SI and adhesion limits reused. This cycle publisher abstract located again before repository source-match exposed earlier record; not new evidence and not reread SI."
+  },
+  {
+    "id": "S3_reused105",
+    "repository_path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/sources.json",
+    "scope": "Prior ring gelation, melt form and warm formation routes reused rather than redo earlier throughput calculations."
+  },
+  {
+    "id": "process_assumptions",
+    "scope": "1000kg initial bath;135t material;1percent localized part;99/99.9percent recovered incoming MA load;5/8/10percent bath diagnostic values. No separation performance cost or safety certification measured."
+  }
+]

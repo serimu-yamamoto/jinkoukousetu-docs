@@ -1,0 +1,18 @@
+{
+  "cycle": 122,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress:121 new high-temperature composite evidence and local-phase design published verified and cleaned",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "candidate": "H122 closed formation separation washing and mother-liquid regeneration; distinguish finished-grain delivery from in-air crystallization",
+  "status": "Primary CA paper methods/tables added and solvent-concentration drift quantified; no actual snowlike functional validation",
+  "next": [
+    "Confirm ambient-dry shape and no wet agglomeration, rather than rely on freeze-dried SEM",
+    "Close PVA and MA residual safety and recovery energy",
+    "Check30C+ formation separately from20-27C source",
+    "Maintain open-grain and molecular-crystal alternatives",
+    "No probability claimed"
+  ],
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}
