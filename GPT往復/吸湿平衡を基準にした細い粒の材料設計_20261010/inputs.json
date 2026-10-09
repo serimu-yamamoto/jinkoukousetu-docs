@@ -1,0 +1,87 @@
+{
+  "cycle": 131,
+  "source": {
+    "title": "Study on the Influence of Hygrothermal Aging on the Mechanical Properties of Carbon Fabric/Polyetheretherketone Composites",
+    "doi": "10.3390/polym17060724",
+    "temperature_C": 70,
+    "relative_humidity_percent": 85,
+    "immersion": false,
+    "PEEK_resin_supplier": "Zhejiang Pfulon Advanced Materials",
+    "PEEK_grade": null,
+    "PEEK_equilibrium_mass_gain_percent": 0.32,
+    "PEEK_table_D_mm2_h": 0.002317,
+    "D_status": "reported Table3; not independently calibrated; tabular consistency concern",
+    "PEEK_tensile_strength_retention_percent": 74.92,
+    "PEEK_tensile_modulus_retention_percent": 94.32,
+    "comparison": "70C wet versus room-temperature dry; moisture and temperature confounded",
+    "linear_swelling_strain": null
+  },
+  "table_audit": {
+    "formula": "D=(pi/16)*(h*kprime/Mm)^2",
+    "h_composite_mm": 2,
+    "composite_Mm_percent": 0.18,
+    "composite_kprime_reported": 0.021,
+    "composite_D_reported_mm2_h": 0.001353,
+    "composite_Mm_prose_percent": 0.19,
+    "PEEK_kprime_reported": 0.008,
+    "PEEK_h_for_audit_only_mm": 2,
+    "PEEK_sorption_thickness_confirmed": false
+  },
+  "hypothetical": {
+    "full_thicknesses_mm": [
+      0.03,
+      0.1,
+      0.3,
+      2
+    ],
+    "D_relative_to_reported": [
+      0.01,
+      0.1,
+      1
+    ],
+    "exposure_hours": [
+      1,
+      5,
+      8,
+      24
+    ],
+    "fractions": [
+      0.5,
+      0.9,
+      0.99
+    ],
+    "wet_h": 5,
+    "dry_h": 1,
+    "Fo_checks": [
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      0.3,
+      1
+    ],
+    "fv_cells": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "thickness_multipliers": [
+      1,
+      3,
+      10
+    ]
+  },
+  "limits": [
+    "Time calculations are constant-boundary constant-D slab diagnostics, not 50C, rain, winter or field predictions",
+    "Source reports late non-Fickian departures; full-range ideal series is a model assumption",
+    "D factors are sensitivity inputs without fitted activation energy or temperature mapping",
+    "Dry boundary step to zero and unchanged D is an ideal removal scenario, not site drying authorization",
+    "Mass uptake is not linear swelling, retained free water, safety or snow adhesion",
+    "No PEEK grade equivalence to TECAPEEK/Victrex450, no composite fibers recommended"
+  ],
+  "dependencies": [
+    "GPT往復/氷橋で連結された冬季接点の再評価_20261010/results.json",
+    "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json"
+  ]
+}

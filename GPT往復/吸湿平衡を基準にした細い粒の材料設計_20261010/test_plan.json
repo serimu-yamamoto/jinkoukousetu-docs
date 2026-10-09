@@ -1,0 +1,24 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "routes": [
+    "UHMWPE open skeleton",
+    "PK grade-specific open skeleton",
+    "PEEK skeleton or local contact",
+    "PA12 warm formation with purification"
+  ],
+  "stages": [
+    "dry equilibrium-wet redried mass and 3axis dimensions at actual branch thickness",
+    "23C dry/wet and50C dry/wet atsame temperature with test-time moisture control",
+    "independent creep fatigue friction wear using actual ski sole",
+    "natural snow reference glide edge sinkage vibration",
+    "rain recovery composition shape wet friction drainage",
+    "freeze thaw snow material ground connection",
+    "additive residual solvent leachate wear dust and life-cycle costs"
+  ],
+  "replicates": "not fixed without variance/pilot data; fresh independent destructive specimens",
+  "pivot": "If drying wait or thickening harms closure snow feel or cost, change material/contact mechanism; no pass from low uptake alone"
+}

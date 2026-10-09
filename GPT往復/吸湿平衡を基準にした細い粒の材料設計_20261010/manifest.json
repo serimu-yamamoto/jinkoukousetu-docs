@@ -1,0 +1,119 @@
+{
+  "cycle": 131,
+  "base_commit": "e2cdc18fc3ac1ac08c42b6631bb4b660157640b9",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第131巡_乾いた内部に頼らない雪状粒の材料条件_20261010.md",
+      "bytes": 9117,
+      "sha256": "3c2daf97a9250f1b372457ec7a8d4d0a031adbb2463dff39706eb474a1ee0391"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 84530,
+      "sha256": "34b042fcf0bba01dfba670ae176cb53d81445809174daa6b01eb588a580abde7"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/README.md",
+      "bytes": 574,
+      "sha256": "19cfcc505e53551d47e59c0c0c0ff86f4a1e805dd4856714fbdb869c6876fada"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/claude_handoff.md",
+      "bytes": 1752,
+      "sha256": "c5a6bd35cbe55fbc34448abddf2df307388fa72e7f70d33575bf4c627f167458"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "4445e0d49d3976cbdc2874e1b2b2b787736e3bf61fc3542af85012bcef74c6a7"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/inputs.json",
+      "bytes": 2544,
+      "sha256": "f85088cdd5d935c205a2bffe7fab54fd14011606ec0d4d3aa9f7452eca65fb66"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/model.md",
+      "bytes": 1698,
+      "sha256": "53682a21946df016342b4188713ad209ba7cfd013c3a23676dbc6510bf341771"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/publication_audit.json",
+      "bytes": 256,
+      "sha256": "e5772b592347d5821a47e78757723e138bec4e98a95fc0ecce7e04dfb094d206"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/reproduce.py",
+      "bytes": 5208,
+      "sha256": "771467ba9797c7a7f2d2cad974efd3322d51ad9fd0fc6b05afa9244213ad787b"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/research_state.json",
+      "bytes": 928,
+      "sha256": "7ba36f1854a61d14bcc8936407d6a05c49ca29d3d0006a23b6491507415e1547"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/results.json",
+      "bytes": 20808,
+      "sha256": "86b75327c8e7d7baf5bda11455d0f384f1c1990881fdcfc3f921f3ad03e19388"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/sources.json",
+      "bytes": 1692,
+      "sha256": "f1a95a0c9b1831e04c0b54f4ff52252830678b46dea09b026468d1f837eac9e0"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/test_plan.json",
+      "bytes": 1061,
+      "sha256": "2986c0d929272b284e447e89337a837020afc0cad77cf7c6232cc3f0232b86ce"
+    },
+    {
+      "path": "GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/validation.json",
+      "bytes": 5575,
+      "sha256": "03e13d92a9434c48c20ee73b929d5992b2a8365538cc71da0edee1c1b8d03765"
+    },
+    {
+      "path": "README.md",
+      "bytes": 94901,
+      "sha256": "0350d347a6e609e145946973587f1bc44f63c665890773e4707ff9a8ccee0953"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 211384,
+      "sha256": "c9b8d402fb7fd6d64d25ea20ac0789d482b391f1cda3d95a2c3ccc1a8dc9411f"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 8511,
+      "sha256": "997166c51898602942bb5964456423155209dd7432b101dc3b3b043b48b6b9d8"
+    },
+    {
+      "path": "計算部品/slab_moisture_response.py",
+      "bytes": 2403,
+      "sha256": "cac5d42b8ede606845ea533d2fdddcbb3bcaf951e2ba62df03d45a83fb733e2a"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 49276,
+      "sha256": "476b817f80248c286ab5734f292ce3d3a5d49118b0c62858764222deab406376"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 239376,
+      "sha256": "e52bef14e48c70fce8718b278a36bc1349511c96dd8b565b69b199e728c401f9"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/氷橋で連結された冬季接点の再評価_20261010/results.json",
+      "bytes": 166301,
+      "sha256": "7adabc618d24e84a5012d6cbb9bd61974d40232dd59d3d99b6def8dc2de04bc3"
+    },
+    {
+      "path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json",
+      "bytes": 3945,
+      "sha256": "6e2a529274c46abdbd4140e78ccf461071d6ebcfff53ed1908e2bd7a94fb2976"
+    }
+  ]
+}

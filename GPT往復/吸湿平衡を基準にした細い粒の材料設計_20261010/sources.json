@@ -1,0 +1,33 @@
+[
+  {
+    "id": "primary2025",
+    "title": "Study on the Influence of Hygrothermal Aging on the Mechanical Properties of Carbon Fabric/Polyetheretherketone Composites",
+    "authors": "Xiangyu Xu et al.",
+    "date": "2025-03-10",
+    "doi": "10.3390/polym17060724",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11944813/",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11944813/fullTextXML",
+    "accessed": "2026-10-10",
+    "xml_bytes": 108548,
+    "xml_sha256": "600cb3f26fc7bebc24641146f26136eab86814198c467b3c3382a2694780c965",
+    "scope": "XML methods2.1–2.3 results3.1–3.3 eq4–7 tables1–5; no figure digitization image verification or raw data.",
+    "adopted": "70C85%RH; wet70C versus dryRT comparison; Table3 PEEK D as provisional scale only",
+    "unresolved": "Table3 composite slope thickness saturation inconsistent with Eq7 under literal reading; D time-unit wording; PEEK grade and sorption thickness; no linear swelling"
+  },
+  {
+    "id": "prior130",
+    "repository_path": "GPT往復/氷橋で連結された冬季接点の再評価_20261010/results.json",
+    "scope": "Hypothetical shrink strain cannot be compared to moisture mass fraction"
+  },
+  {
+    "id": "prior83",
+    "repository_path": "GPT往復/試験材グレードと交換試片の調達仕様_20261009/sources.json",
+    "scope": "Prior grade and cost audit reused; current price not refreshed"
+  },
+  {
+    "id": "screened_only",
+    "doi": "10.1016/j.polymdegradstab.2020.109260",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0141391020301920",
+    "scope": "Primary abstract screened only; no numerical PK hydrothermal input adopted"
+  }
+]

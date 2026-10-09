@@ -1,5 +1,7 @@
 # 再利用する計算部品
 
+- [slab_moisture_response.py](slab_moisture_response.py)：一定Dの両面平板吸湿・境界ステップ乾燥・寸法尺度を級数と有限体積で比較。膨張や現地50℃性能は予測しない。[第131巡](../GPT往復/吸湿平衡を基準にした細い粒の材料設計_20261010/README.md)。
+
 - [linked_shrinkage_patches.py](linked_shrinkage_patches.py)：分割した収縮接点を有限ばねで連結し、端点縮約と全体有限要素で再拘束・荷重分流を比較。実氷や破壊を予測しない。[第130巡](../GPT往復/氷橋で連結された冬季接点の再評価_20261010/README.md)。
 
 - [shrinkage_patches.py](shrinkage_patches.py)：収縮する局所接合帯と外部せん断荷重の伝達を解析式・一次元有限要素で比較。凍結耐久や成功率は予測しない。[第129巡](../GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/README.md)。
