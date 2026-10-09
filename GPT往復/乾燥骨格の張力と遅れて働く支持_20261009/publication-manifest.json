@@ -1,0 +1,151 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "9b7ed32a3177df8c1ce18c85561ff1b4e081cfa1",
+  "cycle": 69,
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "mathematical_checks": 21,
+    "calculated_rows": 353,
+    "unexecuted_test_packages": 8,
+    "document_checks": 33
+  },
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第69巡_結晶化と成形張力を分ける乾燥粒の支持設計_20261009.md",
+      "bytes": 12019,
+      "sha256": "fdbacadfaf563a048d9a26f0d5981c8222456e10c5e14362122efbc0f102c1c2"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 48036,
+      "sha256": "7f9facc6a87dddabff4ff7b5036a4dc3765d634afa9ff88638c9ad10bc9f5129"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/audit.py",
+      "bytes": 3736,
+      "sha256": "e65e014997ae979de52d6dee4cdb1508aaf49830964ee599a257138ed8078688"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/calculate.py",
+      "bytes": 8287,
+      "sha256": "f9c2cff44496afcb7e3d48c3eae5e1c3c56b5afa7d11b0e8b8e34c7b83820dc0"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/checks.json",
+      "bytes": 1957,
+      "sha256": "15ee62a81f250fb2494405efcaf1144b428250a0a030000441f58e42c4b4c2a8"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/design.md",
+      "bytes": 5556,
+      "sha256": "7021ab46b601bb97d1b09239558600dd7c0399cd87c7810e122fbec092f53324"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/document_audit.json",
+      "bytes": 3340,
+      "sha256": "0890344b91bc002944b6e6e748b7fb8866a0de60f84c3115d830044ee09063ef"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/draw.py",
+      "bytes": 3814,
+      "sha256": "8377ef96a22be56740d0c4d8761f758a7b542a2c36ff0bcbb23e64eb9d3d8dd3"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/figure1_support.png",
+      "bytes": 147184,
+      "sha256": "206d6a70650b050706625cb431f158438053731b87c5e1c8f139b7e3b134bf70"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/figure2_material_and_area.png",
+      "bytes": 97194,
+      "sha256": "d26562a00076ef2f44a31c220767eda3e49b9074c4947c05236727e8ab5c1daa"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/manufacturing.csv",
+      "bytes": 1114,
+      "sha256": "746931055ea9bdc168320a6665bffa11f3aa50e056c1abb5e80a1d96e1db09b1"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/membrane.csv",
+      "bytes": 367,
+      "sha256": "e7164450f7e75736bc46ce14069e7f57a29d58e347012e88b8871d9f392fd616"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/model.md",
+      "bytes": 6372,
+      "sha256": "abece16d9cc258bca66266994721a63a4baa7e41cd20dd485f34cd0a45962e04"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/protocol.md",
+      "bytes": 3398,
+      "sha256": "8ab986a8dd1e82374410c180e5b34803df41a5d6c2f04009fe754a17c4e8ca31"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/relaxation.csv",
+      "bytes": 98,
+      "sha256": "2999a87831d56b00cf4e824f2b37e50f9f1a4a44c625cf79277121e693069976"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/resolution.csv",
+      "bytes": 374,
+      "sha256": "3bb2670c16ca5ff92ee0900bb4d96674bd6fb3c949b01e08610b36e8b8cdc1f4"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/results.json",
+      "bytes": 3659,
+      "sha256": "b8e56cd42e356f8c8041c6d71765946b8bad02533edfd01bd0f32b85d7822fa1"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/sizing.csv",
+      "bytes": 488,
+      "sha256": "f3bef635b9bc9c66ef553969eeef8e149b93b2ee1f62afbfceee8af8629354e9"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/sources.md",
+      "bytes": 4466,
+      "sha256": "4314e90839dec94a594185beb308a0f6e9b0b4951b525f8a6d235c403be8e445"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/stretch.csv",
+      "bytes": 306,
+      "sha256": "542e303d87411608ef6b85f80cfab404b0fa2cd46b2422ba6cd594e8365b866f"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/support_curve.csv",
+      "bytes": 19560,
+      "sha256": "750f323d27cd09bbfbf0af9003c230e500c9f4e8a42221d184ae6f851011267f"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/test_plan.json",
+      "bytes": 996,
+      "sha256": "d425cda7d73ee83e840280f0502aba8c79cb0ff78e3493155d8d6248cab10ef3"
+    },
+    {
+      "path": "GPT往復/乾燥骨格の張力と遅れて働く支持_20261009/tolerance.csv",
+      "bytes": 974,
+      "sha256": "f50586a9fce44061cfee1797fa410e2795f959923a889c5ea05ff63c9a9e892e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 55830,
+      "sha256": "bcafe1bb952772e748f3a2c856588455b2f77098292b86bf1ecfa41a95e854a3"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 139373,
+      "sha256": "f40885da203155a366cc91bca89680e5577449cae80b395b7b7e3334a576405f"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 8509,
+      "sha256": "990026a6666a0b3579cbae02150c49ffc6b4acf42a3c4147298a528cfb033d2e"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 212998,
+      "sha256": "872fc18f6f37414228b834d7020643d850ae7a1720c454c92916767ac93dd7a4"
+    }
+  ]
+}

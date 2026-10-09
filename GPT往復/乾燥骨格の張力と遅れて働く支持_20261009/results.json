@@ -1,0 +1,109 @@
+{
+  "cycle": 69,
+  "physical_tests": 0,
+  "success_probability": null,
+  "status": "UNCALIBRATED_GEOMETRIC_COUNTEREXAMPLES_AND_INVERSE_SPECIFICATION",
+  "source_moduli_not_50C_data": true,
+  "basis": {
+    "cell_width_um": 500,
+    "cell_height_um": 577.350269,
+    "half_span_um": 100.0,
+    "x1_um": 48.15,
+    "x2_um": 86.60254035,
+    "p1_kPa": 5,
+    "p2_kPa": 100,
+    "Eproxy_MPa": 1.35,
+    "solid_density_kg_m3_assumed": 1200.0,
+    "bed_m2": 2000,
+    "bed_depth_m": 0.45,
+    "envelope_packing_fraction_assumed": 0.5
+  },
+  "inverse_spec": {
+    "rest_half_length_um": 109.2502057316908,
+    "engagement_displacement_um": 43.99553900586701,
+    "EA_N": 0.0905498976864677,
+    "area_each_half_um2": 67073.99828627237,
+    "strain_at_upper_displacement": 0.21086788485776986,
+    "geometric_limit_prestress_only_ratio_cubic": 5.818392574042964,
+    "is_measured_response": false
+  },
+  "sizing_comparison": [
+    {
+      "configuration": "slack_inverse_spec",
+      "rest_half_length_um": 109.2502057316908,
+      "area_each_half_um2_at_Eproxy": 67073.99828627237,
+      "pressure_at_48_15um_kPa": 4.9999999999999725,
+      "pressure_at_86_60um_kPa": 100.0,
+      "force_ratio": 20.00000000000011,
+      "max_band_strain": 0.21086788485776986
+    },
+    {
+      "configuration": "just_taut",
+      "rest_half_length_um": 100.0,
+      "area_each_half_um2_at_Eproxy": 43805.57008059164,
+      "pressure_at_48_15um_kPa": 22.553080107469313,
+      "pressure_at_86_60um_kPa": 100.00000000000001,
+      "force_ratio": 4.433984161962924,
+      "max_band_strain": 0.3228756553460863
+    },
+    {
+      "configuration": "pretension_1_5_assumed",
+      "rest_half_length_um": 66.66666666666667,
+      "area_each_half_um2_at_Eproxy": 14369.154127806522,
+      "pressure_at_48_15um_kPa": 44.759125257088776,
+      "pressure_at_86_60um_kPa": 100.0,
+      "force_ratio": 2.234181285394142,
+      "max_band_strain": 0.9843134830191296
+    }
+  ],
+  "band_material_budget": [
+    {
+      "E_MPa_assumed_or_proxy": 1.35,
+      "area_each_half_um2": 67073.99828627237,
+      "thickness_um_if_width_500um": 134.14799657254474,
+      "total_band_volume_fraction_of_cell": 0.101537641954712,
+      "band_mass_kg_for_reference_bed": 54830.32665554448
+    },
+    {
+      "E_MPa_assumed_or_proxy": 5,
+      "area_each_half_um2": 18109.97953729354,
+      "thickness_um_if_width_500um": 36.21995907458708,
+      "total_band_volume_fraction_of_cell": 0.02741516332777224,
+      "band_mass_kg_for_reference_bed": 14804.18819699701
+    },
+    {
+      "E_MPa_assumed_or_proxy": 20,
+      "area_each_half_um2": 4527.494884323385,
+      "thickness_um_if_width_500um": 9.05498976864677,
+      "total_band_volume_fraction_of_cell": 0.00685379083194306,
+      "band_mass_kg_for_reference_bed": 3701.0470492492527
+    }
+  ],
+  "factory_basis": {
+    "grain_count": 3117691454647.9585,
+    "case_factor2_yield80": {
+      "flat_area_per_grain_footprint_ratio_assumed": 2.0,
+      "layout_yield_assumed": 0.8,
+      "patterned_area_m2": 1948557.159154974,
+      "needed_area_m2_h_for_100days_16h": 1217.8482244718587,
+      "area_in_12h_soak_m2_at_that_rate": 14614.178693662303,
+      "area_cost_JPY_at_10JPY_m2_assumed": 19485571.59154974,
+      "area_cost_JPY_at_100JPY_m2_assumed": 194855715.9154974
+    }
+  },
+  "source_thermal_ratio_audit": {
+    "printed_endpoints_ratio_2_1_over_0_15": 14.000000000000002,
+    "reported_strain_tuning_ratio": 11.5,
+    "same_normalization_confirmed": false
+  },
+  "rows": {
+    "support_curve": 303,
+    "sizing": 3,
+    "tolerance": 15,
+    "membrane": 3,
+    "manufacturing": 9,
+    "resolution": 12,
+    "stretch": 4,
+    "relaxation": 4
+  }
+}

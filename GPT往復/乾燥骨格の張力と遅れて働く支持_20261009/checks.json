@@ -1,0 +1,90 @@
+{
+  "count": 21,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "rest length lies beyond unloaded chord",
+      "passed": true
+    },
+    {
+      "name": "5kPa inverse endpoint only",
+      "passed": true
+    },
+    {
+      "name": "100kPa inverse endpoint only",
+      "passed": true
+    },
+    {
+      "name": "slack has zero force",
+      "passed": true
+    },
+    {
+      "name": "energy derivative equals force 0.6",
+      "passed": true
+    },
+    {
+      "name": "energy derivative equals force 0.8",
+      "passed": true
+    },
+    {
+      "name": "energy derivative equals force 1.0",
+      "passed": true
+    },
+    {
+      "name": "taut response ratio below cubic bound",
+      "passed": true
+    },
+    {
+      "name": "positive pretension cannot reproduce required ratio",
+      "passed": true
+    },
+    {
+      "name": "same endpoint hides wrong low pressure response",
+      "passed": true
+    },
+    {
+      "name": "dimensional drift can suppress initial engagement",
+      "passed": true
+    },
+    {
+      "name": "modulus loss persists under fixed geometry",
+      "passed": true
+    },
+    {
+      "name": "fitted area inversely proportional to modulus",
+      "passed": true
+    },
+    {
+      "name": "material volume sums both half bands",
+      "passed": true
+    },
+    {
+      "name": "grain count times cell envelope equals packed volume",
+      "passed": true
+    },
+    {
+      "name": "area formula independent check by height",
+      "passed": true
+    },
+    {
+      "name": "doubling processing area doubles cost",
+      "passed": true
+    },
+    {
+      "name": "51um pixel cannot encode 50um with 3 pixels",
+      "passed": true
+    },
+    {
+      "name": "incompressible stretch preserves volume",
+      "passed": true
+    },
+    {
+      "name": "thermal endpoint arithmetic not forced to headline",
+      "passed": true
+    },
+    {
+      "name": "no physical success claim",
+      "passed": true
+    }
+  ]
+}

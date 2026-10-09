@@ -1,0 +1,13 @@
+pixel_pitch_um,feature_um_assumed,pixels_across,meets_3pixel_layout_rule_not_resolution_proof
+51,20,0.39215686274509803,False
+51,50,0.9803921568627451,False
+51,100,1.9607843137254901,False
+17,20,1.1764705882352942,False
+17,50,2.9411764705882355,False
+17,100,5.882352941176471,True
+10,20,2.0,False
+10,50,5.0,True
+10,100,10.0,True
+5,20,4.0,True
+5,50,10.0,True
+5,100,20.0,True

@@ -1,0 +1,153 @@
+{
+  "cycle": 69,
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "all 21 mathematical checks",
+      "passed": true
+    },
+    {
+      "name": "no physical trials",
+      "passed": true
+    },
+    {
+      "name": "success probability remains undefined",
+      "passed": true
+    },
+    {
+      "name": "eight packages unexecuted",
+      "passed": true
+    },
+    {
+      "name": "source moduli not represented as 50C data",
+      "passed": true
+    },
+    {
+      "name": "inverse curve not represented as measured",
+      "passed": true
+    },
+    {
+      "name": "source thermal normalization unresolved",
+      "passed": true
+    },
+    {
+      "name": "rows support_curve",
+      "passed": true
+    },
+    {
+      "name": "rows sizing",
+      "passed": true
+    },
+    {
+      "name": "rows tolerance",
+      "passed": true
+    },
+    {
+      "name": "rows membrane",
+      "passed": true
+    },
+    {
+      "name": "rows manufacturing",
+      "passed": true
+    },
+    {
+      "name": "rows resolution",
+      "passed": true
+    },
+    {
+      "name": "rows stretch",
+      "passed": true
+    },
+    {
+      "name": "rows relaxation",
+      "passed": true
+    },
+    {
+      "name": "353 calculated rows",
+      "passed": true
+    },
+    {
+      "name": "report states zero physical trials and undefined probability",
+      "passed": true
+    },
+    {
+      "name": "retained operation and depth constraints",
+      "passed": true
+    },
+    {
+      "name": "four branches and warm spray route retained",
+      "passed": true
+    },
+    {
+      "name": "one structural diagram",
+      "passed": true
+    },
+    {
+      "name": "two plotted figures",
+      "passed": true
+    },
+    {
+      "name": "no NaN or Infinity output",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\GPT回答_多方向探索第69巡_結晶化と成形張力を分ける乾燥粒の支持設計_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\乾燥骨格の張力と遅れて働く支持_20261009\\design.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\乾燥骨格の張力と遅れて働く支持_20261009\\model.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\乾燥骨格の張力と遅れて働く支持_20261009\\protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\乾燥骨格の張力と遅れて働く支持_20261009\\sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding README.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\README.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 調査台帳\\一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 調査台帳\\計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "all referenced local documents exist",
+      "passed": true
+    }
+  ],
+  "check_count": 33,
+  "data_rows": {
+    "support_curve": 303,
+    "sizing": 3,
+    "tolerance": 15,
+    "membrane": 3,
+    "manufacturing": 9,
+    "resolution": 12,
+    "stretch": 4,
+    "relaxation": 4
+  },
+  "local_links_checked": 406,
+  "missing_links": [],
+  "all_passed": true
+}

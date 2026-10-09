@@ -1,0 +1,55 @@
+{
+  "cycle": 69,
+  "physical_tests": 0,
+  "success_probability": null,
+  "packages": [
+    {
+      "id": "P01",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P02",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P03",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P04",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P05",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P06",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P07",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "P08",
+      "status": "NOT_EXECUTED",
+      "sample_count": null,
+      "result": null
+    }
+  ]
+}
