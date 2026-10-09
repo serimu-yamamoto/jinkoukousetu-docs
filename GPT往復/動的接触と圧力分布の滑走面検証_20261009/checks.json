@@ -1,0 +1,138 @@
+{
+  "count": 33,
+  "checks": [
+    {
+      "name": "reference intercept from given friction",
+      "passed": true
+    },
+    {
+      "name": "normal force by Hertz pressure integral",
+      "passed": true
+    },
+    {
+      "name": "pure NSS duty 0.064",
+      "passed": true
+    },
+    {
+      "name": "b 0.03 requires duty 1 over 343",
+      "passed": true
+    },
+    {
+      "name": "b 0.03 requires sevenfold peak pressure",
+      "passed": true
+    },
+    {
+      "name": "target equal slope has no finite duty",
+      "passed": true
+    },
+    {
+      "name": "duty friction pressure reciprocal",
+      "passed": true
+    },
+    {
+      "name": "constant Coulomb coefficient not reduced by redistribution",
+      "passed": true
+    },
+    {
+      "name": "profile integral parabolic",
+      "passed": true
+    },
+    {
+      "name": "profile integral power8",
+      "passed": true
+    },
+    {
+      "name": "profile integral power16",
+      "passed": true
+    },
+    {
+      "name": "ideal uniform only removes one third of Hertz area",
+      "passed": true
+    },
+    {
+      "name": "shape power8 does not meet target with old interface",
+      "passed": true
+    },
+    {
+      "name": "power8 target needs intercept 40000 Pa",
+      "passed": true
+    },
+    {
+      "name": "power8 target removes 82.857 percent intercept",
+      "passed": true
+    },
+    {
+      "name": "mechanical resistance consumes interface budget",
+      "passed": true
+    },
+    {
+      "name": "zero oscillation baseline",
+      "passed": true
+    },
+    {
+      "name": "lateral work positive",
+      "passed": true
+    },
+    {
+      "name": "oscillation dissipation at least baseline",
+      "passed": true
+    },
+    {
+      "name": "force reduction monotonic in q",
+      "passed": true
+    },
+    {
+      "name": "inverse vibration ratio 0.5",
+      "passed": true
+    },
+    {
+      "name": "quadrature convergence 0.5",
+      "passed": true
+    },
+    {
+      "name": "inverse vibration ratio 0.4",
+      "passed": true
+    },
+    {
+      "name": "quadrature convergence 0.4",
+      "passed": true
+    },
+    {
+      "name": "vector friction energy balance",
+      "passed": true
+    },
+    {
+      "name": "single following stroke fraction",
+      "passed": true
+    },
+    {
+      "name": "same waveform cycles independent of forward speed",
+      "passed": true
+    },
+    {
+      "name": "atan2 identity matches independent finite difference",
+      "passed": true
+    },
+    {
+      "name": "printed r squared is not s squared in counterexample",
+      "passed": true
+    },
+    {
+      "name": "cap mass equals area thickness density",
+      "passed": true
+    },
+    {
+      "name": "double cap diameter quadruples area and mass",
+      "passed": true
+    },
+    {
+      "name": "costs omit tooling and handling explicitly",
+      "passed": true
+    },
+    {
+      "name": "physical evidence not fabricated",
+      "passed": true
+    }
+  ],
+  "physical_tests": 0
+}

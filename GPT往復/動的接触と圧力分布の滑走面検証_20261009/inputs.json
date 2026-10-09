@@ -1,0 +1,38 @@
+{
+  "cycle": 71,
+  "date": "2026-10-09",
+  "physical_tests": 0,
+  "success_probability": null,
+  "material_selected": false,
+  "assumption_note": "All numerical material and cost inputs below are illustrative design assumptions, not snow measurements or approved limits.",
+  "normal_force_N": 400,
+  "speed_m_s": 10,
+  "nominal_area_m2": 0.08,
+  "peak_pressure_Pa": 5000000,
+  "baseline_mu_interface": 0.1,
+  "pressure_friction_slope_b": 0.03,
+  "illustrative_target_mu": 0.04,
+  "reference_shape_factor": 0.6666666666666666,
+  "contact_peak_radius_m": 0.00005,
+  "ski_contact_length_m": 1.5,
+  "max_follow_stroke_m": 0.0001,
+  "grain_count": 3117691453623.979,
+  "caps_per_grain": 6,
+  "cap_thickness_m": 0.00001,
+  "cap_density_kg_m3": 950,
+  "cap_diameters_um": [
+    50,
+    100,
+    200
+  ],
+  "assumed_material_JPY_kg": [
+    500,
+    2000
+  ],
+  "assumed_forming_JPY_m2": [
+    10,
+    100
+  ],
+  "cap_layer_is_additional_conservative": true,
+  "zero_deformation_assumed_only_for_lower_bound": true
+}

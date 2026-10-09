@@ -1,0 +1,131 @@
+{
+  "cycle": 71,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "2ea83105e40aba622918cd2c710127b8975ec735",
+  "physical_tests": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第71巡_跳ねる接点の限界と圧力を均す滑走面_20261009.md",
+      "bytes": 12984,
+      "sha256": "9b25fd7ba38800922454bb5efdec6f4a05f101e12b733f3ebabbbb9703f73840"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 49402,
+      "sha256": "c4276c277653f3257af13549e1c8ad03f6be67062fba87d47805f1419bf4da3e"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/audit.py",
+      "bytes": 3390,
+      "sha256": "0deed8acfc80dd904a4ca85a3d0f865f5c93d6d322b9900f7ca12deb93adb373"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/cap_costs.csv",
+      "bytes": 1882,
+      "sha256": "985701652c6e7c7dee428ae0882ea440c54f2e9d63a53573b1bf5f8d72704471"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/checks.json",
+      "bytes": 2970,
+      "sha256": "ae86042b08170d6d0ab2f66b687d586f7dd4bb641acc67e9b4c1284e60ebe692"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/design.md",
+      "bytes": 3383,
+      "sha256": "16fe3c37a86d8e8a4b0b3cce82b41696dc1d742025166c4f2b2c57897c07c028"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/document_audit.json",
+      "bytes": 2789,
+      "sha256": "ea22f881572ae4ff0ea061c7118622868b3ab2038760aec9fe4d5481782b1813"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/duty_cases.csv",
+      "bytes": 6338,
+      "sha256": "15ea8167b4952f9a80b4988fe4f89f58969f3f6aaed9277f4a25d4c7647efbc3"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/figure1_pressure.png",
+      "bytes": 110078,
+      "sha256": "3d573431e081db1b41f7a3868e3254f493543728e7924471a471db17754495da"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/figure2_vibration.png",
+      "bytes": 116732,
+      "sha256": "631524c75fc1617010c1d8bad271f527a583a461c30d78341e8751300ca828fb"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/frequency_requirements.csv",
+      "bytes": 2053,
+      "sha256": "4d4d293c64dadc27ea50797f6720d5ade5ef5e9e27ed6bb5738af43914602428"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/inputs.json",
+      "bytes": 1008,
+      "sha256": "49886c15465c6ec426ae1495d2e302da610d1b737d1af9377747a9651b6a59ad"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/material_budgets.csv",
+      "bytes": 4247,
+      "sha256": "c8b917461cb2ca994cd70bb480c9f41d79a4833091454ebc52ebe1cfe9e6cccc"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/model.md",
+      "bytes": 4979,
+      "sha256": "d1f60eaed2495dac331814da5342f59c77d10ba0b6bd2b05fd70ef7d535abf4a"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/pressure_profiles.csv",
+      "bytes": 589,
+      "sha256": "3e10abfb96db68673d023a389bf01f84103652486106a83f4235f94deca357c0"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/reproduce.py",
+      "bytes": 11728,
+      "sha256": "0c51bb344ed455c5fa49fd53b058ccce8d7f638617ec12a53bf3b05e81256e04"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/results.json",
+      "bytes": 3702,
+      "sha256": "c1a6120a4871b8c8d66084eb9bf5d66fca2a0b5e8adeb8536bea800f8ef2fa10"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/sources.md",
+      "bytes": 2972,
+      "sha256": "ce20ff3bdf3d96b548f8eb2ccbcc41b2d4d0e75a4ae1ac7d583ae455808fae6b"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/test_plan.json",
+      "bytes": 4491,
+      "sha256": "aa51cc9fb45e15d66bc7af618ea9a3fe7bdae768cafd5e1189ee56b3fc34ad4c"
+    },
+    {
+      "path": "GPT往復/動的接触と圧力分布の滑走面検証_20261009/vibration_cases.csv",
+      "bytes": 518,
+      "sha256": "af389e880a952b0ce30f0fa56a7d09a9d9121b6bc73980c6c04524e624582ecd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 57228,
+      "sha256": "e5434e8230114fb6506430ff124713f7692dca554c3530fa47dde0fe0c3ee7f3"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 142678,
+      "sha256": "721344e702b13dc1211f7a16647fa8b2e014becfa02600e44b7c879d6c7524e2"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 9893,
+      "sha256": "7ff7f27008df93f0eb7a65d1833111355278d03fa5a360d7250145c6f4d872f1"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 214823,
+      "sha256": "9990bae90d55e51c3c9c4820fa24f49b86c837c308ccbbab158bd4663d1a4f3a"
+    }
+  ],
+  "verification_policy": "After publication compare every listed file and this manifest byte-for-byte with the public commit, then remove the local research checkout and its Git history."
+}

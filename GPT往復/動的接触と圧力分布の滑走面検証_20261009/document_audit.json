@@ -1,0 +1,135 @@
+{
+  "cycle": 71,
+  "physical_tests": 0,
+  "success_probability": null,
+  "check_count": 29,
+  "checks": [
+    {
+      "name": "33 math checks",
+      "passed": true
+    },
+    {
+      "name": "physical tests remain zero",
+      "passed": true
+    },
+    {
+      "name": "success probability not inferred",
+      "passed": true
+    },
+    {
+      "name": "eight specifications not executed",
+      "passed": true
+    },
+    {
+      "name": "no material selected",
+      "passed": true
+    },
+    {
+      "name": "not source simulation reproduction",
+      "passed": true
+    },
+    {
+      "name": "rows duty_cases",
+      "passed": true
+    },
+    {
+      "name": "rows pressure_profiles",
+      "passed": true
+    },
+    {
+      "name": "rows material_budgets",
+      "passed": true
+    },
+    {
+      "name": "rows vibration_cases",
+      "passed": true
+    },
+    {
+      "name": "rows frequency_requirements",
+      "passed": true
+    },
+    {
+      "name": "rows cap_costs",
+      "passed": true
+    },
+    {
+      "name": "179 rows",
+      "passed": true
+    },
+    {
+      "name": "physical and probabilistic limitations explicit",
+      "passed": true
+    },
+    {
+      "name": "constraints retained",
+      "passed": true
+    },
+    {
+      "name": "multiple routes retained",
+      "passed": true
+    },
+    {
+      "name": "one structure diagram",
+      "passed": true
+    },
+    {
+      "name": "two PNG figures",
+      "passed": true
+    },
+    {
+      "name": "finite JSON",
+      "passed": true
+    },
+    {
+      "name": "LF GPT往復\\GPT回答_多方向探索第71巡_跳ねる接点の限界と圧力を均す滑走面_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF GPT往復\\動的接触と圧力分布の滑走面検証_20261009\\design.md",
+      "passed": true
+    },
+    {
+      "name": "LF GPT往復\\動的接触と圧力分布の滑走面検証_20261009\\model.md",
+      "passed": true
+    },
+    {
+      "name": "LF GPT往復\\動的接触と圧力分布の滑走面検証_20261009\\sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF README.md",
+      "passed": true
+    },
+    {
+      "name": "LF 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF GPT往復\\README.md",
+      "passed": true
+    },
+    {
+      "name": "LF 調査台帳\\一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF 調査台帳\\計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "all local links resolve",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 418,
+  "missing_links": [],
+  "calculated_rows": {
+    "duty_cases": 64,
+    "pressure_profiles": 5,
+    "material_budgets": 72,
+    "vibration_cases": 8,
+    "frequency_requirements": 18,
+    "cap_costs": 12
+  },
+  "all_passed": true
+}

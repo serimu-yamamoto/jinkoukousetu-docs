@@ -1,0 +1,126 @@
+{
+  "cycle": 71,
+  "physical_tests": 0,
+  "success_probability": null,
+  "material_selected": false,
+  "assumptions": "All numerical material and cost inputs below are illustrative design assumptions, not snow measurements or approved limits.",
+  "tau0_reference_Pa": 233333.33333333334,
+  "target_duty_solutions": [
+    {
+      "b": 0.0,
+      "finite_solution": true,
+      "active_fraction": 0.06399999999999999,
+      "peak_multiplier": 2.5,
+      "peak_pressure_Pa": 12500000.000000002
+    },
+    {
+      "b": 0.02,
+      "finite_solution": true,
+      "active_fraction": 0.015625,
+      "peak_multiplier": 4.0,
+      "peak_pressure_Pa": 20000000.0
+    },
+    {
+      "b": 0.03,
+      "finite_solution": true,
+      "active_fraction": 0.002915451895043733,
+      "peak_multiplier": 6.999999999999999,
+      "peak_pressure_Pa": 34999999.99999999
+    },
+    {
+      "b": 0.04,
+      "finite_solution": false,
+      "active_fraction": null,
+      "peak_multiplier": null,
+      "peak_pressure_Pa": null
+    },
+    {
+      "b": 0.05,
+      "finite_solution": false,
+      "active_fraction": null,
+      "peak_multiplier": null,
+      "peak_pressure_Pa": null
+    }
+  ],
+  "shape_profile_results": [
+    {
+      "profile": "parabolic",
+      "beta_mean_over_peak": 0.5,
+      "area_m2": 0.00016,
+      "mu_interface": 0.12333333333333334,
+      "ratio_to_Hertz_adhesion": 1.3333333333333333,
+      "tau0_max_for_target_Pa": 25000.000000000004,
+      "new_tau_over_reference": 0.10714285714285715
+    },
+    {
+      "profile": "Hertz",
+      "beta_mean_over_peak": 0.6666666666666666,
+      "area_m2": 0.00012000000000000002,
+      "mu_interface": 0.1,
+      "ratio_to_Hertz_adhesion": 1.0,
+      "tau0_max_for_target_Pa": 33333.33333333334,
+      "new_tau_over_reference": 0.1428571428571429
+    },
+    {
+      "profile": "power8",
+      "beta_mean_over_peak": 0.8,
+      "area_m2": 0.0001,
+      "mu_interface": 0.08833333333333333,
+      "ratio_to_Hertz_adhesion": 0.8333333333333333,
+      "tau0_max_for_target_Pa": 40000.00000000001,
+      "new_tau_over_reference": 0.17142857142857146
+    },
+    {
+      "profile": "power16",
+      "beta_mean_over_peak": 0.8888888888888888,
+      "area_m2": 9e-05,
+      "mu_interface": 0.0825,
+      "ratio_to_Hertz_adhesion": 0.75,
+      "tau0_max_for_target_Pa": 44444.44444444445,
+      "new_tau_over_reference": 0.1904761904761905
+    },
+    {
+      "profile": "ideal_uniform",
+      "beta_mean_over_peak": 1.0,
+      "area_m2": 8e-05,
+      "mu_interface": 0.07666666666666666,
+      "ratio_to_Hertz_adhesion": 0.6666666666666666,
+      "tau0_max_for_target_Pa": 50000.00000000001,
+      "new_tau_over_reference": 0.2142857142857143
+    }
+  ],
+  "vibration_inverse": [
+    {
+      "target_forward_ratio": 0.5,
+      "q": 3.2001867104979116,
+      "dissipation_ratio": 2.3385052856271944,
+      "lateral_work_ratio": 1.8385052856271944
+    },
+    {
+      "target_forward_ratio": 0.4,
+      "q": 4.600057034114746,
+      "dissipation_ratio": 3.1637420039800914,
+      "lateral_work_ratio": 2.7637420039800915
+    }
+  ],
+  "single_stroke_fraction": 6.666666666666667e-05,
+  "coordinate_identity": {
+    "true_dtheta": 1.0,
+    "printed_r_squared_dtheta": 0.2,
+    "finite_difference": 0.9999999999999967,
+    "author_code_checked": false,
+    "source_dynamics_reproduced": false
+  },
+  "rows": {
+    "duty_cases": 64,
+    "pressure_profiles": 5,
+    "material_budgets": 72,
+    "vibration_cases": 8,
+    "frequency_requirements": 18,
+    "cap_costs": 12
+  },
+  "total_calculated_rows": 179,
+  "check_count": 33,
+  "all_math_checks_passed": true,
+  "new_design": "H71-P: pressure-distribution control plus measured low-shear interface; not a validated grain"
+}
