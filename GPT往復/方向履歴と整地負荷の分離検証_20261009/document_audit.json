@@ -1,0 +1,237 @@
+{
+  "all_passed": true,
+  "document_checks": 57,
+  "local_link_count": 639,
+  "numeric_checks": 25,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "25_arithmetic_checks",
+      "passed": true
+    },
+    {
+      "name": "physical_trials_zero",
+      "passed": true
+    },
+    {
+      "name": "success_unknown",
+      "passed": true
+    },
+    {
+      "name": "wear_not_predicted",
+      "passed": true
+    },
+    {
+      "name": "decay_not_measured",
+      "passed": true
+    },
+    {
+      "name": "not_selected",
+      "passed": true
+    },
+    {
+      "name": "facilities_unavailable",
+      "passed": true
+    },
+    {
+      "name": "no_external_contact",
+      "passed": true
+    },
+    {
+      "name": "claude_receipt_unknown",
+      "passed": true
+    },
+    {
+      "name": "15_diagnostic_rows",
+      "passed": true
+    },
+    {
+      "name": "18_unperformed_pairs",
+      "passed": true
+    },
+    {
+      "name": "pair_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "calibration_excluded",
+      "passed": true
+    },
+    {
+      "name": "time_16_125h",
+      "passed": true
+    },
+    {
+      "name": "cost_not_quote",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_preserved",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_README.md_0",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_回覧板.md_4",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_回覧板.md_3",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_回覧板.md_2",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_GPT往復/README.md_1",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_調査台帳/一般.md_5",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_調査台帳/計算部品索引.md_6",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_60分",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_2億円",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_摩耗が9.52倍になるという結果ではない",
+      "passed": true
+    },
+    {
+      "name": "report_caveat_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "new_primary_sources_present",
+      "passed": true
+    },
+    {
+      "name": "prior_work_attributed",
+      "passed": true
+    },
+    {
+      "name": "PNG_signature",
+      "passed": true
+    },
+    {
+      "name": "PNG_dimensions",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "reproduction_succeeds",
+      "passed": true
+    },
+    {
+      "name": "reproduction_bytes_unchanged",
+      "passed": true
+    },
+    {
+      "name": "LF_only_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_measurement_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_results.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_validation.json",
+      "passed": true
+    }
+  ]
+}

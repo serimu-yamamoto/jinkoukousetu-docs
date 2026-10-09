@@ -1,0 +1,172 @@
+{
+  "physical_experiments": 0,
+  "success_probability": null,
+  "wear_volume_prediction": null,
+  "actual_decay_length_mm": null,
+  "wear_savings_fraction": null,
+  "diagnostic_rows": [
+    {
+      "ell_mm_assumed": 0.1,
+      "interval_mm": 1,
+      "segments": 1000,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.09999546000702375
+    },
+    {
+      "ell_mm_assumed": 0.1,
+      "interval_mm": 2,
+      "segments": 500,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.04999999989694232
+    },
+    {
+      "ell_mm_assumed": 0.1,
+      "interval_mm": 5,
+      "segments": 200,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.02
+    },
+    {
+      "ell_mm_assumed": 0.1,
+      "interval_mm": 10,
+      "segments": 100,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.01
+    },
+    {
+      "ell_mm_assumed": 0.1,
+      "interval_mm": 100,
+      "segments": 10,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.001
+    },
+    {
+      "ell_mm_assumed": 1,
+      "interval_mm": 1,
+      "segments": 1000,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.6321205588285577
+    },
+    {
+      "ell_mm_assumed": 1,
+      "interval_mm": 2,
+      "segments": 500,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.43233235838169365
+    },
+    {
+      "ell_mm_assumed": 1,
+      "interval_mm": 5,
+      "segments": 200,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.1986524106001829
+    },
+    {
+      "ell_mm_assumed": 1,
+      "interval_mm": 10,
+      "segments": 100,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.09999546000702375
+    },
+    {
+      "ell_mm_assumed": 1,
+      "interval_mm": 100,
+      "segments": 10,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.01
+    },
+    {
+      "ell_mm_assumed": 10,
+      "interval_mm": 1,
+      "segments": 1000,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.9516258196404043
+    },
+    {
+      "ell_mm_assumed": 10,
+      "interval_mm": 2,
+      "segments": 500,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.9063462346100906
+    },
+    {
+      "ell_mm_assumed": 10,
+      "interval_mm": 5,
+      "segments": 200,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.7869386805747333
+    },
+    {
+      "ell_mm_assumed": 10,
+      "interval_mm": 10,
+      "segments": 100,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.6321205588285577
+    },
+    {
+      "ell_mm_assumed": 10,
+      "interval_mm": 100,
+      "segments": 10,
+      "loaded_sliding_mm": 1000,
+      "orientation_min_eigenvalue": 0.5,
+      "normalized_activity": 0.09999546000702375
+    }
+  ],
+  "equal_tensor_counterexample": {
+    "short_r": 0.1,
+    "long_r": 10,
+    "short_activity": 0.9516258196404043,
+    "long_activity": 0.09999546000702375,
+    "ratio_not_wear": 9.516690253473122
+  },
+  "inverse_diagnostic_activity_0_1": {
+    "required_interval_over_ell": 9.999545794446535,
+    "not_an_acceptance_standard": true
+  },
+  "test_timing": {
+    "pairs": 18,
+    "strokes_per_pair": 1000,
+    "motion_s_per_pair": 25.0,
+    "matched_stops_s_per_pair": 2000,
+    "constant_speed_distance_fraction": 0.75,
+    "hours_18_pairs_partial": 16.125,
+    "cost_scenarios_not_quotes": [
+      {
+        "rate_JPY_h_assumed": 3000,
+        "partial_cost_JPY": 48375.0
+      },
+      {
+        "rate_JPY_h_assumed": 10000,
+        "partial_cost_JPY": 161250.0
+      },
+      {
+        "rate_JPY_h_assumed": 30000,
+        "partial_cost_JPY": 483750.0
+      }
+    ],
+    "excludes": [
+      "calibration",
+      "heating",
+      "materials",
+      "metrology",
+      "staff preparation",
+      "fixture development",
+      "tax",
+      "repeat tests"
+    ]
+  }
+}

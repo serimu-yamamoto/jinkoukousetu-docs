@@ -1,0 +1,119 @@
+{
+  "cycle": 93,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "6eda59ccd678f3d5aee302dcbbf6e661aa36a5ed",
+  "hash_algorithm": "SHA-256",
+  "excludes": "Self manifest; third-party inspection copies and transient dependencies are not deliverables",
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第93巡_方向変更間隔を含む滑走面と整地の再設計_20261009.md",
+      "bytes": 9490,
+      "sha256": "481528f2400db308b5a859334e8bf16bee8be9f849f1801fb9b17a03819cc995"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 60941,
+      "sha256": "a5de2feb52765e0c9185caa77aae5569fc8f02215b12871531e61778230c4949"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/README.md",
+      "bytes": 1049,
+      "sha256": "c8cb41dfaa3c85b1b56519918019a9a08908d355df1a34d4052bf16320516a1a"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/audit.py",
+      "bytes": 4945,
+      "sha256": "9ecb2ba43844b37a68419f0f2c5b5f94d069caccaa54b50441cf0799ae3d254c"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/claude_handoff.md",
+      "bytes": 1699,
+      "sha256": "a2366344254034dcc22cb10e47ce4e5183548e5b82efd63ee2125a3be4995567"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/document_audit.json",
+      "bytes": 4514,
+      "sha256": "3a6bdb3ae0ece13b286a31f35db85888133ad0a63f96980079c0a573bfa39a12"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/draw.py",
+      "bytes": 1265,
+      "sha256": "6083b3a9eecf493a960456fcbde7acd69f4b594636f6b0fe3126d3b4a3b259d5"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/history_activity.png",
+      "bytes": 78288,
+      "sha256": "c95e4918e371b0d0a0ecac150173859f62e70ff7933b48217fba14203ce3cb6e"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/index_changes.json",
+      "bytes": 4577,
+      "sha256": "91dda4bc3a26af90f97922fc68f9eef7411b4ea39a80e68f6484755076e7c1d2"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/inputs.json",
+      "bytes": 763,
+      "sha256": "180124b8efa905c2900d1e9eb91a9b2c9b45313af54ed2c53a1f692eb3ece334"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/measurement_protocol.md",
+      "bytes": 4273,
+      "sha256": "024144efbb430e51ea48089d9bfe57be2eba99138d643d144c67233a5add202e"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/model.md",
+      "bytes": 3602,
+      "sha256": "f46559a44a79c7fc03a28466f996952671529c4e516a0fb3cdae980c74a02c92"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/reproduce.py",
+      "bytes": 5058,
+      "sha256": "1a0a6d8a0964eaf0b81185d0b25fce73d9b2d5a69f2c90077187cc5c2983bd50"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/research_state.json",
+      "bytes": 613,
+      "sha256": "f455c4342362699b688ac087bfb91db19cefa29c82bf9f39be3dea645910b5de"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/results.json",
+      "bytes": 4364,
+      "sha256": "c476d3b8bce53b1247fe027bbd827b77e5db6548e63f95507bd59bf73d64ab1d"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/sources.md",
+      "bytes": 3716,
+      "sha256": "1ecc9638bb1af8ceb6384697b8a8cefd40fc12839b3a23bc983196d68f46c80f"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/test_plan.json",
+      "bytes": 4393,
+      "sha256": "17be8a94d7a0ffa949c7d6314877fcb3d2c33c637e11bef0e0bf59b3a7d7600c"
+    },
+    {
+      "path": "GPT往復/方向履歴と整地負荷の分離検証_20261009/validation.json",
+      "bytes": 1847,
+      "sha256": "c9f3489e34bc6bb584378025e4ec6bcf84f0c668022b18fad7806d22a369f4f9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 70782,
+      "sha256": "7a63be96165a9be14a9298abf43ed316db4c0df3e171fb4da16b2c4c59b80457"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 169727,
+      "sha256": "05c1cf57ad201d3475409b2173f7ae9335d6153964d67e46316d71d0ee1e622e"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 22137,
+      "sha256": "abbc3edca728f59b6e5edc73b614e5429007c6a34e6da1ca3243d632bb71f943"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 226709,
+      "sha256": "a00119bf2524ad5c386f953f2bce2862efa3c7627ac761033645d728867ea73d"
+    }
+  ]
+}

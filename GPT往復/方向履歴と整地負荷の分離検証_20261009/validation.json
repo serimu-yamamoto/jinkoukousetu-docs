@@ -1,0 +1,107 @@
+{
+  "count": 25,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "orthogonal_half",
+      "passed": true
+    },
+    {
+      "name": "reciprocation_not_cross",
+      "passed": true
+    },
+    {
+      "name": "zero_work_undefined",
+      "passed": true
+    },
+    {
+      "name": "global_rotation_invariance",
+      "passed": true
+    },
+    {
+      "name": "loaded_intervals_even",
+      "passed": true
+    },
+    {
+      "name": "same_distance",
+      "passed": true
+    },
+    {
+      "name": "activity_bounded",
+      "passed": true
+    },
+    {
+      "name": "small_ratio_limit",
+      "passed": true
+    },
+    {
+      "name": "large_ratio_limit",
+      "passed": true
+    },
+    {
+      "name": "r1",
+      "passed": true
+    },
+    {
+      "name": "r10",
+      "passed": true
+    },
+    {
+      "name": "kernel_midpoint_integral",
+      "passed": true
+    },
+    {
+      "name": "same_tensor_different_history",
+      "passed": true
+    },
+    {
+      "name": "activity_decreases",
+      "passed": true
+    },
+    {
+      "name": "inverse_budget",
+      "passed": true
+    },
+    {
+      "name": "trapezoid_possible",
+      "passed": true
+    },
+    {
+      "name": "stroke_count",
+      "passed": true
+    },
+    {
+      "name": "motion_time",
+      "passed": true
+    },
+    {
+      "name": "constant_speed_fraction",
+      "passed": true
+    },
+    {
+      "name": "equal_stop_time",
+      "passed": true
+    },
+    {
+      "name": "planned_pair_count",
+      "passed": true
+    },
+    {
+      "name": "test_hour_budget",
+      "passed": true
+    },
+    {
+      "name": "fast_ski_speed_not_reproduced",
+      "passed": true
+    },
+    {
+      "name": "partial_cost_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "different_patches_not_one_history",
+      "passed": true
+    }
+  ],
+  "validates": "arithmetic only"
+}

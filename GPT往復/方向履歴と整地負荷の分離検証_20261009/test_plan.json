@@ -1,0 +1,171 @@
+{
+  "status": "not_run",
+  "physical_experiments": 0,
+  "calibration_runs_not_performed": 3,
+  "calibration_excluded_from_partial_hours": true,
+  "replicates_are_not_independent_manufacturing_lots": true,
+  "pairs": [
+    {
+      "id": "UHMWPE_control_L_1",
+      "material": "UHMWPE_control",
+      "history": "L",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_L_2",
+      "material": "UHMWPE_control",
+      "history": "L",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_L_3",
+      "material": "UHMWPE_control",
+      "history": "L",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_X1_1",
+      "material": "UHMWPE_control",
+      "history": "X1",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_X1_2",
+      "material": "UHMWPE_control",
+      "history": "X1",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_X1_3",
+      "material": "UHMWPE_control",
+      "history": "X1",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_X100_1",
+      "material": "UHMWPE_control",
+      "history": "X100",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_X100_2",
+      "material": "UHMWPE_control",
+      "history": "X100",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "UHMWPE_control_X100_3",
+      "material": "UHMWPE_control",
+      "history": "X100",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_L_1",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "L",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_L_2",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "L",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_L_3",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "L",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_X1_1",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "X1",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_X1_2",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "X1",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_X1_3",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "X1",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_X100_1",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "X100",
+      "replicate": 1,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_X100_2",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "X100",
+      "replicate": 2,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    },
+    {
+      "id": "conditional_PE_face_PMP_core_X100_3",
+      "material": "conditional_PE_face_PMP_core",
+      "history": "X100",
+      "replicate": 3,
+      "status": "not_run",
+      "measured_friction": null,
+      "measured_wear": null
+    }
+  ]
+}
