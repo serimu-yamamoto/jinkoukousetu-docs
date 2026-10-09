@@ -1,0 +1,91 @@
+{
+  "cycle": 68,
+  "physical_tests": 0,
+  "success_probability": null,
+  "packages": [
+    {
+      "id": "T01",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T02",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T03",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T04",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T05",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T06",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T07",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T08",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T09",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T10",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T11",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    },
+    {
+      "id": "T12",
+      "status": "NOT_EXECUTED",
+      "specification": "protocol.md",
+      "sample_count": null,
+      "result": null
+    }
+  ]
+}

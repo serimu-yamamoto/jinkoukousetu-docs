@@ -1,0 +1,127 @@
+{
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "2234188148935bf347d722690f8016eb81a3ad6d",
+  "cycle": 68,
+  "evidence": {
+    "physical_tests": 0,
+    "success_probability": null,
+    "conservation_checks": 22,
+    "document_checks": 30,
+    "local_links_checked": 396,
+    "sensitivity_rows": 78,
+    "unexecuted_test_packages": 12
+  },
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第68巡_温暖反応晶析と内部結晶の再生経路_20261009.md",
+      "bytes": 12344,
+      "sha256": "731363dd1f1be599227ef3a57ee6f4c4b0ad31796805279b2af035687cabaac0"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 47254,
+      "sha256": "5d1e60ef5f462051a963da4ee744bfb0cb7b64d303897dcdb3212c39da615caf"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/audit.py",
+      "bytes": 3374,
+      "sha256": "78eeb49e11044aba2914b3e86f2e8e554ea9eb6ef3ab9d6cc959227b368d3f3d"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/calculate.py",
+      "bytes": 9858,
+      "sha256": "cfda747c0706ffc88917a26fc052c4bc715d0401a3931547416bcc0b2fe71ca1"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/charge.csv",
+      "bytes": 854,
+      "sha256": "7633537040847ed972f4eb1710ba5d1f6ccf38f8a6fef2b8af01625722c7dd37"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/checks.json",
+      "bytes": 2181,
+      "sha256": "f35ef9d57f23e2eeb4bc558fa19ac31baae2795b43362b7a31db1730e00c92d6"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/design.md",
+      "bytes": 6720,
+      "sha256": "01573b5d64da2a4fdeaef79ec95a81647d9cde5c9d434a65ecd2e54eec4ae244"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/document_audit.json",
+      "bytes": 2947,
+      "sha256": "d6e0323b4f3472e45bd24bdf896579fca67c2a762ee369f1e0fc5c7a11ef64ae"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/exchange.csv",
+      "bytes": 1006,
+      "sha256": "20f3464b8e7bebb2e9023f754d4ad86edb9dce1fb5396976dbafef5e603eb4b3"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/fixed_cost.csv",
+      "bytes": 177,
+      "sha256": "83dffb5f3231530f0d09547188a1fc8814cfc446e2c184f488b73b04af23fc6a"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/model.md",
+      "bytes": 6613,
+      "sha256": "e7673b72e0dd3f339b6145f2e149e2c62d12f0def97d2ac99ab5ebaac7d463a9"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/protocol.md",
+      "bytes": 6138,
+      "sha256": "21751795149515037208ece6c8acec023ea4cd3934cca8ee4bdec21f22ba9174"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/recovery.csv",
+      "bytes": 761,
+      "sha256": "80406a37ba9d3d6a60ae6b8dc9b16a42336d031610c268b9ad7b11fa0b53814a"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/results.json",
+      "bytes": 3460,
+      "sha256": "2390b959ba1a8068bfdf71aa5e2cfba8ac268449dee3b9cfeb1a58fd5ad546a8"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/sources.md",
+      "bytes": 4748,
+      "sha256": "f8115ea2581c0560e7fe90099b93b4b8062a06df60fe518688a6fa0111d7b468"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/supply.csv",
+      "bytes": 3714,
+      "sha256": "4b8bfef57f146a848bf61c1c7be89ef263161f120a632cebaac31d9f48c8aca3"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/test_plan.json",
+      "bytes": 1904,
+      "sha256": "efa1d807f814f07e2dbd25b73002aace588832a62ef4f7a594609dba7733bdba"
+    },
+    {
+      "path": "GPT往復/反応晶析と局部再生の物量検証_20261009/wash.csv",
+      "bytes": 274,
+      "sha256": "4cd02108910def0f289b70ee09d70141e855fcdc7d0c4409e1b5bfa0f5a88def"
+    },
+    {
+      "path": "README.md",
+      "bytes": 55026,
+      "sha256": "4aec4dfc41c85a129d64937677b5430e7887cdd0641acf6e58bd5cc9d264a684"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 137345,
+      "sha256": "750949dbe2b9c524e7f3757278e26ec2dbb23f7357e590015cd41e065518fdda"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 7639,
+      "sha256": "77fe7764e404b27cd5be9bb64605d9f4936946368c9b80fddd204b26ad79d5b7"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 211864,
+      "sha256": "42ccc043d5a04a63efb2cc73d5ae4906e0bf2159ec97d36bfe50fa314e32c606"
+    }
+  ]
+}

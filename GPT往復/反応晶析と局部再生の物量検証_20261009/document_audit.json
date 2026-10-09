@@ -1,0 +1,139 @@
+{
+  "cycle": 68,
+  "physical_tests": 0,
+  "success_probability": null,
+  "checks": [
+    {
+      "name": "all 22 conservation checks",
+      "passed": true
+    },
+    {
+      "name": "no physical trials",
+      "passed": true
+    },
+    {
+      "name": "success not invented",
+      "passed": true
+    },
+    {
+      "name": "12 packages unexecuted",
+      "passed": true
+    },
+    {
+      "name": "reported electrochemical maxima not merged",
+      "passed": true
+    },
+    {
+      "name": "chemical cycle not demonstrated",
+      "passed": true
+    },
+    {
+      "name": "rows supply",
+      "passed": true
+    },
+    {
+      "name": "rows charge",
+      "passed": true
+    },
+    {
+      "name": "rows recovery",
+      "passed": true
+    },
+    {
+      "name": "rows fixed_cost",
+      "passed": true
+    },
+    {
+      "name": "rows exchange",
+      "passed": true
+    },
+    {
+      "name": "rows wash",
+      "passed": true
+    },
+    {
+      "name": "78 sensitivity rows",
+      "passed": true
+    },
+    {
+      "name": "report keeps zero trial status",
+      "passed": true
+    },
+    {
+      "name": "report keeps 60 minute closure",
+      "passed": true
+    },
+    {
+      "name": "report keeps 450mm and 300mm",
+      "passed": true
+    },
+    {
+      "name": "three branches and mechanical comparator",
+      "passed": true
+    },
+    {
+      "name": "two conceptual diagrams",
+      "passed": true
+    },
+    {
+      "name": "no printed NaN",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\GPT回答_多方向探索第68巡_温暖反応晶析と内部結晶の再生経路_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\反応晶析と局部再生の物量検証_20261009\\design.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\反応晶析と局部再生の物量検証_20261009\\model.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\反応晶析と局部再生の物量検証_20261009\\protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\反応晶析と局部再生の物量検証_20261009\\sources.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding README.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding GPT往復\\README.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 調査台帳\\一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF encoding 調査台帳\\計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "all referenced local documents exist",
+      "passed": true
+    }
+  ],
+  "check_count": 30,
+  "data_rows": {
+    "supply": 36,
+    "charge": 12,
+    "recovery": 9,
+    "fixed_cost": 4,
+    "exchange": 12,
+    "wash": 5
+  },
+  "local_links_checked": 396,
+  "missing_links": [],
+  "all_passed": true
+}

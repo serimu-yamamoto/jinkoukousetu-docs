@@ -1,0 +1,102 @@
+{
+  "cycle": 68,
+  "physical_tests": 0,
+  "success_probability": null,
+  "route_successes": null,
+  "quantities_are": "Conservation bounds and assumption scenarios, not measurements or success probabilities",
+  "constants": {
+    "F_C_mol": 96485.33212,
+    "cystine_g_mol": 240.3,
+    "cysteine_g_mol": 121.16,
+    "tyrosine_g_mol": 181.19
+  },
+  "stoichiometry": {
+    "oxygen_kg_kg_cystine": 0.06658343736995422,
+    "cysteine_kg_kg_cystine": 1.0084061589679567,
+    "Ah_kg_cystine_theory": 223.06684265039073,
+    "Tyr_kg_m3_from_50mM_max": 9.0595,
+    "P_kg_per_kg_Tyr": 0.170946310491749
+  },
+  "oxygen_examples": {
+    "6mM_no_reaeration": {
+      "cysteine_mM": 6,
+      "initial_DO_mg_L": 7.5,
+      "kLa_per_h_assumed": 0,
+      "time_h": 1.0,
+      "feed_theoretical_cystine_kg_m3": 0.7209000000000001,
+      "O2_available_upper_kg_m3": 0.0075,
+      "product_oxygen_upper_kg_m3": 0.11264062500000001,
+      "fraction_of_feed_upper": 0.15625,
+      "liquid_L_per_kg_at_complete_reaction": 1387.1549452073796,
+      "evaporation_only_heat_kWh_per_kg_assumed": 901.6507143847967
+    },
+    "100mM_no_reaeration": {
+      "cysteine_mM": 100,
+      "initial_DO_mg_L": 7.5,
+      "kLa_per_h_assumed": 0,
+      "time_h": 1.0,
+      "feed_theoretical_cystine_kg_m3": 12.015,
+      "O2_available_upper_kg_m3": 0.0075,
+      "product_oxygen_upper_kg_m3": 0.11264062500000001,
+      "fraction_of_feed_upper": 0.009375,
+      "liquid_L_per_kg_at_complete_reaction": 83.22929671244277,
+      "evaporation_only_heat_kWh_per_kg_assumed": 54.0990428630878
+    },
+    "kLa_needed_for_6mM_feed_in_1h_oxygen_only": 5.4
+  },
+  "electrochemical_audit": {
+    "current_A_if_100cm2_and_400mA_cm2": 40.0,
+    "cysteine_g_h_2electron_ceiling_at_40A": 180.82582726979578,
+    "A_minimum_for_200g_cysteine_h": 44.2414677194527,
+    "combined_published_maxima_validated": false,
+    "hours_for_1kg_cystine_at_10A_100pct": 22.306684265039074
+  },
+  "energy_separate_conditions": {
+    "reduction_kWh_per_kg_cystine_equivalent": 1.0084061589679567,
+    "oxidation_3V_FE90pct_assumed_kWh_kg": 0.7435561421679691,
+    "pair_before_loss_kWh_kg": 1.7519623011359258,
+    "electricity_at_35JPY_kWh_assumed": 61.3186805397574,
+    "is_demonstrated_closed_loop": false
+  },
+  "recovery_example": {
+    "conditional_mass_yields_assumed": {
+      "collection": 0.9,
+      "reduction": 0.98,
+      "oxidation": 0.95,
+      "shape_retention": 0.8,
+      "functional_QC": 0.9
+    },
+    "net_mass_yield": 0.603288,
+    "P_new_JPY_kg_assumed": 6000.0,
+    "C_variable_JPY_retiredkg_assumed": 2000.0,
+    "fixed_JPY_year_assumed": 2000000.0,
+    "variable_saving_JPY_retiredkg": 1619.728,
+    "break_even_retiredkg_year": 1234.7752215186747,
+    "minimum_mass_yield_for_variable_break_even": 0.3333333333333333,
+    "cycles_until_original_mass_below_half_at_same_yield": 2
+  },
+  "exchange_basis": {
+    "bed_kg": 108000.0,
+    "closure_min": 60,
+    "handling_min": 40,
+    "other_tasks_min_assumed": 20,
+    "case_grains_kg_day": 540.0,
+    "case_crystal_kg_day": 5.4,
+    "case_inventory_kg_at_5day_lead_plus_1day_buffer": 3240.0
+  },
+  "wash_example": {
+    "wash_count": 3,
+    "retained_L_per_kg_phase_assumed": 0.1,
+    "wash_L_each_per_kg_phase": 1.0,
+    "KCl_residual_mg_per_kg_ideal": 5.601051840721262,
+    "total_wash_L_per_kg_phase": 3.0
+  },
+  "output_rows": {
+    "supply": 36,
+    "charge": 12,
+    "recovery": 9,
+    "fixed_cost": 4,
+    "exchange": 12,
+    "wash": 5
+  }
+}

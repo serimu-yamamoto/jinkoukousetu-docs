@@ -1,0 +1,94 @@
+{
+  "count": 22,
+  "checks": [
+    {
+      "name": "feed 6mM permits 0.7209 kg/m3 before soluble remainder",
+      "passed": true
+    },
+    {
+      "name": "oxygen and product mass balance",
+      "passed": true
+    },
+    {
+      "name": "initial oxygen cannot consume all 6mM feed",
+      "passed": true
+    },
+    {
+      "name": "high concentration does not cure oxygen shortage",
+      "passed": true
+    },
+    {
+      "name": "no negative or super-stoichiometric production",
+      "passed": true
+    },
+    {
+      "name": "zero feed-independent oxygen ceiling increases with transfer",
+      "passed": true
+    },
+    {
+      "name": "charge inverse returns kg",
+      "passed": true
+    },
+    {
+      "name": "10A 1kg takes more than 22h",
+      "passed": true
+    },
+    {
+      "name": "40A 200g/h incompatible with two electron cysteine stoichiometry",
+      "passed": true
+    },
+    {
+      "name": "two electrode sides do not silently double electrical current",
+      "passed": true
+    },
+    {
+      "name": "lower FE reduces production and increases duration",
+      "passed": true
+    },
+    {
+      "name": "conditional yield example product",
+      "passed": true
+    },
+    {
+      "name": "regeneration reject mass conserved",
+      "passed": true
+    },
+    {
+      "name": "perfect chemistry still permits functional failure",
+      "passed": true
+    },
+    {
+      "name": "fixed cost break-even gives zero net saving",
+      "passed": true
+    },
+    {
+      "name": "small factory throughput loses despite variable savings",
+      "passed": true
+    },
+    {
+      "name": "phase replacement cannot count as entire grain handling",
+      "passed": true
+    },
+    {
+      "name": "replacement inventory covers delay plus buffer",
+      "passed": true
+    },
+    {
+      "name": "full bed handling needs far more than selective removal",
+      "passed": true
+    },
+    {
+      "name": "ideal washing recurrence conserves solute",
+      "passed": true
+    },
+    {
+      "name": "phosphate atom molar balance",
+      "passed": true
+    },
+    {
+      "name": "not a physical success estimate",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}
