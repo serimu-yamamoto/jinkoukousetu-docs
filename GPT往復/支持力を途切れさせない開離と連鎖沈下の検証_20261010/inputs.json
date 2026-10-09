@@ -1,0 +1,61 @@
+{
+  "cycle": 101,
+  "date": "2026-10-10",
+  "base_commit": "e9d6d4931df7e6139194875af7ac837d04f7e917",
+  "n": [
+    25,
+    101
+  ],
+  "families": [
+    "U",
+    "K",
+    "D",
+    "KDpositive",
+    "KDnegative"
+  ],
+  "betas": [
+    0,
+    0.25,
+    0.5,
+    0.6,
+    0.75,
+    0.9,
+    1
+  ],
+  "threshold_range": [
+    0.5,
+    1.5
+  ],
+  "continuum_ranges": [
+    [
+      0.2,
+      1.8
+    ],
+    [
+      0.5,
+      1.5
+    ],
+    [
+      0.8,
+      1.2
+    ]
+  ],
+  "physical_trials": 0,
+  "success_probability": null,
+  "assumptions": [
+    "dimensionless rigid platen and parallel compression springs",
+    "global sharing; no spatial neighborhood or ski bending",
+    "one monotonic state transition per element; no healing",
+    "all parameters illustrative and not calibrated at 50 C"
+  ],
+  "prior_model": {
+    "path": "GPT往復/開離中の荷重移行と支持接点の検証_20261010/load_sharing.py",
+    "sha256": "cc02ae9baf81385c0ef78c7dbe0655e4021b405158171526f2fc6e8b2c2590fa",
+    "reuse": "concept and boundary-condition contrast; no copied beam code"
+  },
+  "claude_audit": {
+    "path": "調査台帳/物性値照合_自律ループv2v3.md",
+    "sha256_lf": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f",
+    "response_status": "unconfirmed"
+  }
+}

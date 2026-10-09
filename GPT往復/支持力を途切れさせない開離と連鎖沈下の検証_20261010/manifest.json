@@ -1,0 +1,113 @@
+{
+  "cycle": 101,
+  "base_commit": "e9d6d4931df7e6139194875af7ac837d04f7e917",
+  "hash_algorithm": "SHA256",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第101巡_支持力を途切れさせない開離と連鎖沈下の防止_20261010.md",
+      "bytes": 10361,
+      "sha256": "448ecdac3c2da83faeaffe3793d03e164e61099c0f9b83442c50f219a2bd7f95"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 65688,
+      "sha256": "5b902a741ba490d85eb6e1c0faaa05769b9d17bf980af5a75a7de417a81ea979"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/README.md",
+      "bytes": 1832,
+      "sha256": "015c23d8afbad319206c5465f79be4cd5e29f565f48ce8c797963375b36af599"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/claude_handoff.md",
+      "bytes": 2622,
+      "sha256": "5ced8acf29ca590619242011361fcbcfb60a5ec902e0cbbad97c9e7f03599166"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/independent_checks.json",
+      "bytes": 20329,
+      "sha256": "f875df27887bc09b31e34b868a31cf82f6d11392789a15a7125ed426b67f0f0b"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/independent_checks.py",
+      "bytes": 3258,
+      "sha256": "2a9759f65e2a17d78e55ad00dd94f421113898f81a19491038a812bb12800723"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/index_preservation.json",
+      "bytes": 1261,
+      "sha256": "ae773e809f818b635247ac6bce065893e75ab60f76fc3d2f0c3fae165afd090e"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/inputs.json",
+      "bytes": 1296,
+      "sha256": "a5e1c9d805813947f063fe93e038d3d824c4bff8cf261965562aae78bcf97521"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/model.md",
+      "bytes": 5566,
+      "sha256": "f3042dc27d01e1f81a7f84f1e2ae137e0582793d361cc6ce04481276d21e97af"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/publication_audit.json",
+      "bytes": 534,
+      "sha256": "ec122cbedcbe4b988eef4a78ec65f3bba29a8b66c356153d9156969e7c319297"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/reproduce.py",
+      "bytes": 9778,
+      "sha256": "9954feb4bf55ba3e6c840b248b7010094c54c711f9729d2b428ca0aafc61a715"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/research_state.json",
+      "bytes": 1323,
+      "sha256": "4c77c05531fa90412f7906a4c52548c89b88ad7197faeb9681e4dc04f2c47d42"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/results.json",
+      "bytes": 1537154,
+      "sha256": "6836152830579f7bd16551de9adf40edeb0c1bf5ba8ada6842d4c4671cc510fc"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/sources.md",
+      "bytes": 2725,
+      "sha256": "d3bd941694d32dae5c0d09109a84f5ca0dec34fc10c5aa6f78337dcb01f1b4c0"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/test_plan.md",
+      "bytes": 4009,
+      "sha256": "b288bd2a0f169dfd6e4dd21ab94c91e86a66173af5a2158f11faa51bca7d55db"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/trial_plan.json",
+      "bytes": 18305,
+      "sha256": "886c166190b68895f542fa3bec8ab59a78ef5c66632709be25cf812a8bc4fca1"
+    },
+    {
+      "path": "GPT往復/支持力を途切れさせない開離と連鎖沈下の検証_20261010/validation.json",
+      "bytes": 121438,
+      "sha256": "645baabb3c15069a880e67819fd8893916703879a5304b938ed72c36918b9461"
+    },
+    {
+      "path": "README.md",
+      "bytes": 75609,
+      "sha256": "b27fc3fa7d6204f4187101ec7df8a9a39064fd9f1558360c7d551888cab42f8e"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 177497,
+      "sha256": "796aaf34c16a5c812f4297cff85a18a30180d98155792d50042de0dbb9b8a9ce"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 25751,
+      "sha256": "94ec272904dbc5d6de3037de9e7a05ff8052ae992d392faac8a76ea7afe1ae54"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 230003,
+      "sha256": "ec821b17b061b2b033cce2599cd8ed853c8d752616f5a7a8a5cf93adfa92dd8f"
+    }
+  ]
+}

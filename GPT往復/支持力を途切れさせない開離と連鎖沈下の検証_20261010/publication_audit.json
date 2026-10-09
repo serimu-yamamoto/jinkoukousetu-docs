@@ -1,0 +1,15 @@
+{
+  "cycle": 101,
+  "base_commit": "e9d6d4931df7e6139194875af7ac837d04f7e917",
+  "local_link_checks": 19,
+  "links_valid": true,
+  "existing_indices_preserved": true,
+  "physics_trials": 0,
+  "success_probability": null,
+  "parameter_rows": 70,
+  "laws_per_row": 2,
+  "independent_load_checks": 490,
+  "trial_plan_assemblies": 54,
+  "public_byte_verification": "performed after commit; receipt retained in session before working-copy deletion",
+  "source_scope": "primary papers and prior repository; no external equipment contact"
+}
