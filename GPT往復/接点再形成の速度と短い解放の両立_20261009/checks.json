@@ -1,0 +1,114 @@
+[
+  {
+    "name": "prior_hash_GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008",
+    "passed": true
+  },
+  {
+    "name": "prior_hash_GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009",
+    "passed": true
+  },
+  {
+    "name": "prior_hash_GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009",
+    "passed": true
+  },
+  {
+    "name": "prior_hash_GPT回答_多方向探索第87巡_実雪の接触根拠と高さ分布から見直す荷重設計_20261009",
+    "passed": true
+  },
+  {
+    "name": "60_steady_cases",
+    "passed": true
+  },
+  {
+    "name": "attached_bounds",
+    "passed": true
+  },
+  {
+    "name": "renewal_flux_balance",
+    "passed": true
+  },
+  {
+    "name": "half_force_from_uniform_attached_age",
+    "passed": true
+  },
+  {
+    "name": "cycle_work_force_identity",
+    "passed": true
+  },
+  {
+    "name": "48_inverse_cases",
+    "passed": true
+  },
+  {
+    "name": "inverse_residual_boundary",
+    "passed": true
+  },
+  {
+    "name": "inverse_rest_boundary",
+    "passed": true
+  },
+  {
+    "name": "16_partner_cases",
+    "passed": true
+  },
+  {
+    "name": "partner_ceiling",
+    "passed": true
+  },
+  {
+    "name": "95_percent_availability_insufficient_at_finite_time",
+    "passed": true
+  },
+  {
+    "name": "12_gating_constraints",
+    "passed": true
+  },
+  {
+    "name": "gating_boundary",
+    "passed": true
+  },
+  {
+    "name": "8_age_grid_cases",
+    "passed": true
+  },
+  {
+    "name": "cohort_mass_conservation",
+    "passed": true
+  },
+  {
+    "name": "cohort_energy_conservation",
+    "passed": true
+  },
+  {
+    "name": "nonnegative_population_and_moments",
+    "passed": true
+  },
+  {
+    "name": "cohort_agrees_with_discrete_stationary_solution",
+    "passed": true
+  },
+  {
+    "name": "cohort_converges_to_continuum",
+    "passed": true
+  },
+  {
+    "name": "400_cells_continuum_error_under_0_3_percent",
+    "passed": true
+  },
+  {
+    "name": "single_release_work_half_and_no_residual",
+    "passed": true
+  },
+  {
+    "name": "rapid_rebinding_adds_work",
+    "passed": true
+  },
+  {
+    "name": "same_rate_low_speed_conflict",
+    "passed": true
+  },
+  {
+    "name": "no_measured_probability",
+    "passed": true
+  }
+]

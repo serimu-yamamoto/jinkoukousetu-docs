@@ -1,0 +1,160 @@
+{
+  "cycle": 88,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "base_commit": "2c19d586c5b1f2ec2f211792ddb5428c3b69870f",
+  "created": "2026-10-09",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第88巡_滑走中の再係合を抑えて通過後に戻す接点_20261009.md",
+      "bytes": 11013,
+      "sha256": "9727b9f67a2646567df343c0f5dd1e6320c8f12114b703deae7a43bce66b7d9f"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 58607,
+      "sha256": "475b14d41fdcc903ba054bb52d26b07b844c8a675d51aac3ff03fd5c643459e1"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/README.md",
+      "bytes": 1390,
+      "sha256": "2a18f2fdc5fa34fe4286656eff34af9c3ff16cb0a29cc94b94ac09e0ccf7797e"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/audit.py",
+      "bytes": 5265,
+      "sha256": "0cfa679004c77daf2a5fcb59054cc46f0728e1df2acd4e4645c50d6f28436a06"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/checks.json",
+      "bytes": 2314,
+      "sha256": "e0b433cb2b00131c0a79290ae2c2dc14aaa3829d3f2c3515a3dcb73eb182d265"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/claude_handoff.md",
+      "bytes": 2351,
+      "sha256": "00bead47d4e0abeafa423d0ef3d019d3fff1c4e58d25dbaa0dc0ed03310c9c0f"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/decision.json",
+      "bytes": 902,
+      "sha256": "788265d99097c435ceb49d745c16e4bae64dd2b20610628c8924549a4b8dcda3"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/document_audit.json",
+      "bytes": 6214,
+      "sha256": "075c71a23c1e4e3bdc8479f6e50d31cdb3c0e2988fc71a65e47219054ead90ee"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/draw.py",
+      "bytes": 4864,
+      "sha256": "c3b42303bc766bcb885901401d28a13a81e9f8e67d96e90752e762a5533c080a"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/gating_requirements.json",
+      "bytes": 4249,
+      "sha256": "70421d008ecf60272ae051269fb1b961cd31bb03e9f8549e660c1af462be9404"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/index_changes.json",
+      "bytes": 5092,
+      "sha256": "074ce948b439092053a2d031e9c506430a897a42cae11d2b947c1cb2b4d7366a"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/inputs.json",
+      "bytes": 1667,
+      "sha256": "94e78ad01a8940983651ad6af8840fefa10a21d38fd3f07d45bbd4274aa44070"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/measurement_protocol.md",
+      "bytes": 3543,
+      "sha256": "6c71952be7c336cfa7460b4057be26ea4b26039cc9e6ff63e0c62b7f28e45f90"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/model.md",
+      "bytes": 4728,
+      "sha256": "3152e39fc030da781a3dceb99227d8ff459e90aa8a62983f4fa23a73ef398d14"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/numerical_validation.json",
+      "bytes": 3394,
+      "sha256": "b73f4098ce88ae282ed5c5bda5101d0c9208d8845b81d850c6a1aa45dd70b606"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/partner_availability.json",
+      "bytes": 4214,
+      "sha256": "ac0677085b24f616de3acc8db788564d3ff8e8cc5387bf4a1c5f047bd568184c"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/plot_metadata.json",
+      "bytes": 199,
+      "sha256": "491224f3ec753213e131cd49b79f2a8fcba5a38cecdf716ea99b9e2dcf69ec59"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/rate_window_and_design.png",
+      "bytes": 198127,
+      "sha256": "35bfcadf6ede4b6842f4a85234b56f1cd636da3d9941e7ef5744305ea96cba13"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/rate_windows.json",
+      "bytes": 15592,
+      "sha256": "260b0f68e06d3ee81dd58d2be694e349b57695a367372ce1c6da5aad4e91094f"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/renewal_and_recovery.png",
+      "bytes": 320966,
+      "sha256": "b2685bc165c301a8ca7a9279c50b7242406a7159f7937161ae720a17fc8bba3e"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/reproduce.py",
+      "bytes": 10391,
+      "sha256": "744756e0ba7b18de466c330c0b5512c4966d991b3fd39b335066f573247e8998"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/sources.json",
+      "bytes": 2642,
+      "sha256": "7732326fb500b23b570ed33da074b2910603dcb11fdb02ddfc6aa335efa25df3"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/steady_renewal.json",
+      "bytes": 23155,
+      "sha256": "6fe8a184291f6187fb2a9bef81f00c2e018e874ab264c5fda3d0713b80a01ab0"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/summary.json",
+      "bytes": 713,
+      "sha256": "9f483d8a427db4fa388d7a9b4198abdb79a9bc2c1da59fb7c4cddaa2d395a81e"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/test_plan.json",
+      "bytes": 1027,
+      "sha256": "11bfd0c431af4b51489b125b74a0d94b2f9ea76c6554394e960ec6d2a66f940a"
+    },
+    {
+      "path": "GPT往復/接点再形成の速度と短い解放の両立_20261009/transient_curves.json",
+      "bytes": 382112,
+      "sha256": "971a354e6b2de3dffa0adc9ce5155706711b2a1e485677abbc710d9e96515a6a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 68423,
+      "sha256": "18734d796ccfca0498e5bfb652f3ac788c65d1225e3fe83ccf4845a44dd3a8c6"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 166220,
+      "sha256": "ebf498a0b6561e8d04a0a60d6252fdc6390bc940398d75f4567b087d8aa045fb"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 20125,
+      "sha256": "334a4af01bbe49a827ba01ea4fc3622280ef7d1abb0dc7cfbaaee1dc22839faf"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 224867,
+      "sha256": "959ec15d5508de341fb217e5b83b9a5b4856add79168ff5fa18f592f89c1b79a"
+    }
+  ]
+}

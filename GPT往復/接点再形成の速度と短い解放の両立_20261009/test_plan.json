@@ -1,0 +1,44 @@
+[
+  {
+    "id": "H88-O1",
+    "observation": "single-contact release distance distribution",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H88-O2",
+    "observation": "continuous local slip with recapture and work",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H88-O3",
+    "observation": "pause under load versus unloading",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H88-O4",
+    "observation": "rest-time reformation and partner availability",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H88-O5",
+    "observation": "wet-dry and regrading repeat",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  },
+  {
+    "id": "H88-O6",
+    "observation": "matched ski-snow glide and edge comparison",
+    "status": "not_run",
+    "measurements": null,
+    "replicate_count": null
+  }
+]

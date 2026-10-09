@@ -1,0 +1,324 @@
+{
+  "checks": [
+    {
+      "name": "no_physical_results_or_probability",
+      "passed": true
+    },
+    {
+      "name": "no_external_supplier_action",
+      "passed": true
+    },
+    {
+      "name": "28_numeric_checks",
+      "passed": true
+    },
+    {
+      "name": "144_calculation_records",
+      "passed": true
+    },
+    {
+      "name": "1604_curve_samples",
+      "passed": true
+    },
+    {
+      "name": "no_actual_rates_or_snow_target",
+      "passed": true
+    },
+    {
+      "name": "unquoted_total",
+      "passed": true
+    },
+    {
+      "name": "no_ski_adoption",
+      "passed": true
+    },
+    {
+      "name": "6_unperformed_observation_specs",
+      "passed": true
+    },
+    {
+      "name": "all_contact_results_diagnostics",
+      "passed": true
+    },
+    {
+      "name": "all_windows_not_empirical_passes",
+      "passed": true
+    },
+    {
+      "name": "no_proven_gating_mechanism",
+      "passed": true
+    },
+    {
+      "name": "reformed_fraction_not_strength",
+      "passed": true
+    },
+    {
+      "name": "reported_work_ratio",
+      "passed": true
+    },
+    {
+      "name": "primary_sources",
+      "passed": true
+    },
+    {
+      "name": "no_third_party_PDF_in_artifacts",
+      "passed": true
+    },
+    {
+      "name": "figures_own_unmanufactured_concept",
+      "passed": true
+    },
+    {
+      "name": "png_signature_renewal_and_recovery.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_renewal_and_recovery.png",
+      "passed": true
+    },
+    {
+      "name": "png_signature_rate_window_and_design.png",
+      "passed": true
+    },
+    {
+      "name": "png_dimensions_rate_window_and_design.png",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_21",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_23",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_24",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_25",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_27",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_29",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_31",
+      "passed": true
+    },
+    {
+      "name": "history_preserved_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "claude_ledger_unchanged",
+      "passed": true
+    },
+    {
+      "name": "report_guard_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_guard_成功確率は未算定",
+      "passed": true
+    },
+    {
+      "name": "report_guard_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_guard_最適解や採用確定とはしません",
+      "passed": true
+    },
+    {
+      "name": "report_guard_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_guard_R39",
+      "passed": true
+    },
+    {
+      "name": "report_guard_約60分",
+      "passed": true
+    },
+    {
+      "name": "report_guard_人体・環境への無害性は未証明",
+      "passed": true
+    },
+    {
+      "name": "report_guard_受領・返答・稼働は未確認",
+      "passed": true
+    },
+    {
+      "name": "report_guard_総製造費は未取得",
+      "passed": true
+    },
+    {
+      "name": "report_guard_1/9",
+      "passed": true
+    },
+    {
+      "name": "report_guard_28照合",
+      "passed": true
+    },
+    {
+      "name": "report_guard_144計算",
+      "passed": true
+    },
+    {
+      "name": "report_guard_1,604曲線",
+      "passed": true
+    },
+    {
+      "name": "report_guard_5％・95％",
+      "passed": true
+    },
+    {
+      "name": "report_guard_相手",
+      "passed": true
+    },
+    {
+      "name": "local_links",
+      "passed": true
+    },
+    {
+      "name": "LF_GPT回答_多方向探索第88巡_滑走中の再係合を抑えて通過後に戻す接点_20261009.md",
+      "passed": true
+    },
+    {
+      "name": "LF_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_checks.json",
+      "passed": true
+    },
+    {
+      "name": "LF_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_decision.json",
+      "passed": true
+    },
+    {
+      "name": "LF_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_gating_requirements.json",
+      "passed": true
+    },
+    {
+      "name": "LF_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_measurement_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_numerical_validation.json",
+      "passed": true
+    },
+    {
+      "name": "LF_partner_availability.json",
+      "passed": true
+    },
+    {
+      "name": "LF_plot_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "LF_rate_windows.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_sources.json",
+      "passed": true
+    },
+    {
+      "name": "LF_steady_renewal.json",
+      "passed": true
+    },
+    {
+      "name": "LF_summary.json",
+      "passed": true
+    },
+    {
+      "name": "LF_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_transient_curves.json",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "LF_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_一般.md",
+      "passed": true
+    },
+    {
+      "name": "LF_計算部品索引.md",
+      "passed": true
+    }
+  ],
+  "local_links_checked": 607,
+  "python": "3.12.14",
+  "physical_experiments": 0,
+  "success_probability": null
+}

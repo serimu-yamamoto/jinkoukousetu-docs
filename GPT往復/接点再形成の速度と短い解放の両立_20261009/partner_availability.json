@@ -1,0 +1,130 @@
+[
+  {
+    "available_partner_fraction_assumed": 0.5,
+    "rest_time_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.31606027941427883,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.5,
+    "rest_time_s_assumed": 0.5,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.49663102650045726,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.5,
+    "rest_time_s_assumed": 2,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.4999999989694232,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.5,
+    "rest_time_s_assumed": 10,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.5,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.8,
+    "rest_time_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.5056964470628461,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.8,
+    "rest_time_s_assumed": 0.5,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.7946096424007316,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.8,
+    "rest_time_s_assumed": 2,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.7999999983510772,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.8,
+    "rest_time_s_assumed": 10,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.8,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.95,
+    "rest_time_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.6005145308871298,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.95,
+    "rest_time_s_assumed": 0.5,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.9435989503508687,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.95,
+    "rest_time_s_assumed": 2,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.949999998041904,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 0.95,
+    "rest_time_s_assumed": 10,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.95,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 1,
+    "rest_time_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.6321205588285577,
+    "meets_provisional_fraction": false,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 1,
+    "rest_time_s_assumed": 0.5,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.9932620530009145,
+    "meets_provisional_fraction": true,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 1,
+    "rest_time_s_assumed": 2,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 0.9999999979388464,
+    "meets_provisional_fraction": true,
+    "actual_recovered_bed_strength": null
+  },
+  {
+    "available_partner_fraction_assumed": 1,
+    "rest_time_s_assumed": 10,
+    "reset_wait_s_assumed": 0.1,
+    "reformed_fraction_after_full_release": 1.0,
+    "meets_provisional_fraction": true,
+    "actual_recovered_bed_strength": null
+  }
+]

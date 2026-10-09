@@ -1,0 +1,67 @@
+{
+  "cycle": 88,
+  "base_commit": "2c19d586c5b1f2ec2f211792ddb5428c3b69870f",
+  "physical_experiments": 0,
+  "success_probability": null,
+  "release_distance_um_assumed": [
+    20,
+    100,
+    500
+  ],
+  "local_slip_speed_m_s_assumed": [
+    0.001,
+    0.01,
+    0.1,
+    1
+  ],
+  "off_wait_s_assumed": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "rest_time_s_assumed": [
+    0.1,
+    0.5,
+    2,
+    10
+  ],
+  "residual_ratio_max_assumed": 0.05,
+  "recovered_fraction_min_assumed": 0.95,
+  "availability_assumed": [
+    0.5,
+    0.8,
+    0.95,
+    1
+  ],
+  "reset_wait_s_assumed": 0.1,
+  "dimensionless_ratios_for_numeric": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "grid_cells": [
+    200,
+    400
+  ],
+  "prior_paths": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第32巡_板の走りとエッジの切れを分ける接点設計_20261008.md",
+      "sha256_lf": "6d008230d0cb418d7fdd7474a9a55ddb63b1270f2ae66fb1ede0a588e4e0787a"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第39巡_分断後の枝支持と拘束を切り替える整地_20261009.md",
+      "sha256_lf": "c3c46fcdbad87975d5d30760de1ad10cb3dd99e003394ae7e3cc92edddd2b8af"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第49巡_粒群の硬化を抑えて雪の支えと解放へ近づける_20261009.md",
+      "sha256_lf": "4da36785136a55b44c6265c1f18b01799fa2ff73469c11ca13f434f128301313"
+    },
+    {
+      "path": "GPT往復/GPT回答_多方向探索第87巡_実雪の接触根拠と高さ分布から見直す荷重設計_20261009.md",
+      "sha256_lf": "e1219a21b159e4356b144bd751d8da71330aecac2f078d264c306a3078884ada"
+    }
+  ]
+}

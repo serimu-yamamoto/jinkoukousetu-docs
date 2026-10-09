@@ -1,0 +1,40 @@
+[
+  {
+    "id": "S1",
+    "title": "Combined effects of particle geometry and applied vibrations on the mechanics and strength of entangled materials",
+    "authors": "Saeed Pezeshki; Francois Barthelat",
+    "year": 2026,
+    "url": "https://www.colorado.edu/lab/barthelat/sites/default/files/2026-04/JAP2026.pdf",
+    "doi": "10.1063/5.0308921",
+    "verified": "2026-10-09",
+    "access": "Author institution PDF; page 10 Figures 10 and 11 rendered and inspected",
+    "pdf_sha256": "be22514f900c7544128b4139842f3e6b9e042f0f77074c679966bfa7f38494f1",
+    "evidence": "In the DEM analysis, a steady mean entanglement can coexist with nonzero entangling and disentangling rates. Steel-staple experiments show jagged tensile curves and history dependence.",
+    "scope": "Previously used in cycle 39 for vibration and confinement. Here it motivates tracking reformation during slip; no force, rate or geometry parameter transferred to warm polymer particles.",
+    "data_access": "Underlying data available from corresponding author on reasonable request; no data request sent and no raw-data reproduction claimed."
+  },
+  {
+    "id": "S2",
+    "title": "Tuning geometry in staple-like entangled particles: pick-up experiments and Monte Carlo simulations",
+    "authors": "Youhan Sohn; Saeed Pezeshki; Francois Barthelat",
+    "year": 2025,
+    "url": "https://link.springer.com/article/10.1007/s10035-025-01531-w",
+    "doi": "10.1007/s10035-025-01531-w",
+    "verified": "2026-10-09",
+    "access": "Publisher full HTML, sections 3–6",
+    "evidence": "Pick-up efficacy depends on leg angle, length and backbone thickness. The geometry that maximizes lifted fraction need not maximize short-distance release.",
+    "scope": "Steel and acrylic staples at low-rate laboratory conditions; not a snow ski test. Neither optimal angle nor lifted fraction is adopted as a success probability or material property."
+  },
+  {
+    "id": "S3",
+    "title": "Transient response of nonlinear polymer networks: A kinetic theory",
+    "authors": "Franck J. Vernerey",
+    "year": 2018,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6824477/",
+    "doi": "10.1016/j.jmps.2018.02.018",
+    "verified": "2026-10-09",
+    "access": "Full author manuscript, section 2.3",
+    "evidence": "Population kinetics distinguish deformation, attachment in a relaxed configuration and detachment of loaded chains, with stress and energy depending on the distribution.",
+    "scope": "Methodological analogy only. This cycle uses discrete particle-contact proxies, not a calibrated molecular network or reproduction of the paper's nonlinear polymer law."
+  }
+]

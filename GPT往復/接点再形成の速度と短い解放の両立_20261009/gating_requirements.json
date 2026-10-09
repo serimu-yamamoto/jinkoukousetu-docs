@@ -1,0 +1,122 @@
+[
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 0.5555555555555556,
+    "required_rate_suppression_factor": 1.7999999999999998,
+    "equivalent_mean_no_capture_slip_distance_um": 180.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 180.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 180.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 1,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 180.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 0.11111111111111112,
+    "required_rate_suppression_factor": 9.0,
+    "equivalent_mean_no_capture_slip_distance_um": 900.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 900.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 900.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 1,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 900.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 0.02222222222222222,
+    "required_rate_suppression_factor": 45.00000000000001,
+    "equivalent_mean_no_capture_slip_distance_um": 4500.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 0.2222222222222222,
+    "required_rate_suppression_factor": 4.5,
+    "equivalent_mean_no_capture_slip_distance_um": 4500.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 4500.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 1,
+    "reset_wait_s_assumed": 0.1,
+    "maximum_sliding_to_rest_attachment_rate_ratio": 1.0,
+    "required_rate_suppression_factor": 1.0,
+    "equivalent_mean_no_capture_slip_distance_um": 4500.0,
+    "mechanism_demonstrated": false,
+    "actual_alpha": null
+  }
+]

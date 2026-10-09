@@ -1,0 +1,25 @@
+{
+  "cycle": 88,
+  "numeric_checks": 28,
+  "calculation_rows": 144,
+  "curve_sample_rows": 1604,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "provider_contacts_sent": 0,
+  "orders_placed": 0,
+  "equipment_secured": false,
+  "actual_50C_rates": null,
+  "actual_total_manufacturing_cost_yen": null,
+  "actual_snow_residual_target": null,
+  "numerical_model": "equal independent linear contacts; deterministic slip release; exponential waiting; rigid imposed local slip",
+  "not_included": [
+    "ski-base friction",
+    "force-chain geometry",
+    "normal contact coupling",
+    "strain softening inside individual arms",
+    "wet adhesion",
+    "creep",
+    "aging",
+    "snow equivalence"
+  ]
+}

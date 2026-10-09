@@ -1,0 +1,482 @@
+[
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.18,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.18,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.18,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.18,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.018,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.018,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.018,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.018,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.0017999999999999997,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.0017999999999999997,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.0017999999999999997,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.0017999999999999997,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.00017999999999999998,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.00017999999999999998,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.00017999999999999998,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 20,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.00017999999999999998,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.8999999999999999,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.8999999999999999,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.8999999999999999,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.8999999999999999,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.09,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.09,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.09,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.09,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.009,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.009,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.009,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.009,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.0009,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.0009,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.0009,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 100,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.0009,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 4.5,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 4.5,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 4.5,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.001,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 4.5,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.45000000000000007,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.45000000000000007,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.45000000000000007,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.01,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.45000000000000007,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.045000000000000005,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": false,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.045000000000000005,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.045000000000000005,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 0.1,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.045000000000000005,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 0.1,
+    "minimum_sliding_wait_s": 0.0045000000000000005,
+    "maximum_rest_wait_s": 0.03338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 0.5,
+    "minimum_sliding_wait_s": 0.0045000000000000005,
+    "maximum_rest_wait_s": 0.1669041003476671,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 2,
+    "minimum_sliding_wait_s": 0.0045000000000000005,
+    "maximum_rest_wait_s": 0.6676164013906684,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  },
+  {
+    "release_distance_um_assumed": 500,
+    "local_slip_speed_m_s_assumed": 1,
+    "rest_time_s_assumed": 10,
+    "minimum_sliding_wait_s": 0.0045000000000000005,
+    "maximum_rest_wait_s": 3.338082006953342,
+    "one_rate_necessary_window_exists": true,
+    "availability_assumed": 1,
+    "empirical_pass_or_fail": null
+  }
+]
