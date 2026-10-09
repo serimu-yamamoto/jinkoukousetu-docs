@@ -1,0 +1,25 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "routes": [
+    "dry open skeleton support",
+    "isolated local wet connections",
+    "continuous wet connection control"
+  ],
+  "priority_checks": [
+    "temperature-water-shrinkage curve of actual complete material",
+    "free versus ice-bridged patch boundaries",
+    "frozen and thawing snow grain bed ground load path",
+    "drainage under frozen skin and blocked outlets",
+    "actual sole50C dry wet dry after winter cycling",
+    "patch detachment wear safety rain recovery60min grooming and total cost"
+  ],
+  "limits": [
+    "No source recipe adopted",
+    "No8-patch optimum claim",
+    "No strength or energy release criterion supplied"
+  ]
+}

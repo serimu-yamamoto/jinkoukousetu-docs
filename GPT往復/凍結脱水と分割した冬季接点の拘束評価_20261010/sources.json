@@ -1,0 +1,37 @@
+[
+  {
+    "id": "new_primary",
+    "doi": "10.1126/sciadv.ado7750",
+    "title": "Dehydration drives damage in the freezing of brittle hydrogels",
+    "authors": "Yang et al.",
+    "publication_date": "2024-08-23",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11343028/",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11343028/fullTextXML",
+    "xml_bytes": 93290,
+    "xml_sha256": "d01989c8aa884efee5d879ae14d26a1fb5bde8644b2a56d867f3fd0c2d5ca76f",
+    "read_date": "2026-10-10",
+    "scope": "Original published article fullTextXML: selected Results on volumetric expansion/cryosuction, isothermal shrinkage, interface fracture, dehydration mechanism; Discussion and Materials/Methods. No independent figure digitization, supplement or raw dataset read.",
+    "limits": "Specific brittle PEGDA hydrogel/glass at low temperature; not dry PE/PK candidate. No recipe, modulus or fracture energy adopted. Hypothetical5% small-strain analysis not a replacement for measured large-volume shrinkage."
+  },
+  {
+    "id": "reused48_sources",
+    "repository_path": "GPT往復/冬季接続と融雪排水検証_20261009/sources.json"
+  },
+  {
+    "id": "reused48_calculation",
+    "repository_path": "GPT往復/冬季接続と融雪排水検証_20261009/calculate.py",
+    "scope": "Read load path and series-drainage calculation; no new soil/hydraulic coefficient imported."
+  },
+  {
+    "id": "reused127",
+    "repository_path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/model.md"
+  },
+  {
+    "id": "reused128",
+    "repository_path": "GPT往復/温暖粒形成と結晶安定化の工程分離_20261010/model.md"
+  },
+  {
+    "id": "own_derivation",
+    "scope": "One-dimensional linear shrinking strip on shear springs, closed-form solution checked by consistent finite elements; every material and load input hypothetical."
+  }
+]

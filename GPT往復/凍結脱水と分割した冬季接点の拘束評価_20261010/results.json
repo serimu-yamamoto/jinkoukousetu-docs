@@ -1,0 +1,2380 @@
+{
+  "cycle": 129,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/冬季接続と融雪排水検証_20261009/sources.json": "d02d2e02dd3f39bd7d100c0d31178ccc24c1944de51dc6d8dfdbb1ee987c1342",
+    "GPT往復/冬季接続と融雪排水検証_20261009/calculate.py": "5f61f2fb4644d28e22eb0d12ccf1cde8bc31245d1465748c601ef8533be8cc90",
+    "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/model.md": "b85ffb99f1e829a99709b1c59c59d98e160cdb9c9d5aba9bb444ac3d0e158520",
+    "GPT往復/温暖粒形成と結晶安定化の工程分離_20261010/model.md": "1ce6a9fae962d2a7315cebd31ec198cb87672f36760c91a72909a3f567171327"
+  },
+  "patch_cases": [
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 0,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 9.999999999999998,
+        "peak_tensile_Pa": 4999.546000703311,
+        "peak_abs_interface_shear_Pa": 4999.999979388464,
+        "shrink_shear_Pa": 4999.999979388464,
+        "stored_J_per_m_width": 2.0250000009275194e-06
+      },
+      "total_stored_J_per_m_width": 2.0250000009275194e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.01588915710360324,
+          "normalized_displacement_error": 0.015889157038103154,
+          "normalized_stress_error": 0.00907155453306259,
+          "relative_energy_error": 0.0017654618923137466
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.004044342058054899,
+          "normalized_displacement_error": 0.004044342041382927,
+          "normalized_stress_error": 0.0030071823564223905,
+          "relative_energy_error": 0.00044937133772560145
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 0.0010157029436749312,
+          "normalized_displacement_error": 0.0010157029394884996,
+          "normalized_stress_error": 0.0008723074598866674,
+          "relative_energy_error": 0.0001128558821137382
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 0.0002542161584451978,
+          "normalized_displacement_error": 0.000254216157404163,
+          "normalized_stress_error": 0.00023535039303126837,
+          "relative_energy_error": 2.8246239698326292e-05
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 0,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 4.916666666666666,
+        "peak_tensile_Pa": 4926.768908865237,
+        "peak_abs_interface_shear_Pa": 4999.463691966491,
+        "shrink_shear_Pa": 4999.463691966491,
+        "stored_J_per_m_width": 8.81274133861508e-07
+      },
+      "total_stored_J_per_m_width": 1.762548267723016e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.003907340098539216,
+          "normalized_displacement_error": 0.003906920990962393,
+          "normalized_stress_error": 0.0029214809705271363,
+          "relative_energy_error": 0.000997484425322659
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.0009811436031904924,
+          "normalized_displacement_error": 0.0009810383641515757,
+          "normalized_stress_error": 0.0008455381800876125,
+          "relative_energy_error": 0.0002504710208244276
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 0.0002455568443864496,
+          "normalized_displacement_error": 0.0002455305055655234,
+          "normalized_stress_error": 0.00022785455998366614,
+          "relative_energy_error": 6.26869229729543e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 6.14061710897241e-05,
+          "normalized_displacement_error": 6.139958457109658e-05,
+          "normalized_stress_error": 5.916812904305289e-05,
+          "relative_energy_error": 1.567606038466174e-05
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 0,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 2.375,
+        "peak_tensile_Pa": 4077.833412138048,
+        "peak_abs_interface_shear_Pa": 4914.225145862881,
+        "shrink_shear_Pa": 4914.225145862881,
+        "stored_J_per_m_width": 3.1323486843617044e-07
+      },
+      "total_stored_J_per_m_width": 1.2529394737446818e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.0008413892280487106,
+          "normalized_displacement_error": 0.0008269552203883447,
+          "normalized_stress_error": 0.0007900668172642327,
+          "relative_energy_error": 0.0005940108951347778
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.00021057565969669805,
+          "normalized_displacement_error": 0.00020696324040005937,
+          "normalized_stress_error": 0.0002128259402220408,
+          "relative_energy_error": 0.00014866393809276346
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 5.265820855777968e-05,
+          "normalized_displacement_error": 5.1754858531891954e-05,
+          "normalized_stress_error": 5.5247550999391134e-05,
+          "relative_energy_error": 3.7176075661005115e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.3165445826728493e-05,
+          "normalized_displacement_error": 1.2939592991139749e-05,
+          "normalized_stress_error": 1.4075460296857045e-05,
+          "relative_energy_error": 9.29464985000017e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 0,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 1.1041666666666665,
+        "peak_tensile_Pa": 2013.3174705848417,
+        "peak_abs_interface_shear_Pa": 4009.953549417534,
+        "shrink_shear_Pa": 4009.953549417534,
+        "stored_J_per_m_width": 6.798959027621102e-08
+      },
+      "total_stored_J_per_m_width": 5.439167222096882e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.00010087875565779752,
+          "normalized_displacement_error": 8.090382486335567e-05,
+          "normalized_stress_error": 0.0001853092742726517,
+          "relative_energy_error": 0.0002677374657074072
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 2.523371533123608e-05,
+          "normalized_displacement_error": 2.023720527649372e-05,
+          "normalized_stress_error": 4.793387410853427e-05,
+          "relative_energy_error": 6.697159334079217e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 6.309305772740569e-06,
+          "normalized_displacement_error": 5.060004630308344e-06,
+          "normalized_stress_error": 1.2190643445487127e-05,
+          "relative_energy_error": 1.6745225290826227e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.577380794458306e-06,
+          "normalized_displacement_error": 1.2650447769504264e-06,
+          "normalized_stress_error": 3.073965231970277e-06,
+          "relative_energy_error": 4.186451761478693e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 0,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 0.46874999999999994,
+        "peak_tensile_Pa": 503.1511973763403,
+        "peak_abs_interface_shear_Pa": 2185.943925708562,
+        "shrink_shear_Pa": 2185.943925708562,
+        "stored_J_per_m_width": 7.1012733431147244e-09
+      },
+      "total_stored_J_per_m_width": 1.1362037348983559e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 4.743610121184402e-06,
+          "normalized_displacement_error": 2.073853155939049e-06,
+          "normalized_stress_error": 3.5124500497501995e-05,
+          "relative_energy_error": 6.570891394197531e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.1865731925001746e-06,
+          "normalized_displacement_error": 5.187565030978606e-07,
+          "normalized_stress_error": 8.859765334074155e-06,
+          "relative_energy_error": 1.6436518693652147e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 2.966851757407435e-07,
+          "normalized_displacement_error": 1.2970747185518143e-07,
+          "normalized_stress_error": 2.2249857412337092e-06,
+          "relative_energy_error": 4.109710297406366e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 7.417384711789647e-08,
+          "normalized_displacement_error": 3.242800134681834e-08,
+          "normalized_stress_error": 5.57515458743385e-07,
+          "relative_energy_error": 1.0274638631013744e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 2000,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 2000.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 9.999999999999998,
+        "peak_tensile_Pa": 4999.546000703311,
+        "peak_abs_interface_shear_Pa": 6999.999979388464,
+        "shrink_shear_Pa": 4999.999979388464,
+        "stored_J_per_m_width": 2.3850000009275193e-06
+      },
+      "total_stored_J_per_m_width": 2.3850000009275193e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.01134939791777809,
+          "normalized_displacement_error": 0.0113493978843598,
+          "normalized_stress_error": 0.00907155453306259,
+          "relative_energy_error": 0.0014989770784832324
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.002888815752351306,
+          "normalized_displacement_error": 0.00288881574384525,
+          "normalized_stress_error": 0.0030071823564223905,
+          "relative_energy_error": 0.00038154170186865954
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 0.0007255021017700633,
+          "normalized_displacement_error": 0.0007255020996356006,
+          "normalized_stress_error": 0.0008723074598866674,
+          "relative_energy_error": 9.582103199079484e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 0.00018158297010880704,
+          "normalized_displacement_error": 0.00018158296957420045,
+          "normalized_stress_error": 0.00023535039303126837,
+          "relative_energy_error": 2.3982656350396425e-05
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 2033.898305084746,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 4.916666666666666,
+        "peak_tensile_Pa": 4926.768908865237,
+        "peak_abs_interface_shear_Pa": 7033.361997051237,
+        "shrink_shear_Pa": 4999.463691966491,
+        "stored_J_per_m_width": 1.0643249813191351e-06
+      },
+      "total_stored_J_per_m_width": 2.1286499626382703e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.002777420664967866,
+          "normalized_displacement_error": 0.0027772088971903352,
+          "normalized_stress_error": 0.0029214809705275457,
+          "relative_energy_error": 0.0008259293339871743
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.0006974177957569567,
+          "normalized_displacement_error": 0.0006973646203023238,
+          "normalized_stress_error": 0.0008455381800876125,
+          "relative_energy_error": 0.00020739307618566905
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 0.0001745470414312552,
+          "normalized_displacement_error": 0.00017453373288201356,
+          "normalized_stress_error": 0.00022785455998366614,
+          "relative_energy_error": 5.190554079170795e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.3648815857498225e-05,
+          "normalized_displacement_error": 4.364548784867055e-05,
+          "normalized_stress_error": 5.916812904305289e-05,
+          "relative_energy_error": 1.2979970223092607e-05
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 2105.2631578947367,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 2.375,
+        "peak_tensile_Pa": 4077.833412138048,
+        "peak_abs_interface_shear_Pa": 7019.488303757617,
+        "shrink_shear_Pa": 4914.225145862881,
+        "stored_J_per_m_width": 4.0797171054143355e-07
+      },
+      "total_stored_J_per_m_width": 1.6318868421657342e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.0005890423807278878,
+          "normalized_displacement_error": 0.0005819314513843907,
+          "normalized_stress_error": 0.0007900668172646533,
+          "relative_energy_error": 0.0004560731045311073
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.0001474204610356835,
+          "normalized_displacement_error": 0.00014564079880014113,
+          "normalized_stress_error": 0.00021282594022398483,
+          "relative_energy_error": 0.0001141420541850291
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.68651219939985e-05,
+          "normalized_displacement_error": 3.6420085632659506e-05,
+          "normalized_stress_error": 5.524755100688594e-05,
+          "relative_energy_error": 2.8543261371805073e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 9.216906158756449e-06,
+          "normalized_displacement_error": 9.105639515363171e-06,
+          "normalized_stress_error": 1.4075460304491116e-05,
+          "relative_energy_error": 7.136299761789644e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 2264.150943396226,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 1.1041666666666665,
+        "peak_tensile_Pa": 2013.3174705848417,
+        "peak_abs_interface_shear_Pa": 6274.10449281376,
+        "shrink_shear_Pa": 4009.953549417534,
+        "stored_J_per_m_width": 1.189329865026261e-07
+      },
+      "total_stored_J_per_m_width": 9.514638920210088e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 6.44744002470106e-05,
+          "normalized_displacement_error": 5.5687048289808686e-05,
+          "normalized_stress_error": 0.0001853092742726517,
+          "relative_energy_error": 0.0001530556083129131
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.6127564707823326e-05,
+          "normalized_displacement_error": 1.3929504954914796e-05,
+          "normalized_stress_error": 4.793387410853427e-05,
+          "relative_energy_error": 3.828518339243914e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 4.032451939449851e-06,
+          "normalized_displacement_error": 3.482860561120988e-06,
+          "normalized_stress_error": 1.2190643445487127e-05,
+          "relative_energy_error": 9.572625426113035e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.008147125716016e-06,
+          "normalized_displacement_error": 8.707455701529271e-07,
+          "normalized_stress_error": 3.0739652483461555e-06,
+          "relative_energy_error": 2.3932409634053187e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 2666.6666666666665,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 0.46874999999999994,
+        "peak_tensile_Pa": 503.1511973763403,
+        "peak_abs_interface_shear_Pa": 4852.610592375228,
+        "shrink_shear_Pa": 2185.943925708562,
+        "stored_J_per_m_width": 3.710127334311472e-08
+      },
+      "total_stored_J_per_m_width": 5.936203734898355e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 2.1368427605337114e-06,
+          "normalized_displacement_error": 1.3525129322056385e-06,
+          "normalized_stress_error": 3.512450050235927e-05,
+          "relative_energy_error": 1.2576844828693368e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 5.34512808953563e-07,
+          "normalized_displacement_error": 3.3831945886432377e-07,
+          "normalized_stress_error": 8.859765338931425e-06,
+          "relative_energy_error": 3.1459893690133356e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.3364702919306235e-07,
+          "normalized_displacement_error": 8.459184560582747e-08,
+          "normalized_stress_error": 2.2249857412337092e-06,
+          "relative_energy_error": 7.866086335628353e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 3.341267225438577e-08,
+          "normalized_displacement_error": 2.114884626892605e-08,
+          "normalized_stress_error": 5.575154733151066e-07,
+          "relative_energy_error": 1.966597924507596e-07
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 10000,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 10000.0,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 9.999999999999998,
+        "peak_tensile_Pa": 4999.546000703311,
+        "peak_abs_interface_shear_Pa": 14999.999979388464,
+        "shrink_shear_Pa": 4999.999979388464,
+        "stored_J_per_m_width": 1.1025000000927518e-05
+      },
+      "total_stored_J_per_m_width": 1.1025000000927518e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.005296385686645347,
+          "normalized_displacement_error": 0.0052963856793678135,
+          "normalized_stress_error": 0.009071554533062999,
+          "relative_energy_error": 0.0003242685109545729
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.001348114015646558,
+          "normalized_displacement_error": 0.0013481140137946385,
+          "normalized_stress_error": 0.0030071823564223905,
+          "relative_energy_error": 8.253759267451422e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 0.0003385676469608268,
+          "normalized_displacement_error": 0.00033856764649748425,
+          "normalized_stress_error": 0.0008723074598866674,
+          "relative_energy_error": 2.072863141733272e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 8.473871925127859e-05,
+          "normalized_displacement_error": 8.473871914107376e-05,
+          "normalized_stress_error": 0.00023535039303834536,
+          "relative_energy_error": 5.188084848173347e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 10169.49152542373,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 4.916666666666666,
+        "peak_tensile_Pa": 4926.768908865237,
+        "peak_abs_interface_shear_Pa": 15168.95521739022,
+        "shrink_shear_Pa": 4999.463691966491,
+        "stored_J_per_m_width": 5.457545320302186e-06
+      },
+      "total_stored_J_per_m_width": 1.0915090640604371e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.0012878016102519745,
+          "normalized_displacement_error": 0.001287756080820984,
+          "normalized_stress_error": 0.002921480970526568,
+          "relative_energy_error": 0.00016107190529601745
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.00032337044644162983,
+          "normalized_displacement_error": 0.00032335901388552707,
+          "normalized_stress_error": 0.0008455381800866462,
+          "relative_energy_error": 4.044558845128776e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 8.09319106443103e-05,
+          "normalized_displacement_error": 8.092904934658401e-05,
+          "normalized_stress_error": 0.0002278545599910217,
+          "relative_energy_error": 1.0122566123538235e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 2.023856735814924e-05,
+          "normalized_displacement_error": 2.02378519527361e-05,
+          "normalized_stress_error": 5.916812904305289e-05,
+          "relative_energy_error": 2.53134083094686e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 10526.315789473683,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 2.375,
+        "peak_tensile_Pa": 4077.833412138048,
+        "peak_abs_interface_shear_Pa": 15440.540935336565,
+        "shrink_shear_Pa": 4914.225145862881,
+        "stored_J_per_m_width": 2.6816559210677484e-06
+      },
+      "total_stored_J_per_m_width": 1.0726623684270994e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.00026778699783030336,
+          "normalized_displacement_error": 0.00026630761334585384,
+          "normalized_stress_error": 0.0007900668172652103,
+          "relative_energy_error": 6.938433940173461e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 6.701942673517505e-05,
+          "normalized_displacement_error": 6.66491791106106e-05,
+          "normalized_stress_error": 0.00021282594022773083,
+          "relative_energy_error": 1.736491573178789e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.6759405887804442e-05,
+          "normalized_displacement_error": 1.6666818849389732e-05,
+          "normalized_stress_error": 5.5247550999391134e-05,
+          "relative_energy_error": 4.342407632584866e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.1901359038622866e-06,
+          "normalized_displacement_error": 4.166987573417886e-06,
+          "normalized_stress_error": 1.4075460296413667e-05,
+          "relative_energy_error": 1.0856756067489925e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 11320.754716981131,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 1.1041666666666665,
+        "peak_tensile_Pa": 2013.3174705848417,
+        "peak_abs_interface_shear_Pa": 15330.708266398666,
+        "shrink_shear_Pa": 4009.953549417534,
+        "stored_J_per_m_width": 1.3415744959365882e-06
+      },
+      "total_stored_J_per_m_width": 1.0732595967492705e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 2.6386199321358038e-05,
+          "normalized_displacement_error": 2.4785564858360167e-05,
+          "normalized_stress_error": 0.0001853092742766762,
+          "relative_energy_error": 1.3568654376072686e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 6.600218564898482e-06,
+          "normalized_displacement_error": 6.199837521208998e-06,
+          "normalized_stress_error": 4.793387411650087e-05,
+          "relative_energy_error": 3.3940503825213852e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.6502845782712605e-06,
+          "normalized_displacement_error": 1.5501753358198836e-06,
+          "normalized_stress_error": 1.2190643445487127e-05,
+          "relative_energy_error": 8.486291009912605e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.125841291554093e-07,
+          "normalized_displacement_error": 3.8755811784937956e-07,
+          "normalized_stress_error": 3.073965231970277e-06,
+          "relative_energy_error": 2.1216785195399268e-07
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 13333.333333333334,
+      "interface_stiffness_Pa_m": 3333333333.3333335,
+      "analytic": {
+        "lambda_m": 3e-05,
+        "alpha": 0.46874999999999994,
+        "peak_tensile_Pa": 503.1511973763403,
+        "peak_abs_interface_shear_Pa": 15519.277259041895,
+        "shrink_shear_Pa": 2185.943925708562,
+        "stored_J_per_m_width": 7.571012733431146e-07
+      },
+      "total_stored_J_per_m_width": 1.2113620373489834e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 6.681539122438079e-07,
+          "normalized_displacement_error": 5.655963171426776e-07,
+          "normalized_stress_error": 3.512450050235927e-05,
+          "relative_energy_error": 6.163203936093709e-07
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.6713293957920127e-07,
+          "normalized_displacement_error": 1.4147905151636944e-07,
+          "normalized_stress_error": 8.859765329216884e-06,
+          "relative_energy_error": 1.5416725096528694e-07
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 4.1789108031094374e-08,
+          "normalized_displacement_error": 3.53747742725218e-08,
+          "normalized_stress_error": 2.2249857412337092e-06,
+          "relative_energy_error": 3.854731955854618e-08
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.0447293446249405e-08,
+          "normalized_displacement_error": 8.844287973501185e-09,
+          "normalized_stress_error": 5.575155551939659e-07,
+          "relative_energy_error": 9.637937337103608e-09
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 0,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 2.9999999999999996,
+        "peak_tensile_Pa": 4503.360362902834,
+        "peak_abs_interface_shear_Pa": 1492.5821305300958,
+        "shrink_shear_Pa": 1492.5821305300958,
+        "stored_J_per_m_width": 1.5037089347349524e-06
+      },
+      "total_stored_J_per_m_width": 1.5037089347349524e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.0014181429812148835,
+          "normalized_displacement_error": 0.0014111299148657681,
+          "normalized_stress_error": 0.001216120465244603,
+          "relative_energy_error": 0.0007038246642696588
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.0003551220019598667,
+          "normalized_displacement_error": 0.00035336583619057985,
+          "normalized_stress_error": 0.0003334048986953803,
+          "relative_energy_error": 0.00017624712537123166
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 8.881722867171675e-05,
+          "normalized_displacement_error": 8.837800560230692e-05,
+          "normalized_stress_error": 8.733790144610509e-05,
+          "relative_energy_error": 4.4080009548252974e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 2.2206604037473987e-05,
+          "normalized_displacement_error": 2.2096786942929098e-05,
+          "normalized_stress_error": 2.235397152286538e-05,
+          "relative_energy_error": 1.1021142327205524e-05
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 0,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 1.4749999999999996,
+        "peak_tensile_Pa": 2825.9992875681405,
+        "peak_abs_interface_shear_Pa": 1350.79046532433,
+        "shrink_shear_Pa": 1350.79046532433,
+        "stored_J_per_m_width": 4.3085476733783507e-07
+      },
+      "total_stored_J_per_m_width": 8.617095346756701e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.00024425349593350715,
+          "normalized_displacement_error": 0.00021995686228807928,
+          "normalized_stress_error": 0.00032190245814406353,
+          "relative_energy_error": 0.0003828845801918668
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 6.110132470462522e-05,
+          "normalized_displacement_error": 5.5023391221026615e-05,
+          "normalized_stress_error": 8.439417983802002e-05,
+          "relative_energy_error": 9.578063548421056e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.527770410690803e-05,
+          "normalized_displacement_error": 1.375798469798546e-05,
+          "normalized_stress_error": 2.1608188438021613e-05,
+          "relative_energy_error": 2.3948878613344604e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 3.8195743530335275e-06,
+          "normalized_displacement_error": 3.439629749305158e-06,
+          "normalized_stress_error": 5.467036778422596e-06,
+          "relative_energy_error": 5.987452161848594e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 0,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.7124999999999999,
+        "peak_tensile_Pa": 1046.648317033358,
+        "peak_abs_interface_shear_Pa": 918.3631865284204,
+        "shrink_shear_Pa": 918.3631865284204,
+        "stored_J_per_m_width": 7.519340673578979e-08
+      },
+      "total_stored_J_per_m_width": 3.0077362694315915e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 2.249645356892004e-05,
+          "normalized_displacement_error": 1.3773276524458893e-05,
+          "normalized_stress_error": 7.965160680897725e-05,
+          "relative_energy_error": 0.0001373784995402083
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 5.627210548446955e-06,
+          "normalized_displacement_error": 3.4452153412103358e-06,
+          "normalized_stress_error": 2.0278701344328453e-05,
+          "relative_energy_error": 3.4363538255588466e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.4069962045415721e-06,
+          "normalized_displacement_error": 8.614223556677505e-07,
+          "normalized_stress_error": 5.1165287776321125e-06,
+          "relative_energy_error": 8.592066627066686e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 3.517610637503592e-07,
+          "normalized_displacement_error": 2.1536301642179715e-07,
+          "normalized_stress_error": 1.285060379219516e-06,
+          "relative_energy_error": 2.1480905356696667e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 0,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.33125,
+        "peak_tensile_Pa": 262.31061974667233,
+        "peak_abs_interface_shear_Pa": 479.4652649161725,
+        "shrink_shear_Pa": 479.4652649161725,
+        "stored_J_per_m_width": 8.704867541913784e-09
+      },
+      "total_stored_J_per_m_width": 6.963894033531027e-08,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 1.2415300027438735e-06,
+          "normalized_displacement_error": 3.9684700888805005e-07,
+          "normalized_stress_error": 1.7690580363466068e-05,
+          "relative_energy_error": 3.4191819137108226e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 3.1056088327744154e-07,
+          "normalized_displacement_error": 9.926878871017519e-08,
+          "normalized_stress_error": 4.443427909672692e-06,
+          "relative_energy_error": 8.552868168809624e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 7.765129292935665e-08,
+          "normalized_displacement_error": 2.4820794410003755e-08,
+          "normalized_stress_error": 1.1135086448732067e-06,
+          "relative_energy_error": 2.13852412422888e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.9413223061991352e-08,
+          "normalized_displacement_error": 6.205524943119692e-09,
+          "normalized_stress_error": 2.7871198354789684e-07,
+          "relative_energy_error": 5.346502238712247e-07
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 0,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.14062499999999997,
+        "peak_tensile_Pa": 49.03436600078803,
+        "peak_abs_interface_shear_Pa": 209.55795424247134,
+        "shrink_shear_Pa": 209.55795424247134,
+        "stored_J_per_m_width": 6.897728787643261e-10
+      },
+      "total_stored_J_per_m_width": 1.1036366060229217e-08,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 4.201223809278806e-08,
+          "normalized_displacement_error": 5.86935194473874e-09,
+          "normalized_stress_error": 3.2128985598678383e-06,
+          "relative_energy_error": 6.381820351952783e-06
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.0508924134905482e-08,
+          "normalized_displacement_error": 1.4682336970566268e-09,
+          "normalized_stress_error": 8.039342971888352e-07,
+          "relative_energy_error": 1.5963870365620636e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 2.6276644975081103e-09,
+          "normalized_displacement_error": 3.6710109354887464e-10,
+          "normalized_stress_error": 2.0107404724578615e-07,
+          "relative_energy_error": 3.991550163728874e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 6.558164609407494e-10,
+          "normalized_displacement_error": 9.19281469523303e-11,
+          "normalized_stress_error": 5.027993085771065e-08,
+          "relative_energy_error": 9.97924058943056e-08
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 2000,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 2000.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 2.9999999999999996,
+        "peak_tensile_Pa": 4503.360362902834,
+        "peak_abs_interface_shear_Pa": 3492.582130530096,
+        "shrink_shear_Pa": 1492.5821305300958,
+        "stored_J_per_m_width": 5.503708934734952e-06
+      },
+      "total_stored_J_per_m_width": 5.503708934734952e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.0006060544299864781,
+          "normalized_displacement_error": 0.0006047699635141184,
+          "normalized_stress_error": 0.0012161204652437732,
+          "relative_energy_error": 0.0001922971306616006
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 0.00015176414883945306,
+          "normalized_displacement_error": 0.0001514425012262767,
+          "normalized_stress_error": 0.0003334048986944083,
+          "relative_energy_error": 4.815377780165164e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.795673328208e-05,
+          "normalized_displacement_error": 3.7876288117053166e-05,
+          "normalized_stress_error": 8.733790144610509e-05,
+          "relative_energy_error": 1.2043424719276885e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 9.490164937463243e-06,
+          "normalized_displacement_error": 9.470051564684703e-06,
+          "normalized_stress_error": 2.235397152286538e-05,
+          "relative_energy_error": 3.0111676248001373e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 2033.898305084746,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 1.4749999999999996,
+        "peak_tensile_Pa": 2825.9992875681405,
+        "peak_abs_interface_shear_Pa": 3384.688770409076,
+        "shrink_shear_Pa": 1350.79046532433,
+        "stored_J_per_m_width": 2.4647530724225815e-06
+      },
+      "total_stored_J_per_m_width": 4.929506144845163e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 9.747876859984764e-05,
+          "normalized_displacement_error": 9.336298471256585e-05,
+          "normalized_stress_error": 0.0003219024581430915,
+          "relative_energy_error": 6.693069928886963e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 2.438483784418578e-05,
+          "normalized_displacement_error": 2.3355252392879744e-05,
+          "normalized_stress_error": 8.439417983802002e-05,
+          "relative_energy_error": 1.674307414334386e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 6.097156468089962e-06,
+          "normalized_displacement_error": 5.839720125295139e-06,
+          "normalized_stress_error": 2.1608188445377152e-05,
+          "relative_energy_error": 4.18641877475423e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.5243483209319737e-06,
+          "normalized_displacement_error": 1.4599867338748447e-06,
+          "normalized_stress_error": 5.467036771067058e-06,
+          "relative_energy_error": 1.0466453062019099e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 2105.2631578947367,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.7124999999999999,
+        "peak_tensile_Pa": 1046.648317033358,
+        "peak_abs_interface_shear_Pa": 3023.626344423157,
+        "shrink_shear_Pa": 918.3631865284204,
+        "stored_J_per_m_width": 1.1278249856831578e-06
+      },
+      "total_stored_J_per_m_width": 4.511299942732631e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 6.8328266861179905e-06,
+          "normalized_displacement_error": 5.730487315985841e-06,
+          "normalized_stress_error": 7.965160680897725e-05,
+          "relative_energy_error": 9.159184746865279e-06
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.709147342880801e-06,
+          "normalized_displacement_error": 1.4334107844625703e-06,
+          "normalized_stress_error": 2.027870134058105e-05,
+          "relative_energy_error": 2.291057228376303e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 4.2734562310191763e-07,
+          "normalized_displacement_error": 3.584020074203453e-07,
+          "normalized_stress_error": 5.1165287699987515e-06,
+          "relative_energy_error": 5.728431402562961e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.0684019787301803e-07,
+          "normalized_displacement_error": 8.960367739768066e-08,
+          "normalized_stress_error": 1.2850603639538604e-06,
+          "relative_energy_error": 1.432153755587251e-07
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 2264.150943396226,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.33125,
+        "peak_tensile_Pa": 262.31061974667233,
+        "peak_abs_interface_shear_Pa": 2743.6162083123986,
+        "shrink_shear_Pa": 479.4652649161725,
+        "stored_J_per_m_width": 5.747426033909701e-07
+      },
+      "total_stored_J_per_m_width": 4.597940827127761e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 2.1696562934108187e-07,
+          "normalized_displacement_error": 1.5814206618126636e-07,
+          "normalized_stress_error": 1.7690580363466068e-05,
+          "relative_energy_error": 5.17858433468632e-07
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 5.42726499395868e-08,
+          "normalized_displacement_error": 3.955827591874631e-08,
+          "normalized_stress_error": 4.4434279014847535e-06,
+          "relative_energy_error": 1.2953887851274715e-07
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.3570403390226445e-08,
+          "normalized_displacement_error": 9.891202299307697e-09,
+          "normalized_stress_error": 1.1135086612490853e-06,
+          "relative_energy_error": 3.238869927812971e-08
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 3.3921962995030923e-09,
+          "normalized_displacement_error": 2.4731253215271e-09,
+          "normalized_stress_error": 2.787120654268449e-07,
+          "relative_energy_error": 8.098684611823614e-09
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 2666.6666666666665,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.14062499999999997,
+        "peak_tensile_Pa": 49.03436600078803,
+        "peak_abs_interface_shear_Pa": 2876.2246209091377,
+        "shrink_shear_Pa": 209.55795424247134,
+        "stored_J_per_m_width": 3.340231062120976e-07
+      },
+      "total_stored_J_per_m_width": 5.3443696993935615e-06,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 3.0610853037959512e-09,
+          "normalized_displacement_error": 2.113048627673704e-09,
+          "normalized_stress_error": 3.2128985743007377e-06,
+          "relative_energy_error": 1.3178485192000267e-08
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 7.663913463431744e-10,
+          "normalized_displacement_error": 5.290353116520208e-10,
+          "normalized_stress_error": 8.03934321336186e-07,
+          "relative_energy_error": 3.2950828732225546e-09
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.9047635371438425e-10,
+          "normalized_displacement_error": 1.3282795273839715e-10,
+          "normalized_stress_error": 2.010740761115848e-07,
+          "relative_energy_error": 8.263609796443916e-10
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.592051995035712e-11,
+          "normalized_displacement_error": 3.4407291469099044e-11,
+          "normalized_stress_error": 5.028018149055846e-08,
+          "relative_energy_error": 2.1028090380070807e-10
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 10000,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 10000.0,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 2.9999999999999996,
+        "peak_tensile_Pa": 4503.360362902834,
+        "peak_abs_interface_shear_Pa": 11492.582130530096,
+        "shrink_shear_Pa": 1492.5821305300958,
+        "stored_J_per_m_width": 0.00010150370893473494
+      },
+      "total_stored_J_per_m_width": 0.00010150370893473494,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 0.0001841792251953388,
+          "normalized_displacement_error": 0.00018406042367887288,
+          "normalized_stress_error": 0.0012161204652464106,
+          "relative_energy_error": 1.0426687333309204e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 4.612094551826248e-05,
+          "normalized_displacement_error": 4.609119602680274e-05,
+          "normalized_stress_error": 0.0003334048986984328,
+          "relative_energy_error": 2.61098219667133e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.1535006396021422e-05,
+          "normalized_displacement_error": 1.152756595022616e-05,
+          "normalized_stress_error": 8.733790143528211e-05,
+          "relative_energy_error": 6.530155913786473e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 2.8840499339272775e-06,
+          "normalized_displacement_error": 2.8821896290932266e-06,
+          "normalized_stress_error": 2.23539715654141e-05,
+          "relative_energy_error": 1.6327078378175486e-07
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 10169.49152542373,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 1.4749999999999996,
+        "peak_tensile_Pa": 2825.9992875681405,
+        "peak_abs_interface_shear_Pa": 11520.281990748059,
+        "shrink_shear_Pa": 1350.79046532433,
+        "stored_J_per_m_width": 5.1278312394456473e-05
+      },
+      "total_stored_J_per_m_width": 0.00010255662478891295,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 2.86395153949511e-05,
+          "normalized_displacement_error": 2.8273322168989964e-05,
+          "normalized_stress_error": 0.00032190245814031756,
+          "relative_energy_error": 3.2171036652428597e-06
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 7.164328691765502e-06,
+          "normalized_displacement_error": 7.0727234952710745e-06,
+          "normalized_stress_error": 8.43941798269185e-05,
+          "relative_energy_error": 8.047757769080732e-07
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.7913604045605476e-06,
+          "normalized_displacement_error": 1.7684555498062135e-06,
+          "normalized_stress_error": 2.1608188445377152e-05,
+          "relative_energy_error": 2.012251996141856e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.4785749752422045e-07,
+          "normalized_displacement_error": 4.4213106045366585e-07,
+          "normalized_stress_error": 5.467036837125505e-06,
+          "relative_energy_error": 5.0308228694007084e-08
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 10526.315789473683,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.7124999999999999,
+        "peak_tensile_Pa": 1046.648317033358,
+        "peak_abs_interface_shear_Pa": 11444.678976002104,
+        "shrink_shear_Pa": 918.3631865284204,
+        "stored_J_per_m_width": 2.639098288041999e-05
+      },
+      "total_stored_J_per_m_width": 0.00010556393152167996,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 1.8051982758394546e-06,
+          "normalized_displacement_error": 1.7178922599813866e-06,
+          "normalized_stress_error": 7.965160679371194e-05,
+          "relative_energy_error": 3.914199639964977e-07
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 4.5154806438515145e-07,
+          "normalized_displacement_error": 4.297096036870278e-07,
+          "normalized_stress_error": 2.0278701325315752e-05,
+          "relative_energy_error": 9.790894583971976e-08
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.1290253233629304e-07,
+          "normalized_displacement_error": 1.074421919853075e-07,
+          "normalized_stress_error": 5.116528861314862e-06,
+          "relative_energy_error": 2.448064440052633e-08
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 2.8226739289522556e-08,
+          "normalized_displacement_error": 2.686159052521974e-08,
+          "normalized_stress_error": 1.2850604554913047e-06,
+          "relative_energy_error": 6.1200655654403135e-09
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 11320.754716981131,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.33125,
+        "peak_tensile_Pa": 262.31061974667233,
+        "peak_abs_interface_shear_Pa": 11800.219981897304,
+        "shrink_shear_Pa": 479.4652649161725,
+        "stored_J_per_m_width": 1.4159648263768325e-05
+      },
+      "total_stored_J_per_m_width": 0.0001132771861101466,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 5.044567554069983e-08,
+          "normalized_displacement_error": 4.6430258663464194e-08,
+          "normalized_stress_error": 1.7690580379841945e-05,
+          "relative_energy_error": 2.102004015291925e-08
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.2618728427192964e-08,
+          "normalized_displacement_error": 1.1614275031402685e-08,
+          "normalized_stress_error": 4.443427934236155e-06,
+          "relative_energy_error": 5.257910551392797e-09
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.1554506154942895e-09,
+          "normalized_displacement_error": 2.904275982120017e-09,
+          "normalized_stress_error": 1.1135085629943476e-06,
+          "relative_energy_error": 1.3140297738800655e-09
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 7.883729232292343e-10,
+          "normalized_displacement_error": 7.263637614997848e-10,
+          "normalized_stress_error": 2.787117380497861e-07,
+          "relative_energy_error": 3.2956037898657087e-10
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 13333.333333333334,
+      "interface_stiffness_Pa_m": 300000000.0,
+      "analytic": {
+        "lambda_m": 0.0001,
+        "alpha": 0.14062499999999997,
+        "peak_tensile_Pa": 49.03436600078803,
+        "peak_abs_interface_shear_Pa": 13542.891287575805,
+        "shrink_shear_Pa": 209.55795424247134,
+        "stored_J_per_m_width": 8.334023106212099e-06
+      },
+      "total_stored_J_per_m_width": 0.00013334436969939358,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 6.502014571543587e-10,
+          "normalized_displacement_error": 5.936364132882947e-10,
+          "normalized_stress_error": 3.212898497278971e-06,
+          "relative_energy_error": 5.279603421115553e-10
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.633708166230002e-10,
+          "normalized_displacement_error": 1.4915813931594272e-10,
+          "normalized_stress_error": 8.039347068611313e-07,
+          "relative_energy_error": 1.30578214907473e-10
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.966256100500956e-11,
+          "normalized_displacement_error": 3.803493905012807e-11,
+          "normalized_stress_error": 2.010745387970303e-07,
+          "relative_energy_error": 3.505817858240334e-11
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 8.068732673713573e-12,
+          "normalized_displacement_error": 1.123327861558317e-11,
+          "normalized_stress_error": 5.02814150871167e-08,
+          "relative_energy_error": 1.2543521776819944e-11
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 0,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 1.0,
+        "peak_tensile_Pa": 1759.7286316805728,
+        "peak_abs_interface_shear_Pa": 380.7970779778825,
+        "shrink_shear_Pa": 380.7970779778825,
+        "stored_J_per_m_width": 5.364131490995292e-07
+      },
+      "total_stored_J_per_m_width": 5.364131490995292e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 7.295418731528516e-05,
+          "normalized_displacement_error": 5.556148271638551e-05,
+          "normalized_stress_error": 0.0001532513281181366,
+          "relative_energy_error": 0.00023305419771690872
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.824856691589025e-05,
+          "normalized_displacement_error": 1.389800192429178e-05,
+          "normalized_stress_error": 3.947837256246345e-05,
+          "relative_energy_error": 5.829555887393312e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 4.56276802529002e-06,
+          "normalized_displacement_error": 3.4749774658802105e-06,
+          "normalized_stress_error": 1.0019588077891939e-05,
+          "relative_energy_error": 1.4575890431967053e-05
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.1407311460708243e-06,
+          "normalized_displacement_error": 8.687742064243448e-07,
+          "normalized_stress_error": 2.523921405789409e-06,
+          "relative_energy_error": 3.644097654298406e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 0,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.49166666666666664,
+        "peak_tensile_Pa": 548.9189263073091,
+        "peak_abs_interface_shear_Pa": 227.769121599367,
+        "shrink_shear_Pa": 227.769121599367,
+        "stored_J_per_m_width": 8.12889528028488e-08
+      },
+      "total_stored_J_per_m_width": 1.625779056056976e-07,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 5.687525285183871e-06,
+          "normalized_displacement_error": 2.5908852822519074e-06,
+          "normalized_stress_error": 3.858101778320133e-05,
+          "relative_energy_error": 7.171321178045531e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.4226831275208785e-06,
+          "normalized_displacement_error": 6.480865917053707e-07,
+          "normalized_stress_error": 9.739375836453945e-06,
+          "relative_energy_error": 1.793841349173597e-05
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.5572114138918567e-07,
+          "normalized_displacement_error": 1.6204464928954915e-07,
+          "normalized_stress_error": 2.4468683026970694e-06,
+          "relative_energy_error": 4.485235265860865e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 8.893257904561789e-08,
+          "normalized_displacement_error": 4.051240499030699e-08,
+          "normalized_stress_error": 6.132364513689481e-07,
+          "relative_energy_error": 1.1213483090966037e-06
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 0,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.23750000000000002,
+        "peak_tensile_Pa": 137.77571451417614,
+        "peak_abs_interface_shear_Pa": 116.56650452131932,
+        "shrink_shear_Pa": 116.56650452131932,
+        "stored_J_per_m_width": 9.8257296540632e-09
+      },
+      "total_stored_J_per_m_width": 3.93029186162528e-08,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 3.360965077010884e-07,
+          "normalized_displacement_error": 7.835521375612263e-08,
+          "normalized_stress_error": 9.134850533027006e-06,
+          "relative_energy_error": 1.794260698972927e-05
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 8.407282412169616e-08,
+          "normalized_displacement_error": 1.9600177764493997e-08,
+          "normalized_stress_error": 2.289368280561277e-06,
+          "relative_energy_error": 4.488253984913371e-06
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 2.102112487780393e-08,
+          "normalized_displacement_error": 4.900780279820603e-09,
+          "normalized_stress_error": 5.730632949008551e-07,
+          "relative_energy_error": 1.1222261329102423e-06
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 5.25513843003087e-09,
+          "normalized_displacement_error": 1.225324383651765e-09,
+          "normalized_stress_error": 1.4335687734123859e-07,
+          "relative_energy_error": 2.805666960981057e-07
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 0,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.11041666666666668,
+        "peak_tensile_Pa": 30.325530246333443,
+        "peak_abs_interface_shear_Pa": 54.98505839576934,
+        "shrink_shear_Pa": 54.98505839576934,
+        "stored_J_per_m_width": 1.0047372190380196e-09
+      },
+      "total_stored_J_per_m_width": 8.037897752304157e-09,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 1.602469881258614e-08,
+          "normalized_displacement_error": 1.7622546160958453e-09,
+          "normalized_stress_error": 1.982153249896479e-06,
+          "relative_energy_error": 3.946361827988909e-06
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 4.00841820536898e-09,
+          "normalized_displacement_error": 4.408253519116234e-10,
+          "normalized_stress_error": 4.958092204299103e-07,
+          "relative_energy_error": 9.871676145412067e-07
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.0019449588448891e-09,
+          "normalized_displacement_error": 1.1032307676455724e-10,
+          "normalized_stress_error": 1.2398683454928339e-07,
+          "relative_energy_error": 2.4682799404374123e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 2.480221186295788e-10,
+          "normalized_displacement_error": 2.77206072721231e-11,
+          "normalized_stress_error": 3.100106577003103e-08,
+          "relative_energy_error": 6.170927235871204e-08
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 0,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 0.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.046875,
+        "peak_tensile_Pa": 5.488139410410597,
+        "peak_abs_interface_shear_Pa": 23.420348936324043,
+        "shrink_shear_Pa": 23.420348936324043,
+        "stored_J_per_m_width": 7.7179786541836e-11
+      },
+      "total_stored_J_per_m_width": 1.234876584669376e-09,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 5.220411978987354e-10,
+          "normalized_displacement_error": 2.4535353991189092e-11,
+          "normalized_stress_error": 3.575561419721929e-07,
+          "relative_energy_error": 7.140694999741015e-07
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.307445900179984e-10,
+          "normalized_displacement_error": 6.130408014360893e-12,
+          "normalized_stress_error": 8.939788812001304e-08,
+          "relative_energy_error": 1.7862193479878385e-07
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 2.9951721260545035e-11,
+          "normalized_displacement_error": 1.6614127743919476e-12,
+          "normalized_stress_error": 2.2350608502863523e-08,
+          "relative_energy_error": 4.466194747365648e-08
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.64864596948783e-12,
+          "normalized_displacement_error": 5.449245294002666e-13,
+          "normalized_stress_error": 5.58777693560053e-09,
+          "relative_energy_error": 1.11658196022546e-08
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 2000,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 2000.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 1.0,
+        "peak_tensile_Pa": 1759.7286316805728,
+        "peak_abs_interface_shear_Pa": 2380.7970779778825,
+        "shrink_shear_Pa": 380.7970779778825,
+        "stored_J_per_m_width": 3.6536413149099524e-05
+      },
+      "total_stored_J_per_m_width": 3.6536413149099524e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 1.1668672485823112e-05,
+          "normalized_displacement_error": 1.111229654571656e-05,
+          "normalized_stress_error": 0.00015325132811272511,
+          "relative_energy_error": 3.4216094417782728e-06
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 2.9187707890932026e-06,
+          "normalized_displacement_error": 2.77960038648466e-06,
+          "normalized_stress_error": 3.947837256246345e-05,
+          "relative_energy_error": 8.558723032514592e-07
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 7.297928688802549e-07,
+          "normalized_displacement_error": 6.949954970611e-07,
+          "normalized_stress_error": 1.0019588077891939e-05,
+          "relative_energy_error": 2.1399746374939355e-07
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.824545730039848e-07,
+          "normalized_displacement_error": 1.7375492573970072e-07,
+          "normalized_stress_error": 2.523921333486001e-06,
+          "relative_energy_error": 5.350100940049174e-08
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 2000,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 2033.898305084746,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.49166666666666664,
+        "peak_tensile_Pa": 548.9189263073091,
+        "peak_abs_interface_shear_Pa": 2261.667426684113,
+        "shrink_shear_Pa": 227.769121599367,
+        "stored_J_per_m_width": 1.838637369856556e-05
+      },
+      "total_stored_J_per_m_width": 3.677274739713112e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 5.727819802519597e-07,
+          "normalized_displacement_error": 5.112450389475527e-07,
+          "normalized_stress_error": 3.8581017788752095e-05,
+          "relative_energy_error": 3.170553004583354e-07
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.4327580536181994e-07,
+          "normalized_displacement_error": 1.2788371901530773e-07,
+          "normalized_stress_error": 9.739375865874677e-06,
+          "relative_energy_error": 7.930948964229856e-08
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.582792246047413e-08,
+          "normalized_displacement_error": 3.197872827417887e-08,
+          "normalized_stress_error": 2.4468683026970694e-06,
+          "relative_energy_error": 1.9821581043188985e-08
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 8.949181566626738e-09,
+          "normalized_displacement_error": 8.000330251188431e-09,
+          "normalized_stress_error": 6.132363044031308e-07,
+          "relative_energy_error": 4.97331398285894e-09
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 2000,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 2105.2631578947367,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.23750000000000002,
+        "peak_tensile_Pa": 137.77571451417614,
+        "peak_abs_interface_shear_Pa": 2221.829662416056,
+        "shrink_shear_Pa": 116.56650452131932,
+        "stored_J_per_m_width": 9.483509940180376e-06
+      },
+      "total_stored_J_per_m_width": 3.79340397607215e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 1.76329850722724e-08,
+          "normalized_displacement_error": 1.5037914390558317e-08,
+          "normalized_stress_error": 9.134850544406703e-06,
+          "relative_energy_error": 1.8590190498102288e-08
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 4.4107654790873185e-09,
+          "normalized_displacement_error": 3.761685862829464e-09,
+          "normalized_stress_error": 2.289368326219332e-06,
+          "relative_energy_error": 4.650315910126324e-09
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.1025828421979628e-09,
+          "normalized_displacement_error": 9.40776370801088e-10,
+          "normalized_stress_error": 5.730633176604271e-07,
+          "relative_energy_error": 1.1632961260943375e-09
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 2.7670100177223053e-10,
+          "normalized_displacement_error": 2.359770774080776e-10,
+          "normalized_stress_error": 1.4335707523849273e-07,
+          "relative_energy_error": 2.8858848644119917e-10
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 2000,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 2264.150943396226,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.11041666666666668,
+        "peak_tensile_Pa": 30.325530246333443,
+        "peak_abs_interface_shear_Pa": 2319.1360017919956,
+        "shrink_shear_Pa": 54.98505839576934,
+        "stored_J_per_m_width": 5.095344359860545e-06
+      },
+      "total_stored_J_per_m_width": 4.076275487888436e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 3.776944503928669e-10,
+          "normalized_displacement_error": 3.2064995866219976e-10,
+          "normalized_stress_error": 1.9821532847297263e-06,
+          "relative_energy_error": 7.827640757795962e-10
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 8.6491246565475e-11,
+          "normalized_displacement_error": 8.690696339362218e-11,
+          "normalized_stress_error": 4.958092695572791e-07,
+          "relative_energy_error": 2.1216139955981816e-10
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 9.501877902903907e-11,
+          "normalized_displacement_error": 7.972118222368002e-11,
+          "normalized_stress_error": 1.239871617875199e-07,
+          "relative_energy_error": 9.724010485712142e-11
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.2942185959498259e-10,
+          "normalized_displacement_error": 1.1849249860167577e-10,
+          "normalized_stress_error": 3.100172038528193e-08,
+          "relative_energy_error": 2.893656425584368e-10
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 2000,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 2666.6666666666665,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.046875,
+        "peak_tensile_Pa": 5.488139410410597,
+        "peak_abs_interface_shear_Pa": 2690.0870156029905,
+        "shrink_shear_Pa": 23.420348936324043,
+        "stored_J_per_m_width": 3.00007717978654e-06
+      },
+      "total_stored_J_per_m_width": 4.800123487658464e-05,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 4.284798609139234e-12,
+          "normalized_displacement_error": 4.09243522659101e-12,
+          "normalized_stress_error": 3.575562575741653e-07,
+          "relative_energy_error": 1.890687606476149e-11
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 3.283879661543329e-12,
+          "normalized_displacement_error": 2.7895380632607315e-12,
+          "normalized_stress_error": 8.939790741013809e-08,
+          "relative_energy_error": 2.708944180085382e-13
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.5702428936371413e-12,
+          "normalized_displacement_error": 3.032912919347609e-12,
+          "normalized_stress_error": 2.235035800879359e-08,
+          "relative_energy_error": 5.467848396278896e-12
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 3.1117236311039316e-11,
+          "normalized_displacement_error": 2.6541554498806335e-11,
+          "normalized_stress_error": 5.589627399826824e-09,
+          "relative_energy_error": 6.318279233141766e-11
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 10000,
+      "patch_count": 1,
+      "geometry": {
+        "wet_length_m": 0.0006,
+        "coverage": 1.0,
+        "half_patch_m": 0.0003
+      },
+      "local_load_Pa": 10000.0,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 1.0,
+        "peak_tensile_Pa": 1759.7286316805728,
+        "peak_abs_interface_shear_Pa": 10380.797077977883,
+        "shrink_shear_Pa": 380.7970779778825,
+        "stored_J_per_m_width": 0.0009005364131490993
+      },
+      "total_stored_J_per_m_width": 0.0009005364131490993,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 2.6761664974358465e-06,
+          "normalized_displacement_error": 2.6457848954943073e-06,
+          "normalized_stress_error": 0.00015325132810550883,
+          "relative_energy_error": 1.3882097160689e-07
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 6.69409192030807e-07,
+          "normalized_displacement_error": 6.618096174215651e-07,
+          "normalized_stress_error": 3.9478372576895995e-05,
+          "relative_energy_error": 3.472430254447545e-08
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 1.673752722877003e-07,
+          "normalized_displacement_error": 1.6547511920835885e-07,
+          "normalized_stress_error": 1.0019588106757737e-05,
+          "relative_energy_error": 8.682277341520717e-09
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 4.184535765463022e-08,
+          "normalized_displacement_error": 4.137030138518623e-08,
+          "normalized_stress_error": 2.523921449088107e-06,
+          "relative_energy_error": 2.170453372585257e-09
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 10000,
+      "patch_count": 2,
+      "geometry": {
+        "wet_length_m": 0.0005899999999999999,
+        "coverage": 0.9833333333333333,
+        "half_patch_m": 0.00014749999999999998
+      },
+      "local_load_Pa": 10169.49152542373,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.49166666666666664,
+        "peak_tensile_Pa": 548.9189263073091,
+        "peak_abs_interface_shear_Pa": 10397.260647023097,
+        "shrink_shear_Pa": 227.769121599367,
+        "stored_J_per_m_width": 0.0004577084075968705
+      },
+      "total_stored_J_per_m_width": 0.000915416815193741,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 1.2459446857815125e-07,
+          "normalized_displacement_error": 1.2141573330235579e-07,
+          "normalized_stress_error": 3.858101789172537e-05,
+          "relative_energy_error": 1.2736551369130211e-08
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 3.116570737858086e-08,
+          "normalized_displacement_error": 3.037150248881168e-08,
+          "normalized_stress_error": 9.739375924577587e-06,
+          "relative_energy_error": 3.1868931937850675e-09
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 7.796760118389355e-09,
+          "normalized_displacement_error": 7.597826827911895e-09,
+          "normalized_stress_error": 2.446868243855249e-06,
+          "relative_energy_error": 7.882245967039125e-10
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.9404991801348777e-09,
+          "normalized_displacement_error": 1.9059395778986187e-09,
+          "normalized_stress_error": 6.132367748602263e-07,
+          "relative_energy_error": 2.14860129688077e-10
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 10000,
+      "patch_count": 4,
+      "geometry": {
+        "wet_length_m": 0.00057,
+        "coverage": 0.9500000000000001,
+        "half_patch_m": 7.125e-05
+      },
+      "local_load_Pa": 10526.315789473683,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.23750000000000002,
+        "peak_tensile_Pa": 137.77571451417614,
+        "peak_abs_interface_shear_Pa": 10642.882293995002,
+        "shrink_shear_Pa": 116.56650452131932,
+        "stored_J_per_m_width": 0.00023685193099281184
+      },
+      "total_stored_J_per_m_width": 0.0009474077239712474,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 3.681054691057147e-09,
+          "normalized_displacement_error": 3.5531558383547434e-09,
+          "normalized_stress_error": 9.134850574937658e-06,
+          "relative_energy_error": 7.444547200918805e-10
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 9.20762862096053e-10,
+          "normalized_displacement_error": 8.888303814313241e-10,
+          "normalized_stress_error": 2.2893684479274867e-06,
+          "relative_energy_error": 1.8628365516804024e-10
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 2.2994037312096447e-10,
+          "normalized_displacement_error": 2.2250303182451772e-10,
+          "normalized_stress_error": 5.730638046319569e-07,
+          "relative_energy_error": 4.713629486730042e-11
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 5.858601875505838e-11,
+          "normalized_displacement_error": 5.65487766994361e-11,
+          "normalized_stress_error": 1.4335707523849273e-07,
+          "relative_energy_error": 9.519274257741017e-12
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 10000,
+      "patch_count": 8,
+      "geometry": {
+        "wet_length_m": 0.00053,
+        "coverage": 0.8833333333333334,
+        "half_patch_m": 3.3125e-05
+      },
+      "local_load_Pa": 11320.754716981131,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.11041666666666668,
+        "peak_tensile_Pa": 30.325530246333443,
+        "peak_abs_interface_shear_Pa": 11375.7397753769,
+        "shrink_shear_Pa": 54.98505839576934,
+        "stored_J_per_m_width": 0.00012735949530325673
+      },
+      "total_stored_J_per_m_width": 0.0010188759624260538,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 7.517254396465354e-11,
+          "normalized_displacement_error": 7.673970574433297e-11,
+          "normalized_stress_error": 1.9821531538621873e-06,
+          "relative_energy_error": 3.572364626336366e-11
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 1.0655306756089122e-11,
+          "normalized_displacement_error": 2.70345335802481e-11,
+          "normalized_stress_error": 4.958095312923572e-07,
+          "relative_energy_error": 2.530997633698462e-11
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 7.744713223551459e-11,
+          "normalized_displacement_error": 7.453154155113713e-11,
+          "normalized_stress_error": 1.239871617875199e-07,
+          "relative_energy_error": 1.4394418990093527e-10
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 1.3668028902236553e-10,
+          "normalized_displacement_error": 1.3381383290551063e-10,
+          "normalized_stress_error": 3.100381509857364e-08,
+          "relative_energy_error": 2.7758151333046044e-10
+        }
+      ]
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 10000,
+      "patch_count": 16,
+      "geometry": {
+        "wet_length_m": 0.00044999999999999993,
+        "coverage": 0.75,
+        "half_patch_m": 1.4062499999999998e-05
+      },
+      "local_load_Pa": 13333.333333333334,
+      "interface_stiffness_Pa_m": 33333333.33333334,
+      "analytic": {
+        "lambda_m": 0.0003,
+        "alpha": 0.046875,
+        "peak_tensile_Pa": 5.488139410410597,
+        "peak_abs_interface_shear_Pa": 13356.753682269658,
+        "shrink_shear_Pa": 23.420348936324043,
+        "stored_J_per_m_width": 7.500007717978652e-05
+      },
+      "total_stored_J_per_m_width": 0.0012000012348765843,
+      "meshes": [
+        {
+          "elements": 32,
+          "relative_peak_shear_error": 6.41567500902539e-13,
+          "normalized_displacement_error": 1.1476867816214028e-12,
+          "normalized_stress_error": 3.5755779953516864e-07,
+          "relative_energy_error": 1.2825296380469808e-12
+        },
+        {
+          "elements": 64,
+          "relative_peak_shear_error": 2.37806234361285e-12,
+          "normalized_displacement_error": 2.2961573238494215e-12,
+          "normalized_stress_error": 8.940099133214474e-08,
+          "relative_energy_error": 4.119593555174106e-12
+        },
+        {
+          "elements": 128,
+          "relative_peak_shear_error": 3.387465509965985e-12,
+          "normalized_displacement_error": 3.2707636381764518e-12,
+          "normalized_stress_error": 2.2350671979864956e-08,
+          "relative_energy_error": 6.612044245457582e-12
+        },
+        {
+          "elements": 256,
+          "relative_peak_shear_error": 3.133071943486269e-11,
+          "normalized_displacement_error": 3.0263609556800205e-11,
+          "normalized_stress_error": 5.617530662860304e-09,
+          "relative_energy_error": 6.278177977492305e-11
+        }
+      ]
+    }
+  ],
+  "lowest_peak_among_tested": [
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 0,
+      "lowest_peak_among_tested_count": 16,
+      "peak_Pa": 2185.943925708562,
+      "coverage": 0.75
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 2000,
+      "lowest_peak_among_tested_count": 16,
+      "peak_Pa": 4852.610592375228,
+      "coverage": 0.75
+    },
+    {
+      "transfer_length_m": 3e-05,
+      "footprint_load_Pa": 10000,
+      "lowest_peak_among_tested_count": 1,
+      "peak_Pa": 14999.999979388464,
+      "coverage": 1.0
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 0,
+      "lowest_peak_among_tested_count": 16,
+      "peak_Pa": 209.55795424247134,
+      "coverage": 0.75
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 2000,
+      "lowest_peak_among_tested_count": 8,
+      "peak_Pa": 2743.6162083123986,
+      "coverage": 0.8833333333333334
+    },
+    {
+      "transfer_length_m": 0.0001,
+      "footprint_load_Pa": 10000,
+      "lowest_peak_among_tested_count": 4,
+      "peak_Pa": 11444.678976002104,
+      "coverage": 0.9500000000000001
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 0,
+      "lowest_peak_among_tested_count": 16,
+      "peak_Pa": 23.420348936324043,
+      "coverage": 0.75
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 2000,
+      "lowest_peak_among_tested_count": 4,
+      "peak_Pa": 2221.829662416056,
+      "coverage": 0.9500000000000001
+    },
+    {
+      "transfer_length_m": 0.0003,
+      "footprint_load_Pa": 10000,
+      "lowest_peak_among_tested_count": 1,
+      "peak_Pa": 10380.797077977883,
+      "coverage": 1.0
+    }
+  ],
+  "limits": [
+    "All mechanical inputs hypothetical, not fitted to PEGDA, snow or50C artificial grain",
+    "Small strain free patch ends and linear shear springs; no ice bridges",
+    "Uniform top traction redistributed only through retained patch area",
+    "No fracture or success criterion; stored energy is not energy release rate",
+    "No freeze kinetics or pore pressure or permeability computed"
+  ]
+}

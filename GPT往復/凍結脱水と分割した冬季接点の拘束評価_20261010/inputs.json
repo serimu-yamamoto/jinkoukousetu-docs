@@ -1,0 +1,50 @@
+{
+  "cycle": 129,
+  "new_source": {
+    "doi": "10.1126/sciadv.ado7750",
+    "title": "Dehydration drives damage in the freezing of brittle hydrogels",
+    "authors": "Yang et al.",
+    "publication_date": "2024-08-23",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11343028/",
+    "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11343028/fullTextXML",
+    "xml_bytes": 93290,
+    "xml_sha256": "d01989c8aa884efee5d879ae14d26a1fb5bde8644b2a56d867f3fd0c2d5ca76f"
+  },
+  "hypothetical": {
+    "E_Pa": 100000,
+    "thickness_m": 0.00003,
+    "natural_shrink_strain": -0.05,
+    "face_length_m": 0.0006,
+    "gap_m": 0.00001,
+    "counts": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "transfer_lengths_m": [
+      0.00003,
+      0.0001,
+      0.0003
+    ],
+    "footprint_shear_loads_Pa": [
+      0,
+      2000,
+      10000
+    ],
+    "mesh_elements": [
+      32,
+      64,
+      128,
+      256
+    ]
+  },
+  "limits": [
+    "All mechanical inputs hypothetical, not fitted to PEGDA, snow or50C artificial grain",
+    "Small strain free patch ends and linear shear springs; no ice bridges",
+    "Uniform top traction redistributed only through retained patch area",
+    "No fracture or success criterion; stored energy is not energy release rate",
+    "No freeze kinetics or pore pressure or permeability computed"
+  ]
+}

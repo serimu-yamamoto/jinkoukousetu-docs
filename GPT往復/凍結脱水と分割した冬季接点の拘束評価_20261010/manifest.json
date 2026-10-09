@@ -1,0 +1,129 @@
+{
+  "cycle": 129,
+  "base_commit": "d870782c9d14c8cffa1cc84bac64717d0ee20f07",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第129巡_冬の固着を保ちながら凍結収縮を逃がす接点_20261010.md",
+      "bytes": 8992,
+      "sha256": "2f9b3d313f1ece9426b13f75c295e13d1b8cabea86c9e9a5762a48e805ee20a5"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 83257,
+      "sha256": "598b800b1122d759bb39c303f6e86a4da8519cf9342d84a7c469c27aaf4032d3"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/README.md",
+      "bytes": 593,
+      "sha256": "3433e8856ebce4dfe958645b1f218383f449aa26083d6d00544dc95196d0e66c"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/claude_handoff.md",
+      "bytes": 1672,
+      "sha256": "58b3b61ab311bbfc2e8d53b30a78fcb897470295f5569e32ac7100334a5d62ae"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "8a10c77a7a0e9264772acdc865003e003904958962760071e45c1adb01d44b23"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/inputs.json",
+      "bytes": 1352,
+      "sha256": "fa31e639bb7bf2968763be1b83a605d4d51723c9541b04d9b548a45304d08033"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/model.md",
+      "bytes": 2638,
+      "sha256": "48b2186f29da1f424526c798ccd530156dfc5bc5ba3500bf981625c2c0bac490"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/publication_audit.json",
+      "bytes": 256,
+      "sha256": "fcd0a6ed4db1964f6dd43e4df949dd0dad240b66680d8292af458d7af49249e4"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/reproduce.py",
+      "bytes": 4662,
+      "sha256": "94d241d03d44b296c27844fa98b975d820f2cd01b934e5776384c331fb2c0de0"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/research_state.json",
+      "bytes": 804,
+      "sha256": "c3866c82d9aa2fad06ddded0f69036245ba0e77b4c64608a8982323a2701315c"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/results.json",
+      "bytes": 87747,
+      "sha256": "eeb16b487ff6f940222adaeed0bcadc85c538058cbc3d7ce2c33b64b74ef0c24"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/sources.json",
+      "bytes": 1886,
+      "sha256": "81b87ec65579d1c86708dd9485e3121562e389123fb5ecececac461b46a3d064"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/test_plan.json",
+      "bytes": 807,
+      "sha256": "9368144eee078b3118d9ec110b4dcccd9ab3d8334027acfbe991bd637f2a5239"
+    },
+    {
+      "path": "GPT往復/凍結脱水と分割した冬季接点の拘束評価_20261010/validation.json",
+      "bytes": 36934,
+      "sha256": "7f4890fa85cbccde87aa61434ede3f69f48c8259e5d3299622885041e2560d49"
+    },
+    {
+      "path": "README.md",
+      "bytes": 93598,
+      "sha256": "474c560ab1fd2d35434220588b651c6e3c067744f3aa349a8662ce90a779373a"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 209082,
+      "sha256": "c9c7d94c5209e32924e59ec4d6584a7258fee997ca7eb7018f42f4bfb441f833"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 7872,
+      "sha256": "2add65fd787e6651e720fcdc06c9bafc50c081e05ae3e9ae1458ae7091220ed7"
+    },
+    {
+      "path": "計算部品/shrinkage_patches.py",
+      "bytes": 3040,
+      "sha256": "cf659bf2b0ad6ed8cd041bd76fea3bb10b80acf274a81f81e70f96e885e6f6f5"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 47990,
+      "sha256": "ac112390d619a93d835f0f0369138ceace507ae449a4bfc775ec4229fea25f9a"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 238705,
+      "sha256": "d99343723247c3a11d608cf51bb2b9b1018ea584bda7f9534bdf9db064cf7a53"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/sources.json",
+      "bytes": 4450,
+      "sha256": "d02d2e02dd3f39bd7d100c0d31178ccc24c1944de51dc6d8dfdbb1ee987c1342"
+    },
+    {
+      "path": "GPT往復/冬季接続と融雪排水検証_20261009/calculate.py",
+      "bytes": 8305,
+      "sha256": "5f61f2fb4644d28e22eb0d12ccf1cde8bc31245d1465748c601ef8533be8cc90"
+    },
+    {
+      "path": "GPT往復/雪の永久変形と粒接点の再配置設計_20261010/model.md",
+      "bytes": 1777,
+      "sha256": "b85ffb99f1e829a99709b1c59c59d98e160cdb9c9d5aba9bb444ac3d0e158520"
+    },
+    {
+      "path": "GPT往復/温暖粒形成と結晶安定化の工程分離_20261010/model.md",
+      "bytes": 1727,
+      "sha256": "1ce6a9fae962d2a7315cebd31ec198cb87672f36760c91a72909a3f567171327"
+    }
+  ]
+}

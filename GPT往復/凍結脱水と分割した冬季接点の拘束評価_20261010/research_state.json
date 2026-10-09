@@ -1,0 +1,16 @@
+{
+  "cycle": 129,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress:128 manufacturing primary evidence published verified cleaned",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "candidate": "H129 dry structural load path plus isolated shrinking wet connections if needed",
+  "status": "New freezing-dehydration evidence changes continuous wet-bond design; load-bearing area limits fragmentation",
+  "next": [
+    "measure actual water-temperature-shrinkage and wet adhesion",
+    "compare free versus ice-bridged patches",
+    "integrate winter load path and thaw drainage with summer real-sole response"
+  ],
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}
