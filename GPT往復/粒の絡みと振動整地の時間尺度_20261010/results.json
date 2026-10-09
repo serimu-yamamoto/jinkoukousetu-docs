@@ -1,0 +1,316 @@
+{
+  "cycle": 117,
+  "physical_trials": 0,
+  "success_probability": null,
+  "dependency_hashes": {
+    "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json": "78289c28e125e1866bef6e5f8a2fae3c727b1aebabad9b121832c32d3e813920"
+  },
+  "inherited_length_scale": {
+    "R_mm": 1.0,
+    "r_mm": 0.7,
+    "mean_ring_diameter_m": 0.0017,
+    "note": "Dimensional comparison only; prior two-ring six-web shape is not a C-particle"
+  },
+  "source_kinematics": {
+    "diameter_m": 0.009,
+    "amplitude_m": 0.00155,
+    "frequency_hz": 20,
+    "amplitude_over_diameter": 0.17222222222222222,
+    "peak_acceleration_over_g": 2.4976141749695517,
+    "peak_velocity_m_s": 0.19477874452256716
+  },
+  "scaled_kinematic_comparisons": [
+    {
+      "diameter_m": 0.0017,
+      "amplitude_m": 0.00029277777777777776,
+      "frequency_hz": 46.017899330842226,
+      "amplitude_over_diameter": 0.17222222222222222,
+      "peak_acceleration_over_g": 2.4976141749695517,
+      "peak_velocity_m_s": 0.08465347065159148,
+      "length_scale": 0.18888888888888888,
+      "reference_event_time_s": 8,
+      "matched_cycle_duration_s": 3.476907949441413,
+      "reference_cycles": 160
+    },
+    {
+      "diameter_m": 0.001,
+      "amplitude_m": 0.00017222222222222224,
+      "frequency_hz": 59.99999999999999,
+      "amplitude_over_diameter": 0.17222222222222222,
+      "peak_acceleration_over_g": 2.4976141749695513,
+      "peak_velocity_m_s": 0.06492624817418904,
+      "length_scale": 0.11111111111111112,
+      "reference_event_time_s": 8,
+      "matched_cycle_duration_s": 2.666666666666667,
+      "reference_cycles": 160
+    },
+    {
+      "diameter_m": 0.0035,
+      "amplitude_m": 0.0006027777777777778,
+      "frequency_hz": 32.071349029490925,
+      "amplitude_over_diameter": 0.17222222222222222,
+      "peak_acceleration_over_g": 2.4976141749695517,
+      "peak_velocity_m_s": 0.12146588803823631,
+      "length_scale": 0.38888888888888895,
+      "reference_event_time_s": 8,
+      "matched_cycle_duration_s": 4.988876515698589,
+      "reference_cycles": 160
+    }
+  ],
+  "same_controls_counterexample": {
+    "diameter_m": 0.0017,
+    "amplitude_m": 0.00155,
+    "frequency_hz": 20,
+    "amplitude_over_diameter": 0.9117647058823529,
+    "peak_acceleration_over_g": 2.4976141749695517,
+    "peak_velocity_m_s": 0.19477874452256716
+  },
+  "machine_scenarios": [
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 0.8333333333333334,
+      "local_cycles": 38.34824944236853,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 0.4166666666666667,
+      "local_cycles": 19.174124721184263,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 0.25,
+      "local_cycles": 11.504474832710557,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 3.3333333333333335,
+      "local_cycles": 153.3929977694741,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 1.6666666666666667,
+      "local_cycles": 76.69649888473705,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 1.0,
+      "local_cycles": 46.017899330842226,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 7.000000000000001,
+      "local_cycles": 322.1252953158956,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 3.5000000000000004,
+      "local_cycles": 161.0626476579478,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 2.1,
+      "local_cycles": 96.63758859476867,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.0017
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 0.8333333333333334,
+      "local_cycles": 49.99999999999999,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 0.4166666666666667,
+      "local_cycles": 24.999999999999996,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 0.25,
+      "local_cycles": 14.999999999999998,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 3.3333333333333335,
+      "local_cycles": 199.99999999999997,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 1.6666666666666667,
+      "local_cycles": 99.99999999999999,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 1.0,
+      "local_cycles": 59.99999999999999,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 7.000000000000001,
+      "local_cycles": 419.99999999999994,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 3.5000000000000004,
+      "local_cycles": 209.99999999999997,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 2.1,
+      "local_cycles": 125.99999999999999,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.001
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 0.8333333333333334,
+      "local_cycles": 26.726124191242437,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 0.4166666666666667,
+      "local_cycles": 13.363062095621219,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 0.25,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 0.25,
+      "local_cycles": 8.017837257372731,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 3.3333333333333335,
+      "local_cycles": 106.90449676496975,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 1.6666666666666667,
+      "local_cycles": 53.452248382484875,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 1,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 1.0,
+      "local_cycles": 32.071349029490925,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 0.3,
+      "local_dwell_s": 7.000000000000001,
+      "local_cycles": 224.4994432064365,
+      "course_closure_min": 96.07407407407409,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 0.6,
+      "local_dwell_s": 3.5000000000000004,
+      "local_cycles": 112.24972160321825,
+      "course_closure_min": 59.037037037037045,
+      "comparison_diameter_m": 0.0035
+    },
+    {
+      "footprint_m_assumed": 2.1,
+      "speed_m_s_assumed": 1,
+      "local_dwell_s": 2.1,
+      "local_cycles": 67.34983296193094,
+      "course_closure_min": 44.22222222222222,
+      "comparison_diameter_m": 0.0035
+    }
+  ],
+  "closure_budgets": [
+    {
+      "footprint_m": 0.25,
+      "minimum_travel_speed_m_s": 0.5847953216374269,
+      "footprint_for_comparison_event_m": 2.0332795025973174,
+      "speed_for_comparison_event_m_s": 0.07190296770444098,
+      "caveat": "Event is a literature observation time, not a required or sufficient grooming duration."
+    },
+    {
+      "footprint_m": 1,
+      "minimum_travel_speed_m_s": 0.5847953216374269,
+      "footprint_for_comparison_event_m": 2.0332795025973174,
+      "speed_for_comparison_event_m_s": 0.2876118708177639,
+      "caveat": "Event is a literature observation time, not a required or sufficient grooming duration."
+    },
+    {
+      "footprint_m": 2.1,
+      "minimum_travel_speed_m_s": 0.5847953216374269,
+      "footprint_for_comparison_event_m": 2.0332795025973174,
+      "speed_for_comparison_event_m_s": 0.6039849287173042,
+      "caveat": "Event is a literature observation time, not a required or sufficient grooming duration."
+    }
+  ],
+  "caveats": [
+    "No threshold, bond kinetics or shear stress inferred",
+    "No stiffness friction density water or confinement similarity established",
+    "Local dwell is not full course closure",
+    "Source example8s is not required/adequate grooming time",
+    "Roller acceleration reaching bed depth unknown"
+  ]
+}

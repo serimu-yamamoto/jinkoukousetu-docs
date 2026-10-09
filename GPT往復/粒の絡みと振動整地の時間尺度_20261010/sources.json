@@ -1,0 +1,32 @@
+[
+  {
+    "id": "S1",
+    "title": "Percolation transition in entangled granular networks",
+    "doi": "10.1038/s41467-025-66228-3",
+    "url": "https://www.nature.com/articles/s41467-025-66228-3",
+    "published": "2025-12-10",
+    "accessed": "2026-10-10",
+    "scope": "Primary body and Methods excerpts directly retrieved.9mm centerline,1mm thickness,steel,20Hz1.55mm.8s25degree example not threshold. Network and lifted mechanical bonding differ."
+  },
+  {
+    "id": "S2",
+    "title": "Yielding, Rigidity, and Tensile Stress in Sheared Columns of Hexapod Granules",
+    "url": "https://arxiv.org/abs/2002.09800",
+    "year": 2020,
+    "accessed": "2026-10-10",
+    "scope": "Primary preprint abstract only. Aspect ratio changes yielding/strain stiffening; no quantitative properties transferred."
+  },
+  {
+    "id": "S3",
+    "title": "Strain stiffening due to stretching of entangled particles in random packings of granular materials",
+    "url": "https://doi.org/10.1103/PhysRevE.111.025408",
+    "published": "2025-02-10",
+    "accessed": "2026-10-10",
+    "scope": "Primary publisher abstract. Network and local deformation inputs needed; no material success inferred."
+  },
+  {
+    "id": "prior105",
+    "repository_path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json",
+    "scope": "R=1mm r=.7mm dimensional reference only. Prior open-rim grain is not C-particle."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "cycle": 117,
+  "physical_trials": 0,
+  "success_probability": null,
+  "previous_goal_turn": "progress:116 primary scaffold limits exposure/rework audit published verified cleaned",
+  "claude_receipt_response_running": "unconfirmed",
+  "equipment_and_collaborators": "not_secured",
+  "candidate": "H117 finite releasable shape contacts plus separate redistribution and controlled-consolidation grooming modes",
+  "status": "New nonconvex-grain experiments change vibration/shape selection; kinematic timing only, no physical successful material",
+  "next": [
+    "Get source shear curves and pressure/temperature conditions for nonconvex grains",
+    "Compare postpeak release and regrooming rather than maximum strength",
+    "Estimate contact/friction/elastic dimensionless mismatches before DEM transfer",
+    "Keep warm-spray chemistry and safe surface friction as independent unresolved requirements",
+    "Seek measured material inputs and actual production/equipment costs"
+  ],
+  "claude_ledger_lf_sha256": "054c9388de3be3bd251c395059a9e02c9d3b336885236683ba3f528ff819d71f"
+}

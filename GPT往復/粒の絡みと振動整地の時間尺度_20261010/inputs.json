@@ -1,0 +1,35 @@
+{
+  "reported": {
+    "source_diameter_centerline_m": 0.009,
+    "source_thickness_m": 0.001,
+    "source_amplitude_m": 0.00155,
+    "source_frequency_hz": 20,
+    "g_m_s2": 9.8,
+    "example_event_s": 8,
+    "example_opening_deg": 25,
+    "note": "Example lifted long cluster; not threshold or usable ski-bed result. Source tests steel C-particles."
+  },
+  "assumed": {
+    "other_comparison_diameters_m": [
+      0.001,
+      0.0035
+    ],
+    "footprints_m": [
+      0.25,
+      1,
+      2.1
+    ],
+    "speeds_m_s": [
+      0.3,
+      0.6,
+      1
+    ],
+    "course_length_m": 1000,
+    "operating_fraction": 0.75,
+    "overhead_min": 22,
+    "closure_budget_min": 60,
+    "reference_speed_m_s": 0.6
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}

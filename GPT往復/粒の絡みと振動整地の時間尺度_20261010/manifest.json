@@ -1,0 +1,119 @@
+{
+  "cycle": 117,
+  "base_commit": "ed6eaec7ee482cba2f8ed9cd7a2737b1fc207e49",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第117巡_絡みすぎない粒形と振動整地を一緒に設計する_20261010.md",
+      "bytes": 9818,
+      "sha256": "4d0b24635cf825c7a6e410f965c44a316b376273b47bc76f03a0c5ec92d8acf0"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 76012,
+      "sha256": "a66cc1edb8d09af52230813787646abd9d7f7e7319bb5e99b2301b81ff1fa125"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/README.md",
+      "bytes": 680,
+      "sha256": "73718d9617428bce2db2746393604388188fa044417a225d2a787b3382ba5b89"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/claude_handoff.md",
+      "bytes": 1723,
+      "sha256": "7a9702800424be4631d2ad839e5a8196b0386aace7f53d2a755d938a6d3ed454"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "987530642d93515b91aea6da299b7700c0bbb3fa1d1ae84ff4a380ac00de4b69"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/inputs.json",
+      "bytes": 766,
+      "sha256": "0bcf0ade55d8be0d32032bf6ad93c248402f83dccaa92cd15876d5dfab377d2f"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/model.md",
+      "bytes": 1161,
+      "sha256": "0a2a2b2369498473ae6d0f968e0947c7ded429e7aa60eac7ddddf8170ce314c0"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "8350227387c187b66da91c9fd48e3b9bc14cf13d332126f3c19133e40eafe045"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/reproduce.py",
+      "bytes": 4488,
+      "sha256": "62aa98f319d3842eb23499650ec3a7ad1edb6bf504cb8ca0ef67141cc9f32f98"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/research_state.json",
+      "bytes": 1088,
+      "sha256": "ee0a083b36b5a5e5fa65c44479139e50cdee49af2d8007b5c5d43f9d0cf65de3"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/results.json",
+      "bytes": 10236,
+      "sha256": "173036f1408ba3e5f04b7bd92fb311b7ca1dbe91449ed5df2b2cfd97005ed771"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/source_acquisition.json",
+      "bytes": 262,
+      "sha256": "807d271f495fae7f42e6437e6a9205f9745c15cc5e65a0b326a58f5f9db4edc2"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/sources.json",
+      "bytes": 1415,
+      "sha256": "d781256f6184adebbb0518dbfd87490bfcb66b9a7ee06a1bd49764802cc71c0a"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/test_plan.json",
+      "bytes": 1351,
+      "sha256": "d7542f6d2f3638a0aad673147fdafe0ab5f81059f191a1ec42177e79bb74b586"
+    },
+    {
+      "path": "GPT往復/粒の絡みと振動整地の時間尺度_20261010/validation.json",
+      "bytes": 3397,
+      "sha256": "c2508be72700a1bfc618afb1f932e82c7164f179ced8ce7ce7e541544378b4a1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 86173,
+      "sha256": "582084262c418f6d28723abd1d914e382ea1d1cb2ac0a3c77f5005bcdd2ebb43"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 196024,
+      "sha256": "171a9191240d213ee0e48c3a46cf60457595c1f1ecaf88f663611434431e9909"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 4335,
+      "sha256": "8f8c8837fc32bf746c44dd489b2f00fe5ca178399e0d76c44b5f5ea4842625e1"
+    },
+    {
+      "path": "計算部品/vibration_dwell.py",
+      "bytes": 2498,
+      "sha256": "3687bd3c86ab710482cbe1880e778cc82b49780b5c12e8830123b48c3e160d34"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 40042,
+      "sha256": "84240ad3bb7402c238d895bce012f49f5e96d18530928d2130200a8e83abc6ca"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 234976,
+      "sha256": "2dbddb2722ad4f78a78f600dc2405d3b3e4203979c32a4bc69ad9cec83c94029"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/温暖形成と開放環粒の製造監査_20261010/results.json",
+      "bytes": 4759,
+      "sha256": "78289c28e125e1866bef6e5f8a2fae3c727b1aebabad9b121832c32d3e813920"
+    }
+  ]
+}

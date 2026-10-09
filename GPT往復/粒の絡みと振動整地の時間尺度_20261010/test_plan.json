@@ -1,0 +1,47 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "candidate_shapes": [
+    "rounded_short_branches_without_return_hooks",
+    "wide_open_C_with_rounded_ends",
+    "prior_two_rims_six_webs_control",
+    "rounded_support_with_short_deformable_arm"
+  ],
+  "temperature_C": [
+    30,
+    50
+  ],
+  "histories": [
+    "freshly groomed",
+    "repeated loading comparable to4-5hours",
+    "rain",
+    "regroomed"
+  ],
+  "mechanical_outcomes": [
+    "initial support",
+    "peak and postpeak lateral resistance",
+    "release displacement",
+    "remaining cluster size",
+    "particle damage",
+    "normal sinkage"
+  ],
+  "manufacturing_and_machine_outcomes": [
+    "geometric fidelity",
+    "wet50C creep",
+    "effective vibrating length",
+    "acceleration delivered by depth",
+    "traction and power",
+    "recovery transport and60min closure",
+    "actual quote"
+  ],
+  "prohibited_inferences": [
+    "No threshold from8s example",
+    "No empirical logarithmic-link law extrapolation without calibration",
+    "No cluster fraction to shear strength or success probability",
+    "No density-only restoration claim"
+  ],
+  "actions": "Research specifications only; no physical test manufacture purchase vendor contact paid service or field release."
+}
