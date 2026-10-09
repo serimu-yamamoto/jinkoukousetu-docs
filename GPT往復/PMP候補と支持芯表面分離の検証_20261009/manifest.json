@@ -1,0 +1,132 @@
+{
+  "cycle": 92,
+  "repository": "https://github.com/serimu-yamamoto/jinkoukousetu-docs",
+  "branch": "main",
+  "base_commit": "48bc651b2df7846b84b6d1dee01ddd6863d345f6",
+  "hash_algorithm": "SHA-256",
+  "self_excluded": true,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第92巡_離型性と滑走性を分けたPMP複合枝の検証_20261009.md",
+      "bytes": 12458,
+      "sha256": "9c0b59f4062b76a44a3430287a4563a00b0f8396893ebd1e39a6e2a5561af9f2"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/README.md",
+      "bytes": 1308,
+      "sha256": "a41a3e739e3f1e3b058252abc0534225e0746c2ee6ea16df4c24a123f377e951"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/audit.py",
+      "bytes": 5509,
+      "sha256": "79f3e8c0edeca4b3ef374c2d7ccec2705916775b22944ac6e89047420ac333c8"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/claude_handoff.md",
+      "bytes": 2723,
+      "sha256": "940264ec84be82ea439f45b7efe09f9883034c0654e346516b93fcd62e353b95"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/core_skin_sections.png",
+      "bytes": 117252,
+      "sha256": "9a072dc3ba2879fb1785a45b124c638f590c50e545339fc966f66ebb749489ec"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/document_audit.json",
+      "bytes": 5565,
+      "sha256": "5995606cabafbba3e9b16c368c1b400e0c249c66a9f7bbbe31a6da61694f97e2"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/draw.py",
+      "bytes": 4176,
+      "sha256": "3d6fd32443563a9a34ccd05ad242ae5fd5aadce2ac461f09fd46376e9d35e847"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/index_changes.json",
+      "bytes": 4158,
+      "sha256": "b92ef9bc3db0ec0cef87808c1bdbddbe11f918083c9748886a7a88e097f80133"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/inputs.json",
+      "bytes": 2994,
+      "sha256": "29cfe6c545fc147c417a9487f99e1949f51a18350c68c1af48da9fc27e6ca6f4"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/model.md",
+      "bytes": 4334,
+      "sha256": "39da7a4665888e6ebf4afbdc26af52b6fa981a36728fa9adb180606a28acf3bf"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/plot_metadata.json",
+      "bytes": 195,
+      "sha256": "350ef0ef72cbac1207d23875bbfe1f854fe2116327c9de77a92762c33c1802e9"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/reproduce.py",
+      "bytes": 10562,
+      "sha256": "3366210e2f4a2c9af80160a18c02fa4846061bcf9f0622fb86de4c872d11c175"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/research_state.json",
+      "bytes": 1129,
+      "sha256": "73558531d0c93d4ab14706a798b30aa2cbb1633adcc82986f4b7d7d311c20579"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/results.json",
+      "bytes": 52780,
+      "sha256": "52683fca1861e2b6d56705d22a6dc556c0cc6ac3df96e7d2037df7b1d1909236"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/sources.json",
+      "bytes": 4557,
+      "sha256": "0e11202129a554a05519ec868810aea975145b92bbd384df9316877f7fd9cfd8"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/stiffness_cost_frontiers.png",
+      "bytes": 212426,
+      "sha256": "6745b096e8181ef70eb90d7b5d86b6872ac561f3c485a8049d642b9bd681a986"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/test_plan.json",
+      "bytes": 6213,
+      "sha256": "abd7e9a7a055ace9ad3e8b0675a5a5936b771b09f0c1805f28577394dc491609"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/test_protocol.md",
+      "bytes": 4886,
+      "sha256": "a8be80dbc19677684f2eb3f4cef3cc78a9bc9c12890fa34170844875ece2bfc2"
+    },
+    {
+      "path": "GPT往復/PMP候補と支持芯表面分離の検証_20261009/validation.json",
+      "bytes": 2928,
+      "sha256": "a1037e9fabe089128d7d4911b6899961e416e9edb2909278ea463290d3157ce3"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 60478,
+      "sha256": "5eab3b8f98c1f9eecaef1407a43d46bf3cb01cb9b223e15d35f6068cfc2ebf1f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 70314,
+      "sha256": "b5676b991a16e41d5972604e26f19b87d7e09c66f6cd395c36f0aff0a4b79642"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 168752,
+      "sha256": "0b57827b275b7f6d065c9b57b79d24e7c6a3d37e09cfd6d14ddeeceab6433b3a"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 21768,
+      "sha256": "8c18a65c51112185f8ec0b8e8e7411b7497d895f5c2a5f12cd1ddc6fba730338"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 226341,
+      "sha256": "89c1ac75c4382035453feaaa5fdf74701e8db2a0262483b16e60bc3e8bb48945"
+    }
+  ]
+}

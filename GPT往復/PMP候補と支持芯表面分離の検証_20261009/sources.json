@@ -1,0 +1,93 @@
+[
+  {
+    "id": "S1",
+    "title": "TPX Physical Properties List, revision February 2025",
+    "url": "https://jp.mitsuichemicals.com/cn/special/tpx/pdf/1109_Physical_Properties_List.pdf",
+    "accessed": "2026-10-09",
+    "inspection": "Single-page PDF visually inspected",
+    "sha256": "321f9a65d3438eed13d002943a1154a41ffaaf88868acddc9fb3cb07cafb900c",
+    "facts": [
+      "RT18 and DX845 typical density 833 kg/m3; 23 C injection-specimen tensile modulus 1900 MPa.",
+      "DX845 lists T-die casting as recommended; RT18 as applicable."
+    ],
+    "limits": [
+      "Not finished thin-film properties or measured 50 C stiffness. No lot, price or supply confirmation."
+    ],
+    "republished": false
+  },
+  {
+    "id": "S2",
+    "title": "Opulent product grades, Mitsui Chemicals ICT Materia",
+    "url": "https://www.mcictm.com/product/industry/tpx.html",
+    "accessed": "2026-10-09",
+    "facts": [
+      "X-88B and X-88BMT4: 50 um single-layer film, gloss versus both-side emboss; softening indicator 52 C.",
+      "This softening indicator is the temperature at which tensile modulus is 300 MPa.",
+      "CR2031MT4: 120 um multilayer film; indicator 46 C."
+    ],
+    "limits": [
+      "Do not assign 300 MPa at 50 C. Multilayer composition is not disclosed here. No UHMWPE sliding test or outdoor durability proof."
+    ]
+  },
+  {
+    "id": "S3",
+    "title": "TPX film examples, Mitsui Chemicals",
+    "url": "https://jp.mitsuichemicals.com/en/special/tpx/pfas/index.htm",
+    "accessed": "2026-10-09",
+    "facts": [
+      "RT18 100 um film: tensile modulus MD/TD 1.1/1.1 GPa; Elmendorf tear 33/195 N/cm.",
+      "Film examples list surface tension 24 mN/m."
+    ],
+    "limits": [
+      "Film-table temperature is unspecified. Equal elastic modulus does not prove equal tear resistance. Releasability is not ski friction.",
+      "Displayed friction/abrasion discussion under Other PFAS Alternatives concerns MIPELON/LUBMER, not a TPX friction measurement."
+    ]
+  },
+  {
+    "id": "S4",
+    "title": "JP7088689B2, Table 1 and ring-test method",
+    "url": "https://patents.google.com/patent/JP7088689B2/ja",
+    "accessed": "2026-10-09",
+    "image_url": "https://patentimages.storage.googleapis.com/94/4f/3f/3c6349086121c6/0007088689000001.png",
+    "image_sha256": "12350257ea81ea70ecc7c5e2bfebf3ac0bd1c96f656d2360258c75b2243f94b5",
+    "inspection": "Primary patent table visually inspected",
+    "facts": [
+      "A1 comparative example: friction 0.51, wear 225 mg. Example 1 blend: 0.35, 35 mg.",
+      "S45C, 0.75 MPa, 30 m/min, 0.9 km, 23 C ambient; frictional heating was measured."
+    ],
+    "limits": [
+      "Applicant-reported results, not independent replication.",
+      "A1 is the patent's synthesized resin, not identified as RT18, DX845 or Opulent.",
+      "Not a 50 C UHMWPE-pair coefficient. Table temperature label versus temperature-rise wording is ambiguous; not used as an absolute contact temperature.",
+      "Other comparison columns have composition/total inconsistencies; not corrected or used for recipe calculations.",
+      "Published composition is prior technical work; no novelty or freedom-to-operate opinion provided."
+    ],
+    "republished": false
+  },
+  {
+    "id": "S5",
+    "title": "Pearce and Vancso, Frictional anisotropy and sectorization in poly(4-methyl-1-pentene) lamellar crystals studied by lateral force microscopy",
+    "url": "https://research.utwente.nl/en/publications/frictional-anisotropy-and-sectorization-in-poly4-methyl-1-pentene-2/",
+    "doi": "https://doi.org/10.1016/S0032-3861(98)00122-0",
+    "accessed": "2026-10-09",
+    "inspection": "Author-institution repository abstract retrieved via search; direct page/full article unavailable in this session",
+    "facts": [
+      "Lateral-force microscopy on solution-grown lamellar crystals reports friction-direction dependence within fold domains."
+    ],
+    "limits": [
+      "No macroscopic ski friction number extracted. Polymer lamellae are not ice's crystal structure, warm-spray snowfall or a completed branched skiing material."
+    ]
+  },
+  {
+    "id": "S6",
+    "title": "Opulent product overview, Mitsui Chemicals America",
+    "url": "https://us.mitsuichemicals.com/service/product/opulent/index.htm",
+    "accessed": "2026-10-09",
+    "facts": [
+      "Manufacturer says Opulent contains no plasticizer or silicone."
+    ],
+    "limits": [
+      "Does not establish all additives, wear-particle safety, exposure limits, fluorine-free status of every finished grade, or environmental acceptability."
+    ]
+  }
+]

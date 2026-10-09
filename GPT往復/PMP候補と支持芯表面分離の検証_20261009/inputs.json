@@ -1,0 +1,116 @@
+{
+  "cycle": 92,
+  "date": "2026-10-09",
+  "base_commit": "48bc651b2df7846b84b6d1dee01ddd6863d345f6",
+  "reference": {
+    "solid_density_kg_m3_assumed": 930,
+    "solid_equivalent_thickness_um": 120,
+    "finished_thickness_um": 180,
+    "core_thickness_um": 150,
+    "skin_modulus_MPa_assumed": 500,
+    "porous_core_modulus_ratio_assumed": 0.36,
+    "poisson_ratio_assumed": 0.4,
+    "arm_length_mm": 0.75,
+    "arm_width_mm": 0.72,
+    "tile_area_mm2": 2.8125,
+    "nominal_pressures_Pa_assumed": [
+      2000,
+      20000
+    ],
+    "active_fractions_assumed": [
+      1,
+      0.1
+    ]
+  },
+  "hybrid": {
+    "core_density_kg_m3_typical": 833,
+    "core_density_source": "S1, RT18/DX845 typical resin density; not measured laminate",
+    "skin_density_kg_m3_assumed": 930,
+    "skin_thickness_each_um": [
+      5,
+      15,
+      30
+    ],
+    "core_moduli_MPa_assumed": [
+      300,
+      500,
+      800,
+      1000,
+      1500
+    ],
+    "bonded_interfaces": "perfect no-slip; no adhesive mass modeled",
+    "unbonded_comparator": "same-curvature independent layers, own neutral axes; not a guaranteed physical lower bound",
+    "actual_core_modulus_50C": null,
+    "actual_bond_strength_50C": null
+  },
+  "film_probe": {
+    "thickness_um": 50,
+    "modulus_MPa_scenario": 300,
+    "temperature_label": "Diagnostic at E=300 MPa; X88B reaches 300 MPa at 52 C per S2, not measured at 50 C"
+  },
+  "friction": {
+    "skin_mu_assumed": [
+      0.03,
+      0.06,
+      0.1
+    ],
+    "exposed_core_mu_assumed": [
+      0.1,
+      0.2,
+      0.35,
+      0.5
+    ],
+    "diagnostic_mu_limit_assumed": 0.08,
+    "other_drag_assumed": 0,
+    "source_patent_friction_used_as_design_input": false
+  },
+  "cost": {
+    "reference_area_m2": 2000,
+    "reference_depth_m": 0.45,
+    "reference_bed_density_kg_m3_assumed": 150,
+    "geometric_yield_inherited": 0.9271872587712817,
+    "quality_yield_assumed": 0.9,
+    "reject_recovery_assumed": 0.9,
+    "skin_raw_price_yen_kg_ex_tax_assumed": 500,
+    "core_raw_price_yen_kg_ex_tax_assumed": [
+      500,
+      1000,
+      1500
+    ],
+    "additional_conversion_yen_per_gross_kg_assumed": [
+      0,
+      100,
+      300
+    ],
+    "scope": "Increment over equal-mass all-PE inventory with equal yield; no resin/film quotes or project cost.",
+    "actual_quote": null
+  },
+  "wet": {
+    "gamma_N_m": 0.06794390594487329,
+    "gaps_um_assumed": [
+      20,
+      50
+    ],
+    "cos_theta_assumed": 1
+  },
+  "source_checks": {
+    "film_RT18_modulus_MD_TD_GPa": [
+      1.1,
+      1.1
+    ],
+    "film_RT18_tear_MD_TD_N_cm": [
+      33,
+      195
+    ],
+    "RT18_resin_tensile_modulus_23C_MPa": 1900,
+    "film_temperature_unspecified": true,
+    "patent_A1_mu": 0.51,
+    "patent_example1_mu": 0.35,
+    "patent_A1_wear_mg": 225,
+    "patent_example1_wear_mg": 35,
+    "patent_pair": "S45C, 23 C ambient, 0.75 MPa, 30 m/min, 0.9 km",
+    "patent_values_not_Rt18_or_Opulent": true
+  },
+  "physical_experiments": 0,
+  "success_probability": null
+}

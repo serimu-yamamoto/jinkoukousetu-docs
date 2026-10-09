@@ -1,0 +1,9 @@
+{
+  "original_figures": [
+    "core_skin_sections.png",
+    "stiffness_cost_frontiers.png"
+  ],
+  "data_source": "results.json",
+  "physical_test_data": false,
+  "visual_review_required": true
+}

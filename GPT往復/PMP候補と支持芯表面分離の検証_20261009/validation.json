@@ -1,0 +1,143 @@
+{
+  "count": 34,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "reference_D_recovers_cycle91",
+      "passed": true
+    },
+    {
+      "name": "areal_mass_111_6_g_m2",
+      "passed": true
+    },
+    {
+      "name": "15_hybrid_comparisons",
+      "passed": true
+    },
+    {
+      "name": "all_layer_mass_conserved",
+      "passed": true
+    },
+    {
+      "name": "thicker_PE_skins_reduce_core_fraction",
+      "passed": true
+    },
+    {
+      "name": "15um_skins_are_quarter_of_mass",
+      "passed": true
+    },
+    {
+      "name": "density_advantage_thicker_equalmass_PMP",
+      "passed": true
+    },
+    {
+      "name": "homogeneous_PMP_frontier",
+      "passed": true
+    },
+    {
+      "name": "inverse_core_stiffness_S5",
+      "passed": true
+    },
+    {
+      "name": "inverse_core_stiffness_S15",
+      "passed": true
+    },
+    {
+      "name": "inverse_core_stiffness_S30",
+      "passed": true
+    },
+    {
+      "name": "bond_loss_reduces_composite_D",
+      "passed": true
+    },
+    {
+      "name": "bonded_D_monotonic_in_core_E",
+      "passed": true
+    },
+    {
+      "name": "60_interface_load_conditions",
+      "passed": true
+    },
+    {
+      "name": "load_concentration_shear_factor",
+      "passed": true
+    },
+    {
+      "name": "pressure_and_concentration_factor100",
+      "passed": true
+    },
+    {
+      "name": "high_load_linear_limits_flagged",
+      "passed": true
+    },
+    {
+      "name": "50um_uniform_D_closed_form",
+      "passed": true
+    },
+    {
+      "name": "50um_uniform_K_closed_form",
+      "passed": true
+    },
+    {
+      "name": "thin_film_counterexample_flagged",
+      "passed": true
+    },
+    {
+      "name": "wet_inverse_square",
+      "passed": true
+    },
+    {
+      "name": "friction_budget_one_seventh",
+      "passed": true
+    },
+    {
+      "name": "bad_base_cannot_meet_target",
+      "passed": true
+    },
+    {
+      "name": "friction_equal_value_edge_case",
+      "passed": true
+    },
+    {
+      "name": "all_friction_bounds_reconstruct_budget",
+      "passed": true
+    },
+    {
+      "name": "friction_primary_not_transferred",
+      "passed": true
+    },
+    {
+      "name": "reference_mass_135t",
+      "passed": true
+    },
+    {
+      "name": "yield_mass_balance",
+      "passed": true
+    },
+    {
+      "name": "27_incremental_cost_cases",
+      "passed": true
+    },
+    {
+      "name": "no_added_cost_when_prices_same_and_no_processing",
+      "passed": true
+    },
+    {
+      "name": "cost_increments_add",
+      "passed": true
+    },
+    {
+      "name": "elastic_isotropy_not_tear_isotropy",
+      "passed": true
+    },
+    {
+      "name": "patent_improvement_not_ski_validation",
+      "passed": true
+    },
+    {
+      "name": "experiment_and_success_unmeasured",
+      "passed": true
+    }
+  ],
+  "scope": "Mathematical identities, inverse conditions, transfer limits and explicit counterexamples; not physical validation"
+}

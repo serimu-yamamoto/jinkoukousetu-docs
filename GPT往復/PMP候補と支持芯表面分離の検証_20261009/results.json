@@ -1,0 +1,1487 @@
+{
+  "cycle": 92,
+  "physical_experiments": 0,
+  "success_probability": null,
+  "reference_D_N_m": 0.00015299999999999995,
+  "reference_K_N_m": 10596.04267724774,
+  "reference_areal_mass_kg_m2": 0.11159999999999999,
+  "equal_mass_PMP_thickness_um": 133.9735894357743,
+  "homogeneous_PMP_modulus_MPa_required": 763.510646469789,
+  "frontiers": [
+    {
+      "skin_each_um": 5,
+      "core_um": 122.80912364945976,
+      "total_um": 132.80912364945976,
+      "core_mass_fraction": 0.9166666666666666,
+      "core_modulus_MPa_required_to_match_D0": 858.8881892045225,
+      "actual_50C_value": null
+    },
+    {
+      "skin_each_um": 15,
+      "core_um": 100.48019207683073,
+      "total_um": 130.48019207683072,
+      "core_mass_fraction": 0.75,
+      "core_modulus_MPa_required_to_match_D0": 1214.93341575942,
+      "actual_50C_value": null
+    },
+    {
+      "skin_each_um": 30,
+      "core_um": 66.98679471788715,
+      "total_um": 126.98679471788714,
+      "core_mass_fraction": 0.5,
+      "core_modulus_MPa_required_to_match_D0": 3201.822811264153,
+      "actual_50C_value": null
+    }
+  ],
+  "hybrid_rows": [
+    {
+      "id": "S5_E300",
+      "skin_each_um": 5,
+      "core_modulus_MPa_assumed": 300,
+      "core_um": 122.80912364945976,
+      "total_um": 132.80912364945976,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 6.673481008144389e-05,
+      "K_per_width_N_m": 12255.819344607375,
+      "D_ratio_to_porous_reference": 0.4361752292904831,
+      "tip_deflection_um": 16.940754065456474,
+      "tip_deflection_over_length": 0.022587672087275298,
+      "independent_layer_D_ratio_to_bonded": 0.6940282727240237,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.4182655501149371,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.06692248801838993,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S5_E500",
+      "skin_each_um": 5,
+      "core_modulus_MPa_assumed": 500,
+      "core_um": 122.80912364945976,
+      "total_um": 132.80912364945976,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 9.760509561792631e-05,
+      "K_per_width_N_m": 19763.262445748456,
+      "D_ratio_to_porous_reference": 0.6379418014243552,
+      "tip_deflection_um": 11.552374198614947,
+      "tip_deflection_over_length": 0.015403165598153263,
+      "independent_layer_D_ratio_to_bonded": 0.790800214058666,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.28498609917996687,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.045597775868794696,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S5_E800",
+      "skin_each_um": 5,
+      "core_modulus_MPa_assumed": 800,
+      "core_um": 122.80912364945976,
+      "total_um": 132.80912364945976,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.00014391052392264992,
+      "K_per_width_N_m": 30864.364813739106,
+      "D_ratio_to_porous_reference": 0.9405916596251631,
+      "tip_deflection_um": 7.823980812936918,
+      "tip_deflection_over_length": 0.010431974417249225,
+      "independent_layer_D_ratio_to_bonded": 0.8581134683309987,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.1929208926467993,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.03086734282348788,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S5_E1000",
+      "skin_each_um": 5,
+      "core_modulus_MPa_assumed": 1000,
+      "core_um": 122.80912364945976,
+      "total_um": 132.80912364945976,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.00017478080945913232,
+      "K_per_width_N_m": 38224.66124763657,
+      "D_ratio_to_porous_reference": 1.142358231759035,
+      "tip_deflection_um": 6.439062648096339,
+      "tip_deflection_over_length": 0.008585416864128451,
+      "independent_layer_D_ratio_to_bonded": 0.8831738726165583,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.15874802088521137,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.025399683341633818,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S5_E1500",
+      "skin_each_um": 5,
+      "core_modulus_MPa_assumed": 1500,
+      "core_um": 122.80912364945976,
+      "total_um": 132.80912364945976,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.0002519565233003383,
+      "K_per_width_N_m": 56571.09697318235,
+      "D_ratio_to_porous_reference": 1.646774662093715,
+      "tip_deflection_um": 4.463981721592337,
+      "tip_deflection_over_length": 0.005951975628789783,
+      "independent_layer_D_ratio_to_bonded": 0.9189583788401712,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.11003260573613131,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.017605216917781007,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S15_E300",
+      "skin_each_um": 15,
+      "core_modulus_MPa_assumed": 300,
+      "core_um": 100.48019207683073,
+      "total_um": 130.48019207683072,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 7.565190656685476e-05,
+      "K_per_width_N_m": 12340.215689432478,
+      "D_ratio_to_porous_reference": 0.49445690566571754,
+      "tip_deflection_um": 14.997028682687903,
+      "tip_deflection_over_length": 0.019996038243583873,
+      "independent_layer_D_ratio_to_bonded": 0.33896206153525194,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.3706957452019632,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.05931131923231411,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S15_E500",
+      "skin_each_um": 15,
+      "core_modulus_MPa_assumed": 500,
+      "core_um": 100.48019207683073,
+      "total_um": 130.48019207683072,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 9.255982403950366e-05,
+      "K_per_width_N_m": 19416.695248706634,
+      "D_ratio_to_porous_reference": 0.6049661701928346,
+      "tip_deflection_um": 12.171204914518094,
+      "tip_deflection_over_length": 0.016228273219357457,
+      "independent_layer_D_ratio_to_bonded": 0.45971396470526843,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.3001657241283612,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.048026515860537786,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S15_E800",
+      "skin_each_um": 15,
+      "core_modulus_MPa_assumed": 800,
+      "core_um": 100.48019207683073,
+      "total_um": 130.48019207683072,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.00011792170024847701,
+      "K_per_width_N_m": 29376.18031960781,
+      "D_ratio_to_porous_reference": 0.7707300669835101,
+      "tip_deflection_um": 9.516089750998056,
+      "tip_deflection_over_length": 0.012688119667997409,
+      "independent_layer_D_ratio_to_bonded": 0.5759153722130351,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.2343879620747742,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.03750207393196387,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S15_E1000",
+      "skin_each_um": 15,
+      "core_modulus_MPa_assumed": 1000,
+      "core_um": 100.48019207683073,
+      "total_um": 130.48019207683072,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.0001348296177211259,
+      "K_per_width_N_m": 35787.72260682753,
+      "D_ratio_to_porous_reference": 0.881239331510627,
+      "tip_deflection_um": 8.312030576558088,
+      "tip_deflection_over_length": 0.011082707435410784,
+      "independent_layer_D_ratio_to_bonded": 0.6290964759588892,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.20464555731490983,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.03274328917038557,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S15_E1500",
+      "skin_each_um": 15,
+      "core_modulus_MPa_assumed": 1500,
+      "core_um": 100.48019207683073,
+      "total_um": 130.48019207683072,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.00017709941140274816,
+      "K_per_width_N_m": 51427.1847284315,
+      "D_ratio_to_porous_reference": 1.1575124928284197,
+      "tip_deflection_um": 6.317416243797263,
+      "tip_deflection_over_length": 0.00842322165839635,
+      "independent_layer_D_ratio_to_bonded": 0.7176231136976812,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.15545172226676485,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.024872275562682372,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S30_E300",
+      "skin_each_um": 30,
+      "core_modulus_MPa_assumed": 300,
+      "core_um": 66.98679471788715,
+      "total_um": 126.98679471788714,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 8.03129176102158e-05,
+      "K_per_width_N_m": 12615.831902065333,
+      "D_ratio_to_porous_reference": 0.5249210301321295,
+      "tip_deflection_um": 14.14384976298769,
+      "tip_deflection_over_length": 0.018858466350650253,
+      "independent_layer_D_ratio_to_bonded": 0.12158230927725493,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.3497425778289645,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.055958812452634316,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S30_E500",
+      "skin_each_um": 30,
+      "core_modulus_MPa_assumed": 500,
+      "core_um": 66.98679471788715,
+      "total_um": 126.98679471788714,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 8.53226709354451e-05,
+      "K_per_width_N_m": 18896.844451941583,
+      "D_ratio_to_porous_reference": 0.557664515917942,
+      "tip_deflection_um": 13.186283764766934,
+      "tip_deflection_over_length": 0.01758171168635591,
+      "independent_layer_D_ratio_to_bonded": 0.17315894065542686,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.32506204175926356,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.05200992668148217,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S30_E800",
+      "skin_each_um": 30,
+      "core_modulus_MPa_assumed": 800,
+      "core_um": 66.98679471788715,
+      "total_um": 126.98679471788714,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 9.283730092328905e-05,
+      "K_per_width_N_m": 26911.987227263573,
+      "D_ratio_to_porous_reference": 0.6067797445966606,
+      "tip_deflection_um": 12.051682606378947,
+      "tip_deflection_over_length": 0.016068910141838595,
+      "independent_layer_D_ratio_to_bonded": 0.24008683017760818,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.2965569793088259,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.047449116689412145,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S30_E1000",
+      "skin_each_um": 30,
+      "core_modulus_MPa_assumed": 1000,
+      "core_um": 66.98679471788715,
+      "total_um": 126.98679471788714,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 9.784705424851836e-05,
+      "K_per_width_N_m": 31729.312950889165,
+      "D_ratio_to_porous_reference": 0.6395232303824732,
+      "tip_deflection_um": 11.41272977960213,
+      "tip_deflection_over_length": 0.015216973039469506,
+      "independent_layer_D_ratio_to_bonded": 0.2789942613582552,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.2806588022289518,
+          "small_equilibrium_exists": false
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.04490540835663228,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    },
+    {
+      "id": "S30_E1500",
+      "skin_each_um": 30,
+      "core_modulus_MPa_assumed": 1500,
+      "core_um": 66.98679471788715,
+      "total_um": 126.98679471788714,
+      "areal_mass_kg_m2": 0.11159999999999999,
+      "D_per_width_N_m": 0.0001103714375615916,
+      "K_per_width_N_m": 42834.024499283645,
+      "D_ratio_to_porous_reference": 0.7213819448470041,
+      "tip_deflection_um": 10.090751976851397,
+      "tip_deflection_over_length": 0.013454335969135197,
+      "independent_layer_D_ratio_to_bonded": 0.3608102858766959,
+      "wet_fixed_root": [
+        {
+          "gap_um_assumed": 20,
+          "lambda": 0.24793314349692888,
+          "small_equilibrium_exists": true
+        },
+        {
+          "gap_um_assumed": 50,
+          "lambda": 0.039669302959508615,
+          "small_equilibrium_exists": true
+        }
+      ],
+      "measured": false
+    }
+  ],
+  "interface_rows": [
+    {
+      "geometry_id": "S5_E300",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 18702.922382127355,
+      "tip_deflection_over_length": 0.022587672087275298,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E300",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 187029.22382127354,
+      "tip_deflection_over_length": 0.22587672087275298,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E300",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 187029.22382127354,
+      "tip_deflection_over_length": 0.22587672087275298,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E300",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 1870292.2382127352,
+      "tip_deflection_over_length": 2.2587672087275292,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 12787.610782382355,
+      "tip_deflection_over_length": 0.015403165598153263,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 127876.10782382355,
+      "tip_deflection_over_length": 0.1540316559815326,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 127876.10782382355,
+      "tip_deflection_over_length": 0.1540316559815326,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 1278761.0782382353,
+      "tip_deflection_over_length": 1.5403165598153257,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E800",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 8672.999994149923,
+      "tip_deflection_over_length": 0.010431974417249225,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E800",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 86729.99994149923,
+      "tip_deflection_over_length": 0.10431974417249225,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E800",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 86729.99994149923,
+      "tip_deflection_over_length": 0.10431974417249225,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E800",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 867299.9994149922,
+      "tip_deflection_over_length": 1.0431974417249221,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1000",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 7141.149975227099,
+      "tip_deflection_over_length": 0.008585416864128451,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1000",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 71411.49975227099,
+      "tip_deflection_over_length": 0.0858541686412845,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1000",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 71411.49975227099,
+      "tip_deflection_over_length": 0.0858541686412845,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1000",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 714114.9975227098,
+      "tip_deflection_over_length": 0.8585416864128449,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 4953.77518625087,
+      "tip_deflection_over_length": 0.005951975628789783,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 49537.7518625087,
+      "tip_deflection_over_length": 0.059519756287897824,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 49537.7518625087,
+      "tip_deflection_over_length": 0.059519756287897824,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S5_E1500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 495377.518625087,
+      "tip_deflection_over_length": 0.5951975628789782,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E300",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 44720.733498779766,
+      "tip_deflection_over_length": 0.019996038243583873,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E300",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 447207.3349877976,
+      "tip_deflection_over_length": 0.19996038243583872,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E300",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 447207.3349877976,
+      "tip_deflection_over_length": 0.19996038243583872,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E300",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 4472073.349877976,
+      "tip_deflection_over_length": 1.9996038243583865,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 36551.59014570919,
+      "tip_deflection_over_length": 0.016228273219357457,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 365515.9014570919,
+      "tip_deflection_over_length": 0.16228273219357456,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 365515.9014570919,
+      "tip_deflection_over_length": 0.16228273219357456,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 3655159.014570919,
+      "tip_deflection_over_length": 1.6228273219357454,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E800",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 28690.29826674835,
+      "tip_deflection_over_length": 0.012688119667997409,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E800",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 286902.9826674835,
+      "tip_deflection_over_length": 0.12688119667997408,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E800",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 286902.9826674835,
+      "tip_deflection_over_length": 0.12688119667997408,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E800",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 2869029.826674835,
+      "tip_deflection_over_length": 1.2688119667997404,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1000",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 25092.474557396876,
+      "tip_deflection_over_length": 0.011082707435410784,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1000",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 250924.74557396874,
+      "tip_deflection_over_length": 0.11082707435410782,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1000",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 250924.74557396874,
+      "tip_deflection_over_length": 0.11082707435410782,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1000",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 2509247.455739687,
+      "tip_deflection_over_length": 1.108270743541078,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 19103.444361861948,
+      "tip_deflection_over_length": 0.00842322165839635,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 191034.44361861947,
+      "tip_deflection_over_length": 0.08423221658396349,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 191034.44361861947,
+      "tip_deflection_over_length": 0.08423221658396349,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S15_E1500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 1910344.4361861947,
+      "tip_deflection_over_length": 0.8423221658396348,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E300",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 70758.48035532387,
+      "tip_deflection_over_length": 0.018858466350650253,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E300",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 707584.8035532387,
+      "tip_deflection_over_length": 0.1885846635065025,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E300",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 707584.8035532387,
+      "tip_deflection_over_length": 0.1885846635065025,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E300",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 7075848.035532387,
+      "tip_deflection_over_length": 1.8858466350650247,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 66603.86906196135,
+      "tip_deflection_over_length": 0.01758171168635591,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 666038.6906196134,
+      "tip_deflection_over_length": 0.1758171168635591,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 666038.6906196134,
+      "tip_deflection_over_length": 0.1758171168635591,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 6660386.906196134,
+      "tip_deflection_over_length": 1.7581711686355905,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E800",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 61212.680102547165,
+      "tip_deflection_over_length": 0.016068910141838595,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E800",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 612126.8010254717,
+      "tip_deflection_over_length": 0.1606891014183859,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E800",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 612126.8010254717,
+      "tip_deflection_over_length": 0.1606891014183859,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E800",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 6121268.0102547165,
+      "tip_deflection_over_length": 1.606891014183859,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1000",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 58078.6007984216,
+      "tip_deflection_over_length": 0.015216973039469506,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1000",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 580786.007984216,
+      "tip_deflection_over_length": 0.15216973039469503,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1000",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 580786.007984216,
+      "tip_deflection_over_length": 0.15216973039469503,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1000",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 5807860.079842159,
+      "tip_deflection_over_length": 1.5216973039469501,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 51488.139762879895,
+      "tip_deflection_over_length": 0.013454335969135197,
+      "linear_geometry_flag": false,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1500",
+      "nominal_pressure_Pa_assumed": 2000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 514881.3976287989,
+      "tip_deflection_over_length": 0.13454335969135195,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 1,
+      "elastic_interface_shear_Pa": 514881.3976287989,
+      "tip_deflection_over_length": 0.13454335969135195,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    },
+    {
+      "geometry_id": "S30_E1500",
+      "nominal_pressure_Pa_assumed": 20000,
+      "active_fraction_assumed": 0.1,
+      "elastic_interface_shear_Pa": 5148813.976287989,
+      "tip_deflection_over_length": 1.3454335969135192,
+      "linear_geometry_flag": true,
+      "peel_or_fatigue_included": false,
+      "allowable_measured_shear": null
+    }
+  ],
+  "thin_film_diagnostic": {
+    "thickness_um": 49.99999999999999,
+    "modulus_MPa_scenario": 300.0,
+    "D_ratio": 0.02042483660130719,
+    "linear_predicted_tip_um": 352.87500000020526,
+    "linear_predicted_tip_over_length": 0.47050000000027364,
+    "large_deflection_invalidates_linear_prediction": true,
+    "actual_deflection": null,
+    "temperature_note": "Diagnostic at E=300 MPa; X88B reaches 300 MPa at 52 C per S2, not measured at 50 C",
+    "wet_diagnostic": [
+      {
+        "gap_um_assumed": 20,
+        "lambda": 8.641955256899989,
+        "small_equilibrium_exists": false
+      },
+      {
+        "gap_um_assumed": 50,
+        "lambda": 1.382712841103998,
+        "small_equilibrium_exists": false
+      }
+    ]
+  },
+  "friction_budget_rows": [
+    {
+      "skin_mu_assumed": 0.03,
+      "core_mu_assumed": 0.1,
+      "maximum_exposed_core_normal_load_fraction": 0.7142857142857143,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.03,
+      "core_mu_assumed": 0.2,
+      "maximum_exposed_core_normal_load_fraction": 0.29411764705882354,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.03,
+      "core_mu_assumed": 0.35,
+      "maximum_exposed_core_normal_load_fraction": 0.15625000000000003,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.03,
+      "core_mu_assumed": 0.5,
+      "maximum_exposed_core_normal_load_fraction": 0.10638297872340427,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.06,
+      "core_mu_assumed": 0.1,
+      "maximum_exposed_core_normal_load_fraction": 0.5,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.06,
+      "core_mu_assumed": 0.2,
+      "maximum_exposed_core_normal_load_fraction": 0.14285714285714288,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.06,
+      "core_mu_assumed": 0.35,
+      "maximum_exposed_core_normal_load_fraction": 0.06896551724137932,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.06,
+      "core_mu_assumed": 0.5,
+      "maximum_exposed_core_normal_load_fraction": 0.04545454545454546,
+      "any_fraction_feasible": true,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.1,
+      "core_mu_assumed": 0.1,
+      "maximum_exposed_core_normal_load_fraction": null,
+      "any_fraction_feasible": false,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.1,
+      "core_mu_assumed": 0.2,
+      "maximum_exposed_core_normal_load_fraction": null,
+      "any_fraction_feasible": false,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.1,
+      "core_mu_assumed": 0.35,
+      "maximum_exposed_core_normal_load_fraction": null,
+      "any_fraction_feasible": false,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    },
+    {
+      "skin_mu_assumed": 0.1,
+      "core_mu_assumed": 0.5,
+      "maximum_exposed_core_normal_load_fraction": null,
+      "any_fraction_feasible": false,
+      "actual_load_fraction": null,
+      "actual_ski_pair_coefficients": null,
+      "not_area_fraction": true
+    }
+  ],
+  "cost_rows": [
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 0.0,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 16177961.741922723,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 48533885.22576817,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 63102399.131714575,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 63102399.131714575,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 63102399.131714575,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 79280360.8736373,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 63102399.131714575,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 111636284.35748275,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 126204798.26342915,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 126204798.26342915,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 126204798.26342915,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 142382760.00535187,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 5,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 126204.79826342915,
+      "incremental_raw_cost_yen_ex_tax": 126204798.26342915,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 174738683.4891973,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 0.0,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 16177961.741922723,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 48533885.22576817,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 51629235.65322102,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 51629235.65322102,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 51629235.65322102,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 67807197.39514375,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 51629235.65322102,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 100163120.87898919,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 103258471.30644204,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 103258471.30644204,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 103258471.30644204,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 119436433.04836476,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 15,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 103258.47130644204,
+      "incremental_raw_cost_yen_ex_tax": 103258471.30644204,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 151792356.5322102,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 0.0,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 16177961.741922723,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 500,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 0.0,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 48533885.22576817,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 34419490.43548068,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 34419490.43548068,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 34419490.43548068,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 50597452.1774034,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 1000,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 34419490.43548068,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 82953375.66124885,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 0,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 68838980.87096135,
+      "incremental_conversion_cost_yen_ex_tax": 0.0,
+      "incremental_total_yen_ex_tax": 68838980.87096135,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 100,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 68838980.87096135,
+      "incremental_conversion_cost_yen_ex_tax": 16177961.741922723,
+      "incremental_total_yen_ex_tax": 85016942.61288407,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    },
+    {
+      "skin_each_um": 30,
+      "core_raw_price_yen_kg_assumed": 1500,
+      "additional_conversion_yen_gross_kg_assumed": 300,
+      "virgin_core_kg_assuming_common_yield": 68838.98087096136,
+      "incremental_raw_cost_yen_ex_tax": 68838980.87096135,
+      "incremental_conversion_cost_yen_ex_tax": 48533885.22576817,
+      "incremental_total_yen_ex_tax": 117372866.09672952,
+      "actual_quote": null,
+      "adhesive_mass_and_yield_change_included": false
+    }
+  ],
+  "evidence_ratios": {
+    "RT18_tear_direction_ratio": 5.909090909090909,
+    "RT18_film_to_molded_resin_tensile_modulus_ratio_not_matched_tests": 0.5789473684210527,
+    "patent_mu_ratio": 0.6862745098039215,
+    "patent_wear_mass_ratio": 0.15555555555555556,
+    "patent_friction_not_used_in_model": true
+  },
+  "actual_material_selected": null,
+  "actual_50C_interface_bond": null,
+  "all_50C_moduli_are_scenarios": true,
+  "physical_grain_bed_simulation": false
+}

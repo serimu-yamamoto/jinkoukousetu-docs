@@ -1,0 +1,293 @@
+{
+  "all_passed": true,
+  "document_checks": 71,
+  "local_link_count": 635,
+  "numeric_checks": 34,
+  "physical_experiments": 0,
+  "checks": [
+    {
+      "name": "34_arithmetic_checks",
+      "passed": true
+    },
+    {
+      "name": "physical_trials_zero",
+      "passed": true
+    },
+    {
+      "name": "success_unknown",
+      "passed": true
+    },
+    {
+      "name": "material_not_selected",
+      "passed": true
+    },
+    {
+      "name": "50C_bond_unmeasured",
+      "passed": true
+    },
+    {
+      "name": "50C_moduli_are_scenarios",
+      "passed": true
+    },
+    {
+      "name": "not_particle_bed_simulation",
+      "passed": true
+    },
+    {
+      "name": "15_sections_60_interfaces",
+      "passed": true
+    },
+    {
+      "name": "12_friction_27_cost_cases",
+      "passed": true
+    },
+    {
+      "name": "all_costs_unquoted",
+      "passed": true
+    },
+    {
+      "name": "patent_not_ski_input",
+      "passed": true
+    },
+    {
+      "name": "patent_not_commercial_grade_measurement",
+      "passed": true
+    },
+    {
+      "name": "film_large_deflection_disclosed",
+      "passed": true
+    },
+    {
+      "name": "18_unperformed_pairs",
+      "passed": true
+    },
+    {
+      "name": "no_fabricated_lot_replication",
+      "passed": true
+    },
+    {
+      "name": "no_contacts_orders_equipment",
+      "passed": true
+    },
+    {
+      "name": "claude_status_unknown",
+      "passed": true
+    },
+    {
+      "name": "claude_source_unchanged",
+      "passed": true
+    },
+    {
+      "name": "original_figures_reviewed",
+      "passed": true
+    },
+    {
+      "name": "sources_not_republished",
+      "passed": true
+    },
+    {
+      "name": "alternate_routes_retained",
+      "passed": true
+    },
+    {
+      "name": "abstract_access_limit_recorded",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_22",
+      "passed": true
+    },
+    {
+      "name": "history_restored_README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_24",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_25",
+      "passed": true
+    },
+    {
+      "name": "history_restored_回覧板.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_27",
+      "passed": true
+    },
+    {
+      "name": "history_restored_GPT往復/README.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_29",
+      "passed": true
+    },
+    {
+      "name": "history_restored_調査台帳/一般.md",
+      "passed": true
+    },
+    {
+      "name": "unique_reverse_31",
+      "passed": true
+    },
+    {
+      "name": "history_restored_調査台帳/計算部品索引.md",
+      "passed": true
+    },
+    {
+      "name": "report_contains_物理試験0件",
+      "passed": true
+    },
+    {
+      "name": "report_contains_未算定",
+      "passed": true
+    },
+    {
+      "name": "report_contains_34算術照合",
+      "passed": true
+    },
+    {
+      "name": "report_contains_100.48",
+      "passed": true
+    },
+    {
+      "name": "report_contains_1,215",
+      "passed": true
+    },
+    {
+      "name": "report_contains_62.9",
+      "passed": true
+    },
+    {
+      "name": "report_contains_約47％",
+      "passed": true
+    },
+    {
+      "name": "report_contains_14.3％",
+      "passed": true
+    },
+    {
+      "name": "report_contains_6,781",
+      "passed": true
+    },
+    {
+      "name": "report_contains_50℃",
+      "passed": true
+    },
+    {
+      "name": "report_contains_60分",
+      "passed": true
+    },
+    {
+      "name": "report_contains_450mm",
+      "passed": true
+    },
+    {
+      "name": "report_contains_300mm",
+      "passed": true
+    },
+    {
+      "name": "report_contains_常温噴霧結晶化",
+      "passed": true
+    },
+    {
+      "name": "report_contains_嵩密度",
+      "passed": true
+    },
+    {
+      "name": "report_contains_A1",
+      "passed": true
+    },
+    {
+      "name": "PNG_signature_core_skin_sections.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_size_core_skin_sections.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_signature_stiffness_cost_frontiers.png",
+      "passed": true
+    },
+    {
+      "name": "PNG_size_stiffness_cost_frontiers.png",
+      "passed": true
+    },
+    {
+      "name": "local_links_resolve",
+      "passed": true
+    },
+    {
+      "name": "reproduction_succeeds",
+      "passed": true
+    },
+    {
+      "name": "reproduction_preserves_results",
+      "passed": true
+    },
+    {
+      "name": "LF_only_audit.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_claude_handoff.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_draw.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_index_changes.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_inputs.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_model.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_plot_metadata.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_README.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_reproduce.py",
+      "passed": true
+    },
+    {
+      "name": "LF_only_research_state.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_results.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_sources.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_test_plan.json",
+      "passed": true
+    },
+    {
+      "name": "LF_only_test_protocol.md",
+      "passed": true
+    },
+    {
+      "name": "LF_only_validation.json",
+      "passed": true
+    }
+  ]
+}
