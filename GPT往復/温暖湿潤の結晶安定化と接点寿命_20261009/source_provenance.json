@@ -1,0 +1,64 @@
+{
+  "accessed_date": "2026-10-09",
+  "full_sources_archived": false,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Solubility of the hydrated Mg-carbonates nesquehonite and dypingite from 5 to 35 °C",
+      "year": 2019,
+      "doi": "10.1016/j.chemgeo.2018.11.003",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10064741/1/Harrison%20et%20al_manuscript_cleansed%20(2%20files%20merged).pdf",
+      "access": "Full institutional author manuscript read with web PDF extraction; experimental brines, not rainfall.",
+      "role": "phase change counterexample; no numerical field-rate transfer",
+      "metadata_verified_url": "https://tugraz.elsevierpure.com/en/publications/solubility-of-the-hydrated-mg-carbonates-nesquehonite-and-dypingi/"
+    },
+    {
+      "id": "S2",
+      "title": "Stabilization of nesquehonite for application in carbon capture utilization and storage",
+      "year": 2025,
+      "doi": "10.1039/D4MA00947A",
+      "url": "https://pubs.rsc.org/en/content/articlehtml/2025/ma/d4ma00947a",
+      "alternate": "https://www.sciencedirect.com/org/science/article/pii/S2633540924007977",
+      "access": "Publisher-indexed methodology/results/conclusions retrieved in web search; direct publisher/institution fetches returned 403; no complete-byte article hash.",
+      "role": "50 C 7/28 d batch conditions and phase retention; not strength/rebonding/safety data"
+    },
+    {
+      "id": "S3",
+      "title": "Enhanced Nesquehonite Formation and Stability in the Presence of Dissolved Silica",
+      "year": 2024,
+      "doi": "10.1021/acs.est.3c06939",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10785746/",
+      "retrieved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10785746/fullTextXML",
+      "bytes": 113562,
+      "sha256": "8083810eb21e36911faf920ab488206be6e7f8df6d2dd9111d13592107e8436e",
+      "access": "Complete published XML retrieved; supplementary figures/rate table not digitized.",
+      "role": "silica-assisted formation/transformation; brine and elevated-temperature bench conditions"
+    },
+    {
+      "id": "S4",
+      "title": "Formation and stabilisation of nesquehonite in the presence of glucose and xanthan gum",
+      "year": 2026,
+      "doi": "10.1039/d6ra02804g",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13326699/",
+      "retrieved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13326699/fullTextXML",
+      "bytes": 72751,
+      "sha256": "b849c173576e6c247484a4833ab358f90e478f0bfdd75742d7cc11a69e952af2",
+      "access": "Complete published XML retrieved; publication July 2026. No author figures or full text redistributed.",
+      "role": "polymer-assisted morphology and phase lifetime; not outdoor synthesis or 50 C long-term mechanical test"
+    },
+    {
+      "id": "S5",
+      "title": "Solubility and Stability of Nesquehonite in NaCl, KCl, MgCl2, and NH4Cl Solutions",
+      "year": 2008,
+      "doi": "10.1021/je800438p",
+      "url": "https://pubs.acs.org/doi/abs/10.1021/je800438p",
+      "access": "Primary publisher abstract only.",
+      "role": "apparently different stability statement; demonstrate boundary-condition dependence, no assumed 50 C lifetime"
+    }
+  ],
+  "exclusions": [
+    "Wet-granular/capillary search results used for scoping only; no new liquid-bridge law adopted.",
+    "No values from review-only sources adopted as measured material inputs.",
+    "Surface coating thickness and phosphorus concentration are design sensitivities, not extracted recipes."
+  ]
+}

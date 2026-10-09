@@ -1,0 +1,55 @@
+{
+  "cycle": 63,
+  "physical_tests": 0,
+  "success_probability": null,
+  "nominal": {
+    "bridge_radius_um": 6.154574548966637,
+    "bridge_mass_kg": 49.410000000000004,
+    "bridge_Mg_kg": 8.679604293148309,
+    "required_contact_force_mN": 1.189997217268861,
+    "radial_loss_limit_um": 0.6497557233348338
+  },
+  "nominal_event": {
+    "rain_mm": 100,
+    "captured_event_water_m3": 200.0,
+    "uniform_bridge_mass_loss_fraction": 0.2,
+    "bridge_loss_kg": 9.882000000000001,
+    "Mg_loss_kg": 1.7359208586296617,
+    "net_Mg_increase_mg_L": 8.679604293148309
+  },
+  "nominal_coating": {
+    "thickness_um": 0.1,
+    "side_coat_kg": 1.76904829540137,
+    "coat_to_bridge_mass": 0.03580344657764359,
+    "outside_radius_um": 6.2545745489666364,
+    "coated_end_faces": false
+  },
+  "nominal_inventory": {
+    "renewed_fraction": 0.1,
+    "hold_days": 28,
+    "feed_kg_per_cycle": 19.764000000000003,
+    "feed_kg_per_day": 39.528000000000006,
+    "work_in_process_kg": 1106.784,
+    "occupied_bath_m3": 11.06784,
+    "annual_feed_kg": 7115.040000000001,
+    "annual_gross_bath_L": 71150.40000000001
+  },
+  "row_counts": {
+    "radial_loss": 101,
+    "strength_sensitivity": 4,
+    "event_mass_balance": 16,
+    "side_coating": 6,
+    "factory_inventory": 6,
+    "partial_cost": 9,
+    "phosphorus_balance": 36,
+    "topology_counterexample": 4,
+    "recovery_bound": 48,
+    "recession_requirement": 5
+  },
+  "total_csv_rows": 235,
+  "notes": [
+    "Geometric and mass-balance counterexamples, not measured chemical kinetics.",
+    "Original phase percent, volume percent and intact-contact count are distinct.",
+    "Cost is tax-exclusive partial consumables only."
+  ]
+}

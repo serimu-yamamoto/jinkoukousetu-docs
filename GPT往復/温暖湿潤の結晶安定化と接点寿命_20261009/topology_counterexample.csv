@@ -1,0 +1,5 @@
+remaining_original_load_bearing_volume_fraction,uniform_radial_loss_um,uniform_force_ratio,localized_transverse_nonbearing_gap_um,disconnected_tensile_force_ratio,compression_contact_may_remain,phase_fraction_to_volume_conversion_assumed
+0.8,0.6497557233348338,0.8,2.0,0,True,False
+0.86,0.4470569120462238,0.86,1.4000000000000001,0,True,False
+0.95,0.15583730810931762,0.95,0.5000000000000006,0,True,False
+0.99,0.030850192008691327,0.99,0.1000000000000001,0,True,False

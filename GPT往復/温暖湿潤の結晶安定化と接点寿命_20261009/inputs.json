@@ -1,0 +1,87 @@
+{
+  "cycle": 63,
+  "physical_tests": 0,
+  "success_probability": null,
+  "base_commit": "e9be02fa93efb425120ede9311d021a10ee03083",
+  "geometry_assumptions": {
+    "area_m2": 2000,
+    "bed_depth_m": 0.45,
+    "particle_diameter_m": 0.0005,
+    "packing_fraction": 0.55,
+    "coordination": 6,
+    "bridge_length_m": 0.00001,
+    "target_network_stress_Pa": 5000,
+    "effective_bridge_strength_Pa": 10000000,
+    "load_sharing_efficiency": 1,
+    "bridge_density_kg_m3": 1830
+  },
+  "chemistry_constants": {
+    "Mg_kg_per_mol": 0.024305,
+    "NQ_kg_per_mol": 0.13836,
+    "P_kg_per_mol": 0.030974
+  },
+  "engineering_assumptions": {
+    "min_force_retention": 0.8,
+    "renewed_fractions": [
+      0.01,
+      0.1,
+      1
+    ],
+    "useful_contact_yield": 0.25,
+    "cycles_per_day": 2,
+    "days_per_year": 180,
+    "stabilization_days": [
+      7,
+      28
+    ],
+    "bath_L_per_kg": 10,
+    "raw_bridge_price_JPY_kg": 1000,
+    "treatment_price_JPY_kg": [
+      100,
+      500,
+      2000
+    ],
+    "rain_depth_mm": [
+      10,
+      50,
+      100,
+      300
+    ],
+    "coat_thickness_um": [
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1
+    ],
+    "coat_density_kg_m3": 2000,
+    "bath_P_mol_L": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "bath_elemental_loss_fraction": [
+      0.0001,
+      0.001,
+      0.01,
+      1
+    ],
+    "bridge_strength_sensitivity_MPa": [
+      0.02,
+      0.1,
+      1,
+      10
+    ]
+  },
+  "provenance_notes": {
+    "geometry": "H62 inverse-design assumptions, not measured material",
+    "bath_L_per_kg": "S2 reported 1 g solid per 10 mL; scale-up only, not proven process",
+    "stabilization_days": "S2 test durations 7/28 days, not minimum treatment times",
+    "bath_P_mol_L": "hypothetical concentrations; no claim these are S2 recipe",
+    "coat_density_kg_m3": "hypothetical, not identified phosphate phase density",
+    "treatment_price": "sensitivity only, no quote",
+    "force_retention": "engineering illustration, not snow acceptance specification",
+    "bridge_strength_sensitivity": "0.02–1 MPa appears as an assumption range in Claude published calculation index; raw script and measurements not available. 10 MPa is H62 nominal assumption."
+  }
+}

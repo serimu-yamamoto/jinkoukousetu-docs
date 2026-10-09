@@ -1,0 +1,33 @@
+{
+  "passed": 27,
+  "checks": [
+    "sphere contact count",
+    "H62 required bridge mass",
+    "stress tensor back substitution",
+    "radius force relation",
+    "20 percent loss area inversion",
+    "endpoints zero and total loss",
+    "Mg is element not whole mineral",
+    "event Mg balance units",
+    "same mass topology counterexample",
+    "constant length neck volume ratios",
+    "coat volume exact cylindrical difference",
+    "coat mass increases thickness",
+    "Little inventory relation",
+    "bath volume scale",
+    "full renewal included",
+    "annual days and cycles",
+    "no cost scope hiding",
+    "partial cost arithmetic",
+    "elemental P bookkeeping",
+    "P concentrations hypothetical",
+    "P exit not environmental claim",
+    "rebuild cannot repair weakened survivors by count alone",
+    "weak strength mass factor",
+    "geometry warning for very thick neck",
+    "Claude range not called measurement",
+    "no generated probability",
+    "rate times duration inverse"
+  ],
+  "physical_tests": 0
+}

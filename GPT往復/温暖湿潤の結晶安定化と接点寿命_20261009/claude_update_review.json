@@ -1,0 +1,35 @@
+{
+  "commit": "e9be02fa93efb425120ede9311d021a10ee03083",
+  "files": [
+    {
+      "path": "調査台帳/README.md",
+      "sha256": "f77d96880c0a6d2f6fb73bc4379461485d88633d90476f4efb5ee3866aa24a32",
+      "bytes": 958
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "sha256": "45f1e189e70b5e5e976e7a3419f28405680d936e691d60449ee9c64cffc542b1",
+      "bytes": 116
+    },
+    {
+      "path": "調査台帳/物性値照合_自律ループv2v3.md",
+      "sha256": "55d865decf48468f5161a65371049edde20b6b09dc658a3b79110da756edf18c",
+      "bytes": 379277
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "sha256": "aac8a7f86db0c08037dd248d3fd9621570a1f7d1b7a1524b4ead26f5c9649f5f",
+      "bytes": 206629
+    }
+  ],
+  "reviewed_sections": [
+    "## v2 R4 P5 マグネシア霜雪（審査3：安全・環境・規則・冬（毒性、可燃性、粉じん、マイクロプラスチ）",
+    "## v2 R4 P5 マグネシア霜雪（審査1：物理化学・材料科学（結晶化の速さと形、相転移、結合（焼結）の）",
+    "## v3 R1 6. K-A：二層の（審査4：合成化学・新物質の実在性・製造（作れるか、類例、推定物性の妥）",
+    "## v3 R1 6. K-A：二層の（審査3：安全・環境・規則・冬（毒性、可燃性、粉じん、マイクロプラスチ）"
+  ],
+  "scripts_are_index_entries_only": true,
+  "raw_v3_scripts_downloaded": false,
+  "physical_test_data_observed": false,
+  "new_implication": "Strength assumptions in the published script index (0.02–1 MPa) are far below the H62 nominal 10 MPa; add explicit sensitivity without treating them as measured."
+}
