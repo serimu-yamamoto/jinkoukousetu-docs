@@ -1,0 +1,47 @@
+[
+  {
+    "id": "S1",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2023/ce/d3ce00063j/unauth",
+    "doi": "10.1039/D3CE00063J",
+    "published": "2023-02-28",
+    "accessed": "2026-10-10",
+    "scope": "Primary abstract: twinning beta anhydrous guanine, about2um length and42±3nm whole platelet thickness; aqueous polymer-assisted ammonia-volatilization route, optical evaluation only."
+  },
+  {
+    "id": "S1_SI",
+    "url": "https://www.rsc.org/suppdata/d3/ce/d3ce00063j/d3ce00063j2.pdf",
+    "accessed": "2026-10-10",
+    "scope": "FigureS3 text: concentration and timing variants.0.66/1.32/1.98mM guanine and1mg/mL polymer comparison; not a yield or solubility specification."
+  },
+  {
+    "id": "S2",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.cgd.5c00205",
+    "title": "Guanine Crystal Formation at Physiological pH",
+    "published": "2025-05-30",
+    "accessed": "2026-10-10",
+    "scope": "Primary indexed visible abstract/body/SI portions: enzyme-mediated conversion and neutral-pH formation with phosphate buffer. Fulltext method not fully verified.",
+    "repository_pdf": "https://eprints.whiterose.ac.uk/id/eprint/227661/1/tah-roy-et-al-2025-guanine-crystal-formation-at-physiological-ph.pdf",
+    "acquisition": "Web PDF too large; downloaded to server working .git; text extraction unavailable. Download not counted as reading full paper.",
+    "download_bytes": 12502536,
+    "download_sha256": "2a11cad8c6a09e16b9ce34a2eb375f8bb65bd5ed991345b4fc2ae451585cf9e2"
+  },
+  {
+    "id": "S3",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35255213/",
+    "doi": "10.1021/jacs.2c00724",
+    "year": 2022,
+    "accessed": "2026-10-10",
+    "scope": "Primary abstract reports solid solutions including guanine/hypoxanthine and sometimes xanthine; no friction improvement or outdoor safety inferred."
+  },
+  {
+    "id": "S4",
+    "url": "https://doi.org/10.1021/acs.cgd.3c01003",
+    "accessed": "2026-10-10",
+    "scope": "Primary abstract concerns guaninium chloride dihydrate and doped salt crystals. Elastic behavior not assigned to neutral anhydrous guanine."
+  },
+  {
+    "id": "prior110",
+    "repository_path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+    "scope": "Functional-area and1350kg comparison basis, not actual guanine coating use."
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "status": "not_executed",
+  "physical_trials": 0,
+  "success_probability": null,
+  "equipment": "not_secured",
+  "collaborators": "not_secured",
+  "comparison_variants": [
+    "retention_structure_only",
+    "retained_LL_reference",
+    "retained_neutral_guanine_candidate"
+  ],
+  "factory_checks": [
+    "crystal polymorph and composition",
+    "density and platelet whole-thickness distribution",
+    "concentration-dependent morphology and yield",
+    "polymer enzyme buffer and solvent residue",
+    "separate mother-liquor and crystal mass balances"
+  ],
+  "surface_checks": [
+    "retained mass and free fraction",
+    "actual ski-base30C50C friction wear transfer",
+    "wet-dry history and loss of platelet morphology",
+    "retaining-material-only control",
+    "all release pathways including air water and ski transfer"
+  ],
+  "bed_checks": [
+    "open-grain penetration and edge support/release",
+    "post-rain composition and friction restoration",
+    "snow-to-grain-to-bed attachment and drainage"
+  ],
+  "prohibited_shortcuts": [
+    "no free nanoplatelet spreading without validated exposure control",
+    "do not equate optical reflection with low friction or50C compliance",
+    "do not use a salt-crystal elasticity result for neutral guanine",
+    "do not treat phosphate-containing lab synthesis as outdoor salt lubrication"
+  ],
+  "missing_costs": [
+    "raw crystal/enzyme/polymer",
+    "recovery washing and reuse",
+    "selective retention",
+    "yield",
+    "capture",
+    "replacement life",
+    "quality control"
+  ],
+  "actions": "Research specifications only; no purchase, vendor contact, manufacture, field release or paid API."
+}

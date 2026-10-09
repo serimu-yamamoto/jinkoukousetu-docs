@@ -1,0 +1,40 @@
+{
+  "sources": {
+    "S1": "https://pubs.rsc.org/en/content/articlelanding/2023/ce/d3ce00063j/unauth",
+    "S1_SI": "https://www.rsc.org/suppdata/d3/ce/d3ce00063j/d3ce00063j2.pdf"
+  },
+  "reported": {
+    "platelet_length_m": 2e-06,
+    "platelet_thickness_m": 4.2e-08,
+    "reported_thickness_spread_m": 3e-09,
+    "precursor_concentrations_mM": [
+      0.66,
+      1.32,
+      1.98
+    ],
+    "polymer_concentration_mg_mL": 1,
+    "note": "Length and thickness from primary abstract; concentrations from SI FigureS3. Different preparations are not assumed to have same morphology or yield.42nm is a whole multilayer platelet, not a single6nm sublayer."
+  },
+  "assumed": {
+    "nominal_guanine_molecular_mass_g_mol": 151.13,
+    "density_kg_m3": [
+      1800,
+      2200
+    ],
+    "whole_platelet_layers": [
+      1,
+      3
+    ],
+    "placement_yield": [
+      0.5,
+      1
+    ],
+    "crystal_yield": [
+      0.5,
+      1
+    ],
+    "note": "Density, yields and layer counts unmeasured comparison inputs; mass constant declared rounded calculation input."
+  },
+  "physical_trials": 0,
+  "success_probability": null
+}

@@ -1,0 +1,114 @@
+{
+  "cycle": 114,
+  "base_commit": "8f353ee01499a9c3e6e5d9e99bd4c9907e498809",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "GPT往復/GPT回答_多方向探索第114巡_グアニン板状結晶を少量接触相として比較する_20261010.md",
+      "bytes": 10043,
+      "sha256": "a21184282a57e8530e04d153ce548aa128bc450a064283f075a0adaf548e0145"
+    },
+    {
+      "path": "GPT往復/README.md",
+      "bytes": 74211,
+      "sha256": "4e24bb3e378f1197129e27ad5e348ef054091a97caf049c7bf2b6a75a7d07bdf"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/README.md",
+      "bytes": 817,
+      "sha256": "0872c3a5bf1b509dcbda69871ff6f057d273d2499c5d4be564c675c87cac5aca"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/claude_handoff.md",
+      "bytes": 2191,
+      "sha256": "8aa640c806a388fa9f83b2b246be24b794ef3cf22379e4efdab39c647a01865d"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/index_preservation.json",
+      "bytes": 1491,
+      "sha256": "ef9517d65cf0f22431a5291b4b5bcca3e4851dd1ce874fc925d33bcdaf6284fd"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/inputs.json",
+      "bytes": 1123,
+      "sha256": "ced937e74cae96a5c228a39bcd791ae7fe0faee17c0d3fa500363b2274027b2a"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/model.md",
+      "bytes": 1763,
+      "sha256": "b3f3b416afdc4fee4a8e63a787a2496addc464f1e83282bed604581a3c507651"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/publication_audit.json",
+      "bytes": 255,
+      "sha256": "fe983202ccecb3f6de2be9f0fefa0c6204a153036540847eec1eaee72e56d034"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/reproduce.py",
+      "bytes": 4221,
+      "sha256": "76fd490862a5b25a6ef1b63efa3f811914508dc681f16ca5762e182fb8bca438"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/research_state.json",
+      "bytes": 1107,
+      "sha256": "916112dd745ca3083dcc46e2b723132fdda4bdef39957444844e82bf0068ee76"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/results.json",
+      "bytes": 18130,
+      "sha256": "8e0ba3f6b692a72df528132e1313b927cbcecf228cd993e1827f5f78ff1b0e3c"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/sources.json",
+      "bytes": 2327,
+      "sha256": "6b7d3e43cfcd63adebb033d4492929340946831c2571adf8c43228ea57d51f5d"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/test_plan.json",
+      "bytes": 1668,
+      "sha256": "95c8a726ebe1f90c1a59b70bdc99374450c35e7e98e3820cd3d63c8f76b6ddb2"
+    },
+    {
+      "path": "GPT往復/生体分子結晶の接触相と製造物量_20261010/validation.json",
+      "bytes": 3018,
+      "sha256": "a39912428d4558ebdded3896144410936af79f6a9fca4e552f3a3b66682f7250"
+    },
+    {
+      "path": "README.md",
+      "bytes": 84327,
+      "sha256": "430a7e0ed629f75ec415925829fe5b2176b038446fe3b5e34ce8d3a64647d9cf"
+    },
+    {
+      "path": "回覧板.md",
+      "bytes": 192842,
+      "sha256": "5ce79c3bf2124e2109259e46595c0312a42364481279a3d8a3e5a861794bebfc"
+    },
+    {
+      "path": "計算部品/README.md",
+      "bytes": 3490,
+      "sha256": "5d10ec8991137baedf511677d5fac8679b61fe21a23a950ceafe471fb29f908a"
+    },
+    {
+      "path": "計算部品/crystal_platelet_inventory.py",
+      "bytes": 1636,
+      "sha256": "a60d099bde98aa81833b46aea949205fe92492765913919bd4358ab2e18b3b82"
+    },
+    {
+      "path": "調査台帳/一般.md",
+      "bytes": 37548,
+      "sha256": "64ea2d49e3497881ee2c3ca906c4ddd031bd9dae73fbb78d0242ab149cdcb65a"
+    },
+    {
+      "path": "調査台帳/計算部品索引.md",
+      "bytes": 234083,
+      "sha256": "04e3362bd9d293dbcd417b2e5a85648713a15634ff4a8a7d5df37ca2273e82c7"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "GPT往復/結晶接触材の粒度基準と保持量監査_20261010/results.json",
+      "bytes": 33057,
+      "sha256": "3cc51ec1d18b78419b1ac81e0f12ff73443591712228e85fdbcf733986567520"
+    }
+  ]
+}
