@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0268005X99000144",
+    "title": "Rheological and thermal studies on gelling characteristics of curdlan (1999)",
+    "access": "検索で一次本文の抜粋を確認。直接openは403。全文を読んだとは扱わない。",
+    "supports": "低温側/高温側ゲルと濃度依存。具体配合・0.5秒での完成を支持しない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7504023/",
+    "title": "Effect of Gelation Temperature on the Molecular Structure and Physicochemical Properties of the Curdlan Matrix (2020)",
+    "access": "検索の一次論文抜粋。直接PMCは確認画面、出版社は429。",
+    "supports": "ゲル構造と熱履歴の違い。提案配合の性能値ではない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S3",
+    "url": "https://assets.thermofisher.com/chem-specs-pdf/retrievePdf?rootSku=A19434&sku=A19434.14",
+    "title": "D-(+)-Trehalose dihydrate Product Specification",
+    "access": "1ページPDFテキスト直接確認。",
+    "supports": "C12H26O13、分子量378.33。粒子全体の安全性は支持しない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S4",
+    "url": "https://www.sigmaaldrich.com/deepweb/assets/sigmaaldrich/product/documents/835/234/b2629pis.pdf",
+    "title": "Betaine B2629 Product Information Sheet",
+    "access": "2ページPDFテキスト直接確認。",
+    "supports": "分子量117.1、水への溶解。配合の凝固点・安全性は未測定。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S5",
+    "url": "https://honda.sci.yokohama-cu.ac.jp/理学部用_溶液化学_2020_5p.pdf",
+    "title": "横浜市立大学 溶液化学資料",
+    "access": "検索で教育機関の原資料の式・定数を確認。",
+    "supports": "理想近似ΔTf=Kf*m、水Kf=1.86。ゲルへの厳密適用を支持しない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S6",
+    "url": "https://yrit.jp/wp-content/uploads/26_y-bake31.pdf",
+    "title": "山形県工業技術センター 偏光顕微鏡仕様",
+    "access": "1ページ公式PDFテキスト直接確認。",
+    "supports": "Nikon ECLIPSE LV100N POL、室温〜400℃以上、委託写真等。±0.08K/-0.62Kは記載なし。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S7",
+    "url": "https://doi.org/10.1787/9789264069947-en",
+    "title": "OECD Test No. 202: Daphnia sp. Acute Immobilisation Test",
+    "access": "公式発行元の説明を検索で確認。",
+    "supports": "48時間の急性遊泳阻害。総合的無害証明ではない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S8",
+    "url": "https://www.env.go.jp/kijun/dojou.html",
+    "title": "環境省 土壌環境基準",
+    "access": "現行の公式一覧ページを直接確認。",
+    "supports": "個別項目の基準。全毒性・全曝露を網羅した認証ではない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S9",
+    "url": "https://www.jpo.go.jp/system/laws/rule/guideline/patent/tukujitu_kijun/ht/02_0100.html",
+    "title": "特許庁 明細書の記載要件",
+    "access": "公式本文の検索抜粋を確認。直接openは403。",
+    "supports": "実施可能性の判断。24試験合格の自動保証はない。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S10",
+    "url": "https://www.jpo.go.jp/system/laws/rule/guideline/patent/tukujitu_kijun/ht/03_0200.html",
+    "title": "特許庁 新規性・進歩性",
+    "access": "公式本文の検索抜粋を確認。",
+    "supports": "出願前の公知、電気通信回線上の公開等。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S11",
+    "url": "https://www.jpo.go.jp/system/laws/rule/guideline/patent/hatumei_reigai.html",
+    "title": "特許庁 新規性喪失の例外規定の手続",
+    "access": "公式本文の検索抜粋を確認。",
+    "supports": "例外は無条件の救済ではない。外国での自己公開にも注意。",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S12",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Trehalose-dihydrate",
+    "title": "原文が挙げたPubChem",
+    "access": "直接アクセスは確認画面。内容確認済みの根拠として使わず、メーカー規格を代替。",
+    "supports": "未確認。",
+    "checked_date": "2026-10-22"
+  }
+]

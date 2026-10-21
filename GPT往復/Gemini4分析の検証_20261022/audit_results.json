@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-22",
+  "status": "conditional arithmetic audit; not a validated material model",
+  "physical_trials": 0,
+  "physical_success_probability": null,
+  "grid_count_only": 1440,
+  "freezing": {
+    "assumptions": "all nominal trehalose and betaine dissolved, ideal i=1, no other solutes; no measured activity or extract dilution",
+    "basis_g": 100,
+    "trehalose_dihydrate_g": 7,
+    "betaine_g": 2,
+    "nominal_water_g": 58,
+    "molecular_weights_g_mol": [
+      378.33,
+      117.1
+    ],
+    "kf_K_kg_mol": 1.86,
+    "nominal_water_only_K": 1.1410710349033941,
+    "including_dihydrate_water_K": 1.1281046276206468,
+    "effective_fraction_limit_for_0_0004_K_same_water": 0.0003545770402907255,
+    "effective_fraction_limit_for_0_01_K_same_water": 0.008864426007268139
+  },
+  "water_denominator": {
+    "water_mass_fraction": 0.58,
+    "limiting_total_mass_loss_fraction": 0.12,
+    "retention_at_boundary_if_only_water_lost": 0.7931034482758621,
+    "note": "12% is a strict total-mass-loss threshold; retention approaches this boundary from above, not a 91.8% guarantee"
+  },
+  "shear": {
+    "I": {
+      "c_kpa": 46,
+      "reported_Sf_kpa": 145,
+      "max_under_stated_sigma_phi_kpa": 108.50285012053739,
+      "compatible_if_same_linear_test": false
+    },
+    "II": {
+      "c_kpa": 49.5,
+      "reported_Sf_kpa": 158,
+      "max_under_stated_sigma_phi_kpa": 112.00285012053739,
+      "compatible_if_same_linear_test": false
+    },
+    "III": {
+      "c_kpa": 39.2,
+      "reported_Sf_kpa": 122,
+      "max_under_stated_sigma_phi_kpa": 101.70285012053739,
+      "compatible_if_same_linear_test": false
+    }
+  },
+  "closure": {
+    "user_limit_min": 60,
+    "recovery_min_without_other_work": [
+      90.0,
+      240
+    ]
+  },
+  "wind": {
+    "rho_assumed_kg_m3": 1.2,
+    "U_claim_m_s": 80,
+    "tau_claim_Pa": 12,
+    "Cf_required": 0.003125,
+    "note": "not a validated conversion; requires roughness, wind profile and terrain"
+  },
+  "inventory": {
+    "assumed_area_m2": 10000,
+    "density_claim_kg_m3": 488,
+    "mass_kg_250mm": 1220000.0,
+    "mass_kg_450mm": 2196000.0,
+    "mass_kg_at_3pct_runoff_250mm": 36600.0,
+    "replacement_sensitivity": {
+      "daily_kg_claim_limit": 1000,
+      "operating_days_assumed": 120,
+      "assumed_yen_per_kg": [
+        100,
+        300,
+        1000
+      ],
+      "annual_material_yen": [
+        12000000,
+        36000000,
+        120000000
+      ],
+      "note": "hypothetical wet-material prices, not quotes; excludes recovery, energy, labor and disposal"
+    }
+  },
+  "arithmetic_boundary_checks": {
+    "zero_mass_loss_retains_all_water": true,
+    "all_water_loss_retains_none": true,
+    "shear_zero_angle_equals_cohesion": true,
+    "dilution_halves_ideal_depression": true,
+    "hydration_water_reduces_depression": true,
+    "grid_arithmetic": true,
+    "all_reported_shear_above_stated_bound": true,
+    "shortest_recovery_exceeds_closure": true,
+    "doubling_thickness_doubles_mass": true
+  }
+}
