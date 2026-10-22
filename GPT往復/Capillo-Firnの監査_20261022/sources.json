@@ -1,0 +1,133 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.sigmaaldrich.com/US/en/product/aldrich/419419",
+    "title": "Chitosan high molecular weight",
+    "supports": "CAS9012-76-4はキトサン。対象キチンNFの物性・安全性への転用不可。",
+    "access": "メーカー本文を検索取得",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S2",
+    "url": "https://www.jungbunzlauer.com/de/ingredients/tricalcium-citrate/",
+    "title": "Tricalcium Citrate",
+    "supports": "四水和物、難溶性、逆溶解度。溶出ゼロではない。",
+    "access": "メーカー本文を検索取得",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S3",
+    "url": "https://www.jungbunzlauer.com/insights/tcc-tb-meeting-the-challenge-of-direct-compression-the-case-for-tricalcium-citrate/",
+    "title": "Tricalcium citrate tableting grade",
+    "supports": "代表溶解度1.0g/L。温度・本配合の共存平衡を確定する値ではない。",
+    "access": "メーカーの表を検索および直接ページで確認",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S4",
+    "url": "https://experts.umn.edu/en/publications/barrier-membranes/",
+    "doi": "10.1016/S0376-7388(00)80877-7",
+    "title": "Cussler et al., Barrier membranes, 1988",
+    "supports": "フレークを含む膜の透過性。今回粒表皮の5.8%減量の実証ではない。",
+    "access": "著者所属大学の原著要旨。全文の式係数は未照合",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S5",
+    "url": "https://www.cambridge.org/core/journals/mrs-communications/article/structure-of-capillary-suspensions-and-their-versatile-applications-in-the-creation-of-smart-materials/380BCE7FFF9C63D4F61DC1828CD15885",
+    "doi": "10.1557/mrc.2018.28",
+    "title": "Hauf and Koos, 2018",
+    "supports": "著者がreviewedと説明。液液固三相系の概説。水のみのICSSの実証ではない。",
+    "access": "指定記事の要旨と書誌を直接確認。独自の材料物性根拠には使わない",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S6",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21330542/",
+    "doi": "10.1126/science.1199243",
+    "title": "Koos and Willenbacher, Capillary forces in suspension rheology, 2011",
+    "supports": "非混和な第二液体の添加によるネットワーク。今回配合への直接適用を制限。",
+    "access": "一次論文の著者要旨を検索取得",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S7",
+    "url": "https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202001085",
+    "title": "Ajdary et al., Plant Nanomaterials and Inspiration from Nature",
+    "supports": "出版社はReview、巻号2021。PMC11468645の記述訂正。",
+    "access": "出版社書誌・本文の検索抜粋。レビュー内容を独自性能の根拠には使わない",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S8",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32537860/",
+    "title": "PMC11468645に対応するNLM書誌",
+    "supports": "2020年オンライン公開、2021年巻号、DOIとPMC番号対応",
+    "access": "検索の公式書誌。直接openは確認画面",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S9",
+    "url": "https://meshb.nlm.nih.gov/record/ui?ui=C031293",
+    "title": "NLM calcium silicate supplementary concept",
+    "supports": "ケイ酸Ca総称と複数関連番号。相・形態・グレードの確定が必要。",
+    "access": "公式物質索引を検索取得",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S10",
+    "url": "https://patentimages.storage.googleapis.com/e8/e5/9d/c19179bc9c23bc/EP3071638B1.pdf",
+    "title": "EP3071638B1 paragraphs 53–55",
+    "supports": "ゾノトライト構造の市販Caシリケートを1344-95-2で表す例。CASだけで誤りとは断定しない。",
+    "access": "一次特許の検索抜粋。提案粒への安全・性能転用なし",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S11",
+    "url": "https://iapws.org/technical-guidance/release/Surf-H2O",
+    "title": "IAPWS R1-76(2014)",
+    "supports": "通常水の表面張力式の公式位置を確認。今回の計算は原文の30℃入力の代入であり50℃実測ではない。",
+    "access": "公式ページ・リンク先PDF確認。追加の性能予測には使用しない",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S12",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11468645/",
+    "title": "原文指定PMC",
+    "supports": "直接本文は確認画面。出版社・NLM書誌へ照合。",
+    "access": "直接アクセス不可",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S13",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-Carbonate",
+    "title": "原文指定PubChem:Calcium-Carbonate",
+    "supports": "本文未確認。原文の密度・溶解度をこのURLだけで一次実測として認証しない。",
+    "access": "確認画面または取得不可",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S14",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Kaolinite",
+    "title": "原文指定PubChem:Kaolinite",
+    "supports": "本文未確認。原文の密度・溶解度をこのURLだけで一次実測として認証しない。",
+    "access": "確認画面または取得不可",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S15",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Carboxymethylcellulose-calcium",
+    "title": "原文指定PubChem:Carboxymethylcellulose-calcium",
+    "supports": "本文未確認。原文の密度・溶解度をこのURLだけで一次実測として認証しない。",
+    "access": "確認画面または取得不可",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S16",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Calcium-Citrate-Tetrahydrate",
+    "title": "原文指定PubChem:Calcium-Citrate-Tetrahydrate",
+    "supports": "本文未確認。原文の密度・溶解度をこのURLだけで一次実測として認証しない。",
+    "access": "確認画面または取得不可",
+    "checked_date": "2026-10-22"
+  }
+]

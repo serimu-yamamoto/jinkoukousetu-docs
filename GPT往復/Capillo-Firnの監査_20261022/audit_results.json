@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-22",
+  "physical_trials": 0,
+  "physical_success_probability": null,
+  "classification": "conditional arithmetic and model-identifiability audit",
+  "given_inputs": {
+    "gamma_N_m": 0.0712,
+    "theta_deg": 20,
+    "pore_radius_m": 4e-07,
+    "eta_Pa_s": 0.0008,
+    "L_m": 1.5e-05,
+    "K_m2": 1e-18,
+    "dp_Pa": 300000.0
+  },
+  "arithmetic": {
+    "Pcap_kPa": 334.53057299978343,
+    "tip_stress_kPa": 666.6666666666667,
+    "paper_stress_kPa": 40.0,
+    "friction_formula_only": 0.046588235294117646,
+    "barrier_formula_only": 427.6666666666668,
+    "water_retention_if_loss_5_8g": 0.8884615384615384,
+    "solid_volume_cm3": 20.833130204268926,
+    "air_volume_cm3": 11.41463414634147,
+    "envelope_density_kg_m3": 1186.9751176284535,
+    "bulk_density_kg_m3": 486.65979822766593,
+    "chi_if_pack_fractions_given": 0.18000000000000005,
+    "Mohr_Coulomb_kPa": [
+      60.16356320013402,
+      78.32712640026804,
+      100.12340224042887
+    ],
+    "Bingham_capillary_number": 1.3636363636363635
+  },
+  "ICSS_time": {
+    "recomputed_s": 0.6,
+    "claimed_s": 600,
+    "claimed_over_recomputed": 1000.0,
+    "K_needed_for_600s_m2": 1.0000000000000001e-21,
+    "L_needed_for_600s_m": 0.0004743416490252569,
+    "interpretation": "water-transport scaling time, not measured contact-strength recovery time"
+  },
+  "water_inventory": {
+    "bed_mass_kg": 2191500.0,
+    "initial_water_kg": 1139580.0,
+    "daily_evap_kg_if_5pct_whole_bed": 109575.0,
+    "daily_evap_kg_if_5_8pct_whole_bed": 127107.0,
+    "active_depth_m_for_11t_at_5pct": 0.045174537987679675,
+    "active_depth_m_for_11t_at_5_8pct": 0.038943567230758334,
+    "note": "not actual evaporation prediction; effective drying depth, replenishment and heat balance required"
+  },
+  "film_flow": {
+    "assumptions": "same brush K used in outflow; full stress-to-liquid conversion; steady Darcy; no counterpressure; all unverified",
+    "available_dp_Pa": 332136.0936668833,
+    "time_equal_film_outlet_area_s": 0.030710302777963407,
+    "time_film_0_92_nominal_outlet_0_03_nominal_s": 0.9417826185242111,
+    "K_needed_for_0_05s_equal_area_m2": 6.142060555592682e-19,
+    "K_needed_for_0_05s_large_area_m2": 1.8835652370484223e-17
+  },
+  "suction": {
+    "15nm_equivalent_radius_Pcap_Pa": 8920815.279994225,
+    "ratio_to_0_4um_pore": 26.666666666666668,
+    "gas_absolute_Pa_if_minus_300kPa_gauge": -198675.0,
+    "note": "15nm is an equivalent-radius illustration; actual gap meniscus geometry not specified; liquid tension is not gas negative absolute pressure"
+  },
+  "coating_defects": [
+    {
+      "fraction": 0,
+      "relative_reduction": 427.6666666666668
+    },
+    {
+      "fraction": 0.001,
+      "relative_reduction": 299.766355140187
+    },
+    {
+      "fraction": 0.01,
+      "relative_reduction": 81.20253164556962
+    },
+    {
+      "fraction": 0.05,
+      "relative_reduction": 19.149253731343283
+    },
+    {
+      "fraction": 1,
+      "relative_reduction": 1.0
+    }
+  ],
+  "freeze_volume": {
+    "saturation": 0.82,
+    "expansion_assumed": 0.09,
+    "ice_fraction_of_pore": 0.8938,
+    "air_fraction_after_freeze_no_water_movement": 0.10619999999999996,
+    "critical_global_saturation_no_air_compression": 0.9174311926605504,
+    "note": "global volume margin only; does not exclude local ice pressure, cryosuction, gas compression or water influx"
+  },
+  "solubility_screen": {
+    "total_osmoles_2mmol_per_kg_K": 0.00372,
+    "citrate_salt_2mmol_if_five_ideal_ions_K": 0.018600000000000002,
+    "supplier_solubility_example_g_L": 1,
+    "molar_mass_tetrahydrate_g_mol": 570.49,
+    "ideal_5particle_example_K": 0.016301775666532282,
+    "note": "1L approximated 1kg water; supplier solubility temperature not specified; ion pairing, pH, activity and mixed-solid equilibria unmeasured"
+  },
+  "rain": {
+    "intensity_mm_h": 100,
+    "area_m2": 10000,
+    "rainwater_m3_h": 1000.0,
+    "hydraulic_conductivity_target_m_s": 0.01,
+    "rain_flux_m_s": 2.777777777777778e-05,
+    "note": "vertical rain flux alone does not validate slopewise discharge, filter clogging or stability"
+  },
+  "cost_sensitivity": {
+    "not_market_quotes": true,
+    "wet_material_yen_per_kg_assumed": [
+      100,
+      300,
+      1000
+    ],
+    "initial_material_yen": [
+      219150000.0,
+      657450000.0,
+      2191500000.0
+    ],
+    "equipment_budget_yen": 200000000,
+    "note": "material and maintenance costs are separate from the equipment budget; mixing, transport, water processing and disposal excluded"
+  },
+  "arithmetic_checks": {
+    "mass_alpha_100g": true,
+    "time_si_units": true,
+    "time_scales_quadratically": true,
+    "time_inverse_permeability": true,
+    "darcy_equals_inventory_flux": true,
+    "defect_endpoints": true,
+    "defect_monotonic": true,
+    "five_percent_inventory": true,
+    "grain_volume_balance": true,
+    "freeze_air_positive_global_only": true,
+    "shear_50_kPa": true,
+    "rain_volume_units": true
+  }
+}
