@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-23",
+  "source": "利用者添付のCapillo-Firn v2.2回答書",
+  "source_sha256": "9ce117809ed9b2285d20fa9d741c75a5a0ec771a321fe9fb226432e5ce836efd",
+  "base_commit": "9eb91ed65b583008c2f32067712740a096ce8d6c",
+  "full_formula_received": true,
+  "manufacturing_conditions_complete": false,
+  "capacity_definition_received": false,
+  "itemized_costs_received": false,
+  "physical_trials": 0,
+  "physical_success_probability": null
+}

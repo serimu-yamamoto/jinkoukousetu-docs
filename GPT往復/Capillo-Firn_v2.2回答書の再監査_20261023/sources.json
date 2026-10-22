@@ -1,0 +1,30 @@
+[
+  {
+    "id": "S1",
+    "title": "Nanostructured Hydrogels of Carboxylated Cellulose Nanocrystals Crosslinked by Calcium Ions",
+    "url": "https://doi.org/10.3390/gels10120777",
+    "date": "2026-10-23",
+    "scope": "一次研究の出版社・PMC検索取得本文。湿潤CNC/CaCl2の粘度回復。CaCl2濃度依存、今回配合の接着・脆性・30分強度を支持しない。直接openは429/認証画面のため、全文通読とは報告しない。"
+  },
+  {
+    "id": "S2",
+    "title": "Gelation and microstructure of dilute gellan solutions with calcium ions",
+    "url": "https://doi.org/10.1016/j.foodhyd.2012.01.008",
+    "date": "2026-10-23",
+    "scope": "出版社の検索取得一次要旨。低濃度ジェラン系のCa濃度と弾性率の非単調性。全文openは403。Capillo配合への定量転用なし。"
+  },
+  {
+    "id": "P1",
+    "title": "前回Codex v2.2要約監査",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/9eb91ed65b583008c2f32067712740a096ce8d6c/GPT往復/GPT回答_Capillo-Firn_v2.2要約の照合と100g試作条件_20261023.md",
+    "date": "2026-10-23",
+    "scope": "既存計算・密度定義・試料量の調査を再利用。今回全配合の受領で情報更新。"
+  },
+  {
+    "id": "P2",
+    "title": "Claude再監査 v2.2",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/9eb91ed65b583008c2f32067712740a096ce8d6c/GPT往復/Claude監査_Capillo-Firn_v2.2_20261023.md",
+    "date": "2026-10-23",
+    "scope": "読んで批判的に比較したAI研究資料。一次実験証拠ではない。"
+  }
+]

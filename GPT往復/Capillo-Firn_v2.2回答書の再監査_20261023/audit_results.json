@@ -1,0 +1,164 @@
+{
+  "physical_trials": 0,
+  "physical_success_probability": null,
+  "input_kind": "reported formula with assumed densities; model hypotheses",
+  "composition": [
+    [
+      "calcite",
+      30.0,
+      2.71
+    ],
+    [
+      "kaolinite",
+      6.0,
+      2.6
+    ],
+    [
+      "CNF_core",
+      4.5,
+      1.5
+    ],
+    [
+      "MCC_shell",
+      2.5,
+      1.5
+    ],
+    [
+      "CMC_Ca",
+      3.5,
+      1.55
+    ],
+    [
+      "gellan_Ca",
+      1.5,
+      1.5
+    ]
+  ],
+  "solid_mass_g": 48.0,
+  "solid_volume_cm3": 21.302534191595015,
+  "water_per_dry_solid": 1.0833333333333333,
+  "water_per_polymer_g_g": 4.333333333333333,
+  "solid_fraction_of_no_gas_volume": 0.29061115589694847,
+  "phase_partition": {
+    "water_cm3": 52.0,
+    "wet_no_gas_cm3": 73.30253419159502,
+    "wet_no_gas_density_kg_m3": 1364.2093155827915,
+    "particle_envelope_cm3": 84.71704506946797,
+    "bed_cm3": 205.3388090349076,
+    "particle_air_cm3": 11.414510877872956,
+    "particle_gas_fraction": 0.13473688640241238,
+    "particle_water_fraction": 0.613808,
+    "particle_solid_fraction": 0.2514551135975876,
+    "particle_pore_fraction_if_all_water_is_pore_water": 0.7485448864024125,
+    "water_saturation_if_all_water_is_pore_water": 0.8200015939592181,
+    "packing_fraction": 0.412572009488309,
+    "interparticle_fraction": 0.587427990511691,
+    "bed_solid_fraction": 0.10374334151306772,
+    "bed_water_fraction": 0.25324,
+    "bed_air_fraction": 0.6430166584869322
+  },
+  "drainage": [
+    {
+      "angle_deg": 30.0,
+      "rain_mm_h": 50.0,
+      "height_if_rain_per_slope_area_mm": 111.11111111111113,
+      "height_if_vertical_rain_per_horizontal_area_mm": 96.22504486493766,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 40.49999999999999
+    },
+    {
+      "angle_deg": 30.0,
+      "rain_mm_h": 100.0,
+      "height_if_rain_per_slope_area_mm": 222.22222222222226,
+      "height_if_vertical_rain_per_horizontal_area_mm": 192.45008972987532,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 20.249999999999996
+    },
+    {
+      "angle_deg": 30.0,
+      "rain_mm_h": 150.0,
+      "height_if_rain_per_slope_area_mm": 333.33333333333337,
+      "height_if_vertical_rain_per_horizontal_area_mm": 288.6751345948129,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 13.499999999999998
+    },
+    {
+      "angle_deg": 20.0,
+      "rain_mm_h": 50.0,
+      "height_if_rain_per_slope_area_mm": 162.43357778683819,
+      "height_if_vertical_rain_per_horizontal_area_mm": 152.63763441414568,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 27.70363160937917
+    },
+    {
+      "angle_deg": 20.0,
+      "rain_mm_h": 100.0,
+      "height_if_rain_per_slope_area_mm": 324.86715557367637,
+      "height_if_vertical_rain_per_horizontal_area_mm": 305.27526882829136,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 13.851815804689585
+    },
+    {
+      "angle_deg": 20.0,
+      "rain_mm_h": 150.0,
+      "height_if_rain_per_slope_area_mm": 487.30073336051447,
+      "height_if_vertical_rain_per_horizontal_area_mm": 457.912903242437,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 9.234543869793058
+    },
+    {
+      "angle_deg": 14.477512185929925,
+      "rain_mm_h": 50.0,
+      "height_if_rain_per_slope_area_mm": 222.2222222222222,
+      "height_if_vertical_rain_per_horizontal_area_mm": 215.16574145596758,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 20.25
+    },
+    {
+      "angle_deg": 14.477512185929925,
+      "rain_mm_h": 100.0,
+      "height_if_rain_per_slope_area_mm": 444.4444444444444,
+      "height_if_vertical_rain_per_horizontal_area_mm": 430.33148291193515,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 10.125
+    },
+    {
+      "angle_deg": 14.477512185929925,
+      "rain_mm_h": 150.0,
+      "height_if_rain_per_slope_area_mm": 666.6666666666666,
+      "height_if_vertical_rain_per_horizontal_area_mm": 645.4972243679028,
+      "spacing_limit_for_450mm_if_rain_per_slope_area_m": 6.75
+    }
+  ],
+  "recycling": {
+    "bed_kg": 2191500.0,
+    "wear_kg": 1314900.0,
+    "required_good_product_kg": 1051920.0,
+    "good_product_hours": 1402.56,
+    "planned_hours": 1760,
+    "minimum_uptime_if_good_product_output": 0.7969090909090909,
+    "good_output_at_85pct_uptime_kg": 1122000.0,
+    "good_output_at_85pct_uptime_80pct_yield_kg": 897600.0,
+    "required_yield_at_85pct_uptime": 0.9375401069518716
+  },
+  "finance": {
+    "revenue_yen": 689500000,
+    "capex_yen": 1057000000.0,
+    "opex_yen": 246700000.0,
+    "ebitda_yen": 442800000.0,
+    "simple_payback_years": 2.3870822041553748,
+    "costs_itemized": false
+  },
+  "recovery": {
+    "target_kpa": 78.32712640026804,
+    "triangular_fracture_work_j_m2": 0.3916356320013402,
+    "illustrative_exponential_time_limits_s": {
+      "60.0": null,
+      "80.0": 465.41888931046543,
+      "100.0": 1177.156284115429
+    },
+    "not_measured": true
+  },
+  "pit": {
+    "nominal_m3": 350.0,
+    "water_only_rain_100mm_h_m3_h": 1000.0,
+    "water_only_no_outflow_fill_minutes": 21.0,
+    "assumed_3pct_lost_bulk_volume_m3": 135.0,
+    "remaining_volume_if_bulk_and_water_additive_m3": 215.0,
+    "water_after_that_minutes": 12.9,
+    "illustrative_no_outflow_only": true
+  },
+  "arithmetic_checks": 8
+}
