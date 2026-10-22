@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-23",
+  "input_scope": "v2.2 summary plus re-submitted v2.1 full text; v2.2 formula, process and cost breakdown still not provided",
+  "physical_trials": 0,
+  "physical_success_probability": null,
+  "density": {
+    "inputs": {
+      "mass_g": 100,
+      "solid_volume_cm3_supplied_not_rederived": 21.3025,
+      "water_g": 52,
+      "water_density_g_cm3_assumed": 1,
+      "particle_density_target": 1180.4,
+      "bed_density_target": 487
+    },
+    "water_cm3": 52.0,
+    "wet_no_gas_cm3": 73.3025,
+    "wet_no_gas_density_kg_m3": 1364.2099519115993,
+    "particle_envelope_cm3": 84.71704506946797,
+    "bed_cm3": 205.3388090349076,
+    "particle_air_cm3": 11.414545069467977,
+    "particle_gas_fraction": 0.13473729,
+    "particle_water_fraction": 0.613808,
+    "particle_solid_fraction": 0.25145470999999997,
+    "particle_pore_fraction_if_all_water_is_pore_water": 0.74854529,
+    "water_saturation_if_all_water_is_pore_water": 0.8200011518341128,
+    "packing_fraction": 0.412572009488309,
+    "interparticle_fraction": 0.587427990511691,
+    "bed_solid_fraction": 0.10374317499999999,
+    "bed_water_fraction": 0.25324,
+    "bed_air_fraction": 0.6430168249999999,
+    "note": "additive solid+water volume assumption; hydration/bound water/closed pores and actual envelope remain unmeasured"
+  },
+  "regeneration": {
+    "required_good_kg_from_v21_basis": 1051920.0,
+    "gross_nameplate_kg_year": 1320000,
+    "minimum_uptime_if750_is_good_output": 0.7969090909090909,
+    "minimum_good_yield_at85pct_uptime_if750_is_input_or_unqualified_output": 0.9375401069518716,
+    "cases": [
+      {
+        "uptime": 1.0,
+        "qualified_yield": 1.0,
+        "good_kg_year": 1320000.0,
+        "margin_kg": 268080.0,
+        "arithmetic_capacity_meets": true
+      },
+      {
+        "uptime": 1.0,
+        "qualified_yield": 0.95,
+        "good_kg_year": 1254000.0,
+        "margin_kg": 202080.0,
+        "arithmetic_capacity_meets": true
+      },
+      {
+        "uptime": 1.0,
+        "qualified_yield": 0.8,
+        "good_kg_year": 1056000.0,
+        "margin_kg": 4080.0,
+        "arithmetic_capacity_meets": true
+      },
+      {
+        "uptime": 0.85,
+        "qualified_yield": 1.0,
+        "good_kg_year": 1122000.0,
+        "margin_kg": 70080.0,
+        "arithmetic_capacity_meets": true
+      },
+      {
+        "uptime": 0.85,
+        "qualified_yield": 0.95,
+        "good_kg_year": 1065900.0,
+        "margin_kg": 13980.0,
+        "arithmetic_capacity_meets": true
+      },
+      {
+        "uptime": 0.85,
+        "qualified_yield": 0.8,
+        "good_kg_year": 897600.0,
+        "margin_kg": -154320.0,
+        "arithmetic_capacity_meets": false
+      },
+      {
+        "uptime": 0.8,
+        "qualified_yield": 1.0,
+        "good_kg_year": 1056000.0,
+        "margin_kg": 4080.0,
+        "arithmetic_capacity_meets": true
+      },
+      {
+        "uptime": 0.8,
+        "qualified_yield": 0.95,
+        "good_kg_year": 1003200.0,
+        "margin_kg": -48720.0,
+        "arithmetic_capacity_meets": false
+      },
+      {
+        "uptime": 0.8,
+        "qualified_yield": 0.8,
+        "good_kg_year": 844800.0,
+        "margin_kg": -207120.0,
+        "arithmetic_capacity_meets": false
+      }
+    ],
+    "previous_wear_kg": 1314900.0,
+    "previous_recycled_fraction_of_whole_bed": 0.48,
+    "if_1051920_is_new_wear_and80pct_recovered_recycle_kg": 841536.0,
+    "if_1051920_is_new_wear_and80pct_recovered_makeup_with3pct_storm_kg": 276129.0
+  },
+  "drainage": {
+    "convention": "rain per slope surface area as in original formula, angle30deg, steady uniform layer",
+    "cases": [
+      {
+        "rain_mm_h": 100,
+        "k_m_s": 0.0025,
+        "h_m": 0.22222222222222227
+      },
+      {
+        "rain_mm_h": 150,
+        "k_m_s": 0.0025,
+        "h_m": 0.33333333333333337
+      },
+      {
+        "rain_mm_h": 100,
+        "k_m_s": 0.001,
+        "h_m": 0.5555555555555557
+      },
+      {
+        "rain_mm_h": 150,
+        "k_m_s": 0.001,
+        "h_m": 0.8333333333333335
+      }
+    ],
+    "k_min_below450mm_rain100": 0.0012345679012345679,
+    "k_min_below450mm_rain150": 0.0018518518518518517,
+    "222_2mm_claim_depends_on_100mm_h_k0025": true
+  },
+  "cost": {
+    "new_capex_yen_supplied": 1057000000,
+    "previous_capex_yen": 1020025000,
+    "capex_increase_yen": 36975000,
+    "new_opex_yen_supplied": 246700000,
+    "previous_opex_yen": 241700000,
+    "opex_increase_yen": 5000000,
+    "new_total_costs_verified": false
+  },
+  "feed_water_example": {
+    "basis": "illustration only: v2.1 CNF dry4.5g, assumed dispersion2wt%; not an identified v2.2 ingredient grade",
+    "product_g": 225.0,
+    "carrier_water_g": 220.5,
+    "additional_water_g": -168.5
+  },
+  "sample_budget": {
+    "illustration_only_not_standard_qualified": true,
+    "box_dimensions_m": [
+      0.06,
+      0.06,
+      0.02
+    ],
+    "box_volume_cm3": 72.0,
+    "mass_g_at487": 35.064,
+    "three_normal_loads_one_condition_mass_g": 105.19200000000001,
+    "three_batches_three_histories_three_loads_mass_g": 946.728,
+    "normal_stress_kPa": [
+      25,
+      50,
+      80
+    ],
+    "normal_force_N": [
+      90.0,
+      180.0,
+      288.0
+    ],
+    "notes": "fresh specimen for each destructive test; 100g batch cannot supply three illustrated shear specimens, before other measurements"
+  },
+  "dimensional_check": {
+    "Sf50_kPa_given_c_phi": 78.32712640026804,
+    "triangular_work_J_m2_if_delta10um": 0.3916356320013402
+  },
+  "arithmetic_checks": {
+    "particle_phase_volumes_close": true,
+    "particle_phase_fractions_close": true,
+    "bed_phase_fractions_close": true,
+    "two_independent_packing_formulas": true,
+    "dispersion_mass_balance": true,
+    "dry_feed_adds_no_carrier_water": true,
+    "zero_yield_gives_zero_output": true,
+    "capacity_threshold_closes": true,
+    "rain_doubles_height": true,
+    "specified_moisture_is_not_measured": true
+  }
+}

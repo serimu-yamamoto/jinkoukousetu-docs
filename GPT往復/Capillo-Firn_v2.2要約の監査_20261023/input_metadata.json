@@ -1,0 +1,31 @@
+{
+  "received_date": "2026-10-23",
+  "source_scope": "利用者メッセージのv2.2改善要約と、質問への回答として再提出されたv2.1全文",
+  "reviewed_repository_base": "f3fcbeccfcd82ca8e3c80ccd1264d94ca85c0209",
+  "canvas_body_accessed": false,
+  "v22_full_formula_received": false,
+  "version_conflict_markers": {
+    "summary": {
+      "version": "v2.2",
+      "talc_g": 0,
+      "regeneration_kg_h": 750,
+      "drain_spacing_m": 10,
+      "drains": 40,
+      "solid_volume_cm3": 21.3025,
+      "capex_yen": 1057000000,
+      "opex_yen": 246700000
+    },
+    "resubmitted_full_text": {
+      "version": "v2.1",
+      "talc_candidate_g": 3,
+      "regeneration_kg_h": 200,
+      "drain_spacing_m": 25,
+      "drains": 16,
+      "alpha_solid_volume_cm3": 20.8331,
+      "capex_yen": 1020025000,
+      "opex_yen": 241700000
+    }
+  },
+  "physical_trials": 0,
+  "physical_success_probability": null
+}

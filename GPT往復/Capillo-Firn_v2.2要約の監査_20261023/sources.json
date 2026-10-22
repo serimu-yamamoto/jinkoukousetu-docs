@@ -1,0 +1,26 @@
+[
+  {
+    "id": "S1",
+    "url": "https://micromeritics.com/density/",
+    "title": "Micromeritics: Density",
+    "supports": "真・骨格・包絡・かさ密度で体積の定義が異なる。提案湿潤粒への測定法適合は未確認。",
+    "access": "メーカー公開説明を検索取得",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "S2",
+    "url": "https://store.astm.org/d3080_d3080m-23.html",
+    "title": "ASTM D3080/D3080M-23 public Scope and Significance",
+    "supports": "圧密排水、複数垂直荷重、速度・粒径条件、非一様変位の制約。公開範囲のみ使用、全文購入や規格適合試験は未実施。",
+    "access": "規格発行者の公開ページを検索取得。最新版適合の認定には使用しない。",
+    "date": "2026-10-23"
+  },
+  {
+    "id": "P1",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/c1bc82e29911347cec2a29f91dbfdfb0be057295/GPT往復/GPT回答_Capillo-Firn_v2.1の感触台風採算監査_20261022.md",
+    "title": "前回Codex v2.1独立監査",
+    "supports": "旧入力、誤引用・硬度・再生能力・費用・運用の既存調査を再利用。科学一次文献ではない。",
+    "access": "調査台帳・既存計算部品を参照",
+    "date": "2026-10-23"
+  }
+]
