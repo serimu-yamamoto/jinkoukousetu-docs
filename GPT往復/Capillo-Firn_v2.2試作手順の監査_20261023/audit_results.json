@@ -1,0 +1,136 @@
+{
+  "empirical_trials": 0,
+  "success_probability": null,
+  "composition": {
+    "names": [
+      "calcite",
+      "kaolinite",
+      "CNF",
+      "MCC",
+      "CMC_Ca",
+      "gellan_Ca",
+      "water"
+    ],
+    "core_g": [
+      22.0,
+      4.5,
+      4.5,
+      0.0,
+      2.8,
+      1.0,
+      45.2
+    ],
+    "shell_g": [
+      8.0,
+      1.5,
+      0.0,
+      2.5,
+      0.7,
+      0.5,
+      6.8
+    ],
+    "total_g": [
+      30.0,
+      6.0,
+      4.5,
+      2.5,
+      3.5,
+      1.5,
+      52.0
+    ],
+    "core_total_g": 80.0,
+    "shell_total_g": 20.0,
+    "core_no_gas_cm3": 60.52196869115093,
+    "shell_no_gas_cm3": 12.780565500444085,
+    "core_W_S": 1.2988505747126438,
+    "shell_W_S": 0.5151515151515151,
+    "minimum_CNF_solids_if_no_other_carrier_water": 0.09054325955734406,
+    "CNF_9_5pct": {
+      "product_g": 47.368421052631575,
+      "carrier_water_g": 42.868421052631575,
+      "additional_water_g": 2.3315789473684276
+    }
+  },
+  "geometry": {
+    "no_gas_equal_axial_speed_assumption": true,
+    "shell_volume_fraction": 0.1743536651412186,
+    "die_shell_area_fraction": 0.24888888888888883,
+    "shell_mass_fraction_implied_by_die": 0.28175746351205677,
+    "equal_speed_wall_mm": 0.13702375169915082
+  },
+  "recycling": {
+    "old_net_hours": 1402.5600000000002,
+    "output_1402_56_calendar_h_t": 715.3056000000001,
+    "output_1402_56_running_h_t": 841.5360000000003,
+    "output_1760_calendar_h_t": 897.6,
+    "fixed_finished_1051_92_core_t": 841.5360000000001,
+    "fixed_finished_1051_92_virgin_t": 210.38400000000001,
+    "unused_recovered_if_finished_fixed_t": 210.38400000000001,
+    "all_recovered_used": {
+      "recovered_core_t": 1051.92,
+      "finished_t": 1314.9,
+      "virgin_shell_t": 262.98
+    },
+    "net_hours_for_all_recovered_and_virgin": 1753.2,
+    "required_uptime_for_all_recovered": 0.9961363636363637,
+    "minimum_net_rate_at_85pct_uptime_kg_h": 878.9438502673797,
+    "first_recycle_formula_per_100g_if_uniform_old_formula": [
+      32.0,
+      6.300000000000001,
+      3.6,
+      4.5,
+      3.5,
+      1.7000000000000002,
+      48.4
+    ]
+  },
+  "civil": {
+    "cell_top_depth_mm": [
+      300,
+      250
+    ],
+    "minimum_bottom_depth_mm": [
+      600,
+      650
+    ],
+    "slope": {
+      "assumptions": "fixed volume; only interparticle air fills; slope-parallel steady seepage; no anchors or interface cohesion",
+      "dry_normal_kpa": 1.861834673618119,
+      "dry_shear_kpa": 1.0749307499999998,
+      "added_water_kg_m2": 130.53955344704244,
+      "total_normal_kpa": 2.9708607602543466,
+      "driving_shear_kpa": 1.715227259657743,
+      "pore_pressure_kpa": 1.8879353802500765,
+      "effective_normal_kpa": 1.0829253800042702,
+      "friction_only_safety_factors": {
+        "10.0": 0.11132575086686886,
+        "18.0": 0.20514120419477422,
+        "30.0": 0.3645156967610818
+      }
+    }
+  },
+  "measurement": {
+    "tan_delta_point3_Gdoubleprime_over_Gprime": 0.3,
+    "density_gain_20pct_volume_loss": 0.16666666666666663,
+    "initial_interparticle_porosity": 0.587427990511691,
+    "final_interparticle_porosity_if_particle_volume_fixed": 0.5049135886140292,
+    "relative_interparticle_void_volume_loss": 0.28372271896932977
+  },
+  "alternative_water": {
+    "solids_fixed_48g": {
+      "42.0": {
+        "total_mass_g": 90.0,
+        "water_mass_fraction": 0.4666666666666667
+      },
+      "35.0": {
+        "total_mass_g": 83.0,
+        "water_mass_fraction": 0.42168674698795183
+      },
+      "28.0": {
+        "total_mass_g": 76.0,
+        "water_mass_fraction": 0.3684210526315789
+      }
+    }
+  },
+  "arithmetic_checks": 11
+}

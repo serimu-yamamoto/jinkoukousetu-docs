@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-23",
+  "original_filename": "capillo_firn_v2_2_audit_report.md",
+  "sha256": "d68e5392db45657ec41f05da32c63ffae9984afed7ae79ec0b25b3e09c9cd685",
+  "base_commit": "3758e4d3cc7082251b6eb8da27ec413a5840d68e",
+  "core_shell_allocation_received": true,
+  "provisional_process_received": true,
+  "physical_trials": 0,
+  "physical_success_probability": null
+}

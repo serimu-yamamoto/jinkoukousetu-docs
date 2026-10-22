@@ -1,0 +1,44 @@
+[
+  {
+    "id": "S1",
+    "title": "地盤工学会：英訳規格Vol.3の案内",
+    "url": "https://www.jiban.or.jp/?page_id=6573",
+    "accessed": "2026-10-23",
+    "supports": "JGS 0142がフォールコーンを用いた液性限界試験であること。全文の試験実施・規格適合は未確認。"
+  },
+  {
+    "id": "S2",
+    "title": "地盤工学会：2020年データシート",
+    "url": "https://www.jiban.or.jp/wp-content/uploads/2021/05/akahon2020_datasheet_all.pdf",
+    "accessed": "2026-10-23",
+    "supports": "JGS 0142の名称を公式公開検索本文で確認。複合ゲルへの適用保証はない。"
+  },
+  {
+    "id": "S3",
+    "title": "FDA Water Activity (aw) in Foods",
+    "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods",
+    "accessed": "2026-10-23",
+    "supports": "水分活性・平衡相対湿度の定義。今回材料の含水率固定や微生物安全を証明する文献ではない。"
+  },
+  {
+    "id": "S4",
+    "title": "EU Regulation 2023/2055, Annex entry 78",
+    "url": "https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32023R2055",
+    "accessed": "2026-10-23",
+    "supports": "公式検索取得の条文で粒子・天然未修飾・分解性等の定義と除外を確認。直接openは認証画面。CMC-Caの適否判定・国内設置許可は未評価。"
+  },
+  {
+    "id": "S5",
+    "title": "ASTM D5321/D5321M-21 public Significance",
+    "url": "https://store.astm.org/d5321_d5321m-21.html",
+    "accessed": "2026-10-23",
+    "supports": "対象条件に対する界面せん断の性能試験。全文購入・最新版適合・当該界面測定は行っていない。"
+  },
+  {
+    "id": "P1",
+    "title": "Claudeの同じ段階②手順への監査",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/3758e4d3cc7082251b6eb8da27ec413a5840d68e/GPT往復/Claude監査_Capillo-Firn_v2.2回答と段階②手順_20261023.md",
+    "accessed": "2026-10-23",
+    "supports": "既存AI監査。R39・水和・粒径の指摘を参照し、応力の水位定義を独立に点検。実測証拠ではない。"
+  }
+]
