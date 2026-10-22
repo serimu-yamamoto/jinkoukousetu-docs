@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-22",
+  "physical_trials": 0,
+  "physical_success_probability": null,
+  "interpretation": "conditional arithmetic only; no supplier quotations or field validation",
+  "basis": {
+    "area_m2": 10000,
+    "depth_m": 0.45,
+    "bulk_density_kg_m3": 487,
+    "wet_reference_mass_kg": 2191500.0,
+    "operating_days": 220,
+    "wear_fraction_assumed": 0.6,
+    "target_recovery_fraction_assumed": 0.8
+  },
+  "recycling": {
+    "wet_output_200kg_h": {
+      "wear_kg": 1314900.0,
+      "target_recycled_kg": 1051920.0,
+      "capacity_kg": 352000.0,
+      "recycled_kg": 352000.0,
+      "replacement_kg": 1028645.0,
+      "required_output_kg_h": 597.6818181818181,
+      "achieved_recovery_fraction": 0.2677009658529166
+    },
+    "output_85pct_availability": {
+      "wear_kg": 1314900.0,
+      "target_recycled_kg": 1051920.0,
+      "capacity_kg": 299200.0,
+      "recycled_kg": 299200.0,
+      "replacement_kg": 1081445.0,
+      "required_output_kg_h": 703.1550802139037,
+      "achieved_recovery_fraction": 0.22754582097497908
+    },
+    "if_rating_is_200kg_DRY_product_h": {
+      "wear_kg": 1314900.0,
+      "target_recycled_kg": 1051920.0,
+      "capacity_kg": 733333.3333333334,
+      "recycled_kg": 733333.3333333334,
+      "replacement_kg": 647311.6666666666,
+      "required_output_kg_h": 597.6818181818181,
+      "achieved_recovery_fraction": 0.5577103455269096
+    },
+    "required_wet_feed_kg_h_if_yield_80pct": 747.1022727272726,
+    "hours_day_required_at_200wet_output": 23.907272727272726,
+    "max_wear_fraction_for_80pct_recovery": 0.20077572438968744,
+    "capacity_even_365days_kg": 584000,
+    "additional_makeup_cost_yen_at350": 244972000.0
+  },
+  "financial": {
+    "fixed_other_opex_yen_assumed": 126646250,
+    "standard_capex_yen": 1020025000.0,
+    "original_assumed_15pct_loss": [
+      {
+        "visitors_day": 250,
+        "revenue_yen": 489500000,
+        "opex_yen": 241700000.0,
+        "pretax_simple_operating_surplus_yen": 247800000.0,
+        "simple_capex_over_surplus_years": 4.116323648103309
+      },
+      {
+        "visitors_day": 350,
+        "revenue_yen": 689500000,
+        "opex_yen": 241700000.0,
+        "pretax_simple_operating_surplus_yen": 447800000.0,
+        "simple_capex_over_surplus_years": 2.2778584189370257
+      },
+      {
+        "visitors_day": 450,
+        "revenue_yen": 885500000,
+        "opex_yen": 241700000.0,
+        "pretax_simple_operating_surplus_yen": 643800000.0,
+        "simple_capex_over_surplus_years": 1.584381795588692
+      }
+    ],
+    "capacity_limited_200wet_output": [
+      {
+        "visitors_day": 250,
+        "revenue_yen": 489500000,
+        "opex_yen": 486672000.0,
+        "pretax_simple_operating_surplus_yen": 2828000.0,
+        "simple_capex_over_surplus_years": 360.6877652050919
+      },
+      {
+        "visitors_day": 350,
+        "revenue_yen": 689500000,
+        "opex_yen": 486672000.0,
+        "pretax_simple_operating_surplus_yen": 202828000.0,
+        "simple_capex_over_surplus_years": 5.029014731693849
+      },
+      {
+        "visitors_day": 450,
+        "revenue_yen": 885500000,
+        "opex_yen": 486672000.0,
+        "pretax_simple_operating_surplus_yen": 398828000.0,
+        "simple_capex_over_surplus_years": 2.557556139488702
+      }
+    ],
+    "if_200dry_output": [
+      {
+        "visitors_day": 250,
+        "revenue_yen": 489500000,
+        "opex_yen": 353205333.3333333,
+        "pretax_simple_operating_surplus_yen": 136294666.6666667,
+        "simple_capex_over_surplus_years": 7.4839685583197175
+      },
+      {
+        "visitors_day": 350,
+        "revenue_yen": 689500000,
+        "opex_yen": 353205333.3333333,
+        "pretax_simple_operating_surplus_yen": 336294666.6666667,
+        "simple_capex_over_surplus_years": 3.0331286847645513
+      },
+      {
+        "visitors_day": 450,
+        "revenue_yen": 885500000,
+        "opex_yen": 353205333.3333333,
+        "pretax_simple_operating_surplus_yen": 532294666.6666667,
+        "simple_capex_over_surplus_years": 1.9162788280175642
+      }
+    ],
+    "optimized_300mm_safety_not_validated": [
+      {
+        "visitors_day": 250,
+        "revenue_yen": 489500000,
+        "opex_yen": 221856000.0,
+        "pretax_simple_operating_surplus_yen": 267644000.0,
+        "simple_capex_over_surplus_years": 1.9249450762953775
+      },
+      {
+        "visitors_day": 350,
+        "revenue_yen": 689500000,
+        "opex_yen": 221856000.0,
+        "pretax_simple_operating_surplus_yen": 467644000.0,
+        "simple_capex_over_surplus_years": 1.1016927406317627
+      },
+      {
+        "visitors_day": 450,
+        "revenue_yen": 885500000,
+        "opex_yen": 221856000.0,
+        "pretax_simple_operating_surplus_yen": 663644000.0,
+        "simple_capex_over_surplus_years": 0.776319834127936
+      }
+    ],
+    "equipment_plus_civil_yen": 253000000,
+    "over_200million_before_tax_scope": 53000000,
+    "raw_100kg_yen": 30200.0,
+    "CNF_MCC_plus_gellan_only_yen_per_kg_wet": 207.5,
+    "summer_days_for_350_weighted_from_550_250": 73.33333333333333,
+    "weighted_if_60days_at550": 331.8181818181818,
+    "loss_fraction_is_not_lifetime_years": true
+  },
+  "hydraulic": {
+    "height_m": [
+      {
+        "k_m_s": 0.01,
+        "rain_mm_h": 100,
+        "h_m": 0.13888888888888892
+      },
+      {
+        "k_m_s": 0.01,
+        "rain_mm_h": 150,
+        "h_m": 0.20833333333333337
+      },
+      {
+        "k_m_s": 0.0025,
+        "rain_mm_h": 100,
+        "h_m": 0.5555555555555557
+      },
+      {
+        "k_m_s": 0.0025,
+        "rain_mm_h": 150,
+        "h_m": 0.8333333333333335
+      },
+      {
+        "k_m_s": 0.001,
+        "rain_mm_h": 100,
+        "h_m": 1.3888888888888893
+      },
+      {
+        "k_m_s": 0.001,
+        "rain_mm_h": 150,
+        "h_m": 2.083333333333334
+      }
+    ],
+    "k_min_for_450mm_100mm_h": 0.0030864197530864196,
+    "k_min_for_450mm_150mm_h": 0.004629629629629629,
+    "max_spacing_m_k0025_rain100_h450": 20.25,
+    "rain_m3_h_slope_area_convention_100": 1000,
+    "rain_m3_h_horizontal_rain_on_30deg_100": 866.0254037844387,
+    "transmissivity_single_layer_replacement_requires_measurement": true
+  },
+  "pit_and_storm": {
+    "pit_capacity_kg_at487": 73050,
+    "claimed_capacity_kg": 180000,
+    "density_implied_by_claim_kg_m3": 1200.0,
+    "recovered_3pct_kg": 65745.0,
+    "volume_3pct_at487_m3": 135.0,
+    "4ton_blade_payload_volume_m3_at487": 8.213552361396303,
+    "binder_added_kg_m2_if_1kg_L": 0.01,
+    "binder_added_wt_pct_of20mm_bed": 0.10266940451745381,
+    "storm_spray_water_total_L": 20000,
+    "wind_dynamic_pressure_Pa_if_air1_2": 3840.0,
+    "dry_downslope_load_5m_by25m_rib_N_zero_interface_friction": 134366.34375
+  },
+  "maintenance": {
+    "minimum_7passes_2machines_longest_path_min": 9.600000000000001,
+    "initial_two_tanks_L": 3000,
+    "daytime_makeup_L_assumed": 10000,
+    "minimum_additional_refill_L": 7000,
+    "average_makeup_two_machines_L_min_25min": 400.0,
+    "central_per_machine_during_movement_L_min": 624.9999999999999,
+    "one_machine_mill_mass_kg_s_150mm": 730.5,
+    "both_machine_150mm_total_mass_kg": 730500.0,
+    "one_machine_mill_mass_kg_s_30mm": 146.1,
+    "central_mist_hydraulic_power_kW_at_1MPa_ideal": 10.416666666666666,
+    "central_mist_hydraulic_power_kW_at_10MPa_ideal": 104.16666666666666,
+    "last_completion_min_required_for_30min_recovery": 30,
+    "release_time_min_if_recovery_45min": 75
+  },
+  "mechanical_identifiability": {
+    "pcap_kPa": 334.53057299978343,
+    "sigma_req_kPa": 64.1250070481526,
+    "rankine_zero_depth_kPa": 164.85928246243265,
+    "rankine_15mm_selfweight_term_kPa": 0.27603075040822506,
+    "rankine_ratio_not_design_safety_factor": 2.5709047070924593,
+    "film_fill_ms_assumptions_unchanged": 6.2785507901614075,
+    "shearband_frequency_Hz_if_given_spacing": [
+      428.57142857142856,
+      833.3333333333334
+    ],
+    "mini_slope_volume_m3": 20.25,
+    "mini_slope_mass_kg": 9861.75,
+    "15m_from_rest_gravity_only_max_speed_m_s_30deg": 12.130539971493437,
+    "30min_Sf_gate_kPa": 40,
+    "Sf_used_for_Gf_kPa": 78.32712640026804,
+    "mcc_length_is_not_measured_failure_displacement": true
+  },
+  "material_and_water": {
+    "alpha_bulk_original_kg_m3": 486.65979822766593,
+    "alpha_bulk_if_aragonite2_930_kg_m3": 488.75875436542015,
+    "active_allowed_loss_kg_m2": 1.1117853658536585,
+    "no_watering_hours": [
+      {
+        "J_kg_m2_h": 0.125,
+        "h": 8.894282926829268
+      },
+      {
+        "J_kg_m2_h": 0.25,
+        "h": 4.447141463414634
+      },
+      {
+        "J_kg_m2_h": 0.5,
+        "h": 2.223570731707317
+      }
+    ],
+    "daily_evap_kg_7h_at025_all_area": 17500.0,
+    "additional_afternoon_kg_3h_at025": 7500.0,
+    "absorbed_shortwave_W_m2_if_albedo078_800": 175.99999999999997,
+    "latent_flux_W_m2_if_Lv2_38MJ_kg": 165.27777777777777,
+    "residual_for_other_heat_flux_W_m2": 10.7222222222222,
+    "15percent_replaced_yearly_original_fraction_after_6_6667years": 0.33842271459835077
+  },
+  "arithmetic_boundary_checks": {
+    "recycling_mass_conservation": true,
+    "capacity_enforced": true,
+    "zero_capacity_all_wear_replaced": true,
+    "unlimited_capacity_recovers_target": true,
+    "less_uptime_no_more_recovery": true,
+    "wet_and_dry_reference_conversion": true,
+    "rain_double_height_double": true,
+    "shorter_spacing_less_height": true,
+    "independent_pit_volume_mass_balance": true,
+    "cash_delta_equals_material_delta": true
+  }
+}

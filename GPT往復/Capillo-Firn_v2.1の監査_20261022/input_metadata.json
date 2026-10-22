@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-22",
+  "reviewed_base_commit": "4f22151b47a696ce651a9f0475455b5572e8e121",
+  "attachment_utf8_sha256": "6106da02cd6298478cdb9292bb1978cd2a0476f0b34d6d6442f58be2b8f06c0f",
+  "attachment_characters": 28111,
+  "submitted_code_sha256": "ffea72e8ffd9f0d7200385c1fc004e2cb91eea9d65b05b76c379479ef5487764",
+  "submitted_code_review": "math/json only; AST inspected; no file/network/process calls",
+  "physical_trials": 0,
+  "physical_success_probability": null
+}

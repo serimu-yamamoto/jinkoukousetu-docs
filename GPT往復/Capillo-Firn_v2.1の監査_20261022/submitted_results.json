@@ -1,0 +1,71 @@
+{
+  "compositions": {
+    "Alpha_v2_1": {
+      "V_solid_cm3": 20.8331,
+      "V_air_cm3": 11.4146,
+      "rho_solid_kg_m3": 2304.0,
+      "rho_mat_kg_m3": 1373.0,
+      "rho_env_kg_m3": 1186.98,
+      "rho_bulk_kg_m3": 486.66
+    },
+    "Alpha_Talc": {
+      "V_solid_cm3": 20.7702,
+      "V_air_cm3": 11.4146,
+      "rho_solid_kg_m3": 2311.0,
+      "rho_mat_kg_m3": 1374.2,
+      "rho_env_kg_m3": 1187.86,
+      "rho_bulk_kg_m3": 487.02
+    },
+    "Beta_Soft": {
+      "V_solid_cm3": 21.5459,
+      "V_air_cm3": 9.5238,
+      "rho_solid_kg_m3": 2320.6,
+      "rho_mat_kg_m3": 1397.7,
+      "rho_env_kg_m3": 1233.51,
+      "rho_bulk_kg_m3": 493.4
+    }
+  },
+  "mechanics_and_water": {
+    "P_cap_kPa": 334.53,
+    "dP_extract_paper_kPa": 66.76,
+    "tau_Darcy_s": 0.6,
+    "t_fill_K17_ms": 6.28,
+    "mu_ski": 0.04659,
+    "t_limit_no_watering_h": 4.447
+  },
+  "ski_feel_6D": {
+    "turn_g_force": 2.157,
+    "sigma_edge_req_kPa": 64.13,
+    "sigma_p0_kPa": 164.86,
+    "edge_safety_factor": 2.57,
+    "Gf_ductile_80um_J_m2": 3.1331,
+    "Gf_brittle_10um_J_m2": 0.3916
+  },
+  "typhoon_drainage": {
+    "L_crit_no_drain_m": 83.7,
+    "h_sat_25m_100mmh_mm": 138.89,
+    "h_sat_25m_150mmh_mm": 208.33
+  },
+  "business_220days_standard": {
+    "M_bed_t": 2191.5,
+    "CAPEX_total_man_yen": 102002.5,
+    "OPEX_total_man_yen": 24170.0,
+    "scenarios": {
+      "Conservative_250": {
+        "revenue_man_yen": 48950.0,
+        "ebitda_man_yen": 24780.0,
+        "payback_years": 4.12
+      },
+      "Standard_350": {
+        "revenue_man_yen": 68950.0,
+        "ebitda_man_yen": 44780.0,
+        "payback_years": 2.28
+      },
+      "High_450": {
+        "revenue_man_yen": 88550.0,
+        "ebitda_man_yen": 64380.0,
+        "payback_years": 1.58
+      }
+    }
+  }
+}

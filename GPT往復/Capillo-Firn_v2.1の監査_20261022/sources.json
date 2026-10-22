@@ -1,0 +1,85 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.handbookofmineralogy.org/pdfs/aragonite.pdf",
+    "title": "Mineral Data Publishing, Aragonite",
+    "supports": "硬度3.5–4、密度実測2.95/計算2.930。提案複合粒の摩耗を保証しない。",
+    "access": "1頁原本、Physical Propertiesを確認",
+    "status": "new",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33808604/",
+    "title": "Takei and Ishida, P3CMQA (2021)",
+    "doi": "10.3390/bioengineering8030040",
+    "supports": "PMC8003382はタンパク質モデル評価で、スキー論文ではない。",
+    "access": "NLM書誌・原著要旨の検索取得。PMC直接openは確認画面。",
+    "status": "new",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S3",
+    "url": "https://monographs.iarc.who.int/news-events/volume-136-talc-and-acrylonitrile",
+    "title": "IARC Volume 136: Talc and acrylonitrile, 5 July 2024",
+    "supports": "タルクGroup2A。提案用途のリスク量や法的禁止を決定しない。",
+    "access": "IARC自身の評価公表を検索取得",
+    "status": "new verification of Claude citation",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S4",
+    "url": "https://www.fhwa.dot.gov/engineering/geotech/pubs/nhi10024/nhi10024.pdf",
+    "title": "FHWA-NHI-10-024, GEC11 Volume I, November 2009",
+    "supports": "排水ネットの面内通水能力、設計圧力・経時クリープによる減少を考慮。日本の設計承認根拠ではない。",
+    "access": "公式PDF確認、該当排水段落は検索取得。全文再読していない。",
+    "status": "new",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S5",
+    "url": "https://www.pistenbully.com/en/snow-groomers/600-select",
+    "title": "PistenBully 600 Select official specifications",
+    "supports": "機種固有のエンジン等仕様。提案配合・架装・ミル処理量の保証は未確認。",
+    "access": "公式製品ページ検索取得。Polar等別型式への流用なし。",
+    "status": "new",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S6",
+    "url": "https://www.cambridge.org/core/journals/journal-of-glaciology/article/measurement-of-mechanical-properties-of-snow-for-simulation-of-skiing/00DD7880EF30BFB651D61146B3EFC3FA",
+    "title": "Mössner et al., Measurement of mechanical properties of snow for simulation of skiing (2013)",
+    "doi": "10.3189/2013JoG13J031",
+    "supports": "貫入・横方向破壊の測定定義。任意のcや雪の破壊変位の根拠には拡張しない。",
+    "access": "既存台帳の読解結果を再利用。今回出版社書誌・要旨を照合。",
+    "status": "reuse",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S7",
+    "url": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/4f22151b47a696ce651a9f0475455b5572e8e121/GPT往復/Claude監査_Capillo-Firn_v2.1_20261022.md",
+    "title": "Claude v2.1監査",
+    "supports": "先行する再造粒・透水・界面・安全性の懸念を参照。仮物性による断定には留保。",
+    "access": "mainの4f22151時点のファイル全文を確認",
+    "status": "reuse, project evidence not scientific primary",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S8",
+    "url": "https://www.mlit.go.jp/road/sign/kijyun/bau_kijyun.html",
+    "title": "原案の国交省URL",
+    "supports": "確認した根拠として使用しない。25m間隔の根拠条項未確認。",
+    "access": "web open不能",
+    "status": "unverified",
+    "checked_date": "2026-10-22"
+  },
+  {
+    "id": "S9",
+    "url": "https://www.pistenbully.com/en/vehicles/pistenbully-600",
+    "title": "原案のPistenBully URL",
+    "supports": "確認した根拠として使用しない。別の公式600 Selectページのみ確認。",
+    "access": "web open不能",
+    "status": "unverified",
+    "checked_date": "2026-10-22"
+  }
+]
