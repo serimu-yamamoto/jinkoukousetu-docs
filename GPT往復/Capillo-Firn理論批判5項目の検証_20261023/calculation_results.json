@@ -1,0 +1,231 @@
+{
+  "status": {
+    "physical_tests": 0,
+    "fitted_inputs": false,
+    "success_probability": null
+  },
+  "density": [
+    {
+      "name": "S1",
+      "gas_free_rho": 1364.0,
+      "bulk_at_pack058": 791.1199999999999,
+      "diagnostic_air_grid": [
+        {
+          "air_volume_fraction": 0,
+          "gas_retained_bulk": 791.1199999999999,
+          "same_pores_water_filled_bulk": 791.1199999999999
+        },
+        {
+          "air_volume_fraction": 0.2,
+          "gas_retained_bulk": 632.896,
+          "same_pores_water_filled_bulk": 748.896
+        },
+        {
+          "air_volume_fraction": 0.4,
+          "gas_retained_bulk": 474.67199999999997,
+          "same_pores_water_filled_bulk": 706.672
+        },
+        {
+          "air_volume_fraction": 0.6,
+          "gas_retained_bulk": 316.448,
+          "same_pores_water_filled_bulk": 664.4479999999999
+        }
+      ]
+    },
+    {
+      "name": "S3",
+      "gas_free_rho": 1566.0,
+      "bulk_at_pack058": 908.28,
+      "diagnostic_air_grid": [
+        {
+          "air_volume_fraction": 0,
+          "gas_retained_bulk": 908.28,
+          "same_pores_water_filled_bulk": 908.28
+        },
+        {
+          "air_volume_fraction": 0.2,
+          "gas_retained_bulk": 726.624,
+          "same_pores_water_filled_bulk": 842.624
+        },
+        {
+          "air_volume_fraction": 0.4,
+          "gas_retained_bulk": 544.968,
+          "same_pores_water_filled_bulk": 776.9679999999998
+        },
+        {
+          "air_volume_fraction": 0.6,
+          "gas_retained_bulk": 363.312,
+          "same_pores_water_filled_bulk": 711.312
+        }
+      ]
+    },
+    {
+      "name": "S4",
+      "gas_free_rho": 1668.0,
+      "bulk_at_pack058": 967.4399999999999,
+      "diagnostic_air_grid": [
+        {
+          "air_volume_fraction": 0,
+          "gas_retained_bulk": 967.4399999999999,
+          "same_pores_water_filled_bulk": 967.4399999999999
+        },
+        {
+          "air_volume_fraction": 0.2,
+          "gas_retained_bulk": 773.952,
+          "same_pores_water_filled_bulk": 889.952
+        },
+        {
+          "air_volume_fraction": 0.4,
+          "gas_retained_bulk": 580.4639999999999,
+          "same_pores_water_filled_bulk": 812.4639999999999
+        },
+        {
+          "air_volume_fraction": 0.6,
+          "gas_retained_bulk": 386.976,
+          "same_pores_water_filled_bulk": 734.976
+        }
+      ]
+    }
+  ],
+  "capillary": [
+    {
+      "diameter_m": 0.0008,
+      "interparticle_void_fraction": 0.42,
+      "surface_tension_N_m": 0.072,
+      "Rumpf_tensile_kPa": 0.39045508694616
+    },
+    {
+      "diameter_m": 0.0008,
+      "interparticle_void_fraction": 0.58,
+      "surface_tension_N_m": 0.072,
+      "Rumpf_tensile_kPa": 0.20474517638912793
+    },
+    {
+      "diameter_m": 0.0001,
+      "interparticle_void_fraction": 0.42,
+      "surface_tension_N_m": 0.072,
+      "Rumpf_tensile_kPa": 3.12364069556928
+    },
+    {
+      "diameter_m": 0.0001,
+      "interparticle_void_fraction": 0.58,
+      "surface_tension_N_m": 0.072,
+      "Rumpf_tensile_kPa": 1.6379614111130234
+    }
+  ],
+  "coordination6_network_tensile_kPa": 0.3131999999999999,
+  "capillary_bridge_force_mN": 0.18095573684677208,
+  "open_water_scenarios": [
+    {
+      "albedo": 0.8,
+      "Rs_MJ_m2_day": 25,
+      "T_C": 28,
+      "RH": 0.6,
+      "u2_m_s": 2,
+      "Ln_MJ_m2_day": 5,
+      "open_water_mm_day": 1.8968559386212398,
+      "tonnes_per_ha_day": 18.968559386212398
+    },
+    {
+      "albedo": 0.5,
+      "Rs_MJ_m2_day": 25,
+      "T_C": 28,
+      "RH": 0.6,
+      "u2_m_s": 2,
+      "Ln_MJ_m2_day": 5,
+      "open_water_mm_day": 4.25184240247665,
+      "tonnes_per_ha_day": 42.5184240247665
+    }
+  ],
+  "water_operating_scenarios": [
+    {
+      "scenario_tonnes_day": 19.0,
+      "latent_heat_GJ_day": 46.55,
+      "supply_L_s_over_8h": 0.6597222222222222,
+      "restore_whole_day_L_s_over_25min": 12.666666666666666,
+      "half_day_restore_L_s_over_25min": 6.333333333333333,
+      "annual_makeup_m3_220days": 4180.0,
+      "fraction_of_30mm_layer_initial_water": 0.25009213920918233
+    },
+    {
+      "scenario_tonnes_day": 43.0,
+      "latent_heat_GJ_day": 105.35000000000001,
+      "supply_L_s_over_8h": 1.4930555555555556,
+      "restore_whole_day_L_s_over_25min": 28.666666666666668,
+      "half_day_restore_L_s_over_25min": 14.333333333333334,
+      "annual_makeup_m3_220days": 9460.0,
+      "fraction_of_30mm_layer_initial_water": 0.5659979992628864
+    }
+  ],
+  "loss": {
+    "wet_unrecovered_t_yr": 262.9799999999999,
+    "dry_unrecovered_t_yr": 126.23039999999995,
+    "dry_organic_t_yr": 31.557599999999987,
+    "water_route_t_yr": 12.623039999999996,
+    "other_routes_or_inventory_t_yr": 113.60735999999996
+  },
+  "runoff": [
+    {
+      "annual_water_m3": 15000,
+      "assumed_runoff_fraction_of_dryloss": 0.1,
+      "all_suspended_equivalent_mg_L": 841.5359999999997,
+      "organic_mass_mg_L": 210.38399999999993,
+      "cellulose_only_theoretical_oxygen_equivalent_mg_L": 249.34399999999994,
+      "treatment_sensitivity": [
+        {
+          "assumed_mass_removal": 0.9,
+          "residual_SS_equivalent_mg_L": 84.15359999999995
+        },
+        {
+          "assumed_mass_removal": 0.99,
+          "residual_SS_equivalent_mg_L": 8.415360000000005
+        },
+        {
+          "assumed_mass_removal": 0.999,
+          "residual_SS_equivalent_mg_L": 0.8415360000000005
+        }
+      ]
+    },
+    {
+      "annual_water_m3": 25000,
+      "assumed_runoff_fraction_of_dryloss": 0.1,
+      "all_suspended_equivalent_mg_L": 504.92159999999984,
+      "organic_mass_mg_L": 126.23039999999996,
+      "cellulose_only_theoretical_oxygen_equivalent_mg_L": 149.60639999999995,
+      "treatment_sensitivity": [
+        {
+          "assumed_mass_removal": 0.9,
+          "residual_SS_equivalent_mg_L": 50.49215999999997
+        },
+        {
+          "assumed_mass_removal": 0.99,
+          "residual_SS_equivalent_mg_L": 5.049216000000003
+        },
+        {
+          "assumed_mass_removal": 0.999,
+          "residual_SS_equivalent_mg_L": 0.5049216000000003
+        }
+      ]
+    }
+  ],
+  "friction": {
+    "assumed_eta_Pa_s": 0.0008,
+    "assumed_v_m_s": 10.0,
+    "nominal_pressure_Pa": 20000.0,
+    "assumed_film_h_m": 8.5e-07,
+    "full_area_Couette_mu_component": 0.47058823529411764,
+    "assumed_film_area_fraction": 0.0276,
+    "restricted_area_mu_component": 0.012988235294117646,
+    "old_assumed_solid_load_mu_component": 0.0336,
+    "old_conditional_mu_sum": 0.046588235294117646,
+    "full_area_film_water_g_m2": 0.8500000000000001,
+    "is_prediction_of_actual_mu": false
+  },
+  "arithmetic_checks": 16,
+  "caveats": [
+    "None of the assumed pore volumes, recoveries, removal efficiencies or friction shares is a measured material property.",
+    "Organic mass and theoretical oxygen demand are not BOD5 or CODMn measurements.",
+    "Annual average load / annual water volume is not an event peak or effluent compliance result.",
+    "req_screen.py returns an approximate tensile strength, not a measured Mohr-Coulomb cohesion."
+  ]
+}

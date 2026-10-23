@@ -1,0 +1,11 @@
+{
+  "base_commit": "c6814a135269c7ca12ca0a10a9bbf53363eaf204",
+  "date_JST": "2026-10-23",
+  "physical_tests": 0,
+  "inputs": {
+    "バーチャル試験/Capillo-Firn_理論批判検証_20261023.md": "fce595bb15a6da19ed16999e9969f08b37b869b97d1693ca8cc0e4d29680b4e2",
+    "回覧板.md": "7492b7c9b462e24c048b42e136136ade48860f63a77ce79181a1a96798d81be5",
+    "計算部品/req_screen.py": "1ca524d9e50f725905c1908a5ef3f93a444ddc737d7653203e63e913a7156bf4"
+  },
+  "code_provenance": "req_screen.py was read from /home/yamamoto/firn/lib and copied unmodified. Original is preserved."
+}
