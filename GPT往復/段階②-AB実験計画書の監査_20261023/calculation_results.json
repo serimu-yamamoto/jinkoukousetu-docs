@@ -1,0 +1,80 @@
+{
+  "status": {
+    "physical_tests": 0,
+    "safety_pass": null,
+    "source_date": "2026-10-23"
+  },
+  "A1": {
+    "core_g": 79.5,
+    "shell_g": 18.8,
+    "dust_g": 1.0,
+    "total_g": 99.3,
+    "missing_to_100g": 0.7000000000000028,
+    "three_batches_g": 297.9,
+    "four_conditions_g": 1197.9,
+    "core_W_over_S_percent": 131.7784256559767,
+    "shell_W_over_S_percent": 56.666666666666664
+  },
+  "shell": {
+    "S1": {
+      "wet_g": 19.0,
+      "dry_g": 12.2,
+      "water_over_dry_percent": 55.73770491803279,
+      "MCC_dry_percent": 18.852459016393443
+    },
+    "S5_B": {
+      "wet_g": 14.0,
+      "dry_g": 7.7,
+      "water_over_dry_percent": 81.81818181818181,
+      "MCC_dry_percent": 3.896103896103896
+    },
+    "mechanical_brittleness": "unmeasured"
+  },
+  "bed": {
+    "area_m2": 10000.0,
+    "assumed_density_kg_m3": 487.0,
+    "mass450_t": 2191.5,
+    "mass500_t": 2435.0,
+    "increase_t": 243.5,
+    "increase_percent": 11.11111111111111,
+    "increase_volume_m3": 499.9999999999999,
+    "price_scenarios": [
+      {
+        "assumed_yen_per_kg": 200,
+        "added_yen": 48700000.0,
+        "total500_yen": 487000000.0
+      },
+      {
+        "assumed_yen_per_kg": 350,
+        "added_yen": 85225000.0,
+        "total500_yen": 852250000.0
+      }
+    ],
+    "wear60_recovery80_scenario": {
+      "wear500_t": 1461.0,
+      "recovery500_t": 1168.8,
+      "unrecovered500_t": 292.2
+    }
+  },
+  "freezing": {
+    "project_target_K": 0.01,
+    "water_Kf_K_kg_per_osmol": 1.86,
+    "equivalent_mOsm_per_kg_water": 5.376344086021505,
+    "legal_safety_limit": false
+  },
+  "B_part4": {
+    "nominal30g_times36_g": 1080,
+    "geometry60mm20mm_at487kg_m3_g": 27.539201201368126,
+    "geometry_times36_g": 991.4112432492525,
+    "friction_specimen_mass_included": false
+  },
+  "notes": [
+    "No data-backed harmlessness or success probability is inferred.",
+    "Na, citrate and Ca individual acceptance concentrations remain unconfirmed.",
+    "500 mm and unit prices are scenarios, not an approved design or quote."
+  ],
+  "arithmetic_checks": {
+    "passed": 13,
+    "physical_validation": false
+  }
+}

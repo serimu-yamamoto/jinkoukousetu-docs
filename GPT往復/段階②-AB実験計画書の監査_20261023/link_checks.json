@@ -1,0 +1,14 @@
+[
+  {
+    "wrapped": "https://www.google.com/search?q=https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/255c5591ca00b1ed445867fe775d04b5f1e00683/GPT%E5%BE%80%E5%BE%A9/Gemini%E5%9B%9E%E7%AD%94_Capillo-Firn_v2.2%E6%AE%B5%E9%9A%8E%E2%91%A1_%E5%AE%8C%E5%85%A8%E4%BF%AE%E6%AD%A3%E3%83%BB%E5%AE%9F%E9%A8%93%E6%BA%96%E5%82%99%E7%A2%BA%E5%AE%9A%E6%9B%B8_20261023.md",
+    "target": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/255c5591ca00b1ed445867fe775d04b5f1e00683/GPT往復/Gemini回答_Capillo-Firn_v2.2段階②_完全修正・実験準備確定書_20261023.md",
+    "raw_status": 200,
+    "bytes": 22883
+  },
+  {
+    "wrapped": "https://www.google.com/search?q=https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/255c5591ca00b1ed445867fe775d04b5f1e00683/GPT%E5%BE%80%E5%BE%A9/Claude%E7%9B%A3%E6%9F%BB_Capillo-Firn_v2.2%E6%AE%B5%E9%9A%8E%E2%91%A1%E5%AE%9F%E9%A8%93%E6%BA%96%E5%82%99%E7%A2%BA%E5%AE%9A%E6%9B%B8_20261023.md",
+    "target": "https://github.com/serimu-yamamoto/jinkoukousetu-docs/blob/255c5591ca00b1ed445867fe775d04b5f1e00683/GPT往復/Claude監査_Capillo-Firn_v2.2段階②実験準備確定書_20261023.md",
+    "raw_status": 200,
+    "bytes": 2668
+  }
+]
