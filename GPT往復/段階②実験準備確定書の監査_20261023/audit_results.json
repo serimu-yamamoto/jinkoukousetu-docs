@@ -1,0 +1,109 @@
+{
+  "status": "conditional arithmetic; physical tests zero",
+  "checks": [
+    "full shell volume",
+    "old nozzle ratio rounded",
+    "end powder total",
+    "volumes close with end powder",
+    "85g core",
+    "15g shell",
+    "bulk composition restored",
+    "A replaces full wear",
+    "A virgin equals unrecovered",
+    "B external balance",
+    "B output plus additional makeup",
+    "30deg old head",
+    "proposed k meets chosen hydraulic envelope",
+    "interface exposure assemblies",
+    "control assemblies"
+  ],
+  "nozzle_full_shell": {
+    "core_volume_cm3": 60.52196869115093,
+    "shell_volume_cm3": 12.780565500444085,
+    "shell_volume_fraction": 0.1743536651412186,
+    "shell_to_core_mean_speed": 0.6372879422031785,
+    "equal_speed_wall_0_8mm_um": 36.53966711977357,
+    "uniform_spherical_shell_0_8mm_um": 24.74656437010223
+  },
+  "nozzle_after_1g_end_powder": {
+    "core_volume_cm3": 60.52196869115093,
+    "shell_volume_cm3": 12.352029215081233,
+    "shell_volume_fraction": 0.16949844347739415,
+    "shell_to_core_mean_speed": 0.615919481828808,
+    "equal_speed_wall_0_8mm_um": 35.47256750195476,
+    "uniform_spherical_shell_0_8mm_um": 24.012440954476368
+  },
+  "composition_corrected_85_15": {
+    "core_volume_cm3": 63.342027353276016,
+    "shell_volume_cm3": 9.960506838319004,
+    "shell_volume_fraction": 0.13588216216760882,
+    "shell_to_core_mean_speed": 0.47455675109432344,
+    "equal_speed_wall_0_8mm_um": 28.168244963958735,
+    "uniform_spherical_shell_0_8mm_um": 19.006428324318712
+  },
+  "recycle_A": {
+    "wear_t": 1314.8999999999999,
+    "recovered_core_t": 1051.9199999999998,
+    "unrecovered_t": 262.98,
+    "virgin_shell_t": 262.97999999999996,
+    "replacement_output_t": 1314.8999999999996,
+    "extra_purge_required_t": 0.0
+  },
+  "recycle_B": {
+    "wear_t": 1314.8999999999999,
+    "recovered_t": 1051.9199999999998,
+    "core_used_t": 841.536,
+    "virgin_shell_t": 210.384,
+    "purge_t": 210.384,
+    "replacement_output_t": 1051.9199999999998,
+    "additional_complete_makeup_t": 262.98,
+    "total_virgin_t": 473.36400000000003
+  },
+  "drainage": [
+    {
+      "angle_deg": 20.0,
+      "rain_mm_h_per_slope_area": 100.0,
+      "water_height_old_k_m": 0.32486715557367635,
+      "k_for_0_225m_m_s": 0.0036096350619297373,
+      "water_height_proposed_k_m": 0.13536131482236516
+    },
+    {
+      "angle_deg": 20.0,
+      "rain_mm_h_per_slope_area": 150.0,
+      "water_height_old_k_m": 0.4873007333605145,
+      "k_for_0_225m_m_s": 0.005414452592894605,
+      "water_height_proposed_k_m": 0.20304197223354772
+    },
+    {
+      "angle_deg": 30.0,
+      "rain_mm_h_per_slope_area": 100.0,
+      "water_height_old_k_m": 0.22222222222222227,
+      "k_for_0_225m_m_s": 0.002469135802469136,
+      "water_height_proposed_k_m": 0.0925925925925926
+    },
+    {
+      "angle_deg": 30.0,
+      "rain_mm_h_per_slope_area": 150.0,
+      "water_height_old_k_m": 0.33333333333333337,
+      "k_for_0_225m_m_s": 0.0037037037037037043,
+      "water_height_proposed_k_m": 0.1388888888888889
+    }
+  ],
+  "paper_100cm2_at_1g_m2_mg": 10.0,
+  "interface_test_assemblies": 132,
+  "max_equal_piece_thickness_mm_if_300g_no_air_no_losses": 1.8154212358585347,
+  "screening_thresholds_unvalidated": {
+    "friction_upper": 0.1,
+    "snow_response_ratio": [
+      0.8,
+      1.2
+    ],
+    "paper_transfer_g_m2": 1.0,
+    "irreversibly_fused_mass_pct": 1.0,
+    "strength_recovery_ratio": 0.8,
+    "mold_strength_retention_ratio": 0.8,
+    "freeze_thaw_fines_increase_pct_initial_dry_mass": 1.0,
+    "fines_cutoff_um": 75,
+    "freeze_thaw_cycles": 10
+  }
+}

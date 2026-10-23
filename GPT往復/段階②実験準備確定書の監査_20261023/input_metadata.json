@@ -1,0 +1,19 @@
+{
+  "audit_date": "2026-10-23",
+  "input_commit": "255c5591ca00b1ed445867fe775d04b5f1e00683",
+  "physical_experiments": 0,
+  "inputs": [
+    {
+      "path": "回覧板.md",
+      "sha256": "89b46c32c691794d06c143113df3a333104b70917d4a804db7778c7e60c87cf1"
+    },
+    {
+      "path": "GPT往復/Gemini回答_Capillo-Firn_v2.2段階②_完全修正・実験準備確定書_20261023.md",
+      "sha256": "2409fe9eb3cfcc91466117a5aafc2eaab22205ba896fb44dc2b9dfed1cd8ef04"
+    },
+    {
+      "path": "GPT往復/Claude監査_Capillo-Firn_v2.2段階②実験準備確定書_20261023.md",
+      "sha256": "e6d9903a308c253112fc792f35e20a17a020f2e3e6682933a3e7ecd866f628f9"
+    }
+  ]
+}
