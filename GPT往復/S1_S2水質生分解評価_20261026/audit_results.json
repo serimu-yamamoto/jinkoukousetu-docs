@@ -1,0 +1,285 @@
+{
+  "status": "conditional calculations only; physical experiments=0",
+  "thod_kgO2_kg": {
+    "palmitic": 2.869999610030028,
+    "stearic": 2.924410511663222,
+    "behenyl_alcohol": 3.233021747716689,
+    "PCL_repeat": 2.1024758200168208
+  },
+  "annual": [
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 2250.0,
+      "gross_organic_kg": 2250.0,
+      "recovered_kg": 0.0,
+      "released_total_kg": 2250.0,
+      "released_organic_kg": 2250.0,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 140.625,
+      "loss": 0.001,
+      "S1_95pct_organic_kg": 2137.5,
+      "S1_ThOD_mg_L": 383.41401040244904,
+      "PCL_ThOD_mg_L": 295.66066218986543
+    },
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 22500.0,
+      "gross_organic_kg": 22500.0,
+      "recovered_kg": 0.0,
+      "released_total_kg": 22500.0,
+      "released_organic_kg": 22500.0,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 1406.25,
+      "loss": 0.01,
+      "S1_95pct_organic_kg": 21375.0,
+      "S1_ThOD_mg_L": 3834.14010402449,
+      "PCL_ThOD_mg_L": 2956.6066218986543
+    },
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 112500.0,
+      "gross_organic_kg": 112500.0,
+      "recovered_kg": 0.0,
+      "released_total_kg": 112500.0,
+      "released_organic_kg": 112500.0,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 7031.25,
+      "loss": 0.05,
+      "S1_95pct_organic_kg": 106875.0,
+      "S1_ThOD_mg_L": 19170.700520122453,
+      "PCL_ThOD_mg_L": 14783.033109493272
+    }
+  ],
+  "capture_sensitivity": [
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 22500.0,
+      "gross_organic_kg": 22500.0,
+      "recovered_kg": 21375.0,
+      "released_total_kg": 1125.000000000001,
+      "released_organic_kg": 1125.000000000001,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 70.31250000000006,
+      "capture": 0.95,
+      "bypass": 0,
+      "S1_ThOD_mg_L": 191.7070052012247,
+      "PCL_ThOD_mg_L": 147.83033109493283
+    },
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 22500.0,
+      "gross_organic_kg": 22500.0,
+      "recovered_kg": 22275.0,
+      "released_total_kg": 225.0000000000002,
+      "released_organic_kg": 225.0000000000002,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 14.062500000000012,
+      "capture": 0.99,
+      "bypass": 0,
+      "S1_ThOD_mg_L": 38.34140104024493,
+      "PCL_ThOD_mg_L": 29.566066218986567
+    },
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 22500.0,
+      "gross_organic_kg": 22500.0,
+      "recovered_kg": 22477.5,
+      "released_total_kg": 22.50000000000002,
+      "released_organic_kg": 22.50000000000002,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 1.4062500000000013,
+      "capture": 0.999,
+      "bypass": 0,
+      "S1_ThOD_mg_L": 3.8341401040244936,
+      "PCL_ThOD_mg_L": 2.956606621898657
+    },
+    {
+      "inventory_kg": 2250000.0,
+      "gross_to_drain_kg": 22500.0,
+      "gross_organic_kg": 22500.0,
+      "recovered_kg": 22252.725,
+      "released_total_kg": 247.27500000000003,
+      "released_organic_kg": 247.27500000000003,
+      "water_m3": 16000.0,
+      "total_material_mg_L": 15.454687500000002,
+      "capture": 0.999,
+      "bypass": 0.01,
+      "S1_ThOD_mg_L": 42.137199743229154,
+      "PCL_ThOD_mg_L": 32.49310677466622
+    }
+  ],
+  "thermal_reference_not_actual_S1": [
+    {
+      "crystallization_C_assumed": 62.25,
+      "air_C": 35,
+      "times_ms": {
+        "20": 9.594330249394444,
+        "50": 59.96456405871528,
+        "80": 153.5092839903111
+      }
+    },
+    {
+      "crystallization_C_assumed": 62.25,
+      "air_C": 50,
+      "times_ms": {
+        "20": 20.967911115781405,
+        "50": 131.0494444736338,
+        "80": 335.4865778525025
+      }
+    },
+    {
+      "crystallization_C_assumed": 55,
+      "air_C": 35,
+      "times_ms": {
+        "20": 13.526099889709435,
+        "50": 84.53812431068398,
+        "80": 216.41759823535097
+      }
+    },
+    {
+      "crystallization_C_assumed": 55,
+      "air_C": 50,
+      "times_ms": {
+        "20": 51.002664066022604,
+        "50": 318.7666504126413,
+        "80": 816.0426250563617
+      }
+    }
+  ],
+  "friction_adiabatic_upper": [
+    {
+      "initial_C": 30,
+      "friction_energy_J_m2": 1000.0,
+      "adiabatic_melt_upper_um": 4.044835218457099
+    },
+    {
+      "initial_C": 50,
+      "friction_energy_J_m2": 1000.0,
+      "adiabatic_melt_upper_um": 4.734201566670228
+    }
+  ],
+  "mist_drift_sphere_still_air_assumptions": [
+    {
+      "d_um": 20,
+      "stokes_settling_m_s": 0.010326315789473682,
+      "from_1m_s": 96.83995922528035,
+      "wind_2m_s_distance_m": 193.6799184505607
+    },
+    {
+      "d_um": 50,
+      "stokes_settling_m_s": 0.06453947368421051,
+      "from_1m_s": 15.494393476044857,
+      "wind_2m_s_distance_m": 30.988786952089715
+    },
+    {
+      "d_um": 80,
+      "stokes_settling_m_s": 0.1652210526315789,
+      "from_1m_s": 6.052497451580022,
+      "wind_2m_s_distance_m": 12.104994903160044
+    }
+  ],
+  "Couette_diagnostic": [
+    {
+      "viscosity_Pa_s": 0.005,
+      "mu_Couette_at_h10um": 0.25
+    },
+    {
+      "viscosity_Pa_s": 1,
+      "mu_Couette_at_h10um": 50.0
+    },
+    {
+      "viscosity_Pa_s": 1000,
+      "mu_Couette_at_h10um": 50000.0
+    }
+  ],
+  "storm": {
+    "area_m2": 10000,
+    "rain_mm_h": 100,
+    "runoff": 1,
+    "inflow_m3_h": 1000,
+    "treatment_m3_h": 20,
+    "one_hour_storage_m3": 980,
+    "six_hour_storage_m3": 5880,
+    "treatment_1000m3_hours": 50,
+    "ten_min_untreated_m3": 166.66666666666666
+  },
+  "fire": {
+    "PCL_MCC_MJ_kg_literature": 26.45,
+    "PCL_with_10pct_inert_MJ_kg_dilution_only": 23.805
+  },
+  "reported_decay_endpoint_diagnostic_days": 4.039805220700265,
+  "calcium_carbonate_5g_PA_consumption_upper_g": 25.620965969266432,
+  "costs_man_yen_unverified": {
+    "initial_items": [
+      [
+        1500,
+        4000
+      ],
+      [
+        3000,
+        8000
+      ],
+      [
+        1000,
+        2500
+      ],
+      [
+        2000,
+        5000
+      ],
+      [
+        500,
+        1500
+      ]
+    ],
+    "initial_total_before_contingency": [
+      8000,
+      21000
+    ],
+    "with_20pct_contingency": [
+      9600.0,
+      25200.0
+    ],
+    "annual_items": [
+      [
+        60,
+        140
+      ],
+      [
+        50,
+        200
+      ],
+      [
+        100,
+        400
+      ],
+      [
+        120,
+        300
+      ],
+      [
+        100,
+        250
+      ],
+      [
+        100,
+        300
+      ]
+    ],
+    "annual_total": [
+      530,
+      1590
+    ]
+  },
+  "arithmetic_checks": {
+    "inventory": true,
+    "water": true,
+    "one_tonne_concentration": true,
+    "PCL_oxygen_balance": true,
+    "PA_oxygen_balance": true,
+    "capture_mass_closed": true,
+    "drop_d2_scaling": true,
+    "bypass_floor": true,
+    "cost_sums": true
+  }
+}
